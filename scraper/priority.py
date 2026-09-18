@@ -16,6 +16,10 @@ import os
 import re
 from datetime import date, datetime, timedelta
 
+import sys as _sys, os as _os
+_sys.path.insert(0, _os.path.dirname(_os.path.dirname(_os.path.abspath(__file__))))
+from scraper.fit import fit_of, FIT_ORDER  # noqa: E402
+
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA = os.path.join(ROOT, "data")
 TODAY = date.today()
@@ -101,9 +105,10 @@ def build():
         posted = parse_posted(j.get("posted"), fs)
         deadline = parse_deadline(j.get("deadline"))
         u = urgency(j, posted, deadline)
+        fit, why = fit_of(j if "title" in j else dict(company=j["company"], title=j["title"]))
         days_open = (TODAY - posted).days if posted else ""
         rows.append(dict(
-            urgency=u, new="NEW" if (TODAY - fs).days <= 3 else "", rank=j["rank"], term=j["term"],
+            urgency=u, fit=fit, fit_why=why, new="NEW" if (TODAY - fs).days <= 3 else "", rank=j["rank"], term=j["term"],
             company=j["company"], role=j["title"], location=(j.get("location") or "")[:60],
             posted=posted.isoformat() if posted else "", days_open=days_open,
             deadline=deadline.isoformat() if deadline else "", first_seen=j["first_seen"],
@@ -111,10 +116,15 @@ def build():
             link=j["url"], nuworks_link=j.get("nu_url", ""), source="+".join(j.get("sources", [])), tier=j.get("tier", ""),
         ))
     order = {"APPLY NOW": 0, "APPLY": 1, "SOON": 2, "WATCH": 3}
-    rows.sort(key=lambda r: (order[r["urgency"]], r["posted"] and -int(r["posted"].replace("-", "")) or 0, r["company"]))
+    rows.sort(key=lambda r: (FIT_ORDER[r["fit"]], order[r["urgency"]],
+                             r["posted"] and -int(r["posted"].replace("-", "")) or 0, r["company"]))
+    # first run: every row looks NEW, which is noise. Only flag NEW once there is real history to compare against.
+    if sum(1 for r in rows if r["new"]) > 0.4 * len(rows):
+        for r in rows:
+            r["new"] = ""
 
-    cols = ["urgency", "new", "rank", "term", "company", "role", "location", "posted", "days_open", "deadline", "first_seen",
-            "nuworks", "nu_eligible", "link", "nuworks_link", "source", "tier"]
+    cols = ["urgency", "fit", "new", "rank", "term", "company", "role", "location", "posted", "days_open", "deadline", "first_seen",
+            "nuworks", "nu_eligible", "link", "nuworks_link", "source", "tier", "fit_why"]
     with open(os.path.join(DATA, "sheet.csv"), "w", newline="") as f:
         w = csv.DictWriter(f, fieldnames=cols); w.writeheader(); w.writerows(rows)
 
@@ -146,7 +156,7 @@ def build():
             w.writerow({k: e.get(k, "") for k in ["date", "time", "title", "type", "source"]})
 
     from collections import Counter
-    print("sheet.csv:", len(rows), dict(Counter(r["urgency"] for r in rows)), "| watchlist:", len(wl), "| events:", len(events))
+    print("sheet.csv:", len(rows), dict(Counter(r["fit"] for r in rows)), dict(Counter(r["urgency"] for r in rows)), "| watchlist:", len(wl), "| events:", len(events))
 
 
 if __name__ == "__main__":

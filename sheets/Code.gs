@@ -21,6 +21,7 @@ const BAND = {  // background, font colour, bold
   "SOON":      ["#e8f1ff", "#1d4ed8", false],
   "WATCH":     ["#ffffff", "#555555", false],
 };
+const FIT_CHIP = {"CHIP": ["#0f766e", "#ffffff"], "HARDWARE": ["#cbd5e1", "#334155"], "ADJACENT": ["#f1f5f9", "#94a3b8"]};
 const STATUS_OPTIONS = ["", "applied", "interview", "offer", "skip"];
 
 function setup() {
@@ -49,7 +50,10 @@ function refresh() {
   const watch = safe_(() => fetchCsv("watchlist.csv"), []);
   const events = safe_(() => fetchCsv("events.csv"), []);
 
-  const apply = sheet.filter(r => r.urgency === "APPLY NOW" || r.urgency === "APPLY" || r.urgency === "SOON");
+  // the short list: chip and hardware roles worth acting on. Medical-device / consulting EE co-ops
+  // still live in "All postings", they just do not belong at the top of the queue.
+  const apply = sheet.filter(r => (r.fit === "CHIP" || r.fit === "HARDWARE") &&
+                                  (r.urgency === "APPLY NOW" || r.urgency === "APPLY" || r.urgency === "SOON"));
   writePostings_(ss, "APPLY NOW", apply, my);
   writePostings_(ss, "All postings", sheet, my);
   writeTable_(ss, "Watchlist", ["company", "tier", "ats", "status", "expect"], watch, {company: 22, expect: 40, status: 26});
@@ -60,13 +64,14 @@ function refresh() {
 }
 
 // ---------------------------------------------------------------- postings tabs
-const COLS = ["urgency", "new", "status", "company", "role", "location", "posted", "days_open", "deadline", "term", "rank", "nuworks", "nu_eligible", "link", "nuworks_link", "notes", "source"];
-const HEAD = ["Urgency", "New", "My status", "Company", "Role", "Location", "Posted", "Days open", "Deadline", "Term", "Rank", "NUWorks", "NU eligible", "Link", "NUWorks link", "Notes", "Source"];
-const WIDTH = {urgency: 92, new: 46, status: 90, company: 170, role: 300, location: 170, posted: 90, days_open: 70, deadline: 90, term: 110, rank: 46, nuworks: 66, nu_eligible: 110, link: 260, nuworks_link: 200, notes: 220, source: 140};
+const COLS = ["urgency", "fit", "new", "status", "company", "role", "location", "posted", "days_open", "deadline", "term", "rank", "nuworks", "nu_eligible", "link", "nuworks_link", "notes", "source"];
+const HEAD = ["Urgency", "Fit", "New", "My status", "Company", "Role", "Location", "Posted", "Days open", "Deadline", "Term", "Rank", "NUWorks", "NU eligible", "Link", "NUWorks link", "Notes", "Source"];
+const WIDTH = {urgency: 92, fit: 88, new: 46, status: 90, company: 170, role: 300, location: 170, posted: 90, days_open: 70, deadline: 90, term: 110, rank: 46, nuworks: 66, nu_eligible: 110, link: 260, nuworks_link: 200, notes: 220, source: 140};
 
 function writePostings_(ss, name, rows, my) {
   const sh = ss.getSheetByName(name) || ss.insertSheet(name);
   sh.clear({contentsOnly: true}); sh.clearFormats(); sh.clearNotes();
+  if (sh.getFilter()) sh.getFilter().remove();   // a stale filter blocks createFilter() on the next refresh
   const values = [HEAD].concat(rows.map(r => COLS.map(c => {
     if (c === "status") return (my[r.link] || {}).status || "";
     if (c === "notes") return (my[r.link] || {}).notes || "";
@@ -75,7 +80,8 @@ function writePostings_(ss, name, rows, my) {
   sh.getRange(1, 1, values.length, COLS.length).setValues(values);
   // header
   sh.getRange(1, 1, 1, COLS.length).setFontWeight("bold").setBackground("#1f2937").setFontColor("#ffffff");
-  sh.setFrozenRows(1); sh.setFrozenColumns(5);
+  sh.getRange(1, 1, values.length, COLS.length).createFilter();
+  sh.setFrozenRows(1); sh.setFrozenColumns(6);
   COLS.forEach((c, i) => sh.setColumnWidth(i + 1, WIDTH[c] || 100));
   if (rows.length === 0) return;
   // band colours + bold per urgency; a NEW row gets a green left stripe on the New cell
@@ -90,10 +96,14 @@ function writePostings_(ss, name, rows, my) {
   });
   const body = sh.getRange(2, 1, rows.length, COLS.length);
   body.setBackgrounds(bg).setFontColors(fc).setFontWeights(fw).setVerticalAlignment("middle");
+  const fitCol = COLS.indexOf("fit") + 1, newCol = COLS.indexOf("new") + 1;
+  const dlCol = COLS.indexOf("deadline") + 1, elCol = COLS.indexOf("nu_eligible") + 1;
   rows.forEach((r, i) => {
-    if (r.new === "NEW") sh.getRange(i + 2, 2).setBackground("#16a34a").setFontColor("#ffffff").setFontWeight("bold").setHorizontalAlignment("center");
-    if (r.nu_eligible === "NOT QUALIFIED") sh.getRange(i + 2, 13).setFontColor("#b00020");
-    if (r.deadline) { const d = new Date(r.deadline); const days = (d - new Date()) / 864e5; if (days <= 14) sh.getRange(i + 2, 9).setFontColor("#b00020").setFontWeight("bold"); }
+    const [fb, ff] = FIT_CHIP[r.fit] || FIT_CHIP.ADJACENT;
+    sh.getRange(i + 2, fitCol).setBackground(fb).setFontColor(ff).setFontWeight(r.fit === "CHIP" ? "bold" : "normal").setHorizontalAlignment("center");
+    if (r.new === "NEW") sh.getRange(i + 2, newCol).setBackground("#16a34a").setFontColor("#ffffff").setFontWeight("bold").setHorizontalAlignment("center");
+    if (r.nu_eligible === "NOT QUALIFIED") sh.getRange(i + 2, elCol).setFontColor("#b00020");
+    if (r.deadline) { const d = new Date(r.deadline); const days = (d - new Date()) / 864e5; if (days <= 14) sh.getRange(i + 2, dlCol).setFontColor("#b00020").setFontWeight("bold"); }
   });
   // links as clickable text
   const linkCol = COLS.indexOf("link") + 1, nuCol = COLS.indexOf("nuworks_link") + 1;
