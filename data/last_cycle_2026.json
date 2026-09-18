@@ -1,116 +1,172 @@
 [
-{
-"first_seen": "2025-06-02",
-"company": "Tesla",
-"title": "Firmware Engineer Intern, AI Hardware",
-"url": "https://www.tesla.com/careers/search/job/243937"
-},
-{
-"first_seen": "2025-06-02",
-"company": "AMD",
-"title": "Firmware Engineering Intern/Co-Op",
-"url": "https://careers.amd.com/careers-home/jobs/63889?lang=en-us&utm_source=ouckah"
-},
-{
-"first_seen": "2025-06-02",
-"company": "Tesla",
-"title": "System Validation Engineer Intern, Energy Engineering",
-"url": "https://www.tesla.com/careers/search/job/243733"
-},
-{
-"first_seen": "2025-06-02",
-"company": "Amazon",
-"title": "ASIC Engineering Intern",
-"url": "https://www.amazon.jobs/en/jobs/2993367/asic-engineering-internship-fall-2025-rfic-communications-systems-project-kuiper"
-},
-{
-"first_seen": "2025-06-02",
-"company": "Tesla",
-"title": "Factory Firmware Hardware Design Engineer Intern, Vehicle Firmware - Fall",
-"url": "https://www.tesla.com/careers/search/job/242996"
-},
-{
-"first_seen": "2025-06-02",
-"company": "Nokia",
-"title": "Hardware Development Co-op Intern",
-"url": "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/20045"
-},
-{
-"first_seen": "2025-06-02",
-"company": "Formlabs",
-"title": "Hardware Systems Engineering Intern",
-"url": "https://careers.formlabs.com/job/6830690/apply/?gh_jid=6830690&utm_source=ouckah"
-},
-{
-"first_seen": "2025-06-02",
-"company": "AMD",
-"title": "Firmware Engineering Intern/ Co-Op - Masters - Fall",
-"url": "https://careers.amd.com/careers-home/jobs/63597/job"
-},
-{
-"first_seen": "2025-06-04",
-"company": "Tesla",
-"title": "Firmware Engineer Intern, Energy Engineering",
-"url": "https://www.tesla.com/careers/search/job/243842"
-},
-{
-"first_seen": "2025-07-21",
-"company": "Nowadays",
-"title": "Product Engineer Intern",
-"url": "https://www.ycombinator.com/companies/nowadays/jobs/iRSGsmg-product-engineer-intern"
-},
-{
-"first_seen": "2025-08-08",
-"company": "Tesla",
-"title": "Chassis Integration Engineer Intern, Vehicle Firmware",
-"url": "https://www.tesla.com/careers/search/job/247989?source=Indeed&source=Indeed&tags=organicjob&utm_source=ouckah"
-},
-{
-"first_seen": "2025-08-08",
-"company": "Tesla",
-"title": "Chassis Validation Engineer Intern, Vehicle Firmware",
-"url": "https://www.tesla.com/careers/search/job/247990"
-},
-{
-"first_seen": "2025-08-13",
-"company": "Mill",
-"title": "Firmware Engineering Intern",
-"url": "https://job-boards.greenhouse.io/mill/jobs/4597024005?ref=vansh&utm_source=ouckah"
-},
-{
-"first_seen": "2025-08-15",
-"company": "Silimate",
-"title": "EDA QA/Testing Intern",
-"url": "https://www.ycombinator.com/companies/silimate/jobs/1FT8OGR-eda-qa-testing-intern"
-},
-{
-"first_seen": "2025-08-17",
-"company": "WeRide",
-"title": "Vehicle Embedded Engineer Intern, DBW",
-"url": "https://jobs.lever.co/weride/32871b7d-f424-422f-af2c-615c59ff44cd"
-},
-{
-"first_seen": "2025-08-28",
-"company": "Nowadays (S23)",
-"title": "Product Engineer Intern",
-"url": "https://www.workatastartup.com/jobs/78952"
-},
-{
-"first_seen": "2025-09-13",
-"company": "Inogen",
-"title": "Embedded Systems Engineering Intern",
-"url": "https://jobs.jobvite.com/careers/inogen/job/oFzUxfwp"
-},
-{
-"first_seen": "2025-09-15",
-"company": "Figure",
-"title": "Firmware Engineer Intern",
-"url": "https://job-boards.greenhouse.io/figureai/jobs/4601309006"
-},
-{
-"first_seen": "2025-11-01",
-"company": "Rivian and Volkswagen Group Technologies",
-"title": "Engineering Intern, Embedded Hardware, Vehicle Networking & Audio",
-"url": "https://careers.rivianvw.tech/rivian-vw-group-technology/jobs/27276/job"
-}
+ {
+  "first_seen": "2025-06-02",
+  "company": "Tesla",
+  "title": "Firmware Engineer Intern, AI Hardware",
+  "url": "https://www.tesla.com/careers/search/job/243937"
+ },
+ {
+  "first_seen": "2025-06-02",
+  "company": "AMD",
+  "title": "Firmware Engineering Intern/Co-Op",
+  "url": "https://careers.amd.com/careers-home/jobs/63889?lang=en-us&utm_source=ouckah"
+ },
+ {
+  "first_seen": "2025-06-02",
+  "company": "Tesla",
+  "title": "System Validation Engineer Intern, Energy Engineering",
+  "url": "https://www.tesla.com/careers/search/job/243733"
+ },
+ {
+  "first_seen": "2025-06-02",
+  "company": "Amazon",
+  "title": "ASIC Engineering Intern",
+  "url": "https://www.amazon.jobs/en/jobs/2993367/asic-engineering-internship-fall-2025-rfic-communications-systems-project-kuiper"
+ },
+ {
+  "first_seen": "2025-06-02",
+  "company": "Tesla",
+  "title": "Factory Firmware Hardware Design Engineer Intern, Vehicle Firmware - Fall",
+  "url": "https://www.tesla.com/careers/search/job/242996"
+ },
+ {
+  "first_seen": "2025-06-02",
+  "company": "Nokia",
+  "title": "Hardware Development Co-op Intern",
+  "url": "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/20045"
+ },
+ {
+  "first_seen": "2025-06-02",
+  "company": "Formlabs",
+  "title": "Hardware Systems Engineering Intern",
+  "url": "https://careers.formlabs.com/job/6830690/apply/?gh_jid=6830690&utm_source=ouckah"
+ },
+ {
+  "first_seen": "2025-06-02",
+  "company": "AMD",
+  "title": "Firmware Engineering Intern/ Co-Op - Masters - Fall",
+  "url": "https://careers.amd.com/careers-home/jobs/63597/job"
+ },
+ {
+  "first_seen": "2025-06-04",
+  "company": "Tesla",
+  "title": "Firmware Engineer Intern, Energy Engineering",
+  "url": "https://www.tesla.com/careers/search/job/243842"
+ },
+ {
+  "first_seen": "2025-07-21",
+  "company": "Nowadays",
+  "title": "Product Engineer Intern",
+  "url": "https://www.ycombinator.com/companies/nowadays/jobs/iRSGsmg-product-engineer-intern"
+ },
+ {
+  "first_seen": "2025-08-08",
+  "company": "Tesla",
+  "title": "Chassis Integration Engineer Intern, Vehicle Firmware",
+  "url": "https://www.tesla.com/careers/search/job/247989?source=Indeed&source=Indeed&tags=organicjob&utm_source=ouckah"
+ },
+ {
+  "first_seen": "2025-08-08",
+  "company": "Tesla",
+  "title": "Chassis Validation Engineer Intern, Vehicle Firmware",
+  "url": "https://www.tesla.com/careers/search/job/247990"
+ },
+ {
+  "first_seen": "2025-08-13",
+  "company": "Mill",
+  "title": "Firmware Engineering Intern",
+  "url": "https://job-boards.greenhouse.io/mill/jobs/4597024005?ref=vansh&utm_source=ouckah"
+ },
+ {
+  "first_seen": "2025-08-15",
+  "company": "Silimate",
+  "title": "EDA QA/Testing Intern",
+  "url": "https://www.ycombinator.com/companies/silimate/jobs/1FT8OGR-eda-qa-testing-intern"
+ },
+ {
+  "first_seen": "2025-08-17",
+  "company": "WeRide",
+  "title": "Vehicle Embedded Engineer Intern, DBW",
+  "url": "https://jobs.lever.co/weride/32871b7d-f424-422f-af2c-615c59ff44cd"
+ },
+ {
+  "first_seen": "2025-08-28",
+  "company": "Nowadays (S23)",
+  "title": "Product Engineer Intern",
+  "url": "https://www.workatastartup.com/jobs/78952"
+ },
+ {
+  "first_seen": "2025-09-13",
+  "company": "Inogen",
+  "title": "Embedded Systems Engineering Intern",
+  "url": "https://jobs.jobvite.com/careers/inogen/job/oFzUxfwp"
+ },
+ {
+  "first_seen": "2025-09-15",
+  "company": "Figure",
+  "title": "Firmware Engineer Intern",
+  "url": "https://job-boards.greenhouse.io/figureai/jobs/4601309006"
+ },
+ {
+  "first_seen": "2025-11-01",
+  "company": "Rivian and Volkswagen Group Technologies",
+  "title": "Engineering Intern, Embedded Hardware, Vehicle Networking & Audio",
+  "url": "https://careers.rivianvw.tech/rivian-vw-group-technology/jobs/27276/job"
+ },
+ {
+  "first_seen": "2025-07-23",
+  "company": "Impulse Space",
+  "title": "Flight/Embedded Software Engineer Intern \ud83c\uddfa\ud83c\uddf8",
+  "url": "",
+  "source": "community-list history"
+ },
+ {
+  "first_seen": "2025-07-24",
+  "company": "Komatsu",
+  "title": "Embedded Controls Software Intern",
+  "url": "",
+  "source": "community-list history"
+ },
+ {
+  "first_seen": "2025-08-13",
+  "company": "Mill",
+  "title": "Firmware Engineering Intern \ud83d\udec2",
+  "url": "",
+  "source": "community-list history"
+ },
+ {
+  "first_seen": "2025-08-15",
+  "company": "Atomic Semi",
+  "title": "Embedded Software Engineering Intern",
+  "url": "",
+  "source": "community-list history"
+ },
+ {
+  "first_seen": "2025-08-24",
+  "company": "NVIDIA",
+  "title": "Embedded Systems Software Intern, Linux and Jetson",
+  "url": "",
+  "source": "community-list history"
+ },
+ {
+  "first_seen": "2025-09-23",
+  "company": "Johnson & Johnson",
+  "title": "Software Test Engineering Co-Op",
+  "url": "",
+  "source": "community-list history"
+ },
+ {
+  "first_seen": "2025-10-01",
+  "company": "SpaceX",
+  "title": "Silicon Hardware Engineering Intern/Co-op, Silicon Engineering",
+  "url": "",
+  "source": "community-list history"
+ },
+ {
+  "first_seen": "2025-10-09",
+  "company": "Fresenius Medical Care",
+  "title": "Reciprocity Embedded Software Engineer Co-op \ud83d\udec2",
+  "url": "",
+  "source": "community-list history"
+ }
 ]

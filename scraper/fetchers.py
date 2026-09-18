@@ -172,3 +172,6 @@ def jibe(c):
 
 FETCHERS = {"greenhouse": greenhouse, "lever": lever, "ashby": ashby, "workday": workday,
             "oracle_hcm": oracle_hcm, "successfactors": successfactors, "jibe": jibe}
+
+from scraper.fetchers_more import FETCHERS_MORE  # noqa: E402
+FETCHERS.update(FETCHERS_MORE)

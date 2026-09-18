@@ -4,6 +4,7 @@
  * Pulls the scraper's output from GitHub every hour and rebuilds four tabs:
  *   APPLY NOW    spring / Jan-2027 postings, freshest first, colour-banded by urgency
  *   All postings everything the scraper is tracking
+ *   Openings     companies that opened their spring/co-op reqs in the last 7 days
  *   Watchlist    target companies that have not posted a spring role yet
  *   Events       employer events worth showing up to
  * Your own columns (Status, Notes) live in the "My status" tab keyed by link and are never overwritten.
@@ -49,6 +50,7 @@ function refresh() {
   const sheet = fetchCsv("sheet.csv");
   const watch = safe_(() => fetchCsv("watchlist.csv"), []);
   const events = safe_(() => fetchCsv("events.csv"), []);
+  const openings = safe_(() => fetchCsv("openings.csv"), []);
 
   // the short list: chip and hardware roles worth acting on. Medical-device / consulting EE co-ops
   // still live in "All postings", they just do not belong at the top of the queue.
@@ -59,10 +61,12 @@ function refresh() {
   if (!hasFit) ss.toast("sheet.csv has no fit column yet — push the scraper update and re-run the workflow.", "Co-op board", 8);
   writePostings_(ss, "APPLY NOW", apply, my);
   writePostings_(ss, "All postings", sheet, my);
+  writeTable_(ss, "Openings", ["company", "opened", "n", "fit", "sample"], openings, {company: 24, opened: 14, n: 6, fit: 12, sample: 60});
   writeTable_(ss, "Watchlist", ["company", "tier", "ats", "status", "expect"], watch, {company: 22, expect: 40, status: 26});
   writeTable_(ss, "Events", ["date", "time", "title", "type"], events, {title: 50, type: 24});
   ensureMyStatus_(ss, sheet, my);
-  order_(ss, ["APPLY NOW", "All postings", "Watchlist", "Events", "My status"]);
+  order_(ss, ["APPLY NOW", "Openings", "All postings", "Watchlist", "Events", "My status"]);
+  safe_(() => alerts_(ss, apply, openings), null);
   ss.getSheetByName("APPLY NOW").getRange("A1").setNote("Last refresh " + new Date().toLocaleString());
 }
 
@@ -130,7 +134,33 @@ function writeTable_(ss, name, cols, rows, widths) {
   sh.getRange(1, 1, 1, cols.length).setFontWeight("bold").setBackground("#1f2937").setFontColor("#ffffff");
   sh.setFrozenRows(1);
   cols.forEach((c, i) => sh.setColumnWidth(i + 1, (widths[c] || 16) * 7));
+  if (name === "Openings") rows.forEach((r, i) => { const [b, f] = FIT_CHIP[r.fit] || FIT_CHIP.ADJACENT; sh.getRange(i + 2, 4).setBackground(b).setFontColor(f).setFontWeight("bold").setHorizontalAlignment("center"); sh.getRange(i + 2, 1, 1, cols.length).setFontWeight(r.fit === "CHIP" ? "bold" : "normal"); });
   if (name === "Events") rows.forEach((r, i) => { if (/SpaceX|Teradyne|Dell|Lunar/i.test(r.title)) sh.getRange(i + 2, 1, 1, cols.length).setBackground("#fff1d6").setFontWeight("bold"); });
+}
+
+// ---------------------------------------------------------------- email alerts for anything new worth acting on
+// Emails the account that owns the sheet when a CHIP/HARDWARE row enters APPLY NOW / APPLY, or a company opens its
+// spring reqs. Remembers what it already sent (Script Properties) so each posting is mailed once. The first run only
+// seeds that memory — otherwise you'd get one email with the whole board in it.
+function alerts_(ss, apply, openings) {
+  const props = PropertiesService.getScriptProperties();
+  const sent = new Set(JSON.parse(props.getProperty("alerted") || "[]"));
+  const items = apply.filter(r => (r.urgency === "APPLY NOW" || r.urgency === "APPLY") && (r.fit === "CHIP" || r.fit === "HARDWARE")).map(r => ({key: r.link, r}));
+  const opens = openings.map(o => ({key: "open:" + o.company + ":" + o.opened, o}));
+  const fresh = items.filter(x => !sent.has(x.key)), freshOpen = opens.filter(x => !sent.has(x.key));
+  const seeded = props.getProperty("alerted") !== null;
+  [...items, ...opens].forEach(x => sent.add(x.key));
+  props.setProperty("alerted", JSON.stringify([...sent].slice(-3000)));
+  if (!seeded || (fresh.length === 0 && freshOpen.length === 0)) return;
+  const to = Session.getEffectiveUser().getEmail();
+  if (!to) return;
+  const row = r => `<tr><td><b>${r.fit}</b></td><td>${r.urgency}</td><td>${r.company}</td><td><a href="${r.link}">${r.role}</a></td><td>${r.location}</td><td>${r.deadline || ""}</td></tr>`;
+  let html = "";
+  if (freshOpen.length) html += "<h3>Companies that just opened spring reqs</h3><ul>" + freshOpen.map(x => `<li><b>${x.o.company}</b> — ${x.o.n} posting(s), e.g. <a href="${x.o.link}">${x.o.sample}</a></li>`).join("") + "</ul>";
+  if (fresh.length) html += `<h3>${fresh.length} new posting(s)</h3><table border="1" cellpadding="4" style="border-collapse:collapse;font-size:13px"><tr><th>Fit</th><th>Urgency</th><th>Company</th><th>Role</th><th>Location</th><th>Deadline</th></tr>` + fresh.map(x => row(x.r)).join("") + "</table>";
+  html += `<p><a href="${ss.getUrl()}">Open the board</a></p>`;
+  const subj = `Co-op board: ${fresh.length} new` + (freshOpen.length ? `, ${freshOpen.length} company opening(s)` : "") + (fresh.some(x => x.r.fit === "CHIP") ? " — CHIP roles inside" : "");
+  MailApp.sendEmail({to, subject: subj, htmlBody: html});
 }
 
 // ---------------------------------------------------------------- your own edits, keyed by link

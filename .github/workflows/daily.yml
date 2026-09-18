@@ -1,14 +1,20 @@
-﻿name: daily co-op scrape
+name: daily co-op scrape
 
 on:
   schedule:
-    - cron: "30 12 * * *"
-    - cron: "30 22 * * *"
+    - cron: "30 12 * * *"   # 12:30 UTC = 5:30am PT / 8:30am ET
+    - cron: "30 22 * * *"   # 3:30pm PT, so afternoon postings show up the same day
   workflow_dispatch:
+    inputs:
+      discover:
+        description: "also run ATS discovery for config/candidates.json"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
 
+# never let two runs push at once; a second trigger waits for the first to finish
 concurrency:
   group: scrape
   cancel-in-progress: false
@@ -25,7 +31,11 @@ jobs:
         run: pip install python-jobspy || echo "jobspy install failed, continuing without it"
         continue-on-error: true
       - name: run scraper
-        run: python -m scraper.main
+        run: set -o pipefail; python -m scraper.main 2>&1 | tee data/run.log
+      - name: ATS discovery (manual runs only)
+        if: ${{ inputs.discover }}
+        run: python -m scraper.discover 2>&1 | tee data/discover.log
+        continue-on-error: true
       - name: commit results
         run: |
           set -e
@@ -37,6 +47,7 @@ jobs:
             exit 0
           fi
           git commit -m "scrape $(date -u '+%F %H:%M')"
+          # someone (you, or an overlapping run) may have pushed since checkout
           for i in 1 2 3; do
             git pull --rebase --autostash origin main && git push origin main && exit 0
             echo "push attempt $i lost a race, retrying"

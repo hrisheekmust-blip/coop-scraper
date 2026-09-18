@@ -9,6 +9,9 @@ search. Built from the useful parts of existing projects rather than from scratc
   and [hardware-internships-2027](https://github.com/Khushsj30/hardware-internships-2027), plus the semiconductor
   companies those lists were missing (NXP, TI, onsemi, Skyworks, Microchip, Allegro, MPS, Silicon Labs, Wolfspeed, Samsung…).
 - Community lists ingested as extra sources: vanshb03 off-season + summer lists, sndsh404, hardware-internships-2027.
+- ATS fetchers ported from the provider notes in [career-ops](https://github.com/career-ops-hq/career-ops)
+  (Eightfold, Phenom, SuccessFactors CSB, SmartRecruiters, iCIMS) plus direct career-site APIs for Amazon, Google,
+  Tesla and Apple — `scraper/fetchers_more.py`. `scraper/discover.py` probes a company's ATS/tenant automatically.
 - [internlist.org](https://internlist.org) (Simplify's index of ~20k company career pages): the Co-op and Winter/Spring
   lists via their open `api.simplify.jobs` endpoint. This is what catches companies whose ATS we can't reach directly
   (AMD, Draper, Anduril, …). See `scraper/sources_internlist.py`.
@@ -26,7 +29,9 @@ scraper/filters.py         hardware keywords, exclusions, term detection, rankin
 scraper/sources_github.py  parses the community markdown lists
 scraper/sources_internlist.py  pulls internlist.org / Simplify's Co-op + Winter-Spring lists (open JSON API)
 scraper/main.py            pipeline: fetch -> classify -> diff against seen.json -> write outputs
-scraper/priority.py        urgency bands + sheet.csv / watchlist.csv / events.csv (what the Google Sheet reads)
+scraper/fetchers_more.py   Eightfold / Phenom / SuccessFactors-CSB / SmartRecruiters / iCIMS + Amazon, Google, Tesla, Apple
+scraper/discover.py        works out which ATS + tenant ids a company uses (config/candidates.json -> data/discover_config.json)
+scraper/priority.py        urgency bands + sheet.csv / watchlist.csv / openings.csv / events.csv (what the Google Sheet reads)
 scraper/jobspy_search.py   optional LinkedIn/Indeed sweep (python-jobspy), runs in GitHub Actions
 scraper/nuworks.py         converts a NUWorks browser crawl into data/nuworks.json
 sheets/Code.gs             Google Apps Script for the auto-updating sheet
@@ -37,6 +42,19 @@ data/tracker.csv           flat table; status / nu_connection / notes columns su
 data/jobs.json, seen.json, rejected.jsonl
 .github/workflows/daily.yml  runs it every day and commits data/
 ```
+
+## "Just opened" + alerts
+
+`data/openings.csv` lists companies whose earliest spring/co-op posting appeared in the last 7 days — the signal for
+"X just dropped their reqs". The sheet shows it as the **Openings** tab and emails you (the Google account that owns
+the sheet) whenever a CHIP/HARDWARE role enters APPLY NOW/APPLY or a company opens. `data/last_cycle_2026.json`
+holds last cycle's first-seen dates (from the community lists' git history + our own records from now on) and feeds
+the Watchlist "expect" column.
+
+## Adding companies in bulk
+
+Put names + guessed slugs + careers URL in `config/candidates.json`, run the workflow with "discover" ticked, then
+paste `data/discover_config.json` entries into `config/companies.json`.
 
 ## Google Sheet
 

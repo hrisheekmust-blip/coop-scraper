@@ -599,14 +599,60 @@
  },
  {
   "name": "Infineon",
-  "ats": "successfactors",
+  "ats": "successfactors_csb",
   "base": "https://jobs.infineon.com",
   "tier": "big"
  },
  {
   "name": "AMD",
-  "ats": "jibe",
+  "ats": "successfactors_csb",
   "base": "https://careers.amd.com",
+  "tier": "big"
+ },
+ {
+  "name": "Amazon",
+  "ats": "amazon",
+  "tier": "big"
+ },
+ {
+  "name": "Google",
+  "ats": "google",
+  "tier": "big"
+ },
+ {
+  "name": "Tesla",
+  "ats": "tesla",
+  "tier": "big"
+ },
+ {
+  "name": "Apple",
+  "ats": "apple",
+  "tier": "big"
+ },
+ {
+  "name": "Micron",
+  "ats": "eightfold",
+  "host": "micron.eightfold.ai",
+  "domain": "micron.com",
+  "tier": "big"
+ },
+ {
+  "name": "Qualcomm",
+  "ats": "eightfold",
+  "host": "qualcomm.eightfold.ai",
+  "domain": "qualcomm.com",
+  "tier": "big"
+ },
+ {
+  "name": "Keysight",
+  "ats": "phenom",
+  "base": "https://jobs.keysight.com",
+  "tier": "big"
+ },
+ {
+  "name": "Western Digital",
+  "ats": "smartrecruiters",
+  "slug": "WesternDigital",
   "tier": "big"
  }
 ]

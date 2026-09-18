@@ -150,12 +150,31 @@ def build():
     with open(os.path.join(DATA, "watchlist.csv"), "w", newline="") as f:
         w = csv.DictWriter(f, fieldnames=["company", "tier", "ats", "status", "last_cycle_first_seen", "expect"]); w.writeheader(); w.writerows(wl)
 
+    # openings: a company whose EARLIEST kept spring/co-op posting is recent = "they just opened their reqs"
+    by_co = {}
+    for r in rows:
+        if r["rank"] in ("A", "B") and r["fit"] in ("CHIP", "HARDWARE"):
+            k = norm(r["company"])[:12]
+            g = by_co.setdefault(k, dict(company=r["company"], opened=r["first_seen"], n=0, fit=r["fit"], sample=r["role"], link=r["link"]))
+            g["n"] += 1
+            if r["first_seen"] < g["opened"]:
+                g["opened"] = r["first_seen"]
+            if r["fit"] == "CHIP" and g["fit"] != "CHIP":
+                g["fit"], g["sample"], g["link"] = "CHIP", r["role"], r["link"]
+    openings = [g for g in by_co.values() if (TODAY - date.fromisoformat(g["opened"])).days <= 7]
+    if len(openings) > 0.4 * max(1, len(by_co)):   # first run: everything looks freshly opened, which is noise
+        openings = []
+    openings.sort(key=lambda g: (FIT_ORDER[g["fit"]], g["opened"]), reverse=False)
+    with open(os.path.join(DATA, "openings.csv"), "w", newline="") as f:
+        w = csv.DictWriter(f, fieldnames=["company", "opened", "n", "fit", "sample", "link"]); w.writeheader(); w.writerows(openings)
+
     with open(os.path.join(DATA, "events.csv"), "w", newline="") as f:
         w = csv.DictWriter(f, fieldnames=["date", "time", "title", "type", "source"]); w.writeheader()
         for e in sorted(events, key=lambda e: e["date"]):
             w.writerow({k: e.get(k, "") for k in ["date", "time", "title", "type", "source"]})
 
     from collections import Counter
+    print("openings:", len(openings), "|", end=" ")
     print("sheet.csv:", len(rows), dict(Counter(r["fit"] for r in rows)), dict(Counter(r["urgency"] for r in rows)), "| watchlist:", len(wl), "| events:", len(events))
 
 
