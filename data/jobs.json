@@ -97,6 +97,22 @@
   "last_seen": "2026-09-18"
  },
  {
+  "company": "CMTA, Inc.",
+  "title": "Electrical Engineer Intern/Co-op Spring 2027 (multiple locations)",
+  "location": "Dublin, OH",
+  "url": "https://www.linkedin.com/jobs/view/4467907290",
+  "posted": "2026-09-15",
+  "term": "spring",
+  "rank": "A",
+  "hw": "electrical engineer",
+  "tier": "",
+  "sources": [
+   "jobspy:linkedin"
+  ],
+  "first_seen": "2026-09-18",
+  "last_seen": "2026-09-18"
+ },
+ {
   "company": "Draper",
   "title": "Sensor Electrical Engineering Co-op (Spring 2027)",
   "location": "Cambridge, MA",
@@ -309,7 +325,7 @@
   "title": "Electrical Engineering Co-Op, Spring 2027",
   "location": "Cincinnati, OH",
   "url": "https://www.linkedin.com/jobs/view/4459603408",
-  "posted": "nan",
+  "posted": "2026-09-17",
   "term": "spring",
   "rank": "A",
   "hw": "electrical engineering",
@@ -494,6 +510,22 @@
    "greenhouse"
   ],
   "first_seen": "2026-09-17",
+  "last_seen": "2026-09-18"
+ },
+ {
+  "company": "STV",
+  "title": "Electrical Engineering Intern - Spring 2027",
+  "location": "Oklahoma City, OK",
+  "url": "https://www.linkedin.com/jobs/view/4457297511",
+  "posted": "2026-09-17",
+  "term": "spring",
+  "rank": "A",
+  "hw": "electrical engineering",
+  "tier": "",
+  "sources": [
+   "jobspy:linkedin"
+  ],
+  "first_seen": "2026-09-18",
   "last_seen": "2026-09-18"
  },
  {
@@ -930,22 +962,6 @@
   "last_seen": "2026-09-18"
  },
  {
-  "company": "Siemens",
-  "title": "Electrical Design Engineer Co-op (North Carolina State University)",
-  "location": "Wendell, NC",
-  "url": "https://www.linkedin.com/jobs/view/4426918182",
-  "posted": "2026-09-16",
-  "term": "coop-unspecified",
-  "rank": "B",
-  "hw": "electrical",
-  "tier": "",
-  "sources": [
-   "jobspy:linkedin"
-  ],
-  "first_seen": "2026-09-18",
-  "last_seen": "2026-09-18"
- },
- {
   "company": "Skyworks",
   "title": "Analog IC Design Co-op",
   "location": "Irvine, CA",
@@ -1010,22 +1026,6 @@
   "last_seen": "2026-09-18"
  },
  {
-  "company": "bioM\u00e9rieux",
-  "title": "Hardware Co-op",
-  "location": "Hazelwood, MO",
-  "url": "https://www.linkedin.com/jobs/view/4465566257",
-  "posted": "2026-09-15",
-  "term": "coop-unspecified",
-  "rank": "B",
-  "hw": "hardware",
-  "tier": "",
-  "sources": [
-   "jobspy:linkedin"
-  ],
-  "first_seen": "2026-09-18",
-  "last_seen": "2026-09-18"
- },
- {
   "company": "nVent",
   "title": "Electrical/Controls Engineering Co-Op",
   "location": "Anoka, MN",
@@ -1055,6 +1055,22 @@
    "github:vanshb03-summer"
   ],
   "first_seen": "2026-09-17",
+  "last_seen": "2026-09-18"
+ },
+ {
+  "company": "Amazon",
+  "title": "ASIC Engineer Intern, Annapurna Labs - 2027",
+  "location": "Austin, TX",
+  "url": "https://www.linkedin.com/jobs/view/4460339361",
+  "posted": "nan",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "asic",
+  "tier": "",
+  "sources": [
+   "jobspy:linkedin"
+  ],
+  "first_seen": "2026-09-18",
   "last_seen": "2026-09-18"
  },
  {
@@ -1475,38 +1491,6 @@
   "last_seen": "2026-09-18"
  },
  {
-  "company": "ELDAEON INC.",
-  "title": "Embedded Systems Firmware Engineering Intern (Graduates & U.S. Persons Only)",
-  "location": "Azusa, CA",
-  "url": "https://www.linkedin.com/jobs/view/4466163775",
-  "posted": "2026-09-15",
-  "term": "unspecified",
-  "rank": "C",
-  "hw": "embedded,firmware",
-  "tier": "",
-  "sources": [
-   "jobspy:linkedin"
-  ],
-  "first_seen": "2026-09-18",
-  "last_seen": "2026-09-18"
- },
- {
-  "company": "ELDAEON INC.",
-  "title": "RF & Radar Engineering Intern (Graduates & U.S. Persons Only)",
-  "location": "Azusa, CA",
-  "url": "https://www.linkedin.com/jobs/view/4466553020",
-  "posted": "2026-09-15",
-  "term": "unspecified",
-  "rank": "C",
-  "hw": "rf",
-  "tier": "",
-  "sources": [
-   "jobspy:linkedin"
-  ],
-  "first_seen": "2026-09-18",
-  "last_seen": "2026-09-18"
- },
- {
   "company": "Etched",
   "title": "Firmware Intern",
   "location": "San Jose, CA",
@@ -1557,13 +1541,13 @@
  },
  {
   "company": "General Dynamics Mission Systems",
-  "title": "Hardware EE Intern Engineer for Crypto and Cross Domain Solutions",
-  "location": "Scottsdale, AZ",
-  "url": "https://www.linkedin.com/jobs/view/4466880595",
-  "posted": "2026-09-16",
+  "title": "Intern Engineer - FPGA",
+  "location": "Bloomington, MN",
+  "url": "https://www.linkedin.com/jobs/view/4467879616",
+  "posted": "nan",
   "term": "unspecified",
   "rank": "C",
-  "hw": "ee,hardware",
+  "hw": "fpga",
   "tier": "",
   "sources": [
    "jobspy:linkedin"
@@ -1624,7 +1608,7 @@
   "title": "Hardware Developer Intern 2027 - Houston, TX",
   "location": "Houston, TX",
   "url": "https://www.linkedin.com/jobs/view/4466272640",
-  "posted": "nan",
+  "posted": "2026-09-17",
   "term": "unspecified",
   "rank": "C",
   "hw": "hardware",
@@ -1644,38 +1628,6 @@
   "term": "unspecified",
   "rank": "C",
   "hw": "hardware",
-  "tier": "",
-  "sources": [
-   "jobspy:linkedin"
-  ],
-  "first_seen": "2026-09-18",
-  "last_seen": "2026-09-18"
- },
- {
-  "company": "IBM",
-  "title": "Intern Software Engineer / Agent Engineer - EDA - Poughkeepsie 2027",
-  "location": "Poughkeepsie, AR",
-  "url": "https://www.linkedin.com/jobs/view/4456558389",
-  "posted": "2026-09-15",
-  "term": "unspecified",
-  "rank": "C",
-  "hw": "eda",
-  "tier": "",
-  "sources": [
-   "jobspy:linkedin"
-  ],
-  "first_seen": "2026-09-18",
-  "last_seen": "2026-09-18"
- },
- {
-  "company": "IBM",
-  "title": "QA/Test Engineer Intern-Poughkeepsie, NY",
-  "location": "Poughkeepsie, AR",
-  "url": "https://www.linkedin.com/jobs/view/4456513988",
-  "posted": "2026-09-15",
-  "term": "unspecified",
-  "rank": "C",
-  "hw": "test engineer",
   "tier": "",
   "sources": [
    "jobspy:linkedin"
@@ -1991,7 +1943,7 @@
   "company": "Mercury Systems",
   "title": "2027 RF Engineering Intern",
   "location": "Peachtree Corners, GA",
-  "url": "https://www.linkedin.com/jobs/view/4467594805",
+  "url": "https://www.linkedin.com/jobs/view/4467804698",
   "posted": "nan",
   "term": "unspecified",
   "rank": "C",

@@ -1,23 +1,13 @@
 # New postings — 2026-09-18
 
-14 new of 172 tracked. Rank A = spring/Jan 2027 explicit, B = co-op with term unstated, C = intern with no term stated.
+4 new of 169 tracked. Rank A = spring/Jan 2027 explicit, B = co-op with term unstated, C = intern with no term stated.
 
 | Rank | Term | Company | Role | Location | Posted | Link |
 |---|---|---|---|---|---|---|
-| A | spring | LG&E and KU Energy LLC | Spring 2027 Electrical Engineering Co-op - Multiple Positions Available! | Louisville, KY | nan | [apply](https://www.linkedin.com/jobs/view/4460123958) |
-| B | coop-unspecified | Fluke Corporation | Test Engineer Co-Op | Everett, WA | nan | [apply](https://www.linkedin.com/jobs/view/4460184877) |
-| C | unspecified | Micron Technology | Intern - Node Development Product Engineer - DRAM Technology | Boise, ID | 2026-09-16 | [apply](https://www.linkedin.com/jobs/view/4466857757) |
-| C | unspecified | Brunswick Corporation | Electrical Engineering Intern | Menomonee Falls, WI | 2026-09-15 | [apply](https://www.linkedin.com/jobs/view/4458780185) |
-| C | unspecified | HiArc | Electrical Engineering Intern | Merrimack, NH | 2026-09-15 | [apply](https://www.linkedin.com/jobs/view/4465908567) |
-| C | unspecified | Mercury Systems | 2027 RF Engineering Intern | Peachtree Corners, GA | nan | [apply](https://www.linkedin.com/jobs/view/4467594805) |
-| A | spring | Microsoft | Electrical Engineering Internship (6-Month Program) | Seattle, WA | nan | [apply](https://www.linkedin.com/jobs/view/4469161281) |
-| C | unspecified | L3Harris Technologies | Electrical Engineering Intern | Londonderry, NH | nan | [apply](https://www.linkedin.com/jobs/view/4469108488) |
-| A | spring | Microsoft | Silicon Engineering Internship (6-month Program) | Mountain View, CA | nan | [apply](https://www.linkedin.com/jobs/view/4469142762) |
-| B | coop-unspecified | Landis+Gyr | Co-op - General Engineering Lab and Test Engineering | Lafayette, IN | nan | [apply](https://www.linkedin.com/jobs/view/4458653133) |
-| C | unspecified | The Aerospace Corporation | 2027 RF Characterization Undergraduate Intern | El Segundo, CA | 2026-09-16 | [apply](https://www.linkedin.com/jobs/view/4466224154) |
-| C | unspecified | Micron Technology | Intern – Process Engineer ID1 | Boise, ID | nan | [apply](https://www.linkedin.com/jobs/view/4467851713) |
-| C | unspecified | CNH | Electrical Engineering Intern | Sioux Falls, SD | 2026-09-17 | [apply](https://www.linkedin.com/jobs/view/4468330183) |
-| C | unspecified | Stanley Consultants | Student Intern 2027 - Electrical Substation | Denver, CO | nan | [apply](https://www.linkedin.com/jobs/view/4464719045) |
+| A | spring | STV | Electrical Engineering Intern - Spring 2027 | Oklahoma City, OK | 2026-09-17 | [apply](https://www.linkedin.com/jobs/view/4457297511) |
+| A | spring | CMTA, Inc. | Electrical Engineer Intern/Co-op Spring 2027 (multiple locations) | Dublin, OH | 2026-09-15 | [apply](https://www.linkedin.com/jobs/view/4467907290) |
+| C | unspecified | Amazon | ASIC Engineer Intern, Annapurna Labs - 2027 | Austin, TX | nan | [apply](https://www.linkedin.com/jobs/view/4460339361) |
+| C | unspecified | General Dynamics Mission Systems | Intern Engineer - FPGA | Bloomington, MN | nan | [apply](https://www.linkedin.com/jobs/view/4467879616) |
 
 ## All tracked
 
@@ -29,6 +19,7 @@
 | A | spring | Astranis | CAD Engineer Intern (Winter 2027) | San Francisco | 2026-09-16 | [apply](https://job-boards.greenhouse.io/astranis/jobs/4704748006) |
 | A | spring | BAE Systems, Inc. | Electrical Engineering Coop (Spring/Summer 2027), Onsite | Cedar Rapids, IA | 2026-09-16 | [apply](https://www.linkedin.com/jobs/view/4446221962) |
 | A | spring | Battelle | Electrical Engineering Co-op (Spring 2027) | Columbus, OH | nan | [apply](https://www.linkedin.com/jobs/view/4463629209) |
+| A | spring | CMTA, Inc. | Electrical Engineer Intern/Co-op Spring 2027 (multiple locations) | Dublin, OH | 2026-09-15 | [apply](https://www.linkedin.com/jobs/view/4467907290) |
 | A | spring | Draper | Sensor Electrical Engineering Co-op (Spring 2027) | Cambridge, MA | Posted 18 Days Ago | [apply](https://draper.wd5.myworkdayjobs.com/Draper_Careers/job/Cambridge-MA/Sensor-Electrical-Engineering-Co-op--Spring-2027-_JR002885) |
 | A | spring | Emerson | Electrical Engineering Co-op (Spring 2027) | Rockford, IL | 2026-09-16 | [apply](https://www.linkedin.com/jobs/view/4468324041) |
 | A | spring | Emerson | Electrical Engineering Co-op (Spring 2027) | Elyria, OH | 2026-09-16 | [apply](https://www.linkedin.com/jobs/view/4468311224) |
@@ -42,7 +33,7 @@
 | A | spring | Heron Power | Intern, Power Electronics Engineer, Spring 2027 | Scotts Valley, CA | 2026-09-15 | [apply](https://www.linkedin.com/jobs/view/4466379769) |
 | A | spring | Impulse Space | RF Engineering Intern (Spring 2027) | Redondo Beach, CA | 2026-09-16 | [apply](https://www.linkedin.com/jobs/view/4468316179) |
 | A | spring | Itron, Inc. | Intern - Firmware Engineer (Spring 2027) | West Union, SC | 2026-09-16 | [apply](https://www.linkedin.com/jobs/view/4468299770) |
-| A | spring | Johnson & Johnson MedTech | Electrical Engineering Co-Op, Spring 2027 | Cincinnati, OH | nan | [apply](https://www.linkedin.com/jobs/view/4459603408) |
+| A | spring | Johnson & Johnson MedTech | Electrical Engineering Co-Op, Spring 2027 | Cincinnati, OH | 2026-09-17 | [apply](https://www.linkedin.com/jobs/view/4459603408) |
 | A | spring | Kodiak | Winter 2027 Intern, Electrical Engineering | Mountain View, CA | 2026-08-25 | [apply](https://job-boards.greenhouse.io/kodiak/jobs/4382626009) |
 | A | spring | LG&E and KU Energy LLC | Spring 2027 Electrical Engineering Co-op - Multiple Positions Available! | Louisville, KY | nan | [apply](https://www.linkedin.com/jobs/view/4460123958) |
 | A | spring | Lennox | Hardware Engineering Spring Coop | Carrollton, TX | nan | [apply](https://www.linkedin.com/jobs/view/4468822762) |
@@ -54,6 +45,7 @@
 | A | spring | Rivian | Engineering Intern - Test and Validation, Charging Products (Spring 2027 Co-Op) | Torrance, CA | nan | [apply](https://www.linkedin.com/jobs/view/4467800830) |
 | A | spring | Rocket Lab | Test Engineering Intern - Manufacturing Spring 2027 | Long Beach, CA | 2026-09-17 | [apply](https://job-boards.greenhouse.io/rocketlab/jobs/7987042003) |
 | A | spring | Rocket Lab | Test Engineering Intern Spring 2027 | Stennis Space Center, MS | 2026-09-17 | [apply](https://job-boards.greenhouse.io/rocketlab/jobs/7990352003) |
+| A | spring | STV | Electrical Engineering Intern - Spring 2027 | Oklahoma City, OK | 2026-09-17 | [apply](https://www.linkedin.com/jobs/view/4457297511) |
 | A | spring | Samsara | Electrical Engineering Co-Op | San Francisco - SF9 | 2026-09-16 | [apply](https://www.samsara.com/company/careers/roles/8163118?gh_jid=8163118) |
 | A | spring | Shield AI | Electrical Engineering Spring Co-op (January 2027) (R4475) | Dallas, Texas | 1776259349 | [apply](https://jobs.lever.co/shieldai/87d982f2-8b2b-4c73-9a19-71e461c7b724) |
 | A | spring | Skydio | Electrical Engineer Intern - Winter 2027 | San Mateo, California, United States | 2026-09-17 | [apply](https://jobs.ashbyhq.com/skydio/9ac944bc-89da-44bb-bf9c-3b9922e7cbee) |
@@ -81,14 +73,13 @@
 | B | coop-unspecified | LyondellBasell | 2027 Electrical Engineer Intern / Co-op | Sulphur, LA | 2026-09-17 | [apply](https://www.linkedin.com/jobs/view/4458382102) |
 | B | coop-unspecified | Rehlko | Electrical Engineering Spring/Fall Co-op 2027 | Sheboygan, WI | 2026-09-17 | [apply](https://www.linkedin.com/jobs/view/4468364843) |
 | B | coop-unspecified | Ryko Solutions | Electrical Engineer Co-op | Des Moines, IA | 2026-09-17 | [apply](https://www.linkedin.com/jobs/view/4467163255) |
-| B | coop-unspecified | Siemens | Electrical Design Engineer Co-op (North Carolina State University) | Wendell, NC | 2026-09-16 | [apply](https://www.linkedin.com/jobs/view/4426918182) |
 | B | coop-unspecified | Skyworks | Analog IC Design Co-op | Irvine, CA | Apr 20 | [apply](https://careers.skyworksinc.com/job/Irvine-Analog-IC-Design-SummerFall-Co-Op-(June-&apos;26-Dec-&apos;26)-CA-92602/76295-en_US/?feedId=177100&utm_source=github-vansh-ouckah) |
 | B | coop-unspecified | Skyworks Solutions, Inc. | RF Filter Design / BAW development Co-Op | Andover, MA | 2026-09-15 | [apply](https://www.linkedin.com/jobs/view/4466572301) |
 | B | coop-unspecified | Skyworks Solutions, Inc. | RF Test Engineering Co-Op (June '27 - December '27) | Woburn, MA | 2026-09-15 | [apply](https://www.linkedin.com/jobs/view/4466578203) |
 | B | coop-unspecified | Tokyo Electron US | Process Engineer Fall 2027 Co-Op | Albany, NY | 2026-09-16 | [apply](https://www.linkedin.com/jobs/view/4467965150) |
-| B | coop-unspecified | bioMérieux | Hardware Co-op | Hazelwood, MO | 2026-09-15 | [apply](https://www.linkedin.com/jobs/view/4465566257) |
 | B | coop-unspecified | nVent | Electrical/Controls Engineering Co-Op | Anoka, MN | nan | [apply](https://www.linkedin.com/jobs/view/4468818985) |
 | C | unspecified | Akuna Capital | Hardware Engineer Intern | Chicago, IL | Jul 24 | [apply](https://akunacapital.com/careers/job/8018880/?gh_jid=8018880&utm_source=github-vansh-ouckah) |
+| C | unspecified | Amazon | ASIC Engineer Intern, Annapurna Labs - 2027 | Austin, TX | nan | [apply](https://www.linkedin.com/jobs/view/4460339361) |
 | C | unspecified | Analog Devices | Analog Design Engineer Intern | 3 Locations | Posted 2 Days Ago | [apply](https://analogdevices.wd1.myworkdayjobs.com/External/job/US-MA-Wilmington/Analog-Design-Engineer-Intern_R265297) |
 | C | unspecified | Analog Devices | Analog Design Engineer Intern | San Jose, CA | 2026-09-16 | [apply](https://www.linkedin.com/jobs/view/4465956370) |
 | C | unspecified | Analog Devices | Analog Devices Thailand’s Internship Program | Thailand, Chon Buri | Posted 30+ Days Ago | [apply](https://analogdevices.wd1.myworkdayjobs.com/External/job/Thailand-Chon-Buri/Analog-Devices-Thailand-s-Internship-Program_R258682) |
@@ -115,19 +106,15 @@
 | C | unspecified | DRW | FPGA Intern | Chicago | 2026-08-19 | [apply](https://job-boards.greenhouse.io/drweng/jobs/8038923) |
 | C | unspecified | DRW | FPGA Intern | Chicago, IL | Jul 31 | [apply](https://www.drw.com/work-at-drw/listings/fpga-intern-3484423) |
 | C | unspecified | Draper | Embedded Quality & Fielded Systems Intern | Cambridge, MA | Posted 30+ Days Ago | [apply](https://draper.wd5.myworkdayjobs.com/Draper_Careers/job/Cambridge-MA/Embedded-Quality---Fielded-Systems-Intern_JR002718) |
-| C | unspecified | ELDAEON INC. | Embedded Systems Firmware Engineering Intern (Graduates & U.S. Persons Only) | Azusa, CA | 2026-09-15 | [apply](https://www.linkedin.com/jobs/view/4466163775) |
-| C | unspecified | ELDAEON INC. | RF & Radar Engineering Intern (Graduates & U.S. Persons Only) | Azusa, CA | 2026-09-15 | [apply](https://www.linkedin.com/jobs/view/4466553020) |
 | C | unspecified | Etched | Firmware Intern | San Jose, CA | May 22 | [apply](https://jobs.ashbyhq.com/Etched/0e78a385-c450-4749-9803-0970ce2971a5) |
 | C | unspecified | Formlabs | Hardware R&D Engineering Intern | Somerville, MA | Aug 21 | [apply](https://careers.formlabs.com/job/8097694/apply/?gh_jid=8097694&utm_source=github-vansh-ouckah) |
 | C | unspecified | General Dynamics Mission Systems | Electrical Engineer Intern | Boise, ID | nan | [apply](https://www.linkedin.com/jobs/view/4467599663) |
-| C | unspecified | General Dynamics Mission Systems | Hardware EE Intern Engineer for Crypto and Cross Domain Solutions | Scottsdale, AZ | 2026-09-16 | [apply](https://www.linkedin.com/jobs/view/4466880595) |
+| C | unspecified | General Dynamics Mission Systems | Intern Engineer - FPGA | Bloomington, MN | nan | [apply](https://www.linkedin.com/jobs/view/4467879616) |
 | C | unspecified | Graco | Electrical Engineering Intern | Dexter, MI | 2026-09-15 | [apply](https://www.linkedin.com/jobs/view/4465598995) |
 | C | unspecified | HPR | FPGA Engineering Intern | Needham, MA | Aug 21 | [apply](https://job-boards.greenhouse.io/hyannisportresearch/jobs/7822801003) |
 | C | unspecified | HiArc | Electrical Engineering Intern | Merrimack, NH | 2026-09-15 | [apply](https://www.linkedin.com/jobs/view/4465908567) |
-| C | unspecified | IBM | Hardware Developer Intern 2027 - Houston, TX | Houston, TX | nan | [apply](https://www.linkedin.com/jobs/view/4466272640) |
+| C | unspecified | IBM | Hardware Developer Intern 2027 - Houston, TX | Houston, TX | 2026-09-17 | [apply](https://www.linkedin.com/jobs/view/4466272640) |
 | C | unspecified | IBM | Hardware and Systems Developer Intern 2027 -New York | Hopewell Junction, NY | 2026-09-16 | [apply](https://www.linkedin.com/jobs/view/4457232014) |
-| C | unspecified | IBM | Intern Software Engineer / Agent Engineer - EDA - Poughkeepsie 2027 | Poughkeepsie, AR | 2026-09-15 | [apply](https://www.linkedin.com/jobs/view/4456558389) |
-| C | unspecified | IBM | QA/Test Engineer Intern-Poughkeepsie, NY | Poughkeepsie, AR | 2026-09-15 | [apply](https://www.linkedin.com/jobs/view/4456513988) |
 | C | unspecified | IMC | Hardware Engineer Intern | Chicago, IL | Jul 24 | [apply](https://www.imc.com/us/careers/jobs/4823945101) |
 | C | unspecified | Infineon Technologies | Internship - Unit Test Engineer | Leominster, MA | 2026-09-17 | [apply](https://www.linkedin.com/jobs/view/4468645109) |
 | C | unspecified | Intel | Platform Hardware and Systems Engineering - Intern, Bachelor’s | 5 Locations | Posted 16 Days Ago | [apply](https://intel.wd1.myworkdayjobs.com/External/job/US-Oregon-Hillsboro/Platform-Hardware-and-Systems-Engineering---Intern--Bachelor-s_JR0286827) |
@@ -147,7 +134,7 @@
 | C | unspecified | Marvell | Design Verification Intern | 2 Locations | Posted Yesterday | [apply](https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Petah-Tikva/Design-Verification-Intern_2604494) |
 | C | unspecified | Marvell | System Chip Validation Intern | Petah-Tikva | Posted Yesterday | [apply](https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Petah-Tikva/System-Chip-Validation-Intern_2604495) |
 | C | unspecified | Mercury Systems | 2027 Hardware Electrical Engineer Intern | Andover, MA | nan | [apply](https://www.linkedin.com/jobs/view/4467814095) |
-| C | unspecified | Mercury Systems | 2027 RF Engineering Intern | Peachtree Corners, GA | nan | [apply](https://www.linkedin.com/jobs/view/4467594805) |
+| C | unspecified | Mercury Systems | 2027 RF Engineering Intern | Peachtree Corners, GA | nan | [apply](https://www.linkedin.com/jobs/view/4467804698) |
 | C | unspecified | Mercury Systems | 2027 RF Engineering Intern | West Caldwell, NJ | nan | [apply](https://www.linkedin.com/jobs/view/4467801742) |
 | C | unspecified | Micron Technology | Intern - ASIC Validation | Minneapolis, MN | 2026-09-16 | [apply](https://www.linkedin.com/jobs/view/4466842914) |
 | C | unspecified | Micron Technology | Intern - HBM SoC Physical Design Engineer | Folsom, CA | 2026-09-16 | [apply](https://www.linkedin.com/jobs/view/4466848843) |
