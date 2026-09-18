@@ -1,0 +1,612 @@
+[
+ {
+  "name": "SpaceX",
+  "ats": "greenhouse",
+  "token": "spacex",
+  "tier": "big"
+ },
+ {
+  "name": "Astera Labs",
+  "ats": "greenhouse",
+  "token": "asteralabs",
+  "tier": "startup"
+ },
+ {
+  "name": "Lightmatter",
+  "ats": "greenhouse",
+  "token": "lightmatter",
+  "tier": "startup"
+ },
+ {
+  "name": "Tenstorrent",
+  "ats": "greenhouse",
+  "token": "tenstorrent",
+  "tier": "startup"
+ },
+ {
+  "name": "Anduril",
+  "ats": "greenhouse",
+  "token": "andurilindustries",
+  "tier": "big"
+ },
+ {
+  "name": "Hudson River Trading",
+  "ats": "greenhouse",
+  "token": "wehrtyou",
+  "tier": "big"
+ },
+ {
+  "name": "Jump Trading",
+  "ats": "greenhouse",
+  "token": "jumptrading",
+  "tier": "big"
+ },
+ {
+  "name": "DRW",
+  "ats": "greenhouse",
+  "token": "drweng",
+  "tier": "big"
+ },
+ {
+  "name": "IMC",
+  "ats": "greenhouse",
+  "token": "imc",
+  "tier": "big"
+ },
+ {
+  "name": "Optiver",
+  "ats": "greenhouse",
+  "token": "optiverus",
+  "tier": "big"
+ },
+ {
+  "name": "Zipline",
+  "ats": "greenhouse",
+  "token": "flyzipline",
+  "tier": "startup"
+ },
+ {
+  "name": "Relativity Space",
+  "ats": "greenhouse",
+  "token": "relativity",
+  "tier": "startup"
+ },
+ {
+  "name": "PsiQuantum",
+  "ats": "greenhouse",
+  "token": "psiquantum",
+  "tier": "startup"
+ },
+ {
+  "name": "IonQ",
+  "ats": "greenhouse",
+  "token": "ionq",
+  "tier": "startup"
+ },
+ {
+  "name": "Samsara",
+  "ats": "greenhouse",
+  "token": "samsara",
+  "tier": "big"
+ },
+ {
+  "name": "Waymo",
+  "ats": "greenhouse",
+  "token": "waymo",
+  "tier": "big"
+ },
+ {
+  "name": "Nuro",
+  "ats": "greenhouse",
+  "token": "nuro",
+  "tier": "startup"
+ },
+ {
+  "name": "Lucid Motors",
+  "ats": "greenhouse",
+  "token": "lucidmotors",
+  "tier": "big"
+ },
+ {
+  "name": "Epirus",
+  "ats": "greenhouse",
+  "token": "epirus",
+  "tier": "startup"
+ },
+ {
+  "name": "Astranis",
+  "ats": "greenhouse",
+  "token": "astranis",
+  "tier": "startup"
+ },
+ {
+  "name": "Vast",
+  "ats": "greenhouse",
+  "token": "vast",
+  "tier": "startup"
+ },
+ {
+  "name": "Ursa Major",
+  "ats": "greenhouse",
+  "token": "ursamajor",
+  "tier": "startup"
+ },
+ {
+  "name": "Muon Space",
+  "ats": "greenhouse",
+  "token": "muonspace",
+  "tier": "startup"
+ },
+ {
+  "name": "Rocket Lab",
+  "ats": "greenhouse",
+  "token": "rocketlab",
+  "tier": "big"
+ },
+ {
+  "name": "Apptronik",
+  "ats": "greenhouse",
+  "token": "apptronik",
+  "tier": "startup"
+ },
+ {
+  "name": "Figure AI",
+  "ats": "greenhouse",
+  "token": "figureai",
+  "tier": "startup"
+ },
+ {
+  "name": "Agility Robotics",
+  "ats": "greenhouse",
+  "token": "agilityrobotics",
+  "tier": "startup"
+ },
+ {
+  "name": "SambaNova",
+  "ats": "greenhouse",
+  "token": "sambanovasystems",
+  "tier": "startup"
+ },
+ {
+  "name": "Varda Space",
+  "ats": "greenhouse",
+  "token": "vardaspace",
+  "tier": "startup"
+ },
+ {
+  "name": "Oura",
+  "ats": "greenhouse",
+  "token": "oura",
+  "tier": "big"
+ },
+ {
+  "name": "Anello Photonics",
+  "ats": "greenhouse",
+  "token": "anellophotonics",
+  "tier": "startup"
+ },
+ {
+  "name": "Vannevar Labs",
+  "ats": "greenhouse",
+  "token": "vannevarlabs",
+  "tier": "startup"
+ },
+ {
+  "name": "Kodiak",
+  "ats": "greenhouse",
+  "token": "kodiak",
+  "tier": "startup"
+ },
+ {
+  "name": "Motional",
+  "ats": "greenhouse",
+  "token": "motional",
+  "tier": "big"
+ },
+ {
+  "name": "Torc Robotics",
+  "ats": "greenhouse",
+  "token": "torcrobotics",
+  "tier": "big"
+ },
+ {
+  "name": "Planet Labs",
+  "ats": "greenhouse",
+  "token": "planetlabs",
+  "tier": "big"
+ },
+ {
+  "name": "Scale AI",
+  "ats": "greenhouse",
+  "token": "scaleai",
+  "tier": "big"
+ },
+ {
+  "name": "Anthropic",
+  "ats": "greenhouse",
+  "token": "anthropic",
+  "tier": "big"
+ },
+ {
+  "name": "May Mobility",
+  "ats": "greenhouse",
+  "token": "maymobility",
+  "tier": "startup"
+ },
+ {
+  "name": "Glydways",
+  "ats": "greenhouse",
+  "token": "glydways",
+  "tier": "startup"
+ },
+ {
+  "name": "Butterfly Network",
+  "ats": "greenhouse",
+  "token": "butterflynetwork",
+  "tier": "startup"
+ },
+ {
+  "name": "Rigetti",
+  "ats": "lever",
+  "token": "rigetti",
+  "tier": "startup"
+ },
+ {
+  "name": "Eliyan",
+  "ats": "lever",
+  "token": "eliyan",
+  "tier": "startup"
+ },
+ {
+  "name": "Atom Computing",
+  "ats": "lever",
+  "token": "atomcomputing",
+  "tier": "startup"
+ },
+ {
+  "name": "Shield AI",
+  "ats": "lever",
+  "token": "shieldai",
+  "tier": "big"
+ },
+ {
+  "name": "Zoox",
+  "ats": "lever",
+  "token": "zoox",
+  "tier": "big"
+ },
+ {
+  "name": "Aeva",
+  "ats": "lever",
+  "token": "aeva",
+  "tier": "startup"
+ },
+ {
+  "name": "Hermeus",
+  "ats": "lever",
+  "token": "hermeus",
+  "tier": "startup"
+ },
+ {
+  "name": "Dexterity",
+  "ats": "lever",
+  "token": "dexterity",
+  "tier": "startup"
+ },
+ {
+  "name": "Pickle Robot",
+  "ats": "lever",
+  "token": "picklerobot",
+  "tier": "startup"
+ },
+ {
+  "name": "Waabi",
+  "ats": "lever",
+  "token": "waabi",
+  "tier": "startup"
+ },
+ {
+  "name": "Etched",
+  "ats": "ashby",
+  "token": "etched",
+  "tier": "startup"
+ },
+ {
+  "name": "d-Matrix",
+  "ats": "ashby",
+  "token": "d-matrix",
+  "tier": "startup"
+ },
+ {
+  "name": "MatX",
+  "ats": "ashby",
+  "token": "matx",
+  "tier": "startup"
+ },
+ {
+  "name": "Cerebras",
+  "ats": "ashby",
+  "token": "cerebras",
+  "tier": "startup"
+ },
+ {
+  "name": "WHOOP",
+  "ats": "ashby",
+  "token": "whoop",
+  "tier": "big"
+ },
+ {
+  "name": "Specter",
+  "ats": "ashby",
+  "token": "specter",
+  "tier": "startup"
+ },
+ {
+  "name": "Saronic",
+  "ats": "ashby",
+  "token": "saronic",
+  "tier": "startup"
+ },
+ {
+  "name": "Axelera AI",
+  "ats": "ashby",
+  "token": "axelera",
+  "tier": "startup"
+ },
+ {
+  "name": "Lambda",
+  "ats": "ashby",
+  "token": "lambda",
+  "tier": "startup"
+ },
+ {
+  "name": "Skydio",
+  "ats": "ashby",
+  "token": "skydio",
+  "tier": "startup"
+ },
+ {
+  "name": "Form Energy",
+  "ats": "ashby",
+  "token": "formenergy",
+  "tier": "startup"
+ },
+ {
+  "name": "Quadric",
+  "ats": "ashby",
+  "token": "quadric",
+  "tier": "startup"
+ },
+ {
+  "name": "Physical Intelligence",
+  "ats": "ashby",
+  "token": "physicalintelligence",
+  "tier": "startup"
+ },
+ {
+  "name": "1X",
+  "ats": "ashby",
+  "token": "1x",
+  "tier": "startup"
+ },
+ {
+  "name": "Impulse Space",
+  "ats": "ashby",
+  "token": "impulse",
+  "tier": "startup"
+ },
+ {
+  "name": "Applied Intuition",
+  "ats": "ashby",
+  "token": "applied",
+  "tier": "startup"
+ },
+ {
+  "name": "OpenAI",
+  "ats": "ashby",
+  "token": "openai",
+  "tier": "big"
+ },
+ {
+  "name": "Wayve",
+  "ats": "ashby",
+  "token": "wayve",
+  "tier": "startup"
+ },
+ {
+  "name": "Pliant",
+  "ats": "ashby",
+  "token": "pliant",
+  "tier": "startup"
+ },
+ {
+  "name": "NVIDIA",
+  "ats": "workday",
+  "tenant": "nvidia",
+  "host": "wd5",
+  "site": "NVIDIAExternalCareerSite",
+  "tier": "big"
+ },
+ {
+  "name": "Intel",
+  "ats": "workday",
+  "tenant": "intel",
+  "host": "wd1",
+  "site": "External",
+  "tier": "big"
+ },
+ {
+  "name": "Analog Devices",
+  "ats": "workday",
+  "tenant": "analogdevices",
+  "host": "wd1",
+  "site": "External",
+  "tier": "big"
+ },
+ {
+  "name": "Marvell",
+  "ats": "workday",
+  "tenant": "marvell",
+  "host": "wd1",
+  "site": "MarvellCareers",
+  "tier": "big"
+ },
+ {
+  "name": "NXP",
+  "ats": "workday",
+  "tenant": "nxp",
+  "host": "wd3",
+  "site": "careers",
+  "tier": "big"
+ },
+ {
+  "name": "Microchip",
+  "ats": "workday",
+  "tenant": "microchiphr",
+  "host": "wd5",
+  "site": "External",
+  "tier": "big"
+ },
+ {
+  "name": "Wolfspeed",
+  "ats": "workday",
+  "tenant": "cree",
+  "host": "wd108",
+  "site": "EXT",
+  "tier": "big"
+ },
+ {
+  "name": "Silicon Labs",
+  "ats": "workday",
+  "tenant": "silabs",
+  "host": "wd1",
+  "site": "SiliconLabsCareers",
+  "tier": "big"
+ },
+ {
+  "name": "Broadcom",
+  "ats": "workday",
+  "tenant": "broadcom",
+  "host": "wd1",
+  "site": "External_Career",
+  "tier": "big"
+ },
+ {
+  "name": "Allegro MicroSystems",
+  "ats": "workday",
+  "tenant": "allegromicro",
+  "host": "wd5",
+  "site": "AllegroCareers",
+  "tier": "big"
+ },
+ {
+  "name": "Monolithic Power Systems",
+  "ats": "workday",
+  "tenant": "monolithicpower",
+  "host": "wd12",
+  "site": "MPS_Careers",
+  "tier": "big"
+ },
+ {
+  "name": "Blue Origin",
+  "ats": "workday",
+  "tenant": "blueorigin",
+  "host": "wd5",
+  "site": "BlueOrigin",
+  "tier": "big"
+ },
+ {
+  "name": "Draper",
+  "ats": "workday",
+  "tenant": "draper",
+  "host": "wd5",
+  "site": "Draper_Careers",
+  "tier": "big"
+ },
+ {
+  "name": "Boston Dynamics",
+  "ats": "workday",
+  "tenant": "bostondynamics",
+  "host": "wd1",
+  "site": "Boston_Dynamics",
+  "tier": "big"
+ },
+ {
+  "name": "KLA",
+  "ats": "workday",
+  "tenant": "kla",
+  "host": "wd1",
+  "site": "Search",
+  "tier": "big"
+ },
+ {
+  "name": "Applied Materials",
+  "ats": "workday",
+  "tenant": "amat",
+  "host": "wd1",
+  "site": "External",
+  "tier": "big"
+ },
+ {
+  "name": "Cadence",
+  "ats": "workday",
+  "tenant": "cadence",
+  "host": "wd1",
+  "site": "External_Careers",
+  "tier": "big"
+ },
+ {
+  "name": "Cisco",
+  "ats": "workday",
+  "tenant": "cisco",
+  "host": "wd5",
+  "site": "Cisco_Careers",
+  "tier": "big"
+ },
+ {
+  "name": "Samsung Semiconductor",
+  "ats": "workday",
+  "tenant": "sec",
+  "host": "wd3",
+  "site": "Samsung_Careers",
+  "tier": "big"
+ },
+ {
+  "name": "Texas Instruments",
+  "ats": "oracle_hcm",
+  "host": "edbz.fa.us2.oraclecloud.com",
+  "site": "CX",
+  "tier": "big"
+ },
+ {
+  "name": "onsemi",
+  "ats": "oracle_hcm",
+  "host": "hctz.fa.us2.oraclecloud.com",
+  "site": "CX_1001",
+  "tier": "big"
+ },
+ {
+  "name": "Skyworks",
+  "ats": "successfactors",
+  "base": "https://careers.skyworksinc.com",
+  "tier": "big"
+ },
+ {
+  "name": "Teradyne",
+  "ats": "successfactors",
+  "base": "https://careers.teradyne.com",
+  "tier": "big"
+ },
+ {
+  "name": "Infineon",
+  "ats": "successfactors",
+  "base": "https://jobs.infineon.com",
+  "tier": "big"
+ },
+ {
+  "name": "AMD",
+  "ats": "jibe",
+  "base": "https://careers.amd.com",
+  "tier": "big"
+ }
+]

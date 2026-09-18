@@ -1,0 +1,214 @@
+<title>Spring 27 Co-op Board</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+:root{
+  --bg:#f6f7f4; --panel:#ffffff; --ink:#1c1f1a; --muted:#66705f; --line:#dde2d6;
+  --accent:#1f5f3f; --accent-ink:#ffffff; --soft:#e8efe6;
+  --a:#1f5f3f; --b:#8a6d1f; --c:#6b7280;
+  --applied:#2457a8; --skip:#9a9f95; --interview:#b3541e; --offer:#1f5f3f;
+  --nu:#c8102e;
+}
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){
+  --bg:#141613; --panel:#1c1f1a; --ink:#e9ece4; --muted:#9aa393; --line:#2c3128;
+  --accent:#5fbf8a; --accent-ink:#0f1a13; --soft:#1f2a22;
+  --a:#5fbf8a; --b:#d9b45a; --c:#8b929c; --applied:#7fa8ec; --skip:#6b7066; --interview:#e6844f; --offer:#5fbf8a; --nu:#ff5c6e;
+}}
+:root[data-theme="dark"]{
+  --bg:#141613; --panel:#1c1f1a; --ink:#e9ece4; --muted:#9aa393; --line:#2c3128;
+  --accent:#5fbf8a; --accent-ink:#0f1a13; --soft:#1f2a22;
+  --a:#5fbf8a; --b:#d9b45a; --c:#8b929c; --applied:#7fa8ec; --skip:#6b7066; --interview:#e6844f; --offer:#5fbf8a; --nu:#ff5c6e;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:14px/1.45 "IBM Plex Sans",system-ui,sans-serif;padding-block:0 40px}
+.wrap{padding-inline:16px;max-width:1400px;margin:0 auto}
+header{display:flex;flex-wrap:wrap;align-items:baseline;gap:8px 20px;padding-block:22px 10px}
+h1{font-size:22px;margin:0;font-weight:600;letter-spacing:-.01em}
+.sub{color:var(--muted)}
+.stats{display:flex;flex-wrap:wrap;gap:8px;margin:6px 0 14px}
+.stat{background:var(--panel);border:1px solid var(--line);border-radius:6px;padding:8px 12px;min-width:96px}
+.stat b{display:block;font-size:20px;font-weight:600;font-variant-numeric:tabular-nums}
+.stat span{color:var(--muted);font-size:12px;text-transform:uppercase;letter-spacing:.04em}
+.bar{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:12px}
+.bar input[type=search]{flex:1 1 220px;padding:8px 10px;border:1px solid var(--line);border-radius:6px;background:var(--panel);color:var(--ink);font:inherit}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip{border:1px solid var(--line);background:var(--panel);color:var(--ink);border-radius:999px;padding:5px 11px;font:inherit;font-size:13px;cursor:pointer}
+.chip[aria-pressed=true]{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
+.chip:focus-visible,select:focus-visible,input:focus-visible,textarea:focus-visible{outline:2px solid var(--accent);outline-offset:1px}
+.tablewrap{overflow-x:auto;background:var(--panel);border:1px solid var(--line);border-radius:8px}
+table{border-collapse:collapse;width:100%;min-width:900px}
+th,td{padding:8px 10px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+th{font-size:12px;text-transform:uppercase;letter-spacing:.04em;color:var(--muted);font-weight:500;position:sticky;top:0;background:var(--panel);cursor:pointer;white-space:nowrap}
+tr:last-child td{border-bottom:0}
+td.title a{color:var(--ink);text-decoration:none;font-weight:500}
+td.title a:hover{text-decoration:underline}
+td.title .loc{display:block;color:var(--muted);font-size:12.5px}
+.rank{display:inline-block;font:500 12px/1 "IBM Plex Mono",monospace;padding:4px 7px;border-radius:4px;color:#fff;min-width:22px;text-align:center}
+.rank.A{background:var(--a)} .rank.B{background:var(--b)} .rank.C{background:var(--c)}
+.term{font:12px "IBM Plex Mono",monospace;color:var(--muted);white-space:nowrap}
+.src{font-size:11.5px;color:var(--muted);white-space:nowrap}
+.nu{color:var(--nu);font-weight:600}
+select.status{font:inherit;font-size:13px;padding:4px 6px;border:1px solid var(--line);border-radius:5px;background:var(--panel);color:var(--ink)}
+select.status.applied{border-color:var(--applied);color:var(--applied)}
+select.status.interview{border-color:var(--interview);color:var(--interview)}
+select.status.offer{border-color:var(--offer);color:var(--offer)}
+select.status.skip{color:var(--skip)}
+tr.skip td{opacity:.55}
+input.inl{width:100%;min-width:120px;font:inherit;font-size:13px;padding:4px 6px;border:1px solid transparent;border-radius:5px;background:transparent;color:var(--ink)}
+input.inl:hover,input.inl:focus{border-color:var(--line);background:var(--bg)}
+.foot{color:var(--muted);font-size:12.5px;margin-top:10px}
+.pill{display:inline-block;font-size:11px;padding:2px 7px;border-radius:999px;background:var(--soft);color:var(--accent);margin-left:6px;vertical-align:middle}
+.empty{padding:30px;text-align:center;color:var(--muted)}
+.toast{position:fixed;bottom:16px;right:16px;background:var(--ink);color:var(--bg);padding:8px 12px;border-radius:6px;font-size:13px}
+.legend{font-size:12.5px;color:var(--muted);margin:0 0 10px}
+.legend b{font-weight:500;color:var(--ink)}
+@media (max-width:640px){ h1{font-size:19px} .stat{min-width:80px} }
+</style>
+
+<div class="wrap">
+  <header>
+    <h1>Spring 27 Co-op Board</h1>
+    <span class="sub" id="asof">loading…</span>
+  </header>
+  <div class="stats" id="stats"></div>
+  <p class="legend"><b>A</b> spring / Jan 2027 stated &nbsp;·&nbsp; <b>B</b> co-op, term not stated &nbsp;·&nbsp; <b>C</b> intern, term not stated &nbsp;·&nbsp; <span class="nu">NU</span> came through NUWorks. Edit status, connection and notes right in the row; it saves as you type.</p>
+  <div class="bar">
+    <input type="search" id="q" placeholder="Search company, role, location, notes…" aria-label="Search">
+    <div class="chips" id="rankChips">
+      <button class="chip" data-f="rank" data-v="A" aria-pressed="true">A</button>
+      <button class="chip" data-f="rank" data-v="B" aria-pressed="true">B</button>
+      <button class="chip" data-f="rank" data-v="C" aria-pressed="true">C</button>
+    </div>
+    <div class="chips" id="statusChips">
+      <button class="chip" data-f="status" data-v="new" aria-pressed="true">new</button>
+      <button class="chip" data-f="status" data-v="applied" aria-pressed="true">applied</button>
+      <button class="chip" data-f="status" data-v="interview" aria-pressed="true">interview</button>
+      <button class="chip" data-f="status" data-v="offer" aria-pressed="true">offer</button>
+      <button class="chip" data-f="status" data-v="skip" aria-pressed="false">skip</button>
+    </div>
+    <div class="chips" id="srcChips">
+      <button class="chip" data-f="nu" data-v="1" aria-pressed="false">NUWorks only</button>
+      <button class="chip" data-f="nu" data-v="qual" aria-pressed="false">Hide "not qualified"</button>
+    </div>
+  </div>
+  <div class="tablewrap">
+    <table id="t">
+      <thead><tr>
+        <th data-k="rank">Rank</th><th data-k="term">Term</th><th data-k="company">Company</th><th data-k="title">Role</th>
+        <th data-k="status">Status</th><th data-k="nu_connection">NU connection</th><th>Notes</th><th data-k="posted">Posted</th><th data-k="first_seen">Seen</th><th>Source</th>
+      </tr></thead>
+      <tbody id="rows"><tr><td colspan="10" class="empty">Connecting…</td></tr></tbody>
+    </table>
+  </div>
+  <p class="foot" id="foot"></p>
+</div>
+
+<script>
+(function(){
+  const $ = s => document.querySelector(s);
+  const state = {jobs: [], sort: {k:'rank', dir:'asc'}, f: {rank:new Set(['A','B','C']), status:new Set(['new','applied','interview','offer']), nu:false, qual:false}, q:''};
+  try { const s = localStorage.getItem('coop.filters'); if (s) { const o = JSON.parse(s); state.f.rank = new Set(o.rank); state.f.status = new Set(o.status); state.f.nu = !!o.nu; state.f.qual = !!o.qual; } } catch(e) {}
+  let db = null, canWrite = true, toastT = null;
+  const RANKORD = {A:0,B:1,C:2};
+  const esc = s => String(s == null ? '' : s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+
+  function syncChips(){
+    document.querySelectorAll('.chip').forEach(b => {
+      const f = b.dataset.f, v = b.dataset.v;
+      if (f === 'rank') b.setAttribute('aria-pressed', state.f.rank.has(v));
+      else if (f === 'status') b.setAttribute('aria-pressed', state.f.status.has(v));
+      else if (f === 'nu') b.setAttribute('aria-pressed', v === '1' ? state.f.nu : state.f.qual);
+    });
+    try { localStorage.setItem('coop.filters', JSON.stringify({rank:[...state.f.rank], status:[...state.f.status], nu:state.f.nu, qual:state.f.qual})); } catch(e) {}
+  }
+  document.querySelectorAll('.chip').forEach(b => b.addEventListener('click', () => {
+    const f = b.dataset.f, v = b.dataset.v;
+    if (f === 'rank' || f === 'status') { const s = state.f[f]; s.has(v) ? s.delete(v) : s.add(v); }
+    else if (v === '1') state.f.nu = !state.f.nu; else state.f.qual = !state.f.qual;
+    syncChips(); render();
+  }));
+  $('#q').addEventListener('input', e => { state.q = e.target.value.toLowerCase(); render(); });
+  document.querySelectorAll('th[data-k]').forEach(th => th.addEventListener('click', () => {
+    const k = th.dataset.k; if (state.sort.k === k) state.sort.dir = state.sort.dir === 'asc' ? 'desc' : 'asc'; else state.sort = {k, dir:'asc'}; render();
+  }));
+
+  function visible(){
+    const q = state.q;
+    return state.jobs.filter(j => {
+      if (!state.f.rank.has(j.rank || 'C')) return false;
+      if (!state.f.status.has(j.status || 'new')) return false;
+      if (state.f.nu && !j.nuworks) return false;
+      if (state.f.qual && j.nu_qualified === false) return false;
+      if (q) { const hay = [j.company, j.title, j.location, j.notes, j.nu_connection, j.term, j.hw].join(' ').toLowerCase(); if (!hay.includes(q)) return false; }
+      return true;
+    }).sort((a,b) => {
+      const k = state.sort.k; let x = a[k] ?? '', y = b[k] ?? '';
+      if (k === 'rank') { x = RANKORD[x] ?? 9; y = RANKORD[y] ?? 9; }
+      if (x < y) return state.sort.dir === 'asc' ? -1 : 1; if (x > y) return state.sort.dir === 'asc' ? 1 : -1;
+      return (a.company || '').localeCompare(b.company || '') || (a.title || '').localeCompare(b.title || '');
+    });
+  }
+
+  function render(){
+    const rows = visible(); const tb = $('#rows');
+    const all = state.jobs;
+    const cnt = k => all.filter(j => (j.rank||'C') === k && (j.status||'new') !== 'skip').length;
+    $('#stats').innerHTML = [
+      ['A · spring stated', cnt('A')], ['B · co-op', cnt('B')], ['C · intern', cnt('C')],
+      ['applied', all.filter(j => ['applied','interview','offer'].includes(j.status)).length],
+      ['via NUWorks', all.filter(j => j.nuworks).length],
+    ].map(([l,n]) => `<div class="stat"><b>${n}</b><span>${l}</span></div>`).join('');
+    if (!rows.length) { tb.innerHTML = '<tr><td colspan="10" class="empty">Nothing matches these filters.</td></tr>'; $('#foot').textContent = `0 of ${all.length}`; return; }
+    tb.innerHTML = rows.map(j => {
+      const st = j.status || 'new';
+      const opts = ['new','applied','interview','offer','skip'].map(o => `<option value="${o}" ${o===st?'selected':''}>${o}</option>`).join('');
+      const nuTag = j.nuworks ? `<span class="nu" title="On NUWorks${j.nu_qualified===false?' (shows Not Qualified)':''}">NU${j.nu_qualified===false?'✗':''}</span> ` : '';
+      const dis = canWrite ? '' : 'disabled';
+      return `<tr class="${st}" data-id="${esc(j.id)}">
+        <td><span class="rank ${esc(j.rank||'C')}">${esc(j.rank||'C')}</span></td>
+        <td class="term">${esc(j.term||'')}</td>
+        <td>${nuTag}${esc(j.company)}${j.tier==='startup'?'<span class="pill">startup</span>':''}</td>
+        <td class="title"><a href="${esc(j.url)}" target="_blank" rel="noopener">${esc(j.title)}</a><span class="loc">${esc(j.location||'')}${j.deadline?' · due '+esc(j.deadline):''}</span></td>
+        <td><select class="status ${st}" data-k="status" ${dis}>${opts}</select></td>
+        <td><input class="inl" data-k="nu_connection" value="${esc(j.nu_connection||'')}" placeholder="recruiter / alum / fair" ${dis}></td>
+        <td><input class="inl" data-k="notes" value="${esc(j.notes||'')}" placeholder="…" ${dis}></td>
+        <td class="term">${esc(j.posted||'')}</td>
+        <td class="term">${esc(j.first_seen||'')}</td>
+        <td class="src">${esc((j.sources||[]).join('+') || j.source || '')}</td>
+      </tr>`;
+    }).join('');
+    $('#foot').textContent = `${rows.length} of ${all.length} postings`;
+  }
+
+  const pending = new Map();
+  function queueWrite(id, k, v){
+    if (!db) return;
+    const key = id + '|' + k; clearTimeout(pending.get(key));
+    pending.set(key, setTimeout(async () => {
+      pending.delete(key);
+      try { await db.doc('jobs/' + id).update({[k]: v, updated_at: new Date().toISOString()}); toast('Saved'); }
+      catch (e) { if (e && e.code === 'invalid_argument') { canWrite = false; toast('Read-only view'); render(); } else toast('Save failed, try again'); }
+    }, k === 'status' ? 0 : 500));
+  }
+  $('#rows').addEventListener('change', e => { const el = e.target; const tr = el.closest('tr'); if (!tr || !el.dataset.k) return;
+    const j = state.jobs.find(x => x.id === tr.dataset.id); if (j) j[el.dataset.k] = el.value;
+    if (el.dataset.k === 'status') { el.className = 'status ' + el.value; tr.className = el.value; }
+    queueWrite(tr.dataset.id, el.dataset.k, el.value); });
+  $('#rows').addEventListener('input', e => { const el = e.target; const tr = el.closest('tr'); if (!tr || el.tagName !== 'INPUT') return;
+    const j = state.jobs.find(x => x.id === tr.dataset.id); if (j) j[el.dataset.k] = el.value; queueWrite(tr.dataset.id, el.dataset.k, el.value); });
+  function toast(m){ let t = $('.toast'); if (!t) { t = document.createElement('div'); t.className = 'toast'; document.body.appendChild(t); } t.textContent = m; clearTimeout(toastT); toastT = setTimeout(() => t.remove(), 1400); }
+
+  syncChips();
+  (async () => {
+    db = window.claude && await window.claude.use('db');
+    if (!db) { $('#rows').innerHTML = '<tr><td colspan="10" class="empty">The board could not connect to its data store in this view.</td></tr>'; $('#asof').textContent = 'offline'; return; }
+    const user = await window.claude.use('user'); if (user) { const w = await user.can('data.write'); if (w === false) canWrite = false; }
+    db.collection('jobs').onSnapshot(snap => {
+      state.jobs = snap.docs.map(d => ({id: d.id, ...d.data()}));
+      const last = state.jobs.reduce((m, j) => j.last_seen > m ? j.last_seen : m, '');
+      $('#asof').textContent = last ? `last scan ${last}` : '';
+      render();
+    }, err => { $('#rows').innerHTML = `<tr><td colspan="10" class="empty">Could not load postings (${esc(err.code)}).</td></tr>`; });
+    db.doc('meta/scan').onSnapshot(s => { if (s.exists) { const m = s.data(); $('#asof').textContent = `last scan ${m.date}${m.note ? ' · ' + m.note : ''}`; } });
+  })();
+})();
+</script>
