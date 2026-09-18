@@ -27,7 +27,7 @@ HP,big,workday,no spring/co-op posting yet,,unknown; scraper records first-seen 
 Honeywell,big,oracle_hcm,no spring/co-op posting yet,,unknown; scraper records first-seen dates from now on
 Hudson River Trading,big,greenhouse,no spring/co-op posting yet,,unknown; scraper records first-seen dates from now on
 IMC,big,greenhouse,no spring/co-op posting yet,,unknown; scraper records first-seen dates from now on
-Infineon,big,eightfold,no spring/co-op posting yet,,unknown; scraper records first-seen dates from now on
+Infineon,big,eightfold,FETCHER FAILING for 3 runs: HTTPError: HTTP Error 403: FORBIDDEN,,unknown; scraper records first-seen dates from now on
 Intel,big,workday,no spring/co-op posting yet,,unknown; scraper records first-seen dates from now on
 Jump Trading,big,greenhouse,no spring/co-op posting yet,,unknown; scraper records first-seen dates from now on
 Juniper Networks,big,oracle_hcm,no spring/co-op posting yet,,unknown; scraper records first-seen dates from now on
@@ -44,7 +44,7 @@ Marvell,big,workday,no spring/co-op posting yet,,unknown; scraper records first-
 MaxLinear,big,icims,no spring/co-op posting yet,,unknown; scraper records first-seen dates from now on
 May Mobility,big,greenhouse,no spring/co-op posting yet,,unknown; scraper records first-seen dates from now on
 Microchip,big,workday,no spring/co-op posting yet,,unknown; scraper records first-seen dates from now on
-Micron,big,eightfold,no spring/co-op posting yet,,unknown; scraper records first-seen dates from now on
+Micron,big,eightfold,FETCHER FAILING for 3 runs: HTTPError: HTTP Error 403: FORBIDDEN,,unknown; scraper records first-seen dates from now on
 Monolithic Power Systems,big,workday,no spring/co-op posting yet,,unknown; scraper records first-seen dates from now on
 Moog,big,workday,no spring/co-op posting yet,,unknown; scraper records first-seen dates from now on
 Motional,big,greenhouse,no spring/co-op posting yet,,unknown; scraper records first-seen dates from now on
@@ -60,7 +60,7 @@ Oura,big,greenhouse,no spring/co-op posting yet,,unknown; scraper records first-
 Physical Intelligence,big,ashby,no spring/co-op posting yet,,unknown; scraper records first-seen dates from now on
 Planet Labs,big,greenhouse,no spring/co-op posting yet,,unknown; scraper records first-seen dates from now on
 Qorvo,big,successfactors_csb,no spring/co-op posting yet,,unknown; scraper records first-seen dates from now on
-Qualcomm,big,eightfold,no spring/co-op posting yet,,unknown; scraper records first-seen dates from now on
+Qualcomm,big,eightfold,FETCHER FAILING for 3 runs: HTTPError: HTTP Error 403: FORBIDDEN,,unknown; scraper records first-seen dates from now on
 Rambus,big,icims,no spring/co-op posting yet,,unknown; scraper records first-seen dates from now on
 Renesas,big,smartrecruiters,no spring/co-op posting yet,,unknown; scraper records first-seen dates from now on
 SK hynix America,big,greenhouse,no spring/co-op posting yet,,unknown; scraper records first-seen dates from now on
