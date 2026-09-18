@@ -75,6 +75,7 @@ function writePostings_(ss, name, rows, my) {
   const sh = ss.getSheetByName(name) || ss.insertSheet(name);
   sh.clear({contentsOnly: true}); sh.clearFormats(); sh.clearNotes();
   if (sh.getFilter()) sh.getFilter().remove();   // a stale filter blocks createFilter() on the next refresh
+  sh.getDataRange().clearDataValidations();      // clearFormats() leaves dropdowns behind
   const values = [HEAD].concat(rows.map(r => COLS.map(c => {
     if (c === "status") return (my[r.link] || {}).status || "";
     if (c === "notes") return (my[r.link] || {}).notes || "";
@@ -111,8 +112,8 @@ function writePostings_(ss, name, rows, my) {
   // links as clickable text
   const linkCol = COLS.indexOf("link") + 1, nuCol = COLS.indexOf("nuworks_link") + 1;
   rows.forEach((r, i) => {
-    if (r.link) sh.getRange(i + 2, linkCol).setRichTextValue(SpreadsheetApp.newRichTextValue().setText("open ↗").setLinkUrl(r.link).build());
-    if (r.nuworks_link) sh.getRange(i + 2, nuCol).setRichTextValue(SpreadsheetApp.newRichTextValue().setText("NUWorks ↗").setLinkUrl(r.nuworks_link).build());
+    if (r.link) sh.getRange(i + 2, linkCol).setRichTextValue(SpreadsheetApp.newRichTextValue().setText("open \u2197").setLinkUrl(r.link).build());
+    if (r.nuworks_link) sh.getRange(i + 2, nuCol).setRichTextValue(SpreadsheetApp.newRichTextValue().setText("NUWorks \u2197").setLinkUrl(r.nuworks_link).build());
   });
   // status dropdown that writes through to My status
   const statusCol = COLS.indexOf("status") + 1;
@@ -135,16 +136,21 @@ function writeTable_(ss, name, cols, rows, widths) {
 // ---------------------------------------------------------------- your own edits, keyed by link
 function myStatus_(ss) {
   const out = {};
+  const ok = v => STATUS_OPTIONS.includes(String(v || ""));
   ["APPLY NOW", "All postings"].forEach(name => {   // pick up edits made in the postings tabs since last refresh
     const sh = ss.getSheetByName(name); if (!sh || sh.getLastRow() < 2) return;
-    const v = sh.getRange(2, 1, sh.getLastRow() - 1, COLS.length).getValues();
-    const rt = sh.getRange(2, COLS.indexOf("link") + 1, sh.getLastRow() - 1, 1).getRichTextValues();
-    v.forEach((row, i) => { const link = (rt[i][0] && rt[i][0].getLinkUrl()) || row[COLS.indexOf("link")]; if (!link) return;
-      const s = row[COLS.indexOf("status")], n = row[COLS.indexOf("notes")];
-      if (s || n) out[link] = {status: s, notes: n}; });
+    const head = sh.getRange(1, 1, 1, sh.getLastColumn()).getValues()[0].map(String);
+    const si = head.indexOf("My status"), ni = head.indexOf("Notes"), li = head.indexOf("Link");
+    if (si < 0 || li < 0) return;                      // unknown layout, ignore rather than guess
+    const v = sh.getRange(2, 1, sh.getLastRow() - 1, head.length).getValues();
+    const rt = sh.getRange(2, li + 1, sh.getLastRow() - 1, 1).getRichTextValues();
+    v.forEach((row, i) => { const link = (rt[i][0] && rt[i][0].getLinkUrl()) || row[li]; if (!link || !/^https?:/.test(link)) return;
+      const st = ok(row[si]) ? row[si] : "", n = ni >= 0 ? row[ni] : "";
+      if (st || n) out[link] = {status: st, notes: n}; });
   });
   const sh = ss.getSheetByName("My status");
-  if (sh && sh.getLastRow() > 1) sh.getRange(2, 1, sh.getLastRow() - 1, 3).getValues().forEach(([link, s, n]) => { if (link && !out[link] && (s || n)) out[link] = {status: s, notes: n}; });
+  if (sh && sh.getLastRow() > 1) sh.getRange(2, 1, sh.getLastRow() - 1, 3).getValues().forEach(([link, st, n]) => {
+    if (link && /^https?:/.test(link) && !out[link] && (ok(st) && st || n)) out[link] = {status: ok(st) ? st : "", notes: n}; });
   return out;
 }
 
