@@ -1,16 +1,9 @@
-name: daily co-op scrape
+name: fast co-op scan
 
 on:
   schedule:
-    - cron: "5 11-23 * * *"      # full scan hourly, 7am-8pm ET (fast.yml scans the direct company feeds every 10 min)
-    - cron: "5 3 * * *"          # one overnight pass
-    - cron: "0 9 1 * *"          # monthly: re-run ATS discovery for config/candidates.json
+    - cron: "*/10 11-23 * * *"   # every 10 min, 7am-8pm ET: direct company feeds only (~2 min a run)
   workflow_dispatch:
-    inputs:
-      discover:
-        description: "also run ATS discovery for config/candidates.json"
-        type: boolean
-        default: false
 
 permissions:
   contents: write
@@ -29,18 +22,8 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: install optional LinkedIn/Indeed scraper
-        run: pip install python-jobspy || echo "jobspy install failed, continuing without it"
-        continue-on-error: true
       - name: run scraper
-        run: set -o pipefail; python -m scraper.main 2>&1 | tee data/run.log
-      - name: ATS discovery (manual "discover" runs + monthly)
-        if: ${{ inputs.discover || github.event.schedule == '0 9 1 * *' }}
-        run: python -m scraper.discover 2>&1 | tee data/discover.log
-        continue-on-error: true
-      - name: outreach leads (funding news)
-        run: python -m scraper.leads 2>&1 | tail -3
-        continue-on-error: true
+        run: set -o pipefail; python -m scraper.main --fast 2>&1 | tee data/run_fast.log
       - name: alerts (GitHub issue -> email, ntfy -> phone)
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -57,7 +40,7 @@ jobs:
             echo "no changes"
             exit 0
           fi
-          git commit -m "scrape $(date -u '+%F %H:%M')"
+          git commit -m "fast scan $(date -u '+%F %H:%M')"
           # someone (you, or an overlapping run) may have pushed since checkout
           for i in 1 2 3; do
             git pull --rebase --autostash origin main && git push origin main && exit 0

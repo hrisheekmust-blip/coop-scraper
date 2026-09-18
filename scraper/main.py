@@ -128,6 +128,8 @@ def run(args):
     else:
         log("fetching ATS boards…")
         raw += fetch_ats(companies)
+    if args.fast:   # fast tier: direct company feeds only; the hourly full run does the slow sources
+        args.no_github = args.no_internlist = args.no_jobspy = True
     if not args.no_github:
         log("fetching GitHub lists…")
         raw += sources_github.fetch_all(log)
@@ -147,7 +149,12 @@ def run(args):
         if filters.is_intern(j) and filters.hardware_score(j) and not filters.EXCLUDE_TITLE.search(j["title"]):
             survivors.append(j)
     if not args.raw and not args.no_detail:
-        enrich_workday(companies, [j for j in survivors if j.get("source") == "workday"])
+        # descriptions only for postings we have not classified before (fast tier stays fast); cached term in seen.json
+        need = [j for j in survivors if j.get("source") == "workday" and key(j) not in seen]
+        enrich_workday(companies, need)
+        for j in survivors:
+            if j.get("source") == "workday" and not j.get("description") and seen.get(key(j), {}).get("desc"):
+                j["description"] = seen[key(j)]["desc"]
 
     kept, rejected, dedup = [], [], {}
     for j in raw:
@@ -170,9 +177,19 @@ def run(args):
         dedup[k2] = rec
         kept.append(rec)
 
+    if args.fast:
+        # carry over rows from the slow sources (Simplify, community lists, LinkedIn/Indeed) found by the last full run
+        prev = load_json(os.path.join(DATA, "jobs.json"), [])
+        direct = set(fetchers.FETCHERS)
+        for r in prev:
+            if not any(src in direct for src in r.get("sources", [])) and key(r) not in dedup:
+                dedup[key(r)] = r; kept.append(r)
+
     new = [r for r in kept if r["first_seen"] == TODAY and key(r) not in seen]
+    desc_by_key = {key(j): (j.get("description") or "")[:1500] for j in raw if j.get("source") == "workday" and j.get("description")}
     for r in kept:
-        seen[key(r)] = {"first_seen": r["first_seen"], "title": r["title"], "company": r["company"]}
+        seen[key(r)] = {"first_seen": r["first_seen"], "title": r["title"], "company": r["company"],
+                        "desc": desc_by_key.get(key(r), seen.get(key(r), {}).get("desc", ""))}
 
     order = {"A": 0, "B": 1, "C": 2}
     kept.sort(key=lambda r: (order[r["rank"]], r["company"], r["title"]))
@@ -229,4 +246,5 @@ if __name__ == "__main__":
     ap.add_argument("--no-detail", action="store_true", help="skip Workday description fetch")
     ap.add_argument("--no-jobspy", action="store_true", help="skip the LinkedIn/Indeed sweep")
     ap.add_argument("--no-internlist", action="store_true", help="skip the internlist.org / Simplify lists")
+    ap.add_argument("--fast", action="store_true", help="direct company feeds only (the 10-minute tier)")
     run(ap.parse_args())
