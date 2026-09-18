@@ -57,7 +57,7 @@ const days=d=>d?Math.round((new Date(d)-new Date())/864e5):null;
 const uc=u=>({"APPLY NOW":"u-now","APPLY":"u-apply","SOON":"u-soon"}[u]||"u-watch");
 function rowsFor(){const q=document.getElementById("q").value.toLowerCase(),fit=document.getElementById("fit").value,urg=document.getElementById("urg").value,term=document.getElementById("term").value,hide=document.getElementById("hideDone").checked,onlyNew=document.getElementById("onlyNew").checked;
  let rows=D.sheet||[];
- if(tab==="apply")rows=rows.filter(r=>(r.fit==="CHIP"||r.fit==="HARDWARE")&&["APPLY NOW","APPLY","SOON"].includes(r.urgency));
+ if(tab==="apply")rows=rows.filter(r=>r.fit==="CHIP"||r.fit==="HARDWARE");
  if(tab==="maybe")rows=rows.filter(r=>r.fit==="MAYBE");
  return rows.filter(r=>(!q||(r.company+" "+r.role+" "+r.location).toLowerCase().includes(q))&&(!fit||r.fit===fit)&&(!urg||r.urgency===urg)&&(!term||r.term===term)&&(!hide||!status[r.link])&&(!onlyNew||r.new==="NEW"))}
 function postings(){const rows=rowsFor();document.getElementById("count").textContent=rows.length+" rows";
@@ -78,7 +78,7 @@ function render(){document.getElementById("nav").innerHTML=TABS.map(([k,l])=>`<b
  document.querySelectorAll("nav button").forEach(b=>b.onclick=()=>{tab=b.dataset.t;location.hash=tab;render()})}
 function help(){return`<div class="note" style="color:var(--ink);max-width:820px">
 <p><b>Where the rows come from.</b> Every 10 minutes (7am–8pm ET) GitHub Actions scans the direct company feeds, and hourly it runs the full scraper: ~100 company career sites directly (Greenhouse, Lever, Ashby, Workday, Oracle, SuccessFactors, Eightfold, Phenom, iCIMS, SmartRecruiters, plus Amazon / Google / Apple / Tesla), internlist.org's Co-op and Winter/Spring lists (Simplify, ~20k career pages), the community GitHub internship lists, a LinkedIn/Indeed sweep, and the last NUWorks crawl. Everything is filtered to US, undergrad, hardware-ish, not summer-only, then ranked: <b>CHIP</b> (semiconductor company or chip-design title) → <b>HARDWARE</b> → <b>MAYBE</b> → ADJACENT.</p>
-<p><b>Urgency.</b> APPLY NOW = spring/Jan-2027 stated and posted in the last 7 days or deadline within 14 days. APPLY = spring stated, older. SOON = co-op with no term stated, fresh. WATCH = everything else. <b>NEW</b> = first seen in the last 3 days.</p>
+<p><b>Urgency.</b> APPLY NOW = spring/Jan-2027 stated and posted in the last 7 days or deadline within 14 days. APPLY = spring stated, older. SOON = co-op with no term stated, fresh. WATCH = intern/co-op with no term stated at all (kept and alerted — many are flexible on dates; ask the recruiter). Only postings that explicitly say summer-only or fall-only are dropped; "Jan–June internship", "6-month internship", "winter/spring", "January 2027 start" all count as spring. <b>NEW</b> = first seen in the last 3 days.</p>
 <p><b>Alerts.</b> After each run, anything new in CHIP/HARDWARE/MAYBE opens a GitHub Issue (you get the email) and pushes to your phone via ntfy. Openings and broken fetchers alert too.</p>
 <p><b>Status.</b> The status dropdown is saved in this browser only (localStorage). Export: open the console and run <code>copy(localStorage.getItem("coop-status"))</code>; paste into another browser with <code>localStorage.setItem("coop-status", …)</code>.</p>
 <p><b>NUWorks.</b> Behind Northeastern SSO, so it only refreshes when your logged-in Chrome crawls it: a daily scheduled task in the Claude desktop app does that when Chrome is open and signed in, and you can run that task on demand ("Check NUWorks"). The crawl writes <code>data/nuworks.json</code> in the repo folder; the daily Windows task pushes it.</p>
@@ -86,7 +86,7 @@ function help(){return`<div class="note" style="color:var(--ink);max-width:820px
 let counts={};
 async function load(){const [sheet,openings,watch,events,leads,rejected,meta]=await Promise.all([get("sheet.csv"),get("openings.csv"),get("watchlist.csv"),get("events.csv"),get("leads.csv"),get("rejected_tracked.csv"),get("meta.json")]);
  Object.assign(D,{sheet,openings,watch,events,leads,rejected});
- counts={apply:sheet.filter(r=>(r.fit==="CHIP"||r.fit==="HARDWARE")&&["APPLY NOW","APPLY","SOON"].includes(r.urgency)).length,maybe:sheet.filter(r=>r.fit==="MAYBE").length,all:sheet.length,openings:openings.length,watch:watch.length,events:events.length,leads:leads.length,rejected:rejected.length};
+ counts={apply:sheet.filter(r=>r.fit==="CHIP"||r.fit==="HARDWARE").length,maybe:sheet.filter(r=>r.fit==="MAYBE").length,all:sheet.length,openings:openings.length,watch:watch.length,events:events.length,leads:leads.length,rejected:rejected.length};
  const g=meta&&meta.generated?new Date(meta.generated):null;document.getElementById("meta").innerHTML=g?`updated ${g.toLocaleString()} · <span class="stat">CHIP <b>${meta.fit.CHIP||0}</b></span><span class="stat">HW <b>${meta.fit.HARDWARE||0}</b></span><span class="stat">MAYBE <b>${meta.fit.MAYBE||0}</b></span><span class="stat">APPLY NOW <b>${meta.urgency["APPLY NOW"]||0}</b></span>`:"";
  render()}
 ["q","fit","urg","term","hideDone","onlyNew"].forEach(id=>document.getElementById(id).addEventListener("input",render));

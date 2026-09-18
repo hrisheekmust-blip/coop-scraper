@@ -37,7 +37,8 @@ def main():
     sent = set(state["sent"])
 
     sheet = rows("sheet.csv")
-    new_rows = [r for r in sheet if r["fit"] in FITS and r["urgency"] in ("APPLY NOW", "APPLY", "SOON") and r["link"] not in sent]
+    # every chip/hardware/maybe row alerts, whatever the urgency: an untermed "Analog Design Intern" at TI is still worth a ping
+    new_rows = [r for r in sheet if r["fit"] in FITS and r["link"] not in sent]
     opens = [o for o in rows("openings.csv") if f"open:{o['company']}:{o['opened']}" not in sent]
     broken = [w for w in rows("watchlist.csv") if w["status"].startswith("FETCHER") and f"health:{w['company']}" not in sent]
 
@@ -55,7 +56,8 @@ def main():
     if not (new_rows or opens or broken):
         print("alerts: nothing new"); return
 
-    new_rows.sort(key=lambda r: ({"CHIP": 0, "HARDWARE": 1, "MAYBE": 2}[r["fit"]], r["company"]))
+    uo = {"APPLY NOW": 0, "APPLY": 1, "SOON": 2, "WATCH": 3}
+    new_rows.sort(key=lambda r: ({"CHIP": 0, "HARDWARE": 1, "MAYBE": 2}[r["fit"]], uo.get(r["urgency"], 9), r["company"]))
     chips = sum(1 for r in new_rows if r["fit"] == "CHIP")
     title = f"{len(new_rows)} new co-op posting(s)" + (f", {chips} CHIP" if chips else "") + (f", {len(opens)} company opening(s)" if opens else "") + f" — {date.today()}"
     md = [f"[Open the board]({SITE})\n"]
