@@ -125,8 +125,8 @@ const csv=t=>{const rows=[];let row=[],cur="",q=false;for(let i=0;i<t.length;i++
 async function sha1_16(s){const b=await crypto.subtle.digest("SHA-1",new TextEncoder().encode(s));return [...new Uint8Array(b)].map(x=>x.toString(16).padStart(2,"0")).join("").slice(0,16)}
 const isDone=j=>["applied","interview","offer","rejected","skip"].includes(j.status||"");
 /* ---------- state ---------- */
-let rows=[],state={},stateSha=null,meta=null,view="todo",openId=null,step=0,local={};try{local=JSON.parse(localStorage.getItem("coop-status")||"{}")}catch(e){}
-const jobs=()=>rows.map(r=>({...r,...(state[r.id]||{}),status:(state[r.id]||{}).status??local[r.id]??""}));
+let rows=[],state={},stateSha=null,apps={},meta=null,view="todo",openId=null,step=0,local={};try{local=JSON.parse(localStorage.getItem("coop-status")||"{}")}catch(e){}
+const jobs=()=>rows.map(r=>({...r,...(apps[r.id]||{}),...(state[r.id]||{}),status:(state[r.id]||{}).status??local[r.id]??""}));
 function listFor(){const q=$("q").value.toLowerCase();return jobs().filter(j=>(view==="all"||(view==="applied"?isDone(j)||j.status==="queued":!isDone(j)&&j.status!=="queued"))&&(!q||(j.company+" "+j.role+" "+j.location).toLowerCase().includes(q)))}
 const statusPill=j=>j.status?`<span class="pill s-${j.status}">${j.status}</span>`:"";
 function rowHtml(j){const dl=daysTo(j.deadline);const hot=dl!==null&&dl<=14;const done=isDone(j);const hasMat=(j.materials||[]).length>0;
@@ -162,7 +162,7 @@ async function drawRender(){const j=jobs().find(x=>x.id===openId);if(!j)return c
   const mats=j.materials||[];const done=isDone(j)||j.status==="queued";
   const tabs=[...mats.map(m=>m.name),"Fit & answers",done?"Submitted":"Confirm"];const cur=tabs[step]||tabs[0];let body="";
   if(step<mats.length){const m=mats[step];body=`<div id="matbox" class="nomat">loading ${esc(m.name)}…</div>`}
-  else if(cur==="Fit & answers"){body=(j.fit_md?`<h4>Fit</h4><pre>${esc(j.fit_md)}</pre>`:'')+(j.answers_md?`<h4>Portal answers</h4><pre>${esc(j.answers_md)}</pre>`:'')||`<div class="nomat">No materials for this posting yet. Claude generates them for every CHIP / HARDWARE / MAYBE row once your profile is in; ask for this one by name to jump the queue.</div>`}
+  else if(cur==="Fit & answers"){body=(j.fit||j.answers)?`<div id="fitbox" class="nomat">loading…</div>`:(j.fit_md?`<h4>Fit</h4><pre>${esc(j.fit_md)}</pre>`:'')+(j.answers_md?`<h4>Portal answers</h4><pre>${esc(j.answers_md)}</pre>`:'')||`<div class="nomat">No materials for this posting yet. Claude generates them for every CHIP / HARDWARE / MAYBE row; ask for this one by name to jump the queue.</div>`}
   else if(cur==="Submitted"){const s=j.submitted||{};body=`<div class="kv"><b>Status</b><span>${statusPill(j)}</span><b>Submitted</b><span>${esc(s.at||"—")}</span><b>Portal</b><span>${esc(s.portal||j.link)}</span><b>Files sent</b><span>${(s.files||mats).map(f=>esc(f.name)).join(", ")||"—"}</span><b>Confirmation</b><span>${j.email?`<b>${esc(j.email.subject)}</b><br><span class="mono">${esc(j.email.date)}</span><br>${esc(j.email.snippet)}`:"not received yet"}</span></div>${s.notes?`<h4>Notes</h4><pre>${esc(s.notes)}</pre>`:''}`}
   else{body=`<div class="kv"><b>Company</b><span>${esc(j.company)}</span><b>Role</b><span>${esc(j.role)}</span><b>Portal</b><span><a href="${esc(j.link)}" target="_blank" rel="noopener">${esc(j.link)}</a></span><b>Files</b><span>${mats.map(m=>esc(m.name)).join(", ")||"none yet"}</span></div><p style="color:var(--ink2);max-width:60ch">Confirm queues this one application. During your next sitting (Claude app open, Chrome signed in, you say "run my queue"), Claude fills the portal with these files and answers, submits, and records what was sent here.</p>`}
   const foot=done?`<span class="hint">${statusPill(j)} ${j.status==="queued"?"queued for the next sitting":""}</span>${j.status==="queued"?'<button class="btn ghost" id="unq">Unqueue</button>':''}`:
@@ -175,6 +175,7 @@ async function drawRender(){const j=jobs().find(x=>x.id===openId);if(!j)return c
   const n=$("next");if(n)n.onclick=()=>{step++;drawRender()};
   const c=$("confirm");if(c)c.onclick=async()=>{c.disabled=true;c.textContent="Queuing…";try{await setStatus(j.id,"queued")}catch(e){c.disabled=false;c.textContent="Confirm and submit";$("sendHint").textContent="couldn't queue: "+e.message}};
   const u=$("unq");if(u)u.onclick=()=>setStatus(j.id,"");
+  if(cur==="Fit & answers"&&(j.fit||j.answers)){try{const t=async p=>p?await (await gh(p,{raw:true})).text():"";const [f,a]=await Promise.all([t(j.fit),t(j.answers)]);const box=$("fitbox");if(box)box.outerHTML=(f?`<h4>Fit</h4><pre>${esc(f)}</pre>`:"")+(a?`<h4>Portal answers</h4><pre>${esc(a)}</pre>`:"")}catch(e){const box=$("fitbox");if(box)box.textContent="couldn't load: "+e.message}}
   if(step<mats.length){const m=mats[step];try{const url=await matUrl(m);const box=$("matbox");if(!box)return;if(/\.pdf$/i.test(m.path||m.url||m.name)){box.outerHTML=`<iframe src="${url}" title="${esc(m.name)}"></iframe>`}else{const t=await (await fetch(url)).text();box.outerHTML=`<pre>${esc(t)}</pre>`}}catch(e){const box=$("matbox");if(box)box.textContent="couldn't load "+m.name+": "+e.message}}}
 /* ---------- settings ---------- */
 function openSettings(){$("drawerHost").innerHTML=`<div class="overlay" id="ov"><div class="drawer" role="dialog" aria-label="Settings"><div class="dhead"><div><h2>Settings</h2><span class="sub">where materials and application status live</span></div><button class="x" id="close" aria-label="Close">×</button></div>
@@ -185,7 +186,8 @@ function openSettings(){$("drawerHost").innerHTML=`<div class="overlay" id="ov">
   $("save").onclick=async()=>{cfg.repo=$("repo").value.trim();cfg.token=$("tok").value.trim();saveCfg();$("shint").textContent="checking…";try{await loadState();$("shint").textContent="connected";render();setTimeout(closeDrawer,600)}catch(e){$("shint").textContent="couldn't read data/state.json: "+e.message}}}
 /* ---------- load ---------- */
 async function loadState(){if(!cfg.token){state={};stateSha=null;return}
-  try{const r=await gh("data/state.json");stateSha=r.sha;state=JSON.parse(unb64(r.content))||{}}catch(e){if(/404/.test(e.message)){state={};stateSha=null}else throw e}}
+  try{const r=await gh("data/state.json");stateSha=r.sha;state=JSON.parse(unb64(r.content))||{}}catch(e){if(/404/.test(e.message)){state={};stateSha=null}else throw e}
+  try{apps=await (await gh("apps/index.json",{raw:true})).json()}catch(e){apps={}}}
 async function load(){try{const r=await fetch("data/sheet.csv?t="+Date.now());const raw=r.ok?csv(await r.text()):[];rows=await Promise.all(raw.map(async x=>({...x,id:await sha1_16(x.link)})))}catch(e){rows=[]}
   try{const r=await fetch("data/meta.json?t="+Date.now());meta=r.ok?await r.json():null}catch(e){}
   try{await loadState()}catch(e){$("sub").innerHTML='<span class="warn">token problem: '+esc(e.message)+'</span>'}
