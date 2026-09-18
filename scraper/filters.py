@@ -34,6 +34,10 @@ EXCLUDE_TITLE = re.compile(
 # software-only titles: drop unless a hardware word is also present
 SOFTWARE_ONLY = re.compile(r"\b(software|swe|full[- ]stack|frontend|front-end|backend|back-end|web|mobile|ios|android|"
                            r"devops|cloud|site reliability|software test|data engineer|data science|machine learning|ml\b|ai\b|research scientist)\b", re.I)
+# words a chip/semiconductor company uses to describe ITSELF (checked in the description when the title says nothing)
+CHIP_COMPANY_RE = re.compile(r"\b(semiconductor|chip design|chip[- ]?maker|silicon|asic|soc|eda|electronic design automation|tape-?out|"
+                             r"rtl|verilog|photonic|analog|mixed[- ]signal|rfic|wafer|foundry|fabless|ic design|chiplet|hbm|serdes|"
+                             r"accelerator chip|ai chip|inference chip|transistor|cmos)\b", re.I)
 PHD_ONLY = re.compile(r"\b(phd|ph\.d|ms/phd|masters?/phd|masters|graduate student|doctoral|\bms\b)\b", re.I)
 
 # ---- term detection -----------------------------------------------------------
@@ -97,6 +101,13 @@ def classify(job):
         t = term_of(job)
         if t not in ("summer", "fall"):
             return True, "ok", {"term": t, "hw": ["maybe"], "rank": "A" if t == "spring" else ("B" if t == "coop-unspecified" else "C"), "maybe": True}
+    # unknown small company, plain title, but the description reads like a chip company (LinkedIn finds these): Maybe
+    if not hits and not EXCLUDE_TITLE.search(title) and not NON_US.search(job.get("location") or ""):
+        d = (job.get("description") or "")[:4000]
+        if len(set(m.group(1).lower() for m in CHIP_COMPANY_RE.finditer(d))) >= 3:
+            t = term_of(job)
+            if t not in ("summer", "fall"):
+                return True, "ok", {"term": t, "hw": ["maybe"], "rank": "A" if t == "spring" else ("B" if t == "coop-unspecified" else "C"), "maybe": True}
     if EXCLUDE_TITLE.search(title):
         # a hardware word next to an excluded word ("Electro-Mechanical Instrument", "Sales Engineer - RF") is a Maybe, not a drop
         if hits and job.get("tier"):

@@ -7,6 +7,10 @@ QUERIES = [
     "electrical engineering co-op spring 2027", "hardware engineer co-op 2027", "analog design intern 2027",
     "ASIC intern spring 2027", "test engineer co-op 2027", "silicon engineering intern spring 2027",
     "RF engineer co-op", "semiconductor co-op", "design verification intern 2027", "physical design intern 2027",
+    # company-type queries: small chip / EDA / photonics startups whose intern titles say nothing about hardware
+    "semiconductor startup intern", "chip design startup intern", "EDA intern", "silicon photonics intern",
+    "AI chip startup intern", "analog mixed-signal intern", "chiplet intern", "RFIC intern", "power semiconductor intern",
+    "semiconductor intern spring", "chip startup engineering intern 2027",
 ]
 
 
@@ -20,7 +24,7 @@ def fetch_all(log=print, hours_old=72):
     for q in QUERIES:
         try:
             df = scrape_jobs(site_name=["linkedin", "indeed"], search_term=q, location="United States",
-                             results_wanted=40, hours_old=hours_old, country_indeed="USA", linkedin_fetch_description=False)
+                             results_wanted=40, hours_old=hours_old, country_indeed="USA", linkedin_fetch_description=True)
         except Exception as e:  # noqa
             log(f"  jobspy '{q}': FAILED {type(e).__name__}: {str(e)[:60]}")
             continue
