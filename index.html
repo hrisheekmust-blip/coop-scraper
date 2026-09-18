@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Spring '27 Co-op Board</title>
-<meta name="description" content="Every hardware co-op and internship posting for January–June 2027 in one list, rescanned every 10 minutes.">
+<meta name="description" content="Every hardware co-op and internship posting for January–June 2027 in one list, with Apply → review → Confirm and submit.">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
 <style>
@@ -13,34 +13,37 @@
   --accent:#b4552c;--accent-ink:#8f3f1c;
   --chip:#1f4e5f;--hw:#5b6b7d;--maybe:#c9962e;--adj:#b8b9b4;
   --now-bg:#f9dedb;--now-ink:#9c1f1a;--apply-bg:#fbe8d2;--apply-ink:#8a4a10;--soon-bg:#dfe8f6;--soon-ink:#274b8a;--watch-bg:#ecebe6;--watch-ink:#6b6f76;
-  --new:#1e7d4f;--red:#b42323;--done:#f5f4f0;--done-ink:#a0a29e;
+  --new:#1e7d4f;--red:#b42323;--good:#1e7d4f;--done:#f5f4f0;--done-ink:#a0a29e;--overlay:rgba(28,29,33,.45);
   --display:"Barlow Condensed","Arial Narrow",system-ui,sans-serif;--body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;--mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
 }
 @media (prefers-color-scheme:dark){:root:not([data-theme=light]){
   --bg:#141517;--panel:#1c1e22;--ink:#e9e8e3;--ink2:#c2c1bb;--mute:#8f9299;--line:#2c2f35;--line2:#25282d;--accent:#d9764a;--accent-ink:#e8956f;
   --chip:#2d6b80;--hw:#6f8195;--maybe:#d0a043;--adj:#5a5c59;
   --now-bg:#3d1a19;--now-ink:#f2a19b;--apply-bg:#3a2612;--apply-ink:#f0b77a;--soon-bg:#18253a;--soon-ink:#9fbdf0;--watch-bg:#25282d;--watch-ink:#8f9299;
-  --new:#2f9a64;--red:#f08a84;--done:#1a1b1e;--done-ink:#63665f;}}
+  --new:#2f9a64;--red:#f08a84;--good:#4cc48a;--done:#1a1b1e;--done-ink:#63665f;--overlay:rgba(0,0,0,.6);}}
 :root[data-theme=dark]{
   --bg:#141517;--panel:#1c1e22;--ink:#e9e8e3;--ink2:#c2c1bb;--mute:#8f9299;--line:#2c2f35;--line2:#25282d;--accent:#d9764a;--accent-ink:#e8956f;
   --chip:#2d6b80;--hw:#6f8195;--maybe:#d0a043;--adj:#5a5c59;
   --now-bg:#3d1a19;--now-ink:#f2a19b;--apply-bg:#3a2612;--apply-ink:#f0b77a;--soon-bg:#18253a;--soon-ink:#9fbdf0;--watch-bg:#25282d;--watch-ink:#8f9299;
-  --new:#2f9a64;--red:#f08a84;--done:#1a1b1e;--done-ink:#63665f;}
+  --new:#2f9a64;--red:#f08a84;--good:#4cc48a;--done:#1a1b1e;--done-ink:#63665f;--overlay:rgba(0,0,0,.6);}
 *{box-sizing:border-box}html,body{margin:0}
 body{background:var(--bg);color:var(--ink);font:14px/1.45 var(--body);-webkit-font-smoothing:antialiased}
 a{color:var(--accent-ink);text-decoration:none}a:hover{text-decoration:underline}
 :focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+button{font:inherit;cursor:pointer}
 .wrap{max-width:1400px;margin:0 auto;padding-inline:20px}
-.mast{position:sticky;top:env(safe-area-inset-top,0px);z-index:6;background:var(--panel);border-bottom:1px solid var(--line)}
+.mast{position:sticky;top:0;z-index:6;background:var(--panel);border-bottom:1px solid var(--line)}
 .mast .wrap{display:flex;flex-wrap:wrap;align-items:center;gap:8px 14px;padding-block:10px}
-h1{font:600 24px/1 var(--display);letter-spacing:.01em;margin:0;text-transform:uppercase}
-.sub{font:12px var(--mono);color:var(--mute)}.sub .stale{color:var(--red);font-weight:500}
+h1{font:600 24px/1 var(--display);margin:0;text-transform:uppercase}
+.sub{font:12px var(--mono);color:var(--mute)}.sub .stale,.sub .warn{color:var(--red);font-weight:500}
 .tools{display:flex;flex-wrap:wrap;gap:8px 12px;align-items:center;margin-left:auto}
-.tools input,.tools label,select.st{font:13px var(--body);color:var(--ink)}
-.tools input[type=search]{border:1px solid var(--line);background:var(--bg);padding:7px 10px;border-radius:6px;min-width:240px}
-.tools label{display:flex;gap:6px;align-items:center;color:var(--ink2)}
+.tools input[type=search]{border:1px solid var(--line);background:var(--bg);color:var(--ink);padding:7px 10px;border-radius:6px;min-width:240px;font:13px var(--body)}
+.seg{display:flex;border:1px solid var(--line);border-radius:6px;overflow:hidden}
+.seg button{border:0;background:var(--panel);color:var(--ink2);padding:6px 10px;font:600 12px var(--display);letter-spacing:.08em;text-transform:uppercase}
+.seg button.on{background:var(--ink);color:var(--bg)}
+.gear{border:1px solid var(--line);background:var(--panel);color:var(--mute);border-radius:6px;padding:5px 9px;font-size:14px;line-height:1}
 main{padding-block:14px 60px}
-.hdr,.row{display:grid;grid-template-columns:4px 96px 150px minmax(240px,2.2fr) minmax(130px,1fr) 92px 100px 84px 110px;gap:0 12px;align-items:start}
+.hdr,.row{display:grid;grid-template-columns:4px 96px 150px minmax(240px,2.2fr) minmax(130px,1fr) 92px 100px 84px 120px;gap:0 12px;align-items:start}
 .hdr{padding:0 12px 6px 0;font:600 10.5px/1 var(--display);letter-spacing:.14em;text-transform:uppercase;color:var(--mute)}
 .row{background:var(--panel);border:1px solid var(--line);border-top:0;padding:9px 12px 9px 0}
 .row:first-of-type{border-top:1px solid var(--line);border-radius:8px 8px 0 0}.row:last-of-type{border-radius:0 0 8px 8px}
@@ -50,65 +53,145 @@ main{padding-block:14px 60px}
 .pill{display:inline-block;padding:3px 7px;border-radius:4px;font:600 10.5px/1 var(--display);letter-spacing:.08em;text-transform:uppercase;white-space:nowrap}
 .u-now{background:var(--now-bg);color:var(--now-ink)}.u-apply{background:var(--apply-bg);color:var(--apply-ink)}.u-soon{background:var(--soon-bg);color:var(--soon-ink)}.u-watch{background:var(--watch-bg);color:var(--watch-ink)}
 .pill.new{background:var(--new);color:#fff;margin-top:4px}
+.s-applied{background:var(--good);color:#fff}.s-queued{background:var(--accent);color:#fff}.s-interview{background:var(--soon-ink);color:#fff}.s-offer{background:var(--good);color:#fff}.s-rejected,.s-skip{background:var(--watch-bg);color:var(--mute)}
 .co{font-weight:600}.fit{display:block;font:600 10px/1 var(--display);letter-spacing:.12em;text-transform:uppercase;color:var(--mute);margin-top:3px}
 .CHIP .fit{color:var(--chip)}.MAYBE .fit{color:var(--maybe)}
-.role a{font-weight:500;color:var(--ink)}.role a:hover{color:var(--accent-ink)}.role small{display:block;font-size:11.5px;color:var(--mute)}
+.role a{font-weight:500;color:var(--ink)}.role small{display:block;font-size:11.5px;color:var(--mute)}
 .loc{color:var(--ink2);font-size:13px}
 .mono{font:13px/1.35 var(--mono);font-variant-numeric:tabular-nums}.mono small{display:block;font-size:11px;color:var(--mute)}
 .hot,.hot small{color:var(--red);font-weight:500}
 .nu{font-size:12.5px}.nu .bad{color:var(--red);font-weight:500;display:block}
-select.st{border:1px solid var(--line);background:var(--panel);border-radius:6px;padding:4px 6px;font-size:12px;width:100%}
+.act{display:flex;flex-direction:column;gap:4px}
+.btn{border:1px solid var(--line);background:var(--panel);color:var(--ink);padding:5px 10px;border-radius:6px;font:600 12px var(--display);letter-spacing:.08em;text-transform:uppercase;white-space:nowrap}
+.btn.primary{background:var(--accent);border-color:var(--accent);color:#fff}.btn:disabled{opacity:.45;cursor:not-allowed}
+.btn.ghost{color:var(--mute)}
 .empty{padding:40px;text-align:center;color:var(--mute);background:var(--panel);border:1px dashed var(--line);border-radius:8px}
 .legend{font:12px/1.5 var(--mono);color:var(--mute);margin-top:18px;max-width:90ch}
+.overlay{position:fixed;inset:0;background:var(--overlay);z-index:20;display:flex;justify-content:flex-end}
+.drawer{width:min(760px,100%);height:100%;background:var(--panel);border-left:1px solid var(--line);display:flex;flex-direction:column;box-shadow:-12px 0 40px rgba(0,0,0,.15)}
+.dhead{padding:16px 20px 12px;border-bottom:1px solid var(--line);display:flex;gap:12px;align-items:flex-start}
+.dhead h2{margin:0;font:600 20px/1.1 var(--display);text-transform:uppercase}.dhead .sub{display:block;margin-top:4px;font:13px var(--body);color:var(--ink2)}
+.dhead .x{margin-left:auto;border:0;background:none;font-size:22px;color:var(--mute);line-height:1}
+.steps{display:flex;gap:2px;padding:10px 20px 0;border-bottom:1px solid var(--line2);overflow-x:auto}
+.steps button{border:0;border-bottom:2px solid transparent;background:none;color:var(--ink2);padding:8px 10px;font:600 12px var(--display);letter-spacing:.1em;text-transform:uppercase;white-space:nowrap}
+.steps button.on{color:var(--ink);border-bottom-color:var(--accent)}
+.dbody{flex:1;overflow:auto;padding:16px 20px}
+.dbody iframe{width:100%;height:calc(100% - 4px);min-height:520px;border:1px solid var(--line);border-radius:6px;background:#fff}
+.dbody pre{white-space:pre-wrap;font:13px/1.5 var(--body);background:var(--bg);border:1px solid var(--line);border-radius:6px;padding:12px 14px;margin:0}
+.dbody h4{font:600 11px/1 var(--display);letter-spacing:.14em;text-transform:uppercase;color:var(--mute);margin:16px 0 6px}
+.dfoot{padding:12px 20px;border-top:1px solid var(--line);display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+.dfoot .hint{font:12px var(--mono);color:var(--mute);flex:1 1 200px}
+.kv{display:grid;grid-template-columns:120px 1fr;gap:6px 12px;font-size:13px}.kv b{color:var(--mute);font-weight:500}
+.nomat{padding:24px;text-align:center;color:var(--mute);border:1px dashed var(--line);border-radius:8px}
+.settings{max-width:60ch}.settings label{display:block;font:600 11px/1 var(--display);letter-spacing:.14em;text-transform:uppercase;color:var(--mute);margin:14px 0 6px}
+.settings input{width:100%;border:1px solid var(--line);background:var(--bg);color:var(--ink);padding:8px 10px;border-radius:6px;font:13px var(--mono)}
+.settings p{color:var(--ink2);font-size:13px}
 @media (max-width:980px){
   .hdr{display:none}
-  .row{grid-template-columns:4px 1fr 1fr;grid-template-areas:"s urg status" "s co co" "s role role" "s loc loc" "s posted dl" "s nu nu";gap:4px 10px;padding:10px 12px 10px 0}
-  .stripe{grid-area:s}.urg{grid-area:urg}.st{grid-area:status;justify-self:end;width:130px}.co{grid-area:co}.role{grid-area:role}.loc{grid-area:loc}.posted{grid-area:posted}.dl{grid-area:dl}.nu{grid-area:nu}
+  .row{grid-template-columns:4px 1fr 1fr;grid-template-areas:"s urg act" "s co co" "s role role" "s loc loc" "s posted dl" "s nu nu";gap:4px 10px;padding:10px 12px 10px 0}
+  .stripe{grid-area:s}.urg{grid-area:urg}.act{grid-area:act;justify-self:end}.co{grid-area:co}.role{grid-area:role}.loc{grid-area:loc}.posted{grid-area:posted}.dl{grid-area:dl}.nu{grid-area:nu}
   .tools{margin-left:0;width:100%}.tools input[type=search]{flex:1}
 }
+@media (prefers-reduced-motion:no-preference){.drawer{animation:in .18s ease-out}@keyframes in{from{transform:translateX(24px);opacity:0}to{transform:none;opacity:1}}}
 </style>
 </head>
 <body>
 <header class="mast"><div class="wrap">
   <h1>Spring '27 Co-op Board</h1>
-  <span class="sub" id="sub"></span>
+  <span class="sub" id="sub">loading…</span>
   <div class="tools">
     <input id="q" type="search" placeholder="Search company, role, location" aria-label="Search">
-    <label><input type="checkbox" id="hideDone" checked> Hide applied / skipped</label>
+    <div class="seg" id="seg"><button data-v="todo" class="on">To apply</button><button data-v="applied">Applied</button><button data-v="all">All</button></div>
     <span class="sub" id="count"></span>
+    <button class="gear" id="gear" title="Settings" aria-label="Settings">⚙</button>
   </div>
 </div></header>
-<div class="wrap"><main id="main"></main>
-<p class="legend">Sorted best-first: CHIP (semiconductor company or chip title) → HARDWARE → MAYBE (Jan–Jun/co-op at a tracked company, no hardware word in title) → other EE. Urgency: APPLY NOW = Jan–Jun 2027 stated and fresh or deadline within 14 days · APPLY = Jan–Jun stated · SOON = co-op, no dates, fresh · WATCH = no dates stated (ask). Anything running at any point Jan–Jun 2027 counts; only summer-only / fall-only postings are excluded. Rescanned every 10 min, 7am–8pm ET.</p></div>
+<div class="wrap"><main id="main"><div class="empty">Loading the board…</div></main>
+<p class="legend">Sorted best-first: CHIP → HARDWARE → MAYBE → other EE. APPLY NOW = Jan–Jun 2027 stated and fresh or deadline within 14 days · APPLY = Jan–Jun stated · SOON = co-op, no dates, fresh · WATCH = no dates stated. Anything running at any point Jan–Jun 2027 counts. Apply opens the materials; Confirm and submit queues that one application for Claude to submit in your browser during a sitting.</p></div>
+<div id="drawerHost"></div>
 <script>
-const csv=t=>{const rows=[];let row=[],cur="",q=false;for(let i=0;i<t.length;i++){const c=t[i];if(q){if(c=='"'){if(t[i+1]=='"'){cur+='"';i++}else q=false}else cur+=c}else if(c=='"')q=true;else if(c==','){row.push(cur);cur=""}else if(c=='\n'){row.push(cur);rows.push(row);row=[];cur=""}else if(c!='\r')cur+=c}if(cur||row.length){row.push(cur);rows.push(row)}const h=rows.shift()||[];return rows.filter(r=>r.length===h.length).map(r=>Object.fromEntries(h.map((k,i)=>[k,r[i]])))};
-const KEY="coop-status";let status={};try{status=JSON.parse(localStorage.getItem(KEY)||"{}")}catch(e){}
-const save=()=>{try{localStorage.setItem(KEY,JSON.stringify(status))}catch(e){}};
+/* ---------- config: materials + application state live in a PRIVATE repo, read/written with your token ---------- */
+const CFG_KEY="coop-cfg";let cfg={repo:"hrisheekmust-blip/coop-apps",token:""};try{Object.assign(cfg,JSON.parse(localStorage.getItem(CFG_KEY)||"{}"))}catch(e){}
+const saveCfg=()=>{try{localStorage.setItem(CFG_KEY,JSON.stringify(cfg))}catch(e){}};
+const API="https://api.github.com/repos/";
+const gh=async(path,opt={})=>{const r=await fetch(API+cfg.repo+"/contents/"+path+(opt.raw?"":"?t="+Date.now()),{method:opt.method||"GET",headers:{Authorization:"Bearer "+cfg.token,Accept:opt.raw?"application/vnd.github.raw":"application/vnd.github+json","X-GitHub-Api-Version":"2022-11-28",...(opt.body?{"Content-Type":"application/json"}:{})},body:opt.body?JSON.stringify(opt.body):undefined});if(!r.ok)throw new Error(path+": HTTP "+r.status);return opt.raw?r:r.json()};
+const b64=s=>btoa(unescape(encodeURIComponent(s))),unb64=s=>decodeURIComponent(escape(atob(s.replace(/\n/g,""))));
+/* ---------- helpers ---------- */
+const $=id=>document.getElementById(id);
 const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const daysTo=d=>d?Math.round((new Date(d+"T12:00")-new Date())/864e5):null;
 const uc=u=>({"APPLY NOW":"u-now","APPLY":"u-apply","SOON":"u-soon"}[u]||"u-watch");
-const $=id=>document.getElementById(id);let rows=[];
-function rowHtml(r){const st=status[r.link]||"";const dl=daysTo(r.deadline);const hot=dl!==null&&dl<=14;
-  return `<div class="row ${r.fit} ${st?"done":""}"><div class="stripe"></div>
-  <div class="urg"><span class="pill ${uc(r.urgency)}">${r.urgency}</span>${r.new==="NEW"?'<br><span class="pill new">New</span>':''}</div>
-  <div class="co">${esc(r.company)}<span class="fit">${r.fit==="ADJACENT"?"EE":r.fit}</span></div>
-  <div class="role"><a href="${esc(r.link)}" target="_blank" rel="noopener">${esc(r.role)}</a>${r.fit_why?`<small>${esc(r.fit_why)}</small>`:''}</div>
-  <div class="loc">${esc(r.location)}</div>
-  <div class="mono posted">${esc(r.posted)||'—'}${r.days_open?`<small>${esc(r.days_open)} d open</small>`:''}</div>
-  <div class="mono dl ${hot?"hot":""}">${r.deadline?esc(r.deadline):'—'}${dl!==null?`<small>${dl<0?"closed":dl+" d left"}</small>`:''}</div>
-  <div class="nu">${r.nuworks?`<a href="${esc(r.nuworks_link)}" target="_blank" rel="noopener">NUWorks</a>${r.nu_eligible==="NOT QUALIFIED"?'<span class="bad">not qualified</span>':''}`:'—'}</div>
-  <div class="st"><select class="st" data-k="${esc(r.link)}" aria-label="Status"><option value="">Status</option>${["applied","interview","offer","skip"].map(o=>`<option ${st===o?"selected":""}>${o}</option>`).join("")}</select></div></div>`}
-function render(){const q=$("q").value.toLowerCase(),hide=$("hideDone").checked;
-  const list=rows.filter(r=>(!q||(r.company+" "+r.role+" "+r.location).toLowerCase().includes(q))&&(!hide||!status[r.link]));
-  $("count").textContent=list.length+" / "+rows.length;
-  $("main").innerHTML=list.length?`<div class="hdr"><span></span><span>Urgency</span><span>Company</span><span>Role</span><span>Location</span><span>Posted</span><span>Deadline</span><span>NUWorks</span><span>Status</span></div>`+list.map(rowHtml).join(""):'<div class="empty">Nothing matches.</div>';
-  document.querySelectorAll("select.st").forEach(s=>s.onchange=e=>{const k=e.target.dataset.k;if(e.target.value)status[k]=e.target.value;else delete status[k];save();render()})}
-async function load(){try{const r=await fetch("data/sheet.csv?t="+Date.now());rows=r.ok?csv(await r.text()):[]}catch(e){rows=[]}
-  let meta=null;try{const r=await fetch("data/meta.json?t="+Date.now());meta=r.ok?await r.json():null}catch(e){}
+const csv=t=>{const rows=[];let row=[],cur="",q=false;for(let i=0;i<t.length;i++){const c=t[i];if(q){if(c=='"'){if(t[i+1]=='"'){cur+='"';i++}else q=false}else cur+=c}else if(c=='"')q=true;else if(c==','){row.push(cur);cur=""}else if(c=='\n'){row.push(cur);rows.push(row);row=[];cur=""}else if(c!='\r')cur+=c}if(cur||row.length){row.push(cur);rows.push(row)}const h=rows.shift()||[];return rows.filter(r=>r.length===h.length).map(r=>Object.fromEntries(h.map((k,i)=>[k,r[i]])))};
+async function sha1_16(s){const b=await crypto.subtle.digest("SHA-1",new TextEncoder().encode(s));return [...new Uint8Array(b)].map(x=>x.toString(16).padStart(2,"0")).join("").slice(0,16)}
+const isDone=j=>["applied","interview","offer","rejected","skip"].includes(j.status||"");
+/* ---------- state ---------- */
+let rows=[],state={},stateSha=null,meta=null,view="todo",openId=null,step=0,local={};try{local=JSON.parse(localStorage.getItem("coop-status")||"{}")}catch(e){}
+const jobs=()=>rows.map(r=>({...r,...(state[r.id]||{}),status:(state[r.id]||{}).status??local[r.id]??""}));
+function listFor(){const q=$("q").value.toLowerCase();return jobs().filter(j=>(view==="all"||(view==="applied"?isDone(j)||j.status==="queued":!isDone(j)&&j.status!=="queued"))&&(!q||(j.company+" "+j.role+" "+j.location).toLowerCase().includes(q)))}
+const statusPill=j=>j.status?`<span class="pill s-${j.status}">${j.status}</span>`:"";
+function rowHtml(j){const dl=daysTo(j.deadline);const hot=dl!==null&&dl<=14;const done=isDone(j);const hasMat=(j.materials||[]).length>0;
+  return `<div class="row ${j.fit} ${done?"done":""}"><div class="stripe"></div>
+  <div class="urg"><span class="pill ${uc(j.urgency)}">${j.urgency}</span>${j.new==="NEW"?'<br><span class="pill new">New</span>':''}</div>
+  <div class="co">${esc(j.company)}<span class="fit">${j.fit==="ADJACENT"?"EE":j.fit}</span></div>
+  <div class="role"><a href="${esc(j.link)}" target="_blank" rel="noopener">${esc(j.role)}</a>${j.fit_why?`<small>${esc(j.fit_why)}</small>`:''}</div>
+  <div class="loc">${esc(j.location)}</div>
+  <div class="mono posted">${esc(j.posted)||'—'}${j.days_open?`<small>${esc(j.days_open)} d open</small>`:''}</div>
+  <div class="mono dl ${hot?"hot":""}">${j.deadline?esc(j.deadline):'—'}${dl!==null?`<small>${dl<0?"closed":dl+" d left"}</small>`:''}</div>
+  <div class="nu">${j.nuworks?`<a href="${esc(j.nuworks_link)}" target="_blank" rel="noopener">NUWorks</a>${j.nu_eligible==="NOT QUALIFIED"?'<span class="bad">not qualified</span>':''}`:'—'}</div>
+  <div class="act">${done||j.status==="queued"?`${statusPill(j)}<button class="btn ghost" data-open="${j.id}">Details</button>`:`<button class="btn ${hasMat?"primary":""}" data-open="${j.id}">${hasMat?"Apply":"Preview"}</button><button class="btn ghost" data-skip="${j.id}">Skip</button>`}</div></div>`}
+function render(){const list=listFor();$("count").textContent=list.length+" / "+rows.length;
+  $("main").innerHTML=list.length?`<div class="hdr"><span></span><span>Urgency</span><span>Company</span><span>Role</span><span>Location</span><span>Posted</span><span>Deadline</span><span>NUWorks</span><span></span></div>`+list.map(rowHtml).join(""):'<div class="empty">Nothing here.</div>';
+  document.querySelectorAll("[data-open]").forEach(b=>b.onclick=()=>openDrawer(b.dataset.open));
+  document.querySelectorAll("[data-skip]").forEach(b=>b.onclick=()=>setStatus(b.dataset.skip,"skip"));
   const g=meta&&meta.generated?new Date(meta.generated):null;const age=g?(Date.now()-g)/36e5:null;
-  $("sub").innerHTML=g?`last scan ${g.toLocaleString([],{month:"short",day:"numeric",hour:"numeric",minute:"2-digit"})}${age>3?' <span class="stale">· stale, check GitHub Actions</span>':''}`:"";
+  $("sub").innerHTML=(g?`last scan ${g.toLocaleString([],{month:"short",day:"numeric",hour:"numeric",minute:"2-digit"})}${age>3?' <span class="stale">· stale</span>':''}`:"")+(cfg.token?"":' <span class="warn">· add your token in ⚙ to enable Apply</span>')}
+/* ---------- state writes: data/state.json in the private repo (falls back to this browser only) ---------- */
+async function writeState(mut){mut(state);
+  if(!cfg.token){Object.entries(state).forEach(([k,v])=>{if(v.status!==undefined)local[k]=v.status});try{localStorage.setItem("coop-status",JSON.stringify(local))}catch(e){}return}
+  for(let attempt=0;attempt<2;attempt++){try{
+    const body={message:"board: "+new Date().toISOString(),content:b64(JSON.stringify(state,null,1))};if(stateSha)body.sha=stateSha;
+    const r=await gh("data/state.json",{method:"PUT",body});stateSha=r.content.sha;return}
+    catch(e){await loadState();if(attempt)throw e}}}
+async function setStatus(id,status){await writeState(s=>{s[id]={...(s[id]||{}),status,statusAt:new Date().toISOString()}});render();if(openId)drawRender()}
+/* ---------- drawer ---------- */
+const blobCache={};
+async function matUrl(m){if(m.url)return m.url;if(blobCache[m.path])return blobCache[m.path];const r=await gh(m.path,{raw:true});const u=URL.createObjectURL(await r.blob());blobCache[m.path]=u;return u}
+function openDrawer(id){openId=id;step=0;drawRender()}
+function closeDrawer(){openId=null;$("drawerHost").innerHTML=""}
+async function drawRender(){const j=jobs().find(x=>x.id===openId);if(!j)return closeDrawer();
+  const mats=j.materials||[];const done=isDone(j)||j.status==="queued";
+  const tabs=[...mats.map(m=>m.name),"Fit & answers",done?"Submitted":"Confirm"];const cur=tabs[step]||tabs[0];let body="";
+  if(step<mats.length){const m=mats[step];body=`<div id="matbox" class="nomat">loading ${esc(m.name)}…</div>`}
+  else if(cur==="Fit & answers"){body=(j.fit_md?`<h4>Fit</h4><pre>${esc(j.fit_md)}</pre>`:'')+(j.answers_md?`<h4>Portal answers</h4><pre>${esc(j.answers_md)}</pre>`:'')||`<div class="nomat">No materials for this posting yet. Claude generates them for every CHIP / HARDWARE / MAYBE row once your profile is in; ask for this one by name to jump the queue.</div>`}
+  else if(cur==="Submitted"){const s=j.submitted||{};body=`<div class="kv"><b>Status</b><span>${statusPill(j)}</span><b>Submitted</b><span>${esc(s.at||"—")}</span><b>Portal</b><span>${esc(s.portal||j.link)}</span><b>Files sent</b><span>${(s.files||mats).map(f=>esc(f.name)).join(", ")||"—"}</span><b>Confirmation</b><span>${j.email?`<b>${esc(j.email.subject)}</b><br><span class="mono">${esc(j.email.date)}</span><br>${esc(j.email.snippet)}`:"not received yet"}</span></div>${s.notes?`<h4>Notes</h4><pre>${esc(s.notes)}</pre>`:''}`}
+  else{body=`<div class="kv"><b>Company</b><span>${esc(j.company)}</span><b>Role</b><span>${esc(j.role)}</span><b>Portal</b><span><a href="${esc(j.link)}" target="_blank" rel="noopener">${esc(j.link)}</a></span><b>Files</b><span>${mats.map(m=>esc(m.name)).join(", ")||"none yet"}</span></div><p style="color:var(--ink2);max-width:60ch">Confirm queues this one application. During your next sitting (Claude app open, Chrome signed in, you say "run my queue"), Claude fills the portal with these files and answers, submits, and records what was sent here.</p>`}
+  const foot=done?`<span class="hint">${statusPill(j)} ${j.status==="queued"?"queued for the next sitting":""}</span>${j.status==="queued"?'<button class="btn ghost" id="unq">Unqueue</button>':''}`:
+    step<tabs.length-1?`<span class="hint">${step+1} / ${tabs.length}</span><button class="btn" id="next">Next</button>`:
+    `<span class="hint" id="sendHint">${!cfg.token?"add your token in ⚙ first":mats.length?"":"no materials yet"}</span><button class="btn primary" id="confirm" ${cfg.token&&mats.length?"":"disabled"}>Confirm and submit</button>`;
+  $("drawerHost").innerHTML=`<div class="overlay" id="ov"><div class="drawer" role="dialog" aria-label="Application"><div class="dhead"><div><h2>${esc(j.company)}</h2><span class="sub">${esc(j.role)} · ${esc(j.location)}</span></div><button class="x" id="close" aria-label="Close">×</button></div>
+  <div class="steps">${tabs.map((t,i)=>`<button class="${i===step?"on":""}" data-s="${i}">${esc(t)}</button>`).join("")}</div><div class="dbody">${body}</div><div class="dfoot">${foot}</div></div></div>`;
+  $("close").onclick=closeDrawer;$("ov").onclick=e=>{if(e.target.id==="ov")closeDrawer()};
+  document.querySelectorAll("[data-s]").forEach(b=>b.onclick=()=>{step=+b.dataset.s;drawRender()});
+  const n=$("next");if(n)n.onclick=()=>{step++;drawRender()};
+  const c=$("confirm");if(c)c.onclick=async()=>{c.disabled=true;c.textContent="Queuing…";try{await setStatus(j.id,"queued")}catch(e){c.disabled=false;c.textContent="Confirm and submit";$("sendHint").textContent="couldn't queue: "+e.message}};
+  const u=$("unq");if(u)u.onclick=()=>setStatus(j.id,"");
+  if(step<mats.length){const m=mats[step];try{const url=await matUrl(m);const box=$("matbox");if(!box)return;if(/\.pdf$/i.test(m.path||m.url||m.name)){box.outerHTML=`<iframe src="${url}" title="${esc(m.name)}"></iframe>`}else{const t=await (await fetch(url)).text();box.outerHTML=`<pre>${esc(t)}</pre>`}}catch(e){const box=$("matbox");if(box)box.textContent="couldn't load "+m.name+": "+e.message}}}
+/* ---------- settings ---------- */
+function openSettings(){$("drawerHost").innerHTML=`<div class="overlay" id="ov"><div class="drawer" role="dialog" aria-label="Settings"><div class="dhead"><div><h2>Settings</h2><span class="sub">where materials and application status live</span></div><button class="x" id="close" aria-label="Close">×</button></div>
+  <div class="dbody settings"><label for="repo">Private repo</label><input id="repo" value="${esc(cfg.repo)}"><label for="tok">GitHub token</label><input id="tok" type="password" value="${esc(cfg.token)}" placeholder="github_pat_…">
+  <p>Fine-grained token, repository access limited to that one private repo, permission Contents: read and write. Stored only in this browser. It lets this page read your resumes and cover letters and write the queue Claude works from.</p></div>
+  <div class="dfoot"><span class="hint" id="shint"></span><button class="btn primary" id="save">Save</button></div></div></div>`;
+  $("close").onclick=closeDrawer;$("ov").onclick=e=>{if(e.target.id==="ov")closeDrawer()};
+  $("save").onclick=async()=>{cfg.repo=$("repo").value.trim();cfg.token=$("tok").value.trim();saveCfg();$("shint").textContent="checking…";try{await loadState();$("shint").textContent="connected";render();setTimeout(closeDrawer,600)}catch(e){$("shint").textContent="couldn't read data/state.json: "+e.message}}}
+/* ---------- load ---------- */
+async function loadState(){if(!cfg.token){state={};stateSha=null;return}
+  try{const r=await gh("data/state.json");stateSha=r.sha;state=JSON.parse(unb64(r.content))||{}}catch(e){if(/404/.test(e.message)){state={};stateSha=null}else throw e}}
+async function load(){try{const r=await fetch("data/sheet.csv?t="+Date.now());const raw=r.ok?csv(await r.text()):[];rows=await Promise.all(raw.map(async x=>({...x,id:await sha1_16(x.link)})))}catch(e){rows=[]}
+  try{const r=await fetch("data/meta.json?t="+Date.now());meta=r.ok?await r.json():null}catch(e){}
+  try{await loadState()}catch(e){$("sub").innerHTML='<span class="warn">token problem: '+esc(e.message)+'</span>'}
   render()}
-["q","hideDone"].forEach(id=>$(id).addEventListener("input",render));
+$("q").addEventListener("input",render);$("gear").onclick=openSettings;
+document.querySelectorAll("#seg button").forEach(b=>b.onclick=()=>{view=b.dataset.v;document.querySelectorAll("#seg button").forEach(x=>x.classList.toggle("on",x===b));render()});
 load();setInterval(load,5*60*1000);
 </script>
 </body>
