@@ -92,6 +92,11 @@ def enrich_workday(companies, kept):
 def run(args):
     os.makedirs(DATA, exist_ok=True)
     companies = [c for c in load_json(CFG, []) if c.get("tier") != "skip"]
+    # companies resolved by scraper/discover.py join automatically (config/companies.json still wins on a name clash)
+    have = {c["name"].lower() for c in companies}
+    for c in load_json(os.path.join(DATA, "discover_config.json"), []):
+        if c.get("name", "").lower() not in have and c.get("ats") in fetchers.FETCHERS:
+            companies.append(c); have.add(c["name"].lower())
     seen = load_json(os.path.join(DATA, "seen.json"), {})
     prev_tracker = {}
     tpath = os.path.join(DATA, "tracker.csv")
@@ -99,6 +104,22 @@ def run(args):
         with open(tpath, newline="") as f:
             for r in csv.DictReader(f):
                 prev_tracker[r["url"]] = r
+
+    # a fresh NUWorks browser crawl (data/browser/coop_nuworks.json, pushed from the PC) is converted here so the
+    # PC never needs python: whichever is newer wins.
+    crawl = os.path.join(DATA, "browser", "coop_nuworks.json")
+    nupath = os.path.join(DATA, "nuworks.json")
+    if os.path.exists(crawl) and (not os.path.exists(nupath) or os.path.getmtime(crawl) > os.path.getmtime(nupath) or
+                                  load_json(nupath, [{}])[0].get("crawl_hash") != str(os.path.getsize(crawl))):
+        try:
+            from scraper import nuworks
+            conv = nuworks.convert(json.load(open(crawl, encoding="utf-8")))
+            for j in conv:
+                j["crawl_hash"] = str(os.path.getsize(crawl))
+            json.dump(conv, open(nupath, "w"), indent=1)
+            log(f"NUWorks: converted fresh crawl -> {len(conv)} postings")
+        except Exception as e:  # noqa
+            log("NUWorks convert failed:", type(e).__name__, str(e)[:80])
 
     raw = []
     if args.raw:
@@ -162,6 +183,13 @@ def run(args):
     with open(os.path.join(DATA, "rejected.jsonl"), "w") as f:
         for r in rejected:
             f.write(json.dumps(r) + "\n")
+    # audit trail for the site: intern/co-op postings at tracked companies that the filters dropped, and why
+    tracked = {c["name"].lower() for c in companies}
+    with open(os.path.join(DATA, "rejected_tracked.csv"), "w", newline="") as f:
+        w = csv.DictWriter(f, fieldnames=["company", "title", "location", "why", "url"]); w.writeheader()
+        for r in rejected:
+            if r["company"].lower() in tracked and r["why"] != "not intern":
+                w.writerow(r)
 
     cols = ["status", "rank", "term", "company", "title", "location", "tier", "hw", "posted", "first_seen", "last_seen", "nu_connection", "notes", "url", "sources"]
     with open(tpath, "w", newline="") as f:

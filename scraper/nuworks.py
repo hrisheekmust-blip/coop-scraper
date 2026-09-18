@@ -18,6 +18,10 @@ TODAY = date.today().isoformat()
 
 
 def convert(rows):
+    prev = {}
+    pp = os.path.join(ROOT, "data", "nuworks.json")
+    if os.path.exists(pp):
+        prev = {j["url"]: j.get("first_seen", TODAY) for j in json.load(open(pp))}
     out = []
     for r in rows:
         if not r.get("id"):
@@ -43,7 +47,7 @@ def convert(rows):
         out.append(dict(company=job["company"], title=job["title"], location=job["location"], url=job["url"],
                         term=term, rank=rank, hw=",".join(meta["hw"]), qualified=(r.get("badge") != "Not Qualified"),
                         applicantType=r.get("applicantType", ""), length=r.get("length", ""), deadline=r.get("deadline", ""),
-                        majors=r.get("majors", ""), why=r.get("why", ""), first_seen=TODAY, last_seen=TODAY))
+                        majors=r.get("majors", ""), why=r.get("why", ""), first_seen=prev.get(job["url"], TODAY), last_seen=TODAY))
     return out
 
 

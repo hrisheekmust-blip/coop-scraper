@@ -56,7 +56,25 @@ the Watchlist "expect" column.
 Put names + guessed slugs + careers URL in `config/candidates.json`, run the workflow with "discover" ticked, then
 paste `data/discover_config.json` entries into `config/companies.json`.
 
-## Google Sheet
+## The site
+
+`index.html` at the repo root is the board, served by GitHub Pages (Settings → Pages → main, `/`): it reads `data/*.csv`
+so it is current within a minute of every scrape. Tabs: Apply now, Maybe, All, Openings, Watchlist, Events, Leads,
+Rejected (audit trail). Statuses are saved in the browser (localStorage). The Google Sheet (`sheets/`) still works but
+is no longer the primary UI.
+
+## Alerts
+
+`scraper/alerts.py` runs after every scrape: new CHIP / HARDWARE / MAYBE rows, company openings and broken fetchers
+open a GitHub Issue (GitHub emails you) and push to `ntfy.sh/<NTFY_TOPIC>` when the repo variable `NTFY_TOPIC` is set.
+
+## NUWorks
+
+`scraper/nuworks_crawl.js` runs in a logged-in NUWorks tab (a daily scheduled task in the Claude desktop app does it,
+or paste it in the DevTools console) and produces `data/browser/coop_nuworks.json`; `tools/push_nuworks.ps1` pushes it
+(install the daily Windows task once with `tools/install_push_task.ps1`); the next scrape converts it.
+
+## Google Sheet (optional)
 
 `sheets/SETUP.md` — a Sheet that refreshes itself hourly from this repo's `data/sheet.csv`, colour-banded by urgency
 (APPLY NOW / APPLY / SOON / WATCH), NEW chips, deadlines, NUWorks eligibility, and your own status/notes that survive refreshes.

@@ -10,7 +10,7 @@ import urllib.parse
 from html import unescape
 
 UA = {"User-Agent": "Mozilla/5.0 (coop-scraper; personal job search)", "Accept": "application/json"}
-SEARCH_TERMS = ["intern", "co-op", "coop"]   # used for ATSs that need a keyword search
+SEARCH_TERMS = ["intern", "co-op", "coop", "student"]   # used for ATSs that need a keyword search
 
 
 def _get(url, data=None, headers=None, timeout=40):

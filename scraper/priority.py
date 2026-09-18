@@ -183,6 +183,9 @@ def build():
             w.writerow({k: e.get(k, "") for k in ["date", "time", "title", "type", "source"]})
 
     from collections import Counter
+    json.dump(dict(generated=datetime.now().astimezone().isoformat(timespec="minutes"), rows=len(rows), fit=dict(Counter(r["fit"] for r in rows)),
+                   urgency=dict(Counter(r["urgency"] for r in rows)), openings=len(openings), watchlist=len(wl), events=len(events)),
+              open(os.path.join(DATA, "meta.json"), "w"))
     print("openings:", len(openings), "|", end=" ")
     print("sheet.csv:", len(rows), dict(Counter(r["fit"] for r in rows)), dict(Counter(r["urgency"] for r in rows)), "| watchlist:", len(wl), "| events:", len(events))
 

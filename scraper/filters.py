@@ -18,6 +18,9 @@ STRONG_HW = [
     "logic design", "microarchitecture", "computer architecture", "power electronics", "wafer", "yield",
     "failure analysis", "quantum hardware", "hw", "eda", "ate", "characterization", "product engineer",
     "product engineering", "test engineer", "test engineering", "emulation", "cad", "ee",
+    "test technician", "test development", "test systems", "test automation engineer", "systems test", "hardware test",
+    "electronics", "electronic", "controls engineer", "sensor", "sensors", "optics", "optical engineer", "electro-optic",
+    "electromechanical", "electro-mechanical", "packaging engineer", "metrology", "lab engineer", "field programmable",
 ]
 WEAK_HW = ["validation", "firmware", "embedded", "process engineer", "reliability", "instrumentation"]
 _re = lambda words: re.compile(r"(?<![a-z])(" + "|".join(re.escape(w) for w in words) + r")(?![a-z])", re.I)
@@ -26,7 +29,7 @@ STRONG_RE, WEAK_RE = _re(STRONG_HW), _re(WEAK_HW)
 EXCLUDE_TITLE = re.compile(
     r"\b(ai product|mechanical|civil|structural|supply chain|sales|marketing|recruit|hr\b|human resources|finance|accounting|"
     r"legal|data analyst|business|procurement|logistics|customer|technical writer|graphic|ux|ui\b|product manager|"
-    r"program manager|project manager|product management|program management|pcb|environmental|facilities|construction|welding|machinist|technician|"
+    r"program manager|project manager|product management|program management|pcb|environmental|facilities|construction|welding|machinist|"
     r"manufacturing associate|operator|security clearance|nurse|chemist|biology|materials science|chemical)\b", re.I)
 # software-only titles: drop unless a hardware word is also present
 SOFTWARE_ONLY = re.compile(r"\b(software|swe|full[- ]stack|frontend|front-end|backend|back-end|web|mobile|ios|android|"
@@ -83,9 +86,14 @@ def classify(job):
     title = job["title"]
     if not is_intern(job):
         return False, "not intern", {}
-    if EXCLUDE_TITLE.search(title):
-        return False, "excluded title", {}
     hits = hardware_score(job)
+    if EXCLUDE_TITLE.search(title):
+        # a hardware word next to an excluded word ("Electro-Mechanical Instrument", "Sales Engineer - RF") is a Maybe, not a drop
+        if hits and job.get("tier"):
+            t = term_of(job)
+            if t in ("spring", "coop-unspecified"):
+                return True, "ok", {"term": t, "hw": ["maybe"], "rank": "A" if t == "spring" else "B", "maybe": True}
+        return False, "excluded title", {}
     if SOFTWARE_ONLY.search(title) and not hits:
         return False, "software only", {}
     if re.search(r"\bsoftware (test|qa|quality)\b", title, re.I):   # "software test engineer" is a software role even though "test engineer" is a hw keyword

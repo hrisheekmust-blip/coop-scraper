@@ -1,79 +1,1555 @@
 [
- {"name": "Qualcomm", "slugs": ["qualcomm"], "careers": "https://careers.qualcomm.com"},
- {"name": "Micron", "slugs": ["micron"], "careers": "https://micron.eightfold.ai"},
- {"name": "Apple", "slugs": ["apple"], "careers": "https://jobs.apple.com"},
- {"name": "Lam Research", "slugs": ["lamresearch", "lam"], "careers": "https://careers.lamresearch.com"},
- {"name": "Synopsys", "slugs": ["synopsys"], "careers": "https://careers.synopsys.com"},
- {"name": "Keysight", "slugs": ["keysight"], "careers": "https://jobs.keysight.com"},
- {"name": "Teradyne", "slugs": ["teradyne"], "careers": "https://careers.teradyne.com"},
- {"name": "Infineon", "slugs": ["infineon"], "careers": "https://jobs.infineon.com"},
- {"name": "AMD", "slugs": ["amd"], "careers": "https://careers.amd.com"},
- {"name": "Skyworks", "slugs": ["skyworks", "skyworksinc"], "careers": "https://careers.skyworksinc.com"},
- {"name": "Qorvo", "slugs": ["qorvo"], "careers": "https://careers.qorvo.com"},
- {"name": "MACOM", "slugs": ["macom"], "careers": "https://careers.macom.com"},
- {"name": "Cirrus Logic", "slugs": ["cirruslogic", "cirrus"], "careers": "https://careers.cirrus.com"},
- {"name": "Renesas", "slugs": ["renesas"], "careers": "https://careers.renesas.com"},
- {"name": "GlobalFoundries", "slugs": ["globalfoundries", "gf"], "careers": "https://gf.com/careers"},
- {"name": "TSMC Arizona", "slugs": ["tsmc"], "careers": "https://careers.tsmc.com"},
- {"name": "Arm", "slugs": ["arm"], "careers": "https://careers.arm.com"},
- {"name": "Rambus", "slugs": ["rambus"], "careers": "https://www.rambus.com/careers"},
- {"name": "Lattice Semiconductor", "slugs": ["latticesemi", "lattice"], "careers": "https://www.latticesemi.com/careers"},
- {"name": "Ambarella", "slugs": ["ambarella"], "careers": "https://www.ambarella.com/careers"},
- {"name": "Synaptics", "slugs": ["synaptics"], "careers": "https://www.synaptics.com/company/careers"},
- {"name": "MaxLinear", "slugs": ["maxlinear"], "careers": "https://careers.maxlinear.com"},
- {"name": "Semtech", "slugs": ["semtech"], "careers": "https://www.semtech.com/company/careers"},
- {"name": "SiTime", "slugs": ["sitime"], "careers": "https://www.sitime.com/company/careers"},
- {"name": "Vicor", "slugs": ["vicor", "vicorpower"], "careers": "https://www.vicorpower.com/careers"},
- {"name": "Western Digital", "slugs": ["westerndigital", "wdc"], "careers": "https://jobs.smartrecruiters.com/WesternDigital"},
- {"name": "Seagate", "slugs": ["seagate"], "careers": "https://seagatecareers.com"},
- {"name": "Coherent", "slugs": ["coherent", "iivi"], "careers": "https://careers.coherent.com"},
- {"name": "Lumentum", "slugs": ["lumentum"], "careers": "https://careers.lumentum.com"},
- {"name": "IPG Photonics", "slugs": ["ipgphotonics", "ipg"], "careers": "https://www.ipgphotonics.com/careers"},
- {"name": "MKS Instruments", "slugs": ["mksinst", "mks"], "careers": "https://jobs.mks.com"},
- {"name": "Entegris", "slugs": ["entegris"], "careers": "https://careers.entegris.com"},
- {"name": "ASML", "slugs": ["asml"], "careers": "https://www.asml.com/en/careers"},
- {"name": "FormFactor", "slugs": ["formfactor"], "careers": "https://www.formfactor.com/careers"},
- {"name": "Advantest", "slugs": ["advantest"], "careers": "https://www.advantest.com/careers"},
- {"name": "Onto Innovation", "slugs": ["ontoinnovation", "onto"], "careers": "https://ontoinnovation.com/careers"},
- {"name": "MIT Lincoln Laboratory", "slugs": ["mitll", "ll", "lincolnlab"], "careers": "https://careers.ll.mit.edu"},
- {"name": "Raytheon (RTX)", "slugs": ["rtx", "raytheon"], "careers": "https://careers.rtx.com"},
- {"name": "Lockheed Martin", "slugs": ["lockheedmartin", "lmco"], "careers": "https://www.lockheedmartinjobs.com"},
- {"name": "Northrop Grumman", "slugs": ["ngc", "northropgrumman"], "careers": "https://www.northropgrumman.com/jobs"},
- {"name": "L3Harris", "slugs": ["l3harris"], "careers": "https://careers.l3harris.com"},
- {"name": "BAE Systems", "slugs": ["baesystems", "bae"], "careers": "https://jobs.baesystems.com"},
- {"name": "General Dynamics Mission Systems", "slugs": ["gdms", "gd"], "careers": "https://gdmissionsystems.com/careers"},
- {"name": "Boeing", "slugs": ["boeing"], "careers": "https://jobs.boeing.com"},
- {"name": "GE Aerospace", "slugs": ["geaerospace", "ge"], "careers": "https://jobs.geaerospace.com"},
- {"name": "Honeywell", "slugs": ["honeywell"], "careers": "https://careers.honeywell.com"},
- {"name": "Sierra Nevada Corporation", "slugs": ["snc", "sncorp"], "careers": "https://www.sncorp.com/careers"},
- {"name": "Bose", "slugs": ["bose"], "careers": "https://www.bose.com/careers"},
- {"name": "iRobot", "slugs": ["irobot"], "careers": "https://www.irobot.com/careers"},
- {"name": "Dell", "slugs": ["dell"], "careers": "https://jobs.dell.com"},
- {"name": "HP", "slugs": ["hp"], "careers": "https://jobs.hp.com"},
- {"name": "MathWorks", "slugs": ["mathworks"], "careers": "https://www.mathworks.com/company/jobs"},
- {"name": "MediaTek", "slugs": ["mediatek"], "careers": "https://careers.mediatek.com"},
- {"name": "SiFive", "slugs": ["sifive"], "careers": "https://www.sifive.com/careers"},
- {"name": "Groq", "slugs": ["groq"], "careers": "https://groq.com/careers"},
- {"name": "Ampere Computing", "slugs": ["amperecomputing", "ampere"], "careers": "https://amperecomputing.com/careers"},
- {"name": "Rivos", "slugs": ["rivosinc", "rivos"], "careers": "https://www.rivosinc.com/careers"},
- {"name": "Ayar Labs", "slugs": ["ayarlabs"], "careers": "https://ayarlabs.com/careers"},
- {"name": "Celestial AI", "slugs": ["celestialai"], "careers": "https://www.celestial.ai/careers"},
- {"name": "Navitas Semiconductor", "slugs": ["navitassemi", "navitas"], "careers": "https://navitassemi.com/careers"},
- {"name": "Analog Devices", "slugs": ["analogdevices"], "careers": "https://www.analog.com/en/about-adi/careers.html"},
- {"name": "Microsoft", "slugs": ["microsoft"], "careers": "https://jobs.careers.microsoft.com"},
- {"name": "Meta", "slugs": ["meta", "facebook"], "careers": "https://www.metacareers.com"},
- {"name": "Amazon", "slugs": ["amazon"], "careers": "https://www.amazon.jobs"},
- {"name": "Google", "slugs": ["google"], "careers": "https://careers.google.com"},
- {"name": "Tesla", "slugs": ["tesla"], "careers": "https://www.tesla.com/careers"},
- {"name": "Nokia", "slugs": ["nokia"], "careers": "https://www.nokia.com/about-us/careers"},
- {"name": "Ciena", "slugs": ["ciena"], "careers": "https://www.ciena.com/careers"},
- {"name": "Juniper Networks", "slugs": ["juniper", "jnpr"], "careers": "https://careers.juniper.net"},
- {"name": "Arista Networks", "slugs": ["arista", "aristanetworks"], "careers": "https://www.arista.com/en/careers"},
- {"name": "Garmin", "slugs": ["garmin"], "careers": "https://careers.garmin.com"},
- {"name": "Sonos", "slugs": ["sonos"], "careers": "https://www.sonos.com/en-us/careers"},
- {"name": "Analog Devices Maxim", "slugs": ["maximintegrated"], "careers": ""},
- {"name": "Schneider Electric", "slugs": ["schneiderelectric", "se"], "careers": "https://www.se.com/us/en/about-us/careers"},
- {"name": "Eaton", "slugs": ["eaton"], "careers": "https://jobs.eaton.com"},
- {"name": "Emerson", "slugs": ["emerson"], "careers": "https://www.emerson.com/en-us/careers"},
- {"name": "Wabtec", "slugs": ["wabtec"], "careers": "https://www.wabteccorp.com/careers"}
+ {
+  "name": "Qualcomm",
+  "slugs": [
+   "qualcomm"
+  ],
+  "careers": "https://careers.qualcomm.com"
+ },
+ {
+  "name": "Micron",
+  "slugs": [
+   "micron"
+  ],
+  "careers": "https://micron.eightfold.ai"
+ },
+ {
+  "name": "Apple",
+  "slugs": [
+   "apple"
+  ],
+  "careers": "https://jobs.apple.com"
+ },
+ {
+  "name": "Lam Research",
+  "slugs": [
+   "lamresearch",
+   "lam"
+  ],
+  "careers": "https://careers.lamresearch.com"
+ },
+ {
+  "name": "Synopsys",
+  "slugs": [
+   "synopsys"
+  ],
+  "careers": "https://careers.synopsys.com"
+ },
+ {
+  "name": "Keysight",
+  "slugs": [
+   "keysight"
+  ],
+  "careers": "https://jobs.keysight.com"
+ },
+ {
+  "name": "Teradyne",
+  "slugs": [
+   "teradyne"
+  ],
+  "careers": "https://careers.teradyne.com"
+ },
+ {
+  "name": "Infineon",
+  "slugs": [
+   "infineon"
+  ],
+  "careers": "https://jobs.infineon.com"
+ },
+ {
+  "name": "AMD",
+  "slugs": [
+   "amd"
+  ],
+  "careers": "https://careers.amd.com"
+ },
+ {
+  "name": "Skyworks",
+  "slugs": [
+   "skyworks",
+   "skyworksinc"
+  ],
+  "careers": "https://careers.skyworksinc.com"
+ },
+ {
+  "name": "Qorvo",
+  "slugs": [
+   "qorvo"
+  ],
+  "careers": "https://careers.qorvo.com"
+ },
+ {
+  "name": "MACOM",
+  "slugs": [
+   "macom"
+  ],
+  "careers": "https://careers.macom.com"
+ },
+ {
+  "name": "Cirrus Logic",
+  "slugs": [
+   "cirruslogic",
+   "cirrus"
+  ],
+  "careers": "https://careers.cirrus.com"
+ },
+ {
+  "name": "Renesas",
+  "slugs": [
+   "renesas"
+  ],
+  "careers": "https://careers.renesas.com"
+ },
+ {
+  "name": "GlobalFoundries",
+  "slugs": [
+   "globalfoundries",
+   "gf"
+  ],
+  "careers": "https://gf.com/careers"
+ },
+ {
+  "name": "TSMC Arizona",
+  "slugs": [
+   "tsmc"
+  ],
+  "careers": "https://careers.tsmc.com"
+ },
+ {
+  "name": "Arm",
+  "slugs": [
+   "arm"
+  ],
+  "careers": "https://careers.arm.com"
+ },
+ {
+  "name": "Rambus",
+  "slugs": [
+   "rambus"
+  ],
+  "careers": "https://www.rambus.com/careers"
+ },
+ {
+  "name": "Lattice Semiconductor",
+  "slugs": [
+   "latticesemi",
+   "lattice"
+  ],
+  "careers": "https://www.latticesemi.com/careers"
+ },
+ {
+  "name": "Ambarella",
+  "slugs": [
+   "ambarella"
+  ],
+  "careers": "https://www.ambarella.com/careers"
+ },
+ {
+  "name": "Synaptics",
+  "slugs": [
+   "synaptics"
+  ],
+  "careers": "https://www.synaptics.com/company/careers"
+ },
+ {
+  "name": "MaxLinear",
+  "slugs": [
+   "maxlinear"
+  ],
+  "careers": "https://careers.maxlinear.com"
+ },
+ {
+  "name": "Semtech",
+  "slugs": [
+   "semtech"
+  ],
+  "careers": "https://www.semtech.com/company/careers"
+ },
+ {
+  "name": "SiTime",
+  "slugs": [
+   "sitime"
+  ],
+  "careers": "https://www.sitime.com/company/careers"
+ },
+ {
+  "name": "Vicor",
+  "slugs": [
+   "vicor",
+   "vicorpower"
+  ],
+  "careers": "https://www.vicorpower.com/careers"
+ },
+ {
+  "name": "Western Digital",
+  "slugs": [
+   "westerndigital",
+   "wdc"
+  ],
+  "careers": "https://jobs.smartrecruiters.com/WesternDigital"
+ },
+ {
+  "name": "Seagate",
+  "slugs": [
+   "seagate"
+  ],
+  "careers": "https://seagatecareers.com"
+ },
+ {
+  "name": "Coherent",
+  "slugs": [
+   "coherent",
+   "iivi"
+  ],
+  "careers": "https://careers.coherent.com"
+ },
+ {
+  "name": "Lumentum",
+  "slugs": [
+   "lumentum"
+  ],
+  "careers": "https://careers.lumentum.com"
+ },
+ {
+  "name": "IPG Photonics",
+  "slugs": [
+   "ipgphotonics",
+   "ipg"
+  ],
+  "careers": "https://www.ipgphotonics.com/careers"
+ },
+ {
+  "name": "MKS Instruments",
+  "slugs": [
+   "mksinst",
+   "mks"
+  ],
+  "careers": "https://jobs.mks.com"
+ },
+ {
+  "name": "Entegris",
+  "slugs": [
+   "entegris"
+  ],
+  "careers": "https://careers.entegris.com"
+ },
+ {
+  "name": "ASML",
+  "slugs": [
+   "asml"
+  ],
+  "careers": "https://www.asml.com/en/careers"
+ },
+ {
+  "name": "FormFactor",
+  "slugs": [
+   "formfactor"
+  ],
+  "careers": "https://www.formfactor.com/careers"
+ },
+ {
+  "name": "Advantest",
+  "slugs": [
+   "advantest"
+  ],
+  "careers": "https://www.advantest.com/careers"
+ },
+ {
+  "name": "Onto Innovation",
+  "slugs": [
+   "ontoinnovation",
+   "onto"
+  ],
+  "careers": "https://ontoinnovation.com/careers"
+ },
+ {
+  "name": "MIT Lincoln Laboratory",
+  "slugs": [
+   "mitll",
+   "ll",
+   "lincolnlab"
+  ],
+  "careers": "https://careers.ll.mit.edu"
+ },
+ {
+  "name": "Raytheon (RTX)",
+  "slugs": [
+   "rtx",
+   "raytheon"
+  ],
+  "careers": "https://careers.rtx.com"
+ },
+ {
+  "name": "Lockheed Martin",
+  "slugs": [
+   "lockheedmartin",
+   "lmco"
+  ],
+  "careers": "https://www.lockheedmartinjobs.com"
+ },
+ {
+  "name": "Northrop Grumman",
+  "slugs": [
+   "ngc",
+   "northropgrumman"
+  ],
+  "careers": "https://www.northropgrumman.com/jobs"
+ },
+ {
+  "name": "L3Harris",
+  "slugs": [
+   "l3harris"
+  ],
+  "careers": "https://careers.l3harris.com"
+ },
+ {
+  "name": "BAE Systems",
+  "slugs": [
+   "baesystems",
+   "bae"
+  ],
+  "careers": "https://jobs.baesystems.com"
+ },
+ {
+  "name": "General Dynamics Mission Systems",
+  "slugs": [
+   "gdms",
+   "gd"
+  ],
+  "careers": "https://gdmissionsystems.com/careers"
+ },
+ {
+  "name": "Boeing",
+  "slugs": [
+   "boeing"
+  ],
+  "careers": "https://jobs.boeing.com"
+ },
+ {
+  "name": "GE Aerospace",
+  "slugs": [
+   "geaerospace",
+   "ge"
+  ],
+  "careers": "https://jobs.geaerospace.com"
+ },
+ {
+  "name": "Honeywell",
+  "slugs": [
+   "honeywell"
+  ],
+  "careers": "https://careers.honeywell.com"
+ },
+ {
+  "name": "Sierra Nevada Corporation",
+  "slugs": [
+   "snc",
+   "sncorp"
+  ],
+  "careers": "https://www.sncorp.com/careers"
+ },
+ {
+  "name": "Bose",
+  "slugs": [
+   "bose"
+  ],
+  "careers": "https://www.bose.com/careers"
+ },
+ {
+  "name": "iRobot",
+  "slugs": [
+   "irobot"
+  ],
+  "careers": "https://www.irobot.com/careers"
+ },
+ {
+  "name": "Dell",
+  "slugs": [
+   "dell"
+  ],
+  "careers": "https://jobs.dell.com"
+ },
+ {
+  "name": "HP",
+  "slugs": [
+   "hp"
+  ],
+  "careers": "https://jobs.hp.com"
+ },
+ {
+  "name": "MathWorks",
+  "slugs": [
+   "mathworks"
+  ],
+  "careers": "https://www.mathworks.com/company/jobs"
+ },
+ {
+  "name": "MediaTek",
+  "slugs": [
+   "mediatek"
+  ],
+  "careers": "https://careers.mediatek.com"
+ },
+ {
+  "name": "SiFive",
+  "slugs": [
+   "sifive"
+  ],
+  "careers": "https://www.sifive.com/careers"
+ },
+ {
+  "name": "Groq",
+  "slugs": [
+   "groq"
+  ],
+  "careers": "https://groq.com/careers"
+ },
+ {
+  "name": "Ampere Computing",
+  "slugs": [
+   "amperecomputing",
+   "ampere"
+  ],
+  "careers": "https://amperecomputing.com/careers"
+ },
+ {
+  "name": "Rivos",
+  "slugs": [
+   "rivosinc",
+   "rivos"
+  ],
+  "careers": "https://www.rivosinc.com/careers"
+ },
+ {
+  "name": "Ayar Labs",
+  "slugs": [
+   "ayarlabs"
+  ],
+  "careers": "https://ayarlabs.com/careers"
+ },
+ {
+  "name": "Celestial AI",
+  "slugs": [
+   "celestialai"
+  ],
+  "careers": "https://www.celestial.ai/careers"
+ },
+ {
+  "name": "Navitas Semiconductor",
+  "slugs": [
+   "navitassemi",
+   "navitas"
+  ],
+  "careers": "https://navitassemi.com/careers"
+ },
+ {
+  "name": "Analog Devices",
+  "slugs": [
+   "analogdevices"
+  ],
+  "careers": "https://www.analog.com/en/about-adi/careers.html"
+ },
+ {
+  "name": "Microsoft",
+  "slugs": [
+   "microsoft"
+  ],
+  "careers": "https://jobs.careers.microsoft.com"
+ },
+ {
+  "name": "Meta",
+  "slugs": [
+   "meta",
+   "facebook"
+  ],
+  "careers": "https://www.metacareers.com"
+ },
+ {
+  "name": "Amazon",
+  "slugs": [
+   "amazon"
+  ],
+  "careers": "https://www.amazon.jobs"
+ },
+ {
+  "name": "Google",
+  "slugs": [
+   "google"
+  ],
+  "careers": "https://careers.google.com"
+ },
+ {
+  "name": "Tesla",
+  "slugs": [
+   "tesla"
+  ],
+  "careers": "https://www.tesla.com/careers"
+ },
+ {
+  "name": "Nokia",
+  "slugs": [
+   "nokia"
+  ],
+  "careers": "https://www.nokia.com/about-us/careers"
+ },
+ {
+  "name": "Ciena",
+  "slugs": [
+   "ciena"
+  ],
+  "careers": "https://www.ciena.com/careers"
+ },
+ {
+  "name": "Juniper Networks",
+  "slugs": [
+   "juniper",
+   "jnpr"
+  ],
+  "careers": "https://careers.juniper.net"
+ },
+ {
+  "name": "Arista Networks",
+  "slugs": [
+   "arista",
+   "aristanetworks"
+  ],
+  "careers": "https://www.arista.com/en/careers"
+ },
+ {
+  "name": "Garmin",
+  "slugs": [
+   "garmin"
+  ],
+  "careers": "https://careers.garmin.com"
+ },
+ {
+  "name": "Sonos",
+  "slugs": [
+   "sonos"
+  ],
+  "careers": "https://www.sonos.com/en-us/careers"
+ },
+ {
+  "name": "Analog Devices Maxim",
+  "slugs": [
+   "maximintegrated"
+  ],
+  "careers": ""
+ },
+ {
+  "name": "Schneider Electric",
+  "slugs": [
+   "schneiderelectric",
+   "se"
+  ],
+  "careers": "https://www.se.com/us/en/about-us/careers"
+ },
+ {
+  "name": "Eaton",
+  "slugs": [
+   "eaton"
+  ],
+  "careers": "https://jobs.eaton.com"
+ },
+ {
+  "name": "Emerson",
+  "slugs": [
+   "emerson"
+  ],
+  "careers": "https://www.emerson.com/en-us/careers"
+ },
+ {
+  "name": "Wabtec",
+  "slugs": [
+   "wabtec"
+  ],
+  "careers": "https://www.wabteccorp.com/careers"
+ },
+ {
+  "name": "Formlabs",
+  "slugs": [
+   "formlabs"
+  ],
+  "careers": "https://careers.formlabs.com"
+ },
+ {
+  "name": "Desktop Metal",
+  "slugs": [
+   "desktopmetal"
+  ],
+  "careers": ""
+ },
+ {
+  "name": "Markforged",
+  "slugs": [
+   "markforged"
+  ],
+  "careers": ""
+ },
+ {
+  "name": "Nuvation Engineering",
+  "slugs": [
+   "nuvation"
+  ],
+  "careers": ""
+ },
+ {
+  "name": "Waters Corporation",
+  "slugs": [
+   "waters"
+  ],
+  "careers": "https://careers.waters.com"
+ },
+ {
+  "name": "Thermo Fisher Scientific",
+  "slugs": [
+   "thermofisher"
+  ],
+  "careers": "https://jobs.thermofisher.com"
+ },
+ {
+  "name": "Akamai",
+  "slugs": [
+   "akamai"
+  ],
+  "careers": ""
+ },
+ {
+  "name": "Amazon Robotics",
+  "slugs": [
+   "amazonrobotics"
+  ],
+  "careers": ""
+ },
+ {
+  "name": "Toast",
+  "slugs": [
+   "toast"
+  ],
+  "careers": ""
+ },
+ {
+  "name": "HyperLight",
+  "slugs": [
+   "hyperlight"
+  ],
+  "careers": ""
+ },
+ {
+  "name": "Lightmatter",
+  "slugs": [
+   "lightmatter"
+  ],
+  "careers": ""
+ },
+ {
+  "name": "Aurora Flight Sciences",
+  "slugs": [
+   "auroraflightsciences",
+   "aurora"
+  ],
+  "careers": ""
+ },
+ {
+  "name": "Mercury Systems",
+  "slugs": [
+   "mercurysystems",
+   "mrcy"
+  ],
+  "careers": "https://careers.mrcy.com"
+ },
+ {
+  "name": "Symbotic",
+  "slugs": [
+   "symbotic"
+  ],
+  "careers": ""
+ },
+ {
+  "name": "Ascend Elements",
+  "slugs": [
+   "ascendelements"
+  ],
+  "careers": ""
+ },
+ {
+  "name": "Commonwealth Fusion Systems",
+  "slugs": [
+   "cfs",
+   "commonwealthfusion"
+  ],
+  "careers": ""
+ },
+ {
+  "name": "Vicarious Surgical",
+  "slugs": [
+   "vicarioussurgical"
+  ],
+  "careers": ""
+ },
+ {
+  "name": "Whoop",
+  "slugs": [
+   "whoop"
+  ],
+  "careers": ""
+ },
+ {
+  "name": "Analogic",
+  "slugs": [
+   "analogic"
+  ],
+  "careers": ""
+ },
+ {
+  "name": "Rapid Micro Biosystems",
+  "slugs": [
+   "rapidmicrobio"
+  ],
+  "careers": ""
+ },
+ {
+  "name": "Kulicke & Soffa",
+  "slugs": [
+   "kns",
+   "kulickeandsoffa"
+  ],
+  "careers": ""
+ },
+ {
+  "name": "ChipAgents",
+  "slugs": [
+   "chipagents"
+  ],
+  "careers": ""
+ },
+ {
+  "name": "Cerebras",
+  "slugs": [
+   "cerebras"
+  ],
+  "careers": ""
+ },
+ {
+  "name": "SambaNova",
+  "slugs": [
+   "sambanova"
+  ],
+  "careers": ""
+ },
+ {
+  "name": "Etched",
+  "slugs": [
+   "etched"
+  ],
+  "careers": ""
+ },
+ {
+  "name": "d-Matrix",
+  "slugs": [
+   "d-matrix",
+   "dmatrix"
+  ],
+  "careers": ""
+ },
+ {
+  "name": "MatX",
+  "slugs": [
+   "matx"
+  ],
+  "careers": ""
+ },
+ {
+  "name": "Tenstorrent",
+  "slugs": [
+   "tenstorrent"
+  ],
+  "careers": ""
+ },
+ {
+  "name": "Enfabrica",
+  "slugs": [
+   "enfabrica"
+  ],
+  "careers": ""
+ },
+ {
+  "name": "Untether AI",
+  "slugs": [
+   "untether",
+   "untetherai"
+  ],
+  "careers": ""
+ },
+ {
+  "name": "Recogni",
+  "slugs": [
+   "recogni"
+  ],
+  "careers": ""
+ },
+ {
+  "name": "Mythic",
+  "slugs": [
+   "mythic",
+   "mythic-ai"
+  ],
+  "careers": ""
+ },
+ {
+  "name": "Blaize",
+  "slugs": [
+   "blaize"
+  ],
+  "careers": ""
+ },
+ {
+  "name": "SiMa.ai",
+  "slugs": [
+   "sima",
+   "simaai"
+  ],
+  "careers": ""
+ },
+ {
+  "name": "Axelera AI",
+  "slugs": [
+   "axelera"
+  ],
+  "careers": ""
+ },
+ {
+  "name": "Fractile",
+  "slugs": [
+   "fractile"
+  ],
+  "careers": ""
+ },
+ {
+  "name": "Positron",
+  "slugs": [
+   "positron",
+   "positronai"
+  ],
+  "careers": ""
+ },
+ {
+  "name": "Taalas",
+  "slugs": [
+   "taalas"
+  ],
+  "careers": ""
+ },
+ {
+  "name": "Extropic",
+  "slugs": [
+   "extropic"
+  ],
+  "careers": ""
+ },
+ {
+  "name": "Normal Computing",
+  "slugs": [
+   "normalcomputing"
+  ],
+  "careers": ""
+ },
+ {
+  "name": "Esperanto Technologies",
+  "slugs": [
+   "esperantotech",
+   "esperanto"
+  ],
+  "careers": ""
+ },
+ {
+  "name": "Ventana Micro Systems",
+  "slugs": [
+   "ventanamicro"
+  ],
+  "careers": ""
+ },
+ {
+  "name": "Akeana",
+  "slugs": [
+   "akeana"
+  ],
+  "careers": ""
+ },
+ {
+  "name": "Eliyan",
+  "slugs": [
+   "eliyan"
+  ],
+  "careers": ""
+ },
+ {
+  "name": "Credo",
+  "slugs": [
+   "credosemi",
+   "credo"
+  ],
+  "careers": ""
+ },
+ {
+  "name": "Ranovus",
+  "slugs": [
+   "ranovus"
+  ],
+  "careers": ""
+ },
+ {
+  "name": "Xscape Photonics",
+  "slugs": [
+   "xscapephotonics"
+  ],
+  "careers": ""
+ },
+ {
+  "name": "Lumotive",
+  "slugs": [
+   "lumotive"
+  ],
+  "careers": ""
+ },
+ {
+  "name": "Aeluma",
+  "slugs": [
+   "aeluma"
+  ],
+  "careers": ""
+ },
+ {
+  "name": "Atomic Semi",
+  "slugs": [
+   "atomicsemi"
+  ],
+  "careers": ""
+ },
+ {
+  "name": "Substrate",
+  "slugs": [
+   "substrate"
+  ],
+  "careers": ""
+ },
+ {
+  "name": "Menlo Micro",
+  "slugs": [
+   "menlomicro"
+  ],
+  "careers": ""
+ },
+ {
+  "name": "Cenfire",
+  "slugs": [
+   "cenfire"
+  ],
+  "careers": ""
+ },
+ {
+  "name": "Ideal Power",
+  "slugs": [
+   "idealpower"
+  ],
+  "careers": ""
+ },
+ {
+  "name": "EPC (Efficient Power Conversion)",
+  "slugs": [
+   "epc-co",
+   "epc"
+  ],
+  "careers": ""
+ },
+ {
+  "name": "Transphorm",
+  "slugs": [
+   "transphorm"
+  ],
+  "careers": ""
+ },
+ {
+  "name": "Empower Semiconductor",
+  "slugs": [
+   "empowersemi"
+  ],
+  "careers": ""
+ },
+ {
+  "name": "Anokiwave",
+  "slugs": [
+   "anokiwave"
+  ],
+  "careers": ""
+ },
+ {
+  "name": "Movandi",
+  "slugs": [
+   "movandi"
+  ],
+  "careers": ""
+ },
+ {
+  "name": "Pivotal Commware",
+  "slugs": [
+   "pivotalcommware"
+  ],
+  "careers": ""
+ },
+ {
+  "name": "Mobix Labs",
+  "slugs": [
+   "mobixlabs"
+  ],
+  "careers": ""
+ },
+ {
+  "name": "Guerrilla RF",
+  "slugs": [
+   "guerrilla-rf",
+   "guerrillarf"
+  ],
+  "careers": ""
+ },
+ {
+  "name": "Akoustis",
+  "slugs": [
+   "akoustis"
+  ],
+  "careers": ""
+ },
+ {
+  "name": "Marki Microwave",
+  "slugs": [
+   "markimicrowave"
+  ],
+  "careers": ""
+ },
+ {
+  "name": "Mini-Circuits",
+  "slugs": [
+   "minicircuits"
+  ],
+  "careers": ""
+ },
+ {
+  "name": "Silicon Labs",
+  "slugs": [
+   "silabs"
+  ],
+  "careers": ""
+ },
+ {
+  "name": "Allegro MicroSystems",
+  "slugs": [
+   "allegromicro"
+  ],
+  "careers": ""
+ },
+ {
+  "name": "Diodes Incorporated",
+  "slugs": [
+   "diodes"
+  ],
+  "careers": ""
+ },
+ {
+  "name": "Nexperia",
+  "slugs": [
+   "nexperia"
+  ],
+  "careers": ""
+ },
+ {
+  "name": "Kioxia America",
+  "slugs": [
+   "kioxia"
+  ],
+  "careers": ""
+ },
+ {
+  "name": "SK hynix America",
+  "slugs": [
+   "skhynix"
+  ],
+  "careers": ""
+ },
+ {
+  "name": "Luminous Computing",
+  "slugs": [
+   "luminous"
+  ],
+  "careers": ""
+ },
+ {
+  "name": "Quintessent",
+  "slugs": [
+   "quintessent"
+  ],
+  "careers": ""
+ },
+ {
+  "name": "nEye Systems",
+  "slugs": [
+   "neye"
+  ],
+  "careers": ""
+ },
+ {
+  "name": "Scintil Photonics",
+  "slugs": [
+   "scintil"
+  ],
+  "careers": ""
+ },
+ {
+  "name": "QuEra",
+  "slugs": [
+   "quera"
+  ],
+  "careers": ""
+ },
+ {
+  "name": "Quantinuum",
+  "slugs": [
+   "quantinuum"
+  ],
+  "careers": ""
+ },
+ {
+  "name": "Infleqtion",
+  "slugs": [
+   "infleqtion",
+   "coldquanta"
+  ],
+  "careers": ""
+ },
+ {
+  "name": "Zero ASIC",
+  "slugs": [
+   "zeroasic"
+  ],
+  "careers": ""
+ },
+ {
+  "name": "Efabless",
+  "slugs": [
+   "efabless"
+  ],
+  "careers": ""
+ },
+ {
+  "name": "Semianalysis",
+  "slugs": [
+   "semianalysis"
+  ],
+  "careers": ""
+ },
+ {
+  "name": "Alphawave Semi",
+  "slugs": [
+   "alphawave",
+   "awavesemi"
+  ],
+  "careers": ""
+ },
+ {
+  "name": "Achronix",
+  "slugs": [
+   "achronix"
+  ],
+  "careers": ""
+ },
+ {
+  "name": "Flex Logix",
+  "slugs": [
+   "flex-logix",
+   "flexlogix"
+  ],
+  "careers": ""
+ },
+ {
+  "name": "Microchip",
+  "slugs": [
+   "microchip"
+  ],
+  "careers": ""
+ },
+ {
+  "name": "Wolfspeed",
+  "slugs": [
+   "wolfspeed"
+  ],
+  "careers": ""
+ },
+ {
+  "name": "Ambiq",
+  "slugs": [
+   "ambiq"
+  ],
+  "careers": ""
+ },
+ {
+  "name": "Nordic Semiconductor",
+  "slugs": [
+   "nordicsemi"
+  ],
+  "careers": ""
+ },
+ {
+  "name": "Silvaco",
+  "slugs": [
+   "silvaco"
+  ],
+  "careers": ""
+ },
+ {
+  "name": "Tektronix",
+  "slugs": [
+   "tektronix",
+   "tek"
+  ],
+  "careers": ""
+ },
+ {
+  "name": "National Instruments (Emerson)",
+  "slugs": [
+   "ni"
+  ],
+  "careers": ""
+ },
+ {
+  "name": "Rohde & Schwarz USA",
+  "slugs": [
+   "rohde-schwarz"
+  ],
+  "careers": ""
+ },
+ {
+  "name": "indie Semiconductor",
+  "slugs": [
+   "indiesemi"
+  ],
+  "careers": ""
+ },
+ {
+  "name": "Ampere",
+  "slugs": [
+   "ampere"
+  ],
+  "careers": ""
+ },
+ {
+  "name": "Rain AI",
+  "slugs": [
+   "rain",
+   "rainai"
+  ],
+  "careers": ""
+ },
+ {
+  "name": "Lightelligence",
+  "slugs": [
+   "lightelligence"
+  ],
+  "careers": ""
+ },
+ {
+  "name": "Salience Labs",
+  "slugs": [
+   "saliencelabs"
+  ],
+  "careers": ""
+ },
+ {
+  "name": "Oriole Networks",
+  "slugs": [
+   "oriolenetworks"
+  ],
+  "careers": ""
+ },
+ {
+  "name": "Hailo",
+  "slugs": [
+   "hailo"
+  ],
+  "careers": ""
+ },
+ {
+  "name": "Kneron",
+  "slugs": [
+   "kneron"
+  ],
+  "careers": ""
+ },
+ {
+  "name": "Tachyum",
+  "slugs": [
+   "tachyum"
+  ],
+  "careers": ""
+ },
+ {
+  "name": "Arteris",
+  "slugs": [
+   "arteris"
+  ],
+  "careers": ""
+ },
+ {
+  "name": "Ceva",
+  "slugs": [
+   "ceva"
+  ],
+  "careers": ""
+ },
+ {
+  "name": "Imagination Technologies",
+  "slugs": [
+   "imgtec"
+  ],
+  "careers": ""
+ },
+ {
+  "name": "Andes Technology",
+  "slugs": [
+   "andestech"
+  ],
+  "careers": ""
+ },
+ {
+  "name": "Ubicept",
+  "slugs": [
+   "ubicept"
+  ],
+  "careers": ""
+ },
+ {
+  "name": "Vayyar",
+  "slugs": [
+   "vayyar"
+  ],
+  "careers": ""
+ },
+ {
+  "name": "Owl Autonomous Imaging",
+  "slugs": [
+   "owlai"
+  ],
+  "careers": ""
+ },
+ {
+  "name": "Analog Inference",
+  "slugs": [
+   "analoginference"
+  ],
+  "careers": ""
+ },
+ {
+  "name": "Mythic AI",
+  "slugs": [
+   "mythicai"
+  ],
+  "careers": ""
+ },
+ {
+  "name": "Sagence AI",
+  "slugs": [
+   "sagence"
+  ],
+  "careers": ""
+ },
+ {
+  "name": "EnCharge AI",
+  "slugs": [
+   "encharge",
+   "enchargeai"
+  ],
+  "careers": ""
+ },
+ {
+  "name": "Tetramem",
+  "slugs": [
+   "tetramem"
+  ],
+  "careers": ""
+ },
+ {
+  "name": "Ayar",
+  "slugs": [
+   "ayar"
+  ],
+  "careers": ""
+ },
+ {
+  "name": "Anduril",
+  "slugs": [
+   "anduril"
+  ],
+  "careers": ""
+ },
+ {
+  "name": "Epirus",
+  "slugs": [
+   "epirus"
+  ],
+  "careers": ""
+ },
+ {
+  "name": "Shield AI",
+  "slugs": [
+   "shieldai"
+  ],
+  "careers": ""
+ },
+ {
+  "name": "Applied Research Laboratory (Penn State)",
+  "slugs": [
+   "arl-psu"
+  ],
+  "careers": ""
+ },
+ {
+  "name": "Johns Hopkins APL",
+  "slugs": [
+   "jhuapl"
+  ],
+  "careers": "https://careers.jhuapl.edu"
+ },
+ {
+  "name": "Sandia National Laboratories",
+  "slugs": [
+   "sandia"
+  ],
+  "careers": "https://sandia.jobs"
+ },
+ {
+  "name": "Los Alamos National Laboratory",
+  "slugs": [
+   "lanl"
+  ],
+  "careers": "https://lanl.jobs"
+ },
+ {
+  "name": "Lawrence Livermore National Laboratory",
+  "slugs": [
+   "llnl"
+  ],
+  "careers": "https://www.llnl.gov/join-our-team/careers"
+ },
+ {
+  "name": "NASA JPL",
+  "slugs": [
+   "jpl"
+  ],
+  "careers": "https://www.jpl.jobs"
+ },
+ {
+  "name": "Leidos",
+  "slugs": [
+   "leidos"
+  ],
+  "careers": "https://careers.leidos.com"
+ },
+ {
+  "name": "Textron",
+  "slugs": [
+   "textron"
+  ],
+  "careers": "https://careers.textron.com"
+ },
+ {
+  "name": "Collins Aerospace",
+  "slugs": [
+   "collinsaerospace"
+  ],
+  "careers": ""
+ },
+ {
+  "name": "Kratos",
+  "slugs": [
+   "kratosdefense",
+   "kratos"
+  ],
+  "careers": ""
+ },
+ {
+  "name": "Ultra Electronics",
+  "slugs": [
+   "ultra"
+  ],
+  "careers": ""
+ },
+ {
+  "name": "Curtiss-Wright",
+  "slugs": [
+   "curtisswright",
+   "cw"
+  ],
+  "careers": ""
+ },
+ {
+  "name": "Moog",
+  "slugs": [
+   "moog"
+  ],
+  "careers": ""
+ },
+ {
+  "name": "Teledyne",
+  "slugs": [
+   "teledyne"
+  ],
+  "careers": "https://careers.teledyne.com"
+ },
+ {
+  "name": "Ball Aerospace (BAE)",
+  "slugs": [
+   "ballaerospace"
+  ],
+  "careers": ""
+ },
+ {
+  "name": "Raytheon",
+  "slugs": [
+   "raytheon"
+  ],
+  "careers": ""
+ },
+ {
+  "name": "Palantir",
+  "slugs": [
+   "palantir"
+  ],
+  "careers": ""
+ },
+ {
+  "name": "Hermeus",
+  "slugs": [
+   "hermeus"
+  ],
+  "careers": ""
+ },
+ {
+  "name": "True Anomaly",
+  "slugs": [
+   "trueanomaly"
+  ],
+  "careers": ""
+ },
+ {
+  "name": "Castelion",
+  "slugs": [
+   "castelion"
+  ],
+  "careers": ""
+ },
+ {
+  "name": "Mach Industries",
+  "slugs": [
+   "machindustries"
+  ],
+  "careers": ""
+ }
 ]

@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Spring '27 Co-op Board</title>
+<meta name="description" content="Hardware / semiconductor co-op postings for Spring 2027, refreshed every 30 minutes by the scraper in this repo.">
+<style>
+:root{--bg:#f7f7f5;--panel:#fff;--ink:#17181c;--mute:#6b7280;--line:#e5e7eb;--accent:#0f766e;--chip:#0f766e;--chipInk:#fff;--hw:#e2e8f0;--hwInk:#334155;--maybe:#fef3c7;--maybeInk:#92400e;--adj:#f1f5f9;--adjInk:#94a3b8;--now:#fee2e2;--nowInk:#b00020;--apply:#ffedd5;--applyInk:#9a3412;--soon:#dbeafe;--soonInk:#1d4ed8;--new:#16a34a;--done:#f3f4f6;--doneInk:#9ca3af;--red:#b00020}
+@media(prefers-color-scheme:dark){:root:not([data-theme=light]){--bg:#0f1115;--panel:#171a21;--ink:#e6e7ea;--mute:#9aa0aa;--line:#262b35;--hw:#2a3441;--hwInk:#c7d2e0;--maybe:#3b2f0e;--maybeInk:#fcd34d;--adj:#1c212b;--adjInk:#6b7280;--now:#3b1216;--nowInk:#fda4af;--apply:#3a2210;--applyInk:#fdba74;--soon:#12213d;--soonInk:#93c5fd;--done:#1a1d24;--doneInk:#6b7280;--red:#fda4af}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:14px/1.45 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+header{position:sticky;top:0;z-index:5;background:var(--panel);border-bottom:1px solid var(--line);padding:10px 16px;display:flex;flex-wrap:wrap;gap:8px 16px;align-items:center}
+h1{font-size:17px;margin:0 12px 0 0}#meta{color:var(--mute);font-size:12px}
+nav{display:flex;flex-wrap:wrap;gap:4px}nav button{border:1px solid var(--line);background:var(--panel);color:var(--ink);padding:6px 10px;border-radius:8px;cursor:pointer;font-size:13px}
+nav button.on{background:var(--ink);color:var(--bg);border-color:var(--ink)}nav button b{font-weight:600;opacity:.7;margin-left:4px}
+.tools{display:flex;flex-wrap:wrap;gap:8px;padding:10px 16px;align-items:center}
+.tools input,.tools select{border:1px solid var(--line);background:var(--panel);color:var(--ink);padding:6px 8px;border-radius:8px;font-size:13px}
+.tools label{color:var(--mute);font-size:13px;display:flex;gap:4px;align-items:center}
+main{padding:0 16px 40px}table{width:100%;border-collapse:collapse;background:var(--panel);border:1px solid var(--line);border-radius:10px;overflow:hidden}
+th{position:sticky;top:var(--hh,52px);background:var(--panel);text-align:left;font-size:12px;color:var(--mute);font-weight:600;padding:8px;border-bottom:1px solid var(--line);white-space:nowrap;cursor:pointer}
+td{padding:7px 8px;border-bottom:1px solid var(--line);vertical-align:top}tr.done td{background:var(--done);color:var(--doneInk)}tr.done a{color:var(--doneInk)}
+.tag{display:inline-block;padding:2px 7px;border-radius:6px;font-size:11px;font-weight:700;white-space:nowrap}
+.CHIP{background:var(--chip);color:var(--chipInk)}.HARDWARE{background:var(--hw);color:var(--hwInk)}.MAYBE{background:var(--maybe);color:var(--maybeInk)}.ADJACENT{background:var(--adj);color:var(--adjInk)}
+.u-now{background:var(--now);color:var(--nowInk)}.u-apply{background:var(--apply);color:var(--applyInk)}.u-soon{background:var(--soon);color:var(--soonInk)}.u-watch{background:var(--adj);color:var(--mute)}
+.new{background:var(--new);color:#fff}.red{color:var(--red);font-weight:700}a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
+.role{font-weight:600}.sub{color:var(--mute);font-size:12px}select.st{border:1px solid var(--line);background:var(--panel);color:var(--ink);border-radius:6px;padding:3px 4px;font-size:12px}
+.empty{padding:30px;text-align:center;color:var(--mute)}.note{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:12px 14px;margin:10px 0;color:var(--mute);font-size:13px}
+.stat{display:inline-block;margin-right:14px}.stat b{color:var(--ink)}
+@media(max-width:800px){th{top:auto;position:static}.hide-sm{display:none}}
+</style>
+</head>
+<body>
+<header>
+  <h1>Spring '27 Co-op Board</h1>
+  <nav id="nav"></nav>
+  <span id="meta"></span>
+</header>
+<div class="tools">
+  <input id="q" placeholder="search company / role / location" size="34">
+  <select id="fit"><option value="">any fit</option><option>CHIP</option><option>HARDWARE</option><option>MAYBE</option><option>ADJACENT</option></select>
+  <select id="urg"><option value="">any urgency</option><option>APPLY NOW</option><option>APPLY</option><option>SOON</option><option>WATCH</option></select>
+  <select id="term"><option value="">any term</option><option value="spring">spring / Jan 2027 stated</option><option value="coop-unspecified">co-op, term unstated</option><option value="unspecified">intern, term unstated</option></select>
+  <label><input type="checkbox" id="hideDone" checked> hide applied / skipped</label>
+  <label><input type="checkbox" id="onlyNew"> only NEW</label>
+  <span id="count" class="sub"></span>
+</div>
+<main id="main"></main>
+<script>
+const TABS=[["apply","Apply now"],["maybe","Maybe"],["all","All postings"],["openings","Openings"],["watch","Watchlist"],["events","Events"],["leads","Leads"],["rejected","Rejected"],["help","How it works"]];
+const D={};let tab=location.hash.replace("#","")||"apply";
+const csv=t=>{const rows=[];let row=[],cur="",q=false;for(let i=0;i<t.length;i++){const c=t[i];if(q){if(c=='"'){if(t[i+1]=='"'){cur+='"';i++}else q=false}else cur+=c}else if(c=='"')q=true;else if(c==','){row.push(cur);cur=""}else if(c=='\n'){row.push(cur);rows.push(row);row=[];cur=""}else if(c!='\r')cur+=c}if(cur||row.length){row.push(cur);rows.push(row)}const h=rows.shift()||[];return rows.filter(r=>r.length===h.length).map(r=>Object.fromEntries(h.map((k,i)=>[k,r[i]])))};
+const get=async n=>{try{const r=await fetch("data/"+n+"?t="+Date.now());if(!r.ok)return[];return n.endsWith(".json")?r.json():csv(await r.text())}catch(e){return[]}};
+const ST_KEY="coop-status";let status={};try{status=JSON.parse(localStorage.getItem(ST_KEY)||"{}")}catch(e){}
+const saveStatus=()=>{try{localStorage.setItem(ST_KEY,JSON.stringify(status))}catch(e){}};
+const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const days=d=>d?Math.round((new Date(d)-new Date())/864e5):null;
+const uc=u=>({"APPLY NOW":"u-now","APPLY":"u-apply","SOON":"u-soon"}[u]||"u-watch");
+function rowsFor(){const q=document.getElementById("q").value.toLowerCase(),fit=document.getElementById("fit").value,urg=document.getElementById("urg").value,term=document.getElementById("term").value,hide=document.getElementById("hideDone").checked,onlyNew=document.getElementById("onlyNew").checked;
+ let rows=D.sheet||[];
+ if(tab==="apply")rows=rows.filter(r=>(r.fit==="CHIP"||r.fit==="HARDWARE")&&["APPLY NOW","APPLY","SOON"].includes(r.urgency));
+ if(tab==="maybe")rows=rows.filter(r=>r.fit==="MAYBE");
+ return rows.filter(r=>(!q||(r.company+" "+r.role+" "+r.location).toLowerCase().includes(q))&&(!fit||r.fit===fit)&&(!urg||r.urgency===urg)&&(!term||r.term===term)&&(!hide||!status[r.link])&&(!onlyNew||r.new==="NEW"))}
+function postings(){const rows=rowsFor();document.getElementById("count").textContent=rows.length+" rows";
+ if(!rows.length)return'<div class="empty">nothing here'+(tab==="apply"?' — check Maybe / All, or loosen the filters':'')+'</div>';
+ return'<table><tr><th>Fit</th><th>Urgency</th><th>Company</th><th>Role</th><th class="hide-sm">Location</th><th>Posted</th><th>Deadline</th><th class="hide-sm">Term</th><th class="hide-sm">NUWorks</th><th>Status</th></tr>'+rows.map(r=>{const st=status[r.link]||"";const dl=days(r.deadline);
+ return`<tr class="${st?"done":""}"><td><span class="tag ${r.fit}">${r.fit}</span></td><td><span class="tag ${uc(r.urgency)}">${r.urgency}</span>${r.new==="NEW"?' <span class="tag new">NEW</span>':''}</td><td>${esc(r.company)}</td><td><a class="role" href="${esc(r.link)}" target="_blank" rel="noopener">${esc(r.role)}</a>${r.fit_why?`<div class="sub">${esc(r.fit_why)}</div>`:''}</td><td class="hide-sm">${esc(r.location)}</td><td>${esc(r.posted)}${r.days_open!==""?`<div class="sub">${esc(r.days_open)}d</div>`:''}</td><td class="${dl!==null&&dl<=14?"red":""}">${esc(r.deadline)}${dl!==null?`<div class="sub">${dl}d left</div>`:''}</td><td class="hide-sm">${esc(r.term)} <span class="sub">${esc(r.rank)}</span></td><td class="hide-sm">${r.nuworks?`<a href="${esc(r.nuworks_link)}" target="_blank" rel="noopener">yes</a> <span class="${r.nu_eligible==="NOT QUALIFIED"?"red":"sub"}">${esc(r.nu_eligible)}</span>`:''}</td><td><select class="st" data-k="${esc(r.link)}"><option value="">—</option>${["applied","interview","offer","skip"].map(o=>`<option ${st===o?"selected":""}>${o}</option>`).join("")}</select></td></tr>`}).join("")+'</table>'}
+function table(rows,cols,fmt){if(!rows.length)return'<div class="empty">nothing yet</div>';return'<table><tr>'+cols.map(c=>`<th>${c[1]}</th>`).join("")+'</tr>'+rows.map(r=>'<tr>'+cols.map(c=>`<td>${(fmt&&fmt[c[0]])?fmt[c[0]](r):esc(r[c[0]])}</td>`).join("")+'</tr>').join("")+'</table>'}
+function render(){document.getElementById("nav").innerHTML=TABS.map(([k,l])=>`<button class="${k===tab?"on":""}" data-t="${k}">${l}${counts[k]!==undefined?`<b>${counts[k]}</b>`:''}</button>`).join("");
+ const m=document.getElementById("main");document.querySelector(".tools").style.display=["apply","maybe","all"].includes(tab)?"":"none";
+ if(["apply","maybe","all"].includes(tab))m.innerHTML=(tab==="maybe"?'<div class="note">Spring-2027 / co-op postings at companies we track that have no hardware word in the title (systems, metrology, electro-mechanical, test tech…). Nothing at a tracked company is dropped silently — it lands here or on Rejected.</div>':'')+postings();
+ else if(tab==="openings")m.innerHTML='<div class="note">Companies whose <em>first</em> spring / co-op posting appeared in the last 7 days — "they just opened their reqs".</div>'+table(D.openings,[["fit","Fit"],["company","Company"],["opened","Opened"],["n","Postings"],["sample","Example"]],{fit:r=>`<span class="tag ${r.fit}">${r.fit}</span>`,sample:r=>`<a href="${esc(r.link)}" target="_blank" rel="noopener">${esc(r.sample)}</a>`});
+ else if(tab==="watch")m.innerHTML='<div class="note">Tracked companies with no spring / co-op posting yet. "expect" fills in from last cycle\'s first-seen dates. Red = the fetcher for that company stopped returning postings — a site change to check.</div>'+table(D.watch,[["company","Company"],["tier","Tier"],["ats","ATS"],["status","Status"],["expect","Expect"]],{status:r=>`<span class="${/FETCHER/.test(r.status)?"red":""}">${esc(r.status)}</span>`});
+ else if(tab==="events")m.innerHTML=table(D.events,[["date","Date"],["time","Time"],["title","Event"],["type","Type"]]);
+ else if(tab==="leads")m.innerHTML='<div class="note">Small chip / photonics / RF / power startups that just raised money (funding news, last 90 days). These rarely post co-ops — they are outreach targets: find the founder\'s lab or a shared connection and message them.</div>'+table(D.leads,[["date","Date"],["company","Company"],["headline","Headline"],["source","Source"]],{headline:r=>`<a href="${esc(r.link)}" target="_blank" rel="noopener">${esc(r.headline)}</a>`});
+ else if(tab==="rejected")m.innerHTML='<div class="note">Audit trail: intern / co-op postings at tracked companies that the filters dropped, and why. If something here should be on the board, that\'s a filter bug — say so.</div>'+table(D.rejected,[["company","Company"],["title","Title"],["location","Location"],["why","Why"]],{title:r=>`<a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.title)}</a>`});
+ else m.innerHTML=help();
+ m.querySelectorAll("select.st").forEach(s=>s.onchange=e=>{const k=e.target.dataset.k;if(e.target.value)status[k]=e.target.value;else delete status[k];saveStatus();render()});
+ document.querySelectorAll("nav button").forEach(b=>b.onclick=()=>{tab=b.dataset.t;location.hash=tab;render()})}
+function help(){return`<div class="note" style="color:var(--ink);max-width:820px">
+<p><b>Where the rows come from.</b> Every 30 minutes (7am–8pm ET) GitHub Actions runs the scraper: ~100 company career sites directly (Greenhouse, Lever, Ashby, Workday, Oracle, SuccessFactors, Eightfold, Phenom, iCIMS, SmartRecruiters, plus Amazon / Google / Apple / Tesla), internlist.org's Co-op and Winter/Spring lists (Simplify, ~20k career pages), the community GitHub internship lists, a LinkedIn/Indeed sweep, and the last NUWorks crawl. Everything is filtered to US, undergrad, hardware-ish, not summer-only, then ranked: <b>CHIP</b> (semiconductor company or chip-design title) → <b>HARDWARE</b> → <b>MAYBE</b> → ADJACENT.</p>
+<p><b>Urgency.</b> APPLY NOW = spring/Jan-2027 stated and posted in the last 7 days or deadline within 14 days. APPLY = spring stated, older. SOON = co-op with no term stated, fresh. WATCH = everything else. <b>NEW</b> = first seen in the last 3 days.</p>
+<p><b>Alerts.</b> After each run, anything new in CHIP/HARDWARE/MAYBE opens a GitHub Issue (you get the email) and pushes to your phone via ntfy. Openings and broken fetchers alert too.</p>
+<p><b>Status.</b> The status dropdown is saved in this browser only (localStorage). Export: open the console and run <code>copy(localStorage.getItem("coop-status"))</code>; paste into another browser with <code>localStorage.setItem("coop-status", …)</code>.</p>
+<p><b>NUWorks.</b> Behind Northeastern SSO, so it only refreshes when your logged-in Chrome crawls it: a daily scheduled task in the Claude desktop app does that when Chrome is open and signed in, and you can run that task on demand ("Check NUWorks"). The crawl writes <code>data/nuworks.json</code> in the repo folder; the daily Windows task pushes it.</p>
+<p><b>Rejected tab</b> is the safety net: if a role you'd want shows up there, the filter needs a fix.</p></div>`}
+let counts={};
+async function load(){const [sheet,openings,watch,events,leads,rejected,meta]=await Promise.all([get("sheet.csv"),get("openings.csv"),get("watchlist.csv"),get("events.csv"),get("leads.csv"),get("rejected_tracked.csv"),get("meta.json")]);
+ Object.assign(D,{sheet,openings,watch,events,leads,rejected});
+ counts={apply:sheet.filter(r=>(r.fit==="CHIP"||r.fit==="HARDWARE")&&["APPLY NOW","APPLY","SOON"].includes(r.urgency)).length,maybe:sheet.filter(r=>r.fit==="MAYBE").length,all:sheet.length,openings:openings.length,watch:watch.length,events:events.length,leads:leads.length,rejected:rejected.length};
+ const g=meta&&meta.generated?new Date(meta.generated):null;document.getElementById("meta").innerHTML=g?`updated ${g.toLocaleString()} · <span class="stat">CHIP <b>${meta.fit.CHIP||0}</b></span><span class="stat">HW <b>${meta.fit.HARDWARE||0}</b></span><span class="stat">MAYBE <b>${meta.fit.MAYBE||0}</b></span><span class="stat">APPLY NOW <b>${meta.urgency["APPLY NOW"]||0}</b></span>`:"";
+ render()}
+["q","fit","urg","term","hideDone","onlyNew"].forEach(id=>document.getElementById(id).addEventListener("input",render));
+const setHH=()=>document.documentElement.style.setProperty('--hh',document.querySelector('header').offsetHeight+'px');setHH();addEventListener('resize',setHH);
+load();setInterval(load,10*60*1000);
+</script>
+</body>
+</html>
