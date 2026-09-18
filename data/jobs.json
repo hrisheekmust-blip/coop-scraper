@@ -96,7 +96,6 @@
   "hw": "electrical engineer",
   "tier": "big",
   "sources": [
-   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-09-17",
@@ -273,6 +272,23 @@
   "last_seen": "2026-09-18"
  },
  {
+  "company": "Astranis",
+  "title": "Network Planning Sales Engineer Intern (Winter 2027)",
+  "location": "San Francisco, California",
+  "url": "https://job-boards.greenhouse.io/astranis/jobs/4704276006",
+  "posted": "2026-09-18",
+  "deadline": "",
+  "term": "spring",
+  "rank": "A",
+  "hw": "maybe",
+  "tier": "startup",
+  "sources": [
+   "greenhouse"
+  ],
+  "first_seen": "2026-09-18",
+  "last_seen": "2026-09-18"
+ },
+ {
   "company": "Axiom Space",
   "title": "Electrical Engineering Intern (Spring 2027)",
   "location": "Houston, TX",
@@ -328,7 +344,7 @@
   "title": "Operations Engineering (Industrial, Mechanical, Electrical) Co-op, Spring/Summer, 2027",
   "location": "Cedar Rapids, Iowa, United States",
   "url": "https://jobs.baesystems.com/global/en/job/126541BR/operations-engineering-industrial-mechanical-electrical-co-op-spring-summer-2027",
-  "posted": "2026-09-17",
+  "posted": "2026-09-18",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -828,7 +844,6 @@
   "hw": "electrical engineer",
   "tier": "big",
   "sources": [
-   "internlist:coop",
    "workday"
   ],
   "first_seen": "2026-09-18",
@@ -863,7 +878,6 @@
   "hw": "metrology",
   "tier": "big",
   "sources": [
-   "internlist:coop",
    "workday"
   ],
   "first_seen": "2026-09-18",
@@ -898,7 +912,6 @@
   "hw": "product engineering",
   "tier": "big",
   "sources": [
-   "internlist:coop",
    "workday"
   ],
   "first_seen": "2026-09-18",
@@ -1067,6 +1080,23 @@
   "term": "spring",
   "rank": "A",
   "hw": "maybe",
+  "tier": "startup",
+  "sources": [
+   "ashby"
+  ],
+  "first_seen": "2026-09-18",
+  "last_seen": "2026-09-18"
+ },
+ {
+  "company": "Etched",
+  "title": "RTL Intern",
+  "location": "San Jose",
+  "url": "https://jobs.ashbyhq.com/etched/157ed4f4-6e3b-4ec9-b93f-3e363e92041e",
+  "posted": "2026-09-18",
+  "deadline": "",
+  "term": "spring",
+  "rank": "A",
+  "hw": "rtl",
   "tier": "startup",
   "sources": [
    "ashby"
@@ -2608,9 +2638,9 @@
  {
   "company": "Rocket Lab",
   "title": "Manufacturing Engineering Intern Spring 2027",
-  "location": "Wallops Island, VA",
-  "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7996617003",
-  "posted": "2026-09-17",
+  "location": "Long Beach, CA",
+  "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7984943003",
+  "posted": "2026-09-16",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -2625,9 +2655,9 @@
  {
   "company": "Rocket Lab",
   "title": "Manufacturing Engineering Intern Spring 2027",
-  "location": "Long Beach, CA",
-  "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7984943003",
-  "posted": "2026-09-16",
+  "location": "Wallops Island, VA",
+  "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7996617003",
+  "posted": "2026-09-17",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -2855,8 +2885,7 @@
   "hw": "hardware",
   "tier": "startup",
   "sources": [
-   "ashby",
-   "jobspy:linkedin"
+   "ashby"
   ],
   "first_seen": "2026-09-17",
   "last_seen": "2026-09-18"
@@ -5725,7 +5754,6 @@
   "hw": "metrology",
   "tier": "big",
   "sources": [
-   "internlist:coop",
    "workday"
   ],
   "first_seen": "2026-09-18",
@@ -7026,8 +7054,6 @@
   "hw": "electronics",
   "tier": "big",
   "sources": [
-   "internlist:coop",
-   "internlist:winter-spring",
    "workday"
   ],
   "first_seen": "2026-09-18",
@@ -9626,7 +9652,6 @@
   "hw": "embedded",
   "tier": "big",
   "sources": [
-   "github:vanshb03-offseason",
    "workday"
   ],
   "first_seen": "2026-09-17",
@@ -11364,8 +11389,7 @@
   "hw": "packaging engineer,silicon",
   "tier": "startup",
   "sources": [
-   "greenhouse",
-   "internlist:winter-spring"
+   "greenhouse"
   ],
   "first_seen": "2026-09-17",
   "last_seen": "2026-09-18"
@@ -13653,29 +13677,12 @@
   "company": "Seagate",
   "title": "Korat Firmware Test and Engineering Intern",
   "location": "Nakhon Ratchasima, THA, ",
-  "url": "https://seagatecareers.com/job/Korat-Firmware-Test-and-Engineering-Intern/14619-en_US",
+  "url": "https://seagatecareers.com/job/Korat-Firmware-Test-and-Engineering-Intern/14620-en_US",
   "posted": "2026-06-30",
   "deadline": "",
   "term": "unspecified",
   "rank": "C",
   "hw": "firmware",
-  "tier": "big",
-  "sources": [
-   "successfactors"
-  ],
-  "first_seen": "2026-09-18",
-  "last_seen": "2026-09-18"
- },
- {
-  "company": "Seagate",
-  "title": "Metrology maintenance engineering intern",
-  "location": "Nakhon Ratchasima, THA, ",
-  "url": "https://seagatecareers.com/job/Metrology-maintenance-engineering-intern/14919-en_US",
-  "posted": "2026-08-26",
-  "deadline": "",
-  "term": "unspecified",
-  "rank": "C",
-  "hw": "metrology",
   "tier": "big",
   "sources": [
    "successfactors"
