@@ -90,6 +90,13 @@ def classify(job):
     if not is_intern(job):
         return False, "not intern", {}
     hits = hardware_score(job)
+    # small tracked startups: keep every intern/co-op posting as a Maybe, whatever the title. A 30-person chip
+    # startup titles its roles "Software Engineer Intern" as often as "Analog Design Intern", and the whole point of
+    # tracking it is not to miss it. Summer-only still drops; the big companies keep the strict filter.
+    if job.get("tier") == "startup" and not hits and not NON_US.search(job.get("location") or ""):
+        t = term_of(job)
+        if t not in ("summer", "fall"):
+            return True, "ok", {"term": t, "hw": ["maybe"], "rank": "A" if t == "spring" else ("B" if t == "coop-unspecified" else "C"), "maybe": True}
     if EXCLUDE_TITLE.search(title):
         # a hardware word next to an excluded word ("Electro-Mechanical Instrument", "Sales Engineer - RF") is a Maybe, not a drop
         if hits and job.get("tier"):

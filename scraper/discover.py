@@ -97,7 +97,8 @@ def main():
     for name, r in results.items():
         if r["ok"]:
             x = dict(r["ok"][0]); x.pop("n", None)
-            snippets.append({"name": name, **x, "tier": "big"})
+            cand = next((c for c in cands if c["name"] == name), {})
+            snippets.append({"name": name, **x, "tier": cand.get("tier", "big")})
     json.dump(snippets, open(os.path.join(ROOT, "data", "discover_config.json"), "w"), indent=1)
     print(f"\n{len(snippets)} of {len(cands)} resolved → data/discover_config.json (paste into config/companies.json)")
 

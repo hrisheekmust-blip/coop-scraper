@@ -99,7 +99,7 @@
   "name": "Nuro",
   "ats": "greenhouse",
   "token": "nuro",
-  "tier": "startup"
+  "tier": "big"
  },
  {
   "name": "Lucid Motors",
@@ -195,7 +195,7 @@
   "name": "Kodiak",
   "ats": "greenhouse",
   "token": "kodiak",
-  "tier": "startup"
+  "tier": "big"
  },
  {
   "name": "Motional",
@@ -231,13 +231,13 @@
   "name": "May Mobility",
   "ats": "greenhouse",
   "token": "maymobility",
-  "tier": "startup"
+  "tier": "big"
  },
  {
   "name": "Glydways",
   "ats": "greenhouse",
   "token": "glydways",
-  "tier": "startup"
+  "tier": "big"
  },
  {
   "name": "Butterfly Network",
@@ -279,7 +279,7 @@
   "name": "Aeva",
   "ats": "lever",
   "token": "aeva",
-  "tier": "startup"
+  "tier": "big"
  },
  {
   "name": "Hermeus",
@@ -303,7 +303,7 @@
   "name": "Waabi",
   "ats": "lever",
   "token": "waabi",
-  "tier": "startup"
+  "tier": "big"
  },
  {
   "name": "Etched",
@@ -357,7 +357,7 @@
   "name": "Lambda",
   "ats": "ashby",
   "token": "lambda",
-  "tier": "startup"
+  "tier": "big"
  },
  {
   "name": "Skydio",
@@ -381,7 +381,7 @@
   "name": "Physical Intelligence",
   "ats": "ashby",
   "token": "physicalintelligence",
-  "tier": "startup"
+  "tier": "big"
  },
  {
   "name": "1X",
@@ -399,7 +399,7 @@
   "name": "Applied Intuition",
   "ats": "ashby",
   "token": "applied",
-  "tier": "startup"
+  "tier": "big"
  },
  {
   "name": "OpenAI",
@@ -411,7 +411,7 @@
   "name": "Wayve",
   "ats": "ashby",
   "token": "wayve",
-  "tier": "startup"
+  "tier": "big"
  },
  {
   "name": "Pliant",
