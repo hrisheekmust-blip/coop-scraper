@@ -1,0 +1,242 @@
+[
+ {
+  "name": "Skyworks",
+  "ats": "successfactors_csb",
+  "base": "https://careers.skyworksinc.com",
+  "tier": "big"
+ },
+ {
+  "name": "Lattice Semiconductor",
+  "ats": "greenhouse",
+  "token": "lattice",
+  "tier": "big"
+ },
+ {
+  "name": "Western Digital",
+  "ats": "smartrecruiters",
+  "slug": "westerndigital",
+  "tier": "big"
+ },
+ {
+  "name": "Seagate",
+  "ats": "successfactors_csb",
+  "base": "https://seagatecareers.com",
+  "tier": "big"
+ },
+ {
+  "name": "BAE Systems",
+  "ats": "phenom",
+  "base": "https://jobs.baesystems.com",
+  "tier": "big"
+ },
+ {
+  "name": "General Dynamics Mission Systems",
+  "ats": "icims",
+  "base": "https://careers-gdms.icims.com",
+  "tier": "big"
+ },
+ {
+  "name": "Navitas Semiconductor",
+  "ats": "smartrecruiters",
+  "slug": "navitas",
+  "tier": "big"
+ },
+ {
+  "name": "Arista Networks",
+  "ats": "smartrecruiters",
+  "slug": "aristanetworks",
+  "tier": "big"
+ },
+ {
+  "name": "Analog Devices Maxim",
+  "ats": "smartrecruiters",
+  "slug": "maximintegrated",
+  "tier": "big"
+ },
+ {
+  "name": "Wabtec",
+  "ats": "smartrecruiters",
+  "slug": "wabtec",
+  "tier": "big"
+ },
+ {
+  "name": "Formlabs",
+  "ats": "greenhouse",
+  "token": "formlabs",
+  "tier": "big"
+ },
+ {
+  "name": "Markforged",
+  "ats": "greenhouse",
+  "token": "markforged",
+  "tier": "big"
+ },
+ {
+  "name": "Thermo Fisher Scientific",
+  "ats": "phenom",
+  "base": "https://jobs.thermofisher.com",
+  "tier": "big"
+ },
+ {
+  "name": "Toast",
+  "ats": "greenhouse",
+  "token": "toast",
+  "tier": "big"
+ },
+ {
+  "name": "Lightmatter",
+  "ats": "greenhouse",
+  "token": "lightmatter",
+  "tier": "big"
+ },
+ {
+  "name": "Whoop",
+  "ats": "ashby",
+  "token": "whoop",
+  "tier": "big"
+ },
+ {
+  "name": "Rapid Micro Biosystems",
+  "ats": "lever",
+  "token": "rapidmicrobio",
+  "tier": "big"
+ },
+ {
+  "name": "Cerebras",
+  "ats": "ashby",
+  "token": "cerebras",
+  "tier": "big"
+ },
+ {
+  "name": "Etched",
+  "ats": "ashby",
+  "token": "etched",
+  "tier": "big"
+ },
+ {
+  "name": "d-Matrix",
+  "ats": "ashby",
+  "token": "d-matrix",
+  "tier": "big"
+ },
+ {
+  "name": "MatX",
+  "ats": "ashby",
+  "token": "matx",
+  "tier": "big"
+ },
+ {
+  "name": "Tenstorrent",
+  "ats": "greenhouse",
+  "token": "tenstorrent",
+  "tier": "big"
+ },
+ {
+  "name": "Axelera AI",
+  "ats": "ashby",
+  "token": "axelera",
+  "tier": "big"
+ },
+ {
+  "name": "Fractile",
+  "ats": "greenhouse",
+  "token": "fractile",
+  "tier": "big"
+ },
+ {
+  "name": "Extropic",
+  "ats": "ashby",
+  "token": "extropic",
+  "tier": "big"
+ },
+ {
+  "name": "Normal Computing",
+  "ats": "ashby",
+  "token": "normalcomputing",
+  "tier": "big"
+ },
+ {
+  "name": "Eliyan",
+  "ats": "lever",
+  "token": "eliyan",
+  "tier": "big"
+ },
+ {
+  "name": "Lumotive",
+  "ats": "lever",
+  "token": "lumotive",
+  "tier": "big"
+ },
+ {
+  "name": "Substrate",
+  "ats": "ashby",
+  "token": "substrate",
+  "tier": "big"
+ },
+ {
+  "name": "Kioxia America",
+  "ats": "smartrecruiters",
+  "slug": "kioxia",
+  "tier": "big"
+ },
+ {
+  "name": "Microchip",
+  "ats": "smartrecruiters",
+  "slug": "microchip",
+  "tier": "big"
+ },
+ {
+  "name": "Rain AI",
+  "ats": "ashby",
+  "token": "rain",
+  "tier": "big"
+ },
+ {
+  "name": "Epirus",
+  "ats": "greenhouse",
+  "token": "epirus",
+  "tier": "big"
+ },
+ {
+  "name": "Shield AI",
+  "ats": "lever",
+  "token": "shieldai",
+  "tier": "big"
+ },
+ {
+  "name": "Lawrence Livermore National Laboratory",
+  "ats": "smartrecruiters",
+  "slug": "llnl",
+  "tier": "big"
+ },
+ {
+  "name": "NASA JPL",
+  "ats": "phenom",
+  "base": "https://www.jpl.jobs",
+  "tier": "big"
+ },
+ {
+  "name": "Ultra Electronics",
+  "ats": "ashby",
+  "token": "ultra",
+  "tier": "big"
+ },
+ {
+  "name": "Palantir",
+  "ats": "lever",
+  "token": "palantir",
+  "tier": "big"
+ },
+ {
+  "name": "Hermeus",
+  "ats": "lever",
+  "token": "hermeus",
+  "tier": "big"
+ },
+ {
+  "name": "Mach Industries",
+  "ats": "greenhouse",
+  "token": "machindustries",
+  "tier": "big"
+ }
+]

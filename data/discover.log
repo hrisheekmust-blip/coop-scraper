@@ -1,0 +1,217 @@
+Qualcomm                     not found: HTTPError: HTTP Error 401: UNAUTHORIZED; HTTPError: HTTP Error 401: UNAUTHORIZED; HTTPError: HTTP Error 403: FORBIDDEN
+Micron                       not found: HTTPError: HTTP Error 401: UNAUTHORIZED; HTTPError: HTTP Error 401: UNAUTHORIZED; HTTPError: HTTP Error 403: FORBIDDEN
+Apple                        not found: HTTPError: HTTP Error 404: Not Found; HTTPError: HTTP Error 404: Not Found; HTTPError: HTTP Error 404: Not Found
+Lam Research                 not found: HTTPError: HTTP Error 401: UNAUTHORIZED; HTTPError: HTTP Error 401: UNAUTHORIZED; HTTPError: HTTP Error 403: FORBIDDEN
+Synopsys                     not found: HTTPError: HTTP Error 404: Not Found; JSONDecodeError: Expecting value: line 2 column 1 (char 2); JSONDecodeError: Expec
+Keysight                     not found: HTTPError: HTTP Error 404: Not Found; HTTPError: HTTP Error 404: Not Found; HTTPError: HTTP Error 404: Not Found
+Teradyne                     not found: URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate ; URLError: <urlopen error [SSL: CERTIFICATE_VERIF
+Infineon                     not found: HTTPError: HTTP Error 401: UNAUTHORIZED; HTTPError: HTTP Error 401: UNAUTHORIZED; HTTPError: HTTP Error 403: FORBIDDEN
+AMD                          not found: HTTPError: HTTP Error 404: Not Found; HTTPError: HTTP Error 404: Not Found; HTTPError: HTTP Error 404: Not Found
+Skyworks                     FOUND {"ats": "successfactors_csb", "base": "https://careers.skyworksinc.com", "n": 148}
+Qorvo                        not found: JSONDecodeError: Expecting value: line 1 column 1 (char 0); HTTPError: HTTP Error 401: 401; JSONDecodeError: Expecting v
+MACOM                        not found: URLError: <urlopen error [Errno -2] Name or service not known>; URLError: <urlopen error [Errno -2] Name or service not 
+Cirrus Logic                 not found: URLError: <urlopen error [Errno -2] Name or service not known>; URLError: <urlopen error [Errno -2] Name or service not 
+Renesas                      not found: URLError: <urlopen error [Errno -2] Name or service not known>; URLError: <urlopen error [Errno -2] Name or service not 
+GlobalFoundries              not found: HTTPError: HTTP Error 404: Not Found; HTTPError: HTTP Error 404: Not Found; HTTPError: HTTP Error 404: Not Found
+TSMC Arizona                 not found: HTTPError: HTTP Error 403: Forbidden; HTTPError: HTTP Error 403: Forbidden; HTTPError: HTTP Error 403: Forbidden
+Arm                          not found: HTTPError: HTTP Error 404: Not Found; JSONDecodeError: Expecting value: line 2 column 1 (char 2); JSONDecodeError: Expec
+Rambus                       not found: HTTPError: HTTP Error 404: Not Found; HTTPError: HTTP Error 404: Not Found; HTTPError: HTTP Error 404: Not Found
+Lattice Semiconductor        FOUND {"ats": "greenhouse", "token": "lattice", "n": 7}
+Ambarella                    not found: HTTPError: HTTP Error 404: Not Found; HTTPError: HTTP Error 404: Not Found; HTTPError: HTTP Error 404: Not Found
+Synaptics                    not found: HTTPError: HTTP Error 404: Not Found; HTTPError: HTTP Error 404: Not Found; HTTPError: HTTP Error 404: Not Found
+MaxLinear                    not found: URLError: <urlopen error [Errno -2] Name or service not known>; URLError: <urlopen error [Errno -2] Name or service not 
+Semtech                      not found: HTTPError: HTTP Error 403: Forbidden; HTTPError: HTTP Error 403: Forbidden; HTTPError: HTTP Error 404: Not Found
+SiTime                       not found: HTTPError: HTTP Error 404: Not Found; HTTPError: HTTP Error 404: Not Found; HTTPError: HTTP Error 404: Not Found
+Vicor                        not found: JSONDecodeError: Expecting value: line 1 column 1 (char 0); JSONDecodeError: Expecting value: line 1 column 1 (char 0); 
+Western Digital              FOUND {"ats": "smartrecruiters", "slug": "westerndigital", "n": 337}
+Seagate                      FOUND {"ats": "successfactors_csb", "base": "https://seagatecareers.com", "n": 161}
+Coherent                     not found: URLError: <urlopen error [Errno -2] Name or service not known>; URLError: <urlopen error [Errno -2] Name or service not 
+Lumentum                     not found: URLError: <urlopen error [Errno -5] No address associated with hostnam; URLError: <urlopen error [Errno -5] No address a
+IPG Photonics                not found: HTTPError: HTTP Error 404: Not Found; HTTPError: HTTP Error 404: Not Found; HTTPError: HTTP Error 404: Not Found
+MKS Instruments              not found: URLError: <urlopen error [Errno -2] Name or service not known>; URLError: <urlopen error [Errno -2] Name or service not 
+Entegris                     not found: phenom; successfactors_csb; eightfold
+ASML                         not found: HTTPError: HTTP Error 404: Not Found; HTTPError: HTTP Error 404: Not Found; HTTPError: HTTP Error 404: Not Found
+FormFactor                   not found: HTTPError: HTTP Error 404: Not Found; HTTPError: HTTP Error 404: Not Found; HTTPError: HTTP Error 404: Not Found
+Advantest                    not found: HTTPError: HTTP Error 404: Not Found; HTTPError: HTTP Error 404: Not Found; HTTPError: HTTP Error 404: Not Found
+Onto Innovation              not found: HTTPError: HTTP Error 404: Not Found; HTTPError: HTTP Error 404: Not Found; HTTPError: HTTP Error 404: Not Found
+MIT Lincoln Laboratory       not found: JSONDecodeError: Expecting value: line 1 column 1 (char 0); HTTPError: HTTP Error 401: 401; JSONDecodeError: Expecting v
+Raytheon (RTX)               not found: HTTPError: HTTP Error 403: Forbidden; HTTPError: HTTP Error 403: Forbidden; HTTPError: HTTP Error 403: Forbidden
+Lockheed Martin              not found: JSONDecodeError: Expecting value: line 1 column 1 (char 0); JSONDecodeError: Expecting value: line 1 column 1 (char 0); 
+Northrop Grumman             not found: HTTPError: HTTP Error 405: Method Not Allowed; HTTPError: HTTP Error 405: Method Not Allowed; HTTPError: HTTP Error 404:
+L3Harris                     not found: HTTPError: HTTP Error 404: Not Found; JSONDecodeError: Expecting value: line 2 column 1 (char 2); JSONDecodeError: Expec
+BAE Systems                  FOUND {"ats": "phenom", "base": "https://jobs.baesystems.com", "n": 286}
+General Dynamics Mission Systems FOUND {"ats": "icims", "base": "https://careers-gdms.icims.com", "n": 25}
+Boeing                       not found: HTTPError: HTTP Error 404: Not Found; JSONDecodeError: Expecting value: line 2 column 1 (char 2); JSONDecodeError: Expec
+GE Aerospace                 not found: URLError: <urlopen error [Errno -2] Name or service not known>; URLError: <urlopen error [Errno -2] Name or service not 
+Honeywell                    not found: JSONDecodeError: Expecting value: line 1 column 1 (char 0); JSONDecodeError: Expecting value: line 1 column 1 (char 0); 
+Sierra Nevada Corporation    not found: HTTPError: HTTP Error 405: Method Not Allowed; HTTPError: HTTP Error 405: Method Not Allowed; HTTPError: HTTP Error 404:
+Bose                         not found: HTTPError: HTTP Error 404: Not Found; HTTPError: HTTP Error 404: Not Found; HTTPError: HTTP Error 404: Not Found
+iRobot                       not found: HTTPError: HTTP Error 500: Internal Server Error; HTTPError: HTTP Error 500: Internal Server Error; HTTPError: HTTP Erro
+Dell                         not found: JSONDecodeError: Expecting value: line 1 column 1 (char 0); JSONDecodeError: Expecting value: line 1 column 1 (char 0); 
+HP                           not found: HTTPError: HTTP Error 404: Not Found; HTTPError: HTTP Error 404: Not Found; HTTPError: HTTP Error 404: Not Found
+MathWorks                    not found: HTTPError: HTTP Error 403: Forbidden; HTTPError: HTTP Error 403: Forbidden; HTTPError: HTTP Error 403: Forbidden
+MediaTek                     not found: HTTPError: HTTP Error 307: Temporary Redirect; HTTPError: HTTP Error 307: Temporary Redirect; HTTPError: HTTP Error 404:
+SiFive                       not found: HTTPError: HTTP Error 405: Method Not Allowed; HTTPError: HTTP Error 404: Not Found; HTTPError: HTTP Error 404: Not Foun
+Groq                         not found: HTTPError: HTTP Error 405: Method Not Allowed; HTTPError: HTTP Error 405: Method Not Allowed; HTTPError: HTTP Error 404:
+Ampere Computing             not found: HTTPError: HTTP Error 405: Method Not Allowed; HTTPError: HTTP Error 404: Not Found; HTTPError: HTTP Error 404: Not Foun
+Rivos                        not found: HTTPError: HTTP Error 404: Not Found; HTTPError: HTTP Error 404: Not Found; JSONDecodeError: Expecting value: line 1 col
+Ayar Labs                    not found: JSONDecodeError: Expecting value: line 1 column 1 (char 0); JSONDecodeError: Expecting value: line 1 column 1 (char 0); 
+Celestial AI                 not found: JSONDecodeError: Expecting value: line 2 column 1 (char 1); JSONDecodeError: Expecting value: line 2 column 1 (char 1); 
+Navitas Semiconductor        FOUND {"ats": "smartrecruiters", "slug": "navitas", "n": 44}
+Analog Devices               not found: TimeoutError: The read operation timed out; TimeoutError: The read operation timed out; TimeoutError: The read operation
+Microsoft                    not found: JSONDecodeError: Expecting value: line 1 column 1 (char 0); JSONDecodeError: Expecting value: line 1 column 1 (char 0); 
+Meta                         not found: HTTPError: HTTP Error 400: Bad Request; HTTPError: HTTP Error 429: Too Many Requests; HTTPError: HTTP Error 429: Too Man
+Amazon                       not found: HTTPError: HTTP Error 422: Unprocessable Entity; HTTPError: HTTP Error 422: Unprocessable Entity; HTTPError: HTTP Error 
+Google                       not found: HTTPError: HTTP Error 404: Not Found; HTTPError: HTTP Error 404: Not Found; HTTPError: HTTP Error 404: Not Found
+Tesla                        not found: HTTPError: HTTP Error 403: Forbidden; HTTPError: HTTP Error 403: Forbidden; HTTPError: HTTP Error 403: Forbidden
+Nokia                        not found: JSONDecodeError: Expecting value: line 2 column 1 (char 1); JSONDecodeError: Expecting value: line 2 column 1 (char 1); 
+Ciena                        not found: HTTPError: HTTP Error 403: Forbidden; HTTPError: HTTP Error 403: Forbidden; HTTPError: HTTP Error 403: Forbidden
+Juniper Networks             not found: HTTPError: HTTP Error 404: NOT FOUND; HTTPError: HTTP Error 404: NOT FOUND; HTTPError: HTTP Error 403: FORBIDDEN
+Arista Networks              FOUND {"ats": "smartrecruiters", "slug": "aristanetworks", "n": 249}
+Garmin                       not found: HTTPError: HTTP Error 404: Not Found; HTTPError: HTTP Error 404: Not Found; HTTPError: HTTP Error 404: Not Found
+Sonos                        not found: HTTPError: HTTP Error 403: Forbidden; HTTPError: HTTP Error 403: Forbidden; HTTPError: HTTP Error 403: Forbidden
+Analog Devices Maxim         FOUND {"ats": "smartrecruiters", "slug": "maximintegrated", "n": 3}
+Schneider Electric           not found: HTTPError: HTTP Error 403: Forbidden; HTTPError: HTTP Error 403: Forbidden; HTTPError: HTTP Error 403: Forbidden
+Eaton                        not found: JSONDecodeError: Expecting value: line 1 column 1 (char 0); JSONDecodeError: Expecting value: line 1 column 1 (char 0); 
+Emerson                      not found: HTTPError: HTTP Error 404: Not Found; HTTPError: HTTP Error 404: Not Found; HTTPError: HTTP Error 404: Not Found
+Wabtec                       FOUND {"ats": "smartrecruiters", "slug": "wabtec", "n": 739}
+Formlabs                     FOUND {"ats": "greenhouse", "token": "formlabs", "n": 205}
+Desktop Metal                not found: 
+Markforged                   FOUND {"ats": "greenhouse", "token": "markforged", "n": 3}
+Nuvation Engineering         not found: 
+Waters Corporation           not found: URLError: <urlopen error [Errno -2] Name or service not known>; URLError: <urlopen error [Errno -2] Name or service not 
+Thermo Fisher Scientific     FOUND {"ats": "phenom", "base": "https://jobs.thermofisher.com", "n": 77}
+Akamai                       not found: 
+Amazon Robotics              not found: 
+Toast                        FOUND {"ats": "greenhouse", "token": "toast", "n": 322}
+HyperLight                   not found: 
+Lightmatter                  FOUND {"ats": "greenhouse", "token": "lightmatter", "n": 63}
+Aurora Flight Sciences       not found: 
+Mercury Systems              not found: URLError: <urlopen error [Errno -2] Name or service not known>; URLError: <urlopen error [Errno -2] Name or service not 
+Symbotic                     not found: 
+Ascend Elements              not found: 
+Commonwealth Fusion Systems  not found: 
+Vicarious Surgical           not found: 
+Whoop                        FOUND {"ats": "ashby", "token": "whoop", "n": 155}
+Analogic                     not found: 
+Rapid Micro Biosystems       FOUND {"ats": "lever", "token": "rapidmicrobio", "n": 6}
+Kulicke & Soffa              not found: 
+ChipAgents                   not found: 
+Cerebras                     FOUND {"ats": "ashby", "token": "cerebras", "n": 113}
+SambaNova                    not found: 
+Etched                       FOUND {"ats": "ashby", "token": "etched", "n": 105}
+d-Matrix                     FOUND {"ats": "ashby", "token": "d-matrix", "n": 35}
+MatX                         FOUND {"ats": "ashby", "token": "matx", "n": 43}
+Tenstorrent                  FOUND {"ats": "greenhouse", "token": "tenstorrent", "n": 126}
+Enfabrica                    not found: 
+Untether AI                  not found: 
+Recogni                      not found: 
+Mythic                       not found: 
+Blaize                       not found: 
+SiMa.ai                      not found: 
+Axelera AI                   FOUND {"ats": "ashby", "token": "axelera", "n": 11}
+Fractile                     FOUND {"ats": "greenhouse", "token": "fractile", "n": 43}
+Positron                     not found: 
+Taalas                       not found: 
+Extropic                     FOUND {"ats": "ashby", "token": "extropic", "n": 10}
+Normal Computing             FOUND {"ats": "ashby", "token": "normalcomputing", "n": 20}
+Esperanto Technologies       not found: 
+Ventana Micro Systems        not found: 
+Akeana                       not found: 
+Eliyan                       FOUND {"ats": "lever", "token": "eliyan", "n": 24}
+Credo                        not found: 
+Ranovus                      not found: 
+Xscape Photonics             not found: 
+Lumotive                     FOUND {"ats": "lever", "token": "lumotive", "n": 8}
+Aeluma                       not found: 
+Atomic Semi                  not found: 
+Substrate                    FOUND {"ats": "ashby", "token": "substrate", "n": 7}
+Menlo Micro                  not found: 
+Cenfire                      not found: 
+Ideal Power                  not found: 
+EPC (Efficient Power Conversion) not found: 
+Transphorm                   not found: 
+Empower Semiconductor        not found: 
+Anokiwave                    not found: 
+Movandi                      not found: 
+Pivotal Commware             not found: 
+Mobix Labs                   not found: 
+Guerrilla RF                 not found: 
+Akoustis                     not found: 
+Marki Microwave              not found: 
+Mini-Circuits                not found: 
+Silicon Labs                 not found: 
+Allegro MicroSystems         not found: 
+Diodes Incorporated          not found: 
+Nexperia                     not found: 
+Kioxia America               FOUND {"ats": "smartrecruiters", "slug": "kioxia", "n": 14}
+SK hynix America             not found: 
+Luminous Computing           not found: 
+Quintessent                  not found: 
+nEye Systems                 not found: 
+Scintil Photonics            not found: 
+QuEra                        not found: 
+Quantinuum                   not found: 
+Infleqtion                   not found: 
+Zero ASIC                    not found: 
+Efabless                     not found: 
+Semianalysis                 not found: 
+Alphawave Semi               not found: 
+Achronix                     not found: 
+Flex Logix                   not found: 
+Microchip                    FOUND {"ats": "smartrecruiters", "slug": "microchip", "n": 9}
+Wolfspeed                    not found: 
+Ambiq                        not found: 
+Nordic Semiconductor         not found: 
+Silvaco                      not found: 
+Tektronix                    not found: 
+National Instruments (Emerson) not found: 
+Rohde & Schwarz USA          not found: 
+indie Semiconductor          not found: 
+Ampere                       not found: 
+Rain AI                      FOUND {"ats": "ashby", "token": "rain", "n": 45}
+Lightelligence               not found: 
+Salience Labs                not found: 
+Oriole Networks              not found: 
+Hailo                        not found: 
+Kneron                       not found: 
+Tachyum                      not found: 
+Arteris                      not found: 
+Ceva                         not found: 
+Imagination Technologies     not found: 
+Andes Technology             not found: 
+Ubicept                      not found: 
+Vayyar                       not found: 
+Owl Autonomous Imaging       not found: 
+Analog Inference             not found: 
+Mythic AI                    not found: 
+Sagence AI                   not found: 
+EnCharge AI                  not found: 
+Tetramem                     not found: 
+Ayar                         not found: 
+Anduril                      not found: 
+Epirus                       FOUND {"ats": "greenhouse", "token": "epirus", "n": 41}
+Shield AI                    FOUND {"ats": "lever", "token": "shieldai", "n": 500}
+Applied Research Laboratory (Penn State) not found: 
+Johns Hopkins APL            not found: HTTPError: HTTP Error 404: Not Found; HTTPError: HTTP Error 404: Not Found; HTTPError: HTTP Error 404: Not Found
+Sandia National Laboratories not found: HTTPError: HTTP Error 404: Not Found; JSONDecodeError: Expecting value: line 1 column 1 (char 0); JSONDecodeError: Expec
+Los Alamos National Laboratory not found: JSONDecodeError: Expecting value: line 3 column 1 (char 2); JSONDecodeError: Expecting value: line 3 column 1 (char 2); 
+Lawrence Livermore National Laboratory FOUND {"ats": "smartrecruiters", "slug": "llnl", "n": 156}
+NASA JPL                     FOUND {"ats": "phenom", "base": "https://www.jpl.jobs", "n": 1}
+Leidos                       not found: HTTPError: HTTP Error 403: Forbidden; HTTPError: HTTP Error 403: Forbidden; HTTPError: HTTP Error 403: Forbidden
+Textron                      not found: HTTPError: HTTP Error 404: Not Found; JSONDecodeError: Expecting value: line 1 column 1 (char 0); JSONDecodeError: Expec
+Collins Aerospace            not found: 
+Kratos                       not found: 
+Ultra Electronics            FOUND {"ats": "ashby", "token": "ultra", "n": 5}
+Curtiss-Wright               not found: 
+Moog                         not found: 
+Teledyne                     not found: URLError: <urlopen error [Errno -2] Name or service not known>; URLError: <urlopen error [Errno -2] Name or service not 
+Ball Aerospace (BAE)         not found: 
+Raytheon                     not found: 
+Palantir                     FOUND {"ats": "lever", "token": "palantir", "n": 313}
+Hermeus                      FOUND {"ats": "lever", "token": "hermeus", "n": 87}
+True Anomaly                 not found: 
+Castelion                    not found: 
+Mach Industries              FOUND {"ats": "greenhouse", "token": "machindustries", "n": 115}
+
+40 of 215 resolved → data/discover_config.json (paste into config/companies.json)

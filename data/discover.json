@@ -1,0 +1,2779 @@
+{
+ "Qualcomm": {
+  "ok": [],
+  "tried": [
+   {
+    "ats": "phenom",
+    "tried": "https://careers.qualcomm.com",
+    "n": -1,
+    "err": "HTTPError: HTTP Error 401: UNAUTHORIZED"
+   },
+   {
+    "ats": "successfactors_csb",
+    "tried": "https://careers.qualcomm.com",
+    "n": -1,
+    "err": "HTTPError: HTTP Error 401: UNAUTHORIZED"
+   },
+   {
+    "ats": "eightfold",
+    "tried": "https://careers.qualcomm.com",
+    "n": -1,
+    "err": "HTTPError: HTTP Error 403: FORBIDDEN"
+   }
+  ]
+ },
+ "Micron": {
+  "ok": [],
+  "tried": [
+   {
+    "ats": "phenom",
+    "tried": "https://micron.eightfold.ai",
+    "n": -1,
+    "err": "HTTPError: HTTP Error 401: UNAUTHORIZED"
+   },
+   {
+    "ats": "successfactors_csb",
+    "tried": "https://micron.eightfold.ai",
+    "n": -1,
+    "err": "HTTPError: HTTP Error 401: UNAUTHORIZED"
+   },
+   {
+    "ats": "eightfold",
+    "tried": "https://micron.eightfold.ai",
+    "n": -1,
+    "err": "HTTPError: HTTP Error 403: FORBIDDEN"
+   }
+  ]
+ },
+ "Apple": {
+  "ok": [],
+  "tried": [
+   {
+    "ats": "phenom",
+    "tried": "https://jobs.apple.com",
+    "n": -1,
+    "err": "HTTPError: HTTP Error 404: Not Found"
+   },
+   {
+    "ats": "successfactors_csb",
+    "tried": "https://jobs.apple.com",
+    "n": -1,
+    "err": "HTTPError: HTTP Error 404: Not Found"
+   },
+   {
+    "ats": "eightfold",
+    "tried": "https://jobs.apple.com",
+    "n": -1,
+    "err": "HTTPError: HTTP Error 404: Not Found"
+   }
+  ]
+ },
+ "Lam Research": {
+  "ok": [],
+  "tried": [
+   {
+    "ats": "phenom",
+    "tried": "https://careers.lamresearch.com",
+    "n": -1,
+    "err": "HTTPError: HTTP Error 401: UNAUTHORIZED"
+   },
+   {
+    "ats": "successfactors_csb",
+    "tried": "https://careers.lamresearch.com",
+    "n": -1,
+    "err": "HTTPError: HTTP Error 401: UNAUTHORIZED"
+   },
+   {
+    "ats": "eightfold",
+    "tried": "https://careers.lamresearch.com",
+    "n": -1,
+    "err": "HTTPError: HTTP Error 403: FORBIDDEN"
+   }
+  ]
+ },
+ "Synopsys": {
+  "ok": [],
+  "tried": [
+   {
+    "ats": "phenom",
+    "tried": "https://careers.synopsys.com",
+    "n": -1,
+    "err": "HTTPError: HTTP Error 404: Not Found"
+   },
+   {
+    "ats": "successfactors_csb",
+    "tried": "https://careers.synopsys.com",
+    "n": -1,
+    "err": "JSONDecodeError: Expecting value: line 2 column 1 (char 2)"
+   },
+   {
+    "ats": "eightfold",
+    "tried": "https://careers.synopsys.com",
+    "n": -1,
+    "err": "JSONDecodeError: Expecting value: line 2 column 1 (char 2)"
+   }
+  ]
+ },
+ "Keysight": {
+  "ok": [],
+  "tried": [
+   {
+    "ats": "phenom",
+    "tried": "https://jobs.keysight.com",
+    "n": -1,
+    "err": "HTTPError: HTTP Error 404: Not Found"
+   },
+   {
+    "ats": "successfactors_csb",
+    "tried": "https://jobs.keysight.com",
+    "n": -1,
+    "err": "HTTPError: HTTP Error 404: Not Found"
+   },
+   {
+    "ats": "eightfold",
+    "tried": "https://jobs.keysight.com",
+    "n": -1,
+    "err": "HTTPError: HTTP Error 404: Not Found"
+   }
+  ]
+ },
+ "Teradyne": {
+  "ok": [],
+  "tried": [
+   {
+    "ats": "phenom",
+    "tried": "https://careers.teradyne.com",
+    "n": -1,
+    "err": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate "
+   },
+   {
+    "ats": "successfactors_csb",
+    "tried": "https://careers.teradyne.com",
+    "n": -1,
+    "err": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate "
+   },
+   {
+    "ats": "eightfold",
+    "tried": "https://careers.teradyne.com",
+    "n": -1,
+    "err": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate "
+   }
+  ]
+ },
+ "Infineon": {
+  "ok": [],
+  "tried": [
+   {
+    "ats": "phenom",
+    "tried": "https://jobs.infineon.com",
+    "n": -1,
+    "err": "HTTPError: HTTP Error 401: UNAUTHORIZED"
+   },
+   {
+    "ats": "successfactors_csb",
+    "tried": "https://jobs.infineon.com",
+    "n": -1,
+    "err": "HTTPError: HTTP Error 401: UNAUTHORIZED"
+   },
+   {
+    "ats": "eightfold",
+    "tried": "https://jobs.infineon.com",
+    "n": -1,
+    "err": "HTTPError: HTTP Error 403: FORBIDDEN"
+   }
+  ]
+ },
+ "AMD": {
+  "ok": [],
+  "tried": [
+   {
+    "ats": "phenom",
+    "tried": "https://careers.amd.com",
+    "n": -1,
+    "err": "HTTPError: HTTP Error 404: Not Found"
+   },
+   {
+    "ats": "successfactors_csb",
+    "tried": "https://careers.amd.com",
+    "n": -1,
+    "err": "HTTPError: HTTP Error 404: Not Found"
+   },
+   {
+    "ats": "eightfold",
+    "tried": "https://careers.amd.com",
+    "n": -1,
+    "err": "HTTPError: HTTP Error 404: Not Found"
+   }
+  ]
+ },
+ "Skyworks": {
+  "ok": [
+   {
+    "ats": "successfactors_csb",
+    "base": "https://careers.skyworksinc.com",
+    "n": 148
+   }
+  ],
+  "tried": [
+   {
+    "ats": "phenom",
+    "tried": "https://careers.skyworksinc.com",
+    "n": -1,
+    "err": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+   },
+   {
+    "ats": "successfactors_csb",
+    "base": "https://careers.skyworksinc.com",
+    "n": 148
+   }
+  ]
+ },
+ "Qorvo": {
+  "ok": [],
+  "tried": [
+   {
+    "ats": "phenom",
+    "tried": "https://careers.qorvo.com",
+    "n": -1,
+    "err": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+   },
+   {
+    "ats": "successfactors_csb",
+    "tried": "https://careers.qorvo.com",
+    "n": -1,
+    "err": "HTTPError: HTTP Error 401: 401"
+   },
+   {
+    "ats": "eightfold",
+    "tried": "https://careers.qorvo.com",
+    "n": -1,
+    "err": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ "MACOM": {
+  "ok": [],
+  "tried": [
+   {
+    "ats": "phenom",
+    "tried": "https://careers.macom.com",
+    "n": -1,
+    "err": "URLError: <urlopen error [Errno -2] Name or service not known>"
+   },
+   {
+    "ats": "successfactors_csb",
+    "tried": "https://careers.macom.com",
+    "n": -1,
+    "err": "URLError: <urlopen error [Errno -2] Name or service not known>"
+   },
+   {
+    "ats": "eightfold",
+    "tried": "https://careers.macom.com",
+    "n": -1,
+    "err": "URLError: <urlopen error [Errno -2] Name or service not known>"
+   }
+  ]
+ },
+ "Cirrus Logic": {
+  "ok": [],
+  "tried": [
+   {
+    "ats": "phenom",
+    "tried": "https://careers.cirrus.com",
+    "n": -1,
+    "err": "URLError: <urlopen error [Errno -2] Name or service not known>"
+   },
+   {
+    "ats": "successfactors_csb",
+    "tried": "https://careers.cirrus.com",
+    "n": -1,
+    "err": "URLError: <urlopen error [Errno -2] Name or service not known>"
+   },
+   {
+    "ats": "eightfold",
+    "tried": "https://careers.cirrus.com",
+    "n": -1,
+    "err": "URLError: <urlopen error [Errno -2] Name or service not known>"
+   }
+  ]
+ },
+ "Renesas": {
+  "ok": [],
+  "tried": [
+   {
+    "ats": "phenom",
+    "tried": "https://careers.renesas.com",
+    "n": -1,
+    "err": "URLError: <urlopen error [Errno -2] Name or service not known>"
+   },
+   {
+    "ats": "successfactors_csb",
+    "tried": "https://careers.renesas.com",
+    "n": -1,
+    "err": "URLError: <urlopen error [Errno -2] Name or service not known>"
+   },
+   {
+    "ats": "eightfold",
+    "tried": "https://careers.renesas.com",
+    "n": -1,
+    "err": "URLError: <urlopen error [Errno -2] Name or service not known>"
+   }
+  ]
+ },
+ "GlobalFoundries": {
+  "ok": [],
+  "tried": [
+   {
+    "ats": "phenom",
+    "tried": "https://gf.com/careers",
+    "n": -1,
+    "err": "HTTPError: HTTP Error 404: Not Found"
+   },
+   {
+    "ats": "successfactors_csb",
+    "tried": "https://gf.com/careers",
+    "n": -1,
+    "err": "HTTPError: HTTP Error 404: Not Found"
+   },
+   {
+    "ats": "eightfold",
+    "tried": "https://gf.com/careers",
+    "n": -1,
+    "err": "HTTPError: HTTP Error 404: Not Found"
+   }
+  ]
+ },
+ "TSMC Arizona": {
+  "ok": [],
+  "tried": [
+   {
+    "ats": "phenom",
+    "tried": "https://careers.tsmc.com",
+    "n": -1,
+    "err": "HTTPError: HTTP Error 403: Forbidden"
+   },
+   {
+    "ats": "successfactors_csb",
+    "tried": "https://careers.tsmc.com",
+    "n": -1,
+    "err": "HTTPError: HTTP Error 403: Forbidden"
+   },
+   {
+    "ats": "eightfold",
+    "tried": "https://careers.tsmc.com",
+    "n": -1,
+    "err": "HTTPError: HTTP Error 403: Forbidden"
+   }
+  ]
+ },
+ "Arm": {
+  "ok": [],
+  "tried": [
+   {
+    "ats": "phenom",
+    "tried": "https://careers.arm.com",
+    "n": -1,
+    "err": "HTTPError: HTTP Error 404: Not Found"
+   },
+   {
+    "ats": "successfactors_csb",
+    "tried": "https://careers.arm.com",
+    "n": -1,
+    "err": "JSONDecodeError: Expecting value: line 2 column 1 (char 2)"
+   },
+   {
+    "ats": "eightfold",
+    "tried": "https://careers.arm.com",
+    "n": -1,
+    "err": "JSONDecodeError: Expecting value: line 2 column 1 (char 2)"
+   }
+  ]
+ },
+ "Rambus": {
+  "ok": [],
+  "tried": [
+   {
+    "ats": "phenom",
+    "tried": "https://www.rambus.com/careers",
+    "n": -1,
+    "err": "HTTPError: HTTP Error 404: Not Found"
+   },
+   {
+    "ats": "successfactors_csb",
+    "tried": "https://www.rambus.com/careers",
+    "n": -1,
+    "err": "HTTPError: HTTP Error 404: Not Found"
+   },
+   {
+    "ats": "eightfold",
+    "tried": "https://www.rambus.com/careers",
+    "n": -1,
+    "err": "HTTPError: HTTP Error 404: Not Found"
+   }
+  ]
+ },
+ "Lattice Semiconductor": {
+  "ok": [
+   {
+    "ats": "greenhouse",
+    "token": "lattice",
+    "n": 7
+   }
+  ],
+  "tried": [
+   {
+    "ats": "greenhouse",
+    "token": "lattice",
+    "n": 7
+   }
+  ]
+ },
+ "Ambarella": {
+  "ok": [],
+  "tried": [
+   {
+    "ats": "phenom",
+    "tried": "https://www.ambarella.com/careers",
+    "n": -1,
+    "err": "HTTPError: HTTP Error 404: Not Found"
+   },
+   {
+    "ats": "successfactors_csb",
+    "tried": "https://www.ambarella.com/careers",
+    "n": -1,
+    "err": "HTTPError: HTTP Error 404: Not Found"
+   },
+   {
+    "ats": "eightfold",
+    "tried": "https://www.ambarella.com/careers",
+    "n": -1,
+    "err": "HTTPError: HTTP Error 404: Not Found"
+   }
+  ]
+ },
+ "Synaptics": {
+  "ok": [],
+  "tried": [
+   {
+    "ats": "phenom",
+    "tried": "https://www.synaptics.com/company/careers",
+    "n": -1,
+    "err": "HTTPError: HTTP Error 404: Not Found"
+   },
+   {
+    "ats": "successfactors_csb",
+    "tried": "https://www.synaptics.com/company/careers",
+    "n": -1,
+    "err": "HTTPError: HTTP Error 404: Not Found"
+   },
+   {
+    "ats": "eightfold",
+    "tried": "https://www.synaptics.com/company/careers",
+    "n": -1,
+    "err": "HTTPError: HTTP Error 404: Not Found"
+   }
+  ]
+ },
+ "MaxLinear": {
+  "ok": [],
+  "tried": [
+   {
+    "ats": "phenom",
+    "tried": "https://careers.maxlinear.com",
+    "n": -1,
+    "err": "URLError: <urlopen error [Errno -2] Name or service not known>"
+   },
+   {
+    "ats": "successfactors_csb",
+    "tried": "https://careers.maxlinear.com",
+    "n": -1,
+    "err": "URLError: <urlopen error [Errno -2] Name or service not known>"
+   },
+   {
+    "ats": "eightfold",
+    "tried": "https://careers.maxlinear.com",
+    "n": -1,
+    "err": "URLError: <urlopen error [Errno -2] Name or service not known>"
+   }
+  ]
+ },
+ "Semtech": {
+  "ok": [],
+  "tried": [
+   {
+    "ats": "phenom",
+    "tried": "https://www.semtech.com/company/careers",
+    "n": -1,
+    "err": "HTTPError: HTTP Error 403: Forbidden"
+   },
+   {
+    "ats": "successfactors_csb",
+    "tried": "https://www.semtech.com/company/careers",
+    "n": -1,
+    "err": "HTTPError: HTTP Error 403: Forbidden"
+   },
+   {
+    "ats": "eightfold",
+    "tried": "https://www.semtech.com/company/careers",
+    "n": -1,
+    "err": "HTTPError: HTTP Error 404: Not Found"
+   }
+  ]
+ },
+ "SiTime": {
+  "ok": [],
+  "tried": [
+   {
+    "ats": "phenom",
+    "tried": "https://www.sitime.com/company/careers",
+    "n": -1,
+    "err": "HTTPError: HTTP Error 404: Not Found"
+   },
+   {
+    "ats": "successfactors_csb",
+    "tried": "https://www.sitime.com/company/careers",
+    "n": -1,
+    "err": "HTTPError: HTTP Error 404: Not Found"
+   },
+   {
+    "ats": "eightfold",
+    "tried": "https://www.sitime.com/company/careers",
+    "n": -1,
+    "err": "HTTPError: HTTP Error 404: Not Found"
+   }
+  ]
+ },
+ "Vicor": {
+  "ok": [],
+  "tried": [
+   {
+    "ats": "phenom",
+    "tried": "https://www.vicorpower.com/careers",
+    "n": -1,
+    "err": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+   },
+   {
+    "ats": "successfactors_csb",
+    "tried": "https://www.vicorpower.com/careers",
+    "n": -1,
+    "err": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+   },
+   {
+    "ats": "eightfold",
+    "tried": "https://www.vicorpower.com/careers",
+    "n": -1,
+    "err": "HTTPError: HTTP Error 404: Not Found"
+   }
+  ]
+ },
+ "Western Digital": {
+  "ok": [
+   {
+    "ats": "smartrecruiters",
+    "slug": "westerndigital",
+    "n": 337
+   }
+  ],
+  "tried": [
+   {
+    "ats": "smartrecruiters",
+    "slug": "westerndigital",
+    "n": 337
+   }
+  ]
+ },
+ "Seagate": {
+  "ok": [
+   {
+    "ats": "successfactors_csb",
+    "base": "https://seagatecareers.com",
+    "n": 161
+   }
+  ],
+  "tried": [
+   {
+    "ats": "phenom",
+    "tried": "https://seagatecareers.com",
+    "n": -1,
+    "err": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+   },
+   {
+    "ats": "successfactors_csb",
+    "base": "https://seagatecareers.com",
+    "n": 161
+   }
+  ]
+ },
+ "Coherent": {
+  "ok": [],
+  "tried": [
+   {
+    "ats": "phenom",
+    "tried": "https://careers.coherent.com",
+    "n": -1,
+    "err": "URLError: <urlopen error [Errno -2] Name or service not known>"
+   },
+   {
+    "ats": "successfactors_csb",
+    "tried": "https://careers.coherent.com",
+    "n": -1,
+    "err": "URLError: <urlopen error [Errno -2] Name or service not known>"
+   },
+   {
+    "ats": "eightfold",
+    "tried": "https://careers.coherent.com",
+    "n": -1,
+    "err": "URLError: <urlopen error [Errno -2] Name or service not known>"
+   }
+  ]
+ },
+ "Lumentum": {
+  "ok": [],
+  "tried": [
+   {
+    "ats": "phenom",
+    "tried": "https://careers.lumentum.com",
+    "n": -1,
+    "err": "URLError: <urlopen error [Errno -5] No address associated with hostnam"
+   },
+   {
+    "ats": "successfactors_csb",
+    "tried": "https://careers.lumentum.com",
+    "n": -1,
+    "err": "URLError: <urlopen error [Errno -5] No address associated with hostnam"
+   },
+   {
+    "ats": "eightfold",
+    "tried": "https://careers.lumentum.com",
+    "n": -1,
+    "err": "URLError: <urlopen error [Errno -5] No address associated with hostnam"
+   }
+  ]
+ },
+ "IPG Photonics": {
+  "ok": [],
+  "tried": [
+   {
+    "ats": "phenom",
+    "tried": "https://www.ipgphotonics.com/careers",
+    "n": -1,
+    "err": "HTTPError: HTTP Error 404: Not Found"
+   },
+   {
+    "ats": "successfactors_csb",
+    "tried": "https://www.ipgphotonics.com/careers",
+    "n": -1,
+    "err": "HTTPError: HTTP Error 404: Not Found"
+   },
+   {
+    "ats": "eightfold",
+    "tried": "https://www.ipgphotonics.com/careers",
+    "n": -1,
+    "err": "HTTPError: HTTP Error 404: Not Found"
+   }
+  ]
+ },
+ "MKS Instruments": {
+  "ok": [],
+  "tried": [
+   {
+    "ats": "phenom",
+    "tried": "https://jobs.mks.com",
+    "n": -1,
+    "err": "URLError: <urlopen error [Errno -2] Name or service not known>"
+   },
+   {
+    "ats": "successfactors_csb",
+    "tried": "https://jobs.mks.com",
+    "n": -1,
+    "err": "URLError: <urlopen error [Errno -2] Name or service not known>"
+   },
+   {
+    "ats": "eightfold",
+    "tried": "https://jobs.mks.com",
+    "n": -1,
+    "err": "URLError: <urlopen error [Errno -2] Name or service not known>"
+   }
+  ]
+ },
+ "Entegris": {
+  "ok": [],
+  "tried": [
+   {
+    "ats": "phenom",
+    "tried": "https://careers.entegris.com",
+    "n": 0,
+    "err": ""
+   },
+   {
+    "ats": "successfactors_csb",
+    "tried": "https://careers.entegris.com",
+    "n": 0,
+    "err": ""
+   },
+   {
+    "ats": "eightfold",
+    "tried": "https://careers.entegris.com",
+    "n": 0,
+    "err": ""
+   }
+  ]
+ },
+ "ASML": {
+  "ok": [],
+  "tried": [
+   {
+    "ats": "phenom",
+    "tried": "https://www.asml.com/en/careers",
+    "n": -1,
+    "err": "HTTPError: HTTP Error 404: Not Found"
+   },
+   {
+    "ats": "successfactors_csb",
+    "tried": "https://www.asml.com/en/careers",
+    "n": -1,
+    "err": "HTTPError: HTTP Error 404: Not Found"
+   },
+   {
+    "ats": "eightfold",
+    "tried": "https://www.asml.com/en/careers",
+    "n": -1,
+    "err": "HTTPError: HTTP Error 404: Not Found"
+   }
+  ]
+ },
+ "FormFactor": {
+  "ok": [],
+  "tried": [
+   {
+    "ats": "phenom",
+    "tried": "https://www.formfactor.com/careers",
+    "n": -1,
+    "err": "HTTPError: HTTP Error 404: Not Found"
+   },
+   {
+    "ats": "successfactors_csb",
+    "tried": "https://www.formfactor.com/careers",
+    "n": -1,
+    "err": "HTTPError: HTTP Error 404: Not Found"
+   },
+   {
+    "ats": "eightfold",
+    "tried": "https://www.formfactor.com/careers",
+    "n": -1,
+    "err": "HTTPError: HTTP Error 404: Not Found"
+   }
+  ]
+ },
+ "Advantest": {
+  "ok": [],
+  "tried": [
+   {
+    "ats": "phenom",
+    "tried": "https://www.advantest.com/careers",
+    "n": -1,
+    "err": "HTTPError: HTTP Error 404: Not Found"
+   },
+   {
+    "ats": "successfactors_csb",
+    "tried": "https://www.advantest.com/careers",
+    "n": -1,
+    "err": "HTTPError: HTTP Error 404: Not Found"
+   },
+   {
+    "ats": "eightfold",
+    "tried": "https://www.advantest.com/careers",
+    "n": -1,
+    "err": "HTTPError: HTTP Error 404: Not Found"
+   }
+  ]
+ },
+ "Onto Innovation": {
+  "ok": [],
+  "tried": [
+   {
+    "ats": "phenom",
+    "tried": "https://ontoinnovation.com/careers",
+    "n": -1,
+    "err": "HTTPError: HTTP Error 404: Not Found"
+   },
+   {
+    "ats": "successfactors_csb",
+    "tried": "https://ontoinnovation.com/careers",
+    "n": -1,
+    "err": "HTTPError: HTTP Error 404: Not Found"
+   },
+   {
+    "ats": "eightfold",
+    "tried": "https://ontoinnovation.com/careers",
+    "n": -1,
+    "err": "HTTPError: HTTP Error 404: Not Found"
+   }
+  ]
+ },
+ "MIT Lincoln Laboratory": {
+  "ok": [],
+  "tried": [
+   {
+    "ats": "phenom",
+    "tried": "https://careers.ll.mit.edu",
+    "n": -1,
+    "err": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+   },
+   {
+    "ats": "successfactors_csb",
+    "tried": "https://careers.ll.mit.edu",
+    "n": -1,
+    "err": "HTTPError: HTTP Error 401: 401"
+   },
+   {
+    "ats": "eightfold",
+    "tried": "https://careers.ll.mit.edu",
+    "n": -1,
+    "err": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ "Raytheon (RTX)": {
+  "ok": [],
+  "tried": [
+   {
+    "ats": "phenom",
+    "tried": "https://careers.rtx.com",
+    "n": -1,
+    "err": "HTTPError: HTTP Error 403: Forbidden"
+   },
+   {
+    "ats": "successfactors_csb",
+    "tried": "https://careers.rtx.com",
+    "n": -1,
+    "err": "HTTPError: HTTP Error 403: Forbidden"
+   },
+   {
+    "ats": "eightfold",
+    "tried": "https://careers.rtx.com",
+    "n": -1,
+    "err": "HTTPError: HTTP Error 403: Forbidden"
+   }
+  ]
+ },
+ "Lockheed Martin": {
+  "ok": [],
+  "tried": [
+   {
+    "ats": "phenom",
+    "tried": "https://www.lockheedmartinjobs.com",
+    "n": -1,
+    "err": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+   },
+   {
+    "ats": "successfactors_csb",
+    "tried": "https://www.lockheedmartinjobs.com",
+    "n": -1,
+    "err": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+   },
+   {
+    "ats": "eightfold",
+    "tried": "https://www.lockheedmartinjobs.com",
+    "n": -1,
+    "err": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ "Northrop Grumman": {
+  "ok": [],
+  "tried": [
+   {
+    "ats": "phenom",
+    "tried": "https://www.northropgrumman.com/jobs",
+    "n": -1,
+    "err": "HTTPError: HTTP Error 405: Method Not Allowed"
+   },
+   {
+    "ats": "successfactors_csb",
+    "tried": "https://www.northropgrumman.com/jobs",
+    "n": -1,
+    "err": "HTTPError: HTTP Error 405: Method Not Allowed"
+   },
+   {
+    "ats": "eightfold",
+    "tried": "https://www.northropgrumman.com/jobs",
+    "n": -1,
+    "err": "HTTPError: HTTP Error 404: Not Found"
+   }
+  ]
+ },
+ "L3Harris": {
+  "ok": [],
+  "tried": [
+   {
+    "ats": "phenom",
+    "tried": "https://careers.l3harris.com",
+    "n": -1,
+    "err": "HTTPError: HTTP Error 404: Not Found"
+   },
+   {
+    "ats": "successfactors_csb",
+    "tried": "https://careers.l3harris.com",
+    "n": -1,
+    "err": "JSONDecodeError: Expecting value: line 2 column 1 (char 2)"
+   },
+   {
+    "ats": "eightfold",
+    "tried": "https://careers.l3harris.com",
+    "n": -1,
+    "err": "JSONDecodeError: Expecting value: line 2 column 1 (char 2)"
+   }
+  ]
+ },
+ "BAE Systems": {
+  "ok": [
+   {
+    "ats": "phenom",
+    "base": "https://jobs.baesystems.com",
+    "n": 286
+   }
+  ],
+  "tried": [
+   {
+    "ats": "phenom",
+    "base": "https://jobs.baesystems.com",
+    "n": 286
+   }
+  ]
+ },
+ "General Dynamics Mission Systems": {
+  "ok": [
+   {
+    "ats": "icims",
+    "base": "https://careers-gdms.icims.com",
+    "n": 25
+   }
+  ],
+  "tried": [
+   {
+    "ats": "icims",
+    "base": "https://careers-gdms.icims.com",
+    "n": 25
+   }
+  ]
+ },
+ "Boeing": {
+  "ok": [],
+  "tried": [
+   {
+    "ats": "phenom",
+    "tried": "https://jobs.boeing.com",
+    "n": -1,
+    "err": "HTTPError: HTTP Error 404: Not Found"
+   },
+   {
+    "ats": "successfactors_csb",
+    "tried": "https://jobs.boeing.com",
+    "n": -1,
+    "err": "JSONDecodeError: Expecting value: line 2 column 1 (char 2)"
+   },
+   {
+    "ats": "eightfold",
+    "tried": "https://jobs.boeing.com",
+    "n": -1,
+    "err": "JSONDecodeError: Expecting value: line 2 column 1 (char 2)"
+   }
+  ]
+ },
+ "GE Aerospace": {
+  "ok": [],
+  "tried": [
+   {
+    "ats": "phenom",
+    "tried": "https://jobs.geaerospace.com",
+    "n": -1,
+    "err": "URLError: <urlopen error [Errno -2] Name or service not known>"
+   },
+   {
+    "ats": "successfactors_csb",
+    "tried": "https://jobs.geaerospace.com",
+    "n": -1,
+    "err": "URLError: <urlopen error [Errno -2] Name or service not known>"
+   },
+   {
+    "ats": "eightfold",
+    "tried": "https://jobs.geaerospace.com",
+    "n": -1,
+    "err": "URLError: <urlopen error [Errno -2] Name or service not known>"
+   }
+  ]
+ },
+ "Honeywell": {
+  "ok": [],
+  "tried": [
+   {
+    "ats": "phenom",
+    "tried": "https://careers.honeywell.com",
+    "n": -1,
+    "err": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+   },
+   {
+    "ats": "successfactors_csb",
+    "tried": "https://careers.honeywell.com",
+    "n": -1,
+    "err": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+   },
+   {
+    "ats": "eightfold",
+    "tried": "https://careers.honeywell.com",
+    "n": -1,
+    "err": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ "Sierra Nevada Corporation": {
+  "ok": [],
+  "tried": [
+   {
+    "ats": "phenom",
+    "tried": "https://www.sncorp.com/careers",
+    "n": -1,
+    "err": "HTTPError: HTTP Error 405: Method Not Allowed"
+   },
+   {
+    "ats": "successfactors_csb",
+    "tried": "https://www.sncorp.com/careers",
+    "n": -1,
+    "err": "HTTPError: HTTP Error 405: Method Not Allowed"
+   },
+   {
+    "ats": "eightfold",
+    "tried": "https://www.sncorp.com/careers",
+    "n": -1,
+    "err": "HTTPError: HTTP Error 404: Not Found"
+   }
+  ]
+ },
+ "Bose": {
+  "ok": [],
+  "tried": [
+   {
+    "ats": "phenom",
+    "tried": "https://www.bose.com/careers",
+    "n": -1,
+    "err": "HTTPError: HTTP Error 404: Not Found"
+   },
+   {
+    "ats": "successfactors_csb",
+    "tried": "https://www.bose.com/careers",
+    "n": -1,
+    "err": "HTTPError: HTTP Error 404: Not Found"
+   },
+   {
+    "ats": "eightfold",
+    "tried": "https://www.bose.com/careers",
+    "n": -1,
+    "err": "HTTPError: HTTP Error 404: Not Found"
+   }
+  ]
+ },
+ "iRobot": {
+  "ok": [],
+  "tried": [
+   {
+    "ats": "phenom",
+    "tried": "https://www.irobot.com/careers",
+    "n": -1,
+    "err": "HTTPError: HTTP Error 500: Internal Server Error"
+   },
+   {
+    "ats": "successfactors_csb",
+    "tried": "https://www.irobot.com/careers",
+    "n": -1,
+    "err": "HTTPError: HTTP Error 500: Internal Server Error"
+   },
+   {
+    "ats": "eightfold",
+    "tried": "https://www.irobot.com/careers",
+    "n": -1,
+    "err": "HTTPError: HTTP Error 404: Not Found"
+   }
+  ]
+ },
+ "Dell": {
+  "ok": [],
+  "tried": [
+   {
+    "ats": "phenom",
+    "tried": "https://jobs.dell.com",
+    "n": -1,
+    "err": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+   },
+   {
+    "ats": "successfactors_csb",
+    "tried": "https://jobs.dell.com",
+    "n": -1,
+    "err": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+   },
+   {
+    "ats": "eightfold",
+    "tried": "https://jobs.dell.com",
+    "n": -1,
+    "err": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ "HP": {
+  "ok": [],
+  "tried": [
+   {
+    "ats": "phenom",
+    "tried": "https://jobs.hp.com",
+    "n": -1,
+    "err": "HTTPError: HTTP Error 404: Not Found"
+   },
+   {
+    "ats": "successfactors_csb",
+    "tried": "https://jobs.hp.com",
+    "n": -1,
+    "err": "HTTPError: HTTP Error 404: Not Found"
+   },
+   {
+    "ats": "eightfold",
+    "tried": "https://jobs.hp.com",
+    "n": -1,
+    "err": "HTTPError: HTTP Error 404: Not Found"
+   }
+  ]
+ },
+ "MathWorks": {
+  "ok": [],
+  "tried": [
+   {
+    "ats": "phenom",
+    "tried": "https://www.mathworks.com/company/jobs",
+    "n": -1,
+    "err": "HTTPError: HTTP Error 403: Forbidden"
+   },
+   {
+    "ats": "successfactors_csb",
+    "tried": "https://www.mathworks.com/company/jobs",
+    "n": -1,
+    "err": "HTTPError: HTTP Error 403: Forbidden"
+   },
+   {
+    "ats": "eightfold",
+    "tried": "https://www.mathworks.com/company/jobs",
+    "n": -1,
+    "err": "HTTPError: HTTP Error 403: Forbidden"
+   }
+  ]
+ },
+ "MediaTek": {
+  "ok": [],
+  "tried": [
+   {
+    "ats": "phenom",
+    "tried": "https://careers.mediatek.com",
+    "n": -1,
+    "err": "HTTPError: HTTP Error 307: Temporary Redirect"
+   },
+   {
+    "ats": "successfactors_csb",
+    "tried": "https://careers.mediatek.com",
+    "n": -1,
+    "err": "HTTPError: HTTP Error 307: Temporary Redirect"
+   },
+   {
+    "ats": "eightfold",
+    "tried": "https://careers.mediatek.com",
+    "n": -1,
+    "err": "HTTPError: HTTP Error 404: Not Found"
+   }
+  ]
+ },
+ "SiFive": {
+  "ok": [],
+  "tried": [
+   {
+    "ats": "phenom",
+    "tried": "https://www.sifive.com/careers",
+    "n": -1,
+    "err": "HTTPError: HTTP Error 405: Method Not Allowed"
+   },
+   {
+    "ats": "successfactors_csb",
+    "tried": "https://www.sifive.com/careers",
+    "n": -1,
+    "err": "HTTPError: HTTP Error 404: Not Found"
+   },
+   {
+    "ats": "eightfold",
+    "tried": "https://www.sifive.com/careers",
+    "n": -1,
+    "err": "HTTPError: HTTP Error 404: Not Found"
+   }
+  ]
+ },
+ "Groq": {
+  "ok": [],
+  "tried": [
+   {
+    "ats": "phenom",
+    "tried": "https://groq.com/careers",
+    "n": -1,
+    "err": "HTTPError: HTTP Error 405: Method Not Allowed"
+   },
+   {
+    "ats": "successfactors_csb",
+    "tried": "https://groq.com/careers",
+    "n": -1,
+    "err": "HTTPError: HTTP Error 405: Method Not Allowed"
+   },
+   {
+    "ats": "eightfold",
+    "tried": "https://groq.com/careers",
+    "n": -1,
+    "err": "HTTPError: HTTP Error 404: Not Found"
+   }
+  ]
+ },
+ "Ampere Computing": {
+  "ok": [],
+  "tried": [
+   {
+    "ats": "phenom",
+    "tried": "https://amperecomputing.com/careers",
+    "n": -1,
+    "err": "HTTPError: HTTP Error 405: Method Not Allowed"
+   },
+   {
+    "ats": "successfactors_csb",
+    "tried": "https://amperecomputing.com/careers",
+    "n": -1,
+    "err": "HTTPError: HTTP Error 404: Not Found"
+   },
+   {
+    "ats": "eightfold",
+    "tried": "https://amperecomputing.com/careers",
+    "n": -1,
+    "err": "HTTPError: HTTP Error 404: Not Found"
+   }
+  ]
+ },
+ "Rivos": {
+  "ok": [],
+  "tried": [
+   {
+    "ats": "phenom",
+    "tried": "https://www.rivosinc.com/careers",
+    "n": -1,
+    "err": "HTTPError: HTTP Error 404: Not Found"
+   },
+   {
+    "ats": "successfactors_csb",
+    "tried": "https://www.rivosinc.com/careers",
+    "n": -1,
+    "err": "HTTPError: HTTP Error 404: Not Found"
+   },
+   {
+    "ats": "eightfold",
+    "tried": "https://www.rivosinc.com/careers",
+    "n": -1,
+    "err": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ "Ayar Labs": {
+  "ok": [],
+  "tried": [
+   {
+    "ats": "phenom",
+    "tried": "https://ayarlabs.com/careers",
+    "n": -1,
+    "err": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+   },
+   {
+    "ats": "successfactors_csb",
+    "tried": "https://ayarlabs.com/careers",
+    "n": -1,
+    "err": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+   },
+   {
+    "ats": "eightfold",
+    "tried": "https://ayarlabs.com/careers",
+    "n": -1,
+    "err": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ "Celestial AI": {
+  "ok": [],
+  "tried": [
+   {
+    "ats": "phenom",
+    "tried": "https://www.celestial.ai/careers",
+    "n": -1,
+    "err": "JSONDecodeError: Expecting value: line 2 column 1 (char 1)"
+   },
+   {
+    "ats": "successfactors_csb",
+    "tried": "https://www.celestial.ai/careers",
+    "n": -1,
+    "err": "JSONDecodeError: Expecting value: line 2 column 1 (char 1)"
+   },
+   {
+    "ats": "eightfold",
+    "tried": "https://www.celestial.ai/careers",
+    "n": -1,
+    "err": "JSONDecodeError: Expecting value: line 2 column 1 (char 1)"
+   }
+  ]
+ },
+ "Navitas Semiconductor": {
+  "ok": [
+   {
+    "ats": "smartrecruiters",
+    "slug": "navitas",
+    "n": 44
+   }
+  ],
+  "tried": [
+   {
+    "ats": "smartrecruiters",
+    "slug": "navitas",
+    "n": 44
+   }
+  ]
+ },
+ "Analog Devices": {
+  "ok": [],
+  "tried": [
+   {
+    "ats": "phenom",
+    "tried": "https://www.analog.com/en/about-adi/careers.html",
+    "n": -1,
+    "err": "TimeoutError: The read operation timed out"
+   },
+   {
+    "ats": "successfactors_csb",
+    "tried": "https://www.analog.com/en/about-adi/careers.html",
+    "n": -1,
+    "err": "TimeoutError: The read operation timed out"
+   },
+   {
+    "ats": "eightfold",
+    "tried": "https://www.analog.com/en/about-adi/careers.html",
+    "n": -1,
+    "err": "TimeoutError: The read operation timed out"
+   }
+  ]
+ },
+ "Microsoft": {
+  "ok": [],
+  "tried": [
+   {
+    "ats": "phenom",
+    "tried": "https://jobs.careers.microsoft.com",
+    "n": -1,
+    "err": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+   },
+   {
+    "ats": "successfactors_csb",
+    "tried": "https://jobs.careers.microsoft.com",
+    "n": -1,
+    "err": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+   },
+   {
+    "ats": "eightfold",
+    "tried": "https://jobs.careers.microsoft.com",
+    "n": -1,
+    "err": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ "Meta": {
+  "ok": [],
+  "tried": [
+   {
+    "ats": "phenom",
+    "tried": "https://www.metacareers.com",
+    "n": -1,
+    "err": "HTTPError: HTTP Error 400: Bad Request"
+   },
+   {
+    "ats": "successfactors_csb",
+    "tried": "https://www.metacareers.com",
+    "n": -1,
+    "err": "HTTPError: HTTP Error 429: Too Many Requests"
+   },
+   {
+    "ats": "eightfold",
+    "tried": "https://www.metacareers.com",
+    "n": -1,
+    "err": "HTTPError: HTTP Error 429: Too Many Requests"
+   }
+  ]
+ },
+ "Amazon": {
+  "ok": [],
+  "tried": [
+   {
+    "ats": "phenom",
+    "tried": "https://www.amazon.jobs",
+    "n": -1,
+    "err": "HTTPError: HTTP Error 422: Unprocessable Entity"
+   },
+   {
+    "ats": "successfactors_csb",
+    "tried": "https://www.amazon.jobs",
+    "n": -1,
+    "err": "HTTPError: HTTP Error 422: Unprocessable Entity"
+   },
+   {
+    "ats": "eightfold",
+    "tried": "https://www.amazon.jobs",
+    "n": -1,
+    "err": "HTTPError: HTTP Error 404: Not Found"
+   }
+  ]
+ },
+ "Google": {
+  "ok": [],
+  "tried": [
+   {
+    "ats": "phenom",
+    "tried": "https://careers.google.com",
+    "n": -1,
+    "err": "HTTPError: HTTP Error 404: Not Found"
+   },
+   {
+    "ats": "successfactors_csb",
+    "tried": "https://careers.google.com",
+    "n": -1,
+    "err": "HTTPError: HTTP Error 404: Not Found"
+   },
+   {
+    "ats": "eightfold",
+    "tried": "https://careers.google.com",
+    "n": -1,
+    "err": "HTTPError: HTTP Error 404: Not Found"
+   }
+  ]
+ },
+ "Tesla": {
+  "ok": [],
+  "tried": [
+   {
+    "ats": "phenom",
+    "tried": "https://www.tesla.com/careers",
+    "n": -1,
+    "err": "HTTPError: HTTP Error 403: Forbidden"
+   },
+   {
+    "ats": "successfactors_csb",
+    "tried": "https://www.tesla.com/careers",
+    "n": -1,
+    "err": "HTTPError: HTTP Error 403: Forbidden"
+   },
+   {
+    "ats": "eightfold",
+    "tried": "https://www.tesla.com/careers",
+    "n": -1,
+    "err": "HTTPError: HTTP Error 403: Forbidden"
+   }
+  ]
+ },
+ "Nokia": {
+  "ok": [],
+  "tried": [
+   {
+    "ats": "phenom",
+    "tried": "https://www.nokia.com/about-us/careers",
+    "n": -1,
+    "err": "JSONDecodeError: Expecting value: line 2 column 1 (char 1)"
+   },
+   {
+    "ats": "successfactors_csb",
+    "tried": "https://www.nokia.com/about-us/careers",
+    "n": -1,
+    "err": "JSONDecodeError: Expecting value: line 2 column 1 (char 1)"
+   },
+   {
+    "ats": "eightfold",
+    "tried": "https://www.nokia.com/about-us/careers",
+    "n": -1,
+    "err": "JSONDecodeError: Expecting value: line 2 column 1 (char 1)"
+   }
+  ]
+ },
+ "Ciena": {
+  "ok": [],
+  "tried": [
+   {
+    "ats": "phenom",
+    "tried": "https://www.ciena.com/careers",
+    "n": -1,
+    "err": "HTTPError: HTTP Error 403: Forbidden"
+   },
+   {
+    "ats": "successfactors_csb",
+    "tried": "https://www.ciena.com/careers",
+    "n": -1,
+    "err": "HTTPError: HTTP Error 403: Forbidden"
+   },
+   {
+    "ats": "eightfold",
+    "tried": "https://www.ciena.com/careers",
+    "n": -1,
+    "err": "HTTPError: HTTP Error 403: Forbidden"
+   }
+  ]
+ },
+ "Juniper Networks": {
+  "ok": [],
+  "tried": [
+   {
+    "ats": "phenom",
+    "tried": "https://careers.juniper.net",
+    "n": -1,
+    "err": "HTTPError: HTTP Error 404: NOT FOUND"
+   },
+   {
+    "ats": "successfactors_csb",
+    "tried": "https://careers.juniper.net",
+    "n": -1,
+    "err": "HTTPError: HTTP Error 404: NOT FOUND"
+   },
+   {
+    "ats": "eightfold",
+    "tried": "https://careers.juniper.net",
+    "n": -1,
+    "err": "HTTPError: HTTP Error 403: FORBIDDEN"
+   }
+  ]
+ },
+ "Arista Networks": {
+  "ok": [
+   {
+    "ats": "smartrecruiters",
+    "slug": "aristanetworks",
+    "n": 249
+   }
+  ],
+  "tried": [
+   {
+    "ats": "smartrecruiters",
+    "slug": "aristanetworks",
+    "n": 249
+   }
+  ]
+ },
+ "Garmin": {
+  "ok": [],
+  "tried": [
+   {
+    "ats": "phenom",
+    "tried": "https://careers.garmin.com",
+    "n": -1,
+    "err": "HTTPError: HTTP Error 404: Not Found"
+   },
+   {
+    "ats": "successfactors_csb",
+    "tried": "https://careers.garmin.com",
+    "n": -1,
+    "err": "HTTPError: HTTP Error 404: Not Found"
+   },
+   {
+    "ats": "eightfold",
+    "tried": "https://careers.garmin.com",
+    "n": -1,
+    "err": "HTTPError: HTTP Error 404: Not Found"
+   }
+  ]
+ },
+ "Sonos": {
+  "ok": [],
+  "tried": [
+   {
+    "ats": "phenom",
+    "tried": "https://www.sonos.com/en-us/careers",
+    "n": -1,
+    "err": "HTTPError: HTTP Error 403: Forbidden"
+   },
+   {
+    "ats": "successfactors_csb",
+    "tried": "https://www.sonos.com/en-us/careers",
+    "n": -1,
+    "err": "HTTPError: HTTP Error 403: Forbidden"
+   },
+   {
+    "ats": "eightfold",
+    "tried": "https://www.sonos.com/en-us/careers",
+    "n": -1,
+    "err": "HTTPError: HTTP Error 403: Forbidden"
+   }
+  ]
+ },
+ "Analog Devices Maxim": {
+  "ok": [
+   {
+    "ats": "smartrecruiters",
+    "slug": "maximintegrated",
+    "n": 3
+   }
+  ],
+  "tried": [
+   {
+    "ats": "smartrecruiters",
+    "slug": "maximintegrated",
+    "n": 3
+   }
+  ]
+ },
+ "Schneider Electric": {
+  "ok": [],
+  "tried": [
+   {
+    "ats": "phenom",
+    "tried": "https://www.se.com/us/en/about-us/careers",
+    "n": -1,
+    "err": "HTTPError: HTTP Error 403: Forbidden"
+   },
+   {
+    "ats": "successfactors_csb",
+    "tried": "https://www.se.com/us/en/about-us/careers",
+    "n": -1,
+    "err": "HTTPError: HTTP Error 403: Forbidden"
+   },
+   {
+    "ats": "eightfold",
+    "tried": "https://www.se.com/us/en/about-us/careers",
+    "n": -1,
+    "err": "HTTPError: HTTP Error 403: Forbidden"
+   }
+  ]
+ },
+ "Eaton": {
+  "ok": [],
+  "tried": [
+   {
+    "ats": "phenom",
+    "tried": "https://jobs.eaton.com",
+    "n": -1,
+    "err": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+   },
+   {
+    "ats": "successfactors_csb",
+    "tried": "https://jobs.eaton.com",
+    "n": -1,
+    "err": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+   },
+   {
+    "ats": "eightfold",
+    "tried": "https://jobs.eaton.com",
+    "n": -1,
+    "err": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ "Emerson": {
+  "ok": [],
+  "tried": [
+   {
+    "ats": "phenom",
+    "tried": "https://www.emerson.com/en-us/careers",
+    "n": -1,
+    "err": "HTTPError: HTTP Error 404: Not Found"
+   },
+   {
+    "ats": "successfactors_csb",
+    "tried": "https://www.emerson.com/en-us/careers",
+    "n": -1,
+    "err": "HTTPError: HTTP Error 404: Not Found"
+   },
+   {
+    "ats": "eightfold",
+    "tried": "https://www.emerson.com/en-us/careers",
+    "n": -1,
+    "err": "HTTPError: HTTP Error 404: Not Found"
+   }
+  ]
+ },
+ "Wabtec": {
+  "ok": [
+   {
+    "ats": "smartrecruiters",
+    "slug": "wabtec",
+    "n": 739
+   }
+  ],
+  "tried": [
+   {
+    "ats": "smartrecruiters",
+    "slug": "wabtec",
+    "n": 739
+   }
+  ]
+ },
+ "Formlabs": {
+  "ok": [
+   {
+    "ats": "greenhouse",
+    "token": "formlabs",
+    "n": 205
+   }
+  ],
+  "tried": [
+   {
+    "ats": "greenhouse",
+    "token": "formlabs",
+    "n": 205
+   }
+  ]
+ },
+ "Desktop Metal": {
+  "ok": [],
+  "tried": []
+ },
+ "Markforged": {
+  "ok": [
+   {
+    "ats": "greenhouse",
+    "token": "markforged",
+    "n": 3
+   }
+  ],
+  "tried": [
+   {
+    "ats": "greenhouse",
+    "token": "markforged",
+    "n": 3
+   }
+  ]
+ },
+ "Nuvation Engineering": {
+  "ok": [],
+  "tried": []
+ },
+ "Waters Corporation": {
+  "ok": [],
+  "tried": [
+   {
+    "ats": "phenom",
+    "tried": "https://careers.waters.com",
+    "n": -1,
+    "err": "URLError: <urlopen error [Errno -2] Name or service not known>"
+   },
+   {
+    "ats": "successfactors_csb",
+    "tried": "https://careers.waters.com",
+    "n": -1,
+    "err": "URLError: <urlopen error [Errno -2] Name or service not known>"
+   },
+   {
+    "ats": "eightfold",
+    "tried": "https://careers.waters.com",
+    "n": -1,
+    "err": "URLError: <urlopen error [Errno -2] Name or service not known>"
+   }
+  ]
+ },
+ "Thermo Fisher Scientific": {
+  "ok": [
+   {
+    "ats": "phenom",
+    "base": "https://jobs.thermofisher.com",
+    "n": 77
+   }
+  ],
+  "tried": [
+   {
+    "ats": "phenom",
+    "base": "https://jobs.thermofisher.com",
+    "n": 77
+   }
+  ]
+ },
+ "Akamai": {
+  "ok": [],
+  "tried": []
+ },
+ "Amazon Robotics": {
+  "ok": [],
+  "tried": []
+ },
+ "Toast": {
+  "ok": [
+   {
+    "ats": "greenhouse",
+    "token": "toast",
+    "n": 322
+   }
+  ],
+  "tried": [
+   {
+    "ats": "greenhouse",
+    "token": "toast",
+    "n": 322
+   }
+  ]
+ },
+ "HyperLight": {
+  "ok": [],
+  "tried": []
+ },
+ "Lightmatter": {
+  "ok": [
+   {
+    "ats": "greenhouse",
+    "token": "lightmatter",
+    "n": 63
+   }
+  ],
+  "tried": [
+   {
+    "ats": "greenhouse",
+    "token": "lightmatter",
+    "n": 63
+   }
+  ]
+ },
+ "Aurora Flight Sciences": {
+  "ok": [],
+  "tried": []
+ },
+ "Mercury Systems": {
+  "ok": [],
+  "tried": [
+   {
+    "ats": "phenom",
+    "tried": "https://careers.mrcy.com",
+    "n": -1,
+    "err": "URLError: <urlopen error [Errno -2] Name or service not known>"
+   },
+   {
+    "ats": "successfactors_csb",
+    "tried": "https://careers.mrcy.com",
+    "n": -1,
+    "err": "URLError: <urlopen error [Errno -2] Name or service not known>"
+   },
+   {
+    "ats": "eightfold",
+    "tried": "https://careers.mrcy.com",
+    "n": -1,
+    "err": "URLError: <urlopen error [Errno -2] Name or service not known>"
+   }
+  ]
+ },
+ "Symbotic": {
+  "ok": [],
+  "tried": []
+ },
+ "Ascend Elements": {
+  "ok": [],
+  "tried": []
+ },
+ "Commonwealth Fusion Systems": {
+  "ok": [],
+  "tried": []
+ },
+ "Vicarious Surgical": {
+  "ok": [],
+  "tried": []
+ },
+ "Whoop": {
+  "ok": [
+   {
+    "ats": "ashby",
+    "token": "whoop",
+    "n": 155
+   }
+  ],
+  "tried": [
+   {
+    "ats": "ashby",
+    "token": "whoop",
+    "n": 155
+   }
+  ]
+ },
+ "Analogic": {
+  "ok": [],
+  "tried": []
+ },
+ "Rapid Micro Biosystems": {
+  "ok": [
+   {
+    "ats": "lever",
+    "token": "rapidmicrobio",
+    "n": 6
+   }
+  ],
+  "tried": [
+   {
+    "ats": "lever",
+    "token": "rapidmicrobio",
+    "n": 6
+   }
+  ]
+ },
+ "Kulicke & Soffa": {
+  "ok": [],
+  "tried": []
+ },
+ "ChipAgents": {
+  "ok": [],
+  "tried": []
+ },
+ "Cerebras": {
+  "ok": [
+   {
+    "ats": "ashby",
+    "token": "cerebras",
+    "n": 113
+   }
+  ],
+  "tried": [
+   {
+    "ats": "ashby",
+    "token": "cerebras",
+    "n": 113
+   }
+  ]
+ },
+ "SambaNova": {
+  "ok": [],
+  "tried": []
+ },
+ "Etched": {
+  "ok": [
+   {
+    "ats": "ashby",
+    "token": "etched",
+    "n": 105
+   }
+  ],
+  "tried": [
+   {
+    "ats": "ashby",
+    "token": "etched",
+    "n": 105
+   }
+  ]
+ },
+ "d-Matrix": {
+  "ok": [
+   {
+    "ats": "ashby",
+    "token": "d-matrix",
+    "n": 35
+   }
+  ],
+  "tried": [
+   {
+    "ats": "ashby",
+    "token": "d-matrix",
+    "n": 35
+   }
+  ]
+ },
+ "MatX": {
+  "ok": [
+   {
+    "ats": "ashby",
+    "token": "matx",
+    "n": 43
+   }
+  ],
+  "tried": [
+   {
+    "ats": "ashby",
+    "token": "matx",
+    "n": 43
+   }
+  ]
+ },
+ "Tenstorrent": {
+  "ok": [
+   {
+    "ats": "greenhouse",
+    "token": "tenstorrent",
+    "n": 126
+   }
+  ],
+  "tried": [
+   {
+    "ats": "greenhouse",
+    "token": "tenstorrent",
+    "n": 126
+   }
+  ]
+ },
+ "Enfabrica": {
+  "ok": [],
+  "tried": []
+ },
+ "Untether AI": {
+  "ok": [],
+  "tried": []
+ },
+ "Recogni": {
+  "ok": [],
+  "tried": []
+ },
+ "Mythic": {
+  "ok": [],
+  "tried": []
+ },
+ "Blaize": {
+  "ok": [],
+  "tried": []
+ },
+ "SiMa.ai": {
+  "ok": [],
+  "tried": []
+ },
+ "Axelera AI": {
+  "ok": [
+   {
+    "ats": "ashby",
+    "token": "axelera",
+    "n": 11
+   }
+  ],
+  "tried": [
+   {
+    "ats": "ashby",
+    "token": "axelera",
+    "n": 11
+   }
+  ]
+ },
+ "Fractile": {
+  "ok": [
+   {
+    "ats": "greenhouse",
+    "token": "fractile",
+    "n": 43
+   }
+  ],
+  "tried": [
+   {
+    "ats": "greenhouse",
+    "token": "fractile",
+    "n": 43
+   }
+  ]
+ },
+ "Positron": {
+  "ok": [],
+  "tried": []
+ },
+ "Taalas": {
+  "ok": [],
+  "tried": []
+ },
+ "Extropic": {
+  "ok": [
+   {
+    "ats": "ashby",
+    "token": "extropic",
+    "n": 10
+   }
+  ],
+  "tried": [
+   {
+    "ats": "ashby",
+    "token": "extropic",
+    "n": 10
+   }
+  ]
+ },
+ "Normal Computing": {
+  "ok": [
+   {
+    "ats": "ashby",
+    "token": "normalcomputing",
+    "n": 20
+   }
+  ],
+  "tried": [
+   {
+    "ats": "ashby",
+    "token": "normalcomputing",
+    "n": 20
+   }
+  ]
+ },
+ "Esperanto Technologies": {
+  "ok": [],
+  "tried": []
+ },
+ "Ventana Micro Systems": {
+  "ok": [],
+  "tried": []
+ },
+ "Akeana": {
+  "ok": [],
+  "tried": []
+ },
+ "Eliyan": {
+  "ok": [
+   {
+    "ats": "lever",
+    "token": "eliyan",
+    "n": 24
+   }
+  ],
+  "tried": [
+   {
+    "ats": "lever",
+    "token": "eliyan",
+    "n": 24
+   }
+  ]
+ },
+ "Credo": {
+  "ok": [],
+  "tried": []
+ },
+ "Ranovus": {
+  "ok": [],
+  "tried": []
+ },
+ "Xscape Photonics": {
+  "ok": [],
+  "tried": []
+ },
+ "Lumotive": {
+  "ok": [
+   {
+    "ats": "lever",
+    "token": "lumotive",
+    "n": 8
+   }
+  ],
+  "tried": [
+   {
+    "ats": "lever",
+    "token": "lumotive",
+    "n": 8
+   }
+  ]
+ },
+ "Aeluma": {
+  "ok": [],
+  "tried": []
+ },
+ "Atomic Semi": {
+  "ok": [],
+  "tried": []
+ },
+ "Substrate": {
+  "ok": [
+   {
+    "ats": "ashby",
+    "token": "substrate",
+    "n": 7
+   }
+  ],
+  "tried": [
+   {
+    "ats": "ashby",
+    "token": "substrate",
+    "n": 7
+   }
+  ]
+ },
+ "Menlo Micro": {
+  "ok": [],
+  "tried": []
+ },
+ "Cenfire": {
+  "ok": [],
+  "tried": []
+ },
+ "Ideal Power": {
+  "ok": [],
+  "tried": []
+ },
+ "EPC (Efficient Power Conversion)": {
+  "ok": [],
+  "tried": []
+ },
+ "Transphorm": {
+  "ok": [],
+  "tried": []
+ },
+ "Empower Semiconductor": {
+  "ok": [],
+  "tried": []
+ },
+ "Anokiwave": {
+  "ok": [],
+  "tried": []
+ },
+ "Movandi": {
+  "ok": [],
+  "tried": []
+ },
+ "Pivotal Commware": {
+  "ok": [],
+  "tried": []
+ },
+ "Mobix Labs": {
+  "ok": [],
+  "tried": []
+ },
+ "Guerrilla RF": {
+  "ok": [],
+  "tried": []
+ },
+ "Akoustis": {
+  "ok": [],
+  "tried": []
+ },
+ "Marki Microwave": {
+  "ok": [],
+  "tried": []
+ },
+ "Mini-Circuits": {
+  "ok": [],
+  "tried": []
+ },
+ "Silicon Labs": {
+  "ok": [],
+  "tried": []
+ },
+ "Allegro MicroSystems": {
+  "ok": [],
+  "tried": []
+ },
+ "Diodes Incorporated": {
+  "ok": [],
+  "tried": []
+ },
+ "Nexperia": {
+  "ok": [],
+  "tried": []
+ },
+ "Kioxia America": {
+  "ok": [
+   {
+    "ats": "smartrecruiters",
+    "slug": "kioxia",
+    "n": 14
+   }
+  ],
+  "tried": [
+   {
+    "ats": "smartrecruiters",
+    "slug": "kioxia",
+    "n": 14
+   }
+  ]
+ },
+ "SK hynix America": {
+  "ok": [],
+  "tried": []
+ },
+ "Luminous Computing": {
+  "ok": [],
+  "tried": []
+ },
+ "Quintessent": {
+  "ok": [],
+  "tried": []
+ },
+ "nEye Systems": {
+  "ok": [],
+  "tried": []
+ },
+ "Scintil Photonics": {
+  "ok": [],
+  "tried": []
+ },
+ "QuEra": {
+  "ok": [],
+  "tried": []
+ },
+ "Quantinuum": {
+  "ok": [],
+  "tried": []
+ },
+ "Infleqtion": {
+  "ok": [],
+  "tried": []
+ },
+ "Zero ASIC": {
+  "ok": [],
+  "tried": []
+ },
+ "Efabless": {
+  "ok": [],
+  "tried": []
+ },
+ "Semianalysis": {
+  "ok": [],
+  "tried": []
+ },
+ "Alphawave Semi": {
+  "ok": [],
+  "tried": []
+ },
+ "Achronix": {
+  "ok": [],
+  "tried": []
+ },
+ "Flex Logix": {
+  "ok": [],
+  "tried": []
+ },
+ "Microchip": {
+  "ok": [
+   {
+    "ats": "smartrecruiters",
+    "slug": "microchip",
+    "n": 9
+   }
+  ],
+  "tried": [
+   {
+    "ats": "smartrecruiters",
+    "slug": "microchip",
+    "n": 9
+   }
+  ]
+ },
+ "Wolfspeed": {
+  "ok": [],
+  "tried": []
+ },
+ "Ambiq": {
+  "ok": [],
+  "tried": []
+ },
+ "Nordic Semiconductor": {
+  "ok": [],
+  "tried": []
+ },
+ "Silvaco": {
+  "ok": [],
+  "tried": []
+ },
+ "Tektronix": {
+  "ok": [],
+  "tried": []
+ },
+ "National Instruments (Emerson)": {
+  "ok": [],
+  "tried": []
+ },
+ "Rohde & Schwarz USA": {
+  "ok": [],
+  "tried": []
+ },
+ "indie Semiconductor": {
+  "ok": [],
+  "tried": []
+ },
+ "Ampere": {
+  "ok": [],
+  "tried": []
+ },
+ "Rain AI": {
+  "ok": [
+   {
+    "ats": "ashby",
+    "token": "rain",
+    "n": 45
+   }
+  ],
+  "tried": [
+   {
+    "ats": "ashby",
+    "token": "rain",
+    "n": 45
+   }
+  ]
+ },
+ "Lightelligence": {
+  "ok": [],
+  "tried": []
+ },
+ "Salience Labs": {
+  "ok": [],
+  "tried": []
+ },
+ "Oriole Networks": {
+  "ok": [],
+  "tried": []
+ },
+ "Hailo": {
+  "ok": [],
+  "tried": []
+ },
+ "Kneron": {
+  "ok": [],
+  "tried": []
+ },
+ "Tachyum": {
+  "ok": [],
+  "tried": []
+ },
+ "Arteris": {
+  "ok": [],
+  "tried": []
+ },
+ "Ceva": {
+  "ok": [],
+  "tried": []
+ },
+ "Imagination Technologies": {
+  "ok": [],
+  "tried": []
+ },
+ "Andes Technology": {
+  "ok": [],
+  "tried": []
+ },
+ "Ubicept": {
+  "ok": [],
+  "tried": []
+ },
+ "Vayyar": {
+  "ok": [],
+  "tried": []
+ },
+ "Owl Autonomous Imaging": {
+  "ok": [],
+  "tried": []
+ },
+ "Analog Inference": {
+  "ok": [],
+  "tried": []
+ },
+ "Mythic AI": {
+  "ok": [],
+  "tried": []
+ },
+ "Sagence AI": {
+  "ok": [],
+  "tried": []
+ },
+ "EnCharge AI": {
+  "ok": [],
+  "tried": []
+ },
+ "Tetramem": {
+  "ok": [],
+  "tried": []
+ },
+ "Ayar": {
+  "ok": [],
+  "tried": []
+ },
+ "Anduril": {
+  "ok": [],
+  "tried": []
+ },
+ "Epirus": {
+  "ok": [
+   {
+    "ats": "greenhouse",
+    "token": "epirus",
+    "n": 41
+   }
+  ],
+  "tried": [
+   {
+    "ats": "greenhouse",
+    "token": "epirus",
+    "n": 41
+   }
+  ]
+ },
+ "Shield AI": {
+  "ok": [
+   {
+    "ats": "lever",
+    "token": "shieldai",
+    "n": 500
+   }
+  ],
+  "tried": [
+   {
+    "ats": "lever",
+    "token": "shieldai",
+    "n": 500
+   }
+  ]
+ },
+ "Applied Research Laboratory (Penn State)": {
+  "ok": [],
+  "tried": []
+ },
+ "Johns Hopkins APL": {
+  "ok": [],
+  "tried": [
+   {
+    "ats": "phenom",
+    "tried": "https://careers.jhuapl.edu",
+    "n": -1,
+    "err": "HTTPError: HTTP Error 404: Not Found"
+   },
+   {
+    "ats": "successfactors_csb",
+    "tried": "https://careers.jhuapl.edu",
+    "n": -1,
+    "err": "HTTPError: HTTP Error 404: Not Found"
+   },
+   {
+    "ats": "eightfold",
+    "tried": "https://careers.jhuapl.edu",
+    "n": -1,
+    "err": "HTTPError: HTTP Error 404: Not Found"
+   }
+  ]
+ },
+ "Sandia National Laboratories": {
+  "ok": [],
+  "tried": [
+   {
+    "ats": "phenom",
+    "tried": "https://sandia.jobs",
+    "n": -1,
+    "err": "HTTPError: HTTP Error 404: Not Found"
+   },
+   {
+    "ats": "successfactors_csb",
+    "tried": "https://sandia.jobs",
+    "n": -1,
+    "err": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+   },
+   {
+    "ats": "eightfold",
+    "tried": "https://sandia.jobs",
+    "n": -1,
+    "err": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ "Los Alamos National Laboratory": {
+  "ok": [],
+  "tried": [
+   {
+    "ats": "phenom",
+    "tried": "https://lanl.jobs",
+    "n": -1,
+    "err": "JSONDecodeError: Expecting value: line 3 column 1 (char 2)"
+   },
+   {
+    "ats": "successfactors_csb",
+    "tried": "https://lanl.jobs",
+    "n": -1,
+    "err": "JSONDecodeError: Expecting value: line 3 column 1 (char 2)"
+   },
+   {
+    "ats": "eightfold",
+    "tried": "https://lanl.jobs",
+    "n": -1,
+    "err": "JSONDecodeError: Expecting value: line 3 column 1 (char 2)"
+   }
+  ]
+ },
+ "Lawrence Livermore National Laboratory": {
+  "ok": [
+   {
+    "ats": "smartrecruiters",
+    "slug": "llnl",
+    "n": 156
+   }
+  ],
+  "tried": [
+   {
+    "ats": "smartrecruiters",
+    "slug": "llnl",
+    "n": 156
+   }
+  ]
+ },
+ "NASA JPL": {
+  "ok": [
+   {
+    "ats": "phenom",
+    "base": "https://www.jpl.jobs",
+    "n": 1
+   }
+  ],
+  "tried": [
+   {
+    "ats": "phenom",
+    "base": "https://www.jpl.jobs",
+    "n": 1
+   }
+  ]
+ },
+ "Leidos": {
+  "ok": [],
+  "tried": [
+   {
+    "ats": "phenom",
+    "tried": "https://careers.leidos.com",
+    "n": -1,
+    "err": "HTTPError: HTTP Error 403: Forbidden"
+   },
+   {
+    "ats": "successfactors_csb",
+    "tried": "https://careers.leidos.com",
+    "n": -1,
+    "err": "HTTPError: HTTP Error 403: Forbidden"
+   },
+   {
+    "ats": "eightfold",
+    "tried": "https://careers.leidos.com",
+    "n": -1,
+    "err": "HTTPError: HTTP Error 403: Forbidden"
+   }
+  ]
+ },
+ "Textron": {
+  "ok": [],
+  "tried": [
+   {
+    "ats": "phenom",
+    "tried": "https://careers.textron.com",
+    "n": -1,
+    "err": "HTTPError: HTTP Error 404: Not Found"
+   },
+   {
+    "ats": "successfactors_csb",
+    "tried": "https://careers.textron.com",
+    "n": -1,
+    "err": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+   },
+   {
+    "ats": "eightfold",
+    "tried": "https://careers.textron.com",
+    "n": -1,
+    "err": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+   }
+  ]
+ },
+ "Collins Aerospace": {
+  "ok": [],
+  "tried": []
+ },
+ "Kratos": {
+  "ok": [],
+  "tried": []
+ },
+ "Ultra Electronics": {
+  "ok": [
+   {
+    "ats": "ashby",
+    "token": "ultra",
+    "n": 5
+   }
+  ],
+  "tried": [
+   {
+    "ats": "ashby",
+    "token": "ultra",
+    "n": 5
+   }
+  ]
+ },
+ "Curtiss-Wright": {
+  "ok": [],
+  "tried": []
+ },
+ "Moog": {
+  "ok": [],
+  "tried": []
+ },
+ "Teledyne": {
+  "ok": [],
+  "tried": [
+   {
+    "ats": "phenom",
+    "tried": "https://careers.teledyne.com",
+    "n": -1,
+    "err": "URLError: <urlopen error [Errno -2] Name or service not known>"
+   },
+   {
+    "ats": "successfactors_csb",
+    "tried": "https://careers.teledyne.com",
+    "n": -1,
+    "err": "URLError: <urlopen error [Errno -2] Name or service not known>"
+   },
+   {
+    "ats": "eightfold",
+    "tried": "https://careers.teledyne.com",
+    "n": -1,
+    "err": "URLError: <urlopen error [Errno -2] Name or service not known>"
+   }
+  ]
+ },
+ "Ball Aerospace (BAE)": {
+  "ok": [],
+  "tried": []
+ },
+ "Raytheon": {
+  "ok": [],
+  "tried": []
+ },
+ "Palantir": {
+  "ok": [
+   {
+    "ats": "lever",
+    "token": "palantir",
+    "n": 313
+   }
+  ],
+  "tried": [
+   {
+    "ats": "lever",
+    "token": "palantir",
+    "n": 313
+   }
+  ]
+ },
+ "Hermeus": {
+  "ok": [
+   {
+    "ats": "lever",
+    "token": "hermeus",
+    "n": 87
+   }
+  ],
+  "tried": [
+   {
+    "ats": "lever",
+    "token": "hermeus",
+    "n": 87
+   }
+  ]
+ },
+ "True Anomaly": {
+  "ok": [],
+  "tried": []
+ },
+ "Castelion": {
+  "ok": [],
+  "tried": []
+ },
+ "Mach Industries": {
+  "ok": [
+   {
+    "ats": "greenhouse",
+    "token": "machindustries",
+    "n": 115
+   }
+  ],
+  "tried": [
+   {
+    "ats": "greenhouse",
+    "token": "machindustries",
+    "n": 115
+   }
+  ]
+ }
+}

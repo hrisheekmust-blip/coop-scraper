@@ -1,0 +1,128 @@
+fetching ATS boards…
+  SpaceX                       greenhouse      2497 jobs  1.8s
+  Astera Labs                  greenhouse       164 jobs  0.3s
+  Lightmatter                  greenhouse        63 jobs  0.1s
+  Tenstorrent                  greenhouse       126 jobs  0.3s
+  Anduril                      greenhouse      2351 jobs  16.6s
+  Hudson River Trading         greenhouse        82 jobs  0.1s
+  Jump Trading                 greenhouse       110 jobs  0.2s
+  DRW                          greenhouse       162 jobs  1.4s
+  IMC                          greenhouse       170 jobs  0.2s
+  Optiver                      greenhouse       161 jobs  0.4s
+  Zipline                      greenhouse       341 jobs  0.3s
+  Relativity Space             greenhouse       331 jobs  0.4s
+  PsiQuantum                   greenhouse        72 jobs  0.1s
+  IonQ                         greenhouse       109 jobs  0.2s
+  Samsara                      greenhouse       267 jobs  0.3s
+  Waymo                        greenhouse       333 jobs  1.4s
+  Nuro                         greenhouse       107 jobs  0.1s
+  Lucid Motors                 greenhouse       394 jobs  0.7s
+  Epirus                       greenhouse        41 jobs  0.1s
+  Astranis                     greenhouse        86 jobs  2.1s
+  Vast                         greenhouse       203 jobs  0.2s
+  Ursa Major                   greenhouse       105 jobs  0.2s
+  Muon Space                   greenhouse       118 jobs  0.9s
+  Rocket Lab                   greenhouse       526 jobs  0.6s
+  Apptronik                    greenhouse        83 jobs  0.1s
+  Figure AI                    greenhouse       105 jobs  0.1s
+  Agility Robotics             greenhouse        71 jobs  0.1s
+  SambaNova                    greenhouse        57 jobs  0.1s
+  Varda Space                  greenhouse        95 jobs  0.3s
+  Oura                         greenhouse        90 jobs  0.1s
+  Anello Photonics             greenhouse         7 jobs  3.6s
+  Vannevar Labs                greenhouse        28 jobs  0.1s
+  Kodiak                       greenhouse        64 jobs  0.1s
+  Motional                     greenhouse        72 jobs  0.1s
+  Torc Robotics                greenhouse        53 jobs  0.2s
+  Planet Labs                  greenhouse       111 jobs  0.1s
+  Scale AI                     greenhouse       223 jobs  0.3s
+  Anthropic                    greenhouse       609 jobs  0.5s
+  May Mobility                 greenhouse        45 jobs  0.1s
+  Glydways                     greenhouse        23 jobs  0.1s
+  Butterfly Network            greenhouse        27 jobs  0.1s
+  Rigetti                      lever             12 jobs  0.5s
+  Eliyan                       lever             24 jobs  0.6s
+  Atom Computing               lever             31 jobs  0.6s
+  Shield AI                    lever            500 jobs  1.3s
+  Zoox                         lever            238 jobs  1.0s
+  Aeva                         lever             45 jobs  0.6s
+  Hermeus                      lever             87 jobs  0.8s
+  Dexterity                    lever             30 jobs  0.6s
+  Pickle Robot                 lever             14 jobs  0.5s
+  Waabi                        lever             85 jobs  0.9s
+  Etched                       ashby            105 jobs  0.1s
+  d-Matrix                     ashby             35 jobs  0.1s
+  MatX                         ashby             43 jobs  0.1s
+  Cerebras                     ashby            113 jobs  0.1s
+  WHOOP                        ashby            155 jobs  0.2s
+  Specter                      ashby             38 jobs  0.1s
+  Saronic                      ashby            209 jobs  0.1s
+  Axelera AI                   ashby             11 jobs  0.2s
+  Lambda                       ashby             90 jobs  0.1s
+  Skydio                       ashby            133 jobs  0.1s
+  Form Energy                  ashby            199 jobs  0.1s
+  Quadric                      ashby             12 jobs  0.1s
+  Physical Intelligence        ashby             36 jobs  0.1s
+  1X                           ashby             88 jobs  0.1s
+  Impulse Space                ashby              3 jobs  0.1s
+  Applied Intuition            ashby            293 jobs  0.1s
+  OpenAI                       ashby            816 jobs  0.2s
+  Wayve                        ashby            187 jobs  0.1s
+  Pliant                       ashby             35 jobs  0.1s
+  NVIDIA                       workday          125 jobs  8.6s
+  Intel                        workday           86 jobs  5.8s
+  Analog Devices               workday           83 jobs  4.9s
+  Marvell                      workday           57 jobs  5.0s
+  NXP                          workday          127 jobs  7.8s
+  Microchip                    workday           81 jobs  5.1s
+  Wolfspeed                    workday           98 jobs  3.2s
+  Silicon Labs                 workday           59 jobs  4.6s
+  Broadcom                     workday          367 jobs  9.5s
+  Allegro MicroSystems         workday           63 jobs  5.9s
+  Monolithic Power Systems     workday           85 jobs  2.6s
+  Blue Origin                  workday          126 jobs  4.9s
+  Draper                       workday           72 jobs  3.7s
+  Boston Dynamics              workday           59 jobs  6.0s
+  KLA                          workday          147 jobs  7.4s
+  Applied Materials            workday          138 jobs  10.0s
+  Cadence                      workday           93 jobs  5.1s
+  Cisco                        workday          689 jobs  16.2s
+  Samsung Semiconductor        workday          146 jobs  10.3s
+  Texas Instruments            oracle_hcm       406 jobs  7.6s
+  onsemi                       oracle_hcm       377 jobs  9.3s
+  Skyworks                     successfactors     0 jobs  1.5s
+  Teradyne                     successfactors FAILED URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostn
+  Infineon                     successfactors_csb FAILED HTTPError: HTTP Error 401: UNAUTHORIZED
+  AMD                          successfactors_csb FAILED HTTPError: HTTP Error 404: Not Found
+  Amazon                       amazon            15 jobs  1.9s
+  Google                       google         FAILED HTTPError: HTTP Error 404: Not Found
+  Tesla                        tesla          FAILED HTTPError: HTTP Error 403: Forbidden
+  Apple                        apple          FAILED HTTPError: HTTP Error 404: Not Found
+  Micron                       eightfold      FAILED HTTPError: HTTP Error 403: FORBIDDEN
+  Qualcomm                     eightfold      FAILED HTTPError: HTTP Error 403: FORBIDDEN
+  Keysight                     phenom         FAILED HTTPError: HTTP Error 404: Not Found
+  Western Digital              smartrecruiters   337 jobs  1.8s
+fetching GitHub lists…
+  github:vanshb03-offseason: 157 rows
+  github:vanshb03-summer: 214 rows
+  github:sndsh404: 135 rows
+  github:hardware-internships-2027: 24 rows
+fetching internlist.org (Simplify) lists…
+  internlist:coop             2771 jobs  19.6s
+  internlist:winter-spring   12455 jobs  121.4s
+LinkedIn/Indeed sweep…
+2026-09-18 17:13:52,192 - INFO - JobSpy:Linkedin - finished scraping
+  jobspy 'electrical engineering co-op spring 2027': 71 new
+  jobspy 'hardware engineer co-op 2027': 42 new
+  jobspy 'analog design intern 2027': 48 new
+  jobspy 'ASIC intern spring 2027': 25 new
+  jobspy 'test engineer co-op 2027': 48 new
+  jobspy 'silicon engineering intern spring 2027': 20 new
+  jobspy 'RF engineer co-op': 33 new
+  jobspy 'semiconductor co-op': 41 new
+  jobspy 'design verification intern 2027': 49 new
+  jobspy 'physical design intern 2027': 63 new
+openings: 0 | sheet.csv: 640 {'CHIP': 139, 'HARDWARE': 253, 'MAYBE': 42, 'ADJACENT': 206} {'APPLY NOW': 89, 'APPLY': 63, 'SOON': 100, 'WATCH': 388} | watchlist: 79 | events: 7
+
+raw=34381 kept=563 new=401 rejected=33703
+rank: {'A': 129, 'B': 139, 'C': 295}  reject reasons: {'not intern': 21142, 'no hardware keyword': 8871, 'excluded title': 2239, 'software only': 1150, 'non-US': 200, 'summer only': 73, 'fall only': 15, 'phd/ms only': 13}
