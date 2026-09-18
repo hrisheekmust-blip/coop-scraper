@@ -52,8 +52,11 @@ function refresh() {
 
   // the short list: chip and hardware roles worth acting on. Medical-device / consulting EE co-ops
   // still live in "All postings", they just do not belong at the top of the queue.
-  const apply = sheet.filter(r => (r.fit === "CHIP" || r.fit === "HARDWARE") &&
+  // If the CSV predates the fit column, treat every row as a match rather than emptying the tab.
+  const hasFit = sheet.some(r => r.fit);
+  const apply = sheet.filter(r => (!hasFit || r.fit === "CHIP" || r.fit === "HARDWARE") &&
                                   (r.urgency === "APPLY NOW" || r.urgency === "APPLY" || r.urgency === "SOON"));
+  if (!hasFit) ss.toast("sheet.csv has no fit column yet — push the scraper update and re-run the workflow.", "Co-op board", 8);
   writePostings_(ss, "APPLY NOW", apply, my);
   writePostings_(ss, "All postings", sheet, my);
   writeTable_(ss, "Watchlist", ["company", "tier", "ats", "status", "expect"], watch, {company: 22, expect: 40, status: 26});
