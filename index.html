@@ -4,189 +4,111 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Spring '27 Co-op Board</title>
-<meta name="description" content="Hardware and semiconductor co-op and internship postings for January–June 2027, rescanned every 10 minutes.">
+<meta name="description" content="Every hardware co-op and internship posting for January–June 2027 in one list, rescanned every 10 minutes.">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
 <style>
 :root{
   --bg:#f3f2ee;--panel:#ffffff;--ink:#1c1d21;--ink2:#4b4f56;--mute:#6b6f76;--line:#e0dfd9;--line2:#ecebe6;
-  --accent:#b4552c;--accent-ink:#8f3f1c;--focus:#b4552c;
-  --chip:#1f4e5f;--chip-ink:#ffffff;--chip-soft:#e4eef1;
-  --hw:#5b6b7d;--hw-ink:#ffffff;--hw-soft:#e7ebef;
-  --maybe:#c9962e;--maybe-ink:#5a3c05;--maybe-soft:#f4e6c6;
-  --adj:#b8b9b4;--adj-ink:#5d5f5b;--adj-soft:#eeeeea;
+  --accent:#b4552c;--accent-ink:#8f3f1c;
+  --chip:#1f4e5f;--hw:#5b6b7d;--maybe:#c9962e;--adj:#b8b9b4;
   --now-bg:#f9dedb;--now-ink:#9c1f1a;--apply-bg:#fbe8d2;--apply-ink:#8a4a10;--soon-bg:#dfe8f6;--soon-ink:#274b8a;--watch-bg:#ecebe6;--watch-ink:#6b6f76;
-  --new:#1e7d4f;--new-ink:#ffffff;--red:#b42323;--done:#f5f4f0;--done-ink:#a0a29e;
+  --new:#1e7d4f;--red:#b42323;--done:#f5f4f0;--done-ink:#a0a29e;
   --display:"Barlow Condensed","Arial Narrow",system-ui,sans-serif;--body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;--mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
 }
 @media (prefers-color-scheme:dark){:root:not([data-theme=light]){
-  --bg:#141517;--panel:#1c1e22;--ink:#e9e8e3;--ink2:#c2c1bb;--mute:#8f9299;--line:#2c2f35;--line2:#25282d;
-  --accent:#d9764a;--accent-ink:#e8956f;--focus:#d9764a;
-  --chip:#2d6b80;--chip-ink:#ffffff;--chip-soft:#1a2c33;--hw:#6f8195;--hw-ink:#ffffff;--hw-soft:#22282f;
-  --maybe:#d0a043;--maybe-ink:#f1d48a;--maybe-soft:#33290f;--adj:#5a5c59;--adj-ink:#9a9c97;--adj-soft:#222325;
+  --bg:#141517;--panel:#1c1e22;--ink:#e9e8e3;--ink2:#c2c1bb;--mute:#8f9299;--line:#2c2f35;--line2:#25282d;--accent:#d9764a;--accent-ink:#e8956f;
+  --chip:#2d6b80;--hw:#6f8195;--maybe:#d0a043;--adj:#5a5c59;
   --now-bg:#3d1a19;--now-ink:#f2a19b;--apply-bg:#3a2612;--apply-ink:#f0b77a;--soon-bg:#18253a;--soon-ink:#9fbdf0;--watch-bg:#25282d;--watch-ink:#8f9299;
   --new:#2f9a64;--red:#f08a84;--done:#1a1b1e;--done-ink:#63665f;}}
 :root[data-theme=dark]{
-  --bg:#141517;--panel:#1c1e22;--ink:#e9e8e3;--ink2:#c2c1bb;--mute:#8f9299;--line:#2c2f35;--line2:#25282d;
-  --accent:#d9764a;--accent-ink:#e8956f;--focus:#d9764a;
-  --chip:#2d6b80;--chip-ink:#ffffff;--chip-soft:#1a2c33;--hw:#6f8195;--hw-ink:#ffffff;--hw-soft:#22282f;
-  --maybe:#d0a043;--maybe-ink:#f1d48a;--maybe-soft:#33290f;--adj:#5a5c59;--adj-ink:#9a9c97;--adj-soft:#222325;
+  --bg:#141517;--panel:#1c1e22;--ink:#e9e8e3;--ink2:#c2c1bb;--mute:#8f9299;--line:#2c2f35;--line2:#25282d;--accent:#d9764a;--accent-ink:#e8956f;
+  --chip:#2d6b80;--hw:#6f8195;--maybe:#d0a043;--adj:#5a5c59;
   --now-bg:#3d1a19;--now-ink:#f2a19b;--apply-bg:#3a2612;--apply-ink:#f0b77a;--soon-bg:#18253a;--soon-ink:#9fbdf0;--watch-bg:#25282d;--watch-ink:#8f9299;
   --new:#2f9a64;--red:#f08a84;--done:#1a1b1e;--done-ink:#63665f;}
 *{box-sizing:border-box}html,body{margin:0}
 body{background:var(--bg);color:var(--ink);font:14px/1.45 var(--body);-webkit-font-smoothing:antialiased}
 a{color:var(--accent-ink);text-decoration:none}a:hover{text-decoration:underline}
-:focus-visible{outline:2px solid var(--focus);outline-offset:2px}
-.wrap{max-width:1440px;margin:0 auto;padding-inline:20px}
-/* masthead */
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.wrap{max-width:1400px;margin:0 auto;padding-inline:20px}
 .mast{position:sticky;top:env(safe-area-inset-top,0px);z-index:6;background:var(--panel);border-bottom:1px solid var(--line)}
-.mast .wrap{display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 22px;padding-block:10px 0}
-.name{font:600 26px/1 var(--display);letter-spacing:.01em;margin:0;text-transform:uppercase}
-.name small{font:500 13px/1 var(--display);letter-spacing:.14em;color:var(--mute);text-transform:uppercase;margin-left:8px}
-.stats{display:flex;gap:18px;flex-wrap:wrap;margin-left:auto}
-.stat{display:flex;flex-direction:column;gap:1px}.stat b{font:500 18px/1.1 var(--mono);font-variant-numeric:tabular-nums}.stat span{font:500 10.5px/1 var(--display);letter-spacing:.14em;text-transform:uppercase;color:var(--mute)}
-.stat.chip b{color:var(--chip)}.stat.now b{color:var(--now-ink)}
-.updated{flex-basis:100%;font:12px/1.3 var(--mono);color:var(--mute);display:flex;gap:10px;align-items:center;flex-wrap:wrap}
-.updated .stale{color:var(--red);font-weight:500}
-nav{display:flex;gap:2px;overflow-x:auto;scrollbar-width:none;margin-top:8px;border-top:1px solid var(--line2)}
-nav::-webkit-scrollbar{display:none}
-nav button{appearance:none;border:0;border-bottom:2px solid transparent;background:none;color:var(--ink2);padding:9px 12px 8px;font:600 13px/1 var(--display);letter-spacing:.08em;text-transform:uppercase;cursor:pointer;white-space:nowrap}
-nav button b{font:500 12px var(--mono);color:var(--mute);margin-left:6px;font-weight:400}
-nav button.on{color:var(--ink);border-bottom-color:var(--accent)}nav button:hover{color:var(--ink)}
-/* tools */
-.tools{display:flex;flex-wrap:wrap;gap:8px 10px;align-items:center;padding-block:12px 4px}
-.tools[hidden]{display:none}
-.tools input,.tools select,select.st{border:1px solid var(--line);background:var(--panel);color:var(--ink);padding:7px 9px;border-radius:6px;font:13px var(--body)}
-.tools input[type=search]{min-width:220px;flex:1 1 220px;max-width:420px}
-.tools label{color:var(--ink2);font-size:13px;display:flex;gap:6px;align-items:center}
-.tools .count{font:12px var(--mono);color:var(--mute);margin-left:auto}
-/* groups + rows */
-main{padding-block:6px 56px}
-.group{margin-top:18px}
-.ghead{display:flex;align-items:baseline;gap:10px;padding:0 0 6px 2px;border-bottom:2px solid var(--line)}
-.ghead h2{margin:0;font:700 15px/1 var(--display);letter-spacing:.12em;text-transform:uppercase}
-.ghead .n{font:12px var(--mono);color:var(--mute)}.ghead .why{font-size:12px;color:var(--mute);margin-left:auto}
-.ghead.CHIP h2{color:var(--chip)}.ghead.HARDWARE h2{color:var(--hw)}.ghead.MAYBE h2{color:var(--maybe-ink)}.ghead.ADJACENT h2{color:var(--adj-ink)}
-.rows{display:flex;flex-direction:column}
-.row{display:grid;grid-template-columns:4px 104px minmax(150px,1.1fr) minmax(260px,2.4fr) minmax(140px,1.1fr) 92px 104px 84px 108px;gap:0 12px;align-items:start;background:var(--panel);border:1px solid var(--line);border-top:0;padding:9px 12px 9px 0}
-.rows .row:first-child{border-top:1px solid var(--line);border-radius:8px 8px 0 0}.rows .row:last-child{border-radius:0 0 8px 8px}
-.row .stripe{align-self:stretch;border-radius:0 2px 2px 0;background:var(--adj)}
-.row.CHIP .stripe{background:var(--chip)}.row.HARDWARE .stripe{background:var(--hw)}.row.MAYBE .stripe{background:var(--maybe)}
+.mast .wrap{display:flex;flex-wrap:wrap;align-items:center;gap:8px 14px;padding-block:10px}
+h1{font:600 24px/1 var(--display);letter-spacing:.01em;margin:0;text-transform:uppercase}
+.sub{font:12px var(--mono);color:var(--mute)}.sub .stale{color:var(--red);font-weight:500}
+.tools{display:flex;flex-wrap:wrap;gap:8px 12px;align-items:center;margin-left:auto}
+.tools input,.tools label,select.st{font:13px var(--body);color:var(--ink)}
+.tools input[type=search]{border:1px solid var(--line);background:var(--bg);padding:7px 10px;border-radius:6px;min-width:240px}
+.tools label{display:flex;gap:6px;align-items:center;color:var(--ink2)}
+main{padding-block:14px 60px}
+.hdr,.row{display:grid;grid-template-columns:4px 96px 150px minmax(240px,2.2fr) minmax(130px,1fr) 92px 100px 84px 110px;gap:0 12px;align-items:start}
+.hdr{padding:0 12px 6px 0;font:600 10.5px/1 var(--display);letter-spacing:.14em;text-transform:uppercase;color:var(--mute)}
+.row{background:var(--panel);border:1px solid var(--line);border-top:0;padding:9px 12px 9px 0}
+.row:first-of-type{border-top:1px solid var(--line);border-radius:8px 8px 0 0}.row:last-of-type{border-radius:0 0 8px 8px}
+.stripe{align-self:stretch;border-radius:0 2px 2px 0;background:var(--adj)}
+.CHIP .stripe{background:var(--chip)}.HARDWARE .stripe{background:var(--hw)}.MAYBE .stripe{background:var(--maybe)}
 .row.done{background:var(--done);color:var(--done-ink)}.row.done a,.row.done .co{color:var(--done-ink)}.row.done .stripe{opacity:.35}
-.hdr{display:grid;grid-template-columns:4px 104px minmax(150px,1.1fr) minmax(260px,2.4fr) minmax(140px,1.1fr) 92px 104px 84px 108px;gap:0 12px;padding:0 12px 5px 0;font:500 10.5px/1 var(--display);letter-spacing:.14em;text-transform:uppercase;color:var(--mute);margin-top:8px}
-.pill{display:inline-block;padding:3px 7px;border-radius:4px;font:600 10.5px/1 var(--display);letter-spacing:.08em;text-transform:uppercase;white-space:nowrap;vertical-align:middle}
+.pill{display:inline-block;padding:3px 7px;border-radius:4px;font:600 10.5px/1 var(--display);letter-spacing:.08em;text-transform:uppercase;white-space:nowrap}
 .u-now{background:var(--now-bg);color:var(--now-ink)}.u-apply{background:var(--apply-bg);color:var(--apply-ink)}.u-soon{background:var(--soon-bg);color:var(--soon-ink)}.u-watch{background:var(--watch-bg);color:var(--watch-ink)}
-.pill.new{background:var(--new);color:var(--new-ink);margin-top:4px}
-.co{font-weight:600}.co small{display:block;font-weight:400;font-size:11.5px;color:var(--mute)}
-.role a{font-weight:500;color:var(--ink)}.role a:hover{color:var(--accent-ink)}.role .why{display:block;font-size:11.5px;color:var(--mute);margin-top:1px}
+.pill.new{background:var(--new);color:#fff;margin-top:4px}
+.co{font-weight:600}.fit{display:block;font:600 10px/1 var(--display);letter-spacing:.12em;text-transform:uppercase;color:var(--mute);margin-top:3px}
+.CHIP .fit{color:var(--chip)}.MAYBE .fit{color:var(--maybe)}
+.role a{font-weight:500;color:var(--ink)}.role a:hover{color:var(--accent-ink)}.role small{display:block;font-size:11.5px;color:var(--mute)}
 .loc{color:var(--ink2);font-size:13px}
 .mono{font:13px/1.35 var(--mono);font-variant-numeric:tabular-nums}.mono small{display:block;font-size:11px;color:var(--mute)}
-.dl.hot{color:var(--red);font-weight:500}.dl.hot small{color:var(--red)}
+.hot,.hot small{color:var(--red);font-weight:500}
 .nu{font-size:12.5px}.nu .bad{color:var(--red);font-weight:500;display:block}
-select.st{padding:4px 6px;font-size:12px;width:100%}
-.empty{padding:40px 12px;text-align:center;color:var(--mute);background:var(--panel);border:1px dashed var(--line);border-radius:8px;margin-top:14px}
-/* simple tables */
-table{width:100%;border-collapse:separate;border-spacing:0;background:var(--panel);border:1px solid var(--line);border-radius:8px;overflow:hidden;margin-top:12px}
-th{text-align:left;font:500 10.5px/1 var(--display);letter-spacing:.14em;text-transform:uppercase;color:var(--mute);padding:9px 12px;border-bottom:1px solid var(--line);background:var(--panel)}
-td{padding:8px 12px;border-bottom:1px solid var(--line2);vertical-align:top}tr:last-child td{border-bottom:0}
-.tbl{overflow-x:auto}
-.note{color:var(--ink2);font-size:13px;max-width:78ch;margin:14px 0 0;padding:10px 12px;border-left:3px solid var(--accent);background:var(--panel);border-radius:0 6px 6px 0}
-.help{max-width:72ch;font-size:14px}.help h3{font:700 15px/1 var(--display);letter-spacing:.1em;text-transform:uppercase;margin:22px 0 6px}.help p{margin:0 0 8px}.help code{font:12.5px var(--mono);background:var(--line2);padding:1px 5px;border-radius:4px}
-.bad{color:var(--red);font-weight:500}
+select.st{border:1px solid var(--line);background:var(--panel);border-radius:6px;padding:4px 6px;font-size:12px;width:100%}
+.empty{padding:40px;text-align:center;color:var(--mute);background:var(--panel);border:1px dashed var(--line);border-radius:8px}
+.legend{font:12px/1.5 var(--mono);color:var(--mute);margin-top:18px;max-width:90ch}
 @media (max-width:980px){
   .hdr{display:none}
   .row{grid-template-columns:4px 1fr 1fr;grid-template-areas:"s urg status" "s co co" "s role role" "s loc loc" "s posted dl" "s nu nu";gap:4px 10px;padding:10px 12px 10px 0}
-  .row>.stripe{grid-area:s}.row>.urg{grid-area:urg}.row>.st{grid-area:status;justify-self:end;width:130px}.row>.co{grid-area:co}.row>.role{grid-area:role}.row>.loc{grid-area:loc}.row>.posted{grid-area:posted}.row>.dl{grid-area:dl}.row>.nu{grid-area:nu}
-  .stats{margin-left:0}
+  .stripe{grid-area:s}.urg{grid-area:urg}.st{grid-area:status;justify-self:end;width:130px}.co{grid-area:co}.role{grid-area:role}.loc{grid-area:loc}.posted{grid-area:posted}.dl{grid-area:dl}.nu{grid-area:nu}
+  .tools{margin-left:0;width:100%}.tools input[type=search]{flex:1}
 }
-@media (prefers-reduced-motion:no-preference){nav button,.row{transition:background .12s,color .12s}}
 </style>
 </head>
 <body>
 <header class="mast"><div class="wrap">
-  <h1 class="name">Spring '27 Co-op Board<small>Jan – Jun 2027 · hardware</small></h1>
-  <div class="stats" id="stats"></div>
-  <div class="updated" id="updated"></div>
-  <nav id="nav" aria-label="Sections"></nav>
-</div></header>
-<div class="wrap">
-  <div class="tools" id="tools">
+  <h1>Spring '27 Co-op Board</h1>
+  <span class="sub" id="sub"></span>
+  <div class="tools">
     <input id="q" type="search" placeholder="Search company, role, location" aria-label="Search">
-    <select id="urg" aria-label="Urgency"><option value="">Any urgency</option><option>APPLY NOW</option><option>APPLY</option><option>SOON</option><option>WATCH</option></select>
-    <select id="term" aria-label="Term"><option value="">Any term</option><option value="spring">Jan–Jun 2027 stated</option><option value="coop-unspecified">Co-op, dates not stated</option><option value="unspecified">Intern, dates not stated</option></select>
     <label><input type="checkbox" id="hideDone" checked> Hide applied / skipped</label>
-    <label><input type="checkbox" id="onlyNew"> Only new</label>
-    <span class="count" id="count"></span>
+    <span class="sub" id="count"></span>
   </div>
-  <main id="main"></main>
-</div>
+</div></header>
+<div class="wrap"><main id="main"></main>
+<p class="legend">Sorted best-first: CHIP (semiconductor company or chip title) → HARDWARE → MAYBE (Jan–Jun/co-op at a tracked company, no hardware word in title) → other EE. Urgency: APPLY NOW = Jan–Jun 2027 stated and fresh or deadline within 14 days · APPLY = Jan–Jun stated · SOON = co-op, no dates, fresh · WATCH = no dates stated (ask). Anything running at any point Jan–Jun 2027 counts; only summer-only / fall-only postings are excluded. Rescanned every 10 min, 7am–8pm ET.</p></div>
 <script>
-const TABS=[["apply","Apply"],["maybe","Maybe"],["all","Everything"],["openings","Openings"],["watch","Watchlist"],["events","Events"],["leads","Leads"],["rejected","Rejected"],["help","How it works"]];
-const FIT_ORDER={CHIP:0,HARDWARE:1,MAYBE:2,ADJACENT:3};
-const FIT_WHY={CHIP:"semiconductor companies and chip-design titles",HARDWARE:"hardware roles at deep-tech and product companies",MAYBE:"Jan–Jun / co-op at a tracked company, no hardware word in the title",ADJACENT:"generic EE — utilities, consulting, medical devices"};
-const D={};let tab=location.hash.replace("#","")||"apply";
 const csv=t=>{const rows=[];let row=[],cur="",q=false;for(let i=0;i<t.length;i++){const c=t[i];if(q){if(c=='"'){if(t[i+1]=='"'){cur+='"';i++}else q=false}else cur+=c}else if(c=='"')q=true;else if(c==','){row.push(cur);cur=""}else if(c=='\n'){row.push(cur);rows.push(row);row=[];cur=""}else if(c!='\r')cur+=c}if(cur||row.length){row.push(cur);rows.push(row)}const h=rows.shift()||[];return rows.filter(r=>r.length===h.length).map(r=>Object.fromEntries(h.map((k,i)=>[k,r[i]])))};
-const get=async n=>{try{const r=await fetch("data/"+n+"?t="+Date.now());if(!r.ok)return n.endsWith(".json")?null:[];return n.endsWith(".json")?r.json():csv(await r.text())}catch(e){return n.endsWith(".json")?null:[]}};
 const KEY="coop-status";let status={};try{status=JSON.parse(localStorage.getItem(KEY)||"{}")}catch(e){}
 const save=()=>{try{localStorage.setItem(KEY,JSON.stringify(status))}catch(e){}};
 const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const daysTo=d=>d?Math.round((new Date(d+"T12:00")-new Date())/864e5):null;
 const uc=u=>({"APPLY NOW":"u-now","APPLY":"u-apply","SOON":"u-soon"}[u]||"u-watch");
-const $=id=>document.getElementById(id);
-function filtered(){const q=$("q").value.toLowerCase(),urg=$("urg").value,term=$("term").value,hide=$("hideDone").checked,onlyNew=$("onlyNew").checked;
-  let rows=D.sheet||[];
-  if(tab==="apply")rows=rows.filter(r=>r.fit==="CHIP"||r.fit==="HARDWARE");
-  if(tab==="maybe")rows=rows.filter(r=>r.fit==="MAYBE");
-  return rows.filter(r=>(!q||(r.company+" "+r.role+" "+r.location).toLowerCase().includes(q))&&(!urg||r.urgency===urg)&&(!term||r.term===term)&&(!hide||!status[r.link])&&(!onlyNew||r.new==="NEW"))}
+const $=id=>document.getElementById(id);let rows=[];
 function rowHtml(r){const st=status[r.link]||"";const dl=daysTo(r.deadline);const hot=dl!==null&&dl<=14;
   return `<div class="row ${r.fit} ${st?"done":""}"><div class="stripe"></div>
   <div class="urg"><span class="pill ${uc(r.urgency)}">${r.urgency}</span>${r.new==="NEW"?'<br><span class="pill new">New</span>':''}</div>
-  <div class="co">${esc(r.company)}${r.tier==="startup"?'<small>startup</small>':''}</div>
-  <div class="role"><a href="${esc(r.link)}" target="_blank" rel="noopener">${esc(r.role)}</a>${r.fit_why?`<span class="why">${esc(r.fit_why)}</span>`:''}</div>
+  <div class="co">${esc(r.company)}<span class="fit">${r.fit==="ADJACENT"?"EE":r.fit}</span></div>
+  <div class="role"><a href="${esc(r.link)}" target="_blank" rel="noopener">${esc(r.role)}</a>${r.fit_why?`<small>${esc(r.fit_why)}</small>`:''}</div>
   <div class="loc">${esc(r.location)}</div>
-  <div class="mono posted">${esc(r.posted)||'<span style="color:var(--mute)">—</span>'}${r.days_open!==""&&r.days_open!==undefined?`<small>${esc(r.days_open)} d open</small>`:''}</div>
-  <div class="mono dl ${hot?"hot":""}">${r.deadline?esc(r.deadline):'<span style="color:var(--mute)">—</span>'}${dl!==null?`<small>${dl<0?"closed":dl+" d left"}</small>`:''}</div>
-  <div class="nu">${r.nuworks?`<a href="${esc(r.nuworks_link)}" target="_blank" rel="noopener">NUWorks</a>${r.nu_eligible==="NOT QUALIFIED"?'<span class="bad">not qualified</span>':''}`:'<span class="mono" style="color:var(--mute)">—</span>'}</div>
+  <div class="mono posted">${esc(r.posted)||'—'}${r.days_open?`<small>${esc(r.days_open)} d open</small>`:''}</div>
+  <div class="mono dl ${hot?"hot":""}">${r.deadline?esc(r.deadline):'—'}${dl!==null?`<small>${dl<0?"closed":dl+" d left"}</small>`:''}</div>
+  <div class="nu">${r.nuworks?`<a href="${esc(r.nuworks_link)}" target="_blank" rel="noopener">NUWorks</a>${r.nu_eligible==="NOT QUALIFIED"?'<span class="bad">not qualified</span>':''}`:'—'}</div>
   <div class="st"><select class="st" data-k="${esc(r.link)}" aria-label="Status"><option value="">Status</option>${["applied","interview","offer","skip"].map(o=>`<option ${st===o?"selected":""}>${o}</option>`).join("")}</select></div></div>`}
-function postings(){const rows=filtered();$("count").textContent=rows.length+" postings";
-  if(!rows.length)return `<div class="empty">Nothing matches.${tab==="apply"?" Try Maybe or Everything, or clear a filter.":""}</div>`;
-  const groups={};rows.forEach(r=>(groups[r.fit]=groups[r.fit]||[]).push(r));
-  return Object.keys(groups).sort((a,b)=>FIT_ORDER[a]-FIT_ORDER[b]).map(f=>`<section class="group"><div class="ghead ${f}"><h2>${f}</h2><span class="n">${groups[f].length}</span><span class="why">${FIT_WHY[f]||""}</span></div>
-  <div class="hdr"><span></span><span>Urgency</span><span>Company</span><span>Role</span><span>Location</span><span>Posted</span><span>Deadline</span><span>NUWorks</span><span>Status</span></div>
-  <div class="rows">${groups[f].map(rowHtml).join("")}</div></section>`).join("")}
-function table(rows,cols,fmt){if(!rows.length)return'<div class="empty">Nothing yet.</div>';return'<div class="tbl"><table><thead><tr>'+cols.map(c=>`<th>${c[1]}</th>`).join("")+'</tr></thead><tbody>'+rows.map(r=>'<tr>'+cols.map(c=>`<td>${(fmt&&fmt[c[0]])?fmt[c[0]](r):esc(r[c[0]])}</td>`).join("")+'</tr>').join("")+'</tbody></table></div>'}
-const pillFit=f=>`<span class="pill" style="background:var(--${({CHIP:"chip",HARDWARE:"hw",MAYBE:"maybe",ADJACENT:"adj"})[f]||"adj"});color:#fff">${f}</span>`;
-function render(){$("nav").innerHTML=TABS.map(([k,l])=>`<button class="${k===tab?"on":""}" data-t="${k}" role="tab" aria-selected="${k===tab}">${l}${counts[k]!==undefined?`<b>${counts[k]}</b>`:''}</button>`).join("");
-  const m=$("main");$("tools").hidden=!["apply","maybe","all"].includes(tab);
-  if(tab==="apply")m.innerHTML=postings();
-  else if(tab==="maybe")m.innerHTML='<p class="note">Postings at tracked companies that run Jan–Jun or are titled co-op but have no hardware word in the title: systems, metrology, electro-mechanical, test tech. Nothing at a tracked company is dropped silently; it lands here or under Rejected.</p>'+postings();
-  else if(tab==="all")m.innerHTML=postings();
-  else if(tab==="openings")m.innerHTML='<p class="note">Companies whose first Jan–Jun / co-op posting appeared in the last 7 days. This is the "they just opened their reqs" signal.</p>'+table(D.openings,[["fit","Fit"],["company","Company"],["opened","Opened"],["n","Postings"],["sample","Example"]],{fit:r=>pillFit(r.fit),opened:r=>`<span class="mono">${esc(r.opened)}</span>`,sample:r=>`<a href="${esc(r.link)}" target="_blank" rel="noopener">${esc(r.sample)}</a>`});
-  else if(tab==="watch")m.innerHTML='<p class="note">Tracked companies with no Jan–Jun or co-op posting yet. "Expect" fills in from last cycle\'s first-seen dates. Red means the fetcher for that company stopped returning postings, usually a career-site change.</p>'+table(D.watch,[["company","Company"],["tier","Tier"],["ats","Source"],["status","Status"],["expect","Expect"]],{status:r=>`<span class="${/FETCHER/.test(r.status)?"bad":""}">${esc(r.status)}</span>`});
-  else if(tab==="events")m.innerHTML=table(D.events,[["date","Date"],["time","Time"],["title","Event"],["type","Type"]],{date:r=>`<span class="mono">${esc(r.date)}</span>`});
-  else if(tab==="leads")m.innerHTML='<p class="note">Small chip, photonics, RF and power startups that raised money in the last 90 days. They rarely post co-ops. Find the founder\'s lab or a shared connection and reach out directly.</p>'+table(D.leads,[["date","Date"],["company","Company"],["headline","Headline"],["source","Source"]],{date:r=>`<span class="mono">${esc(r.date)}</span>`,headline:r=>`<a href="${esc(r.link)}" target="_blank" rel="noopener">${esc(r.headline)}</a>`});
-  else if(tab==="rejected")m.innerHTML='<p class="note">Audit trail: intern and co-op postings at tracked companies that the filters dropped, with the reason. If a role here belongs on the board, the filter is wrong and needs a fix.</p>'+table(D.rejected,[["company","Company"],["title","Title"],["location","Location"],["why","Why"]],{title:r=>`<a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.title)}</a>`});
-  else m.innerHTML=help();
-  m.querySelectorAll("select.st").forEach(s=>s.onchange=e=>{const k=e.target.dataset.k;if(e.target.value)status[k]=e.target.value;else delete status[k];save();render()});
-  document.querySelectorAll("nav button").forEach(b=>b.onclick=()=>{tab=b.dataset.t;location.hash=tab;render()})}
-function help(){return `<div class="help">
-<h3>Where rows come from</h3><p>Every 10 minutes from 7am to 8pm ET the scraper scans the direct career feeds of ~100 tracked companies (Greenhouse, Lever, Ashby, Workday, Oracle, SuccessFactors, Eightfold, Phenom, iCIMS, SmartRecruiters, plus Amazon, Google, Apple and Tesla). Hourly it also pulls internlist.org's Co-op and Winter/Spring lists (Simplify, ~20k career pages), the community GitHub internship lists, a LinkedIn/Indeed sweep, funding-news leads, and the last NUWorks crawl.</p>
-<h3>What is kept</h3><p>US, undergrad-eligible, hardware-ish. Anything that runs at any point in January–June 2027 counts: "Jan–Mar", "3-month winter internship", "6-month program", "Q1 2027", "spring co-op" are all the same thing here. Only postings that say summer-only or fall-only are dropped. A posting with no dates at all is kept and marked WATCH.</p>
-<h3>Fit</h3><p><b>CHIP</b> is a semiconductor company or a chip-design title. <b>HARDWARE</b> is a hardware role elsewhere. <b>MAYBE</b> is a Jan–Jun or co-op posting at a tracked company with no hardware word in the title. ADJACENT is generic EE and only shows under Everything.</p>
-<h3>Urgency</h3><p><b>APPLY NOW</b>: Jan–Jun stated, and posted in the last 7 days or deadline within 14. <b>APPLY</b>: Jan–Jun stated, older. <b>SOON</b>: titled co-op, no dates, fresh. <b>WATCH</b>: no dates stated. <b>New</b> means first seen in the last 3 days.</p>
-<h3>Alerts</h3><p>After each scan, anything new in CHIP, HARDWARE or MAYBE opens a GitHub Issue (email) and pushes to your phone through ntfy. Company openings and broken fetchers alert too.</p>
-<h3>Status</h3><p>The status control is saved in this browser only. To move it: <code>copy(localStorage.getItem("coop-status"))</code> in the console here, then <code>localStorage.setItem("coop-status", …)</code> in the other browser.</p>
-<h3>NUWorks</h3><p>NUWorks sits behind Northeastern SSO, so it only refreshes when a signed-in Chrome crawls it. The daily "Check NUWorks" task in the Claude desktop app does that, and you can run it on demand. The crawl lands in <code>data/browser/coop_nuworks.json</code>; the 8:45pm Windows task pushes it; the next scan converts it.</p></div>`}
-let counts={};
-async function load(){const [sheet,openings,watch,events,leads,rejected,meta]=await Promise.all([get("sheet.csv"),get("openings.csv"),get("watchlist.csv"),get("events.csv"),get("leads.csv"),get("rejected_tracked.csv"),get("meta.json")]);
-  Object.assign(D,{sheet,openings,watch,events,leads,rejected});
-  counts={apply:sheet.filter(r=>r.fit==="CHIP"||r.fit==="HARDWARE").length,maybe:sheet.filter(r=>r.fit==="MAYBE").length,all:sheet.length,openings:openings.length,watch:watch.length,events:events.length,leads:leads.length,rejected:rejected.length};
-  const n=(k,v)=>sheet.filter(r=>r[k]===v).length;
-  $("stats").innerHTML=`<div class="stat chip"><b>${n("fit","CHIP")}</b><span>Chip</span></div><div class="stat"><b>${n("fit","HARDWARE")}</b><span>Hardware</span></div><div class="stat"><b>${n("fit","MAYBE")}</b><span>Maybe</span></div><div class="stat now"><b>${n("urgency","APPLY NOW")}</b><span>Apply now</span></div><div class="stat"><b>${n("new","NEW")}</b><span>New</span></div>`;
+function render(){const q=$("q").value.toLowerCase(),hide=$("hideDone").checked;
+  const list=rows.filter(r=>(!q||(r.company+" "+r.role+" "+r.location).toLowerCase().includes(q))&&(!hide||!status[r.link]));
+  $("count").textContent=list.length+" / "+rows.length;
+  $("main").innerHTML=list.length?`<div class="hdr"><span></span><span>Urgency</span><span>Company</span><span>Role</span><span>Location</span><span>Posted</span><span>Deadline</span><span>NUWorks</span><span>Status</span></div>`+list.map(rowHtml).join(""):'<div class="empty">Nothing matches.</div>';
+  document.querySelectorAll("select.st").forEach(s=>s.onchange=e=>{const k=e.target.dataset.k;if(e.target.value)status[k]=e.target.value;else delete status[k];save();render()})}
+async function load(){try{const r=await fetch("data/sheet.csv?t="+Date.now());rows=r.ok?csv(await r.text()):[]}catch(e){rows=[]}
+  let meta=null;try{const r=await fetch("data/meta.json?t="+Date.now());meta=r.ok?await r.json():null}catch(e){}
   const g=meta&&meta.generated?new Date(meta.generated):null;const age=g?(Date.now()-g)/36e5:null;
-  $("updated").innerHTML=g?`<span>Last scan ${g.toLocaleString([], {month:"short",day:"numeric",hour:"numeric",minute:"2-digit"})}</span>${age>3?'<span class="stale">Data is stale (more than 3 h old): check GitHub Actions</span>':''}`:'<span>No scan data yet</span>';
+  $("sub").innerHTML=g?`last scan ${g.toLocaleString([],{month:"short",day:"numeric",hour:"numeric",minute:"2-digit"})}${age>3?' <span class="stale">· stale, check GitHub Actions</span>':''}`:"";
   render()}
-["q","urg","term","hideDone","onlyNew"].forEach(id=>$(id).addEventListener("input",render));
+["q","hideDone"].forEach(id=>$(id).addEventListener("input",render));
 load();setInterval(load,5*60*1000);
 </script>
 </body>
