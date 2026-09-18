@@ -477,11 +477,11 @@
  },
  {
   "name": "Silicon Labs",
+  "tier": "big",
   "ats": "workday",
   "tenant": "silabs",
   "host": "wd1",
-  "site": "SiliconLabsCareers",
-  "tier": "big"
+  "site": "SiliconLabsCareers"
  },
  {
   "name": "Broadcom",
@@ -493,11 +493,11 @@
  },
  {
   "name": "Allegro MicroSystems",
+  "tier": "big",
   "ats": "workday",
   "tenant": "allegromicro",
   "host": "wd5",
-  "site": "AllegroCareers",
-  "tier": "big"
+  "site": "AllegroCareers"
  },
  {
   "name": "Monolithic Power Systems",
@@ -587,27 +587,28 @@
  },
  {
   "name": "Skyworks",
-  "ats": "successfactors",
+  "ats": "successfactors_csb",
   "base": "https://careers.skyworksinc.com",
   "tier": "big"
  },
  {
   "name": "Teradyne",
-  "ats": "successfactors",
-  "base": "https://careers.teradyne.com",
-  "tier": "big"
+  "tier": "big",
+  "ats": "successfactors_csb",
+  "base": "https://jobs.teradyne.com"
  },
  {
   "name": "Infineon",
-  "ats": "successfactors_csb",
-  "base": "https://jobs.infineon.com",
-  "tier": "big"
+  "tier": "big",
+  "ats": "eightfold",
+  "host": "app-eu.eightfold.ai",
+  "domain": "infineon.com"
  },
  {
   "name": "AMD",
-  "ats": "successfactors_csb",
-  "base": "https://careers.amd.com",
-  "tier": "big"
+  "tier": "big",
+  "ats": "icims",
+  "base": "https://careers-amd.icims.com"
  },
  {
   "name": "Amazon",
@@ -615,44 +616,416 @@
   "tier": "big"
  },
  {
-  "name": "Google",
-  "ats": "google",
-  "tier": "big"
- },
- {
-  "name": "Tesla",
-  "ats": "tesla",
-  "tier": "big"
- },
- {
-  "name": "Apple",
-  "ats": "apple",
-  "tier": "big"
- },
- {
   "name": "Micron",
+  "tier": "big",
   "ats": "eightfold",
   "host": "micron.eightfold.ai",
-  "domain": "micron.com",
-  "tier": "big"
+  "domain": "micron.com"
  },
  {
   "name": "Qualcomm",
+  "tier": "big",
   "ats": "eightfold",
   "host": "qualcomm.eightfold.ai",
-  "domain": "qualcomm.com",
-  "tier": "big"
+  "domain": "qualcomm.com"
  },
  {
   "name": "Keysight",
-  "ats": "phenom",
-  "base": "https://jobs.keysight.com",
-  "tier": "big"
+  "tier": "big",
+  "ats": "icims",
+  "base": "https://careers-keysight.icims.com"
  },
  {
   "name": "Western Digital",
   "ats": "smartrecruiters",
   "slug": "WesternDigital",
+  "tier": "big"
+ },
+ {
+  "name": "Lam Research",
+  "ats": "eightfold",
+  "host": "lamresearch.eightfold.ai",
+  "domain": "lamresearch.com",
+  "tier": "big"
+ },
+ {
+  "name": "Qorvo",
+  "ats": "successfactors_csb",
+  "base": "https://careers.qorvo.com",
+  "tier": "big"
+ },
+ {
+  "name": "Renesas",
+  "ats": "smartrecruiters",
+  "slug": "renesaselectronics",
+  "tier": "big"
+ },
+ {
+  "name": "GlobalFoundries",
+  "ats": "workday",
+  "tenant": "globalfoundries",
+  "host": "wd1",
+  "site": "External",
+  "tier": "big"
+ },
+ {
+  "name": "Arm",
+  "ats": "icims",
+  "base": "https://earlycareers-arm.icims.com",
+  "tier": "big"
+ },
+ {
+  "name": "Rambus",
+  "ats": "icims",
+  "base": "https://careers-rambus.icims.com",
+  "tier": "big"
+ },
+ {
+  "name": "Ambarella",
+  "ats": "workday",
+  "tenant": "ambarella",
+  "host": "wd108",
+  "site": "Ambarella",
+  "tier": "big"
+ },
+ {
+  "name": "MaxLinear",
+  "ats": "icims",
+  "base": "https://careersus-maxlinear.icims.com",
+  "tier": "big"
+ },
+ {
+  "name": "Semtech",
+  "ats": "workday",
+  "tenant": "semtech",
+  "host": "wd1",
+  "site": "SemtechCareers",
+  "tier": "big"
+ },
+ {
+  "name": "Vicor",
+  "ats": "successfactors_csb",
+  "base": "https://careers.vicorpower.com",
+  "tier": "big"
+ },
+ {
+  "name": "Lumentum",
+  "ats": "workday",
+  "tenant": "lumentum",
+  "host": "wd5",
+  "site": "LITE",
+  "tier": "big"
+ },
+ {
+  "name": "MKS Instruments",
+  "ats": "workday",
+  "tenant": "mksinst",
+  "host": "wd1",
+  "site": "MKSCareersAmericas",
+  "tier": "big"
+ },
+ {
+  "name": "Entegris",
+  "ats": "workday",
+  "tenant": "entegris",
+  "host": "wd1",
+  "site": "EntegrisCareers",
+  "tier": "big"
+ },
+ {
+  "name": "ASML",
+  "ats": "workday",
+  "tenant": "asml",
+  "host": "wd3",
+  "site": "ASMLEXT1",
+  "tier": "big"
+ },
+ {
+  "name": "FormFactor",
+  "ats": "workday",
+  "tenant": "formfactor",
+  "host": "wd1",
+  "site": "FFI-Careers",
+  "tier": "big"
+ },
+ {
+  "name": "Onto Innovation",
+  "ats": "workday",
+  "tenant": "onto",
+  "host": "wd1",
+  "site": "ONTO_Careers",
+  "tier": "big"
+ },
+ {
+  "name": "MIT Lincoln Laboratory",
+  "ats": "successfactors_csb",
+  "base": "https://careers.ll.mit.edu",
+  "tier": "big"
+ },
+ {
+  "name": "RTX",
+  "ats": "workday",
+  "tenant": "globalhr",
+  "host": "wd5",
+  "site": "REC_RTX_Ext_Gateway",
+  "tier": "big"
+ },
+ {
+  "name": "Lockheed Martin",
+  "ats": "eightfold",
+  "host": "lockheedmartin.eightfold.ai",
+  "domain": "lockheedmartin.com",
+  "tier": "big"
+ },
+ {
+  "name": "Northrop Grumman",
+  "ats": "workday",
+  "tenant": "ngc",
+  "host": "wd1",
+  "site": "Northrop_Grumman_External_Site",
+  "tier": "big"
+ },
+ {
+  "name": "Boeing",
+  "ats": "workday",
+  "tenant": "boeing",
+  "host": "wd1",
+  "site": "EXTERNAL_CAREERS",
+  "tier": "big"
+ },
+ {
+  "name": "GE Aerospace",
+  "ats": "workday",
+  "tenant": "geaerospace",
+  "host": "wd5",
+  "site": "GE_ExternalSite",
+  "tier": "big"
+ },
+ {
+  "name": "Bose",
+  "ats": "workday",
+  "tenant": "boseallaboutme",
+  "host": "wd503",
+  "site": "Bose_Careers",
+  "tier": "big"
+ },
+ {
+  "name": "iRobot",
+  "ats": "workday",
+  "tenant": "irobot",
+  "host": "wd5",
+  "site": "iRobot",
+  "tier": "big"
+ },
+ {
+  "name": "Dell",
+  "ats": "workday",
+  "tenant": "dell",
+  "host": "wd1",
+  "site": "External",
+  "tier": "big"
+ },
+ {
+  "name": "HP",
+  "ats": "workday",
+  "tenant": "hp",
+  "host": "wd5",
+  "site": "ExternalCareerSite",
+  "tier": "big"
+ },
+ {
+  "name": "SiFive",
+  "ats": "workday",
+  "tenant": "sifive",
+  "host": "wd1",
+  "site": "sifivecareers",
+  "tier": "big"
+ },
+ {
+  "name": "Groq",
+  "ats": "greenhouse",
+  "token": "groq",
+  "tier": "big"
+ },
+ {
+  "name": "Ciena",
+  "ats": "workday",
+  "tenant": "ciena",
+  "host": "wd5",
+  "site": "Careers",
+  "tier": "big"
+ },
+ {
+  "name": "Garmin",
+  "ats": "icims",
+  "base": "https://careers-garmin.icims.com",
+  "tier": "big"
+ },
+ {
+  "name": "Sonos",
+  "ats": "workday",
+  "tenant": "sonos",
+  "host": "wd1",
+  "site": "Sonos",
+  "tier": "big"
+ },
+ {
+  "name": "Eaton",
+  "ats": "eightfold",
+  "host": "eaton.eightfold.ai",
+  "domain": "eaton.com",
+  "tier": "big"
+ },
+ {
+  "name": "Waters Corporation",
+  "ats": "icims",
+  "base": "https://uscareers-waters.icims.com",
+  "tier": "big"
+ },
+ {
+  "name": "Symbotic",
+  "ats": "workday",
+  "tenant": "symbotic",
+  "host": "wd1",
+  "site": "Symbotic",
+  "tier": "big"
+ },
+ {
+  "name": "Commonwealth Fusion Systems",
+  "ats": "lever",
+  "token": "cfsenergy",
+  "tier": "big"
+ },
+ {
+  "name": "ChipAgents",
+  "ats": "ashby",
+  "token": "alpha-design-ai-inc",
+  "tier": "startup"
+ },
+ {
+  "name": "Atomic Semi",
+  "ats": "ashby",
+  "token": "AtomicSemi",
+  "tier": "startup"
+ },
+ {
+  "name": "Empower Semiconductor",
+  "ats": "workday",
+  "tenant": "empower",
+  "host": "wd12",
+  "site": "empower",
+  "tier": "startup"
+ },
+ {
+  "name": "Movandi",
+  "ats": "smartrecruiters",
+  "slug": "MovandiCorp",
+  "tier": "startup"
+ },
+ {
+  "name": "Nexperia",
+  "ats": "workday",
+  "tenant": "nexperia",
+  "host": "wd3",
+  "site": "careers",
+  "tier": "big"
+ },
+ {
+  "name": "SK hynix America",
+  "ats": "greenhouse",
+  "token": "skhynixamerica",
+  "tier": "big"
+ },
+ {
+  "name": "nEye Systems",
+  "ats": "lever",
+  "token": "neye-systems-inc.",
+  "tier": "startup"
+ },
+ {
+  "name": "QuEra",
+  "ats": "greenhouse",
+  "token": "queracomputinginc",
+  "tier": "startup"
+ },
+ {
+  "name": "Alphawave Semi",
+  "ats": "workday",
+  "tenant": "alphawave",
+  "host": "wd10",
+  "site": "Alphawave_External",
+  "tier": "big"
+ },
+ {
+  "name": "Ambiq",
+  "ats": "greenhouse",
+  "token": "ambiqmicroinc",
+  "tier": "startup"
+ },
+ {
+  "name": "Tetramem",
+  "ats": "smartrecruiters",
+  "slug": "TetraMemINC",
+  "tier": "startup"
+ },
+ {
+  "name": "Leidos",
+  "ats": "workday",
+  "tenant": "leidos",
+  "host": "wd5",
+  "site": "External",
+  "tier": "big"
+ },
+ {
+  "name": "Curtiss-Wright",
+  "ats": "workday",
+  "tenant": "curtisswright",
+  "host": "wd1",
+  "site": "CW_External_Career_Site",
+  "tier": "big"
+ },
+ {
+  "name": "Moog",
+  "ats": "workday",
+  "tenant": "moog",
+  "host": "wd5",
+  "site": "MOOG_External_Career_Site",
+  "tier": "big"
+ },
+ {
+  "name": "Teledyne FLIR",
+  "ats": "workday",
+  "tenant": "flir",
+  "host": "wd1",
+  "site": "flircareers",
+  "tier": "big"
+ },
+ {
+  "name": "Honeywell",
+  "ats": "oracle_hcm",
+  "host": "ibqbjb.fa.ocs.oraclecloud.com",
+  "site": "Honeywell",
+  "tier": "big"
+ },
+ {
+  "name": "Juniper Networks",
+  "ats": "oracle_hcm",
+  "host": "ejif.fa.us6.oraclecloud.com",
+  "site": "CX_1",
+  "tier": "big"
+ },
+ {
+  "name": "Emerson",
+  "ats": "oracle_hcm",
+  "host": "hdjq.fa.us2.oraclecloud.com",
+  "site": "CX_1",
+  "tier": "big"
+ },
+ {
+  "name": "Nokia",
+  "ats": "oracle_hcm",
+  "host": "fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com",
+  "site": "CX_1",
   "tier": "big"
  }
 ]
