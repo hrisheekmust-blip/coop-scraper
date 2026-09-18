@@ -49,8 +49,13 @@ def _norm(s):
 
 
 def fetch_ats(companies):
+    """Also keeps data/health.json: per-company postings count history so a silently-dead fetcher shows on the Watchlist."""
+    hpath = os.path.join(DATA, "health.json")
+    health = load_json(hpath, {})
     jobs = []
     for c in companies:
+        h = health.setdefault(c["name"], {"best": 0, "zero_runs": 0, "fail_runs": 0, "err": ""})
+        got = []
         fn = fetchers.FETCHERS.get(c["ats"])
         if not fn:
             log(f"  {c['name']}: no fetcher for {c['ats']}")
@@ -62,8 +67,13 @@ def fetch_ats(companies):
                 j["tier"] = c.get("tier", "")
             jobs += got
             log(f"  {c['name']:28s} {c['ats']:14s} {len(got):5d} jobs  {time.time()-t:.1f}s")
+            h["best"] = max(h["best"], len(got)); h["fail_runs"] = 0; h["err"] = ""
+            h["zero_runs"] = h["zero_runs"] + 1 if not got else 0
         except Exception as e:  # noqa
             log(f"  {c['name']:28s} {c['ats']:14s} FAILED {type(e).__name__}: {str(e)[:80]}")
+            h["fail_runs"] += 1; h["err"] = f"{type(e).__name__}: {str(e)[:60]}"
+        h["last_n"] = len(got)
+    json.dump(health, open(hpath, "w"), indent=1)
     return jobs
 
 

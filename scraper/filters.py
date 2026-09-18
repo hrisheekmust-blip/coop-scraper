@@ -91,6 +91,12 @@ def classify(job):
     if re.search(r"\bsoftware (test|qa|quality)\b", title, re.I):   # "software test engineer" is a software role even though "test engineer" is a hw keyword
         return False, "software only", {}
     if not hits:
+        # "Maybe" rule: at a company we deliberately track (it is in companies.json), a spring-2027 or co-op posting with
+        # an engineering-flavoured title is worth a look even without a hardware word (Draper "Systems Engineering Co-Op").
+        if job.get("tier") and re.search(r"engineer|systems|technical|r&d|research|design", title, re.I) \
+                and not NON_US.search(job.get("location") or "") and term_of(job) in ("spring", "coop-unspecified"):
+            t = term_of(job)
+            return True, "ok", {"term": t, "hw": ["maybe"], "rank": "A" if t == "spring" else "B", "maybe": True}
         return False, "no hardware keyword", {}
     if PHD_ONLY.search(title) and not re.search(r"\b(bs|bachelor|undergrad)", title, re.I):
         return False, "phd/ms only", {}

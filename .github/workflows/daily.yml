@@ -2,8 +2,8 @@ name: daily co-op scrape
 
 on:
   schedule:
-    - cron: "30 12 * * *"   # 12:30 UTC = 5:30am PT / 8:30am ET
-    - cron: "30 22 * * *"   # 3:30pm PT, so afternoon postings show up the same day
+    - cron: "20 11-23 * * *"   # hourly, 7:20am-7:20pm ET (Actions is free on public repos; a run is ~5-10 min)
+    - cron: "20 3 * * *"       # one overnight pass
   workflow_dispatch:
     inputs:
       discover:

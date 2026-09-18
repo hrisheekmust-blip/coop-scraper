@@ -67,4 +67,4 @@ def fit_of(job):
     return "ADJACENT", ""
 
 
-FIT_ORDER = {"CHIP": 0, "HARDWARE": 1, "ADJACENT": 2}
+FIT_ORDER = {"CHIP": 0, "HARDWARE": 1, "MAYBE": 2, "ADJACENT": 3}

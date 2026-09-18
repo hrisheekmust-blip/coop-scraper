@@ -106,6 +106,8 @@ def build():
         deadline = parse_deadline(j.get("deadline"))
         u = urgency(j, posted, deadline)
         fit, why = fit_of(j if "title" in j else dict(company=j["company"], title=j["title"]))
+        if j.get("hw") == "maybe" and fit != "CHIP":
+            fit, why = "MAYBE", "spring/co-op at a tracked company, no hardware word in title — check it"
         days_open = (TODAY - posted).days if posted else ""
         rows.append(dict(
             urgency=u, fit=fit, fit_why=why, new="NEW" if (TODAY - fs).days <= 3 else "", rank=j["rank"], term=j["term"],
@@ -134,6 +136,7 @@ def build():
     lc = {}
     for x in last_cycle:
         lc.setdefault(norm(x["company"])[:10], []).append(x["first_seen"])
+    health = json.load(open(os.path.join(DATA, "health.json"))) if os.path.exists(os.path.join(DATA, "health.json")) else {}
     wl = []
     for c in companies:
         if c.get("tier") == "skip":
@@ -142,8 +145,14 @@ def build():
         if k in posting:
             continue
         seen_last = sorted(lc.get(k, []))
+        h = health.get(c["name"], {})
+        status = "no spring/co-op posting yet"
+        if h.get("zero_runs", 0) >= 3 and h.get("best", 0) > 0:
+            status = f"FETCHER BROKEN? 0 postings for {h['zero_runs']} runs (used to return {h['best']})"
+        elif h.get("fail_runs", 0) >= 3:
+            status = f"FETCHER FAILING for {h['fail_runs']} runs: {h.get('err', '')[:50]}"
         wl.append(dict(company=c["name"], tier=c.get("tier", ""), ats=c["ats"],
-                       status="no spring/co-op posting yet",
+                       status=status,
                        last_cycle_first_seen=(seen_last[0] if seen_last else ""),
                        expect=("around " + seen_last[0][5:] + " (last year)" if seen_last else "unknown; scraper records first-seen dates from now on")))
     wl.sort(key=lambda r: (r["tier"] != "big", r["company"]))

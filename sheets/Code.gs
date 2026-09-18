@@ -22,18 +22,18 @@ const BAND = {  // background, font colour, bold
   "SOON":      ["#e8f1ff", "#1d4ed8", false],
   "WATCH":     ["#ffffff", "#555555", false],
 };
-const FIT_CHIP = {"CHIP": ["#0f766e", "#ffffff"], "HARDWARE": ["#cbd5e1", "#334155"], "ADJACENT": ["#f1f5f9", "#94a3b8"]};
+const FIT_CHIP = {"CHIP": ["#0f766e", "#ffffff"], "HARDWARE": ["#cbd5e1", "#334155"], "MAYBE": ["#fef3c7", "#92400e"], "ADJACENT": ["#f1f5f9", "#94a3b8"]};
 const STATUS_OPTIONS = ["", "applied", "interview", "offer", "skip"];
 
 function setup() {
   refresh();
   ScriptApp.getProjectTriggers().forEach(t => ScriptApp.deleteTrigger(t));
-  ScriptApp.newTrigger("refresh").timeBased().everyHours(1).create();
-  SpreadsheetApp.getActive().toast("Set up. The board refreshes itself every hour.", "Co-op board");
+  ScriptApp.newTrigger("refresh").timeBased().everyMinutes(20).create();
+  SpreadsheetApp.getActive().toast("Set up. The board refreshes itself every 20 minutes.", "Co-op board");
 }
 
 function onOpen() {
-  SpreadsheetApp.getUi().createMenu("Co-op board").addItem("Refresh now", "refresh").addItem("Install hourly refresh", "setup").addToUi();
+  SpreadsheetApp.getUi().createMenu("Co-op board").addItem("Refresh now", "refresh").addItem("Install 20-min refresh", "setup").addToUi();
 }
 
 function fetchCsv(name) {
@@ -56,7 +56,7 @@ function refresh() {
   // still live in "All postings", they just do not belong at the top of the queue.
   // If the CSV predates the fit column, treat every row as a match rather than emptying the tab.
   const hasFit = sheet.some(r => r.fit);
-  const apply = sheet.filter(r => (!hasFit || r.fit === "CHIP" || r.fit === "HARDWARE") &&
+  const apply = sheet.filter(r => (!hasFit || r.fit === "CHIP" || r.fit === "HARDWARE" || r.fit === "MAYBE") &&
                                   (r.urgency === "APPLY NOW" || r.urgency === "APPLY" || r.urgency === "SOON"));
   if (!hasFit) ss.toast("sheet.csv has no fit column yet — push the scraper update and re-run the workflow.", "Co-op board", 8);
   writePostings_(ss, "APPLY NOW", apply, my);
@@ -135,6 +135,7 @@ function writeTable_(ss, name, cols, rows, widths) {
   sh.setFrozenRows(1);
   cols.forEach((c, i) => sh.setColumnWidth(i + 1, (widths[c] || 16) * 7));
   if (name === "Openings") rows.forEach((r, i) => { const [b, f] = FIT_CHIP[r.fit] || FIT_CHIP.ADJACENT; sh.getRange(i + 2, 4).setBackground(b).setFontColor(f).setFontWeight("bold").setHorizontalAlignment("center"); sh.getRange(i + 2, 1, 1, cols.length).setFontWeight(r.fit === "CHIP" ? "bold" : "normal"); });
+  if (name === "Watchlist") rows.forEach((r, i) => { if (/FETCHER/.test(r.status)) sh.getRange(i + 2, 4).setFontColor("#b00020").setFontWeight("bold"); });
   if (name === "Events") rows.forEach((r, i) => { if (/SpaceX|Teradyne|Dell|Lunar/i.test(r.title)) sh.getRange(i + 2, 1, 1, cols.length).setBackground("#fff1d6").setFontWeight("bold"); });
 }
 
