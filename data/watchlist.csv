@@ -1,4 +1,5 @@
 company,tier,ats,status,last_cycle_first_seen,expect
+AMD,big,jibe,no spring/co-op posting yet,2025-06-02,around 06-02 (last year)
 Allegro MicroSystems,big,workday,no spring/co-op posting yet,,unknown; scraper records first-seen dates from now on
 Analog Devices,big,workday,no spring/co-op posting yet,,unknown; scraper records first-seen dates from now on
 Anthropic,big,greenhouse,no spring/co-op posting yet,,unknown; scraper records first-seen dates from now on
@@ -50,7 +51,6 @@ Epirus,startup,greenhouse,no spring/co-op posting yet,,unknown; scraper records 
 Figure AI,startup,greenhouse,no spring/co-op posting yet,,unknown; scraper records first-seen dates from now on
 Form Energy,startup,ashby,no spring/co-op posting yet,,unknown; scraper records first-seen dates from now on
 Glydways,startup,greenhouse,no spring/co-op posting yet,,unknown; scraper records first-seen dates from now on
-Impulse Space,startup,ashby,no spring/co-op posting yet,,unknown; scraper records first-seen dates from now on
 IonQ,startup,greenhouse,no spring/co-op posting yet,,unknown; scraper records first-seen dates from now on
 Lambda,startup,ashby,no spring/co-op posting yet,,unknown; scraper records first-seen dates from now on
 Lightmatter,startup,greenhouse,no spring/co-op posting yet,,unknown; scraper records first-seen dates from now on
