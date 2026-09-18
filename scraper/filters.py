@@ -39,8 +39,11 @@ PHD_ONLY = re.compile(r"\b(phd|ph\.d|ms/phd|masters?/phd|masters|graduate studen
 # ---- term detection -----------------------------------------------------------
 SPRING_RE = re.compile(
     r"spring\s*'?(20)?27|winter\s*'?(20)?27|jan(uary)?\s*'?(20)?27|winter\s*[/&-]\s*spring|\bw/s\b|spring\s*/\s*summer|"
-    r"spring\s+(semester|term|co-?op|intern)|6[- ]month|six[- ]month|january\s+(20)?27|jan\s*[-–]\s*jun|"
-    r"off[- ]season|fall\s*/\s*spring|spring\s*20?27", re.I)
+    r"spring\s+(semester|term|co-?op|intern|internship|session|start)|6[- ]month|six[- ]month|january\s+(20)?27|"
+    r"jan(uary)?\.?\s*(?:[-–—]|to|through|thru|until)\s*(feb|mar|apr|may|jun)|feb(ruary)?\.?\s*(?:[-–—]|to|through)\s*(apr|may|jun)|"
+    r"(feb(ruary)?|mar(ch)?|apr(il)?)\s*'?(20)?27|q1\s*(20)?27|winter\s+(intern|internship|co-?op|session|term|quarter)|"
+    r"off[- ]season|fall\s*/\s*spring|spring\s*20?27|(3|three|4|four)[- ]month.{0,60}(jan|feb|mar|winter|spring)|"
+    r"(jan|feb|mar|winter|spring).{0,60}(3|three|4|four)[- ]month", re.I)
 SUMMER_RE = re.compile(r"summer\s*'?(20)?27|summer\s*/\s*fall|summer\s+(intern|co-?op)|may\s*[-–]\s*aug|june\s*[-–]\s*aug|summer 2026|summer 2027", re.I)
 FALL_RE = re.compile(r"fall\s*'?(20)?26|fall 2026|sept?(ember)?\s*[-–]\s*dec", re.I)
 
