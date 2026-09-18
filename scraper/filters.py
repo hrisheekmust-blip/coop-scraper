@@ -88,6 +88,8 @@ def classify(job):
     hits = hardware_score(job)
     if SOFTWARE_ONLY.search(title) and not hits:
         return False, "software only", {}
+    if re.search(r"\bsoftware (test|qa|quality)\b", title, re.I):   # "software test engineer" is a software role even though "test engineer" is a hw keyword
+        return False, "software only", {}
     if not hits:
         return False, "no hardware keyword", {}
     if PHD_ONLY.search(title) and not re.search(r"\b(bs|bachelor|undergrad)", title, re.I):

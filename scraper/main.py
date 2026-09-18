@@ -15,12 +15,13 @@ import argparse
 import csv
 import json
 import os
+import re
 import sys
 import time
 from datetime import date
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-from scraper import fetchers, filters, sources_github, jobspy_search  # noqa: E402
+from scraper import fetchers, filters, sources_github, sources_internlist, jobspy_search  # noqa: E402
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA = os.path.join(ROOT, "data")
@@ -41,6 +42,10 @@ def load_json(path, default):
 
 def key(job):
     return job["url"].split("?")[0].rstrip("/")
+
+
+def _norm(s):
+    return re.sub(r"[^a-z0-9]+", " ", (s or "").lower()).strip()
 
 
 def fetch_ats(companies):
@@ -95,6 +100,12 @@ def run(args):
     if not args.no_github:
         log("fetching GitHub lists…")
         raw += sources_github.fetch_all(log)
+    if not args.raw and not args.no_internlist:
+        log("fetching internlist.org (Simplify) lists…")
+        try:
+            raw += sources_internlist.fetch_all(log)
+        except Exception as e:  # noqa
+            log("  internlist failed:", type(e).__name__, str(e)[:80])
     if not args.raw and not args.no_jobspy:
         log("LinkedIn/Indeed sweep…")
         raw += jobspy_search.fetch_all(log)
@@ -114,13 +125,14 @@ def run(args):
             rejected.append(dict(company=j["company"], title=j["title"], location=j.get("location", ""), why=why, url=j["url"]))
             continue
         k = key(j)
-        k2 = (j["company"].lower().strip(), j["title"].lower().strip(), (j.get("location") or "").lower()[:20])
+        k2 = (_norm(j["company"])[:12], _norm(j["title"]), _norm(j.get("location"))[:12])
         if k2 in dedup:
             k = k2
         if k in dedup:  # same url from two sources: keep the richer one, note both sources
             dedup[k]["sources"] = sorted(set(dedup[k]["sources"] + [j["source"]]))
             continue
         rec = dict(company=j["company"], title=j["title"], location=j.get("location", ""), url=j["url"], posted=j.get("posted", ""),
+                   deadline=j.get("deadline", ""),
                    term=meta["term"], rank=meta["rank"], hw=",".join(meta["hw"]), tier=j.get("tier", ""),
                    sources=[j["source"]], first_seen=seen.get(k, {}).get("first_seen", TODAY), last_seen=TODAY)
         dedup[k] = rec
@@ -178,4 +190,5 @@ if __name__ == "__main__":
     ap.add_argument("--no-github", action="store_true")
     ap.add_argument("--no-detail", action="store_true", help="skip Workday description fetch")
     ap.add_argument("--no-jobspy", action="store_true", help="skip the LinkedIn/Indeed sweep")
+    ap.add_argument("--no-internlist", action="store_true", help="skip the internlist.org / Simplify lists")
     run(ap.parse_args())

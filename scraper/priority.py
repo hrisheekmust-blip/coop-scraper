@@ -92,7 +92,7 @@ def build():
         k = (norm(n["company"])[:12], norm(n["title"]))
         if k in have:
             j = have[k]
-            j["nuworks"] = True; j["nu_url"] = n["url"]; j["deadline"] = n.get("deadline", ""); j["nu_qualified"] = n.get("qualified")
+            j["nuworks"] = True; j["nu_url"] = n["url"]; j["deadline"] = n.get("deadline") or j.get("deadline", ""); j["nu_qualified"] = n.get("qualified")
         else:
             jobs.append(dict(company=n["company"], title=n["title"], location=n.get("location", ""), url=n["url"], posted="",
                              term=n["term"], rank=n["rank"], hw=n.get("hw", ""), tier="", sources=["nuworks"],

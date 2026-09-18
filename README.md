@@ -9,6 +9,9 @@ search. Built from the useful parts of existing projects rather than from scratc
   and [hardware-internships-2027](https://github.com/Khushsj30/hardware-internships-2027), plus the semiconductor
   companies those lists were missing (NXP, TI, onsemi, Skyworks, Microchip, Allegro, MPS, Silicon Labs, Wolfspeed, Samsung…).
 - Community lists ingested as extra sources: vanshb03 off-season + summer lists, sndsh404, hardware-internships-2027.
+- [internlist.org](https://internlist.org) (Simplify's index of ~20k company career pages): the Co-op and Winter/Spring
+  lists via their open `api.simplify.jobs` endpoint. This is what catches companies whose ATS we can't reach directly
+  (AMD, Draper, Anduril, …). See `scraper/sources_internlist.py`.
 
 What it adds that none of those have: **term detection** (spring / Jan 2027 / winter-spring / 6-month / co-op with no
 term stated), a hardware-title filter that isn't fooled by "software engineer, validation", US-only, undergrad-only,
@@ -21,6 +24,7 @@ config/companies.json      who to scan, which ATS, tenant/site ids. Add companie
 scraper/fetchers.py        one fetcher per ATS (stdlib only)
 scraper/filters.py         hardware keywords, exclusions, term detection, ranking
 scraper/sources_github.py  parses the community markdown lists
+scraper/sources_internlist.py  pulls internlist.org / Simplify's Co-op + Winter-Spring lists (open JSON API)
 scraper/main.py            pipeline: fetch -> classify -> diff against seen.json -> write outputs
 scraper/priority.py        urgency bands + sheet.csv / watchlist.csv / events.csv (what the Google Sheet reads)
 scraper/jobspy_search.py   optional LinkedIn/Indeed sweep (python-jobspy), runs in GitHub Actions
@@ -67,5 +71,5 @@ careers URL. SuccessFactors: `base` URL of the careers site.
 ## Known gaps
 
 - Teradyne (`careers.teradyne.com` cert error) and Infineon (login-walled search) need manual checks.
-- Google / Apple / Qualcomm / Micron / Keysight use bespoke career sites; they show up only via the community lists.
+- Google / Apple / Qualcomm / Micron / Keysight use bespoke career sites; they show up via the community lists and internlist.org.
 - NUWorks is behind SSO — no scraper can reach it; use the browser step.
