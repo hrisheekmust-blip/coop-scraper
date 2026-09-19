@@ -523,7 +523,7 @@
 "company": "Formlabs",
 "role": "Hardware Test Engineering Intern (Winter/Spring 2027)",
 "link": "https://careers.formlabs.com/job/8196515/apply/?gh_jid=8196515",
-"attempted": 1789826916,
+"attempted": 1789828616,
 "apply_url": "https://careers.formlabs.com/job/8196515/apply/?gh_jid=8196515",
 "portal": "greenhouse",
 "error": "ValueError: no board/job in url",
@@ -22584,7 +22584,7 @@
 "company": "Formlabs",
 "role": "Hardware R&D Engineering Intern (Winter/Spring 2027)",
 "link": "https://careers.formlabs.com/job/8172226/apply/?gh_jid=8172226",
-"attempted": 1789826916,
+"attempted": 1789828616,
 "apply_url": "https://careers.formlabs.com/job/8172226/apply/?gh_jid=8172226",
 "portal": "greenhouse",
 "error": "ValueError: no board/job in url",
@@ -22594,7 +22594,7 @@
 "company": "Formlabs",
 "role": "Hardware Systems Integration Intern (Winter/Spring 2027)",
 "link": "https://careers.formlabs.com/job/8172004/apply/?gh_jid=8172004",
-"attempted": 1789826916,
+"attempted": 1789828616,
 "apply_url": "https://careers.formlabs.com/job/8172004/apply/?gh_jid=8172004",
 "portal": "greenhouse",
 "error": "ValueError: no board/job in url",
@@ -23171,7 +23171,7 @@
 "company": "Formlabs",
 "role": "Electrical Engineering Intern (Winter/Spring 2027)",
 "link": "https://careers.formlabs.com/job/8148283/apply/?gh_jid=8148283",
-"attempted": 1789826916,
+"attempted": 1789828616,
 "apply_url": "https://careers.formlabs.com/job/8148283/apply/?gh_jid=8148283",
 "portal": "greenhouse",
 "error": "ValueError: no board/job in url",
@@ -25189,7 +25189,7 @@
 "company": "Formlabs",
 "role": "Manufacturing Engineering Intern (Winter/Spring 2027)",
 "link": "https://careers.formlabs.com/job/8161817/apply/?gh_jid=8161817",
-"attempted": 1789826916,
+"attempted": 1789828616,
 "apply_url": "https://careers.formlabs.com/job/8161817/apply/?gh_jid=8161817",
 "portal": "greenhouse",
 "error": "ValueError: no board/job in url",
@@ -25481,7 +25481,7 @@
 "company": "Formlabs",
 "role": "Industrial Design Intern (Winter/Spring 2027)",
 "link": "https://careers.formlabs.com/job/8172232/apply/?gh_jid=8172232",
-"attempted": 1789826916,
+"attempted": 1789828616,
 "apply_url": "https://careers.formlabs.com/job/8172232/apply/?gh_jid=8172232",
 "portal": "greenhouse",
 "error": "ValueError: no board/job in url",
@@ -32413,7 +32413,7 @@
 "company": "PsiQuantum",
 "role": "Intern, Optical Packaging and Characterization Engineer",
 "link": "https://www.psiquantum.com/apply?gh_jid=7761881003",
-"attempted": 1789826916,
+"attempted": 1789828616,
 "apply_url": "https://www.psiquantum.com/apply?gh_jid=7761881003",
 "portal": "greenhouse",
 "error": "HTTPError: HTTP Error 404: Not Found",
@@ -32742,7 +32742,7 @@
 "company": "Quantinuum",
 "role": "Layout Automation Engineering Intern",
 "link": "https://simplify.jobs/jobs/click/e786530f-a166-4c4d-8e6a-a97d02405c85",
-"attempted": 1789826916,
+"attempted": 1789828616,
 "apply_url": "https://jobs.eu.lever.co/quantinuum/550a6e3c-2556-4ac3-8cc4-862cb0681dc0/apply?lever-source=Simplify",
 "portal": "lever",
 "error": "ValueError: no company/id in url",
@@ -32752,7 +32752,7 @@
 "company": "Quantinuum",
 "role": "Photonic Integrated Circuit Design Intern",
 "link": "https://simplify.jobs/jobs/click/7c5b5c68-c8bb-439a-8e46-f121d04eec2a",
-"attempted": 1789826916,
+"attempted": 1789828616,
 "apply_url": "https://jobs.eu.lever.co/quantinuum/ef4b4db2-4ce1-47f5-bfd1-12dfc8a90107/apply?lever-source=Simplify",
 "portal": "lever",
 "error": "ValueError: no company/id in url",
@@ -35883,7 +35883,7 @@
 "company": "Quantinuum",
 "role": "Electrical Engineer Intern",
 "link": "https://simplify.jobs/jobs/click/f61a7695-7297-4d3e-9f68-3ef0b85baec3",
-"attempted": 1789826916,
+"attempted": 1789828616,
 "apply_url": "https://jobs.eu.lever.co/quantinuum/672bb667-0569-44bc-a2fa-a0fcd85673fb/apply?lever-source=Simplify",
 "portal": "lever",
 "error": "ValueError: no company/id in url",
@@ -35943,7 +35943,7 @@
 "company": "Interstates",
 "role": "Instrumentation \u2013 Manufacturing & Automation Intern",
 "link": "https://simplify.jobs/jobs/click/7d33bbff-f683-475c-b68f-9b533265f589",
-"attempted": 1789826916,
+"attempted": 1789828616,
 "apply_url": "https://www.interstates.com/careers/jobs?gh_jid=4401319009&gh_jid=4401319009&gh_src=Simplify",
 "portal": "greenhouse",
 "error": "HTTPError: HTTP Error 404: Not Found",
@@ -36741,7 +36741,7 @@
 "company": "Interstates",
 "role": "Instrumentation & Electrical Intern",
 "link": "https://simplify.jobs/jobs/click/a6f77a50-07d3-4fba-be19-30a6c063f2cd",
-"attempted": 1789826916,
+"attempted": 1789828616,
 "apply_url": "https://www.interstates.com/careers/jobs?gh_jid=4017473009&gh_jid=4017473009&gh_src=Simplify",
 "portal": "greenhouse",
 "error": "HTTPError: HTTP Error 404: Not Found",
@@ -41454,7 +41454,7 @@
 "company": "Formlabs",
 "role": "Hardware R&D Engineering Intern",
 "link": "https://careers.formlabs.com/job/8097694/apply/?gh_jid=8097694&utm_source=github-vansh-ouckah",
-"attempted": 1789826916,
+"attempted": 1789828616,
 "apply_url": "https://careers.formlabs.com/job/8097694/apply/?gh_jid=8097694&utm_source=github-vansh-ouckah",
 "portal": "greenhouse",
 "error": "ValueError: no board/job in url",
@@ -43453,7 +43453,7 @@
 "company": "Akuna Capital",
 "role": "Hardware Engineer Intern",
 "link": "https://akunacapital.com/careers/job/8018880/?gh_jid=8018880&utm_source=github-vansh-ouckah",
-"attempted": 1789826916,
+"attempted": 1789828616,
 "apply_url": "https://akunacapital.com/careers/job/8018880/?gh_jid=8018880&utm_source=github-vansh-ouckah",
 "portal": "greenhouse",
 "error": "ValueError: no board/job in url",
@@ -45597,5 +45597,1719 @@
 "portal": "workday",
 "fields": null,
 "error": "form not public for this portal"
+},
+"fde55d379a816589": {
+"company": "Microsoft",
+"role": "Hardware Engineering Internship (6-Month Program)",
+"link": "https://www.linkedin.com/jobs/view/4469515942",
+"attempted": 1789828616,
+"apply_url": "https://www.linkedin.com/jobs/view/4469515942",
+"portal": "linkedin",
+"fields": null,
+"error": "form not public for this portal"
+},
+"9ad45ce12568cf1c": {
+"company": "GE Healthcare",
+"role": "Infant Care Verification and Validation Engineering Co-op",
+"link": "https://simplify.jobs/jobs/click/f93a68c5-be5c-43a5-9f4c-2deab0e77c2a",
+"attempted": 1789828616,
+"apply_url": "https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/Waukesha/Infant-Care-V-V-Engineering-Co-op_R4046324-1?utm_source=Simplify",
+"portal": "workday",
+"fields": null,
+"error": "form not public for this portal"
+},
+"a2e3bd2ad41a3e78": {
+"company": "Micron Technology",
+"role": "Intern - ASIC Digital Design",
+"link": "https://www.linkedin.com/jobs/view/4468082815",
+"attempted": 1789828616,
+"apply_url": "https://www.linkedin.com/jobs/view/4468082815",
+"portal": "linkedin",
+"fields": null,
+"error": "form not public for this portal"
+},
+"9d1f9b5d2e3b3306": {
+"company": "PsiQuantum",
+"role": "Intern, Optical Packaging and Characterization Engineer",
+"link": "https://www.linkedin.com/jobs/view/4424012583",
+"attempted": 1789828616,
+"apply_url": "https://www.linkedin.com/jobs/view/4424012583",
+"portal": "linkedin",
+"fields": null,
+"error": "form not public for this portal"
+},
+"72c6ed45192eef74": {
+"company": "General Atomics",
+"role": "Intern - Electrical Engineering",
+"link": "https://www.linkedin.com/jobs/view/4469549097",
+"attempted": 1789828616,
+"apply_url": "https://www.linkedin.com/jobs/view/4469549097",
+"portal": "linkedin",
+"fields": null,
+"error": "form not public for this portal"
+},
+"4af4a6bba3374bd8": {
+"company": "Mercury Systems",
+"role": "2027 RF Engineering Intern",
+"link": "https://www.linkedin.com/jobs/view/4467594805",
+"attempted": 1789828616,
+"apply_url": "https://www.linkedin.com/jobs/view/4467594805",
+"portal": "linkedin",
+"fields": null,
+"error": "form not public for this portal"
+},
+"d4d6019a65a40e49": {
+"company": "Entegris",
+"role": "Maintenance Engineering Technician Co-Op",
+"link": "https://entegris.wd1.myworkdayjobs.com/EntegrisCareers/job/Hillsboro-OR/Maintenance-Engineering-Technician-Co-Op_REQ-14400",
+"attempted": 1789828616,
+"apply_url": "https://entegris.wd1.myworkdayjobs.com/EntegrisCareers/job/Hillsboro-OR/Maintenance-Engineering-Technician-Co-Op_REQ-14400",
+"portal": "workday",
+"fields": null,
+"error": "form not public for this portal"
+},
+"ba75e7b7158908bb": {
+"company": "Entegris",
+"role": "Manufacturing Engineering Co-Op",
+"link": "https://entegris.wd1.myworkdayjobs.com/EntegrisCareers/job/Colorado-Springs-CO/Manufacturing-Engineering-Co-Op_REQ-14508",
+"attempted": 1789828616,
+"apply_url": "https://entegris.wd1.myworkdayjobs.com/EntegrisCareers/job/Colorado-Springs-CO/Manufacturing-Engineering-Co-Op_REQ-14508",
+"portal": "workday",
+"fields": null,
+"error": "form not public for this portal"
+},
+"7fa0e2acfb8fe1a4": {
+"company": "Entegris",
+"role": "Manufacturing Engineering Co-Op",
+"link": "https://entegris.wd1.myworkdayjobs.com/EntegrisCareers/job/Rockrimmon-Colorado-Springs-CO/Manufacturing-Engineering-Co-Op_REQ-14439",
+"attempted": 1789828616,
+"apply_url": "https://entegris.wd1.myworkdayjobs.com/EntegrisCareers/job/Rockrimmon-Colorado-Springs-CO/Manufacturing-Engineering-Co-Op_REQ-14439",
+"portal": "workday",
+"fields": null,
+"error": "form not public for this portal"
+},
+"131b9c74b77bd698": {
+"company": "Entegris",
+"role": "Manufacturing Engineering Co-Op",
+"link": "https://entegris.wd1.myworkdayjobs.com/EntegrisCareers/job/Aurora-IL/Manufacturing-Engineering-Co-Op_REQ-14412",
+"attempted": 1789828616,
+"apply_url": "https://entegris.wd1.myworkdayjobs.com/EntegrisCareers/job/Aurora-IL/Manufacturing-Engineering-Co-Op_REQ-14412",
+"portal": "workday",
+"fields": null,
+"error": "form not public for this portal"
+},
+"09bc12b5f0b2d12e": {
+"company": "Entegris",
+"role": "Manufacturing Engineering Co-Op",
+"link": "https://entegris.wd1.myworkdayjobs.com/EntegrisCareers/job/Hillsboro-OR/Manufacturing-Engineering-Co-Op_REQ-14480",
+"attempted": 1789828616,
+"apply_url": "https://entegris.wd1.myworkdayjobs.com/EntegrisCareers/job/Hillsboro-OR/Manufacturing-Engineering-Co-Op_REQ-14480",
+"portal": "workday",
+"fields": null,
+"error": "form not public for this portal"
+},
+"ccf4998197bc3ff9": {
+"company": "Entegris",
+"role": "Manufacturing Systems Engineer Co-Op",
+"link": "https://entegris.wd1.myworkdayjobs.com/EntegrisCareers/job/Rockrimmon-Colorado-Springs-CO/Manufacturing-Systems-Engineer-Co-Op_REQ-14437",
+"attempted": 1789828616,
+"apply_url": "https://entegris.wd1.myworkdayjobs.com/EntegrisCareers/job/Rockrimmon-Colorado-Springs-CO/Manufacturing-Systems-Engineer-Co-Op_REQ-14437",
+"portal": "workday",
+"fields": null,
+"error": "form not public for this portal"
+},
+"7a196824af33c7cf": {
+"company": "Entegris",
+"role": "NPI Engineering Co-Op",
+"link": "https://entegris.wd1.myworkdayjobs.com/EntegrisCareers/job/Rockrimmon-Colorado-Springs-CO/NPI-Engineering-Co-Op_REQ-14488",
+"attempted": 1789828616,
+"apply_url": "https://entegris.wd1.myworkdayjobs.com/EntegrisCareers/job/Rockrimmon-Colorado-Springs-CO/NPI-Engineering-Co-Op_REQ-14488",
+"portal": "workday",
+"fields": null,
+"error": "form not public for this portal"
+},
+"af14f1f6dcca889e": {
+"company": "Entegris",
+"role": "Process Engineering Co-Op",
+"link": "https://entegris.wd1.myworkdayjobs.com/EntegrisCareers/job/Rockrimmon-Colorado-Springs-CO/Process-Engineering-Co-Op_REQ-14485",
+"attempted": 1789828616,
+"apply_url": "https://entegris.wd1.myworkdayjobs.com/EntegrisCareers/job/Rockrimmon-Colorado-Springs-CO/Process-Engineering-Co-Op_REQ-14485",
+"portal": "workday",
+"fields": null,
+"error": "form not public for this portal"
+},
+"04d7abc485bf1726": {
+"company": "Entegris",
+"role": "Process Engineering Co-Op",
+"link": "https://entegris.wd1.myworkdayjobs.com/EntegrisCareers/job/Bedford-MA/Process-Engineering-Co-Op_REQ-14458",
+"attempted": 1789828616,
+"apply_url": "https://entegris.wd1.myworkdayjobs.com/EntegrisCareers/job/Bedford-MA/Process-Engineering-Co-Op_REQ-14458",
+"portal": "workday",
+"fields": null,
+"error": "form not public for this portal"
+},
+"5e90b826048a4ed3": {
+"company": "Entegris",
+"role": "Product Design Co-Op",
+"link": "https://entegris.wd1.myworkdayjobs.com/EntegrisCareers/job/Colorado-Springs-CO/Product-Design-Co-Op_REQ-14435",
+"attempted": 1789828616,
+"apply_url": "https://entegris.wd1.myworkdayjobs.com/EntegrisCareers/job/Colorado-Springs-CO/Product-Design-Co-Op_REQ-14435",
+"portal": "workday",
+"fields": null,
+"error": "form not public for this portal"
+},
+"651d6168386a3215": {
+"company": "Entegris",
+"role": "Quality Engineering Co-Op",
+"link": "https://entegris.wd1.myworkdayjobs.com/EntegrisCareers/job/Rockrimmon-Colorado-Springs-CO/Quality-Engineering-Co-Op_REQ-14468",
+"attempted": 1789828616,
+"apply_url": "https://entegris.wd1.myworkdayjobs.com/EntegrisCareers/job/Rockrimmon-Colorado-Springs-CO/Quality-Engineering-Co-Op_REQ-14468",
+"portal": "workday",
+"fields": null,
+"error": "form not public for this portal"
+},
+"844c08b0bcb3a7c3": {
+"company": "Entegris",
+"role": "Quality Engineering Co-Op",
+"link": "https://entegris.wd1.myworkdayjobs.com/EntegrisCareers/job/Austin-TX/Quality-Engineering-Co-Op_REQ-14474",
+"attempted": 1789828616,
+"apply_url": "https://entegris.wd1.myworkdayjobs.com/EntegrisCareers/job/Austin-TX/Quality-Engineering-Co-Op_REQ-14474",
+"portal": "workday",
+"fields": null,
+"error": "form not public for this portal"
+},
+"b09aa36313a24e42": {
+"company": "Entegris",
+"role": "Technical Training Co-op",
+"link": "https://entegris.wd1.myworkdayjobs.com/EntegrisCareers/job/Rockrimmon-Colorado-Springs-CO/Technical-Training-Co-op_REQ-14467",
+"attempted": 1789828616,
+"apply_url": "https://entegris.wd1.myworkdayjobs.com/EntegrisCareers/job/Rockrimmon-Colorado-Springs-CO/Technical-Training-Co-op_REQ-14467",
+"portal": "workday",
+"fields": null,
+"error": "form not public for this portal"
+},
+"5f4cff48b357f7f4": {
+"company": "Leidos",
+"role": "Cybersecurity Engineer Co-op",
+"link": "https://leidos.wd5.myworkdayjobs.com/External/job/Bethesda-MD/Cybersecurity-Engineer-Co-op_R-00190764",
+"attempted": 1789828616,
+"apply_url": "https://leidos.wd5.myworkdayjobs.com/External/job/Bethesda-MD/Cybersecurity-Engineer-Co-op_R-00190764",
+"portal": "workday",
+"fields": null,
+"error": "form not public for this portal"
+},
+"65e2c943778bd8a3": {
+"company": "Marvell",
+"role": "Advanced Packaging & Physical Integration Intern",
+"link": "https://simplify.jobs/jobs/click/c19ad514-a4fd-4e47-a2ae-ab57347804ad",
+"attempted": 1789828616,
+"apply_url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Santa-Clara-CA/PhD-Intern---Advanced-Packaging---Physical-Integration_2604413?utm_source=Simplify",
+"portal": "workday",
+"fields": null,
+"error": "form not public for this portal"
+},
+"51ff2e6ac222e017": {
+"company": "Marvell",
+"role": "Architecture, DSP & Systems Architecture Ph.D. Intern",
+"link": "https://simplify.jobs/jobs/click/b993dfd1-18f6-4fe1-97b4-b37792dd18ae",
+"attempted": 1789828616,
+"apply_url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Santa-Clara-CA/PhD-Intern---Architecture--DSP---Systems-Architecture_2604415?utm_source=Simplify",
+"portal": "workday",
+"fields": null,
+"error": "form not public for this portal"
+},
+"2de367a72ad88003": {
+"company": "Marvell",
+"role": "Ph.D. Intern",
+"link": "https://simplify.jobs/jobs/click/9c3c759c-4a1c-4b6f-8f1c-51e5c4fdb90d",
+"attempted": 1789828616,
+"apply_url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Santa-Clara-CA/PhD-Intern---AI-ML---Design-Automation_2604412?utm_source=Simplify",
+"portal": "workday",
+"fields": null,
+"error": "form not public for this portal"
+},
+"33feff684b7ba2d2": {
+"company": "Thermo Fisher Scientific",
+"role": "Engineering Co-Op",
+"link": "https://jobs.thermofisher.com/global/en/job/R-01366580/engineering-co-op",
+"attempted": 1789828616,
+"apply_url": "https://jobs.thermofisher.com/global/en/job/R-01366580/engineering-co-op",
+"portal": "other",
+"fields": null,
+"error": "form not public for this portal"
+},
+"bc621193a1b96c99": {
+"company": "Applied Materials",
+"role": "2027 Spring Product Quality Engineer Co-op  - Bachelor's (Gloucester, MA)",
+"link": "https://amat.wd1.myworkdayjobs.com/External/job/GloucesterMA/XMLNAME-2027-Spring-Product-Quality-Engineer-Co-op----Bachelor-s--Gloucester--MA-_R2628291",
+"attempted": 1789828616,
+"apply_url": "https://amat.wd1.myworkdayjobs.com/External/job/GloucesterMA/XMLNAME-2027-Spring-Product-Quality-Engineer-Co-op----Bachelor-s--Gloucester--MA-_R2628291",
+"portal": "workday",
+"fields": null,
+"error": "form not public for this portal"
+},
+"f94e380f549d6858": {
+"company": "Entegris",
+"role": "Application Engineering Co-Op",
+"link": "https://entegris.wd1.myworkdayjobs.com/EntegrisCareers/job/Billerica-MA/Application-Engineering-Co-Op_REQ-14473",
+"attempted": 1789828616,
+"apply_url": "https://entegris.wd1.myworkdayjobs.com/EntegrisCareers/job/Billerica-MA/Application-Engineering-Co-Op_REQ-14473",
+"portal": "workday",
+"fields": null,
+"error": "form not public for this portal"
+},
+"4cbf9ca766b6c65d": {
+"company": "Entegris",
+"role": "Capital Equipment Engineering Co-Op",
+"link": "https://entegris.wd1.myworkdayjobs.com/EntegrisCareers/job/Billerica-MA/Capital-Equipment-Engineering-Co-Op_REQ-14497",
+"attempted": 1789828616,
+"apply_url": "https://entegris.wd1.myworkdayjobs.com/EntegrisCareers/job/Billerica-MA/Capital-Equipment-Engineering-Co-Op_REQ-14497",
+"portal": "workday",
+"fields": null,
+"error": "form not public for this portal"
+},
+"d9796c40026756ef": {
+"company": "Entegris",
+"role": "Industrial Engineering Co-Op",
+"link": "https://entegris.wd1.myworkdayjobs.com/EntegrisCareers/job/Bedford-MA/Industrial-Engineering-Co-Op_REQ-14465",
+"attempted": 1789828616,
+"apply_url": "https://entegris.wd1.myworkdayjobs.com/EntegrisCareers/job/Bedford-MA/Industrial-Engineering-Co-Op_REQ-14465",
+"portal": "workday",
+"fields": null,
+"error": "form not public for this portal"
+},
+"27ad662656c78fd9": {
+"company": "Entegris",
+"role": "Industrial Engineering Co-Op",
+"link": "https://entegris.wd1.myworkdayjobs.com/EntegrisCareers/job/Billerica-MA/Industrial-Engineering-Co-Op_REQ-14462",
+"attempted": 1789828616,
+"apply_url": "https://entegris.wd1.myworkdayjobs.com/EntegrisCareers/job/Billerica-MA/Industrial-Engineering-Co-Op_REQ-14462",
+"portal": "workday",
+"fields": null,
+"error": "form not public for this portal"
+},
+"bcf88dd18ddc6894": {
+"company": "Entegris",
+"role": "Manufacturing Engineer Co-Op",
+"link": "https://entegris.wd1.myworkdayjobs.com/EntegrisCareers/job/Rockrimmon-Colorado-Springs-CO/Manufacturing-Engineer-Co-Op_REQ-14411",
+"attempted": 1789828616,
+"apply_url": "https://entegris.wd1.myworkdayjobs.com/EntegrisCareers/job/Rockrimmon-Colorado-Springs-CO/Manufacturing-Engineer-Co-Op_REQ-14411",
+"portal": "workday",
+"fields": null,
+"error": "form not public for this portal"
+},
+"c04e0b6073f5f29f": {
+"company": "Entegris",
+"role": "Manufacturing Engineering Co-Op",
+"link": "https://entegris.wd1.myworkdayjobs.com/EntegrisCareers/job/Bloomington-MN/Manufacturing-Engineering-Co-Op_REQ-14417",
+"attempted": 1789828616,
+"apply_url": "https://entegris.wd1.myworkdayjobs.com/EntegrisCareers/job/Bloomington-MN/Manufacturing-Engineering-Co-Op_REQ-14417",
+"portal": "workday",
+"fields": null,
+"error": "form not public for this portal"
+},
+"1762730e15fd1246": {
+"company": "Entegris",
+"role": "Manufacturing Engineering Co-Op",
+"link": "https://entegris.wd1.myworkdayjobs.com/EntegrisCareers/job/Austin-TX/Manufacturing-Engineering-Co-Op_REQ-14423",
+"attempted": 1789828616,
+"apply_url": "https://entegris.wd1.myworkdayjobs.com/EntegrisCareers/job/Austin-TX/Manufacturing-Engineering-Co-Op_REQ-14423",
+"portal": "workday",
+"fields": null,
+"error": "form not public for this portal"
+},
+"85030bbffd432e91": {
+"company": "Entegris",
+"role": "Manufacturing Engineering Co-Op",
+"link": "https://entegris.wd1.myworkdayjobs.com/EntegrisCareers/job/Chaska-MN/Manufacturing-Engineering-Co-Op_REQ-14424",
+"attempted": 1789828616,
+"apply_url": "https://entegris.wd1.myworkdayjobs.com/EntegrisCareers/job/Chaska-MN/Manufacturing-Engineering-Co-Op_REQ-14424",
+"portal": "workday",
+"fields": null,
+"error": "form not public for this portal"
+},
+"1213cd83adb5b8c8": {
+"company": "Entegris",
+"role": "Quality Engineer Co-Op",
+"link": "https://entegris.wd1.myworkdayjobs.com/EntegrisCareers/job/San-Luis-Obispo-CA/Quality-Engineer-Co-Op_REQ-14434",
+"attempted": 1789828616,
+"apply_url": "https://entegris.wd1.myworkdayjobs.com/EntegrisCareers/job/San-Luis-Obispo-CA/Quality-Engineer-Co-Op_REQ-14434",
+"portal": "workday",
+"fields": null,
+"error": "form not public for this portal"
+},
+"de574a2e0a7dfaf1": {
+"company": "Pliant",
+"role": "Working Student - Partner Sales, Benelux and Nordics Market (m/f/d)",
+"link": "https://jobs.ashbyhq.com/pliant/98698cce-8226-415d-941f-11da1293d5ca",
+"attempted": 1789828616,
+"apply_url": "https://jobs.ashbyhq.com/pliant/98698cce-8226-415d-941f-11da1293d5ca/application",
+"portal": "ashby",
+"fields": [
+{
+"label": "Name",
+"type": "String",
+"required": true,
+"options": [],
+"section": ""
+},
+{
+"label": "Email",
+"type": "Email",
+"required": true,
+"options": [],
+"section": ""
+},
+{
+"label": "Address",
+"type": "Location",
+"required": true,
+"options": [],
+"section": ""
+},
+{
+"label": "Phone Number",
+"type": "Phone",
+"required": true,
+"options": [],
+"section": ""
+},
+{
+"label": "Resume",
+"type": "File",
+"required": true,
+"options": [],
+"section": ""
+},
+{
+"label": "Salary Expectations",
+"type": "String",
+"required": true,
+"options": [],
+"section": ""
+},
+{
+"label": "Date Available",
+"type": "Date",
+"required": true,
+"options": [],
+"section": ""
+},
+{
+"label": "Are you based in the UK or EU?",
+"type": "Boolean",
+"required": true,
+"options": [],
+"section": ""
+},
+{
+"label": "LinkedIn",
+"type": "Url",
+"required": true,
+"options": [],
+"section": ""
+},
+{
+"label": "Who referred you for this position?",
+"type": "String",
+"required": true,
+"options": [],
+"section": ""
+},
+{
+"label": "Interview Recording Consent",
+"type": "ValueSelect",
+"required": true,
+"options": [
+"Yes, I consent to be recorded",
+"Opt out of recording"
+],
+"section": ""
+},
+{
+"label": "Are you open to working from Berlin HQ 3x a week?",
+"type": "String",
+"required": true,
+"options": [],
+"section": ""
+},
+{
+"label": "Can you be free for 20 hours week / 40 hours week during semester breaks?",
+"type": "String",
+"required": true,
+"options": [],
+"section": ""
+},
+{
+"label": "Is this your first Working Student job for 2026 or have you done other Working Student jobs this year?",
+"type": "String",
+"required": true,
+"options": [],
+"section": ""
+},
+{
+"label": "When is your anticipated graduation date?",
+"type": "String",
+"required": true,
+"options": [],
+"section": ""
+},
+{
+"label": "Are you fluent or business level in English? (French,\u00a0 Dutch, Nordic and Swedish are always a plus!)",
+"type": "String",
+"required": true,
+"options": [],
+"section": ""
+}
+],
+"error": "",
+"fetched": "2026-09-19T14:37Z"
+},
+"d92faa83c3f0cb74": {
+"company": "Thermo Fisher Scientific",
+"role": "Engineering Co-op",
+"link": "https://jobs.thermofisher.com/global/en/job/R-01366573/engineering-co-op",
+"attempted": 1789828616,
+"apply_url": "https://jobs.thermofisher.com/global/en/job/R-01366573/engineering-co-op",
+"portal": "other",
+"fields": null,
+"error": "form not public for this portal"
+},
+"af674db826a847ff": {
+"company": "Thermo Fisher Scientific",
+"role": "Sr. Co-Op: Research & Development/ Digital (Hillsboro, OR)",
+"link": "https://jobs.thermofisher.com/global/en/job/R-01367232/sr-co-op-research-development-digital-hillsboro-or",
+"attempted": 1789828616,
+"apply_url": "https://jobs.thermofisher.com/global/en/job/R-01367232/sr-co-op-research-development-digital-hillsboro-or",
+"portal": "other",
+"fields": null,
+"error": "form not public for this portal"
+},
+"ab454755713dbbf4": {
+"company": "Micron Technology",
+"role": "DRAM Design Rules Intern",
+"link": "https://simplify.jobs/jobs/click/ac51c04c-ef1b-4705-8b2c-8001da135c28",
+"attempted": 1789828616,
+"apply_url": "https://micron.wd1.myworkdayjobs.com/External/job/Boise-ID---Main-Site/Intern---DRAM-Design-Rules_JR110670?utm_source=Simplify",
+"portal": "workday",
+"fields": null,
+"error": "form not public for this portal"
+},
+"79b5ea0c6a7a4679": {
+"company": "Pliant",
+"role": "Compliance Operations Intern (m/f/d)",
+"link": "https://jobs.ashbyhq.com/pliant/04b4f9eb-6875-487f-a1b1-f7623769de4a",
+"attempted": 1789828616,
+"apply_url": "https://jobs.ashbyhq.com/pliant/04b4f9eb-6875-487f-a1b1-f7623769de4a/application",
+"portal": "ashby",
+"fields": [
+{
+"label": "Name",
+"type": "String",
+"required": true,
+"options": [],
+"section": ""
+},
+{
+"label": "Email",
+"type": "Email",
+"required": true,
+"options": [],
+"section": ""
+},
+{
+"label": "Address",
+"type": "Location",
+"required": true,
+"options": [],
+"section": ""
+},
+{
+"label": "Phone Number",
+"type": "Phone",
+"required": true,
+"options": [],
+"section": ""
+},
+{
+"label": "Resume",
+"type": "File",
+"required": true,
+"options": [],
+"section": ""
+},
+{
+"label": "Salary Expectations",
+"type": "String",
+"required": true,
+"options": [],
+"section": ""
+},
+{
+"label": "Date Available",
+"type": "Date",
+"required": true,
+"options": [],
+"section": ""
+},
+{
+"label": "LinkedIn",
+"type": "Url",
+"required": true,
+"options": [],
+"section": ""
+},
+{
+"label": "Who referred you for this position?",
+"type": "String",
+"required": true,
+"options": [],
+"section": ""
+},
+{
+"label": "Are you currently enrolled at a university or higher education institution in Germany?",
+"type": "String",
+"required": true,
+"options": [],
+"section": ""
+},
+{
+"label": "What is your anticipated graduation date?",
+"type": "String",
+"required": true,
+"options": [],
+"section": ""
+},
+{
+"label": "Is this internship mandatory as part of your degree programme?",
+"type": "String",
+"required": true,
+"options": [],
+"section": ""
+}
+],
+"error": "",
+"fetched": "2026-09-19T14:37Z"
+},
+"e9774915e72b4d1d": {
+"company": "Applied Materials",
+"role": "2026 Fall Materials Engineering Co-op (TCAD Modeling) - Doctorate (Gloucester, MA)",
+"link": "https://amat.wd1.myworkdayjobs.com/External/job/GloucesterMA/XMLNAME-2026-Fall-Materials-Engineering-Co-op---Doctorate--Gloucester--MA-_R2611503",
+"attempted": 1789828616,
+"apply_url": "https://amat.wd1.myworkdayjobs.com/External/job/GloucesterMA/XMLNAME-2026-Fall-Materials-Engineering-Co-op---Doctorate--Gloucester--MA-_R2611503",
+"portal": "workday",
+"fields": null,
+"error": "form not public for this portal"
+},
+"19953427dec1acea": {
+"company": "Micron Technology",
+"role": "Advanced DRAM Cell & Device Technology Intern",
+"link": "https://simplify.jobs/jobs/click/f03e18cd-43a7-42fb-95e7-609dd0d670d8",
+"attempted": 1789828616,
+"apply_url": "https://micron.wd1.myworkdayjobs.com/External/job/Boise-ID---Main-Site/Intern---Advanced-DRAM-Cell---Device-Technology_JR110172?utm_source=Simplify",
+"portal": "workday",
+"fields": null,
+"error": "form not public for this portal"
+},
+"8d14b58dbe0fd9db": {
+"company": "Emerson",
+"role": "Design Engineering Co-Op",
+"link": "https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26008754",
+"attempted": 1789828616,
+"apply_url": "https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26008754",
+"portal": "oracle",
+"fields": null,
+"error": "form not public for this portal"
+},
+"f572bc5db61996c4": {
+"company": "Emerson",
+"role": "Engineering Management Co-Op",
+"link": "https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26007511",
+"attempted": 1789828616,
+"apply_url": "https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26007511",
+"portal": "oracle",
+"fields": null,
+"error": "form not public for this portal"
+},
+"e32d5ff8b63ef267": {
+"company": "Emerson",
+"role": "Engineering Standards and Quality Co-op",
+"link": "https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26008258",
+"attempted": 1789828616,
+"apply_url": "https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26008258",
+"portal": "oracle",
+"fields": null,
+"error": "form not public for this portal"
+},
+"56613f1147b8cc21": {
+"company": "Emerson",
+"role": "Materials Engineer Co-Op",
+"link": "https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26008778",
+"attempted": 1789828616,
+"apply_url": "https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26008778",
+"portal": "oracle",
+"fields": null,
+"error": "form not public for this portal"
+},
+"343953754d44ddae": {
+"company": "Emerson",
+"role": "Quality Engineering Co-op",
+"link": "https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26009739",
+"attempted": 1789828616,
+"apply_url": "https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26009739",
+"portal": "oracle",
+"fields": null,
+"error": "form not public for this portal"
+},
+"6916f51207367525": {
+"company": "Wabtec",
+"role": "Full-Time Spring Engineering Co-op",
+"link": "https://jobs.smartrecruiters.com/wabtec/3743990014915476",
+"attempted": 1789828616,
+"apply_url": "https://jobs.smartrecruiters.com/wabtec/3743990014915476",
+"portal": "smartrecruiters",
+"fields": null,
+"error": "form not public for this portal"
+},
+"6a79b63fe895e165": {
+"company": "Apptronik",
+"role": "Robotics Software Intern \u2013 Real-Time Controls",
+"link": "https://boards.greenhouse.io/apptronik/jobs/5985132004?gh_jid=5985132004",
+"attempted": 1789828616,
+"apply_url": "https://boards.greenhouse.io/apptronik/jobs/5985132004",
+"portal": "greenhouse",
+"fields": [
+{
+"label": "First Name",
+"type": "input_text",
+"required": true,
+"options": []
+},
+{
+"label": "Last Name",
+"type": "input_text",
+"required": true,
+"options": []
+},
+{
+"label": "Email",
+"type": "input_text",
+"required": true,
+"options": []
+},
+{
+"label": "Phone",
+"type": "input_text",
+"required": true,
+"options": []
+},
+{
+"label": "Resume/CV",
+"type": "input_file",
+"required": false,
+"options": []
+},
+{
+"label": "Cover Letter",
+"type": "input_file",
+"required": false,
+"options": []
+},
+{
+"label": "LinkedIn Profile",
+"type": "input_text",
+"required": false,
+"options": []
+},
+{
+"label": "Website",
+"type": "input_text",
+"required": false,
+"options": []
+},
+{
+"label": "Are you legally authorized to work in the United States? *",
+"type": "multi_value_single_select",
+"required": true,
+"options": [
+"I am authorized to work in the United States for any employer",
+"I am authorized to work in the United States for my present employer only",
+"I require sponsorship to work in the United States",
+"I am not authorized to work in the United States",
+"My status to work in the United States is unknown"
+]
+},
+{
+"label": "1. Please confirm that you are either: (a) a U.S. citizen; (b) lawful permanent resident of the U.S. (green card holder); or (3) protected individual as defined by 8 U.S.C. 1324b(a)(3).",
+"type": "multi_value_single_select",
+"required": true,
+"options": [
+"Yes",
+"No"
+]
+},
+{
+"label": "   a.  If NO, please indicate your country of citizenship and, if different, the country in which you have most recently obtained citizenship or permanent residency status. This information will be used to determine whether it would be possible to obtain any required license from the U.S. government.  (Enter in \"N/A\" if marked Yes above)     ",
+"type": "input_text",
+"required": true,
+"options": []
+},
+{
+"label": "2.  Please indicate whether you ever been indicted for or convicted of violating any of the U.S. Criminal statues enumerated in 22 CFR 120.6 or violating a foreign criminal law on exportation of defense articles where conviction of such law carries a minimum term of imprisonment of greater than one year.",
+"type": "multi_value_single_select",
+"required": true,
+"options": [
+"Yes",
+"No"
+]
+},
+{
+"label": "3.  Please indicate whether you have been declared ineligible to contract with, or to receive a license or other approval to import defense articles or defense services from, or to receive an export license or other approval from, any agency of the U.S. Government.",
+"type": "multi_value_single_select",
+"required": true,
+"options": [
+"Yes",
+"No"
+]
+},
+{
+"label": "Longitude",
+"type": "input_hidden",
+"required": true,
+"options": []
+},
+{
+"label": "Latitude",
+"type": "input_hidden",
+"required": true,
+"options": []
+},
+{
+"label": "Location",
+"type": "input_text",
+"required": true,
+"options": []
+},
+{
+"label": "DisabilityStatus",
+"type": "multi_value_single_select",
+"required": false,
+"options": [
+"I do not want to answer",
+"No, I do not have a disability and have not had one in the past",
+"Yes, I have a disability, or have had one in the past"
+],
+"eeo": true
+},
+{
+"label": "VeteranStatus",
+"type": "multi_value_single_select",
+"required": false,
+"options": [
+"I don't wish to answer",
+"I identify as one or more of the classifications of a protected veteran",
+"I am not a protected veteran"
+],
+"eeo": true
+},
+{
+"label": "Race",
+"type": "multi_value_single_select",
+"required": false,
+"options": [
+"Decline To Self Identify",
+"Two or More Races",
+"Native Hawaiian or Other Pacific Islander",
+"White",
+"Hispanic or Latino",
+"Black or African American",
+"Asian",
+"American Indian or Alaskan Native"
+],
+"eeo": true
+},
+{
+"label": "Gender",
+"type": "multi_value_single_select",
+"required": false,
+"options": [
+"Decline To Self Identify",
+"Female",
+"Male"
+],
+"eeo": true
+}
+],
+"error": "",
+"fetched": "2026-09-19T14:37Z"
+},
+"e51c0720a38e665d": {
+"company": "GE Aerospace",
+"role": "Engines Engineering Co-op \u2013 US \u2013 Fall 2027",
+"link": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Evendale/Engines-Engineering-Co-op---US---Fall-2027_R5029625-1",
+"attempted": 1789828616,
+"apply_url": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Evendale/Engines-Engineering-Co-op---US---Fall-2027_R5029625-1",
+"portal": "workday",
+"fields": null,
+"error": "form not public for this portal"
+},
+"725c41aa1c02248d": {
+"company": "GE Aerospace",
+"role": "Manufacturing Engineering Co-op \u2013 US \u2013 Fall 2027",
+"link": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Evendale/Manufacturing-Engineering-Co-op---US---Fall-2027_R5029664-1",
+"attempted": 1789828616,
+"apply_url": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Evendale/Manufacturing-Engineering-Co-op---US---Fall-2027_R5029664-1",
+"portal": "workday",
+"fields": null,
+"error": "form not public for this portal"
+},
+"56a96d7091e69d32": {
+"company": "Pliant",
+"role": "Working Student - Partner Sales, German Market (m/f/d )",
+"link": "https://jobs.ashbyhq.com/pliant/11b8ee7c-08d4-4b96-8992-41b109ee64bf",
+"attempted": 1789828616,
+"apply_url": "https://jobs.ashbyhq.com/pliant/11b8ee7c-08d4-4b96-8992-41b109ee64bf/application",
+"portal": "ashby",
+"fields": [
+{
+"label": "Name",
+"type": "String",
+"required": true,
+"options": [],
+"section": ""
+},
+{
+"label": "Email",
+"type": "Email",
+"required": true,
+"options": [],
+"section": ""
+},
+{
+"label": "Address",
+"type": "Location",
+"required": true,
+"options": [],
+"section": ""
+},
+{
+"label": "Phone Number",
+"type": "Phone",
+"required": true,
+"options": [],
+"section": ""
+},
+{
+"label": "Resume",
+"type": "File",
+"required": true,
+"options": [],
+"section": ""
+},
+{
+"label": "Salary Expectations",
+"type": "String",
+"required": true,
+"options": [],
+"section": ""
+},
+{
+"label": "Date Available",
+"type": "Date",
+"required": true,
+"options": [],
+"section": ""
+},
+{
+"label": "Are you based in the UK or EU?",
+"type": "Boolean",
+"required": true,
+"options": [],
+"section": ""
+},
+{
+"label": "LinkedIn",
+"type": "Url",
+"required": true,
+"options": [],
+"section": ""
+},
+{
+"label": "Who referred you for this position?",
+"type": "String",
+"required": true,
+"options": [],
+"section": ""
+},
+{
+"label": "Interview Recording Consent",
+"type": "ValueSelect",
+"required": true,
+"options": [
+"Yes, I consent to be recorded",
+"Opt out of recording"
+],
+"section": ""
+},
+{
+"label": "Are you open to working from Berlin HQ 3x a week?\u00a0",
+"type": "String",
+"required": true,
+"options": [],
+"section": ""
+},
+{
+"label": "Can you be free for 20 hours week / 40 hours week during semester breaks?",
+"type": "String",
+"required": true,
+"options": [],
+"section": ""
+},
+{
+"label": "Is this your first Working Student job for 2026 or have you done other Working Student jobs this year?\u00a0",
+"type": "String",
+"required": true,
+"options": [],
+"section": ""
+},
+{
+"label": "When is your anticipated graduation date?",
+"type": "String",
+"required": true,
+"options": [],
+"section": ""
+},
+{
+"label": "Are you fluent or business level in German and English?\u00a0",
+"type": "String",
+"required": true,
+"options": [],
+"section": ""
+}
+],
+"error": "",
+"fetched": "2026-09-19T14:37Z"
+},
+"97c07fbaabe2dbec": {
+"company": "Etched",
+"role": "Performance Tools Intern",
+"link": "https://jobs.ashbyhq.com/etched/f02e8035-7dc9-4b0c-aab7-75bbb4e975b8",
+"attempted": 1789828616,
+"apply_url": "https://jobs.ashbyhq.com/etched/f02e8035-7dc9-4b0c-aab7-75bbb4e975b8/application",
+"portal": "ashby",
+"fields": [
+{
+"label": "Name",
+"type": "String",
+"required": true,
+"options": [],
+"section": "Personal Information"
+},
+{
+"label": "Preferred Name",
+"type": "String",
+"required": true,
+"options": [],
+"section": "Personal Information"
+},
+{
+"label": "Email",
+"type": "Email",
+"required": true,
+"options": [],
+"section": "Personal Information"
+},
+{
+"label": "Phone Number",
+"type": "Phone",
+"required": true,
+"options": [],
+"section": "Personal Information"
+},
+{
+"label": "LinkedIn Profile URL",
+"type": "String",
+"required": true,
+"options": [],
+"section": "Personal Information"
+},
+{
+"label": "GitHub or Portfolio URL",
+"type": "String",
+"required": true,
+"options": [],
+"section": "Personal Information"
+},
+{
+"label": "Which term(s) would you like to be considered for?\u00a0",
+"type": "MultiValueSelect",
+"required": true,
+"options": [
+"Fall (September - December)",
+"Spring (January - May)",
+"Summer (May - August)"
+],
+"section": "Personal Information"
+},
+{
+"label": "College or University",
+"type": "String",
+"required": true,
+"options": [],
+"section": "Education"
+},
+{
+"label": "Major or Field of Study",
+"type": "String",
+"required": true,
+"options": [],
+"section": "Education"
+},
+{
+"label": "Current Program Type",
+"type": "ValueSelect",
+"required": true,
+"options": [
+"PhD",
+"Master's Degree",
+"JD",
+"MBA",
+"Bachelor's Degree",
+"High School",
+"Other"
+],
+"section": "Education"
+},
+{
+"label": "Expected Graduation Date",
+"type": "Date",
+"required": true,
+"options": [],
+"section": "Education"
+},
+{
+"label": "Current GPA",
+"type": "String",
+"required": true,
+"options": [],
+"section": "Education"
+},
+{
+"label": "Are you able to work in-person in San Jose this summer?",
+"type": "Boolean",
+"required": true,
+"options": [],
+"section": "Availability and Logistics"
+},
+{
+"label": "What is your work authorization status?",
+"type": "ValueSelect",
+"required": true,
+"options": [
+"US Citizen or Permanent Resident",
+"H1B",
+"TN",
+"F1 / Stem OPT",
+"L1",
+"E3",
+"Other (please explain below)"
+],
+"section": "Availability and Logistics"
+},
+{
+"label": "If you answered other:",
+"type": "LongText",
+"required": true,
+"options": [],
+"section": "Availability and Logistics"
+},
+{
+"label": "Why do you want to join Etched?",
+"type": "LongText",
+"required": true,
+"options": [],
+"section": "Short Response"
+},
+{
+"label": "Please provide 2-3 bullet points showcasing exceptional ability.",
+"type": "LongText",
+"required": true,
+"options": [],
+"section": "Short Response"
+},
+{
+"label": "Are you open to starting full-time immediately after your internship? (either graduated or willing to take time off from school)",
+"type": "LongText",
+"required": true,
+"options": [],
+"section": "Short Response"
+},
+{
+"label": "Resume",
+"type": "File",
+"required": true,
+"options": [],
+"section": "Experience and Skills"
+},
+{
+"label": "SAT or ACT Score",
+"type": "String",
+"required": true,
+"options": [],
+"section": "Experience and Skills"
+},
+{
+"label": "How did you hear about Etched?",
+"type": "ValueSelect",
+"required": true,
+"options": [
+"LinkedIn",
+"Company Website",
+"Through a Friend",
+"Referral",
+"Twitter/X",
+"Other"
+],
+"section": "Additional Information"
+},
+{
+"label": "Is there anything else you'd like us to know?",
+"type": "LongText",
+"required": true,
+"options": [],
+"section": "Additional Information"
+}
+],
+"error": "",
+"fetched": "2026-09-19T14:37Z"
+},
+"99e3ce7bb1149827": {
+"company": "MatX",
+"role": "Laboratory Operations Intern ",
+"link": "https://jobs.ashbyhq.com/matx/d74c72e7-49ec-4a04-9405-04ef0f0d87c6",
+"attempted": 1789828616,
+"apply_url": "https://jobs.ashbyhq.com/matx/d74c72e7-49ec-4a04-9405-04ef0f0d87c6/application",
+"portal": "ashby",
+"fields": [
+{
+"label": "Name",
+"type": "String",
+"required": true,
+"options": [],
+"section": "MatX Application Form"
+},
+{
+"label": "Email",
+"type": "Email",
+"required": true,
+"options": [],
+"section": "MatX Application Form"
+},
+{
+"label": "Resume",
+"type": "File",
+"required": true,
+"options": [],
+"section": "MatX Application Form"
+},
+{
+"label": "Phone Number",
+"type": "Phone",
+"required": true,
+"options": [],
+"section": "MatX Application Form"
+},
+{
+"label": "Cover Letter",
+"type": "File",
+"required": true,
+"options": [],
+"section": "MatX Application Form"
+},
+{
+"label": "What pronouns should we use to refer to you?",
+"type": "String",
+"required": true,
+"options": [],
+"section": "MatX Application Form"
+},
+{
+"label": "Linkedin Profile",
+"type": "Url",
+"required": true,
+"options": [],
+"section": "MatX Application Form"
+},
+{
+"label": "Website",
+"type": "Url",
+"required": true,
+"options": [],
+"section": "MatX Application Form"
+},
+{
+"label": "Are you available to work from our offices in downtown Mountain View: Tuesday-Thursdays?\u00a0",
+"type": "ValueSelect",
+"required": true,
+"options": [
+"Yes",
+"I'm Flexible",
+"No, I prefer remote work"
+],
+"section": "MatX Application Form"
+},
+{
+"label": "Are you currently authorized to work in the US?",
+"type": "Boolean",
+"required": true,
+"options": [],
+"section": "MatX Application Form"
+},
+{
+"label": "Will you now or in the future require MatX to sponsor an immigration case in order to employ you (for example, H-1B or other employment-based immigration case)?",
+"type": "String",
+"required": true,
+"options": [],
+"section": "MatX Application Form"
+},
+{
+"label": "Can you share about a project that you feel is relevant or that you're particularly proud of, and include a link to the repository/Github if available?",
+"type": "LongText",
+"required": true,
+"options": [],
+"section": "MatX Application Form"
+},
+{
+"label": "Export Control Question #1 - Are you one of the following?",
+"type": "Boolean",
+"required": true,
+"options": [],
+"section": "MatX Application Form"
+}
+],
+"error": "",
+"fetched": "2026-09-19T14:37Z"
+},
+"dd007e0f2877c946": {
+"company": "QuEra",
+"role": "Internship - Research & Development",
+"link": "https://job-boards.greenhouse.io/queracomputinginc/jobs/5227710008",
+"attempted": 1789828616,
+"apply_url": "https://boards.greenhouse.io/queracomputinginc/jobs/5227710008",
+"portal": "greenhouse",
+"fields": [
+{
+"label": "First Name",
+"type": "input_text",
+"required": true,
+"options": []
+},
+{
+"label": "Last Name",
+"type": "input_text",
+"required": true,
+"options": []
+},
+{
+"label": "Preferred First Name",
+"type": "input_text",
+"required": false,
+"options": []
+},
+{
+"label": "Email",
+"type": "input_text",
+"required": true,
+"options": []
+},
+{
+"label": "Phone",
+"type": "input_text",
+"required": true,
+"options": []
+},
+{
+"label": "Resume/CV",
+"type": "input_file",
+"required": true,
+"options": []
+},
+{
+"label": "Cover Letter",
+"type": "input_file",
+"required": true,
+"options": []
+},
+{
+"label": "Preferred Name",
+"type": "input_text",
+"required": false,
+"options": []
+},
+{
+"label": "Address Line 1",
+"type": "input_text",
+"required": true,
+"options": []
+},
+{
+"label": "Address Line 2",
+"type": "input_text",
+"required": false,
+"options": []
+},
+{
+"label": "City/Town",
+"type": "input_text",
+"required": true,
+"options": []
+},
+{
+"label": "State/Province/Region",
+"type": "input_text",
+"required": true,
+"options": []
+},
+{
+"label": "Postal/ZIP Code\n",
+"type": "input_text",
+"required": true,
+"options": []
+},
+{
+"label": "Country",
+"type": "input_text",
+"required": true,
+"options": []
+},
+{
+"label": "Highest Level of Education Obtained ",
+"type": "multi_value_single_select",
+"required": true,
+"options": [
+"High School Diploma or GED",
+"Some College, No Degree",
+"Associate's Degree",
+"Bachelor's Degree",
+"Master's Degree",
+"Professional Degree (e.g., JD, MD)",
+"Doctorate Degree (e.g., PhD, EdD)",
+"Vocational/Technical Certificate"
+]
+},
+{
+"label": "LinkedIn Profile",
+"type": "input_text",
+"required": false,
+"options": []
+},
+{
+"label": "Website",
+"type": "input_text",
+"required": false,
+"options": []
+},
+{
+"label": "Github Link",
+"type": "input_text",
+"required": false,
+"options": []
+},
+{
+"label": "How did you hear about us?",
+"type": "multi_value_single_select",
+"required": true,
+"options": [
+"QuEra Computing Website",
+"Job Board (e.g., Indeed, Glassdoor, LinkedIn)",
+"Social Media (e.g., Facebook, X, Instagram)",
+"Employee Referral",
+"Career Fair",
+"University/College Career Center",
+"Recruitment Agency",
+"Industry Event/Conference"
+]
+},
+{
+"label": "DisabilityStatus",
+"type": "multi_value_single_select",
+"required": false,
+"options": [
+"I do not want to answer",
+"No, I do not have a disability and have not had one in the past",
+"Yes, I have a disability, or have had one in the past"
+],
+"eeo": true
+},
+{
+"label": "VeteranStatus",
+"type": "multi_value_single_select",
+"required": false,
+"options": [
+"I don't wish to answer",
+"I identify as one or more of the classifications of a protected veteran",
+"I am not a protected veteran"
+],
+"eeo": true
+},
+{
+"label": "Race",
+"type": "multi_value_single_select",
+"required": false,
+"options": [
+"Decline To Self Identify",
+"Two or More Races",
+"Native Hawaiian or Other Pacific Islander",
+"White",
+"Hispanic or Latino",
+"Black or African American",
+"Asian",
+"American Indian or Alaskan Native"
+],
+"eeo": true
+},
+{
+"label": "Gender",
+"type": "multi_value_single_select",
+"required": false,
+"options": [
+"Decline To Self Identify",
+"Female",
+"Male"
+],
+"eeo": true
+}
+],
+"error": "",
+"fetched": "2026-09-19T14:37Z"
+},
+"33088fefd803a40d": {
+"company": "QuEra",
+"role": "Internship Inquiries ",
+"link": "https://job-boards.greenhouse.io/queracomputinginc/jobs/4182470008",
+"attempted": 1789828616,
+"apply_url": "https://boards.greenhouse.io/queracomputinginc/jobs/4182470008",
+"portal": "greenhouse",
+"fields": [
+{
+"label": "First Name",
+"type": "input_text",
+"required": true,
+"options": []
+},
+{
+"label": "Last Name",
+"type": "input_text",
+"required": true,
+"options": []
+},
+{
+"label": "Email",
+"type": "input_text",
+"required": true,
+"options": []
+},
+{
+"label": "Phone",
+"type": "input_text",
+"required": false,
+"options": []
+},
+{
+"label": "Resume/CV",
+"type": "input_file",
+"required": true,
+"options": []
+},
+{
+"label": "Cover Letter",
+"type": "input_file",
+"required": true,
+"options": []
+},
+{
+"label": "LinkedIn Profile",
+"type": "input_text",
+"required": false,
+"options": []
+},
+{
+"label": "Website",
+"type": "input_text",
+"required": false,
+"options": []
+}
+],
+"error": "",
+"fetched": "2026-09-19T14:37Z"
+},
+"2aeedc29474fd1e9": {
+"company": "Periodic Labs",
+"role": "Research Intern",
+"link": "https://simplify.jobs/jobs/click/4284c1a9-1025-463f-97ee-3b175776e726",
+"attempted": 1789828616,
+"apply_url": "https://jobs.ashbyhq.com/periodic-labs/2cfb099d-42f1-4dff-93f4-1862b13f914a/application",
+"portal": "ashby",
+"fields": [
+{
+"label": "Name",
+"type": "String",
+"required": true,
+"options": [],
+"section": ""
+},
+{
+"label": "Email",
+"type": "Email",
+"required": true,
+"options": [],
+"section": ""
+},
+{
+"label": "Resume",
+"type": "File",
+"required": true,
+"options": [],
+"section": ""
+},
+{
+"label": "Social Media profile (LinkedIn, X, etc.)",
+"type": "String",
+"required": true,
+"options": [],
+"section": ""
+},
+{
+"label": "What excites you most about Periodic Labs?",
+"type": "LongText",
+"required": true,
+"options": [],
+"section": ""
+},
+{
+"label": "How did you learn about Periodic Labs?",
+"type": "MultiValueSelect",
+"required": true,
+"options": [
+"Social Media",
+"News Article",
+"Friends",
+"At Work",
+"Podcast"
+],
+"section": ""
+},
+{
+"label": "Please name 1-3 examples of outstanding work you\u2019ve done.",
+"type": "LongText",
+"required": true,
+"options": [],
+"section": ""
+},
+{
+"label": "Can you work out of our office in Menlo Park, CA weekly? (We pay for your rideshare daily, and offer relocation assistance.)",
+"type": "Boolean",
+"required": true,
+"options": [],
+"section": ""
+},
+{
+"label": "Will you - now or in the future - need sponsorship to work for any employer in the US?",
+"type": "Boolean",
+"required": true,
+"options": [],
+"section": ""
+}
+],
+"error": "",
+"fetched": "2026-09-19T14:37Z"
+},
+"3b9dc89ac6dce42e": {
+"company": "Thermo Fisher Scientific",
+"role": "Engineering Co-Op",
+"link": "https://jobs.thermofisher.com/global/en/job/R-01329364/engineering-co-op",
+"attempted": 1789828616,
+"apply_url": "https://jobs.thermofisher.com/global/en/job/R-01329364/engineering-co-op",
+"portal": "other",
+"fields": null,
+"error": "form not public for this portal"
+},
+"3174fe4af76cc9b6": {
+"company": "Impulse Space",
+"role": "General Application \u2013 Engineering (Full-Time + Internships)",
+"link": "https://jobs.ashbyhq.com/impulse/0b03563e-e0b8-4774-b3da-5a072170614f",
+"attempted": 1789828616,
+"apply_url": "https://jobs.ashbyhq.com/impulse/0b03563e-e0b8-4774-b3da-5a072170614f/application",
+"portal": "ashby",
+"fields": [
+{
+"label": "Name",
+"type": "String",
+"required": true,
+"options": [],
+"section": ""
+},
+{
+"label": "Email",
+"type": "Email",
+"required": true,
+"options": [],
+"section": ""
+},
+{
+"label": "Resume",
+"type": "File",
+"required": true,
+"options": [],
+"section": ""
+},
+{
+"label": "LinkedIn",
+"type": "String",
+"required": true,
+"options": [],
+"section": ""
+},
+{
+"label": "GitHub",
+"type": "String",
+"required": true,
+"options": [],
+"section": ""
+},
+{
+"label": "Website",
+"type": "String",
+"required": true,
+"options": [],
+"section": ""
+},
+{
+"label": "Why do you want to work at Impulse?",
+"type": "LongText",
+"required": true,
+"options": [],
+"section": ""
+},
+{
+"label": "Tell us about a project you worked on that you're especially proud of and enjoyed.",
+"type": "LongText",
+"required": true,
+"options": [],
+"section": ""
+},
+{
+"label": "Full-Time or Internship?",
+"type": "ValueSelect",
+"required": true,
+"options": [
+"Full-Time",
+"Internship"
+],
+"section": ""
+}
+],
+"error": "",
+"fetched": "2026-09-19T14:37Z"
 }
 }
