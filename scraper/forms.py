@@ -64,6 +64,20 @@ def portal_of(url):
     return "other"
 
 
+def board_from_config(url):
+    """Greenhouse board token from config/companies.json, matched by the posting's host name."""
+    try:
+        cfg = json.load(open(os.path.join(os.path.dirname(DATA), "config", "companies.json")))
+    except Exception:
+        return None
+    host = urllib.parse.urlparse(url).netloc.lower()
+    key = re.sub(r"^(www|careers|jobs)\.", "", host).split(".")[0]
+    for c in cfg if isinstance(cfg, list) else cfg.get("companies", []):
+        if c.get("ats") == "greenhouse" and c.get("token") and (c["token"].lower() in key or key in c["token"].lower() or key in c.get("name", "").lower().replace(" ", "")):
+            return c["token"]
+    return None
+
+
 # ---------------------------------------------------------------- Greenhouse
 def greenhouse(url):
     m = re.search(r"greenhouse\.io/(?:embed/job_app\?[^#]*token=|)([^/?#]+)/jobs/(\d+)", url) or \
@@ -75,6 +89,17 @@ def greenhouse(url):
         q = urllib.parse.parse_qs(urllib.parse.urlparse(url).query)
         job = (q.get("gh_jid") or [None])[0]
         board = (q.get("for") or q.get("token") or [None])[0]
+    if job and not board:
+        try:
+            page, _ = _get(url, timeout=25)
+            mm = re.search(r"boards-api\.greenhouse\.io/v1/boards/([A-Za-z0-9_-]+)", page) or \
+                 re.search(r"greenhouse\.io/embed/job_(?:app|board)/?\?[^\"']*?for=([A-Za-z0-9_-]+)", page) or \
+                 re.search(r"(?:boards|job-boards)\.greenhouse\.io/([A-Za-z0-9_-]+)", page)
+            board = mm.group(1) if mm else None
+        except Exception:
+            board = None
+    if job and not board:
+        board = board_from_config(url)
     if not (board and job):
         raise ValueError("no board/job in url")
     txt, _ = _get(f"https://boards-api.greenhouse.io/v1/boards/{board}/jobs/{job}?questions=true")
@@ -99,7 +124,7 @@ def greenhouse(url):
 ASHBY_Q = """query ApiJobPosting($organizationHostedJobsPageName: String!, $jobPostingId: String!) {
   jobPosting(organizationHostedJobsPageName: $organizationHostedJobsPageName, jobPostingId: $jobPostingId) {
     id title applicationDeadline
-    applicationForm { sections { title fieldEntries { isRequired field { id title fieldType isNullable selectableValues { label value } } } } }
+    applicationForm { sections { title fieldEntries { isRequired field } } }
   }
 }"""
 
@@ -119,8 +144,15 @@ def ashby(url):
     for sec in ((jp.get("applicationForm") or {}).get("sections") or []):
         for fe in sec.get("fieldEntries") or []:
             f = fe.get("field") or {}
-            fields.append(dict(label=f.get("title", ""), type=f.get("fieldType", ""), required=bool(fe.get("isRequired")),
-                               options=[v.get("label") for v in (f.get("selectableValues") or []) if v.get("label")],
+            if isinstance(f, str):
+                try:
+                    f = json.loads(f)
+                except Exception:
+                    f = {"title": f}
+            opts = f.get("selectableValues") or f.get("options") or []
+            opts = [(v.get("label") or v.get("value")) if isinstance(v, dict) else str(v) for v in opts]
+            fields.append(dict(label=f.get("title") or f.get("label") or f.get("humanReadablePath") or "", type=f.get("fieldType") or f.get("type") or "",
+                               required=bool(fe.get("isRequired") or (f.get("isNullable") is False)), options=[o for o in opts if o],
                                section=sec.get("title") or ""))
     return dict(apply_url=f"https://jobs.ashbyhq.com/{org}/{pid}/application", fields=fields)
 
@@ -131,29 +163,30 @@ def lever(url):
     if not m:
         raise ValueError("no company/id in url")
     html, _ = _get(f"https://jobs.lever.co/{m.group(1)}/{m.group(2)}/apply")
+    clean = lambda x: re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", unescape(x))).strip()
+    pos = [mm.start() for mm in re.finditer(r'class="application-label[^"]*"', html)]
     fields = []
-    # standard lever fields
-    for lab in re.findall(r'<label[^>]*class="application-label"[^>]*>(.*?)</label>', html, re.S):
-        t = re.sub(r"<[^>]+>", " ", unescape(lab)); t = re.sub(r"\s+", " ", t).strip()
-        req = "✱" in t or "*" in t
-        t = t.replace("✱", "").strip(" *")
-        if t:
-            fields.append(dict(label=t, type="input_text", required=req, options=[]))
-    # custom questions: each in a div.application-question with a label, then input/select/textarea
-    for blk in re.findall(r'<div class="application-question[^"]*">(.*?)</div>\s*</div>', html, re.S):
-        lab = re.search(r'<div class="application-label">(.*?)</div>', blk, re.S)
+    for i, p in enumerate(pos):
+        chunk = html[p:pos[i + 1] if i + 1 < len(pos) else p + 6000]
+        lab = re.match(r'[^>]*>(.*?)</(?:label|div)>', chunk, re.S)
         if not lab:
             continue
-        t = re.sub(r"<[^>]+>", " ", unescape(lab.group(1))); t = re.sub(r"\s+", " ", t).strip()
-        req = "✱" in t
-        t = t.replace("✱", "").strip()
-        opts = [re.sub(r"\s+", " ", unescape(o)).strip() for o in re.findall(r"<option[^>]*>(.*?)</option>", blk, re.S)]
-        opts = [o for o in opts if o and not o.lower().startswith("select")]
+        t = clean(lab.group(1))
+        req = "\u2731" in t
+        t = t.replace("\u2731", "").strip()
+        rest = chunk[lab.end():]
+        opts = [clean(o) for o in re.findall(r"<option[^>]*>(.*?)</option>", rest, re.S)]
+        opts = [o for o in opts if o and not o.lower().startswith(("select", "choose", "--"))]
         if not opts:
-            opts = [re.sub(r"\s+", " ", unescape(re.sub(r"<[^>]+>", " ", o))).strip() for o in re.findall(r'<label class="application-answer-alternative">(.*?)</label>', blk, re.S)]
-        typ = "textarea" if "<textarea" in blk else ("select" if opts else "input_text")
+            opts = [clean(o) for o in re.findall(r'class="application-answer-alternative"[^>]*>(.*?)</label>', rest, re.S)]
+        typ = "file" if "type=\"file\"" in rest[:600] else "textarea" if "<textarea" in rest[:600] else ("select" if opts else "input_text")
         if t and not any(f["label"] == t for f in fields):
-            fields.append(dict(label=t, type=typ, required=req, options=opts))
+            fields.append(dict(label=t, type=typ, required=req, options=[o for o in opts if o]))
+    if not any(re.search(r"name|email", f["label"], re.I) for f in fields):
+        std = [("Full name", "input_text", True), ("Email", "input_text", True), ("Phone", "input_text", True), ("Current company", "input_text", False),
+               ("Current location", "input_text", False), ("Resume/CV", "file", True), ("LinkedIn URL", "input_text", False), ("GitHub URL", "input_text", False),
+               ("Portfolio URL", "input_text", False), ("Other website", "input_text", False), ("Additional information", "textarea", False)]
+        fields = [dict(label=a, type=b, required=c, options=[]) for a, b, c in std] + fields
     return dict(apply_url=f"https://jobs.lever.co/{m.group(1)}/{m.group(2)}/apply", fields=fields)
 
 
@@ -170,7 +203,7 @@ def main():
     for r in rows:
         k = jid(r["link"])
         rec = forms.get(k) or {}
-        if rec.get("fields") or rec.get("attempted", 0) > now - 86400:
+        if rec.get("fields") or (rec.get("attempted", 0) > now - 86400 and not (rec.get("error") and rec.get("portal") in FETCHERS)):
             continue
         if done >= MAX_PER_RUN:
             break
