@@ -79,7 +79,6 @@
   "hw": "electrical engineer",
   "tier": "big",
   "sources": [
-   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-09-17",
@@ -862,7 +861,6 @@
   "hw": "electrical engineer",
   "tier": "big",
   "sources": [
-   "internlist:coop",
    "workday"
   ],
   "first_seen": "2026-09-18",
@@ -897,7 +895,6 @@
   "hw": "metrology",
   "tier": "big",
   "sources": [
-   "internlist:coop",
    "workday"
   ],
   "first_seen": "2026-09-18",
@@ -932,7 +929,6 @@
   "hw": "product engineering",
   "tier": "big",
   "sources": [
-   "internlist:coop",
    "workday"
   ],
   "first_seen": "2026-09-18",
@@ -2710,6 +2706,23 @@
  {
   "company": "Rocket Lab",
   "title": "Manufacturing Engineering Intern Spring 2027",
+  "location": "Long Beach, CA",
+  "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7984943003",
+  "posted": "2026-09-16",
+  "deadline": "",
+  "term": "spring",
+  "rank": "A",
+  "hw": "maybe",
+  "tier": "big",
+  "sources": [
+   "greenhouse"
+  ],
+  "first_seen": "2026-09-18",
+  "last_seen": "2026-09-19"
+ },
+ {
+  "company": "Rocket Lab",
+  "title": "Manufacturing Engineering Intern Spring 2027",
   "location": "Middle River, MD",
   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7987020003",
   "posted": "2026-09-16",
@@ -2730,23 +2743,6 @@
   "location": "Wallops Island, VA",
   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7996617003",
   "posted": "2026-09-17",
-  "deadline": "",
-  "term": "spring",
-  "rank": "A",
-  "hw": "maybe",
-  "tier": "big",
-  "sources": [
-   "greenhouse"
-  ],
-  "first_seen": "2026-09-18",
-  "last_seen": "2026-09-19"
- },
- {
-  "company": "Rocket Lab",
-  "title": "Manufacturing Engineering Intern Spring 2027",
-  "location": "Long Beach, CA",
-  "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7984943003",
-  "posted": "2026-09-16",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -4318,8 +4314,7 @@
   "hw": "electrical",
   "tier": "startup",
   "sources": [
-   "greenhouse",
-   "jobspy:linkedin"
+   "greenhouse"
   ],
   "first_seen": "2026-09-17",
   "last_seen": "2026-09-19"
@@ -5759,7 +5754,6 @@
   "hw": "metrology",
   "tier": "big",
   "sources": [
-   "internlist:coop",
    "workday"
   ],
   "first_seen": "2026-09-18",
@@ -7113,8 +7107,6 @@
   "hw": "electronics",
   "tier": "big",
   "sources": [
-   "internlist:coop",
-   "internlist:winter-spring",
    "workday"
   ],
   "first_seen": "2026-09-18",
@@ -9750,7 +9742,6 @@
   "hw": "embedded",
   "tier": "big",
   "sources": [
-   "github:vanshb03-offseason",
    "workday"
   ],
   "first_seen": "2026-09-17",
@@ -11453,8 +11444,7 @@
   "hw": "packaging engineer,silicon",
   "tier": "startup",
   "sources": [
-   "greenhouse",
-   "internlist:winter-spring"
+   "greenhouse"
   ],
   "first_seen": "2026-09-17",
   "last_seen": "2026-09-19"
@@ -13620,23 +13610,6 @@
  },
  {
   "company": "Seagate",
-  "title": "Metrology maintenance engineering intern",
-  "location": "Nakhon Ratchasima, THA, ",
-  "url": "https://seagatecareers.com/job/Metrology-maintenance-engineering-intern/14919-en_US",
-  "posted": "2026-08-26",
-  "deadline": "",
-  "term": "unspecified",
-  "rank": "C",
-  "hw": "metrology",
-  "tier": "big",
-  "sources": [
-   "successfactors"
-  ],
-  "first_seen": "2026-09-18",
-  "last_seen": "2026-09-19"
- },
- {
-  "company": "Seagate",
   "title": "Product Engineering Intern",
   "location": "Nakhon Ratchasima, THA, ",
   "url": "https://seagatecareers.com/job/Product-Engineering-Intern/14647-en_US",
@@ -14294,8 +14267,7 @@
   "hw": "electrical engineering",
   "tier": "startup",
   "sources": [
-   "greenhouse",
-   "jobspy:linkedin"
+   "greenhouse"
   ],
   "first_seen": "2026-09-17",
   "last_seen": "2026-09-19"
