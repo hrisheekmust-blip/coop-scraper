@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Co-op board: one-click apply
 // @namespace    coop-hrisheek
-// @version      1.0
+// @version      1.1
 // @description  When the co-op board opens an Ashby / Greenhouse / Lever form, fill it from the board's answers, attach the files, submit, and report back.
 // @match        https://jobs.ashbyhq.com/*
 // @match        https://boards.greenhouse.io/*
@@ -52,6 +52,16 @@
     el.focus(); if (d && d.set) d.set.call(el, v); else el.value = v;
     el.dispatchEvent(new Event("input", { bubbles: true })); el.dispatchEvent(new Event("change", { bubbles: true })); el.blur();
   }
+  function setText(el, v) {
+    el.focus();
+    try { el.select && el.select(); if (el.setSelectionRange) el.setSelectionRange(0, (el.value || "").length); } catch (e) {}
+    let ok = false;
+    try { ok = document.execCommand("insertText", false, v); } catch (e) { ok = false; }
+    if (!ok || el.value !== v) setNative(el, v);
+    el.dispatchEvent(new Event("input", { bubbles: true })); el.dispatchEvent(new Event("change", { bubbles: true }));
+    el.dispatchEvent(new FocusEvent("blur", { bubbles: true })); el.blur();
+  }
+  function setNativeChecked(el, on) { const d = Object.getOwnPropertyDescriptor(HTMLInputElement.prototype, "checked"); d.set.call(el, on); el.dispatchEvent(new Event("click", { bubbles: true })); el.dispatchEvent(new Event("input", { bubbles: true })); el.dispatchEvent(new Event("change", { bubbles: true })); }
   function b64file(f) { const bin = atob(f.b64); const u8 = new Uint8Array(bin.length); for (let i = 0; i < bin.length; i++) u8[i] = bin.charCodeAt(i); return new File([u8], f.name, { type: f.type || "application/pdf" }); }
   function setFile(input, file) { const dt = new DataTransfer(); dt.items.add(file); input.files = dt.files; input.dispatchEvent(new Event("input", { bubbles: true })); input.dispatchEvent(new Event("change", { bubbles: true })); }
   const entryOf = el => el.closest(".ashby-application-form-field-entry, fieldset, .field, .application-question, .application-field, li, .form-field, [class*='field-entry'], [class*='FieldEntry'], [class*='question']") || el.parentElement;
@@ -70,7 +80,7 @@
   async function fill(P) {
     const ctx = { job: P.job, answers: P.answers, profile: P.profile, cover: P.cover };
     const A = f => window.CoopEngine.answerFor(f, ctx);
-    const need = [], done = [], seen = new Set();
+    const need = [], done = [], seen = new Set(), filled = [];
     const files = { resume: P.files.find(f => /resume/i.test(f.kind)), cover: P.cover ? P.files.find(f => /cover/i.test(f.kind)) : null };
 
     // 1. checkbox / radio groups
@@ -83,7 +93,8 @@
       const r = A({ label: q, options: labels, type: opts[0].type });
       if (r.k === "need" || !r.a) { need.push(q); continue; }
       const want = r.a.split(/\s*\+\s*/).map(norm);
-      opts.forEach((o, i) => { const on = want.some(w => w && (labels[i] === w || labels[i].toLowerCase().includes(w.toLowerCase()) || w.toLowerCase().includes(labels[i].toLowerCase()))); if (on !== o.checked) (o.labels && o.labels[0] ? o.labels[0] : o).click(); });
+      for (let i = 0; i < opts.length; i++) { const o = opts[i]; const on = want.some(w => w && (labels[i] === w || labels[i].toLowerCase().includes(w.toLowerCase()) || w.toLowerCase().includes(labels[i].toLowerCase())));
+        if (on !== o.checked) { o.click(); await sleep(60); if (on !== o.checked && o.labels && o.labels[0]) { o.labels[0].click(); await sleep(60); } if (on !== o.checked) { setNativeChecked(o, on); } } }
       done.push(q + " = " + r.a);
     }
     // 2. Ashby yes/no button pairs
@@ -131,9 +142,39 @@
         el.focus(); setNative(el, "12/01/2027"); el.dispatchEvent(new KeyboardEvent("keydown", { key: "Enter", keyCode: 13, bubbles: true })); await sleep(300); document.body.click();
         if (!el.value) need.push(q + " (pick December 2027 in the calendar)"); else done.push(q + " = " + el.value); continue;
       }
-      setNative(el, r.a); done.push(q + " = " + r.a.slice(0, 40));
+      setText(el, r.a); done.push(q + " = " + r.a.slice(0, 40)); filled.push({ el, v: r.a });
     }
-    return { need, done };
+    await sleep(400);
+    for (const { el, v } of filled) { if (el.value !== v) { setNative(el, v); await sleep(50); if (el.value !== v) setText(el, v); } }
+    return { need, done, filled };
+  }
+  // Ashby / Greenhouse list the offending fields after a rejected submit: refill just those and try again
+  function complaints() {
+    return [...document.querySelectorAll("li, p, span, div")].filter(visible).map(txt).filter(t => /^missing entry for required field:|is required$|required field/i.test(t)).map(t => t.replace(/^missing entry for required field:\s*/i, "").replace(/\s*is required$/i, "").trim()).filter((t, i, a) => t && a.indexOf(t) === i);
+  }
+  async function refill(P, names) {
+    const ctx = { job: P.job, answers: P.answers, profile: P.profile, cover: P.cover };
+    const A = f => window.CoopEngine.answerFor(f, ctx);
+    const left = [];
+    for (const name of names) {
+      const n = name.toLowerCase();
+      let hit = false;
+      for (const el of document.querySelectorAll("input, textarea, select")) {
+        if (el.type === "file" || el.type === "hidden") continue;
+        const q = el.type === "checkbox" || el.type === "radio" ? "" : labelOf(el).toLowerCase();
+        if (q && (q === n || q.startsWith(n) || n.startsWith(q))) { const r = A({ label: labelOf(el), options: [], type: el.type }); if (r.a && r.k !== "need") { setNative(el, ""); await sleep(30); setText(el, r.a); hit = true; } break; }
+      }
+      if (!hit) for (const fs of document.querySelectorAll("fieldset, [role=group], [role=radiogroup]")) {
+        const q = groupLabel(fs).toLowerCase(); if (!(q === n || q.startsWith(n) || n.startsWith(q))) continue;
+        const opts = [...fs.querySelectorAll("input[type=checkbox], input[type=radio]")]; const labels = opts.map(o => txt(o.labels && o.labels[0]) || txt(o.parentElement));
+        const r = A({ label: groupLabel(fs), options: labels, type: opts[0] && opts[0].type }); if (!r.a || r.k === "need") break;
+        const want = r.a.split(/\s*\+\s*/).map(norm);
+        for (let i = 0; i < opts.length; i++) { const on = want.some(w => w && (labels[i] === w || labels[i].toLowerCase().includes(w.toLowerCase()))); if (on && !opts[i].checked) { opts[i].click(); await sleep(60); if (!opts[i].checked) setNativeChecked(opts[i], true); } }
+        hit = true; break;
+      }
+      if (!hit) left.push(name);
+    }
+    return left;
   }
 
   // ---------------------------------------------------------------- submit + watch
@@ -158,12 +199,21 @@
     }
     const btn = submitButton();
     if (!btn) { banner("filled everything but couldn't find the Submit button; press it yourself", "err"); report({ ok: false, status: "needs-you", need: ["submit button"], done }); watchForSuccess(P, done); return; }
-    await sleep(500); btn.click();
-    banner("submitting…");
-    for (let i = 0; i < 50; i++) {
-      await sleep(500);
-      if (succeeded()) { banner("submitted ✓ recorded on the board", "ok"); report({ ok: true, status: "applied", done }); sessionStorage.removeItem(KEY); return; }
-      if (captchaUp()) { banner("captcha: solve it, then press Submit", "err"); report({ ok: false, status: "needs-you", need: ["captcha"], done }); watchForSuccess(P, done); return; }
+    await sleep(1200);
+    for (let attempt = 0; attempt < 3; attempt++) {
+      (submitButton() || btn).click();
+      banner(attempt ? `resubmitting (try ${attempt + 1})…` : "submitting…");
+      let names = [];
+      for (let i = 0; i < 40; i++) {
+        await sleep(500);
+        if (succeeded()) { banner("submitted ✓ recorded on the board", "ok"); report({ ok: true, status: "applied", done }); sessionStorage.removeItem(KEY); return; }
+        if (captchaUp()) { banner("captcha: solve it, then press Submit", "err"); report({ ok: false, status: "needs-you", need: ["captcha"], done }); watchForSuccess(P, done); return; }
+        names = complaints(); if (names.length && i > 2) break;
+      }
+      if (!names.length) break;
+      banner(`form rejected ${names.length} field(s): ${names.join(", ")}; refilling…`);
+      const left = await refill(P, names); await sleep(800);
+      if (left.length) { banner(`still can't fill: ${left.join(" · ")}. Fill those and press Submit.`, "err"); report({ ok: false, status: "needs-you", need: left, done }); watchForSuccess(P, done); return; }
     }
     const errs = [...document.querySelectorAll("[class*='error'], [role=alert]")].filter(visible).map(txt).filter(Boolean).slice(0, 4);
     banner("submitted but no confirmation seen" + (errs.length ? ": " + errs.join(" · ") : "") + ". Check the page, then press Submit if needed.", "err");
