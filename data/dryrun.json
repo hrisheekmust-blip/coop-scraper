@@ -1,5 +1,5 @@
 {
- "at": "2026-09-19T18:44:33.313Z",
+ "at": "2026-09-19T19:07:46.174Z",
  "summary": {
   "greenhouse": {
    "no-button": 6
@@ -12,25 +12,6 @@
   },
   "smartrecruiters": {
    "no-button": 6
-  },
-  "other": {
-   "no-button": 4,
-   "needs-you": 2
-  },
-  "icims": {
-   "no-button": 6
-  },
-  "oracle": {
-   "no-button": 6
-  },
-  "successfactors": {
-   "no-button": 6
-  },
-  "workday": {
-   "no-button": 6
-  },
-  "amazon": {
-   "no-button": 5
   }
  },
  "results": [
@@ -49,6 +30,13 @@
    "final_url": "https://job-boards.greenhouse.io/andurilindustries/jobs/5236565007?gh_jid=5236565007#coop=d59a203fb8da4ed6",
    "pages": 0,
    "button": "",
+   "errors": [
+    "requestStorageAccess: Permission denied."
+   ],
+   "fields": {
+    "visible": 32,
+    "filled": 5
+   },
    "title": "Job Application for Winter 2027 Electrical Engineer Co-op at Anduril Industries"
   },
   {
@@ -66,6 +54,17 @@
    "final_url": "https://careers.formlabs.com/job/8196515/apply/?gh_jid=8196515#coop=2422571b5b6399e4",
    "pages": 0,
    "button": "",
+   "errors": [
+    "The Content Security Policy directive 'upgrade-insecure-requests' is ignored when delivered in a report-only policy.",
+    "The Content Security Policy directive 'upgrade-insecure-requests' is ignored when delivered in a report-only policy.",
+    "Custom state pseudo classes have been changed from \":--var\" to \":state(var)\". See more here: https://github.com/w3c/csswg-drafts/issues/4805",
+    "The Content Security Policy directive 'upgrade-insecure-requests' is ignored when delivered in a report-only policy.",
+    "The Content Security Policy directive 'upgrade-insecure-requests' is ignored when delivered in a report-only policy."
+   ],
+   "fields": {
+    "visible": 0,
+    "filled": 0
+   },
    "title": "Hardware Test Engineering Intern (Winter/Spring 2027) | Formlabs"
   },
   {
@@ -83,6 +82,13 @@
    "final_url": "https://job-boards.greenhouse.io/rocketlab/jobs/7987042003#coop=4093863ce79e7050",
    "pages": 0,
    "button": "",
+   "errors": [
+    "requestStorageAccess: Permission denied."
+   ],
+   "fields": {
+    "visible": 55,
+    "filled": 15
+   },
    "title": "Job Application for Test Engineering Intern - Manufacturing Spring 2027 at Rocket Lab Corporation"
   },
   {
@@ -100,6 +106,17 @@
    "final_url": "https://www.psiquantum.com/apply?gh_jid=7761881003#coop=2f6db6025596e20c",
    "pages": 0,
    "button": "",
+   "errors": [
+    "Refused to execute script from 'https://www.psiquantum.com/https://www.googletagmanager.com/gtm.js?id=GTM-5J3888X' because its MIME type ('text/html') is not executable, and strict",
+    "Career Quote slider: Number of slides and pagination dots do not match or elements not found.",
+    "Quote slider: Number of slides and pagination dots do not match or elements not found.",
+    "Elementos da lista ou display de imagem não encontrados.",
+    "Slider principal: Número de slides e itens de paginação não correspondem ou elementos não encontrados. Verifique as classes '.slide' e '.pagination-item'."
+   ],
+   "fields": {
+    "visible": 0,
+    "filled": 0
+   },
    "title": "Apply — PsiQuantum"
   },
   {
@@ -117,6 +134,17 @@
    "final_url": "https://www.interstates.com/careers/jobs?gh_jid=4401319009&gh_jid=4401319009&gh_src=Simplify#coop=aed1afdd2872f6df",
    "pages": 0,
    "button": "",
+   "errors": [
+    "Refused to load the script 'https://sc-static.net/scevent.min.js' because it violates the following Content Security Policy directive: \"script-src-elem 'self' *.interstates.com 'un",
+    "Refused to connect to 'https://alb.reddit.com/rp' because it violates the following Content Security Policy directive: \"connect-src 'self' *.hcaptcha.com https://analytics.ahrefs.c",
+    "Refused to connect to 'https://alb.reddit.com/rp' because it violates the document's Content Security Policy.",
+    "Refused to connect to 'https://alb.reddit.com/rp' because it violates the following Content Security Policy directive: \"connect-src 'self' *.hcaptcha.com https://analytics.ahrefs.c",
+    "Refused to connect to 'https://alb.reddit.com/rp' because it violates the document's Content Security Policy."
+   ],
+   "fields": {
+    "visible": 0,
+    "filled": 0
+   },
    "title": "Job Search | Interstates"
   },
   {
@@ -134,6 +162,11 @@
    "final_url": "https://akunacapital.com/careers/job/8018880/?gh_jid=8018880&utm_source=github-vansh-ouckah#coop=d29cea5ac41cafa5",
    "pages": 0,
    "button": "",
+   "errors": [],
+   "fields": {
+    "visible": 0,
+    "filled": 0
+   },
    "title": "Akuna Capital"
   },
   {
@@ -170,6 +203,13 @@
    "final_url": "https://jobs.ashbyhq.com/etched/157ed4f4-6e3b-4ec9-b93f-3e363e92041e/application#coop=774542fb12febfcc",
    "pages": 0,
    "button": "Submit Application",
+   "errors": [
+    "requestStorageAccess: Permission denied."
+   ],
+   "fields": {
+    "visible": 41,
+    "filled": 38
+   },
    "title": "RTL Intern @ Etched"
   },
   {
@@ -198,6 +238,13 @@
    "final_url": "https://jobs.ashbyhq.com/skydio/9ac944bc-89da-44bb-bf9c-3b9922e7cbee/application#coop=539b2ed846929909",
    "pages": 0,
    "button": "Submit Application",
+   "errors": [
+    "requestStorageAccess: Permission denied."
+   ],
+   "fields": {
+    "visible": 24,
+    "filled": 23
+   },
    "title": "Electrical Engineer Intern - Winter 2027 @ Skydio"
   },
   {
@@ -225,6 +272,13 @@
    "final_url": "https://jobs.ashbyhq.com/skydio/1ec2fe3c-3fb2-4485-870d-764a3e5f5baf/application#coop=4774516ba7453e8b",
    "pages": 0,
    "button": "Submit Application",
+   "errors": [
+    "requestStorageAccess: Permission denied."
+   ],
+   "fields": {
+    "visible": 24,
+    "filled": 23
+   },
    "title": "Hardware Product Management Intern - Fall 2026/Winter 2027 @ Skydio"
   },
   {
@@ -248,6 +302,13 @@
    "final_url": "https://jobs.ashbyhq.com/1x/d687b375-8136-4e6f-baa6-369b89366050/application#coop=42fbce852298573b",
    "pages": 0,
    "button": "Submit Application",
+   "errors": [
+    "requestStorageAccess: Permission denied."
+   ],
+   "fields": {
+    "visible": 6,
+    "filled": 5
+   },
    "title": "Internship - Manufacturing Engineering @ 1X"
   },
   {
@@ -284,6 +345,13 @@
    "final_url": "https://jobs.ashbyhq.com/etched/27e5bd6b-9357-45f0-9e79-cfa2bf4eeba8/application#coop=f6d801842bde09ee",
    "pages": 0,
    "button": "Submit Application",
+   "errors": [
+    "requestStorageAccess: Permission denied."
+   ],
+   "fields": {
+    "visible": 41,
+    "filled": 38
+   },
    "title": "Chip Simulation Software Intern @ Etched"
   },
   {
@@ -320,6 +388,13 @@
    "final_url": "https://jobs.ashbyhq.com/etched/5f1f5739-3b58-467c-b351-ff183c94d96d/application#coop=c952d8a85af8ae2f",
    "pages": 0,
    "button": "Submit Application",
+   "errors": [
+    "requestStorageAccess: Permission denied."
+   ],
+   "fields": {
+    "visible": 41,
+    "filled": 38
+   },
    "title": "DFT Intern @ Etched"
   },
   {
@@ -337,6 +412,13 @@
    "final_url": "https://jobs.lever.co/hermeus/b7babdb5-64ee-49ad-a193-918d6a31c462/apply#coop=309203e333f1b275",
    "pages": 0,
    "button": "",
+   "errors": [
+    "Failed to execute 'getInstalledRelatedApps' on 'Navigator': getInstalledRelatedApps() is only supported in top-level browsing contexts."
+   ],
+   "fields": {
+    "visible": 48,
+    "filled": 26
+   },
    "title": "Hermeus - Avionics Electrical Engineering Intern - Spring/Summer 2027"
   },
   {
@@ -354,6 +436,11 @@
    "final_url": "https://jobs.eu.lever.co/quantinuum/550a6e3c-2556-4ac3-8cc4-862cb0681dc0/apply?lever-source=Simplify#coop=78f886849e1a6eaf",
    "pages": 0,
    "button": "",
+   "errors": [],
+   "fields": {
+    "visible": 45,
+    "filled": 19
+   },
    "title": "Quantinuum - Layout Automation Developer Intern - 993"
   },
   {
@@ -371,6 +458,13 @@
    "final_url": "https://jobs.lever.co/hermeus/643fd7b7-9015-43a1-aa2b-a54f117b403c/apply#coop=f3e201ccecc02bae",
    "pages": 0,
    "button": "",
+   "errors": [
+    "Failed to execute 'getInstalledRelatedApps' on 'Navigator': getInstalledRelatedApps() is only supported in top-level browsing contexts."
+   ],
+   "fields": {
+    "visible": 49,
+    "filled": 27
+   },
    "title": "Hermeus - Subsystem Test Engineering Intern - Spring/Summer 2027"
   },
   {
@@ -388,6 +482,13 @@
    "final_url": "https://jobs.lever.co/shieldai/87d982f2-8b2b-4c73-9a19-71e461c7b724/apply#coop=2537521518f7f31f",
    "pages": 0,
    "button": "",
+   "errors": [
+    "Failed to execute 'getInstalledRelatedApps' on 'Navigator': getInstalledRelatedApps() is only supported in top-level browsing contexts."
+   ],
+   "fields": {
+    "visible": 74,
+    "filled": 47
+   },
    "title": "Shield AI - Electrical Engineering Spring Co-op (January 2027) (R4475)"
   },
   {
@@ -405,6 +506,13 @@
    "final_url": "https://jobs.lever.co/hermeus/7a0408e7-700c-4206-85d6-62f71f625652/apply#coop=117e950a697cb9e3",
    "pages": 0,
    "button": "",
+   "errors": [
+    "Failed to execute 'getInstalledRelatedApps' on 'Navigator': getInstalledRelatedApps() is only supported in top-level browsing contexts."
+   ],
+   "fields": {
+    "visible": 51,
+    "filled": 30
+   },
    "title": "Hermeus - Environmental, Health, and Safety (EHS) Intern - 2027"
   },
   {
@@ -422,6 +530,13 @@
    "final_url": "https://jobs.lever.co/hermeus/944918b0-17ca-46ec-9413-5acd7086addf/apply#coop=195882dc93ad64e6",
    "pages": 0,
    "button": "",
+   "errors": [
+    "Failed to execute 'getInstalledRelatedApps' on 'Navigator': getInstalledRelatedApps() is only supported in top-level browsing contexts."
+   ],
+   "fields": {
+    "visible": 51,
+    "filled": 30
+   },
    "title": "Hermeus - Flight Operations & Airworthiness Engineering Intern - Spring/Summer/Fall 2027"
   },
   {
@@ -439,6 +554,11 @@
    "final_url": "https://jobs.smartrecruiters.com/wabtec/3743990015249216#coop=c7fd54d47f09378d",
    "pages": 0,
    "button": "",
+   "errors": [],
+   "fields": {
+    "visible": 0,
+    "filled": 0
+   },
    "title": "Wabtec Firmware Engineering Co-Op (January-June 2027) | SmartRecruiters"
   },
   {
@@ -456,6 +576,11 @@
    "final_url": "https://jobs.smartrecruiters.com/llnl/3743990014540256#coop=f31eeb0de08729b7",
    "pages": 0,
    "button": "",
+   "errors": [],
+   "fields": {
+    "visible": 0,
+    "filled": 0
+   },
    "title": "LLNL CGSR Undergraduate Research Associate - Spring 2027 | SmartRecruiters"
   },
   {
@@ -473,6 +598,11 @@
    "final_url": "https://jobs.smartrecruiters.com/Wabtec/3743990015249216?utm_source=Simplify#coop=0602e6e52dfeac63",
    "pages": 0,
    "button": "",
+   "errors": [],
+   "fields": {
+    "visible": 0,
+    "filled": 0
+   },
    "title": "Wabtec Firmware Engineering Co-Op (January-June 2027) | SmartRecruiters"
   },
   {
@@ -490,6 +620,11 @@
    "final_url": "https://jobs.smartrecruiters.com/renesaselectronics/744000150194379#coop=d66dabc800498d62",
    "pages": 0,
    "button": "",
+   "errors": [],
+   "fields": {
+    "visible": 0,
+    "filled": 0
+   },
    "title": "Renesas Electronics Embedded Systems Intern | SmartRecruiters"
   },
   {
@@ -507,6 +642,11 @@
    "final_url": "https://jobs.smartrecruiters.com/RenesasElectronics/744000150194379?utm_source=Simplify#coop=2f8d4c365c0a0548",
    "pages": 0,
    "button": "",
+   "errors": [],
+   "fields": {
+    "visible": 0,
+    "filled": 0
+   },
    "title": "Renesas Electronics Embedded Systems Intern | SmartRecruiters"
   },
   {
@@ -524,680 +664,12 @@
    "final_url": "https://jobs.smartrecruiters.com/renesaselectronics/744000138837009#coop=092f22d007bbb0cf",
    "pages": 0,
    "button": "",
+   "errors": [],
+   "fields": {
+    "visible": 0,
+    "filled": 0
+   },
    "title": "Renesas Electronics Integrated Сircuit Test Engineer - Intern | SmartRecruiters"
-  },
-  {
-   "id": "881738c63f3ca958",
-   "company": "Skyworks",
-   "role": "Test Engineering 2027 Winter/Spring Co-Op",
-   "portal": "other",
-   "url": "https://careers.skyworksinc.com/job/Test-Engineering-2027-WinterSpring-Co-Op/78399-en_US",
-   "status": "no-button",
-   "need": [
-    "next button"
-   ],
-   "done": [],
-   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep goingI finished it — continueSkip this one",
-   "final_url": "https://careers.skyworksinc.com/job/Test-Engineering-2027-WinterSpring-Co-Op/78399-en_US#coop=881738c63f3ca958",
-   "pages": 0,
-   "button": "",
-   "title": "Test Engineering 2027 Winter/Spring Co-Op Job Details | Skyworks"
-  },
-  {
-   "id": "60a0506901f15623",
-   "company": "BAE Systems",
-   "role": "Electrical Engineering Coop (Spring/Summer 2027), Onsite",
-   "portal": "other",
-   "url": "https://jobs.baesystems.com/global/en/job/127774BR/electrical-engineering-coop-spring-summer-2027-onsite",
-   "status": "no-button",
-   "need": [
-    "next button"
-   ],
-   "done": [
-    "Enter Email address (Required) = test.applicant@example.com"
-   ],
-   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep goingI finished it — continueSkip this one",
-   "final_url": "https://jobs.baesystems.com/global/en/job/127774BR/Electrical-Engineering-Coop-Spring-Summer-2027-Onsite#coop=60a0506901f15623",
-   "pages": 0,
-   "button": "",
-   "title": "Electrical Engineering Coop (Spring/Summer 2027), Onsite in Cedar Rapids, Iowa, United States | Engineering & Technology at BAE Systems"
-  },
-  {
-   "id": "8642b49f33620dad",
-   "company": "Nova-Tech",
-   "role": "Electrical Engineer Co-op",
-   "portal": "other",
-   "url": "https://novatechengineering.applytojob.com/apply/EdW1fxhcs5/Electrical-Engineering-CoOp?utm_source=Simplify",
-   "status": "no-button",
-   "need": [
-    "next button"
-   ],
-   "done": [
-    "First Name = Test",
-    "Last Name = Applicant",
-    "Email Address = test.applicant@example.com",
-    "Phone = 617-555-0100",
-    "Address = Boston, MA",
-    "City = Boston, MA",
-    "State/Province = Massachusetts",
-    "Postal = 02115",
-    "Resume = Test_Applicant_Resume.pdf"
-   ],
-   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep goingI finished it — continueSkip this one",
-   "final_url": "https://novatechengineering.applytojob.com/apply/EdW1fxhcs5/Electrical-Engineering-CoOp?utm_source=Simplify#coop=8642b49f33620dad",
-   "pages": 0,
-   "button": "",
-   "title": "Electrical Engineering Co-Op - Nova-Tech Engineering - Career Page"
-  },
-  {
-   "id": "dbfc8efd8ba70e40",
-   "company": "OnLogic",
-   "role": "Firmware Engineer Co-op",
-   "portal": "other",
-   "url": "https://apply.workable.com/onlogic-inc/j/10EC1527D8/apply?utm_source=Simplify",
-   "status": "needs-you",
-   "need": [
-    "We expect this role to begin in January 2027 and run until June 2027. Does this align with your academic schedule?"
-   ],
-   "done": [
-    "Are you currently able to work in the U.S. without employment visa sponsorship? = NO",
-    "Are you able to work in the U.S. without employment visa sponsorship in the future? = NO",
-    "I understand that this role requires the successful completion of a background check. = YES",
-    "I acknowledge that this co-op pays $22/hr. = Open",
-    "First name = Test",
-    "Last name = Applicant",
-    "Email = test.applicant@example.com",
-    "Phone +1 = 617-555-0100",
-    "Resume Choose file = Test_Applicant_Resume.pdf",
-    "We’d like to ensure our team addresses you properly through the interview process. If you’d like, please share your pronouns. (Optional) = Decline to self-identify",
-    "How did you first learn about OnLogic and this position? = Company careers page",
-    "What is your desired salary? = Open",
-    "What academic year (junior, senior) will you be in January 2027? = Third year (junior)",
-    "Are you applying with a school affiliated co-op program? If so, does this match your programs requirements? = Northeastern University",
-    "We are unable to offer any relocation assistance at this time. Do you have the necessary resources and ability to commute to South Burlington, Vermont or Cary, North Carolina for the duration of this co-op? = https://example.com"
-   ],
-   "banner": "Co-op board: 1 field(s) need you before submit: We expect this role to begin in January 2027 and run until June 2027. Does this align with your academic schedule?I finished it — continueSkip this one",
-   "final_url": "https://apply.workable.com/onlogic-inc/j/10EC1527D8/apply?utm_source=Simplify#coop=dbfc8efd8ba70e40",
-   "pages": 0,
-   "button": "",
-   "title": "Firmware Engineering Co-op - OnLogic - Application"
-  },
-  {
-   "id": "b8e9b25e2fa27de4",
-   "company": "Specter Aerospace",
-   "role": "Electrical Engineer Co-op",
-   "portal": "other",
-   "url": "https://specteraerospace.bamboohr.com/careers/115/?utm_source=Simplify",
-   "status": "needs-you",
-   "need": [
-    "State (no option matched 'Massachusetts')",
-    "Country (no option matched 'United States')"
-   ],
-   "done": [
-    "Are you a U.S. Citizen? = Yes",
-    "Are you able to pass a pre-employement drug test? = Yes",
-    "Do you have a U.S. DoD Secret clearance? = No",
-    "left blank (optional): Please leave this field blank",
-    "First Name = Test",
-    "Last Name = Applicant",
-    "Email = test.applicant@example.com",
-    "Phone = 617-555-0100",
-    "Address = Boston, MA",
-    "City = Boston, MA",
-    "ZIP = 02115",
-    "Date Available = 12/01/2027",
-    "Desired Pay = Open",
-    "Website, Blog or Portfolio = https://example.com",
-    "LinkedIn URL = https://www.linkedin.com/in/test-applica"
-   ],
-   "banner": "Co-op board: 2 field(s) need you before submit: State (no option matched 'Massachusetts') · Country (no option matched 'United States')I finished it — continueSkip this one",
-   "final_url": "https://specteraerospace.bamboohr.com/careers/115/?utm_source=Simplify#coop=b8e9b25e2fa27de4",
-   "pages": 0,
-   "button": "",
-   "title": "BambooHR"
-  },
-  {
-   "id": "b24a5bf225ef6095",
-   "company": "D3 Embedded",
-   "role": "Embedded Systems Design Co-op",
-   "portal": "other",
-   "url": "https://d3engineering.applytojob.com/apply/uixxAbdlV5/Embedded-Systems-Design-Coop?utm_source=Simplify",
-   "status": "no-button",
-   "need": [
-    "next button"
-   ],
-   "done": [
-    "First Name = Test",
-    "Last Name = Applicant",
-    "Email Address = test.applicant@example.com",
-    "Phone = 617-555-0100",
-    "Address = Boston, MA",
-    "City = Boston, MA",
-    "State/Province = Massachusetts",
-    "Postal = 02115",
-    "Resume = Test_Applicant_Resume.pdf"
-   ],
-   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep goingI finished it — continueSkip this one",
-   "final_url": "https://d3engineering.applytojob.com/apply/uixxAbdlV5/Embedded-Systems-Design-Coop?utm_source=Simplify#coop=b24a5bf225ef6095",
-   "pages": 0,
-   "button": "",
-   "title": "Embedded Systems Design Co-op - Career Page"
-  },
-  {
-   "id": "5c0ace6cc89c5797",
-   "company": "General Dynamics Mission Systems",
-   "role": "Electrical Engineer Co-Op (January - May 2027)",
-   "portal": "icims",
-   "url": "https://careers-gdms.icims.com/jobs/74598/electrical-engineer-co-op-%28january---may-2027%29/job",
-   "status": "no-button",
-   "need": [
-    "next button"
-   ],
-   "done": [
-    "Select language = English"
-   ],
-   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep goingI finished it — continueSkip this one",
-   "final_url": "https://careers-gdms.icims.com/jobs/74598/electrical-engineer-co-op-%28january---may-2027%29/job#coop=5c0ace6cc89c5797",
-   "pages": 0,
-   "button": "",
-   "title": "Human Verification"
-  },
-  {
-   "id": "c36df8051642baea",
-   "company": "CDM Smith",
-   "role": "Electrical Engineering Co-op",
-   "portal": "icims",
-   "url": "https://careers.cdmsmith.com/jobs/4397?icims=1&utm_source=Simplify",
-   "status": "no-button",
-   "need": [
-    "next button"
-   ],
-   "done": [],
-   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep goingI finished it — continueSkip this one",
-   "final_url": "https://careers.cdmsmith.com/jobs/4397?icims=1&utm_source=Simplify#coop=c36df8051642baea",
-   "pages": 0,
-   "button": "",
-   "title": "Electrical Engineering Co-op (Spring 2027!) in Boston, Massachusetts | CDM Smith"
-  },
-  {
-   "id": "201ceb30990412f3",
-   "company": "PPL",
-   "role": "Electrical Engineer Co-op",
-   "portal": "icims",
-   "url": "https://careers.pplweb.com/jobs/15134?icims=1&utm_source=Simplify",
-   "status": "no-button",
-   "need": [
-    "next button"
-   ],
-   "done": [],
-   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep goingI finished it — continueSkip this one",
-   "final_url": "https://careers.pplweb.com/jobs/15134?icims=1&utm_source=Simplify#coop=201ceb30990412f3",
-   "pages": 0,
-   "button": "",
-   "title": "Spring 2027 Electrical Engineering Co-op - Multiple Positions Available! in Multiple Locations | PPL Corporation"
-  },
-  {
-   "id": "f783dd636ad05643",
-   "company": "Werfen",
-   "role": "Electrical Engineer Co-op",
-   "portal": "icims",
-   "url": "https://careers-werfen.icims.com/jobs/10905/job?mobile=true&needsRedirect=false&utm_source=Simplify",
-   "status": "no-button",
-   "need": [
-    "next button"
-   ],
-   "done": [
-    "Select language = English"
-   ],
-   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep goingI finished it — continueSkip this one",
-   "final_url": "https://careers-werfen.icims.com/jobs/10905/job?mobile=true&needsRedirect=false&utm_source=Simplify#coop=f783dd636ad05643",
-   "pages": 0,
-   "button": "",
-   "title": "Human Verification"
-  },
-  {
-   "id": "5ffa7838ed154451",
-   "company": "Keysight Technologies",
-   "role": "Semiconductor Process Development Engineering Intern",
-   "portal": "icims",
-   "url": "https://jobs.keysight.com/external/jobs/54323?icims=1&utm_source=Simplify",
-   "status": "no-button",
-   "need": [
-    "next button"
-   ],
-   "done": [],
-   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep goingI finished it — continueSkip this one",
-   "final_url": "https://jobs.keysight.com/external/jobs/54323?icims=1&utm_source=Simplify#coop=5ffa7838ed154451",
-   "pages": 0,
-   "button": "",
-   "title": "Semiconductor Process Development Engineering Intern in Santa Rosa, California | Keysight Technologies, Inc."
-  },
-  {
-   "id": "b7dc8e7e380bb05a",
-   "company": "AMD",
-   "role": "Analog/Mixed-Signal Design Intern/Co-op",
-   "portal": "icims",
-   "url": "https://careers.amd.com/careers-home/jobs/92346?icims=1&utm_source=Simplify",
-   "status": "no-button",
-   "need": [
-    "next button"
-   ],
-   "done": [],
-   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep goingI finished it — continueSkip this one",
-   "final_url": "https://careers.amd.com/careers-home/jobs/92346?icims=1&utm_source=Simplify#coop=b7dc8e7e380bb05a",
-   "pages": 0,
-   "button": "",
-   "title": "2027 PhD Analog/Mixed-Signal SerDes Design Intern/Co-op in Multiple Locations | Advanced Micro Devices, Inc"
-  },
-  {
-   "id": "b0cf543268bd900c",
-   "company": "Emerson",
-   "role": "Electrical Engineering Co-op (Spring 2027)",
-   "portal": "oracle",
-   "url": "https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26010996",
-   "status": "no-button",
-   "need": [
-    "next button"
-   ],
-   "done": [],
-   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep goingI finished it — continueSkip this one",
-   "final_url": "https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26010996#coop=b0cf543268bd900c",
-   "pages": 0,
-   "button": "",
-   "title": "Electrical Engineering Co-op (Spring 2027) - Emerson Career Site Careers"
-  },
-  {
-   "id": "379ae2abed6014c6",
-   "company": "onsemi",
-   "role": "Spring 2027 Non-Engineering Internships - Multiple Locations",
-   "portal": "oracle",
-   "url": "https://hctz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2506631",
-   "status": "no-button",
-   "need": [
-    "next button"
-   ],
-   "done": [],
-   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep goingI finished it — continueSkip this one",
-   "final_url": "https://hctz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2506631#coop=379ae2abed6014c6",
-   "pages": 0,
-   "button": "",
-   "title": "Spring 2027 Non-Engineering Internships - Multiple Locations - Jobs onsemi Careers"
-  },
-  {
-   "id": "ba65bc4e5eb66cd6",
-   "company": "Arconic",
-   "role": "Electrical Engineer Co-op",
-   "portal": "oracle",
-   "url": "https://hdnn.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/113826?utm_source=Simplify",
-   "status": "no-button",
-   "need": [
-    "next button"
-   ],
-   "done": [],
-   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep goingI finished it — continueSkip this one",
-   "final_url": "https://hdnn.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/113826?utm_source=Simplify#coop=ba65bc4e5eb66cd6",
-   "pages": 0,
-   "button": "",
-   "title": "Electrical Engineer- Co-op - Arconic Careers"
-  },
-  {
-   "id": "2177b8af7b5f2b1c",
-   "company": "Texas Instruments",
-   "role": "Test or Validation Engineering Intern",
-   "portal": "oracle",
-   "url": "https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/25017578",
-   "status": "no-button",
-   "need": [
-    "next button"
-   ],
-   "done": [],
-   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep goingI finished it — continueSkip this one",
-   "final_url": "https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/25017578#coop=2177b8af7b5f2b1c",
-   "pages": 0,
-   "button": "",
-   "title": "Test or Validation Engineering Intern - Texas Instruments Careers"
-  },
-  {
-   "id": "79b311f512323933",
-   "company": "Kent",
-   "role": "Electrical / Instrumentation & Controls Designer Intern",
-   "portal": "oracle",
-   "url": "https://fa-emqh-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/7007?utm_source=Simplify",
-   "status": "no-button",
-   "need": [
-    "next button"
-   ],
-   "done": [],
-   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep goingI finished it — continueSkip this one",
-   "final_url": "https://fa-emqh-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/7007?utm_source=Simplify#coop=79b311f512323933",
-   "pages": 0,
-   "button": "",
-   "title": "Electrical / I&C Designer Intern - Kent Careers Careers"
-  },
-  {
-   "id": "243f5ef4b489440e",
-   "company": "Fortive",
-   "role": "Test Engineer Co-op",
-   "portal": "oracle",
-   "url": "https://ejta.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/10562?utm_source=Simplify",
-   "status": "no-button",
-   "need": [
-    "next button"
-   ],
-   "done": [],
-   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep goingI finished it — continueSkip this one",
-   "final_url": "https://ejta.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/10562?utm_source=Simplify#coop=243f5ef4b489440e",
-   "pages": 0,
-   "button": "",
-   "title": "Test Engineer Co-Op - Fortive Careers Careers"
-  },
-  {
-   "id": "0d9c4b030d8ab3e5",
-   "company": "Qorvo",
-   "role": "RF Design Engineer Intern",
-   "portal": "successfactors",
-   "url": "https://careers.qorvo.com/job/Denver-RF-Design-Engineering-Intern-CO-80014/1424717100/?ats=successfactors&utm_source=Simplify",
-   "status": "no-button",
-   "need": [
-    "next button"
-   ],
-   "done": [
-    "left blank (optional): Search by Keyword"
-   ],
-   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep goingI finished it — continueSkip this one",
-   "final_url": "https://careers.qorvo.com/job/Denver-RF-Design-Engineering-Intern-CO-80014/1424717100/?ats=successfactors&utm_source=Simplify#coop=0d9c4b030d8ab3e5",
-   "pages": 0,
-   "button": "",
-   "title": "RF Design Engineering Intern Job Details | Qorvo"
-  },
-  {
-   "id": "8154dcd7d33b7b49",
-   "company": "L3Harris Technologies",
-   "role": "Electrical Engineer Intern",
-   "portal": "successfactors",
-   "url": "https://jobs.l3harris.com/job/Londonderry-Electrical-Engineering-Intern-NH-03053/1420020900/?ats=successfactors&utm_source=Simplify",
-   "status": "no-button",
-   "need": [
-    "next button"
-   ],
-   "done": [],
-   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep goingI finished it — continueSkip this one",
-   "final_url": "https://jobs.l3harris.com/job/Londonderry-Electrical-Engineering-Intern-NH-03053/1420020900/?ats=successfactors&utm_source=Simplify#coop=8154dcd7d33b7b49",
-   "pages": 0,
-   "button": "",
-   "title": "Electrical Engineering Intern Job Details | L3HHCM20"
-  },
-  {
-   "id": "6e9e49ed4f732766",
-   "company": "CHS",
-   "role": "Electrical Engineer Intern",
-   "portal": "successfactors",
-   "url": "https://careers.chsinc.com/job/McPherson-Electrical-Engineer-Intern-KS-67460-9402/1429868200/?ats=successfactors&utm_source=Simplify",
-   "status": "no-button",
-   "need": [
-    "next button"
-   ],
-   "done": [],
-   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep goingI finished it — continueSkip this one",
-   "final_url": "https://careers.chsinc.com/job/McPherson-Electrical-Engineer-Intern-KS-67460-9402/1429868200/?ats=successfactors&utm_source=Simplify#coop=6e9e49ed4f732766",
-   "pages": 0,
-   "button": "",
-   "title": "Electrical Engineer Intern Job Details | CHS, Inc."
-  },
-  {
-   "id": "b270f84c27fda184",
-   "company": "CenterPoint Energy",
-   "role": "Electrical Engineering Co-op",
-   "portal": "successfactors",
-   "url": "https://careers.centerpointenergy.com/job/Houston-Electrical-Engineering-Spring-Co-op-2027-TX-77002/1428292900/?ats=successfactors&utm_source=Simplify",
-   "status": "no-button",
-   "need": [
-    "next button"
-   ],
-   "done": [],
-   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep goingI finished it — continueSkip this one",
-   "final_url": "https://careers.centerpointenergy.com/job/Houston-Electrical-Engineering-Spring-Co-op-2027-TX-77002/1428292900/?ats=successfactors&utm_source=Simplify#coop=b270f84c27fda184",
-   "pages": 0,
-   "button": "",
-   "title": "Electrical Engineering Spring Co-op 2027 Job Details | CenterPoint Energy"
-  },
-  {
-   "id": "a9f68e33c4c1b645",
-   "company": "WEC Energy Group",
-   "role": "Electrical Engineer Co-op",
-   "portal": "successfactors",
-   "url": "https://careers.wecenergygroup.com/We_Energies/job/Milwaukee-Co-Op-Engineer-Electric-Distribution-WI-53203/1419827900/?ats=successfactors&utm_source=Simplify",
-   "status": "no-button",
-   "need": [
-    "next button"
-   ],
-   "done": [
-    "left blank (optional): Search by keyword (title, company, location, etc.)"
-   ],
-   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep goingI finished it — continueSkip this one",
-   "final_url": "https://careers.wecenergygroup.com/We_Energies/job/Milwaukee-Co-Op-Engineer-Electric-Distribution-WI-53203/1419827900/?ats=successfactors&utm_source=Simplify#coop=a9f68e33c4c1b645",
-   "pages": 0,
-   "button": "",
-   "title": "Co-Op Engineer- Electric Distribution Job Details | Career finder"
-  },
-  {
-   "id": "37146560d26bd12e",
-   "company": "Advanced Energy",
-   "role": "Electronics Service Intern",
-   "portal": "successfactors",
-   "url": "https://jobs.advanced-energy.com/job/Fort-Collins-Intern-Electronics-Service-CO-80525/1389595200/?ats=successfactors&utm_source=Simplify",
-   "status": "no-button",
-   "need": [
-    "next button"
-   ],
-   "done": [],
-   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep goingI finished it — continueSkip this one",
-   "final_url": "https://jobs.advanced-energy.com/job/Fort-Collins-Intern-Electronics-Service-CO-80525/1389595200/?ats=successfactors&utm_source=Simplify#coop=37146560d26bd12e",
-   "pages": 0,
-   "button": "",
-   "title": "Intern - Electronics Service Job Details | Advanced Energy Industries, Inc"
-  },
-  {
-   "id": "708d55d7b3a7f2df",
-   "company": "RTX",
-   "role": "Digital Hardware Design Engineer Co-op (Winter/Spring)(Onsite)",
-   "portal": "workday",
-   "url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-IA-CEDAR-RAPIDS-130--5350-C-Ave-NE--BLDG-130/Digital-Hardware-Design-Engineer-Co-op--Spring-Summer-_01871518-1",
-   "status": "no-button",
-   "need": [
-    "next button"
-   ],
-   "done": [],
-   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep goingI finished it — continueSkip this one",
-   "final_url": "https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-IA-CEDAR-RAPIDS-130-~-5350-C-Ave-NE-~-BLDG-130/Digital-Hardware-Design-Engineer-Co-op--Spring-Summer-_01871518-1/apply/autofillWithResume",
-   "pages": 0,
-   "button": "",
-   "title": "Digital Hardware Design Engineer Co-op (Winter/Spring)(Onsite)"
-  },
-  {
-   "id": "150ec201e9bc77b2",
-   "company": "National Laboratory of the Rockies",
-   "role": "Electrical Engineer Intern",
-   "portal": "workday",
-   "url": "https://nrel.wd5.myworkdayjobs.com/NLR/job/Boulder-CO/Post-Undergraduate--Fixed-term--Intern---Electrical-Engineering_R14491?utm_source=Simplify",
-   "status": "no-button",
-   "need": [
-    "next button"
-   ],
-   "done": [],
-   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep goingI finished it — continueSkip this one",
-   "final_url": "https://nrel.wd5.myworkdayjobs.com/en-US/NLR/job/Boulder%2C-CO/Post-Undergraduate--Fixed-term--Intern---Electrical-Engineering_R14491/apply/autofillWithResume?utm_source=Simplify",
-   "pages": 0,
-   "button": "",
-   "title": "Post Undergraduate (Fixed term) Intern – Electrical Engineering"
-  },
-  {
-   "id": "5642f7c6b1bd2643",
-   "company": "Agilent Technologies",
-   "role": "Electrical Engineering Intern",
-   "portal": "workday",
-   "url": "https://agilent.wd5.myworkdayjobs.com/Agilent_Student_Careers/job/US-DE-Wilmington/Electrical-Engineering-Intern_4038526?utm_source=Simplify",
-   "status": "no-button",
-   "need": [
-    "next button"
-   ],
-   "done": [],
-   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep goingI finished it — continueSkip this one",
-   "final_url": "https://agilent.wd5.myworkdayjobs.com/Agilent_Student_Careers/job/US-DE-Wilmington/Electrical-Engineering-Intern_4038526?utm_source=Simplify#coop=5642f7c6b1bd2643",
-   "pages": 0,
-   "button": "",
-   "title": "Electrical Engineering Intern"
-  },
-  {
-   "id": "dd89765e99613f71",
-   "company": "GE Aerospace",
-   "role": "Unison Engineering Part-time Co-op - US - Spring 2027",
-   "portal": "workday",
-   "url": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Saint-George-UT-US-1/Unison-Engineering-Part-time-Co-op---US---Spring-2027_R5040016",
-   "status": "no-button",
-   "need": [
-    "next button"
-   ],
-   "done": [],
-   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep goingI finished it — continueSkip this one",
-   "final_url": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Saint-George-UT-US-1/Unison-Engineering-Part-time-Co-op---US---Spring-2027_R5040016#coop=dd89765e99613f71",
-   "pages": 0,
-   "button": "",
-   "title": "Unison Engineering Part-time Co-op - US - Spring 2027"
-  },
-  {
-   "id": "979f79d09814a938",
-   "company": "Draper",
-   "role": "Systems Engineering Co-Op (Spring 2027)",
-   "portal": "workday",
-   "url": "https://draper.wd5.myworkdayjobs.com/Draper_Careers/job/Cambridge-MA/Systems-Engineering-Co-Op--Spring-2027-_JR002882",
-   "status": "no-button",
-   "need": [
-    "next button"
-   ],
-   "done": [],
-   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep goingI finished it — continueSkip this one",
-   "final_url": "https://draper.wd5.myworkdayjobs.com/Draper_Careers/job/Cambridge-MA/Systems-Engineering-Co-Op--Spring-2027-_JR002882#coop=979f79d09814a938",
-   "pages": 0,
-   "button": "",
-   "title": "Systems Engineering Co-Op (Spring 2027)"
-  },
-  {
-   "id": "31ca0c55a935af8f",
-   "company": "NXP",
-   "role": "SOC DFT Intern - Spring 2027",
-   "portal": "workday",
-   "url": "https://nxp.wd3.myworkdayjobs.com/careers/job/Austin-Oakhill-Office/Digital-Design-Intern---Spring-2027_R-10065548",
-   "status": "no-button",
-   "need": [
-    "next button"
-   ],
-   "done": [],
-   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep goingI finished it — continueSkip this one",
-   "final_url": "https://nxp.wd3.myworkdayjobs.com/careers/job/Austin-Oakhill-Office/Digital-Design-Intern---Spring-2027_R-10065548#coop=31ca0c55a935af8f",
-   "pages": 0,
-   "button": "",
-   "title": "SOC DFT Intern - Spring 2027"
-  },
-  {
-   "id": "003bf70487c5df25",
-   "company": "Amazon",
-   "role": "Hardware Development Engineer Intern/Co-Op, ROBOTICS - 2027",
-   "portal": "amazon",
-   "url": "https://www.amazon.jobs/en/jobs/10535282/hardware-development-engineer-intern-co-op-robotics-2027",
-   "status": "no-button",
-   "need": [
-    "next button"
-   ],
-   "done": [
-    "left blank (optional): Search for jobs by title or keyword",
-    "left blank (optional): search job by location"
-   ],
-   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep goingI finished it — continueSkip this one",
-   "final_url": "https://www.amazon.jobs/en/jobs/10535282/hardware-development-engineer-intern-co-op-robotics-2027#coop=003bf70487c5df25",
-   "pages": 0,
-   "button": "",
-   "title": "Hardware Development Engineer Intern/Co-Op, ROBOTICS - 2027 - Job ID: 10535282 | Amazon.jobs"
-  },
-  {
-   "id": "a09bed4e9fb8703c",
-   "company": "Amazon",
-   "role": "ASIC Engineer Intern, Annapurna Labs - 2027",
-   "portal": "amazon",
-   "url": "https://www.amazon.jobs/en/jobs/10517535/asic-engineer-intern-annapurna-labs-2027",
-   "status": "no-button",
-   "need": [
-    "next button"
-   ],
-   "done": [
-    "left blank (optional): Search for jobs by title or keyword",
-    "left blank (optional): search job by location"
-   ],
-   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep goingI finished it — continueSkip this one",
-   "final_url": "https://www.amazon.jobs/en/jobs/10517535/asic-engineer-intern-annapurna-labs-2027#coop=a09bed4e9fb8703c",
-   "pages": 0,
-   "button": "",
-   "title": "ASIC Engineer Intern, Annapurna Labs - 2027 - Job ID: 10517535 | Amazon.jobs"
-  },
-  {
-   "id": "b3a6a219a0708575",
-   "company": "Amazon",
-   "role": "Cloud Hardware Development Engineer Intern, Annapurna Labs - 2027",
-   "portal": "amazon",
-   "url": "https://www.amazon.jobs/en/jobs/10517649/cloud-hardware-development-engineer-intern-annapurna-labs-2027",
-   "status": "no-button",
-   "need": [
-    "next button"
-   ],
-   "done": [
-    "left blank (optional): Search for jobs by title or keyword",
-    "left blank (optional): search job by location"
-   ],
-   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep goingI finished it — continueSkip this one",
-   "final_url": "https://www.amazon.jobs/en/jobs/10517649/cloud-hardware-development-engineer-intern-annapurna-labs-2027#coop=b3a6a219a0708575",
-   "pages": 0,
-   "button": "",
-   "title": "Cloud Hardware Development Engineer Intern, Annapurna Labs - 2027 - Job ID: 10517649 | Amazon.jobs"
-  },
-  {
-   "id": "05c577eca640383b",
-   "company": "Amazon",
-   "role": "Robotics - Hardware Development Engineer Intern/Co-op - 2026 (Robotics, Mechanical, Electrical, Hardware Test, Reliability, Failure Analysis, Operations, and more)",
-   "portal": "amazon",
-   "url": "https://www.amazon.jobs/en/jobs/3145033/robotics-hardware-development-engineer-intern-co-op-2026-robotics-mechanical-electrical-hardware-test-reliability-failure-analysis-operations-and-more",
-   "status": "no-button",
-   "need": [
-    "next button"
-   ],
-   "done": [
-    "left blank (optional): Search for jobs by title or keyword",
-    "left blank (optional): search job by location"
-   ],
-   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep goingI finished it — continueSkip this one",
-   "final_url": "https://www.amazon.jobs/en/jobs/3145033/robotics-hardware-development-engineer-intern-co-op-2026-robotics-mechanical-electrical-hardware-test-reliability-failure-analysis-operations-and-more#coop=05c577eca640383b",
-   "pages": 0,
-   "button": "",
-   "title": "Robotics - Hardware Development Engineer Intern/Co-op - 2026 (Robotics, Mechanical, Electrical, Hardware Test, Reliability, Failure Analysis, Operations, and more) - Job ID: 3145033 | Amazon.jobs"
-  },
-  {
-   "id": "148ce480c4e74940",
-   "company": "Amazon",
-   "role": "Industrial Development Engineer Intern/Co-op, ROBOTICS - 2027",
-   "portal": "amazon",
-   "url": "https://www.amazon.jobs/en/jobs/10536817/industrial-development-engineer-intern-co-op-robotics-2027",
-   "status": "no-button",
-   "need": [
-    "next button"
-   ],
-   "done": [
-    "left blank (optional): Search for jobs by title or keyword",
-    "left blank (optional): search job by location"
-   ],
-   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep goingI finished it — continueSkip this one",
-   "final_url": "https://www.amazon.jobs/en/jobs/10536817/industrial-development-engineer-intern-co-op-robotics-2027#coop=148ce480c4e74940",
-   "pages": 0,
-   "button": "",
-   "title": "Industrial Development Engineer Intern/Co-op, ROBOTICS - 2027 - Job ID: 10536817 | Amazon.jobs"
   }
  ]
 }

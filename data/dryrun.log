@@ -1,4 +1,4 @@
-dry-running 59 postings
+dry-running 24 postings
 no-button    greenhouse     Anduril · Winter 2027 Electrical Engineer Co-op  NEED: next button
 no-button    greenhouse     Formlabs · Hardware Test Engineering Intern (Winter/Spring 2027)  NEED: next button
 no-button    greenhouse     Rocket Lab · Test Engineering Intern - Manufacturing Spring 2027  NEED: next button
@@ -23,41 +23,6 @@ no-button    smartrecruiters Wabtec · Firmware Engineer Co-op  NEED: next butto
 no-button    smartrecruiters Renesas · Embedded Systems Intern  NEED: next button
 no-button    smartrecruiters Renesas Electronics · Embedded Systems Intern  NEED: next button
 no-button    smartrecruiters Renesas · Integrated Сircuit Test Engineer - Intern  NEED: next button
-no-button    other          Skyworks · Test Engineering 2027 Winter/Spring Co-Op  NEED: next button
-no-button    other          BAE Systems · Electrical Engineering Coop (Spring/Summer 2027), Onsite  NEED: next button
-no-button    other          Nova-Tech · Electrical Engineer Co-op  NEED: next button
-needs-you    other          OnLogic · Firmware Engineer Co-op  NEED: We expect this role to begin in January 2027 and run until June 2027. Does this align with your academic schedule?
-needs-you    other          Specter Aerospace · Electrical Engineer Co-op  NEED: State (no option matched 'Massachusetts') | Country (no option matched 'United States')
-no-button    other          D3 Embedded · Embedded Systems Design Co-op  NEED: next button
-no-button    icims          General Dynamics Mission Systems · Electrical Engineer Co-Op (January - May 2027)  NEED: next button
-no-button    icims          CDM Smith · Electrical Engineering Co-op  NEED: next button
-no-button    icims          PPL · Electrical Engineer Co-op  NEED: next button
-no-button    icims          Werfen · Electrical Engineer Co-op  NEED: next button
-no-button    icims          Keysight Technologies · Semiconductor Process Development Engineering Intern  NEED: next button
-no-button    icims          AMD · Analog/Mixed-Signal Design Intern/Co-op  NEED: next button
-no-button    oracle         Emerson · Electrical Engineering Co-op (Spring 2027)  NEED: next button
-no-button    oracle         onsemi · Spring 2027 Non-Engineering Internships - Multiple Locations  NEED: next button
-no-button    oracle         Arconic · Electrical Engineer Co-op  NEED: next button
-no-button    oracle         Texas Instruments · Test or Validation Engineering Intern  NEED: next button
-no-button    oracle         Kent · Electrical / Instrumentation & Controls Designer Intern  NEED: next button
-no-button    oracle         Fortive · Test Engineer Co-op  NEED: next button
-no-button    successfactors Qorvo · RF Design Engineer Intern  NEED: next button
-no-button    successfactors L3Harris Technologies · Electrical Engineer Intern  NEED: next button
-no-button    successfactors CHS · Electrical Engineer Intern  NEED: next button
-no-button    successfactors CenterPoint Energy · Electrical Engineering Co-op  NEED: next button
-no-button    successfactors WEC Energy Group · Electrical Engineer Co-op  NEED: next button
-no-button    successfactors Advanced Energy · Electronics Service Intern  NEED: next button
-no-button    workday        RTX · Digital Hardware Design Engineer Co-op (Winter/Spring)(Onsite)  NEED: next button
-no-button    workday        National Laboratory of the Rockies · Electrical Engineer Intern  NEED: next button
-no-button    workday        Agilent Technologies · Electrical Engineering Intern  NEED: next button
-no-button    workday        GE Aerospace · Unison Engineering Part-time Co-op - US - Spring 2027  NEED: next button
-no-button    workday        Draper · Systems Engineering Co-Op (Spring 2027)  NEED: next button
-no-button    workday        NXP · SOC DFT Intern - Spring 2027  NEED: next button
-no-button    amazon         Amazon · Hardware Development Engineer Intern/Co-Op, ROBOTICS - 2027  NEED: next button
-no-button    amazon         Amazon · ASIC Engineer Intern, Annapurna Labs - 2027  NEED: next button
-no-button    amazon         Amazon · Cloud Hardware Development Engineer Intern, Annapurna Labs - 2027  NEED: next button
-no-button    amazon         Amazon · Robotics - Hardware Development Engineer Intern/Co-op - 2026 (Robotics, Mechanical, Electrical, Hardware Test, Reliability, Failure Analysis, Operations, and more)  NEED: next button
-no-button    amazon         Amazon · Industrial Development Engineer Intern/Co-op, ROBOTICS - 2027  NEED: next button
 {
  "greenhouse": {
   "no-button": 6
@@ -70,24 +35,5 @@ no-button    amazon         Amazon · Industrial Development Engineer Intern/Co-
  },
  "smartrecruiters": {
   "no-button": 6
- },
- "other": {
-  "no-button": 4,
-  "needs-you": 2
- },
- "icims": {
-  "no-button": 6
- },
- "oracle": {
-  "no-button": 6
- },
- "successfactors": {
-  "no-button": 6
- },
- "workday": {
-  "no-button": 6
- },
- "amazon": {
-  "no-button": 5
  }
 }
