@@ -159,7 +159,7 @@ const jobs=()=>rows.map(r=>({...r,...(apps[r.id]||synthFor(r)),...(state[r.id]||
 function listFor(){const q=$("q").value.toLowerCase();return jobs().filter(j=>{
   const open=!isDone(j)&&!inFlight(j);
   const inView=view==="all"?true:view==="applied"?(isDone(j)||inFlight(j)):view==="auto"?(open&&noAccount(j)&&canOneClick(j)):open;
-  return inView&&(!q||(j.company+" "+j.role+" "+j.location).toLowerCase().includes(q))})}
+  return inView&&(!q||(j.company+" "+j.role+" "+j.location+" "+portalOf(j)).toLowerCase().includes(q))})}   // searching "ashby" or "greenhouse" narrows to that system
 const statusPill=j=>j.status?`<span class="pill s-${j.status}">${j.status}</span>`:"";
 function rowHtml(j){const dl=daysTo(j.deadline);const hot=dl!==null&&dl<=14;const done=isDone(j);const hasMat=(j.materials||[]).length>0;
   return `<div class="row ${j.fit} ${done?"done":""}"><div class="stripe"></div>
