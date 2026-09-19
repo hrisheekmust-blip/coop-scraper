@@ -175,7 +175,6 @@ function render(){const list=listFor();$("count").textContent=list.length+" / "+
   $("main").innerHTML=list.length?`<div class="hdr"><span></span><span><label class="sel" title="Select everything in this view"><input type="checkbox" id="selall"></label>Urgency</span><span>Company</span><span>Role</span><span>Location</span><span>Posted</span><span>Deadline</span><span>NUWorks</span><span></span></div>`+list.map(rowHtml).join(""):'<div class="empty">Nothing here.</div>';
   document.querySelectorAll("[data-open]").forEach(b=>b.onclick=()=>openDrawer(b.dataset.open));
   document.querySelectorAll("[data-sel]").forEach(c=>c.onchange=()=>{c.checked?selected.add(c.dataset.sel):selected.delete(c.dataset.sel);batchBar()});
-  if(view==="auto"&&list.length&&!batch)$("bst").textContent=$("bst").textContent||`${list.length} ready — tick the box in the header, then Apply to all`;
   const sa=$("selall");if(sa)sa.onchange=()=>{document.querySelectorAll("[data-sel]").forEach(c=>{c.checked=sa.checked;sa.checked?selected.add(c.dataset.sel):selected.delete(c.dataset.sel)});batchBar()};
   batchBar();
   document.querySelectorAll("[data-skip]").forEach(b=>b.onclick=()=>setStatus(b.dataset.skip,"skip"));
@@ -252,7 +251,10 @@ function batchBar(){const bar=$("batchbar");if(!bar)return;const n=selected.size
   if(batch&&batch.ids&&batch.ids.length&&(batch.finished||batch.i>=batch.ids.length)){bar.classList.add("on");
     $("bst").textContent=`Done — ${batch.done} of ${batch.ids.length} submitted`;
     $("bgo").style.display="none";$("bskip").style.display="none";$("bclear").textContent="Clear";return}
-  bar.classList.toggle("on",n>0);$("bst").textContent=n?`${n} selected`:"";$("bgo").style.display="";$("bgo").textContent=`Apply to all ${n}`;$("bskip").style.display="none";$("bclear").textContent="Clear"}
+  const auto=view==="auto"&&!n?listFor().length:0;                       // the No-account view offers the whole set in one button
+  bar.classList.toggle("on",n>0||auto>0);
+  $("bst").textContent=n?`${n} selected`:auto?`${auto} postings: no account needed, nothing from NUWorks`:"";
+  $("bgo").style.display="";$("bgo").textContent=`Apply to all ${n||auto}`;$("bskip").style.display="none";$("bclear").textContent="Clear"}
 async function startBatch(force){const all=jobs();
   const ids=[...selected].filter(id=>{const j=all.find(x=>x.id===id);return j&&canOneClick(j)&&(force||(!isDone(j)&&!inFlight(j)))});
   if(!ids.length){$("batchbar").classList.add("on");$("bst").textContent="nothing selected that I can apply to (each one needs its materials and your token)";return}
@@ -263,7 +265,7 @@ async function startBatch(force){const all=jobs();
   selected.clear();batchBar();render();
   if(!win){$("bst").textContent="your browser blocked the new tab — allow pop-ups for this page, then click Apply again";return}
   try{await stage(all.find(x=>x.id===ids[0]))}catch(e){$("bst").textContent="couldn't prepare the first one: "+e.message}}
-$("bgo").onclick=()=>startBatch(false);
+$("bgo").onclick=()=>{if(!selected.size&&view==="auto")for(const j of listFor())selected.add(j.id);startBatch(false)};
 $("bclear").onclick=()=>{if(batch){batch=null;try{localStorage.setItem("coop-batch",JSON.stringify({ids:[],names:[],i:0,done:0,finished:true}))}catch(e){}}selected.clear();render()};
 const applyOne=async j=>{selected.clear();selected.add(j.id);await startBatch(true)};
 /* ---------- drawer ---------- */
