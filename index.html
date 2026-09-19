@@ -86,6 +86,10 @@ main{padding-block:14px 60px}
 .settings{max-width:60ch}.settings label{display:block;font:600 11px/1 var(--display);letter-spacing:.14em;text-transform:uppercase;color:var(--mute);margin:14px 0 6px}
 .settings input{width:100%;border:1px solid var(--line);background:var(--bg);color:var(--ink);padding:8px 10px;border-radius:6px;font:13px var(--mono)}
 .settings p{color:var(--ink2);font-size:13px}
+.sel{display:inline-block;margin-right:6px;vertical-align:middle}.sel input{width:15px;height:15px;margin:0;cursor:pointer;accent-color:#1e7d3c}
+.hdr .sel{margin-left:0}
+#batchbar{position:fixed;left:50%;bottom:18px;transform:translateX(-50%);z-index:60;display:none;align-items:center;gap:12px;background:#1a1a1a;color:#fff;padding:10px 14px 10px 18px;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,.35);font-size:13px;max-width:min(92vw,900px)}
+#batchbar.on{display:flex}#batchbar .btn{background:transparent;border-color:#666;color:#fff}#batchbar .btn.primary{background:#1e7d3c;border-color:#1e7d3c}#batchbar .st{color:#cfcfcf;max-width:52ch;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 @media (max-width:980px){
   .hdr{display:none}
   .row{grid-template-columns:4px 1fr 1fr;grid-template-areas:"s urg act" "s co co" "s role role" "s loc loc" "s posted dl" "s nu nu";gap:4px 10px;padding:10px 12px 10px 0}
@@ -117,6 +121,7 @@ main{padding-block:14px 60px}
 </div></header>
 <div class="wrap"><main id="main"><div class="empty">Loading the board…</div></main>
 <p class="legend">Sorted best-first: CHIP → HARDWARE → MAYBE → other EE. APPLY NOW = Jan–Jun 2027 stated and fresh or deadline within 14 days · APPLY = Jan–Jun stated · SOON = co-op, no dates, fresh · WATCH = no dates stated. Anything running at any point Jan–Jun 2027 counts. Apply opens the materials; Confirm and submit queues that one application for Claude to submit in your browser during a sitting.</p></div>
+<div id="batchbar"><span class="st" id="bst"></span><button class="btn" id="bskip" style="display:none">Skip this one</button><button class="btn primary" id="bgo">Apply to all</button><button class="btn" id="bclear">Clear</button></div>
 <div id="drawerHost"></div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
 <script src="engine.js?v=5"></script>
@@ -155,7 +160,7 @@ function listFor(){const q=$("q").value.toLowerCase();return jobs().filter(j=>(v
 const statusPill=j=>j.status?`<span class="pill s-${j.status}">${j.status}</span>`:"";
 function rowHtml(j){const dl=daysTo(j.deadline);const hot=dl!==null&&dl<=14;const done=isDone(j);const hasMat=(j.materials||[]).length>0;
   return `<div class="row ${j.fit} ${done?"done":""}"><div class="stripe"></div>
-  <div class="urg"><span class="pill ${uc(j.urgency)}">${j.urgency}</span>${j.new==="NEW"?'<br><span class="pill new">New</span>':''}</div>
+  <div class="urg">${!done&&!inFlight(j)&&cfg.token?`<label class="sel" title="Select for batch apply"><input type="checkbox" data-sel="${j.id}" ${selected.has(j.id)?"checked":""}></label>`:''}<span class="pill ${uc(j.urgency)}">${j.urgency}</span>${j.new==="NEW"?'<br><span class="pill new">New</span>':''}</div>
   <div class="co">${esc(j.company)}<span class="fit">${j.fit==="ADJACENT"?"EE":j.fit}</span></div>
   <div class="role"><a href="${esc(j.link)}" target="_blank" rel="noopener">${esc(j.role)}</a>${j.fit_why?`<small>${esc(j.fit_why)}</small>`:''}</div>
   <div class="loc">${esc(j.location)}</div>
@@ -164,8 +169,11 @@ function rowHtml(j){const dl=daysTo(j.deadline);const hot=dl!==null&&dl<=14;cons
   <div class="nu">${j.nuworks?`<a href="${esc(j.nuworks_link)}" target="_blank" rel="noopener">NUWorks</a>${j.nu_eligible==="NOT QUALIFIED"?'<span class="bad">not qualified</span>':''}`:'—'}</div>
   <div class="act">${done||inFlight(j)?`${statusPill(j)}<button class="btn ghost" data-open="${j.id}">Details</button>`:`<button class="btn ${hasMat?"primary":""}" data-open="${j.id}">${hasMat?"Apply":"Preview"}</button><button class="btn ghost" data-skip="${j.id}">Skip</button>`}</div></div>`}
 function render(){const list=listFor();$("count").textContent=list.length+" / "+rows.length;
-  $("main").innerHTML=list.length?`<div class="hdr"><span></span><span>Urgency</span><span>Company</span><span>Role</span><span>Location</span><span>Posted</span><span>Deadline</span><span>NUWorks</span><span></span></div>`+list.map(rowHtml).join(""):'<div class="empty">Nothing here.</div>';
+  $("main").innerHTML=list.length?`<div class="hdr"><span></span><span><label class="sel" title="Select everything in this view"><input type="checkbox" id="selall"></label>Urgency</span><span>Company</span><span>Role</span><span>Location</span><span>Posted</span><span>Deadline</span><span>NUWorks</span><span></span></div>`+list.map(rowHtml).join(""):'<div class="empty">Nothing here.</div>';
   document.querySelectorAll("[data-open]").forEach(b=>b.onclick=()=>openDrawer(b.dataset.open));
+  document.querySelectorAll("[data-sel]").forEach(c=>c.onchange=()=>{c.checked?selected.add(c.dataset.sel):selected.delete(c.dataset.sel);batchBar()});
+  const sa=$("selall");if(sa)sa.onchange=()=>{document.querySelectorAll("[data-sel]").forEach(c=>{c.checked=sa.checked;sa.checked?selected.add(c.dataset.sel):selected.delete(c.dataset.sel)});batchBar()};
+  batchBar();
   document.querySelectorAll("[data-skip]").forEach(b=>b.onclick=()=>setStatus(b.dataset.skip,"skip"));
   const g=meta&&meta.generated?new Date(meta.generated):null;const age=g?(Date.now()-g)/36e5:null;
   $("sub").innerHTML=(g?`last scan ${g.toLocaleString([],{month:"short",day:"numeric",hour:"numeric",minute:"2-digit"})}${age>3?' <span class="stale">· stale</span>':''}`:"")+(cfg.token?"":' <span class="warn">· add your token in ⚙ to enable Apply</span>')}
@@ -204,14 +212,28 @@ async function oneClickApply(j){
     const r=await gh(m.path,{raw:true});files.push({kind:isCover?"cover":"resume",name:isCover?"Hrisheek_Mustyala_Cover_Letter.pdf":"Hrisheek_Mustyala_Resume.pdf",type:"application/pdf",b64:b64buf(await r.arrayBuffer())})}
   let a=j.answers_obj||{};if(j.answers_json){try{a=await (await gh(j.answers_json,{raw:true})).json()}catch(e){}}
   pending[j.id]={type:"coop-payload",id:j.id,job:{id:j.id,company:j.company,role:j.role,link:j.link},answers:a,profile:profile||{},cover:coverOn(j),coverText:coverOn(j)?coverText:"",files};
-  applyWin=window.open(applyUrl(j)+"#coop="+j.id,"_blank");
+  const u=applyUrl(j)+"#coop="+j.id;
+  if(batch){if(batch.win&&!batch.win.closed){try{batch.win.location.href=u}catch(e){batch.win=window.open(u,"coop-apply")}}else batch.win=window.open(u,"coop-apply");applyWin=batch.win}else applyWin=window.open(u,"_blank");
   await writeState(st=>{st[j.id]={...(st[j.id]||{}),status:"applying",statusAt:new Date().toISOString(),note:"form tab opened; filling…"}});render();if(openId===j.id)drawRender()}
 window.addEventListener("message",async e=>{const d=e.data||{};if(typeof d.type!=="string"||!d.type.startsWith("coop-"))return;if(!/^https:\/\//.test(e.origin))return;
   if(d.type==="coop-ready"){if(pending[d.id])e.source.postMessage(pending[d.id],e.origin);return}
   if(d.type==="coop-result"){const p=pending[d.id];
     if(d.ok){await writeState(st=>{st[d.id]={...(st[d.id]||{}),status:"applied",statusAt:d.at,note:"",submitted:{at:d.at,portal:d.url,files:(p?p.files:[]).map(f=>({name:f.name})),notes:(d.done||[]).join("\n")}}})}
     else{await writeState(st=>{st[d.id]={...(st[d.id]||{}),status:"applying",note:(d.status==="needs-you"?"waiting on you in the form tab: ":"error: ")+((d.need&&d.need.length?d.need:[d.error||"?"]).join(" · "))}})}
-    render();if(openId===d.id)drawRender()}});
+    render();if(openId===d.id)drawRender();
+    if(batch&&batch.ids[batch.i]===d.id){if(d.ok){batch.done++;setTimeout(nextInBatch,1200)}else{batch.waiting=d.status==="needs-you";batchBar();if(!batch.waiting)setTimeout(nextInBatch,1500)}}}});
+/* ---------- batch apply: one tab, one posting after another ---------- */
+const selected=new Set();let batch=null;
+function batchBar(){const bar=$("batchbar");if(!bar)return;const n=[...selected].length;
+  if(batch){bar.classList.add("on");const j=rows.find(x=>x.id===batch.ids[batch.i])||{};$("bst").textContent=`Applying ${batch.i+1} of ${batch.ids.length}: ${j.company||""}${batch.waiting?" — needs you in the form tab (finish it there, or skip)":"…"}`;$("bgo").style.display="none";$("bskip").style.display="";$("bclear").textContent="Stop";return}
+  bar.classList.toggle("on",n>0);$("bst").textContent=n?`${n} selected`:"";$("bgo").style.display="";$("bgo").textContent=`Apply to all ${n}`;$("bskip").style.display="none";$("bclear").textContent="Clear"}
+function startBatch(){const ids=[...selected].filter(id=>{const j=rows.find(x=>x.id===id);return j&&!isDone(j)&&!inFlight(j)&&canOneClick(j)});if(!ids.length)return;batch={ids,i:-1,done:0,win:null,waiting:false,timer:null};nextInBatch()}
+async function nextInBatch(){if(!batch)return;clearTimeout(batch.timer);batch.i++;batch.waiting=false;
+  if(batch.i>=batch.ids.length){const d=batch.done,n=batch.ids.length;batch=null;batchBar();$("batchbar").classList.add("on");$("bst").textContent=`Done: ${d} of ${n} submitted${d<n?" (the rest are marked on the board with what they need)":""}`;setTimeout(()=>{if(!batch&&!selected.size)$("batchbar").classList.remove("on")},8000);return}
+  const j=rows.find(x=>x.id===batch.ids[batch.i]);selected.delete(j.id);batchBar();
+  try{await oneClickApply(j)}catch(e){await writeState(st=>{st[j.id]={...(st[j.id]||{}),status:"applying",note:"error: "+e.message}});render();setTimeout(nextInBatch,800);return}
+  batch.timer=setTimeout(async()=>{if(!batch||batch.ids[batch.i]!==j.id||batch.waiting)return;await writeState(st=>{const cur=st[j.id]||{};if(cur.status==="applying")st[j.id]={...cur,note:"no answer from the form tab after 6 minutes; open it and check"}});render();nextInBatch()},6*60*1000)}
+$("bgo").onclick=startBatch;$("bskip").onclick=()=>{if(batch)nextInBatch()};$("bclear").onclick=()=>{if(batch){clearTimeout(batch.timer);batch=null}selected.clear();render()};
 /* ---------- drawer ---------- */
 const blobCache={};
 async function matUrl(m){if(m.url)return m.url;if(m.gen==="cover")return URL.createObjectURL(coverBlob(m.text));if(m.gen==="text")return URL.createObjectURL(new Blob([m.text],{type:"text/plain;charset=utf-8"}));if(blobCache[m.path])return blobCache[m.path];const r=await gh(m.path,{raw:true});const pdf=/\.pdf$/i.test(m.path);const u=URL.createObjectURL(new Blob([await r.arrayBuffer()],{type:pdf?"application/pdf":"text/plain;charset=utf-8"}));blobCache[m.path]=u;return u}
