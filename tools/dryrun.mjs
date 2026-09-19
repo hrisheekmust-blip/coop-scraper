@@ -65,8 +65,30 @@ async function one(browser, id) {
     } catch (e) { continue; }   // navigating
     if (last && last.status) { Object.assign(rec, { status: last.status, need: last.need || [], done: last.done || [], button: last.button || "", error: last.error }); break; }
   }
+  // measure the frame that actually holds the form: Greenhouse and Lever are often embedded in a company careers page
+  const formFrame = async () => { let best = page.mainFrame(), n = -1;
+    for (const fr of page.frames()) { const c = await fr.evaluate(() => document.querySelectorAll("input:not([type=hidden]), select, textarea").length).catch(() => -1); if (c > n) { n = c; best = fr; } }
+    return best; };
+  let FR = page.mainFrame(); try { FR = await formFrame(); rec.frame_url = FR === page.mainFrame() ? "" : FR.url().slice(0, 120); } catch (e) {}
   try { rec.errors = errs.filter(e => !/Failed to load resource|net::|favicon/i.test(e)).slice(0, 5);
-        rec.fields = await page.evaluate(() => { const v = [...document.querySelectorAll("input:not([type=hidden]):not([type=search]), select, textarea")].filter(e => e.offsetWidth || e.offsetHeight); return { visible: v.length, filled: v.filter(e => (e.value || "").trim() || (e.files && e.files.length)).length }; }); } catch (e) {}
+        rec.fields = await FR.evaluate(() => { const v = [...document.querySelectorAll("input:not([type=hidden]):not([type=search]), select, textarea")].filter(e => e.offsetWidth || e.offsetHeight); return { visible: v.length, filled: v.filter(e => (e.value || "").trim() || (e.files && e.files.length)).length }; }); } catch (e) {}
+  try { rec.diag = await FR.evaluate(() => {
+    const vis = e => !!(e.offsetWidth || e.offsetHeight || e.getClientRects().length);
+    const t = e => ((e && (e.innerText || e.textContent)) || "").replace(/\s+/g, " ").trim();
+    const lab = e => { let l = e.labels && e.labels[0] ? t(e.labels[0]) : "";
+      if (!l) { const a = e.getAttribute("aria-labelledby"); if (a) { const n = document.getElementById(a.split(" ")[0]); if (n) l = t(n); } }
+      if (!l) l = e.getAttribute("aria-label") || e.placeholder || e.name || e.id || "";
+      return l.slice(0, 70); };
+    const fields = [...document.querySelectorAll("input:not([type=hidden]):not([type=search]), select, textarea")]
+      .filter(e => vis(e) || (e.getAttribute("type") || "").toLowerCase() === "file")
+      .map(e => { const ty = (e.getAttribute("type") || e.tagName).toLowerCase();
+        const v = ty === "file" ? (e.files && e.files.length ? e.files[0].name : "") : (e.value || "");
+        return { q: lab(e), ty, v: v.slice(0, 40), req: !!(e.required || e.getAttribute("aria-required") === "true") }; });
+    const btns = [...document.querySelectorAll("button, input[type=submit], [role=button]")].filter(vis)
+      .map(b => ((t(b) || b.value || b.getAttribute("aria-label") || "") + (b.disabled ? " [disabled]" : "")).slice(0, 44)).filter(x => x.trim()).slice(0, 25);
+    return { fields: fields.slice(0, 70), btns, body: (document.body.innerText || "").replace(/\s+/g, " ").slice(0, 300),
+             frames: [...document.querySelectorAll("iframe")].map(f => (f.src || "").slice(0, 90)).filter(Boolean).slice(0, 6) };
+  }); } catch (e) { rec.diag_error = String(e.message || e).slice(0, 120); }
   try { rec.banner = await page.evaluate(() => (document.getElementById("coop-banner") || {}).textContent || ""); rec.final_url = page.url(); rec.title = await page.title(); } catch (e) {}
   if (rec.status !== "dry-submit") { try { fs.mkdirSync(path.join(ROOT, "data/dryrun"), { recursive: true }); await page.screenshot({ path: path.join(ROOT, "data/dryrun", id + ".jpg"), type: "jpeg", quality: 35, fullPage: false }); } catch (e) {} }
   await ctx.close();
