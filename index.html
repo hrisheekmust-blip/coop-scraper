@@ -114,7 +114,7 @@ main{padding-block:14px 60px}
   <span class="sub" id="sub">loading…</span>
   <div class="tools">
     <input id="q" type="search" placeholder="Search company, role, location" aria-label="Search">
-    <div class="seg" id="seg"><button data-v="todo" class="on">To apply</button><button data-v="applied">Applied</button><button data-v="all">All</button></div>
+    <div class="seg" id="seg"><button data-v="todo" class="on">To apply</button><button data-v="auto" title="Greenhouse, Ashby, Lever and SmartRecruiters — no account needed, I can submit these on my own">No account</button><button data-v="applied">Applied</button><button data-v="all">All</button></div>
     <span class="sub" id="count"></span>
     <button class="gear" id="gear" title="Settings" aria-label="Settings">⚙</button>
   </div>
@@ -156,7 +156,10 @@ function synthFor(j){if(!bank)return{};const variant=pickVariant(j.role,j.fit_wh
     answers_obj:{company:j.company,role:j.role,why,top_two:[bank.specloop,sec],about:bank.about,hook_uncertain:!!(hk&&hk.uncertain)},
     fit_text:`Built on the board (posting newer than the last generator run).\nResume base: ${base}   Skills variant: ${variant}   (${bank.variants[variant].why})\n${hook?"Company hook: "+hook:"WARNING: no company hook on file; the opening has no company-specific sentence."}${hk&&hk.uncertain?"\nWARNING: the hook is a best guess about this company.":""}`}}
 const jobs=()=>rows.map(r=>({...r,...(apps[r.id]||synthFor(r)),...(state[r.id]||{}),status:(state[r.id]||{}).status??local[r.id]??""}));
-function listFor(){const q=$("q").value.toLowerCase();return jobs().filter(j=>(view==="all"||(view==="applied"?isDone(j)||inFlight(j):!isDone(j)&&!inFlight(j)))&&(!q||(j.company+" "+j.role+" "+j.location).toLowerCase().includes(q)))}
+function listFor(){const q=$("q").value.toLowerCase();return jobs().filter(j=>{
+  const open=!isDone(j)&&!inFlight(j);
+  const inView=view==="all"?true:view==="applied"?(isDone(j)||inFlight(j)):view==="auto"?(open&&noAccount(j)&&canOneClick(j)):open;
+  return inView&&(!q||(j.company+" "+j.role+" "+j.location).toLowerCase().includes(q))})}
 const statusPill=j=>j.status?`<span class="pill s-${j.status}">${j.status}</span>`:"";
 function rowHtml(j){const dl=daysTo(j.deadline);const hot=dl!==null&&dl<=14;const done=isDone(j);const hasMat=(j.materials||[]).length>0;
   return `<div class="row ${j.fit} ${done?"done":""}"><div class="stripe"></div>
@@ -172,6 +175,7 @@ function render(){const list=listFor();$("count").textContent=list.length+" / "+
   $("main").innerHTML=list.length?`<div class="hdr"><span></span><span><label class="sel" title="Select everything in this view"><input type="checkbox" id="selall"></label>Urgency</span><span>Company</span><span>Role</span><span>Location</span><span>Posted</span><span>Deadline</span><span>NUWorks</span><span></span></div>`+list.map(rowHtml).join(""):'<div class="empty">Nothing here.</div>';
   document.querySelectorAll("[data-open]").forEach(b=>b.onclick=()=>openDrawer(b.dataset.open));
   document.querySelectorAll("[data-sel]").forEach(c=>c.onchange=()=>{c.checked?selected.add(c.dataset.sel):selected.delete(c.dataset.sel);batchBar()});
+  if(view==="auto"&&list.length&&!batch)$("bst").textContent=$("bst").textContent||`${list.length} ready — tick the box in the header, then Apply to all`;
   const sa=$("selall");if(sa)sa.onchange=()=>{document.querySelectorAll("[data-sel]").forEach(c=>{c.checked=sa.checked;sa.checked?selected.add(c.dataset.sel):selected.delete(c.dataset.sel)});batchBar()};
   batchBar();
   document.querySelectorAll("[data-skip]").forEach(b=>b.onclick=()=>setStatus(b.dataset.skip,"skip"));
@@ -204,6 +208,13 @@ const coverB64=text=>coverPdf(text).output("datauristring").split(",")[1];
 /* ---------- one-click apply: hand the form tab everything it needs, get the result back ---------- */
 const pending={};const QK=id=>"coop-q-"+id;
 const applyUrl=j=>((forms[j.id]||{}).apply_url)||j.link;
+/* the four systems that let you apply without creating an account first */
+const NOACC=/^(greenhouse|ashby|lever|smartrecruiters)$/;
+const portalOf=j=>{const f=forms[j.id]||{};if(f.portal)return f.portal;const u=(f.apply_url||j.link||"");
+  return /greenhouse\.io/.test(u)?"greenhouse":/ashbyhq/.test(u)?"ashby":/lever\.co/.test(u)?"lever":/smartrecruiters/.test(u)?"smartrecruiters"
+    :/myworkday/.test(u)?"workday":/oraclecloud/.test(u)?"oracle":/icims/.test(u)?"icims":/successfactors|\.sap\./.test(u)?"successfactors"
+    :/linkedin\.com/.test(u)?"linkedin":/symplicity/.test(u)?"nuworks":"other"};
+const noAccount=j=>NOACC.test(portalOf(j));
 const canOneClick=j=>(j.materials||[]).length>0&&!!cfg.token;
 const b64buf=buf=>{const u=new Uint8Array(buf);let s="";for(let i=0;i<u.length;i+=8192)s+=String.fromCharCode.apply(null,u.subarray(i,i+8192));return btoa(s)};
 async function buildPayload(j){

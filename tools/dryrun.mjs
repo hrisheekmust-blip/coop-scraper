@@ -13,8 +13,8 @@ const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname), "..")
 const forms = JSON.parse(fs.readFileSync(path.join(ROOT, "data/forms.json"), "utf8"));
 const engine = fs.readFileSync(path.join(ROOT, "engine.js"), "utf8");
 const script = fs.readFileSync(path.join(ROOT, "coop-apply.user.js"), "utf8").replace(/^\/\/ ==UserScript==[\s\S]*?==\/UserScript==\s*/, "");
-const PER = +(process.env.PER_PORTAL || 6);
-const PORTALS = (process.env.PORTALS || "greenhouse,ashby,lever,smartrecruiters,other,icims,oracle,successfactors,workday,amazon").split(",");
+const PER = +(process.env.PER_PORTAL || 14);
+const PORTALS = (process.env.PORTALS || "greenhouse,ashby,lever,smartrecruiters").split(",");   // the four that need no account: the set the board applies to unattended
 const TIMEOUT = +(process.env.TIMEOUT || 100000);
 
 // fake applicant: the harness must never type real personal data into a form it doesn't own
