@@ -169,8 +169,9 @@ function answerFor(f,j,a){const l=(f.label||"").toLowerCase().replace(/\s+/g," "
   if(f.eeo||/gender|race|ethnicit|hispanic|latino|veteran|disabilit|pronoun|self.?identif|sexual orientation|transgender/.test(l))return{a:pickOpt(o,/decline|don.t wish|prefer not|do not wish|choose not/i,p.eeo||"Decline to self-identify"),k:"eeo"};
   if(/cover letter/.test(l))return{a:coverOn(j)?"upload: Hrisheek_Mustyala_Cover_Letter.pdf":"skip (cover letter off for this application)",k:"file"};
   if(/\b(resume|cv)\b/.test(l))return{a:"upload: "+((j.materials||[])[0]||{}).path?.split("/").pop()||"resume PDF",k:"file"};
-  if(/\bsat\b|\bact\b|test score|\bgre\b/.test(l))return{a:"",k:"need"};
-  if(/full-?time (immediately|after|upon|following)|return offer|convert/.test(l))return{a:"",k:"need"};
+  if(/\bsat\b|\bact\b|test score/.test(l))return{a:p.test_scores||"ACT 36"};
+  if(/\bgre\b|gmat/.test(l))return{a:"",k:"need"};
+  if(/full-?time (immediately|after|upon|following)|return offer|convert/.test(l))return{a:o.length?yes(true):(p.fulltime_after||"Yes")};
   if(/preferred (first )?name|nickname|what should we call/.test(l))return{a:p.preferred||"Hrisheek"};
   if(/^(first name|given name)/.test(l))return{a:p.first||"Hrisheek"};
   if(/^(last name|surname|family name)/.test(l))return{a:p.last||"Mustyala"};
