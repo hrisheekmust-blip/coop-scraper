@@ -155,7 +155,7 @@ async function writeState(mut){mut(state);
 async function setStatus(id,status){await writeState(s=>{s[id]={...(s[id]||{}),status,statusAt:new Date().toISOString()}});render();if(openId)drawRender()}
 /* ---------- drawer ---------- */
 const blobCache={};
-async function matUrl(m){if(m.url)return m.url;if(blobCache[m.path])return blobCache[m.path];const r=await gh(m.path,{raw:true});const u=URL.createObjectURL(await r.blob());blobCache[m.path]=u;return u}
+async function matUrl(m){if(m.url)return m.url;if(blobCache[m.path])return blobCache[m.path];const r=await gh(m.path,{raw:true});const pdf=/\.pdf$/i.test(m.path);const u=URL.createObjectURL(new Blob([await r.arrayBuffer()],{type:pdf?"application/pdf":"text/plain;charset=utf-8"}));blobCache[m.path]=u;return u}
 function openDrawer(id){openId=id;step=0;drawRender()}
 function closeDrawer(){openId=null;$("drawerHost").innerHTML=""}
 async function drawRender(){const j=jobs().find(x=>x.id===openId);if(!j)return closeDrawer();
@@ -176,7 +176,7 @@ async function drawRender(){const j=jobs().find(x=>x.id===openId);if(!j)return c
   const c=$("confirm");if(c)c.onclick=async()=>{c.disabled=true;c.textContent="Queuing…";try{await setStatus(j.id,"queued")}catch(e){c.disabled=false;c.textContent="Confirm and submit";$("sendHint").textContent="couldn't queue: "+e.message}};
   const u=$("unq");if(u)u.onclick=()=>setStatus(j.id,"");
   if(cur==="Fit & answers"&&(j.fit||j.answers)){try{const t=async p=>p?await (await gh(p,{raw:true})).text():"";const [f,a]=await Promise.all([t(j.fit),t(j.answers)]);const box=$("fitbox");if(box)box.outerHTML=(f?`<h4>Fit</h4><pre>${esc(f)}</pre>`:"")+(a?`<h4>Portal answers</h4><pre>${esc(a)}</pre>`:"")}catch(e){const box=$("fitbox");if(box)box.textContent="couldn't load: "+e.message}}
-  if(step<mats.length){const m=mats[step];try{const url=await matUrl(m);const box=$("matbox");if(!box)return;if(/\.pdf$/i.test(m.path||m.url||m.name)){box.outerHTML=`<iframe src="${url}" title="${esc(m.name)}"></iframe>`}else{const t=await (await fetch(url)).text();box.outerHTML=`<pre>${esc(t)}</pre>`}}catch(e){const box=$("matbox");if(box)box.textContent="couldn't load "+m.name+": "+e.message}}}
+  if(step<mats.length){const m=mats[step];try{const url=await matUrl(m);const box=$("matbox");if(!box)return;if(/\.pdf$/i.test(m.path||m.url||m.name)){box.outerHTML=`<iframe src="${url}#toolbar=0&view=FitH" title="${esc(m.name)}"></iframe>`}else{const t=await (await fetch(url)).text();box.outerHTML=`<pre>${esc(t)}</pre>`}}catch(e){const box=$("matbox");if(box)box.textContent="couldn't load "+m.name+": "+e.message}}}
 /* ---------- settings ---------- */
 function openSettings(){$("drawerHost").innerHTML=`<div class="overlay" id="ov"><div class="drawer" role="dialog" aria-label="Settings"><div class="dhead"><div><h2>Settings</h2><span class="sub">where materials and application status live</span></div><button class="x" id="close" aria-label="Close">×</button></div>
   <div class="dbody settings"><label for="repo">Private repo</label><input id="repo" value="${esc(cfg.repo)}"><label for="tok">GitHub token</label><input id="tok" type="password" value="${esc(cfg.token)}" placeholder="github_pat_…">
