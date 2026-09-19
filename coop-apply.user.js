@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Co-op board: one-click apply
 // @namespace    coop-hrisheek
-// @version      1.2
+// @version      1.3
 // @description  When the co-op board opens an Ashby / Greenhouse / Lever form, fill it from the board's answers, attach the files, submit, and report back.
 // @match        https://jobs.ashbyhq.com/*
 // @match        https://boards.greenhouse.io/*
@@ -178,20 +178,29 @@
   }
 
   // ---------------------------------------------------------------- submit + watch
+  function realClick(el) {
+    el.scrollIntoView({ block: "center" }); el.focus();
+    const r = el.getBoundingClientRect(); const o = { bubbles: true, cancelable: true, view: window, clientX: r.left + r.width / 2, clientY: r.top + r.height / 2, button: 0, buttons: 1 };
+    for (const t of ["pointerover", "pointerenter", "mouseover", "pointerdown", "mousedown"]) el.dispatchEvent(t.startsWith("pointer") ? new PointerEvent(t, { ...o, pointerId: 1, pointerType: "mouse", isPrimary: true }) : new MouseEvent(t, o));
+    for (const t of ["pointerup", "mouseup"]) el.dispatchEvent(t.startsWith("pointer") ? new PointerEvent(t, { ...o, pointerId: 1, pointerType: "mouse", isPrimary: true, buttons: 0 }) : new MouseEvent(t, { ...o, buttons: 0 }));
+    el.dispatchEvent(new MouseEvent("click", { ...o, buttons: 0 })); try { el.click(); } catch (e) {}
+  }
+  function forceSubmit(btn) { const f = btn && btn.closest("form") || document.querySelector("form"); if (!f) return false; try { if (f.requestSubmit) f.requestSubmit(btn && btn.form === f ? btn : undefined); else f.submit(); return true; } catch (e) { try { f.dispatchEvent(new Event("submit", { bubbles: true, cancelable: true })); return true; } catch (x) { return false; } } }
+  const formGone = () => !document.querySelector("form input[type=email], form input[name=email], #email") && !submitButton();
   function submitButton() {
     return [...document.querySelectorAll("button, input[type=submit]")].find(b => visible(b) && /submit application|submit/i.test(b.value || txt(b)) && !/upload/i.test(txt(b)));
   }
   const busy = b => !b || b.disabled || b.getAttribute("aria-disabled") === "true" || b.getAttribute("aria-busy") === "true" || /uploading|submitting|loading/i.test(txt(b)) || !!document.querySelector("[class*='uploading'], [class*='Uploading'], [aria-busy='true']");
   async function waitReady(ms) { const t0 = Date.now(); while (Date.now() - t0 < ms) { const b = submitButton(); if (b && !busy(b)) return b; banner("waiting for the form to finish uploading…"); await sleep(400); } return submitButton(); }
   const captchaUp = () => [...document.querySelectorAll("iframe[src*='hcaptcha'], iframe[src*='recaptcha'], iframe[src*='turnstile']")].some(f => visible(f) && f.getBoundingClientRect().height > 100);
-  const succeeded = () => /thank you|application (has been |was )?(submitted|received)|we('ve| have) received your application|successfully submitted|application submitted/i.test(document.body.innerText) || /thanks|confirmation|success/i.test(location.pathname);
+  const succeeded = () => /thank you|thanks for (applying|your application)|application (has been |was |is )?(submitted|received|complete)|we('ve| have) received your application|successfully (submitted|applied)|application submitted|you('ve| have) applied|we will be in touch|we'll be in touch/i.test(document.body.innerText) || /thanks|confirmation|success|submitted/i.test(location.pathname) || (window.__coopClicked && formGone());
 
   async function run() {
     const P = await getPayload();
     if (!P) { banner("board tab didn't answer; go back to the board and click Apply again", "err"); return; }
-    for (let i = 0; i < 30 && !document.querySelector("input[type=email], input[name=email], #email, input[type=text]"); i++) await sleep(500);
+    for (let i = 0; i < 60 && !document.querySelector("input[type=email], input[name=email], #email, input[type=text]"); i++) await sleep(250);
     banner("filling " + P.job.company + " · " + P.job.role + "…");
-    await sleep(800);
+    await sleep(300);
     const { need, done } = await fill(P);
     if (need.length) {
       banner(`filled ${done.length} fields; ${need.length} need you: ${need.join(" · ")}. Finish those and press Submit yourself.`, "err");
@@ -201,18 +210,18 @@
     }
     const btn = submitButton();
     if (!btn) { banner("filled everything but couldn't find the Submit button; press it yourself", "err"); report({ ok: false, status: "needs-you", need: ["submit button"], done }); watchForSuccess(P, done); return; }
-    await sleep(1200);
+    await sleep(400);
     for (let attempt = 0; attempt < 3; attempt++) {
-      const b = await waitReady(45000) || btn;
-      if (busy(b)) { banner("Submit button never became clickable; press it yourself", "err"); report({ ok: false, status: "needs-you", need: ["submit button stayed disabled"], done }); watchForSuccess(P, done); return; }
-      b.click();
+      const b = await waitReady(20000) || btn;
+      window.__coopClicked = true; realClick(b);
+      setTimeout(() => { if (!succeeded() && !complaints().length && !captchaUp()) forceSubmit(b); }, 3000);
       banner(attempt ? `resubmitting (try ${attempt + 1})…` : "submitting…");
       let names = [];
-      for (let i = 0; i < 80; i++) {
-        await sleep(500);
+      for (let i = 0; i < 60; i++) {
+        await sleep(250);
         if (succeeded()) { banner("submitted ✓ recorded on the board", "ok"); report({ ok: true, status: "applied", done }); sessionStorage.removeItem(KEY); return; }
         if (captchaUp()) { banner("captcha: solve it, then press Submit", "err"); report({ ok: false, status: "needs-you", need: ["captcha"], done }); watchForSuccess(P, done); return; }
-        names = complaints(); if (names.length && i > 2) break;
+        names = complaints(); if (names.length && i > 4) break;
       }
       if (!names.length) break;
       banner(`form rejected ${names.length} field(s): ${names.join(", ")}; refilling…`);
