@@ -225,12 +225,14 @@ window.addEventListener("message",async e=>{const d=e.data||{};if(typeof d.type!
 /* ---------- batch apply: one tab, one posting after another ---------- */
 const selected=new Set();let batch=null;
 function batchBar(){const bar=$("batchbar");if(!bar)return;const n=[...selected].length;
-  if(batch){bar.classList.add("on");const j=rows.find(x=>x.id===batch.ids[batch.i])||{};$("bst").textContent=`Applying ${batch.i+1} of ${batch.ids.length}: ${j.company||""}${batch.waiting?" — needs you in the form tab (finish it there, or skip)":"…"}`;$("bgo").style.display="none";$("bskip").style.display="";$("bclear").textContent="Stop";return}
+  if(batch){bar.classList.add("on");const j=jobs().find(x=>x.id===batch.ids[batch.i])||{};$("bst").textContent=`Applying ${batch.i+1} of ${batch.ids.length}: ${j.company||""}${batch.waiting?" — needs you in the form tab (finish it there, or skip)":"…"}`;$("bgo").style.display="none";$("bskip").style.display="";$("bclear").textContent="Stop";return}
   bar.classList.toggle("on",n>0);$("bst").textContent=n?`${n} selected`:"";$("bgo").style.display="";$("bgo").textContent=`Apply to all ${n}`;$("bskip").style.display="none";$("bclear").textContent="Clear"}
-function startBatch(){const ids=[...selected].filter(id=>{const j=rows.find(x=>x.id===id);return j&&!isDone(j)&&!inFlight(j)&&canOneClick(j)});if(!ids.length)return;batch={ids,i:-1,done:0,win:null,waiting:false,timer:null};nextInBatch()}
+function startBatch(){const all=jobs();const ids=[...selected].filter(id=>{const j=all.find(x=>x.id===id);return j&&!isDone(j)&&!inFlight(j)&&canOneClick(j)});if(!ids.length){$("bst").textContent="nothing selected that can be applied to (needs materials + your token)";return}
+  const win=window.open("about:blank","coop-apply");   // opened on your click, so the browser allows it; every posting then loads into this same tab
+  batch={ids,i:-1,done:0,win,waiting:false,timer:null};nextInBatch()}
 async function nextInBatch(){if(!batch)return;clearTimeout(batch.timer);batch.i++;batch.waiting=false;
   if(batch.i>=batch.ids.length){const d=batch.done,n=batch.ids.length;batch=null;batchBar();$("batchbar").classList.add("on");$("bst").textContent=`Done: ${d} of ${n} submitted${d<n?" (the rest are marked on the board with what they need)":""}`;setTimeout(()=>{if(!batch&&!selected.size)$("batchbar").classList.remove("on")},8000);return}
-  const j=rows.find(x=>x.id===batch.ids[batch.i]);selected.delete(j.id);batchBar();
+  const j=jobs().find(x=>x.id===batch.ids[batch.i]);selected.delete(j.id);batchBar();
   try{await oneClickApply(j)}catch(e){await writeState(st=>{st[j.id]={...(st[j.id]||{}),status:"applying",note:"error: "+e.message}});render();setTimeout(nextInBatch,800);return}
   batch.timer=setTimeout(async()=>{if(!batch||batch.ids[batch.i]!==j.id||batch.waiting)return;await writeState(st=>{const cur=st[j.id]||{};if(cur.status==="applying")st[j.id]={...cur,note:"no answer from the form tab after 6 minutes; open it and check"}});render();nextInBatch()},6*60*1000)}
 $("bgo").onclick=startBatch;$("bskip").onclick=()=>{if(batch)nextInBatch()};$("bclear").onclick=()=>{if(batch){clearTimeout(batch.timer);batch=null}selected.clear();render()};
