@@ -213,7 +213,7 @@ const portalOf=j=>{const f=forms[j.id]||{};if(f.portal)return f.portal;const u=(
   return /greenhouse\.io/.test(u)?"greenhouse":/ashbyhq/.test(u)?"ashby":/lever\.co/.test(u)?"lever":/smartrecruiters/.test(u)?"smartrecruiters"
     :/myworkday/.test(u)?"workday":/oraclecloud/.test(u)?"oracle":/icims/.test(u)?"icims":/successfactors|\.sap\./.test(u)?"successfactors"
     :/linkedin\.com/.test(u)?"linkedin":/symplicity/.test(u)?"nuworks":"other"};
-const noAccount=j=>NOACC.test(portalOf(j));
+const noAccount=j=>NOACC.test(portalOf(j))&&!j.nuworks;   // anything that also sits on NUWorks stays out
 const canOneClick=j=>(j.materials||[]).length>0&&!!cfg.token;
 const b64buf=buf=>{const u=new Uint8Array(buf);let s="";for(let i=0;i<u.length;i+=8192)s+=String.fromCharCode.apply(null,u.subarray(i,i+8192));return btoa(s)};
 async function buildPayload(j){

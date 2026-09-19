@@ -59,7 +59,10 @@ async function one(browser, id) {
   while (Date.now() - t0 < TIMEOUT) {
     await page.waitForTimeout(1500);
     let last = null;
-    try { for (const fr of page.frames()) { const l = await fr.evaluate(() => window.__coopLast || null).catch(() => null); if (l && l.status && (!last || fr !== page.mainFrame())) last = l; } } catch (e) { continue; }   // navigating
+    try {
+      last = await page.mainFrame().evaluate(() => window.__coopLast || null).catch(() => null);
+      if (!last) for (const fr of page.frames()) { if (fr === page.mainFrame()) continue; const l = await fr.evaluate(() => window.__coopLast || null).catch(() => null); if (l && l.status) { last = l; break; } }
+    } catch (e) { continue; }   // navigating
     if (last && last.status) { Object.assign(rec, { status: last.status, need: last.need || [], done: last.done || [], button: last.button || "", error: last.error }); break; }
   }
   try { rec.errors = errs.filter(e => !/Failed to load resource|net::|favicon/i.test(e)).slice(0, 5);

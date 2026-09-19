@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Co-op board: one-click apply
 // @namespace    coop-hrisheek
-// @version      2.6
+// @version      2.8
 // @description  Opened by the co-op board: walks any application form (Ashby, Greenhouse, Lever, LinkedIn Easy Apply, Workday, Oracle, iCIMS, SuccessFactors, Phenom, ...) page by page, fills it from the board's answers, attaches the files, submits, and reports back.
 // @match        *://*/*
 // @require      https://hrisheekmust-blip.github.io/coop-scraper/engine.js?v=5
@@ -103,7 +103,7 @@
       el.dispatchEvent(new Event("input", { bubbles: true })); fireReact(el, ["onInput", "onChange"], "input"); await sleep(80); fireReact(el, ["onBlur"], "blur"); el.blur();
     }
     await sleep(300);
-    const opts = [...document.querySelectorAll("[role=option], [role=listbox] li, [class*='suggestion'], [class*='Suggestion'], [class*='typeahead'] li, [data-automation-id='promptOption']")].filter(visible);
+    const opts = ownOptions(el);
     const opt = opts.find(o => txt(o).toLowerCase() === v.toLowerCase()) || opts.find(o => txt(o).toLowerCase().includes(v.toLowerCase().slice(0, 12)));
     if (opt) { realClick(opt); await sleep(200); }
     p = reactProps(el); return !p || !("value" in p) || p.value === v || el.value === v;
@@ -118,6 +118,37 @@
   }
   function b64file(f) { const bin = atob(f.b64); const u8 = new Uint8Array(bin.length); for (let i = 0; i < bin.length; i++) u8[i] = bin.charCodeAt(i); return new File([u8], f.name, { type: f.type || "application/pdf" }); }
   function setFile(input, file) { const dt = new DataTransfer(); dt.items.add(file); input.files = dt.files; input.dispatchEvent(new Event("input", { bubbles: true })); input.dispatchEvent(new Event("change", { bubbles: true })); }
+  const KEY_DOWN = el => el.dispatchEvent(new KeyboardEvent("keydown", { key: "ArrowDown", keyCode: 40, which: 40, bubbles: true }));
+  const KEY_ENTER = el => el.dispatchEvent(new KeyboardEvent("keydown", { key: "Enter", keyCode: 13, which: 13, bubbles: true }));
+  const KEY_ESC = el => el.dispatchEvent(new KeyboardEvent("keydown", { key: "Escape", keyCode: 27, which: 27, bubbles: true }));
+  const OPT = "[role=option], [class*='select__option'], [class*='Option'], [role=listbox] li, [data-automation-id='promptOption'], .oj-listbox-result";
+  function closeMenus() { try { const a = document.activeElement; if (a) { KEY_ESC(a); a.blur(); } } catch (e) {} }
+  // only the list this control owns: a stray menu from the previous field used to get read as this field's options
+  function ownOptions(el) {
+    const id = el.getAttribute("aria-controls") || el.getAttribute("aria-owns");
+    const box = id ? document.getElementById(id) : null;
+    const ctrl = el.closest("[class*='select__control'], [class*='select__'], [class*='control']");
+    const scope = box || (ctrl && ctrl.parentElement);
+    let o = scope ? [...scope.querySelectorAll(OPT)].filter(visible) : [];
+    if (!o.length) o = [...document.querySelectorAll(OPT)].filter(visible);   // menus rendered at the end of the page
+    return o.filter(x => !/^no option|^no result|^loading/i.test(txt(x)));
+  }
+  async function waitFor(f, ms) { const t0 = Date.now(); while (Date.now() - t0 < ms) { const v = f(); if (v && v.length) return v; await sleep(120); } return []; }
+  function matchOption(labels, want) {
+    const w = norm(want || "").toLowerCase(); if (!w) return -1;
+    let i = labels.findIndex(l => l.toLowerCase() === w);
+    if (i < 0) i = labels.findIndex(l => l.toLowerCase().startsWith(w));
+    if (i < 0) i = labels.findIndex(l => l.toLowerCase().includes(w));
+    if (i < 0 && /^\d+(\.\d+)?$/.test(w)) {                                  // "3.96" against "3.9 out of 4.0": nearest option at or below, never rounded up
+      const n = parseFloat(w); let best = -1, bd = 9e9;
+      labels.forEach((l, k) => { const m = l.match(/(\d+(?:\.\d+)?)/); if (!m) return; const v = parseFloat(m[1]); if (v <= n + 1e-9 && n - v < bd) { bd = n - v; best = k; } });
+      i = best;
+    }
+    if (i < 0 && w.length > 6) { const ws = w.split(/\W+/).filter(x => x.length > 3);
+      i = labels.findIndex(l => ws.length && ws.every(x => l.toLowerCase().includes(x))); }
+    return i;
+  }
+  const comboShows = (ctrl, want) => { const s = txt(ctrl).toLowerCase(); return !!want && s.includes(norm(want).toLowerCase().slice(0, 18)); };
   function realClick(el) {
     try { el.scrollIntoView({ block: "center" }); } catch (e) {} try { el.focus(); } catch (e) {}
     const r = el.getBoundingClientRect(); const o = { bubbles: true, cancelable: true, view: window, clientX: r.left + r.width / 2, clientY: r.top + r.height / 2, button: 0, buttons: 1 };
@@ -132,12 +163,10 @@
     if (el.labels && el.labels[0] && txt(el.labels[0])) return txt(el.labels[0]);
     const lb = el.getAttribute("aria-labelledby"); if (lb) { const t = lb.split(/\s+/).map(i => txt(document.getElementById(i))).join(" "); if (t) return t; }
     if (el.getAttribute("aria-label")) return norm(el.getAttribute("aria-label"));
-    let en = entryOf(el);
-    for (let i = 0; en && i < 4; i++, en = en.parentElement) {
-      const l = [...en.querySelectorAll("label, legend, .application-label, [class*='label'], [data-automation-id*='label'], span[class*='title'], [class*='question-text'], [class*='questionText']")]
-        .find(x => x !== el && !el.contains(x) && txt(x) && txt(x).length < 400 && x.querySelectorAll("input, select, textarea").length <= 1);   // a label may wrap its own field, but not a whole section
-      if (l) return txt(l);
-      if (en.querySelectorAll("input, select, textarea").length > 3) break;   // walked out of this field's box
+    const en = entryOf(el);
+    if (en && en.querySelectorAll("input, select, textarea").length <= 2) {   // only trust a container that holds this one field
+      const l = en.querySelector("label, legend, .application-label, [class*='label']:not(input):not(select), [data-automation-id*='label'], span[class*='title']");
+      if (l && txt(l)) return txt(l);
     }
     if (el.placeholder) return norm(el.placeholder);
     let p = el.previousElementSibling; while (p) { if (txt(p) && txt(p).length < 200) return txt(p); p = p.previousElementSibling; }
@@ -151,7 +180,7 @@
   async function fill(P) {
     const ctx = { job: P.job, answers: P.answers, profile: P.profile, cover: P.cover, coverText: P.coverText || "" };
     const A = f => window.CoopEngine.answerFor(f, ctx);
-    const need = [], done = [], seen = new Set();
+    const need = [], done = [], seen = new Set(), asked = new Set();
     const files = { resume: P.files.find(f => /resume/i.test(f.kind)), cover: P.cover ? P.files.find(f => /cover/i.test(f.kind)) : null };
     const root = document.querySelector(".jobs-easy-apply-modal") || document.querySelector("[role=dialog] form") || document.querySelector("form") || document.body;
 
@@ -210,6 +239,8 @@
       if (!visible(el) || el.disabled || el.readOnly) continue;
       const q = labelOf(el);
       if (!q) { if (isRequired(el) && !(el.value || "").trim()) need.push("a required field I couldn't read the question for"); continue; }
+      if (asked.has(q + "|" + type)) { if (isRequired(el) && !(el.value || "").trim()) need.push(q + " (a second field with the same question — I won't guess)"); continue; }
+      asked.add(q + "|" + type);
       const opts = el.tagName === "SELECT" ? [...el.options].map(o => txt(o)).filter(o => o && !/^(select|choose|--|please)/i.test(o)) : [];
       const isDate = type === "date" || /pick date|mm\/dd|yyyy|mm\/yyyy/i.test(el.placeholder || "") || /date/i.test(el.getAttribute("data-automation-id") || "");
       const r = A({ label: q, options: opts, type: isDate ? "date" : type });
@@ -222,25 +253,29 @@
       }
       if ((el.value || "").trim() && !isDate && (el.value.trim() === r.a || /^(name|first|last|email|phone|preferred)/i.test(q))) continue;   // portal prefilled it from the account
       if (el.getAttribute("role") === "combobox" || /select__input|react-select|autocomplete|typeahead/i.test(el.className + " " + (el.parentElement && el.parentElement.className))) {
-        // react-select style: the chosen value lives in a sibling, the options only exist while the menu is open
-        const ctrl = el.closest("[class*='control'], [class*='Control']") || el.parentElement.parentElement;
-        const cur = norm(txt(ctrl).replace(q, "")).toLowerCase();
-        const guess = (r.a || "").toLowerCase();
-        if (cur && !/^(select|choose|search|type|--|start typing)/i.test(cur) && (cur === guess || (guess && cur.includes(guess.slice(0, 8))) || /^(name|first|last|email|phone|school|universit)/i.test(q))) { done.push(q + " = " + cur); continue; }   // already right
-        const menuOpts = () => [...document.querySelectorAll("[role=option], .select__option, [class*='select__option'], [role=listbox] li, [data-automation-id='promptOption']")].filter(visible);
-        const pickFrom = (labels, want) => { const w = (want || "").toLowerCase(); if (!w) return -1; let i = labels.findIndex(l => l.toLowerCase() === w); if (i < 0) i = labels.findIndex(l => l.toLowerCase().includes(w.slice(0, 10)) || (w.length > 3 && w.includes(l.toLowerCase()))); return i; };
-        const esc = () => { el.dispatchEvent(new KeyboardEvent("keydown", { key: "Escape", keyCode: 27, bubbles: true })); el.blur(); };
-        realClick(el); el.focus(); el.dispatchEvent(new KeyboardEvent("keydown", { key: "ArrowDown", keyCode: 40, bubbles: true })); await sleep(450);
-        let opts2 = menuOpts(), labels2 = opts2.map(txt), r2 = labels2.length ? A({ label: q, options: labels2, type: "select" }) : r;
-        if (r2.k === "need" || !r2.a) { esc(); if (isRequired(el)) need.push(q); else done.push("left blank (optional): " + q); await sleep(120); continue; }
-        let pick = pickFrom(labels2, r2.a);
-        if (pick < 0) {   // long or lazy list: type to filter, then look again
-          setNative(el, r2.a.split(/[\s,(]/)[0]); await sleep(600);
-          opts2 = menuOpts(); labels2 = opts2.map(txt); const r3 = labels2.length ? A({ label: q, options: labels2, type: "select" }) : r2; pick = pickFrom(labels2, r3.a);
-          if (pick < 0 && labels2.length === 1 && !/no (options|results)/i.test(labels2[0])) pick = 0;
+        const ctrl = el.closest("[class*='select__control'], [class*='control'], [class*='Control']") || el.parentElement.parentElement;
+        const cur = norm(txt(ctrl).replace(q, ""));
+        if (cur && !/^(select|choose|search|type|--|start typing|please)/i.test(cur)) { done.push(q + " = " + cur); continue; }   // the portal already set it
+        closeMenus(); await sleep(150);
+        realClick(ctrl); el.focus(); KEY_DOWN(el);                            // the list opens from the control, not from the input
+        let opts = await waitFor(() => ownOptions(el), 2500), labels = opts.map(txt);
+        let r2 = labels.length ? A({ label: q, options: labels, type: "select" }) : r;
+        let pick = matchOption(labels, r2.a);
+        if (pick < 0 && r2.a && r2.k !== "need" && labels.length > 12) {       // long list: narrow it, then look again
+          setNative(el, norm(r2.a.split(/[,(]/)[0]));
+          opts = await waitFor(() => ownOptions(el), 1500); labels = opts.map(txt); pick = matchOption(labels, r2.a);
+          if (pick < 0 && labels.length === 1) pick = 0;
         }
-        if (pick < 0) { esc(); if (isRequired(el)) need.push(q + (labels2.length ? " (no option matched '" + r2.a + "')" : " (no options appeared)")); else done.push("left blank (optional): " + q); await sleep(120); continue; }
-        realClick(opts2[pick]); await sleep(250); fireReact(el, ["onBlur"], "blur"); el.blur(); done.push(q + " = " + labels2[pick]); continue;
+        if (pick < 0) {                                                        // nothing fits: leave it clean and say so, never park a half-typed answer in the box
+          closeMenus(); if (el.value) setNative(el, ""); el.blur();
+          if (isRequired(el)) need.push(q + (labels.length ? " (none of the options fit)" : " (couldn't open the list)")); else done.push("left blank (optional): " + q);
+          await sleep(120); continue;
+        }
+        realClick(opts[pick]); await sleep(350);
+        if (!comboShows(ctrl, labels[pick])) { el.focus(); KEY_DOWN(el); await waitFor(() => ownOptions(el), 1200); for (let n = 0; n < pick; n++) KEY_DOWN(el); KEY_ENTER(el); await sleep(350); }
+        if (comboShows(ctrl, labels[pick])) done.push(q + " = " + labels[pick]);
+        else { if (el.value) setNative(el, ""); if (isRequired(el)) need.push(q + " (the dropdown wouldn't take the answer)"); }
+        el.blur(); continue;
       }
       if (isDate) {
         const dm = (el.getAttribute("data-automation-id") || "") + " " + q.toLowerCase();
@@ -356,6 +391,11 @@
       const btn = primaryButton();
       if (!btn) { banner("can't find the Next / Submit button on this page; press it yourself and I'll keep going", "wait", stallActions(need.concat(["next button"]), allDone)); report({ ok: false, status: DRY ? "no-button" : "needs-you", need: need.concat(["next button"]), done: allDone }); if (DRY) return; await waitChange(); continue; }
       const isSubmit = /submit/i.test((btn.getAttribute("aria-label") || "") + txt(btn) + (btn.value || ""));
+      if (isSubmit) {                                                        // a resume box that stayed empty means something went wrong: stop, don't send
+        const fileBoxes = [...document.querySelectorAll("input[type=file]")].filter(f => visible(f) || visible(f.parentElement));
+        const resumeBox = fileBoxes.find(f => /resume|cv/i.test(labelOf(f) + " " + txt(entryOf(f))));
+        if (resumeBox && !(resumeBox.files && resumeBox.files.length) && !/\.pdf|\.doc/i.test(txt(entryOf(resumeBox)))) need.push("the resume didn't attach");
+      }
       if (need.length && isSubmit) { banner(`${need.length} field(s) need you before submit: ${need.join(" · ")}`, "err", stallActions(need, allDone)); report({ ok: false, status: "needs-you", need, done: allDone }); if (DRY) return; await waitChange(); continue; }
       if (isSubmit && DRY) { banner("dry run: would submit now", "ok"); report({ ok: true, status: "dry-submit", need, done: allDone, button: txt(btn) }); return; }
       const before = signature(); if (isSubmit) sessionStorage.setItem("coop-clicked", P.id);
