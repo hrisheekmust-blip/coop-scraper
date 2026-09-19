@@ -40,8 +40,32 @@ def _get(url, **kw):
         return r.read().decode("utf-8", "replace"), r.geturl()
 
 
+def linkedin_external(url):
+    """LinkedIn guest job page: if the posting uses an external ATS, return that URL; else the LinkedIn URL (Easy Apply)."""
+    try:
+        html, _ = _get(url, timeout=25)
+    except Exception:
+        return url
+    m = re.search(r'<code id="applyUrl"[^>]*>\s*<!--\s*"?([^"<]+?)"?\s*-->', html) or re.search(r'"applyUrl"\s*:\s*"([^"]+)"', html) or \
+        re.search(r'companyApplyUrl\\?"?\s*:\s*\\?"([^"\\]+)', html)
+    if m:
+        ext = unescape(m.group(1)).replace("\\u002F", "/").strip()
+        if ext.startswith("http") and "linkedin.com" not in ext:
+            q = urllib.parse.parse_qs(urllib.parse.urlparse(ext).query)
+            if "url" in q:
+                ext = q["url"][0]
+            try:
+                _, final = _get(ext, timeout=25)
+                return final or ext
+            except Exception:
+                return ext
+    return url
+
+
 def resolve(url):
     """Follow simplify / shortener redirects to the real ATS URL."""
+    if "linkedin.com/jobs" in url:
+        return linkedin_external(url)
     if "simplify.jobs" in url or "/click/" in url:
         try:
             _, final = _get(url, timeout=25)
@@ -204,6 +228,8 @@ def main():
     for r in rows:
         k = jid(r["link"])
         rec = forms.get(k) or {}
+        if rec.get("portal") == "linkedin" and not rec.get("li_checked"):
+            rec["apply_url"] = None; rec["li_checked"] = True; rec["attempted"] = 0
         if rec.get("fields") or (rec.get("attempted", 0) > now - 86400 and not (rec.get("error") and rec.get("portal") in FETCHERS)):
             continue
         if done >= MAX_PER_RUN:
