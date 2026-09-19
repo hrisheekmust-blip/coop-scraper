@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Co-op board: one-click apply
 // @namespace    coop-hrisheek
-// @version      2.8
+// @version      2.9
 // @description  Opened by the co-op board: walks any application form (Ashby, Greenhouse, Lever, LinkedIn Easy Apply, Workday, Oracle, iCIMS, SuccessFactors, Phenom, ...) page by page, fills it from the board's answers, attaches the files, submits, and reports back.
 // @match        *://*/*
 // @require      https://hrisheekmust-blip.github.io/coop-scraper/engine.js?v=6
@@ -148,7 +148,13 @@
       i = labels.findIndex(l => ws.length && ws.every(x => l.toLowerCase().includes(x))); }
     return i;
   }
-  const comboShows = (ctrl, want) => { const s = txt(ctrl).toLowerCase(); return !!want && s.includes(norm(want).toLowerCase().slice(0, 18)); };
+  const comboShows = (ctrl, want) => {                                     // react-select shows the committed choice as a single-value node; some (phone country) show only "+1"
+    if (!ctrl) return false;
+    const sv = ctrl.querySelector("[class*='single-value'], [class*='multi-value'], [class*='singleValue']");
+    if (sv && txt(sv)) return true;
+    if (!ctrl.querySelector("[class*='placeholder']") && txt(ctrl)) return true;
+    const s = txt(ctrl).toLowerCase(); return !!want && s.includes(norm(want).toLowerCase().slice(0, 18));
+  };
   function realClick(el) {
     try { el.scrollIntoView({ block: "center" }); } catch (e) {} try { el.focus(); } catch (e) {}
     const r = el.getBoundingClientRect(); const o = { bubbles: true, cancelable: true, view: window, clientX: r.left + r.width / 2, clientY: r.top + r.height / 2, button: 0, buttons: 1 };
