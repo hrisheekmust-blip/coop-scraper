@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Co-op board: one-click apply
 // @namespace    coop-hrisheek
-// @version      2.5
+// @version      2.6
 // @description  Opened by the co-op board: walks any application form (Ashby, Greenhouse, Lever, LinkedIn Easy Apply, Workday, Oracle, iCIMS, SuccessFactors, Phenom, ...) page by page, fills it from the board's answers, attaches the files, submits, and reports back.
 // @match        *://*/*
 // @require      https://hrisheekmust-blip.github.io/coop-scraper/engine.js?v=5
@@ -134,11 +134,12 @@
     if (el.getAttribute("aria-label")) return norm(el.getAttribute("aria-label"));
     let en = entryOf(el);
     for (let i = 0; en && i < 4; i++, en = en.parentElement) {
-      const l = [...en.querySelectorAll("label, legend, .application-label, [class*='label']:not(input):not(select), [data-automation-id*='label'], span[class*='title'], [class*='question-text'], [class*='questionText']")].find(x => txt(x) && !x.contains(el) && txt(x).length < 400);
+      const l = [...en.querySelectorAll("label, legend, .application-label, [class*='label'], [data-automation-id*='label'], span[class*='title'], [class*='question-text'], [class*='questionText']")]
+        .find(x => x !== el && !el.contains(x) && txt(x) && txt(x).length < 400 && x.querySelectorAll("input, select, textarea").length <= 1);   // a label may wrap its own field, but not a whole section
       if (l) return txt(l);
       if (en.querySelectorAll("input, select, textarea").length > 3) break;   // walked out of this field's box
     }
-    if (el.placeholder && !/^(select|choose|type your|enter|your answer|search)/i.test(el.placeholder)) return norm(el.placeholder);
+    if (el.placeholder) return norm(el.placeholder);
     let p = el.previousElementSibling; while (p) { if (txt(p) && txt(p).length < 200) return txt(p); p = p.previousElementSibling; }
     return "";
   }
@@ -207,7 +208,8 @@
         continue;
       }
       if (!visible(el) || el.disabled || el.readOnly) continue;
-      const q = labelOf(el); if (!q) continue;
+      const q = labelOf(el);
+      if (!q) { if (isRequired(el) && !(el.value || "").trim()) need.push("a required field I couldn't read the question for"); continue; }
       const opts = el.tagName === "SELECT" ? [...el.options].map(o => txt(o)).filter(o => o && !/^(select|choose|--|please)/i.test(o)) : [];
       const isDate = type === "date" || /pick date|mm\/dd|yyyy|mm\/yyyy/i.test(el.placeholder || "") || /date/i.test(el.getAttribute("data-automation-id") || "");
       const r = A({ label: q, options: opts, type: isDate ? "date" : type });

@@ -43,6 +43,9 @@ async function one(browser, id) {
   const page = await ctx.newPage();
   const rec = { id, company: f.company, role: f.role, portal: f.portal, url: f.apply_url, status: "timeout", need: [], done: [], banner: "", final_url: "", pages: 0 };
   page.on("dialog", d => d.dismiss().catch(() => {}));
+  const errs = [];
+  page.on("pageerror", e => errs.push(String(e && e.message || e).slice(0, 180)));
+  page.on("console", m => { if (m.type() === "error") errs.push(m.text().slice(0, 180)); });
   await ctx.addInitScript(({ p }) => { window.__coopDry = true; try { sessionStorage.setItem("coop-payload", JSON.stringify(p)); } catch (e) {} }, { p: payload });
   let injected = 0;
   const inject = async (fr = page.mainFrame()) => { try { await fr.evaluate(engine); await fr.evaluate(script); injected++; } catch (e) { rec.inject_error = String(e.message || e).slice(0, 200); } };
@@ -59,6 +62,8 @@ async function one(browser, id) {
     try { for (const fr of page.frames()) { const l = await fr.evaluate(() => window.__coopLast || null).catch(() => null); if (l && l.status && (!last || fr !== page.mainFrame())) last = l; } } catch (e) { continue; }   // navigating
     if (last && last.status) { Object.assign(rec, { status: last.status, need: last.need || [], done: last.done || [], button: last.button || "", error: last.error }); break; }
   }
+  try { rec.errors = errs.filter(e => !/Failed to load resource|net::|favicon/i.test(e)).slice(0, 5);
+        rec.fields = await page.evaluate(() => { const v = [...document.querySelectorAll("input:not([type=hidden]):not([type=search]), select, textarea")].filter(e => e.offsetWidth || e.offsetHeight); return { visible: v.length, filled: v.filter(e => (e.value || "").trim() || (e.files && e.files.length)).length }; }); } catch (e) {}
   try { rec.banner = await page.evaluate(() => (document.getElementById("coop-banner") || {}).textContent || ""); rec.final_url = page.url(); rec.title = await page.title(); } catch (e) {}
   if (rec.status !== "dry-submit") { try { fs.mkdirSync(path.join(ROOT, "data/dryrun"), { recursive: true }); await page.screenshot({ path: path.join(ROOT, "data/dryrun", id + ".jpg"), type: "jpeg", quality: 35, fullPage: false }); } catch (e) {} }
   await ctx.close();
