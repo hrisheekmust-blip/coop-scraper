@@ -14,7 +14,7 @@ dry-submit   ashby          Etched · DFT Intern
 no-button    lever          Hermeus · Avionics Electrical Engineering Intern - Spring/Summer 2027  NEED: next button
 no-button    lever          Quantinuum · Layout Automation Engineering Intern  NEED: next button
 no-button    lever          Hermeus · Subsystem Test Engineering Intern - Spring/Summer 2027  NEED: next button
-needs-you    lever          Shield AI · Electrical Engineering Spring Co-op (January 2027) (R4475)  NEED: no Apply button on this LinkedIn page (already applied, or the posting closed)
+no-button    lever          Shield AI · Electrical Engineering Spring Co-op (January 2027) (R4475)  NEED: next button
 no-button    lever          Hermeus · Environmental, Health, and Safety (EHS) Intern - 2027  NEED: next button
 no-button    lever          Hermeus · Flight Operations & Airworthiness Engineering Intern - Spring/Summer/Fall 2027  NEED: next button
 no-button    smartrecruiters Wabtec · Firmware Engineering Co-Op (January-June 2027)  NEED: next button
@@ -66,8 +66,7 @@ no-button    amazon         Amazon · Industrial Development Engineer Intern/Co-
   "dry-submit": 6
  },
  "lever": {
-  "no-button": 5,
-  "needs-you": 1
+  "no-button": 6
  },
  "smartrecruiters": {
   "no-button": 6

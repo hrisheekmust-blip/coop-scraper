@@ -1,5 +1,5 @@
 {
- "at": "2026-09-19T17:14:49.615Z",
+ "at": "2026-09-19T18:44:33.313Z",
  "summary": {
   "greenhouse": {
    "no-button": 6
@@ -8,8 +8,7 @@
    "dry-submit": 6
   },
   "lever": {
-   "no-button": 5,
-   "needs-you": 1
+   "no-button": 6
   },
   "smartrecruiters": {
    "no-button": 6
@@ -131,7 +130,7 @@
     "next button"
    ],
    "done": [],
-   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep going",
+   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep goingI finished it — continueSkip this one",
    "final_url": "https://akunacapital.com/careers/job/8018880/?gh_jid=8018880&utm_source=github-vansh-ouckah#coop=d29cea5ac41cafa5",
    "pages": 0,
    "button": "",
@@ -380,9 +379,9 @@
    "role": "Electrical Engineering Spring Co-op (January 2027) (R4475)",
    "portal": "lever",
    "url": "https://jobs.lever.co/shieldai/87d982f2-8b2b-4c73-9a19-71e461c7b724/apply",
-   "status": "needs-you",
+   "status": "no-button",
    "need": [
-    "no Apply button on this LinkedIn page (already applied, or the posting closed)"
+    "next button"
    ],
    "done": [],
    "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep going",
@@ -436,7 +435,7 @@
     "next button"
    ],
    "done": [],
-   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep going",
+   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep goingI finished it — continueSkip this one",
    "final_url": "https://jobs.smartrecruiters.com/wabtec/3743990015249216#coop=c7fd54d47f09378d",
    "pages": 0,
    "button": "",
@@ -470,7 +469,7 @@
     "next button"
    ],
    "done": [],
-   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep going",
+   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep goingI finished it — continueSkip this one",
    "final_url": "https://jobs.smartrecruiters.com/Wabtec/3743990015249216?utm_source=Simplify#coop=0602e6e52dfeac63",
    "pages": 0,
    "button": "",
@@ -487,7 +486,7 @@
     "next button"
    ],
    "done": [],
-   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep going",
+   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep goingI finished it — continueSkip this one",
    "final_url": "https://jobs.smartrecruiters.com/renesaselectronics/744000150194379#coop=d66dabc800498d62",
    "pages": 0,
    "button": "",
@@ -504,7 +503,7 @@
     "next button"
    ],
    "done": [],
-   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep going",
+   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep goingI finished it — continueSkip this one",
    "final_url": "https://jobs.smartrecruiters.com/RenesasElectronics/744000150194379?utm_source=Simplify#coop=2f8d4c365c0a0548",
    "pages": 0,
    "button": "",
@@ -521,7 +520,7 @@
     "next button"
    ],
    "done": [],
-   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep going",
+   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep goingI finished it — continueSkip this one",
    "final_url": "https://jobs.smartrecruiters.com/renesaselectronics/744000138837009#coop=092f22d007bbb0cf",
    "pages": 0,
    "button": "",
@@ -538,7 +537,7 @@
     "next button"
    ],
    "done": [],
-   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep going",
+   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep goingI finished it — continueSkip this one",
    "final_url": "https://careers.skyworksinc.com/job/Test-Engineering-2027-WinterSpring-Co-Op/78399-en_US#coop=881738c63f3ca958",
    "pages": 0,
    "button": "",
@@ -557,7 +556,7 @@
    "done": [
     "Enter Email address (Required) = test.applicant@example.com"
    ],
-   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep going",
+   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep goingI finished it — continueSkip this one",
    "final_url": "https://jobs.baesystems.com/global/en/job/127774BR/Electrical-Engineering-Coop-Spring-Summer-2027-Onsite#coop=60a0506901f15623",
    "pages": 0,
    "button": "",
@@ -584,7 +583,7 @@
     "Postal = 02115",
     "Resume = Test_Applicant_Resume.pdf"
    ],
-   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep going",
+   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep goingI finished it — continueSkip this one",
    "final_url": "https://novatechengineering.applytojob.com/apply/EdW1fxhcs5/Electrical-Engineering-CoOp?utm_source=Simplify#coop=8642b49f33620dad",
    "pages": 0,
    "button": "",
@@ -617,7 +616,7 @@
     "Are you applying with a school affiliated co-op program? If so, does this match your programs requirements? = Northeastern University",
     "We are unable to offer any relocation assistance at this time. Do you have the necessary resources and ability to commute to South Burlington, Vermont or Cary, North Carolina for the duration of this co-op? = https://example.com"
    ],
-   "banner": "Co-op board: 1 field(s) need you before submit: We expect this role to begin in January 2027 and run until June 2027. Does this align with your academic schedule?",
+   "banner": "Co-op board: 1 field(s) need you before submit: We expect this role to begin in January 2027 and run until June 2027. Does this align with your academic schedule?I finished it — continueSkip this one",
    "final_url": "https://apply.workable.com/onlogic-inc/j/10EC1527D8/apply?utm_source=Simplify#coop=dbfc8efd8ba70e40",
    "pages": 0,
    "button": "",
@@ -651,7 +650,7 @@
     "Website, Blog or Portfolio = https://example.com",
     "LinkedIn URL = https://www.linkedin.com/in/test-applica"
    ],
-   "banner": "Co-op board: 2 field(s) need you before submit: State (no option matched 'Massachusetts') · Country (no option matched 'United States')",
+   "banner": "Co-op board: 2 field(s) need you before submit: State (no option matched 'Massachusetts') · Country (no option matched 'United States')I finished it — continueSkip this one",
    "final_url": "https://specteraerospace.bamboohr.com/careers/115/?utm_source=Simplify#coop=b8e9b25e2fa27de4",
    "pages": 0,
    "button": "",
@@ -678,7 +677,7 @@
     "Postal = 02115",
     "Resume = Test_Applicant_Resume.pdf"
    ],
-   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep going",
+   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep goingI finished it — continueSkip this one",
    "final_url": "https://d3engineering.applytojob.com/apply/uixxAbdlV5/Embedded-Systems-Design-Coop?utm_source=Simplify#coop=b24a5bf225ef6095",
    "pages": 0,
    "button": "",
@@ -697,7 +696,7 @@
    "done": [
     "Select language = English"
    ],
-   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep going",
+   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep goingI finished it — continueSkip this one",
    "final_url": "https://careers-gdms.icims.com/jobs/74598/electrical-engineer-co-op-%28january---may-2027%29/job#coop=5c0ace6cc89c5797",
    "pages": 0,
    "button": "",
@@ -714,7 +713,7 @@
     "next button"
    ],
    "done": [],
-   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep going",
+   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep goingI finished it — continueSkip this one",
    "final_url": "https://careers.cdmsmith.com/jobs/4397?icims=1&utm_source=Simplify#coop=c36df8051642baea",
    "pages": 0,
    "button": "",
@@ -731,7 +730,7 @@
     "next button"
    ],
    "done": [],
-   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep going",
+   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep goingI finished it — continueSkip this one",
    "final_url": "https://careers.pplweb.com/jobs/15134?icims=1&utm_source=Simplify#coop=201ceb30990412f3",
    "pages": 0,
    "button": "",
@@ -750,7 +749,7 @@
    "done": [
     "Select language = English"
    ],
-   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep going",
+   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep goingI finished it — continueSkip this one",
    "final_url": "https://careers-werfen.icims.com/jobs/10905/job?mobile=true&needsRedirect=false&utm_source=Simplify#coop=f783dd636ad05643",
    "pages": 0,
    "button": "",
@@ -767,7 +766,7 @@
     "next button"
    ],
    "done": [],
-   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep going",
+   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep goingI finished it — continueSkip this one",
    "final_url": "https://jobs.keysight.com/external/jobs/54323?icims=1&utm_source=Simplify#coop=5ffa7838ed154451",
    "pages": 0,
    "button": "",
@@ -784,7 +783,7 @@
     "next button"
    ],
    "done": [],
-   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep going",
+   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep goingI finished it — continueSkip this one",
    "final_url": "https://careers.amd.com/careers-home/jobs/92346?icims=1&utm_source=Simplify#coop=b7dc8e7e380bb05a",
    "pages": 0,
    "button": "",
@@ -801,7 +800,7 @@
     "next button"
    ],
    "done": [],
-   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep going",
+   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep goingI finished it — continueSkip this one",
    "final_url": "https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26010996#coop=b0cf543268bd900c",
    "pages": 0,
    "button": "",
@@ -818,7 +817,7 @@
     "next button"
    ],
    "done": [],
-   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep going",
+   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep goingI finished it — continueSkip this one",
    "final_url": "https://hctz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2506631#coop=379ae2abed6014c6",
    "pages": 0,
    "button": "",
@@ -835,7 +834,7 @@
     "next button"
    ],
    "done": [],
-   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep going",
+   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep goingI finished it — continueSkip this one",
    "final_url": "https://hdnn.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/113826?utm_source=Simplify#coop=ba65bc4e5eb66cd6",
    "pages": 0,
    "button": "",
@@ -852,7 +851,7 @@
     "next button"
    ],
    "done": [],
-   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep going",
+   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep goingI finished it — continueSkip this one",
    "final_url": "https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/25017578#coop=2177b8af7b5f2b1c",
    "pages": 0,
    "button": "",
@@ -869,7 +868,7 @@
     "next button"
    ],
    "done": [],
-   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep going",
+   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep goingI finished it — continueSkip this one",
    "final_url": "https://fa-emqh-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/7007?utm_source=Simplify#coop=79b311f512323933",
    "pages": 0,
    "button": "",
@@ -886,7 +885,7 @@
     "next button"
    ],
    "done": [],
-   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep going",
+   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep goingI finished it — continueSkip this one",
    "final_url": "https://ejta.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/10562?utm_source=Simplify#coop=243f5ef4b489440e",
    "pages": 0,
    "button": "",
@@ -905,7 +904,7 @@
    "done": [
     "left blank (optional): Search by Keyword"
    ],
-   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep going",
+   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep goingI finished it — continueSkip this one",
    "final_url": "https://careers.qorvo.com/job/Denver-RF-Design-Engineering-Intern-CO-80014/1424717100/?ats=successfactors&utm_source=Simplify#coop=0d9c4b030d8ab3e5",
    "pages": 0,
    "button": "",
@@ -922,7 +921,7 @@
     "next button"
    ],
    "done": [],
-   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep going",
+   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep goingI finished it — continueSkip this one",
    "final_url": "https://jobs.l3harris.com/job/Londonderry-Electrical-Engineering-Intern-NH-03053/1420020900/?ats=successfactors&utm_source=Simplify#coop=8154dcd7d33b7b49",
    "pages": 0,
    "button": "",
@@ -939,7 +938,7 @@
     "next button"
    ],
    "done": [],
-   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep going",
+   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep goingI finished it — continueSkip this one",
    "final_url": "https://careers.chsinc.com/job/McPherson-Electrical-Engineer-Intern-KS-67460-9402/1429868200/?ats=successfactors&utm_source=Simplify#coop=6e9e49ed4f732766",
    "pages": 0,
    "button": "",
@@ -956,7 +955,7 @@
     "next button"
    ],
    "done": [],
-   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep going",
+   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep goingI finished it — continueSkip this one",
    "final_url": "https://careers.centerpointenergy.com/job/Houston-Electrical-Engineering-Spring-Co-op-2027-TX-77002/1428292900/?ats=successfactors&utm_source=Simplify#coop=b270f84c27fda184",
    "pages": 0,
    "button": "",
@@ -975,7 +974,7 @@
    "done": [
     "left blank (optional): Search by keyword (title, company, location, etc.)"
    ],
-   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep going",
+   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep goingI finished it — continueSkip this one",
    "final_url": "https://careers.wecenergygroup.com/We_Energies/job/Milwaukee-Co-Op-Engineer-Electric-Distribution-WI-53203/1419827900/?ats=successfactors&utm_source=Simplify#coop=a9f68e33c4c1b645",
    "pages": 0,
    "button": "",
@@ -992,7 +991,7 @@
     "next button"
    ],
    "done": [],
-   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep going",
+   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep goingI finished it — continueSkip this one",
    "final_url": "https://jobs.advanced-energy.com/job/Fort-Collins-Intern-Electronics-Service-CO-80525/1389595200/?ats=successfactors&utm_source=Simplify#coop=37146560d26bd12e",
    "pages": 0,
    "button": "",
@@ -1009,11 +1008,11 @@
     "next button"
    ],
    "done": [],
-   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep going",
+   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep goingI finished it — continueSkip this one",
    "final_url": "https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-IA-CEDAR-RAPIDS-130-~-5350-C-Ave-NE-~-BLDG-130/Digital-Hardware-Design-Engineer-Co-op--Spring-Summer-_01871518-1/apply/autofillWithResume",
    "pages": 0,
    "button": "",
-   "title": "Sign In"
+   "title": "Digital Hardware Design Engineer Co-op (Winter/Spring)(Onsite)"
   },
   {
    "id": "150ec201e9bc77b2",
@@ -1026,8 +1025,8 @@
     "next button"
    ],
    "done": [],
-   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep going",
-   "final_url": "https://nrel.wd5.myworkdayjobs.com/NLR/job/Boulder-CO/Post-Undergraduate--Fixed-term--Intern---Electrical-Engineering_R14491?utm_source=Simplify#coop=150ec201e9bc77b2",
+   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep goingI finished it — continueSkip this one",
+   "final_url": "https://nrel.wd5.myworkdayjobs.com/en-US/NLR/job/Boulder%2C-CO/Post-Undergraduate--Fixed-term--Intern---Electrical-Engineering_R14491/apply/autofillWithResume?utm_source=Simplify",
    "pages": 0,
    "button": "",
    "title": "Post Undergraduate (Fixed term) Intern – Electrical Engineering"
@@ -1043,11 +1042,11 @@
     "next button"
    ],
    "done": [],
-   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep going",
-   "final_url": "https://agilent.wd5.myworkdayjobs.com/en-US/Agilent_Student_Careers/job/US-DE-Wilmington/Electrical-Engineering-Intern_4038526/apply/autofillWithResume?utm_source=Simplify",
+   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep goingI finished it — continueSkip this one",
+   "final_url": "https://agilent.wd5.myworkdayjobs.com/Agilent_Student_Careers/job/US-DE-Wilmington/Electrical-Engineering-Intern_4038526?utm_source=Simplify#coop=5642f7c6b1bd2643",
    "pages": 0,
    "button": "",
-   "title": "Create Account"
+   "title": "Electrical Engineering Intern"
   },
   {
    "id": "dd89765e99613f71",
@@ -1060,11 +1059,11 @@
     "next button"
    ],
    "done": [],
-   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep going",
-   "final_url": "https://geaerospace.wd5.myworkdayjobs.com/en-US/GE_ExternalSite/job/Saint-George-UT-US-1/Unison-Engineering-Part-time-Co-op---US---Spring-2027_R5040016/apply/autofillWithResume",
+   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep goingI finished it — continueSkip this one",
+   "final_url": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Saint-George-UT-US-1/Unison-Engineering-Part-time-Co-op---US---Spring-2027_R5040016#coop=dd89765e99613f71",
    "pages": 0,
    "button": "",
-   "title": "Create Account"
+   "title": "Unison Engineering Part-time Co-op - US - Spring 2027"
   },
   {
    "id": "979f79d09814a938",
@@ -1077,7 +1076,7 @@
     "next button"
    ],
    "done": [],
-   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep going",
+   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep goingI finished it — continueSkip this one",
    "final_url": "https://draper.wd5.myworkdayjobs.com/Draper_Careers/job/Cambridge-MA/Systems-Engineering-Co-Op--Spring-2027-_JR002882#coop=979f79d09814a938",
    "pages": 0,
    "button": "",
@@ -1094,7 +1093,7 @@
     "next button"
    ],
    "done": [],
-   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep going",
+   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep goingI finished it — continueSkip this one",
    "final_url": "https://nxp.wd3.myworkdayjobs.com/careers/job/Austin-Oakhill-Office/Digital-Design-Intern---Spring-2027_R-10065548#coop=31ca0c55a935af8f",
    "pages": 0,
    "button": "",
@@ -1114,7 +1113,7 @@
     "left blank (optional): Search for jobs by title or keyword",
     "left blank (optional): search job by location"
    ],
-   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep going",
+   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep goingI finished it — continueSkip this one",
    "final_url": "https://www.amazon.jobs/en/jobs/10535282/hardware-development-engineer-intern-co-op-robotics-2027#coop=003bf70487c5df25",
    "pages": 0,
    "button": "",
@@ -1134,7 +1133,7 @@
     "left blank (optional): Search for jobs by title or keyword",
     "left blank (optional): search job by location"
    ],
-   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep going",
+   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep goingI finished it — continueSkip this one",
    "final_url": "https://www.amazon.jobs/en/jobs/10517535/asic-engineer-intern-annapurna-labs-2027#coop=a09bed4e9fb8703c",
    "pages": 0,
    "button": "",
@@ -1154,7 +1153,7 @@
     "left blank (optional): Search for jobs by title or keyword",
     "left blank (optional): search job by location"
    ],
-   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep going",
+   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep goingI finished it — continueSkip this one",
    "final_url": "https://www.amazon.jobs/en/jobs/10517649/cloud-hardware-development-engineer-intern-annapurna-labs-2027#coop=b3a6a219a0708575",
    "pages": 0,
    "button": "",
@@ -1174,7 +1173,7 @@
     "left blank (optional): Search for jobs by title or keyword",
     "left blank (optional): search job by location"
    ],
-   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep going",
+   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep goingI finished it — continueSkip this one",
    "final_url": "https://www.amazon.jobs/en/jobs/3145033/robotics-hardware-development-engineer-intern-co-op-2026-robotics-mechanical-electrical-hardware-test-reliability-failure-analysis-operations-and-more#coop=05c577eca640383b",
    "pages": 0,
    "button": "",
@@ -1194,7 +1193,7 @@
     "left blank (optional): Search for jobs by title or keyword",
     "left blank (optional): search job by location"
    ],
-   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep going",
+   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep goingI finished it — continueSkip this one",
    "final_url": "https://www.amazon.jobs/en/jobs/10536817/industrial-development-engineer-intern-co-op-robotics-2027#coop=148ce480c4e74940",
    "pages": 0,
    "button": "",
