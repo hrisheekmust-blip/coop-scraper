@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Co-op board: Outlook confirmations
 // @namespace    coop-hrisheek
-// @version      1.2
+// @version      1.3
 // @description  Reads the Outlook web inbox list, matches application emails to companies you applied to on the co-op board, and records them (confirmation / rejection / interview) in the board's private repo.
 // @match        https://outlook.office.com/*
 // @match        https://outlook.office365.com/*
@@ -11,6 +11,7 @@
 // @grant        GM_getValue
 // @grant        GM_setValue
 // @grant        GM_xmlhttpRequest
+// @grant        GM_registerMenuCommand
 // @connect      api.github.com
 // @connect      hrisheekmust-blip.github.io
 // @run-at       document-idle
@@ -30,11 +31,18 @@
     }));
   }
   const b64 = s => btoa(unescape(encodeURIComponent(s))), unb64 = s => decodeURIComponent(escape(atob(s.replace(/\n/g, ""))));
-  async function token() {
-    let t = GM_getValue("gh_token", "");
-    if (!t) { t = prompt("Co-op board: paste the same GitHub token you use in the board's settings (stored only in Tampermonkey)") || ""; if (t) GM_setValue("gh_token", t.trim()); }
-    return t;
+  async function token() { return GM_getValue("gh_token", ""); }
+  function askToken() {
+    if (document.getElementById("coop-token-box")) return;
+    const d = document.createElement("div"); d.id = "coop-token-box";
+    d.style.cssText = "position:fixed;bottom:16px;right:16px;z-index:2147483647;background:#1d4ed8;color:#fff;padding:12px 14px;border-radius:8px;font:13px system-ui;box-shadow:0 4px 14px rgba(0,0,0,.3);display:flex;gap:8px;align-items:center";
+    d.innerHTML = '<span>Co-op board: paste your GitHub token (same one as the board settings)</span><input type="password" style="width:260px;padding:4px 6px;border-radius:4px;border:0" placeholder="github_pat_…"><button style="padding:4px 10px;border-radius:4px;border:0;cursor:pointer">Save</button>';
+    const inp = d.querySelector("input"), btn = d.querySelector("button");
+    const save = () => { const v = inp.value.trim(); if (!v) return; GM_setValue("gh_token", v); d.remove(); toast("token saved; scanning the inbox now"); setTimeout(scan, 500); };
+    btn.onclick = save; inp.onkeydown = e => { if (e.key === "Enter") save(); };
+    document.body.appendChild(d); inp.focus();
   }
+  try { GM_registerMenuCommand("Set GitHub token", () => { GM_setValue("gh_token", ""); askToken(); }); } catch (e) {}
   async function gh(path, opt = {}) {
     const t = await token(); if (!t) throw new Error("no token");
     const txt = await req(`https://api.github.com/repos/${REPO}/contents/${path}?t=${Date.now()}`, { method: opt.method || "GET", headers: { Authorization: "Bearer " + t, Accept: "application/vnd.github+json", "X-GitHub-Api-Version": "2022-11-28", ...(opt.body ? { "Content-Type": "application/json" } : {}) }, body: opt.body ? JSON.stringify(opt.body) : undefined });
@@ -66,7 +74,7 @@
     if (busy) return; busy = true;
     try {
       const rows = inboxRows(); if (!rows.length) { if (first) toast("no inbox rows visible yet; I re-check every 2 minutes", "warn"); return; }
-      if (!(await token())) { toast("no GitHub token saved; reload Outlook and paste it in the prompt", "err"); return; }
+      if (!(await token())) { askToken(); return; }
       const sheet = csv(await req(SHEET + "?t=" + Date.now()));
       const st = await gh("data/state.json"); const state = JSON.parse(unb64(st.content)) || {};
       const ids = {}; for (const r of sheet) ids[await sha1_16(r.link)] = r;
