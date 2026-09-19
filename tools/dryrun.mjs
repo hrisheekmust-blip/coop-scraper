@@ -45,8 +45,10 @@ async function one(browser, id) {
   page.on("dialog", d => d.dismiss().catch(() => {}));
   await ctx.addInitScript(({ p }) => { window.__coopDry = true; try { sessionStorage.setItem("coop-payload", JSON.stringify(p)); } catch (e) {} }, { p: payload });
   let injected = 0;
-  const inject = async () => { try { await page.evaluate(engine); await page.evaluate(script); injected++; } catch (e) { rec.inject_error = String(e.message || e).slice(0, 200); } };
+  const inject = async (fr = page.mainFrame()) => { try { await fr.evaluate(engine); await fr.evaluate(script); injected++; } catch (e) { rec.inject_error = String(e.message || e).slice(0, 200); } };
   page.on("domcontentloaded", () => { inject(); });
+  // embedded forms (Greenhouse/Lever iframes on a company careers page): Tampermonkey runs in frames too
+  page.on("framenavigated", fr => { if (fr !== page.mainFrame() && /greenhouse|lever|ashby|workable|bamboohr|jobvite|applytojob|smartrecruiters/.test(fr.url())) setTimeout(() => inject(fr), 1500); });
   try {
     await page.goto(f.apply_url + "#coop=" + id, { waitUntil: "domcontentloaded", timeout: 45000 });
   } catch (e) { rec.status = "nav-error"; rec.error = String(e.message).slice(0, 200); await ctx.close(); return rec; }
@@ -54,7 +56,7 @@ async function one(browser, id) {
   while (Date.now() - t0 < TIMEOUT) {
     await page.waitForTimeout(1500);
     let last = null;
-    try { last = await page.evaluate(() => window.__coopLast || null); } catch (e) { continue; }   // navigating
+    try { for (const fr of page.frames()) { const l = await fr.evaluate(() => window.__coopLast || null).catch(() => null); if (l && l.status && (!last || fr !== page.mainFrame())) last = l; } } catch (e) { continue; }   // navigating
     if (last && last.status) { Object.assign(rec, { status: last.status, need: last.need || [], done: last.done || [], button: last.button || "", error: last.error }); break; }
   }
   try { rec.banner = await page.evaluate(() => (document.getElementById("coop-banner") || {}).textContent || ""); rec.final_url = page.url(); rec.title = await page.title(); } catch (e) {}

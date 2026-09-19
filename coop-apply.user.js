@@ -1,10 +1,10 @@
 // ==UserScript==
 // @name         Co-op board: one-click apply
 // @namespace    coop-hrisheek
-// @version      2.3
+// @version      2.4
 // @description  Opened by the co-op board: walks any application form (Ashby, Greenhouse, Lever, LinkedIn Easy Apply, Workday, Oracle, iCIMS, SuccessFactors, Phenom, ...) page by page, fills it from the board's answers, attaches the files, submits, and reports back.
 // @match        *://*/*
-// @require      https://hrisheekmust-blip.github.io/coop-scraper/engine.js?v=4
+// @require      https://hrisheekmust-blip.github.io/coop-scraper/engine.js?v=5
 // @grant        none
 // @run-at       document-idle
 // ==/UserScript==
@@ -104,9 +104,13 @@
     if (el.labels && el.labels[0] && txt(el.labels[0])) return txt(el.labels[0]);
     const lb = el.getAttribute("aria-labelledby"); if (lb) { const t = lb.split(/\s+/).map(i => txt(document.getElementById(i))).join(" "); if (t) return t; }
     if (el.getAttribute("aria-label")) return norm(el.getAttribute("aria-label"));
-    const en = entryOf(el);
-    if (en) { const l = en.querySelector("label, legend, .application-label, [class*='label'], [data-automation-id*='label'], span[class*='title']"); if (l && txt(l)) return txt(l); }
-    if (el.placeholder) return norm(el.placeholder);
+    let en = entryOf(el);
+    for (let i = 0; en && i < 4; i++, en = en.parentElement) {
+      const l = [...en.querySelectorAll("label, legend, .application-label, [class*='label']:not(input):not(select), [data-automation-id*='label'], span[class*='title'], [class*='question-text'], [class*='questionText']")].find(x => txt(x) && !x.contains(el) && txt(x).length < 400);
+      if (l) return txt(l);
+      if (en.querySelectorAll("input, select, textarea").length > 3) break;   // walked out of this field's box
+    }
+    if (el.placeholder && !/^(select|choose|type your|enter|your answer|search)/i.test(el.placeholder)) return norm(el.placeholder);
     let p = el.previousElementSibling; while (p) { if (txt(p) && txt(p).length < 200) return txt(p); p = p.previousElementSibling; }
     return "";
   }
@@ -231,7 +235,8 @@
     const cands = [...document.querySelectorAll("button, input[type=submit], a[role=button], [role=button]")].filter(visible).filter(b => !b.disabled && b.getAttribute("aria-disabled") !== "true");
     const label = b => (b.getAttribute("aria-label") || "") + " " + (b.value || "") + " " + txt(b) + " " + (b.getAttribute("data-automation-id") || "");
     const order = [/submit application|submit my application|^submit$|\bsubmit\b(?!.*(resume|another))/i, /review (your )?application|review and submit|^review$/i, /save and continue|continue to next|^continue$|^next\b|next step|proceed|save & continue|bottom-navigation-next-button|pageFooterNextButton/i, /^apply( now)?$|easy apply|apply for this job|start application|begin application|apply to job|utilityButtonApply|applyButton/i];
-    for (const rx of order) { const b = cands.find(x => rx.test(label(x)) && !/upload|attach|add another|cancel|back|previous|withdraw|save (for )?later|save draft|dismiss|linkedin|indeed|autofill/i.test(label(x))); if (b) return b; }
+    const links = [...document.querySelectorAll("a[href]")].filter(visible);
+    for (const rx of order) { const pool = rx === order[order.length - 1] ? cands.concat(links) : cands; const b = pool.find(x => rx.test(label(x)) && !/upload|attach|add another|cancel|back|previous|withdraw|save (for )?later|save draft|dismiss|linkedin|indeed|autofill|alert/i.test(label(x))); if (b) return b; }
     return null;
   }
   const signature = () => location.href.split("#")[0] + "|" + bodyText().replace(/\d/g, "").slice(0, 3000);
@@ -240,7 +245,13 @@
   async function waitChange() { const sig = signature(); while (signature() === sig) await sleep(1000); }
 
   // ---------------------------------------------------------------- portal quirks
-  const findBtn = rx => [...document.querySelectorAll("a, button")].filter(visible).find(x => rx.test(txt(x) + " " + (x.getAttribute("aria-label") || "")));
+  const findBtn = rx => [...document.querySelectorAll("a, button, input[type=button], input[type=submit], [role=button]")].filter(visible).find(x => rx.test(txt(x) + " " + (x.getAttribute("aria-label") || "") + " " + (x.value || "")) && !/alert|share|refer a friend|save job/i.test(txt(x)));
+  // are we looking at the application form itself (not a job description with a job-alert email box)?
+  const onForm = () => [...document.querySelectorAll("input[type=file], input[name*='first' i], input[id*='first' i], input[autocomplete='given-name'], input[name*='last' i], input[name='name'], input[id='name'], input[name*='phone' i], input[type=tel]")].some(visible)
+    || [...document.querySelectorAll("form")].some(f => [...f.querySelectorAll("input:not([type=hidden]):not([type=search]), textarea, select")].filter(visible).length >= 3 && !/job alert|search jobs|subscribe|sign up for/i.test(txt(f).slice(0, 300)));
+  const APPLY_RX = /^apply( now| for this job| to job| to this job| online| here)?$|^i'm interested$|^start application$|^begin application$|^apply for (this )?(job|position|role)$/i;
+  function acceptCookies() { const b = [...document.querySelectorAll("button, a, [role=button]")].filter(visible).find(x => /^(accept( all)?( cookies)?|allow all( cookies)?|i (accept|agree)|agree|got it|ok(ay)?)$/i.test(txt(x)) && /cookie|consent|privacy/i.test(txt(x.closest("div, section, aside, footer") || x.parentElement).slice(0, 800))); if (b) { realClick(b); return true; } return false; }
+  const embeddedForm = () => [...document.querySelectorAll("iframe#grnhse_iframe, iframe[src*='greenhouse.io'], iframe[src*='lever.co'], iframe[src*='ashbyhq'], iframe[src*='workable'], iframe[src*='bamboohr'], iframe[src*='jobvite'], iframe[src*='applytojob'], iframe[src*='smartrecruiters']")].some(visible);
   const M = {
     linkedin: {
       async pre() {
@@ -270,13 +281,13 @@
         for (const b of document.querySelectorAll("button[aria-haspopup='listbox']")) { if (!visible(b)) continue; const q = labelOf(b); if (/device type/i.test(q) && /select/i.test(txt(b))) { realClick(b); await sleep(400); const o = [...document.querySelectorAll("[role=option]")].find(x => /mobile/i.test(txt(x))); if (o) realClick(o); await sleep(200); } }
       }
     },
-    icims: { async pre() { const b = findBtn(/apply for this job|^apply$|apply now/i); if (b && !document.querySelector("input[type=email], input[name*='email' i]")) { realClick(b); await settle(1500); } return true; } },
-    oracle: { async pre() { const b = findBtn(/^apply( now)?$|i'm interested/i); if (b && !document.querySelector("input[type=email]")) { realClick(b); await settle(1500); } return true; } },
-    successfactors: { async pre() { const b = findBtn(/^apply( now)?$/i); if (b && !document.querySelector("input[type=email]")) { realClick(b); await settle(1500); } return true; } },
+    icims: { async pre() { const b = findBtn(APPLY_RX); if (b && !onForm()) { realClick(b); await settle(2500); } return true; } },
+    oracle: { async pre() { const b = findBtn(APPLY_RX); if (b && !onForm()) { realClick(b); await settle(2500); } return true; } },
+    successfactors: { async pre() { const b = findBtn(APPLY_RX); if (b && !onForm()) { realClick(b); await settle(2500); } return true; } },
     ashby: { async pre() { if (!/\/application/.test(location.pathname)) { const t = [...document.querySelectorAll("a")].find(a => /\/application$/.test(a.getAttribute("href") || "")); if (t) { location.href = keepHash(t.href); return "navigating"; } } return true; } },
-    greenhouse: { async pre() { const b = findBtn(/^apply( now| for this job)?$/i); if (b && !document.querySelector("#first_name, input[name='first_name'], input[type=email]")) { realClick(b); await settle(1200); } return true; } },
+    greenhouse: { async pre() { const b = findBtn(APPLY_RX); if (b && !onForm() && !embeddedForm()) { realClick(b); await settle(1500); } return true; } },
     lever: { async pre() { if (!/\/apply/.test(location.pathname)) { const a = document.querySelector("a[href$='/apply'], a.postings-btn"); if (a) { location.href = keepHash(a.href); return "navigating"; } } return true; } },
-    other: { async pre() { if (document.querySelector("input[type=email], input[name*='email' i]")) return true; const b = findBtn(/^apply( now| for this job| to job)?$|start application|begin application/i); if (!b) return true; const o = window.open; let ext = null; window.open = u => { ext = u; return null; }; realClick(b); await settle(1500); window.open = o; if (ext) { location.href = keepHash(ext); return "navigating"; } return true; } },
+    other: { async pre() { if (onForm() || embeddedForm()) return true; const b = findBtn(APPLY_RX); if (!b) return true; const o = window.open; let ext = null; window.open = u => { ext = u; return null; }; realClick(b); await settle(1500); window.open = o; if (ext) { location.href = keepHash(ext); return "navigating"; } return true; } },
   };
 
   // ---------------------------------------------------------------- the walk
@@ -287,6 +298,7 @@
     await settle(800);
     if (succeeded() && sessionStorage.getItem("coop-clicked") === P.id) { banner("submitted ✓ recorded on the board", "ok"); report({ ok: true, status: "applied" }); sessionStorage.removeItem(KEY); return; }
     const mod = M[PORTAL] || M.other;
+    acceptCookies();
     banner("opening the application for " + P.job.company + "…");
     const pre = await mod.pre(P);
     if (pre === "navigating") { banner("following the apply link…"); return; }
@@ -306,6 +318,8 @@
         continue;
       }
       if (captchaUp()) { banner("captcha: solve it and I'll continue", "wait"); if (DRY) { report({ ok: false, status: "captcha", done: allDone }); return; } while (captchaUp()) await sleep(1000); }
+      if (window.top === window && embeddedForm()) { banner("the form is embedded on this page; filling it inside the frame…"); await sleep(4000); if (embeddedForm()) { for (let k = 0; k < 600; k++) { await sleep(1000); if (!embeddedForm() || succeeded()) break; } continue; } }
+      if (acceptCookies()) await sleep(400);
       banner(`page ${step + 1}: filling ${P.job.company} · ${P.job.role}…`);
       const { need, done } = await fill(P); allDone.push(...done);
       if (mod.fix) await mod.fix(P);
