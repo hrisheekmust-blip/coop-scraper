@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Co-op board: one-click apply
 // @namespace    coop-hrisheek
-// @version      2.4
+// @version      2.5
 // @description  Opened by the co-op board: walks any application form (Ashby, Greenhouse, Lever, LinkedIn Easy Apply, Workday, Oracle, iCIMS, SuccessFactors, Phenom, ...) page by page, fills it from the board's answers, attaches the files, submits, and reports back.
 // @match        *://*/*
 // @require      https://hrisheekmust-blip.github.io/coop-scraper/engine.js?v=5
@@ -11,9 +11,21 @@
 (function () {
   "use strict";
   const KEY = "coop-payload";
+  const RELAY = "https://hrisheekmust-blip.github.io/coop-scraper/relay.html";
+  const b64e = x => btoa(unescape(encodeURIComponent(x))).replace(/\+/g, "-").replace(/\//g, "_").replace(/=+$/, "");
+  const b64d = x => decodeURIComponent(escape(atob(x.replace(/-/g, "+").replace(/_/g, "/"))));
   const hashId = (location.hash.match(/coop=([0-9a-f]{16})/) || [])[1];
+  const inlineP = (location.hash.match(/[#&]p=([A-Za-z0-9_-]+)/) || [])[1];
   let payload = null;
-  try { payload = JSON.parse(sessionStorage.getItem(KEY) || "null"); } catch (e) {}
+  if (inlineP) {                                         // the relay tab hands the whole payload over in the hash
+    try { payload = JSON.parse(b64d(inlineP)); } catch (e) {}
+    if (payload) {
+      try { sessionStorage.setItem(KEY, JSON.stringify(payload)); } catch (e) {}
+      try { history.replaceState(null, "", location.href.split("#")[0] + "#coop=" + payload.id); } catch (e) {}
+    }
+  }
+  if (!payload) { try { payload = JSON.parse(sessionStorage.getItem(KEY) || "null"); } catch (e) {} }
+  if (location.href.indexOf(RELAY.split("#")[0]) === 0) return;   // the relay page itself drives the queue; nothing to fill there
   if (!hashId && !payload) return;                       // not opened by the board: do nothing on this page
   if (hashId && payload && payload.id !== hashId) payload = null;
   if (window.__coopRunning) return; window.__coopRunning = true;
@@ -30,14 +42,30 @@
 
   // ---------------------------------------------------------------- banner + reporting
   let bar;
-  function banner(msg, kind) {
+  function banner(msg, kind, acts) {
     if (window.top !== window) { try { window.top.postMessage({ type: "coop-banner", msg, kind }, "*"); } catch (e) {} return; }
     if (!bar) { bar = document.createElement("div"); bar.id = "coop-banner"; document.documentElement.appendChild(bar); }
     bar.style.cssText = `position:fixed;top:0;left:0;right:0;z-index:2147483647;padding:10px 16px;font:14px/1.4 system-ui,sans-serif;color:#fff;background:${kind === "err" ? "#b3261e" : kind === "ok" ? "#1e7d3c" : kind === "wait" ? "#b45309" : "#1d4ed8"};box-shadow:0 2px 8px rgba(0,0,0,.25)`;
     bar.textContent = "Co-op board: " + msg;
+    for (const a of acts || []) {
+      const b = document.createElement("button"); b.textContent = a.label;
+      b.style.cssText = "margin-left:10px;padding:3px 11px;border:0;border-radius:5px;background:#fff;color:#111;font:inherit;font-size:13px;cursor:pointer";
+      b.onclick = a.fn; bar.appendChild(b);
+    }
   }
   window.addEventListener("message", e => { const d = e.data || {}; if (d.type === "coop-banner" && window.top === window) banner(d.msg, d.kind); });
   const report = m => { try { window.__coopLast = m; (window.__coopReports = window.__coopReports || []).push(m); } catch (e) {} try { const o = opener(); if (o) o.postMessage({ ...m, type: "coop-result", id: payload ? payload.id : hashId, url: location.href, at: new Date().toISOString() }, "*"); } catch (e) {} };
+  let reported = false;
+  function finish(m) {                                   // last word on this application: tell the board, then hand the tab back to the relay
+    report(m);
+    if (reported || DRY) return; reported = true;
+    if (opener()) return;                                // the board tab heard it directly
+    const r = { ok: !!m.ok, status: m.status, need: (m.need || []).slice(0, 12), done: (m.done || []).slice(-40), id: payload ? payload.id : hashId, url: location.href, at: new Date().toISOString() };
+    setTimeout(() => { try { location.href = RELAY + "#done=" + b64e(JSON.stringify(r)); } catch (e) {} }, 500);
+  }
+  const stallActions = (need, done) => [
+    { label: "I finished it — continue", fn: () => finish({ ok: true, status: "applied", done: (done || []).concat("finished by hand in the form tab") }) },
+    { label: "Skip this one", fn: () => finish({ ok: false, status: "needs-you", need: need || ["skipped by you"], done }) }];
 
   // ---------------------------------------------------------------- payload handshake with the board tab
   async function getPayload() {
@@ -49,7 +77,7 @@
       let n = 0; const t = setInterval(() => { const o = opener(); if (!o || n++ > 60) { clearInterval(t); resolve(null); return; } o.postMessage({ type: "coop-ready", id: hashId }, "*"); }, 500);
     });
   }
-  const keepHash = url => { try { const u = new URL(url, location.href); u.hash = "coop=" + (payload ? payload.id : hashId); return u.href; } catch (e) { return url; } };
+  const keepHash = url => { try { const u = new URL(url, location.href); u.hash = "coop=" + (payload ? payload.id : hashId) + (payload ? "&p=" + b64e(JSON.stringify(payload)) : ""); return u.href; } catch (e) { return url; } };
 
   // ---------------------------------------------------------------- React-aware setters
   const reactProps = el => { const k = Object.keys(el).find(k => k.startsWith("__reactProps$")); return k ? el[k] : null; };
@@ -293,25 +321,25 @@
   // ---------------------------------------------------------------- the walk
   async function run() {
     const P = await getPayload();
-    if (!P) { banner("board tab didn't answer; go back to the board and click Apply again", "err"); return; }
+    if (!P) { banner("no answers for this posting reached this tab; go back to the board and click Apply again", "err"); return; }
     for (let i = 0; i < 40 && document.readyState !== "complete"; i++) await sleep(250);
     await settle(800);
-    if (succeeded() && sessionStorage.getItem("coop-clicked") === P.id) { banner("submitted ✓ recorded on the board", "ok"); report({ ok: true, status: "applied" }); sessionStorage.removeItem(KEY); return; }
+    if (succeeded() && sessionStorage.getItem("coop-clicked") === P.id) { banner("submitted ✓ recorded on the board", "ok"); sessionStorage.removeItem(KEY); finish({ ok: true, status: "applied" }); return; }
     const mod = M[PORTAL] || M.other;
     acceptCookies();
     banner("opening the application for " + P.job.company + "…");
     const pre = await mod.pre(P);
     if (pre === "navigating") { banner("following the apply link…"); return; }
-    if (pre !== true) { banner(pre, "err"); report({ ok: false, status: "needs-you", need: [pre] }); return; }
+    if (pre !== true) { banner(pre, "err", stallActions([pre], [])); finish({ ok: false, status: "needs-you", need: [pre] }); return; }
     const allDone = [];
     for (let step = 0; step < 14; step++) {
       await settle(600);
-      if (sessionStorage.getItem("coop-clicked") === P.id && succeeded()) { banner("submitted ✓ recorded on the board", "ok"); report({ ok: true, status: "applied", done: allDone }); sessionStorage.removeItem(KEY); return; }
+      if (sessionStorage.getItem("coop-clicked") === P.id && succeeded()) { banner("submitted ✓ recorded on the board", "ok"); sessionStorage.removeItem(KEY); finish({ ok: true, status: "applied", done: allDone }); return; }
       if (loginPage()) {
         const em = [...document.querySelectorAll("input[type=email], input[name*='email' i], input[id*='email' i]")].find(visible); if (em && !em.value) setText(em, P.profile.email);
         const pw = [...document.querySelectorAll("input[type=password]")].filter(visible);
         if (pw.length === 1 && pw[0].value) { const b = primaryButton() || findBtn(/sign in|log in/i); if (b) { realClick(b); await settle(2500); continue; } }
-        banner("sign in or create your account here (type the password once, Chrome remembers it). I continue by myself after.", "wait");
+        banner("sign in or create your account here (type the password once, Chrome remembers it). I continue by myself after.", "wait", stallActions(["sign in on the portal (first time only)"], allDone));
         report({ ok: false, status: DRY ? "login" : "needs-you", need: ["sign in on the portal (first time only)"], done: allDone });
         if (DRY) return;
         while (loginPage()) await sleep(1000);
@@ -324,20 +352,20 @@
       const { need, done } = await fill(P); allDone.push(...done);
       if (mod.fix) await mod.fix(P);
       const btn = primaryButton();
-      if (!btn) { banner("can't find the Next / Submit button on this page; press it yourself and I'll keep going", "wait"); report({ ok: false, status: DRY ? "no-button" : "needs-you", need: need.concat(["next button"]), done: allDone }); if (DRY) return; await waitChange(); continue; }
+      if (!btn) { banner("can't find the Next / Submit button on this page; press it yourself and I'll keep going", "wait", stallActions(need.concat(["next button"]), allDone)); report({ ok: false, status: DRY ? "no-button" : "needs-you", need: need.concat(["next button"]), done: allDone }); if (DRY) return; await waitChange(); continue; }
       const isSubmit = /submit/i.test((btn.getAttribute("aria-label") || "") + txt(btn) + (btn.value || ""));
-      if (need.length && isSubmit) { banner(`${need.length} field(s) need you before submit: ${need.join(" · ")}`, "err"); report({ ok: false, status: "needs-you", need, done: allDone }); if (DRY) return; await waitChange(); continue; }
+      if (need.length && isSubmit) { banner(`${need.length} field(s) need you before submit: ${need.join(" · ")}`, "err", stallActions(need, allDone)); report({ ok: false, status: "needs-you", need, done: allDone }); if (DRY) return; await waitChange(); continue; }
       if (isSubmit && DRY) { banner("dry run: would submit now", "ok"); report({ ok: true, status: "dry-submit", need, done: allDone, button: txt(btn) }); return; }
       const before = signature(); if (isSubmit) sessionStorage.setItem("coop-clicked", P.id);
       realClick(btn); await settle(1500);
-      if (isSubmit) { for (let k = 0; k < 40; k++) { if (succeeded()) break; await sleep(500); } if (succeeded()) { banner("submitted ✓ recorded on the board", "ok"); report({ ok: true, status: "applied", done: allDone }); sessionStorage.removeItem(KEY); return; } }
+      if (isSubmit) { for (let k = 0; k < 40; k++) { if (succeeded()) break; await sleep(500); } if (succeeded()) { banner("submitted ✓ recorded on the board", "ok"); sessionStorage.removeItem(KEY); finish({ ok: true, status: "applied", done: allDone }); return; } }
       if (signature() === before) {
         const names = complaints();
         if (names.length) { banner(`form flagged: ${names.join(", ")}; retrying…`); await fill(P); if (mod.fix) await mod.fix(P); realClick(primaryButton() || btn); await settle(1500); }
-        if (signature() === before) { const n2 = complaints(); banner(`stuck on this page${n2.length ? ": " + n2.join(", ") : ""}. Fix it and press Next; I'll continue.`, "err"); report({ ok: false, status: DRY ? "stuck" : "needs-you", need: n2.length ? n2 : need.length ? need : ["page did not advance"], done: allDone, button: txt(btn) }); if (DRY) return; await waitChange(); }
+        if (signature() === before) { const n2 = complaints(); banner(`stuck on this page${n2.length ? ": " + n2.join(", ") : ""}. Fix it and press Next; I'll continue.`, "err", stallActions(n2.length ? n2 : need, allDone)); report({ ok: false, status: DRY ? "stuck" : "needs-you", need: n2.length ? n2 : need.length ? need : ["page did not advance"], done: allDone, button: txt(btn) }); if (DRY) return; await waitChange(); }
       }
     }
-    banner("too many pages without a confirmation; check the tab", "err"); report({ ok: false, status: "needs-you", need: ["no confirmation after 14 pages"], done: allDone });
+    banner("too many pages without a confirmation; check the tab", "err", stallActions(["no confirmation after 14 pages"], allDone)); finish({ ok: false, status: "needs-you", need: ["no confirmation after 14 pages"], done: allDone });
   }
-  run().catch(e => { banner("error: " + e.message, "err"); report({ ok: false, status: "error", error: String(e) }); });
+  run().catch(e => { banner("error: " + e.message, "err", stallActions(["script error: " + e.message], [])); finish({ ok: false, status: "error", need: ["script error: " + e.message] }); });
 })();

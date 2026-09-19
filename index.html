@@ -202,40 +202,59 @@ function coverPdf(text){const {jsPDF}=window.jspdf;const d=new jsPDF({unit:"pt",
 const coverBlob=text=>coverPdf(text).output("blob");
 const coverB64=text=>coverPdf(text).output("datauristring").split(",")[1];
 /* ---------- one-click apply: hand the form tab everything it needs, get the result back ---------- */
-const SUPPORTED=/^(ashby|greenhouse|lever)$/;const pending={};let applyWin=null;
+const pending={};const QK=id=>"coop-q-"+id;
 const applyUrl=j=>((forms[j.id]||{}).apply_url)||j.link;
 const canOneClick=j=>(j.materials||[]).length>0&&!!cfg.token;
 const b64buf=buf=>{const u=new Uint8Array(buf);let s="";for(let i=0;i<u.length;i+=8192)s+=String.fromCharCode.apply(null,u.subarray(i,i+8192));return btoa(s)};
-async function oneClickApply(j){
+async function buildPayload(j){
   const files=[];let coverText="";for(const m of (j.materials||[])){if(/\(text\)/.test(m.name)){if(coverOn(j)){try{coverText=j.cover_text||await (await gh(m.path,{raw:true})).text()}catch(e){}}continue}const isCover=/cover/i.test(m.name);if(isCover&&!coverOn(j))continue;
     if(isCover&&(j.cover_text||m.gen)){files.push({kind:"cover",name:"Hrisheek_Mustyala_Cover_Letter.pdf",type:"application/pdf",b64:coverB64(j.cover_text||m.text)});continue}
     const r=await gh(m.path,{raw:true});files.push({kind:isCover?"cover":"resume",name:isCover?"Hrisheek_Mustyala_Cover_Letter.pdf":"Hrisheek_Mustyala_Resume.pdf",type:"application/pdf",b64:b64buf(await r.arrayBuffer())})}
   let a=j.answers_obj||{};if(j.answers_json){try{a=await (await gh(j.answers_json,{raw:true})).json()}catch(e){}}
-  pending[j.id]={type:"coop-payload",id:j.id,job:{id:j.id,company:j.company,role:j.role,link:j.link},answers:a,profile:profile||{},cover:coverOn(j),coverText:coverOn(j)?coverText:"",files};
-  const u=applyUrl(j)+"#coop="+j.id;
-  if(batch){if(batch.win&&!batch.win.closed){try{batch.win.location.href=u}catch(e){batch.win=window.open(u,"coop-apply")}}else batch.win=window.open(u,"coop-apply");applyWin=batch.win}else applyWin=window.open(u,"_blank");
-  await writeState(st=>{st[j.id]={...(st[j.id]||{}),status:"applying",statusAt:new Date().toISOString(),note:"form tab opened; filling…"}});render();if(openId===j.id)drawRender()}
-window.addEventListener("message",async e=>{const d=e.data||{};if(typeof d.type!=="string"||!d.type.startsWith("coop-"))return;if(!/^https:\/\//.test(e.origin))return;
+  return {type:"coop-payload",id:j.id,job:{id:j.id,company:j.company,role:j.role,link:j.link},answers:a,profile:profile||{},cover:coverOn(j),coverText:coverOn(j)?coverText:"",files}}
+/* the relay tab (relay.html, same origin as this page) picks these up and carries them into the portal */
+async function stage(j){const p=await buildPayload(j);pending[j.id]=p;
+  try{localStorage.setItem(QK(j.id),JSON.stringify({applyUrl:applyUrl(j),payload:p}))}
+  catch(e){throw new Error("this browser's storage is full \u2014 apply to fewer at a time")}
+  await writeState(st=>{st[j.id]={...(st[j.id]||{}),status:"applying",statusAt:new Date().toISOString(),note:"handed to the form tab; filling\u2026"}});render();if(openId===j.id)drawRender()}
+async function recordResult(d){const p=pending[d.id];
+  if(d.ok){await writeState(st=>{st[d.id]={...(st[d.id]||{}),status:"applied",statusAt:d.at,note:"",submitted:{at:d.at,portal:d.url,files:(p?p.files:[]).map(f=>({name:f.name})),notes:(d.done||[]).join("\n")}}})}
+  else{await writeState(st=>{st[d.id]={...(st[d.id]||{}),status:"applying",note:(d.status==="needs-you"?"waiting on you in the form tab: ":"error: ")+((d.need&&d.need.length?d.need:[d.error||"?"]).join(" \u00b7 "))}})}
+  try{localStorage.removeItem(QK(d.id))}catch(e){}
+  render();if(openId===d.id)drawRender()}
+window.addEventListener("message",async e=>{const d=e.data||{};if(typeof d.type!=="string"||!d.type.startsWith("coop-"))return;if(!/^https:/.test(e.origin))return;
   if(d.type==="coop-ready"){if(pending[d.id])e.source.postMessage(pending[d.id],e.origin);return}
-  if(d.type==="coop-result"){const p=pending[d.id];
-    if(d.ok){await writeState(st=>{st[d.id]={...(st[d.id]||{}),status:"applied",statusAt:d.at,note:"",submitted:{at:d.at,portal:d.url,files:(p?p.files:[]).map(f=>({name:f.name})),notes:(d.done||[]).join("\n")}}})}
-    else{await writeState(st=>{st[d.id]={...(st[d.id]||{}),status:"applying",note:(d.status==="needs-you"?"waiting on you in the form tab: ":"error: ")+((d.need&&d.need.length?d.need:[d.error||"?"]).join(" · "))}})}
-    render();if(openId===d.id)drawRender();
-    if(batch&&batch.ids[batch.i]===d.id){if(d.ok){batch.done++;setTimeout(nextInBatch,1200)}else{batch.waiting=d.status==="needs-you";batchBar();if(!batch.waiting)setTimeout(nextInBatch,1500)}}}});
-/* ---------- batch apply: one tab, one posting after another ---------- */
+  if(d.type==="coop-result")await recordResult(d)});
+/* the relay tab reports through localStorage: portals like LinkedIn cut window.opener the moment the tab navigates */
+window.addEventListener("storage",async e=>{if(!e.key)return;
+  if(e.key.indexOf("coop-r-")===0&&e.newValue){let d;try{d=JSON.parse(e.newValue)}catch(x){return}try{localStorage.removeItem(e.key)}catch(x){}await recordResult(d);return}
+  if(e.key==="coop-batch"&&e.newValue){let q;try{q=JSON.parse(e.newValue)}catch(x){return}batch=q;batchBar();
+    if(q.i>0&&q.ids[q.i-1])try{localStorage.removeItem(QK(q.ids[q.i-1]))}catch(x){}
+    if(!q.finished&&q.i<q.ids.length){const nj=jobs().find(x=>x.id===q.ids[q.i]);if(nj)stage(nj).catch(err=>{$("bst").textContent="couldn't prepare "+nj.company+": "+err.message})}}});
+/* ---------- batch apply: the relay tab walks the queue; this tab stages the work and records what comes back ---------- */
 const selected=new Set();let batch=null;
-function batchBar(){const bar=$("batchbar");if(!bar)return;const n=[...selected].length;
-  if(batch){bar.classList.add("on");const j=jobs().find(x=>x.id===batch.ids[batch.i])||{};$("bst").textContent=`Applying ${batch.i+1} of ${batch.ids.length}: ${j.company||""}${batch.waiting?" — needs you in the form tab (finish it there, or skip)":"…"}`;$("bgo").style.display="none";$("bskip").style.display="";$("bclear").textContent="Stop";return}
+try{batch=JSON.parse(localStorage.getItem("coop-batch")||"null")}catch(e){}
+function batchBar(){const bar=$("batchbar");if(!bar)return;const n=selected.size;
+  if(batch&&batch.ids&&batch.ids.length&&!batch.finished&&batch.i<batch.ids.length){bar.classList.add("on");
+    $("bst").textContent=`Applying ${batch.i+1} of ${batch.ids.length}: ${(batch.names&&batch.names[batch.i])||""}`;
+    $("bgo").style.display="none";$("bskip").style.display="none";$("bclear").textContent="Stop";return}
+  if(batch&&batch.ids&&batch.ids.length&&(batch.finished||batch.i>=batch.ids.length)){bar.classList.add("on");
+    $("bst").textContent=`Done — ${batch.done} of ${batch.ids.length} submitted`;
+    $("bgo").style.display="none";$("bskip").style.display="none";$("bclear").textContent="Clear";return}
   bar.classList.toggle("on",n>0);$("bst").textContent=n?`${n} selected`:"";$("bgo").style.display="";$("bgo").textContent=`Apply to all ${n}`;$("bskip").style.display="none";$("bclear").textContent="Clear"}
-function startBatch(){const all=jobs();const ids=[...selected].filter(id=>{const j=all.find(x=>x.id===id);return j&&!isDone(j)&&!inFlight(j)&&canOneClick(j)});if(!ids.length){$("bst").textContent="nothing selected that can be applied to (needs materials + your token)";return}
-  const win=window.open("about:blank","coop-apply");   // opened on your click, so the browser allows it; every posting then loads into this same tab
-  batch={ids,i:-1,done:0,win,waiting:false,timer:null};nextInBatch()}
-async function nextInBatch(){if(!batch)return;clearTimeout(batch.timer);batch.i++;batch.waiting=false;
-  if(batch.i>=batch.ids.length){const d=batch.done,n=batch.ids.length;batch=null;batchBar();$("batchbar").classList.add("on");$("bst").textContent=`Done: ${d} of ${n} submitted${d<n?" (the rest are marked on the board with what they need)":""}`;setTimeout(()=>{if(!batch&&!selected.size)$("batchbar").classList.remove("on")},8000);return}
-  const j=jobs().find(x=>x.id===batch.ids[batch.i]);selected.delete(j.id);batchBar();
-  try{await oneClickApply(j)}catch(e){await writeState(st=>{st[j.id]={...(st[j.id]||{}),status:"applying",note:"error: "+e.message}});render();setTimeout(nextInBatch,800);return}
-  batch.timer=setTimeout(async()=>{if(!batch||batch.ids[batch.i]!==j.id||batch.waiting)return;await writeState(st=>{const cur=st[j.id]||{};if(cur.status==="applying")st[j.id]={...cur,note:"no answer from the form tab after 6 minutes; open it and check"}});render();nextInBatch()},6*60*1000)}
-$("bgo").onclick=startBatch;$("bskip").onclick=()=>{if(batch)nextInBatch()};$("bclear").onclick=()=>{if(batch){clearTimeout(batch.timer);batch=null}selected.clear();render()};
+async function startBatch(force){const all=jobs();
+  const ids=[...selected].filter(id=>{const j=all.find(x=>x.id===id);return j&&canOneClick(j)&&(force||(!isDone(j)&&!inFlight(j)))});
+  if(!ids.length){$("batchbar").classList.add("on");$("bst").textContent="nothing selected that I can apply to (each one needs its materials and your token)";return}
+  const names=ids.map(id=>{const j=all.find(x=>x.id===id);return j.company+" · "+j.role});
+  for(const id of ids)try{localStorage.removeItem(QK(id))}catch(e){}
+  batch={ids,names,i:0,done:0,finished:false};localStorage.setItem("coop-batch",JSON.stringify(batch));
+  const win=window.open("relay.html#go","coop-apply");   // opened by your click so the pop-up blocker allows it; it drives every application from there
+  selected.clear();batchBar();render();
+  if(!win){$("bst").textContent="your browser blocked the new tab — allow pop-ups for this page, then click Apply again";return}
+  try{await stage(all.find(x=>x.id===ids[0]))}catch(e){$("bst").textContent="couldn't prepare the first one: "+e.message}}
+$("bgo").onclick=()=>startBatch(false);
+$("bclear").onclick=()=>{if(batch){batch=null;try{localStorage.setItem("coop-batch",JSON.stringify({ids:[],names:[],i:0,done:0,finished:true}))}catch(e){}}selected.clear();render()};
+const applyOne=async j=>{selected.clear();selected.add(j.id);await startBatch(true)};
 /* ---------- drawer ---------- */
 const blobCache={};
 async function matUrl(m){if(m.url)return m.url;if(m.gen==="cover")return URL.createObjectURL(coverBlob(m.text));if(m.gen==="text")return URL.createObjectURL(new Blob([m.text],{type:"text/plain;charset=utf-8"}));if(blobCache[m.path])return blobCache[m.path];const r=await gh(m.path,{raw:true});const pdf=/\.pdf$/i.test(m.path);const u=URL.createObjectURL(new Blob([await r.arrayBuffer()],{type:pdf?"application/pdf":"text/plain;charset=utf-8"}));blobCache[m.path]=u;return u}
@@ -256,8 +275,8 @@ async function drawRender(){const j=jobs().find(x=>x.id===openId);if(!j)return c
   $("close").onclick=closeDrawer;$("ov").onclick=e=>{if(e.target.id==="ov")closeDrawer()};
   document.querySelectorAll("[data-s]").forEach(b=>b.onclick=()=>{step=+b.dataset.s;drawRender()});
   const n=$("next");if(n)n.onclick=()=>{step++;drawRender()};
-  const c=$("confirm");if(c)c.onclick=async()=>{c.disabled=true;c.textContent=canOneClick(j)?"Opening…":"Queuing…";try{if(canOneClick(j))await oneClickApply(j);else await setStatus(j.id,"queued")}catch(e){c.disabled=false;c.textContent=canOneClick(j)?"Apply":"Queue for Claude";$("sendHint").textContent="couldn't: "+e.message}};
-  const rt=$("retry");if(rt)rt.onclick=()=>oneClickApply(j);const md=$("markdone");if(md)md.onclick=()=>writeState(st=>{st[j.id]={...(st[j.id]||{}),status:"applied",statusAt:new Date().toISOString(),note:"",submitted:{at:new Date().toISOString(),portal:applyUrl(j),files:[],notes:"marked applied by hand"}}}).then(()=>{render();drawRender()});
+  const c=$("confirm");if(c)c.onclick=async()=>{c.disabled=true;c.textContent=canOneClick(j)?"Opening…":"Queuing…";try{if(canOneClick(j))await applyOne(j);else await setStatus(j.id,"queued")}catch(e){c.disabled=false;c.textContent=canOneClick(j)?"Apply":"Queue for Claude";$("sendHint").textContent="couldn't: "+e.message}};
+  const rt=$("retry");if(rt)rt.onclick=()=>applyOne(j);const md=$("markdone");if(md)md.onclick=()=>writeState(st=>{st[j.id]={...(st[j.id]||{}),status:"applied",statusAt:new Date().toISOString(),note:"",submitted:{at:new Date().toISOString(),portal:applyUrl(j),files:[],notes:"marked applied by hand"}}}).then(()=>{render();drawRender()});
   const u=$("unq");if(u)u.onclick=()=>setStatus(j.id,"");
   const ct=$("covtog");if(ct)ct.onchange=async()=>{await writeState(st=>{st[j.id]={...(st[j.id]||{}),cover:ct.checked}});drawRender()};
   if(cur==="Questions & answers"&&(j.fit||j.answers_json||j.answers||j.answers_obj)){try{let a=j.answers_obj||{};if(j.answers_json){try{a=await (await gh(j.answers_json,{raw:true})).json()}catch(e){}}const f=j.fit?await (await gh(j.fit,{raw:true})).text():(j.fit_text||"");const box=$("fitbox");if(box)box.outerHTML=qaHtml(j,a)+(f?`<details class="fitd"><summary>Why this resume version</summary><pre>${esc(f)}</pre></details>`:"")}catch(e){const box=$("fitbox");if(box)box.textContent="couldn't load: "+e.message}}
