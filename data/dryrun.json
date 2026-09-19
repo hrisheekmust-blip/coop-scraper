@@ -1,11 +1,11 @@
 {
- "at": "2026-09-19T19:07:46.174Z",
+ "at": "2026-09-19T20:58:32.075Z",
  "summary": {
   "greenhouse": {
    "no-button": 6
   },
   "ashby": {
-   "dry-submit": 6
+   "needs-you": 6
   },
   "lever": {
    "no-button": 6
@@ -34,7 +34,7 @@
     "requestStorageAccess: Permission denied."
    ],
    "fields": {
-    "visible": 32,
+    "visible": 33,
     "filled": 5
    },
    "title": "Job Application for Winter 2027 Electrical Engineer Co-op at Anduril Industries"
@@ -175,8 +175,10 @@
    "role": "RTL Intern",
    "portal": "ashby",
    "url": "https://jobs.ashbyhq.com/etched/157ed4f4-6e3b-4ec9-b93f-3e363e92041e/application",
-   "status": "dry-submit",
-   "need": [],
+   "status": "needs-you",
+   "need": [
+    "the resume didn't attach"
+   ],
    "done": [
     "Which term(s) would you like to be considered for? = Winter (January - May)",
     "Current Program Type = Bachelor's Degree",
@@ -199,10 +201,10 @@
     "Resume = Test_Applicant_Resume.pdf",
     "SAT or ACT Score = ACT 36"
    ],
-   "banner": "Co-op board: dry run: would submit now",
+   "banner": "Co-op board: 1 field(s) need you before submit: the resume didn't attachI finished it — continueSkip this one",
    "final_url": "https://jobs.ashbyhq.com/etched/157ed4f4-6e3b-4ec9-b93f-3e363e92041e/application#coop=774542fb12febfcc",
    "pages": 0,
-   "button": "Submit Application",
+   "button": "",
    "errors": [
     "requestStorageAccess: Permission denied."
    ],
@@ -218,8 +220,10 @@
    "role": "Electrical Engineer Intern - Winter 2027",
    "portal": "ashby",
    "url": "https://jobs.ashbyhq.com/skydio/9ac944bc-89da-44bb-bf9c-3b9922e7cbee/application",
-   "status": "dry-submit",
-   "need": [],
+   "status": "needs-you",
+   "need": [
+    "the resume didn't attach"
+   ],
    "done": [
     "Preferred start date(s) = January 2027",
     "Gender = Decline to self-identify",
@@ -234,10 +238,10 @@
     "Linkedin URL = https://www.linkedin.com/in/test-applica",
     "Websites = https://example.com"
    ],
-   "banner": "Co-op board: dry run: would submit now",
+   "banner": "Co-op board: 1 field(s) need you before submit: the resume didn't attachI finished it — continueSkip this one",
    "final_url": "https://jobs.ashbyhq.com/skydio/9ac944bc-89da-44bb-bf9c-3b9922e7cbee/application#coop=539b2ed846929909",
    "pages": 0,
-   "button": "Submit Application",
+   "button": "",
    "errors": [
     "requestStorageAccess: Permission denied."
    ],
@@ -253,8 +257,10 @@
    "role": "Hardware Product Management Intern - Fall 2026/Winter 2027",
    "portal": "ashby",
    "url": "https://jobs.ashbyhq.com/skydio/1ec2fe3c-3fb2-4485-870d-764a3e5f5baf/application",
-   "status": "dry-submit",
-   "need": [],
+   "status": "needs-you",
+   "need": [
+    "the resume didn't attach"
+   ],
    "done": [
     "What (months) are you available to start? = January 2027",
     "Gender = Decline to self-identify",
@@ -268,10 +274,10 @@
     "Linkedin URL = https://www.linkedin.com/in/test-applica",
     "Websites = https://example.com"
    ],
-   "banner": "Co-op board: dry run: would submit now",
+   "banner": "Co-op board: 1 field(s) need you before submit: the resume didn't attachI finished it — continueSkip this one",
    "final_url": "https://jobs.ashbyhq.com/skydio/1ec2fe3c-3fb2-4485-870d-764a3e5f5baf/application#coop=4774516ba7453e8b",
    "pages": 0,
-   "button": "Submit Application",
+   "button": "",
    "errors": [
     "requestStorageAccess: Permission denied."
    ],
@@ -287,8 +293,10 @@
    "role": "Internship - Manufacturing Engineering",
    "portal": "ashby",
    "url": "https://jobs.ashbyhq.com/1x/d687b375-8136-4e6f-baa6-369b89366050/application",
-   "status": "dry-submit",
-   "need": [],
+   "status": "needs-you",
+   "need": [
+    "the resume didn't attach"
+   ],
    "done": [
     "Are you legally authorized to work in the United States? = Yes",
     "Will you require visa sponsorship now or in the future? = No",
@@ -298,10 +306,10 @@
     "Please share your LinkedIn profile. = https://www.linkedin.com/in/test-applica",
     "Please share links to GitHub, portfolio, publications, or hardware projects (if applicable). = https://github.com/test-applicant"
    ],
-   "banner": "Co-op board: dry run: would submit now",
+   "banner": "Co-op board: 1 field(s) need you before submit: the resume didn't attachI finished it — continueSkip this one",
    "final_url": "https://jobs.ashbyhq.com/1x/d687b375-8136-4e6f-baa6-369b89366050/application#coop=42fbce852298573b",
    "pages": 0,
-   "button": "Submit Application",
+   "button": "",
    "errors": [
     "requestStorageAccess: Permission denied."
    ],
@@ -317,8 +325,10 @@
    "role": "Chip Simulation Software Intern",
    "portal": "ashby",
    "url": "https://jobs.ashbyhq.com/etched/27e5bd6b-9357-45f0-9e79-cfa2bf4eeba8/application",
-   "status": "dry-submit",
-   "need": [],
+   "status": "needs-you",
+   "need": [
+    "the resume didn't attach"
+   ],
    "done": [
     "Which term(s) would you like to be considered for? = Winter (January - May)",
     "Current Program Type = Bachelor's Degree",
@@ -341,10 +351,10 @@
     "Resume = Test_Applicant_Resume.pdf",
     "SAT or ACT Score = ACT 36"
    ],
-   "banner": "Co-op board: dry run: would submit now",
+   "banner": "Co-op board: 1 field(s) need you before submit: the resume didn't attachI finished it — continueSkip this one",
    "final_url": "https://jobs.ashbyhq.com/etched/27e5bd6b-9357-45f0-9e79-cfa2bf4eeba8/application#coop=f6d801842bde09ee",
    "pages": 0,
-   "button": "Submit Application",
+   "button": "",
    "errors": [
     "requestStorageAccess: Permission denied."
    ],
@@ -360,8 +370,10 @@
    "role": "DFT Intern",
    "portal": "ashby",
    "url": "https://jobs.ashbyhq.com/etched/5f1f5739-3b58-467c-b351-ff183c94d96d/application",
-   "status": "dry-submit",
-   "need": [],
+   "status": "needs-you",
+   "need": [
+    "the resume didn't attach"
+   ],
    "done": [
     "Which term(s) would you like to be considered for? = Spring (January - May)",
     "Current Program Type = Bachelor's Degree",
@@ -384,10 +396,10 @@
     "Resume = Test_Applicant_Resume.pdf",
     "SAT or ACT Score = ACT 36"
    ],
-   "banner": "Co-op board: dry run: would submit now",
+   "banner": "Co-op board: 1 field(s) need you before submit: the resume didn't attachI finished it — continueSkip this one",
    "final_url": "https://jobs.ashbyhq.com/etched/5f1f5739-3b58-467c-b351-ff183c94d96d/application#coop=c952d8a85af8ae2f",
    "pages": 0,
-   "button": "Submit Application",
+   "button": "",
    "errors": [
     "requestStorageAccess: Permission denied."
    ],
@@ -439,7 +451,7 @@
    "errors": [],
    "fields": {
     "visible": 45,
-    "filled": 19
+    "filled": 18
    },
    "title": "Quantinuum - Layout Automation Developer Intern - 993"
   },
@@ -463,7 +475,7 @@
    ],
    "fields": {
     "visible": 49,
-    "filled": 27
+    "filled": 26
    },
    "title": "Hermeus - Subsystem Test Engineering Intern - Spring/Summer 2027"
   },

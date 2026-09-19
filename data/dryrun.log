@@ -5,12 +5,12 @@ no-button    greenhouse     Rocket Lab · Test Engineering Intern - Manufacturin
 no-button    greenhouse     PsiQuantum · Intern, Optical Packaging and Characterization Engineer  NEED: next button
 no-button    greenhouse     Interstates · Instrumentation – Manufacturing & Automation Intern  NEED: next button
 no-button    greenhouse     Akuna Capital · Hardware Engineer Intern  NEED: next button
-dry-submit   ashby          Etched · RTL Intern
-dry-submit   ashby          Skydio · Electrical Engineer Intern - Winter 2027
-dry-submit   ashby          Skydio · Hardware Product Management Intern - Fall 2026/Winter 2027
-dry-submit   ashby          1X · Internship - Manufacturing Engineering
-dry-submit   ashby          Etched · Chip Simulation Software Intern
-dry-submit   ashby          Etched · DFT Intern
+needs-you    ashby          Etched · RTL Intern  NEED: the resume didn't attach
+needs-you    ashby          Skydio · Electrical Engineer Intern - Winter 2027  NEED: the resume didn't attach
+needs-you    ashby          Skydio · Hardware Product Management Intern - Fall 2026/Winter 2027  NEED: the resume didn't attach
+needs-you    ashby          1X · Internship - Manufacturing Engineering  NEED: the resume didn't attach
+needs-you    ashby          Etched · Chip Simulation Software Intern  NEED: the resume didn't attach
+needs-you    ashby          Etched · DFT Intern  NEED: the resume didn't attach
 no-button    lever          Hermeus · Avionics Electrical Engineering Intern - Spring/Summer 2027  NEED: next button
 no-button    lever          Quantinuum · Layout Automation Engineering Intern  NEED: next button
 no-button    lever          Hermeus · Subsystem Test Engineering Intern - Spring/Summer 2027  NEED: next button
@@ -28,7 +28,7 @@ no-button    smartrecruiters Renesas · Integrated Сircuit Test Engineer - Inte
   "no-button": 6
  },
  "ashby": {
-  "dry-submit": 6
+  "needs-you": 6
  },
  "lever": {
   "no-button": 6
