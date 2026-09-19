@@ -4,7 +4,7 @@
 // @version      2.8
 // @description  Opened by the co-op board: walks any application form (Ashby, Greenhouse, Lever, LinkedIn Easy Apply, Workday, Oracle, iCIMS, SuccessFactors, Phenom, ...) page by page, fills it from the board's answers, attaches the files, submits, and reports back.
 // @match        *://*/*
-// @require      https://hrisheekmust-blip.github.io/coop-scraper/engine.js?v=5
+// @require      https://hrisheekmust-blip.github.io/coop-scraper/engine.js?v=6
 // @grant        none
 // @run-at       document-idle
 // ==/UserScript==

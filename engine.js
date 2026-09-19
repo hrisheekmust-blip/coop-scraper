@@ -2,12 +2,28 @@
 (function(){
 const STD_FIELDS=[["Name","input_text"],["Email","input_text"],["Phone","input_text"],["Location (city)","input_text"],["LinkedIn profile","input_text"],["Resume","file"],["Cover letter","file"],["School / University","input_text"],["Degree","input_text"],["Major","input_text"],["Expected graduation date","input_text"],["GPA","input_text"],["Are you legally authorized to work in the United States?","yes_no"],["Will you now or in the future require sponsorship?","yes_no"],["Are you willing to relocate?","yes_no"],["Earliest start date / availability","input_text"],["How did you hear about us?","input_text"],["Gender / Race / Veteran / Disability (voluntary)","eeo"]];
 const pickOpt=(opts,rx,fallback)=>{const o=(opts||[]).find(x=>rx.test(x));return o||fallback};
+/* "how much experience in C++?" against whatever buckets the portal offers
+   ("Less than 3 months" / "3-5 months" / "10 months +" / "0-1 years" / "1-3 years" ...) */
+function monthsOf(opt){const t=opt.toLowerCase();const yr=/year/.test(t);const n=(t.match(/\d+(?:\.\d+)?/g)||[]).map(Number).map(x=>yr?x*12:x);
+  if(/less than|under|<|no experience|none|^0\b/.test(t)&&n.length<2)return[0,n[0]!==undefined?n[0]:0.01];
+  if(/\+|more than|over|at least|>/.test(t)&&n.length)return[n[0],1e4];
+  if(n.length>=2)return[n[0],n[1]]; if(n.length===1)return[n[0],n[0]]; return null}
+function pickMonths(opts,months){let best=-1,bd=1e9;
+  opts.forEach((o,i)=>{const r=monthsOf(o);if(!r)return;
+    if(months>=r[0]&&months<=r[1]){const cur=best>=0&&bd===0?(monthsOf(opts[best])||[0])[0]:-1;if(bd>0||r[0]>cur){bd=0;best=i}return}
+    const d=months<r[0]?r[0]-months:months-r[1];if(d<bd){bd=d;best=i}});
+  return best}
+const LANGQ=/(?:experience|proficien|familiar|worked|used|skill level|rate your)[^?]*?\b(systemverilog|verilog|vhdl|matlab|python|javascript|typescript|java|c\+\+|c#|golang|go|rust|c|labview|altium|cadence|spice|simulink)(?![\w+#])/;
 function answerFor(f,ctx){const j=ctx.job||{},a=ctx.answers||{},l=(f.label||"").toLowerCase().replace(/\s+/g," ").trim(),o=f.options||[],p=ctx.profile||{},t=(f.type||"").toLowerCase();
   const yes=v=>o.length?pickOpt(o,v?/^(yes|y\b|i am|true)/i:/^(no\b|n\b|i am not|false)/i,v?"Yes":"No"):(v?"Yes":"No");
   if(f.eeo||/gender|race|ethnicit|hispanic|latino|veteran|disabilit|pronoun|self.?identif|sexual orientation|transgender/.test(l))return{a:pickOpt(o,/decline|don.t wish|prefer not|do not wish|do not want|don.t want|not to answer|rather not|no answer|not disclose/i,p.eeo||"Decline to self-identify"),k:"eeo"};
   if(/cover letter/.test(l)){if(!ctx.cover)return{a:"skip (cover letter off for this application)",k:"file"};if(/file|upload|attach/.test(t)||/attach|upload/.test(l))return{a:"upload: Hrisheek_Mustyala_Cover_Letter.pdf",k:"file"};return ctx.coverText?{a:ctx.coverText,k:"long"}:{a:"upload: Hrisheek_Mustyala_Cover_Letter.pdf",k:"file"}}
   if(/\b(resume|cv)\b/.test(l))return{a:"upload: "+((j.materials||[])[0]||{}).path?.split("/").pop()||"resume PDF",k:"file"};
   if(/\bsat\b|\bact\b|test score/.test(l))return{a:p.test_scores||"ACT 36"};
+  if(LANGQ.test(l)){const key=l.match(LANGQ)[1].replace(/^\s+|\s+$/g,"");const months=(p.lang||{})[key];
+    if(months===undefined)return{a:"",k:"need"};
+    if(!o.length)return{a:months>=12?Math.round(months/12)+" year"+(months>=24?"s":""):months+" months"};
+    const i=pickMonths(o,months);return i<0?{a:"",k:"need"}:{a:o[i]}}
   if(/\bgre\b|gmat/.test(l))return{a:"",k:"need"};
   if(/gpa|grade point/.test(l))return{a:p.gpa||"3.96"};
   if(/full-?time (immediately|after|upon|following)|return offer|convert(ing)? to full/.test(l))return{a:o.length?yes(true):(p.fulltime_after||"Yes")};
