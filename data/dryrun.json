@@ -1,17 +1,17 @@
 {
- "at": "2026-09-19T20:58:32.075Z",
+ "at": "2026-09-19T21:56:31.471Z",
  "summary": {
   "greenhouse": {
-   "no-button": 6
+   "timeout": 6
   },
   "ashby": {
-   "needs-you": 6
+   "timeout": 6
   },
   "lever": {
-   "no-button": 6
+   "timeout": 6
   },
   "smartrecruiters": {
-   "no-button": 6
+   "timeout": 6
   }
  },
  "results": [
@@ -21,21 +21,248 @@
    "role": "Winter 2027 Electrical Engineer Co-op",
    "portal": "greenhouse",
    "url": "https://boards.greenhouse.io/andurilindustries/jobs/5236565007?gh_jid=5236565007",
-   "status": "no-button",
-   "need": [
-    "next button"
-   ],
+   "status": "timeout",
+   "need": [],
    "done": [],
-   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep going",
+   "banner": "",
    "final_url": "https://job-boards.greenhouse.io/andurilindustries/jobs/5236565007?gh_jid=5236565007#coop=d59a203fb8da4ed6",
    "pages": 0,
-   "button": "",
+   "frame_url": "",
    "errors": [
+    "Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and a",
     "requestStorageAccess: Permission denied."
    ],
    "fields": {
     "visible": 33,
-    "filled": 5
+    "filled": 8
+   },
+   "diag": {
+    "fields": [
+     {
+      "q": "First Name*",
+      "ty": "text",
+      "v": "Test",
+      "req": true
+     },
+     {
+      "q": "Last Name*",
+      "ty": "text",
+      "v": "Applicant",
+      "req": true
+     },
+     {
+      "q": "Preferred First Name",
+      "ty": "text",
+      "v": "Test",
+      "req": false
+     },
+     {
+      "q": "Email*",
+      "ty": "text",
+      "v": "test.applicant@example.com",
+      "req": true
+     },
+     {
+      "q": "Country*",
+      "ty": "text",
+      "v": "",
+      "req": true
+     },
+     {
+      "q": "",
+      "ty": "input",
+      "v": "",
+      "req": true
+     },
+     {
+      "q": "Phone*",
+      "ty": "tel",
+      "v": "6175550100",
+      "req": true
+     },
+     {
+      "q": "School*",
+      "ty": "text",
+      "v": "",
+      "req": true
+     },
+     {
+      "q": "",
+      "ty": "input",
+      "v": "",
+      "req": true
+     },
+     {
+      "q": "Degree*",
+      "ty": "text",
+      "v": "",
+      "req": true
+     },
+     {
+      "q": "",
+      "ty": "input",
+      "v": "",
+      "req": true
+     },
+     {
+      "q": "Discipline*",
+      "ty": "text",
+      "v": "",
+      "req": true
+     },
+     {
+      "q": "",
+      "ty": "input",
+      "v": "",
+      "req": true
+     },
+     {
+      "q": "End date month*",
+      "ty": "text",
+      "v": "",
+      "req": true
+     },
+     {
+      "q": "",
+      "ty": "input",
+      "v": "",
+      "req": true
+     },
+     {
+      "q": "End date year*",
+      "ty": "number",
+      "v": "2027",
+      "req": true
+     },
+     {
+      "q": "Website",
+      "ty": "text",
+      "v": "https://example.com",
+      "req": false
+     },
+     {
+      "q": "LinkedIn Profile",
+      "ty": "text",
+      "v": "https://www.linkedin.com/in/test-applica",
+      "req": false
+     },
+     {
+      "q": "What is your top location preference? *",
+      "ty": "text",
+      "v": "",
+      "req": true
+     },
+     {
+      "q": "",
+      "ty": "input",
+      "v": "",
+      "req": true
+     },
+     {
+      "q": "EXPORT CONTROLS - This position requires access to information and tec",
+      "ty": "text",
+      "v": "",
+      "req": true
+     },
+     {
+      "q": "",
+      "ty": "input",
+      "v": "",
+      "req": true
+     },
+     {
+      "q": "U.S. WORK AUTHORIZATION*",
+      "ty": "text",
+      "v": "",
+      "req": true
+     },
+     {
+      "q": "",
+      "ty": "input",
+      "v": "",
+      "req": true
+     },
+     {
+      "q": "Will you require sponsorship from Anduril for employment now or in the",
+      "ty": "text",
+      "v": "",
+      "req": true
+     },
+     {
+      "q": "",
+      "ty": "input",
+      "v": "",
+      "req": true
+     },
+     {
+      "q": "How did you hear about Anduril?*",
+      "ty": "text",
+      "v": "",
+      "req": true
+     },
+     {
+      "q": "",
+      "ty": "input",
+      "v": "",
+      "req": true
+     },
+     {
+      "q": "If other, please specify",
+      "ty": "text",
+      "v": "",
+      "req": false
+     },
+     {
+      "q": "Gender",
+      "ty": "text",
+      "v": "",
+      "req": false
+     },
+     {
+      "q": "Are you Hispanic/Latino?",
+      "ty": "text",
+      "v": "",
+      "req": false
+     },
+     {
+      "q": "Veteran Status",
+      "ty": "text",
+      "v": "",
+      "req": false
+     },
+     {
+      "q": "Disability Status",
+      "ty": "text",
+      "v": "",
+      "req": false
+     }
+    ],
+    "btns": [
+     "Apply",
+     "Autofill my application",
+     "Toggle flyout",
+     "Remove file",
+     "Toggle flyout",
+     "Toggle flyout",
+     "Toggle flyout",
+     "Toggle flyout",
+     "Add another",
+     "Toggle flyout",
+     "Toggle flyout",
+     "Toggle flyout",
+     "Toggle flyout",
+     "Toggle flyout",
+     "Toggle flyout",
+     "Toggle flyout",
+     "Toggle flyout",
+     "Toggle flyout",
+     "Submit application"
+    ],
+    "body": "New Winter 2027 Electrical Engineer Co-op Costa Mesa, California, United States; Quincy, Massachusetts, United States Apply Anduril Industries is a defense technology company with a mission to transform U.S. and allied military capabilities with advanced technology. By bringing the expertise, techno",
+    "frames": [
+     "https://content.googleapis.com/static/proxy.html?usegapi=1&jsh=m%3B%2F_%2Fscs%2Fabc-static",
+     "https://www.recaptcha.net/recaptcha/enterprise/anchor?ar=1&k=6LfmcbcpAAAAAChNTbhUShzUOAMj_"
+    ]
    },
    "title": "Job Application for Winter 2027 Electrical Engineer Co-op at Anduril Industries"
   },
@@ -45,15 +272,13 @@
    "role": "Hardware Test Engineering Intern (Winter/Spring 2027)",
    "portal": "greenhouse",
    "url": "https://careers.formlabs.com/job/8196515/apply/?gh_jid=8196515",
-   "status": "no-button",
-   "need": [
-    "next button"
-   ],
+   "status": "timeout",
+   "need": [],
    "done": [],
-   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep going",
+   "banner": "Co-op board: filled everything but couldn't find the Submit button; press it yourself",
    "final_url": "https://careers.formlabs.com/job/8196515/apply/?gh_jid=8196515#coop=2422571b5b6399e4",
    "pages": 0,
-   "button": "",
+   "frame_url": "https://job-boards.greenhouse.io/embed/job_app?for=formlabs&validityToken=Cr4N9SM-njTYsIyEHqQ6t2icNYguZ-ijvHaYB9EduCl7IJ",
    "errors": [
     "The Content Security Policy directive 'upgrade-insecure-requests' is ignored when delivered in a report-only policy.",
     "The Content Security Policy directive 'upgrade-insecure-requests' is ignored when delivered in a report-only policy.",
@@ -62,8 +287,236 @@
     "The Content Security Policy directive 'upgrade-insecure-requests' is ignored when delivered in a report-only policy."
    ],
    "fields": {
-    "visible": 0,
-    "filled": 0
+    "visible": 33,
+    "filled": 10
+   },
+   "diag": {
+    "fields": [
+     {
+      "q": "First Name*",
+      "ty": "text",
+      "v": "Test",
+      "req": true
+     },
+     {
+      "q": "Last Name*",
+      "ty": "text",
+      "v": "Applicant",
+      "req": true
+     },
+     {
+      "q": "Preferred First Name",
+      "ty": "text",
+      "v": "Test",
+      "req": false
+     },
+     {
+      "q": "Email*",
+      "ty": "text",
+      "v": "test.applicant@example.com",
+      "req": true
+     },
+     {
+      "q": "Country*",
+      "ty": "text",
+      "v": "",
+      "req": true
+     },
+     {
+      "q": "",
+      "ty": "input",
+      "v": "",
+      "req": true
+     },
+     {
+      "q": "Phone*",
+      "ty": "tel",
+      "v": "6175550100",
+      "req": true
+     },
+     {
+      "q": "School*",
+      "ty": "text",
+      "v": "",
+      "req": true
+     },
+     {
+      "q": "",
+      "ty": "input",
+      "v": "",
+      "req": true
+     },
+     {
+      "q": "Degree*",
+      "ty": "text",
+      "v": "",
+      "req": true
+     },
+     {
+      "q": "",
+      "ty": "input",
+      "v": "",
+      "req": true
+     },
+     {
+      "q": "End date month*",
+      "ty": "text",
+      "v": "",
+      "req": true
+     },
+     {
+      "q": "",
+      "ty": "input",
+      "v": "",
+      "req": true
+     },
+     {
+      "q": "End date year*",
+      "ty": "number",
+      "v": "2027",
+      "req": true
+     },
+     {
+      "q": "What is your availability for a winter/spring internship (approximate ",
+      "ty": "text",
+      "v": "January through June 2027",
+      "req": true
+     },
+     {
+      "q": "Are you available to work full-time (40 hours per week) during dates i",
+      "ty": "text",
+      "v": "",
+      "req": true
+     },
+     {
+      "q": "",
+      "ty": "input",
+      "v": "",
+      "req": true
+     },
+     {
+      "q": "Are you available to work onsite (in-person) in Somerville, MA during ",
+      "ty": "text",
+      "v": "",
+      "req": true
+     },
+     {
+      "q": "",
+      "ty": "input",
+      "v": "",
+      "req": true
+     },
+     {
+      "q": "Why are you interested in hardware reliability/test engineering?*",
+      "ty": "textarea",
+      "v": "Dry-run answer: why this company.",
+      "req": true
+     },
+     {
+      "q": "Website/Portfolio",
+      "ty": "text",
+      "v": "https://example.com",
+      "req": false
+     },
+     {
+      "q": "Are you legally eligible to work in the United States for Formlabs?*",
+      "ty": "text",
+      "v": "",
+      "req": true
+     },
+     {
+      "q": "",
+      "ty": "input",
+      "v": "",
+      "req": true
+     },
+     {
+      "q": "Is your eligibility is based on a work visa? *",
+      "ty": "text",
+      "v": "",
+      "req": true
+     },
+     {
+      "q": "",
+      "ty": "input",
+      "v": "",
+      "req": true
+     },
+     {
+      "q": "Will you now or in the future require visa sponsorship for employment ",
+      "ty": "text",
+      "v": "",
+      "req": true
+     },
+     {
+      "q": "",
+      "ty": "input",
+      "v": "",
+      "req": true
+     },
+     {
+      "q": "How did you hear about us?*",
+      "ty": "text",
+      "v": "",
+      "req": true
+     },
+     {
+      "q": "",
+      "ty": "input",
+      "v": "",
+      "req": true
+     },
+     {
+      "q": "LinkedIn Profile",
+      "ty": "text",
+      "v": "https://www.linkedin.com/in/test-applica",
+      "req": false
+     },
+     {
+      "q": "Gender",
+      "ty": "text",
+      "v": "",
+      "req": false
+     },
+     {
+      "q": "Are you Hispanic/Latino?",
+      "ty": "text",
+      "v": "",
+      "req": false
+     },
+     {
+      "q": "Veteran Status",
+      "ty": "text",
+      "v": "",
+      "req": false
+     }
+    ],
+    "btns": [
+     "Autofill my application",
+     "Toggle flyout",
+     "Remove file",
+     "Remove file",
+     "Toggle flyout",
+     "Toggle flyout",
+     "Toggle flyout",
+     "Add another",
+     "Toggle flyout",
+     "Toggle flyout",
+     "Remove file",
+     "Toggle flyout",
+     "Toggle flyout",
+     "Toggle flyout",
+     "Toggle flyout",
+     "Toggle flyout",
+     "Toggle flyout",
+     "Toggle flyout",
+     "Submit application"
+    ],
+    "body": "Create a Job Alert Interested in building your career at Formlabs? Get future opportunities sent straight to your email. Create alert Apply for this job * indicates a required field Autofill my application First Name* Last Name* Preferred First Name Email* Phone Country* Phone* Resume/CV* Test_Appli",
+    "frames": [
+     "https://content.googleapis.com/static/proxy.html?usegapi=1&jsh=m%3B%2F_%2Fscs%2Fabc-static",
+     "https://www.recaptcha.net/recaptcha/enterprise/anchor?ar=1&k=6LfmcbcpAAAAAChNTbhUShzUOAMj_"
+    ]
    },
    "title": "Hardware Test Engineering Intern (Winter/Spring 2027) | Formlabs"
   },
@@ -73,21 +526,379 @@
    "role": "Test Engineering Intern - Manufacturing Spring 2027",
    "portal": "greenhouse",
    "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7987042003",
-   "status": "no-button",
-   "need": [
-    "next button"
-   ],
+   "status": "timeout",
+   "need": [],
    "done": [],
-   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep going",
+   "banner": "",
    "final_url": "https://job-boards.greenhouse.io/rocketlab/jobs/7987042003#coop=4093863ce79e7050",
    "pages": 0,
-   "button": "",
+   "frame_url": "",
    "errors": [
+    "Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and a",
     "requestStorageAccess: Permission denied."
    ],
    "fields": {
-    "visible": 55,
-    "filled": 15
+    "visible": 54,
+    "filled": 18
+   },
+   "diag": {
+    "fields": [
+     {
+      "q": "First Name*",
+      "ty": "text",
+      "v": "Test",
+      "req": true
+     },
+     {
+      "q": "Last Name*",
+      "ty": "text",
+      "v": "Applicant",
+      "req": true
+     },
+     {
+      "q": "Email*",
+      "ty": "text",
+      "v": "test.applicant@example.com",
+      "req": true
+     },
+     {
+      "q": "Country*",
+      "ty": "text",
+      "v": "",
+      "req": true
+     },
+     {
+      "q": "",
+      "ty": "input",
+      "v": "",
+      "req": true
+     },
+     {
+      "q": "Phone*",
+      "ty": "tel",
+      "v": "6175550100",
+      "req": true
+     },
+     {
+      "q": "Undergraduate GPA: Please convert your GPA to a 4.0 scale. Select \"Not",
+      "ty": "text",
+      "v": "",
+      "req": true
+     },
+     {
+      "q": "",
+      "ty": "input",
+      "v": "",
+      "req": true
+     },
+     {
+      "q": "Graduate GPA: Please convert your GPA to a 4.0 scale. Select \"Not Appl",
+      "ty": "text",
+      "v": "",
+      "req": true
+     },
+     {
+      "q": "",
+      "ty": "input",
+      "v": "",
+      "req": true
+     },
+     {
+      "q": "Select your anticipated bachelor's degree graduation date*",
+      "ty": "text",
+      "v": "",
+      "req": true
+     },
+     {
+      "q": "",
+      "ty": "input",
+      "v": "",
+      "req": true
+     },
+     {
+      "q": "Select your anticipated master's degree graduation date*",
+      "ty": "text",
+      "v": "",
+      "req": true
+     },
+     {
+      "q": "",
+      "ty": "input",
+      "v": "",
+      "req": true
+     },
+     {
+      "q": "Do you meet all the essential qualifications that are listed under the",
+      "ty": "text",
+      "v": "",
+      "req": true
+     },
+     {
+      "q": "",
+      "ty": "input",
+      "v": "",
+      "req": true
+     },
+     {
+      "q": "Outside of university coursework, what amount of software engineering ",
+      "ty": "text",
+      "v": "",
+      "req": true
+     },
+     {
+      "q": "",
+      "ty": "input",
+      "v": "",
+      "req": true
+     },
+     {
+      "q": "Engineering Organization Involvement: Indicate if you are an active pa",
+      "ty": "text",
+      "v": "",
+      "req": true
+     },
+     {
+      "q": "",
+      "ty": "input",
+      "v": "",
+      "req": true
+     },
+     {
+      "q": "Other Engineering Organization Involvement:",
+      "ty": "text",
+      "v": "",
+      "req": false
+     },
+     {
+      "q": "Preferred Internship/Co-Op Start Date*",
+      "ty": "text",
+      "v": "",
+      "req": true
+     },
+     {
+      "q": "",
+      "ty": "input",
+      "v": "",
+      "req": true
+     },
+     {
+      "q": "Preferred Internship/Co-Op Duration: Confirm the number of consecutive",
+      "ty": "text",
+      "v": "",
+      "req": true
+     },
+     {
+      "q": "",
+      "ty": "input",
+      "v": "",
+      "req": true
+     },
+     {
+      "q": "No",
+      "ty": "checkbox",
+      "v": "171180582003",
+      "req": true
+     },
+     {
+      "q": "Yes - Matthew Isakowitz Fellowship Program",
+      "ty": "checkbox",
+      "v": "171180583003",
+      "req": true
+     },
+     {
+      "q": "Yes - Brooke Owens Fellowships",
+      "ty": "checkbox",
+      "v": "171180584003",
+      "req": true
+     },
+     {
+      "q": "Yes - Zenith Canada Pathways Foundation",
+      "ty": "checkbox",
+      "v": "171180585003",
+      "req": true
+     },
+     {
+      "q": "How did you hear about this opportunity?*",
+      "ty": "text",
+      "v": "",
+      "req": true
+     },
+     {
+      "q": "",
+      "ty": "input",
+      "v": "",
+      "req": true
+     },
+     {
+      "q": "Other: How did you hear about this opportunity?",
+      "ty": "text",
+      "v": "Company careers page",
+      "req": false
+     },
+     {
+      "q": "Have you previously interviewed at Rocket Lab?*",
+      "ty": "text",
+      "v": "",
+      "req": true
+     },
+     {
+      "q": "",
+      "ty": "input",
+      "v": "",
+      "req": true
+     },
+     {
+      "q": "Are you willing to work onsite?*",
+      "ty": "text",
+      "v": "",
+      "req": true
+     },
+     {
+      "q": "",
+      "ty": "input",
+      "v": "",
+      "req": true
+     },
+     {
+      "q": "Citizenship Status*",
+      "ty": "text",
+      "v": "",
+      "req": true
+     },
+     {
+      "q": "",
+      "ty": "input",
+      "v": "",
+      "req": true
+     },
+     {
+      "q": "If Citizenship Status Other, please explain:",
+      "ty": "text",
+      "v": "Yes",
+      "req": false
+     },
+     {
+      "q": "Top Secret SCI with Polygraph",
+      "ty": "checkbox",
+      "v": "171180611003",
+      "req": true
+     },
+     {
+      "q": "Top Secret SCI",
+      "ty": "checkbox",
+      "v": "171180612003",
+      "req": true
+     },
+     {
+      "q": "Top Secret",
+      "ty": "checkbox",
+      "v": "171180613003",
+      "req": true
+     },
+     {
+      "q": "Secret",
+      "ty": "checkbox",
+      "v": "171180614003",
+      "req": true
+     },
+     {
+      "q": "Confidential",
+      "ty": "checkbox",
+      "v": "171180615003",
+      "req": true
+     },
+     {
+      "q": "Other",
+      "ty": "checkbox",
+      "v": "171180616003",
+      "req": true
+     },
+     {
+      "q": "Expired Clearance",
+      "ty": "checkbox",
+      "v": "171180617003",
+      "req": true
+     },
+     {
+      "q": "Not Applicable",
+      "ty": "checkbox",
+      "v": "171180618003",
+      "req": true
+     },
+     {
+      "q": "Any offer of employment with Rocket Lab is contingent on a successful ",
+      "ty": "text",
+      "v": "",
+      "req": true
+     },
+     {
+      "q": "",
+      "ty": "input",
+      "v": "",
+      "req": true
+     },
+     {
+      "q": "Please specify",
+      "ty": "text",
+      "v": "",
+      "req": false
+     },
+     {
+      "q": "Gender",
+      "ty": "text",
+      "v": "",
+      "req": false
+     },
+     {
+      "q": "Are you Hispanic/Latino?",
+      "ty": "text",
+      "v": "",
+      "req": false
+     },
+     {
+      "q": "Veteran Status",
+      "ty": "text",
+      "v": "",
+      "req": false
+     },
+     {
+      "q": "Disability Status",
+      "ty": "text",
+      "v": "",
+      "req": false
+     }
+    ],
+    "btns": [
+     "Apply",
+     "Autofill my application",
+     "Toggle flyout",
+     "Remove file",
+     "Remove file",
+     "Toggle flyout",
+     "Toggle flyout",
+     "Toggle flyout",
+     "Toggle flyout",
+     "Toggle flyout",
+     "Toggle flyout",
+     "Toggle flyout",
+     "Toggle flyout",
+     "Toggle flyout",
+     "Toggle flyout",
+     "Toggle flyout",
+     "Toggle flyout",
+     "Toggle flyout",
+     "Toggle flyout",
+     "Toggle flyout",
+     "Toggle flyout",
+     "Toggle flyout",
+     "Toggle flyout",
+     "Submit application"
+    ],
+    "body": "Back to jobs New Test Engineering Intern - Manufacturing Spring 2027 Long Beach, CA Apply ABOUT ROCKET LAB Rocket Lab is the end-to-end space company building rockets, spacecraft, and critical subsystems that keep the world connected, protected, expand humanity’s reach to the Moon, Mars, and beyond.",
+    "frames": [
+     "https://www.recaptcha.net/recaptcha/enterprise/anchor?ar=1&k=6LfmcbcpAAAAAChNTbhUShzUOAMj_",
+     "https://content.googleapis.com/static/proxy.html?usegapi=1&jsh=m%3B%2F_%2Fscs%2Fabc-static"
+    ]
    },
    "title": "Job Application for Test Engineering Intern - Manufacturing Spring 2027 at Rocket Lab Corporation"
   },
@@ -97,15 +908,13 @@
    "role": "Intern, Optical Packaging and Characterization Engineer",
    "portal": "greenhouse",
    "url": "https://www.psiquantum.com/apply?gh_jid=7761881003",
-   "status": "no-button",
-   "need": [
-    "next button"
-   ],
+   "status": "timeout",
+   "need": [],
    "done": [],
-   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep going",
+   "banner": "Co-op board: filled everything but couldn't find the Submit button; press it yourself",
    "final_url": "https://www.psiquantum.com/apply?gh_jid=7761881003#coop=2f6db6025596e20c",
    "pages": 0,
-   "button": "",
+   "frame_url": "https://job-boards.greenhouse.io/embed/job_app?for=psiquantum&validityToken=Ovg_UFHcPf3KJSiZPGba3qOqU47W_X97RYxGSg9ZvzOR",
    "errors": [
     "Refused to execute script from 'https://www.psiquantum.com/https://www.googletagmanager.com/gtm.js?id=GTM-5J3888X' because its MIME type ('text/html') is not executable, and strict",
     "Career Quote slider: Number of slides and pagination dots do not match or elements not found.",
@@ -114,8 +923,194 @@
     "Slider principal: Número de slides e itens de paginação não correspondem ou elementos não encontrados. Verifique as classes '.slide' e '.pagination-item'."
    ],
    "fields": {
-    "visible": 0,
-    "filled": 0
+    "visible": 26,
+    "filled": 8
+   },
+   "diag": {
+    "fields": [
+     {
+      "q": "First Name*",
+      "ty": "text",
+      "v": "Test",
+      "req": true
+     },
+     {
+      "q": "Last Name*",
+      "ty": "text",
+      "v": "Applicant",
+      "req": true
+     },
+     {
+      "q": "Email*",
+      "ty": "text",
+      "v": "test.applicant@example.com",
+      "req": true
+     },
+     {
+      "q": "Country*",
+      "ty": "text",
+      "v": "",
+      "req": true
+     },
+     {
+      "q": "",
+      "ty": "input",
+      "v": "",
+      "req": true
+     },
+     {
+      "q": "Phone*",
+      "ty": "tel",
+      "v": "6175550100",
+      "req": true
+     },
+     {
+      "q": "Location (City)*",
+      "ty": "text",
+      "v": "",
+      "req": true
+     },
+     {
+      "q": "",
+      "ty": "input",
+      "v": "",
+      "req": true
+     },
+     {
+      "q": "School",
+      "ty": "text",
+      "v": "",
+      "req": false
+     },
+     {
+      "q": "Degree",
+      "ty": "text",
+      "v": "",
+      "req": false
+     },
+     {
+      "q": "End date month",
+      "ty": "text",
+      "v": "",
+      "req": false
+     },
+     {
+      "q": "End date year",
+      "ty": "number",
+      "v": "2027",
+      "req": false
+     },
+     {
+      "q": "Phonetic pronunciation of your name",
+      "ty": "text",
+      "v": "Test Applicant",
+      "req": false
+     },
+     {
+      "q": "Preferred Pronouns",
+      "ty": "text",
+      "v": "Decline to self-identify",
+      "req": false
+     },
+     {
+      "q": "Will you now or in the future require sponsorship for employment visa ",
+      "ty": "text",
+      "v": "",
+      "req": true
+     },
+     {
+      "q": "",
+      "ty": "input",
+      "v": "",
+      "req": true
+     },
+     {
+      "q": "Are you legally authorized to work in the country for which you are ap",
+      "ty": "text",
+      "v": "",
+      "req": true
+     },
+     {
+      "q": "",
+      "ty": "input",
+      "v": "",
+      "req": true
+     },
+     {
+      "q": "Are you friends or relatives with any current employees at PsiQuantum?",
+      "ty": "text",
+      "v": "",
+      "req": true
+     },
+     {
+      "q": "",
+      "ty": "input",
+      "v": "",
+      "req": true
+     },
+     {
+      "q": "LinkedIn Profile*",
+      "ty": "text",
+      "v": "https://www.linkedin.com/in/test-applica",
+      "req": true
+     },
+     {
+      "q": "Please include the word \"purple\" in the cover letter submitted.",
+      "ty": "text",
+      "v": "",
+      "req": false
+     },
+     {
+      "q": "Gender",
+      "ty": "text",
+      "v": "",
+      "req": false
+     },
+     {
+      "q": "Are you Hispanic/Latino?",
+      "ty": "text",
+      "v": "",
+      "req": false
+     },
+     {
+      "q": "Veteran Status",
+      "ty": "text",
+      "v": "",
+      "req": false
+     },
+     {
+      "q": "Disability Status",
+      "ty": "text",
+      "v": "",
+      "req": false
+     }
+    ],
+    "btns": [
+     "Apply",
+     "Autofill my application",
+     "Toggle flyout",
+     "Locate me",
+     "Remove file",
+     "Remove file",
+     "Toggle flyout",
+     "Toggle flyout",
+     "Toggle flyout",
+     "Add another",
+     "Toggle flyout",
+     "Toggle flyout",
+     "Toggle flyout",
+     "Toggle flyout",
+     "Toggle flyout",
+     "Toggle flyout",
+     "Toggle flyout",
+     "Toggle flyout",
+     "Submit application"
+    ],
+    "body": "Intern, Optical Packaging and Characterization Engineer Milpitas, California, United States Apply PsiQuantum’s mission is to build the first useful quantum computers—machines capable of delivering the breakthroughs the field has long promised. Since our founding in 2016, our singular focus has been ",
+    "frames": [
+     "https://content.googleapis.com/static/proxy.html?usegapi=1&jsh=m%3B%2F_%2Fscs%2Fabc-static",
+     "https://www.recaptcha.net/recaptcha/enterprise/anchor?ar=1&k=6LfmcbcpAAAAAChNTbhUShzUOAMj_"
+    ]
    },
    "title": "Apply — PsiQuantum"
   },
@@ -125,15 +1120,13 @@
    "role": "Instrumentation – Manufacturing & Automation Intern",
    "portal": "greenhouse",
    "url": "https://www.interstates.com/careers/jobs?gh_jid=4401319009&gh_jid=4401319009&gh_src=Simplify",
-   "status": "no-button",
-   "need": [
-    "next button"
-   ],
+   "status": "timeout",
+   "need": [],
    "done": [],
-   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep going",
+   "banner": "Co-op board: filled everything but couldn't find the Submit button; press it yourself",
    "final_url": "https://www.interstates.com/careers/jobs?gh_jid=4401319009&gh_jid=4401319009&gh_src=Simplify#coop=aed1afdd2872f6df",
    "pages": 0,
-   "button": "",
+   "frame_url": "https://job-boards.greenhouse.io/embed/job_app?for=interstates&validityToken=F-d47pP3jhxzD5XH4OTNtJNYaySrK18Mk3pP_pwUqP5",
    "errors": [
     "Refused to load the script 'https://sc-static.net/scevent.min.js' because it violates the following Content Security Policy directive: \"script-src-elem 'self' *.interstates.com 'un",
     "Refused to connect to 'https://alb.reddit.com/rp' because it violates the following Content Security Policy directive: \"connect-src 'self' *.hcaptcha.com https://analytics.ahrefs.c",
@@ -142,8 +1135,231 @@
     "Refused to connect to 'https://alb.reddit.com/rp' because it violates the document's Content Security Policy."
    ],
    "fields": {
-    "visible": 0,
-    "filled": 0
+    "visible": 32,
+    "filled": 5
+   },
+   "diag": {
+    "fields": [
+     {
+      "q": "First Name*",
+      "ty": "text",
+      "v": "Test",
+      "req": true
+     },
+     {
+      "q": "Last Name*",
+      "ty": "text",
+      "v": "Applicant",
+      "req": true
+     },
+     {
+      "q": "Preferred First Name",
+      "ty": "text",
+      "v": "Test",
+      "req": false
+     },
+     {
+      "q": "Email*",
+      "ty": "text",
+      "v": "test.applicant@example.com",
+      "req": true
+     },
+     {
+      "q": "Country*",
+      "ty": "text",
+      "v": "",
+      "req": true
+     },
+     {
+      "q": "",
+      "ty": "input",
+      "v": "",
+      "req": true
+     },
+     {
+      "q": "Phone*",
+      "ty": "tel",
+      "v": "6175550100",
+      "req": true
+     },
+     {
+      "q": "Location (City)*",
+      "ty": "text",
+      "v": "",
+      "req": true
+     },
+     {
+      "q": "",
+      "ty": "input",
+      "v": "",
+      "req": true
+     },
+     {
+      "q": "School",
+      "ty": "text",
+      "v": "",
+      "req": false
+     },
+     {
+      "q": "Degree",
+      "ty": "text",
+      "v": "",
+      "req": false
+     },
+     {
+      "q": "Discipline",
+      "ty": "text",
+      "v": "",
+      "req": false
+     },
+     {
+      "q": "How did you hear about this role?*",
+      "ty": "text",
+      "v": "",
+      "req": true
+     },
+     {
+      "q": "",
+      "ty": "input",
+      "v": "",
+      "req": true
+     },
+     {
+      "q": "If you selected Event, Employee, or Other, please specify below:",
+      "ty": "text",
+      "v": "",
+      "req": false
+     },
+     {
+      "q": "Are you 18 or older?*",
+      "ty": "text",
+      "v": "",
+      "req": true
+     },
+     {
+      "q": "",
+      "ty": "input",
+      "v": "",
+      "req": true
+     },
+     {
+      "q": "Are you legally authorized to work in the US? *",
+      "ty": "text",
+      "v": "",
+      "req": true
+     },
+     {
+      "q": "",
+      "ty": "input",
+      "v": "",
+      "req": true
+     },
+     {
+      "q": "Do you now, or will you in the future, require immigration sponsorship",
+      "ty": "text",
+      "v": "",
+      "req": true
+     },
+     {
+      "q": "",
+      "ty": "input",
+      "v": "",
+      "req": true
+     },
+     {
+      "q": "Have you worked for Interstates before?*",
+      "ty": "text",
+      "v": "",
+      "req": true
+     },
+     {
+      "q": "",
+      "ty": "input",
+      "v": "",
+      "req": true
+     },
+     {
+      "q": "Do you understand the job requirements, and are you able to perform th",
+      "ty": "text",
+      "v": "",
+      "req": true
+     },
+     {
+      "q": "",
+      "ty": "input",
+      "v": "",
+      "req": true
+     },
+     {
+      "q": "Interstates uses text messaging to help move you through the interview",
+      "ty": "text",
+      "v": "",
+      "req": true
+     },
+     {
+      "q": "",
+      "ty": "input",
+      "v": "",
+      "req": true
+     },
+     {
+      "q": "Please describe your previous hands-on work experience using Allen-Bra",
+      "ty": "textarea",
+      "v": "",
+      "req": true
+     },
+     {
+      "q": "Gender",
+      "ty": "text",
+      "v": "",
+      "req": false
+     },
+     {
+      "q": "Are you Hispanic/Latino?",
+      "ty": "text",
+      "v": "",
+      "req": false
+     },
+     {
+      "q": "Veteran Status",
+      "ty": "text",
+      "v": "",
+      "req": false
+     },
+     {
+      "q": "Disability Status",
+      "ty": "text",
+      "v": "",
+      "req": false
+     }
+    ],
+    "btns": [
+     "Autofill my application",
+     "Toggle flyout",
+     "Locate me",
+     "Remove file",
+     "Toggle flyout",
+     "Toggle flyout",
+     "Toggle flyout",
+     "Add another",
+     "Toggle flyout",
+     "Toggle flyout",
+     "Toggle flyout",
+     "Toggle flyout",
+     "Toggle flyout",
+     "Toggle flyout",
+     "Toggle flyout",
+     "Toggle flyout",
+     "Toggle flyout",
+     "Toggle flyout",
+     "Toggle flyout",
+     "Submit application"
+    ],
+    "body": "Create a Job Alert Interested in building your career at Interstates? Get future opportunities sent straight to your email. Create alert Apply for this job * indicates a required field Autofill my application First Name* Last Name* Preferred First Name Email* Phone Country* Phone* Location (City)* L",
+    "frames": [
+     "https://content.googleapis.com/static/proxy.html?usegapi=1&jsh=m%3B%2F_%2Fscs%2Fabc-static",
+     "https://www.recaptcha.net/recaptcha/enterprise/anchor?ar=1&k=6LfmcbcpAAAAAChNTbhUShzUOAMj_"
+    ]
    },
    "title": "Job Search | Interstates"
   },
@@ -153,19 +1369,23 @@
    "role": "Hardware Engineer Intern",
    "portal": "greenhouse",
    "url": "https://akunacapital.com/careers/job/8018880/?gh_jid=8018880&utm_source=github-vansh-ouckah",
-   "status": "no-button",
-   "need": [
-    "next button"
-   ],
+   "status": "timeout",
+   "need": [],
    "done": [],
-   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep goingI finished it — continueSkip this one",
+   "banner": "Co-op board: filled everything but couldn't find the Submit button; press it yourself",
    "final_url": "https://akunacapital.com/careers/job/8018880/?gh_jid=8018880&utm_source=github-vansh-ouckah#coop=d29cea5ac41cafa5",
    "pages": 0,
-   "button": "",
+   "frame_url": "",
    "errors": [],
    "fields": {
     "visible": 0,
     "filled": 0
+   },
+   "diag": {
+    "fields": [],
+    "btns": [],
+    "body": "WHO WE ARE WHAT WE DO WORK WITH US EXPLORE CAREERS TECHNOLOGY TRADING QUANT OPERATIONS Akuna Capital is a leading proprietary trading firm specializing in options market making. WHAT WE DO → // ROLE DETAILS Role not found This job may have closed or the link is incorrect. >_ VIEW CURRENT ROLES Who W",
+    "frames": []
    },
    "title": "Akuna Capital"
   },
@@ -175,42 +1395,28 @@
    "role": "RTL Intern",
    "portal": "ashby",
    "url": "https://jobs.ashbyhq.com/etched/157ed4f4-6e3b-4ec9-b93f-3e363e92041e/application",
-   "status": "needs-you",
-   "need": [
-    "the resume didn't attach"
-   ],
-   "done": [
-    "Which term(s) would you like to be considered for? = Winter (January - May)",
-    "Current Program Type = Bachelor's Degree",
-    "What is your work authorization status? = US Citizen or Permanent Resident",
-    "How did you hear about Etched? = LinkedIn",
-    "Are you able to work in-person in San Jose this summer? = Yes",
-    "Name = Test Applicant",
-    "Preferred Name = Test",
-    "Email = test.applicant@example.com",
-    "Phone Number = 617-555-0100",
-    "LinkedIn Profile URL = https://www.linkedin.com/in/test-applica",
-    "GitHub or Portfolio URL = https://github.com/test-applicant",
-    "College or University = Northeastern University",
-    "Major or Field of Study = Electrical and Computer Engineering",
-    "Expected Graduation Date = 12/01/2027",
-    "Current GPA = 3.96",
-    "Why do you want to join Etched? = Dry-run answer: why this company.",
-    "Please provide 2-3 bullet points showcasing exceptional ability. = 1. Project A\nDry-run body A.\n\n2. Project",
-    "Are you open to starting full-time immediately after your internship? (either graduated or willing to take time off from school) = Yes",
-    "Resume = Test_Applicant_Resume.pdf",
-    "SAT or ACT Score = ACT 36"
-   ],
-   "banner": "Co-op board: 1 field(s) need you before submit: the resume didn't attachI finished it — continueSkip this one",
+   "status": "timeout",
+   "need": [],
+   "done": [],
+   "banner": "Co-op board: submitted but no confirmation seen: We couldn't submit your applicationYour application submission was flagged as possible spam. If you believe this was a mistake, please submit your application again.. Check the page, then press Submit if needed.",
    "final_url": "https://jobs.ashbyhq.com/etched/157ed4f4-6e3b-4ec9-b93f-3e363e92041e/application#coop=774542fb12febfcc",
    "pages": 0,
-   "button": "",
+   "frame_url": "",
    "errors": [
-    "requestStorageAccess: Permission denied."
+    "requestStorageAccess: Permission denied.",
+    "unable to open database (14 sqlite_open returned null)"
    ],
    "fields": {
-    "visible": 41,
-    "filled": 38
+    "visible": 0,
+    "filled": 0
+   },
+   "diag": {
+    "fields": [],
+    "btns": [],
+    "body": "ETCHED RTL Intern Location San Jose Employment Type Intern Location Type On-site Department ASIC Overview Application We couldn't submit your application Your application submission was flagged as possible spam. If you believe this was a mistake, please submit your application again. Try these steps",
+    "frames": [
+     "https://www.recaptcha.net/recaptcha/api2/anchor?ar=1&k=6LeFb_YUAAAAALUD5h-BiQEp8JaFChe0e0A"
+    ]
    },
    "title": "RTL Intern @ Etched"
   },
@@ -220,34 +1426,178 @@
    "role": "Electrical Engineer Intern - Winter 2027",
    "portal": "ashby",
    "url": "https://jobs.ashbyhq.com/skydio/9ac944bc-89da-44bb-bf9c-3b9922e7cbee/application",
-   "status": "needs-you",
-   "need": [
-    "the resume didn't attach"
-   ],
-   "done": [
-    "Preferred start date(s) = January 2027",
-    "Gender = Decline to self-identify",
-    "Race = Decline to self-identify",
-    "Veteran Status = I decline to self-identify for protected veteran status",
-    "left blank (optional): Prior US Government Employment?",
-    "Name = Test Applicant",
-    "Email = test.applicant@example.com",
-    "Phone Number = 617-555-0100",
-    "Resume = Test_Applicant_Resume.pdf",
-    "Graduation Date = 12/01/2027",
-    "Linkedin URL = https://www.linkedin.com/in/test-applica",
-    "Websites = https://example.com"
-   ],
-   "banner": "Co-op board: 1 field(s) need you before submit: the resume didn't attachI finished it — continueSkip this one",
+   "status": "timeout",
+   "need": [],
+   "done": [],
+   "banner": "Co-op board: filled 11 fields; 1 need you: Prior US Government Employment?. Finish those and press Submit yourself.",
    "final_url": "https://jobs.ashbyhq.com/skydio/9ac944bc-89da-44bb-bf9c-3b9922e7cbee/application#coop=539b2ed846929909",
    "pages": 0,
-   "button": "",
+   "frame_url": "",
    "errors": [
     "requestStorageAccess: Permission denied."
    ],
    "fields": {
     "visible": 24,
     "filled": 23
+   },
+   "diag": {
+    "fields": [
+     {
+      "q": "",
+      "ty": "file",
+      "v": "",
+      "req": false
+     },
+     {
+      "q": "Name",
+      "ty": "text",
+      "v": "Test Applicant",
+      "req": true
+     },
+     {
+      "q": "Email",
+      "ty": "email",
+      "v": "test.applicant@example.com",
+      "req": true
+     },
+     {
+      "q": "Phone Number",
+      "ty": "tel",
+      "v": "617-555-0100",
+      "req": false
+     },
+     {
+      "q": "Resume",
+      "ty": "file",
+      "v": "Test_Applicant_Resume.pdf",
+      "req": true
+     },
+     {
+      "q": "Pick date...",
+      "ty": "text",
+      "v": "12/01/2027",
+      "req": true
+     },
+     {
+      "q": "December 2026",
+      "ty": "checkbox",
+      "v": "on",
+      "req": false
+     },
+     {
+      "q": "January 2027",
+      "ty": "checkbox",
+      "v": "on",
+      "req": false
+     },
+     {
+      "q": "Linkedin URL",
+      "ty": "text",
+      "v": "https://www.linkedin.com/in/test-applica",
+      "req": false
+     },
+     {
+      "q": "Websites",
+      "ty": "text",
+      "v": "https://example.com",
+      "req": false
+     },
+     {
+      "q": "Male",
+      "ty": "radio",
+      "v": "on",
+      "req": false
+     },
+     {
+      "q": "Female",
+      "ty": "radio",
+      "v": "on",
+      "req": false
+     },
+     {
+      "q": "Decline to self-identify",
+      "ty": "radio",
+      "v": "on",
+      "req": false
+     },
+     {
+      "q": "Hispanic or Latino",
+      "ty": "radio",
+      "v": "on",
+      "req": false
+     },
+     {
+      "q": "White (Not Hispanic or Latino)",
+      "ty": "radio",
+      "v": "on",
+      "req": false
+     },
+     {
+      "q": "Black or African American (Not Hispanic or Latino)",
+      "ty": "radio",
+      "v": "on",
+      "req": false
+     },
+     {
+      "q": "Native Hawaiian or Other Pacific Islander (Not Hispanic or Latino)",
+      "ty": "radio",
+      "v": "on",
+      "req": false
+     },
+     {
+      "q": "Asian (Not Hispanic or Latino)",
+      "ty": "radio",
+      "v": "on",
+      "req": false
+     },
+     {
+      "q": "American Indian or Alaska Native (Not Hispanic or Latino)",
+      "ty": "radio",
+      "v": "on",
+      "req": false
+     },
+     {
+      "q": "Two or More Races (Not Hispanic or Latino)",
+      "ty": "radio",
+      "v": "on",
+      "req": false
+     },
+     {
+      "q": "Decline to self-identify",
+      "ty": "radio",
+      "v": "on",
+      "req": false
+     },
+     {
+      "q": "I identify as one or more of the classifications of protected veteran ",
+      "ty": "radio",
+      "v": "on",
+      "req": false
+     },
+     {
+      "q": "I am not a protected veteran",
+      "ty": "radio",
+      "v": "on",
+      "req": false
+     },
+     {
+      "q": "I decline to self-identify for protected veteran status",
+      "ty": "radio",
+      "v": "on",
+      "req": false
+     }
+    ],
+    "btns": [
+     "Upload file",
+     "Replace",
+     "Yes",
+     "No",
+     "Submit Application"
+    ],
+    "body": "Electrical Engineer Intern - Winter 2027 Location San Mateo, California, United States Employment Type Intern Location Type Hybrid Department R&D Overview Application Autofill from resume Upload your resume here to autofill key application fields. Upload file This job has application limits Please N",
+    "frames": [
+     "https://www.recaptcha.net/recaptcha/api2/anchor?ar=1&k=6LeFb_YUAAAAALUD5h-BiQEp8JaFChe0e0A"
+    ]
    },
    "title": "Electrical Engineer Intern - Winter 2027 @ Skydio"
   },
@@ -257,33 +1607,178 @@
    "role": "Hardware Product Management Intern - Fall 2026/Winter 2027",
    "portal": "ashby",
    "url": "https://jobs.ashbyhq.com/skydio/1ec2fe3c-3fb2-4485-870d-764a3e5f5baf/application",
-   "status": "needs-you",
-   "need": [
-    "the resume didn't attach"
-   ],
-   "done": [
-    "What (months) are you available to start? = January 2027",
-    "Gender = Decline to self-identify",
-    "Race = Decline to self-identify",
-    "Veteran Status = I decline to self-identify for protected veteran status",
-    "left blank (optional): Prior US Government Employment?",
-    "Name = Test Applicant",
-    "Email = test.applicant@example.com",
-    "Phone Number = 617-555-0100",
-    "Resume = Test_Applicant_Resume.pdf",
-    "Linkedin URL = https://www.linkedin.com/in/test-applica",
-    "Websites = https://example.com"
-   ],
-   "banner": "Co-op board: 1 field(s) need you before submit: the resume didn't attachI finished it — continueSkip this one",
+   "status": "timeout",
+   "need": [],
+   "done": [],
+   "banner": "Co-op board: filled 10 fields; 1 need you: Prior US Government Employment?. Finish those and press Submit yourself.",
    "final_url": "https://jobs.ashbyhq.com/skydio/1ec2fe3c-3fb2-4485-870d-764a3e5f5baf/application#coop=4774516ba7453e8b",
    "pages": 0,
-   "button": "",
+   "frame_url": "",
    "errors": [
     "requestStorageAccess: Permission denied."
    ],
    "fields": {
     "visible": 24,
     "filled": 23
+   },
+   "diag": {
+    "fields": [
+     {
+      "q": "",
+      "ty": "file",
+      "v": "",
+      "req": false
+     },
+     {
+      "q": "Name",
+      "ty": "text",
+      "v": "Test Applicant",
+      "req": true
+     },
+     {
+      "q": "Email",
+      "ty": "email",
+      "v": "test.applicant@example.com",
+      "req": true
+     },
+     {
+      "q": "Phone Number",
+      "ty": "tel",
+      "v": "617-555-0100",
+      "req": false
+     },
+     {
+      "q": "Resume",
+      "ty": "file",
+      "v": "Test_Applicant_Resume.pdf",
+      "req": true
+     },
+     {
+      "q": "September 2026",
+      "ty": "checkbox",
+      "v": "on",
+      "req": false
+     },
+     {
+      "q": "October 2026",
+      "ty": "checkbox",
+      "v": "on",
+      "req": false
+     },
+     {
+      "q": "January 2027",
+      "ty": "checkbox",
+      "v": "on",
+      "req": false
+     },
+     {
+      "q": "Linkedin URL",
+      "ty": "text",
+      "v": "https://www.linkedin.com/in/test-applica",
+      "req": false
+     },
+     {
+      "q": "Websites",
+      "ty": "text",
+      "v": "https://example.com",
+      "req": false
+     },
+     {
+      "q": "Male",
+      "ty": "radio",
+      "v": "on",
+      "req": false
+     },
+     {
+      "q": "Female",
+      "ty": "radio",
+      "v": "on",
+      "req": false
+     },
+     {
+      "q": "Decline to self-identify",
+      "ty": "radio",
+      "v": "on",
+      "req": false
+     },
+     {
+      "q": "Hispanic or Latino",
+      "ty": "radio",
+      "v": "on",
+      "req": false
+     },
+     {
+      "q": "White (Not Hispanic or Latino)",
+      "ty": "radio",
+      "v": "on",
+      "req": false
+     },
+     {
+      "q": "Black or African American (Not Hispanic or Latino)",
+      "ty": "radio",
+      "v": "on",
+      "req": false
+     },
+     {
+      "q": "Native Hawaiian or Other Pacific Islander (Not Hispanic or Latino)",
+      "ty": "radio",
+      "v": "on",
+      "req": false
+     },
+     {
+      "q": "Asian (Not Hispanic or Latino)",
+      "ty": "radio",
+      "v": "on",
+      "req": false
+     },
+     {
+      "q": "American Indian or Alaska Native (Not Hispanic or Latino)",
+      "ty": "radio",
+      "v": "on",
+      "req": false
+     },
+     {
+      "q": "Two or More Races (Not Hispanic or Latino)",
+      "ty": "radio",
+      "v": "on",
+      "req": false
+     },
+     {
+      "q": "Decline to self-identify",
+      "ty": "radio",
+      "v": "on",
+      "req": false
+     },
+     {
+      "q": "I identify as one or more of the classifications of protected veteran ",
+      "ty": "radio",
+      "v": "on",
+      "req": false
+     },
+     {
+      "q": "I am not a protected veteran",
+      "ty": "radio",
+      "v": "on",
+      "req": false
+     },
+     {
+      "q": "I decline to self-identify for protected veteran status",
+      "ty": "radio",
+      "v": "on",
+      "req": false
+     }
+    ],
+    "btns": [
+     "Upload file",
+     "Replace",
+     "Yes",
+     "No",
+     "Submit Application"
+    ],
+    "body": "Hardware Product Management Intern - Fall 2026/Winter 2027 Location San Mateo, California, United States Employment Type Intern Location Type Hybrid Department R&D Overview Application Autofill from resume Upload your resume here to autofill key application fields. Upload file This job has applicati",
+    "frames": [
+     "https://www.recaptcha.net/recaptcha/api2/anchor?ar=1&k=6LeFb_YUAAAAALUD5h-BiQEp8JaFChe0e0A"
+    ]
    },
    "title": "Hardware Product Management Intern - Fall 2026/Winter 2027 @ Skydio"
   },
@@ -293,29 +1788,72 @@
    "role": "Internship - Manufacturing Engineering",
    "portal": "ashby",
    "url": "https://jobs.ashbyhq.com/1x/d687b375-8136-4e6f-baa6-369b89366050/application",
-   "status": "needs-you",
-   "need": [
-    "the resume didn't attach"
-   ],
-   "done": [
-    "Are you legally authorized to work in the United States? = Yes",
-    "Will you require visa sponsorship now or in the future? = No",
-    "Name = Test Applicant",
-    "Email = test.applicant@example.com",
-    "Resume = Test_Applicant_Resume.pdf",
-    "Please share your LinkedIn profile. = https://www.linkedin.com/in/test-applica",
-    "Please share links to GitHub, portfolio, publications, or hardware projects (if applicable). = https://github.com/test-applicant"
-   ],
-   "banner": "Co-op board: 1 field(s) need you before submit: the resume didn't attachI finished it — continueSkip this one",
+   "status": "timeout",
+   "need": [],
+   "done": [],
+   "banner": "Co-op board: submitted but no confirmation seen. Check the page, then press Submit if needed.",
    "final_url": "https://jobs.ashbyhq.com/1x/d687b375-8136-4e6f-baa6-369b89366050/application#coop=42fbce852298573b",
    "pages": 0,
-   "button": "",
+   "frame_url": "",
    "errors": [
     "requestStorageAccess: Permission denied."
    ],
    "fields": {
     "visible": 6,
     "filled": 5
+   },
+   "diag": {
+    "fields": [
+     {
+      "q": "",
+      "ty": "file",
+      "v": "",
+      "req": false
+     },
+     {
+      "q": "Name",
+      "ty": "text",
+      "v": "Test Applicant",
+      "req": true
+     },
+     {
+      "q": "Email",
+      "ty": "email",
+      "v": "test.applicant@example.com",
+      "req": true
+     },
+     {
+      "q": "Resume",
+      "ty": "file",
+      "v": "Test_Applicant_Resume.pdf",
+      "req": true
+     },
+     {
+      "q": "Please share your LinkedIn profile.",
+      "ty": "url",
+      "v": "https://www.linkedin.com/in/test-applica",
+      "req": false
+     },
+     {
+      "q": "Please share links to GitHub, portfolio, publications, or hardware pro",
+      "ty": "url",
+      "v": "https://github.com/test-applicant",
+      "req": false
+     }
+    ],
+    "btns": [
+     "Upload file",
+     "Replace",
+     "Yes",
+     "No",
+     "Yes",
+     "No",
+     "Submit Application"
+    ],
+    "body": "Internship - Manufacturing Engineering Location San Carlos, CA Employment Type Intern Location Type On-site Department Manufacturing Operations Compensation $35 per hour Overview Application Autofill from resume Upload your resume here to autofill key application fields. Upload file Name Email Resum",
+    "frames": [
+     "https://www.recaptcha.net/recaptcha/api2/anchor?ar=1&k=6LeFb_YUAAAAALUD5h-BiQEp8JaFChe0e0A"
+    ]
    },
    "title": "Internship - Manufacturing Engineering @ 1X"
   },
@@ -325,42 +1863,280 @@
    "role": "Chip Simulation Software Intern",
    "portal": "ashby",
    "url": "https://jobs.ashbyhq.com/etched/27e5bd6b-9357-45f0-9e79-cfa2bf4eeba8/application",
-   "status": "needs-you",
-   "need": [
-    "the resume didn't attach"
-   ],
-   "done": [
-    "Which term(s) would you like to be considered for? = Winter (January - May)",
-    "Current Program Type = Bachelor's Degree",
-    "What is your work authorization status? = US Citizen or Permanent Resident",
-    "How did you hear about Etched? = LinkedIn",
-    "Are you able to work in-person in San Jose this summer? = Yes",
-    "Name = Test Applicant",
-    "Preferred Name = Test",
-    "Email = test.applicant@example.com",
-    "Phone Number = 617-555-0100",
-    "LinkedIn Profile URL = https://www.linkedin.com/in/test-applica",
-    "GitHub or Portfolio URL = https://github.com/test-applicant",
-    "College or University = Northeastern University",
-    "Major or Field of Study = Electrical and Computer Engineering",
-    "Expected Graduation Date = 12/01/2027",
-    "Current GPA = 3.96",
-    "Why do you want to join Etched? = Dry-run answer: why this company.",
-    "Please provide 2-3 bullet points showcasing exceptional ability. = 1. Project A\nDry-run body A.\n\n2. Project",
-    "Are you open to starting full-time immediately after your internship? (either graduated or willing to take time off from school) = Yes",
-    "Resume = Test_Applicant_Resume.pdf",
-    "SAT or ACT Score = ACT 36"
-   ],
-   "banner": "Co-op board: 1 field(s) need you before submit: the resume didn't attachI finished it — continueSkip this one",
+   "status": "timeout",
+   "need": [],
+   "done": [],
+   "banner": "Co-op board: submitted but no confirmation seen. Check the page, then press Submit if needed.",
    "final_url": "https://jobs.ashbyhq.com/etched/27e5bd6b-9357-45f0-9e79-cfa2bf4eeba8/application#coop=f6d801842bde09ee",
    "pages": 0,
-   "button": "",
+   "frame_url": "",
    "errors": [
     "requestStorageAccess: Permission denied."
    ],
    "fields": {
     "visible": 41,
     "filled": 38
+   },
+   "diag": {
+    "fields": [
+     {
+      "q": "",
+      "ty": "file",
+      "v": "",
+      "req": false
+     },
+     {
+      "q": "Name",
+      "ty": "text",
+      "v": "Test Applicant",
+      "req": true
+     },
+     {
+      "q": "Preferred Name",
+      "ty": "text",
+      "v": "Test",
+      "req": true
+     },
+     {
+      "q": "Email",
+      "ty": "email",
+      "v": "test.applicant@example.com",
+      "req": true
+     },
+     {
+      "q": "Phone Number",
+      "ty": "tel",
+      "v": "617-555-0100",
+      "req": true
+     },
+     {
+      "q": "LinkedIn Profile URL",
+      "ty": "text",
+      "v": "https://www.linkedin.com/in/test-applica",
+      "req": false
+     },
+     {
+      "q": "GitHub or Portfolio URL",
+      "ty": "text",
+      "v": "https://github.com/test-applicant",
+      "req": false
+     },
+     {
+      "q": "Fall (September - December)",
+      "ty": "checkbox",
+      "v": "on",
+      "req": false
+     },
+     {
+      "q": "Winter (January - May)",
+      "ty": "checkbox",
+      "v": "on",
+      "req": false
+     },
+     {
+      "q": "Summer (May - August)",
+      "ty": "checkbox",
+      "v": "on",
+      "req": false
+     },
+     {
+      "q": "College or University",
+      "ty": "text",
+      "v": "Northeastern University",
+      "req": true
+     },
+     {
+      "q": "Major or Field of Study",
+      "ty": "text",
+      "v": "Electrical and Computer Engineering",
+      "req": true
+     },
+     {
+      "q": "PhD",
+      "ty": "radio",
+      "v": "on",
+      "req": false
+     },
+     {
+      "q": "Master's Degree",
+      "ty": "radio",
+      "v": "on",
+      "req": false
+     },
+     {
+      "q": "JD",
+      "ty": "radio",
+      "v": "on",
+      "req": false
+     },
+     {
+      "q": "MBA",
+      "ty": "radio",
+      "v": "on",
+      "req": false
+     },
+     {
+      "q": "Bachelor's Degree",
+      "ty": "radio",
+      "v": "on",
+      "req": false
+     },
+     {
+      "q": "High School",
+      "ty": "radio",
+      "v": "on",
+      "req": false
+     },
+     {
+      "q": "Other",
+      "ty": "radio",
+      "v": "on",
+      "req": false
+     },
+     {
+      "q": "Pick date...",
+      "ty": "text",
+      "v": "12/01/2027",
+      "req": true
+     },
+     {
+      "q": "Current GPA",
+      "ty": "text",
+      "v": "3.96",
+      "req": false
+     },
+     {
+      "q": "US Citizen or Permanent Resident",
+      "ty": "radio",
+      "v": "on",
+      "req": false
+     },
+     {
+      "q": "H1B",
+      "ty": "radio",
+      "v": "on",
+      "req": false
+     },
+     {
+      "q": "TN",
+      "ty": "radio",
+      "v": "on",
+      "req": false
+     },
+     {
+      "q": "F1 / Stem OPT",
+      "ty": "radio",
+      "v": "on",
+      "req": false
+     },
+     {
+      "q": "L1",
+      "ty": "radio",
+      "v": "on",
+      "req": false
+     },
+     {
+      "q": "E3",
+      "ty": "radio",
+      "v": "on",
+      "req": false
+     },
+     {
+      "q": "Other (please explain below)",
+      "ty": "radio",
+      "v": "on",
+      "req": false
+     },
+     {
+      "q": "If you answered other:",
+      "ty": "textarea",
+      "v": "",
+      "req": false
+     },
+     {
+      "q": "Why do you want to join Etched?",
+      "ty": "textarea",
+      "v": "Dry-run answer: why this company.",
+      "req": true
+     },
+     {
+      "q": "Please provide 2-3 bullet points showcasing exceptional ability.",
+      "ty": "textarea",
+      "v": "1. Project A\nDry-run body A.\n\n2. Project",
+      "req": true
+     },
+     {
+      "q": "Are you open to starting full-time immediately after your internship? ",
+      "ty": "textarea",
+      "v": "Yes",
+      "req": true
+     },
+     {
+      "q": "Resume",
+      "ty": "file",
+      "v": "Test_Applicant_Resume.pdf",
+      "req": true
+     },
+     {
+      "q": "SAT or ACT Score",
+      "ty": "text",
+      "v": "ACT 36",
+      "req": true
+     },
+     {
+      "q": "LinkedIn",
+      "ty": "radio",
+      "v": "on",
+      "req": false
+     },
+     {
+      "q": "Company Website",
+      "ty": "radio",
+      "v": "on",
+      "req": false
+     },
+     {
+      "q": "Through a Friend",
+      "ty": "radio",
+      "v": "on",
+      "req": false
+     },
+     {
+      "q": "Referral",
+      "ty": "radio",
+      "v": "on",
+      "req": false
+     },
+     {
+      "q": "Twitter/X",
+      "ty": "radio",
+      "v": "on",
+      "req": false
+     },
+     {
+      "q": "Other",
+      "ty": "radio",
+      "v": "on",
+      "req": false
+     },
+     {
+      "q": "Is there anything else you'd like us to know?",
+      "ty": "textarea",
+      "v": "",
+      "req": false
+     }
+    ],
+    "btns": [
+     "Upload file",
+     "Yes",
+     "No",
+     "Replace",
+     "Submit Application"
+    ],
+    "body": "ETCHED Chip Simulation Software Intern Location San Jose Employment Type Intern Location Type On-site Department Software Overview Application Autofill from resume Upload your resume here to autofill key application fields. Upload file Personal Information Name Preferred Name Email Phone Number Link",
+    "frames": [
+     "https://www.recaptcha.net/recaptcha/api2/anchor?ar=1&k=6LeFb_YUAAAAALUD5h-BiQEp8JaFChe0e0A"
+    ]
    },
    "title": "Chip Simulation Software Intern @ Etched"
   },
@@ -370,42 +2146,28 @@
    "role": "DFT Intern",
    "portal": "ashby",
    "url": "https://jobs.ashbyhq.com/etched/5f1f5739-3b58-467c-b351-ff183c94d96d/application",
-   "status": "needs-you",
-   "need": [
-    "the resume didn't attach"
-   ],
-   "done": [
-    "Which term(s) would you like to be considered for? = Spring (January - May)",
-    "Current Program Type = Bachelor's Degree",
-    "What is your work authorization status? = US Citizen or Permanent Resident",
-    "How did you hear about Etched? = LinkedIn",
-    "Are you able to work in-person in San Jose this summer? = Yes",
-    "Name = Test Applicant",
-    "Preferred Name = Test",
-    "Email = test.applicant@example.com",
-    "Phone Number = 617-555-0100",
-    "LinkedIn Profile URL = https://www.linkedin.com/in/test-applica",
-    "GitHub or Portfolio URL = https://github.com/test-applicant",
-    "College or University = Northeastern University",
-    "Major or Field of Study = Electrical and Computer Engineering",
-    "Expected Graduation Date = 12/01/2027",
-    "Current GPA = 3.96",
-    "Why do you want to join Etched? = Dry-run answer: why this company.",
-    "Please provide 2-3 bullet points showcasing exceptional ability. = 1. Project A\nDry-run body A.\n\n2. Project",
-    "Are you open to starting full-time immediately after your internship? (either graduated or willing to take time off from school) = Yes",
-    "Resume = Test_Applicant_Resume.pdf",
-    "SAT or ACT Score = ACT 36"
-   ],
-   "banner": "Co-op board: 1 field(s) need you before submit: the resume didn't attachI finished it — continueSkip this one",
+   "status": "timeout",
+   "need": [],
+   "done": [],
+   "banner": "Co-op board: submitted but no confirmation seen: We couldn't submit your applicationYour application submission was flagged as possible spam. If you believe this was a mistake, please submit your application again.. Check the page, then press Submit if needed.",
    "final_url": "https://jobs.ashbyhq.com/etched/5f1f5739-3b58-467c-b351-ff183c94d96d/application#coop=c952d8a85af8ae2f",
    "pages": 0,
-   "button": "",
+   "frame_url": "",
    "errors": [
-    "requestStorageAccess: Permission denied."
+    "requestStorageAccess: Permission denied.",
+    "unable to open database (14 sqlite_open returned null)"
    ],
    "fields": {
-    "visible": 41,
-    "filled": 38
+    "visible": 0,
+    "filled": 0
+   },
+   "diag": {
+    "fields": [],
+    "btns": [],
+    "body": "ETCHED DFT Intern Location San Jose Employment Type Intern Location Type On-site Department ASIC Overview Application We couldn't submit your application Your application submission was flagged as possible spam. If you believe this was a mistake, please submit your application again. Try these steps",
+    "frames": [
+     "https://www.recaptcha.net/recaptcha/api2/anchor?ar=1&k=6LeFb_YUAAAAALUD5h-BiQEp8JaFChe0e0A"
+    ]
    },
    "title": "DFT Intern @ Etched"
   },
@@ -415,21 +2177,443 @@
    "role": "Avionics Electrical Engineering Intern - Spring/Summer 2027",
    "portal": "lever",
    "url": "https://jobs.lever.co/hermeus/b7babdb5-64ee-49ad-a193-918d6a31c462/apply",
-   "status": "no-button",
-   "need": [
-    "next button"
-   ],
+   "status": "timeout",
+   "need": [],
    "done": [],
-   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep going",
+   "banner": "Co-op board: filled 17 fields; 3 need you: Select One · Current company · Date. Finish those and press Submit yourself.",
    "final_url": "https://jobs.lever.co/hermeus/b7babdb5-64ee-49ad-a193-918d6a31c462/apply#coop=309203e333f1b275",
    "pages": 0,
-   "button": "",
+   "frame_url": "",
    "errors": [
     "Failed to execute 'getInstalledRelatedApps' on 'Navigator': getInstalledRelatedApps() is only supported in top-level browsing contexts."
    ],
    "fields": {
-    "visible": 48,
-    "filled": 26
+    "visible": 68,
+    "filled": 55
+   },
+   "diag": {
+    "fields": [
+     {
+      "q": "Resume/CV ✱ TEST_APPLICANT_RESUME.PDF Success!",
+      "ty": "file",
+      "v": "Test_Applicant_Resume.pdf",
+      "req": false
+     },
+     {
+      "q": "Full name ✱",
+      "ty": "text",
+      "v": "Test Applicant",
+      "req": true
+     },
+     {
+      "q": "Email ✱",
+      "ty": "email",
+      "v": "test.applicant@example.com",
+      "req": true
+     },
+     {
+      "q": "Phone ✱",
+      "ty": "text",
+      "v": "617-555-0100",
+      "req": true
+     },
+     {
+      "q": "Current location",
+      "ty": "text",
+      "v": "",
+      "req": false
+     },
+     {
+      "q": "Current company",
+      "ty": "text",
+      "v": "",
+      "req": false
+     },
+     {
+      "q": "LinkedIn URL",
+      "ty": "text",
+      "v": "https://www.linkedin.com/in/test-applica",
+      "req": false
+     },
+     {
+      "q": "Other website",
+      "ty": "text",
+      "v": "https://example.com",
+      "req": false
+     },
+     {
+      "q": "Type your response",
+      "ty": "text",
+      "v": "",
+      "req": true
+     },
+     {
+      "q": "Type your response",
+      "ty": "text",
+      "v": "",
+      "req": true
+     },
+     {
+      "q": "Type your response",
+      "ty": "text",
+      "v": "",
+      "req": false
+     },
+     {
+      "q": "Type your response",
+      "ty": "text",
+      "v": "",
+      "req": false
+     },
+     {
+      "q": "Yes",
+      "ty": "radio",
+      "v": "Yes",
+      "req": true
+     },
+     {
+      "q": "No",
+      "ty": "radio",
+      "v": "No",
+      "req": true
+     },
+     {
+      "q": "Yes",
+      "ty": "radio",
+      "v": "Yes",
+      "req": true
+     },
+     {
+      "q": "No",
+      "ty": "radio",
+      "v": "No",
+      "req": true
+     },
+     {
+      "q": "cards[c19e0aef-8b7f-4d63-a7e9-b583eefcadfe][field0]",
+      "ty": "select",
+      "v": "",
+      "req": true
+     },
+     {
+      "q": "Company Website",
+      "ty": "radio",
+      "v": "Company Website",
+      "req": true
+     },
+     {
+      "q": "LinkedIn",
+      "ty": "radio",
+      "v": "LinkedIn",
+      "req": true
+     },
+     {
+      "q": "YouTube",
+      "ty": "radio",
+      "v": "YouTube",
+      "req": true
+     },
+     {
+      "q": "X (formerly Twitter)",
+      "ty": "radio",
+      "v": "X (formerly Twitter)",
+      "req": true
+     },
+     {
+      "q": "University – Career Services",
+      "ty": "radio",
+      "v": "University – Career Services",
+      "req": true
+     },
+     {
+      "q": "Facebook",
+      "ty": "radio",
+      "v": "Facebook",
+      "req": true
+     },
+     {
+      "q": "Glassdoor",
+      "ty": "radio",
+      "v": "Glassdoor",
+      "req": true
+     },
+     {
+      "q": "Indeed",
+      "ty": "radio",
+      "v": "Indeed",
+      "req": true
+     },
+     {
+      "q": "Built In",
+      "ty": "radio",
+      "v": "Built In",
+      "req": true
+     },
+     {
+      "q": "Event – Recruiting",
+      "ty": "radio",
+      "v": "Event – Recruiting",
+      "req": true
+     },
+     {
+      "q": "Event – Industry",
+      "ty": "radio",
+      "v": "Event – Industry",
+      "req": true
+     },
+     {
+      "q": "Referral",
+      "ty": "radio",
+      "v": "Referral",
+      "req": true
+     },
+     {
+      "q": "Recruiter Outreach",
+      "ty": "radio",
+      "v": "Recruiter Outreach",
+      "req": true
+     },
+     {
+      "q": "HyTech - Fall 2026",
+      "ty": "radio",
+      "v": "HyTech - Fall 2026",
+      "req": true
+     },
+     {
+      "q": "PDK Airshow 2026",
+      "ty": "radio",
+      "v": "PDK Airshow 2026",
+      "req": true
+     },
+     {
+      "q": "cards[73621184-c538-4979-b0ff-adda453dcd30][field1]",
+      "ty": "textarea",
+      "v": "",
+      "req": false
+     },
+     {
+      "q": "Fall 2026",
+      "ty": "checkbox",
+      "v": "Fall 2026",
+      "req": false
+     },
+     {
+      "q": "Spring 2027",
+      "ty": "checkbox",
+      "v": "Spring 2027",
+      "req": false
+     },
+     {
+      "q": "Summer 2027",
+      "ty": "checkbox",
+      "v": "Summer 2027",
+      "req": false
+     },
+     {
+      "q": "Fall 2027",
+      "ty": "checkbox",
+      "v": "Fall 2027",
+      "req": false
+     },
+     {
+      "q": "cards[ebaebe01-2bfb-4932-9a01-0582fdb9b10e][field0]",
+      "ty": "textarea",
+      "v": "",
+      "req": true
+     },
+     {
+      "q": "Yes",
+      "ty": "radio",
+      "v": "Yes",
+      "req": true
+     },
+     {
+      "q": "No",
+      "ty": "radio",
+      "v": "No",
+      "req": true
+     },
+     {
+      "q": "cards[753c3d92-b631-45c9-bd3a-41062ef4e62d][field0]",
+      "ty": "select",
+      "v": "",
+      "req": false
+     },
+     {
+      "q": "cards[753c3d92-b631-45c9-bd3a-41062ef4e62d][field1]",
+      "ty": "select",
+      "v": "",
+      "req": false
+     },
+     {
+      "q": "cards[7b0bf114-ea08-4483-8f21-6906f3ac87b7][field0]",
+      "ty": "textarea",
+      "v": "",
+      "req": true
+     },
+     {
+      "q": "Gender Select ... Male Female Decline to self-identify",
+      "ty": "select",
+      "v": "Decline to self-identify",
+      "req": false
+     },
+     {
+      "q": "Race Select ... Hispanic or Latino White (Not Hispanic or Latino) Blac",
+      "ty": "select",
+      "v": "Decline to self-identify",
+      "req": false
+     },
+     {
+      "q": "Veteran status Select ... I identify as one or more of the classificat",
+      "ty": "select",
+      "v": "Decline to self-identify",
+      "req": false
+     },
+     {
+      "q": "Disability status Select ... Yes, I have a disability, or have had one",
+      "ty": "select",
+      "v": "I do not want to answer ",
+      "req": false
+     },
+     {
+      "q": "Name",
+      "ty": "text",
+      "v": "Test Applicant",
+      "req": true
+     },
+     {
+      "q": "Date",
+      "ty": "text",
+      "v": "",
+      "req": true
+     },
+     {
+      "q": "What is your location? Select... Afghanistan Albania Algeria American ",
+      "ty": "select",
+      "v": "US",
+      "req": false
+     },
+     {
+      "q": "17 or younger",
+      "ty": "radio",
+      "v": "17 or younger",
+      "req": false
+     },
+     {
+      "q": "18-20",
+      "ty": "radio",
+      "v": "18-20",
+      "req": false
+     },
+     {
+      "q": "21-29",
+      "ty": "radio",
+      "v": "21-29",
+      "req": false
+     },
+     {
+      "q": "30-39",
+      "ty": "radio",
+      "v": "30-39",
+      "req": false
+     },
+     {
+      "q": "40-49",
+      "ty": "radio",
+      "v": "40-49",
+      "req": false
+     },
+     {
+      "q": "50-59",
+      "ty": "radio",
+      "v": "50-59",
+      "req": false
+     },
+     {
+      "q": "60 or older",
+      "ty": "radio",
+      "v": "60 or older",
+      "req": false
+     },
+     {
+      "q": "White / Caucasian",
+      "ty": "checkbox",
+      "v": "White / Caucasian",
+      "req": false
+     },
+     {
+      "q": "Hispanic, Latino, or Spanish origin",
+      "ty": "checkbox",
+      "v": "Hispanic, Latino, or Spanish origin",
+      "req": false
+     },
+     {
+      "q": "Black or African American",
+      "ty": "checkbox",
+      "v": "Black or African American",
+      "req": false
+     },
+     {
+      "q": "Asian",
+      "ty": "checkbox",
+      "v": "Asian",
+      "req": false
+     },
+     {
+      "q": "Native Hawaiian or other Pacific Islander",
+      "ty": "checkbox",
+      "v": "Native Hawaiian or other Pacific Islande",
+      "req": false
+     },
+     {
+      "q": "Indigenous Peoples, First Nations, Native American, or Alaska Native",
+      "ty": "checkbox",
+      "v": "Indigenous Peoples, First Nations, Nativ",
+      "req": false
+     },
+     {
+      "q": "Middle Eastern or North African",
+      "ty": "checkbox",
+      "v": "Middle Eastern or North African",
+      "req": false
+     },
+     {
+      "q": "Some other race, ethnicity, or origin",
+      "ty": "checkbox",
+      "v": "Some other race, ethnicity, or origin",
+      "req": false
+     },
+     {
+      "q": "Female",
+      "ty": "radio",
+      "v": "Female",
+      "req": false
+     },
+     {
+      "q": "Male",
+      "ty": "radio",
+      "v": "Male",
+      "req": false
+     },
+     {
+      "q": "Non-binary",
+      "ty": "radio",
+      "v": "Non-binary",
+      "req": false
+     }
+    ],
+    "btns": [
+     "deny",
+     "accept",
+     "Apply with LinkedIn",
+     "SUBMIT APPLICATION"
+    ],
+    "body": "🍪 denyaccept Privacy Notice This website uses cookies to improve your web experience. By clicking Accept, you agree to the use of cookies. Avionics Electrical Engineering Intern - Spring/Summer 2027 Atlanta, GAInternships – Internships /Intern /On-Site SUBMIT YOUR APPLICATION LinkedIn profile Apply",
+    "frames": [
+     "about:blank",
+     "https://newassets.hcaptcha.com/captcha/v1/c881d6344a97750d1a05f8656dbe482a70ad153a/static/",
+     "https://newassets.hcaptcha.com/captcha/v1/c881d6344a97750d1a05f8656dbe482a70ad153a/static/"
+    ]
    },
    "title": "Hermeus - Avionics Electrical Engineering Intern - Spring/Summer 2027"
   },
@@ -439,19 +2623,312 @@
    "role": "Layout Automation Engineering Intern",
    "portal": "lever",
    "url": "https://jobs.eu.lever.co/quantinuum/550a6e3c-2556-4ac3-8cc4-862cb0681dc0/apply?lever-source=Simplify",
-   "status": "no-button",
-   "need": [
-    "next button"
-   ],
+   "status": "timeout",
+   "need": [],
    "done": [],
-   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep going",
+   "banner": "Co-op board: filled 22 fields; 2 need you: Current company · Date. Finish those and press Submit yourself.",
    "final_url": "https://jobs.eu.lever.co/quantinuum/550a6e3c-2556-4ac3-8cc4-862cb0681dc0/apply?lever-source=Simplify#coop=78f886849e1a6eaf",
    "pages": 0,
-   "button": "",
+   "frame_url": "",
    "errors": [],
    "fields": {
-    "visible": 45,
-    "filled": 18
+    "visible": 47,
+    "filled": 32
+   },
+   "diag": {
+    "fields": [
+     {
+      "q": "Resume/CV ✱ TEST_APPLICANT_RESUME.PDF Success!",
+      "ty": "file",
+      "v": "Test_Applicant_Resume.pdf",
+      "req": false
+     },
+     {
+      "q": "Full name ✱",
+      "ty": "text",
+      "v": "Test Applicant",
+      "req": true
+     },
+     {
+      "q": "Email ✱",
+      "ty": "email",
+      "v": "test.applicant@example.com",
+      "req": true
+     },
+     {
+      "q": "Phone ✱",
+      "ty": "text",
+      "v": "617-555-0100",
+      "req": true
+     },
+     {
+      "q": "Current location ✱",
+      "ty": "text",
+      "v": "",
+      "req": true
+     },
+     {
+      "q": "Current company",
+      "ty": "text",
+      "v": "",
+      "req": false
+     },
+     {
+      "q": "LinkedIn URL",
+      "ty": "text",
+      "v": "https://www.linkedin.com/in/test-applica",
+      "req": false
+     },
+     {
+      "q": "Twitter URL",
+      "ty": "text",
+      "v": "https://example.com",
+      "req": false
+     },
+     {
+      "q": "GitHub URL",
+      "ty": "text",
+      "v": "https://github.com/test-applicant",
+      "req": false
+     },
+     {
+      "q": "Portfolio URL",
+      "ty": "text",
+      "v": "https://example.com",
+      "req": false
+     },
+     {
+      "q": "Other website",
+      "ty": "text",
+      "v": "https://example.com",
+      "req": false
+     },
+     {
+      "q": "cards[8133fb4c-30a5-4c5a-b0b4-7400cea13420][field0]",
+      "ty": "textarea",
+      "v": "",
+      "req": true
+     },
+     {
+      "q": "cards[8133fb4c-30a5-4c5a-b0b4-7400cea13420][field1]",
+      "ty": "select",
+      "v": "",
+      "req": true
+     },
+     {
+      "q": "cards[d991346c-bf8d-424d-a101-63c8b754bf5d][field0]",
+      "ty": "select",
+      "v": "",
+      "req": true
+     },
+     {
+      "q": "cards[d991346c-bf8d-424d-a101-63c8b754bf5d][field1]",
+      "ty": "select",
+      "v": "",
+      "req": true
+     },
+     {
+      "q": "cards[d991346c-bf8d-424d-a101-63c8b754bf5d][field2]",
+      "ty": "select",
+      "v": "",
+      "req": true
+     },
+     {
+      "q": "Yes",
+      "ty": "radio",
+      "v": "Yes",
+      "req": true
+     },
+     {
+      "q": "No",
+      "ty": "radio",
+      "v": "No",
+      "req": true
+     },
+     {
+      "q": "Associate's",
+      "ty": "radio",
+      "v": "Associate's",
+      "req": true
+     },
+     {
+      "q": "Bachelor's",
+      "ty": "radio",
+      "v": "Bachelor's",
+      "req": true
+     },
+     {
+      "q": "Master's",
+      "ty": "radio",
+      "v": "Master's",
+      "req": true
+     },
+     {
+      "q": "PhD",
+      "ty": "radio",
+      "v": "PhD",
+      "req": true
+     },
+     {
+      "q": "N/A - Other",
+      "ty": "radio",
+      "v": "N/A - Other",
+      "req": true
+     },
+     {
+      "q": "Type your response",
+      "ty": "text",
+      "v": "",
+      "req": true
+     },
+     {
+      "q": "Type your response",
+      "ty": "text",
+      "v": "",
+      "req": true
+     },
+     {
+      "q": "No",
+      "ty": "radio",
+      "v": "No",
+      "req": true
+     },
+     {
+      "q": "Yes",
+      "ty": "radio",
+      "v": "Yes",
+      "req": true
+     },
+     {
+      "q": "Type your response",
+      "ty": "text",
+      "v": "",
+      "req": true
+     },
+     {
+      "q": "No",
+      "ty": "radio",
+      "v": "No",
+      "req": true
+     },
+     {
+      "q": "Yes",
+      "ty": "radio",
+      "v": "Yes",
+      "req": true
+     },
+     {
+      "q": "Yes",
+      "ty": "radio",
+      "v": "Yes",
+      "req": true
+     },
+     {
+      "q": "No",
+      "ty": "radio",
+      "v": "No",
+      "req": true
+     },
+     {
+      "q": "Yes",
+      "ty": "radio",
+      "v": "Yes",
+      "req": true
+     },
+     {
+      "q": "No",
+      "ty": "radio",
+      "v": "No",
+      "req": true
+     },
+     {
+      "q": "I am only interested in working remotely",
+      "ty": "radio",
+      "v": "I am only interested in working remotely",
+      "req": true
+     },
+     {
+      "q": "cards[5fedf905-42a0-4180-a99a-9fdbe5ab54f4][field9]",
+      "ty": "textarea",
+      "v": "",
+      "req": true
+     },
+     {
+      "q": "No, I am within a commutable distance to this facility",
+      "ty": "radio",
+      "v": "No, I am within a commutable distance to",
+      "req": true
+     },
+     {
+      "q": "Yes, I am willing to relocate",
+      "ty": "radio",
+      "v": "Yes, I am willing to relocate",
+      "req": true
+     },
+     {
+      "q": "cards[5fedf905-42a0-4180-a99a-9fdbe5ab54f4][field11]",
+      "ty": "textarea",
+      "v": "",
+      "req": true
+     },
+     {
+      "q": "Type your response",
+      "ty": "text",
+      "v": "",
+      "req": true
+     },
+     {
+      "q": "cards[5fedf905-42a0-4180-a99a-9fdbe5ab54f4][field13]",
+      "ty": "select",
+      "v": "",
+      "req": true
+     },
+     {
+      "q": "Gender Select ... Male Female Decline to self-identify",
+      "ty": "select",
+      "v": "Decline to self-identify",
+      "req": false
+     },
+     {
+      "q": "Race Select ... Hispanic or Latino White (Not Hispanic or Latino) Blac",
+      "ty": "select",
+      "v": "Decline to self-identify",
+      "req": false
+     },
+     {
+      "q": "Veteran status Select ... I identify as one or more of the classificat",
+      "ty": "select",
+      "v": "Decline to self-identify",
+      "req": false
+     },
+     {
+      "q": "Disability status Select ... Yes, I have a disability, or have had one",
+      "ty": "select",
+      "v": "I do not want to answer ",
+      "req": false
+     },
+     {
+      "q": "Name",
+      "ty": "text",
+      "v": "Test Applicant",
+      "req": true
+     },
+     {
+      "q": "Date",
+      "ty": "text",
+      "v": "",
+      "req": true
+     }
+    ],
+    "btns": [
+     "dismiss",
+     "SUBMIT APPLICATION"
+    ],
+    "body": "🍪 dismiss Privacy Notice This website uses cookies to improve your web experience. By using the site, you agree to the use of cookies. Layout Automation Developer Intern - 993 US Brooklyn Park, MNInternships / Students – Internships/Students /Internship /On-Site SUBMIT YOUR APPLICATION Resume/CV ✱ ",
+    "frames": [
+     "https://newassets.hcaptcha.com/captcha/v1/c881d6344a97750d1a05f8656dbe482a70ad153a/static/",
+     "https://newassets.hcaptcha.com/captcha/v1/c881d6344a97750d1a05f8656dbe482a70ad153a/static/"
+    ]
    },
    "title": "Quantinuum - Layout Automation Developer Intern - 993"
   },
@@ -461,21 +2938,449 @@
    "role": "Subsystem Test Engineering Intern - Spring/Summer 2027",
    "portal": "lever",
    "url": "https://jobs.lever.co/hermeus/643fd7b7-9015-43a1-aa2b-a54f117b403c/apply",
-   "status": "no-button",
-   "need": [
-    "next button"
-   ],
+   "status": "timeout",
+   "need": [],
    "done": [],
-   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep going",
+   "banner": "Co-op board: filled 17 fields; 3 need you: Select One · Current company · Date. Finish those and press Submit yourself.",
    "final_url": "https://jobs.lever.co/hermeus/643fd7b7-9015-43a1-aa2b-a54f117b403c/apply#coop=f3e201ccecc02bae",
    "pages": 0,
-   "button": "",
+   "frame_url": "",
    "errors": [
     "Failed to execute 'getInstalledRelatedApps' on 'Navigator': getInstalledRelatedApps() is only supported in top-level browsing contexts."
    ],
    "fields": {
-    "visible": 49,
-    "filled": 26
+    "visible": 69,
+    "filled": 55
+   },
+   "diag": {
+    "fields": [
+     {
+      "q": "opportunityLocationId",
+      "ty": "select",
+      "v": "",
+      "req": true
+     },
+     {
+      "q": "Resume/CV ✱ TEST_APPLICANT_RESUME.PDF Success!",
+      "ty": "file",
+      "v": "Test_Applicant_Resume.pdf",
+      "req": false
+     },
+     {
+      "q": "Full name ✱",
+      "ty": "text",
+      "v": "Test Applicant",
+      "req": true
+     },
+     {
+      "q": "Email ✱",
+      "ty": "email",
+      "v": "test.applicant@example.com",
+      "req": true
+     },
+     {
+      "q": "Phone ✱",
+      "ty": "text",
+      "v": "617-555-0100",
+      "req": true
+     },
+     {
+      "q": "Current location",
+      "ty": "text",
+      "v": "",
+      "req": false
+     },
+     {
+      "q": "Current company",
+      "ty": "text",
+      "v": "",
+      "req": false
+     },
+     {
+      "q": "LinkedIn URL",
+      "ty": "text",
+      "v": "https://www.linkedin.com/in/test-applica",
+      "req": false
+     },
+     {
+      "q": "Other website",
+      "ty": "text",
+      "v": "https://example.com",
+      "req": false
+     },
+     {
+      "q": "Type your response",
+      "ty": "text",
+      "v": "",
+      "req": true
+     },
+     {
+      "q": "Type your response",
+      "ty": "text",
+      "v": "",
+      "req": true
+     },
+     {
+      "q": "Type your response",
+      "ty": "text",
+      "v": "",
+      "req": false
+     },
+     {
+      "q": "Type your response",
+      "ty": "text",
+      "v": "",
+      "req": false
+     },
+     {
+      "q": "Yes",
+      "ty": "radio",
+      "v": "Yes",
+      "req": true
+     },
+     {
+      "q": "No",
+      "ty": "radio",
+      "v": "No",
+      "req": true
+     },
+     {
+      "q": "Yes",
+      "ty": "radio",
+      "v": "Yes",
+      "req": true
+     },
+     {
+      "q": "No",
+      "ty": "radio",
+      "v": "No",
+      "req": true
+     },
+     {
+      "q": "cards[c19e0aef-8b7f-4d63-a7e9-b583eefcadfe][field0]",
+      "ty": "select",
+      "v": "",
+      "req": true
+     },
+     {
+      "q": "Company Website",
+      "ty": "radio",
+      "v": "Company Website",
+      "req": true
+     },
+     {
+      "q": "LinkedIn",
+      "ty": "radio",
+      "v": "LinkedIn",
+      "req": true
+     },
+     {
+      "q": "YouTube",
+      "ty": "radio",
+      "v": "YouTube",
+      "req": true
+     },
+     {
+      "q": "X (formerly Twitter)",
+      "ty": "radio",
+      "v": "X (formerly Twitter)",
+      "req": true
+     },
+     {
+      "q": "University – Career Services",
+      "ty": "radio",
+      "v": "University – Career Services",
+      "req": true
+     },
+     {
+      "q": "Facebook",
+      "ty": "radio",
+      "v": "Facebook",
+      "req": true
+     },
+     {
+      "q": "Glassdoor",
+      "ty": "radio",
+      "v": "Glassdoor",
+      "req": true
+     },
+     {
+      "q": "Indeed",
+      "ty": "radio",
+      "v": "Indeed",
+      "req": true
+     },
+     {
+      "q": "Built In",
+      "ty": "radio",
+      "v": "Built In",
+      "req": true
+     },
+     {
+      "q": "Event – Recruiting",
+      "ty": "radio",
+      "v": "Event – Recruiting",
+      "req": true
+     },
+     {
+      "q": "Event – Industry",
+      "ty": "radio",
+      "v": "Event – Industry",
+      "req": true
+     },
+     {
+      "q": "Referral",
+      "ty": "radio",
+      "v": "Referral",
+      "req": true
+     },
+     {
+      "q": "Recruiter Outreach",
+      "ty": "radio",
+      "v": "Recruiter Outreach",
+      "req": true
+     },
+     {
+      "q": "HyTech - Fall 2026",
+      "ty": "radio",
+      "v": "HyTech - Fall 2026",
+      "req": true
+     },
+     {
+      "q": "PDK Airshow 2026",
+      "ty": "radio",
+      "v": "PDK Airshow 2026",
+      "req": true
+     },
+     {
+      "q": "cards[73621184-c538-4979-b0ff-adda453dcd30][field1]",
+      "ty": "textarea",
+      "v": "",
+      "req": false
+     },
+     {
+      "q": "Fall 2026",
+      "ty": "checkbox",
+      "v": "Fall 2026",
+      "req": false
+     },
+     {
+      "q": "Spring 2027",
+      "ty": "checkbox",
+      "v": "Spring 2027",
+      "req": false
+     },
+     {
+      "q": "Summer 2027",
+      "ty": "checkbox",
+      "v": "Summer 2027",
+      "req": false
+     },
+     {
+      "q": "Fall 2027",
+      "ty": "checkbox",
+      "v": "Fall 2027",
+      "req": false
+     },
+     {
+      "q": "cards[ebaebe01-2bfb-4932-9a01-0582fdb9b10e][field0]",
+      "ty": "textarea",
+      "v": "",
+      "req": true
+     },
+     {
+      "q": "Yes",
+      "ty": "radio",
+      "v": "Yes",
+      "req": true
+     },
+     {
+      "q": "No",
+      "ty": "radio",
+      "v": "No",
+      "req": true
+     },
+     {
+      "q": "cards[753c3d92-b631-45c9-bd3a-41062ef4e62d][field0]",
+      "ty": "select",
+      "v": "",
+      "req": false
+     },
+     {
+      "q": "cards[753c3d92-b631-45c9-bd3a-41062ef4e62d][field1]",
+      "ty": "select",
+      "v": "",
+      "req": false
+     },
+     {
+      "q": "cards[7b0bf114-ea08-4483-8f21-6906f3ac87b7][field0]",
+      "ty": "textarea",
+      "v": "",
+      "req": true
+     },
+     {
+      "q": "Gender Select ... Male Female Decline to self-identify",
+      "ty": "select",
+      "v": "Decline to self-identify",
+      "req": false
+     },
+     {
+      "q": "Race Select ... Hispanic or Latino White (Not Hispanic or Latino) Blac",
+      "ty": "select",
+      "v": "Decline to self-identify",
+      "req": false
+     },
+     {
+      "q": "Veteran status Select ... I identify as one or more of the classificat",
+      "ty": "select",
+      "v": "Decline to self-identify",
+      "req": false
+     },
+     {
+      "q": "Disability status Select ... Yes, I have a disability, or have had one",
+      "ty": "select",
+      "v": "I do not want to answer ",
+      "req": false
+     },
+     {
+      "q": "Name",
+      "ty": "text",
+      "v": "Test Applicant",
+      "req": true
+     },
+     {
+      "q": "Date",
+      "ty": "text",
+      "v": "",
+      "req": true
+     },
+     {
+      "q": "What is your location? Select... Afghanistan Albania Algeria American ",
+      "ty": "select",
+      "v": "US",
+      "req": false
+     },
+     {
+      "q": "17 or younger",
+      "ty": "radio",
+      "v": "17 or younger",
+      "req": false
+     },
+     {
+      "q": "18-20",
+      "ty": "radio",
+      "v": "18-20",
+      "req": false
+     },
+     {
+      "q": "21-29",
+      "ty": "radio",
+      "v": "21-29",
+      "req": false
+     },
+     {
+      "q": "30-39",
+      "ty": "radio",
+      "v": "30-39",
+      "req": false
+     },
+     {
+      "q": "40-49",
+      "ty": "radio",
+      "v": "40-49",
+      "req": false
+     },
+     {
+      "q": "50-59",
+      "ty": "radio",
+      "v": "50-59",
+      "req": false
+     },
+     {
+      "q": "60 or older",
+      "ty": "radio",
+      "v": "60 or older",
+      "req": false
+     },
+     {
+      "q": "White / Caucasian",
+      "ty": "checkbox",
+      "v": "White / Caucasian",
+      "req": false
+     },
+     {
+      "q": "Hispanic, Latino, or Spanish origin",
+      "ty": "checkbox",
+      "v": "Hispanic, Latino, or Spanish origin",
+      "req": false
+     },
+     {
+      "q": "Black or African American",
+      "ty": "checkbox",
+      "v": "Black or African American",
+      "req": false
+     },
+     {
+      "q": "Asian",
+      "ty": "checkbox",
+      "v": "Asian",
+      "req": false
+     },
+     {
+      "q": "Native Hawaiian or other Pacific Islander",
+      "ty": "checkbox",
+      "v": "Native Hawaiian or other Pacific Islande",
+      "req": false
+     },
+     {
+      "q": "Indigenous Peoples, First Nations, Native American, or Alaska Native",
+      "ty": "checkbox",
+      "v": "Indigenous Peoples, First Nations, Nativ",
+      "req": false
+     },
+     {
+      "q": "Middle Eastern or North African",
+      "ty": "checkbox",
+      "v": "Middle Eastern or North African",
+      "req": false
+     },
+     {
+      "q": "Some other race, ethnicity, or origin",
+      "ty": "checkbox",
+      "v": "Some other race, ethnicity, or origin",
+      "req": false
+     },
+     {
+      "q": "Female",
+      "ty": "radio",
+      "v": "Female",
+      "req": false
+     },
+     {
+      "q": "Male",
+      "ty": "radio",
+      "v": "Male",
+      "req": false
+     },
+     {
+      "q": "Non-binary",
+      "ty": "radio",
+      "v": "Non-binary",
+      "req": false
+     }
+    ],
+    "btns": [
+     "deny",
+     "accept",
+     "Apply with LinkedIn",
+     "SUBMIT APPLICATION"
+    ],
+    "body": "🍪 denyaccept Privacy Notice This website uses cookies to improve your web experience. By clicking Accept, you agree to the use of cookies. Subsystem Test Engineering Intern - Spring/Summer 2027 Atlanta, GA / Los Angeles, CAInternships – Internships /Intern /On-Site SUBMIT YOUR APPLICATION Which loc",
+    "frames": [
+     "about:blank",
+     "https://newassets.hcaptcha.com/captcha/v1/c881d6344a97750d1a05f8656dbe482a70ad153a/static/",
+     "https://newassets.hcaptcha.com/captcha/v1/c881d6344a97750d1a05f8656dbe482a70ad153a/static/"
+    ]
    },
    "title": "Hermeus - Subsystem Test Engineering Intern - Spring/Summer 2027"
   },
@@ -485,21 +3390,455 @@
    "role": "Electrical Engineering Spring Co-op (January 2027) (R4475)",
    "portal": "lever",
    "url": "https://jobs.lever.co/shieldai/87d982f2-8b2b-4c73-9a19-71e461c7b724/apply",
-   "status": "no-button",
-   "need": [
-    "next button"
-   ],
+   "status": "timeout",
+   "need": [],
    "done": [],
-   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep going",
+   "banner": "Co-op board: filled 22 fields; 5 need you: Shield AI provides technology, services, and support to the United States military and allied forces with their various missions. If selected for employment with Shield AI, your contributions will directly relate to and/or support these missions. Are there any reasons why you would not be able to fully contribute in support of the U.S. military and allied forces? · Are you a transitioning service member? · If yes, what partnership program are you working with? · Current company · Date. Finish those and press Submit yourself.",
    "final_url": "https://jobs.lever.co/shieldai/87d982f2-8b2b-4c73-9a19-71e461c7b724/apply#coop=2537521518f7f31f",
    "pages": 0,
-   "button": "",
+   "frame_url": "",
    "errors": [
     "Failed to execute 'getInstalledRelatedApps' on 'Navigator': getInstalledRelatedApps() is only supported in top-level browsing contexts."
    ],
    "fields": {
-    "visible": 74,
-    "filled": 47
+    "visible": 76,
+    "filled": 60
+   },
+   "diag": {
+    "fields": [
+     {
+      "q": "opportunityLocationId",
+      "ty": "select",
+      "v": "",
+      "req": false
+     },
+     {
+      "q": "Resume/CV ✱ TEST_APPLICANT_RESUME.PDF Success!",
+      "ty": "file",
+      "v": "Test_Applicant_Resume.pdf",
+      "req": false
+     },
+     {
+      "q": "Full name ✱",
+      "ty": "text",
+      "v": "Test Applicant",
+      "req": true
+     },
+     {
+      "q": "Email ✱",
+      "ty": "email",
+      "v": "test.applicant@example.com",
+      "req": true
+     },
+     {
+      "q": "Phone",
+      "ty": "text",
+      "v": "617-555-0100",
+      "req": false
+     },
+     {
+      "q": "Current location",
+      "ty": "text",
+      "v": "",
+      "req": false
+     },
+     {
+      "q": "Current company",
+      "ty": "text",
+      "v": "",
+      "req": false
+     },
+     {
+      "q": "LinkedIn URL",
+      "ty": "text",
+      "v": "https://www.linkedin.com/in/test-applica",
+      "req": false
+     },
+     {
+      "q": "Twitter URL",
+      "ty": "text",
+      "v": "https://example.com",
+      "req": false
+     },
+     {
+      "q": "GitHub URL",
+      "ty": "text",
+      "v": "https://github.com/test-applicant",
+      "req": false
+     },
+     {
+      "q": "Portfolio URL",
+      "ty": "text",
+      "v": "https://example.com",
+      "req": false
+     },
+     {
+      "q": "Other website",
+      "ty": "text",
+      "v": "https://example.com",
+      "req": false
+     },
+     {
+      "q": "Yes",
+      "ty": "radio",
+      "v": "Yes",
+      "req": true
+     },
+     {
+      "q": "No",
+      "ty": "radio",
+      "v": "No",
+      "req": true
+     },
+     {
+      "q": "Yes",
+      "ty": "radio",
+      "v": "Yes",
+      "req": true
+     },
+     {
+      "q": "No",
+      "ty": "radio",
+      "v": "No",
+      "req": true
+     },
+     {
+      "q": "cards[115d9079-dcfa-4a25-aff3-f213bf88362e][field2]",
+      "ty": "textarea",
+      "v": "",
+      "req": false
+     },
+     {
+      "q": "A United States Citizen",
+      "ty": "radio",
+      "v": "A United States Citizen",
+      "req": true
+     },
+     {
+      "q": "A lawful permanent resident of the United States (i.e. Greencard holde",
+      "ty": "radio",
+      "v": "A lawful permanent resident of the Unite",
+      "req": true
+     },
+     {
+      "q": "A protected individual",
+      "ty": "radio",
+      "v": "A protected individual",
+      "req": true
+     },
+     {
+      "q": "Other",
+      "ty": "radio",
+      "v": "Other",
+      "req": true
+     },
+     {
+      "q": "cards[7e99ef70-58ab-4a59-bc31-cc1c35935935][field1]",
+      "ty": "textarea",
+      "v": "",
+      "req": false
+     },
+     {
+      "q": "Yes",
+      "ty": "radio",
+      "v": "Yes",
+      "req": true
+     },
+     {
+      "q": "No",
+      "ty": "radio",
+      "v": "No",
+      "req": true
+     },
+     {
+      "q": "Other",
+      "ty": "radio",
+      "v": "Other",
+      "req": true
+     },
+     {
+      "q": "cards[5f2a739c-bb0e-4283-92c6-1dc8c09b459c][field1]",
+      "ty": "textarea",
+      "v": "",
+      "req": false
+     },
+     {
+      "q": "Campus visit",
+      "ty": "radio",
+      "v": "Campus visit",
+      "req": true
+     },
+     {
+      "q": "LinkedIn Post",
+      "ty": "radio",
+      "v": "LinkedIn Post",
+      "req": true
+     },
+     {
+      "q": "LinkedIn Sponsored Job/Ad",
+      "ty": "radio",
+      "v": "LinkedIn Sponsored Job/Ad",
+      "req": true
+     },
+     {
+      "q": "Industry Conference",
+      "ty": "radio",
+      "v": "Industry Conference",
+      "req": true
+     },
+     {
+      "q": "Twitter/X",
+      "ty": "radio",
+      "v": "Twitter/X",
+      "req": true
+     },
+     {
+      "q": "Instagram",
+      "ty": "radio",
+      "v": "Instagram",
+      "req": true
+     },
+     {
+      "q": "Referral",
+      "ty": "radio",
+      "v": "Referral",
+      "req": true
+     },
+     {
+      "q": "Handshake",
+      "ty": "radio",
+      "v": "Handshake",
+      "req": true
+     },
+     {
+      "q": "Other",
+      "ty": "radio",
+      "v": "Other",
+      "req": true
+     },
+     {
+      "q": "cards[a90569ad-6b52-448e-9792-055f7c122285][field1]",
+      "ty": "textarea",
+      "v": "",
+      "req": false
+     },
+     {
+      "q": "Type your response",
+      "ty": "text",
+      "v": "",
+      "req": true
+     },
+     {
+      "q": "No",
+      "ty": "radio",
+      "v": "No",
+      "req": true
+     },
+     {
+      "q": "Yes",
+      "ty": "radio",
+      "v": "Yes",
+      "req": true
+     },
+     {
+      "q": "Hiring our Heroes",
+      "ty": "radio",
+      "v": "Hiring our Heroes",
+      "req": false
+     },
+     {
+      "q": "NextOp",
+      "ty": "radio",
+      "v": "NextOp",
+      "req": false
+     },
+     {
+      "q": "Skillbridge general (no program)",
+      "ty": "radio",
+      "v": "Skillbridge general (no program)",
+      "req": false
+     },
+     {
+      "q": "cards[07fdf1f1-9952-493d-a9b7-320969a56fed][field2]",
+      "ty": "textarea",
+      "v": "",
+      "req": false
+     },
+     {
+      "q": "cards[07fdf1f1-9952-493d-a9b7-320969a56fed][field3]",
+      "ty": "textarea",
+      "v": "",
+      "req": false
+     },
+     {
+      "q": "cards[07fdf1f1-9952-493d-a9b7-320969a56fed][field4]",
+      "ty": "textarea",
+      "v": "",
+      "req": false
+     },
+     {
+      "q": "cards[07fdf1f1-9952-493d-a9b7-320969a56fed][field5]",
+      "ty": "textarea",
+      "v": "",
+      "req": true
+     },
+     {
+      "q": "cards[f27077c2-d069-4885-b031-ee14b393fd41][field0]",
+      "ty": "select",
+      "v": "",
+      "req": true
+     },
+     {
+      "q": "San Diego, California",
+      "ty": "checkbox",
+      "v": "San Diego, California",
+      "req": false
+     },
+     {
+      "q": "Dallas, Texas",
+      "ty": "checkbox",
+      "v": "Dallas, Texas",
+      "req": false
+     },
+     {
+      "q": "Washington, DC",
+      "ty": "checkbox",
+      "v": "Washington, DC",
+      "req": false
+     },
+     {
+      "q": "Boston, MA",
+      "ty": "checkbox",
+      "v": "Boston, MA",
+      "req": false
+     },
+     {
+      "q": "International",
+      "ty": "checkbox",
+      "v": "International",
+      "req": false
+     },
+     {
+      "q": "San Francisco, California",
+      "ty": "checkbox",
+      "v": "San Francisco, California",
+      "req": false
+     },
+     {
+      "q": "cards[f27077c2-d069-4885-b031-ee14b393fd41][field2]",
+      "ty": "textarea",
+      "v": "",
+      "req": false
+     },
+     {
+      "q": "Yes",
+      "ty": "radio",
+      "v": "Yes",
+      "req": false
+     },
+     {
+      "q": "No",
+      "ty": "radio",
+      "v": "No",
+      "req": false
+     },
+     {
+      "q": "Unsure",
+      "ty": "radio",
+      "v": "Unsure",
+      "req": false
+     },
+     {
+      "q": "4.0",
+      "ty": "radio",
+      "v": "4.0",
+      "req": true
+     },
+     {
+      "q": "3.5 - 3.9",
+      "ty": "radio",
+      "v": "3.5 - 3.9",
+      "req": true
+     },
+     {
+      "q": "3.0 - 3.4",
+      "ty": "radio",
+      "v": "3.0 - 3.4",
+      "req": true
+     },
+     {
+      "q": "2.5 - 2.9",
+      "ty": "radio",
+      "v": "2.5 - 2.9",
+      "req": true
+     },
+     {
+      "q": "Below 2.5",
+      "ty": "radio",
+      "v": "Below 2.5",
+      "req": true
+     },
+     {
+      "q": "cards[b26dd65b-5f0d-42d6-b0fc-64b4640168f5][field1]",
+      "ty": "textarea",
+      "v": "",
+      "req": false
+     },
+     {
+      "q": "Gender Select ... Male Female Decline to self-identify",
+      "ty": "select",
+      "v": "Decline to self-identify",
+      "req": false
+     },
+     {
+      "q": "Race Hispanic or Latino A person of Cuban, Mexican, Puerto Rican, Sout",
+      "ty": "radio",
+      "v": "Hispanic or Latino",
+      "req": false
+     },
+     {
+      "q": "White (Not Hispanic or Latino) A person having origins in any of the o",
+      "ty": "radio",
+      "v": "White (Not Hispanic or Latino)",
+      "req": false
+     },
+     {
+      "q": "Black or African American (Not Hispanic or Latino) A person having ori",
+      "ty": "radio",
+      "v": "Black or African American (Not Hispanic ",
+      "req": false
+     },
+     {
+      "q": "Native Hawaiian or Other Pacific Islander (Not Hispanic or Latino) A p",
+      "ty": "radio",
+      "v": "Native Hawaiian or Other Pacific Islande",
+      "req": false
+     },
+     {
+      "q": "Asian (Not Hispanic or Latino) A person having origins in any of the o",
+      "ty": "radio",
+      "v": "Asian (Not Hispanic or Latino)",
+      "req": false
+     },
+     {
+      "q": "American Indian or Alaska Native (Not Hispanic or Latino) A person hav",
+      "ty": "radio",
+      "v": "American Indian or Alaska Native (Not Hi",
+      "req": false
+     }
+    ],
+    "btns": [
+     "deny",
+     "accept",
+     "Apply with LinkedIn",
+     "SUBMIT APPLICATION"
+    ],
+    "body": "🍪 denyaccept Privacy Notice This website uses cookies to improve your web experience. By clicking Accept, you agree to the use of cookies. Electrical Engineering Spring Co-op (January 2027) (R4475) Dallas, Texas / San Diego, California / Boston, MassachusettsX-BAT Division – X-BAT Engineering - Avi",
+    "frames": [
+     "about:blank",
+     "https://newassets.hcaptcha.com/captcha/v1/c881d6344a97750d1a05f8656dbe482a70ad153a/static/",
+     "https://newassets.hcaptcha.com/captcha/v1/c881d6344a97750d1a05f8656dbe482a70ad153a/static/"
+    ]
    },
    "title": "Shield AI - Electrical Engineering Spring Co-op (January 2027) (R4475)"
   },
@@ -509,21 +3848,455 @@
    "role": "Environmental, Health, and Safety (EHS) Intern - 2027",
    "portal": "lever",
    "url": "https://jobs.lever.co/hermeus/7a0408e7-700c-4206-85d6-62f71f625652/apply",
-   "status": "no-button",
-   "need": [
-    "next button"
-   ],
+   "status": "timeout",
+   "need": [],
    "done": [],
-   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep going",
+   "banner": "Co-op board: filled 19 fields; 3 need you: Select One · Current company · Date. Finish those and press Submit yourself.",
    "final_url": "https://jobs.lever.co/hermeus/7a0408e7-700c-4206-85d6-62f71f625652/apply#coop=117e950a697cb9e3",
    "pages": 0,
-   "button": "",
+   "frame_url": "",
    "errors": [
     "Failed to execute 'getInstalledRelatedApps' on 'Navigator': getInstalledRelatedApps() is only supported in top-level browsing contexts."
    ],
    "fields": {
-    "visible": 51,
-    "filled": 30
+    "visible": 71,
+    "filled": 59
+   },
+   "diag": {
+    "fields": [
+     {
+      "q": "Resume/CV ✱ TEST_APPLICANT_RESUME.PDF Success!",
+      "ty": "file",
+      "v": "Test_Applicant_Resume.pdf",
+      "req": false
+     },
+     {
+      "q": "Full name ✱",
+      "ty": "text",
+      "v": "Test Applicant",
+      "req": true
+     },
+     {
+      "q": "Email ✱",
+      "ty": "email",
+      "v": "test.applicant@example.com",
+      "req": true
+     },
+     {
+      "q": "Phone ✱",
+      "ty": "text",
+      "v": "617-555-0100",
+      "req": true
+     },
+     {
+      "q": "Current location",
+      "ty": "text",
+      "v": "",
+      "req": false
+     },
+     {
+      "q": "Current company",
+      "ty": "text",
+      "v": "",
+      "req": false
+     },
+     {
+      "q": "LinkedIn URL",
+      "ty": "text",
+      "v": "https://www.linkedin.com/in/test-applica",
+      "req": false
+     },
+     {
+      "q": "Other website",
+      "ty": "text",
+      "v": "https://example.com",
+      "req": false
+     },
+     {
+      "q": "Type your response",
+      "ty": "text",
+      "v": "",
+      "req": true
+     },
+     {
+      "q": "Type your response",
+      "ty": "text",
+      "v": "",
+      "req": true
+     },
+     {
+      "q": "Type your response",
+      "ty": "text",
+      "v": "",
+      "req": false
+     },
+     {
+      "q": "Type your response",
+      "ty": "text",
+      "v": "",
+      "req": false
+     },
+     {
+      "q": "Yes",
+      "ty": "radio",
+      "v": "Yes",
+      "req": true
+     },
+     {
+      "q": "No",
+      "ty": "radio",
+      "v": "No",
+      "req": true
+     },
+     {
+      "q": "Yes",
+      "ty": "radio",
+      "v": "Yes",
+      "req": true
+     },
+     {
+      "q": "No",
+      "ty": "radio",
+      "v": "No",
+      "req": true
+     },
+     {
+      "q": "cards[c19e0aef-8b7f-4d63-a7e9-b583eefcadfe][field0]",
+      "ty": "select",
+      "v": "",
+      "req": true
+     },
+     {
+      "q": "Company Website",
+      "ty": "radio",
+      "v": "Company Website",
+      "req": true
+     },
+     {
+      "q": "LinkedIn",
+      "ty": "radio",
+      "v": "LinkedIn",
+      "req": true
+     },
+     {
+      "q": "YouTube",
+      "ty": "radio",
+      "v": "YouTube",
+      "req": true
+     },
+     {
+      "q": "X (formerly Twitter)",
+      "ty": "radio",
+      "v": "X (formerly Twitter)",
+      "req": true
+     },
+     {
+      "q": "University – Career Services",
+      "ty": "radio",
+      "v": "University – Career Services",
+      "req": true
+     },
+     {
+      "q": "Facebook",
+      "ty": "radio",
+      "v": "Facebook",
+      "req": true
+     },
+     {
+      "q": "Glassdoor",
+      "ty": "radio",
+      "v": "Glassdoor",
+      "req": true
+     },
+     {
+      "q": "Indeed",
+      "ty": "radio",
+      "v": "Indeed",
+      "req": true
+     },
+     {
+      "q": "Built In",
+      "ty": "radio",
+      "v": "Built In",
+      "req": true
+     },
+     {
+      "q": "Event – Recruiting",
+      "ty": "radio",
+      "v": "Event – Recruiting",
+      "req": true
+     },
+     {
+      "q": "Event – Industry",
+      "ty": "radio",
+      "v": "Event – Industry",
+      "req": true
+     },
+     {
+      "q": "Referral",
+      "ty": "radio",
+      "v": "Referral",
+      "req": true
+     },
+     {
+      "q": "Recruiter Outreach",
+      "ty": "radio",
+      "v": "Recruiter Outreach",
+      "req": true
+     },
+     {
+      "q": "HyTech - Fall 2026",
+      "ty": "radio",
+      "v": "HyTech - Fall 2026",
+      "req": true
+     },
+     {
+      "q": "PDK Airshow 2026",
+      "ty": "radio",
+      "v": "PDK Airshow 2026",
+      "req": true
+     },
+     {
+      "q": "cards[73621184-c538-4979-b0ff-adda453dcd30][field1]",
+      "ty": "textarea",
+      "v": "",
+      "req": false
+     },
+     {
+      "q": "Fall 2026",
+      "ty": "checkbox",
+      "v": "Fall 2026",
+      "req": false
+     },
+     {
+      "q": "Spring 2027",
+      "ty": "checkbox",
+      "v": "Spring 2027",
+      "req": false
+     },
+     {
+      "q": "Summer 2027",
+      "ty": "checkbox",
+      "v": "Summer 2027",
+      "req": false
+     },
+     {
+      "q": "Fall 2027",
+      "ty": "checkbox",
+      "v": "Fall 2027",
+      "req": false
+     },
+     {
+      "q": "cards[ebaebe01-2bfb-4932-9a01-0582fdb9b10e][field0]",
+      "ty": "textarea",
+      "v": "",
+      "req": true
+     },
+     {
+      "q": "Yes",
+      "ty": "radio",
+      "v": "Yes",
+      "req": true
+     },
+     {
+      "q": "No",
+      "ty": "radio",
+      "v": "No",
+      "req": true
+     },
+     {
+      "q": "cards[753c3d92-b631-45c9-bd3a-41062ef4e62d][field0]",
+      "ty": "select",
+      "v": "",
+      "req": false
+     },
+     {
+      "q": "cards[753c3d92-b631-45c9-bd3a-41062ef4e62d][field1]",
+      "ty": "select",
+      "v": "",
+      "req": false
+     },
+     {
+      "q": "Yes, I require sponsorship",
+      "ty": "radio",
+      "v": "Yes, I require sponsorship",
+      "req": true
+     },
+     {
+      "q": "No, I do not require sponsorship",
+      "ty": "radio",
+      "v": "No, I do not require sponsorship",
+      "req": true
+     },
+     {
+      "q": "Yes, I will require sponsorship in the future",
+      "ty": "radio",
+      "v": "Yes, I will require sponsorship in the f",
+      "req": true
+     },
+     {
+      "q": "No, I will not require sponsorship in the future",
+      "ty": "radio",
+      "v": "No, I will not require sponsorship in th",
+      "req": true
+     },
+     {
+      "q": "Gender Select ... Male Female Decline to self-identify",
+      "ty": "select",
+      "v": "Decline to self-identify",
+      "req": false
+     },
+     {
+      "q": "Race Select ... Hispanic or Latino White (Not Hispanic or Latino) Blac",
+      "ty": "select",
+      "v": "Decline to self-identify",
+      "req": false
+     },
+     {
+      "q": "Veteran status Select ... I identify as one or more of the classificat",
+      "ty": "select",
+      "v": "Decline to self-identify",
+      "req": false
+     },
+     {
+      "q": "Disability status Select ... Yes, I have a disability, or have had one",
+      "ty": "select",
+      "v": "I do not want to answer ",
+      "req": false
+     },
+     {
+      "q": "Name",
+      "ty": "text",
+      "v": "Test Applicant",
+      "req": true
+     },
+     {
+      "q": "Date",
+      "ty": "text",
+      "v": "",
+      "req": true
+     },
+     {
+      "q": "What is your location? Select... Afghanistan Albania Algeria American ",
+      "ty": "select",
+      "v": "US",
+      "req": false
+     },
+     {
+      "q": "17 or younger",
+      "ty": "radio",
+      "v": "17 or younger",
+      "req": false
+     },
+     {
+      "q": "18-20",
+      "ty": "radio",
+      "v": "18-20",
+      "req": false
+     },
+     {
+      "q": "21-29",
+      "ty": "radio",
+      "v": "21-29",
+      "req": false
+     },
+     {
+      "q": "30-39",
+      "ty": "radio",
+      "v": "30-39",
+      "req": false
+     },
+     {
+      "q": "40-49",
+      "ty": "radio",
+      "v": "40-49",
+      "req": false
+     },
+     {
+      "q": "50-59",
+      "ty": "radio",
+      "v": "50-59",
+      "req": false
+     },
+     {
+      "q": "60 or older",
+      "ty": "radio",
+      "v": "60 or older",
+      "req": false
+     },
+     {
+      "q": "White / Caucasian",
+      "ty": "checkbox",
+      "v": "White / Caucasian",
+      "req": false
+     },
+     {
+      "q": "Hispanic, Latino, or Spanish origin",
+      "ty": "checkbox",
+      "v": "Hispanic, Latino, or Spanish origin",
+      "req": false
+     },
+     {
+      "q": "Black or African American",
+      "ty": "checkbox",
+      "v": "Black or African American",
+      "req": false
+     },
+     {
+      "q": "Asian",
+      "ty": "checkbox",
+      "v": "Asian",
+      "req": false
+     },
+     {
+      "q": "Native Hawaiian or other Pacific Islander",
+      "ty": "checkbox",
+      "v": "Native Hawaiian or other Pacific Islande",
+      "req": false
+     },
+     {
+      "q": "Indigenous Peoples, First Nations, Native American, or Alaska Native",
+      "ty": "checkbox",
+      "v": "Indigenous Peoples, First Nations, Nativ",
+      "req": false
+     },
+     {
+      "q": "Middle Eastern or North African",
+      "ty": "checkbox",
+      "v": "Middle Eastern or North African",
+      "req": false
+     },
+     {
+      "q": "Some other race, ethnicity, or origin",
+      "ty": "checkbox",
+      "v": "Some other race, ethnicity, or origin",
+      "req": false
+     },
+     {
+      "q": "Female",
+      "ty": "radio",
+      "v": "Female",
+      "req": false
+     },
+     {
+      "q": "Male",
+      "ty": "radio",
+      "v": "Male",
+      "req": false
+     }
+    ],
+    "btns": [
+     "deny",
+     "accept",
+     "Apply with LinkedIn",
+     "SUBMIT APPLICATION"
+    ],
+    "body": "🍪 denyaccept Privacy Notice This website uses cookies to improve your web experience. By clicking Accept, you agree to the use of cookies. Environmental, Health, and Safety (EHS) Intern - 2027 Los Angeles, CAInternships – Internships /Intern /On-Site SUBMIT YOUR APPLICATION LinkedIn profile Apply w",
+    "frames": [
+     "about:blank",
+     "https://newassets.hcaptcha.com/captcha/v1/c881d6344a97750d1a05f8656dbe482a70ad153a/static/",
+     "https://newassets.hcaptcha.com/captcha/v1/c881d6344a97750d1a05f8656dbe482a70ad153a/static/"
+    ]
    },
    "title": "Hermeus - Environmental, Health, and Safety (EHS) Intern - 2027"
   },
@@ -533,21 +4306,455 @@
    "role": "Flight Operations & Airworthiness Engineering Intern - Spring/Summer/Fall 2027",
    "portal": "lever",
    "url": "https://jobs.lever.co/hermeus/944918b0-17ca-46ec-9413-5acd7086addf/apply",
-   "status": "no-button",
-   "need": [
-    "next button"
-   ],
+   "status": "timeout",
+   "need": [],
    "done": [],
-   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep going",
+   "banner": "Co-op board: filled 19 fields; 3 need you: Select One · Current company · Date. Finish those and press Submit yourself.",
    "final_url": "https://jobs.lever.co/hermeus/944918b0-17ca-46ec-9413-5acd7086addf/apply#coop=195882dc93ad64e6",
    "pages": 0,
-   "button": "",
+   "frame_url": "",
    "errors": [
     "Failed to execute 'getInstalledRelatedApps' on 'Navigator': getInstalledRelatedApps() is only supported in top-level browsing contexts."
    ],
    "fields": {
-    "visible": 51,
-    "filled": 30
+    "visible": 71,
+    "filled": 59
+   },
+   "diag": {
+    "fields": [
+     {
+      "q": "Resume/CV ✱ TEST_APPLICANT_RESUME.PDF Success!",
+      "ty": "file",
+      "v": "Test_Applicant_Resume.pdf",
+      "req": false
+     },
+     {
+      "q": "Full name ✱",
+      "ty": "text",
+      "v": "Test Applicant",
+      "req": true
+     },
+     {
+      "q": "Email ✱",
+      "ty": "email",
+      "v": "test.applicant@example.com",
+      "req": true
+     },
+     {
+      "q": "Phone ✱",
+      "ty": "text",
+      "v": "617-555-0100",
+      "req": true
+     },
+     {
+      "q": "Current location",
+      "ty": "text",
+      "v": "",
+      "req": false
+     },
+     {
+      "q": "Current company",
+      "ty": "text",
+      "v": "",
+      "req": false
+     },
+     {
+      "q": "LinkedIn URL",
+      "ty": "text",
+      "v": "https://www.linkedin.com/in/test-applica",
+      "req": false
+     },
+     {
+      "q": "Other website",
+      "ty": "text",
+      "v": "https://example.com",
+      "req": false
+     },
+     {
+      "q": "Type your response",
+      "ty": "text",
+      "v": "",
+      "req": true
+     },
+     {
+      "q": "Type your response",
+      "ty": "text",
+      "v": "",
+      "req": true
+     },
+     {
+      "q": "Type your response",
+      "ty": "text",
+      "v": "",
+      "req": false
+     },
+     {
+      "q": "Type your response",
+      "ty": "text",
+      "v": "",
+      "req": false
+     },
+     {
+      "q": "Yes",
+      "ty": "radio",
+      "v": "Yes",
+      "req": true
+     },
+     {
+      "q": "No",
+      "ty": "radio",
+      "v": "No",
+      "req": true
+     },
+     {
+      "q": "Yes",
+      "ty": "radio",
+      "v": "Yes",
+      "req": true
+     },
+     {
+      "q": "No",
+      "ty": "radio",
+      "v": "No",
+      "req": true
+     },
+     {
+      "q": "cards[c19e0aef-8b7f-4d63-a7e9-b583eefcadfe][field0]",
+      "ty": "select",
+      "v": "",
+      "req": true
+     },
+     {
+      "q": "Company Website",
+      "ty": "radio",
+      "v": "Company Website",
+      "req": true
+     },
+     {
+      "q": "LinkedIn",
+      "ty": "radio",
+      "v": "LinkedIn",
+      "req": true
+     },
+     {
+      "q": "YouTube",
+      "ty": "radio",
+      "v": "YouTube",
+      "req": true
+     },
+     {
+      "q": "X (formerly Twitter)",
+      "ty": "radio",
+      "v": "X (formerly Twitter)",
+      "req": true
+     },
+     {
+      "q": "University – Career Services",
+      "ty": "radio",
+      "v": "University – Career Services",
+      "req": true
+     },
+     {
+      "q": "Facebook",
+      "ty": "radio",
+      "v": "Facebook",
+      "req": true
+     },
+     {
+      "q": "Glassdoor",
+      "ty": "radio",
+      "v": "Glassdoor",
+      "req": true
+     },
+     {
+      "q": "Indeed",
+      "ty": "radio",
+      "v": "Indeed",
+      "req": true
+     },
+     {
+      "q": "Built In",
+      "ty": "radio",
+      "v": "Built In",
+      "req": true
+     },
+     {
+      "q": "Event – Recruiting",
+      "ty": "radio",
+      "v": "Event – Recruiting",
+      "req": true
+     },
+     {
+      "q": "Event – Industry",
+      "ty": "radio",
+      "v": "Event – Industry",
+      "req": true
+     },
+     {
+      "q": "Referral",
+      "ty": "radio",
+      "v": "Referral",
+      "req": true
+     },
+     {
+      "q": "Recruiter Outreach",
+      "ty": "radio",
+      "v": "Recruiter Outreach",
+      "req": true
+     },
+     {
+      "q": "HyTech - Fall 2026",
+      "ty": "radio",
+      "v": "HyTech - Fall 2026",
+      "req": true
+     },
+     {
+      "q": "PDK Airshow 2026",
+      "ty": "radio",
+      "v": "PDK Airshow 2026",
+      "req": true
+     },
+     {
+      "q": "cards[73621184-c538-4979-b0ff-adda453dcd30][field1]",
+      "ty": "textarea",
+      "v": "",
+      "req": false
+     },
+     {
+      "q": "Fall 2026",
+      "ty": "checkbox",
+      "v": "Fall 2026",
+      "req": false
+     },
+     {
+      "q": "Spring 2027",
+      "ty": "checkbox",
+      "v": "Spring 2027",
+      "req": false
+     },
+     {
+      "q": "Summer 2027",
+      "ty": "checkbox",
+      "v": "Summer 2027",
+      "req": false
+     },
+     {
+      "q": "Fall 2027",
+      "ty": "checkbox",
+      "v": "Fall 2027",
+      "req": false
+     },
+     {
+      "q": "cards[ebaebe01-2bfb-4932-9a01-0582fdb9b10e][field0]",
+      "ty": "textarea",
+      "v": "",
+      "req": true
+     },
+     {
+      "q": "Yes",
+      "ty": "radio",
+      "v": "Yes",
+      "req": true
+     },
+     {
+      "q": "No",
+      "ty": "radio",
+      "v": "No",
+      "req": true
+     },
+     {
+      "q": "cards[753c3d92-b631-45c9-bd3a-41062ef4e62d][field0]",
+      "ty": "select",
+      "v": "",
+      "req": false
+     },
+     {
+      "q": "cards[753c3d92-b631-45c9-bd3a-41062ef4e62d][field1]",
+      "ty": "select",
+      "v": "",
+      "req": false
+     },
+     {
+      "q": "Yes, I require sponsorship",
+      "ty": "radio",
+      "v": "Yes, I require sponsorship",
+      "req": true
+     },
+     {
+      "q": "No, I do not require sponsorship",
+      "ty": "radio",
+      "v": "No, I do not require sponsorship",
+      "req": true
+     },
+     {
+      "q": "Yes, I will require sponsorship in the future",
+      "ty": "radio",
+      "v": "Yes, I will require sponsorship in the f",
+      "req": true
+     },
+     {
+      "q": "No, I will not require sponsorship in the future",
+      "ty": "radio",
+      "v": "No, I will not require sponsorship in th",
+      "req": true
+     },
+     {
+      "q": "Gender Select ... Male Female Decline to self-identify",
+      "ty": "select",
+      "v": "Decline to self-identify",
+      "req": false
+     },
+     {
+      "q": "Race Select ... Hispanic or Latino White (Not Hispanic or Latino) Blac",
+      "ty": "select",
+      "v": "Decline to self-identify",
+      "req": false
+     },
+     {
+      "q": "Veteran status Select ... I identify as one or more of the classificat",
+      "ty": "select",
+      "v": "Decline to self-identify",
+      "req": false
+     },
+     {
+      "q": "Disability status Select ... Yes, I have a disability, or have had one",
+      "ty": "select",
+      "v": "I do not want to answer ",
+      "req": false
+     },
+     {
+      "q": "Name",
+      "ty": "text",
+      "v": "Test Applicant",
+      "req": true
+     },
+     {
+      "q": "Date",
+      "ty": "text",
+      "v": "",
+      "req": true
+     },
+     {
+      "q": "What is your location? Select... Afghanistan Albania Algeria American ",
+      "ty": "select",
+      "v": "US",
+      "req": false
+     },
+     {
+      "q": "17 or younger",
+      "ty": "radio",
+      "v": "17 or younger",
+      "req": false
+     },
+     {
+      "q": "18-20",
+      "ty": "radio",
+      "v": "18-20",
+      "req": false
+     },
+     {
+      "q": "21-29",
+      "ty": "radio",
+      "v": "21-29",
+      "req": false
+     },
+     {
+      "q": "30-39",
+      "ty": "radio",
+      "v": "30-39",
+      "req": false
+     },
+     {
+      "q": "40-49",
+      "ty": "radio",
+      "v": "40-49",
+      "req": false
+     },
+     {
+      "q": "50-59",
+      "ty": "radio",
+      "v": "50-59",
+      "req": false
+     },
+     {
+      "q": "60 or older",
+      "ty": "radio",
+      "v": "60 or older",
+      "req": false
+     },
+     {
+      "q": "White / Caucasian",
+      "ty": "checkbox",
+      "v": "White / Caucasian",
+      "req": false
+     },
+     {
+      "q": "Hispanic, Latino, or Spanish origin",
+      "ty": "checkbox",
+      "v": "Hispanic, Latino, or Spanish origin",
+      "req": false
+     },
+     {
+      "q": "Black or African American",
+      "ty": "checkbox",
+      "v": "Black or African American",
+      "req": false
+     },
+     {
+      "q": "Asian",
+      "ty": "checkbox",
+      "v": "Asian",
+      "req": false
+     },
+     {
+      "q": "Native Hawaiian or other Pacific Islander",
+      "ty": "checkbox",
+      "v": "Native Hawaiian or other Pacific Islande",
+      "req": false
+     },
+     {
+      "q": "Indigenous Peoples, First Nations, Native American, or Alaska Native",
+      "ty": "checkbox",
+      "v": "Indigenous Peoples, First Nations, Nativ",
+      "req": false
+     },
+     {
+      "q": "Middle Eastern or North African",
+      "ty": "checkbox",
+      "v": "Middle Eastern or North African",
+      "req": false
+     },
+     {
+      "q": "Some other race, ethnicity, or origin",
+      "ty": "checkbox",
+      "v": "Some other race, ethnicity, or origin",
+      "req": false
+     },
+     {
+      "q": "Female",
+      "ty": "radio",
+      "v": "Female",
+      "req": false
+     },
+     {
+      "q": "Male",
+      "ty": "radio",
+      "v": "Male",
+      "req": false
+     }
+    ],
+    "btns": [
+     "deny",
+     "accept",
+     "Apply with LinkedIn",
+     "SUBMIT APPLICATION"
+    ],
+    "body": "🍪 denyaccept Privacy Notice This website uses cookies to improve your web experience. By clicking Accept, you agree to the use of cookies. Flight Operations & Airworthiness Engineering Intern - Spring/Summer/Fall 2027 Atlanta, GAInternships – Internships /Intern /On-Site SUBMIT YOUR APPLICATION Lin",
+    "frames": [
+     "about:blank",
+     "https://newassets.hcaptcha.com/captcha/v1/c881d6344a97750d1a05f8656dbe482a70ad153a/static/",
+     "https://newassets.hcaptcha.com/captcha/v1/c881d6344a97750d1a05f8656dbe482a70ad153a/static/"
+    ]
    },
    "title": "Hermeus - Flight Operations & Airworthiness Engineering Intern - Spring/Summer/Fall 2027"
   },
@@ -557,19 +4764,25 @@
    "role": "Firmware Engineering Co-Op (January-June 2027)",
    "portal": "smartrecruiters",
    "url": "https://jobs.smartrecruiters.com/wabtec/3743990015249216",
-   "status": "no-button",
-   "need": [
-    "next button"
-   ],
+   "status": "timeout",
+   "need": [],
    "done": [],
-   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep goingI finished it — continueSkip this one",
+   "banner": "Co-op board: filled everything but couldn't find the Submit button; press it yourself",
    "final_url": "https://jobs.smartrecruiters.com/wabtec/3743990015249216#coop=c7fd54d47f09378d",
    "pages": 0,
-   "button": "",
+   "frame_url": "",
    "errors": [],
    "fields": {
     "visible": 0,
     "filled": 0
+   },
+   "diag": {
+    "fields": [],
+    "btns": [
+     "Cookies Settings"
+    ],
+    "body": "Firmware Engineering Co-Op (January-June 2027) Full-time Worker Sub Type: Intern (Fixed Term) (Trainee) Job Family: Embedded Software Engineering Company Description This position is part of Evident Inspection Technologies division, which delivers solutions to complex challenges by inspecting missio",
+    "frames": []
    },
    "title": "Wabtec Firmware Engineering Co-Op (January-June 2027) | SmartRecruiters"
   },
@@ -579,19 +4792,27 @@
    "role": "CGSR Undergraduate Research Associate - Spring 2027",
    "portal": "smartrecruiters",
    "url": "https://jobs.smartrecruiters.com/llnl/3743990014540256",
-   "status": "no-button",
-   "need": [
-    "next button"
-   ],
+   "status": "timeout",
+   "need": [],
    "done": [],
-   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep going",
+   "banner": "Co-op board: filled everything but couldn't find the Submit button; press it yourself",
    "final_url": "https://jobs.smartrecruiters.com/llnl/3743990014540256#coop=f31eeb0de08729b7",
    "pages": 0,
-   "button": "",
+   "frame_url": "",
    "errors": [],
    "fields": {
     "visible": 0,
     "filled": 0
+   },
+   "diag": {
+    "fields": [],
+    "btns": [
+     "Cookies Settings"
+    ],
+    "body": "CGSR Undergraduate Research Associate - Spring 2027 Intern Organization: Office of the Director Category: Students Employee Referral Bonus: Not applicable Job Code 1: 705.2 Grad Student R&D/Technical Pre-Employment Drug Test: Required for external applicant(s) selected for this position (includes te",
+    "frames": [
+     "https://winstonchat.smartrecruiters.com/v2?options=%7B%22config%22%3A%7B%22botId%22%3A%22c"
+    ]
    },
    "title": "LLNL CGSR Undergraduate Research Associate - Spring 2027 | SmartRecruiters"
   },
@@ -601,19 +4822,25 @@
    "role": "Firmware Engineer Co-op",
    "portal": "smartrecruiters",
    "url": "https://jobs.smartrecruiters.com/Wabtec/3743990015249216?utm_source=Simplify",
-   "status": "no-button",
-   "need": [
-    "next button"
-   ],
+   "status": "timeout",
+   "need": [],
    "done": [],
-   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep goingI finished it — continueSkip this one",
+   "banner": "Co-op board: filled everything but couldn't find the Submit button; press it yourself",
    "final_url": "https://jobs.smartrecruiters.com/Wabtec/3743990015249216?utm_source=Simplify#coop=0602e6e52dfeac63",
    "pages": 0,
-   "button": "",
+   "frame_url": "",
    "errors": [],
    "fields": {
     "visible": 0,
     "filled": 0
+   },
+   "diag": {
+    "fields": [],
+    "btns": [
+     "Cookies Settings"
+    ],
+    "body": "Firmware Engineering Co-Op (January-June 2027) Full-time Worker Sub Type: Intern (Fixed Term) (Trainee) Job Family: Embedded Software Engineering Company Description This position is part of Evident Inspection Technologies division, which delivers solutions to complex challenges by inspecting missio",
+    "frames": []
    },
    "title": "Wabtec Firmware Engineering Co-Op (January-June 2027) | SmartRecruiters"
   },
@@ -623,19 +4850,25 @@
    "role": "Embedded Systems Intern",
    "portal": "smartrecruiters",
    "url": "https://jobs.smartrecruiters.com/renesaselectronics/744000150194379",
-   "status": "no-button",
-   "need": [
-    "next button"
-   ],
+   "status": "timeout",
+   "need": [],
    "done": [],
-   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep goingI finished it — continueSkip this one",
+   "banner": "Co-op board: filled everything but couldn't find the Submit button; press it yourself",
    "final_url": "https://jobs.smartrecruiters.com/renesaselectronics/744000150194379#coop=d66dabc800498d62",
    "pages": 0,
-   "button": "",
+   "frame_url": "",
    "errors": [],
    "fields": {
     "visible": 0,
     "filled": 0
+   },
+   "diag": {
+    "fields": [],
+    "btns": [
+     "Sorry, this job has expired [disabled]"
+    ],
+    "body": "Embedded Systems Intern This job has expired Sorry, this job has expired Posted by Brad Presutto SHARE THIS JOB OTHER JOBS AT RENESAS ELECTRONICS Sr Staff Electrical Engineer Austin, TEXAS Principal Quality Assurance Engineer San Jose, CALIFORNIA Staff Software Engineer Austin, TEXAS Show all jobs E",
+    "frames": []
    },
    "title": "Renesas Electronics Embedded Systems Intern | SmartRecruiters"
   },
@@ -645,19 +4878,25 @@
    "role": "Embedded Systems Intern",
    "portal": "smartrecruiters",
    "url": "https://jobs.smartrecruiters.com/RenesasElectronics/744000150194379?utm_source=Simplify",
-   "status": "no-button",
-   "need": [
-    "next button"
-   ],
+   "status": "timeout",
+   "need": [],
    "done": [],
-   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep goingI finished it — continueSkip this one",
+   "banner": "Co-op board: filled everything but couldn't find the Submit button; press it yourself",
    "final_url": "https://jobs.smartrecruiters.com/RenesasElectronics/744000150194379?utm_source=Simplify#coop=2f8d4c365c0a0548",
    "pages": 0,
-   "button": "",
+   "frame_url": "",
    "errors": [],
    "fields": {
     "visible": 0,
     "filled": 0
+   },
+   "diag": {
+    "fields": [],
+    "btns": [
+     "Sorry, this job has expired [disabled]"
+    ],
+    "body": "Embedded Systems Intern This job has expired Sorry, this job has expired Posted by Brad Presutto SHARE THIS JOB OTHER JOBS AT RENESAS ELECTRONICS Sr Staff Electrical Engineer Austin, TEXAS Principal Quality Assurance Engineer San Jose, CALIFORNIA Staff Software Engineer Austin, TEXAS Show all jobs E",
+    "frames": []
    },
    "title": "Renesas Electronics Embedded Systems Intern | SmartRecruiters"
   },
@@ -667,19 +4906,25 @@
    "role": "Integrated Сircuit Test Engineer - Intern",
    "portal": "smartrecruiters",
    "url": "https://jobs.smartrecruiters.com/renesaselectronics/744000138837009",
-   "status": "no-button",
-   "need": [
-    "next button"
-   ],
+   "status": "timeout",
+   "need": [],
    "done": [],
-   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep goingI finished it — continueSkip this one",
+   "banner": "Co-op board: filled everything but couldn't find the Submit button; press it yourself",
    "final_url": "https://jobs.smartrecruiters.com/renesaselectronics/744000138837009#coop=092f22d007bbb0cf",
    "pages": 0,
-   "button": "",
+   "frame_url": "",
    "errors": [],
    "fields": {
     "visible": 0,
     "filled": 0
+   },
+   "diag": {
+    "fields": [],
+    "btns": [
+     "Cookies Settings"
+    ],
+    "body": "Integrated Сircuit Test Engineer - Intern Full-time Employment Type: Intern (INT) Remote Work Available: No Job Description We are looking for a highly motivated Intern/ Working Student who will join our team as an Intern Test Engineer in Lviv office. The role Test programs development for Renesas p",
+    "frames": []
    },
    "title": "Renesas Electronics Integrated Сircuit Test Engineer - Intern | SmartRecruiters"
   }

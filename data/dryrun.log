@@ -1,39 +1,39 @@
 dry-running 24 postings
-no-button    greenhouse     Anduril · Winter 2027 Electrical Engineer Co-op  NEED: next button
-no-button    greenhouse     Formlabs · Hardware Test Engineering Intern (Winter/Spring 2027)  NEED: next button
-no-button    greenhouse     Rocket Lab · Test Engineering Intern - Manufacturing Spring 2027  NEED: next button
-no-button    greenhouse     PsiQuantum · Intern, Optical Packaging and Characterization Engineer  NEED: next button
-no-button    greenhouse     Interstates · Instrumentation – Manufacturing & Automation Intern  NEED: next button
-no-button    greenhouse     Akuna Capital · Hardware Engineer Intern  NEED: next button
-needs-you    ashby          Etched · RTL Intern  NEED: the resume didn't attach
-needs-you    ashby          Skydio · Electrical Engineer Intern - Winter 2027  NEED: the resume didn't attach
-needs-you    ashby          Skydio · Hardware Product Management Intern - Fall 2026/Winter 2027  NEED: the resume didn't attach
-needs-you    ashby          1X · Internship - Manufacturing Engineering  NEED: the resume didn't attach
-needs-you    ashby          Etched · Chip Simulation Software Intern  NEED: the resume didn't attach
-needs-you    ashby          Etched · DFT Intern  NEED: the resume didn't attach
-no-button    lever          Hermeus · Avionics Electrical Engineering Intern - Spring/Summer 2027  NEED: next button
-no-button    lever          Quantinuum · Layout Automation Engineering Intern  NEED: next button
-no-button    lever          Hermeus · Subsystem Test Engineering Intern - Spring/Summer 2027  NEED: next button
-no-button    lever          Shield AI · Electrical Engineering Spring Co-op (January 2027) (R4475)  NEED: next button
-no-button    lever          Hermeus · Environmental, Health, and Safety (EHS) Intern - 2027  NEED: next button
-no-button    lever          Hermeus · Flight Operations & Airworthiness Engineering Intern - Spring/Summer/Fall 2027  NEED: next button
-no-button    smartrecruiters Wabtec · Firmware Engineering Co-Op (January-June 2027)  NEED: next button
-no-button    smartrecruiters Lawrence Livermore National Laboratory · CGSR Undergraduate Research Associate - Spring 2027  NEED: next button
-no-button    smartrecruiters Wabtec · Firmware Engineer Co-op  NEED: next button
-no-button    smartrecruiters Renesas · Embedded Systems Intern  NEED: next button
-no-button    smartrecruiters Renesas Electronics · Embedded Systems Intern  NEED: next button
-no-button    smartrecruiters Renesas · Integrated Сircuit Test Engineer - Intern  NEED: next button
+timeout      greenhouse     Anduril · Winter 2027 Electrical Engineer Co-op
+timeout      greenhouse     Formlabs · Hardware Test Engineering Intern (Winter/Spring 2027)
+timeout      greenhouse     Rocket Lab · Test Engineering Intern - Manufacturing Spring 2027
+timeout      greenhouse     PsiQuantum · Intern, Optical Packaging and Characterization Engineer
+timeout      greenhouse     Interstates · Instrumentation – Manufacturing & Automation Intern
+timeout      greenhouse     Akuna Capital · Hardware Engineer Intern
+timeout      ashby          Etched · RTL Intern
+timeout      ashby          Skydio · Electrical Engineer Intern - Winter 2027
+timeout      ashby          Skydio · Hardware Product Management Intern - Fall 2026/Winter 2027
+timeout      ashby          1X · Internship - Manufacturing Engineering
+timeout      ashby          Etched · Chip Simulation Software Intern
+timeout      ashby          Etched · DFT Intern
+timeout      lever          Hermeus · Avionics Electrical Engineering Intern - Spring/Summer 2027
+timeout      lever          Quantinuum · Layout Automation Engineering Intern
+timeout      lever          Hermeus · Subsystem Test Engineering Intern - Spring/Summer 2027
+timeout      lever          Shield AI · Electrical Engineering Spring Co-op (January 2027) (R4475)
+timeout      lever          Hermeus · Environmental, Health, and Safety (EHS) Intern - 2027
+timeout      lever          Hermeus · Flight Operations & Airworthiness Engineering Intern - Spring/Summer/Fall 2027
+timeout      smartrecruiters Wabtec · Firmware Engineering Co-Op (January-June 2027)
+timeout      smartrecruiters Lawrence Livermore National Laboratory · CGSR Undergraduate Research Associate - Spring 2027
+timeout      smartrecruiters Wabtec · Firmware Engineer Co-op
+timeout      smartrecruiters Renesas · Embedded Systems Intern
+timeout      smartrecruiters Renesas Electronics · Embedded Systems Intern
+timeout      smartrecruiters Renesas · Integrated Сircuit Test Engineer - Intern
 {
  "greenhouse": {
-  "no-button": 6
+  "timeout": 6
  },
  "ashby": {
-  "needs-you": 6
+  "timeout": 6
  },
  "lever": {
-  "no-button": 6
+  "timeout": 6
  },
  "smartrecruiters": {
-  "no-button": 6
+  "timeout": 6
  }
 }
