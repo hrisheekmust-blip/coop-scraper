@@ -169,6 +169,8 @@ function answerFor(f,j,a){const l=(f.label||"").toLowerCase().replace(/\s+/g," "
   if(f.eeo||/gender|race|ethnicit|hispanic|latino|veteran|disabilit|pronoun|self.?identif|sexual orientation|transgender/.test(l))return{a:pickOpt(o,/decline|don.t wish|prefer not|do not wish|choose not/i,p.eeo||"Decline to self-identify"),k:"eeo"};
   if(/cover letter/.test(l))return{a:coverOn(j)?"upload: Hrisheek_Mustyala_Cover_Letter.pdf":"skip (cover letter off for this application)",k:"file"};
   if(/\b(resume|cv)\b/.test(l))return{a:"upload: "+((j.materials||[])[0]||{}).path?.split("/").pop()||"resume PDF",k:"file"};
+  if(/\bsat\b|\bact\b|test score|\bgre\b/.test(l))return{a:"",k:"need"};
+  if(/full-?time (immediately|after|upon|following)|return offer|convert/.test(l))return{a:"",k:"need"};
   if(/preferred (first )?name|nickname|what should we call/.test(l))return{a:p.preferred||"Hrisheek"};
   if(/^(first name|given name)/.test(l))return{a:p.first||"Hrisheek"};
   if(/^(last name|surname|family name)/.test(l))return{a:p.last||"Mustyala"};
@@ -183,7 +185,7 @@ function answerFor(f,j,a){const l=(f.label||"").toLowerCase().replace(/\s+/g," "
   if(/countr/.test(l))return{a:p.country||"United States"};
   if(/zip|postal/.test(l))return{a:p.zip||"02115"};
   if(/school|universit|college|institution/.test(l))return{a:p.school||"Northeastern University"};
-  if(/degree|education level|highest level/.test(l))return{a:pickOpt(o,/bachelor|b\.?s\b|undergrad/i,p.degree||"Bachelor of Science")};
+  if(/degree|education level|highest level|program type|level of study|type of program/.test(l))return{a:pickOpt(o,/bachelor|b\.?s\b|undergrad/i,p.degree||"Bachelor of Science")};
   if(/major|field of study|discipline|concentration/.test(l))return{a:pickOpt(o,/electrical|computer eng/i,p.major||"Electrical and Computer Engineering")};
   if(/gpa|grade point/.test(l))return{a:p.gpa||"3.96"};
   if(/graduat|completion date|expected.*date/.test(l))return{a:o.length?pickOpt(o,/2027/,p.grad||"December 2027"):(p.grad||"December 2027")};
@@ -193,10 +195,11 @@ function answerFor(f,j,a){const l=(f.label||"").toLowerCase().replace(/\s+/g," "
     return{a:p.availability||"January through June 2027"}}
   if(/sponsor|visa/.test(l))return{a:yes(false)};
   if(/citizen/.test(l))return{a:o.length?pickOpt(o,/^(yes|u\.?s\.? citizen|united states)/i,"Yes"):(p.citizen||"Yes")};
-  if(/authori[sz]ed|legally|eligible to work|work permit|right to work/.test(l))return{a:yes(true)};
+  if(/authori[sz]ed|legally|eligible to work|work permit|right to work|work authorization/.test(l))return{a:o.length?pickOpt(o,/citizen|authorized|^yes/i,"Yes"):"Yes"};
   if(/clearance/.test(l))return{a:o.length?pickOpt(o,/^(no|none)/i,"No"):(p.clearance||"No")};
   if(/relocat/.test(l))return{a:yes(true)};
   if(/\bstate\b|province/.test(l)&&!/united states|statement/.test(l))return{a:p.state||"Massachusetts"};
+  if(/able to work|willing to work|can you work|commute/.test(l)&&/in.?person|on-?site|office|relocat/.test(l))return{a:yes(true)};
   if(/remote|hybrid|on-?site|in.?person|office/.test(l))return{a:o.length?pickOpt(o,/on-?site|in.?person|any|either|open/i,o[0]):(p.remote||"Any")};
   if(/salary|compensation|pay|hourly|wage/.test(l))return{a:p.salary||"Open"};
   if(/previously|former|current(ly)? (employee|work)|worked (at|for|here)|ever (been )?employed/.test(l))return{a:yes(false)};
@@ -205,10 +208,10 @@ function answerFor(f,j,a){const l=(f.label||"").toLowerCase().replace(/\s+/g," "
   if(/how did you (hear|find|learn)|source|where did you/.test(l))return{a:o.length?pickOpt(o,/career|website|linkedin|company|job board/i,o[0]):(p.hear||"Company careers page")};
   if(/language/.test(l))return{a:p.languages||"English"};
   if(/^why\b|why (do you want|are you interested|.*company|.*us\b|.*role|.*position)|interest(ed)? in|what (draws|attracts|excites)|motivat/.test(l))return{a:a.why||"",k:"long"};
-  if(/achievement|proud|accomplish|technical (project|work)|projects? (you|that)|most (impressive|significant)|built|hardest/.test(l))return{a:a.top_two?a.top_two.map((x,i)=>`${i+1}. ${x.title}\n${x.body}`).join("\n\n"):"",k:"long"};
+  if(/achievement|proud|accomplish|technical (project|work)|projects? (you|that)|most (impressive|significant)|built|hardest|bullet|exceptional|stand ?out|impressive/.test(l))return{a:a.top_two?a.top_two.map((x,i)=>`${i+1}. ${x.title}\n${x.body}`).join("\n\n"):"",k:"long"};
   if(/about yourself|summary|introduce|background|tell us/.test(l))return{a:a.about||"",k:"long"};
   if(/agree|consent|acknowledg|certify|privacy|terms/.test(l))return{a:yes(true)};
-  if(/additional|anything else|comments|notes|questions for us/.test(l))return{a:"(leave blank)"};
+  if(/additional|anything else|comments|notes|questions for us|if (you answered|other)|please specify|if applicable/.test(l))return{a:"(leave blank)"};
   return{a:"",k:"need"}}
 function qaHtml(j,a){const fm=forms[j.id]||{};const fields=fm.fields&&fm.fields.length?fm.fields:null;
   const list=fields||STD_FIELDS.map(([label,type])=>({label,type,required:false}));
