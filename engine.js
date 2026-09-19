@@ -19,7 +19,8 @@ function answerFor(f,ctx){const j=ctx.job||{},a=ctx.answers||{},l=(f.label||"").
   if(f.eeo||/gender|race|ethnicit|hispanic|latino|veteran|disabilit|pronoun|self.?identif|sexual orientation|transgender/.test(l))return{a:pickOpt(o,/decline|don.t wish|prefer not|do not wish|do not want|don.t want|not to answer|rather not|no answer|not disclose/i,p.eeo||"Decline to self-identify"),k:"eeo"};
   if(/cover letter/.test(l)){if(!ctx.cover)return{a:"skip (cover letter off for this application)",k:"file"};if(/file|upload|attach/.test(t)||/attach|upload/.test(l))return{a:"upload: Hrisheek_Mustyala_Cover_Letter.pdf",k:"file"};return ctx.coverText?{a:ctx.coverText,k:"long"}:{a:"upload: Hrisheek_Mustyala_Cover_Letter.pdf",k:"file"}}
   if(/\b(resume|cv)\b/.test(l))return{a:"upload: "+((j.materials||[])[0]||{}).path?.split("/").pop()||"resume PDF",k:"file"};
-  if(/\bsat\b|\bact\b|test score/.test(l))return{a:p.test_scores||"ACT 36"};
+  if(/\bsat\b/.test(l)&&!/\bact\b/.test(l))return{a:o.length?pickOpt(o,/not applicable|n\/a|did not|none|prefer not|no sat/i,""):"",k:o.length?"":"need"};
+  if(/\bact\b|test score/.test(l))return{a:o.length?pickOpt(o,/\b3[4-6]\b|^36|33-36|30\+/,""):(p.test_scores||"ACT 36"),k:o.length?"":""};
   if(LANGQ.test(l)){const key=l.match(LANGQ)[1].replace(/^\s+|\s+$/g,"");const months=(p.lang||{})[key];
     if(months===undefined)return{a:"",k:"need"};
     if(!o.length)return{a:months>=12?Math.round(months/12)+" year"+(months>=24?"s":""):months+" months"};
@@ -70,7 +71,7 @@ function answerFor(f,ctx){const j=ctx.job||{},a=ctx.answers||{},l=(f.label||"").
   if(/refer|know anyone|employee (name|referral)/.test(l))return{a:o.length?yes(false):(p.referral||"No")};
   if(/18|age of majority|legal age/.test(l))return{a:yes(true)};
   if(/how did you .*(hear|find|learn|discover)|source|where did you/.test(l))return{a:o.length?pickOpt(o,/career|website|linkedin|company|job board/i,o[0]):(p.hear||"Company careers page")};
-  if(/language/.test(l))return{a:p.languages||"English"};
+  if(/language/.test(l)&&/spoken|speak|fluent|native|foreign|bilingual|verbal/.test(l))return{a:p.languages||"English"};
   if(/^why\b|why (do you want|are you interested|.*company|.*us\b|.*role|.*position)|interest(ed)? in|what (draws|attracts|excites)|motivat/.test(l))return{a:a.why||"",k:"long"};
   if(/achievement|proud|accomplish|technical (project|work)|projects? (you|that)|most (impressive|significant)|built|hardest|bullet|exceptional|stand ?out|impressive/.test(l))return{a:a.top_two?a.top_two.map((x,i)=>`${i+1}. ${x.title}\n${x.body}`).join("\n\n"):"",k:"long"};
   if(/about yourself|summary|introduce|background|tell us/.test(l))return{a:a.about||"",k:"long"};
