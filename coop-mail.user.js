@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Co-op board: Outlook confirmations
 // @namespace    coop-hrisheek
-// @version      1.0
+// @version      1.1
 // @description  Reads the Outlook web inbox list, matches application emails to companies you applied to on the co-op board, and records them (confirmation / rejection / interview) in the board's private repo.
 // @match        https://outlook.office.com/*
 // @match        https://outlook.office365.com/*
@@ -59,15 +59,17 @@
 
   // ---------------------------------------------------------------- match + record
   const companyRx = c => { const n = c.replace(/[^\w\s&.-]/g, "").replace(/\b(inc|corp|corporation|llc|ltd|technologies|technology|systems|labs|the)\b\.?/gi, "").trim(); const first = n.split(/\s+/)[0]; return n.length >= 4 ? new RegExp("\\b" + n.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + "\\b", "i") : new RegExp("\\b" + first.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + "\\b", "i"); };
-  let busy = false;
+  let busy = false, first = true;
   async function scan() {
     if (busy) return; busy = true;
     try {
-      const rows = inboxRows(); if (!rows.length) return;
+      const rows = inboxRows(); if (!rows.length) { if (first) toast("no inbox rows visible yet; I re-check every 2 minutes", "warn"); return; }
+      if (!(await token())) { toast("no GitHub token saved; reload Outlook and paste it in the prompt", "err"); return; }
       const sheet = csv(await req(SHEET + "?t=" + Date.now()));
       const st = await gh("data/state.json"); const state = JSON.parse(unb64(st.content)) || {};
       const ids = {}; for (const r of sheet) ids[await sha1_16(r.link)] = r;
       const applied = Object.entries(state).filter(([id, v]) => ["applied", "interview", "rejected", "offer"].includes(v.status) && ids[id]).map(([id, v]) => ({ id, ...v, ...ids[id] }));
+      if (first) { first = false; toast(`watching this inbox: ${rows.length} rows on screen, ${applied.length} applied companies to match`); }
       if (!applied.length) return;
       let changed = 0;
       for (const j of applied) {
@@ -89,9 +91,9 @@
         await gh("data/state.json", { method: "PUT", body: { message: "outlook: " + changed + " email(s) matched " + new Date().toISOString(), content: b64(JSON.stringify(state, null, 1)), sha: st.sha } });
         toast(`recorded ${changed} application email(s) on the board`);
       }
-    } catch (e) { console.warn("coop-mail", e); } finally { busy = false; }
+    } catch (e) { console.warn("coop-mail", e); toast("error: " + (e.message || e), "err"); } finally { busy = false; }
   }
-  function toast(msg) { const d = document.createElement("div"); d.textContent = "Co-op board: " + msg; d.style.cssText = "position:fixed;bottom:16px;right:16px;z-index:2147483647;background:#1e7d3c;color:#fff;padding:10px 14px;border-radius:8px;font:13px system-ui;box-shadow:0 4px 14px rgba(0,0,0,.3)"; document.body.appendChild(d); setTimeout(() => d.remove(), 6000); }
+  function toast(msg, kind) { const d = document.createElement("div"); d.textContent = "Co-op board: " + msg; d.style.cssText = "position:fixed;bottom:16px;right:16px;z-index:2147483647;background:" + (kind === "err" ? "#b3261e" : kind === "warn" ? "#b45309" : "#1e7d3c") + ";color:#fff;padding:10px 14px;border-radius:8px;font:13px system-ui;box-shadow:0 4px 14px rgba(0,0,0,.3)"; document.body.appendChild(d); setTimeout(() => d.remove(), 6000); }
 
   setTimeout(scan, 8000); setInterval(scan, EVERY);
 })();
