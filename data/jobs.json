@@ -79,6 +79,7 @@
   "hw": "electrical engineer",
   "tier": "big",
   "sources": [
+   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-09-17",
@@ -844,6 +845,7 @@
   "hw": "electrical engineer",
   "tier": "big",
   "sources": [
+   "internlist:coop",
    "workday"
   ],
   "first_seen": "2026-09-18",
@@ -878,6 +880,7 @@
   "hw": "metrology",
   "tier": "big",
   "sources": [
+   "internlist:coop",
    "workday"
   ],
   "first_seen": "2026-09-18",
@@ -912,6 +915,7 @@
   "hw": "product engineering",
   "tier": "big",
   "sources": [
+   "internlist:coop",
    "workday"
   ],
   "first_seen": "2026-09-18",
@@ -1564,6 +1568,23 @@
   "last_seen": "2026-09-19"
  },
  {
+  "company": "Hendrickson",
+  "title": "Product Engineering Co-Op Spring 2027",
+  "location": "Hebron, OH",
+  "url": "https://www.linkedin.com/jobs/view/4450612242",
+  "posted": "2026-09-18",
+  "deadline": "",
+  "term": "spring",
+  "rank": "A",
+  "hw": "product engineering",
+  "tier": "",
+  "sources": [
+   "jobspy:linkedin"
+  ],
+  "first_seen": "2026-09-19",
+  "last_seen": "2026-09-19"
+ },
+ {
   "company": "Hermeus",
   "title": "Avionics Electrical Engineering Intern - Spring/Summer 2027",
   "location": "Atlanta, GA",
@@ -2078,7 +2099,7 @@
   "title": "AI for Circuit Generation Co-Op (6-month term) - Group 07-76",
   "location": "Lexington, MA",
   "url": "https://www.linkedin.com/jobs/view/4469228159",
-  "posted": "nan",
+  "posted": "2026-09-18",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -2095,7 +2116,7 @@
   "title": "Printed Circuit Board Designer Co-Op (6-month term) - Group 07-76",
   "location": "Lexington, MA",
   "url": "https://www.linkedin.com/jobs/view/4469213684",
-  "posted": "nan",
+  "posted": "2026-09-18",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -3537,28 +3558,11 @@
   "last_seen": "2026-09-19"
  },
  {
-  "company": "Skyworks Solutions, Inc.",
-  "title": "BAW Development Winter/Spring Co-Op (Jan-June '27)",
-  "location": "Irvine, CA",
-  "url": "https://www.linkedin.com/jobs/view/4468259527",
-  "posted": "2026-09-16",
-  "deadline": "",
-  "term": "spring",
-  "rank": "A",
-  "hw": "maybe",
-  "tier": "",
-  "sources": [
-   "jobspy:linkedin"
-  ],
-  "first_seen": "2026-09-18",
-  "last_seen": "2026-09-19"
- },
- {
   "company": "SpaceWorks Enterprises, Inc.",
   "title": "Electrical Engineering Intern - Spring 2027",
   "location": "Atlanta, GA",
   "url": "https://www.linkedin.com/jobs/view/4468022117",
-  "posted": "nan",
+  "posted": "2026-09-18",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -3650,6 +3654,7 @@
   "hw": "silicon",
   "tier": "big",
   "sources": [
+   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-09-17",
@@ -4297,7 +4302,8 @@
   "hw": "electrical",
   "tier": "startup",
   "sources": [
-   "greenhouse"
+   "greenhouse",
+   "jobspy:linkedin"
   ],
   "first_seen": "2026-09-17",
   "last_seen": "2026-09-19"
@@ -5720,6 +5726,7 @@
   "hw": "metrology",
   "tier": "big",
   "sources": [
+   "internlist:coop",
    "workday"
   ],
   "first_seen": "2026-09-18",
@@ -7073,6 +7080,8 @@
   "hw": "electronics",
   "tier": "big",
   "sources": [
+   "internlist:coop",
+   "internlist:winter-spring",
    "workday"
   ],
   "first_seen": "2026-09-18",
@@ -7134,6 +7143,23 @@
   "title": "2027 Electrical Engineer Intern / Co-op",
   "location": "Sulphur, LA",
   "url": "https://www.linkedin.com/jobs/view/4458382102",
+  "posted": "2026-09-17",
+  "deadline": "",
+  "term": "coop-unspecified",
+  "rank": "B",
+  "hw": "electrical engineer",
+  "tier": "",
+  "sources": [
+   "jobspy:linkedin"
+  ],
+  "first_seen": "2026-09-18",
+  "last_seen": "2026-09-19"
+ },
+ {
+  "company": "LyondellBasell",
+  "title": "2027 Electrical Engineer Intern / Co-op",
+  "location": "Houston, TX",
+  "url": "https://www.linkedin.com/jobs/view/4458365952",
   "posted": "2026-09-17",
   "deadline": "",
   "term": "coop-unspecified",
@@ -7467,6 +7493,23 @@
   "term": "coop-unspecified",
   "rank": "B",
   "hw": "electrical engineer",
+  "tier": "",
+  "sources": [
+   "jobspy:linkedin"
+  ],
+  "first_seen": "2026-09-18",
+  "last_seen": "2026-09-19"
+ },
+ {
+  "company": "Salas O'Brien",
+  "title": "Electrical Co-op",
+  "location": "Duluth, GA",
+  "url": "https://www.linkedin.com/jobs/view/4467577855",
+  "posted": "2026-09-17",
+  "deadline": "",
+  "term": "coop-unspecified",
+  "rank": "B",
+  "hw": "electrical",
   "tier": "",
   "sources": [
    "jobspy:linkedin"
@@ -8339,8 +8382,8 @@
  {
   "company": "Amazon",
   "title": "ASIC Engineer Intern, Annapurna Labs - 2027",
-  "location": "Seattle, WA",
-  "url": "https://www.linkedin.com/jobs/view/4460342349",
+  "location": "Cupertino, CA",
+  "url": "https://www.linkedin.com/jobs/view/4460330453",
   "posted": "2026-09-18",
   "deadline": "",
   "term": "unspecified",
@@ -8356,9 +8399,9 @@
  {
   "company": "Amazon",
   "title": "ASIC Engineer Intern, Annapurna Labs - 2027",
-  "location": "Cupertino, CA",
-  "url": "https://www.linkedin.com/jobs/view/4460330453",
-  "posted": "nan",
+  "location": "Seattle, WA",
+  "url": "https://www.linkedin.com/jobs/view/4460342349",
+  "posted": "2026-09-18",
   "deadline": "",
   "term": "unspecified",
   "rank": "C",
@@ -8407,8 +8450,8 @@
  {
   "company": "Amazon",
   "title": "Cloud Hardware Development Engineer Intern, Annapurna Labs - 2027",
-  "location": "Cupertino, CA",
-  "url": "https://www.linkedin.com/jobs/view/4460345281",
+  "location": "Austin, TX",
+  "url": "https://www.linkedin.com/jobs/view/4460340344",
   "posted": "2026-09-18",
   "deadline": "",
   "term": "unspecified",
@@ -8424,9 +8467,9 @@
  {
   "company": "Amazon",
   "title": "Cloud Hardware Development Engineer Intern, Annapurna Labs - 2027",
-  "location": "Austin, TX",
-  "url": "https://www.linkedin.com/jobs/view/4460340344",
-  "posted": "nan",
+  "location": "Cupertino, CA",
+  "url": "https://www.linkedin.com/jobs/view/4460345281",
+  "posted": "2026-09-18",
   "deadline": "",
   "term": "unspecified",
   "rank": "C",
@@ -9510,23 +9553,6 @@
   "last_seen": "2026-09-19"
  },
  {
-  "company": "Contoro Robotics",
-  "title": "Robotics Engineer Intern - Test & Validation",
-  "location": "Austin, TX",
-  "url": "https://www.linkedin.com/jobs/view/4468299126",
-  "posted": "2026-09-16",
-  "deadline": "",
-  "term": "unspecified",
-  "rank": "C",
-  "hw": "validation",
-  "tier": "",
-  "sources": [
-   "jobspy:linkedin"
-  ],
-  "first_seen": "2026-09-18",
-  "last_seen": "2026-09-19"
- },
- {
   "company": "Cowboy Space",
   "title": "Intern \u2013 Electrical Engineering 2027",
   "location": "Seattle, WA, USA; San Carlos, CA, USA",
@@ -9725,6 +9751,7 @@
   "hw": "embedded",
   "tier": "big",
   "sources": [
+   "github:vanshb03-offseason",
    "workday"
   ],
   "first_seen": "2026-09-17",
@@ -10769,6 +10796,23 @@
   "last_seen": "2026-09-19"
  },
  {
+  "company": "Itron, Inc.",
+  "title": "Intern - Electrical Engineer",
+  "location": "North Carolina, United States",
+  "url": "https://www.linkedin.com/jobs/view/4468829317",
+  "posted": "2026-09-17",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "electrical engineer",
+  "tier": "",
+  "sources": [
+   "jobspy:linkedin"
+  ],
+  "first_seen": "2026-09-19",
+  "last_seen": "2026-09-19"
+ },
+ {
   "company": "Jane Street",
   "title": "Hardware Engineer (FPGA/ASIC) Intern",
   "location": "New York, NY",
@@ -11410,7 +11454,8 @@
   "hw": "packaging engineer,silicon",
   "tier": "startup",
   "sources": [
-   "greenhouse"
+   "greenhouse",
+   "internlist:winter-spring"
   ],
   "first_seen": "2026-09-17",
   "last_seen": "2026-09-19"
@@ -11505,7 +11550,7 @@
   "title": "Intern - Validation Engineering",
   "location": "Auburn Hills, MI",
   "url": "https://www.linkedin.com/jobs/view/4469203503",
-  "posted": "nan",
+  "posted": "2026-09-18",
   "deadline": "",
   "term": "unspecified",
   "rank": "C",
@@ -12640,23 +12685,6 @@
   "last_seen": "2026-09-19"
  },
  {
-  "company": "Omni Design Technologies, Inc.",
-  "title": "Analog/Mixed-Signal IC Design Engineering Intern",
-  "location": "Austin, TX",
-  "url": "https://www.linkedin.com/jobs/view/4468266781",
-  "posted": "2026-09-16",
-  "deadline": "",
-  "term": "unspecified",
-  "rank": "C",
-  "hw": "analog,ic design,mixed-signal",
-  "tier": "",
-  "sources": [
-   "jobspy:linkedin"
-  ],
-  "first_seen": "2026-09-18",
-  "last_seen": "2026-09-19"
- },
- {
   "company": "Oshkosh",
   "title": "Electrical Engineer Intern",
   "location": "Hagerstown, MD, USA",
@@ -13035,7 +13063,7 @@
   "title": "Optics R&D Technician Intern - 1019",
   "location": "Albuquerque, NM",
   "url": "https://www.linkedin.com/jobs/view/4469221615",
-  "posted": "nan",
+  "posted": "2026-09-18",
   "deadline": "",
   "term": "unspecified",
   "rank": "C",
@@ -13474,6 +13502,40 @@
  },
  {
   "company": "Seagate",
+  "title": "Hardware Engineering Intern",
+  "location": "",
+  "url": "https://seagatecareers.com/job/Hardware-Engineering-Intern/15010-en_US",
+  "posted": "2026-09-09",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "hardware",
+  "tier": "big",
+  "sources": [
+   "successfactors"
+  ],
+  "first_seen": "2026-09-18",
+  "last_seen": "2026-09-19"
+ },
+ {
+  "company": "Seagate",
+  "title": "Hardware Validation Intern",
+  "location": "",
+  "url": "https://seagatecareers.com/job/Hardware-Validation-Intern/15011-en_US",
+  "posted": "2026-09-09",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "hardware",
+  "tier": "big",
+  "sources": [
+   "successfactors"
+  ],
+  "first_seen": "2026-09-18",
+  "last_seen": "2026-09-19"
+ },
+ {
+  "company": "Seagate",
   "title": "Head Failure Analysis Intern III",
   "location": "",
   "url": "https://seagatecareers.com/job/Head-Failure-Analysis-Intern-III/15061-en_US",
@@ -13613,7 +13675,7 @@
   "title": "Validation Engineering Intern",
   "location": "Tempe, AZ",
   "url": "https://www.linkedin.com/jobs/view/4469224386",
-  "posted": "nan",
+  "posted": "2026-09-18",
   "deadline": "",
   "term": "unspecified",
   "rank": "C",
@@ -13749,7 +13811,7 @@
   "title": "US 2026 Hardware - Digital Intern",
   "location": "San Jose, CA",
   "url": "https://www.linkedin.com/jobs/view/4468011560",
-  "posted": "nan",
+  "posted": "2026-09-18",
   "deadline": "",
   "term": "unspecified",
   "rank": "C",
@@ -14181,7 +14243,8 @@
   "hw": "electrical engineering",
   "tier": "startup",
   "sources": [
-   "greenhouse"
+   "greenhouse",
+   "jobspy:linkedin"
   ],
   "first_seen": "2026-09-17",
   "last_seen": "2026-09-19"

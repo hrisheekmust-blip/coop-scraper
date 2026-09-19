@@ -758,12 +758,14 @@
 "https://www.linkedin.com/jobs/view/4458365952": {
 "first_seen": "2026-09-18",
 "title": "2027 Electrical Engineer Intern / Co-op",
-"company": "LyondellBasell"
+"company": "LyondellBasell",
+"desc": ""
 },
 "https://www.linkedin.com/jobs/view/4467577855": {
 "first_seen": "2026-09-18",
 "title": "Electrical Co-op",
-"company": "Salas O'Brien"
+"company": "Salas O'Brien",
+"desc": ""
 },
 "https://www.linkedin.com/jobs/view/4446221962": {
 "first_seen": "2026-09-18",
@@ -5670,6 +5672,18 @@
 "first_seen": "2026-09-19",
 "title": "Electrical Engineering Intern",
 "company": "V2X Inc",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4450612242": {
+"first_seen": "2026-09-19",
+"title": "Product Engineering Co-Op Spring 2027",
+"company": "Hendrickson",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4468829317": {
+"first_seen": "2026-09-19",
+"title": "Intern - Electrical Engineer",
+"company": "Itron, Inc.",
 "desc": ""
 }
 }
