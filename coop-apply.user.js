@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Co-op board: one-click apply
 // @namespace    coop-hrisheek
-// @version      1.3
+// @version      1.4
 // @description  When the co-op board opens an Ashby / Greenhouse / Lever form, fill it from the board's answers, attach the files, submit, and report back.
 // @match        https://jobs.ashbyhq.com/*
 // @match        https://boards.greenhouse.io/*
@@ -61,6 +61,30 @@
     el.dispatchEvent(new Event("input", { bubbles: true })); el.dispatchEvent(new Event("change", { bubbles: true }));
     el.dispatchEvent(new FocusEvent("blur", { bubbles: true })); el.blur();
   }
+  const reactProps = el => { const k = Object.keys(el).find(k => k.startsWith("__reactProps$")); return k ? el[k] : null; };
+  const synth = (el, type) => ({ target: el, currentTarget: el, type, bubbles: true, nativeEvent: new Event(type, { bubbles: true }), preventDefault() {}, stopPropagation() {}, persist() {}, isDefaultPrevented: () => false, isPropagationStopped: () => false });
+  function fireReact(el, names, type) { const p = reactProps(el); if (!p) return false; let hit = false; for (const n of names) if (typeof p[n] === "function") { try { p[n](synth(el, type)); hit = true; } catch (e) {} } return hit; }
+  async function setValueVerified(el, v) {
+    setText(el, v); await sleep(80);
+    let p = reactProps(el);
+    if (p && "value" in p && p.value !== v) {
+      const d = Object.getOwnPropertyDescriptor(el.tagName === "TEXTAREA" ? HTMLTextAreaElement.prototype : HTMLInputElement.prototype, "value"); d.set.call(el, v);
+      fireReact(el, ["onInput", "onChange"], "input"); await sleep(80); fireReact(el, ["onBlur"], "blur");
+    }
+    // typeahead: pick the matching suggestion if one popped up
+    await sleep(350);
+    const opt = [...document.querySelectorAll("[role=option], [role=listbox] li, [class*='suggestion'], [class*='Suggestion'], [class*='typeahead'] li")].filter(visible).find(o => txt(o).toLowerCase() === v.toLowerCase()) || [...document.querySelectorAll("[role=option], [role=listbox] li")].filter(visible).find(o => txt(o).toLowerCase().includes(v.toLowerCase().slice(0, 12)));
+    if (opt) { realClick(opt); await sleep(150); }
+    p = reactProps(el); return !p || !("value" in p) || p.value === v || (el.value === v);
+  }
+  async function setCheckedVerified(el, on) {
+    if (el.checked !== on) { el.click(); await sleep(80); }
+    let p = reactProps(el);
+    const reactSays = () => { const q = reactProps(el); return q && typeof q.checked === "boolean" ? q.checked : el.checked; };
+    if (reactSays() !== on) { if (el.labels && el.labels[0]) { realClick(el.labels[0]); await sleep(80); } }
+    if (reactSays() !== on) { const d = Object.getOwnPropertyDescriptor(HTMLInputElement.prototype, "checked"); d.set.call(el, on); fireReact(el, ["onChange", "onClick"], "change"); await sleep(80); }
+    return reactSays() === on;
+  }
   function setNativeChecked(el, on) { const d = Object.getOwnPropertyDescriptor(HTMLInputElement.prototype, "checked"); d.set.call(el, on); el.dispatchEvent(new Event("click", { bubbles: true })); el.dispatchEvent(new Event("input", { bubbles: true })); el.dispatchEvent(new Event("change", { bubbles: true })); }
   function b64file(f) { const bin = atob(f.b64); const u8 = new Uint8Array(bin.length); for (let i = 0; i < bin.length; i++) u8[i] = bin.charCodeAt(i); return new File([u8], f.name, { type: f.type || "application/pdf" }); }
   function setFile(input, file) { const dt = new DataTransfer(); dt.items.add(file); input.files = dt.files; input.dispatchEvent(new Event("input", { bubbles: true })); input.dispatchEvent(new Event("change", { bubbles: true })); }
@@ -94,7 +118,7 @@
       if (r.k === "need" || !r.a) { need.push(q); continue; }
       const want = r.a.split(/\s*\+\s*/).map(norm);
       for (let i = 0; i < opts.length; i++) { const o = opts[i]; const on = want.some(w => w && (labels[i] === w || labels[i].toLowerCase().includes(w.toLowerCase()) || w.toLowerCase().includes(labels[i].toLowerCase())));
-        if (on !== o.checked) { o.click(); await sleep(60); if (on !== o.checked && o.labels && o.labels[0]) { o.labels[0].click(); await sleep(60); } if (on !== o.checked) { setNativeChecked(o, on); } } }
+        const ok = await setCheckedVerified(o, on); if (!ok && on) need.push(q + " (" + labels[i] + ")"); }
       done.push(q + " = " + r.a);
     }
     // 2. Ashby yes/no button pairs
@@ -142,10 +166,8 @@
         el.focus(); setNative(el, "12/01/2027"); el.dispatchEvent(new KeyboardEvent("keydown", { key: "Enter", keyCode: 13, bubbles: true })); await sleep(300); document.body.click();
         if (!el.value) need.push(q + " (pick December 2027 in the calendar)"); else done.push(q + " = " + el.value); continue;
       }
-      setText(el, r.a); done.push(q + " = " + r.a.slice(0, 40)); filled.push({ el, v: r.a });
+      const ok = await setValueVerified(el, r.a); done.push(q + " = " + r.a.slice(0, 40)); if (!ok) need.push(q);
     }
-    await sleep(400);
-    for (const { el, v } of filled) { if (el.value !== v) { setNative(el, v); await sleep(50); if (el.value !== v) setText(el, v); } }
     return { need, done, filled };
   }
   // Ashby / Greenhouse list the offending fields after a rejected submit: refill just those and try again
@@ -162,15 +184,16 @@
       for (const el of document.querySelectorAll("input, textarea, select")) {
         if (el.type === "file" || el.type === "hidden") continue;
         const q = el.type === "checkbox" || el.type === "radio" ? "" : labelOf(el).toLowerCase();
-        if (q && (q === n || q.startsWith(n) || n.startsWith(q))) { const r = A({ label: labelOf(el), options: [], type: el.type }); if (r.a && r.k !== "need") { setNative(el, ""); await sleep(30); setText(el, r.a); hit = true; } break; }
+        if (q && (q === n || q.startsWith(n) || n.startsWith(q))) { const r = A({ label: labelOf(el), options: [], type: el.type }); if (r.a && r.k !== "need") { setNative(el, ""); await sleep(30); hit = await setValueVerified(el, r.a); } break; }
       }
       if (!hit) for (const fs of document.querySelectorAll("fieldset, [role=group], [role=radiogroup]")) {
         const q = groupLabel(fs).toLowerCase(); if (!(q === n || q.startsWith(n) || n.startsWith(q))) continue;
         const opts = [...fs.querySelectorAll("input[type=checkbox], input[type=radio]")]; const labels = opts.map(o => txt(o.labels && o.labels[0]) || txt(o.parentElement));
         const r = A({ label: groupLabel(fs), options: labels, type: opts[0] && opts[0].type }); if (!r.a || r.k === "need") break;
         const want = r.a.split(/\s*\+\s*/).map(norm);
-        for (let i = 0; i < opts.length; i++) { const on = want.some(w => w && (labels[i] === w || labels[i].toLowerCase().includes(w.toLowerCase()))); if (on && !opts[i].checked) { opts[i].click(); await sleep(60); if (!opts[i].checked) setNativeChecked(opts[i], true); } }
-        hit = true; break;
+        hit = true;
+        for (let i = 0; i < opts.length; i++) { const on = want.some(w => w && (labels[i] === w || labels[i].toLowerCase().includes(w.toLowerCase()))); if (on) { const ok = await setCheckedVerified(opts[i], true); if (!ok) hit = false; } }
+        break;
       }
       if (!hit) left.push(name);
     }
