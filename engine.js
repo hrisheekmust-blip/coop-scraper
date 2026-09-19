@@ -27,6 +27,12 @@ function answerFor(f,ctx){const j=ctx.job||{},a=ctx.answers||{},l=(f.label||"").
   if(/degree|education level|highest level|program type|level of study|type of program/.test(l))return{a:pickOpt(o,/bachelor|b\.?s\b|undergrad/i,p.degree||"Bachelor of Science")};
   if(/major|field of study|discipline|concentration/.test(l))return{a:pickOpt(o,/electrical|computer eng/i,p.major||"Electrical and Computer Engineering")};
   if(/gpa|grade point/.test(l))return{a:p.gpa||"3.96"};
+  if(/(end|graduation|completion|finish)( date)?.*\bmonth\b/.test(l))return{a:pickOpt(o,/^dec/i,"December")};
+  if(/(end|graduation|completion|finish)( date)?.*\byear\b/.test(l))return{a:pickOpt(o,/^2027$/,"2027")};
+  if(/^(education |school )?start date.*\bmonth\b/.test(l))return{a:pickOpt(o,/^sep/i,"September")};
+  if(/^(education |school )?start date.*\byear\b/.test(l))return{a:pickOpt(o,/^2024$/,"2024")};
+  if(/location preference|preferred (office|location|work location)|which (office|location|site)|office location/.test(l))return{a:o.length?pickOpt(o,/boston|massachusetts|\bma\b/i,pickOpt(o,/any|no preference|open|flexible|all/i,o[0])):(p.location||"Boston, MA")};
+  if(/export control|\bitar\b|protected individual|u\.?s\.? person/.test(l))return{a:o.length?pickOpt(o,/citizen|^yes|u\.?s\.? person|protected/i,"Yes"):"Yes, I am a U.S. citizen"};
   if(/graduat|completion date|expected.*date/.test(l))return{a:o.length?pickOpt(o,/2027/,p.grad||"December 2027"):(p.grad||"December 2027")};
   if(/\byear\b|class standing|academic level|current level|student status/.test(l))return{a:pickOpt(o,/junior|third|3rd|undergrad/i,p.year||"Third year (junior)")};
   if(/term|season|semester|quarter|which.*(period|session)|when.*available|availab|start date|earliest/.test(l)){

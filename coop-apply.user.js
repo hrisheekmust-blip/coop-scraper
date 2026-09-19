@@ -1,10 +1,10 @@
 // ==UserScript==
 // @name         Co-op board: one-click apply
 // @namespace    coop-hrisheek
-// @version      2.1
+// @version      2.2
 // @description  Opened by the co-op board: walks any application form (Ashby, Greenhouse, Lever, LinkedIn Easy Apply, Workday, Oracle, iCIMS, SuccessFactors, Phenom, ...) page by page, fills it from the board's answers, attaches the files, submits, and reports back.
 // @match        *://*/*
-// @require      https://hrisheekmust-blip.github.io/coop-scraper/engine.js
+// @require      https://hrisheekmust-blip.github.io/coop-scraper/engine.js?v=4
 // @grant        none
 // @run-at       document-idle
 // ==/UserScript==
@@ -185,11 +185,25 @@
       }
       if ((el.value || "").trim() && !isDate && (el.value.trim() === r.a || /^(name|first|last|email|phone|preferred)/i.test(q))) continue;   // portal prefilled it from the account
       if (el.getAttribute("role") === "combobox" || /select__input|react-select|autocomplete|typeahead/i.test(el.className + " " + (el.parentElement && el.parentElement.className))) {
-        el.focus(); setNative(el, r.a); await sleep(500);
-        const opts2 = [...document.querySelectorAll("[role=option], .select__option, [role=listbox] li, [data-automation-id='promptOption']")].filter(visible);
-        const opt = opts2.find(x => txt(x).toLowerCase() === r.a.toLowerCase()) || opts2.find(x => txt(x).toLowerCase().includes(r.a.toLowerCase().slice(0, 10)));
-        if (opt) realClick(opt); else el.dispatchEvent(new KeyboardEvent("keydown", { key: "Enter", keyCode: 13, bubbles: true }));
-        await sleep(200); done.push(q + " ≈ " + r.a); continue;
+        // react-select style: the chosen value lives in a sibling, the options only exist while the menu is open
+        const ctrl = el.closest("[class*='control'], [class*='Control']") || el.parentElement.parentElement;
+        const cur = norm(txt(ctrl).replace(q, "")).toLowerCase();
+        const guess = (r.a || "").toLowerCase();
+        if (cur && !/^(select|choose|search|type|--|start typing)/i.test(cur) && (cur === guess || (guess && cur.includes(guess.slice(0, 8))) || /^(name|first|last|email|phone|school|universit)/i.test(q))) { done.push(q + " = " + cur); continue; }   // already right
+        const menuOpts = () => [...document.querySelectorAll("[role=option], .select__option, [class*='select__option'], [role=listbox] li, [data-automation-id='promptOption']")].filter(visible);
+        const pickFrom = (labels, want) => { const w = (want || "").toLowerCase(); if (!w) return -1; let i = labels.findIndex(l => l.toLowerCase() === w); if (i < 0) i = labels.findIndex(l => l.toLowerCase().includes(w.slice(0, 10)) || (w.length > 3 && w.includes(l.toLowerCase()))); return i; };
+        const esc = () => { el.dispatchEvent(new KeyboardEvent("keydown", { key: "Escape", keyCode: 27, bubbles: true })); el.blur(); };
+        realClick(el); el.focus(); el.dispatchEvent(new KeyboardEvent("keydown", { key: "ArrowDown", keyCode: 40, bubbles: true })); await sleep(450);
+        let opts2 = menuOpts(), labels2 = opts2.map(txt), r2 = labels2.length ? A({ label: q, options: labels2, type: "select" }) : r;
+        if (r2.k === "need" || !r2.a) { esc(); need.push(q); await sleep(120); continue; }
+        let pick = pickFrom(labels2, r2.a);
+        if (pick < 0) {   // long or lazy list: type to filter, then look again
+          setNative(el, r2.a.split(/[\s,(]/)[0]); await sleep(600);
+          opts2 = menuOpts(); labels2 = opts2.map(txt); const r3 = labels2.length ? A({ label: q, options: labels2, type: "select" }) : r2; pick = pickFrom(labels2, r3.a);
+          if (pick < 0 && labels2.length === 1 && !/no (options|results)/i.test(labels2[0])) pick = 0;
+        }
+        if (pick < 0) { esc(); need.push(q + (labels2.length ? " (no option matched '" + r2.a + "')" : "")); await sleep(120); continue; }
+        realClick(opts2[pick]); await sleep(250); fireReact(el, ["onBlur"], "blur"); el.blur(); done.push(q + " = " + labels2[pick]); continue;
       }
       if (isDate) {
         const dm = (el.getAttribute("data-automation-id") || "") + " " + q.toLowerCase();
