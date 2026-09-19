@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Co-op board: one-click apply
 // @namespace    coop-hrisheek
-// @version      1.1
+// @version      1.2
 // @description  When the co-op board opens an Ashby / Greenhouse / Lever form, fill it from the board's answers, attach the files, submit, and report back.
 // @match        https://jobs.ashbyhq.com/*
 // @match        https://boards.greenhouse.io/*
@@ -181,6 +181,8 @@
   function submitButton() {
     return [...document.querySelectorAll("button, input[type=submit]")].find(b => visible(b) && /submit application|submit/i.test(b.value || txt(b)) && !/upload/i.test(txt(b)));
   }
+  const busy = b => !b || b.disabled || b.getAttribute("aria-disabled") === "true" || b.getAttribute("aria-busy") === "true" || /uploading|submitting|loading/i.test(txt(b)) || !!document.querySelector("[class*='uploading'], [class*='Uploading'], [aria-busy='true']");
+  async function waitReady(ms) { const t0 = Date.now(); while (Date.now() - t0 < ms) { const b = submitButton(); if (b && !busy(b)) return b; banner("waiting for the form to finish uploading…"); await sleep(400); } return submitButton(); }
   const captchaUp = () => [...document.querySelectorAll("iframe[src*='hcaptcha'], iframe[src*='recaptcha'], iframe[src*='turnstile']")].some(f => visible(f) && f.getBoundingClientRect().height > 100);
   const succeeded = () => /thank you|application (has been |was )?(submitted|received)|we('ve| have) received your application|successfully submitted|application submitted/i.test(document.body.innerText) || /thanks|confirmation|success/i.test(location.pathname);
 
@@ -201,10 +203,12 @@
     if (!btn) { banner("filled everything but couldn't find the Submit button; press it yourself", "err"); report({ ok: false, status: "needs-you", need: ["submit button"], done }); watchForSuccess(P, done); return; }
     await sleep(1200);
     for (let attempt = 0; attempt < 3; attempt++) {
-      (submitButton() || btn).click();
+      const b = await waitReady(45000) || btn;
+      if (busy(b)) { banner("Submit button never became clickable; press it yourself", "err"); report({ ok: false, status: "needs-you", need: ["submit button stayed disabled"], done }); watchForSuccess(P, done); return; }
+      b.click();
       banner(attempt ? `resubmitting (try ${attempt + 1})…` : "submitting…");
       let names = [];
-      for (let i = 0; i < 40; i++) {
+      for (let i = 0; i < 80; i++) {
         await sleep(500);
         if (succeeded()) { banner("submitted ✓ recorded on the board", "ok"); report({ ok: true, status: "applied", done }); sessionStorage.removeItem(KEY); return; }
         if (captchaUp()) { banner("captcha: solve it, then press Submit", "err"); report({ ok: false, status: "needs-you", need: ["captcha"], done }); watchForSuccess(P, done); return; }
