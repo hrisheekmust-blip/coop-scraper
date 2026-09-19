@@ -1,0 +1,47 @@
+name: apply script dry run
+
+on:
+  workflow_dispatch:
+    inputs:
+      ids:
+        description: "posting ids (space separated) — empty = sample every portal"
+        default: ""
+      per_portal:
+        description: "postings per portal when sampling"
+        default: "6"
+  push:
+    paths:
+      - coop-apply.user.js
+      - engine.js
+      - tools/dryrun.mjs
+      - .github/workflows/dryrun.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: scrape
+  cancel-in-progress: false
+
+jobs:
+  dryrun:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - run: npm i --no-save playwright@1.47.2 && npx playwright install --with-deps chromium
+      - name: dry run
+        env:
+          PER_PORTAL: ${{ inputs.per_portal || '6' }}
+        run: node tools/dryrun.mjs ${{ inputs.ids }} 2>&1 | tee data/dryrun.log
+      - name: commit results
+        run: |
+          git config user.name "coop-scraper bot"
+          git config user.email "bot@users.noreply.github.com"
+          git pull --rebase -q || true
+          git add data/dryrun.json data/dryrun.log data/dryrun
+          git diff --cached --quiet || git commit -qm "dry run: $(tail -c 300 data/dryrun.log | tr '\n' ' ' | cut -c1-150)"
+          git push

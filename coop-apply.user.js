@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Co-op board: one-click apply
 // @namespace    coop-hrisheek
-// @version      2.2
+// @version      2.3
 // @description  Opened by the co-op board: walks any application form (Ashby, Greenhouse, Lever, LinkedIn Easy Apply, Workday, Oracle, iCIMS, SuccessFactors, Phenom, ...) page by page, fills it from the board's answers, attaches the files, submits, and reports back.
 // @match        *://*/*
 // @require      https://hrisheekmust-blip.github.io/coop-scraper/engine.js?v=4
@@ -26,6 +26,7 @@
   const PORTAL = /ashbyhq/.test(host) ? "ashby" : /greenhouse/.test(host) ? "greenhouse" : /lever\.co/.test(host) ? "lever" : /linkedin/.test(host) ? "linkedin"
     : /myworkday/.test(host) ? "workday" : /icims/.test(host) ? "icims" : /oraclecloud/.test(host) ? "oracle" : /successfactors|\.sap\./.test(host) ? "successfactors" : "other";
   const opener = () => { try { return window.opener || (window.top !== window ? window.top.opener : null); } catch (e) { return null; } };
+  const DRY = !!window.__coopDry;                        // test harness (tools/dryrun.mjs): fill everything, never press Submit, never wait on a human
 
   // ---------------------------------------------------------------- banner + reporting
   let bar;
@@ -36,7 +37,7 @@
     bar.textContent = "Co-op board: " + msg;
   }
   window.addEventListener("message", e => { const d = e.data || {}; if (d.type === "coop-banner" && window.top === window) banner(d.msg, d.kind); });
-  const report = m => { try { const o = opener(); if (o) o.postMessage({ ...m, type: "coop-result", id: payload ? payload.id : hashId, url: location.href, at: new Date().toISOString() }, "*"); } catch (e) {} };
+  const report = m => { try { window.__coopLast = m; (window.__coopReports = window.__coopReports || []).push(m); } catch (e) {} try { const o = opener(); if (o) o.postMessage({ ...m, type: "coop-result", id: payload ? payload.id : hashId, url: location.href, at: new Date().toISOString() }, "*"); } catch (e) {} };
 
   // ---------------------------------------------------------------- payload handshake with the board tab
   async function getPayload() {
@@ -109,6 +110,8 @@
     let p = el.previousElementSibling; while (p) { if (txt(p) && txt(p).length < 200) return txt(p); p = p.previousElementSibling; }
     return "";
   }
+  const raw = el => { try { const en = entryOf(el); const small = en && en.querySelectorAll("input, select, textarea, button").length <= 4 ? en : null; return ((el.labels && el.labels[0] ? el.labels[0].textContent : "") + " " + (el.getAttribute && el.getAttribute("aria-label") || "") + " " + ((small || el).textContent || "").slice(0, 400)); } catch (e) { return ""; } };
+  const isRequired = el => !!(el.required || (el.getAttribute && el.getAttribute("aria-required") === "true") || /[*✱]|\brequired\b|\bmandatory\b/i.test(raw(el)) && !/not required|optional/i.test(raw(el)));
   const groupLabel = fs => { const lg = fs.querySelector("legend, .application-label, [data-automation-id*='label'], label:not(:has(input))"); const t = lg ? txt(lg) : ""; if (t) return t; let p = fs.previousElementSibling; while (p) { if (txt(p)) return txt(p); p = p.previousElementSibling; } return labelOf(fs); };
 
   // ---------------------------------------------------------------- fill everything visible on the current page
@@ -128,7 +131,7 @@
       opts.forEach(o => seen.add(o));
       const q = groupLabel(fs); const labels = opts.map(o => txt(o.labels && o.labels[0]) || txt(o.parentElement));
       const r = A({ label: q, options: labels, type: opts[0].type });
-      if (r.k === "need" || !r.a) { need.push(q); continue; }
+      if (r.k === "need" || !r.a) { if (isRequired(fs)) need.push(q); else done.push("left blank (optional): " + q); continue; }
       const want = r.a.split(/\s*\+\s*/).map(norm);
       for (let i = 0; i < opts.length; i++) { const o = opts[i]; const on = opts.length === 1 ? true : want.some(w => w && (labels[i] === w || labels[i].toLowerCase().includes(w.toLowerCase()) || w.toLowerCase().includes(labels[i].toLowerCase())));
         const ok = await setCheckedVerified(o, on); if (!ok && on) need.push(q + " (" + labels[i] + ")"); }
@@ -139,7 +142,7 @@
       const btns = [...en.querySelectorAll("button")].filter(b => /^(yes|no)$/i.test(txt(b)));
       if (btns.length !== 2) continue;
       const q = txt(en.querySelector("label")); const r = A({ label: q, options: ["Yes", "No"], type: "Boolean" });
-      if (r.k === "need" || !r.a) { need.push(q); continue; }
+      if (r.k === "need" || !r.a) { if (isRequired(en)) need.push(q); else done.push("left blank (optional): " + q); continue; }
       const b = btns.find(x => r.a.toLowerCase().startsWith(txt(x).toLowerCase())) || btns[0]; realClick(b); done.push(q + " = " + txt(b));
     }
     // 3. custom dropdown buttons (Workday, Oracle, LinkedIn)
@@ -153,7 +156,7 @@
       const labels = opts.map(txt); const r = A({ label: q, options: labels, type: "select" });
       let pick = labels.findIndex(l => l.toLowerCase() === (r.a || "").toLowerCase());
       if (pick < 0) pick = labels.findIndex(l => r.a && (l.toLowerCase().includes(r.a.toLowerCase().slice(0, 10)) || r.a.toLowerCase().includes(l.toLowerCase())));
-      if (r.k === "need" || pick < 0) { document.body.dispatchEvent(new KeyboardEvent("keydown", { key: "Escape", bubbles: true })); need.push(r0.k === "need" || !r.a ? q : q + " (no option matched '" + r.a + "')"); await sleep(150); continue; }
+      if (r.k === "need" || pick < 0) { document.body.dispatchEvent(new KeyboardEvent("keydown", { key: "Escape", bubbles: true })); if (isRequired(btn) || (r.a && r.k !== "need")) need.push(r0.k === "need" || !r.a ? q : q + " (no option matched '" + r.a + "')"); else done.push("left blank (optional): " + q); await sleep(150); continue; }
       realClick(opts[pick]); await sleep(250); done.push(q + " = " + labels[pick]);
     }
     // 4. text-like inputs, textareas, native selects, comboboxes, files
@@ -176,11 +179,11 @@
       const opts = el.tagName === "SELECT" ? [...el.options].map(o => txt(o)).filter(o => o && !/^(select|choose|--|please)/i.test(o)) : [];
       const isDate = type === "date" || /pick date|mm\/dd|yyyy|mm\/yyyy/i.test(el.placeholder || "") || /date/i.test(el.getAttribute("data-automation-id") || "");
       const r = A({ label: q, options: opts, type: isDate ? "date" : type });
-      if (r.k === "need") { if (!(el.value || "").trim()) need.push(q); continue; }
+      if (r.k === "need") { if (!(el.value || "").trim()) { if (isRequired(el)) need.push(q); else done.push("left blank (optional): " + q); } continue; }
       if (r.k === "file" || r.a === "(leave blank)" || r.a === "") continue;
       if (el.tagName === "SELECT") {
         const o = [...el.options].find(x => txt(x).toLowerCase() === r.a.toLowerCase()) || [...el.options].find(x => txt(x).toLowerCase().includes(r.a.toLowerCase().slice(0, 12)));
-        if (o) { if (el.value !== o.value) { el.value = o.value; el.dispatchEvent(new Event("input", { bubbles: true })); el.dispatchEvent(new Event("change", { bubbles: true })); fireReact(el, ["onChange"], "change"); } done.push(q + " = " + txt(o)); } else need.push(q);
+        if (o) { if (el.value !== o.value) { el.value = o.value; el.dispatchEvent(new Event("input", { bubbles: true })); el.dispatchEvent(new Event("change", { bubbles: true })); fireReact(el, ["onChange"], "change"); } done.push(q + " = " + txt(o)); } else if (isRequired(el) || el.selectedIndex <= 0) need.push(q + " (no option matched '" + r.a + "')");
         continue;
       }
       if ((el.value || "").trim() && !isDate && (el.value.trim() === r.a || /^(name|first|last|email|phone|preferred)/i.test(q))) continue;   // portal prefilled it from the account
@@ -195,14 +198,14 @@
         const esc = () => { el.dispatchEvent(new KeyboardEvent("keydown", { key: "Escape", keyCode: 27, bubbles: true })); el.blur(); };
         realClick(el); el.focus(); el.dispatchEvent(new KeyboardEvent("keydown", { key: "ArrowDown", keyCode: 40, bubbles: true })); await sleep(450);
         let opts2 = menuOpts(), labels2 = opts2.map(txt), r2 = labels2.length ? A({ label: q, options: labels2, type: "select" }) : r;
-        if (r2.k === "need" || !r2.a) { esc(); need.push(q); await sleep(120); continue; }
+        if (r2.k === "need" || !r2.a) { esc(); if (isRequired(el)) need.push(q); else done.push("left blank (optional): " + q); await sleep(120); continue; }
         let pick = pickFrom(labels2, r2.a);
         if (pick < 0) {   // long or lazy list: type to filter, then look again
           setNative(el, r2.a.split(/[\s,(]/)[0]); await sleep(600);
           opts2 = menuOpts(); labels2 = opts2.map(txt); const r3 = labels2.length ? A({ label: q, options: labels2, type: "select" }) : r2; pick = pickFrom(labels2, r3.a);
           if (pick < 0 && labels2.length === 1 && !/no (options|results)/i.test(labels2[0])) pick = 0;
         }
-        if (pick < 0) { esc(); need.push(q + (labels2.length ? " (no option matched '" + r2.a + "')" : "")); await sleep(120); continue; }
+        if (pick < 0) { esc(); if (isRequired(el)) need.push(q + (labels2.length ? " (no option matched '" + r2.a + "')" : " (no options appeared)")); else done.push("left blank (optional): " + q); await sleep(120); continue; }
         realClick(opts2[pick]); await sleep(250); fireReact(el, ["onBlur"], "blur"); el.blur(); done.push(q + " = " + labels2[pick]); continue;
       }
       if (isDate) {
@@ -297,25 +300,27 @@
         const pw = [...document.querySelectorAll("input[type=password]")].filter(visible);
         if (pw.length === 1 && pw[0].value) { const b = primaryButton() || findBtn(/sign in|log in/i); if (b) { realClick(b); await settle(2500); continue; } }
         banner("sign in or create your account here (type the password once, Chrome remembers it). I continue by myself after.", "wait");
-        report({ ok: false, status: "needs-you", need: ["sign in on the portal (first time only)"], done: allDone });
+        report({ ok: false, status: DRY ? "login" : "needs-you", need: ["sign in on the portal (first time only)"], done: allDone });
+        if (DRY) return;
         while (loginPage()) await sleep(1000);
         continue;
       }
-      if (captchaUp()) { banner("captcha: solve it and I'll continue", "wait"); while (captchaUp()) await sleep(1000); }
+      if (captchaUp()) { banner("captcha: solve it and I'll continue", "wait"); if (DRY) { report({ ok: false, status: "captcha", done: allDone }); return; } while (captchaUp()) await sleep(1000); }
       banner(`page ${step + 1}: filling ${P.job.company} · ${P.job.role}…`);
       const { need, done } = await fill(P); allDone.push(...done);
       if (mod.fix) await mod.fix(P);
       const btn = primaryButton();
-      if (!btn) { banner("can't find the Next / Submit button on this page; press it yourself and I'll keep going", "wait"); report({ ok: false, status: "needs-you", need: ["next button"], done: allDone }); await waitChange(); continue; }
+      if (!btn) { banner("can't find the Next / Submit button on this page; press it yourself and I'll keep going", "wait"); report({ ok: false, status: DRY ? "no-button" : "needs-you", need: need.concat(["next button"]), done: allDone }); if (DRY) return; await waitChange(); continue; }
       const isSubmit = /submit/i.test((btn.getAttribute("aria-label") || "") + txt(btn) + (btn.value || ""));
-      if (need.length && isSubmit) { banner(`${need.length} field(s) need you before submit: ${need.join(" · ")}`, "err"); report({ ok: false, status: "needs-you", need, done: allDone }); await waitChange(); continue; }
+      if (need.length && isSubmit) { banner(`${need.length} field(s) need you before submit: ${need.join(" · ")}`, "err"); report({ ok: false, status: "needs-you", need, done: allDone }); if (DRY) return; await waitChange(); continue; }
+      if (isSubmit && DRY) { banner("dry run: would submit now", "ok"); report({ ok: true, status: "dry-submit", need, done: allDone, button: txt(btn) }); return; }
       const before = signature(); if (isSubmit) sessionStorage.setItem("coop-clicked", P.id);
       realClick(btn); await settle(1500);
       if (isSubmit) { for (let k = 0; k < 40; k++) { if (succeeded()) break; await sleep(500); } if (succeeded()) { banner("submitted ✓ recorded on the board", "ok"); report({ ok: true, status: "applied", done: allDone }); sessionStorage.removeItem(KEY); return; } }
       if (signature() === before) {
         const names = complaints();
         if (names.length) { banner(`form flagged: ${names.join(", ")}; retrying…`); await fill(P); if (mod.fix) await mod.fix(P); realClick(primaryButton() || btn); await settle(1500); }
-        if (signature() === before) { const n2 = complaints(); banner(`stuck on this page${n2.length ? ": " + n2.join(", ") : ""}. Fix it and press Next; I'll continue.`, "err"); report({ ok: false, status: "needs-you", need: n2.length ? n2 : need.length ? need : ["page did not advance"], done: allDone }); await waitChange(); }
+        if (signature() === before) { const n2 = complaints(); banner(`stuck on this page${n2.length ? ": " + n2.join(", ") : ""}. Fix it and press Next; I'll continue.`, "err"); report({ ok: false, status: DRY ? "stuck" : "needs-you", need: n2.length ? n2 : need.length ? need : ["page did not advance"], done: allDone, button: txt(btn) }); if (DRY) return; await waitChange(); }
       }
     }
     banner("too many pages without a confirmation; check the tab", "err"); report({ ok: false, status: "needs-you", need: ["no confirmation after 14 pages"], done: allDone });
