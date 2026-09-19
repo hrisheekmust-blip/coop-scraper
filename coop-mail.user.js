@@ -1,11 +1,13 @@
 // ==UserScript==
 // @name         Co-op board: Outlook confirmations
 // @namespace    coop-hrisheek
-// @version      1.1
+// @version      1.2
 // @description  Reads the Outlook web inbox list, matches application emails to companies you applied to on the co-op board, and records them (confirmation / rejection / interview) in the board's private repo.
 // @match        https://outlook.office.com/*
 // @match        https://outlook.office365.com/*
 // @match        https://outlook.live.com/*
+// @match        https://outlook.cloud.microsoft/*
+// @match        https://*.cloud.microsoft/mail*
 // @grant        GM_getValue
 // @grant        GM_setValue
 // @grant        GM_xmlhttpRequest
