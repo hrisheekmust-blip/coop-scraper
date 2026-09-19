@@ -1,0 +1,1420 @@
+{
+ "at": "2026-09-19T15:38:01.488Z",
+ "summary": {
+  "greenhouse": {
+   "dry-submit": 1,
+   "no-button": 4,
+   "needs-you": 1
+  },
+  "ashby": {
+   "dry-submit": 6
+  },
+  "lever": {
+   "needs-you": 6
+  },
+  "smartrecruiters": {
+   "no-button": 6
+  },
+  "other": {
+   "no-button": 4,
+   "needs-you": 2
+  },
+  "icims": {
+   "no-button": 6
+  },
+  "oracle": {
+   "no-button": 6
+  },
+  "successfactors": {
+   "no-button": 6
+  },
+  "workday": {
+   "no-button": 6
+  },
+  "amazon": {
+   "no-button": 5
+  }
+ },
+ "results": [
+  {
+   "id": "d59a203fb8da4ed6",
+   "company": "Anduril",
+   "role": "Winter 2027 Electrical Engineer Co-op",
+   "portal": "greenhouse",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5236565007?gh_jid=5236565007",
+   "status": "dry-submit",
+   "need": [],
+   "done": [
+    "First Name = Test",
+    "Last Name = Applicant",
+    "Preferred First Name = Test",
+    "Email = test.applicant@example.com",
+    "Country = United States +1",
+    "Phone = 617-555-0100",
+    "Attach = Test_Applicant_Resume.pdf",
+    "School = Northeastern University",
+    "Degree = Bachelors",
+    "Discipline = Computer Engineering",
+    "End date month = December",
+    "End date year = 2027",
+    "Website = https://example.com",
+    "LinkedIn Profile = https://www.linkedin.com/in/test-applica",
+    "What is your top location preference? = Boston, MA",
+    "EXPORT CONTROLS - This position requires access to information and technology that is subject to U.S. export controls. Your responses to the questions below will be used solely to determine your eligibility under U.S. law to receive information and materials subject to U.S. export controls. = A United States citizen or national",
+    "U.S. WORK AUTHORIZATION = Yes",
+    "Will you require sponsorship from Anduril for employment now or in the future (e.g, H1B visa)? = No",
+    "How did you hear about Anduril? = Friend/know someone at the company",
+    "Gender = Decline To Self Identify",
+    "Are you Hispanic/Latino? = Decline To Self Identify",
+    "Veteran Status = I don't wish to answer",
+    "left blank (optional): Disability Status"
+   ],
+   "banner": "Co-op board: dry run: would submit now",
+   "final_url": "https://job-boards.greenhouse.io/andurilindustries/jobs/5236565007?gh_jid=5236565007#coop=d59a203fb8da4ed6",
+   "pages": 0,
+   "button": "Submit application",
+   "title": "Job Application for Winter 2027 Electrical Engineer Co-op at Anduril Industries"
+  },
+  {
+   "id": "2422571b5b6399e4",
+   "company": "Formlabs",
+   "role": "Hardware Test Engineering Intern (Winter/Spring 2027)",
+   "portal": "greenhouse",
+   "url": "https://careers.formlabs.com/job/8196515/apply/?gh_jid=8196515",
+   "status": "no-button",
+   "need": [
+    "next button"
+   ],
+   "done": [],
+   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep going",
+   "final_url": "https://careers.formlabs.com/job/8196515/apply/?gh_jid=8196515#coop=2422571b5b6399e4",
+   "pages": 0,
+   "button": "",
+   "title": "Hardware Test Engineering Intern (Winter/Spring 2027) | Formlabs"
+  },
+  {
+   "id": "4093863ce79e7050",
+   "company": "Rocket Lab",
+   "role": "Test Engineering Intern - Manufacturing Spring 2027",
+   "portal": "greenhouse",
+   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7987042003",
+   "status": "needs-you",
+   "need": [
+    "Are you a participant of the following scholarship, fellowships, or initiatives we support?",
+    "Undergraduate GPA: Please convert your GPA to a 4.0 scale. Select \"Not Applicable\" if you do not have a graduate GPA (no options appeared)",
+    "Undergraduate GPA: Please convert your GPA to a 4.0 scale. Select \"Not Applicable\" if you do not have a graduate GPA",
+    "Graduate GPA: Please convert your GPA to a 4.0 scale. Select \"Not Applicable\" if you do not have a doctorate GPA (no options appeared)",
+    "Undergraduate GPA: Please convert your GPA to a 4.0 scale. Select \"Not Applicable\" if you do not have a graduate GPA",
+    "Select your anticipated bachelor's degree graduation date (no options appeared)",
+    "Undergraduate GPA: Please convert your GPA to a 4.0 scale. Select \"Not Applicable\" if you do not have a graduate GPA",
+    "Select your anticipated master's degree graduation date (no options appeared)",
+    "Undergraduate GPA: Please convert your GPA to a 4.0 scale. Select \"Not Applicable\" if you do not have a graduate GPA",
+    "Do you meet all the essential qualifications that are listed under the \"You'll Bring These Qualifications\" section?",
+    "Undergraduate GPA: Please convert your GPA to a 4.0 scale. Select \"Not Applicable\" if you do not have a graduate GPA",
+    "Outside of university coursework, what amount of software engineering experience do you have? This can include research/ laboratory work, and/or personal/team project experience. (no options appeared)",
+    "Undergraduate GPA: Please convert your GPA to a 4.0 scale. Select \"Not Applicable\" if you do not have a graduate GPA",
+    "Engineering Organization Involvement: Indicate if you are an active participant in any of the following engineering student groups or competitions listed below:",
+    "Undergraduate GPA: Please convert your GPA to a 4.0 scale. Select \"Not Applicable\" if you do not have a graduate GPA",
+    "Preferred Internship/Co-Op Duration: Confirm the number of consecutive weeks you are available to work full-time and in-person.",
+    "Undergraduate GPA: Please convert your GPA to a 4.0 scale. Select \"Not Applicable\" if you do not have a graduate GPA",
+    "Citizenship Status (no options appeared)",
+    "Undergraduate GPA: Please convert your GPA to a 4.0 scale. Select \"Not Applicable\" if you do not have a graduate GPA"
+   ],
+   "done": [
+    "Active Security Clearance(s) = Not Applicable",
+    "First Name = Test",
+    "Last Name = Applicant",
+    "Email = test.applicant@example.com",
+    "Country = United States +1",
+    "Phone = 617-555-0100",
+    "cover letter skipped",
+    "cover letter skipped",
+    "Undergraduate GPA: Please convert your GPA to a 4.0 scale. Select \"Not Applicable\" if you do not have a graduate GPA = Yes",
+    "Undergraduate GPA: Please convert your GPA to a 4.0 scale. Select \"Not Applicable\" if you do not have a graduate GPA = Yes",
+    "Undergraduate GPA: Please convert your GPA to a 4.0 scale. Select \"Not Applicable\" if you do not have a graduate GPA = Yes",
+    "Undergraduate GPA: Please convert your GPA to a 4.0 scale. Select \"Not Applicable\" if you do not have a graduate GPA = Yes",
+    "Undergraduate GPA: Please convert your GPA to a 4.0 scale. Select \"Not Applicable\" if you do not have a graduate GPA = Yes",
+    "Undergraduate GPA: Please convert your GPA to a 4.0 scale. Select \"Not Applicable\" if you do not have a graduate GPA = Yes",
+    "Undergraduate GPA: Please convert your GPA to a 4.0 scale. Select \"Not Applicable\" if you do not have a graduate GPA = Yes",
+    "left blank (optional): Other Engineering Organization Involvement:",
+    "Preferred Internship/Co-Op Start Date = Monday, January 4, 2027- March 26,2027",
+    "Undergraduate GPA: Please convert your GPA to a 4.0 scale. Select \"Not Applicable\" if you do not have a graduate GPA = Yes",
+    "How did you hear about this opportunity? = Company Website",
+    "Other: How did you hear about this opportunity? = Company careers page",
+    "Have you previously interviewed at Rocket Lab? = No",
+    "Are you willing to work onsite? = Yes",
+    "Undergraduate GPA: Please convert your GPA to a 4.0 scale. Select \"Not Applicable\" if you do not have a graduate GPA = Yes",
+    "If Citizenship Status Other, please explain: = Yes",
+    "Any offer of employment with Rocket Lab is contingent on a successful criminal background check, drug screen, and professional reference check. Please indicate below if you can meet these hiring requirements = No",
+    "Gender = Decline To Self Identify",
+    "Are you Hispanic/Latino? = Decline To Self Identify",
+    "Veteran Status = I don't wish to answer",
+    "left blank (optional): Disability Status"
+   ],
+   "banner": "",
+   "final_url": "https://job-boards.greenhouse.io/rocketlab/jobs/7987042003#coop=4093863ce79e7050",
+   "pages": 0,
+   "button": "",
+   "title": "Job Application for Test Engineering Intern - Manufacturing Spring 2027 at Rocket Lab Corporation"
+  },
+  {
+   "id": "2f6db6025596e20c",
+   "company": "PsiQuantum",
+   "role": "Intern, Optical Packaging and Characterization Engineer",
+   "portal": "greenhouse",
+   "url": "https://www.psiquantum.com/apply?gh_jid=7761881003",
+   "status": "no-button",
+   "need": [
+    "next button"
+   ],
+   "done": [],
+   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep going",
+   "final_url": "https://www.psiquantum.com/apply?gh_jid=7761881003#coop=2f6db6025596e20c",
+   "pages": 0,
+   "button": "",
+   "title": "Apply — PsiQuantum"
+  },
+  {
+   "id": "aed1afdd2872f6df",
+   "company": "Interstates",
+   "role": "Instrumentation – Manufacturing & Automation Intern",
+   "portal": "greenhouse",
+   "url": "https://www.interstates.com/careers/jobs?gh_jid=4401319009&gh_jid=4401319009&gh_src=Simplify",
+   "status": "no-button",
+   "need": [
+    "next button"
+   ],
+   "done": [],
+   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep going",
+   "final_url": "https://www.interstates.com/careers/jobs?gh_jid=4401319009&gh_jid=4401319009&gh_src=Simplify#coop=aed1afdd2872f6df",
+   "pages": 0,
+   "button": "",
+   "title": "Job Search | Interstates"
+  },
+  {
+   "id": "d29cea5ac41cafa5",
+   "company": "Akuna Capital",
+   "role": "Hardware Engineer Intern",
+   "portal": "greenhouse",
+   "url": "https://akunacapital.com/careers/job/8018880/?gh_jid=8018880&utm_source=github-vansh-ouckah",
+   "status": "no-button",
+   "need": [
+    "next button"
+   ],
+   "done": [],
+   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep going",
+   "final_url": "https://akunacapital.com/careers/job/8018880/?gh_jid=8018880&utm_source=github-vansh-ouckah#coop=d29cea5ac41cafa5",
+   "pages": 0,
+   "button": "",
+   "title": "Akuna Capital"
+  },
+  {
+   "id": "774542fb12febfcc",
+   "company": "Etched",
+   "role": "RTL Intern",
+   "portal": "ashby",
+   "url": "https://jobs.ashbyhq.com/etched/157ed4f4-6e3b-4ec9-b93f-3e363e92041e/application",
+   "status": "dry-submit",
+   "need": [],
+   "done": [
+    "Which term(s) would you like to be considered for? = Winter (January - May)",
+    "Current Program Type = Bachelor's Degree",
+    "What is your work authorization status? = US Citizen or Permanent Resident",
+    "How did you hear about Etched? = LinkedIn",
+    "Are you able to work in-person in San Jose this summer? = Yes",
+    "Name = Test Applicant",
+    "Preferred Name = Test",
+    "Email = test.applicant@example.com",
+    "Phone Number = 617-555-0100",
+    "LinkedIn Profile URL = https://www.linkedin.com/in/test-applica",
+    "GitHub or Portfolio URL = https://github.com/test-applicant",
+    "College or University = Northeastern University",
+    "Major or Field of Study = Electrical and Computer Engineering",
+    "Expected Graduation Date = 12/01/2027",
+    "Current GPA = 3.96",
+    "Why do you want to join Etched? = Dry-run answer: why this company.",
+    "Please provide 2-3 bullet points showcasing exceptional ability. = 1. Project A\nDry-run body A.\n\n2. Project",
+    "Are you open to starting full-time immediately after your internship? (either graduated or willing to take time off from school) = Yes",
+    "Resume = Test_Applicant_Resume.pdf",
+    "SAT or ACT Score = ACT 36"
+   ],
+   "banner": "Co-op board: dry run: would submit now",
+   "final_url": "https://jobs.ashbyhq.com/etched/157ed4f4-6e3b-4ec9-b93f-3e363e92041e/application#coop=774542fb12febfcc",
+   "pages": 0,
+   "button": "Submit Application",
+   "title": "RTL Intern @ Etched"
+  },
+  {
+   "id": "539b2ed846929909",
+   "company": "Skydio",
+   "role": "Electrical Engineer Intern - Winter 2027",
+   "portal": "ashby",
+   "url": "https://jobs.ashbyhq.com/skydio/9ac944bc-89da-44bb-bf9c-3b9922e7cbee/application",
+   "status": "dry-submit",
+   "need": [],
+   "done": [
+    "Preferred start date(s) = January 2027",
+    "Gender = Decline to self-identify",
+    "Race = Decline to self-identify",
+    "Veteran Status = I decline to self-identify for protected veteran status",
+    "left blank (optional): Prior US Government Employment?",
+    "Name = Test Applicant",
+    "Email = test.applicant@example.com",
+    "Phone Number = 617-555-0100",
+    "Resume = Test_Applicant_Resume.pdf",
+    "Graduation Date = 12/01/2027",
+    "Linkedin URL = https://www.linkedin.com/in/test-applica",
+    "Websites = https://example.com"
+   ],
+   "banner": "Co-op board: dry run: would submit now",
+   "final_url": "https://jobs.ashbyhq.com/skydio/9ac944bc-89da-44bb-bf9c-3b9922e7cbee/application#coop=539b2ed846929909",
+   "pages": 0,
+   "button": "Submit Application",
+   "title": "Electrical Engineer Intern - Winter 2027 @ Skydio"
+  },
+  {
+   "id": "4774516ba7453e8b",
+   "company": "Skydio",
+   "role": "Hardware Product Management Intern - Fall 2026/Winter 2027",
+   "portal": "ashby",
+   "url": "https://jobs.ashbyhq.com/skydio/1ec2fe3c-3fb2-4485-870d-764a3e5f5baf/application",
+   "status": "dry-submit",
+   "need": [],
+   "done": [
+    "What (months) are you available to start? = January 2027",
+    "Gender = Decline to self-identify",
+    "Race = Decline to self-identify",
+    "Veteran Status = I decline to self-identify for protected veteran status",
+    "left blank (optional): Prior US Government Employment?",
+    "Name = Test Applicant",
+    "Email = test.applicant@example.com",
+    "Phone Number = 617-555-0100",
+    "Resume = Test_Applicant_Resume.pdf",
+    "Linkedin URL = https://www.linkedin.com/in/test-applica",
+    "Websites = https://example.com"
+   ],
+   "banner": "Co-op board: dry run: would submit now",
+   "final_url": "https://jobs.ashbyhq.com/skydio/1ec2fe3c-3fb2-4485-870d-764a3e5f5baf/application#coop=4774516ba7453e8b",
+   "pages": 0,
+   "button": "Submit Application",
+   "title": "Hardware Product Management Intern - Fall 2026/Winter 2027 @ Skydio"
+  },
+  {
+   "id": "42fbce852298573b",
+   "company": "1X",
+   "role": "Internship - Manufacturing Engineering",
+   "portal": "ashby",
+   "url": "https://jobs.ashbyhq.com/1x/d687b375-8136-4e6f-baa6-369b89366050/application",
+   "status": "dry-submit",
+   "need": [],
+   "done": [
+    "Are you legally authorized to work in the United States? = Yes",
+    "Will you require visa sponsorship now or in the future? = No",
+    "Name = Test Applicant",
+    "Email = test.applicant@example.com",
+    "Resume = Test_Applicant_Resume.pdf",
+    "Please share your LinkedIn profile. = https://www.linkedin.com/in/test-applica",
+    "Please share links to GitHub, portfolio, publications, or hardware projects (if applicable). = https://github.com/test-applicant"
+   ],
+   "banner": "Co-op board: dry run: would submit now",
+   "final_url": "https://jobs.ashbyhq.com/1x/d687b375-8136-4e6f-baa6-369b89366050/application#coop=42fbce852298573b",
+   "pages": 0,
+   "button": "Submit Application",
+   "title": "Internship - Manufacturing Engineering @ 1X"
+  },
+  {
+   "id": "f6d801842bde09ee",
+   "company": "Etched",
+   "role": "Chip Simulation Software Intern",
+   "portal": "ashby",
+   "url": "https://jobs.ashbyhq.com/etched/27e5bd6b-9357-45f0-9e79-cfa2bf4eeba8/application",
+   "status": "dry-submit",
+   "need": [],
+   "done": [
+    "Which term(s) would you like to be considered for? = Winter (January - May)",
+    "Current Program Type = Bachelor's Degree",
+    "What is your work authorization status? = US Citizen or Permanent Resident",
+    "How did you hear about Etched? = LinkedIn",
+    "Are you able to work in-person in San Jose this summer? = Yes",
+    "Name = Test Applicant",
+    "Preferred Name = Test",
+    "Email = test.applicant@example.com",
+    "Phone Number = 617-555-0100",
+    "LinkedIn Profile URL = https://www.linkedin.com/in/test-applica",
+    "GitHub or Portfolio URL = https://github.com/test-applicant",
+    "College or University = Northeastern University",
+    "Major or Field of Study = Electrical and Computer Engineering",
+    "Expected Graduation Date = 12/01/2027",
+    "Current GPA = 3.96",
+    "Why do you want to join Etched? = Dry-run answer: why this company.",
+    "Please provide 2-3 bullet points showcasing exceptional ability. = 1. Project A\nDry-run body A.\n\n2. Project",
+    "Are you open to starting full-time immediately after your internship? (either graduated or willing to take time off from school) = Yes",
+    "Resume = Test_Applicant_Resume.pdf",
+    "SAT or ACT Score = ACT 36"
+   ],
+   "banner": "Co-op board: dry run: would submit now",
+   "final_url": "https://jobs.ashbyhq.com/etched/27e5bd6b-9357-45f0-9e79-cfa2bf4eeba8/application#coop=f6d801842bde09ee",
+   "pages": 0,
+   "button": "Submit Application",
+   "title": "Chip Simulation Software Intern @ Etched"
+  },
+  {
+   "id": "c952d8a85af8ae2f",
+   "company": "Etched",
+   "role": "DFT Intern",
+   "portal": "ashby",
+   "url": "https://jobs.ashbyhq.com/etched/5f1f5739-3b58-467c-b351-ff183c94d96d/application",
+   "status": "dry-submit",
+   "need": [],
+   "done": [
+    "Which term(s) would you like to be considered for? = Spring (January - May)",
+    "Current Program Type = Bachelor's Degree",
+    "What is your work authorization status? = US Citizen or Permanent Resident",
+    "How did you hear about Etched? = LinkedIn",
+    "Are you able to work in-person in San Jose this summer? = Yes",
+    "Name = Test Applicant",
+    "Preferred Name = Test",
+    "Email = test.applicant@example.com",
+    "Phone Number = 617-555-0100",
+    "LinkedIn Profile URL = https://www.linkedin.com/in/test-applica",
+    "GitHub or Portfolio URL = https://github.com/test-applicant",
+    "College or University = Northeastern University",
+    "Major or Field of Study = Electrical and Computer Engineering",
+    "Expected Graduation Date = 12/01/2027",
+    "Current GPA = 3.96",
+    "Why do you want to join Etched? = Dry-run answer: why this company.",
+    "Please provide 2-3 bullet points showcasing exceptional ability. = 1. Project A\nDry-run body A.\n\n2. Project",
+    "Are you open to starting full-time immediately after your internship? (either graduated or willing to take time off from school) = Yes",
+    "Resume = Test_Applicant_Resume.pdf",
+    "SAT or ACT Score = ACT 36"
+   ],
+   "banner": "Co-op board: dry run: would submit now",
+   "final_url": "https://jobs.ashbyhq.com/etched/5f1f5739-3b58-467c-b351-ff183c94d96d/application#coop=c952d8a85af8ae2f",
+   "pages": 0,
+   "button": "Submit Application",
+   "title": "DFT Intern @ Etched"
+  },
+  {
+   "id": "309203e333f1b275",
+   "company": "Hermeus",
+   "role": "Avionics Electrical Engineering Intern - Spring/Summer 2027",
+   "portal": "lever",
+   "url": "https://jobs.lever.co/hermeus/b7babdb5-64ee-49ad-a193-918d6a31c462/apply",
+   "status": "needs-you",
+   "need": [
+    "Select One",
+    "Type your response",
+    "Type your response",
+    "Disability status Select ... Yes, I have a disability, or have had one in the past No, I do not have a disability and have not had one in the past I do not want to answer (no option matched 'Decline to self-identify')",
+    "What is your location? Select... Afghanistan Albania Algeria American Samoa Andorra Angola Anguilla Antarctica Antigua and Barbuda Argentina Armenia Aruba Australia Austria Azerbaijan Bahamas Bahrain Bangladesh Barbados Belarus Belgium Belize Benin Bermuda Bhutan Bolivia Bonaire, Sint Eustatius and Saba Bosnia and Herzegovina Botswana Bouvet Island Brazil British Indian Ocean Territory Brunei Bulgaria Burkina Faso Burundi Cambodia Cameroon Canada Cape Verde Cayman Islands Central African Republic Chad Chile China Christmas Island Cocos (Keeling) Islands Colombia Comoros Congo Congo, the Democratic Republic of the Cook Islands Costa Rica Croatia Cuba Curaçao Cyprus Czech Republic Denmark Djibouti Dominica Dominican Republic Ecuador Egypt El Salvador Equatorial Guinea Eritrea Estonia Eswatini Ethiopia Falkland Islands Faroe Islands Fiji Finland France French Guiana French Polynesia French Southern Territories Gabon Gambia Georgia Germany Ghana Gibraltar Greece Greenland Grenada Guadeloupe Guam Guatemala Guernsey Guinea Guinea-Bissau Guyana Haiti Heard Island and McDonald Islands Holy See (Vatican City State) Honduras Hong Kong Hungary Iceland India Indonesia Iran Iraq Ireland Isle of Man Israel Italy Ivory Coast Jamaica Japan Jersey Jordan Kazakhstan Kenya Kiribati Kosovo Kuwait Kyrgyzstan Laos Latvia Lebanon Lesotho Liberia Libya Liechtenstein Lithuania Luxembourg Macao Macedonia, the Former Yugoslav Republic of Madagascar Malawi Malaysia Maldives Mali Malta Marshall Islands Martinique Mauritania Mauritius Mayotte Mexico Micronesia, Federated States of Moldova Monaco Mongolia Montenegro Montserrat Morocco Mozambique Myanmar Namibia Nauru Nepal Netherlands New Caledonia New Zealand Nicaragua Niger Nigeria Niue Norfolk Island North Korea Northern Mariana Islands Norway Oman Pakistan Palau Palestine, State of Panama Papua New Guinea Paraguay Peru Philippines Pitcairn Poland Portugal Puerto Rico Qatar Romania Russia Rwanda Réunion Saint Barthélemy Saint Helena, Ascension and Tristan da Cunha Saint Kitts and Nevis Saint Lucia Saint Martin (French part) Saint Pierre and Miquelon Saint Vincent and the Grenadines Samoa San Marino Sao Tome and Principe Saudi Arabia Senegal Serbia Seychelles Sierra Leone Singapore Sint Maarten (Dutch part) Slovakia Slovenia Solomon Islands Somalia South Africa South Georgia and the South Sandwich Islands South Korea South Sudan Spain Sri Lanka Sudan Suriname Svalbard and Jan Mayen Sweden Switzerland Syria Taiwan Tajikistan Tanzania Thailand Timor-Leste Togo Tokelau Tonga Trinidad and Tobago Tunisia Turkey Turkmenistan Turks and Caicos Islands Tuvalu Uganda Ukraine United Arab Emirates United Kingdom United States United States Minor Outlying Islands Uruguay Uzbekistan Vanuatu Venezuela Vietnam Virgin Islands, British Virgin Islands, U.S. Wallis and Futuna Western Sahara Yemen Zambia Zimbabwe Åland Islands (no option matched 'Boston, MA')"
+   ],
+   "done": [
+    "Are you legally authorized to work for any employer in the United States? = Yes",
+    "Will you now or will you in the future require employment visa sponsorship? = No",
+    "Which semester(s) are you interested in? = Spring 2027",
+    "Have you completed your junior year of study (i.e., are you entering your senior year) or are you a graduate student? = December 2027",
+    "Resume/CV  ATTACH RESUME/CV = Test_Applicant_Resume.pdf",
+    "Full name = Test Applicant",
+    "Email = test.applicant@example.com",
+    "Phone = 617-555-0100",
+    "Current location = Boston, MA",
+    "left blank (optional): Current company",
+    "LinkedIn URL = https://www.linkedin.com/in/test-applica",
+    "Other website = https://example.com",
+    "left blank (optional): Type your response",
+    "left blank (optional): Type your response",
+    "Gender Select ... Male Female Decline to self-identify = Decline to self-identify",
+    "Race Select ... Hispanic or Latino White (Not Hispanic or Latino) Black or African American (Not Hispanic or Latino) Native Hawaiian or Other Pacific Islander (Not Hispanic or Latino) Asian (Not Hispanic or Latino) American Indian or Alaska Native (Not Hispanic or Latino) Two or More Races (Not Hispanic or Latino) Decline to self-identify = Decline to self-identify",
+    "Veteran status Select ... I identify as one or more of the classifications of protected veteran listed above I am not a protected veteran I decline to self-identify for protected veteran status = I decline to self-identify for protected veteran status"
+   ],
+   "banner": "Co-op board: 5 field(s) need you before submit: Select One · Type your response · Type your response · Disability status Select ... Yes, I have a disability, or have had one in the past No, I do not have a disability and have not had one in the past I do not want to answer (no option matched 'Decline to self-identify') · What is your location? Select... Afghanistan Albania Algeria American Samoa Andorra Angola Anguilla Antarctica Antigua and Barbuda Argentina Armenia Aruba Australia Austria Azerbaijan Bahamas Bahrain Bangladesh Barbados Belarus Belgium Belize Benin Bermuda Bhutan Bolivia Bonaire, Sint Eustatius and Saba Bosnia and Herzegovina Botswana Bouvet Island Brazil British Indian Ocean Territory Brunei Bulgaria Burkina Faso Burundi Cambodia Cameroon Canada Cape Verde Cayman Islands Central African Republic Chad Chile China Christmas Island Cocos (Keeling) Islands Colombia Comoros Congo Congo, the Democratic Republic of the Cook Islands Costa Rica Croatia Cuba Curaçao Cyprus Czech Republic Denmark Djibouti Dominica Dominican Republic Ecuador Egypt El Salvador Equatorial Guinea Eritrea Estonia Eswatini Ethiopia Falkland Islands Faroe Islands Fiji Finland France French Guiana French Polynesia French Southern Territories Gabon Gambia Georgia Germany Ghana Gibraltar Greece Greenland Grenada Guadeloupe Guam Guatemala Guernsey Guinea Guinea-Bissau Guyana Haiti Heard Island and McDonald Islands Holy See (Vatican City State) Honduras Hong Kong Hungary Iceland India Indonesia Iran Iraq Ireland Isle of Man Israel Italy Ivory Coast Jamaica Japan Jersey Jordan Kazakhstan Kenya Kiribati Kosovo Kuwait Kyrgyzstan Laos Latvia Lebanon Lesotho Liberia Libya Liechtenstein Lithuania Luxembourg Macao Macedonia, the Former Yugoslav Republic of Madagascar Malawi Malaysia Maldives Mali Malta Marshall Islands Martinique Mauritania Mauritius Mayotte Mexico Micronesia, Federated States of Moldova Monaco Mongolia Montenegro Montserrat Morocco Mozambique Myanmar Namibia Nauru Nepal Netherlands New Caledonia New Zealand Nicaragua Niger Nigeria Niue Norfolk Island North Korea Northern Mariana Islands Norway Oman Pakistan Palau Palestine, State of Panama Papua New Guinea Paraguay Peru Philippines Pitcairn Poland Portugal Puerto Rico Qatar Romania Russia Rwanda Réunion Saint Barthélemy Saint Helena, Ascension and Tristan da Cunha Saint Kitts and Nevis Saint Lucia Saint Martin (French part) Saint Pierre and Miquelon Saint Vincent and the Grenadines Samoa San Marino Sao Tome and Principe Saudi Arabia Senegal Serbia Seychelles Sierra Leone Singapore Sint Maarten (Dutch part) Slovakia Slovenia Solomon Islands Somalia South Africa South Georgia and the South Sandwich Islands South Korea South Sudan Spain Sri Lanka Sudan Suriname Svalbard and Jan Mayen Sweden Switzerland Syria Taiwan Tajikistan Tanzania Thailand Timor-Leste Togo Tokelau Tonga Trinidad and Tobago Tunisia Turkey Turkmenistan Turks and Caicos Islands Tuvalu Uganda Ukraine United Arab Emirates United Kingdom United States United States Minor Outlying Islands Uruguay Uzbekistan Vanuatu Venezuela Vietnam Virgin Islands, British Virgin Islands, U.S. Wallis and Futuna Western Sahara Yemen Zambia Zimbabwe Åland Islands (no option matched 'Boston, MA')",
+   "final_url": "https://jobs.lever.co/hermeus/b7babdb5-64ee-49ad-a193-918d6a31c462/apply#coop=309203e333f1b275",
+   "pages": 0,
+   "button": "",
+   "title": "Hermeus - Avionics Electrical Engineering Intern - Spring/Summer 2027"
+  },
+  {
+   "id": "78f886849e1a6eaf",
+   "company": "Quantinuum",
+   "role": "Layout Automation Engineering Intern",
+   "portal": "lever",
+   "url": "https://jobs.eu.lever.co/quantinuum/550a6e3c-2556-4ac3-8cc4-862cb0681dc0/apply?lever-source=Simplify",
+   "status": "needs-you",
+   "need": [
+    "Are you able to work 40 hours per week for our 12-week internship program?",
+    "Type your response",
+    "Type your response",
+    "Type your response",
+    "Type your response",
+    "Disability status Select ... Yes, I have a disability, or have had one in the past No, I do not have a disability and have not had one in the past I do not want to answer (no option matched 'Decline to self-identify')"
+   ],
+   "done": [
+    "Do your compensation expectations align within our posted range? = Open",
+    "Which Degree are you pursuing? = Bachelor's",
+    "Are you related to anyone who currently works at Quantinuum? = No",
+    "Have you been previously employed with Quantinuum and/or any Honeywell subsidiaries? = No",
+    "Our internships are located onsite at our local facilities. Do you agree to work onsite 100%? Special accommodation could be considered & hours could be flexible based upon your needs. = Yes",
+    "Do you require relocation for this role? = Yes, I am willing to relocate",
+    "Resume/CV  ATTACH RESUME/CV = Test_Applicant_Resume.pdf",
+    "Full name = Test Applicant",
+    "Email = test.applicant@example.com",
+    "Phone = 617-555-0100",
+    "Current location = Boston, MA",
+    "left blank (optional): Current company",
+    "LinkedIn URL = https://www.linkedin.com/in/test-applica",
+    "Twitter URL = https://example.com",
+    "GitHub URL = https://github.com/test-applicant",
+    "Portfolio URL = https://example.com",
+    "Other website = https://example.com",
+    "Gender Select ... Male Female Decline to self-identify = Decline to self-identify",
+    "Race Select ... Hispanic or Latino White (Not Hispanic or Latino) Black or African American (Not Hispanic or Latino) Native Hawaiian or Other Pacific Islander (Not Hispanic or Latino) Asian (Not Hispanic or Latino) American Indian or Alaska Native (Not Hispanic or Latino) Two or More Races (Not Hispanic or Latino) Decline to self-identify = Decline to self-identify",
+    "Veteran status Select ... I identify as one or more of the classifications of protected veteran listed above I am not a protected veteran I decline to self-identify for protected veteran status = I decline to self-identify for protected veteran status"
+   ],
+   "banner": "Co-op board: 6 field(s) need you before submit: Are you able to work 40 hours per week for our 12-week internship program? · Type your response · Type your response · Type your response · Type your response · Disability status Select ... Yes, I have a disability, or have had one in the past No, I do not have a disability and have not had one in the past I do not want to answer (no option matched 'Decline to self-identify')",
+   "final_url": "https://jobs.eu.lever.co/quantinuum/550a6e3c-2556-4ac3-8cc4-862cb0681dc0/apply?lever-source=Simplify#coop=78f886849e1a6eaf",
+   "pages": 0,
+   "button": "",
+   "title": "Quantinuum - Layout Automation Developer Intern - 993"
+  },
+  {
+   "id": "f3e201ccecc02bae",
+   "company": "Hermeus",
+   "role": "Subsystem Test Engineering Intern - Spring/Summer 2027",
+   "portal": "lever",
+   "url": "https://jobs.lever.co/hermeus/643fd7b7-9015-43a1-aa2b-a54f117b403c/apply",
+   "status": "needs-you",
+   "need": [
+    "Select One",
+    "Type your response",
+    "Type your response",
+    "Disability status Select ... Yes, I have a disability, or have had one in the past No, I do not have a disability and have not had one in the past I do not want to answer (no option matched 'Decline to self-identify')",
+    "What is your location? Select... Afghanistan Albania Algeria American Samoa Andorra Angola Anguilla Antarctica Antigua and Barbuda Argentina Armenia Aruba Australia Austria Azerbaijan Bahamas Bahrain Bangladesh Barbados Belarus Belgium Belize Benin Bermuda Bhutan Bolivia Bonaire, Sint Eustatius and Saba Bosnia and Herzegovina Botswana Bouvet Island Brazil British Indian Ocean Territory Brunei Bulgaria Burkina Faso Burundi Cambodia Cameroon Canada Cape Verde Cayman Islands Central African Republic Chad Chile China Christmas Island Cocos (Keeling) Islands Colombia Comoros Congo Congo, the Democratic Republic of the Cook Islands Costa Rica Croatia Cuba Curaçao Cyprus Czech Republic Denmark Djibouti Dominica Dominican Republic Ecuador Egypt El Salvador Equatorial Guinea Eritrea Estonia Eswatini Ethiopia Falkland Islands Faroe Islands Fiji Finland France French Guiana French Polynesia French Southern Territories Gabon Gambia Georgia Germany Ghana Gibraltar Greece Greenland Grenada Guadeloupe Guam Guatemala Guernsey Guinea Guinea-Bissau Guyana Haiti Heard Island and McDonald Islands Holy See (Vatican City State) Honduras Hong Kong Hungary Iceland India Indonesia Iran Iraq Ireland Isle of Man Israel Italy Ivory Coast Jamaica Japan Jersey Jordan Kazakhstan Kenya Kiribati Kosovo Kuwait Kyrgyzstan Laos Latvia Lebanon Lesotho Liberia Libya Liechtenstein Lithuania Luxembourg Macao Macedonia, the Former Yugoslav Republic of Madagascar Malawi Malaysia Maldives Mali Malta Marshall Islands Martinique Mauritania Mauritius Mayotte Mexico Micronesia, Federated States of Moldova Monaco Mongolia Montenegro Montserrat Morocco Mozambique Myanmar Namibia Nauru Nepal Netherlands New Caledonia New Zealand Nicaragua Niger Nigeria Niue Norfolk Island North Korea Northern Mariana Islands Norway Oman Pakistan Palau Palestine, State of Panama Papua New Guinea Paraguay Peru Philippines Pitcairn Poland Portugal Puerto Rico Qatar Romania Russia Rwanda Réunion Saint Barthélemy Saint Helena, Ascension and Tristan da Cunha Saint Kitts and Nevis Saint Lucia Saint Martin (French part) Saint Pierre and Miquelon Saint Vincent and the Grenadines Samoa San Marino Sao Tome and Principe Saudi Arabia Senegal Serbia Seychelles Sierra Leone Singapore Sint Maarten (Dutch part) Slovakia Slovenia Solomon Islands Somalia South Africa South Georgia and the South Sandwich Islands South Korea South Sudan Spain Sri Lanka Sudan Suriname Svalbard and Jan Mayen Sweden Switzerland Syria Taiwan Tajikistan Tanzania Thailand Timor-Leste Togo Tokelau Tonga Trinidad and Tobago Tunisia Turkey Turkmenistan Turks and Caicos Islands Tuvalu Uganda Ukraine United Arab Emirates United Kingdom United States United States Minor Outlying Islands Uruguay Uzbekistan Vanuatu Venezuela Vietnam Virgin Islands, British Virgin Islands, U.S. Wallis and Futuna Western Sahara Yemen Zambia Zimbabwe Åland Islands (no option matched 'Boston, MA')"
+   ],
+   "done": [
+    "Are you legally authorized to work for any employer in the United States? = Yes",
+    "Will you now or will you in the future require employment visa sponsorship? = No",
+    "Which semester(s) are you interested in? = Spring 2027",
+    "Have you completed your junior year of study (i.e., are you entering your senior year) or are you a graduate student? = December 2027",
+    "Resume/CV  ATTACH RESUME/CV = Test_Applicant_Resume.pdf",
+    "Full name = Test Applicant",
+    "Email = test.applicant@example.com",
+    "Phone = 617-555-0100",
+    "Current location = Boston, MA",
+    "left blank (optional): Current company",
+    "LinkedIn URL = https://www.linkedin.com/in/test-applica",
+    "Other website = https://example.com",
+    "left blank (optional): Type your response",
+    "left blank (optional): Type your response",
+    "Gender Select ... Male Female Decline to self-identify = Decline to self-identify",
+    "Race Select ... Hispanic or Latino White (Not Hispanic or Latino) Black or African American (Not Hispanic or Latino) Native Hawaiian or Other Pacific Islander (Not Hispanic or Latino) Asian (Not Hispanic or Latino) American Indian or Alaska Native (Not Hispanic or Latino) Two or More Races (Not Hispanic or Latino) Decline to self-identify = Decline to self-identify",
+    "Veteran status Select ... I identify as one or more of the classifications of protected veteran listed above I am not a protected veteran I decline to self-identify for protected veteran status = I decline to self-identify for protected veteran status"
+   ],
+   "banner": "Co-op board: 5 field(s) need you before submit: Select One · Type your response · Type your response · Disability status Select ... Yes, I have a disability, or have had one in the past No, I do not have a disability and have not had one in the past I do not want to answer (no option matched 'Decline to self-identify') · What is your location? Select... Afghanistan Albania Algeria American Samoa Andorra Angola Anguilla Antarctica Antigua and Barbuda Argentina Armenia Aruba Australia Austria Azerbaijan Bahamas Bahrain Bangladesh Barbados Belarus Belgium Belize Benin Bermuda Bhutan Bolivia Bonaire, Sint Eustatius and Saba Bosnia and Herzegovina Botswana Bouvet Island Brazil British Indian Ocean Territory Brunei Bulgaria Burkina Faso Burundi Cambodia Cameroon Canada Cape Verde Cayman Islands Central African Republic Chad Chile China Christmas Island Cocos (Keeling) Islands Colombia Comoros Congo Congo, the Democratic Republic of the Cook Islands Costa Rica Croatia Cuba Curaçao Cyprus Czech Republic Denmark Djibouti Dominica Dominican Republic Ecuador Egypt El Salvador Equatorial Guinea Eritrea Estonia Eswatini Ethiopia Falkland Islands Faroe Islands Fiji Finland France French Guiana French Polynesia French Southern Territories Gabon Gambia Georgia Germany Ghana Gibraltar Greece Greenland Grenada Guadeloupe Guam Guatemala Guernsey Guinea Guinea-Bissau Guyana Haiti Heard Island and McDonald Islands Holy See (Vatican City State) Honduras Hong Kong Hungary Iceland India Indonesia Iran Iraq Ireland Isle of Man Israel Italy Ivory Coast Jamaica Japan Jersey Jordan Kazakhstan Kenya Kiribati Kosovo Kuwait Kyrgyzstan Laos Latvia Lebanon Lesotho Liberia Libya Liechtenstein Lithuania Luxembourg Macao Macedonia, the Former Yugoslav Republic of Madagascar Malawi Malaysia Maldives Mali Malta Marshall Islands Martinique Mauritania Mauritius Mayotte Mexico Micronesia, Federated States of Moldova Monaco Mongolia Montenegro Montserrat Morocco Mozambique Myanmar Namibia Nauru Nepal Netherlands New Caledonia New Zealand Nicaragua Niger Nigeria Niue Norfolk Island North Korea Northern Mariana Islands Norway Oman Pakistan Palau Palestine, State of Panama Papua New Guinea Paraguay Peru Philippines Pitcairn Poland Portugal Puerto Rico Qatar Romania Russia Rwanda Réunion Saint Barthélemy Saint Helena, Ascension and Tristan da Cunha Saint Kitts and Nevis Saint Lucia Saint Martin (French part) Saint Pierre and Miquelon Saint Vincent and the Grenadines Samoa San Marino Sao Tome and Principe Saudi Arabia Senegal Serbia Seychelles Sierra Leone Singapore Sint Maarten (Dutch part) Slovakia Slovenia Solomon Islands Somalia South Africa South Georgia and the South Sandwich Islands South Korea South Sudan Spain Sri Lanka Sudan Suriname Svalbard and Jan Mayen Sweden Switzerland Syria Taiwan Tajikistan Tanzania Thailand Timor-Leste Togo Tokelau Tonga Trinidad and Tobago Tunisia Turkey Turkmenistan Turks and Caicos Islands Tuvalu Uganda Ukraine United Arab Emirates United Kingdom United States United States Minor Outlying Islands Uruguay Uzbekistan Vanuatu Venezuela Vietnam Virgin Islands, British Virgin Islands, U.S. Wallis and Futuna Western Sahara Yemen Zambia Zimbabwe Åland Islands (no option matched 'Boston, MA')",
+   "final_url": "https://jobs.lever.co/hermeus/643fd7b7-9015-43a1-aa2b-a54f117b403c/apply#coop=f3e201ccecc02bae",
+   "pages": 0,
+   "button": "",
+   "title": "Hermeus - Subsystem Test Engineering Intern - Spring/Summer 2027"
+  },
+  {
+   "id": "2537521518f7f31f",
+   "company": "Shield AI",
+   "role": "Electrical Engineering Spring Co-op (January 2027) (R4475)",
+   "portal": "lever",
+   "url": "https://jobs.lever.co/shieldai/87d982f2-8b2b-4c73-9a19-71e461c7b724/apply",
+   "status": "needs-you",
+   "need": [
+    "Shield AI provides technology, services, and support to the United States military and allied forces with their various missions. If selected for employment with Shield AI, your contributions will directly relate to and/or support these missions. Are there any reasons why you would not be able to fully contribute in support of the U.S. military and allied forces?",
+    "Are you a transitioning service member?",
+    "Type your response",
+    "Disability status Select ... Yes, I have a disability, or have had one in the past No, I do not have a disability and have not had one in the past I do not want to answer (no option matched 'Decline to self-identify')"
+   ],
+   "done": [
+    "Are you authorized to work in the United States? = Yes",
+    "Will you require sponsorship for employment now or in the future? = No",
+    "This position may require access to information and technology that is subject to export controls, such as EAR. Are you any of the following? = A United States Citizen",
+    "How did you hear about us? = LinkedIn Post",
+    "left blank (optional): If yes, what partnership program are you working with?",
+    "What office(s) would you be willing to relocate to? (Select all that apply) = Yes",
+    "Do you have, or are you able to obtain, a S/SAR clearance? = No",
+    "If you are currently enrolled in or have graduated from a university within the past 24 months, what is your current or final GPA? = Northeastern University",
+    "Race = Race Hispanic or Latino A person of Cuban, Mexican, Puerto Rican, South or Central American, or other Spanish culture or origin regardless of race. White (Not Hispanic or Latino) A person having origins in any of the original peoples of Europe, the Middle East, or North Africa. Black or African American (Not Hispanic or Latino) A person having origins in any of the black racial groups of Africa. Native Hawaiian or Other Pacific Islander (Not Hispanic or Latino) A person having origins in any of the peoples of Hawaii, Guam, Samoa, or other Pacific Islands. Asian (Not Hispanic or Latino) A person having origins in any of the original peoples of the Far East, Southeast Asia, or the Indian Subcontinent, including, for example, Cambodia, China, India, Japan, Korea, Malaysia, Pakistan, the Philippine Islands, Thailand, and Vietnam. American Indian or Alaska Native (Not Hispanic or Latino) A person having origins in any of the original peoples of North and South America (including Central America), and who maintain tribal affiliation or community attachment. Two or More Races (Not Hispanic or Latino) All persons who identify with more than one of the above five races. Decline to self-identify",
+    "Yes, Shield AI can contact me about future job opportunities for up to 1 year Privacy policy = Third year (junior)",
+    "Resume/CV  ATTACH RESUME/CV = Test_Applicant_Resume.pdf",
+    "Full name = Test Applicant",
+    "Email = test.applicant@example.com",
+    "Phone = 617-555-0100",
+    "Current location = Boston, MA",
+    "left blank (optional): Current company",
+    "LinkedIn URL = https://www.linkedin.com/in/test-applica",
+    "Twitter URL = https://example.com",
+    "GitHub URL = https://github.com/test-applicant",
+    "Portfolio URL = https://example.com",
+    "Other website = https://example.com",
+    "Gender Select ... Male Female Decline to self-identify = Decline to self-identify",
+    "Veteran status Select ... I identify as one or more of the classifications of protected veteran listed above I am not a protected veteran I decline to self-identify for protected veteran status = I decline to self-identify for protected veteran status"
+   ],
+   "banner": "Co-op board: 4 field(s) need you before submit: Shield AI provides technology, services, and support to the United States military and allied forces with their various missions. If selected for employment with Shield AI, your contributions will directly relate to and/or support these missions. Are there any reasons why you would not be able to fully contribute in support of the U.S. military and allied forces? · Are you a transitioning service member? · Type your response · Disability status Select ... Yes, I have a disability, or have had one in the past No, I do not have a disability and have not had one in the past I do not want to answer (no option matched 'Decline to self-identify')",
+   "final_url": "https://jobs.lever.co/shieldai/87d982f2-8b2b-4c73-9a19-71e461c7b724/apply#coop=2537521518f7f31f",
+   "pages": 0,
+   "button": "",
+   "title": "Shield AI - Electrical Engineering Spring Co-op (January 2027) (R4475)"
+  },
+  {
+   "id": "117e950a697cb9e3",
+   "company": "Hermeus",
+   "role": "Environmental, Health, and Safety (EHS) Intern - 2027",
+   "portal": "lever",
+   "url": "https://jobs.lever.co/hermeus/7a0408e7-700c-4206-85d6-62f71f625652/apply",
+   "status": "needs-you",
+   "need": [
+    "Select One",
+    "Type your response",
+    "Type your response",
+    "Disability status Select ... Yes, I have a disability, or have had one in the past No, I do not have a disability and have not had one in the past I do not want to answer (no option matched 'Decline to self-identify')",
+    "What is your location? Select... Afghanistan Albania Algeria American Samoa Andorra Angola Anguilla Antarctica Antigua and Barbuda Argentina Armenia Aruba Australia Austria Azerbaijan Bahamas Bahrain Bangladesh Barbados Belarus Belgium Belize Benin Bermuda Bhutan Bolivia Bonaire, Sint Eustatius and Saba Bosnia and Herzegovina Botswana Bouvet Island Brazil British Indian Ocean Territory Brunei Bulgaria Burkina Faso Burundi Cambodia Cameroon Canada Cape Verde Cayman Islands Central African Republic Chad Chile China Christmas Island Cocos (Keeling) Islands Colombia Comoros Congo Congo, the Democratic Republic of the Cook Islands Costa Rica Croatia Cuba Curaçao Cyprus Czech Republic Denmark Djibouti Dominica Dominican Republic Ecuador Egypt El Salvador Equatorial Guinea Eritrea Estonia Eswatini Ethiopia Falkland Islands Faroe Islands Fiji Finland France French Guiana French Polynesia French Southern Territories Gabon Gambia Georgia Germany Ghana Gibraltar Greece Greenland Grenada Guadeloupe Guam Guatemala Guernsey Guinea Guinea-Bissau Guyana Haiti Heard Island and McDonald Islands Holy See (Vatican City State) Honduras Hong Kong Hungary Iceland India Indonesia Iran Iraq Ireland Isle of Man Israel Italy Ivory Coast Jamaica Japan Jersey Jordan Kazakhstan Kenya Kiribati Kosovo Kuwait Kyrgyzstan Laos Latvia Lebanon Lesotho Liberia Libya Liechtenstein Lithuania Luxembourg Macao Macedonia, the Former Yugoslav Republic of Madagascar Malawi Malaysia Maldives Mali Malta Marshall Islands Martinique Mauritania Mauritius Mayotte Mexico Micronesia, Federated States of Moldova Monaco Mongolia Montenegro Montserrat Morocco Mozambique Myanmar Namibia Nauru Nepal Netherlands New Caledonia New Zealand Nicaragua Niger Nigeria Niue Norfolk Island North Korea Northern Mariana Islands Norway Oman Pakistan Palau Palestine, State of Panama Papua New Guinea Paraguay Peru Philippines Pitcairn Poland Portugal Puerto Rico Qatar Romania Russia Rwanda Réunion Saint Barthélemy Saint Helena, Ascension and Tristan da Cunha Saint Kitts and Nevis Saint Lucia Saint Martin (French part) Saint Pierre and Miquelon Saint Vincent and the Grenadines Samoa San Marino Sao Tome and Principe Saudi Arabia Senegal Serbia Seychelles Sierra Leone Singapore Sint Maarten (Dutch part) Slovakia Slovenia Solomon Islands Somalia South Africa South Georgia and the South Sandwich Islands South Korea South Sudan Spain Sri Lanka Sudan Suriname Svalbard and Jan Mayen Sweden Switzerland Syria Taiwan Tajikistan Tanzania Thailand Timor-Leste Togo Tokelau Tonga Trinidad and Tobago Tunisia Turkey Turkmenistan Turks and Caicos Islands Tuvalu Uganda Ukraine United Arab Emirates United Kingdom United States United States Minor Outlying Islands Uruguay Uzbekistan Vanuatu Venezuela Vietnam Virgin Islands, British Virgin Islands, U.S. Wallis and Futuna Western Sahara Yemen Zambia Zimbabwe Åland Islands (no option matched 'Boston, MA')"
+   ],
+   "done": [
+    "Are you legally authorized to work for any employer in the United States? = Yes",
+    "Will you now or will you in the future require employment visa sponsorship? = No",
+    "Which semester(s) are you interested in? = Spring 2027",
+    "Have you completed your junior year of study (i.e., are you entering your senior year) or are you a graduate student? = December 2027",
+    "Do you require visa sponsorship for employment in the USA? = No, I do not require sponsorship",
+    "If no, will you require sponsorship in the future? = No, I will not require sponsorship in the future",
+    "Resume/CV  ATTACH RESUME/CV = Test_Applicant_Resume.pdf",
+    "Full name = Test Applicant",
+    "Email = test.applicant@example.com",
+    "Phone = 617-555-0100",
+    "Current location = Boston, MA",
+    "left blank (optional): Current company",
+    "LinkedIn URL = https://www.linkedin.com/in/test-applica",
+    "Other website = https://example.com",
+    "left blank (optional): Type your response",
+    "left blank (optional): Type your response",
+    "Gender Select ... Male Female Decline to self-identify = Decline to self-identify",
+    "Race Select ... Hispanic or Latino White (Not Hispanic or Latino) Black or African American (Not Hispanic or Latino) Native Hawaiian or Other Pacific Islander (Not Hispanic or Latino) Asian (Not Hispanic or Latino) American Indian or Alaska Native (Not Hispanic or Latino) Two or More Races (Not Hispanic or Latino) Decline to self-identify = Decline to self-identify",
+    "Veteran status Select ... I identify as one or more of the classifications of protected veteran listed above I am not a protected veteran I decline to self-identify for protected veteran status = I decline to self-identify for protected veteran status"
+   ],
+   "banner": "Co-op board: 5 field(s) need you before submit: Select One · Type your response · Type your response · Disability status Select ... Yes, I have a disability, or have had one in the past No, I do not have a disability and have not had one in the past I do not want to answer (no option matched 'Decline to self-identify') · What is your location? Select... Afghanistan Albania Algeria American Samoa Andorra Angola Anguilla Antarctica Antigua and Barbuda Argentina Armenia Aruba Australia Austria Azerbaijan Bahamas Bahrain Bangladesh Barbados Belarus Belgium Belize Benin Bermuda Bhutan Bolivia Bonaire, Sint Eustatius and Saba Bosnia and Herzegovina Botswana Bouvet Island Brazil British Indian Ocean Territory Brunei Bulgaria Burkina Faso Burundi Cambodia Cameroon Canada Cape Verde Cayman Islands Central African Republic Chad Chile China Christmas Island Cocos (Keeling) Islands Colombia Comoros Congo Congo, the Democratic Republic of the Cook Islands Costa Rica Croatia Cuba Curaçao Cyprus Czech Republic Denmark Djibouti Dominica Dominican Republic Ecuador Egypt El Salvador Equatorial Guinea Eritrea Estonia Eswatini Ethiopia Falkland Islands Faroe Islands Fiji Finland France French Guiana French Polynesia French Southern Territories Gabon Gambia Georgia Germany Ghana Gibraltar Greece Greenland Grenada Guadeloupe Guam Guatemala Guernsey Guinea Guinea-Bissau Guyana Haiti Heard Island and McDonald Islands Holy See (Vatican City State) Honduras Hong Kong Hungary Iceland India Indonesia Iran Iraq Ireland Isle of Man Israel Italy Ivory Coast Jamaica Japan Jersey Jordan Kazakhstan Kenya Kiribati Kosovo Kuwait Kyrgyzstan Laos Latvia Lebanon Lesotho Liberia Libya Liechtenstein Lithuania Luxembourg Macao Macedonia, the Former Yugoslav Republic of Madagascar Malawi Malaysia Maldives Mali Malta Marshall Islands Martinique Mauritania Mauritius Mayotte Mexico Micronesia, Federated States of Moldova Monaco Mongolia Montenegro Montserrat Morocco Mozambique Myanmar Namibia Nauru Nepal Netherlands New Caledonia New Zealand Nicaragua Niger Nigeria Niue Norfolk Island North Korea Northern Mariana Islands Norway Oman Pakistan Palau Palestine, State of Panama Papua New Guinea Paraguay Peru Philippines Pitcairn Poland Portugal Puerto Rico Qatar Romania Russia Rwanda Réunion Saint Barthélemy Saint Helena, Ascension and Tristan da Cunha Saint Kitts and Nevis Saint Lucia Saint Martin (French part) Saint Pierre and Miquelon Saint Vincent and the Grenadines Samoa San Marino Sao Tome and Principe Saudi Arabia Senegal Serbia Seychelles Sierra Leone Singapore Sint Maarten (Dutch part) Slovakia Slovenia Solomon Islands Somalia South Africa South Georgia and the South Sandwich Islands South Korea South Sudan Spain Sri Lanka Sudan Suriname Svalbard and Jan Mayen Sweden Switzerland Syria Taiwan Tajikistan Tanzania Thailand Timor-Leste Togo Tokelau Tonga Trinidad and Tobago Tunisia Turkey Turkmenistan Turks and Caicos Islands Tuvalu Uganda Ukraine United Arab Emirates United Kingdom United States United States Minor Outlying Islands Uruguay Uzbekistan Vanuatu Venezuela Vietnam Virgin Islands, British Virgin Islands, U.S. Wallis and Futuna Western Sahara Yemen Zambia Zimbabwe Åland Islands (no option matched 'Boston, MA')",
+   "final_url": "https://jobs.lever.co/hermeus/7a0408e7-700c-4206-85d6-62f71f625652/apply#coop=117e950a697cb9e3",
+   "pages": 0,
+   "button": "",
+   "title": "Hermeus - Environmental, Health, and Safety (EHS) Intern - 2027"
+  },
+  {
+   "id": "195882dc93ad64e6",
+   "company": "Hermeus",
+   "role": "Flight Operations & Airworthiness Engineering Intern - Spring/Summer/Fall 2027",
+   "portal": "lever",
+   "url": "https://jobs.lever.co/hermeus/944918b0-17ca-46ec-9413-5acd7086addf/apply",
+   "status": "needs-you",
+   "need": [
+    "Select One",
+    "Type your response",
+    "Type your response",
+    "Disability status Select ... Yes, I have a disability, or have had one in the past No, I do not have a disability and have not had one in the past I do not want to answer (no option matched 'Decline to self-identify')",
+    "What is your location? Select... Afghanistan Albania Algeria American Samoa Andorra Angola Anguilla Antarctica Antigua and Barbuda Argentina Armenia Aruba Australia Austria Azerbaijan Bahamas Bahrain Bangladesh Barbados Belarus Belgium Belize Benin Bermuda Bhutan Bolivia Bonaire, Sint Eustatius and Saba Bosnia and Herzegovina Botswana Bouvet Island Brazil British Indian Ocean Territory Brunei Bulgaria Burkina Faso Burundi Cambodia Cameroon Canada Cape Verde Cayman Islands Central African Republic Chad Chile China Christmas Island Cocos (Keeling) Islands Colombia Comoros Congo Congo, the Democratic Republic of the Cook Islands Costa Rica Croatia Cuba Curaçao Cyprus Czech Republic Denmark Djibouti Dominica Dominican Republic Ecuador Egypt El Salvador Equatorial Guinea Eritrea Estonia Eswatini Ethiopia Falkland Islands Faroe Islands Fiji Finland France French Guiana French Polynesia French Southern Territories Gabon Gambia Georgia Germany Ghana Gibraltar Greece Greenland Grenada Guadeloupe Guam Guatemala Guernsey Guinea Guinea-Bissau Guyana Haiti Heard Island and McDonald Islands Holy See (Vatican City State) Honduras Hong Kong Hungary Iceland India Indonesia Iran Iraq Ireland Isle of Man Israel Italy Ivory Coast Jamaica Japan Jersey Jordan Kazakhstan Kenya Kiribati Kosovo Kuwait Kyrgyzstan Laos Latvia Lebanon Lesotho Liberia Libya Liechtenstein Lithuania Luxembourg Macao Macedonia, the Former Yugoslav Republic of Madagascar Malawi Malaysia Maldives Mali Malta Marshall Islands Martinique Mauritania Mauritius Mayotte Mexico Micronesia, Federated States of Moldova Monaco Mongolia Montenegro Montserrat Morocco Mozambique Myanmar Namibia Nauru Nepal Netherlands New Caledonia New Zealand Nicaragua Niger Nigeria Niue Norfolk Island North Korea Northern Mariana Islands Norway Oman Pakistan Palau Palestine, State of Panama Papua New Guinea Paraguay Peru Philippines Pitcairn Poland Portugal Puerto Rico Qatar Romania Russia Rwanda Réunion Saint Barthélemy Saint Helena, Ascension and Tristan da Cunha Saint Kitts and Nevis Saint Lucia Saint Martin (French part) Saint Pierre and Miquelon Saint Vincent and the Grenadines Samoa San Marino Sao Tome and Principe Saudi Arabia Senegal Serbia Seychelles Sierra Leone Singapore Sint Maarten (Dutch part) Slovakia Slovenia Solomon Islands Somalia South Africa South Georgia and the South Sandwich Islands South Korea South Sudan Spain Sri Lanka Sudan Suriname Svalbard and Jan Mayen Sweden Switzerland Syria Taiwan Tajikistan Tanzania Thailand Timor-Leste Togo Tokelau Tonga Trinidad and Tobago Tunisia Turkey Turkmenistan Turks and Caicos Islands Tuvalu Uganda Ukraine United Arab Emirates United Kingdom United States United States Minor Outlying Islands Uruguay Uzbekistan Vanuatu Venezuela Vietnam Virgin Islands, British Virgin Islands, U.S. Wallis and Futuna Western Sahara Yemen Zambia Zimbabwe Åland Islands (no option matched 'Boston, MA')"
+   ],
+   "done": [
+    "Are you legally authorized to work for any employer in the United States? = Yes",
+    "Will you now or will you in the future require employment visa sponsorship? = No",
+    "Which semester(s) are you interested in? = Spring 2027",
+    "Have you completed your junior year of study (i.e., are you entering your senior year) or are you a graduate student? = December 2027",
+    "Do you require visa sponsorship for employment in the USA? = No, I do not require sponsorship",
+    "If no, will you require sponsorship in the future? = No, I will not require sponsorship in the future",
+    "Resume/CV  ATTACH RESUME/CV = Test_Applicant_Resume.pdf",
+    "Full name = Test Applicant",
+    "Email = test.applicant@example.com",
+    "Phone = 617-555-0100",
+    "Current location = Boston, MA",
+    "left blank (optional): Current company",
+    "LinkedIn URL = https://www.linkedin.com/in/test-applica",
+    "Other website = https://example.com",
+    "left blank (optional): Type your response",
+    "left blank (optional): Type your response",
+    "Gender Select ... Male Female Decline to self-identify = Decline to self-identify",
+    "Race Select ... Hispanic or Latino White (Not Hispanic or Latino) Black or African American (Not Hispanic or Latino) Native Hawaiian or Other Pacific Islander (Not Hispanic or Latino) Asian (Not Hispanic or Latino) American Indian or Alaska Native (Not Hispanic or Latino) Two or More Races (Not Hispanic or Latino) Decline to self-identify = Decline to self-identify",
+    "Veteran status Select ... I identify as one or more of the classifications of protected veteran listed above I am not a protected veteran I decline to self-identify for protected veteran status = I decline to self-identify for protected veteran status"
+   ],
+   "banner": "Co-op board: 5 field(s) need you before submit: Select One · Type your response · Type your response · Disability status Select ... Yes, I have a disability, or have had one in the past No, I do not have a disability and have not had one in the past I do not want to answer (no option matched 'Decline to self-identify') · What is your location? Select... Afghanistan Albania Algeria American Samoa Andorra Angola Anguilla Antarctica Antigua and Barbuda Argentina Armenia Aruba Australia Austria Azerbaijan Bahamas Bahrain Bangladesh Barbados Belarus Belgium Belize Benin Bermuda Bhutan Bolivia Bonaire, Sint Eustatius and Saba Bosnia and Herzegovina Botswana Bouvet Island Brazil British Indian Ocean Territory Brunei Bulgaria Burkina Faso Burundi Cambodia Cameroon Canada Cape Verde Cayman Islands Central African Republic Chad Chile China Christmas Island Cocos (Keeling) Islands Colombia Comoros Congo Congo, the Democratic Republic of the Cook Islands Costa Rica Croatia Cuba Curaçao Cyprus Czech Republic Denmark Djibouti Dominica Dominican Republic Ecuador Egypt El Salvador Equatorial Guinea Eritrea Estonia Eswatini Ethiopia Falkland Islands Faroe Islands Fiji Finland France French Guiana French Polynesia French Southern Territories Gabon Gambia Georgia Germany Ghana Gibraltar Greece Greenland Grenada Guadeloupe Guam Guatemala Guernsey Guinea Guinea-Bissau Guyana Haiti Heard Island and McDonald Islands Holy See (Vatican City State) Honduras Hong Kong Hungary Iceland India Indonesia Iran Iraq Ireland Isle of Man Israel Italy Ivory Coast Jamaica Japan Jersey Jordan Kazakhstan Kenya Kiribati Kosovo Kuwait Kyrgyzstan Laos Latvia Lebanon Lesotho Liberia Libya Liechtenstein Lithuania Luxembourg Macao Macedonia, the Former Yugoslav Republic of Madagascar Malawi Malaysia Maldives Mali Malta Marshall Islands Martinique Mauritania Mauritius Mayotte Mexico Micronesia, Federated States of Moldova Monaco Mongolia Montenegro Montserrat Morocco Mozambique Myanmar Namibia Nauru Nepal Netherlands New Caledonia New Zealand Nicaragua Niger Nigeria Niue Norfolk Island North Korea Northern Mariana Islands Norway Oman Pakistan Palau Palestine, State of Panama Papua New Guinea Paraguay Peru Philippines Pitcairn Poland Portugal Puerto Rico Qatar Romania Russia Rwanda Réunion Saint Barthélemy Saint Helena, Ascension and Tristan da Cunha Saint Kitts and Nevis Saint Lucia Saint Martin (French part) Saint Pierre and Miquelon Saint Vincent and the Grenadines Samoa San Marino Sao Tome and Principe Saudi Arabia Senegal Serbia Seychelles Sierra Leone Singapore Sint Maarten (Dutch part) Slovakia Slovenia Solomon Islands Somalia South Africa South Georgia and the South Sandwich Islands South Korea South Sudan Spain Sri Lanka Sudan Suriname Svalbard and Jan Mayen Sweden Switzerland Syria Taiwan Tajikistan Tanzania Thailand Timor-Leste Togo Tokelau Tonga Trinidad and Tobago Tunisia Turkey Turkmenistan Turks and Caicos Islands Tuvalu Uganda Ukraine United Arab Emirates United Kingdom United States United States Minor Outlying Islands Uruguay Uzbekistan Vanuatu Venezuela Vietnam Virgin Islands, British Virgin Islands, U.S. Wallis and Futuna Western Sahara Yemen Zambia Zimbabwe Åland Islands (no option matched 'Boston, MA')",
+   "final_url": "https://jobs.lever.co/hermeus/944918b0-17ca-46ec-9413-5acd7086addf/apply#coop=195882dc93ad64e6",
+   "pages": 0,
+   "button": "",
+   "title": "Hermeus - Flight Operations & Airworthiness Engineering Intern - Spring/Summer/Fall 2027"
+  },
+  {
+   "id": "c7fd54d47f09378d",
+   "company": "Wabtec",
+   "role": "Firmware Engineering Co-Op (January-June 2027)",
+   "portal": "smartrecruiters",
+   "url": "https://jobs.smartrecruiters.com/wabtec/3743990015249216",
+   "status": "no-button",
+   "need": [
+    "next button"
+   ],
+   "done": [],
+   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep going",
+   "final_url": "https://jobs.smartrecruiters.com/wabtec/3743990015249216#coop=c7fd54d47f09378d",
+   "pages": 0,
+   "button": "",
+   "title": "Wabtec Firmware Engineering Co-Op (January-June 2027) | SmartRecruiters"
+  },
+  {
+   "id": "f31eeb0de08729b7",
+   "company": "Lawrence Livermore National Laboratory",
+   "role": "CGSR Undergraduate Research Associate - Spring 2027",
+   "portal": "smartrecruiters",
+   "url": "https://jobs.smartrecruiters.com/llnl/3743990014540256",
+   "status": "no-button",
+   "need": [
+    "next button"
+   ],
+   "done": [],
+   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep going",
+   "final_url": "https://jobs.smartrecruiters.com/llnl/3743990014540256#coop=f31eeb0de08729b7",
+   "pages": 0,
+   "button": "",
+   "title": "LLNL CGSR Undergraduate Research Associate - Spring 2027 | SmartRecruiters"
+  },
+  {
+   "id": "0602e6e52dfeac63",
+   "company": "Wabtec",
+   "role": "Firmware Engineer Co-op",
+   "portal": "smartrecruiters",
+   "url": "https://jobs.smartrecruiters.com/Wabtec/3743990015249216?utm_source=Simplify",
+   "status": "no-button",
+   "need": [
+    "next button"
+   ],
+   "done": [],
+   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep going",
+   "final_url": "https://jobs.smartrecruiters.com/Wabtec/3743990015249216?utm_source=Simplify#coop=0602e6e52dfeac63",
+   "pages": 0,
+   "button": "",
+   "title": "Wabtec Firmware Engineering Co-Op (January-June 2027) | SmartRecruiters"
+  },
+  {
+   "id": "d66dabc800498d62",
+   "company": "Renesas",
+   "role": "Embedded Systems Intern",
+   "portal": "smartrecruiters",
+   "url": "https://jobs.smartrecruiters.com/renesaselectronics/744000150194379",
+   "status": "no-button",
+   "need": [
+    "next button"
+   ],
+   "done": [],
+   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep going",
+   "final_url": "https://jobs.smartrecruiters.com/renesaselectronics/744000150194379#coop=d66dabc800498d62",
+   "pages": 0,
+   "button": "",
+   "title": "Renesas Electronics Embedded Systems Intern | SmartRecruiters"
+  },
+  {
+   "id": "2f8d4c365c0a0548",
+   "company": "Renesas Electronics",
+   "role": "Embedded Systems Intern",
+   "portal": "smartrecruiters",
+   "url": "https://jobs.smartrecruiters.com/RenesasElectronics/744000150194379?utm_source=Simplify",
+   "status": "no-button",
+   "need": [
+    "next button"
+   ],
+   "done": [],
+   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep going",
+   "final_url": "https://jobs.smartrecruiters.com/RenesasElectronics/744000150194379?utm_source=Simplify#coop=2f8d4c365c0a0548",
+   "pages": 0,
+   "button": "",
+   "title": "Renesas Electronics Embedded Systems Intern | SmartRecruiters"
+  },
+  {
+   "id": "092f22d007bbb0cf",
+   "company": "Renesas",
+   "role": "Integrated Сircuit Test Engineer - Intern",
+   "portal": "smartrecruiters",
+   "url": "https://jobs.smartrecruiters.com/renesaselectronics/744000138837009",
+   "status": "no-button",
+   "need": [
+    "next button"
+   ],
+   "done": [],
+   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep going",
+   "final_url": "https://jobs.smartrecruiters.com/renesaselectronics/744000138837009#coop=092f22d007bbb0cf",
+   "pages": 0,
+   "button": "",
+   "title": "Renesas Electronics Integrated Сircuit Test Engineer - Intern | SmartRecruiters"
+  },
+  {
+   "id": "881738c63f3ca958",
+   "company": "Skyworks",
+   "role": "Test Engineering 2027 Winter/Spring Co-Op",
+   "portal": "other",
+   "url": "https://careers.skyworksinc.com/job/Test-Engineering-2027-WinterSpring-Co-Op/78399-en_US",
+   "status": "no-button",
+   "need": [
+    "next button"
+   ],
+   "done": [],
+   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep going",
+   "final_url": "https://careers.skyworksinc.com/job/Test-Engineering-2027-WinterSpring-Co-Op/78399-en_US#coop=881738c63f3ca958",
+   "pages": 0,
+   "button": "",
+   "title": "Test Engineering 2027 Winter/Spring Co-Op Job Details | Skyworks"
+  },
+  {
+   "id": "60a0506901f15623",
+   "company": "BAE Systems",
+   "role": "Electrical Engineering Coop (Spring/Summer 2027), Onsite",
+   "portal": "other",
+   "url": "https://jobs.baesystems.com/global/en/job/127774BR/electrical-engineering-coop-spring-summer-2027-onsite",
+   "status": "no-button",
+   "need": [
+    "next button"
+   ],
+   "done": [
+    "Enter Email address (Required) = test.applicant@example.com"
+   ],
+   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep going",
+   "final_url": "https://jobs.baesystems.com/global/en/job/127774BR/Electrical-Engineering-Coop-Spring-Summer-2027-Onsite#coop=60a0506901f15623",
+   "pages": 0,
+   "button": "",
+   "title": "Electrical Engineering Coop (Spring/Summer 2027), Onsite in Cedar Rapids, Iowa, United States | Engineering & Technology at BAE Systems"
+  },
+  {
+   "id": "8642b49f33620dad",
+   "company": "Nova-Tech",
+   "role": "Electrical Engineer Co-op",
+   "portal": "other",
+   "url": "https://novatechengineering.applytojob.com/apply/EdW1fxhcs5/Electrical-Engineering-CoOp?utm_source=Simplify",
+   "status": "no-button",
+   "need": [
+    "next button"
+   ],
+   "done": [
+    "First Name = Test",
+    "Last Name = Applicant",
+    "Email Address = test.applicant@example.com",
+    "Phone = 617-555-0100",
+    "Address = Boston, MA",
+    "City = Boston, MA",
+    "State/Province = Massachusetts",
+    "Postal = 02115",
+    "Resume = Test_Applicant_Resume.pdf"
+   ],
+   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep going",
+   "final_url": "https://novatechengineering.applytojob.com/apply/EdW1fxhcs5/Electrical-Engineering-CoOp?utm_source=Simplify#coop=8642b49f33620dad",
+   "pages": 0,
+   "button": "",
+   "title": "Electrical Engineering Co-Op - Nova-Tech Engineering - Career Page"
+  },
+  {
+   "id": "dbfc8efd8ba70e40",
+   "company": "OnLogic",
+   "role": "Firmware Engineer Co-op",
+   "portal": "other",
+   "url": "https://apply.workable.com/onlogic-inc/j/10EC1527D8/apply?utm_source=Simplify",
+   "status": "needs-you",
+   "need": [
+    "How did you first learn about OnLogic and this position?",
+    "We expect this role to begin in January 2027 and run until June 2027. Does this align with your academic schedule?"
+   ],
+   "done": [
+    "Are you currently able to work in the U.S. without employment visa sponsorship? = NO",
+    "Are you able to work in the U.S. without employment visa sponsorship in the future? = NO",
+    "I understand that this role requires the successful completion of a background check. = Dry-run about paragraph.",
+    "I acknowledge that this co-op pays $22/hr. = Open",
+    "First name = Test",
+    "Last name = Applicant",
+    "Email = test.applicant@example.com",
+    "Phone +1 = 617-555-0100",
+    "Resume Choose file = Test_Applicant_Resume.pdf",
+    "We’d like to ensure our team addresses you properly through the interview process. If you’d like, please share your pronouns. (Optional) = Decline to self-identify",
+    "What is your desired salary? = Open",
+    "What academic year (junior, senior) will you be in January 2027? = Third year (junior)",
+    "Are you applying with a school affiliated co-op program? If so, does this match your programs requirements? = Northeastern University",
+    "We are unable to offer any relocation assistance at this time. Do you have the necessary resources and ability to commute to South Burlington, Vermont or Cary, North Carolina for the duration of this co-op? = https://example.com"
+   ],
+   "banner": "Co-op board: 2 field(s) need you before submit: How did you first learn about OnLogic and this position? · We expect this role to begin in January 2027 and run until June 2027. Does this align with your academic schedule?",
+   "final_url": "https://apply.workable.com/onlogic-inc/j/10EC1527D8/apply?utm_source=Simplify#coop=dbfc8efd8ba70e40",
+   "pages": 0,
+   "button": "",
+   "title": "Firmware Engineering Co-op - OnLogic - Application"
+  },
+  {
+   "id": "b8e9b25e2fa27de4",
+   "company": "Specter Aerospace",
+   "role": "Electrical Engineer Co-op",
+   "portal": "other",
+   "url": "https://specteraerospace.bamboohr.com/careers/115/?utm_source=Simplify",
+   "status": "needs-you",
+   "need": [
+    "Are you able to pass a pre-employement drug test?",
+    "State (no option matched 'Massachusetts')",
+    "Country (no option matched 'United States')"
+   ],
+   "done": [
+    "Are you a U.S. Citizen? = Yes",
+    "Do you have a U.S. DoD Secret clearance? = No",
+    "left blank (optional): Please leave this field blank",
+    "First Name = Test",
+    "Last Name = Applicant",
+    "Email = test.applicant@example.com",
+    "Phone = 617-555-0100",
+    "Address = Boston, MA",
+    "City = Boston, MA",
+    "ZIP = 02115",
+    "Date Available = 12/01/2027",
+    "Desired Pay = Open",
+    "Website, Blog or Portfolio = https://example.com",
+    "LinkedIn URL = https://www.linkedin.com/in/test-applica"
+   ],
+   "banner": "Co-op board: 3 field(s) need you before submit: Are you able to pass a pre-employement drug test? · State (no option matched 'Massachusetts') · Country (no option matched 'United States')",
+   "final_url": "https://specteraerospace.bamboohr.com/careers/115/?utm_source=Simplify#coop=b8e9b25e2fa27de4",
+   "pages": 0,
+   "button": "",
+   "title": "BambooHR"
+  },
+  {
+   "id": "b24a5bf225ef6095",
+   "company": "D3 Embedded",
+   "role": "Embedded Systems Design Co-op",
+   "portal": "other",
+   "url": "https://d3engineering.applytojob.com/apply/uixxAbdlV5/Embedded-Systems-Design-Coop?utm_source=Simplify",
+   "status": "no-button",
+   "need": [
+    "next button"
+   ],
+   "done": [
+    "First Name = Test",
+    "Last Name = Applicant",
+    "Email Address = test.applicant@example.com",
+    "Phone = 617-555-0100",
+    "Address = Boston, MA",
+    "City = Boston, MA",
+    "State/Province = Massachusetts",
+    "Postal = 02115",
+    "Resume = Test_Applicant_Resume.pdf"
+   ],
+   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep going",
+   "final_url": "https://d3engineering.applytojob.com/apply/uixxAbdlV5/Embedded-Systems-Design-Coop?utm_source=Simplify#coop=b24a5bf225ef6095",
+   "pages": 0,
+   "button": "",
+   "title": "Embedded Systems Design Co-op - Career Page"
+  },
+  {
+   "id": "5c0ace6cc89c5797",
+   "company": "General Dynamics Mission Systems",
+   "role": "Electrical Engineer Co-Op (January - May 2027)",
+   "portal": "icims",
+   "url": "https://careers-gdms.icims.com/jobs/74598/electrical-engineer-co-op-%28january---may-2027%29/job",
+   "status": "no-button",
+   "need": [
+    "next button"
+   ],
+   "done": [
+    "Select language = English"
+   ],
+   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep going",
+   "final_url": "https://careers-gdms.icims.com/jobs/74598/electrical-engineer-co-op-%28january---may-2027%29/job#coop=5c0ace6cc89c5797",
+   "pages": 0,
+   "button": "",
+   "title": "Human Verification"
+  },
+  {
+   "id": "c36df8051642baea",
+   "company": "CDM Smith",
+   "role": "Electrical Engineering Co-op",
+   "portal": "icims",
+   "url": "https://careers.cdmsmith.com/jobs/4397?icims=1&utm_source=Simplify",
+   "status": "no-button",
+   "need": [
+    "next button"
+   ],
+   "done": [],
+   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep going",
+   "final_url": "https://careers.cdmsmith.com/jobs/4397?icims=1&utm_source=Simplify#coop=c36df8051642baea",
+   "pages": 0,
+   "button": "",
+   "title": "Electrical Engineering Co-op (Spring 2027!) in Boston, Massachusetts | CDM Smith"
+  },
+  {
+   "id": "201ceb30990412f3",
+   "company": "PPL",
+   "role": "Electrical Engineer Co-op",
+   "portal": "icims",
+   "url": "https://careers.pplweb.com/jobs/15134?icims=1&utm_source=Simplify",
+   "status": "no-button",
+   "need": [
+    "next button"
+   ],
+   "done": [],
+   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep going",
+   "final_url": "https://careers.pplweb.com/jobs/15134?icims=1&utm_source=Simplify#coop=201ceb30990412f3",
+   "pages": 0,
+   "button": "",
+   "title": "Spring 2027 Electrical Engineering Co-op - Multiple Positions Available! in Multiple Locations | PPL Corporation"
+  },
+  {
+   "id": "f783dd636ad05643",
+   "company": "Werfen",
+   "role": "Electrical Engineer Co-op",
+   "portal": "icims",
+   "url": "https://careers-werfen.icims.com/jobs/10905/job?mobile=true&needsRedirect=false&utm_source=Simplify",
+   "status": "no-button",
+   "need": [
+    "next button"
+   ],
+   "done": [
+    "Select language = English"
+   ],
+   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep going",
+   "final_url": "https://careers-werfen.icims.com/jobs/10905/job?mobile=true&needsRedirect=false&utm_source=Simplify#coop=f783dd636ad05643",
+   "pages": 0,
+   "button": "",
+   "title": "Human Verification"
+  },
+  {
+   "id": "5ffa7838ed154451",
+   "company": "Keysight Technologies",
+   "role": "Semiconductor Process Development Engineering Intern",
+   "portal": "icims",
+   "url": "https://jobs.keysight.com/external/jobs/54323?icims=1&utm_source=Simplify",
+   "status": "no-button",
+   "need": [
+    "next button"
+   ],
+   "done": [],
+   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep going",
+   "final_url": "https://jobs.keysight.com/external/jobs/54323?icims=1&utm_source=Simplify#coop=5ffa7838ed154451",
+   "pages": 0,
+   "button": "",
+   "title": "Semiconductor Process Development Engineering Intern in Santa Rosa, California | Keysight Technologies, Inc."
+  },
+  {
+   "id": "b7dc8e7e380bb05a",
+   "company": "AMD",
+   "role": "Analog/Mixed-Signal Design Intern/Co-op",
+   "portal": "icims",
+   "url": "https://careers.amd.com/careers-home/jobs/92346?icims=1&utm_source=Simplify",
+   "status": "no-button",
+   "need": [
+    "next button"
+   ],
+   "done": [],
+   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep going",
+   "final_url": "https://careers.amd.com/careers-home/jobs/92346?icims=1&utm_source=Simplify#coop=b7dc8e7e380bb05a",
+   "pages": 0,
+   "button": "",
+   "title": "2027 PhD Analog/Mixed-Signal SerDes Design Intern/Co-op in Multiple Locations | Advanced Micro Devices, Inc"
+  },
+  {
+   "id": "b0cf543268bd900c",
+   "company": "Emerson",
+   "role": "Electrical Engineering Co-op (Spring 2027)",
+   "portal": "oracle",
+   "url": "https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26010996",
+   "status": "no-button",
+   "need": [
+    "next button"
+   ],
+   "done": [],
+   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep going",
+   "final_url": "https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26010996#coop=b0cf543268bd900c",
+   "pages": 0,
+   "button": "",
+   "title": "Electrical Engineering Co-op (Spring 2027) - Emerson Career Site Careers"
+  },
+  {
+   "id": "379ae2abed6014c6",
+   "company": "onsemi",
+   "role": "Spring 2027 Non-Engineering Internships - Multiple Locations",
+   "portal": "oracle",
+   "url": "https://hctz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2506631",
+   "status": "no-button",
+   "need": [
+    "next button"
+   ],
+   "done": [],
+   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep going",
+   "final_url": "https://hctz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2506631#coop=379ae2abed6014c6",
+   "pages": 0,
+   "button": "",
+   "title": "Spring 2027 Non-Engineering Internships - Multiple Locations - Jobs onsemi Careers"
+  },
+  {
+   "id": "ba65bc4e5eb66cd6",
+   "company": "Arconic",
+   "role": "Electrical Engineer Co-op",
+   "portal": "oracle",
+   "url": "https://hdnn.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/113826?utm_source=Simplify",
+   "status": "no-button",
+   "need": [
+    "next button"
+   ],
+   "done": [],
+   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep going",
+   "final_url": "https://hdnn.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/113826?utm_source=Simplify#coop=ba65bc4e5eb66cd6",
+   "pages": 0,
+   "button": "",
+   "title": "Electrical Engineer- Co-op - Arconic Careers"
+  },
+  {
+   "id": "2177b8af7b5f2b1c",
+   "company": "Texas Instruments",
+   "role": "Test or Validation Engineering Intern",
+   "portal": "oracle",
+   "url": "https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/25017578",
+   "status": "no-button",
+   "need": [
+    "next button"
+   ],
+   "done": [],
+   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep going",
+   "final_url": "https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/25017578#coop=2177b8af7b5f2b1c",
+   "pages": 0,
+   "button": "",
+   "title": "Test or Validation Engineering Intern - Texas Instruments Careers"
+  },
+  {
+   "id": "79b311f512323933",
+   "company": "Kent",
+   "role": "Electrical / Instrumentation & Controls Designer Intern",
+   "portal": "oracle",
+   "url": "https://fa-emqh-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/7007?utm_source=Simplify",
+   "status": "no-button",
+   "need": [
+    "next button"
+   ],
+   "done": [],
+   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep going",
+   "final_url": "https://fa-emqh-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/7007?utm_source=Simplify#coop=79b311f512323933",
+   "pages": 0,
+   "button": "",
+   "title": "Electrical / I&C Designer Intern - Kent Careers Careers"
+  },
+  {
+   "id": "243f5ef4b489440e",
+   "company": "Fortive",
+   "role": "Test Engineer Co-op",
+   "portal": "oracle",
+   "url": "https://ejta.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/10562?utm_source=Simplify",
+   "status": "no-button",
+   "need": [
+    "next button"
+   ],
+   "done": [],
+   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep going",
+   "final_url": "https://ejta.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/10562?utm_source=Simplify#coop=243f5ef4b489440e",
+   "pages": 0,
+   "button": "",
+   "title": "Test Engineer Co-Op - Fortive Careers Careers"
+  },
+  {
+   "id": "0d9c4b030d8ab3e5",
+   "company": "Qorvo",
+   "role": "RF Design Engineer Intern",
+   "portal": "successfactors",
+   "url": "https://careers.qorvo.com/job/Denver-RF-Design-Engineering-Intern-CO-80014/1424717100/?ats=successfactors&utm_source=Simplify",
+   "status": "no-button",
+   "need": [
+    "next button"
+   ],
+   "done": [
+    "left blank (optional): Search by Keyword"
+   ],
+   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep going",
+   "final_url": "https://careers.qorvo.com/job/Denver-RF-Design-Engineering-Intern-CO-80014/1424717100/?ats=successfactors&utm_source=Simplify#coop=0d9c4b030d8ab3e5",
+   "pages": 0,
+   "button": "",
+   "title": "RF Design Engineering Intern Job Details | Qorvo"
+  },
+  {
+   "id": "8154dcd7d33b7b49",
+   "company": "L3Harris Technologies",
+   "role": "Electrical Engineer Intern",
+   "portal": "successfactors",
+   "url": "https://jobs.l3harris.com/job/Londonderry-Electrical-Engineering-Intern-NH-03053/1420020900/?ats=successfactors&utm_source=Simplify",
+   "status": "no-button",
+   "need": [
+    "next button"
+   ],
+   "done": [],
+   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep going",
+   "final_url": "https://jobs.l3harris.com/job/Londonderry-Electrical-Engineering-Intern-NH-03053/1420020900/?ats=successfactors&utm_source=Simplify#coop=8154dcd7d33b7b49",
+   "pages": 0,
+   "button": "",
+   "title": "Electrical Engineering Intern Job Details | L3HHCM20"
+  },
+  {
+   "id": "6e9e49ed4f732766",
+   "company": "CHS",
+   "role": "Electrical Engineer Intern",
+   "portal": "successfactors",
+   "url": "https://careers.chsinc.com/job/McPherson-Electrical-Engineer-Intern-KS-67460-9402/1429868200/?ats=successfactors&utm_source=Simplify",
+   "status": "no-button",
+   "need": [
+    "next button"
+   ],
+   "done": [],
+   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep going",
+   "final_url": "https://careers.chsinc.com/job/McPherson-Electrical-Engineer-Intern-KS-67460-9402/1429868200/?ats=successfactors&utm_source=Simplify#coop=6e9e49ed4f732766",
+   "pages": 0,
+   "button": "",
+   "title": "Electrical Engineer Intern Job Details | CHS, Inc."
+  },
+  {
+   "id": "b270f84c27fda184",
+   "company": "CenterPoint Energy",
+   "role": "Electrical Engineering Co-op",
+   "portal": "successfactors",
+   "url": "https://careers.centerpointenergy.com/job/Houston-Electrical-Engineering-Spring-Co-op-2027-TX-77002/1428292900/?ats=successfactors&utm_source=Simplify",
+   "status": "no-button",
+   "need": [
+    "next button"
+   ],
+   "done": [],
+   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep going",
+   "final_url": "https://careers.centerpointenergy.com/job/Houston-Electrical-Engineering-Spring-Co-op-2027-TX-77002/1428292900/?ats=successfactors&utm_source=Simplify#coop=b270f84c27fda184",
+   "pages": 0,
+   "button": "",
+   "title": "Electrical Engineering Spring Co-op 2027 Job Details | CenterPoint Energy"
+  },
+  {
+   "id": "a9f68e33c4c1b645",
+   "company": "WEC Energy Group",
+   "role": "Electrical Engineer Co-op",
+   "portal": "successfactors",
+   "url": "https://careers.wecenergygroup.com/We_Energies/job/Milwaukee-Co-Op-Engineer-Electric-Distribution-WI-53203/1419827900/?ats=successfactors&utm_source=Simplify",
+   "status": "no-button",
+   "need": [
+    "next button"
+   ],
+   "done": [
+    "left blank (optional): Search by keyword (title, company, location, etc.)"
+   ],
+   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep going",
+   "final_url": "https://careers.wecenergygroup.com/We_Energies/job/Milwaukee-Co-Op-Engineer-Electric-Distribution-WI-53203/1419827900/?ats=successfactors&utm_source=Simplify#coop=a9f68e33c4c1b645",
+   "pages": 0,
+   "button": "",
+   "title": "Co-Op Engineer- Electric Distribution Job Details | Career finder"
+  },
+  {
+   "id": "37146560d26bd12e",
+   "company": "Advanced Energy",
+   "role": "Electronics Service Intern",
+   "portal": "successfactors",
+   "url": "https://jobs.advanced-energy.com/job/Fort-Collins-Intern-Electronics-Service-CO-80525/1389595200/?ats=successfactors&utm_source=Simplify",
+   "status": "no-button",
+   "need": [
+    "next button"
+   ],
+   "done": [],
+   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep going",
+   "final_url": "https://jobs.advanced-energy.com/job/Fort-Collins-Intern-Electronics-Service-CO-80525/1389595200/?ats=successfactors&utm_source=Simplify#coop=37146560d26bd12e",
+   "pages": 0,
+   "button": "",
+   "title": "Intern - Electronics Service Job Details | Advanced Energy Industries, Inc"
+  },
+  {
+   "id": "708d55d7b3a7f2df",
+   "company": "RTX",
+   "role": "Digital Hardware Design Engineer Co-op (Winter/Spring)(Onsite)",
+   "portal": "workday",
+   "url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-IA-CEDAR-RAPIDS-130--5350-C-Ave-NE--BLDG-130/Digital-Hardware-Design-Engineer-Co-op--Spring-Summer-_01871518-1",
+   "status": "no-button",
+   "need": [
+    "next button"
+   ],
+   "done": [],
+   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep going",
+   "final_url": "https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-IA-CEDAR-RAPIDS-130-~-5350-C-Ave-NE-~-BLDG-130/Digital-Hardware-Design-Engineer-Co-op--Spring-Summer-_01871518-1/apply/autofillWithResume",
+   "pages": 0,
+   "button": "",
+   "title": "Digital Hardware Design Engineer Co-op (Winter/Spring)(Onsite)"
+  },
+  {
+   "id": "150ec201e9bc77b2",
+   "company": "National Laboratory of the Rockies",
+   "role": "Electrical Engineer Intern",
+   "portal": "workday",
+   "url": "https://nrel.wd5.myworkdayjobs.com/NLR/job/Boulder-CO/Post-Undergraduate--Fixed-term--Intern---Electrical-Engineering_R14491?utm_source=Simplify",
+   "status": "no-button",
+   "need": [
+    "next button"
+   ],
+   "done": [],
+   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep going",
+   "final_url": "https://nrel.wd5.myworkdayjobs.com/NLR/job/Boulder-CO/Post-Undergraduate--Fixed-term--Intern---Electrical-Engineering_R14491?utm_source=Simplify#coop=150ec201e9bc77b2",
+   "pages": 0,
+   "button": "",
+   "title": "Post Undergraduate (Fixed term) Intern – Electrical Engineering"
+  },
+  {
+   "id": "5642f7c6b1bd2643",
+   "company": "Agilent Technologies",
+   "role": "Electrical Engineering Intern",
+   "portal": "workday",
+   "url": "https://agilent.wd5.myworkdayjobs.com/Agilent_Student_Careers/job/US-DE-Wilmington/Electrical-Engineering-Intern_4038526?utm_source=Simplify",
+   "status": "no-button",
+   "need": [
+    "next button"
+   ],
+   "done": [],
+   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep going",
+   "final_url": "https://agilent.wd5.myworkdayjobs.com/Agilent_Student_Careers/job/US-DE-Wilmington/Electrical-Engineering-Intern_4038526?utm_source=Simplify#coop=5642f7c6b1bd2643",
+   "pages": 0,
+   "button": "",
+   "title": "Electrical Engineering Intern"
+  },
+  {
+   "id": "dd89765e99613f71",
+   "company": "GE Aerospace",
+   "role": "Unison Engineering Part-time Co-op - US - Spring 2027",
+   "portal": "workday",
+   "url": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Saint-George-UT-US-1/Unison-Engineering-Part-time-Co-op---US---Spring-2027_R5040016",
+   "status": "no-button",
+   "need": [
+    "next button"
+   ],
+   "done": [],
+   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep going",
+   "final_url": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Saint-George-UT-US-1/Unison-Engineering-Part-time-Co-op---US---Spring-2027_R5040016#coop=dd89765e99613f71",
+   "pages": 0,
+   "button": "",
+   "title": "Unison Engineering Part-time Co-op - US - Spring 2027"
+  },
+  {
+   "id": "979f79d09814a938",
+   "company": "Draper",
+   "role": "Systems Engineering Co-Op (Spring 2027)",
+   "portal": "workday",
+   "url": "https://draper.wd5.myworkdayjobs.com/Draper_Careers/job/Cambridge-MA/Systems-Engineering-Co-Op--Spring-2027-_JR002882",
+   "status": "no-button",
+   "need": [
+    "next button"
+   ],
+   "done": [],
+   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep going",
+   "final_url": "https://draper.wd5.myworkdayjobs.com/Draper_Careers/job/Cambridge-MA/Systems-Engineering-Co-Op--Spring-2027-_JR002882#coop=979f79d09814a938",
+   "pages": 0,
+   "button": "",
+   "title": "Systems Engineering Co-Op (Spring 2027)"
+  },
+  {
+   "id": "31ca0c55a935af8f",
+   "company": "NXP",
+   "role": "SOC DFT Intern - Spring 2027",
+   "portal": "workday",
+   "url": "https://nxp.wd3.myworkdayjobs.com/careers/job/Austin-Oakhill-Office/Digital-Design-Intern---Spring-2027_R-10065548",
+   "status": "no-button",
+   "need": [
+    "next button"
+   ],
+   "done": [],
+   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep going",
+   "final_url": "https://nxp.wd3.myworkdayjobs.com/careers/job/Austin-Oakhill-Office/Digital-Design-Intern---Spring-2027_R-10065548#coop=31ca0c55a935af8f",
+   "pages": 0,
+   "button": "",
+   "title": "SOC DFT Intern - Spring 2027"
+  },
+  {
+   "id": "003bf70487c5df25",
+   "company": "Amazon",
+   "role": "Hardware Development Engineer Intern/Co-Op, ROBOTICS - 2027",
+   "portal": "amazon",
+   "url": "https://www.amazon.jobs/en/jobs/10535282/hardware-development-engineer-intern-co-op-robotics-2027",
+   "status": "no-button",
+   "need": [
+    "next button"
+   ],
+   "done": [
+    "left blank (optional): Search for jobs by title or keyword",
+    "left blank (optional): search job by location"
+   ],
+   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep going",
+   "final_url": "https://www.amazon.jobs/en/jobs/10535282/hardware-development-engineer-intern-co-op-robotics-2027#coop=003bf70487c5df25",
+   "pages": 0,
+   "button": "",
+   "title": "Hardware Development Engineer Intern/Co-Op, ROBOTICS - 2027 - Job ID: 10535282 | Amazon.jobs"
+  },
+  {
+   "id": "a09bed4e9fb8703c",
+   "company": "Amazon",
+   "role": "ASIC Engineer Intern, Annapurna Labs - 2027",
+   "portal": "amazon",
+   "url": "https://www.amazon.jobs/en/jobs/10517535/asic-engineer-intern-annapurna-labs-2027",
+   "status": "no-button",
+   "need": [
+    "next button"
+   ],
+   "done": [
+    "left blank (optional): Search for jobs by title or keyword",
+    "left blank (optional): search job by location"
+   ],
+   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep going",
+   "final_url": "https://www.amazon.jobs/en/jobs/10517535/asic-engineer-intern-annapurna-labs-2027#coop=a09bed4e9fb8703c",
+   "pages": 0,
+   "button": "",
+   "title": "ASIC Engineer Intern, Annapurna Labs - 2027 - Job ID: 10517535 | Amazon.jobs"
+  },
+  {
+   "id": "b3a6a219a0708575",
+   "company": "Amazon",
+   "role": "Cloud Hardware Development Engineer Intern, Annapurna Labs - 2027",
+   "portal": "amazon",
+   "url": "https://www.amazon.jobs/en/jobs/10517649/cloud-hardware-development-engineer-intern-annapurna-labs-2027",
+   "status": "no-button",
+   "need": [
+    "next button"
+   ],
+   "done": [
+    "left blank (optional): Search for jobs by title or keyword",
+    "left blank (optional): search job by location"
+   ],
+   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep going",
+   "final_url": "https://www.amazon.jobs/en/jobs/10517649/cloud-hardware-development-engineer-intern-annapurna-labs-2027#coop=b3a6a219a0708575",
+   "pages": 0,
+   "button": "",
+   "title": "Cloud Hardware Development Engineer Intern, Annapurna Labs - 2027 - Job ID: 10517649 | Amazon.jobs"
+  },
+  {
+   "id": "05c577eca640383b",
+   "company": "Amazon",
+   "role": "Robotics - Hardware Development Engineer Intern/Co-op - 2026 (Robotics, Mechanical, Electrical, Hardware Test, Reliability, Failure Analysis, Operations, and more)",
+   "portal": "amazon",
+   "url": "https://www.amazon.jobs/en/jobs/3145033/robotics-hardware-development-engineer-intern-co-op-2026-robotics-mechanical-electrical-hardware-test-reliability-failure-analysis-operations-and-more",
+   "status": "no-button",
+   "need": [
+    "next button"
+   ],
+   "done": [
+    "left blank (optional): Search for jobs by title or keyword",
+    "left blank (optional): search job by location"
+   ],
+   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep going",
+   "final_url": "https://www.amazon.jobs/en/jobs/3145033/robotics-hardware-development-engineer-intern-co-op-2026-robotics-mechanical-electrical-hardware-test-reliability-failure-analysis-operations-and-more#coop=05c577eca640383b",
+   "pages": 0,
+   "button": "",
+   "title": "Robotics - Hardware Development Engineer Intern/Co-op - 2026 (Robotics, Mechanical, Electrical, Hardware Test, Reliability, Failure Analysis, Operations, and more) - Job ID: 3145033 | Amazon.jobs"
+  },
+  {
+   "id": "148ce480c4e74940",
+   "company": "Amazon",
+   "role": "Industrial Development Engineer Intern/Co-op, ROBOTICS - 2027",
+   "portal": "amazon",
+   "url": "https://www.amazon.jobs/en/jobs/10536817/industrial-development-engineer-intern-co-op-robotics-2027",
+   "status": "no-button",
+   "need": [
+    "next button"
+   ],
+   "done": [
+    "left blank (optional): Search for jobs by title or keyword",
+    "left blank (optional): search job by location"
+   ],
+   "banner": "Co-op board: can't find the Next / Submit button on this page; press it yourself and I'll keep going",
+   "final_url": "https://www.amazon.jobs/en/jobs/10536817/industrial-development-engineer-intern-co-op-robotics-2027#coop=148ce480c4e74940",
+   "pages": 0,
+   "button": "",
+   "title": "Industrial Development Engineer Intern/Co-op, ROBOTICS - 2027 - Job ID: 10536817 | Amazon.jobs"
+  }
+ ]
+}
