@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Co-op board: Outlook confirmations
 // @namespace    coop-hrisheek
-// @version      1.4
+// @version      1.5
 // @description  Reads the Outlook web inbox list, matches application emails to companies you applied to on the co-op board, and records them (confirmation / rejection / interview) in the board's private repo.
 // @match        https://outlook.office.com/*
 // @match        https://outlook.office365.com/*
@@ -41,7 +41,7 @@
     const inp = document.createElement("input"); inp.type = "password"; inp.placeholder = "github_pat_…"; inp.style.cssText = "width:260px;padding:4px 6px;border-radius:4px;border:0;color:#111";
     const btn = document.createElement("button"); btn.textContent = "Save"; btn.style.cssText = "padding:4px 10px;border-radius:4px;border:0;cursor:pointer";
     d.append(span, inp, btn);
-    const save = () => { const v = inp.value.trim(); if (!v) return; GM_setValue("gh_token", v); d.remove(); toast("token saved; scanning the inbox now"); setTimeout(scan, 500); };
+    const save = () => { const v = inp.value.trim().replace(/^Bearer\s+/i, ""); if (!/^(github_pat_|ghp_)[A-Za-z0-9_]{20,}$/.test(v)) { span.textContent = "That doesn't look like a GitHub token (should start with github_pat_ or ghp_). Paste it again."; return; } GM_setValue("gh_token", v); d.remove(); toast("token saved; scanning the inbox now"); setTimeout(scan, 500); };
     btn.onclick = save; inp.onkeydown = e => { if (e.key === "Enter") save(); };
     document.body.appendChild(d); inp.focus();
   }
@@ -104,7 +104,7 @@
         await gh("data/state.json", { method: "PUT", body: { message: "outlook: " + changed + " email(s) matched " + new Date().toISOString(), content: b64(JSON.stringify(state, null, 1)), sha: st.sha } });
         toast(`recorded ${changed} application email(s) on the board`);
       }
-    } catch (e) { console.warn("coop-mail", e); toast("error: " + (e.message || e), "err"); } finally { busy = false; }
+    } catch (e) { console.warn("coop-mail", e); if (/HTTP 401/.test(e.message || "")) { GM_setValue("gh_token", ""); toast("GitHub rejected that token (401): it was pasted wrong or expired. Paste it again.", "err"); setTimeout(askToken, 1500); } else toast("error: " + (e.message || e), "err"); } finally { busy = false; }
   }
   function toast(msg, kind) { const old = document.getElementById("coop-toast"); if (old) old.remove(); const d = document.createElement("div"); d.id = "coop-toast"; d.textContent = "Co-op board: " + msg; d.style.cssText = "position:fixed;bottom:16px;right:16px;z-index:2147483647;background:" + (kind === "err" ? "#b3261e" : kind === "warn" ? "#b45309" : "#1e7d3c") + ";color:#fff;padding:10px 14px;border-radius:8px;font:13px system-ui;box-shadow:0 4px 14px rgba(0,0,0,.3)"; document.body.appendChild(d); setTimeout(() => d.remove(), 6000); }
 
