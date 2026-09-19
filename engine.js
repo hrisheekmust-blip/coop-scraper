@@ -5,7 +5,7 @@ const pickOpt=(opts,rx,fallback)=>{const o=(opts||[]).find(x=>rx.test(x));return
 function answerFor(f,ctx){const j=ctx.job||{},a=ctx.answers||{},l=(f.label||"").toLowerCase().replace(/\s+/g," ").trim(),o=f.options||[],p=ctx.profile||{},t=(f.type||"").toLowerCase();
   const yes=v=>o.length?pickOpt(o,v?/^(yes|y\b|i am|true)/i:/^(no\b|n\b|i am not|false)/i,v?"Yes":"No"):(v?"Yes":"No");
   if(f.eeo||/gender|race|ethnicit|hispanic|latino|veteran|disabilit|pronoun|self.?identif|sexual orientation|transgender/.test(l))return{a:pickOpt(o,/decline|don.t wish|prefer not|do not wish|choose not/i,p.eeo||"Decline to self-identify"),k:"eeo"};
-  if(/cover letter/.test(l))return{a:ctx.cover?"upload: Hrisheek_Mustyala_Cover_Letter.pdf":"skip (cover letter off for this application)",k:"file"};
+  if(/cover letter/.test(l)){if(!ctx.cover)return{a:"skip (cover letter off for this application)",k:"file"};if(/file|upload|attach/.test(t)||/attach|upload/.test(l))return{a:"upload: Hrisheek_Mustyala_Cover_Letter.pdf",k:"file"};return ctx.coverText?{a:ctx.coverText,k:"long"}:{a:"upload: Hrisheek_Mustyala_Cover_Letter.pdf",k:"file"}}
   if(/\b(resume|cv)\b/.test(l))return{a:"upload: "+((j.materials||[])[0]||{}).path?.split("/").pop()||"resume PDF",k:"file"};
   if(/\bsat\b|\bact\b|test score/.test(l))return{a:p.test_scores||"ACT 36"};
   if(/\bgre\b|gmat/.test(l))return{a:"",k:"need"};

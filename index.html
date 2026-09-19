@@ -101,6 +101,7 @@ main{padding-block:14px 60px}
 .fitd{margin-top:14px}.fitd summary{cursor:pointer;color:var(--ink2)}
 .tog{display:inline-flex;align-items:center;gap:6px;font-size:.85em;color:var(--ink2);margin-left:auto;margin-right:10px;cursor:pointer;user-select:none}.tog.off{opacity:.5}.settings .tog{margin:10px 0 0;display:flex}
 .pill.s-applying{background:#1d4ed8;color:#fff}.settings h4{margin:16px 0 4px}
+.edit textarea{width:100%;min-height:480px;font:14px/1.5 Georgia,serif;padding:12px;border:1px solid var(--line);border-radius:6px;resize:vertical}.editbar{display:flex;gap:8px;align-items:center;margin-top:8px}
 </style>
 </head>
 <body>
@@ -117,10 +118,11 @@ main{padding-block:14px 60px}
 <div class="wrap"><main id="main"><div class="empty">Loading the board…</div></main>
 <p class="legend">Sorted best-first: CHIP → HARDWARE → MAYBE → other EE. APPLY NOW = Jan–Jun 2027 stated and fresh or deadline within 14 days · APPLY = Jan–Jun stated · SOON = co-op, no dates, fresh · WATCH = no dates stated. Anything running at any point Jan–Jun 2027 counts. Apply opens the materials; Confirm and submit queues that one application for Claude to submit in your browser during a sitting.</p></div>
 <div id="drawerHost"></div>
-<script src="engine.js?v=2"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<script src="engine.js?v=3"></script>
 <script>
 /* ---------- config: materials + application state live in a PRIVATE repo, read/written with your token ---------- */
-const CFG_KEY="coop-cfg";let cfg={repo:"hrisheekmust-blip/coop-apps",token:"",cover:true};try{Object.assign(cfg,JSON.parse(localStorage.getItem(CFG_KEY)||"{}"))}catch(e){}
+const CFG_KEY="coop-cfg";let cfg={repo:"hrisheekmust-blip/coop-apps",token:"",cover:false};try{Object.assign(cfg,JSON.parse(localStorage.getItem(CFG_KEY)||"{}"))}catch(e){}
 const saveCfg=()=>{try{localStorage.setItem(CFG_KEY,JSON.stringify(cfg))}catch(e){}};
 const API="https://api.github.com/repos/";
 const gh=async(path,opt={})=>{const r=await fetch(API+cfg.repo+"/contents/"+path+(opt.raw?"":"?t="+Date.now()),{method:opt.method||"GET",headers:{Authorization:"Bearer "+cfg.token,Accept:opt.raw?"application/vnd.github.raw":"application/vnd.github+json","X-GitHub-Api-Version":"2022-11-28",...(opt.body?{"Content-Type":"application/json"}:{})},body:opt.body?JSON.stringify(opt.body):undefined});if(!r.ok)throw new Error(path+": HTTP "+r.status);return opt.raw?r:r.json()};
@@ -169,17 +171,26 @@ function qaHtml(j,a){const fm=forms[j.id]||{};const fields=fm.fields&&fm.fields.
   const head=fields?`<p class="qhead">${fields.length} questions from the ${esc(fm.portal||"")} form${fm.fetched?`, read ${esc(fm.fetched.slice(0,10))}`:""}. What Claude types is on the right.</p>`:`<p class="qhead">This portal (${esc(fm.portal||"unknown")}) keeps its form behind a login, so this is the usual field list; the real questions appear when Claude opens it during your sitting and anything new gets asked before submit.</p>`;
   let need=0;const rowsH=list.map(f=>{const r=CoopEngine.answerFor(f,{job:j,answers:a,profile,cover:coverOn(j)});if(r.k==="need")need++;return `<div class="qa ${r.k||""}"><div class="q">${esc(f.label)}${f.required?'<span class="req">*</span>':''}${f.options&&f.options.length?`<small>${f.options.slice(0,8).map(esc).join(" · ")}${f.options.length>8?" · …":""}</small>`:''}</div><div class="a">${r.k==="need"?'<em>needs your answer</em>':esc(r.a).replace(/\n/g,"<br>")}</div></div>`}).join("");
   return head+(need?`<p class="qneed">${need} question${need>1?"s":""} Claude can't answer from your profile. Tell Claude the answer before you confirm, or it will ask during the sitting.</p>`:"")+`<div class="qas">${rowsH}</div>`+(fields?"":`<h4>Prepared if they ask</h4><div class="qas"><div class="qa"><div class="q">Why ${esc(j.company)}?</div><div class="a">${esc(a.why||"")}</div></div><div class="qa"><div class="q">Top technical achievements</div><div class="a">${(a.top_two||[]).map((x,i)=>`<b>${i+1}. ${esc(x.title)}</b><br>${esc(x.body)}`).join("<br><br>")}</div></div></div>`)}
-const coverOn=j=>{const v=(state[j.id]||{}).cover;return v===undefined?cfg.cover!==false:!!v};
+const coverOn=j=>{const v=(state[j.id]||{}).cover;return v===undefined?cfg.cover===true:!!v};
 
+/* ---------- cover letter from edited text ---------- */
+function coverPdf(text){const {jsPDF}=window.jspdf;const d=new jsPDF({unit:"pt",format:"letter"});const W=612,M=64;let y=70;
+  d.setFont("times","normal");d.setFontSize(20);d.text("Hrisheek Mustyala",W/2,y,{align:"center"});y+=18;d.setFontSize(10);d.text("Boston, MA  |  mustyala.h@northeastern.edu  |  858 868 0863  |  linkedin.com/in/hrisheek-mustyala-80743a240  |  github.com/hrisheekmust-blip",W/2,y,{align:"center"});y+=10;d.setLineWidth(.6);d.line(M,y,W-M,y);y+=26;
+  d.setFontSize(11);for(const para of text.replace(/\r/g,"").split(/\n{2,}/)){for(const line of para.split("\n")){const rows=d.splitTextToSize(line,W-2*M);for(const r of rows){if(y>740){d.addPage();y=70}d.text(r,M,y);y+=14.5}}y+=8}
+  return d}
+const coverBlob=text=>coverPdf(text).output("blob");
+const coverB64=text=>coverPdf(text).output("datauristring").split(",")[1];
 /* ---------- one-click apply: hand the form tab everything it needs, get the result back ---------- */
 const SUPPORTED=/^(ashby|greenhouse|lever)$/;const pending={};let applyWin=null;
 const applyUrl=j=>((forms[j.id]||{}).apply_url)||j.link;
 const canOneClick=j=>(j.materials||[]).length>0&&!!cfg.token;
 const b64buf=buf=>{const u=new Uint8Array(buf);let s="";for(let i=0;i<u.length;i+=8192)s+=String.fromCharCode.apply(null,u.subarray(i,i+8192));return btoa(s)};
 async function oneClickApply(j){
-  const files=[];for(const m of (j.materials||[])){if(/\(text\)/.test(m.name))continue;const isCover=/cover/i.test(m.name);if(isCover&&!coverOn(j))continue;const r=await gh(m.path,{raw:true});files.push({kind:isCover?"cover":"resume",name:isCover?"Hrisheek_Mustyala_Cover_Letter.pdf":"Hrisheek_Mustyala_Resume.pdf",type:"application/pdf",b64:b64buf(await r.arrayBuffer())})}
+  const files=[];let coverText="";for(const m of (j.materials||[])){if(/\(text\)/.test(m.name)){if(coverOn(j)){try{coverText=j.cover_text||await (await gh(m.path,{raw:true})).text()}catch(e){}}continue}const isCover=/cover/i.test(m.name);if(isCover&&!coverOn(j))continue;
+    if(isCover&&j.cover_text){files.push({kind:"cover",name:"Hrisheek_Mustyala_Cover_Letter.pdf",type:"application/pdf",b64:coverB64(j.cover_text)});continue}
+    const r=await gh(m.path,{raw:true});files.push({kind:isCover?"cover":"resume",name:isCover?"Hrisheek_Mustyala_Cover_Letter.pdf":"Hrisheek_Mustyala_Resume.pdf",type:"application/pdf",b64:b64buf(await r.arrayBuffer())})}
   let a={};if(j.answers_json){try{a=await (await gh(j.answers_json,{raw:true})).json()}catch(e){}}
-  pending[j.id]={type:"coop-payload",id:j.id,job:{id:j.id,company:j.company,role:j.role,link:j.link},answers:a,profile:profile||{},cover:coverOn(j),files};
+  pending[j.id]={type:"coop-payload",id:j.id,job:{id:j.id,company:j.company,role:j.role,link:j.link},answers:a,profile:profile||{},cover:coverOn(j),coverText:coverOn(j)?coverText:"",files};
   applyWin=window.open(applyUrl(j)+"#coop="+j.id,"_blank");
   await writeState(st=>{st[j.id]={...(st[j.id]||{}),status:"applying",statusAt:new Date().toISOString(),note:"form tab opened; filling…"}});render();if(openId===j.id)drawRender()}
 window.addEventListener("message",async e=>{const d=e.data||{};if(typeof d.type!=="string"||!d.type.startsWith("coop-"))return;if(!/^https:\/\//.test(e.origin))return;
@@ -213,10 +224,15 @@ async function drawRender(){const j=jobs().find(x=>x.id===openId);if(!j)return c
   const u=$("unq");if(u)u.onclick=()=>setStatus(j.id,"");
   const ct=$("covtog");if(ct)ct.onchange=async()=>{await writeState(st=>{st[j.id]={...(st[j.id]||{}),cover:ct.checked}});drawRender()};
   if(cur==="Questions & answers"&&(j.fit||j.answers_json||j.answers)){try{let a={};if(j.answers_json){try{a=await (await gh(j.answers_json,{raw:true})).json()}catch(e){}}const f=j.fit?await (await gh(j.fit,{raw:true})).text():"";const box=$("fitbox");if(box)box.outerHTML=qaHtml(j,a)+(f?`<details class="fitd"><summary>Why this resume version</summary><pre>${esc(f)}</pre></details>`:"")}catch(e){const box=$("fitbox");if(box)box.textContent="couldn't load: "+e.message}}
-  if(step<mats.length){const m=mats[step];try{const url=await matUrl(m);const box=$("matbox");if(!box)return;if(/\.pdf$/i.test(m.path||m.url||m.name)){box.outerHTML=`<iframe src="${url}#toolbar=0&view=FitH" title="${esc(m.name)}"></iframe>`}else{const t=await (await fetch(url)).text();box.outerHTML=`<pre>${esc(t)}</pre>`}}catch(e){const box=$("matbox");if(box)box.textContent="couldn't load "+m.name+": "+e.message}}}
+  if(step<mats.length){const m=mats[step];try{const box=$("matbox");if(!box)return;const isText=/\(text\)/.test(m.name),isCover=/cover/i.test(m.name);
+    if(isText){const orig=await (await fetch(await matUrl(m))).text();const cur=j.cover_text||orig;box.outerHTML=`<div class="edit"><p class="qhead">Edit the letter here. Saved text is what gets sent, pasted into a text box or built into a PDF, whichever the form wants.${j.cover_text?' <b>(edited)</b>':''}</p><textarea id="covedit" spellcheck="true">${esc(cur)}</textarea><div class="editbar"><button class="btn primary" id="covsave">Save</button><button class="btn ghost" id="covreset">Reset to original</button><span class="hint" id="covhint"></span></div></div>`;
+      $("covsave").onclick=async()=>{const v=$("covedit").value;$("covhint").textContent="saving…";await writeState(st=>{st[j.id]={...(st[j.id]||{}),cover_text:v===orig?undefined:v}});$("covhint").textContent="saved";};
+      $("covreset").onclick=async()=>{$("covedit").value=orig;await writeState(st=>{const o={...(st[j.id]||{})};delete o.cover_text;st[j.id]=o});$("covhint").textContent="reset"}}
+    else if(isCover&&j.cover_text){const u=URL.createObjectURL(coverBlob(j.cover_text));box.outerHTML=`<p class="qhead">Built from your edited text.</p><iframe src="${u}#toolbar=0&view=FitH" title="${esc(m.name)}"></iframe>`}
+    else{const url=await matUrl(m);if(/\.pdf$/i.test(m.path||m.url||m.name)){box.outerHTML=`<iframe src="${url}#toolbar=0&view=FitH" title="${esc(m.name)}"></iframe>`}else{const t=await (await fetch(url)).text();box.outerHTML=`<pre>${esc(t)}</pre>`}}}catch(e){const box=$("matbox");if(box)box.textContent="couldn't load "+m.name+": "+e.message}}}
 /* ---------- settings ---------- */
 function openSettings(){$("drawerHost").innerHTML=`<div class="overlay" id="ov"><div class="drawer" role="dialog" aria-label="Settings"><div class="dhead"><div><h2>Settings</h2><span class="sub">where materials and application status live</span></div><button class="x" id="close" aria-label="Close">×</button></div>
-  <div class="dbody settings"><label for="repo">Private repo</label><input id="repo" value="${esc(cfg.repo)}"><label for="tok">GitHub token</label><input id="tok" type="password" value="${esc(cfg.token)}" placeholder="github_pat_…"><label class="tog"><input type="checkbox" id="covdef" ${cfg.cover!==false?"checked":""}> send a cover letter by default (you can flip it per application)</label>
+  <div class="dbody settings"><label for="repo">Private repo</label><input id="repo" value="${esc(cfg.repo)}"><label for="tok">GitHub token</label><input id="tok" type="password" value="${esc(cfg.token)}" placeholder="github_pat_…"><label class="tog"><input type="checkbox" id="covdef" ${cfg.cover===true?"checked":""}> send a cover letter by default (you can flip it per application)</label>
   <p>Fine-grained token, repository access limited to that one private repo, permission Contents: read and write. Stored only in this browser. It lets this page read your resumes and cover letters and write the queue Claude works from.</p>
   <h4>One-click apply</h4><p>Install <a href="https://www.tampermonkey.net/" target="_blank" rel="noopener">Tampermonkey</a> once, then <a href="coop-apply.user.js" target="_blank" rel="noopener">install the apply script</a>. After that, Apply on any posting opens the form, walks every page, and submits (Ashby, Greenhouse, Lever, LinkedIn Easy Apply, Workday, Oracle, iCIMS, SuccessFactors and company sites).</p>
   <h4>Email tracking</h4><p><a href="coop-mail.user.js" target="_blank" rel="noopener">Install the Outlook script</a>, then keep outlook.office.com open in a tab. It matches confirmation, interview, and rejection emails to companies you applied to and updates the board every two minutes. It asks for the same token once.</p></div>

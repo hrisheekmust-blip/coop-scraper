@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Co-op board: one-click apply
 // @namespace    coop-hrisheek
-// @version      2.0
+// @version      2.1
 // @description  Opened by the co-op board: walks any application form (Ashby, Greenhouse, Lever, LinkedIn Easy Apply, Workday, Oracle, iCIMS, SuccessFactors, Phenom, ...) page by page, fills it from the board's answers, attaches the files, submits, and reports back.
 // @match        *://*/*
 // @require      https://hrisheekmust-blip.github.io/coop-scraper/engine.js
@@ -113,7 +113,7 @@
 
   // ---------------------------------------------------------------- fill everything visible on the current page
   async function fill(P) {
-    const ctx = { job: P.job, answers: P.answers, profile: P.profile, cover: P.cover };
+    const ctx = { job: P.job, answers: P.answers, profile: P.profile, cover: P.cover, coverText: P.coverText || "" };
     const A = f => window.CoopEngine.answerFor(f, ctx);
     const need = [], done = [], seen = new Set();
     const files = { resume: P.files.find(f => /resume/i.test(f.kind)), cover: P.cover ? P.files.find(f => /cover/i.test(f.kind)) : null };
@@ -177,7 +177,7 @@
       const isDate = type === "date" || /pick date|mm\/dd|yyyy|mm\/yyyy/i.test(el.placeholder || "") || /date/i.test(el.getAttribute("data-automation-id") || "");
       const r = A({ label: q, options: opts, type: isDate ? "date" : type });
       if (r.k === "need") { if (!(el.value || "").trim()) need.push(q); continue; }
-      if (r.a === "(leave blank)" || r.a === "") continue;
+      if (r.k === "file" || r.a === "(leave blank)" || r.a === "") continue;
       if (el.tagName === "SELECT") {
         const o = [...el.options].find(x => txt(x).toLowerCase() === r.a.toLowerCase()) || [...el.options].find(x => txt(x).toLowerCase().includes(r.a.toLowerCase().slice(0, 12)));
         if (o) { if (el.value !== o.value) { el.value = o.value; el.dispatchEvent(new Event("input", { bubbles: true })); el.dispatchEvent(new Event("change", { bubbles: true })); fireReact(el, ["onChange"], "change"); } done.push(q + " = " + txt(o)); } else need.push(q);
