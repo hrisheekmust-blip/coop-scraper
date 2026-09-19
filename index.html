@@ -136,8 +136,21 @@ const csv=t=>{const rows=[];let row=[],cur="",q=false;for(let i=0;i<t.length;i++
 async function sha1_16(s){const b=await crypto.subtle.digest("SHA-1",new TextEncoder().encode(s));return [...new Uint8Array(b)].map(x=>x.toString(16).padStart(2,"0")).join("").slice(0,16)}
 const isDone=j=>["applied","interview","offer","rejected","skip"].includes(j.status||"");const inFlight=j=>["queued","applying"].includes(j.status||"");
 /* ---------- state ---------- */
-let rows=[],state={},stateSha=null,apps={},forms={},profile=null,meta=null,view="todo",openId=null,step=0,local={};try{local=JSON.parse(localStorage.getItem("coop-status")||"{}")}catch(e){}
-const jobs=()=>rows.map(r=>({...r,...(apps[r.id]||{}),...(state[r.id]||{}),status:(state[r.id]||{}).status??local[r.id]??""}));
+let rows=[],state={},stateSha=null,apps={},forms={},profile=null,bank=null,hooks={},meta=null,view="todo",openId=null,step=0,local={};try{local=JSON.parse(localStorage.getItem("coop-status")||"{}")}catch(e){}
+/* ---------- materials for postings the generator hasn't seen yet: built here from the same rules + text bank ---------- */
+const cleanRole=r=>r.replace(/\s*[-–|(]\s*(req|job|id|r\d|#)[^)]*\)?$/i,"").replace(/\s*\((?:[A-Z0-9-]{4,}|\d+)\)\s*$/,"").replace(/\s+/g," ").trim();
+function pickVariant(role,why){const t=(role+" "+(why||"")).toLowerCase();for(const [v,rx] of bank.rules){if(new RegExp(rx,"i").test(t))return v}return bank.default_variant}
+function coverTextFor(j,base,hook){const src=bank.cover[base];const m=src.match(/<<OPENING>>\n([\s\S]*?)\n<<\/OPENING>>\n*([\s\S]*)/);const role=cleanRole(j.role);
+  const op=m[1].replace("{ROLE}",role).replace("{COMPANY}",j.company).replace("{HOOK}",hook||"").replace(/  +/g," ");
+  const date=new Date().toLocaleDateString("en-US",{month:"long",day:"numeric",year:"numeric"});
+  return `${date}\n\nHiring Team\n${j.company}\n\nRe: ${role}\n\nDear Hiring Team,\n\n${op}\n\n${m[2].trim()}\n`}
+function synthFor(j){if(!bank)return{};const variant=pickVariant(j.role,j.fit_why),base=bank.variants[variant].base;const hk=hooks[j.company];const hook=hk?hk.hook:"";
+  const text=coverTextFor(j,base,hook);const sec=bank.second[variant];
+  const why=(hook?hook+" ":"")+`The ${cleanRole(j.role)} role there is the kind of hands-on work I want to spend January through June 2027 on, and I am a third-year ECE student at Northeastern with the availability and the project background to contribute from the first week.`;
+  return{base,variant,synth:true,materials:[{name:"Resume",path:bank.resume_paths[variant]},{name:"Cover letter",gen:"cover",text,path:"gen/cover.pdf"},{name:"Cover letter (text)",gen:"text",text,path:"gen/cover.txt"}],
+    answers_obj:{company:j.company,role:j.role,why,top_two:[bank.specloop,sec],about:bank.about,hook_uncertain:!!(hk&&hk.uncertain)},
+    fit_text:`Built on the board (posting newer than the last generator run).\nResume base: ${base}   Skills variant: ${variant}   (${bank.variants[variant].why})\n${hook?"Company hook: "+hook:"WARNING: no company hook on file; the opening has no company-specific sentence."}${hk&&hk.uncertain?"\nWARNING: the hook is a best guess about this company.":""}`}}
+const jobs=()=>rows.map(r=>({...r,...(apps[r.id]||synthFor(r)),...(state[r.id]||{}),status:(state[r.id]||{}).status??local[r.id]??""}));
 function listFor(){const q=$("q").value.toLowerCase();return jobs().filter(j=>(view==="all"||(view==="applied"?isDone(j)||inFlight(j):!isDone(j)&&!inFlight(j)))&&(!q||(j.company+" "+j.role+" "+j.location).toLowerCase().includes(q)))}
 const statusPill=j=>j.status?`<span class="pill s-${j.status}">${j.status}</span>`:"";
 function rowHtml(j){const dl=daysTo(j.deadline);const hot=dl!==null&&dl<=14;const done=isDone(j);const hasMat=(j.materials||[]).length>0;
@@ -187,9 +200,9 @@ const canOneClick=j=>(j.materials||[]).length>0&&!!cfg.token;
 const b64buf=buf=>{const u=new Uint8Array(buf);let s="";for(let i=0;i<u.length;i+=8192)s+=String.fromCharCode.apply(null,u.subarray(i,i+8192));return btoa(s)};
 async function oneClickApply(j){
   const files=[];let coverText="";for(const m of (j.materials||[])){if(/\(text\)/.test(m.name)){if(coverOn(j)){try{coverText=j.cover_text||await (await gh(m.path,{raw:true})).text()}catch(e){}}continue}const isCover=/cover/i.test(m.name);if(isCover&&!coverOn(j))continue;
-    if(isCover&&j.cover_text){files.push({kind:"cover",name:"Hrisheek_Mustyala_Cover_Letter.pdf",type:"application/pdf",b64:coverB64(j.cover_text)});continue}
+    if(isCover&&(j.cover_text||m.gen)){files.push({kind:"cover",name:"Hrisheek_Mustyala_Cover_Letter.pdf",type:"application/pdf",b64:coverB64(j.cover_text||m.text)});continue}
     const r=await gh(m.path,{raw:true});files.push({kind:isCover?"cover":"resume",name:isCover?"Hrisheek_Mustyala_Cover_Letter.pdf":"Hrisheek_Mustyala_Resume.pdf",type:"application/pdf",b64:b64buf(await r.arrayBuffer())})}
-  let a={};if(j.answers_json){try{a=await (await gh(j.answers_json,{raw:true})).json()}catch(e){}}
+  let a=j.answers_obj||{};if(j.answers_json){try{a=await (await gh(j.answers_json,{raw:true})).json()}catch(e){}}
   pending[j.id]={type:"coop-payload",id:j.id,job:{id:j.id,company:j.company,role:j.role,link:j.link},answers:a,profile:profile||{},cover:coverOn(j),coverText:coverOn(j)?coverText:"",files};
   applyWin=window.open(applyUrl(j)+"#coop="+j.id,"_blank");
   await writeState(st=>{st[j.id]={...(st[j.id]||{}),status:"applying",statusAt:new Date().toISOString(),note:"form tab opened; filling…"}});render();if(openId===j.id)drawRender()}
@@ -201,19 +214,19 @@ window.addEventListener("message",async e=>{const d=e.data||{};if(typeof d.type!
     render();if(openId===d.id)drawRender()}});
 /* ---------- drawer ---------- */
 const blobCache={};
-async function matUrl(m){if(m.url)return m.url;if(blobCache[m.path])return blobCache[m.path];const r=await gh(m.path,{raw:true});const pdf=/\.pdf$/i.test(m.path);const u=URL.createObjectURL(new Blob([await r.arrayBuffer()],{type:pdf?"application/pdf":"text/plain;charset=utf-8"}));blobCache[m.path]=u;return u}
+async function matUrl(m){if(m.url)return m.url;if(m.gen==="cover")return URL.createObjectURL(coverBlob(m.text));if(m.gen==="text")return URL.createObjectURL(new Blob([m.text],{type:"text/plain;charset=utf-8"}));if(blobCache[m.path])return blobCache[m.path];const r=await gh(m.path,{raw:true});const pdf=/\.pdf$/i.test(m.path);const u=URL.createObjectURL(new Blob([await r.arrayBuffer()],{type:pdf?"application/pdf":"text/plain;charset=utf-8"}));blobCache[m.path]=u;return u}
 function openDrawer(id){openId=id;step=0;drawRender()}
 function closeDrawer(){openId=null;$("drawerHost").innerHTML=""}
 async function drawRender(){const j=jobs().find(x=>x.id===openId);if(!j)return closeDrawer();
   const mats=j.materials||[];const done=isDone(j)||inFlight(j);
   const tabs=[...mats.map(m=>m.name),"Questions & answers",done?"Submitted":"Confirm"];const cur=tabs[step]||tabs[0];let body="";
   if(step<mats.length){const m=mats[step];body=`<div id="matbox" class="nomat">loading ${esc(m.name)}…</div>`}
-  else if(cur==="Questions & answers"){body=(j.fit||j.answers)?`<div id="fitbox" class="nomat">loading…</div>`:(j.fit_md?`<h4>Fit</h4><pre>${esc(j.fit_md)}</pre>`:'')+(j.answers_md?`<h4>Portal answers</h4><pre>${esc(j.answers_md)}</pre>`:'')||`<div class="nomat">No materials for this posting yet. Claude generates them for every CHIP / HARDWARE / MAYBE row; ask for this one by name to jump the queue.</div>`}
+  else if(cur==="Questions & answers"){body=(j.fit||j.answers||j.answers_obj)?`<div id="fitbox" class="nomat">loading…</div>`:(j.fit_md?`<h4>Fit</h4><pre>${esc(j.fit_md)}</pre>`:'')+(j.answers_md?`<h4>Portal answers</h4><pre>${esc(j.answers_md)}</pre>`:'')||`<div class="nomat">No materials for this posting yet. Claude generates them for every CHIP / HARDWARE / MAYBE row; ask for this one by name to jump the queue.</div>`}
   else if(cur==="Submitted"){const s=j.submitted||{};body=`<div class="kv"><b>Status</b><span>${statusPill(j)}</span><b>Submitted</b><span>${esc(s.at||"—")}</span><b>Portal</b><span>${esc(s.portal||j.link)}</span><b>Files sent</b><span>${(s.files&&s.files.length?s.files:mats.filter(m=>!/\(text\)/.test(m.name)&&(coverOn(j)||!/cover/i.test(m.name)))).map(f=>esc(f.name)).join(", ")||"—"}</span><b>Email</b><span>${j.email?`<span class="pill s-${j.email.kind==="rejected"?"rejected":j.email.kind==="interview"?"interview":"applied"}">${esc(j.email.kind||"email")}</span> <span class="mono">${esc(j.email.date)}</span><br>${esc(j.email.snippet)}`:"no application email seen yet"}</span></div>${s.notes?`<h4>Notes</h4><pre>${esc(s.notes)}</pre>`:''}`}
   else{const oc=canOneClick(j);body=`<div class="kv"><b>Company</b><span>${esc(j.company)}</span><b>Role</b><span>${esc(j.role)}</span><b>Portal</b><span><a href="${esc(applyUrl(j))}" target="_blank" rel="noopener">${esc(applyUrl(j))}</a></span><b>Files</b><span>${mats.filter(m=>coverOn(j)||!/cover/i.test(m.name)).filter(m=>!/\(text\)/.test(m.name)).map(m=>esc(m.name)).join(", ")||"none yet"}</span></div><p style="color:var(--ink2);max-width:60ch">Apply opens the form in a new tab; the script fills every page, attaches the files, and submits. ${/workday|oracle|icims|successfactors|other|phenom/.test((forms[j.id]||{}).portal||"")?"This portal wants an account: the first time at "+esc(j.company)+" it stops at the sign-in page for you to create it (type the password once, Chrome remembers it), then continues. ":""}If it hits a captcha or a question it can't answer, the tab tells you and waits.</p>`}
   const foot=done?`<span class="hint">${statusPill(j)} ${j.status==="applying"?esc(j.note||"form tab open"):inFlight(j)?"queued for the next sitting":""}</span>${j.status==="applying"?'<button class="btn ghost" id="retry">Open form again</button><button class="btn ghost" id="markdone">Mark applied</button>':''}${inFlight(j)?'<button class="btn ghost" id="unq">Unqueue</button>':''}`:
     step<tabs.length-1?`<span class="hint">${step+1} / ${tabs.length}</span><button class="btn" id="next">Next</button>`:
-    `<span class="hint" id="sendHint">${!cfg.token?"add your token in ⚙ first":mats.length?"":"no materials yet"}</span><button class="btn primary" id="confirm" ${cfg.token&&mats.length?"":"disabled"}>${canOneClick(j)?"Apply":"Add your token first"}</button>`;
+    `<span class="hint" id="sendHint">${!cfg.token?"add your token in ⚙ first":mats.length?"":"no materials yet"}</span><button class="btn primary" id="confirm" ${cfg.token&&mats.length?"":"disabled"}>${canOneClick(j)?"Apply":!cfg.token?"Add your token first":"No materials yet"}</button>`;
   $("drawerHost").innerHTML=`<div class="overlay" id="ov"><div class="drawer" role="dialog" aria-label="Application"><div class="dhead"><div><h2>${esc(j.company)}</h2><span class="sub">${esc(j.role)} · ${esc(j.location)}</span></div><label class="tog ${done?"off":""}" title="Send a cover letter with this application"><input type="checkbox" id="covtog" ${coverOn(j)?"checked":""} ${done?"disabled":""}> cover letter</label><button class="x" id="close" aria-label="Close">×</button></div>
   <div class="steps">${tabs.map((t,i)=>`<button class="${i===step?"on":""}" data-s="${i}">${esc(t)}</button>`).join("")}</div><div class="dbody">${body}</div><div class="dfoot">${foot}</div></div></div>`;
   $("close").onclick=closeDrawer;$("ov").onclick=e=>{if(e.target.id==="ov")closeDrawer()};
@@ -223,7 +236,7 @@ async function drawRender(){const j=jobs().find(x=>x.id===openId);if(!j)return c
   const rt=$("retry");if(rt)rt.onclick=()=>oneClickApply(j);const md=$("markdone");if(md)md.onclick=()=>writeState(st=>{st[j.id]={...(st[j.id]||{}),status:"applied",statusAt:new Date().toISOString(),note:"",submitted:{at:new Date().toISOString(),portal:applyUrl(j),files:[],notes:"marked applied by hand"}}}).then(()=>{render();drawRender()});
   const u=$("unq");if(u)u.onclick=()=>setStatus(j.id,"");
   const ct=$("covtog");if(ct)ct.onchange=async()=>{await writeState(st=>{st[j.id]={...(st[j.id]||{}),cover:ct.checked}});drawRender()};
-  if(cur==="Questions & answers"&&(j.fit||j.answers_json||j.answers)){try{let a={};if(j.answers_json){try{a=await (await gh(j.answers_json,{raw:true})).json()}catch(e){}}const f=j.fit?await (await gh(j.fit,{raw:true})).text():"";const box=$("fitbox");if(box)box.outerHTML=qaHtml(j,a)+(f?`<details class="fitd"><summary>Why this resume version</summary><pre>${esc(f)}</pre></details>`:"")}catch(e){const box=$("fitbox");if(box)box.textContent="couldn't load: "+e.message}}
+  if(cur==="Questions & answers"&&(j.fit||j.answers_json||j.answers||j.answers_obj)){try{let a=j.answers_obj||{};if(j.answers_json){try{a=await (await gh(j.answers_json,{raw:true})).json()}catch(e){}}const f=j.fit?await (await gh(j.fit,{raw:true})).text():(j.fit_text||"");const box=$("fitbox");if(box)box.outerHTML=qaHtml(j,a)+(f?`<details class="fitd"><summary>Why this resume version</summary><pre>${esc(f)}</pre></details>`:"")}catch(e){const box=$("fitbox");if(box)box.textContent="couldn't load: "+e.message}}
   if(step<mats.length){const m=mats[step];try{const box=$("matbox");if(!box)return;const isText=/\(text\)/.test(m.name),isCover=/cover/i.test(m.name);
     if(isText){const orig=await (await fetch(await matUrl(m))).text();const cur=j.cover_text||orig;box.outerHTML=`<div class="edit"><p class="qhead">Edit the letter here. Saved text is what gets sent, pasted into a text box or built into a PDF, whichever the form wants.${j.cover_text?' <b>(edited)</b>':''}</p><textarea id="covedit" spellcheck="true">${esc(cur)}</textarea><div class="editbar"><button class="btn primary" id="covsave">Save</button><button class="btn ghost" id="covreset">Reset to original</button><span class="hint" id="covhint"></span></div></div>`;
       $("covsave").onclick=async()=>{const v=$("covedit").value;$("covhint").textContent="saving…";await writeState(st=>{st[j.id]={...(st[j.id]||{}),cover_text:v===orig?undefined:v}});$("covhint").textContent="saved";};
@@ -243,7 +256,9 @@ function openSettings(){$("drawerHost").innerHTML=`<div class="overlay" id="ov">
 async function loadState(){if(!cfg.token){state={};stateSha=null;return}
   try{const r=await gh("data/state.json");stateSha=r.sha;state=JSON.parse(unb64(r.content))||{}}catch(e){if(/404/.test(e.message)){state={};stateSha=null}else throw e}
   try{apps=await (await gh("apps/index.json",{raw:true})).json()}catch(e){apps={}}
-  try{profile=await (await gh("me/profile.json",{raw:true})).json()}catch(e){profile=null}}
+  try{profile=await (await gh("me/profile.json",{raw:true})).json()}catch(e){profile=null}
+  try{bank=await (await gh("me/bank.json",{raw:true})).json()}catch(e){bank=null}
+  try{hooks=await (await gh("me/hooks.json",{raw:true})).json()}catch(e){hooks={}}}
 async function load(){try{const r=await fetch("data/sheet.csv?t="+Date.now());const raw=r.ok?csv(await r.text()):[];rows=await Promise.all(raw.map(async x=>({...x,id:await sha1_16(x.link)})))}catch(e){rows=[]}
   try{const r=await fetch("data/meta.json?t="+Date.now());meta=r.ok?await r.json():null}catch(e){}
   try{const r=await fetch("data/forms.json?t="+Date.now());forms=r.ok?await r.json():{}}catch(e){forms={}}
