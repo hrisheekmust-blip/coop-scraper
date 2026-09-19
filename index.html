@@ -178,9 +178,10 @@ function answerFor(f,j,a){const l=(f.label||"").toLowerCase().replace(/\s+/g," "
   if(/linkedin/.test(l))return{a:p.linkedin||""};
   if(/github/.test(l))return{a:p.github||""};
   if(/portfolio|website|personal site|url/.test(l))return{a:p.portfolio||p.github||""};
+  if(/street|address line|mailing address/.test(l))return{a:"",k:"need"};
   if(/\bcity\b|current location|where (are you|do you) (located|based|live)|^location|address/.test(l))return{a:p.location||"Boston, MA"};
   if(/countr/.test(l))return{a:p.country||"United States"};
-  if(/zip|postal/.test(l))return{a:"",k:"need"};
+  if(/zip|postal/.test(l))return{a:p.zip||"02115"};
   if(/school|universit|college|institution/.test(l))return{a:p.school||"Northeastern University"};
   if(/degree|education level|highest level/.test(l))return{a:pickOpt(o,/bachelor|b\.?s\b|undergrad/i,p.degree||"Bachelor of Science")};
   if(/major|field of study|discipline|concentration/.test(l))return{a:pickOpt(o,/electrical|computer eng/i,p.major||"Electrical and Computer Engineering")};
