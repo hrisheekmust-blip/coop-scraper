@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Co-op board: one-click apply
 // @namespace    coop-hrisheek
-// @version      1.4
+// @version      1.5
 // @description  When the co-op board opens an Ashby / Greenhouse / Lever form, fill it from the board's answers, attach the files, submit, and report back.
 // @match        https://jobs.ashbyhq.com/*
 // @match        https://boards.greenhouse.io/*
@@ -55,6 +55,7 @@
   function setText(el, v) {
     el.focus();
     try { el.select && el.select(); if (el.setSelectionRange) el.setSelectionRange(0, (el.value || "").length); } catch (e) {}
+    if (el.value) { try { document.execCommand("delete", false); } catch (e) {} if (el.value) { const d0 = Object.getOwnPropertyDescriptor(el.tagName === "TEXTAREA" ? HTMLTextAreaElement.prototype : HTMLInputElement.prototype, "value"); d0.set.call(el, ""); } el.dispatchEvent(new Event("input", { bubbles: true })); }
     let ok = false;
     try { ok = document.execCommand("insertText", false, v); } catch (e) { ok = false; }
     if (!ok || el.value !== v) setNative(el, v);
@@ -68,8 +69,13 @@
     setText(el, v); await sleep(80);
     let p = reactProps(el);
     if (p && "value" in p && p.value !== v) {
-      const d = Object.getOwnPropertyDescriptor(el.tagName === "TEXTAREA" ? HTMLTextAreaElement.prototype : HTMLInputElement.prototype, "value"); d.set.call(el, v);
-      fireReact(el, ["onInput", "onChange"], "input"); await sleep(80); fireReact(el, ["onBlur"], "blur");
+      // the human fix: delete what is there, let the form notice it is empty, then type again
+      el.focus(); try { el.select(); document.execCommand("delete", false); } catch (e) {}
+      const d = Object.getOwnPropertyDescriptor(el.tagName === "TEXTAREA" ? HTMLTextAreaElement.prototype : HTMLInputElement.prototype, "value"); d.set.call(el, "");
+      el.dispatchEvent(new Event("input", { bubbles: true })); fireReact(el, ["onInput", "onChange"], "input"); await sleep(120);
+      try { document.execCommand("insertText", false, v); } catch (e) {}
+      if (el.value !== v) d.set.call(el, v);
+      el.dispatchEvent(new Event("input", { bubbles: true })); fireReact(el, ["onInput", "onChange"], "input"); await sleep(80); fireReact(el, ["onBlur"], "blur"); el.blur();
     }
     // typeahead: pick the matching suggestion if one popped up
     await sleep(350);
@@ -82,6 +88,7 @@
     let p = reactProps(el);
     const reactSays = () => { const q = reactProps(el); return q && typeof q.checked === "boolean" ? q.checked : el.checked; };
     if (reactSays() !== on) { if (el.labels && el.labels[0]) { realClick(el.labels[0]); await sleep(80); } }
+    if (reactSays() !== on && on) { el.click(); await sleep(80); el.click(); await sleep(80); }   // toggle off and on again
     if (reactSays() !== on) { const d = Object.getOwnPropertyDescriptor(HTMLInputElement.prototype, "checked"); d.set.call(el, on); fireReact(el, ["onChange", "onClick"], "change"); await sleep(80); }
     return reactSays() === on;
   }
