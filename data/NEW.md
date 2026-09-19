@@ -1,8 +1,12 @@
-# New postings — 2026-09-18
+# New postings — 2026-09-19
 
-0 new of 849 tracked. Rank A = spring/Jan 2027 explicit, B = co-op with term unstated, C = intern with no term stated.
+3 new of 853 tracked. Rank A = spring/Jan 2027 explicit, B = co-op with term unstated, C = intern with no term stated.
 
-_nothing new today_
+| Rank | Term | Company | Role | Location | Posted | Link |
+|---|---|---|---|---|---|---|
+| A | spring | Astranis | Environmental Test Engineer Intern (Winter 2027) | San Francisco | 2026-09-18 | [apply](https://job-boards.greenhouse.io/astranis/jobs/4705652006) |
+| A | spring | Astranis | Production Quality Intern (Winter 2027) | San Francisco | 2026-09-18 | [apply](https://job-boards.greenhouse.io/astranis/jobs/4705677006) |
+| A | spring | Astranis | Propulsion Manufacturing Intern (Winter 2027) | San Francisco | 2026-09-18 | [apply](https://job-boards.greenhouse.io/astranis/jobs/4705649006) |
 
 ## All tracked
 
@@ -21,9 +25,12 @@ _nothing new today_
 | A | spring | Anduril | Winter 2027 Warhead Engineer Co-op | Costa Mesa, California, United States | 2026-09-18 | [apply](https://boards.greenhouse.io/andurilindustries/jobs/5236585007?gh_jid=5236585007) |
 | A | spring | Astranis | CAD Engineer Intern (Spring 2027) | San Francisco | 2026-09-16 | [apply](https://job-boards.greenhouse.io/astranis/jobs/4704740006) |
 | A | spring | Astranis | CAD Engineer Intern (Winter 2027) | San Francisco | 2026-09-16 | [apply](https://job-boards.greenhouse.io/astranis/jobs/4704748006) |
+| A | spring | Astranis | Environmental Test Engineer Intern (Winter 2027) | San Francisco | 2026-09-18 | [apply](https://job-boards.greenhouse.io/astranis/jobs/4705652006) |
 | A | spring | Astranis | Mechanical Engineer Intern (Spring 2027) | San Francisco | 2026-08-31 | [apply](https://job-boards.greenhouse.io/astranis/jobs/4704602006) |
 | A | spring | Astranis | Mechanical Engineer Intern (Winter 2027) | San Francisco | 2026-08-31 | [apply](https://job-boards.greenhouse.io/astranis/jobs/4704600006) |
 | A | spring | Astranis | Network Planning Sales Engineer Intern (Winter 2027) | San Francisco, California | 2026-09-18 | [apply](https://job-boards.greenhouse.io/astranis/jobs/4704276006) |
+| A | spring | Astranis | Production Quality Intern (Winter 2027) | San Francisco | 2026-09-18 | [apply](https://job-boards.greenhouse.io/astranis/jobs/4705677006) |
+| A | spring | Astranis | Propulsion Manufacturing Intern (Winter 2027) | San Francisco | 2026-09-18 | [apply](https://job-boards.greenhouse.io/astranis/jobs/4705649006) |
 | A | spring | Axiom Space | Electrical Engineering Intern (Spring 2027) | Houston, TX | nan | [apply](https://www.linkedin.com/jobs/view/4467844962) |
 | A | spring | BAE Systems | Electrical Engineering Coop (Spring/Summer 2027), Onsite | Cedar Rapids, Iowa, United States | 2026-09-17 | [apply](https://jobs.baesystems.com/global/en/job/127774BR/electrical-engineering-coop-spring-summer-2027-onsite) |
 | A | spring | BAE Systems | Material Engineering Co-op III (Spring/Summer 2027 or Summer/Fall 2027) | Cedar Rapids, Iowa, United States | 2026-09-17 | [apply](https://jobs.baesystems.com/global/en/job/129786BR/material-engineering-co-op-iii-spring-summer-2027-or-summer-fall-2027) |
@@ -163,9 +170,9 @@ _nothing new today_
 | A | spring | RTX | Systems Engineering Coop - Spring/Summer- Onsite | US-ND-JAMESTOWN-P1 ~ 2604 Highway 20 N ~ PLANT 1 | Posted Yesterday | [apply](https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-ND-JAMESTOWN-P1--2604-Highway-20-N--PLANT-1/Systems-Engineering-Coop---Spring-Summer--Onsite_01873304) |
 | A | spring | Rivian | Engineering Intern - Test and Validation, Charging Products (Spring 2027 Co-Op) | Torrance, CA | 2026-09-17 | [apply](https://www.linkedin.com/jobs/view/4467800830) |
 | A | spring | Rocket Lab | Fluid Systems Intern Spring 2027 | Long Beach, CA | 2026-09-09 | [apply](https://job-boards.greenhouse.io/rocketlab/jobs/7986788003) |
+| A | spring | Rocket Lab | Manufacturing Engineering Intern Spring 2027 | Long Beach, CA | 2026-09-16 | [apply](https://job-boards.greenhouse.io/rocketlab/jobs/7984943003) |
 | A | spring | Rocket Lab | Manufacturing Engineering Intern Spring 2027 | Middle River, MD | 2026-09-16 | [apply](https://job-boards.greenhouse.io/rocketlab/jobs/7987020003) |
 | A | spring | Rocket Lab | Manufacturing Engineering Intern Spring 2027 | Wallops Island, VA | 2026-09-17 | [apply](https://job-boards.greenhouse.io/rocketlab/jobs/7996617003) |
-| A | spring | Rocket Lab | Manufacturing Engineering Intern Spring 2027 | Long Beach, CA | 2026-09-16 | [apply](https://job-boards.greenhouse.io/rocketlab/jobs/7984943003) |
 | A | spring | Rocket Lab | Propulsion Design Intern Spring 2027 | Long Beach, CA | 2026-09-11 | [apply](https://job-boards.greenhouse.io/rocketlab/jobs/7987110003) |
 | A | spring | Rocket Lab | R&D Engineering Intern Spring 2027 | Albuquerque, NM | 2026-09-17 | [apply](https://job-boards.greenhouse.io/rocketlab/jobs/7996578003) |
 | A | spring | Rocket Lab | Systems Engineering Intern Spring 2027 | Long Beach, CA | 2026-09-09 | [apply](https://job-boards.greenhouse.io/rocketlab/jobs/7987044003) |
@@ -247,7 +254,7 @@ _nothing new today_
 | A | spring | Zimmer Biomet | 2027 Spring Co-Op, Surgical Development Engineer (Hardware/Electrical Engineering Focus) | Broadview Heights, OH | 2026-09-16 | [apply](https://www.linkedin.com/jobs/view/4467114035) |
 | A | spring | Zipline | Accounting Intern (Spring 2027) | South San Francisco, California, USA | 2026-09-17 | [apply](https://www.zipline.com/open-roles/7893921003?gh_jid=7893921003) |
 | A | spring | Zipline | Aerodynamics Intern (Spring 2027) | South San Francisco, California, USA | 2026-09-17 | [apply](https://www.zipline.com/open-roles/7904002003?gh_jid=7904002003) |
-| A | spring | Zipline | Aircraft Software Integration Intern (Spring 2027) | South San Francisco, California, USA | 2026-09-17 | [apply](https://www.zipline.com/open-roles/7986810003?gh_jid=7986810003) |
+| A | spring | Zipline | Aircraft Software Integration Intern (Spring 2027) | South San Francisco, California, USA | 2026-09-18 | [apply](https://www.zipline.com/open-roles/7986810003?gh_jid=7986810003) |
 | A | spring | Zipline | Applications Engineer Intern (Spring 2027) | South San Francisco, California, USA | 2026-09-17 | [apply](https://www.zipline.com/open-roles/7908677003?gh_jid=7908677003) |
 | A | spring | Zipline | Change Management Intern (Spring 2027) | South San Francisco, California, USA | 2026-09-17 | [apply](https://www.zipline.com/open-roles/7990677003?gh_jid=7990677003) |
 | A | spring | Zipline | Civil and Structural Engineer Intern (Spring 2027) | South San Francisco, California, USA | 2026-09-17 | [apply](https://www.zipline.com/open-roles/7904457003?gh_jid=7904457003) |
@@ -807,6 +814,7 @@ _nothing new today_
 | C | unspecified | Seagate | Hardware Validation Intern |  | 2026-09-09 | [apply](https://seagatecareers.com/job/Hardware-Validation-Intern/15011-en_US) |
 | C | unspecified | Seagate | Head Failure Analysis Intern III |  | 2026-09-15 | [apply](https://seagatecareers.com/job/Head-Failure-Analysis-Intern-III/15061-en_US) |
 | C | unspecified | Seagate | Korat Firmware Test and Engineering Intern | Nakhon Ratchasima, THA,  | 2026-06-30 | [apply](https://seagatecareers.com/job/Korat-Firmware-Test-and-Engineering-Intern/14620-en_US) |
+| C | unspecified | Seagate | Metrology maintenance engineering intern | Nakhon Ratchasima, THA,  | 2026-08-26 | [apply](https://seagatecareers.com/job/Metrology-maintenance-engineering-intern/14919-en_US) |
 | C | unspecified | Seagate | Product Engineering Intern | Nakhon Ratchasima, THA,  | 2026-07-20 | [apply](https://seagatecareers.com/job/Product-Engineering-Intern/14645-en_US) |
 | C | unspecified | Seagate | Recording Head Test Engineering Intern | Samut Prakan, THA,  | 2026-08-19 | [apply](https://seagatecareers.com/job/Recording-Head-Test-Engineering-Intern/14901-en_US) |
 | C | unspecified | Seagate | Research Intern, Electronics Design Engineering | Shugart, SGP,  | 2026-08-17 | [apply](https://seagatecareers.com/job/Research-Intern%2C-Electronics-Design-Engineering/14852-en_US) |
