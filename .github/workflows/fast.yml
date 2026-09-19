@@ -24,6 +24,9 @@ jobs:
           python-version: "3.12"
       - name: run scraper
         run: set -o pipefail; python -m scraper.main --fast 2>&1 | tee data/run_fast.log
+      - name: application forms (question lists from public ATS APIs)
+        run: python -m scraper.forms 2>&1 | tail -40
+        continue-on-error: true
       - name: alerts (GitHub issue -> email, ntfy -> phone)
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

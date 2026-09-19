@@ -41,6 +41,9 @@ jobs:
       - name: outreach leads (funding news)
         run: python -m scraper.leads 2>&1 | tail -3
         continue-on-error: true
+      - name: application forms (question lists from public ATS APIs)
+        run: python -m scraper.forms 2>&1 | tail -40
+        continue-on-error: true
       - name: alerts (GitHub issue -> email, ntfy -> phone)
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
