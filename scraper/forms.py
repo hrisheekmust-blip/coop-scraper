@@ -94,8 +94,9 @@ def greenhouse(url):
             page, _ = _get(url, timeout=25)
             mm = re.search(r"boards-api\.greenhouse\.io/v1/boards/([A-Za-z0-9_-]+)", page) or \
                  re.search(r"greenhouse\.io/embed/job_(?:app|board)/?\?[^\"']*?for=([A-Za-z0-9_-]+)", page) or \
-                 re.search(r"(?:boards|job-boards)\.greenhouse\.io/([A-Za-z0-9_-]+)", page)
-            board = mm.group(1) if mm else None
+                 re.search(r"(?:boards|job-boards)\.greenhouse\.io/([A-Za-z0-9_-]+)", page) or \
+                 re.search(r"gh_src=|greenhouse\.io/([A-Za-z0-9_-]+)/jobs/" + job, page)
+            board = mm.group(1) if mm and mm.lastindex else None
         except Exception:
             board = None
     if job and not board:
@@ -117,7 +118,7 @@ def greenhouse(url):
     for q in (j.get("demographic_questions") or {}).get("questions") or []:
         fields.append(dict(label=q.get("label", ""), type="select", required=bool(q.get("required")),
                            options=[a.get("label") for a in (q.get("answer_options") or []) if a.get("label")], eeo=True))
-    return dict(apply_url=j.get("absolute_url") or url, fields=fields)
+    return dict(apply_url=f"https://boards.greenhouse.io/{board}/jobs/{job}", fields=fields)
 
 
 # ---------------------------------------------------------------- Ashby
@@ -172,8 +173,8 @@ def lever(url):
         if not lab:
             continue
         t = clean(lab.group(1))
-        req = "\u2731" in t
-        t = t.replace("\u2731", "").strip()
+        req = "✱" in t
+        t = t.replace("✱", "").strip()
         rest = chunk[lab.end():]
         opts = [clean(o) for o in re.findall(r"<option[^>]*>(.*?)</option>", rest, re.S)]
         opts = [o for o in opts if o and not o.lower().startswith(("select", "choose", "--"))]
@@ -227,6 +228,12 @@ def main():
             rec.setdefault("fields", None)
             print(f"forms: {r['company']:30.30} {rec.get('portal','?'):11} FAILED {rec['error']}")
         forms[k] = rec
+    for rec in forms.values():  # normalize: greenhouse forms always open on boards.greenhouse.io so the apply script can run there
+        if rec.get("portal") == "greenhouse" and rec.get("fields") and "greenhouse.io" not in (rec.get("apply_url") or ""):
+            mm = re.search(r"gh_jid=(\d+)", rec.get("apply_url") or "") or re.search(r"/jobs/(\d+)", rec.get("apply_url") or "")
+            b = board_from_config(rec.get("apply_url") or "")
+            if mm and b:
+                rec["apply_url"] = f"https://boards.greenhouse.io/{b}/jobs/{mm.group(1)}"
     json.dump(forms, open(OUT, "w"), indent=0)
     have = sum(1 for v in forms.values() if v.get("fields"))
     print(f"forms.json: {len(forms)} postings, {have} with a real question list, {done} fetched this run")

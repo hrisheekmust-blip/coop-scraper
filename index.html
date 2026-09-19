@@ -100,6 +100,7 @@ main{padding-block:14px 60px}
 .qa.need{border-color:#f5c48a;background:#fff8ee}.qa.eeo .a{color:var(--ink2)}.qa.long .a{font-size:.93em}
 .fitd{margin-top:14px}.fitd summary{cursor:pointer;color:var(--ink2)}
 .tog{display:inline-flex;align-items:center;gap:6px;font-size:.85em;color:var(--ink2);margin-left:auto;margin-right:10px;cursor:pointer;user-select:none}.tog.off{opacity:.5}.settings .tog{margin:10px 0 0;display:flex}
+.pill.s-applying{background:#1d4ed8;color:#fff}.settings h4{margin:16px 0 4px}
 </style>
 </head>
 <body>
@@ -116,6 +117,7 @@ main{padding-block:14px 60px}
 <div class="wrap"><main id="main"><div class="empty">Loading the board…</div></main>
 <p class="legend">Sorted best-first: CHIP → HARDWARE → MAYBE → other EE. APPLY NOW = Jan–Jun 2027 stated and fresh or deadline within 14 days · APPLY = Jan–Jun stated · SOON = co-op, no dates, fresh · WATCH = no dates stated. Anything running at any point Jan–Jun 2027 counts. Apply opens the materials; Confirm and submit queues that one application for Claude to submit in your browser during a sitting.</p></div>
 <div id="drawerHost"></div>
+<script src="engine.js?v=2"></script>
 <script>
 /* ---------- config: materials + application state live in a PRIVATE repo, read/written with your token ---------- */
 const CFG_KEY="coop-cfg";let cfg={repo:"hrisheekmust-blip/coop-apps",token:"",cover:true};try{Object.assign(cfg,JSON.parse(localStorage.getItem(CFG_KEY)||"{}"))}catch(e){}
@@ -130,11 +132,11 @@ const daysTo=d=>d?Math.round((new Date(d+"T12:00")-new Date())/864e5):null;
 const uc=u=>({"APPLY NOW":"u-now","APPLY":"u-apply","SOON":"u-soon"}[u]||"u-watch");
 const csv=t=>{const rows=[];let row=[],cur="",q=false;for(let i=0;i<t.length;i++){const c=t[i];if(q){if(c=='"'){if(t[i+1]=='"'){cur+='"';i++}else q=false}else cur+=c}else if(c=='"')q=true;else if(c==','){row.push(cur);cur=""}else if(c=='\n'){row.push(cur);rows.push(row);row=[];cur=""}else if(c!='\r')cur+=c}if(cur||row.length){row.push(cur);rows.push(row)}const h=rows.shift()||[];return rows.filter(r=>r.length===h.length).map(r=>Object.fromEntries(h.map((k,i)=>[k,r[i]])))};
 async function sha1_16(s){const b=await crypto.subtle.digest("SHA-1",new TextEncoder().encode(s));return [...new Uint8Array(b)].map(x=>x.toString(16).padStart(2,"0")).join("").slice(0,16)}
-const isDone=j=>["applied","interview","offer","rejected","skip"].includes(j.status||"");
+const isDone=j=>["applied","interview","offer","rejected","skip"].includes(j.status||"");const inFlight=j=>["queued","applying"].includes(j.status||"");
 /* ---------- state ---------- */
 let rows=[],state={},stateSha=null,apps={},forms={},profile=null,meta=null,view="todo",openId=null,step=0,local={};try{local=JSON.parse(localStorage.getItem("coop-status")||"{}")}catch(e){}
 const jobs=()=>rows.map(r=>({...r,...(apps[r.id]||{}),...(state[r.id]||{}),status:(state[r.id]||{}).status??local[r.id]??""}));
-function listFor(){const q=$("q").value.toLowerCase();return jobs().filter(j=>(view==="all"||(view==="applied"?isDone(j)||j.status==="queued":!isDone(j)&&j.status!=="queued"))&&(!q||(j.company+" "+j.role+" "+j.location).toLowerCase().includes(q)))}
+function listFor(){const q=$("q").value.toLowerCase();return jobs().filter(j=>(view==="all"||(view==="applied"?isDone(j)||inFlight(j):!isDone(j)&&!inFlight(j)))&&(!q||(j.company+" "+j.role+" "+j.location).toLowerCase().includes(q)))}
 const statusPill=j=>j.status?`<span class="pill s-${j.status}">${j.status}</span>`:"";
 function rowHtml(j){const dl=daysTo(j.deadline);const hot=dl!==null&&dl<=14;const done=isDone(j);const hasMat=(j.materials||[]).length>0;
   return `<div class="row ${j.fit} ${done?"done":""}"><div class="stripe"></div>
@@ -145,7 +147,7 @@ function rowHtml(j){const dl=daysTo(j.deadline);const hot=dl!==null&&dl<=14;cons
   <div class="mono posted">${esc(j.posted)||'—'}${j.days_open?`<small>${esc(j.days_open)} d open</small>`:''}</div>
   <div class="mono dl ${hot?"hot":""}">${j.deadline?esc(j.deadline):'—'}${dl!==null?`<small>${dl<0?"closed":dl+" d left"}</small>`:''}</div>
   <div class="nu">${j.nuworks?`<a href="${esc(j.nuworks_link)}" target="_blank" rel="noopener">NUWorks</a>${j.nu_eligible==="NOT QUALIFIED"?'<span class="bad">not qualified</span>':''}`:'—'}</div>
-  <div class="act">${done||j.status==="queued"?`${statusPill(j)}<button class="btn ghost" data-open="${j.id}">Details</button>`:`<button class="btn ${hasMat?"primary":""}" data-open="${j.id}">${hasMat?"Apply":"Preview"}</button><button class="btn ghost" data-skip="${j.id}">Skip</button>`}</div></div>`}
+  <div class="act">${done||inFlight(j)?`${statusPill(j)}<button class="btn ghost" data-open="${j.id}">Details</button>`:`<button class="btn ${hasMat?"primary":""}" data-open="${j.id}">${hasMat?"Apply":"Preview"}</button><button class="btn ghost" data-skip="${j.id}">Skip</button>`}</div></div>`}
 function render(){const list=listFor();$("count").textContent=list.length+" / "+rows.length;
   $("main").innerHTML=list.length?`<div class="hdr"><span></span><span>Urgency</span><span>Company</span><span>Role</span><span>Location</span><span>Posted</span><span>Deadline</span><span>NUWorks</span><span></span></div>`+list.map(rowHtml).join(""):'<div class="empty">Nothing here.</div>';
   document.querySelectorAll("[data-open]").forEach(b=>b.onclick=()=>openDrawer(b.dataset.open));
@@ -161,86 +163,53 @@ async function writeState(mut){mut(state);
     catch(e){await loadState();if(attempt)throw e}}}
 async function setStatus(id,status){await writeState(s=>{s[id]={...(s[id]||{}),status,statusAt:new Date().toISOString()}});render();if(openId)drawRender()}
 
-/* ---------- answer engine: portal question -> what Claude will type ---------- */
-const STD_FIELDS=[["Name","input_text"],["Email","input_text"],["Phone","input_text"],["Location (city)","input_text"],["LinkedIn profile","input_text"],["Resume","file"],["Cover letter","file"],["School / University","input_text"],["Degree","input_text"],["Major","input_text"],["Expected graduation date","input_text"],["GPA","input_text"],["Are you legally authorized to work in the United States?","yes_no"],["Will you now or in the future require sponsorship?","yes_no"],["Are you willing to relocate?","yes_no"],["Earliest start date / availability","input_text"],["How did you hear about us?","input_text"],["Gender / Race / Veteran / Disability (voluntary)","eeo"]];
-const pickOpt=(opts,rx,fallback)=>{const o=(opts||[]).find(x=>rx.test(x));return o||fallback};
-function answerFor(f,j,a){const l=(f.label||"").toLowerCase().replace(/\s+/g," ").trim(),o=f.options||[],p=profile||{},t=(f.type||"").toLowerCase();
-  const yes=v=>o.length?pickOpt(o,v?/^(yes|y\b|i am|true)/i:/^(no\b|n\b|i am not|false)/i,v?"Yes":"No"):(v?"Yes":"No");
-  if(f.eeo||/gender|race|ethnicit|hispanic|latino|veteran|disabilit|pronoun|self.?identif|sexual orientation|transgender/.test(l))return{a:pickOpt(o,/decline|don.t wish|prefer not|do not wish|choose not/i,p.eeo||"Decline to self-identify"),k:"eeo"};
-  if(/cover letter/.test(l))return{a:coverOn(j)?"upload: Hrisheek_Mustyala_Cover_Letter.pdf":"skip (cover letter off for this application)",k:"file"};
-  if(/\b(resume|cv)\b/.test(l))return{a:"upload: "+((j.materials||[])[0]||{}).path?.split("/").pop()||"resume PDF",k:"file"};
-  if(/\bsat\b|\bact\b|test score/.test(l))return{a:p.test_scores||"ACT 36"};
-  if(/\bgre\b|gmat/.test(l))return{a:"",k:"need"};
-  if(/full-?time (immediately|after|upon|following)|return offer|convert/.test(l))return{a:o.length?yes(true):(p.fulltime_after||"Yes")};
-  if(/preferred (first )?name|nickname|what should we call/.test(l))return{a:p.preferred||"Hrisheek"};
-  if(/^(first name|given name)/.test(l))return{a:p.first||"Hrisheek"};
-  if(/^(last name|surname|family name)/.test(l))return{a:p.last||"Mustyala"};
-  if(/^(full )?(legal )?name$|^name\b|your name/.test(l))return{a:p.name||"Hrisheek Mustyala"};
-  if(/e-?mail/.test(l))return{a:p.email||"mustyala.h@northeastern.edu"};
-  if(/phone|mobile/.test(l))return{a:p.phone||"858-868-0863"};
-  if(/linkedin/.test(l))return{a:p.linkedin||""};
-  if(/github/.test(l))return{a:p.github||""};
-  if(/portfolio|website|personal site|url/.test(l))return{a:p.portfolio||p.github||""};
-  if(/street|address line|mailing address/.test(l))return{a:"",k:"need"};
-  if(/\bcity\b|current location|where (are you|do you) (located|based|live)|^location|address/.test(l))return{a:p.location||"Boston, MA"};
-  if(/countr/.test(l))return{a:p.country||"United States"};
-  if(/zip|postal/.test(l))return{a:p.zip||"02115"};
-  if(/school|universit|college|institution/.test(l))return{a:p.school||"Northeastern University"};
-  if(/degree|education level|highest level|program type|level of study|type of program/.test(l))return{a:pickOpt(o,/bachelor|b\.?s\b|undergrad/i,p.degree||"Bachelor of Science")};
-  if(/major|field of study|discipline|concentration/.test(l))return{a:pickOpt(o,/electrical|computer eng/i,p.major||"Electrical and Computer Engineering")};
-  if(/gpa|grade point/.test(l))return{a:p.gpa||"3.96"};
-  if(/graduat|completion date|expected.*date/.test(l))return{a:o.length?pickOpt(o,/2027/,p.grad||"December 2027"):(p.grad||"December 2027")};
-  if(/\byear\b|class standing|academic level|current level|student status/.test(l))return{a:pickOpt(o,/junior|third|3rd|undergrad/i,p.year||"Third year (junior)")};
-  if(/term|season|semester|quarter|which.*(period|session)|when.*available|availab|start date|earliest/.test(l)){
-    if(o.length){const hits=o.filter(x=>/winter|spring|\bjan|co-?op|6.?month|jan(uary)?\s*[-–]/i.test(x)&&!/summer|fall|autumn/i.test(x));return{a:hits.length?hits.join(" + "):"(none match Jan–Jun 2027)",k:hits.length?"":"need"}}
-    return{a:p.availability||"January through June 2027"}}
-  if(/sponsor|visa/.test(l))return{a:yes(false)};
-  if(/citizen/.test(l))return{a:o.length?pickOpt(o,/^(yes|u\.?s\.? citizen|united states)/i,"Yes"):(p.citizen||"Yes")};
-  if(/authori[sz]ed|legally|eligible to work|work permit|right to work|work authorization/.test(l))return{a:o.length?pickOpt(o,/citizen|authorized|^yes/i,"Yes"):"Yes"};
-  if(/clearance/.test(l))return{a:o.length?pickOpt(o,/^(no|none)/i,"No"):(p.clearance||"No")};
-  if(/relocat/.test(l))return{a:yes(true)};
-  if(/\bstate\b|province/.test(l)&&!/united states|statement/.test(l))return{a:p.state||"Massachusetts"};
-  if(/able to work|willing to work|can you work|commute/.test(l)&&/in.?person|on-?site|office|relocat/.test(l))return{a:yes(true)};
-  if(/remote|hybrid|on-?site|in.?person|office/.test(l))return{a:o.length?pickOpt(o,/on-?site|in.?person|any|either|open/i,o[0]):(p.remote||"Any")};
-  if(/salary|compensation|pay|hourly|wage/.test(l))return{a:p.salary||"Open"};
-  if(/previously|former|current(ly)? (employee|work)|worked (at|for|here)|ever (been )?employed/.test(l))return{a:yes(false)};
-  if(/refer|know anyone|employee (name|referral)/.test(l))return{a:o.length?yes(false):(p.referral||"No")};
-  if(/18|age of majority|legal age/.test(l))return{a:yes(true)};
-  if(/how did you (hear|find|learn)|source|where did you/.test(l))return{a:o.length?pickOpt(o,/career|website|linkedin|company|job board/i,o[0]):(p.hear||"Company careers page")};
-  if(/language/.test(l))return{a:p.languages||"English"};
-  if(/^why\b|why (do you want|are you interested|.*company|.*us\b|.*role|.*position)|interest(ed)? in|what (draws|attracts|excites)|motivat/.test(l))return{a:a.why||"",k:"long"};
-  if(/achievement|proud|accomplish|technical (project|work)|projects? (you|that)|most (impressive|significant)|built|hardest|bullet|exceptional|stand ?out|impressive/.test(l))return{a:a.top_two?a.top_two.map((x,i)=>`${i+1}. ${x.title}\n${x.body}`).join("\n\n"):"",k:"long"};
-  if(/about yourself|summary|introduce|background|tell us/.test(l))return{a:a.about||"",k:"long"};
-  if(/agree|consent|acknowledg|certify|privacy|terms/.test(l))return{a:yes(true)};
-  if(/additional|anything else|comments|notes|questions for us|if (you answered|other)|please specify|if applicable/.test(l))return{a:"(leave blank)"};
-  return{a:"",k:"need"}}
+const {STD_FIELDS}=window.CoopEngine||{STD_FIELDS:[]};
 function qaHtml(j,a){const fm=forms[j.id]||{};const fields=fm.fields&&fm.fields.length?fm.fields:null;
   const list=fields||STD_FIELDS.map(([label,type])=>({label,type,required:false}));
   const head=fields?`<p class="qhead">${fields.length} questions from the ${esc(fm.portal||"")} form${fm.fetched?`, read ${esc(fm.fetched.slice(0,10))}`:""}. What Claude types is on the right.</p>`:`<p class="qhead">This portal (${esc(fm.portal||"unknown")}) keeps its form behind a login, so this is the usual field list; the real questions appear when Claude opens it during your sitting and anything new gets asked before submit.</p>`;
-  let need=0;const rowsH=list.map(f=>{const r=answerFor(f,j,a);if(r.k==="need")need++;return `<div class="qa ${r.k||""}"><div class="q">${esc(f.label)}${f.required?'<span class="req">*</span>':''}${f.options&&f.options.length?`<small>${f.options.slice(0,8).map(esc).join(" · ")}${f.options.length>8?" · …":""}</small>`:''}</div><div class="a">${r.k==="need"?'<em>needs your answer</em>':esc(r.a).replace(/\n/g,"<br>")}</div></div>`}).join("");
+  let need=0;const rowsH=list.map(f=>{const r=CoopEngine.answerFor(f,{job:j,answers:a,profile,cover:coverOn(j)});if(r.k==="need")need++;return `<div class="qa ${r.k||""}"><div class="q">${esc(f.label)}${f.required?'<span class="req">*</span>':''}${f.options&&f.options.length?`<small>${f.options.slice(0,8).map(esc).join(" · ")}${f.options.length>8?" · …":""}</small>`:''}</div><div class="a">${r.k==="need"?'<em>needs your answer</em>':esc(r.a).replace(/\n/g,"<br>")}</div></div>`}).join("");
   return head+(need?`<p class="qneed">${need} question${need>1?"s":""} Claude can't answer from your profile. Tell Claude the answer before you confirm, or it will ask during the sitting.</p>`:"")+`<div class="qas">${rowsH}</div>`+(fields?"":`<h4>Prepared if they ask</h4><div class="qas"><div class="qa"><div class="q">Why ${esc(j.company)}?</div><div class="a">${esc(a.why||"")}</div></div><div class="qa"><div class="q">Top technical achievements</div><div class="a">${(a.top_two||[]).map((x,i)=>`<b>${i+1}. ${esc(x.title)}</b><br>${esc(x.body)}`).join("<br><br>")}</div></div></div>`)}
 const coverOn=j=>{const v=(state[j.id]||{}).cover;return v===undefined?cfg.cover!==false:!!v};
+
+/* ---------- one-click apply: hand the form tab everything it needs, get the result back ---------- */
+const SUPPORTED=/^(ashby|greenhouse|lever)$/;const pending={};let applyWin=null;
+const applyUrl=j=>((forms[j.id]||{}).apply_url)||j.link;
+const canOneClick=j=>SUPPORTED.test((forms[j.id]||{}).portal||"")&&(j.materials||[]).length>0&&!!cfg.token;
+const b64buf=buf=>{const u=new Uint8Array(buf);let s="";for(let i=0;i<u.length;i+=8192)s+=String.fromCharCode.apply(null,u.subarray(i,i+8192));return btoa(s)};
+async function oneClickApply(j){
+  const files=[];for(const m of (j.materials||[])){if(/\(text\)/.test(m.name))continue;const isCover=/cover/i.test(m.name);if(isCover&&!coverOn(j))continue;const r=await gh(m.path,{raw:true});files.push({kind:isCover?"cover":"resume",name:isCover?"Hrisheek_Mustyala_Cover_Letter.pdf":"Hrisheek_Mustyala_Resume.pdf",type:"application/pdf",b64:b64buf(await r.arrayBuffer())})}
+  let a={};if(j.answers_json){try{a=await (await gh(j.answers_json,{raw:true})).json()}catch(e){}}
+  pending[j.id]={type:"coop-payload",id:j.id,job:{id:j.id,company:j.company,role:j.role,link:j.link},answers:a,profile:profile||{},cover:coverOn(j),files};
+  applyWin=window.open(applyUrl(j)+"#coop="+j.id,"_blank");
+  await writeState(st=>{st[j.id]={...(st[j.id]||{}),status:"applying",statusAt:new Date().toISOString(),note:"form tab opened; filling…"}});render();if(openId===j.id)drawRender()}
+window.addEventListener("message",async e=>{const d=e.data||{};if(typeof d.type!=="string"||!d.type.startsWith("coop-"))return;if(!/^https:\/\/(jobs\.ashbyhq\.com|boards\.greenhouse\.io|job-boards\.greenhouse\.io|jobs\.lever\.co)$/.test(e.origin))return;
+  if(d.type==="coop-ready"){if(pending[d.id])e.source.postMessage(pending[d.id],e.origin);return}
+  if(d.type==="coop-result"){const p=pending[d.id];
+    if(d.ok){await writeState(st=>{st[d.id]={...(st[d.id]||{}),status:"applied",statusAt:d.at,note:"",submitted:{at:d.at,portal:d.url,files:(p?p.files:[]).map(f=>({name:f.name})),notes:(d.done||[]).join("\n")}}})}
+    else{await writeState(st=>{st[d.id]={...(st[d.id]||{}),status:"applying",note:(d.status==="needs-you"?"waiting on you in the form tab: ":"error: ")+((d.need&&d.need.length?d.need:[d.error||"?"]).join(" · "))}})}
+    render();if(openId===d.id)drawRender()}});
 /* ---------- drawer ---------- */
 const blobCache={};
 async function matUrl(m){if(m.url)return m.url;if(blobCache[m.path])return blobCache[m.path];const r=await gh(m.path,{raw:true});const pdf=/\.pdf$/i.test(m.path);const u=URL.createObjectURL(new Blob([await r.arrayBuffer()],{type:pdf?"application/pdf":"text/plain;charset=utf-8"}));blobCache[m.path]=u;return u}
 function openDrawer(id){openId=id;step=0;drawRender()}
 function closeDrawer(){openId=null;$("drawerHost").innerHTML=""}
 async function drawRender(){const j=jobs().find(x=>x.id===openId);if(!j)return closeDrawer();
-  const mats=j.materials||[];const done=isDone(j)||j.status==="queued";
+  const mats=j.materials||[];const done=isDone(j)||inFlight(j);
   const tabs=[...mats.map(m=>m.name),"Questions & answers",done?"Submitted":"Confirm"];const cur=tabs[step]||tabs[0];let body="";
   if(step<mats.length){const m=mats[step];body=`<div id="matbox" class="nomat">loading ${esc(m.name)}…</div>`}
   else if(cur==="Questions & answers"){body=(j.fit||j.answers)?`<div id="fitbox" class="nomat">loading…</div>`:(j.fit_md?`<h4>Fit</h4><pre>${esc(j.fit_md)}</pre>`:'')+(j.answers_md?`<h4>Portal answers</h4><pre>${esc(j.answers_md)}</pre>`:'')||`<div class="nomat">No materials for this posting yet. Claude generates them for every CHIP / HARDWARE / MAYBE row; ask for this one by name to jump the queue.</div>`}
-  else if(cur==="Submitted"){const s=j.submitted||{};body=`<div class="kv"><b>Status</b><span>${statusPill(j)}</span><b>Submitted</b><span>${esc(s.at||"—")}</span><b>Portal</b><span>${esc(s.portal||j.link)}</span><b>Files sent</b><span>${(s.files||mats).map(f=>esc(f.name)).join(", ")||"—"}</span><b>Confirmation</b><span>${j.email?`<b>${esc(j.email.subject)}</b><br><span class="mono">${esc(j.email.date)}</span><br>${esc(j.email.snippet)}`:"not received yet"}</span></div>${s.notes?`<h4>Notes</h4><pre>${esc(s.notes)}</pre>`:''}`}
-  else{body=`<div class="kv"><b>Company</b><span>${esc(j.company)}</span><b>Role</b><span>${esc(j.role)}</span><b>Portal</b><span><a href="${esc(j.link)}" target="_blank" rel="noopener">${esc(j.link)}</a></span><b>Files</b><span>${mats.filter(m=>coverOn(j)||!/cover/i.test(m.name)).filter(m=>!/\(text\)/.test(m.name)).map(m=>esc(m.name)).join(", ")||"none yet"}</span></div><p style="color:var(--ink2);max-width:60ch">Confirm queues this one application. During your next sitting (Claude app open, Chrome signed in, you say "run my queue"), Claude fills the portal with these files and answers, submits, and records what was sent here.</p>`}
-  const foot=done?`<span class="hint">${statusPill(j)} ${j.status==="queued"?"queued for the next sitting":""}</span>${j.status==="queued"?'<button class="btn ghost" id="unq">Unqueue</button>':''}`:
+  else if(cur==="Submitted"){const s=j.submitted||{};body=`<div class="kv"><b>Status</b><span>${statusPill(j)}</span><b>Submitted</b><span>${esc(s.at||"—")}</span><b>Portal</b><span>${esc(s.portal||j.link)}</span><b>Files sent</b><span>${(s.files&&s.files.length?s.files:mats.filter(m=>!/\(text\)/.test(m.name)&&(coverOn(j)||!/cover/i.test(m.name)))).map(f=>esc(f.name)).join(", ")||"—"}</span><b>Confirmation</b><span>${j.email?`<b>${esc(j.email.subject)}</b><br><span class="mono">${esc(j.email.date)}</span><br>${esc(j.email.snippet)}`:"not received yet"}</span></div>${s.notes?`<h4>Notes</h4><pre>${esc(s.notes)}</pre>`:''}`}
+  else{const oc=canOneClick(j);body=`<div class="kv"><b>Company</b><span>${esc(j.company)}</span><b>Role</b><span>${esc(j.role)}</span><b>Portal</b><span><a href="${esc(applyUrl(j))}" target="_blank" rel="noopener">${esc(applyUrl(j))}</a></span><b>Files</b><span>${mats.filter(m=>coverOn(j)||!/cover/i.test(m.name)).filter(m=>!/\(text\)/.test(m.name)).map(m=>esc(m.name)).join(", ")||"none yet"}</span></div><p style="color:var(--ink2);max-width:60ch">${oc?"Apply opens the form in a new tab; the one-click script fills every answer you just reviewed, attaches the files, and submits. If something needs you (a captcha, a question it can't answer) the tab tells you and waits.":"This portal ("+esc((forms[j.id]||{}).portal||"unknown")+") is behind a login, so one-click can't drive it. Queue it and Claude submits it with you during a sitting."}</p>`}
+  const foot=done?`<span class="hint">${statusPill(j)} ${j.status==="applying"?esc(j.note||"form tab open"):inFlight(j)?"queued for the next sitting":""}</span>${j.status==="applying"?'<button class="btn ghost" id="retry">Open form again</button><button class="btn ghost" id="markdone">Mark applied</button>':''}${inFlight(j)?'<button class="btn ghost" id="unq">Unqueue</button>':''}`:
     step<tabs.length-1?`<span class="hint">${step+1} / ${tabs.length}</span><button class="btn" id="next">Next</button>`:
-    `<span class="hint" id="sendHint">${!cfg.token?"add your token in ⚙ first":mats.length?"":"no materials yet"}</span><button class="btn primary" id="confirm" ${cfg.token&&mats.length?"":"disabled"}>Confirm and submit</button>`;
+    `<span class="hint" id="sendHint">${!cfg.token?"add your token in ⚙ first":mats.length?"":"no materials yet"}</span><button class="btn primary" id="confirm" ${cfg.token&&mats.length?"":"disabled"}>${canOneClick(j)?"Apply":"Queue for Claude"}</button>`;
   $("drawerHost").innerHTML=`<div class="overlay" id="ov"><div class="drawer" role="dialog" aria-label="Application"><div class="dhead"><div><h2>${esc(j.company)}</h2><span class="sub">${esc(j.role)} · ${esc(j.location)}</span></div><label class="tog ${done?"off":""}" title="Send a cover letter with this application"><input type="checkbox" id="covtog" ${coverOn(j)?"checked":""} ${done?"disabled":""}> cover letter</label><button class="x" id="close" aria-label="Close">×</button></div>
   <div class="steps">${tabs.map((t,i)=>`<button class="${i===step?"on":""}" data-s="${i}">${esc(t)}</button>`).join("")}</div><div class="dbody">${body}</div><div class="dfoot">${foot}</div></div></div>`;
   $("close").onclick=closeDrawer;$("ov").onclick=e=>{if(e.target.id==="ov")closeDrawer()};
   document.querySelectorAll("[data-s]").forEach(b=>b.onclick=()=>{step=+b.dataset.s;drawRender()});
   const n=$("next");if(n)n.onclick=()=>{step++;drawRender()};
-  const c=$("confirm");if(c)c.onclick=async()=>{c.disabled=true;c.textContent="Queuing…";try{await setStatus(j.id,"queued")}catch(e){c.disabled=false;c.textContent="Confirm and submit";$("sendHint").textContent="couldn't queue: "+e.message}};
+  const c=$("confirm");if(c)c.onclick=async()=>{c.disabled=true;c.textContent=canOneClick(j)?"Opening…":"Queuing…";try{if(canOneClick(j))await oneClickApply(j);else await setStatus(j.id,"queued")}catch(e){c.disabled=false;c.textContent=canOneClick(j)?"Apply":"Queue for Claude";$("sendHint").textContent="couldn't: "+e.message}};
+  const rt=$("retry");if(rt)rt.onclick=()=>oneClickApply(j);const md=$("markdone");if(md)md.onclick=()=>writeState(st=>{st[j.id]={...(st[j.id]||{}),status:"applied",statusAt:new Date().toISOString(),note:"",submitted:{at:new Date().toISOString(),portal:applyUrl(j),files:[],notes:"marked applied by hand"}}}).then(()=>{render();drawRender()});
   const u=$("unq");if(u)u.onclick=()=>setStatus(j.id,"");
   const ct=$("covtog");if(ct)ct.onchange=async()=>{await writeState(st=>{st[j.id]={...(st[j.id]||{}),cover:ct.checked}});drawRender()};
   if(cur==="Questions & answers"&&(j.fit||j.answers_json||j.answers)){try{let a={};if(j.answers_json){try{a=await (await gh(j.answers_json,{raw:true})).json()}catch(e){}}const f=j.fit?await (await gh(j.fit,{raw:true})).text():"";const box=$("fitbox");if(box)box.outerHTML=qaHtml(j,a)+(f?`<details class="fitd"><summary>Why this resume version</summary><pre>${esc(f)}</pre></details>`:"")}catch(e){const box=$("fitbox");if(box)box.textContent="couldn't load: "+e.message}}
@@ -248,7 +217,8 @@ async function drawRender(){const j=jobs().find(x=>x.id===openId);if(!j)return c
 /* ---------- settings ---------- */
 function openSettings(){$("drawerHost").innerHTML=`<div class="overlay" id="ov"><div class="drawer" role="dialog" aria-label="Settings"><div class="dhead"><div><h2>Settings</h2><span class="sub">where materials and application status live</span></div><button class="x" id="close" aria-label="Close">×</button></div>
   <div class="dbody settings"><label for="repo">Private repo</label><input id="repo" value="${esc(cfg.repo)}"><label for="tok">GitHub token</label><input id="tok" type="password" value="${esc(cfg.token)}" placeholder="github_pat_…"><label class="tog"><input type="checkbox" id="covdef" ${cfg.cover!==false?"checked":""}> send a cover letter by default (you can flip it per application)</label>
-  <p>Fine-grained token, repository access limited to that one private repo, permission Contents: read and write. Stored only in this browser. It lets this page read your resumes and cover letters and write the queue Claude works from.</p></div>
+  <p>Fine-grained token, repository access limited to that one private repo, permission Contents: read and write. Stored only in this browser. It lets this page read your resumes and cover letters and write the queue Claude works from.</p>
+  <h4>One-click apply</h4><p>Install <a href="https://www.tampermonkey.net/" target="_blank" rel="noopener">Tampermonkey</a> once, then <a href="coop-apply.user.js" target="_blank" rel="noopener">install the apply script</a>. After that, Apply on any Ashby / Greenhouse / Lever posting opens the form, fills it, and submits.</p></div>
   <div class="dfoot"><span class="hint" id="shint"></span><button class="btn primary" id="save">Save</button></div></div></div>`;
   $("close").onclick=closeDrawer;$("ov").onclick=e=>{if(e.target.id==="ov")closeDrawer()};
   $("save").onclick=async()=>{cfg.repo=$("repo").value.trim();cfg.token=$("tok").value.trim();cfg.cover=$("covdef").checked;saveCfg();$("shint").textContent="checking…";try{await loadState();$("shint").textContent="connected";render();setTimeout(closeDrawer,600)}catch(e){$("shint").textContent="couldn't read data/state.json: "+e.message}}}
