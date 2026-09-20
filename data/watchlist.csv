@@ -18,24 +18,24 @@ Cisco,big,workday,no spring/co-op posting yet,,unknown; scraper records first-se
 Commonwealth Fusion Systems,big,lever,no spring/co-op posting yet,,unknown; scraper records first-seen dates from now on
 Curtiss-Wright,big,workday,no spring/co-op posting yet,,unknown; scraper records first-seen dates from now on
 DRW,big,greenhouse,no spring/co-op posting yet,,unknown; scraper records first-seen dates from now on
-Dell,big,workday,FETCHER FAILING for 24 runs: HTTPError: HTTP Error 422: Unprocessable Entity,,unknown; scraper records first-seen dates from now on
+Dell,big,workday,FETCHER FAILING for 25 runs: HTTPError: HTTP Error 422: Unprocessable Entity,,unknown; scraper records first-seen dates from now on
 FormFactor,big,workday,no spring/co-op posting yet,,unknown; scraper records first-seen dates from now on
 Garmin,big,icims,no spring/co-op posting yet,,unknown; scraper records first-seen dates from now on
 Glydways,big,greenhouse,no spring/co-op posting yet,,unknown; scraper records first-seen dates from now on
-Groq,big,greenhouse,FETCHER FAILING for 24 runs: HTTPError: HTTP Error 404: Not Found,,unknown; scraper records first-seen dates from now on
+Groq,big,greenhouse,FETCHER FAILING for 25 runs: HTTPError: HTTP Error 404: Not Found,,unknown; scraper records first-seen dates from now on
 HP,big,workday,no spring/co-op posting yet,,unknown; scraper records first-seen dates from now on
 Honeywell,big,oracle_hcm,no spring/co-op posting yet,,unknown; scraper records first-seen dates from now on
 Hudson River Trading,big,greenhouse,no spring/co-op posting yet,,unknown; scraper records first-seen dates from now on
 IMC,big,greenhouse,no spring/co-op posting yet,,unknown; scraper records first-seen dates from now on
-Infineon,big,eightfold,FETCHER FAILING for 25 runs: HTTPError: HTTP Error 403: FORBIDDEN,,unknown; scraper records first-seen dates from now on
+Infineon,big,eightfold,FETCHER FAILING for 26 runs: HTTPError: HTTP Error 403: FORBIDDEN,,unknown; scraper records first-seen dates from now on
 Intel,big,workday,no spring/co-op posting yet,,unknown; scraper records first-seen dates from now on
 Jump Trading,big,greenhouse,no spring/co-op posting yet,,unknown; scraper records first-seen dates from now on
 Juniper Networks,big,oracle_hcm,no spring/co-op posting yet,,unknown; scraper records first-seen dates from now on
 KLA,big,workday,no spring/co-op posting yet,,unknown; scraper records first-seen dates from now on
 Keysight,big,icims,no spring/co-op posting yet,,unknown; scraper records first-seen dates from now on
-Lam Research,big,eightfold,FETCHER FAILING for 24 runs: HTTPError: HTTP Error 403: FORBIDDEN,,unknown; scraper records first-seen dates from now on
+Lam Research,big,eightfold,FETCHER FAILING for 25 runs: HTTPError: HTTP Error 403: FORBIDDEN,,unknown; scraper records first-seen dates from now on
 Lambda,big,ashby,no spring/co-op posting yet,,unknown; scraper records first-seen dates from now on
-Lockheed Martin,big,eightfold,FETCHER FAILING for 24 runs: HTTPError: HTTP Error 403: FORBIDDEN,,unknown; scraper records first-seen dates from now on
+Lockheed Martin,big,eightfold,FETCHER FAILING for 25 runs: HTTPError: HTTP Error 403: FORBIDDEN,,unknown; scraper records first-seen dates from now on
 Lucid Motors,big,greenhouse,no spring/co-op posting yet,,unknown; scraper records first-seen dates from now on
 Lumentum,big,workday,no spring/co-op posting yet,,unknown; scraper records first-seen dates from now on
 MKS Instruments,big,workday,no spring/co-op posting yet,,unknown; scraper records first-seen dates from now on
@@ -43,7 +43,7 @@ Marvell,big,workday,no spring/co-op posting yet,,unknown; scraper records first-
 MaxLinear,big,icims,no spring/co-op posting yet,,unknown; scraper records first-seen dates from now on
 May Mobility,big,greenhouse,no spring/co-op posting yet,,unknown; scraper records first-seen dates from now on
 Microchip,big,workday,no spring/co-op posting yet,,unknown; scraper records first-seen dates from now on
-Micron,big,eightfold,FETCHER FAILING for 25 runs: HTTPError: HTTP Error 403: FORBIDDEN,,unknown; scraper records first-seen dates from now on
+Micron,big,eightfold,FETCHER FAILING for 26 runs: HTTPError: HTTP Error 403: FORBIDDEN,,unknown; scraper records first-seen dates from now on
 Monolithic Power Systems,big,workday,no spring/co-op posting yet,,unknown; scraper records first-seen dates from now on
 Moog,big,workday,no spring/co-op posting yet,,unknown; scraper records first-seen dates from now on
 Motional,big,greenhouse,no spring/co-op posting yet,,unknown; scraper records first-seen dates from now on
@@ -58,8 +58,8 @@ Optiver,big,greenhouse,no spring/co-op posting yet,,unknown; scraper records fir
 Oura,big,greenhouse,no spring/co-op posting yet,,unknown; scraper records first-seen dates from now on
 Physical Intelligence,big,ashby,no spring/co-op posting yet,,unknown; scraper records first-seen dates from now on
 Planet Labs,big,greenhouse,no spring/co-op posting yet,,unknown; scraper records first-seen dates from now on
-Qorvo,big,successfactors_csb,FETCHER FAILING for 24 runs: HTTPError: HTTP Error 401: 401,,unknown; scraper records first-seen dates from now on
-Qualcomm,big,eightfold,FETCHER FAILING for 25 runs: HTTPError: HTTP Error 403: FORBIDDEN,,unknown; scraper records first-seen dates from now on
+Qorvo,big,successfactors_csb,FETCHER FAILING for 25 runs: HTTPError: HTTP Error 401: 401,,unknown; scraper records first-seen dates from now on
+Qualcomm,big,eightfold,FETCHER FAILING for 26 runs: HTTPError: HTTP Error 403: FORBIDDEN,,unknown; scraper records first-seen dates from now on
 Rambus,big,icims,no spring/co-op posting yet,,unknown; scraper records first-seen dates from now on
 Renesas,big,smartrecruiters,no spring/co-op posting yet,,unknown; scraper records first-seen dates from now on
 SK hynix America,big,greenhouse,no spring/co-op posting yet,,unknown; scraper records first-seen dates from now on
@@ -69,10 +69,10 @@ Semtech,big,workday,no spring/co-op posting yet,,unknown; scraper records first-
 SiFive,big,workday,no spring/co-op posting yet,,unknown; scraper records first-seen dates from now on
 Silicon Labs,big,workday,no spring/co-op posting yet,,unknown; scraper records first-seen dates from now on
 Sonos,big,workday,no spring/co-op posting yet,,unknown; scraper records first-seen dates from now on
-Symbotic,big,workday,FETCHER FAILING for 24 runs: HTTPError: HTTP Error 422: Unprocessable Entity,,unknown; scraper records first-seen dates from now on
+Symbotic,big,workday,FETCHER FAILING for 25 runs: HTTPError: HTTP Error 422: Unprocessable Entity,,unknown; scraper records first-seen dates from now on
 Teledyne FLIR,big,workday,no spring/co-op posting yet,,unknown; scraper records first-seen dates from now on
 Torc Robotics,big,greenhouse,no spring/co-op posting yet,,unknown; scraper records first-seen dates from now on
-Vicor,big,successfactors_csb,FETCHER FAILING for 24 runs: HTTPError: HTTP Error 401: 401,,unknown; scraper records first-seen dates from now on
+Vicor,big,successfactors_csb,FETCHER FAILING for 25 runs: HTTPError: HTTP Error 401: 401,,unknown; scraper records first-seen dates from now on
 WHOOP,big,ashby,no spring/co-op posting yet,,unknown; scraper records first-seen dates from now on
 Waabi,big,lever,no spring/co-op posting yet,,unknown; scraper records first-seen dates from now on
 Waymo,big,greenhouse,no spring/co-op posting yet,,unknown; scraper records first-seen dates from now on
@@ -80,14 +80,14 @@ Wayve,big,ashby,no spring/co-op posting yet,,unknown; scraper records first-seen
 Western Digital,big,smartrecruiters,no spring/co-op posting yet,,unknown; scraper records first-seen dates from now on
 Wolfspeed,big,workday,no spring/co-op posting yet,,unknown; scraper records first-seen dates from now on
 Zoox,big,lever,no spring/co-op posting yet,,unknown; scraper records first-seen dates from now on
-iRobot,big,workday,FETCHER FAILING for 24 runs: HTTPError: HTTP Error 422: Unprocessable Entity,,unknown; scraper records first-seen dates from now on
+iRobot,big,workday,FETCHER FAILING for 25 runs: HTTPError: HTTP Error 422: Unprocessable Entity,,unknown; scraper records first-seen dates from now on
 Agility Robotics,startup,greenhouse,no spring/co-op posting yet,,unknown; scraper records first-seen dates from now on
 Ambiq,startup,greenhouse,no spring/co-op posting yet,,unknown; scraper records first-seen dates from now on
 Anello Photonics,startup,greenhouse,no spring/co-op posting yet,,unknown; scraper records first-seen dates from now on
 Apptronik,startup,greenhouse,no spring/co-op posting yet,,unknown; scraper records first-seen dates from now on
 Astera Labs,startup,greenhouse,no spring/co-op posting yet,,unknown; scraper records first-seen dates from now on
 Atom Computing,startup,lever,no spring/co-op posting yet,,unknown; scraper records first-seen dates from now on
-Atomic Semi,startup,ashby,FETCHER FAILING for 24 runs: HTTPError: HTTP Error 404: Not Found,2025-08-15,around 08-15 (last year)
+Atomic Semi,startup,ashby,FETCHER FAILING for 25 runs: HTTPError: HTTP Error 404: Not Found,2025-08-15,around 08-15 (last year)
 Axelera AI,startup,ashby,no spring/co-op posting yet,,unknown; scraper records first-seen dates from now on
 Butterfly Network,startup,greenhouse,no spring/co-op posting yet,,unknown; scraper records first-seen dates from now on
 Cerebras,startup,ashby,no spring/co-op posting yet,,unknown; scraper records first-seen dates from now on
