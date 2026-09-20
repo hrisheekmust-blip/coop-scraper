@@ -635,8 +635,8 @@
 },
 "https://www.indeed.com/viewjob": {
 "first_seen": "2026-09-18",
-"title": "Electrical Engineering Co-op/Intern - Buildings, Government Services (Spring 2027)",
-"company": "Stantec",
+"title": "Electrical/Controls Engineering Co-Op",
+"company": "nVent",
 "desc": ""
 },
 "https://www.linkedin.com/jobs/view/4468697840": {
@@ -5786,6 +5786,24 @@
 "first_seen": "2026-09-20",
 "title": "Product Development & Quality Process Engineer Co-op, Spring or Fall 2027",
 "company": "Ahlstrom",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4459875991": {
+"first_seen": "2026-09-20",
+"title": "Intern, Integration and Test Engineering -Non-Automation",
+"company": "L3Harris Technologies",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4468808725": {
+"first_seen": "2026-09-20",
+"title": "V - CAD Intern/Co-Op",
+"company": "PROENERGY",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4467892243": {
+"first_seen": "2026-09-20",
+"title": "Hardware Assembly Intern",
+"company": "Swish Robotics",
 "desc": ""
 }
 }
