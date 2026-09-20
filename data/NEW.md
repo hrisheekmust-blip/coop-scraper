@@ -1,11 +1,8 @@
 # New postings — 2026-09-20
 
-2 new of 827 tracked. Rank A = spring/Jan 2027 explicit, B = co-op with term unstated, C = intern with no term stated.
+0 new of 826 tracked. Rank A = spring/Jan 2027 explicit, B = co-op with term unstated, C = intern with no term stated.
 
-| Rank | Term | Company | Role | Location | Posted | Link |
-|---|---|---|---|---|---|---|
-| C | unspecified | L3Harris Technologies | Intern, Electrical Engineer | Northampton, MA | 2026-09-18 | [apply](https://www.linkedin.com/jobs/view/4459865982) |
-| B | coop-unspecified | Ahlstrom | Product Development & Quality Process Engineer Co-op, Spring or Fall 2027 |  | 2026-09-18 | [apply](https://www.linkedin.com/jobs/view/4458941003) |
+_nothing new today_
 
 ## All tracked
 
@@ -788,7 +785,6 @@
 | C | unspecified | Seagate | Hardware Validation Intern |  | 2026-09-09 | [apply](https://seagatecareers.com/job/Hardware-Validation-Intern/15011-en_US) |
 | C | unspecified | Seagate | Head Failure Analysis Intern III |  | 2026-09-15 | [apply](https://seagatecareers.com/job/Head-Failure-Analysis-Intern-III/15061-en_US) |
 | C | unspecified | Seagate | Korat Firmware Test and Engineering Intern | Nakhon Ratchasima, THA,  | 2026-06-30 | [apply](https://seagatecareers.com/job/Korat-Firmware-Test-and-Engineering-Intern/14620-en_US) |
-| C | unspecified | Seagate | Metrology maintenance engineering intern | Nakhon Ratchasima, THA,  | 2026-08-26 | [apply](https://seagatecareers.com/job/Metrology-maintenance-engineering-intern/14919-en_US) |
 | C | unspecified | Seagate | Product Engineering Intern | Nakhon Ratchasima, THA,  | 2026-07-20 | [apply](https://seagatecareers.com/job/Product-Engineering-Intern/14645-en_US) |
 | C | unspecified | Seagate | Recording Head Test Engineering Intern | Samut Prakan, THA,  | 2026-08-19 | [apply](https://seagatecareers.com/job/Recording-Head-Test-Engineering-Intern/14901-en_US) |
 | C | unspecified | Seagate | Research Intern, Electronics Design Engineering | Shugart, SGP,  | 2026-08-17 | [apply](https://seagatecareers.com/job/Research-Intern%2C-Electronics-Design-Engineering/14852-en_US) |
