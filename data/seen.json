@@ -635,8 +635,8 @@
 },
 "https://www.indeed.com/viewjob": {
 "first_seen": "2026-09-18",
-"title": "Hardware Engineering Internship (6-Month Program)",
-"company": "Microsoft",
+"title": "RF Design Engineering Co-Op (Jan - June '27)",
+"company": "Skyworks Solutions",
 "desc": ""
 },
 "https://www.linkedin.com/jobs/view/4468697840": {
@@ -1578,7 +1578,7 @@
 },
 "https://simplify.jobs/jobs/click/182d99fd-858d-4860-93b7-4f77b0167c1b": {
 "first_seen": "2026-09-18",
-"title": "ARC Electrical Engineer CO-OP",
+"title": "Electrical Engineer Co-op",
 "company": "GE Healthcare",
 "desc": ""
 },
@@ -5996,6 +5996,114 @@
 "first_seen": "2026-09-21",
 "title": "Stage - Hiver 2027 - Genie Industriel / Internship - Winter 2027 - Industrial_Engineering",
 "company": "RTX",
+"desc": ""
+},
+"https://draper.wd5.myworkdayjobs.com/en-US/draper_careers/job/Cambridge-MA/Embedded-Quality---Fielded-Systems-Intern_JR002718": {
+"first_seen": "2026-09-21",
+"title": "Embedded Quality & Fielded Systems Intern",
+"company": "Draper",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/fc6a9575-3307-4ca3-b7cb-8c96f362339e": {
+"first_seen": "2026-09-21",
+"title": "Electrical Engineer Co-op",
+"company": "RTX",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/3e0d2987-a9a7-46ce-acbb-8daf3671d826": {
+"first_seen": "2026-09-21",
+"title": "Power Electronics Control Intern",
+"company": "Amperesand",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4424110045": {
+"first_seen": "2026-09-21",
+"title": "Electrical Engineering Spring Co-op (January 2027) (R4475)",
+"company": "Shield AI",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4469946681": {
+"first_seen": "2026-09-21",
+"title": "Electronic Design Automation Winter/Spring Co-Op (Jan-June '27)",
+"company": "Skyworks Solutions, Inc.",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4469945706": {
+"first_seen": "2026-09-21",
+"title": "RF Design Engineering Co-Op (Jan - June '27)",
+"company": "Skyworks Solutions, Inc.",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4427727949": {
+"first_seen": "2026-09-21",
+"title": "Co-Op: Electrical Engineering 1 1",
+"company": "Fives",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4466004236": {
+"first_seen": "2026-09-21",
+"title": "Hardware Test Engineering Co-op",
+"company": "Delta Faucet Company",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4458951138": {
+"first_seen": "2026-09-21",
+"title": "2027 Electrical Engineer Intern / Co-op",
+"company": "LyondellBasell",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4385380999": {
+"first_seen": "2026-09-21",
+"title": "Electrical Platform Intern",
+"company": "Etched",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4469936969": {
+"first_seen": "2026-09-21",
+"title": "Intern",
+"company": "Skyworks Solutions, Inc.",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4468171100": {
+"first_seen": "2026-09-21",
+"title": "Quantum Control Systems FPGA Developer Internship 2027",
+"company": "IBM",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4469950947": {
+"first_seen": "2026-09-21",
+"title": "Hardware/Software Engineering Co-Op",
+"company": "Analogic",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4469943796": {
+"first_seen": "2026-09-21",
+"title": "Analog Design Intern (Winter/Spring 2027)",
+"company": "Skyworks Solutions, Inc.",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4385399156": {
+"first_seen": "2026-09-21",
+"title": "DV Intern",
+"company": "Etched",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4469888440": {
+"first_seen": "2026-09-21",
+"title": "Internship - PDK Engineer",
+"company": "Infineon Technologies",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4424908263": {
+"first_seen": "2026-09-21",
+"title": "SkillBridge RF Technician Internship for Service Members",
+"company": "Kratos Defense and Security Solutions",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4468165330": {
+"first_seen": "2026-09-21",
+"title": "Semiconductor Process Engineering Intern",
+"company": "Keysight Technologies",
 "desc": ""
 }
 }
