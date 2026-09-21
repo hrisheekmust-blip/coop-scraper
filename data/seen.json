@@ -635,8 +635,8 @@
 },
 "https://www.indeed.com/viewjob": {
 "first_seen": "2026-09-18",
-"title": "Electrical/Controls Engineering Co-Op",
-"company": "nVent",
+"title": "Hardware Engineering Internship (6-Month Program)",
+"company": "Microsoft",
 "desc": ""
 },
 "https://www.linkedin.com/jobs/view/4468697840": {
@@ -5834,6 +5834,18 @@
 "first_seen": "2026-09-20",
 "title": "Intern (Electronics Engineering)",
 "company": "Nordson Corporation",
+"desc": ""
+},
+"https://globalfoundries.wd1.myworkdayjobs.com/External/job/SGP---Woodlands/Testsite-Engineer-Intern--Jan-Jun-2027-_JR-2604402": {
+"first_seen": "2026-09-21",
+"title": "Testsite Engineer Intern (Jan-Jun 2027)",
+"company": "GlobalFoundries",
+"desc": ""
+},
+"https://globalfoundries.wd1.myworkdayjobs.com/External/job/SGP---Science-Park/Design-Enablement-Engineer-Intern--Jan-Jun-2027-_JR-2604275": {
+"first_seen": "2026-09-21",
+"title": "Design Enablement Engineer Intern (Jan-Jun 2027)",
+"company": "GlobalFoundries",
 "desc": ""
 }
 }
