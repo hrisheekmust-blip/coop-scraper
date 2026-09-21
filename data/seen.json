@@ -1578,7 +1578,7 @@
 },
 "https://simplify.jobs/jobs/click/182d99fd-858d-4860-93b7-4f77b0167c1b": {
 "first_seen": "2026-09-18",
-"title": "Electrical Engineer Co-op",
+"title": "ARC Electrical Engineer CO-OP",
 "company": "GE Healthcare",
 "desc": ""
 },
@@ -5846,6 +5846,66 @@
 "first_seen": "2026-09-21",
 "title": "Design Enablement Engineer Intern (Jan-Jun 2027)",
 "company": "GlobalFoundries",
+"desc": ""
+},
+"https://globalfoundries.wd1.myworkdayjobs.com/External/job/SGP---Woodlands/XMLNAME---Engineer-Quality-QMS-Intern--Jan-Jun-2027-_JR-2604510-1": {
+"first_seen": "2026-09-21",
+"title": "\u2022\tEngineer Quality QMS Intern (Jan-Jun 2027)",
+"company": "GlobalFoundries",
+"desc": ""
+},
+"https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Istanbul/Thermal-Systems-Design-Engineering-Intern--6-Months-_R5039995-1": {
+"first_seen": "2026-09-21",
+"title": "Thermal Systems Design Engineering Intern (6 Months)",
+"company": "GE Aerospace",
+"desc": ""
+},
+"https://seagatecareers.com/job/Test-Process-&amp;-Engineer-Firmware-Intern/14439-en_US": {
+"first_seen": "2026-09-21",
+"title": "Test Process & Engineer Firmware Intern",
+"company": "Seagate",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/34d8f865-8389-4eba-9e9e-66c244a5a9f3": {
+"first_seen": "2026-09-21",
+"title": "Hardware Engineering Co-op",
+"company": "Lennox International",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/8acb4741-8065-400f-a46c-4f5ec6c67a9e": {
+"first_seen": "2026-09-21",
+"title": "Packaging Engineer Co-op Intern",
+"company": "Mars",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/453bfeec-4db8-4805-9eee-fabbb5fb6023": {
+"first_seen": "2026-09-21",
+"title": "RF Design Engineering Intern",
+"company": "Qorvo",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4462969618": {
+"first_seen": "2026-09-21",
+"title": "Intern, Electrical/Computer Engineering, Uncrewed Systems",
+"company": "SIG SAUER, Inc.",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4462970624": {
+"first_seen": "2026-09-21",
+"title": "Intern, Electrical Engineering",
+"company": "SIG SAUER, Inc.",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4468492827": {
+"first_seen": "2026-09-21",
+"title": "Electrical Engineering Intern",
+"company": "Nordson Corporation",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4468498245": {
+"first_seen": "2026-09-21",
+"title": "Intern Engineer - Infrastructure Hardware/Network",
+"company": "General Dynamics Mission Systems",
 "desc": ""
 }
 }
