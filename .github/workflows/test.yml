@@ -1,0 +1,17 @@
+name: application flow tests
+on:
+  push:
+    paths: ["index.html", "relay.html", "coop-apply.user.js", "tests/**", ".github/workflows/test.yml"]
+  pull_request:
+    paths: ["index.html", "relay.html", "coop-apply.user.js", "tests/**", ".github/workflows/test.yml"]
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - run: node --test tests/*.test.cjs

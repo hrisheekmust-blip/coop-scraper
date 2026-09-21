@@ -63,6 +63,26 @@ so it is current within a minute of every scrape. Tabs: Apply now, Maybe, All, O
 Rejected (audit trail). Statuses are saved in the browser (localStorage). The Google Sheet (`sheets/`) still works but
 is no longer the primary UI.
 
+## Batch application setup and troubleshooting
+
+Batch Apply supports the Ashby, Greenhouse and Lever hosts listed in `coop-apply.user.js`.
+Other portals have an **Open application** link for manual completion.
+
+1. In board Settings, configure a token with Contents read/write access to the private materials repository.
+2. Install or update the Tampermonkey apply script to **version 1.1** from the board's Settings link.
+3. Select postings with prepared materials and click **Apply to all**. Allow the popup and keep the board tab open.
+4. Complete any missing answers or captcha in the application tab. A confirmed submission returns to the relay
+   and advances to the next posting. **Stop** prevents the next handoff; it does not close a form already open.
+
+If preparation fails, the board and relay show the reason. Stop the batch, correct the token/materials problem,
+then retry. If GitHub cannot save a result, its receipt remains in this browser and the next board refresh retries it.
+Clearing browser storage before sync succeeds removes that receipt. A token is still required for private materials
+and cross-browser status persistence.
+
+Run the offline regression suite with `node --test tests/*.test.cjs`. These tests use simulated portals and GitHub
+responses and never send applications. Push/PR CI runs this suite. The existing live-form dry-run workflow is
+manual-only, uses its synthetic applicant, and the userscript honors its dry-run flag before pressing Submit.
+
 ## Alerts
 
 `scraper/alerts.py` runs after every scrape: new CHIP / HARDWARE / MAYBE rows, company openings and broken fetchers

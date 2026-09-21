@@ -37,13 +37,20 @@ const P = new URLSearchParams(location.hash.slice(1));
 const getQ = () => { try { return JSON.parse(localStorage.getItem("coop-batch") || "null"); } catch (e) { return null; } };
 const putQ = q => localStorage.setItem("coop-batch", JSON.stringify(q));
 
-async function go(id, name) {
+async function go(id, name, batchId) {
   for (let i = 0; i < 60; i++) {                        // the board stages each payload just before its turn
+    const q = getQ();
+    if (!q || q.finished || q.batchId !== batchId || q.ids[q.i] !== id) { say("batch stopped", "return to the board to start again"); return; }
     const raw = localStorage.getItem("coop-q-" + id);
     if (raw) {
       let j; try { j = JSON.parse(raw); } catch (e) { say("that application's payload is corrupted", "go back to the board and click Apply again"); return; }
+      if (j.error) { say("couldn't prepare this application", j.error + " — return to the board to retry"); return; }
+      if (j.payload.batchId !== batchId) { await new Promise(r => setTimeout(r, 500)); continue; }
+      const url = new URL(j.applyUrl);
+      if (url.protocol !== "https:" || !["jobs.ashbyhq.com", "boards.greenhouse.io", "job-boards.greenhouse.io", "jobs.lever.co"].includes(url.hostname)) { say("this portal needs a manual application"); return; }
       say("opening " + (name || j.payload.job.company) + "…", j.applyUrl);
-      location.replace(j.applyUrl + "#coop=" + id + "&p=" + b64e(JSON.stringify(j.payload)));
+      url.hash = "coop=" + id + "&p=" + b64e(JSON.stringify(j.payload));
+      location.replace(url.href);
       return;
     }
     say("getting " + (name || "the application") + " ready…", i > 6 ? "waiting on the board tab — is it still open?" : "");
@@ -55,26 +62,30 @@ async function go(id, name) {
 function next() {
   const q = getQ();
   if (!q || !q.ids || !q.ids.length) { say("nothing queued", "go to the board and pick some postings"); return; }
+  if (q.finished && q.i < q.ids.length) { say("batch stopped", "return to the board to retry"); return; }
   if (q.i >= q.ids.length) {
     putQ({ ...q, finished: true });
     say(`Done — ${q.done} of ${q.ids.length} submitted.`, q.done < q.ids.length ? "The rest are marked on the board with what they need. You can close this tab." : "You can close this tab.");
     return;
   }
   say(`Application ${q.i + 1} of ${q.ids.length}…`);
-  go(q.ids[q.i], q.names && q.names[q.i]);
+  go(q.ids[q.i], q.names && q.names[q.i], q.batchId).catch(e => say("couldn't open the application", e.message));
 }
 
 if (P.has("done")) {
   let r = null; try { r = JSON.parse(b64d(P.get("done"))); } catch (e) {}
   if (!r) { say("couldn't read that result"); }
   else {
-    localStorage.setItem("coop-r-" + r.id, JSON.stringify({ ...r, seen: Date.now() }));   // the board tab hears this
     const q = getQ();
-    if (q && q.ids[q.i] === r.id) { q.i++; if (r.ok) q.done++; putQ(q); say(r.ok ? "submitted ✓ — next one…" : "recorded — next one…"); setTimeout(next, 900); }
-    else say(r.ok ? "submitted ✓ recorded on the board" : "recorded on the board", "You can close this tab.");
+    if (!q || q.batchId !== r.batchId || q.ids[q.i] !== r.id) { say("this result belongs to an older or already recorded application", "check its status on the board"); }
+    else {
+      localStorage.setItem("coop-r-" + r.id, JSON.stringify({ ...r, seen: Date.now() }));
+      history.replaceState(null, "", location.pathname + "#next");
+      q.i++; if (r.ok) q.done++; putQ(q);
+      say(r.ok ? "submitted ✓ — next one…" : "recorded — next one…"); setTimeout(next, 900);
+    }
   }
 } else if (P.has("go")) {
-  const q = getQ(); if (q) putQ({ ...q, i: 0, done: 0, finished: false });
   next();
 } else if (P.has("next")) next();
 else say("nothing to do", "this page is opened by the co-op board");
