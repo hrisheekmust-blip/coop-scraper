@@ -635,8 +635,8 @@
 },
 "https://www.indeed.com/viewjob": {
 "first_seen": "2026-09-18",
-"title": "TECO Spring 2027 Electrical Engineering Internship - Lighting",
-"company": "Tampa Electric Company",
+"title": "Intern - Hardware Engineer",
+"company": "Symbotic",
 "desc": ""
 },
 "https://www.linkedin.com/jobs/view/4468697840": {
@@ -6620,6 +6620,84 @@
 "first_seen": "2026-09-22",
 "title": "Hardware EE Intern Engineer for Crypto and Cross Domain Solutions",
 "company": "General Dynamics Mission Systems",
+"desc": ""
+},
+"https://job-boards.greenhouse.io/astranis/jobs/4704595006": {
+"first_seen": "2026-09-22",
+"title": "Flight Software Intern (Winter 2027)",
+"company": "Astranis",
+"desc": ""
+},
+"https://job-boards.greenhouse.io/figureai/jobs/4676467006": {
+"first_seen": "2026-09-22",
+"title": "Electrical Engineering Intern [Fall 2026]",
+"company": "Figure AI",
+"desc": ""
+},
+"https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/40743": {
+"first_seen": "2026-09-22",
+"title": "Photonic Integrated Circuits Test Coop",
+"company": "Nokia",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/c7fa82d8-d38a-48d9-8f18-c6f798ffe999": {
+"first_seen": "2026-09-22",
+"title": "Power and Analog Electronic Engineer Intern",
+"company": "RTX",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/1ade3dab-ce91-450e-8402-47544653f4ec": {
+"first_seen": "2026-09-22",
+"title": "Process Engineer Intern",
+"company": "CHS",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4469934076": {
+"first_seen": "2026-09-22",
+"title": "Controls or Electrical Engineer Intern",
+"company": "KOCH Finishing Systems",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4459734128": {
+"first_seen": "2026-09-22",
+"title": "2027 Electrical Engineer Intern / Co-op",
+"company": "LyondellBasell",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4468510610": {
+"first_seen": "2026-09-22",
+"title": "Co-op- Hardware Engineer",
+"company": "Symbotic",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4470620792": {
+"first_seen": "2026-09-22",
+"title": "Hardware Engineer II Intern - United States",
+"company": "Cisco",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4470600744": {
+"first_seen": "2026-09-22",
+"title": "Co-op: Test Engineer",
+"company": "ESTAT Actuation",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4470631387": {
+"first_seen": "2026-09-22",
+"title": "Hardware Engineer II Intern - United States",
+"company": "Cisco",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4470622600": {
+"first_seen": "2026-09-22",
+"title": "Hardware Engineer II Intern - United States",
+"company": "Cisco",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4469021766": {
+"first_seen": "2026-09-22",
+"title": "Electrical Engineer Co-Op",
+"company": "Schneider Electric",
 "desc": ""
 }
 }
