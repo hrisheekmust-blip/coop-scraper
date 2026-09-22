@@ -1,22 +1,10 @@
 # New postings — 2026-09-22
 
-13 new of 869 tracked. Rank A = spring/Jan 2027 explicit, B = co-op with term unstated, C = intern with no term stated.
+1 new of 870 tracked. Rank A = spring/Jan 2027 explicit, B = co-op with term unstated, C = intern with no term stated.
 
 | Rank | Term | Company | Role | Location | Posted | Link |
 |---|---|---|---|---|---|---|
-| A | spring | Astranis | Flight Software Intern (Winter 2027) | San Francisco | 2026-09-22 | [apply](https://job-boards.greenhouse.io/astranis/jobs/4704595006) |
-| A | spring | Figure AI | Electrical Engineering Intern [Fall 2026] | San Jose, CA | 2026-09-22 | [apply](https://job-boards.greenhouse.io/figureai/jobs/4676467006) |
-| B | coop-unspecified | Nokia | Photonic Integrated Circuits Test Coop | United States | 2026-09-22 | [apply](https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/40743) |
-| C | unspecified | RTX | Power and Analog Electronic Engineer Intern | Tucson, AZ, USA | 2026-09-21 | [apply](https://simplify.jobs/jobs/click/c7fa82d8-d38a-48d9-8f18-c6f798ffe999) |
-| C | unspecified | CHS | Process Engineer Intern | Laurel, MT, USA | 2026-09-14 | [apply](https://simplify.jobs/jobs/click/1ade3dab-ce91-450e-8402-47544653f4ec) |
-| A | spring | KOCH Finishing Systems | Controls or Electrical Engineer Intern | Rochester Hills, MI | 2026-09-21 | [apply](https://www.linkedin.com/jobs/view/4469934076) |
-| B | coop-unspecified | LyondellBasell | 2027 Electrical Engineer Intern / Co-op | Corpus Christi, TX | 2026-09-20 | [apply](https://www.linkedin.com/jobs/view/4459734128) |
-| B | coop-unspecified | Symbotic | Co-op- Hardware Engineer | Wilmington, MA | nan | [apply](https://www.linkedin.com/jobs/view/4468510610) |
-| C | unspecified | Cisco | Hardware Engineer II Intern - United States | Austin, TX | nan | [apply](https://www.linkedin.com/jobs/view/4470620792) |
-| A | spring | ESTAT Actuation | Co-op: Test Engineer | Pittsburgh, PA | nan | [apply](https://www.linkedin.com/jobs/view/4470600744) |
-| C | unspecified | Cisco | Hardware Engineer II Intern - United States | Carlsbad, CA | nan | [apply](https://www.linkedin.com/jobs/view/4470631387) |
-| C | unspecified | Cisco | Hardware Engineer II Intern - United States | San Jose, CA | nan | [apply](https://www.linkedin.com/jobs/view/4470622600) |
-| A | spring | Schneider Electric | Electrical Engineer Co-Op | Fairfield, OH | nan | [apply](https://www.linkedin.com/jobs/view/4469021766) |
+| C | unspecified | Quadric | Design Verification Intern | Burlingame, CA (HQ) | 2026-09-22 | [apply](https://jobs.ashbyhq.com/quadric/42074f13-dab4-4203-99a7-8fa3186de168) |
 
 ## All tracked
 
@@ -187,9 +175,9 @@
 | A | spring | RTX | Systems Engineer Co-Op (Spring/Summer 2027) - Onsite | US-IA-CEDAR RAPIDS-182 ~ 1100 Cimmie Ave Ne ~ BLDG 182 | Posted Yesterday | [apply](https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-IA-CEDAR-RAPIDS-182--1100-Cimmie-Ave-Ne--BLDG-182/Systems-Engineer-Co-Op--Spring-Summer-2027----Onsite_01873686) |
 | A | spring | RTX | Systems Engineering Coop - Spring/Summer- Onsite | US-ND-JAMESTOWN-P1 ~ 2604 Highway 20 N ~ PLANT 1 | Posted 5 Days Ago | [apply](https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-ND-JAMESTOWN-P1--2604-Highway-20-N--PLANT-1/Systems-Engineering-Coop---Spring-Summer--Onsite_01873304) |
 | A | spring | Rocket Lab | Fluid Systems Intern Spring 2027 | Long Beach, CA | 2026-09-09 | [apply](https://job-boards.greenhouse.io/rocketlab/jobs/7986788003) |
-| A | spring | Rocket Lab | Manufacturing Engineering Intern Spring 2027 | Long Beach, CA | 2026-09-16 | [apply](https://job-boards.greenhouse.io/rocketlab/jobs/7984943003) |
-| A | spring | Rocket Lab | Manufacturing Engineering Intern Spring 2027 | Middle River, MD | 2026-09-16 | [apply](https://job-boards.greenhouse.io/rocketlab/jobs/7987020003) |
 | A | spring | Rocket Lab | Manufacturing Engineering Intern Spring 2027 | Wallops Island, VA | 2026-09-17 | [apply](https://job-boards.greenhouse.io/rocketlab/jobs/7996617003) |
+| A | spring | Rocket Lab | Manufacturing Engineering Intern Spring 2027 | Middle River, MD | 2026-09-16 | [apply](https://job-boards.greenhouse.io/rocketlab/jobs/7987020003) |
+| A | spring | Rocket Lab | Manufacturing Engineering Intern Spring 2027 | Long Beach, CA | 2026-09-16 | [apply](https://job-boards.greenhouse.io/rocketlab/jobs/7984943003) |
 | A | spring | Rocket Lab | Propulsion Design Intern Spring 2027 | Long Beach, CA | 2026-09-11 | [apply](https://job-boards.greenhouse.io/rocketlab/jobs/7987110003) |
 | A | spring | Rocket Lab | R&D Engineering Intern Spring 2027 | Albuquerque, NM | 2026-09-17 | [apply](https://job-boards.greenhouse.io/rocketlab/jobs/7996578003) |
 | A | spring | Rocket Lab | Systems Engineering Intern Spring 2027 | Long Beach, CA | 2026-09-09 | [apply](https://job-boards.greenhouse.io/rocketlab/jobs/7987044003) |
@@ -810,6 +798,7 @@
 | C | unspecified | Qorvo, Inc. | Test Engineering Intern | Chelmsford, MA | nan | [apply](https://www.linkedin.com/jobs/view/4470478943) |
 | C | unspecified | QuEra | Internship - Research & Development | Boston, MA, USA | 2026-06-28 | [apply](https://job-boards.greenhouse.io/queracomputinginc/jobs/5227710008) |
 | C | unspecified | QuEra | Internship Inquiries  | Boston, MA, USA | 2026-06-28 | [apply](https://job-boards.greenhouse.io/queracomputinginc/jobs/4182470008) |
+| C | unspecified | Quadric | Design Verification Intern | Burlingame, CA (HQ) | 2026-09-22 | [apply](https://jobs.ashbyhq.com/quadric/42074f13-dab4-4203-99a7-8fa3186de168) |
 | C | unspecified | Quantinuum | Electrical Engineer Intern | Broomfield, CO, USA | 2026-09-11 | [apply](https://simplify.jobs/jobs/click/f61a7695-7297-4d3e-9f68-3ef0b85baec3) |
 | C | unspecified | Quantinuum | Layout Automation Engineering Intern | Brooklyn Park, MN, USA | 2026-09-11 | [apply](https://simplify.jobs/jobs/click/e786530f-a166-4c4d-8e6a-a97d02405c85) |
 | C | unspecified | Quantinuum | Optics Intern | Albuquerque, NM, USA | 2026-09-21 | [apply](https://simplify.jobs/jobs/click/a4ffadf2-f2b8-452a-816b-6709290fbdd9) |
