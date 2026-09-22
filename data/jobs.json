@@ -62,7 +62,6 @@
   "hw": "electrical engineer",
   "tier": "big",
   "sources": [
-   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-09-17",
@@ -270,6 +269,23 @@
    "greenhouse"
   ],
   "first_seen": "2026-09-19",
+  "last_seen": "2026-09-22"
+ },
+ {
+  "company": "Astranis",
+  "title": "Hardware Test Intern (Winter 2027)",
+  "location": "San Francisco",
+  "url": "https://job-boards.greenhouse.io/astranis/jobs/4707012006",
+  "posted": "2026-09-22",
+  "deadline": "",
+  "term": "spring",
+  "rank": "A",
+  "hw": "hardware",
+  "tier": "startup",
+  "sources": [
+   "greenhouse"
+  ],
+  "first_seen": "2026-09-22",
   "last_seen": "2026-09-22"
  },
  {
@@ -981,7 +997,6 @@
   "hw": "electrical engineer",
   "tier": "big",
   "sources": [
-   "internlist:coop",
    "workday"
   ],
   "first_seen": "2026-09-18",
@@ -1016,7 +1031,6 @@
   "hw": "metrology",
   "tier": "big",
   "sources": [
-   "internlist:coop",
    "workday"
   ],
   "first_seen": "2026-09-18",
@@ -1051,7 +1065,6 @@
   "hw": "product engineering",
   "tier": "big",
   "sources": [
-   "internlist:coop",
    "workday"
   ],
   "first_seen": "2026-09-18",
@@ -2762,9 +2775,9 @@
  {
   "company": "Rocket Lab",
   "title": "Manufacturing Engineering Intern Spring 2027",
-  "location": "Middle River, MD",
-  "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7987020003",
-  "posted": "2026-09-16",
+  "location": "Wallops Island, VA",
+  "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7996617003",
+  "posted": "2026-09-17",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -2779,9 +2792,9 @@
  {
   "company": "Rocket Lab",
   "title": "Manufacturing Engineering Intern Spring 2027",
-  "location": "Wallops Island, VA",
-  "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7996617003",
-  "posted": "2026-09-17",
+  "location": "Middle River, MD",
+  "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7987020003",
+  "posted": "2026-09-16",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -2975,8 +2988,7 @@
   "hw": "electrical engineering",
   "tier": "big",
   "sources": [
-   "greenhouse",
-   "jobspy:linkedin"
+   "greenhouse"
   ],
   "first_seen": "2026-09-17",
   "last_seen": "2026-09-22"
@@ -3945,7 +3957,6 @@
   "hw": "silicon",
   "tier": "big",
   "sources": [
-   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-09-17",
@@ -4610,8 +4621,7 @@
   "hw": "test engineer",
   "tier": "startup",
   "sources": [
-   "greenhouse",
-   "jobspy:linkedin"
+   "greenhouse"
   ],
   "first_seen": "2026-09-21",
   "last_seen": "2026-09-22"
@@ -6171,7 +6181,6 @@
   "hw": "electrical engineering",
   "tier": "big",
   "sources": [
-   "jobspy:linkedin",
    "oracle_hcm"
   ],
   "first_seen": "2026-09-18",
@@ -6434,23 +6443,6 @@
    "workday"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-09-22"
- },
- {
-  "company": "Entegris",
-  "title": "Continuous Improvement Engineer Co-Op",
-  "location": "Chaska, MN",
-  "url": "https://entegris.wd1.myworkdayjobs.com/EntegrisCareers/job/Chaska-MN/Continuous-Improvement-Engineer-Co-Op_REQ-14478",
-  "posted": "Posted 12 Days Ago",
-  "deadline": "",
-  "term": "coop-unspecified",
-  "rank": "B",
-  "hw": "maybe",
-  "tier": "big",
-  "sources": [
-   "workday"
-  ],
-  "first_seen": "2026-09-19",
   "last_seen": "2026-09-22"
  },
  {
@@ -7473,8 +7465,6 @@
   "hw": "electronics",
   "tier": "big",
   "sources": [
-   "internlist:coop",
-   "internlist:winter-spring",
    "workday"
   ],
   "first_seen": "2026-09-18",
@@ -9761,6 +9751,57 @@
   "last_seen": "2026-09-22"
  },
  {
+  "company": "Cadence",
+  "title": "Intern - IC Design",
+  "location": "GALWAY 01",
+  "url": "https://cadence.wd1.myworkdayjobs.com/External_Careers/job/GALWAY-01/Intern---IC-Design_R56002",
+  "posted": "Posted 5 Days Ago",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "ic design",
+  "tier": "big",
+  "sources": [
+   "workday"
+  ],
+  "first_seen": "2026-09-17",
+  "last_seen": "2026-09-22"
+ },
+ {
+  "company": "Cadence",
+  "title": "Intern in Photonics flow",
+  "location": "MEYLAN 01",
+  "url": "https://cadence.wd1.myworkdayjobs.com/External_Careers/job/MEYLAN-01/Intern-in-Photonics-flow_R55241-2",
+  "posted": "Posted 30+ Days Ago",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "photonics",
+  "tier": "big",
+  "sources": [
+   "workday"
+  ],
+  "first_seen": "2026-09-17",
+  "last_seen": "2026-09-22"
+ },
+ {
+  "company": "Cadence",
+  "title": "Intern: Application Engineering - Digital Verification & Simulation/VIP",
+  "location": "BELO HORIZONTE",
+  "url": "https://cadence.wd1.myworkdayjobs.com/External_Careers/job/BELO-HORIZONTE/Intern--Application-Engineering---Digital-Verification---Simulation-VIP_R54888",
+  "posted": "Posted 30+ Days Ago",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "verification",
+  "tier": "big",
+  "sources": [
+   "workday"
+  ],
+  "first_seen": "2026-09-17",
+  "last_seen": "2026-09-22"
+ },
+ {
   "company": "Canadian Solar",
   "title": "Raw Material Test Engineer Intern",
   "location": "Mesquite, TX, USA",
@@ -9860,6 +9901,23 @@
    "workday"
   ],
   "first_seen": "2026-09-18",
+  "last_seen": "2026-09-22"
+ },
+ {
+  "company": "Cisco",
+  "title": "Hardware Engineer II Intern - United States",
+  "location": "4 Locations",
+  "url": "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/San-Jose-California-US/Hardware-Engineer-II-Intern---United-States_2024757",
+  "posted": "Posted Today",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "hardware",
+  "tier": "big",
+  "sources": [
+   "workday"
+  ],
+  "first_seen": "2026-09-22",
   "last_seen": "2026-09-22"
  },
  {
@@ -10678,6 +10736,23 @@
    "icims"
   ],
   "first_seen": "2026-09-18",
+  "last_seen": "2026-09-22"
+ },
+ {
+  "company": "General Dynamics Mission Systems",
+  "title": "Hardware EE Intern Engineer for Crypto and Cross Domain Solutions",
+  "location": "",
+  "url": "https://careers-gdms.icims.com/jobs/74787/hardware-ee-intern-engineer-for-crypto-and-cross-domain-solutions/job",
+  "posted": "",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "ee,hardware",
+  "tier": "big",
+  "sources": [
+   "icims"
+  ],
+  "first_seen": "2026-09-22",
   "last_seen": "2026-09-22"
  },
  {
