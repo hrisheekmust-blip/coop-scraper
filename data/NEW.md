@@ -1,18 +1,8 @@
-# New postings — 2026-09-21
+# New postings — 2026-09-22
 
-9 new of 816 tracked. Rank A = spring/Jan 2027 explicit, B = co-op with term unstated, C = intern with no term stated.
+0 new of 816 tracked. Rank A = spring/Jan 2027 explicit, B = co-op with term unstated, C = intern with no term stated.
 
-| Rank | Term | Company | Role | Location | Posted | Link |
-|---|---|---|---|---|---|---|
-| A | spring | Tampa Electric | TECO Spring 2027 Electrical Engineering Internship - Lighting | Tampa, FL | nan | [apply](https://www.linkedin.com/jobs/view/4469979975) |
-| B | coop-unspecified | Raytheon | Test Engineering Specialist Co-Op (Onsite) | Andover, MA | nan | [apply](https://www.linkedin.com/jobs/view/4469968894) |
-| B | coop-unspecified | GPD Group | Solar PV Electrical Engineer Co-op | Akron, OH | nan | [apply](https://www.linkedin.com/jobs/view/4468779405) |
-| B | coop-unspecified | Hill's Pet Nutrition | Packaging Engineer Intern/Co-Op | Topeka, KS | nan | [apply](https://www.linkedin.com/jobs/view/4468172232) |
-| C | unspecified | Broan-NuTone | Electrical Engineer Intern | Hartford Town, WI | nan | [apply](https://www.linkedin.com/jobs/view/4468166926) |
-| C | unspecified | Celestica | Student Intern, Hardware Design | Austin, TX | nan | [apply](https://www.linkedin.com/jobs/view/4469974858) |
-| C | unspecified | Molex | Optical System Test Engineer Intern | Fremont, CA | nan | [apply](https://www.linkedin.com/jobs/view/4469988707) |
-| C | unspecified | Molex | Optical Engineer Intern | Fremont, CA | nan | [apply](https://www.linkedin.com/jobs/view/4469999336) |
-| B | coop-unspecified | Gorbel | Electrical Engineering Co-Op | Victor, NY | nan | [apply](https://www.linkedin.com/jobs/view/4468781362) |
+_nothing new today_
 
 ## All tracked
 
@@ -671,8 +661,6 @@
 | C | unspecified | Lightmatter | Photonics Characterization Intern & New Grad | Boston, MA | 2026-09-15 | [apply](https://boards.greenhouse.io/lightmatter/jobs/5374627008?gh_jid=5374627008) |
 | C | unspecified | Lightmatter | Photonics Characterization Intern New Grad | Boston, MA, USA | 2026-09-11 | [apply](https://simplify.jobs/jobs/click/3286eb4f-5511-4560-ae4e-9d241dca2cda) |
 | C | unspecified | Lightmatter | Silicon Intern | Boston, MA, USA; Mountain View, CA, USA | 2026-09-16 | [apply](https://simplify.jobs/jobs/click/92e0027e-a9c8-4956-82d7-791d98c9d21b) |
-| C | unspecified | Lightmatter | Silicon Packaging Engineer - Intern & New Grad | Mountain View, CA | 2026-09-15 | [apply](https://boards.greenhouse.io/lightmatter/jobs/5422712008?gh_jid=5422712008) |
-| C | unspecified | Lightmatter | Silicon, Hardware, & Photonics Engineering - Internship  | Boston, MA; Mountain View, CA | 2026-09-18 | [apply](https://boards.greenhouse.io/lightmatter/jobs/5425407008?gh_jid=5425407008) |
 | C | unspecified | Loram | Electrical Engineer Intern | Hamel, Medina, MN, USA | 2026-09-04 | [apply](https://simplify.jobs/jobs/click/9aad0dad-d70e-4ccf-83fb-4bf03e79af7f) |
 | C | unspecified | LotusWorks | Electrical & Instrumentation Technician Intern | Rio Rancho, NM, USA | 2026-07-10 | [apply](https://simplify.jobs/jobs/click/29682415-e6db-47ac-b60c-1ecc87979cda) |
 | C | unspecified | MSA | Electrical Engineer Intern | Kiel, WI, USA | 2026-09-03 | [apply](https://simplify.jobs/jobs/click/2c763b19-ac0d-4d58-8ecd-4ebd895ee7df) |
@@ -784,10 +772,12 @@
 | C | unspecified | Seagate | Electrical Design Engineering Intern | Nakhon Ratchasima, THA,  | 2026-01-27 | [apply](https://seagatecareers.com/job/Electrical-Design-Engineering-Intern/13582-en_US) |
 | C | unspecified | Seagate | Engineering Intern (slider process engineer) | Nakhon Ratchasima, THA,  | 2026-09-03 | [apply](https://seagatecareers.com/job/Engineering-Intern-%28slider-process-engineer%29/14914-en_US) |
 | C | unspecified | Seagate | Failure Analysis Intern III (Auto Failure Analysis & Data Analytics) | Nakhon Ratchasima, THA,  | 2026-07-09 | [apply](https://seagatecareers.com/job/Failure-Analysis-Intern-III-%28Auto-Failure-Analysis-&amp;-Data-Analytics%29/14648-en_US) |
+| C | unspecified | Seagate | Hardware Engineering Intern |  | 2026-09-09 | [apply](https://seagatecareers.com/job/Hardware-Engineering-Intern/15010-en_US) |
+| C | unspecified | Seagate | Hardware Validation Intern |  | 2026-09-09 | [apply](https://seagatecareers.com/job/Hardware-Validation-Intern/15011-en_US) |
 | C | unspecified | Seagate | Head Failure Analysis Intern III |  | 2026-09-15 | [apply](https://seagatecareers.com/job/Head-Failure-Analysis-Intern-III/15061-en_US) |
 | C | unspecified | Seagate | Korat Firmware Test and Engineering Intern | Nakhon Ratchasima, THA,  | 2026-06-30 | [apply](https://seagatecareers.com/job/Korat-Firmware-Test-and-Engineering-Intern/14620-en_US) |
 | C | unspecified | Seagate | Metrology maintenance engineering intern | Nakhon Ratchasima, THA,  | 2026-08-26 | [apply](https://seagatecareers.com/job/Metrology-maintenance-engineering-intern/14919-en_US) |
-| C | unspecified | Seagate | Product Engineering Intern | Nakhon Ratchasima, THA,  | 2026-07-20 | [apply](https://seagatecareers.com/job/Product-Engineering-Intern/14645-en_US) |
+| C | unspecified | Seagate | Product Engineering Intern | Nakhon Ratchasima, THA,  | 2026-07-01 | [apply](https://seagatecareers.com/job/Product-Engineering-Intern/14647-en_US) |
 | C | unspecified | Seagate | Recording Head Test Engineering Intern | Samut Prakan, THA,  | 2026-08-19 | [apply](https://seagatecareers.com/job/Recording-Head-Test-Engineering-Intern/14901-en_US) |
 | C | unspecified | Seagate | Research Intern, Electronics Design Engineering | Shugart, SGP,  | 2026-08-17 | [apply](https://seagatecareers.com/job/Research-Intern%2C-Electronics-Design-Engineering/14852-en_US) |
 | C | unspecified | Seagate | Test Process & Engineer Firmware Intern | Nakhon Ratchasima, THA,  | 2026-06-15 | [apply](https://seagatecareers.com/job/Test-Process-&amp;-Engineer-Firmware-Intern/14439-en_US) |
