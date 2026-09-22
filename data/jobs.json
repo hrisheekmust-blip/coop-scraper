@@ -62,7 +62,6 @@
   "hw": "electrical engineer",
   "tier": "big",
   "sources": [
-   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-09-17",
@@ -477,6 +476,23 @@
   "last_seen": "2026-09-22"
  },
  {
+  "company": "Ciena",
+  "title": "Verification Engineer Intern (Spring 2027)",
+  "location": "Atlanta",
+  "url": "https://ciena.wd5.myworkdayjobs.com/Careers/job/Atlanta/Verification-Engineer-Intern--Spring-2027-_R031686",
+  "posted": "Posted Today",
+  "deadline": "",
+  "term": "spring",
+  "rank": "A",
+  "hw": "verification",
+  "tier": "big",
+  "sources": [
+   "workday"
+  ],
+  "first_seen": "2026-09-22",
+  "last_seen": "2026-09-22"
+ },
+ {
   "company": "Draper",
   "title": "Electro-Mechanical Instrument Co-op (Spring 2027)",
   "location": "Cambridge, MA",
@@ -845,7 +861,6 @@
   "hw": "electrical engineer",
   "tier": "big",
   "sources": [
-   "internlist:coop",
    "workday"
   ],
   "first_seen": "2026-09-18",
@@ -880,7 +895,6 @@
   "hw": "metrology",
   "tier": "big",
   "sources": [
-   "internlist:coop",
    "workday"
   ],
   "first_seen": "2026-09-18",
@@ -915,7 +929,6 @@
   "hw": "product engineering",
   "tier": "big",
   "sources": [
-   "internlist:coop",
    "workday"
   ],
   "first_seen": "2026-09-18",
@@ -2095,6 +2108,23 @@
   "last_seen": "2026-09-22"
  },
  {
+  "company": "Moog",
+  "title": "Intern, Test Engineering",
+  "location": "Buffalo, NY",
+  "url": "https://moog.wd5.myworkdayjobs.com/MOOG_External_Career_Site/job/Buffalo-NY/Intern--Test-Engineering_R-26-20243-1",
+  "posted": "Posted Today",
+  "deadline": "",
+  "term": "spring",
+  "rank": "A",
+  "hw": "test engineering",
+  "tier": "big",
+  "sources": [
+   "workday"
+  ],
+  "first_seen": "2026-09-22",
+  "last_seen": "2026-09-22"
+ },
+ {
   "company": "Mosaic",
   "title": "Electrical Engineer Co-op Intern",
   "location": "Tampa, FL, USA; Bartow, FL, USA",
@@ -2126,23 +2156,6 @@
    "internlist:coop"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-09-22"
- },
- {
-  "company": "NXP",
-  "title": "Digital Design Intern - Spring 2027",
-  "location": "Austin (Oakhill, Office)",
-  "url": "https://nxp.wd3.myworkdayjobs.com/careers/job/Austin-Oakhill-Office/Digital-Design-Intern---Spring-2027_R-10065549",
-  "posted": "Posted 15 Days Ago",
-  "deadline": "",
-  "term": "spring",
-  "rank": "A",
-  "hw": "digital design",
-  "tier": "big",
-  "sources": [
-   "workday"
-  ],
-  "first_seen": "2026-09-17",
   "last_seen": "2026-09-22"
  },
  {
@@ -2352,23 +2365,6 @@
  },
  {
   "company": "RTX",
-  "title": "Certification Engineer Co-Op (Winter/Spring 2027)(Onsite)",
-  "location": "US-NC-WINSTON SALEM-190 ~ 190 Oak Plaza Blvd ~ BLDG 190",
-  "url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-NC-WINSTON-SALEM-190--190-Oak-Plaza-Blvd--BLDG-190/Certification-Engineer-Co-Op--Winter-Spring-2027--Onsite-_01871317-1",
-  "posted": "Posted 6 Days Ago",
-  "deadline": "",
-  "term": "spring",
-  "rank": "A",
-  "hw": "maybe",
-  "tier": "big",
-  "sources": [
-   "workday"
-  ],
-  "first_seen": "2026-09-18",
-  "last_seen": "2026-09-22"
- },
- {
-  "company": "RTX",
   "title": "Digital Hardware Design Engineer Co-op",
   "location": "Cedar Rapids, IA, USA",
   "url": "https://simplify.jobs/jobs/click/5946c3c7-9377-4d6c-9b0b-f01fc24f1d9d",
@@ -2442,6 +2438,23 @@
   "location": "CA-ON-MISSISSAUGA-P22M01 ~ 1801 Courtney Park Dr ~ P22M01 BLDG",
   "url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/CA-ON-MISSISSAUGA-P22M01--1801-Courtney-Park-Dr--P22M01-BLDG/Internship---Winter-2027---Development-Engineering-Support-Analyst_01859772",
   "posted": "Posted 19 Days Ago",
+  "deadline": "",
+  "term": "spring",
+  "rank": "A",
+  "hw": "maybe",
+  "tier": "big",
+  "sources": [
+   "workday"
+  ],
+  "first_seen": "2026-09-18",
+  "last_seen": "2026-09-22"
+ },
+ {
+  "company": "RTX",
+  "title": "Project Engineering Co-op (Winter/Spring 2027)",
+  "location": "US-CT-WINDSOR LOCKS-B1A ~ 1 Hamilton Rd ~ BLDG 1A",
+  "url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-CT-WINDSOR-LOCKS-B1A--1-Hamilton-Rd--BLDG-1A/Project-Engineering-Co-op--Winter-Spring-2027-_01873957",
+  "posted": "Posted Today",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -2771,8 +2784,7 @@
   "hw": "electrical engineering",
   "tier": "big",
   "sources": [
-   "greenhouse",
-   "jobspy:linkedin"
+   "greenhouse"
   ],
   "first_seen": "2026-09-17",
   "last_seen": "2026-09-22"
@@ -3170,6 +3182,23 @@
  },
  {
   "company": "Skyworks",
+  "title": "RF Applications Winter/Spring Co-Op",
+  "location": "Woburn, MA, USA    ",
+  "url": "https://careers.skyworksinc.com/job/RF-Applications-WinterSpring-Co-Op/78475-en_US",
+  "posted": "2026-09-22",
+  "deadline": "",
+  "term": "spring",
+  "rank": "A",
+  "hw": "rf",
+  "tier": "big",
+  "sources": [
+   "successfactors"
+  ],
+  "first_seen": "2026-09-22",
+  "last_seen": "2026-09-22"
+ },
+ {
+  "company": "Skyworks",
   "title": "RF Design Co-Op (Jan-June 2027)",
   "location": "Andover, MA, USA    ",
   "url": "https://careers.skyworksinc.com/job/RF-Design-Co-Op-%28Jan-June-2027%29/78255-en_US",
@@ -3404,6 +3433,23 @@
    "successfactors"
   ],
   "first_seen": "2026-09-17",
+  "last_seen": "2026-09-22"
+ },
+ {
+  "company": "Skyworks",
+  "title": "RFIC Design | 6-month Summer/Fall Co-op (June '27 - Dec '27)",
+  "location": "Andover, MA, USA    ",
+  "url": "https://careers.skyworksinc.com/job/RFIC-Design-6-month-SummerFall-Co-op-%28June-&apos;27-Dec-&apos;27%29/78472-en_US",
+  "posted": "2026-09-22",
+  "deadline": "",
+  "term": "spring",
+  "rank": "A",
+  "hw": "rfic",
+  "tier": "big",
+  "sources": [
+   "successfactors"
+  ],
+  "first_seen": "2026-09-22",
   "last_seen": "2026-09-22"
  },
  {
@@ -3656,7 +3702,6 @@
   "hw": "silicon",
   "tier": "big",
   "sources": [
-   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-09-17",
@@ -4287,8 +4332,7 @@
   "hw": "electrical",
   "tier": "startup",
   "sources": [
-   "greenhouse",
-   "jobspy:linkedin"
+   "greenhouse"
   ],
   "first_seen": "2026-09-17",
   "last_seen": "2026-09-22"
@@ -7064,8 +7108,6 @@
   "hw": "electronics",
   "tier": "big",
   "sources": [
-   "internlist:coop",
-   "internlist:winter-spring",
    "workday"
   ],
   "first_seen": "2026-09-18",
@@ -12227,6 +12269,40 @@
   "last_seen": "2026-09-22"
  },
  {
+  "company": "NXP",
+  "title": "Process Engineer Intern",
+  "location": "Bangkok",
+  "url": "https://nxp.wd3.myworkdayjobs.com/careers/job/Bangkok/Process-Engineer-Intern_R-10064147",
+  "posted": "Posted Today",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "process engineer",
+  "tier": "big",
+  "sources": [
+   "workday"
+  ],
+  "first_seen": "2026-09-22",
+  "last_seen": "2026-09-22"
+ },
+ {
+  "company": "NXP",
+  "title": "Product Test Engineer Intern",
+  "location": "Bangkok",
+  "url": "https://nxp.wd3.myworkdayjobs.com/careers/job/Bangkok/Product-Test-Engineer-Intern_R-10064150",
+  "posted": "Posted Today",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "test engineer",
+  "tier": "big",
+  "sources": [
+   "workday"
+  ],
+  "first_seen": "2026-09-22",
+  "last_seen": "2026-09-22"
+ },
+ {
   "company": "Nexperia",
   "title": "Test Development Intern",
   "location": "Seremban",
@@ -13316,26 +13392,9 @@
  },
  {
   "company": "Seagate",
-  "title": "Head Failure Analysis Intern III",
-  "location": "",
-  "url": "https://seagatecareers.com/job/Head-Failure-Analysis-Intern-III/15061-en_US",
-  "posted": "2026-09-15",
-  "deadline": "",
-  "term": "unspecified",
-  "rank": "C",
-  "hw": "failure analysis",
-  "tier": "big",
-  "sources": [
-   "successfactors"
-  ],
-  "first_seen": "2026-09-18",
-  "last_seen": "2026-09-22"
- },
- {
-  "company": "Seagate",
   "title": "Korat Firmware Test and Engineering Intern",
   "location": "Nakhon Ratchasima, THA, ",
-  "url": "https://seagatecareers.com/job/Korat-Firmware-Test-and-Engineering-Intern/14619-en_US",
+  "url": "https://seagatecareers.com/job/Korat-Firmware-Test-and-Engineering-Intern/14620-en_US",
   "posted": "2026-06-30",
   "deadline": "",
   "term": "unspecified",
@@ -13414,23 +13473,6 @@
    "successfactors"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-09-22"
- },
- {
-  "company": "Seagate",
-  "title": "Security Firmware Engineering Intern",
-  "location": "",
-  "url": "https://seagatecareers.com/job/Security-Firmware-Engineering-Intern/15099-en_US",
-  "posted": "2026-09-22",
-  "deadline": "",
-  "term": "unspecified",
-  "rank": "C",
-  "hw": "firmware",
-  "tier": "big",
-  "sources": [
-   "successfactors"
-  ],
-  "first_seen": "2026-09-22",
   "last_seen": "2026-09-22"
  },
  {
