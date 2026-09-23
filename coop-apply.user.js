@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Co-op board: one-click apply
 // @namespace    coop-hrisheek
-// @version      3.2
+// @version      3.3
 // @description  Opened by the co-op board: fills confirmed answers, attaches prepared files, and waits for your review and submission. The board controls which portals can be automated.
 // @match        *://*/*
 // @require      https://hrisheekmust-blip.github.io/coop-scraper/engine.js?v=7
@@ -164,15 +164,22 @@
   }
 
   // ---------------------------------------------------------------- labels
+  function questionText(el) {
+    if (!el) return "";
+    if (!el.cloneNode) return txt(el);
+    const copy = el.cloneNode(true);
+    for (const child of copy.querySelectorAll("input, select, textarea, button, [role=listbox], [role=option]")) child.remove();
+    return norm(copy.textContent);
+  }
   const entryOf = el => el.closest(".ashby-application-form-field-entry, fieldset, .field, .application-question, .application-field, li, .form-field, [class*='field-entry'], [class*='FieldEntry'], [class*='question'], [data-automation-id*='formField'], [data-automation-id*='FormField'], .jobs-easy-apply-form-element, .fb-dash-form-element, .iCIMS_TableRow, .oj-flex-item, .rcrtField") || el.parentElement;
   function labelOf(el) {
-    if (el.labels && el.labels[0] && txt(el.labels[0])) return txt(el.labels[0]);
-    const lb = el.getAttribute("aria-labelledby"); if (lb) { const t = lb.split(/\s+/).map(i => txt(document.getElementById(i))).join(" "); if (t) return t; }
+    if (el.labels && el.labels[0] && questionText(el.labels[0])) return questionText(el.labels[0]);
+    const lb = el.getAttribute("aria-labelledby"); if (lb) { const t = lb.split(/\s+/).map(i => questionText(document.getElementById(i))).join(" "); if (t) return t; }
     if (el.getAttribute("aria-label")) return norm(el.getAttribute("aria-label"));
     const en = entryOf(el);
     if (en && en.querySelectorAll("input, select, textarea").length <= 2) {   // only trust a container that holds this one field
       const l = en.querySelector("label, legend, .application-label, [class*='label']:not(input):not(select), [data-automation-id*='label'], span[class*='title']");
-      if (l && txt(l)) return txt(l);
+      if (l && questionText(l)) return questionText(l);
     }
     if (el.placeholder) return norm(el.placeholder);
     let p = el.previousElementSibling; while (p) { if (txt(p) && txt(p).length < 200) return txt(p); p = p.previousElementSibling; }

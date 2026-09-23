@@ -61,7 +61,7 @@ function formEnvironment() {
 }
 function expose(e) {
   e.run(read('coop-apply.user.js').replace(/  run\(\)\.catch[\s\S]*?\n\}\)\(\);/,
-    '  window.testing={finish,report,stallActions,fill,ownOptions,comboShows,matchOption,realClick};\n})();'));
+    '  window.testing={finish,report,stallActions,fill,ownOptions,comboShows,matchOption,realClick,labelOf};\n})();'));
   return e.c.testing;
 }
 
@@ -314,4 +314,16 @@ test('manual submission cannot be claimed by a synthetic click',async()=>{
   // End the observer with a real user action so the test leaves no timers running.
   e.listeners['doc:submit']({isTrusted:true});e.c.document.body.innerText='Your application has been submitted';
   await until(()=>e.replaced.length);
+});
+
+
+test('wrapped dropdown choices are excluded from the question label',()=>{
+  const e=formEnvironment(),api=expose(e);
+  const copy={textContent:'Select the location you can commute or relocate to Select Boston, MA Toronto'};
+  copy.querySelectorAll=()=>[{remove(){copy.textContent='Select the location you can commute or relocate to'}}];
+  const label={textContent:copy.textContent,cloneNode:()=>copy};
+  const q=api.labelOf({labels:[label]});
+  assert.equal(q,'Select the location you can commute or relocate to');
+  const real=environment().c.CoopEngine;
+  assert.equal(real.answerFor({label:q,type:'select',options:['Boston, MA','Toronto']},{profile:{location:'Boston, MA'}}).a,'Boston, MA');
 });
