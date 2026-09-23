@@ -1,83 +1,121 @@
-/* shared answer engine: portal question -> what gets typed. Used by the site and the apply userscript. */
-(function(){
-const STD_FIELDS=[["Name","input_text"],["Email","input_text"],["Phone","input_text"],["Location (city)","input_text"],["LinkedIn profile","input_text"],["Resume","file"],["Cover letter","file"],["School / University","input_text"],["Degree","input_text"],["Major","input_text"],["Expected graduation date","input_text"],["GPA","input_text"],["Are you legally authorized to work in the United States?","yes_no"],["Will you now or in the future require sponsorship?","yes_no"],["Are you willing to relocate?","yes_no"],["Earliest start date / availability","input_text"],["How did you hear about us?","input_text"],["Gender / Race / Veteran / Disability (voluntary)","eeo"]];
-const pickOpt=(opts,rx,fallback)=>{const o=(opts||[]).find(x=>rx.test(x));return o||fallback};
-/* "how much experience in C++?" against whatever buckets the portal offers
-   ("Less than 3 months" / "3-5 months" / "10 months +" / "0-1 years" / "1-3 years" ...) */
-function monthsOf(opt){const t=opt.toLowerCase();const yr=/year/.test(t);const n=(t.match(/\d+(?:\.\d+)?/g)||[]).map(Number).map(x=>yr?x*12:x);
-  if(/less than|under|<|no experience|none|^0\b/.test(t)&&n.length<2)return[0,n[0]!==undefined?n[0]:0.01];
-  if(/\+|more than|over|at least|>/.test(t)&&n.length)return[n[0],1e4];
-  if(n.length>=2)return[n[0],n[1]]; if(n.length===1)return[n[0],n[0]]; return null}
-function pickMonths(opts,months){let best=-1,bd=1e9;
-  opts.forEach((o,i)=>{const r=monthsOf(o);if(!r)return;
-    if(months>=r[0]&&months<=r[1]){const cur=best>=0&&bd===0?(monthsOf(opts[best])||[0])[0]:-1;if(bd>0||r[0]>cur){bd=0;best=i}return}
-    const d=months<r[0]?r[0]-months:months-r[1];if(d<bd){bd=d;best=i}});
-  return best}
-const LANGQ=/(?:experience|proficien|familiar|worked|used|skill level|rate your)[^?]*?\b(systemverilog|verilog|vhdl|matlab|python|javascript|typescript|java|c\+\+|c#|golang|go|rust|c|labview|altium|cadence|spice|simulink)(?![\w+#])/;
-function answerFor(f,ctx){const j=ctx.job||{},a=ctx.answers||{},l=(f.label||"").toLowerCase().replace(/\s+/g," ").trim(),o=f.options||[],p=ctx.profile||{},t=(f.type||"").toLowerCase();
-  const yes=v=>o.length?pickOpt(o,v?/^(yes|y\b|i am|true)/i:/^(no\b|n\b|i am not|false)/i,v?"Yes":"No"):(v?"Yes":"No");
-  if(f.eeo||/gender|race|ethnicit|hispanic|latino|veteran|disabilit|pronoun|self.?identif|sexual orientation|transgender/.test(l))return{a:pickOpt(o,/decline|don.t wish|prefer not|do not wish|do not want|don.t want|not to answer|rather not|no answer|not disclose/i,p.eeo||"Decline to self-identify"),k:"eeo"};
-  if(/cover letter/.test(l)){if(!ctx.cover)return{a:"skip (cover letter off for this application)",k:"file"};if(/file|upload|attach/.test(t)||/attach|upload/.test(l))return{a:"upload: Hrisheek_Mustyala_Cover_Letter.pdf",k:"file"};return ctx.coverText?{a:ctx.coverText,k:"long"}:{a:"upload: Hrisheek_Mustyala_Cover_Letter.pdf",k:"file"}}
-  if(/\b(resume|cv)\b/.test(l))return{a:"upload: "+((j.materials||[])[0]||{}).path?.split("/").pop()||"resume PDF",k:"file"};
-  if(/\bsat\b/.test(l)&&!/\bact\b/.test(l))return{a:o.length?pickOpt(o,/not applicable|n\/a|did not|none|prefer not|no sat/i,""):"",k:o.length?"":"need"};
-  if(/\bact\b|test score/.test(l))return{a:o.length?pickOpt(o,/\b3[4-6]\b|^36|33-36|30\+/,""):(p.test_scores||"ACT 36"),k:o.length?"":""};
-  if(LANGQ.test(l)){const key=l.match(LANGQ)[1].replace(/^\s+|\s+$/g,"");const months=(p.lang||{})[key];
-    if(months===undefined)return{a:"",k:"need"};
-    if(!o.length)return{a:months>=12?Math.round(months/12)+" year"+(months>=24?"s":""):months+" months"};
-    const i=pickMonths(o,months);return i<0?{a:"",k:"need"}:{a:o[i]}}
-  if(/\bgre\b|gmat/.test(l))return{a:"",k:"need"};
-  if(/gpa|grade point/.test(l))return{a:p.gpa||"3.96"};
-  if(/full-?time (immediately|after|upon|following)|return offer|convert(ing)? to full/.test(l))return{a:o.length?yes(true):(p.fulltime_after||"Yes")};
-  if(/preferred (first )?name|nickname|what should we call/.test(l))return{a:p.preferred||"Hrisheek"};
-  if(/^(first name|given name)/.test(l))return{a:p.first||"Hrisheek"};
-  if(/^(last name|surname|family name)/.test(l))return{a:p.last||"Mustyala"};
-  if(/^(full )?(legal )?name$|^name\b|your name/.test(l))return{a:p.name||"Hrisheek Mustyala"};
-  if(/e-?mail/.test(l))return{a:p.email||"mustyala.h@northeastern.edu"};
-  if(/phone|mobile/.test(l))return{a:p.phone||"858-868-0863"};
-  if(/linkedin/.test(l))return{a:p.linkedin||""};
-  if(/github/.test(l))return{a:p.github||""};
-  if(/portfolio|website|personal site|url/.test(l))return{a:p.portfolio||p.github||""};
-  if(/street|address line|mailing address/.test(l))return{a:"",k:"need"};
-  if(/\bcity\b|current location|where (are you|do you) (located|based|live)|^location|address|your location/.test(l))return{a:o.length?pickOpt(o,/^united states|^usa?\b|^u\.s\./i,pickOpt(o,/boston|massachusetts/i,o[0])):(p.location||"Boston, MA")};
-  if(/countr/.test(l))return{a:p.country||"United States"};
-  if(/zip|postal/.test(l))return{a:p.zip||"02115"};
-  if(/school|universit|college|institution/.test(l))return{a:p.school||"Northeastern University"};
-  if(/degree|education level|highest level|program type|level of study|type of program/.test(l))return{a:pickOpt(o,/bachelor|b\.?s\b|undergrad/i,p.degree||"Bachelor of Science")};
-  if(/major|field of study|discipline|concentration/.test(l))return{a:pickOpt(o,/electrical|computer eng/i,p.major||"Electrical and Computer Engineering")};
-  if(/(end|graduation|completion|finish)( date)?.*\bmonth\b/.test(l))return{a:pickOpt(o,/^dec/i,"December")};
-  if(/(end|graduation|completion|finish)( date)?.*\byear\b/.test(l))return{a:pickOpt(o,/^2027$/,"2027")};
-  if(/^(education |school )?start date.*\bmonth\b/.test(l))return{a:pickOpt(o,/^sep/i,"September")};
-  if(/^(education |school )?start date.*\byear\b/.test(l))return{a:pickOpt(o,/^2024$/,"2024")};
-  if(/location preference|preferred (office|location|work location)|which (office|location|site)|office location/.test(l))return{a:o.length?pickOpt(o,/boston|massachusetts|\bma\b/i,pickOpt(o,/any|no preference|open|flexible|all/i,o[0])):(p.location||"Boston, MA")};
-  if(/export control|\bitar\b|protected individual|u\.?s\.? person/.test(l))return{a:o.length?pickOpt(o,/citizen|^yes|u\.?s\.? person|protected/i,"Yes"):"Yes, I am a U.S. citizen"};
-  if(/graduat|completion date|expected.*date/.test(l))return{a:o.length?pickOpt(o,/2027/,p.grad||"December 2027"):(p.grad||"December 2027")};
-  if(/\byear\b|class standing|academic level|current level|student status/.test(l))return{a:pickOpt(o,/junior|third|3rd|undergrad/i,p.year||"Third year (junior)")};
-  if(/term|season|semester|quarter|which.*(period|session)|when.*available|availab|start date|earliest/.test(l)){
-    if(o.length&&o.length<=3&&o.some(x=>/^yes/i.test(x)))return{a:yes(true)};
-    if(o.length){const hits=o.filter(x=>/winter|spring|\bjan|co-?op|6.?month|jan(uary)?\s*[-–]/i.test(x)&&!/summer|fall|autumn/i.test(x));return{a:hits.length?hits.join(" + "):"(none match Jan–Jun 2027)",k:hits.length?"":"need"}}
-    return{a:p.availability||"January through June 2027"}}
-  if(/sponsor|visa/.test(l))return{a:yes(false)};
-  if(/citizen/.test(l))return{a:o.length?pickOpt(o,/^(yes|u\.?s\.? citizen|united states)/i,"Yes"):(p.citizen||"Yes")};
-  if(/authori[sz]ed|legally|eligible to work|work permit|right to work|work authorization/.test(l))return{a:o.length?pickOpt(o,/citizen|authorized|^yes/i,"Yes"):"Yes"};
-  if(/(willing|able) to (obtain|get|maintain|hold|undergo|submit|complete|pass)|drug (test|screen)|background (check|investigation|screen)|hours per week|full.?time hours|commit to|for the (full|entire) duration/.test(l))return{a:yes(true)};
-  if(/scholarship|fellowship|participant of|member of (the|any) (following|program)|affiliated with/.test(l))return{a:o.length?pickOpt(o,/none|^no\b|not applicable|n\/a|not a /i,o[o.length-1]):"None"};
-  if(/clearance/.test(l))return{a:o.length?pickOpt(o,/^(no|none)/i,"No"):(p.clearance||"No")};
-  if(/relocat/.test(l))return{a:yes(true)};
-  if(/\bstate\b|province/.test(l)&&!/united states|statement/.test(l))return{a:p.state||"Massachusetts"};
-  if(/able to work|willing to work|can you work|commute/.test(l)&&/in.?person|on-?site|office|relocat/.test(l))return{a:yes(true)};
-  if(/remote|hybrid|on-?site|in.?person|office/.test(l))return{a:o.length?pickOpt(o,/on-?site|in.?person|any|either|open/i,o[0]):(p.remote||"Any")};
-  if(/salary|compensation|pay|hourly|wage/.test(l))return{a:p.salary||"Open"};
-  if(/previously|former|current(ly)? (employee|work)|worked (at|for|here)|ever (been )?employed/.test(l))return{a:yes(false)};
-  if(/refer|know anyone|employee (name|referral)/.test(l))return{a:o.length?yes(false):(p.referral||"No")};
-  if(/18|age of majority|legal age/.test(l))return{a:yes(true)};
-  if(/how did you .*(hear|find|learn|discover)|source|where did you/.test(l))return{a:o.length?pickOpt(o,/career|website|linkedin|company|job board/i,o[0]):(p.hear||"Company careers page")};
-  if(/language/.test(l)&&/spoken|speak|fluent|native|foreign|bilingual|verbal/.test(l))return{a:p.languages||"English"};
-  if(/^why\b|why (do you want|are you interested|.*company|.*us\b|.*role|.*position)|interest(ed)? in|what (draws|attracts|excites)|motivat/.test(l))return{a:a.why||"",k:"long"};
-  if(/achievement|proud|accomplish|technical (project|work)|projects? (you|that)|most (impressive|significant)|built|hardest|bullet|exceptional|stand ?out|impressive/.test(l))return{a:a.top_two?a.top_two.map((x,i)=>`${i+1}. ${x.title}\n${x.body}`).join("\n\n"):"",k:"long"};
-  if(/about yourself|summary|introduce|background|tell us/.test(l))return{a:a.about||"",k:"long"};
-  if(/agree|consent|acknowledg|certify|privacy|terms/.test(l))return{a:yes(true)};
-  if(/additional|anything else|comments|notes|questions for us|if (you answered|other)|please specify|if applicable/.test(l))return{a:"(leave blank)"};
-  return{a:"",k:"need"}}
-
-window.CoopEngine={answerFor,pickOpt,STD_FIELDS};
+/* Shared conservative answers. Unknown facts and ambiguous choices require review. */
+(function () {
+  const VERSION = 7;
+  const STD_FIELDS = [["Name","input_text"],["Email","input_text"],["Phone","input_text"],["Location (city)","input_text"],["LinkedIn profile","input_text"],["Resume","file"],["Cover letter","file"],["School / University","input_text"],["Degree","input_text"],["Major","input_text"],["Expected graduation date","input_text"],["GPA","input_text"]];
+  const norm = s => String(s ?? "").normalize("NFKC").toLowerCase().replace(/[✱*]/g, "").replace(/[’‘]/g, "'").replace(/\s+/g, " ").trim();
+  const labelKey = s => norm(s).replace(/[?:]+$/, "").trim();
+  const need = reason => ({a:"", k:"need", reason:reason || "No confirmed answer for this question"});
+  const hiddenField = f => /^(input_)?hidden$/i.test(f.type || "");
+  const multiField = f => /^(checkbox|multivalueselect|multi_value_multi_select|select-multiple)$/i.test(f.type || "") || f.multiple === true;
+  const booleanField = f => /^(boolean|yes_no)$/i.test(f.type || "");
+  function optionsFor(f) {
+    return Array.isArray(f.options) && f.options.length ? f.options.map(String) : booleanField(f) ? ["Yes","No"] : [];
+  }
+  const uniqueMatch = (opts, predicate) => { const hits = opts.filter(predicate); return hits.length === 1 ? hits[0] : null; };
+  const pickOpt = (opts, rx, fallback = "") => uniqueMatch(opts || [], x => rx.test(x)) || fallback;
+  function validateAnswer(f, answer) {
+    if (!answer || ["need","auto","file","skip"].includes(answer.k)) return answer || need();
+    const opts = optionsFor(f), values = answer.values || [answer.a];
+    if (!values.length || values.some(v => v === undefined || v === null || !String(v).trim())) return need("No saved answer");
+    if (opts.length) {
+      if (values.length > 1 && !multiField(f)) return need("A single choice is required");
+      const mapped = values.map(v => uniqueMatch(opts, o => norm(o) === norm(v)));
+      if (mapped.some(v => v === null)) return need("Saved answer does not match one unambiguous option");
+      return {...answer, a:mapped.join(" + "), values:mapped};
+    }
+    if (/select|radio|checkbox/i.test(f.type || "")) return need("Read the available choices on the application form");
+    if (/^(number|input_number)$/i.test(f.type || "") && !/^-?\d+(\.\d+)?$/.test(String(answer.a))) return need("An exact numeric answer is needed");
+    if (/^(date|input_date)$/i.test(f.type || "") && !/^\d{4}-\d{2}-\d{2}$/.test(String(answer.a))) return need("Choose the exact date; a day has not been confirmed");
+    return answer;
+  }
+  const bool = v => /^(yes|true)(\b|$)/i.test(String(v)) ? true : /^(no|false)(\b|$)/i.test(String(v)) ? false : null;
+  function propose(f, ctx) {
+    const l = labelKey(f.label), p = ctx.profile || {}, a = ctx.answers || {}, o = optionsFor(f);
+    const saved = key => p[key] === undefined || p[key] === "" ? need("Not saved in your profile") : {a:String(p[key]), source:key};
+    const choose = (value, predicate) => {
+      if (value === undefined || value === null || value === "") return need("Not saved in your profile");
+      if (!o.length) return {a:String(value)};
+      const exact = uniqueMatch(o, x => norm(x) === norm(value));
+      const match = exact || (predicate && uniqueMatch(o, predicate));
+      return match ? {a:match, values:[match]} : need("No unambiguous choice matches your profile");
+    };
+    const yesNo = key => { const v = bool(p[key]); return v === null ? need("This preference or fact is not confirmed") : choose(v ? "Yes" : "No"); };
+    if (hiddenField(f)) return {a:"Filled by the application form", k:"auto"};
+    if (/^(latitude|longitude|country_short_name)$/.test(l)) return need("Select your location on the application form; do not guess coordinates");
+    const overrides = a.field_answers || {};
+    const override = Object.keys(overrides).find(k => labelKey(k) === l);
+    if (override) { const value = overrides[override]; return Array.isArray(value) ? {a:value.join(" + "),values:value} : {a:String(value)}; }
+    if (f.eeo || /^(gender|race|ethnicity|veteran ?status|disability ?status|pronouns)$/.test(l) || /^(how would you describe your (gender identity|racial|sexual orientation)|do you identify as transgender)/.test(l)) {
+      if (!/decline|not.*(answer|disclos)|self.identify/i.test(p.eeo || "")) return need("No saved disclosure preference");
+      const decline = uniqueMatch(o, x => /decline|don.t wish|prefer not|do not wish|do not want|don.t want|not to answer|rather not|no answer|not disclose/i.test(x));
+      return decline ? {a:decline,k:"eeo"} : need("No matching decline-to-answer choice");
+    }
+    if (/^(resume(\/cv)?|cv|upload (your )?(resume|cv)|attach (your )?(resume|cv))$/.test(l)) return {a:"Prepared resume PDF",k:"file"};
+    if (/^(cover letter|upload (your )?cover letter|attach (your )?cover letter)$/.test(l)) {
+      if (!ctx.cover) return {a:"Cover letter off",k:"skip"};
+      return /file|upload|attach/i.test(f.type || "") ? {a:"Prepared cover letter PDF",k:"file"} : ctx.coverText ? {a:ctx.coverText,k:"long"} : need("No prepared cover letter text");
+    }
+    // A graduate GPA is not an undergraduate GPA; never round to the nearest option.
+    if (/^(current |cumulative |undergraduate |undergrad )?(gpa|grade point average)( \(undergraduate\))?$/.test(l)) return saved("gpa");
+    if (/gpa|grade point/.test(l)) return need("This GPA question needs an exact scale and degree-level answer");
+    if (/^(expected |anticipated )?(graduation date|date of graduation)$/.test(l) || /^select your anticipated bachelor'?s degree graduation date$/.test(l)) return choose(p.grad, x => p.grad_month && p.grad_year && x === `${String(p.grad_month).padStart(2,"0")}/${p.grad_year}`);
+    if (/^(expected |anticipated )?graduation (month|year)$/.test(l)) return saved(l.endsWith("year") ? "grad_year" : "grad_month");
+    if (/graduat|completion date|finish.*stud|complete.*stud/.test(l)) return need("Confirm the exact education dates or plans requested");
+    const fields = [
+      [/^(first name|given name|legal first name)$/, "first"],
+      [/^(last name|surname|family name|legal last name)$/, "last"],
+      [/^(preferred (first )?name|nickname)$/, "preferred"],
+      [/^(name|full name|legal name|full legal name)$/, "name"],
+      [/^(e-?mail( address)?|your e-?mail( address)?)$/, "email"],
+      [/^(phone( number)?|mobile( phone)?( number)?|telephone( number)?)$/, "phone"],
+      [/^(linkedin( profile)?( url)?|linkedin link)$/, "linkedin"],
+      [/^(github( profile)?( url)?|github link)$/, "github"],
+      [/^(website|websites|portfolio( url)?|personal (website|site)|github or portfolio url)$/, "portfolio"],
+      [/^(city|current city)$/, "city"],
+      [/^(state|province|state\/province)$/, "state"],
+      [/^(country|country of residence|current country)$/, "country"],
+      [/^(zip( code)?|postal code|zip\/postal code|what is the zip code of your primary residence)$/, "zip"],
+      [/^(school|university|college|college or university|school \/ university|school name|university name|institution)$/, "school"],
+      [/^(major|field of study|major or field of study|discipline|concentration)$/, "major"],
+      [/^(academic year|class standing|year in school|current year of study)$/, "year"],
+      [/^(desired salary|salary expectations|expected salary|desired compensation)$/, "salary"]
+    ];
+    for (const [rx,key] of fields) if (rx.test(l)) return saved(key);
+    if (/^(location( \(city\))?|current location|your location|where are you (located|based)|where do you live)$/.test(l)) return choose(p.location, x => p.location && [p.location,`${p.location}, ${p.country}`].some(v => norm(x) === norm(v)));
+    if (/^(select the location you can commute or relocate to|location preference|preferred (office|location|work location)|which (office|location|site)( would you prefer)?)$/.test(l)) {
+      const locations = p.preferred_locations || (p.location ? [p.location] : []);
+      const matches = o.filter(x => locations.some(v => norm(v) === norm(x)));
+      if (multiField(f) && matches.length) return {a:matches.join(" + "),values:matches};
+      return matches.length === 1 ? {a:matches[0]} : need("Choose the office location(s) you want");
+    }
+    if (/^(degree|education level|highest (education|degree) level|current program type|program type|level of study|type of program)$/.test(l)) return choose(p.degree, x => /bachelor/i.test(p.degree || "") && /^(bachelor'?s( degree)?|bachelor of science|undergraduate)$/.test(norm(x)));
+    if (/^(sat or act score|test scores?)$/.test(l)) return saved("test_scores");
+    if (/^(act( score)?|act composite score)$/.test(l)) return saved("act");
+    if (/^(earliest start date|availability|when are you available|when can you start)$/.test(l)) return saved("availability");
+    if (/^(which term\(s\) would you like to be considered for|preferred term|which (term|semester|season))$/.test(l)) {
+      const terms = (p.terms_wanted || []).map(norm);
+      const matches = o.filter(x => !/\b20\d{2}\b/.test(x) && terms.some(t => norm(x).split(/[^a-z]+/).includes(t)));
+      if (multiField(f) && matches.length) return {a:matches.join(" + "),values:matches};
+      return matches.length === 1 ? {a:matches[0]} : need("Confirm the term and dates");
+    }
+    // Only unconditional saved yes/no facts. Never infer other countries, dates,
+    // time commitments, consents, background checks or hypothetical qualifications.
+    if (/^(are you (legally |currently )?authorized to work in (the )?(united states|u\.?s\.?)(, on a full time basis without restriction)?|are you legally eligible to work in (the )?united states)$/.test(l)) return yesNo("authorized");
+    if (/^(will you now or in the future require sponsorship( for employment visa status)?|do you( now or in the future)? require( visa| employment)? sponsorship)$/.test(l)) return yesNo("sponsorship");
+    if (/^(are you (a )?(u\.?s\.?|united states) citizen)$/.test(l)) return yesNo("citizen");
+    if (/^(citizenship status|what is your work authorization status)$/.test(l)) {
+      if (bool(p.citizen) !== true || !/us citizen|u\.s\. citizen|united states/i.test(p.citizen || "")) return need("Confirm your citizenship/authorization category");
+      return choose("US Citizen", x => /^(\([a-z]\) )?(u\.?s\.?|united states) citizen( or (national of the united states|permanent resident))?$/i.test(x));
+    }
+    if (/^(are you willing to relocate|would you be willing to relocate)$/.test(l)) return yesNo("relocate");
+    if (/^(are you (at least |over )18( years (old|of age))?( or older)?)$/.test(l)) return yesNo("over18");
+    if (/^(have you (previously|ever) (worked for|been employed by) (us|this company))$/.test(l)) return yesNo("prior_employee");
+    if (/^(do you have an? (active )?security clearance)$/.test(l)) return yesNo("clearance");
+    if (/^how did you (hear about|find|learn about|discover) (us|this (job|role|position|opportunity)|[\w .&-]+)$/.test(l)) return choose(p.hear, x => norm(p.hear) === "company careers page" && /^(company website|company careers page|careers (page|website))$/.test(norm(x)));
+    if (/^why (do you want to (join|work (at|for)) [\w .&-]+|are you interested in (this (role|position)|working (at|for) [\w .&-]+))$/.test(l)) return a.why ? {a:a.why,k:"long"} : need("No prepared answer to this question");
+    if (/^please provide 2-3 bullet points showcasing exceptional ability\.?$/.test(l)) return a.top_two?.length ? {a:a.top_two.map((x,i)=>`${i+1}. ${x.title}\n${x.body}`).join("\n\n"),k:"long"} : need();
+    return need();
+  }
+  function answerFor(f, ctx = {}) { return validateAnswer(f, propose(f,ctx)); }
+  window.CoopEngine = {VERSION,answerFor,validateAnswer,hiddenField,multiField,optionsFor,pickOpt,STD_FIELDS};
 })();

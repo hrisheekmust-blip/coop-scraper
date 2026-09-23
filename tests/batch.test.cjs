@@ -32,6 +32,9 @@ function environment() {
     addEventListener:(name,fn)=>listeners[name]=fn,removeEventListener(){},open:()=>({}),opener:null};
   c.window=c;c.top=c;c.MouseEvent=c.PointerEvent=c.KeyboardEvent=c.FocusEvent=c.Event;
   vm.createContext(c);
+  vm.runInContext(read("engine.js"),c);
+  c.document.addEventListener=(name,fn)=>listeners["doc:"+name]=fn;
+  c.document.removeEventListener=()=>{};
   return {c,elements,listeners,replaced,timers,run:s=>vm.runInContext(s,c)};
 }
 function board() {
@@ -48,7 +51,7 @@ async function until(done) {
 function formEnvironment() {
   const e=environment();e.c.setTimeout=fn=>setImmediate(fn);
   e.c.location.hash='#coop='+id+'&p='+encode(payload);
-  e.c.CoopEngine={answerFor:()=>({k:'need'})};
+  e.c.CoopEngine={VERSION:7,answerFor:()=>({k:'need'})};
   let clicks=0;
   const button={textContent:'Submit application',offsetWidth:100,getAttribute:()=>null,
     focus(){},scrollIntoView(){},getBoundingClientRect:()=>({left:0,top:0,width:100,height:30}),
@@ -163,7 +166,7 @@ test('dry-run flag records submit readiness without clicking submit',async()=>{
   const e=formEnvironment();e.c.__coopDry=true;
   e.run(read('coop-apply.user.js'));
   await until(()=>e.c.__coopLast);
-  assert.equal(e.c.__coopLast.status,'dry-submit');assert.equal(e.clicks(),0);assert.equal(e.replaced.length,0);
+  assert.equal(e.c.__coopLast.status,'needs-you');assert.equal(e.clicks(),0);assert.equal(e.replaced.length,0);
 });
 
 test('staging does not release an application when status cannot be saved',async()=>{
@@ -225,7 +228,7 @@ test('confirmation text from a previous batch is not a successful current applic
   const e=formEnvironment();e.c.__coopDry=true;e.c.document.body.innerText='Thank you for applying';
   e.c.sessionStorage.setItem('coop-clicked','old-batch:'+id);
   e.run(read('coop-apply.user.js'));await until(()=>e.c.__coopLast);
-  assert.equal(e.c.__coopLast.status,'dry-submit');assert.equal(e.replaced.length,0);
+  assert.equal(e.c.__coopLast.status,'needs-you');assert.equal(e.replaced.length,0);
 });
 
 test('multi-page dry run advances Next but does not activate Submit',async()=>{
@@ -233,15 +236,17 @@ test('multi-page dry run advances Next but does not activate Submit',async()=>{
   e.button.textContent='Next'; // Real plain buttons have no aria-label or value.
   e.button.click=()=>{nextClicks++;e.button.textContent='Submit application';e.c.document.body.innerText='Review your application'};
   e.run(read('coop-apply.user.js'));await until(()=>e.c.__coopLast);
-  assert.equal(e.c.__coopLast.status,'dry-submit');assert.equal(nextClicks,1);
+  assert.equal(e.c.__coopLast.status,'needs-you');assert.equal(nextClicks,1);
 });
 
-test('submit gets one activation and confirmed success carries the batch ID',async()=>{
+test('submission waits for user review and a trusted manual submission',async()=>{
   const e=formEnvironment();let activations=0;
   e.button.dispatchEvent=ev=>{if(ev.type==='click')activations++};
   e.button.click=()=>{activations++;e.c.document.body.innerText='Your application has been submitted'};
-  e.run(read('coop-apply.user.js'));await until(()=>e.replaced.length);
-  assert.equal(activations,1);
+  e.run(read('coop-apply.user.js'));await until(()=>e.c.__coopLast);
+  assert.equal(activations,0);assert.equal(e.c.__coopLast.status,'needs-you');
+  e.listeners['doc:submit']({isTrusted:true});e.button.click();
+  await until(()=>e.replaced.length);assert.equal(activations,1);
   const r=JSON.parse(Buffer.from(new URLSearchParams(new URL(e.replaced[0]).hash.slice(1)).get('done'),'base64url'));
   assert.equal(r.ok,true);assert.equal(r.batchId,payload.batchId);
 });
@@ -266,6 +271,47 @@ test('dropdown options are scoped to their control and committed phone values co
   e.c.document.querySelectorAll=()=>wrong;
   const input={getAttribute:n=>n==='aria-controls'?'countries':null,closest:()=>null};
   assert.equal(api.ownOptions(input)[0],correct[0]);
-  assert.equal(api.comboShows({querySelector:()=>({textContent:'+1'})},'United States (+1)'),true);
-  assert.equal(api.matchOption(['3.8 out of 4.0','3.9 out of 4.0','4.0 out of 4.0'],'3.96'),1);
+  assert.equal(api.comboShows({querySelectorAll:()=>[{textContent:'Canada (+1)'}]},'United States (+1)'),false);
+  assert.equal(api.comboShows({querySelectorAll:()=>[{textContent:'United States (+1)'}]},'United States (+1)'),true);
+  assert.deepEqual([...api.ownOptions({getAttribute:()=>null,closest:()=>null})],[]);
+  assert.equal(api.matchOption(['Yes, need sponsorship','Yes, no sponsorship'],'Yes'),-1);
+  assert.equal(api.matchOption(['3.8 out of 4.0','3.9 out of 4.0','4.0 out of 4.0'],'3.96'),-1);
+});
+
+test('board preview hides coordinates and shows the valid Lightmatter location',()=>{
+  const e=board();
+  e.run(`forms.lightmatter={portal:'greenhouse',fields:[
+    {label:'Latitude',type:'input_hidden',required:true},
+    {label:'Longitude',type:'input_hidden',required:true},
+    {label:'Select the location you can commute or relocate to',type:'multi_value_multi_select',required:true,options:['Boston, MA','Toronto, Canada']}
+  ]};profile={location:'Boston, MA',relocate:'Yes'}`);
+  const html=e.run("qaHtml({id:'lightmatter'}, {})");
+  assert.doesNotMatch(html,/Latitude|Longitude|needs your answer/);
+  assert.match(html,/>Boston, MA<\/div>/);assert.doesNotMatch(html,/>Yes<\/div>/);
+});
+
+test('an outdated answer engine prevents any form activation',async()=>{
+  const e=formEnvironment();e.c.__coopDry=true;e.c.CoopEngine.VERSION=6;
+  e.run(read('coop-apply.user.js'));await until(()=>e.c.__coopLast);
+  assert.match(e.c.__coopLast.need.join(' '),/update required/);assert.equal(e.clicks(),0);
+});
+
+test('unknown required answers block Next, not just final Submit',async()=>{
+  const e=formEnvironment();e.c.__coopDry=true;e.button.textContent='Next';
+  const parent={textContent:'Describe your clearance history',querySelectorAll:()=>[],querySelector:()=>null};
+  const field={tagName:'INPUT',value:'',required:true,offsetWidth:100,labels:[{textContent:'Describe your clearance history'}],parentElement:parent,
+    getAttribute:n=>n==='type'?'text':null,closest:()=>parent};
+  e.c.document.body.querySelectorAll=s=>s==='input, textarea, select'?[field]:[];
+  e.run(read('coop-apply.user.js'));await until(()=>e.c.__coopLast);
+  assert.match(e.c.__coopLast.need.join(' '),/clearance history/);assert.equal(e.clicks(),0);
+});
+
+test('manual submission cannot be claimed by a synthetic click',async()=>{
+  const e=formEnvironment();
+  e.run(read('coop-apply.user.js'));await until(()=>e.c.__coopLast);
+  e.listeners['doc:submit']({isTrusted:false});
+  assert.equal(e.c.sessionStorage.getItem('coop-clicked'),null);assert.equal(e.clicks(),0);
+  // End the observer with a real user action so the test leaves no timers running.
+  e.listeners['doc:submit']({isTrusted:true});e.c.document.body.innerText='Your application has been submitted';
+  await until(()=>e.replaced.length);
 });

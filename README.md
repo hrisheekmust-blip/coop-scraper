@@ -69,16 +69,17 @@ Batch Apply supports `jobs.ashbyhq.com`, `boards.greenhouse.io`, `job-boards.gre
 Other portals have an **Open application** link for manual completion.
 
 1. In board Settings, configure a token with Contents read/write access to the private materials repository.
-2. Install or update the Tampermonkey apply script to **version 3.1** from the board's Settings link.
+2. Install or update the Tampermonkey apply script to **version 3.2** from the board's Settings link.
 3. Select postings with prepared materials and click **Apply to all**. Allow the popup and keep the board tab open.
-4. Complete any missing answers or captcha in the application tab. A confirmed submission returns to the relay
+4. Review every answer and attachment, complete missing fields or captcha, and submit using the application site's own button. The script never presses final Submit automatically. A confirmed submission returns to the relay
    and advances to the next posting. **Stop** prevents the next handoff; it does not close a form already open.
 
-Version 3.1 restores the v2.9 form walker, React field handling, dropdown fixes and resume checks while
-retaining the batch IDs and reliable result handling introduced in v1.1. It upgrades either installed version;
-do not downgrade v2.9 to v1.1. The broader portal helpers from v2.9 remain in the script, but board and relay
-automation is still limited to the hosts above. Other portals have not been verified for this release.
-If Tampermonkey still offers v1.1, wait for Pages deployment to finish and refresh the board.
+Version 3.2 replaces broad keyword guesses with narrow profile-based mappings and exact option validation.
+Hidden portal metadata is omitted from the question preview. Unknown facts, ambiguous choices, unsupported
+options and dates without a confirmed day are left for review. The script stops before every final submission;
+batches proceed after you submit and a confirmation is detected. Upgrade the installed script to get both
+answer engine v7 and the new form controls (the engine dependency URL is versioned for Tampermonkey caching).
+The broader portal helpers remain in the script, but supported board/relay hosts are still limited to those above.
 
 If preparation fails, the board and relay show the reason. Stop the batch, correct the token/materials problem,
 then retry. If GitHub cannot save a result, its receipt remains in this browser and the next board refresh retries it.

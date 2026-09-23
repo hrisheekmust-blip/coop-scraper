@@ -1,10 +1,10 @@
 // ==UserScript==
 // @name         Co-op board: one-click apply
 // @namespace    coop-hrisheek
-// @version      3.1
-// @description  Opened by the co-op board: fills application pages, attaches prepared files, submits, and returns the result to the batch queue. The board controls which portals can be automated.
+// @version      3.2
+// @description  Opened by the co-op board: fills confirmed answers, attaches prepared files, and waits for your review and submission. The board controls which portals can be automated.
 // @match        *://*/*
-// @require      https://hrisheekmust-blip.github.io/coop-scraper/engine.js?v=6
+// @require      https://hrisheekmust-blip.github.io/coop-scraper/engine.js?v=7
 // @grant        none
 // @run-at       document-idle
 // ==/UserScript==
@@ -115,7 +115,7 @@
     }
     await sleep(300);
     const opts = ownOptions(el);
-    const opt = opts.find(o => txt(o).toLowerCase() === v.toLowerCase()) || opts.find(o => txt(o).toLowerCase().includes(v.toLowerCase().slice(0, 12)));
+    const opt = opts[matchOption(opts.map(txt), v)];
     if (opt) { realClick(opt); await sleep(200); }
     p = reactProps(el); return !p || !("value" in p) || p.value === v || el.value === v;
   }
@@ -141,30 +141,19 @@
     const ctrl = el.closest("[class*='select__control'], [class*='select__'], [class*='control']");
     const scope = box || (ctrl && ctrl.parentElement);
     let o = scope ? [...scope.querySelectorAll(OPT)].filter(visible) : [];
-    if (!o.length) o = [...document.querySelectorAll(OPT)].filter(visible);   // menus rendered at the end of the page
+    // Unowned menus are ambiguous: leave the control for manual review.
     return o.filter(x => !/^no option|^no result|^loading/i.test(txt(x)));
   }
   async function waitFor(f, ms) { const t0 = Date.now(); while (Date.now() - t0 < ms) { const v = f(); if (v && v.length) return v; await sleep(120); } return []; }
   function matchOption(labels, want) {
-    const w = norm(want || "").toLowerCase(); if (!w) return -1;
-    let i = labels.findIndex(l => l.toLowerCase() === w);
-    if (i < 0) i = labels.findIndex(l => l.toLowerCase().startsWith(w));
-    if (i < 0) i = labels.findIndex(l => l.toLowerCase().includes(w));
-    if (i < 0 && /^\d+(\.\d+)?$/.test(w)) {                                  // "3.96" against "3.9 out of 4.0": nearest option at or below, never rounded up
-      const n = parseFloat(w); let best = -1, bd = 9e9;
-      labels.forEach((l, k) => { const m = l.match(/(\d+(?:\.\d+)?)/); if (!m) return; const v = parseFloat(m[1]); if (v <= n + 1e-9 && n - v < bd) { bd = n - v; best = k; } });
-      i = best;
-    }
-    if (i < 0 && w.length > 6) { const ws = w.split(/\W+/).filter(x => x.length > 3);
-      i = labels.findIndex(l => ws.length && ws.every(x => l.toLowerCase().includes(x))); }
-    return i;
+    const w = norm(want || "").toLowerCase();
+    const hits = labels.map((label, i) => norm(label).toLowerCase() === w && w ? i : -1).filter(i => i >= 0);
+    return hits.length === 1 ? hits[0] : -1;
   }
-  const comboShows = (ctrl, want) => {                                     // react-select shows the committed choice as a single-value node; some (phone country) show only "+1"
-    if (!ctrl) return false;
-    const sv = ctrl.querySelector("[class*='single-value'], [class*='multi-value'], [class*='singleValue']");
-    if (sv && txt(sv)) return true;
-    if (!ctrl.querySelector("[class*='placeholder']") && txt(ctrl)) return true;
-    const s = txt(ctrl).toLowerCase(); return !!want && s.includes(norm(want).toLowerCase().slice(0, 18));
+  const comboShows = (ctrl, want) => {
+    if (!ctrl || !want) return false;
+    const values = [...ctrl.querySelectorAll("[class*='single-value'], [class*='multi-value'], [class*='singleValue']")].map(txt);
+    return matchOption(values, want) >= 0;
   };
   function realClick(el) {
     try { el.scrollIntoView({ block: "center" }); } catch (e) {} try { el.focus(); } catch (e) {}
@@ -208,11 +197,12 @@
       if (opts.length < 2 && !(opts[0].type === "checkbox" && /agree|consent|acknowledg|certify|terms|privacy|confirm/i.test(txt(fs)))) continue;
       if (opts.some(o => seen.has(o))) continue;
       opts.forEach(o => seen.add(o));
+      if (opts.some(o => o.checked)) { done.push("existing selection: " + groupLabel(fs)); continue; }
       const q = groupLabel(fs); const labels = opts.map(o => txt(o.labels && o.labels[0]) || txt(o.parentElement));
       const r = A({ label: q, options: labels, type: opts[0].type });
       if (r.k === "need" || !r.a) { if (isRequired(fs)) need.push(q); else done.push("left blank (optional): " + q); continue; }
-      const want = r.a.split(/\s*\+\s*/).map(norm);
-      for (let i = 0; i < opts.length; i++) { const o = opts[i]; const on = opts.length === 1 ? true : want.some(w => w && (labels[i] === w || labels[i].toLowerCase().includes(w.toLowerCase()) || w.toLowerCase().includes(labels[i].toLowerCase())));
+      const want = r.values || [r.a];
+      for (let i = 0; i < opts.length; i++) { const o = opts[i]; const on = want.some(w => matchOption([labels[i]], w) === 0);
         const ok = await setCheckedVerified(o, on); if (!ok && on) need.push(q + " (" + labels[i] + ")"); }
       done.push(q + " = " + r.a);
     }
@@ -222,7 +212,7 @@
       if (btns.length !== 2) continue;
       const q = txt(en.querySelector("label")); const r = A({ label: q, options: ["Yes", "No"], type: "Boolean" });
       if (r.k === "need" || !r.a) { if (isRequired(en)) need.push(q); else done.push("left blank (optional): " + q); continue; }
-      const b = btns.find(x => r.a.toLowerCase().startsWith(txt(x).toLowerCase())) || btns[0]; realClick(b); done.push(q + " = " + txt(b));
+      const b = btns[matchOption(btns.map(txt), r.a)]; if (!b) { need.push(q); continue; } realClick(b); done.push(q + " = " + txt(b));
     }
     // 3. custom dropdown buttons (Workday, Oracle, LinkedIn)
     for (const btn of root.querySelectorAll("button[aria-haspopup='listbox'], button[aria-haspopup='true'][data-automation-id], [role=combobox]:not(input):not(select), [data-automation-id*='selectinput'], [data-automation-id='dropdownButton']")) {
@@ -231,10 +221,9 @@
       const cur = txt(btn); if (cur && !/select|choose|--|^$/i.test(cur) && cur !== q) continue;   // already set
       const r0 = A({ label: q, options: [], type: "select" });
       realClick(btn); await sleep(450);
-      const opts = [...document.querySelectorAll("[role=option], [role=listbox] li, [data-automation-id='promptOption'], ul[role=listbox] > li, .oj-listbox-result")].filter(visible);
+      const opts = ownOptions(btn);
       const labels = opts.map(txt); const r = A({ label: q, options: labels, type: "select" });
-      let pick = labels.findIndex(l => l.toLowerCase() === (r.a || "").toLowerCase());
-      if (pick < 0) pick = labels.findIndex(l => r.a && (l.toLowerCase().includes(r.a.toLowerCase().slice(0, 10)) || r.a.toLowerCase().includes(l.toLowerCase())));
+      const pick = matchOption(labels, r.a);
       if (r.k === "need" || pick < 0) { document.body.dispatchEvent(new KeyboardEvent("keydown", { key: "Escape", bubbles: true })); if (isRequired(btn) || (r.a && r.k !== "need")) need.push(r0.k === "need" || !r.a ? q : q + " (no option matched '" + r.a + "')"); else done.push("left blank (optional): " + q); await sleep(150); continue; }
       realClick(opts[pick]); await sleep(250); done.push(q + " = " + labels[pick]);
     }
@@ -242,12 +231,16 @@
     for (const el of root.querySelectorAll("input, textarea, select")) {
       if (seen.has(el)) continue;
       const type = (el.getAttribute("type") || el.tagName).toLowerCase();
-      if (["checkbox", "radio", "hidden", "submit", "button", "search", "password", "reset", "image"].includes(type)) continue;
+      if (["checkbox", "radio"].includes(type)) {
+        if ((visible(el) || visible(el.parentElement)) && isRequired(el) && !el.checked) need.push(labelOf(el) || "a required selection");
+        continue;
+      }
+      if (["hidden", "submit", "button", "password", "reset", "image"].includes(type)) continue;
       if (type === "file") {
         const around = txt(entryOf(el)); const q = labelOf(el) || around.slice(0, 80);
         if (/autofill|auto-fill|parse|prefill/i.test(around) && !/^resume/i.test(q)) continue;
         const isCover = /cover/i.test(q + around);
-        const f = isCover ? files.cover : /resume|cv|attach|upload|document/i.test(q + around) ? files.resume : null;
+        const f = isCover ? files.cover : /\b(resume|cv)\b/i.test(q) ? files.resume : null;
         if (isCover && !P.cover) { done.push("cover letter skipped"); continue; }
         if (el.files && el.files.length) continue;
         if (f) { setFile(el, b64file(f)); done.push(q + " = " + f.name); await sleep(900); } else if (/required|\*/.test(around)) need.push(q || "file upload");
@@ -260,13 +253,16 @@
       asked.add(q + "|" + type);
       const opts = el.tagName === "SELECT" ? [...el.options].map(o => txt(o)).filter(o => o && !/^(select|choose|--|please)/i.test(o)) : [];
       const isDate = type === "date" || /pick date|mm\/dd|yyyy|mm\/yyyy/i.test(el.placeholder || "") || /date/i.test(el.getAttribute("data-automation-id") || "");
-      const r = A({ label: q, options: opts, type: isDate ? "date" : type });
+      const r = A({ label: q, options: opts, type: isDate ? "date" : type, multiple:el.multiple });
       if (r.k === "need") { if (!(el.value || "").trim()) { if (isRequired(el)) need.push(q); else done.push("left blank (optional): " + q); } continue; }
-      if (r.k === "file" || r.a === "(leave blank)" || r.a === "") continue;
+      if (["file","auto","skip"].includes(r.k) || r.a === "") continue;
       if (el.tagName === "SELECT") {
-        const o = [...el.options].find(x => txt(x).toLowerCase() === r.a.toLowerCase()) || [...el.options].find(x => txt(x).toLowerCase().includes(r.a.toLowerCase().slice(0, 12)));
-        if (o) { if (el.value !== o.value) { el.value = o.value; el.dispatchEvent(new Event("input", { bubbles: true })); el.dispatchEvent(new Event("change", { bubbles: true })); fireReact(el, ["onChange"], "change"); } done.push(q + " = " + txt(o)); } else if (isRequired(el) || el.selectedIndex <= 0) need.push(q + " (no option matched '" + r.a + "')");
-        continue;
+        const wanted = r.values || [r.a], choices = [...el.options];
+        const picks = wanted.map(w => matchOption(choices.map(txt), w));
+        if (picks.some(i => i < 0) || (!el.multiple && picks.length !== 1)) { need.push(q + " (no exact option match)"); continue; }
+        for (let i = 0; i < choices.length; i++) choices[i].selected = picks.includes(i);
+        el.dispatchEvent(new Event("input", {bubbles:true})); el.dispatchEvent(new Event("change", {bubbles:true})); fireReact(el,["onChange"],"change");
+        done.push(q + " = " + r.a); continue;
       }
       if ((el.value || "").trim() && !isDate && (el.value.trim() === r.a || /^(name|first|last|email|phone|preferred)/i.test(q))) continue;   // portal prefilled it from the account
       if (el.getAttribute("role") === "combobox" || /select__input|react-select|autocomplete|typeahead/i.test(el.className + " " + (el.parentElement && el.parentElement.className))) {
@@ -277,11 +273,11 @@
         realClick(ctrl); el.focus(); KEY_DOWN(el);                            // the list opens from the control, not from the input
         let opts = await waitFor(() => ownOptions(el), 2500), labels = opts.map(txt);
         let r2 = labels.length ? A({ label: q, options: labels, type: "select" }) : r;
-        let pick = matchOption(labels, r2.a);
+        let pick = r2.k === "need" || (r2.values || []).length > 1 ? -1 : matchOption(labels, r2.a);
         if (pick < 0 && r2.a && r2.k !== "need" && labels.length > 12) {       // long list: narrow it, then look again
           setNative(el, norm(r2.a.split(/[,(]/)[0]));
           opts = await waitFor(() => ownOptions(el), 1500); labels = opts.map(txt); pick = matchOption(labels, r2.a);
-          if (pick < 0 && labels.length === 1) pick = 0;
+          // A single remaining suggestion is not proof that it matches.
         }
         if (pick < 0) {                                                        // nothing fits: leave it clean and say so, never park a half-typed answer in the box
           closeMenus(); if (el.value) setNative(el, ""); el.blur();
@@ -289,21 +285,20 @@
           await sleep(120); continue;
         }
         realClick(opts[pick]); await sleep(350);
-        if (!comboShows(ctrl, labels[pick])) { el.focus(); KEY_DOWN(el); await waitFor(() => ownOptions(el), 1200); for (let n = 0; n < pick; n++) KEY_DOWN(el); KEY_ENTER(el); await sleep(350); }
+        // Do not fall back to pressing Enter on a possibly different option.
         if (comboShows(ctrl, labels[pick])) done.push(q + " = " + labels[pick]);
         else { if (el.value) setNative(el, ""); if (isRequired(el)) need.push(q + " (the dropdown wouldn't take the answer)"); }
         el.blur(); continue;
       }
       if (isDate) {
-        const dm = (el.getAttribute("data-automation-id") || "") + " " + q.toLowerCase();
-        const start = /^(start|available|availability|earliest)/i.test(q);
-        const mo = start ? "01" : "12", dy = start ? "04" : "01";
-        let v = /month/i.test(dm) ? mo : /year/i.test(dm) ? "2027" : /\bday\b/i.test(dm) ? dy : type === "date" ? `2027-${mo}-${dy}` : /mm\/yyyy/i.test(el.placeholder || "") ? `${mo}/2027` : `${mo}/${dy}/2027`;
-        el.focus(); setText(el, v); el.dispatchEvent(new KeyboardEvent("keydown", { key: "Enter", keyCode: 13, bubbles: true })); await sleep(250); document.body.click();
-        if (!el.value) need.push(q + " (pick it in the calendar)"); else done.push(q + " = " + el.value); continue;
+        // The engine only supplies a complete, explicitly saved ISO date.
+        if (type !== "date") { need.push(q + " (choose the date in the calendar)"); continue; }
+        setText(el, r.a); if (el.value !== r.a) need.push(q); else done.push(q + " = " + r.a); continue;
       }
       const ok = await setValueVerified(el, r.a); done.push(q + " = " + r.a.slice(0, 40)); if (!ok) need.push(q);
     }
+    const coords = [...root.querySelectorAll("input[name=latitude], input[name=longitude]")];
+    if (coords.length && coords.some(el => !el.value?.trim())) need.push("Select your location from the location suggestions to complete its coordinates");
     return { need, done };
   }
 
@@ -377,9 +372,13 @@
     const P = await getPayload();
     if (!P) { banner("no answers for this posting reached this tab; go back to the board and click Apply again", "err"); return; }
     const submissionKey = (P.batchId || "legacy") + ":" + P.id;
+    if (window.CoopEngine?.VERSION !== 7) { banner("update the apply script from board Settings before continuing", "err"); report({ok:false,status:"needs-you",need:["answer engine update required"]}); return; }
     for (let i = 0; i < 40 && document.readyState !== "complete"; i++) await sleep(250);
     await settle(800);
     if (succeeded() && sessionStorage.getItem("coop-clicked") === submissionKey) { banner("submitted ✓ recorded on the board", "ok"); finish({ ok: true, status: "applied" }); return; }
+    const mark = e => { if (e.isTrusted) sessionStorage.setItem("coop-clicked", submissionKey); };
+    const clickMark = e => { const b = e.target.closest?.("button, input[type=submit]"); if (b && /submit|^apply( now)?$/i.test(norm(txt(b) || b.value))) mark(e); };
+    document.addEventListener("submit", mark, true); document.addEventListener("click", clickMark, true);
     const mod = M[PORTAL] || M.other;
     acceptCookies();
     banner("opening the application for " + P.job.company + "…");
@@ -408,20 +407,34 @@
       if (mod.fix) await mod.fix(P);
       const btn = primaryButton();
       if (!btn) { banner("can't find the Next / Submit button on this page; press it yourself and I'll keep going", "wait", stallActions(need.concat(["next button"]), allDone)); report({ ok: false, status: DRY ? "no-button" : "needs-you", need: need.concat(["next button"]), done: allDone }); if (DRY) return; await waitChange(); continue; }
-      const isSubmit = /submit/i.test((btn.getAttribute("aria-label") || "") + txt(btn) + (btn.value || ""));
+      // Only explicit forward-navigation buttons may be clicked automatically.
+      const buttonLabel = norm(btn.getAttribute("aria-label") || txt(btn) || btn.value || "");
+      const isSubmit = !/^(next( step)?|continue|save (and|&) continue|continue to next( step)?)$/i.test(buttonLabel);
       if (isSubmit) {                                                        // a resume box that stayed empty means something went wrong: stop, don't send
         const fileBoxes = [...document.querySelectorAll("input[type=file]")].filter(f => visible(f) || visible(f.parentElement));
         const resumeBox = fileBoxes.find(f => /resume|cv/i.test(labelOf(f) + " " + txt(entryOf(f))));
         if (resumeBox && !(resumeBox.files && resumeBox.files.length) && !/\.pdf|\.doc/i.test(txt(entryOf(resumeBox)))) need.push("the resume didn't attach");
       }
-      if (need.length && isSubmit) { banner(`${need.length} field(s) need you before submit: ${need.join(" · ")}`, "err", stallActions(need, allDone)); report({ ok: false, status: "needs-you", need, done: allDone }); if (DRY) return; await waitChange(); continue; }
-      if (isSubmit && DRY) { banner("dry run: would submit now", "ok"); report({ ok: true, status: "dry-submit", need, done: allDone, button: txt(btn) }); return; }
-      const before = signature(); if (isSubmit) sessionStorage.setItem("coop-clicked", submissionKey);
+      if (need.length) { banner(`${need.length} field(s) need your review: ${need.join(" · ")}`, "err", stallActions(need, allDone)); report({ ok: false, status: "needs-you", need, done: allDone }); if (DRY) return; await waitChange(); continue; }
+      if (isSubmit) {
+        banner("Review every answer and attachment, then submit using the site's button. I will not submit automatically.", "wait", stallActions([], allDone));
+        report({ok:false,status:"needs-you",need:["final review and manual submission"],done:allDone});
+        if (DRY) return;
+
+        while (!reported) {
+          await sleep(1000);
+          if (sessionStorage.getItem("coop-clicked") === submissionKey && succeeded()) {
+            document.removeEventListener("submit", mark, true); document.removeEventListener("click", clickMark, true);
+            finish({ok:true,status:"applied",done:allDone}); return;
+          }
+        }
+        return;
+      }
+      const before = signature();
       realClick(btn); await settle(1500);
-      if (isSubmit) { for (let k = 0; k < 40; k++) { if (succeeded()) break; await sleep(500); } if (succeeded()) { banner("submitted ✓ recorded on the board", "ok"); sessionStorage.removeItem(KEY); finish({ ok: true, status: "applied", done: allDone }); return; } }
       if (signature() === before) {
         const names = complaints();
-        if (names.length) { banner(`form flagged: ${names.join(", ")}; retrying…`); await fill(P); if (mod.fix) await mod.fix(P); realClick(primaryButton() || btn); await settle(1500); }
+        if (names.length) { banner(`form flagged: ${names.join(", ")}; please review it`, "err"); }
         if (signature() === before) { const n2 = complaints(); banner(`stuck on this page${n2.length ? ": " + n2.join(", ") : ""}. Fix it and press Next; I'll continue.`, "err", stallActions(n2.length ? n2 : need, allDone)); report({ ok: false, status: DRY ? "stuck" : "needs-you", need: n2.length ? n2 : need.length ? need : ["page did not advance"], done: allDone, button: txt(btn) }); if (DRY) return; await waitChange(); }
       }
     }
