@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Co-op board: one-click apply
 // @namespace    coop-hrisheek
-// @version      3.0
+// @version      3.1
 // @description  Opened by the co-op board: fills application pages, attaches prepared files, submits, and returns the result to the batch queue. The board controls which portals can be automated.
 // @match        *://*/*
 // @require      https://hrisheekmust-blip.github.io/coop-scraper/engine.js?v=6
@@ -315,7 +315,7 @@
   const loginPage = () => [...document.querySelectorAll("input[type=password]")].some(visible);
   function primaryButton() {
     const cands = [...document.querySelectorAll("button, input[type=submit], a[role=button], [role=button]")].filter(visible).filter(b => !b.disabled && b.getAttribute("aria-disabled") !== "true");
-    const label = b => (b.getAttribute("aria-label") || "") + " " + (b.value || "") + " " + txt(b) + " " + (b.getAttribute("data-automation-id") || "");
+    const label = b => norm((b.getAttribute("aria-label") || "") + " " + (b.value || "") + " " + txt(b) + " " + (b.getAttribute("data-automation-id") || ""));
     const order = [/submit application|submit my application|^submit$|\bsubmit\b(?!.*(resume|another))/i, /review (your )?application|review and submit|^review$/i, /save and continue|continue to next|^continue$|^next\b|next step|proceed|save & continue|bottom-navigation-next-button|pageFooterNextButton/i, /^apply( now)?$|easy apply|apply for this job|start application|begin application|apply to job|utilityButtonApply|applyButton/i];
     const links = [...document.querySelectorAll("a[href]")].filter(visible);
     for (const rx of order) { const pool = rx === order[order.length - 1] ? cands.concat(links) : cands; const b = pool.find(x => rx.test(label(x)) && !/upload|attach|add another|cancel|back|previous|withdraw|save (for )?later|save draft|dismiss|linkedin|indeed|autofill|alert/i.test(label(x))); if (b) return b; }

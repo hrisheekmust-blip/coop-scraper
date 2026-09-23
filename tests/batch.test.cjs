@@ -230,7 +230,7 @@ test('confirmation text from a previous batch is not a successful current applic
 
 test('multi-page dry run advances Next but does not activate Submit',async()=>{
   const e=formEnvironment();e.c.__coopDry=true;let nextClicks=0;
-  e.button.textContent='Next';e.button.getAttribute=n=>n==='aria-label'?e.button.textContent:null;
+  e.button.textContent='Next'; // Real plain buttons have no aria-label or value.
   e.button.click=()=>{nextClicks++;e.button.textContent='Submit application';e.c.document.body.innerText='Review your application'};
   e.run(read('coop-apply.user.js'));await until(()=>e.c.__coopLast);
   assert.equal(e.c.__coopLast.status,'dry-submit');assert.equal(nextClicks,1);
