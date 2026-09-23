@@ -82,3 +82,23 @@ test('city autocomplete matches confirmed city, full state and country without p
  assert.equal(answer('Location (City)',opts.slice(0,3),'select',p).k,'need');
  assert.equal(answer('Location (City)',['Boston'],'select',p).k,'need');
 });
+const memoryAnswer=(f,records,job={id:'job-2'})=>E.answerFor(f,{profile:{},job,learnedAnswers:records});
+test('explicit answers transfer across jobs only for matching questions and valid choices',()=>{
+ const r=E.learnedRecord('How many years of Python experience?','2',{id:'job-1'});
+ assert.equal(memoryAnswer({label:r.label,type:'select',options:['1','2','3']},[r]).a,'2');
+ assert.equal(memoryAnswer({label:r.label,type:'select',options:['0','5+']},[r]).k,'need');
+ assert.equal(memoryAnswer({label:'How many years of C++ experience?',type:'text'},[r]).k,'need');
+});
+test('job-dependent answers cannot become a universal Yes',()=>{
+ const r=E.learnedRecord('Can you attend our office weekly?','Yes',{id:'job-1'});
+ assert.equal(r.jobId,'job-1');
+ assert.equal(memoryAnswer({label:r.label,type:'text'},[r]).k,'need');
+ assert.equal(memoryAnswer({label:r.label,type:'text'},[r],{id:'job-1'}).a,'Yes');
+});
+test('secrets are never stored and forgetting an answer survives merging',()=>{
+ for(const q of ['Password','Social security number','API key','Bank account'])assert.equal(E.learnedRecord(q,'secret',{id:'a'}),null);
+ const r=E.learnedRecord('Favorite tool','Vim',{id:'a'});
+ const removed={...r,deleted:true,updatedAt:'2999-01-01'};
+ const records=E.mergeLearned([removed],[r]);
+ assert.equal(memoryAnswer({label:r.label,type:'text'},records).k,'need');
+});

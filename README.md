@@ -69,17 +69,17 @@ Batch Apply supports `jobs.ashbyhq.com`, `boards.greenhouse.io`, `job-boards.gre
 Other portals have an **Open application** link for manual completion.
 
 1. In board Settings, configure a token with Contents read/write access to the private materials repository.
-2. Install or update the Tampermonkey apply script to **version 3.5** from the board's Settings link.
+2. Install or update the Tampermonkey apply script to **version 3.6** from the board's Settings link.
 3. Select postings with prepared materials and click **Apply to all**. Allow the popup and keep the board tab open.
 4. Review the board answers before starting. The script fills and submits complete applications automatically. Missing required answers, attachments or a captcha pause the application. A confirmed submission returns to the relay
    and advances to the next posting. **Stop** prevents the next handoff; it does not close a form already open.
 
-Version 3.5 replaces broad keyword guesses with narrow profile-based mappings and exact option validation.
+Version 3.6 replaces broad keyword guesses with narrow profile-based mappings and exact option validation.
 Hidden portal metadata is omitted from the question preview. Unknown facts, ambiguous choices, unsupported
 options and dates without a confirmed day are left for review. Newly staged applications authorize automatic submission;
 batches proceed only after a confirmation is detected. Older open tabs remain manual.
 A submission attempt is recorded before clicking; reloads and timeouts do not retry it automatically. Upgrade the installed script to get both
-answer engine v8 and the new form controls (the engine dependency URL is versioned for Tampermonkey caching).
+answer engine v9 and the new form controls (the engine dependency URL is versioned for Tampermonkey caching).
 The broader portal helpers remain in the script, but supported board/relay hosts are still limited to those above.
 
 If preparation fails, the board and relay show the reason. Stop the batch, correct the token/materials problem,
@@ -137,3 +137,20 @@ careers URL. SuccessFactors: `base` URL of the careers site.
 - Teradyne (`careers.teradyne.com` cert error) and Infineon (login-walled search) need manual checks.
 - Google / Apple / Qualcomm / Micron / Keysight use bespoke career sites; they show up via the community lists and internlist.org.
 - NUWorks is behind SSO — no scraper can reach it; use the browser step.
+
+
+### Remembered answers and faster batches
+Select jobs, choose **Prepare & apply**, answer known repeated required questions once, then start.
+One application tab is reused. A batch sets aside jobs with unknown required answers or a CAPTCHA
+and continues with the rest. **Review N needing answers** collects the follow-up questions afterwards.
+A single application still pauses in place.
+
+Real edits you make in the form are captured; **Save answers & continue** rechecks the form and resumes.
+It does not mark an unsubmitted application applied. Saved answers travel back through the relay,
+are cached in this browser, and are backed up in `me/learned-answers.json` in the private materials repo.
+Repository write conflicts are merged and failed backups remain queued locally.
+
+Only matching question text is reused, with exact option validation. Job-dependent commitments remain
+scoped to their application; credentials and financial/government identifiers are excluded. Use Settings
+→ **Manage saved answers** → **Forget** to remove an answer. New or differently worded questions may still
+need an answer. Submission uncertainty never triggers an automatic retry.
