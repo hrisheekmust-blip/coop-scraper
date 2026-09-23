@@ -212,7 +212,10 @@ def consent(ctx: Ctx, q: Question, key: str):
         return need("this consent isn't covered by your saved policy", ["policy.approved_consents"], key)
     if not all(c in ctx.consents for c in cats):
         return need("this consent isn't covered by your saved policy", ["policy.approved_consents"], key)
-    return Proposal(value="Yes", basis="policy", kind="consent", evidence=[f"policy:{c}" for c in cats], key=key, synonyms=[r"^(yes|i agree|agree|i accept|accept|i acknowledge|acknowledged|i certify)\b"])
+    opts = q.option_list()
+    value = opts[0] if len(opts) == 1 else "Yes"      # a single consent checkbox: check that box
+    return Proposal(value=value, basis="policy", kind="consent", evidence=[f"policy:{c}" for c in cats], key=key,
+                    synonyms=[r"^(yes|i agree|agree|i accept|accept|i acknowledge|acknowledged|i certify)\b"])
 
 
 def eeo(ctx: Ctx, q: Question, key: str):

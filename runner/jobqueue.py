@@ -330,7 +330,7 @@ def submit_intent(db: DB, app_id: str, attempt_id: str, owner: str, snapshot: di
         if a["state"] != M.READY:
             raise Refused(f"not ready to submit ({a['state']})")
         prior = db.one("""SELECT id FROM attempts WHERE application_id=? AND id<>? AND submit_intent_at IS NOT NULL
-                          AND (outcome IS NULL OR outcome NOT IN ('resolved_not_submitted'))""", (app_id, attempt_id))
+                          AND (outcome IS NULL OR outcome NOT IN ('resolved_not_submitted','validation_rejected'))""", (app_id, attempt_id))
         if prior:
             raise Refused("an earlier attempt may have submitted; reconcile first")
         if db.one("SELECT 1 FROM confirmations WHERE application_id=?", (app_id,)):
@@ -369,6 +369,41 @@ def confirm(db: DB, app_id: str, kind: str, evidence: dict, provenance: str, att
         _confirm(db, a, kind, evidence, provenance, attempt_id)
 
 
+def set_attempt_outcome(db: DB, attempt_id: str, outcome: str):
+    with db.tx():
+        db.x("UPDATE attempts SET outcome=? WHERE id=?", (outcome, attempt_id))
+
+
+def request_check(db: DB, app_id: str) -> dict:
+    """'Check outcome': a read-only look at the portal's history / confirmation for an uncertain submission."""
+    with db.tx():
+        a = app_row(db, app_id)
+        if not a or a["state"] != M.UNCERTAIN:
+            raise Refused("only an uncertain submission can be checked")
+        db.x("UPDATE applications SET check_requested=1, updated_at=? WHERE id=?", (now_iso(), app_id))
+        db.event("application", app_id, "check_requested")
+    return app_view(db, app_id)
+
+
+def claim_check(db: DB, owner: str, lease_s: float = 90, max_live: int = 2, now: float | None = None):
+    """Claim an outcome check. It never submits: the attempt is created with kind='reconcile'."""
+    now = now or time.time()
+    with db.tx():
+        if db.one("SELECT COUNT(*) n FROM attempts WHERE ended_at IS NULL")["n"] >= max_live:
+            return None
+        a = db.one("SELECT a.*, j.realm_id FROM applications a JOIN jobs j ON j.id=a.job_id WHERE a.check_requested=1 AND a.state=? "
+                   "AND NOT EXISTS (SELECT 1 FROM attempts t WHERE t.application_id=a.id AND t.ended_at IS NULL) ORDER BY a.updated_at LIMIT 1", (M.UNCERTAIN,))
+        if not a:
+            return None
+        n = db.one("SELECT COALESCE(MAX(number),0)+1 n FROM attempts WHERE application_id=?", (a["id"],))["n"]
+        att = new_id("att")
+        db.x("INSERT INTO attempts(id,application_id,number,kind,lease_owner,lease_expires,started_at) VALUES(?,?,?,?,?,?,?)",
+             (att, a["id"], n, "reconcile", owner, now + lease_s, now_iso()))
+        db.x("UPDATE applications SET check_requested=0 WHERE id=?", (a["id"],))
+        db.event("application", a["id"], "check_started", {"attempt": att})
+        return {"application": dict(a), "attempt_id": att}
+
+
 def end_attempt(db: DB, attempt_id: str, outcome: str):
     with db.tx():
         db.x("UPDATE attempts SET ended_at=?, outcome=COALESCE(outcome, ?), lease_owner=NULL WHERE id=? AND ended_at IS NULL",
@@ -402,7 +437,7 @@ def recover(db: DB, now: float | None = None) -> list[dict]:
     with db.tx():
         for t in db.all("SELECT * FROM attempts WHERE ended_at IS NULL AND COALESCE(lease_expires,0)<?", (now,)):
             a = app_row(db, t["application_id"])
-            if t["submit_intent_at"]:
+            if t["submit_intent_at"] and t["outcome"] != "validation_rejected":
                 db.x("UPDATE attempts SET ended_at=?, outcome='interrupted_after_submit_intent', lease_owner=NULL WHERE id=?", (now_iso(), t["id"]))
                 if a["state"] != M.APPLIED:
                     _set_state(db, a["id"], M.UNCERTAIN, "The worker stopped after deciding to submit; checking the outcome before any retry", force=True)

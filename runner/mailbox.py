@@ -80,7 +80,9 @@ class Mailbox:
         if not key or len(key) > 400:
             return {"decision": "rejected", "reason": "missing stable message id"}
         prior = self.db.one("SELECT decision, purpose FROM mail_events WHERE message_key=?", (key,))
-        if prior:
+        # Consumed/ignored messages are final. A verification email that arrived before its account was marked as
+        # waiting (the portal is often faster than the page) is looked at again; it still can only be used once.
+        if prior and not (prior["decision"] == "unmatched" and prior["purpose"] in ("activation", "login_code")):
             return {"decision": prior["decision"], "purpose": prior["purpose"], "replayed": True}
         subject = str(msg.get("subject") or "")[:500]
         body = str(msg.get("body_text") or "")[:20000]
@@ -92,6 +94,7 @@ class Mailbox:
         else:
             res = {"decision": "ignored"}
         with self.db.tx():
+            self.db.x("DELETE FROM mail_events WHERE message_key=? AND decision='unmatched'", (key,))
             self.db.x("""INSERT OR IGNORE INTO mail_events(message_key,received_at,sender,subject,purpose,decision,account_id,application_id,candidates_json,processed_at)
                          VALUES(?,?,?,?,?,?,?,?,?,?)""",
                       (key, msg.get("received_at"), str(msg.get("from") or "")[:300], subject[:300], purpose, res["decision"],

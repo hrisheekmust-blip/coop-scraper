@@ -232,8 +232,9 @@ class Accounts:
     def waiting(self) -> list[dict]:
         """Accounts waiting on an email, with what the mailbox should look for (no secrets)."""
         out = []
-        for a in self.db.all("SELECT a.*, r.portal, r.tenant, r.allowed_hosts FROM accounts a JOIN realms r ON r.id=a.realm_id WHERE a.status=?",
-                             (M.ACC_AWAITING_EMAIL,)):
+        # Registering accounts count too: the portal can send the email before the page confirms the signup.
+        for a in self.db.all("SELECT a.*, r.portal, r.tenant, r.allowed_hosts FROM accounts a JOIN realms r ON r.id=a.realm_id WHERE a.status IN (?,?)",
+                             (M.ACC_AWAITING_EMAIL, M.ACC_REGISTERING)):
             out.append({"account_id": a["id"], "realm_id": a["realm_id"], "portal": a["portal"], "tenant": a["tenant"],
                         "since": a["awaiting_since"] or a["registration_intent_at"], "hosts": loads(a["allowed_hosts"], []),
                         "purpose": "login_code" if a["auth_method"] == "email_code" else "activation"})

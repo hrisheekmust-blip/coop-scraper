@@ -126,6 +126,7 @@ CREATE TABLE applications (
   retries            INTEGER NOT NULL DEFAULT 0,
   cancel_requested   INTEGER NOT NULL DEFAULT 0,
   allow_resubmit     INTEGER NOT NULL DEFAULT 0,
+  check_requested    INTEGER NOT NULL DEFAULT 0,            -- run a read-only outcome check (reconcile)
   material_policy    TEXT NOT NULL DEFAULT 'saved_default',
   board_ref          TEXT NOT NULL DEFAULT '',
   submitted_snapshot TEXT,
