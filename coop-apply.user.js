@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Co-op board: one-click apply
 // @namespace    coop-hrisheek
-// @version      1.0
+// @version      1.1
 // @description  When the co-op board opens an Ashby / Greenhouse / Lever form, fill it from the board's answers, attach the files, submit, and report back.
 // @match        https://jobs.ashbyhq.com/*
 // @match        https://boards.greenhouse.io/*
@@ -14,9 +14,23 @@
 (function () {
   "use strict";
   const KEY = "coop-payload";
+  const BOARD = "https://hrisheekmust-blip.github.io";
+  const RELAY = BOARD + "/coop-scraper/relay.html";
+  const params = new URLSearchParams(location.hash.slice(1));
   const hashId = (location.hash.match(/coop=([0-9a-f]{16})/) || [])[1];
   let payload = null;
   try { payload = JSON.parse(sessionStorage.getItem(KEY) || "null"); } catch (e) {}
+  if (hashId && params.has("p")) {
+    payload = null;
+    try {
+      const p = JSON.parse(decodeURIComponent(escape(atob((params.get("p") || "").replace(/-/g, "+").replace(/_/g, "/")))));
+      if (p.type === "coop-payload" && p.id === hashId && p.job && Array.isArray(p.files)) {
+        payload = p;
+        sessionStorage.setItem(KEY, JSON.stringify(p));
+        history.replaceState(null, "", location.pathname + location.search);
+      }
+    } catch (e) {}
+  }
   if (!hashId && !payload) return;                       // not opened by the board
   if (hashId && payload && payload.id !== hashId) payload = null;
 
@@ -32,16 +46,28 @@
     bar.style.cssText = `position:fixed;top:0;left:0;right:0;z-index:2147483647;padding:10px 16px;font:14px/1.4 system-ui,sans-serif;color:#fff;background:${kind === "err" ? "#b3261e" : kind === "ok" ? "#1e7d3c" : "#1d4ed8"};box-shadow:0 2px 8px rgba(0,0,0,.25)`;
     bar.textContent = "Co-op board: " + msg;
   }
-  const report = m => { try { if (window.opener) window.opener.postMessage({ ...m, type: "coop-result", id: payload ? payload.id : hashId, url: location.href, at: new Date().toISOString() }, "*"); } catch (e) {} };
+  let completed = false;
+  const report = m => {
+    if (window.__coopDry) { window.__coopLast = m; return; }
+    if (completed) return;
+    const result = { ...m, type: "coop-result", id: payload ? payload.id : hashId, batchId: payload && payload.batchId, url: location.href, at: new Date().toISOString() };
+    // Stay on the form for questions/captchas. Only a confirmed submission advances the queue.
+    if (!m.ok) { try { if (window.opener) window.opener.postMessage(result, BOARD); } catch (e) {} return; }
+    completed = true;
+    sessionStorage.removeItem(KEY);
+    const encoded = btoa(unescape(encodeURIComponent(JSON.stringify(result)))).replace(/\+/g, "-").replace(/\//g, "_").replace(/=+$/, "");
+    location.replace(RELAY + "#done=" + encoded);
+  };
 
   // ---------------------------------------------------------------- handshake with the board tab
   async function getPayload() {
     if (payload) return payload;
     banner("waiting for your answers from the board tab…");
     return new Promise(resolve => {
-      const onMsg = e => { const d = e.data || {}; if (d.type === "coop-payload" && d.id === hashId) { window.removeEventListener("message", onMsg); try { sessionStorage.setItem(KEY, JSON.stringify(d)); } catch (x) {} resolve(d); } };
+      const finish = p => { clearInterval(t); window.removeEventListener("message", onMsg); payload = p; resolve(p); };
+      const onMsg = e => { const d = e.data || {}; if (e.origin === BOARD && e.source === window.opener && d.type === "coop-payload" && d.id === hashId) { try { sessionStorage.setItem(KEY, JSON.stringify(d)); } catch (x) {} finish(d); } };
       window.addEventListener("message", onMsg);
-      let n = 0; const t = setInterval(() => { if (!window.opener || n++ > 60) { clearInterval(t); resolve(null); return; } window.opener.postMessage({ type: "coop-ready", id: hashId }, "*"); }, 500);
+      let n = 0; const t = setInterval(() => { if (!window.opener || n++ > 60) { finish(null); return; } window.opener.postMessage({ type: "coop-ready", id: hashId }, BOARD); }, 500);
     });
   }
 
@@ -141,11 +167,12 @@
     return [...document.querySelectorAll("button, input[type=submit]")].find(b => visible(b) && /submit application|submit/i.test(b.value || txt(b)) && !/upload/i.test(txt(b)));
   }
   const captchaUp = () => [...document.querySelectorAll("iframe[src*='hcaptcha'], iframe[src*='recaptcha'], iframe[src*='turnstile']")].some(f => visible(f) && f.getBoundingClientRect().height > 100);
-  const succeeded = () => /thank you|application (has been |was )?(submitted|received)|we('ve| have) received your application|successfully submitted|application submitted/i.test(document.body.innerText) || /thanks|confirmation|success/i.test(location.pathname);
+  const succeeded = () => /thank you for (applying|your application)|application (has been |was )?(submitted|received)|we('ve| have) received your application|successfully submitted/i.test(document.body.innerText) || /thanks|confirmation|success/i.test(location.pathname);
 
   async function run() {
     const P = await getPayload();
     if (!P) { banner("board tab didn't answer; go back to the board and click Apply again", "err"); return; }
+    if (succeeded()) { report({ ok: true, status: "applied", done: [] }); return; }
     for (let i = 0; i < 30 && !document.querySelector("input[type=email], input[name=email], #email, input[type=text]"); i++) await sleep(500);
     banner("filling " + P.job.company + " · " + P.job.role + "…");
     await sleep(800);
@@ -158,6 +185,7 @@
     }
     const btn = submitButton();
     if (!btn) { banner("filled everything but couldn't find the Submit button; press it yourself", "err"); report({ ok: false, status: "needs-you", need: ["submit button"], done }); watchForSuccess(P, done); return; }
+    if (window.__coopDry) { report({ ok: false, status: "dry-submit", button: txt(btn), done }); return; }
     await sleep(500); btn.click();
     banner("submitting…");
     for (let i = 0; i < 50; i++) {

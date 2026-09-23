@@ -9,12 +9,6 @@ on:
       per_portal:
         description: "postings per portal when sampling"
         default: "6"
-  push:
-    paths:
-      - coop-apply.user.js
-      - engine.js
-      - tools/dryrun.mjs
-      - .github/workflows/dryrun.yml
 
 permissions:
   contents: write
