@@ -65,14 +65,20 @@ is no longer the primary UI.
 
 ## Batch application setup and troubleshooting
 
-Batch Apply supports the Ashby, Greenhouse and Lever hosts listed in `coop-apply.user.js`.
+Batch Apply supports `jobs.ashbyhq.com`, `boards.greenhouse.io`, `job-boards.greenhouse.io`, and `jobs.lever.co`.
 Other portals have an **Open application** link for manual completion.
 
 1. In board Settings, configure a token with Contents read/write access to the private materials repository.
-2. Install or update the Tampermonkey apply script to **version 1.1** from the board's Settings link.
+2. Install or update the Tampermonkey apply script to **version 3.0** from the board's Settings link.
 3. Select postings with prepared materials and click **Apply to all**. Allow the popup and keep the board tab open.
 4. Complete any missing answers or captcha in the application tab. A confirmed submission returns to the relay
    and advances to the next posting. **Stop** prevents the next handoff; it does not close a form already open.
+
+Version 3.0 restores the v2.9 form walker, React field handling, dropdown fixes and resume checks while
+retaining the batch IDs and reliable result handling introduced in v1.1. It upgrades either installed version;
+do not downgrade v2.9 to v1.1. The broader portal helpers from v2.9 remain in the script, but board and relay
+automation is still limited to the hosts above. Other portals have not been verified for this release.
+If Tampermonkey still offers v1.1, wait for Pages deployment to finish and refresh the board.
 
 If preparation fails, the board and relay show the reason. Stop the batch, correct the token/materials problem,
 then retry. If GitHub cannot save a result, its receipt remains in this browser and the next board refresh retries it.
