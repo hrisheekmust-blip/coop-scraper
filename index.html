@@ -104,7 +104,7 @@ main{padding-block:14px 60px}
 .qa.need{border-color:#f5c48a;background:#fff8ee}.qa.eeo .a{color:var(--ink2)}.qa.long .a{font-size:.93em}
 .fitd{margin-top:14px}.fitd summary{cursor:pointer;color:var(--ink2)}
 .tog{display:inline-flex;align-items:center;gap:6px;font-size:.85em;color:var(--ink2);margin-left:auto;margin-right:10px;cursor:pointer;user-select:none}.tog.off{opacity:.5}.settings .tog{margin:10px 0 0;display:flex}
-.pill.s-applying{background:#1d4ed8;color:#fff}.settings h4{margin:16px 0 4px}
+.pill.s-applying{background:#1d4ed8;color:#fff}.pill.s-uncertain{background:#b45309;color:#fff}.pill.s-needs-you{background:var(--apply-bg);color:var(--apply-ink)}.alias{display:block;font-size:11px;color:var(--mute)}.alias.bad{color:var(--red)}.settings h4{margin:16px 0 4px}
 .edit textarea{width:100%;min-height:480px;font:14px/1.5 Georgia,serif;padding:12px;border:1px solid var(--line);border-radius:6px;resize:vertical}.editbar{display:flex;gap:8px;align-items:center;margin-top:8px}
 </style>
 </head>
@@ -124,7 +124,7 @@ main{padding-block:14px 60px}
 <div id="batchbar"><span class="st" id="bst"></span><button class="btn" id="bskip" style="display:none">Skip this one</button><button class="btn primary" id="bgo">Apply to all</button><button class="btn" id="bclear">Clear</button></div>
 <div id="drawerHost"></div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
-<script src="engine.js?v=9"></script>
+<script src="engine.js?v=10"></script>
 <script>
 /* ---------- config: materials + application state live in a PRIVATE repo, read/written with your token ---------- */
 const CFG_KEY="coop-cfg";let cfg={repo:"hrisheekmust-blip/coop-apps",token:"",cover:false};try{Object.assign(cfg,JSON.parse(localStorage.getItem(CFG_KEY)||"{}"))}catch(e){}
@@ -140,6 +140,11 @@ const uc=u=>({"APPLY NOW":"u-now","APPLY":"u-apply","SOON":"u-soon"}[u]||"u-watc
 const csv=t=>{const rows=[];let row=[],cur="",q=false;for(let i=0;i<t.length;i++){const c=t[i];if(q){if(c=='"'){if(t[i+1]=='"'){cur+='"';i++}else q=false}else cur+=c}else if(c=='"')q=true;else if(c==','){row.push(cur);cur=""}else if(c=='\n'){row.push(cur);rows.push(row);row=[];cur=""}else if(c!='\r')cur+=c}if(cur||row.length){row.push(cur);rows.push(row)}const h=rows.shift()||[];return rows.filter(r=>r.length===h.length).map(r=>Object.fromEntries(h.map((k,i)=>[k,r[i]])))};
 async function sha1_16(s){const b=await crypto.subtle.digest("SHA-1",new TextEncoder().encode(s));return [...new Uint8Array(b)].map(x=>x.toString(16).padStart(2,"0")).join("").slice(0,16)}
 const isDone=j=>["applied","interview","offer","rejected","skip"].includes(j.status||"");const inFlight=j=>["queued","applying"].includes(j.status||"");
+/* uncertain = Submit was pressed but no confirmation was seen. It is never retried automatically. */
+const isHeld=j=>j.status==="uncertain";
+const SENT=["applied","interview","offer","rejected"];
+/* strongest status wins when two listings are the same requisition */
+const RANK={offer:9,interview:8,rejected:7,applied:6,uncertain:5,applying:4,queued:3,"needs-you":2,skip:1,"":0};
 /* ---------- state ---------- */
 let rows=[],state={},stateSha=null,apps={},forms={},profile=null,bank=null,hooks={},meta=null,view="todo",openId=null,step=0,local={};try{local=JSON.parse(localStorage.getItem("coop-status")||"{}")}catch(e){}
 /* Explicit answers, private-repository backup, and a local pending copy. */
@@ -193,22 +198,35 @@ function synthFor(j){if(!bank)return{};const variant=pickVariant(j.role,j.fit_wh
   return{base,variant,synth:true,materials:[{name:"Resume",path:bank.resume_paths[variant]},{name:"Cover letter",gen:"cover",text,path:"gen/cover.pdf"},{name:"Cover letter (text)",gen:"text",text,path:"gen/cover.txt"}],
     answers_obj:{company:j.company,role:j.role,why,top_two:[bank.specloop,sec],about:bank.about,hook_uncertain:!!(hk&&hk.uncertain)},
     fit_text:`Built on the board (posting newer than the last generator run).\nResume base: ${base}   Skills variant: ${variant}   (${bank.variants[variant].why})\n${hook?"Company hook: "+hook:"WARNING: no company hook on file; the opening has no company-specific sentence."}${hk&&hk.uncertain?"\nWARNING: the hook is a best guess about this company.":""}`}}
-const jobs=()=>rows.map(r=>({...r,...(apps[r.id]||synthFor(r)),...(state[r.id]||{}),status:(state[r.id]||{}).status??local[r.id]??""}));
+/* One requisition = one application. LinkedIn, Simplify and direct links to the same job are aliases:
+   the board shows one row, and every alias shares the strongest recorded status. Original state
+   records are left untouched; conflicting histories are flagged for you to reconcile. */
+const canon=r=>CoopEngine.reqKey(((forms[r.id]||{}).apply_url)||"")||CoopEngine.reqKey(r.link||"")||"id:"+r.id;
+function jobs(){const base=rows.map(r=>({...r,...(apps[r.id]||synthFor(r)),...(state[r.id]||{}),status:(state[r.id]||{}).status??local[r.id]??""}));
+  const groups=new Map();for(const j of base){j.canon=canon(j);if(!groups.has(j.canon))groups.set(j.canon,[]);groups.get(j.canon).push(j)}
+  for(const g of groups.values()){if(g.length<2)continue;
+    const best=g.reduce((a,b)=>(RANK[b.status]||0)>(RANK[a.status]||0)?b:a);
+    const hist=[...new Set(g.map(x=>x.status).filter(x=>x&&x!=="skip"))];
+    g.forEach((j,i)=>{j.aliases=g.filter(x=>x!==j).map(x=>({id:x.id,source:x.source,status:x.status}));j.primary=i===0;
+      if(best!==j&&best.status){j.status=best.status;j.statusFrom=best.id;for(const k of ["submitted","email","note","statusAt"])if(best[k]!==undefined)j[k]=best[k]}
+      j.conflict=hist.length>1&&hist.some(x=>SENT.includes(x))})}
+  return base.map(j=>({...j,primary:j.primary!==false}))}
 function listFor(){const q=$("q").value.toLowerCase();return jobs().filter(j=>{
-  const open=!isDone(j)&&!inFlight(j);
-  const inView=view==="all"?true:view==="applied"?(isDone(j)||inFlight(j)):view==="auto"?(open&&noAccount(j)&&canOneClick(j)):open;
+  if(!j.primary)return false;
+  const open=!isDone(j)&&!inFlight(j)&&!isHeld(j);
+  const inView=view==="all"?true:view==="applied"?(isDone(j)||inFlight(j)||isHeld(j)):view==="auto"?(open&&noAccount(j)&&canOneClick(j)):open;
   return inView&&(!q||(j.company+" "+j.role+" "+j.location+" "+portalOf(j)).toLowerCase().includes(q))})}   // searching "ashby" or "greenhouse" narrows to that system
 const statusPill=j=>j.status?`<span class="pill s-${j.status}">${j.status}</span>`:"";
-function rowHtml(j){const dl=daysTo(j.deadline);const hot=dl!==null&&dl<=14;const done=isDone(j);const hasMat=(j.materials||[]).length>0;
+function rowHtml(j){const dl=daysTo(j.deadline);const hot=dl!==null&&dl<=14;const done=isDone(j)||isHeld(j);const hasMat=(j.materials||[]).length>0;
   return `<div class="row ${j.fit} ${done?"done":""}"><div class="stripe"></div>
-  <div class="urg">${!done&&!inFlight(j)&&canOneClick(j)?`<label class="sel" title="Select for batch apply"><input type="checkbox" data-sel="${j.id}" ${selected.has(j.id)?"checked":""}></label>`:''}<span class="pill ${uc(j.urgency)}">${j.urgency}</span>${j.new==="NEW"?'<br><span class="pill new">New</span>':''}</div>
+  <div class="urg">${!done&&!inFlight(j)&&!isHeld(j)&&canOneClick(j)?`<label class="sel" title="Select for batch apply"><input type="checkbox" data-sel="${j.id}" ${selected.has(j.id)?"checked":""}></label>`:''}<span class="pill ${uc(j.urgency)}">${j.urgency}</span>${j.new==="NEW"?'<br><span class="pill new">New</span>':''}</div>
   <div class="co">${esc(j.company)}<span class="fit">${j.fit==="ADJACENT"?"EE":j.fit}</span></div>
-  <div class="role"><a href="${esc(j.link)}" target="_blank" rel="noopener">${esc(j.role)}</a>${j.fit_why?`<small>${esc(j.fit_why)}</small>`:''}</div>
+  <div class="role"><a href="${esc(j.link)}" target="_blank" rel="noopener">${esc(j.role)}</a>${j.fit_why?`<small>${esc(j.fit_why)}</small>`:''}${j.aliases&&j.aliases.length?`<span class="alias${j.conflict?" bad":""}">${j.conflict?"conflicting statuses across listings; check before applying · ":""}also listed via ${j.aliases.map(a=>esc(a.source||"another link")).join(", ")}</span>`:''}</div>
   <div class="loc">${esc(j.location)}</div>
   <div class="mono posted">${esc(j.posted)||'—'}${j.days_open?`<small>${esc(j.days_open)} d open</small>`:''}</div>
   <div class="mono dl ${hot?"hot":""}">${j.deadline?esc(j.deadline):'—'}${dl!==null?`<small>${dl<0?"closed":dl+" d left"}</small>`:''}</div>
   <div class="nu">${j.nuworks?`<a href="${esc(j.nuworks_link)}" target="_blank" rel="noopener">NUWorks</a>${j.nu_eligible==="NOT QUALIFIED"?'<span class="bad">not qualified</span>':''}`:'—'}</div>
-  <div class="act">${done||inFlight(j)?`${statusPill(j)}<button class="btn ghost" data-open="${j.id}">Details</button>`:`<button class="btn ${hasMat?"primary":""}" data-open="${j.id}">${hasMat?"Apply":"Preview"}</button><button class="btn ghost" data-skip="${j.id}">Skip</button>`}</div></div>`}
+  <div class="act">${done||inFlight(j)||isHeld(j)?`${statusPill(j)}<button class="btn ghost" data-open="${j.id}">Details</button>`:`<button class="btn ${hasMat?"primary":""}" data-open="${j.id}">${hasMat?"Apply":"Preview"}</button><button class="btn ghost" data-skip="${j.id}">Skip</button>`}</div></div>`}
 function render(){const list=listFor();$("count").textContent=list.length+" / "+rows.length;
   $("main").innerHTML=list.length?`<div class="hdr"><span></span><span><label class="sel" title="Select everything in this view"><input type="checkbox" id="selall"></label>Urgency</span><span>Company</span><span>Role</span><span>Location</span><span>Posted</span><span>Deadline</span><span>NUWorks</span><span></span></div>`+list.map(rowHtml).join(""):'<div class="empty">Nothing here.</div>';
   document.querySelectorAll("[data-open]").forEach(b=>b.onclick=()=>openDrawer(b.dataset.open));
@@ -249,7 +267,7 @@ function coverPdf(text){const {jsPDF}=window.jspdf;const d=new jsPDF({unit:"pt",
 const coverBlob=text=>coverPdf(text).output("blob");
 const coverB64=text=>coverPdf(text).output("datauristring").split(",")[1];
 /* ---------- one-click apply: hand the form tab everything it needs, get the result back ---------- */
-const pending={};const QK=id=>"coop-q-"+id;
+const pending={};const QK=id=>"coop-q-"+id;const FK=k=>"coop-f-"+k;const SK=b=>"coop-staging:"+b;
 const applyUrl=j=>((forms[j.id]||{}).apply_url)||j.link;
 /* the four systems that let you apply without creating an account first */
 const NOACC=/^(greenhouse|ashby|lever|smartrecruiters)$/;
@@ -258,44 +276,57 @@ const portalOf=j=>{const f=forms[j.id]||{};if(f.portal)return f.portal;const u=(
     :/myworkday/.test(u)?"workday":/oraclecloud/.test(u)?"oracle":/icims/.test(u)?"icims":/successfactors|\.sap\./.test(u)?"successfactors"
     :/linkedin\.com/.test(u)?"linkedin":/symplicity/.test(u)?"nuworks":"other"};
 const noAccount=j=>NOACC.test(portalOf(j))&&!j.nuworks;   // anything that also sits on NUWorks stays out
-const supported=j=>{try{const u=new URL(applyUrl(j));return u.protocol==="https:"&&["jobs.ashbyhq.com","boards.greenhouse.io","job-boards.greenhouse.io","jobs.lever.co"].includes(u.hostname)}catch(e){return false}};
+const AUTO_HOSTS=["jobs.ashbyhq.com","boards.greenhouse.io","job-boards.greenhouse.io","jobs.lever.co"];
+const supported=j=>{if((forms[j.id]||{}).closed)return false;try{const u=new URL(applyUrl(j));return u.protocol==="https:"&&AUTO_HOSTS.includes(u.hostname)}catch(e){return false}};
 const canOneClick=j=>supported(j)&&(j.materials||[]).length>0&&!!cfg.token;
 const b64buf=buf=>{const u=new Uint8Array(buf);let s="";for(let i=0;i<u.length;i+=8192)s+=String.fromCharCode.apply(null,u.subarray(i,i+8192));return btoa(s)};
 async function buildPayload(j){
   const files=[];let coverText="";for(const m of (j.materials||[])){if(/\(text\)/.test(m.name)){if(coverOn(j)){coverText=j.cover_text||m.text||await (await gh(m.path,{raw:true})).text()}continue}const isCover=/cover/i.test(m.name);if(isCover&&!coverOn(j))continue;
     if(isCover&&(j.cover_text||m.gen)){files.push({kind:"cover",name:"Hrisheek_Mustyala_Cover_Letter.pdf",type:"application/pdf",b64:coverB64(j.cover_text||m.text)});continue}
-    const r=await gh(m.path,{raw:true});files.push({kind:isCover?"cover":"resume",name:isCover?"Hrisheek_Mustyala_Cover_Letter.pdf":"Hrisheek_Mustyala_Resume.pdf",type:"application/pdf",b64:b64buf(await r.arrayBuffer())})}
+    const r=await gh(m.path,{raw:true});files.push({kind:isCover?"cover":"resume",src:isCover?"":m.path,name:isCover?"Hrisheek_Mustyala_Cover_Letter.pdf":"Hrisheek_Mustyala_Resume.pdf",type:"application/pdf",b64:b64buf(await r.arrayBuffer())})}
   let a=j.answers_obj||{};if(j.answers_json){a=await (await gh(j.answers_json,{raw:true})).json()}
-  cacheLearned([]);
-  return {type:"coop-payload",learnedAnswers,autoSubmit:true,id:j.id,job:{id:j.id,company:j.company,role:j.role,location:j.location,link:j.link},answers:a,profile:profile||{},cover:coverOn(j),coverText:coverOn(j)?coverText:"",files}}
-/* the relay tab (relay.html, same origin as this page) picks these up and carries them into the portal */
+  cacheLearned([]);const key=j.canon||canon(j);
+  return {type:"coop-payload",learnedAnswers,autoSubmit:true,id:j.id,reqKey:/^id:/.test(key)?"":key,job:{id:j.id,company:j.company,role:j.role,location:j.location,link:j.link},answers:a,profile:profile||{},cover:coverOn(j),coverText:coverOn(j)?coverText:"",files}}
+/* A batch is prepared up front: every payload goes into this origin's storage before (or while) the relay
+   tab works through it, so the relay can finish the batch even if you close this board tab. Shared files
+   (the resume variants) are stored once; saved answers are read by the relay at hand-off time. */
+const putLS=(k,v)=>{try{localStorage.setItem(k,v)}catch(e){const err=new Error("this browser's storage is full");err.quota=true;throw err}};
 const staging=new Map();
 function stage(j){const key=batch.batchId+":"+j.id;if(staging.has(key))return staging.get(key);const task=stageJob(j,batch.batchId).finally(()=>staging.delete(key));staging.set(key,task);return task}
-async function stageJob(j,batchId){const p=await buildPayload(j);p.batchId=batchId;p.deferMissing=batch.ids.length>1;
-  if(!batch||batch.finished||batch.batchId!==batchId||batch.ids[batch.i]!==j.id)return;
-  await writeState(st=>{st[j.id]={...(st[j.id]||{}),status:"applying",statusAt:new Date().toISOString(),note:"handed to the form tab; filling…"}});
-  if(!batch||batch.finished||batch.batchId!==batchId||batch.ids[batch.i]!==j.id)return;
-  pending[j.id]=p;
-  try{localStorage.setItem(QK(j.id),JSON.stringify({applyUrl:applyUrl(j),payload:p}))}
-  catch(e){throw new Error("this browser's storage is full \u2014 apply to fewer at a time")}
-  render();if(openId===j.id)drawRender()}
+async function stageJob(j,batchId){if(localStorage.getItem(QK(j.id)))return;
+  const p=await buildPayload(j);p.batchId=batchId;p.deferMissing=batch.ids.length>1;p.allowResubmit=(batch.resubmit||[]).includes(j.id);
+  if(!batch||batch.finished||batch.batchId!==batchId)return;
+  pending[j.id]=p;const refs=[];
+  for(const f of p.files){const k=f.src?"r:"+f.src:f.kind+":"+j.id;if(localStorage.getItem(FK(k))!==f.b64)putLS(FK(k),f.b64);refs.push({kind:f.kind,name:f.name,type:f.type,ref:k})}
+  putLS(QK(j.id),JSON.stringify({applyUrl:applyUrl(j),payload:{...p,files:refs,learnedAnswers:[]}}))}
+async function stageAll(ids,batchId){let next=0,lazy=false;
+  const worker=async()=>{while(next<ids.length&&!lazy){const id=ids[next++];const j=jobs().find(x=>x.id===id);if(!j)continue;
+    if(!batch||batch.finished||batch.batchId!==batchId)return;
+    try{await stage(j)}catch(e){if(e.quota){lazy=true}else stageError(j,e)}}};
+  await Promise.all([worker(),worker(),worker()]);
+  // Out of browser storage: the rest are prepared one at a time while this tab stays open.
+  try{localStorage.setItem(SK(batchId),lazy?"lazy":"done")}catch(e){}
+  if(lazy)$("bst").textContent="Browser storage is full: keep this board tab open so the rest can be prepared one at a time"}
 function stageError(j,err){const message="couldn't prepare "+j.company+": "+err.message;try{localStorage.setItem(QK(j.id),JSON.stringify({error:err.message}))}catch(e){}$("bst").textContent=message}
 async function recordResult(d){const p=pending[d.id];
   if(d.learnedAnswers?.length)saveLearned(d.learnedAnswers).catch(e=>{$("bst").textContent="Answers saved locally; backup pending: "+e.message});
-  if(d.ok){await writeState(st=>{st[d.id]={...(st[d.id]||{}),status:"applied",statusAt:d.at,note:"",submitted:{at:d.at,portal:d.url,files:(p?p.files:[]).map(f=>({name:f.name})),notes:(d.done||[]).join("\n")}}})}
-  else{await writeState(st=>{st[d.id]={...(st[d.id]||{}),status:d.deferred?"needs-you":"applying",questions:d.questions||st[d.id]?.questions||[],note:(d.deferred?"Set aside for review: ":d.status==="needs-you"?"waiting on you in the form tab: ":"error: ")+((d.need&&d.need.length?d.need:[d.error||"?"]).join(" \u00b7 "))}})}
-  try{localStorage.removeItem(QK(d.id))}catch(e){}
+  await writeState(st=>{const cur=st[d.id]||{};
+    if(d.ok){st[d.id]={...cur,status:"applied",statusAt:d.at,note:"",reqKey:d.reqKey||cur.reqKey||"",submitted:{at:d.at,portal:d.url,reqKey:d.reqKey||"",evidence:d.evidence||null,files:(p?p.files:d.files||[]).map(f=>({name:f.name})),notes:(d.done||[]).join("\n")}};return}
+    if(SENT.includes(cur.status))return;   // a late or stale non-result never undoes a verified submission
+    const why=(d.need&&d.need.length?d.need:[d.error||"?"]).join(" · ");
+    const status=d.status==="uncertain"||cur.status==="uncertain"?"uncertain":d.deferred?"needs-you":"applying";
+    st[d.id]={...cur,status,statusAt:d.at||new Date().toISOString(),questions:d.questions||cur.questions||[],note:(status==="uncertain"?"Submit was pressed but no confirmation was seen: ":d.deferred?"Set aside for review: ":d.status==="needs-you"?"waiting on you in the form tab: ":"error: ")+why}});
   render();if(openId===d.id)drawRender()}
 window.addEventListener("message",async e=>{const d=e.data||{};if(typeof d.type!=="string"||!d.type.startsWith("coop-"))return;
   const j=jobs().find(j=>j.id===d.id);if(!j||!pending[d.id]||e.origin!==new URL(applyUrl(j)).origin)return;
   if(d.type==="coop-ready"){if(pending[d.id])e.source.postMessage(pending[d.id],e.origin);return}
   if(d.type==="coop-result"&&d.batchId===pending[d.id].batchId)try{await recordResult(d)}catch(err){$("bst").textContent="couldn't save result: "+err.message}});
 /* the relay tab reports through localStorage: portals like LinkedIn cut window.opener the moment the tab navigates */
+function markApplying(id){writeState(st=>{const cur=st[id]||{};if(SENT.includes(cur.status)||cur.status==="uncertain"||cur.status==="applying")return;st[id]={...cur,status:"applying",statusAt:new Date().toISOString(),note:"filling in the form tab"}}).then(()=>render()).catch(()=>{})}
 window.addEventListener("storage",async e=>{if(!e.key)return;
   if(e.key.indexOf("coop-r-")===0&&e.newValue){await consumeResult(e.key,e.newValue);return}
   if(e.key==="coop-batch"&&e.newValue){let q;try{q=JSON.parse(e.newValue)}catch(x){return}batch=q;batchBar();
-    if(q.i>0&&q.ids[q.i-1])try{localStorage.removeItem(QK(q.ids[q.i-1]))}catch(x){}
-    if(!q.finished&&q.i<q.ids.length){const nj=jobs().find(x=>x.id===q.ids[q.i]);if(nj)stage(nj).catch(err=>stageError(nj,err))}}});
+    if(!q.finished&&q.i<q.ids.length){const nj=jobs().find(x=>x.id===q.ids[q.i]);if(nj){if(!localStorage.getItem(QK(nj.id)))stage(nj).catch(err=>stageError(nj,err));if(q.current===nj.id)markApplying(nj.id)}}}});
 async function consumeResult(key,raw){let d;try{d=JSON.parse(raw);await recordResult(d);if(localStorage.getItem(key)===raw)localStorage.removeItem(key)}catch(err){$("sub").textContent="Application result is saved in this browser but GitHub sync failed: "+err.message}}
 /* ---------- batch apply: the relay tab walks the queue; this tab stages the work and records what comes back ---------- */
 const selected=new Set();let batch=null;
@@ -305,40 +336,49 @@ function batchBar(){const bar=$("batchbar");if(!bar)return;const n=selected.size
     $("bst").textContent=`Applying ${batch.i+1} of ${batch.ids.length}: ${(batch.names&&batch.names[batch.i])||""}`;
     $("bgo").style.display="none";$("bskip").style.display="none";$("bclear").textContent="Stop";return}
   if(batch&&batch.ids&&batch.ids.length&&(batch.finished||batch.i>=batch.ids.length)){bar.classList.add("on");
-    $("bst").textContent=`${batch.i<batch.ids.length?"Stopped":"Done"} — ${batch.done} of ${batch.ids.length} submitted`;
+    const unsure=batch.ids.filter(id=>state[id]?.status==="uncertain").length;
+    $("bst").textContent=`${batch.i<batch.ids.length?"Stopped":"Done"} — ${batch.done} of ${batch.ids.length} submitted${unsure?` · ${unsure} uncertain (check before retrying)`:""}`;
     const remaining=batch.ids.filter(id=>state[id]?.status==="needs-you");$("bgo").style.display=remaining.length?"":"none";$("bgo").textContent=`Review ${remaining.length} needing answers`;$("bskip").style.display="none";$("bclear").textContent="Clear";return}
   const auto=view==="auto"&&!n?listFor().length:0;                       // the No-account view offers the whole set in one button
   bar.classList.toggle("on",n>0||auto>0);
   $("bst").textContent=n?`${n} selected`:auto?`${auto} postings: no account needed, nothing from NUWorks`:"";
   $("bgo").style.display="";$("bgo").textContent=`Prepare & apply to ${n||auto}`;$("bskip").style.display="none";$("bclear").textContent="Clear"}
-async function startBatch(force){const all=jobs();
+/* Which jobs a batch may include. Sent applications are never re-sent; an uncertain one only after you
+   say you checked; one already queued or filling only on an explicit retry; each requisition once. */
+function batchable(j,force,resubmit){if(!j||!canOneClick(j)||SENT.includes(j.status))return false;
+  if(isHeld(j))return !!resubmit;if(inFlight(j)||j.status==="skip")return !!force;return true}
+async function startBatch(force,opts={}){const all=jobs();
   if(batch&&!batch.finished&&batch.i<batch.ids.length)throw new Error("stop the current batch before starting another");
-  const ids=[...selected].filter(id=>{const j=all.find(x=>x.id===id);return j&&canOneClick(j)&&(force||(!isDone(j)&&!inFlight(j)))});
-  if(!ids.length){$("batchbar").classList.add("on");$("bst").textContent="nothing selected that I can apply to (each one needs its materials and your token)";return}
+  const seen=new Set();
+  const ids=[...selected].filter(id=>{const j=all.find(x=>x.id===id);if(!batchable(j,force,opts.resubmit)||seen.has(j.canon))return false;seen.add(j.canon);return true});
+  if(!ids.length){$("batchbar").classList.add("on");$("bst").textContent="nothing selected that I can apply to (each one needs its materials and your token; sent or uncertain applications are never re-sent automatically)";return}
   const names=ids.map(id=>{const j=all.find(x=>x.id===id);return j.company+" · "+j.role});
   for(const id of ids)try{localStorage.removeItem(QK(id))}catch(e){}
-  batch={batchId:crypto.randomUUID(),ids,names,i:0,done:0,finished:false};
-  try{localStorage.setItem("coop-batch",JSON.stringify(batch))}catch(e){batch=null;throw new Error("couldn't save the batch in this browser: "+e.message)}
+  batch={batchId:crypto.randomUUID(),ids,names,i:0,done:0,finished:false,resubmit:opts.resubmit?ids:[]};
+  try{localStorage.setItem("coop-batch",JSON.stringify(batch));localStorage.setItem(SK(batch.batchId),"running")}catch(e){batch=null;throw new Error("couldn't save the batch in this browser: "+e.message)}
   const win=window.open("relay.html#go","coop-apply");   // opened by your click so the pop-up blocker allows it; it drives every application from there
   if(!win){batch=null;localStorage.removeItem("coop-batch");batchBar();$("bst").textContent="your browser blocked the new tab — allow pop-ups for this page, then click Apply again";return}
   selected.clear();batchBar();render();
-  const first=all.find(x=>x.id===ids[0]);try{await stage(first)}catch(e){stageError(first,e)}}
+  const at=new Date().toISOString();
+  writeState(st=>{for(const id of ids){const cur=st[id]||{};if(!SENT.includes(cur.status))st[id]={...cur,status:"queued",statusAt:at,note:"in the current batch"}}}).then(()=>render()).catch(e=>{$("bst").textContent="couldn't save queued status: "+e.message});
+  await stageAll(ids,batch.batchId)}
 $("bgo").onclick=()=>{if(batch&&(batch.finished||batch.i>=batch.ids.length)){const ids=batch.ids.filter(id=>state[id]?.status==="needs-you");prepareBatch(ids).catch(e=>{$("bst").textContent=e.message});return}if(!selected.size&&view==="auto")for(const j of listFor())selected.add(j.id);prepareBatch([...selected]).catch(e=>{$("bst").textContent=e.message})};
-$("bclear").onclick=()=>{if(batch){if(!batch.finished&&batch.i<batch.ids.length){batch.finished=true;localStorage.setItem("coop-batch",JSON.stringify(batch))}else{batch=null;localStorage.removeItem("coop-batch")}}selected.clear();render()};
-const applyOne=async j=>{selected.clear();selected.add(j.id);await startBatch(true)};
+function cleanStaged(){for(const k of Object.keys(localStorage))if(/^coop-(q|f)-|^coop-staging:/.test(k))try{localStorage.removeItem(k)}catch(e){}}
+$("bclear").onclick=()=>{if(batch){if(!batch.finished&&batch.i<batch.ids.length){batch.finished=true;localStorage.setItem("coop-batch",JSON.stringify(batch))}else{batch=null;localStorage.removeItem("coop-batch");cleanStaged()}}selected.clear();render()};
+const applyOne=async(j,opts={})=>{selected.clear();selected.add(j.id);await startBatch(true,opts)};
 /* ---------- drawer ---------- */
 const blobCache={};
 async function matUrl(m){if(m.url)return m.url;if(m.gen==="cover")return URL.createObjectURL(coverBlob(m.text));if(m.gen==="text")return URL.createObjectURL(new Blob([m.text],{type:"text/plain;charset=utf-8"}));if(blobCache[m.path])return blobCache[m.path];const r=await gh(m.path,{raw:true});const pdf=/\.pdf$/i.test(m.path);const u=URL.createObjectURL(new Blob([await r.arrayBuffer()],{type:pdf?"application/pdf":"text/plain;charset=utf-8"}));blobCache[m.path]=u;return u}
 function openDrawer(id){openId=id;step=0;drawRender()}
 function closeDrawer(){openId=null;$("drawerHost").innerHTML=""}
 async function drawRender(){const j=jobs().find(x=>x.id===openId);if(!j)return closeDrawer();
-  const mats=j.materials||[];const done=isDone(j)||inFlight(j);
+  const mats=j.materials||[];const done=isDone(j)||inFlight(j)||isHeld(j);
   const tabs=[...mats.map(m=>m.name),"Questions & answers",done?"Submitted":"Confirm"];const cur=tabs[step]||tabs[0];let body="";
   if(step<mats.length){const m=mats[step];body=`<div id="matbox" class="nomat">loading ${esc(m.name)}…</div>`}
   else if(cur==="Questions & answers"){body=(j.fit||j.answers||j.answers_obj)?`<div id="fitbox" class="nomat">loading…</div>`:(j.fit_md?`<h4>Fit</h4><pre>${esc(j.fit_md)}</pre>`:'')+(j.answers_md?`<h4>Portal answers</h4><pre>${esc(j.answers_md)}</pre>`:'')||`<div class="nomat">No materials for this posting yet. Claude generates them for every CHIP / HARDWARE / MAYBE row; ask for this one by name to jump the queue.</div>`}
-  else if(cur==="Submitted"){const s=j.submitted||{};body=`<div class="kv"><b>Status</b><span>${statusPill(j)}</span><b>Submitted</b><span>${esc(s.at||"—")}</span><b>Portal</b><span>${esc(s.portal||j.link)}</span><b>Files sent</b><span>${(s.files&&s.files.length?s.files:mats.filter(m=>!/\(text\)/.test(m.name)&&(coverOn(j)||!/cover/i.test(m.name)))).map(f=>esc(f.name)).join(", ")||"—"}</span><b>Email</b><span>${j.email?`<span class="pill s-${j.email.kind==="rejected"?"rejected":j.email.kind==="interview"?"interview":"applied"}">${esc(j.email.kind||"email")}</span> <span class="mono">${esc(j.email.date)}</span><br>${esc(j.email.snippet)}`:"no application email seen yet"}</span></div>${s.notes?`<h4>Notes</h4><pre>${esc(s.notes)}</pre>`:''}`}
+  else if(cur==="Submitted"){const s=j.submitted||{};body=`<div class="kv"><b>Status</b><span>${statusPill(j)}</span><b>Submitted</b><span>${esc(s.at||"—")}</span><b>Portal</b><span>${esc(s.portal||j.link)}</span><b>Confirmation</b><span>${esc(s.evidence&&s.evidence.text||(s.at?"no confirmation text saved":"—"))}</span><b>Files sent</b><span>${(s.files&&s.files.length?s.files:mats.filter(m=>!/\(text\)/.test(m.name)&&(coverOn(j)||!/cover/i.test(m.name)))).map(f=>esc(f.name)).join(", ")||"—"}</span><b>Email</b><span>${j.email?`<span class="pill s-${j.email.kind==="rejected"?"rejected":j.email.kind==="interview"?"interview":"applied"}">${esc(j.email.kind||"email")}</span> <span class="mono">${esc(j.email.date)}</span><br>${esc(j.email.snippet)}`:"no application email seen yet"}</span></div>${s.notes?`<h4>Notes</h4><pre>${esc(s.notes)}</pre>`:''}`}
   else{const oc=canOneClick(j);body=`<div class="kv"><b>Company</b><span>${esc(j.company)}</span><b>Role</b><span>${esc(j.role)}</span><b>Portal</b><span><a href="${esc(applyUrl(j))}" target="_blank" rel="noopener">${esc(applyUrl(j))}</a></span><b>Files</b><span>${mats.filter(m=>coverOn(j)||!/cover/i.test(m.name)).filter(m=>!/\(text\)/.test(m.name)).map(m=>esc(m.name)).join(", ")||"none yet"}</span></div><p style="color:var(--ink2);max-width:60ch">On supported portals (Ashby, Greenhouse and Lever), Apply opens the form, fills confirmed answers, attaches files, and submits automatically when required answers and attachments are ready. ${/workday|oracle|icims|successfactors|other|phenom/.test((forms[j.id]||{}).portal||"")?"This portal wants an account: the first time at "+esc(j.company)+" it stops at the sign-in page for you to create it (type the password once, Chrome remembers it), then continues. ":""}If it hits a captcha or a question it can't answer, the tab tells you and waits.</p>`}
-  const foot=done?`<span class="hint">${statusPill(j)} ${j.status==="applying"?esc(j.note||"form tab open"):inFlight(j)?"queued for the next sitting":""}</span>${j.status==="applying"?'<button class="btn ghost" id="retry">Open form again</button><button class="btn ghost" id="markdone">Mark applied</button>':''}${inFlight(j)?'<button class="btn ghost" id="unq">Unqueue</button>':''}`:
+  const foot=done?`<span class="hint">${statusPill(j)} ${j.status==="applying"||isHeld(j)?esc(j.note||"form tab open"):j.status==="queued"?"waiting in the current batch":""}</span>${j.status==="applying"?'<button class="btn ghost" id="retry" title="Safe: if Submit was already pressed in this browser, the form tab only checks for the confirmation">Open form again</button><button class="btn ghost" id="markdone">Mark applied</button>':''}${isHeld(j)?'<button class="btn ghost" id="markdone">It went through</button><button class="btn ghost" id="resubmit">Checked: not submitted, apply again</button>':''}${inFlight(j)?'<button class="btn ghost" id="unq">Unqueue</button>':''}`:
     step<tabs.length-1?`<span class="hint">${step+1} / ${tabs.length}</span><button class="btn" id="next">Next</button>`:
     !supported(j)?`<span class="hint">This portal needs a manual application.</span><a class="btn primary" href="${esc(applyUrl(j))}" target="_blank" rel="noopener">Open application</a>`:`<span class="hint" id="sendHint">${!cfg.token?"add your token in ⚙ first":mats.length?"":"no materials yet"}</span><button class="btn primary" id="confirm" ${cfg.token&&mats.length?"":"disabled"}>${canOneClick(j)?"Apply":!cfg.token?"Add your token first":"No materials yet"}</button>`;
   $("drawerHost").innerHTML=`<div class="overlay" id="ov"><div class="drawer" role="dialog" aria-label="Application"><div class="dhead"><div><h2>${esc(j.company)}</h2><span class="sub">${esc(j.role)} · ${esc(j.location)}</span></div><label class="tog ${done?"off":""}" title="Send a cover letter with this application"><input type="checkbox" id="covtog" ${coverOn(j)?"checked":""} ${done?"disabled":""}> cover letter</label><button class="x" id="close" aria-label="Close">×</button></div>
@@ -347,7 +387,8 @@ async function drawRender(){const j=jobs().find(x=>x.id===openId);if(!j)return c
   document.querySelectorAll("[data-s]").forEach(b=>b.onclick=()=>{step=+b.dataset.s;drawRender()});
   const n=$("next");if(n)n.onclick=()=>{step++;drawRender()};
   const c=$("confirm");if(c)c.onclick=async()=>{c.disabled=true;c.textContent=canOneClick(j)?"Opening…":"Queuing…";try{if(canOneClick(j))await applyOne(j);else await setStatus(j.id,"queued")}catch(e){c.disabled=false;c.textContent=canOneClick(j)?"Apply":"Queue for Claude";$("sendHint").textContent="couldn't: "+e.message}};
-  const rt=$("retry");if(rt)rt.onclick=()=>applyOne(j);const md=$("markdone");if(md)md.onclick=()=>writeState(st=>{st[j.id]={...(st[j.id]||{}),status:"applied",statusAt:new Date().toISOString(),note:"",submitted:{at:new Date().toISOString(),portal:applyUrl(j),files:[],notes:"marked applied by hand"}}}).then(()=>{render();drawRender()});
+  const rt=$("retry");if(rt)rt.onclick=()=>applyOne(j).catch(e=>{$("bst").textContent=e.message});
+  const rs=$("resubmit");if(rs)rs.onclick=()=>{if(rs.dataset.armed!=="1"){rs.dataset.armed="1";rs.textContent="Confirm: I checked the portal and email";return}applyOne(j,{resubmit:true}).catch(e=>{$("bst").textContent=e.message})};const md=$("markdone");if(md)md.onclick=()=>writeState(st=>{st[j.id]={...(st[j.id]||{}),status:"applied",statusAt:new Date().toISOString(),note:"",submitted:{at:new Date().toISOString(),portal:applyUrl(j),files:[],notes:"marked applied by hand"}}}).then(()=>{render();drawRender()});
   const u=$("unq");if(u)u.onclick=()=>setStatus(j.id,"");
   const ct=$("covtog");if(ct)ct.onchange=async()=>{await writeState(st=>{st[j.id]={...(st[j.id]||{}),cover:ct.checked}});drawRender()};
   if(cur==="Questions & answers"&&(j.fit||j.answers_json||j.answers||j.answers_obj)){try{let a=j.answers_obj||{};if(j.answers_json){try{a=await (await gh(j.answers_json,{raw:true})).json()}catch(e){}}const f=j.fit?await (await gh(j.fit,{raw:true})).text():(j.fit_text||"");const box=$("fitbox");if(box)box.outerHTML=qaHtml(j,a)+(f?`<details class="fitd"><summary>Why this resume version</summary><pre>${esc(f)}</pre></details>`:"")}catch(e){const box=$("fitbox");if(box)box.textContent="couldn't load: "+e.message}}
@@ -361,13 +402,14 @@ async function drawRender(){const j=jobs().find(x=>x.id===openId);if(!j)return c
 function openSettings(){$("drawerHost").innerHTML=`<div class="overlay" id="ov"><div class="drawer" role="dialog" aria-label="Settings"><div class="dhead"><div><h2>Settings</h2><span class="sub">where materials and application status live</span></div><button class="x" id="close" aria-label="Close">×</button></div>
   <div class="dbody settings"><label for="repo">Private repo</label><input id="repo" value="${esc(cfg.repo)}"><label for="tok">GitHub token</label><input id="tok" type="password" value="${esc(cfg.token)}" placeholder="github_pat_…"><label class="tog"><input type="checkbox" id="covdef" ${cfg.cover===true?"checked":""}> send a cover letter by default (you can flip it per application)</label>
   <p>Fine-grained token, repository access limited to that one private repo, permission Contents: read and write. Stored only in this browser. It lets this page read your resumes and cover letters and write the queue Claude works from.</p>
-  <h4>One-click apply</h4><p>Install <a href="https://www.tampermonkey.net/" target="_blank" rel="noopener">Tampermonkey</a> once, then <a href="coop-apply.user.js" target="_blank" rel="noopener">install the apply script</a>. Update to apply script version 3.6; new applications started from the board submit automatically once required answers and attachments are ready. Batch Apply supports Ashby, Greenhouse and Lever. Other portals open for manual application. Keep the board tab open; solve any captcha or unanswered questions in the form tab before the batch continues.</p>
+  <h4>One-click apply</h4><p>Install <a href="https://www.tampermonkey.net/" target="_blank" rel="noopener">Tampermonkey</a> once, then <a href="coop-apply.user.js" target="_blank" rel="noopener">install the apply script</a>. Update to apply script version 4.0; new applications started from the board submit automatically once required answers and attachments are ready. Batch Apply supports Ashby, Greenhouse and Lever. Other portals open for manual application. Once a batch is prepared you can close the board tab; the relay tab finishes it and results sync the next time the board is open. Solve any captcha or unanswered questions in the form tab before the batch continues.</p>
+  <h4>Receipts</h4><p>When an application is verified as submitted, the relay tab sends a receipt (company, role, requisition, time, confirmation text) through <a href="https://ntfy.sh" target="_blank" rel="noopener">ntfy</a>: a push to your phone, and an email if you add an address. ntfy.sh limits free email to a handful per day, so large batches may only push.</p><label for="ntfy">ntfy topic</label><input id="ntfy" value="${esc(cfg.ntfy||"")}" placeholder="same topic as the posting alerts"><label for="remail">Receipt email (optional)</label><input id="remail" value="${esc(cfg.receiptEmail||"")}" placeholder="you@northeastern.edu">
   <h4>Answer memory</h4><p>Answers you supply are saved privately and reused for matching questions. Company, role, location and commitment-specific answers stay with that application.</p><button id="learned">Manage saved answers</button>
   <h4>Email tracking</h4><p><a href="coop-mail.user.js" target="_blank" rel="noopener">Install the Outlook script</a>, then keep outlook.office.com open in a tab. It matches confirmation, interview, and rejection emails to companies you applied to and updates the board every two minutes. It asks for the same token once.</p></div>
   <div class="dfoot"><span class="hint" id="shint"></span><button class="btn primary" id="save">Save</button></div></div></div>`;
   $("close").onclick=closeDrawer;$("ov").onclick=e=>{if(e.target.id==="ov")closeDrawer()};
   $("learned").onclick=openLearned;
-  $("save").onclick=async()=>{cfg.repo=$("repo").value.trim();cfg.token=$("tok").value.trim();cfg.cover=$("covdef").checked;saveCfg();$("shint").textContent="checking…";try{await loadState();$("shint").textContent="connected";render();setTimeout(closeDrawer,600)}catch(e){$("shint").textContent="couldn't read data/state.json: "+e.message}}}
+  $("save").onclick=async()=>{cfg.repo=$("repo").value.trim();cfg.token=$("tok").value.trim();cfg.cover=$("covdef").checked;cfg.ntfy=$("ntfy").value.trim().replace(/^https?:\/\/ntfy\.sh\//,"");cfg.receiptEmail=$("remail").value.trim();saveCfg();$("shint").textContent="checking…";try{await loadState();$("shint").textContent="connected";render();setTimeout(closeDrawer,600)}catch(e){$("shint").textContent="couldn't read data/state.json: "+e.message}}}
 /* ---------- load ---------- */
 async function readState(){if(!cfg.token){state={};stateSha=null;return}
   try{const r=await gh("data/state.json");stateSha=r.sha;state=JSON.parse(unb64(r.content))||{}}catch(e){if(/404/.test(e.message)){state={};stateSha=null}else throw e}

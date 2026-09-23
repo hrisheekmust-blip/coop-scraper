@@ -51,7 +51,7 @@ async function until(done) {
 function formEnvironment() {
   const e=environment();e.c.setTimeout=fn=>setImmediate(fn);
   e.c.location.hash='#coop='+id+'&p='+encode(payload);
-  e.c.CoopEngine={VERSION:9,answerFor:()=>({k:'need'})};
+  e.c.CoopEngine={VERSION:10,reqKey:()=>'',answerFor:()=>({k:'need'})};
   let clicks=0;
   const button={textContent:'Submit application',offsetWidth:100,getAttribute:()=>null,
     focus(){},scrollIntoView(){},getBoundingClientRect:()=>({left:0,top:0,width:100,height:30}),
@@ -68,7 +68,7 @@ function expose(e) {
 test('userscript consumes relay hash and reports success without window.opener',async()=>{
   const e=environment();e.c.location.hash='#coop='+id+'&p='+encode(payload);
   e.c.setTimeout=fn=>setImmediate(fn);
-  e.c.sessionStorage.setItem('coop-clicked','batch-1:'+id);
+  e.c.sessionStorage.setItem('coop-clicked','coop-attempt:'+id);
   e.c.document.body.innerText='Thank you for applying';
   e.run(read('coop-apply.user.js'));
   await until(()=>e.replaced.length);
@@ -106,13 +106,12 @@ test('relay advances once and opens the next staged application',async()=>{
   assert.equal(JSON.parse(replay.c.localStorage.getItem('coop-batch')).done,1);
 });
 
-test('relay rejects results from an older batch',()=>{
+test('relay keeps a late result from an older batch but does not advance the new one',()=>{
   const e=environment();e.c.localStorage.setItem('coop-batch',JSON.stringify({batchId:'new',ids:[id],i:0,done:0}));
   e.c.location.hash='#done='+encode({...payload,ok:true});e.run(inline('relay.html'));
   assert.equal(JSON.parse(e.c.localStorage.getItem('coop-batch')).i,0);
-  assert.equal(e.c.localStorage.getItem('coop-r-'+id),null);
+  assert.equal(JSON.parse(e.c.localStorage.getItem('coop-r-'+id)).ok,true);
 });
-
 test('refreshing relay #go preserves queue progress',()=>{
   const e=environment();e.c.localStorage.setItem('coop-batch',JSON.stringify({batchId:'batch-1',ids:[id],i:1,done:1}));
   e.c.location.hash='#go';e.run(inline('relay.html'));
@@ -169,13 +168,14 @@ test('dry-run flag records submit readiness without clicking submit',async()=>{
   assert.equal(e.c.__coopLast.status,'needs-you');assert.equal(e.clicks(),0);assert.equal(e.replaced.length,0);
 });
 
-test('staging does not release an application when status cannot be saved',async()=>{
-  const e=board();e.c.fetch=async()=>({ok:false,status:403});
-  e.run(`cfg.token="test";batch={batchId:"batch-1",ids:["${id}"],i:0};buildPayload=async()=>(${JSON.stringify(payload)})`);
-  await assert.rejects(e.run(`stage({id:"${id}"})`),/403/);
-  assert.equal(e.c.localStorage.getItem('coop-q-'+id),null);
+test('staging stores each payload with shared resume files kept once',async()=>{
+  const e=board();
+  e.run(`cfg.token="test";batch={batchId:"batch-1",ids:["${id}","${other}"],i:0};buildPayload=async j=>({...${JSON.stringify(payload)},id:j.id,files:[{kind:"resume",src:"me/r.pdf",name:"R.pdf",b64:"QUJD"}]})`);
+  await e.run(`stageJob({id:"${id}"},"batch-1")`);await e.run(`stageJob({id:"${other}"},"batch-1")`);
+  const staged=JSON.parse(e.c.localStorage.getItem('coop-q-'+other));
+  assert.equal(staged.payload.files[0].ref,'r:me/r.pdf');assert.equal(staged.payload.files[0].b64,undefined);
+  assert.equal(e.c.localStorage.getItem('coop-f-r:me/r.pdf'),'QUJD');
 });
-
 test('stopping during payload preparation prevents a late handoff',async()=>{
   const e=board();let release;
   e.c.prepare=()=>new Promise(resolve=>release=resolve);
@@ -364,11 +364,11 @@ test('automatic submit dry run never clicks Submit',async()=>{
 });
 test('automatic submission timeout does not retry or mark applied',async()=>{
  const e=automaticForm();e.run(read('coop-apply.user.js'));await until(()=>e.c.__coopLast);
- assert.equal(e.clicks(),1);assert.equal(e.c.__coopLast.status,'needs-you');assert.equal(e.replaced.length,0);
- assert.equal(e.c.sessionStorage.getItem('coop-auto-attempt'),'batch-1:'+id);
+ assert.equal(e.clicks(),1);assert.equal(e.c.__coopLast.status,'uncertain');assert.equal(e.replaced.length,0);
+ assert.ok(e.c.localStorage.getItem('coop-attempt:'+id));
 });
 test('reload with an in-flight automatic attempt cannot click Submit again',async()=>{
- const e=automaticForm();e.c.sessionStorage.setItem('coop-auto-attempt','batch-1:'+id);
+ const e=automaticForm();e.c.localStorage.setItem('coop-attempt:'+id,'2026-09-23T00:00:00Z');
  e.run(read('coop-apply.user.js'));await until(()=>e.c.__coopLast);
  assert.equal(e.clicks(),0);assert.equal(e.replaced.length,0);
 });

@@ -1,6 +1,6 @@
 /* Shared conservative answers. Unknown facts and ambiguous choices require review. */
 (function () {
-  const VERSION = 9;
+  const VERSION = 10;
   const STD_FIELDS = [["Name","input_text"],["Email","input_text"],["Phone","input_text"],["Location (city)","input_text"],["LinkedIn profile","input_text"],["Resume","file"],["Cover letter","file"],["School / University","input_text"],["Degree","input_text"],["Major","input_text"],["Expected graduation date","input_text"],["GPA","input_text"]];
   const norm = s => String(s ?? "").normalize("NFKC").toLowerCase().replace(/[✱*]/g, "").replace(/[’‘]/g, "'").replace(/\s+/g, " ").trim();
   const labelKey = s => norm(s).replace(/[?:]+$/, "").trim();
@@ -144,6 +144,22 @@
     if (/^please provide 2-3 bullet points showcasing exceptional ability\.?$/.test(l)) return a.top_two?.length ? {a:a.top_two.map((x,i)=>`${i+1}. ${x.title}\n${x.body}`).join("\n\n"),k:"long"} : need();
     return need();
   }
+  /* One application = one requisition. LinkedIn, Simplify, and direct links are
+     aliases; this key is what locks, dedupes, and binds a payload to a page. */
+  function reqKey(url) {
+    let u; try { u = new URL(url); } catch (e) { return ""; }
+    const host = u.hostname.toLowerCase(), parts = u.pathname.split("/").filter(Boolean);
+    if (/(^|\.)greenhouse\.io$/.test(host)) {
+      const q = u.searchParams, embedFor = q.get("for"), embedJob = q.get("token") || q.get("gh_jid");
+      if (/embed/.test(u.pathname) && embedFor && /^\d+$/.test(embedJob || "")) return "greenhouse:" + embedFor.toLowerCase() + ":" + embedJob;
+      const i = parts.indexOf("jobs");
+      if (i === 1 && /^\d+$/.test(parts[2] || "")) return "greenhouse:" + parts[0].toLowerCase() + ":" + parts[2];
+      return "";
+    }
+    if (host === "jobs.ashbyhq.com" && parts.length >= 2 && /^[0-9a-f-]{36}$/i.test(parts[1])) return "ashby:" + decodeURIComponent(parts[0]).toLowerCase() + ":" + parts[1].toLowerCase();
+    if (/^jobs(\.eu)?\.lever\.co$/.test(host) && parts.length >= 2 && /^[0-9a-f-]{36}$/i.test(parts[1])) return "lever:" + parts[0].toLowerCase() + ":" + parts[1].toLowerCase();
+    return "";
+  }
   function answerFor(f, ctx = {}) { return validateAnswer(f, propose(f,ctx)); }
-  window.CoopEngine = {memoryKey,learnedRecord,mergeLearned,remembered,contextualQuestion,VERSION,answerFor,validateAnswer,hiddenField,multiField,optionsFor,pickOpt,STD_FIELDS};
+  window.CoopEngine = {reqKey,memoryKey,learnedRecord,mergeLearned,remembered,contextualQuestion,VERSION,answerFor,validateAnswer,hiddenField,multiField,optionsFor,pickOpt,STD_FIELDS};
 })();

@@ -21,50 +21,80 @@
   <h1>Co-op board</h1>
   <p class="big" id="m">starting…</p>
   <p class="mute" id="s"></p>
-  <p class="mute">Keep the board tab open while this runs — it feeds this tab each application and records the results.</p>
+  <p class="mute">Keep this tab open while the batch runs. Once the board has prepared the batch you can close the board tab; results sync the next time it's open.</p>
 </div>
+<script src="engine.js?v=10"></script>
 <script>
 "use strict";
 /* The relay: the one page that both the board tab and the form tab can reach.
-   The board leaves a payload in localStorage (same origin as this page) and this tab carries it
+   The board prepares each payload in localStorage (same origin as this page) and this tab carries it
    into the portal in the URL hash, so nothing depends on window.opener — which LinkedIn,
-   Workday and friends cut as soon as the tab navigates. Results come back the same way. */
+   Workday and friends cut as soon as the tab navigates. Results come back the same way and are kept
+   in localStorage until the board records them, even if the board tab was closed. */
 const $ = id => document.getElementById(id);
 const say = (t, sub) => { $("m").textContent = t; if (sub !== undefined) $("s").textContent = sub; };
 const b64e = s => btoa(unescape(encodeURIComponent(s))).replace(/\+/g, "-").replace(/\//g, "_").replace(/=+$/, "");
 const b64d = s => decodeURIComponent(escape(atob(s.replace(/-/g, "+").replace(/_/g, "/"))));
+const sleep = ms => new Promise(r => setTimeout(r, ms));
 const P = new URLSearchParams(location.hash.slice(1));
 const getQ = () => { try { return JSON.parse(localStorage.getItem("coop-batch") || "null"); } catch (e) { return null; } };
 const putQ = q => localStorage.setItem("coop-batch", JSON.stringify(q));
+const cfg = (() => { try { return JSON.parse(localStorage.getItem("coop-cfg") || "{}") || {}; } catch (e) { return {}; } })();
+const learnedKey = () => "coop-learned:" + (cfg.repo || "hrisheekmust-blip/coop-apps");
+const AUTO_HOSTS = ["jobs.ashbyhq.com", "boards.greenhouse.io", "job-boards.greenhouse.io", "jobs.lever.co"];
+
+function readLearned() { try { return JSON.parse(localStorage.getItem(learnedKey()) || "[]"); } catch (e) { return []; } }
+function keepLearned(records) {
+  if (!records || !records.length || !window.CoopEngine) return;
+  try { localStorage.setItem(learnedKey(), JSON.stringify(CoopEngine.mergeLearned(readLearned(), records))); localStorage.setItem(learnedKey() + ":pending", "1"); } catch (e) {}
+}
+// Files are stored once per resume variant; put them back into this application's payload.
+function rehydrate(p) {
+  const files = (p.files || []).map(f => f.b64 ? f : { kind: f.kind, name: f.name, type: f.type, b64: localStorage.getItem("coop-f-" + f.ref) });
+  if (files.some(f => !f.b64)) throw new Error("a prepared file is missing from this browser");
+  return { ...p, files, learnedAnswers: readLearned() };
+}
+// A job that can't be opened is recorded and skipped, so one bad posting doesn't stop the batch.
+function skip(q, id, why) {
+  const r = { type: "coop-result", id, batchId: q.batchId, ok: false, status: "needs-you", deferred: true, need: [why], at: new Date().toISOString() };
+  localStorage.setItem("coop-r-" + id, JSON.stringify({ ...r, seen: Date.now() }));
+  q.i++; putQ(q); say("skipped: " + why, "moving to the next one…"); setTimeout(next, 900);
+}
 
 async function go(id, name, batchId) {
-  for (let i = 0; i < 60; i++) {                        // the board stages each payload just before its turn
+  for (let i = 0; ; i++) {
     const q = getQ();
     if (!q || q.finished || q.batchId !== batchId || q.ids[q.i] !== id) { say("batch stopped", "return to the board to start again"); return; }
     const raw = localStorage.getItem("coop-q-" + id);
     if (raw) {
-      let j; try { j = JSON.parse(raw); } catch (e) { say("that application's payload is corrupted", "go back to the board and click Apply again"); return; }
-      if (j.error) { say("couldn't prepare this application", j.error + " — return to the board to retry"); return; }
-      if (j.payload.batchId !== batchId) { await new Promise(r => setTimeout(r, 500)); continue; }
-      const url = new URL(j.applyUrl);
-      if (url.protocol !== "https:" || !["jobs.ashbyhq.com", "boards.greenhouse.io", "job-boards.greenhouse.io", "jobs.lever.co"].includes(url.hostname)) { say("this portal needs a manual application"); return; }
-      say("opening " + (name || j.payload.job.company) + "…", j.applyUrl);
-      url.hash = "coop=" + id + "&p=" + b64e(JSON.stringify(j.payload));
+      let j; try { j = JSON.parse(raw); } catch (e) { skip(q, id, "its prepared payload was corrupted; apply again from the board"); return; }
+      if (j.error) { skip(q, id, "couldn't prepare it: " + j.error); return; }
+      if (j.payload.batchId !== batchId) { await sleep(500); continue; }
+      let url; try { url = new URL(j.applyUrl); } catch (e) { skip(q, id, "no valid application link"); return; }
+      if (url.protocol !== "https:" || !AUTO_HOSTS.includes(url.hostname)) { skip(q, id, "this portal needs a manual application"); return; }
+      let payload; try { payload = rehydrate(j.payload); } catch (e) { skip(q, id, e.message + "; apply again from the board"); return; }
+      say("opening " + (name || payload.job.company) + "…", j.applyUrl);
+      putQ({ ...q, current: id, openedAt: new Date().toISOString() });
+      url.hash = "coop=" + id + "&p=" + b64e(JSON.stringify(payload));
+      try { localStorage.removeItem("coop-q-" + id); } catch (e) {}
       location.replace(url.href);
       return;
     }
-    say("getting " + (name || "the application") + " ready…", i > 6 ? "waiting on the board tab — is it still open?" : "");
-    await new Promise(r => setTimeout(r, 500));
+    const staging = localStorage.getItem("coop-staging:" + batchId);
+    const limit = staging === "running" || staging === "lazy" ? 1200 : 60;   // 10 min while the board is still preparing, else 30 s
+    if (i > limit) { skip(q, id, staging === "done" ? "it wasn't prepared; apply again from the board" : "the board tab closed before preparing it; apply again from the board"); return; }
+    say("getting " + (name || "the application") + " ready…", i > 6 ? (staging === "lazy" ? "the board prepares these one at a time; keep the board tab open" : "the board tab is still preparing this batch") : "");
+    await sleep(500);
   }
-  say("the board tab never sent this application", "open the board, make sure it's the tab you started from, and click Apply again");
 }
 
+function cleanup() { for (const k of Object.keys(localStorage)) if (/^coop-(q|f)-|^coop-staging:/.test(k)) try { localStorage.removeItem(k); } catch (e) {} }
 function next() {
   const q = getQ();
   if (!q || !q.ids || !q.ids.length) { say("nothing queued", "go to the board and pick some postings"); return; }
   if (q.finished && q.i < q.ids.length) { say("batch stopped", "return to the board to retry"); return; }
   if (q.i >= q.ids.length) {
-    putQ({ ...q, finished: true });
+    putQ({ ...q, finished: true }); cleanup();
     say(`Done — ${q.done} of ${q.ids.length} submitted.`, q.done < q.ids.length ? "The rest are marked on the board with what they need. You can close this tab." : "You can close this tab.");
     return;
   }
@@ -72,22 +102,44 @@ function next() {
   go(q.ids[q.i], q.names && q.names[q.i], q.batchId).catch(e => say("couldn't open the application", e.message));
 }
 
-if (P.has("done")) {
+/* Receipt for a verified submission: ntfy push, plus email when an address is set. Sent once per result. */
+async function receipt(r) {
+  if (!r.ok || !cfg.ntfy) return;
+  const once = "coop-n-" + r.id + ":" + (r.at || "");
+  if (localStorage.getItem(once)) return;
+  const ev = r.evidence || {};
+  const body = [
+    `Submitted ${new Date(r.at || Date.now()).toLocaleString()}`,
+    `Requisition: ${r.reqKey || r.id}`,
+    ev.text ? `Confirmation: "${ev.text}"` : "",
+    `Page: ${ev.url || r.url || ""}`,
+    (r.files || []).length ? "Files: " + r.files.map(f => f.name).join(", ") : "",
+    "Sent by your co-op board after it saw the confirmation."].filter(Boolean).join("\n");
+  const u = new URL("https://ntfy.sh/" + encodeURIComponent(cfg.ntfy));
+  u.searchParams.set("title", `Applied: ${r.company || "application"}${r.role ? " · " + r.role : ""}`);
+  u.searchParams.set("tags", "white_check_mark");
+  if (ev.url || r.url) u.searchParams.set("click", ev.url || r.url);
+  if (cfg.receiptEmail) u.searchParams.set("email", cfg.receiptEmail);
+  // keepalive lets the request finish even though this tab navigates to the next application right away.
+  try { localStorage.setItem(once, "sending"); const res = await fetch(u.href, { method: "POST", body, keepalive: true }); if (!res.ok) localStorage.removeItem(once); } catch (e) { try { localStorage.removeItem(once); } catch (x) {} }
+}
+
+function onResult() {
   let r = null; try { r = JSON.parse(b64d(P.get("done"))); } catch (e) {}
-  if (!r) { say("couldn't read that result"); }
-  else {
-    const q = getQ();
-    if (!q || q.batchId !== r.batchId || q.ids[q.i] !== r.id) { say("this result belongs to an older or already recorded application", "check its status on the board"); }
-    else {
-      localStorage.setItem("coop-r-" + r.id, JSON.stringify({ ...r, seen: Date.now() }));
-      history.replaceState(null, "", location.pathname + "#next");
-      q.i++; if (r.ok) q.done++; putQ(q);
-      say(r.ok ? "submitted ✓ — next one…" : "recorded — next one…"); setTimeout(next, 900);
-    }
-  }
-} else if (P.has("go")) {
-  next();
-} else if (P.has("next")) next();
+  if (!r || !/^[0-9a-f]{16}$/.test(r.id || "")) { say("couldn't read that result"); return; }
+  // Always keep the result for the board, including a late one for an earlier application.
+  localStorage.setItem("coop-r-" + r.id, JSON.stringify({ ...r, seen: Date.now() }));
+  keepLearned(r.learnedAnswers);
+  history.replaceState(null, "", location.pathname + "#next");
+  receipt(r).catch(() => {});
+  const q = getQ();
+  if (!q || q.batchId !== r.batchId || q.ids[q.i] !== r.id) { say("recorded a result for an earlier application", "the board will pick it up; check its status there"); return; }
+  q.i++; if (r.ok) q.done++; putQ(q);
+  say(r.ok ? "submitted ✓ — next one…" : "recorded — next one…"); setTimeout(next, 900);
+}
+
+if (P.has("done")) onResult();
+else if (P.has("go") || P.has("next")) next();
 else say("nothing to do", "this page is opened by the co-op board");
 </script>
 </body>

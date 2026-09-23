@@ -1,10 +1,10 @@
 // ==UserScript==
 // @name         Co-op board: one-click apply
 // @namespace    coop-hrisheek
-// @version      3.6
+// @version      4.0
 // @description  Opened by the co-op board: fills confirmed answers, attaches prepared files, and submits complete applications authorized from the board. The board controls which portals can be automated.
 // @match        *://*/*
-// @require      https://hrisheekmust-blip.github.io/coop-scraper/engine.js?v=9
+// @require      https://hrisheekmust-blip.github.io/coop-scraper/engine.js?v=10
 // @grant        none
 // @run-at       document-idle
 // ==/UserScript==
@@ -18,16 +18,26 @@
   const hashId = (location.hash.match(/coop=([0-9a-f]{16})/) || [])[1];
   const inlineP = new URLSearchParams(location.hash.slice(1)).get("p");
   const validPayload = p => p && p.type === "coop-payload" && /^[0-9a-f]{16}$/.test(p.id) && p.job && Array.isArray(p.files);
+  // The requisition this page belongs to (portal:tenant:job). A payload is bound to one requisition
+  // and is never reused on another posting, even in the same tab on the same portal.
+  const pageKey = (window.CoopEngine && window.CoopEngine.reqKey) ? window.CoopEngine.reqKey(location.href) : "";
+  const BIND_TTL = 6 * 3600e3;
   let payload = null;
   if (inlineP) {                                         // the relay tab hands the whole payload over in the hash
     try { const p = JSON.parse(b64d(inlineP)); if (validPayload(p) && p.id === hashId) payload = p; } catch (e) {}
     if (!payload) return; // Do not reuse an older application's answers after a bad handoff.
-    if (payload) {
-      try { sessionStorage.setItem(KEY, JSON.stringify(payload)); } catch (e) {}
-      try { history.replaceState(null, "", location.href.split("#")[0]); } catch (e) {}
-    }
+    if (payload.reqKey && pageKey && payload.reqKey !== pageKey) return; // the link landed on a different posting
+    payload.boundHost = location.hostname; payload.boundAt = Date.now();
+    try { sessionStorage.setItem(KEY, JSON.stringify(payload)); } catch (e) {}
+    try { history.replaceState(null, "", location.href.split("#")[0]); } catch (e) {}
   }
-  if (!payload) { try { payload = JSON.parse(sessionStorage.getItem(KEY) || "null"); } catch (e) {} }
+  if (!payload) {
+    let saved = null; try { saved = JSON.parse(sessionStorage.getItem(KEY) || "null"); } catch (e) {}
+    const fresh = saved && Date.now() - (saved.boundAt || 0) < BIND_TTL;
+    const samePosting = saved && (pageKey ? saved.reqKey === pageKey : saved.boundHost === location.hostname && !saved.reqKey);
+    if (validPayload(saved) && fresh && samePosting && (!hashId || saved.id === hashId)) payload = saved;
+    else if (saved) { try { sessionStorage.removeItem(KEY); } catch (e) {} }
+  }
   if (!validPayload(payload)) payload = null;
   if (location.href.indexOf(RELAY.split("#")[0]) === 0) return;   // the relay page itself drives the queue; nothing to fill there
   if (!hashId && !payload) return;                       // not opened by the board: do nothing on this page
@@ -58,7 +68,14 @@
     }
   }
   window.addEventListener("message", e => { const d = e.data || {}; if (d.type === "coop-banner" && window.top === window) banner(d.msg, d.kind); });
-  const result = m => ({ ...m, learnedAnswers: payload?.learnedAnswers || [], type: "coop-result", id: payload ? payload.id : hashId, batchId: payload && payload.batchId, url: location.href, at: new Date().toISOString() });
+  const result = m => ({ ...m, learnedAnswers: payload?.learnedAnswers || [], type: "coop-result", id: payload ? payload.id : hashId, company: payload?.job?.company || "", role: payload?.job?.role || "", files: (payload?.files || []).map(f => ({ name: f.name })), reqKey: payload?.reqKey || pageKey || "", batchId: payload && payload.batchId, url: location.href, at: new Date().toISOString() });
+  // Durable "Submit was pressed" marker for this requisition. It lives in this portal's localStorage, so a
+  // reload, a new batch, or a second tab on the same portal cannot press Submit for it again.
+  const attemptKey = () => "coop-attempt:" + (payload?.reqKey || pageKey || payload?.id || hashId);
+  const attempted = () => { try { return !!localStorage.getItem(attemptKey()) || sessionStorage.getItem("coop-auto-attempt") === attemptKey(); } catch (e) { return false; } };
+  const markAttempt = () => { try { localStorage.setItem(attemptKey(), new Date().toISOString()); } catch (e) {} try { sessionStorage.setItem("coop-auto-attempt", attemptKey()); } catch (e) {} };
+  const clearAttempt = () => { try { localStorage.removeItem(attemptKey()); } catch (e) {} try { sessionStorage.removeItem("coop-auto-attempt"); } catch (e) {} };
+  const userClicked = () => { try { return sessionStorage.getItem("coop-clicked") === attemptKey(); } catch (e) { return false; } };
   const report = m => {
     window.__coopLast = m; (window.__coopReports = window.__coopReports || []).push(m);
     if (DRY || m.ok) return; // Successful results have one durable route through the relay.
@@ -71,6 +88,7 @@
     report(m);
     if (DRY || (!m.ok && !skipped)) return; // Missing answers and errors stay on the form.
     reported = true;
+    if (m.ok && !m.evidence) m = { ...m, evidence: confirmation() };
     sessionStorage.removeItem(KEY); sessionStorage.removeItem("coop-clicked"); sessionStorage.removeItem("coop-auto-attempt");
     const r = result({ ...m, need: (m.need || []).slice(0, 12), done: (m.done || []).slice(-40) });
     location.replace(RELAY + "#done=" + b64e(JSON.stringify(r)));
@@ -127,7 +145,12 @@
       captureEdited(); resumeRequested++;
       banner("answers saved; checking the form again…");
     } },
-    { label: "Set aside & continue batch", fn: () => {captureEdited();finish({ ok:false,status:"needs-you",deferred:true,need:need||["set aside by you"],done },true)} }];
+    { label: "Set aside & continue batch", fn: () => {
+      captureEdited();
+      // If Submit was pressed (by you or by me) the outcome is unknown, not "not applied".
+      const pressed = attempted() || userClicked();
+      finish({ ok:false,status:pressed?"uncertain":"needs-you",deferred:true,need:pressed?["Submit was pressed but no confirmation was seen; check the portal or your email before retrying"]:(need||["set aside by you"]),done },true);
+    } }];
 
   // ---------------------------------------------------------------- payload handshake with the board tab
   async function getPayload() {
@@ -392,6 +415,8 @@
   const complaints = () => [...document.querySelectorAll("li, p, span, div, label")].filter(visible).map(txt).filter(t => t.length < 160 && /^missing entry for required field:|is required$|required field|please (complete|enter|select|fill)|this field is required|cannot be blank|must be/i.test(t)).map(t => t.replace(/^missing entry for required field:\s*/i, "").replace(/\s*is required$/i, "").trim()).filter((t, i, a) => t && a.indexOf(t) === i).slice(0, 12);
   const captchaUp = () => [...document.querySelectorAll("iframe[src*='hcaptcha'], iframe[src*='recaptcha'], iframe[src*='turnstile']")].some(f => visible(f) && f.getBoundingClientRect().height > 100);
   const bodyText = () => (document.body.innerText || "").slice(0, 20000);
+  const SUCCESS_RX = /thank you for applying|thanks for applying|(?:your )?application (?:has been |was |is |successfully )?(?:submitted|received)|we(?:'ve| have) received your application|your application was sent/i;
+  const confirmation = () => { const m = bodyText().match(new RegExp(".{0,80}(?:" + SUCCESS_RX.source + ").{0,120}", "i")); return { url: location.href, text: m ? norm(m[0]) : "", at: new Date().toISOString() }; };
   const succeeded = () => /thank you for applying|thanks for applying|(?:your )?application (?:has been |was |is |successfully )?(?:submitted|received)|we(?:'ve| have) received your application|your application was sent/i.test(bodyText()) || /\/(?:thank-you|thanks|confirmation|application-submitted)(?:\/|$)/i.test(location.pathname);
   const loginPage = () => [...document.querySelectorAll("input[type=password]")].some(visible);
   function primaryButton() {
@@ -458,27 +483,50 @@
     const P = await getPayload();
     if (!P) { banner("no answers for this posting reached this tab; go back to the board and click Apply again", "err"); return; }
     for (const event of ["input","change","pointerdown","click"]) document.addEventListener(event,trackEdit,true);
-    const submissionKey = (P.batchId || "legacy") + ":" + P.id;
-    if (window.CoopEngine?.VERSION !== 9) { banner("update the apply script from board Settings before continuing", "err"); report({ok:false,status:"needs-you",need:["answer engine update required"]}); return; }
+    const submissionKey = attemptKey();
+    if (window.CoopEngine?.VERSION !== 10) { banner("update the apply script from board Settings before continuing", "err"); report({ok:false,status:"needs-you",need:["answer engine update required"]}); return; }
     for (let i = 0; i < 40 && document.readyState !== "complete"; i++) await sleep(250);
     await settle(800);
     if (succeeded() && sessionStorage.getItem("coop-clicked") === submissionKey) { banner("submitted ✓ recorded on the board", "ok"); finish({ ok: true, status: "applied" }); return; }
-    async function awaitSubmission(done) {
-      for (let i = 0; i < 60; i++) {
-        if (succeeded()) { finish({ok:true,status:"applied",done}); return; }
+    // After Submit: wait for the portal's confirmation. If it is slow, keep watching (a late confirmation is
+    // still recorded) and never press Submit again; you decide what happened, or it is recorded as uncertain.
+    async function awaitSubmission(done, ms = 60000) {
+      for (let i = 0; i < ms / 1000; i++) {
+        if (reported) return;
+        if (succeeded()) { finish({ ok: true, status: "applied", done }); return; }
         await sleep(1000);
       }
-      const need = complaints();
-      need.push(captchaUp() ? "Complete the captcha on this page" : "No submission confirmation yet. Check this tab before trying again.");
-      banner(need.join(" · "), "wait", stallActions(need, done));
-      report({ok:false,status:"needs-you",need,done});
+      const flagged = complaints();
+      const why = captchaUp() ? "Complete the captcha on this page" : flagged.length ? "The form flagged: " + flagged.join(", ") : "No submission confirmation yet";
+      let decided = "";
+      const decide = v => () => { decided = v; };
+      banner(why + ". I will not press Submit again.", "wait", [
+        { label: "It went through", fn: decide("yes") },
+        { label: "Not submitted: I'll fix it and submit", fn: decide("manual") },
+        { label: "Record as uncertain & continue", fn: decide("uncertain") }]);
+      report({ ok: false, status: "uncertain", need: [why], done });
+      if (DRY) return;
+      let waited = 0;
+      while (!reported) {
+        if (succeeded()) { finish({ ok: true, status: "applied", done }); return; }
+        if (decided === "yes") { finish({ ok: true, status: "applied", done, evidence: { ...confirmation(), text: "confirmed by you in the form tab" } }); return; }
+        if (decided === "manual") {
+          decided = "watching";
+          banner("Fix the form and press Submit yourself. I'll record it when the confirmation appears.", "wait", [{ label: "Record as uncertain & continue", fn: decide("uncertain") }]);
+        }
+        if (decided === "uncertain" || (decided !== "watching" && waited++ > 20 * 60)) {
+          finish({ ok: false, status: "uncertain", deferred: true, need: [why + "; check the portal or your email before retrying"], done }, true); return;
+        }
+        await sleep(1000);
+      }
     }
-    // A reload after a slow response must never submit this application twice.
-    if (sessionStorage.getItem("coop-auto-attempt") === submissionKey) {
-      banner("checking the previous submission; I will not press Submit again", "wait");
-      await awaitSubmission([]); return;
+    // A reload, a relaunch, or a second batch must never submit this requisition twice.
+    if (attempted() && !P.allowResubmit) {
+      banner("Submit was already pressed for this posting; checking for the confirmation. I will not press Submit again.", "wait");
+      await awaitSubmission([], 15000); return;
     }
-    const mark = e => { if(e.isTrusted)captureEdited(); if (e.isTrusted) sessionStorage.setItem("coop-clicked", submissionKey); };
+    if (P.allowResubmit) clearAttempt();
+    const mark = e => { if (e.isTrusted) { captureEdited(); sessionStorage.setItem("coop-clicked", submissionKey); } };
     const clickMark = e => { const b = e.target.closest?.("button, input[type=submit]"); if (b && /submit|^apply( now)?$/i.test(norm(txt(b) || b.value))) mark(e); };
     document.addEventListener("submit", mark, true); document.addEventListener("click", clickMark, true);
     const mod = M[PORTAL] || M.other;
@@ -528,7 +576,8 @@
         }
         if (succeeded()) { report({ok:false,status:"needs-you",need:["This page already contains confirmation text; check it before submitting"]});return; }
         if (DRY) { report({ok:false,status:"dry-submit",need:[],done:allDone});return; }
-        sessionStorage.setItem("coop-auto-attempt", submissionKey);
+        if (attempted() || userClicked()) { banner("Submit was already pressed here; checking for the confirmation instead of pressing it again", "wait"); await awaitSubmission(allDone, 5000); return; }
+        markAttempt();
         sessionStorage.setItem("coop-clicked", submissionKey);
         banner("submitting your application…");
         realClick(btn);

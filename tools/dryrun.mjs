@@ -8,10 +8,13 @@
 import { chromium } from "playwright";
 import fs from "node:fs";
 import path from "node:path";
+import vm from "node:vm";
 
 const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname), "..");
 const forms = JSON.parse(fs.readFileSync(path.join(ROOT, "data/forms.json"), "utf8"));
 const engine = fs.readFileSync(path.join(ROOT, "engine.js"), "utf8");
+const engineCtx = { URL, window: {} }; vm.runInNewContext(engine, engineCtx);
+const reqKey = u => engineCtx.window.CoopEngine.reqKey(u || "");
 const script = fs.readFileSync(path.join(ROOT, "coop-apply.user.js"), "utf8").replace(/^\/\/ ==UserScript==[\s\S]*?==\/UserScript==\s*/, "");
 const PER = +(process.env.PER_PORTAL || 14);
 const PORTALS = (process.env.PORTALS || "greenhouse,ashby,lever,smartrecruiters").split(",");   // the four that need no account: the set the board applies to unattended
@@ -38,7 +41,7 @@ function sample() {
 
 async function one(browser, id) {
   const f = forms[id];
-  const payload = { type: "coop-payload", id, job: { id, company: f.company, role: f.role, link: f.link }, answers, profile, cover: false, coverText: "", files: [{ kind: "resume", name: "Test_Applicant_Resume.pdf", type: "application/pdf", b64: pdf }] };
+  const payload = { type: "coop-payload", id, reqKey: reqKey(f.apply_url), boundAt: Date.now(), job: { id, company: f.company, role: f.role, link: f.link }, answers, profile, cover: false, coverText: "", files: [{ kind: "resume", name: "Test_Applicant_Resume.pdf", type: "application/pdf", b64: pdf }] };
   const ctx = await browser.newContext({ viewport: { width: 1400, height: 1000 }, userAgent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36", locale: "en-US" });
   const page = await ctx.newPage();
   const rec = { id, company: f.company, role: f.role, portal: f.portal, url: f.apply_url, status: "timeout", need: [], done: [], banner: "", final_url: "", pages: 0 };
@@ -46,7 +49,7 @@ async function one(browser, id) {
   const errs = [];
   page.on("pageerror", e => errs.push(String(e && e.message || e).slice(0, 180)));
   page.on("console", m => { if (m.type() === "error") errs.push(m.text().slice(0, 180)); });
-  await ctx.addInitScript(({ p }) => { window.__coopDry = true; try { sessionStorage.setItem("coop-payload", JSON.stringify(p)); } catch (e) {} }, { p: payload });
+  await ctx.addInitScript(({ p }) => { window.__coopDry = true; try { sessionStorage.setItem("coop-payload", JSON.stringify({ ...p, boundHost: location.hostname })); } catch (e) {} }, { p: payload });
   let injected = 0;
   const inject = async (fr = page.mainFrame()) => { try { await fr.evaluate(engine); await fr.evaluate(script); injected++; } catch (e) { rec.inject_error = String(e.message || e).slice(0, 200); } };
   page.on("domcontentloaded", () => { inject(); });

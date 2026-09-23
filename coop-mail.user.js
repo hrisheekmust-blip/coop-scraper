@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Co-op board: Outlook confirmations
 // @namespace    coop-hrisheek
-// @version      1.5
+// @version      1.6
 // @description  Reads the Outlook web inbox list, matches application emails to companies you applied to on the co-op board, and records them (confirmation / rejection / interview) in the board's private repo.
 // @match        https://outlook.office.com/*
 // @match        https://outlook.office365.com/*
@@ -66,12 +66,61 @@
     // de-dupe
     const seen = new Set(); return out.filter(r => { if (seen.has(r.text)) return false; seen.add(r.text); return true; });
   }
-  const classify = s => /unfortunately|not (be )?moving forward|regret|other candidates|decided not to|will not be (moving|proceeding)|no longer under consideration|position has been filled/i.test(s) ? "rejected"
-    : /interview|schedule (a )?(call|time|conversation)|next steps?|assessment|coding challenge|hackerrank|codesignal|phone screen|availability for a call/i.test(s) ? "interview"
-    : /thank you for (applying|your application|your interest)|application (has been |was )?(received|submitted)|we('ve| have) received your application|received your application|confirm(ation|ing) (of )?your application|your application to/i.test(s) ? "confirmation" : "";
+  // "Next steps" and "we may contact you for an interview" appear in plain confirmations, so only an
+  // explicit invitation or assessment counts as an interview when the email is also a confirmation.
+  const REJECT = /unfortunately|not (be )?moving forward|regret|other candidates|decided not to|will not be (moving|proceeding)|no longer under consideration|position has been filled/i;
+  const STRONG_INTERVIEW = /invit\w* you to|interview (invitation|request)|schedul\w* (an? |your )?(interview|call|time|conversation|phone screen)|availability for (a|an) (call|interview)|coding challenge|hackerrank|codesignal|online assessment|phone screen/i;
+  const CONFIRM = /thank you for (applying|your application|your interest)|application (has been |was )?(received|submitted)|we('ve| have) received your application|received your application|confirm(ation|ing) (of )?your application|your application to/i;
+  const classify = s => REJECT.test(s) ? "rejected" : STRONG_INTERVIEW.test(s) ? "interview" : CONFIRM.test(s) ? "confirmation" : /\binterview/i.test(s) ? "interview" : "";
 
   // ---------------------------------------------------------------- match + record
   const companyRx = c => { const n = c.replace(/[^\w\s&.-]/g, "").replace(/\b(inc|corp|corporation|llc|ltd|technologies|technology|systems|labs|the)\b\.?/gi, "").trim(); const first = n.split(/\s+/)[0]; return n.length >= 4 ? new RegExp("\\b" + n.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + "\\b", "i") : new RegExp("\\b" + first.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + "\\b", "i"); };
+  // Words in a role title that say something about which role an email is about.
+  const STOP = new Set("intern internship co-op coop engineer engineering spring summer fall winter 2026 2027 student the and for with".split(" "));
+  const roleWords = role => norm(role).toLowerCase().replace(/\([^)]*\)/g, " ").split(/[^a-z0-9+#]+/).filter(w => w.length >= 3 && !STOP.has(w));
+  const reqIds = j => [...new Set(((j.link || "") + " " + (j.reqKey || "")).match(/\d{5,}|[0-9a-f]{8}-[0-9a-f]{4}/gi) || [])];
+  // Which applied role an email is about. One email changes at most one application: when several roles
+  // at the same employer match and nothing in the email tells them apart, no status changes.
+  function matchEmail(text, applied) {
+    const cands = applied.filter(j => companyRx(j.company).test(text));
+    if (cands.length <= 1) return { job: cands[0] || null, candidates: cands };
+    const lower = text.toLowerCase();
+    const score = j => {
+      if (reqIds(j).some(x => lower.includes(x.toLowerCase()))) return 10;
+      const w = roleWords(j.role); if (!w.length) return 0;
+      return w.filter(x => new RegExp("\\b" + x.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + "\\b").test(lower)).length / w.length;
+    };
+    const ranked = cands.map(j => ({ j, s: score(j) })).sort((a, b) => b.s - a.s);
+    const ok = ranked[0].s >= 0.6 && ranked[0].s > ranked[1].s;
+    return { job: ok ? ranked[0].j : null, candidates: cands };
+  }
+  // Apply matched emails to state. Returns the number of changes.
+  function applyEmails(rows, applied, state, now = new Date().toISOString()) {
+    let changed = 0;
+    for (const r of rows) {
+      const kind = classify(r.text); if (!kind) continue;
+      const { job, candidates } = matchEmail(r.text, applied);
+      if (!candidates.length) continue;
+      const key = r.text.slice(0, 120);
+      const m = r.text.match(/\b(\d{1,2}\/\d{1,2}\/\d{2,4}|[A-Z][a-z]{2} \d{1,2}(, \d{4})?|\d{1,2}:\d{2} (AM|PM))\b/); const date = m ? m[0] : now.slice(0, 10);
+      const email = { key, subject: r.text.slice(0, 140), date, snippet: r.text.slice(0, 300), kind, seen: now };
+      if (!job) {                                     // ambiguous: keep it for you to assign, change nothing
+        const box = state._mail = state._mail || {}; const un = box.unassigned = box.unassigned || [];
+        if (!un.some(e => e.key === key)) { un.push({ ...email, candidates: candidates.map(j => j.id) }); if (un.length > 50) un.shift(); changed++; }
+        continue;
+      }
+      const cur = state[job.id] || {};
+      if ((cur.emails || []).some(e => e.key === key) || (cur.email && cur.email.key === key)) continue;
+      const upd = { ...cur, email, emails: [...(cur.emails || []), email].slice(-10) };
+      if (kind === "rejected" && cur.status !== "offer") upd.status = "rejected";
+      if (kind === "interview" && !["offer", "rejected"].includes(cur.status)) upd.status = "interview";
+      // A confirmation email settles an application whose submit result was uncertain.
+      if (kind === "confirmation" && cur.status === "uncertain") { upd.status = "applied"; upd.submitted = { ...(cur.submitted || {}), at: cur.submitted?.at || cur.statusAt || now, evidence: { text: "confirmation email: " + email.subject, at: now } }; }
+      state[job.id] = upd; changed++;
+    }
+    return changed;
+  }
+  if (typeof GM_xmlhttpRequest === "undefined") { globalThis.CoopMail = { classify, matchEmail, applyEmails, companyRx }; return; }   // tests
   let busy = false, first = true;
   async function scan() {
     if (busy) return; busy = true;
@@ -81,25 +130,10 @@
       const sheet = csv(await req(SHEET + "?t=" + Date.now()));
       const st = await gh("data/state.json"); const state = JSON.parse(unb64(st.content)) || {};
       const ids = {}; for (const r of sheet) ids[await sha1_16(r.link)] = r;
-      const applied = Object.entries(state).filter(([id, v]) => ["applied", "interview", "rejected", "offer"].includes(v.status) && ids[id]).map(([id, v]) => ({ id, ...v, ...ids[id] }));
+      const applied = Object.entries(state).filter(([id, v]) => ["applied", "uncertain", "interview", "rejected", "offer"].includes(v && v.status) && ids[id]).map(([id, v]) => ({ id, ...v, ...ids[id] }));
       if (first) { first = false; toast(`watching this inbox: ${rows.length} rows on screen, ${applied.length} applied companies to match`); }
       if (!applied.length) return;
-      let changed = 0;
-      for (const j of applied) {
-        const rx = companyRx(j.company);
-        for (const r of rows) {
-          if (!rx.test(r.text)) continue;
-          const kind = classify(r.text); if (!kind) continue;
-          const key = r.text.slice(0, 120);
-          const cur = state[j.id] || {};
-          if (cur.email && cur.email.key === key) continue;
-          const m = r.text.match(/\b(\d{1,2}\/\d{1,2}\/\d{2,4}|[A-Z][a-z]{2} \d{1,2}(, \d{4})?|\d{1,2}:\d{2} (AM|PM))\b/); const date = m ? m[0] : new Date().toISOString().slice(0, 10);
-          const upd = { ...cur, email: { key, subject: r.text.slice(0, 140), date, snippet: r.text.slice(0, 300), kind, seen: new Date().toISOString() } };
-          if (kind === "rejected" && cur.status !== "offer") upd.status = "rejected";
-          if (kind === "interview" && !["offer", "rejected"].includes(cur.status)) upd.status = "interview";
-          state[j.id] = upd; changed++;
-        }
-      }
+      const changed = applyEmails(rows, applied, state);
       if (changed) {
         await gh("data/state.json", { method: "PUT", body: { message: "outlook: " + changed + " email(s) matched " + new Date().toISOString(), content: b64(JSON.stringify(state, null, 1)), sha: st.sha } });
         toast(`recorded ${changed} application email(s) on the board`);

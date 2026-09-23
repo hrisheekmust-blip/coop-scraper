@@ -1,14 +1,16 @@
 """Fetch the real application form (question list) for every target posting, where the ATS exposes it publicly.
 
 Writes data/forms.json: { job_id: {portal, apply_url, fetched, fields:[{label,type,required,options}], error} }
-job_id = sha1(link)[:16], same as the site. Only CHIP/HARDWARE/MAYBE rows. Cached: a posting is refetched
-only if it has no fields yet and the last attempt is older than a day.
+job_id = sha1(link)[:16], same as the site. Only CHIP/HARDWARE/MAYBE rows. Postings with no question list are
+retried after a day; saved question lists are refreshed once they are older than FORMS_REFRESH_DAYS (default 3),
+so new or changed questions show up before the Apply click instead of during it. A 404/410 from a supported
+portal marks the posting closed.
 
 Supported: Greenhouse (boards-api ?questions=true), Ashby (job-board GraphQL), Lever (apply page HTML),
 simplify.jobs click links (resolved to the real ATS first). Everything else is recorded with portal only;
 the site shows the standard field list for those.
 """
-import csv, hashlib, json, os, re, sys, time, urllib.request, urllib.parse
+import calendar, csv, hashlib, json, os, re, sys, time, urllib.error, urllib.request, urllib.parse
 from html import unescape
 
 DATA = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data")
@@ -17,6 +19,7 @@ UA = {"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, 
       "Accept": "*/*"}
 TARGET = {"CHIP", "HARDWARE", "MAYBE"}
 MAX_PER_RUN = int(os.environ.get("FORMS_MAX", "150"))
+REFRESH = float(os.environ.get("FORMS_REFRESH_DAYS", "3")) * 86400
 
 
 def jid(link):
@@ -225,13 +228,32 @@ def main():
     rows.sort(key=lambda r: order.get(r.get("urgency"), 3))
     now = time.time()
     done = 0
+
+    def fetched_at(rec):
+        try:
+            return calendar.timegm(time.strptime(rec.get("fetched") or "", "%Y-%m-%dT%H:%MZ"))
+        except ValueError:
+            return 0
+
+    def due(rec):
+        if rec.get("closed") and rec.get("attempted", 0) > now - 86400:
+            return False
+        if rec.get("fields"):
+            return fetched_at(rec) < now - REFRESH and rec.get("attempted", 0) < now - 21600
+        return not (rec.get("attempted", 0) > now - 86400 and not (rec.get("error") and rec.get("portal") in FETCHERS))
+
     for r in rows:
         k = jid(r["link"])
         rec = forms.get(k) or {}
         if rec.get("portal") == "linkedin" and not rec.get("li_checked"):
             rec["apply_url"] = None; rec["li_checked"] = True; rec["attempted"] = 0
-        if rec.get("fields") or (rec.get("attempted", 0) > now - 86400 and not (rec.get("error") and rec.get("portal") in FETCHERS)):
-            continue
+            forms[k] = rec
+    # New postings first, then the stalest saved forms.
+    todo = [r for r in rows if due(forms.get(jid(r["link"])) or {})]
+    todo.sort(key=lambda r: (bool((forms.get(jid(r["link"])) or {}).get("fields")), fetched_at(forms.get(jid(r["link"])) or {})))
+    for r in todo:
+        k = jid(r["link"])
+        rec = forms.get(k) or {}
         if done >= MAX_PER_RUN:
             break
         done += 1
@@ -243,12 +265,19 @@ def main():
             f = FETCHERS.get(rec["portal"])
             if f:
                 res = f(real)
-                rec["fields"] = res["fields"]; rec["apply_url"] = res.get("apply_url") or real; rec["error"] = ""
+                rec["fields"] = res["fields"]; rec["apply_url"] = res.get("apply_url") or real; rec["error"] = ""; rec["closed"] = False
                 rec["fetched"] = time.strftime("%Y-%m-%dT%H:%MZ", time.gmtime())
                 print(f"forms: {r['company']:30.30} {rec['portal']:11} {len(res['fields']):3} fields")
             else:
                 rec["fields"] = None; rec["error"] = "form not public for this portal"
                 print(f"forms: {r['company']:30.30} {rec['portal']:11} (no public form)")
+        except urllib.error.HTTPError as e:
+            if e.code in (404, 410) and rec.get("portal") in FETCHERS:
+                rec["closed"] = True; rec["fields"] = None; rec["error"] = f"posting closed (HTTP {e.code})"
+            else:
+                rec["error"] = f"HTTPError: {e.code}"
+                rec.setdefault("fields", None)
+            print(f"forms: {r['company']:30.30} {rec.get('portal','?'):11} {rec['error']}")
         except Exception as e:  # noqa
             rec["error"] = f"{type(e).__name__}: {str(e)[:120]}"
             rec.setdefault("fields", None)
