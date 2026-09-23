@@ -344,3 +344,40 @@ test('Greenhouse Attach upload uses its labelled group and not a neighboring fil
   assert.equal(api.labelOf(field('resume')),'Resume/CV');
   assert.equal(api.labelOf(field('cover')),'Cover Letter');
 });
+function automaticForm(){
+ const e=formEnvironment();
+ e.c.location.hash='#coop='+id+'&p='+encode({...payload,autoSubmit:true});
+ const query=e.c.document.querySelectorAll;
+ e.c.document.querySelectorAll=s=>s.startsWith('input[type=file], input[name')?[{offsetWidth:10}]:query(s);
+ return e;
+}
+test('authorized automatic submission clicks once and records only confirmed success',async()=>{
+ const e=automaticForm();let clicks=0;
+ e.button.click=()=>{clicks++;e.c.document.body.innerText='Your application has been submitted'};
+ e.run(read('coop-apply.user.js'));await until(()=>e.replaced.length);
+ assert.equal(clicks,1);assert.equal(e.c.__coopLast.status,'applied');
+});
+test('automatic submit dry run never clicks Submit',async()=>{
+ const e=automaticForm();e.c.__coopDry=true;
+ e.run(read('coop-apply.user.js'));await until(()=>e.c.__coopLast);
+ assert.equal(e.c.__coopLast.status,'dry-submit');assert.equal(e.clicks(),0);
+});
+test('automatic submission timeout does not retry or mark applied',async()=>{
+ const e=automaticForm();e.run(read('coop-apply.user.js'));await until(()=>e.c.__coopLast);
+ assert.equal(e.clicks(),1);assert.equal(e.c.__coopLast.status,'needs-you');assert.equal(e.replaced.length,0);
+ assert.equal(e.c.sessionStorage.getItem('coop-auto-attempt'),'batch-1:'+id);
+});
+test('reload with an in-flight automatic attempt cannot click Submit again',async()=>{
+ const e=automaticForm();e.c.sessionStorage.setItem('coop-auto-attempt','batch-1:'+id);
+ e.run(read('coop-apply.user.js'));await until(()=>e.c.__coopLast);
+ assert.equal(e.clicks(),0);assert.equal(e.replaced.length,0);
+});
+test('automatic mode cannot activate an unknown final action',async()=>{
+ const e=automaticForm();e.button.textContent='Review application';
+ e.run(read('coop-apply.user.js'));await until(()=>e.c.__coopLast);
+ assert.equal(e.clicks(),0);assert.match(e.c.__coopLast.need[0],/Review this final action/);
+});
+test('new board payload explicitly enables automatic submission',async()=>{
+ const e=board();const p=await e.run(`buildPayload({id:'${id}',materials:[],answers_obj:{}})`);
+ assert.equal(p.autoSubmit,true);
+});
