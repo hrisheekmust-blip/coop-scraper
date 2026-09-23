@@ -1,0 +1,194 @@
+"""Mail events from the Outlook bridge: account verification, login codes, and application outcomes.
+
+Email content is untrusted data. It can resolve a pending verification only when every correlation check
+passes (waiting account, recipient, sender/provider, time window, purpose, and a link host inside the realm's
+approved hosts). It can never add a host, change credentials, or trigger an action by itself. Each message is
+processed once; tokens go straight into the vault and never into logs or events.
+"""
+from __future__ import annotations
+
+import re
+from datetime import datetime, timedelta, timezone
+from urllib.parse import urlsplit
+
+from . import jobqueue as Q, models as M
+from .accounts import Accounts
+from .db import DB, dumps, loads, now_iso
+
+RESET = re.compile(r"reset (your )?password|password reset|forgot (your )?password", re.I)
+ACTIVATION = re.compile(r"verify (your )?(candidate )?(e-?mail|account|email address)|activate (your )?(candidate )?account|confirm (your )?(candidate )?(e-?mail|account|email address)|e-?mail verification|complete your (registration|account)|account activation", re.I)
+CODE_WORDS = re.compile(r"(verification|security|one[- ]time|login|sign[- ]in|access|confirmation) (code|pin)|passcode|\botp\b|use this code|your code is", re.I)
+RECOMMEND = re.compile(r"jobs? (you may|you might|recommended|matching|alert)|new jobs|similar jobs|job alert|recommended for you|jobs for you", re.I)
+REJECT = re.compile(r"unfortunately|not (be )?moving forward|regret|other candidates|decided not to|will not be (moving|proceeding)|no longer under consideration|position has been filled", re.I)
+STRONG_INTERVIEW = re.compile(r"invit\w* you to|interview (invitation|request)|schedul\w* (an? |your )?(interview|call|time|conversation|phone screen)|availability for (a|an) (call|interview)|coding challenge|hackerrank|codesignal|online assessment|phone screen", re.I)
+CONFIRM = re.compile(r"thank you for (applying|your application|your interest)|application (has been |was )?(received|submitted)|we('ve| have) received your application|received your application|confirm(ation|ing) (of )?your application|your application (to|for)", re.I)
+
+PORTAL_SENDERS = {
+    "workday": re.compile(r"myworkday(jobs)?\.com|workday\.com", re.I),
+    "successfactors": re.compile(r"successfactors\.(com|eu)|sapsf\.|sap\.com", re.I),
+    "oracle": re.compile(r"oracle(cloud)?\.com|taleo\.net", re.I),
+    "icims": re.compile(r"icims\.com", re.I),
+}
+WINDOW = timedelta(hours=72)
+STOP = set("intern internship co-op coop engineer engineering spring summer fall winter 2026 2027 student the and for with".split())
+
+
+def purpose_of(subject: str, body: str) -> str:
+    t = f"{subject}\n{body}"
+    if RESET.search(t):
+        return "reset"
+    if ACTIVATION.search(t):
+        return "activation"
+    if CODE_WORDS.search(t) and re.search(r"\b\d{4,8}\b", t):
+        return "login_code"
+    if RECOMMEND.search(subject) or (RECOMMEND.search(t) and not CONFIRM.search(t)):
+        return "recommendation"
+    if REJECT.search(t):
+        return "rejection"
+    if STRONG_INTERVIEW.search(t):
+        return "interview"
+    if CONFIRM.search(t):
+        return "confirmation"
+    if re.search(r"\binterview", t, re.I):
+        return "interview"
+    return "other"
+
+
+def _dt(s):
+    if not s:
+        return None
+    try:
+        return datetime.fromisoformat(str(s).replace("Z", "+00:00")).astimezone(timezone.utc)
+    except ValueError:
+        return None
+
+
+def _host(u):
+    try:
+        p = urlsplit(u)
+        return (p.hostname or "").lower() if p.scheme == "https" else ""
+    except ValueError:
+        return ""
+
+
+class Mailbox:
+    def __init__(self, db: DB, accounts: Accounts):
+        self.db, self.accounts = db, accounts
+
+    def ingest(self, msg: dict) -> dict:
+        key = str(msg.get("message_id") or "").strip()
+        if not key or len(key) > 400:
+            return {"decision": "rejected", "reason": "missing stable message id"}
+        prior = self.db.one("SELECT decision, purpose FROM mail_events WHERE message_key=?", (key,))
+        if prior:
+            return {"decision": prior["decision"], "purpose": prior["purpose"], "replayed": True}
+        subject = str(msg.get("subject") or "")[:500]
+        body = str(msg.get("body_text") or "")[:20000]
+        purpose = purpose_of(subject, body)
+        if purpose in ("activation", "login_code", "reset"):
+            res = self._verification(msg, purpose, subject, body)
+        elif purpose in ("confirmation", "rejection", "interview"):
+            res = self._outcome(msg, purpose, subject, body)
+        else:
+            res = {"decision": "ignored"}
+        with self.db.tx():
+            self.db.x("""INSERT OR IGNORE INTO mail_events(message_key,received_at,sender,subject,purpose,decision,account_id,application_id,candidates_json,processed_at)
+                         VALUES(?,?,?,?,?,?,?,?,?,?)""",
+                      (key, msg.get("received_at"), str(msg.get("from") or "")[:300], subject[:300], purpose, res["decision"],
+                       res.get("account_id"), res.get("application_id"), dumps(res.get("candidates", [])), now_iso()))
+            self.db.event("mail", key, "ingested", {"purpose": purpose, "decision": res["decision"]})
+        return {"purpose": purpose, **{k: v for k, v in res.items() if k != "secret"}}
+
+    # ---------------------------------------------------------------- verification
+    def _verification(self, msg, purpose, subject, body):
+        if purpose == "reset":
+            # We never request resets automatically (policy); an unexpected reset email is only noted.
+            return {"decision": "ignored", "reason": "password reset emails are never acted on automatically"}
+        received = _dt(msg.get("received_at"))
+        to = str(msg.get("to") or "").lower()
+        app_email = self.accounts.application_email().lower()
+        if to and app_email and app_email not in to:
+            return {"decision": "ignored", "reason": "sent to a different address"}
+        sender = str(msg.get("from") or "")
+        links = [str(u) for u in (msg.get("links") or []) if isinstance(u, str)][:50]
+        codes = [c for c in (msg.get("codes") or re.findall(r"\b\d{4,8}\b", f"{subject} {body}")) if re.fullmatch(r"\d{4,8}", str(c))]
+        matches = []
+        for w in self.accounts.waiting():
+            since = _dt(w["since"])
+            if not received or not since or received < since - timedelta(minutes=2) or received > since + WINDOW:
+                continue
+            if w["purpose"] != purpose:
+                continue
+            words = [w["tenant"].split(":")[0]] if w["tenant"] else []
+            sender_ok = bool(PORTAL_SENDERS.get(w["portal"], re.compile(r"$^")).search(sender)) or any(
+                x and len(x) >= 3 and x.lower() in (sender + " " + subject).lower() for x in words)
+            if not sender_ok:
+                continue
+            if purpose == "activation":
+                good = [u for u in links if _host(u) in {h.lower() for h in w["hosts"]}]
+                if not good:
+                    continue
+                matches.append((w, good[0]))
+            else:
+                if len(set(codes)) != 1:
+                    continue
+                matches.append((w, codes[0]))
+        if len(matches) != 1:
+            return {"decision": "unassigned" if matches else "unmatched", "candidates": [m[0]["account_id"] for m in matches]}
+        w, secret = matches[0]
+        self.accounts.store_verification(w["account_id"], secret, purpose)
+        return {"decision": "consumed", "account_id": w["account_id"]}
+
+    # ---------------------------------------------------------------- application outcomes
+    def _outcome(self, msg, purpose, subject, body):
+        text = f"{msg.get('from') or ''} {subject} {body}"
+        lower = text.lower()
+        rows = self.db.all("""SELECT a.*, j.company, j.title, j.requisition, j.resolved_url FROM applications a JOIN jobs j ON j.id=a.job_id
+                              WHERE a.state IN (?,?,?,?)""", (M.APPLIED, M.UNCERTAIN, M.VERIFYING, M.SUBMITTING))
+        cands = [r for r in rows if r["company"] and _company_rx(r["company"]).search(text)]
+        if not cands:
+            return {"decision": "unmatched"}
+        pick = cands[0] if len(cands) == 1 else _disambiguate(cands, lower)
+        if not pick:
+            return {"decision": "unassigned", "candidates": [c["id"] for c in cands]}
+        received = msg.get("received_at") or now_iso()
+        kind = {"confirmation": "confirmation", "rejection": "rejected", "interview": "interview"}[purpose]
+        if pick["state"] in (M.UNCERTAIN, M.VERIFYING, M.SUBMITTING) and purpose in ("confirmation", "rejection", "interview"):
+            # Any of these from the employer about this role means the application reached them.
+            Q.confirm(self.db, pick["id"], "email", {"text": f"{purpose} email: {subject[:200]}", "at": received}, "outlook bridge")
+        with self.db.tx():
+            cur = self.db.one("SELECT employer_status_at FROM applications WHERE id=?", (pick["id"],))
+            older = cur["employer_status_at"] and str(cur["employer_status_at"]) > str(received)
+            # Chronology: an older email never overwrites a newer outcome. A confirmation never downgrades.
+            if not older and not (kind == "confirmation" and cur["employer_status_at"]):
+                self.db.x("UPDATE applications SET employer_status=?, employer_status_at=?, updated_at=? WHERE id=?",
+                          (kind, received, now_iso(), pick["id"]))
+            self.db.event("application", pick["id"], "employer_email", {"kind": kind, "subject": subject[:200]})
+        return {"decision": "consumed", "application_id": pick["id"]}
+
+
+def _company_rx(company: str):
+    n = re.sub(r"[^\w\s&.-]", "", company)
+    n = re.sub(r"\b(inc|corp|corporation|llc|ltd|technologies|technology|systems|labs|the)\b\.?", "", n, flags=re.I).strip()
+    first = n.split()[0] if n.split() else company
+    return re.compile(r"\b" + re.escape(n if len(n) >= 4 else first) + r"\b", re.I)
+
+
+def _role_words(role: str):
+    role = re.sub(r"\([^)]*\)", " ", role.lower())
+    return [w for w in re.split(r"[^a-z0-9+#]+", role) if len(w) >= 3 and w not in STOP]
+
+
+def _disambiguate(cands, lower):
+    def score(r):
+        req = (r["requisition"] or "").lower()
+        if req and len(req) >= 4 and req in lower:
+            return 10
+        words = _role_words(r["title"] or "")
+        if not words:
+            return 0
+        return sum(1 for w in words if re.search(r"\b" + re.escape(w) + r"\b", lower)) / len(words)
+    ranked = sorted(((score(r), r) for r in cands), key=lambda x: -x[0])
+    if ranked[0][0] >= 0.6 and ranked[0][0] > ranked[1][0]:
+        return ranked[0][1]
+    return None
