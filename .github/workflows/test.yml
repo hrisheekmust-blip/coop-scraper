@@ -1,9 +1,9 @@
 name: application flow tests
 on:
   push:
-    paths: ["index.html", "relay.html", "coop-apply.user.js", "tests/**", ".github/workflows/test.yml"]
+    paths: ["engine.js", "index.html", "relay.html", "coop-apply.user.js", "tests/**", ".github/workflows/test.yml"]
   pull_request:
-    paths: ["index.html", "relay.html", "coop-apply.user.js", "tests/**", ".github/workflows/test.yml"]
+    paths: ["engine.js", "index.html", "relay.html", "coop-apply.user.js", "tests/**", ".github/workflows/test.yml"]
 permissions:
   contents: read
 jobs:
