@@ -6,7 +6,7 @@ from __future__ import annotations
 import re
 from urllib.parse import urlsplit
 
-from ..browser import CONFIRM_RX, Button, Observation, observe
+from ..browser import Observation, observe
 from .base import PortalAdapter
 
 NEXT_ID = ("bottom-navigation-next-button", "pagefooternextbutton")

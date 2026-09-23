@@ -13,7 +13,7 @@ from urllib.parse import urlsplit
 
 from . import jobqueue as Q, models as M
 from .accounts import Accounts
-from .db import DB, dumps, loads, now_iso
+from .db import DB, dumps, now_iso
 
 RESET = re.compile(r"reset (your )?password|password reset|forgot (your )?password", re.I)
 ACTIVATION = re.compile(r"verify (your )?(candidate )?(e-?mail|account|email address)|activate (your )?(candidate )?account|confirm (your )?(candidate )?(e-?mail|account|email address)|e-?mail verification|complete your (registration|account)|account activation", re.I)
@@ -33,12 +33,13 @@ WINDOW = timedelta(hours=72)
 STOP = set("intern internship co-op coop engineer engineering spring summer fall winter 2026 2027 student the and for with".split())
 
 
-CODE_NEAR = re.compile(r"(?:code|passcode|pin|otp)\b[^0-9]{0,40}?\b(\d{4,8})\b|\b(\d{4,8})\b[^0-9]{0,25}(?:is your|as your|is the) (?:verification |one[- ]time |security |login )?(?:code|passcode|pin)", re.I)
+CODE_NEAR = re.compile(r"(?:code|passcode|pin|otp)\b[^0-9]{0,40}?\b(\d{4,8})\b|\b(\d{4,8})\b[^0-9]{0,25}(?:is your|as your|is the) (?:verification |one[- ]time |security |login )?(?:code|passcode|pin)"
+                       r"|(?:code|passcode)\b[^\n]{0,60}?[:：]\s*(\d{4,8})\b", re.I)
 
 
 def codes_in(text: str) -> list[str]:
     """Only digits next to code wording count ("Your code is 482913"), not years or phone numbers."""
-    return list(dict.fromkeys(a or b for a, b in CODE_NEAR.findall(text or "")))
+    return list(dict.fromkeys(next(x for x in m if x) for m in CODE_NEAR.findall(text or "")))
 
 
 def mail_safe(text: str) -> str:

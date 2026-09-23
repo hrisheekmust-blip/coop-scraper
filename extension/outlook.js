@@ -73,7 +73,8 @@
         const isOutcome = employers.some(e => low.includes(e)) && OUTCOME.test(r.text);
         if (!isVerify && !isOutcome) continue;
         seen.add(key);
-        const msg = { message_id: "owa:" + (r.id || "") + ":" + hash(r.text.slice(0, 300)), subject: r.text.slice(0, 300), body_text: r.text, received_at: receivedAt(r.text), links: [], codes: [], from: "", to: "" };
+        const stable = r.text.replace(/\b(unread|read|flagged|pinned|has attachments?|replied|forwarded|collapsed|expanded|selected)\b/gi, "").replace(/\s+/g, " ").trim();
+        const msg = { message_id: "owa:" + (r.id || "") + ":" + hash(stable.slice(0, 300)), subject: r.text.slice(0, 300), body_text: r.text, received_at: receivedAt(r.text), links: [], codes: [], from: "", to: "" };
         if (isVerify) {
           r.el.click();
           const opened = await readOpen();

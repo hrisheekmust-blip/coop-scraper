@@ -61,12 +61,13 @@ class KeyringVault(Vault):
     # Windows Credential Manager stores at most 2560 bytes per entry (1280 UTF-16 characters): long values
     # (verification links) are split across numbered entries.
     CHUNK = 1000
+    MARK = "\x00coop-chunks:"      # can't collide with a real password or link
 
     def get(self, ref):
         _check_ref(ref)
         v = self.k.get_password(SERVICE, ref)
-        if v and v.startswith("chunks:"):
-            n = int(v[7:])
+        if v and v.startswith(self.MARK):
+            n = int(v[len(self.MARK):])
             parts = [self.k.get_password(SERVICE, f"{ref}#{i}") or "" for i in range(n)]
             v = "".join(parts)
         return v
@@ -78,7 +79,7 @@ class KeyringVault(Vault):
             parts = [value[i:i + self.CHUNK] for i in range(0, len(value), self.CHUNK)]
             for i, part in enumerate(parts):
                 self.k.set_password(SERVICE, f"{ref}#{i}", part)
-            self.k.set_password(SERVICE, ref, f"chunks:{len(parts)}")
+            self.k.set_password(SERVICE, ref, f"{self.MARK}{len(parts)}")
         else:
             self.k.set_password(SERVICE, ref, value)
         register_secret(value)
@@ -87,8 +88,8 @@ class KeyringVault(Vault):
         _check_ref(ref)
         try:
             v = self.k.get_password(SERVICE, ref)
-            if v and v.startswith("chunks:"):
-                for i in range(int(v[7:])):
+            if v and v.startswith(self.MARK):
+                for i in range(int(v[len(self.MARK):])):
                     self.k.delete_password(SERVICE, f"{ref}#{i}")
             if v is not None:
                 self.k.delete_password(SERVICE, ref)

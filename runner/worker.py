@@ -15,9 +15,9 @@ from . import jobqueue as Q, models as M
 from .accounts import Accounts
 from .answer_engine import AnswerEngine, Bank
 from .credentials import SessionStore, Vault
-from .db import DB, dumps, open_db
+from .db import DB, open_db
 from .materials import MaterialStore
-from .planner import ApplicationRun, Done, Park, RunConfig
+from .planner import ApplicationRun, Park, RunConfig
 from .evidence import scrub
 
 log = logging.getLogger("coop.worker")

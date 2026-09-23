@@ -6,7 +6,6 @@ credential to use and whether the current host may receive it.
 """
 from __future__ import annotations
 
-import time
 
 from . import models as M
 from .credentials import DEFAULT_POLICY, SessionStore, Vault

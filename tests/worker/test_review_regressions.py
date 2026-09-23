@@ -227,3 +227,29 @@ def test_logged_urls_hide_tokens_in_paths():
     assert "tok" not in safe_url("https://acme.wd1.myworkdayjobs.com/AcmeCareers/activate/a50e5aefc9befaa6x9?next=/x")
     assert safe_url("https://jobs.lever.co/acme/apply").endswith("/acme/apply")
     assert "a50e5aefc9befaa6x9" not in safe_url("https://acme.wd1.myworkdayjobs.com/AcmeCareers/activate/a50e5aefc9befaa6x9")
+
+
+# follow-up review ------------------------------------------------------------------------------------------------
+def test_parameterized_question_answered_in_prep_resumes_its_application(env):
+    import json
+    from runner.prep import export_packet, import_response
+    db, vault, acc = env
+    eng = AnswerEngine(db, Bank(None))
+    app = Q.enqueue(db, "1", "https://boards.greenhouse.io/acme/jobs/7654321", company="Acme", title="Intern")["application_id"]
+    jid = Q.app_view(db, app)["job_id"]
+    q = Question(label="Are you willing to relocate to Austin?", control="radio", options=["Yes", "No"], required=True, job_id=jid, employer="Acme")
+    res = eng.answer(q, eng.ctx({"id": jid, "company": "Acme"}))
+    eng.record_pending(q, jid, app, res.key, res.reason)
+    db.x("UPDATE applications SET state=?, needs_json=? WHERE id=?", (M.NEEDS_INFO, json.dumps([{"question": q.to_dict(), "key": res.key}]), app))
+    pk = export_packet(db)
+    key = pk["questions"][0]["key"]
+    assert key == eng.key_for(q) and key != "prefs.relocate_to"
+    out = import_response(db, {"answers": [{"key": key, "label": q.label, "value": "Yes", "scope": {"kind": "user"}}]}, eng)
+    assert out["resumed"] == [app]
+
+
+def test_more_code_phrasings_and_letter_only_tokens():
+    assert codes_in("Enter this code within 10 minutes: 482913") == ["482913"]
+    assert "abcdefghijklmnopqrstu" not in safe_url("https://careers.acme.com/verify/abcdefghijklmnopqrstu")
+    assert "tenant" not in realm_for("https://wd5.myworkdaysite.com/en-US/recruiting/acme/External/login").id
+    assert realm_for("https://wd5.myworkdaysite.com/en-US/recruiting/acme/External/login").id == "workday:acme"

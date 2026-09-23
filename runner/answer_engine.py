@@ -157,6 +157,8 @@ class AnswerEngine:
                             synonyms=_bool_syn(v))
         # 3-4: facts and derivations
         bkey, prop = builtin(q, ctx, key if key in BUILTIN_KEYS else None)
+        if prop is not None and (bkey in PARAM_KEYS or (prop.key or "").split(":")[0] in PARAM_KEYS):
+            prop.key = key          # the per-wording key, so a pending question and its answer meet again
         if prop is not None and prop.decision == "answer":
             prop.key = prop.key or key
             return prop

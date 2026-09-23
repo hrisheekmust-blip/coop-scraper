@@ -18,7 +18,6 @@ import csv
 import getpass
 import hashlib
 import json
-import shutil
 import sys
 import time
 from pathlib import Path
@@ -229,7 +228,6 @@ def cmd_doctor(a):
            "pending_questions": db.one("SELECT COUNT(*) n FROM pending_questions WHERE resolved_at IS NULL")["n"],
            "recent_events": [dict(r) for r in db.all("SELECT at, entity_kind, entity_id, kind, data_json FROM events ORDER BY seq DESC LIMIT 300")]}
     try:
-        import playwright
         from importlib.metadata import version
         out["playwright"] = version("playwright")
     except Exception:
@@ -250,7 +248,7 @@ def cmd_migrate_board(a):
     Old "applied" records are kept as your historical assertions, not as verified receipts; anything that was
     mid-flight on the old board becomes uncertain until you check it. A mapping file makes it reversible."""
     from . import jobqueue as Q, models as M
-    from .db import dumps, now_iso
+    from .db import now_iso
     db = _db()
     db.backup(paths()["backups"] / f"before-board-migration-{int(time.time())}.sqlite3")
     state = json.loads(Path(a.state).read_text(encoding="utf-8"))

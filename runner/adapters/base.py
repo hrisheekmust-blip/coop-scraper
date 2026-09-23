@@ -9,7 +9,7 @@ from __future__ import annotations
 
 import re
 
-from ..browser import (APPLY_ENTRY_RX, CLOSED_RX, CODE_RX, CONFIRM_RX, MFA_RX, VERIFY_EMAIL_RX, Button, Observation)
+from ..browser import (CLOSED_RX, CODE_RX, CONFIRM_RX, MFA_RX, VERIFY_EMAIL_RX, Button, Observation)
 
 
 class PortalAdapter:

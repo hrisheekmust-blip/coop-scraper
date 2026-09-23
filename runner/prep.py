@@ -12,7 +12,6 @@ cite existing facts; equivalence patterns must be anchored; keys must exist. Gen
 from __future__ import annotations
 
 import re
-from collections import defaultdict
 
 from . import jobqueue as Q, models as M
 from .answer_engine import AnswerEngine, BUILTIN_KEYS

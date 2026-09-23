@@ -172,8 +172,11 @@ def realm_for(url: str) -> Realm | None:
     if m:
         # Workday candidate accounts belong to the tenant; every wdN host variant of it is the same realm.
         return Realm(f"workday:{m.group(1)}", "workday", m.group(1), (host,), "password")
-    if re.fullmatch(r"wd\d+\.myworkdaysite\.com", host) and len(parts) >= 2 and parts[0] == "recruiting":
-        return Realm(f"workday:{parts[1].lower()}", "workday", parts[1].lower(), (host,), "password")
+    np = [p for p in parts if not LOCALE.match(p)]
+    if re.fullmatch(r"wd\d+\.myworkdaysite\.com", host) and len(np) >= 2 and np[0] == "recruiting":
+        # One host serves every tenant here: the credential host check alone can't separate them, the realm id does,
+        # and credentials are only typed when the page's own tenant matches (planner re-derives the realm per page).
+        return Realm(f"workday:{np[1].lower()}", "workday", np[1].lower(), (host,), "password")
     if re.search(r"(^|\.)successfactors\.(com|eu)$|(^|\.)sapsf\.(com|eu)$", host):
         company = (q.get("company") or "").lower()
         if company:

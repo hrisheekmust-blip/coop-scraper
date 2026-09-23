@@ -19,6 +19,7 @@ Write-Host "1/4 Python environment in $Venv"
 if (-not (Test-Path (Join-Path $Venv "Scripts\python.exe"))) {
   & $Python -3 -m venv $Venv
   if ($LASTEXITCODE -ne 0) { & $Python -m venv $Venv }
+  if ($LASTEXITCODE -ne 0) { throw "couldn't create the Python environment (is Python 3.11+ installed?)" }
 }
 function Check($what) { if ($LASTEXITCODE -ne 0) { throw "$what failed (exit code $LASTEXITCODE)" } }
 $Py = Join-Path $Venv "Scripts\python.exe"

@@ -8,13 +8,13 @@ from __future__ import annotations
 
 import re
 import time
-from dataclasses import dataclass, field
+from dataclasses import dataclass
 from urllib.parse import urlsplit
 
 from . import jobqueue as Q, models as M
 from .accounts import AccountError, Accounts
 from .adapters import pick_adapter
-from .browser import (BAD_LOGIN_RX, EXISTS_RX, PASSWORD_POLICY_RX, USERNAME_TAKEN_RX, VERIFY_EMAIL_RX, ActionRefused, Button,
+from .browser import (BAD_LOGIN_RX, EXISTS_RX, PASSWORD_POLICY_RX, USERNAME_TAKEN_RX, VERIFY_EMAIL_RX, ActionRefused,
                       Control, Executor, Observation, observe)
 from .db import now_iso
 from .evidence import scrub
@@ -28,8 +28,12 @@ ALREADY_RX = re.compile(r"^(it looks like )?you('ve| have) already (applied|subm
 def safe_url(u: str) -> str:
     """Host and path for diagnostics, with anything token-like in the path replaced (activation links carry tokens)."""
     p = urlsplit(u)
-    segs = ["[id]" if (len(x) >= 12 and re.search(r"\d", x) and re.search(r"[A-Za-z]", x)) or len(x) >= 24 else x
-            for x in (p.path or "").split("/")]
+    raw = (p.path or "").split("/")
+    segs = []
+    for i, x in enumerate(raw):
+        after_marker = i > 0 and re.fullmatch(r"(activate|activation|verify|verification|confirm|reset|token|magic|login-link|t|v)", raw[i - 1], re.I)
+        tokenish = (len(x) >= 12 and re.search(r"\d", x) and re.search(r"[A-Za-z]", x)) or len(x) >= 24
+        segs.append("[id]" if x and (after_marker or tokenish) else x)
     return scrub(f"{p.scheme}://{p.hostname or ''}{'/'.join(segs)}")
 
 
@@ -266,7 +270,10 @@ class ApplicationRun:
         if acc:
             row = self.db.one("SELECT * FROM realms WHERE id=?", (acc["id"],))
             return Realm(row["id"], row["portal"], row["tenant"], tuple(), row["auth_method"])
-        raise Park(M.NEEDS_HUMAN, "credential_destination", f"the login page is on {host}, which isn't verified for this employer; approve it in the board to continue")
+        if urlsplit(url).scheme != "https" or not host:
+            raise Park(M.FAILED, "credential_destination", "the login page isn't on a secure https address")
+        # A sign-in page on another host (e.g. the employer's identity provider): its own realm, pending your approval.
+        return Realm(f"site:{host}", "site", host, (), "password")
 
     def ensure_account(self, url):
         realm = self._realm(url)
@@ -321,7 +328,7 @@ class ApplicationRun:
         self.ex.click(btn, allow=("signin", "next", "other"))
         after = self.ex.wait_change(obs)
         if BAD_LOGIN_RX.search(" ".join(after.errors) + " " + after.body[:3000]):
-            n = self.accounts.login_failed(a["id"])
+            self.accounts.login_failed(a["id"])
             # Never created or used by us here: the portal already had an account for this email with another password.
             if st == M.ACC_EXISTING or (a["registration_intent_at"] is None and st != M.ACC_ACTIVE):
                 self.accounts.set_status(a["id"], M.ACC_NEEDS_CREDENTIALS, "an account exists for your email with a different password")
@@ -383,7 +390,6 @@ class ApplicationRun:
         pws = self._controls(obs, lambda c: c.control == "password")
         for p in pws:
             self._cred(p, "password")
-        em = self._email_field(obs)
         for c in obs.controls:
             if c.control == "password":
                 continue
@@ -513,10 +519,13 @@ class ApplicationRun:
                 self.ex.click(btn, allow=("signin", "next", "other", "verify"))
             self.ex.settle(1500)
         secret = None
-        after = observe(self.page)
-        text = " ".join(after.errors) + " " + after.text()
-        if re.search(r"(invalid|incorrect|expired|wrong).{0,30}(code|link|token)|(code|link).{0,20}(invalid|incorrect|expired)", text, re.I):
-            raise Park(M.AWAITING_EMAIL, "email_verification", "the portal didn't accept the emailed code/link; waiting for a new one")
+        after = self.ex.wait_change(observe(self.page), timeout=8)
+        alerts = " ".join(after.errors)
+        if re.search(r"(invalid|incorrect|expired|wrong).{0,30}(code|link|token)|(code|link).{0,20}(is |was )?(invalid|incorrect|expired)", alerts, re.I):
+            raise Park(M.AWAITING_EMAIL, "email_verification", "the portal rejected the emailed code/link; click Resume to request a new one")
+        kind_after = pick_adapter(after.url).page_kind(after, self) or pick_adapter(after.url).generic_kind(after, self)
+        if kind_after in ("email_code",) or (purpose == "login_code" and any(re.search(r"code|pin|passcode", c.label, re.I) for c in after.controls)):
+            raise Park(M.AWAITING_EMAIL, "login_code", "the portal is still asking for the code; click Resume to request a new one")
         shown = pick_adapter(after.url).signed_in_identity(after, self)
         mine = (self.accounts.application_email() or "").lower()
         if shown and mine and shown != mine:
