@@ -1090,7 +1090,8 @@
 "https://www.linkedin.com/jobs/view/4465273942": {
 "first_seen": "2026-09-18",
 "title": "Student Intern 2027 - Electrical Substation",
-"company": "Stanley Consultants"
+"company": "Stanley Consultants",
+"desc": ""
 },
 "https://www.linkedin.com/jobs/view/4465295003": {
 "first_seen": "2026-09-18",
@@ -6746,6 +6747,174 @@
 "first_seen": "2026-09-23",
 "title": "Robotic Process Engineer, Intern",
 "company": "Machina Labs",
+"desc": ""
+},
+"https://job-boards.greenhouse.io/astranis/jobs/4704284006": {
+"first_seen": "2026-09-23",
+"title": "Antenna Intern (Winter 2027)",
+"company": "Astranis",
+"desc": ""
+},
+"https://job-boards.greenhouse.io/astranis/jobs/4706025006": {
+"first_seen": "2026-09-23",
+"title": "Avionics Intern (Winter 2027)",
+"company": "Astranis",
+"desc": ""
+},
+"https://job-boards.greenhouse.io/astranis/jobs/4704782006": {
+"first_seen": "2026-09-23",
+"title": "Electrical Reliability Intern (Winter 2027)",
+"company": "Astranis",
+"desc": ""
+},
+"https://job-boards.greenhouse.io/astranis/jobs/4706427006": {
+"first_seen": "2026-09-23",
+"title": "Power Electronics Intern (Winter 2027)",
+"company": "Astranis",
+"desc": ""
+},
+"https://job-boards.greenhouse.io/astranis/jobs/4705626006": {
+"first_seen": "2026-09-23",
+"title": "Reliability Test Intern (Winter 2027)",
+"company": "Astranis",
+"desc": ""
+},
+"https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/IL---Petah-Tikva/Digital-IC-Design-Intern_2604490": {
+"first_seen": "2026-09-23",
+"title": "Digital IC Design Intern",
+"company": "Marvell",
+"desc": "  About Marvell   Marvell\u2019s semiconductor solutions are the essential building blocks of the data infrastructure that connects our world. Across enterprise, cloud and AI, and carrier architectures, our innovative technology is enabling new possibilities.\u00a0    At Marvell, you can affect the arc of individual lives, lift the trajectory of entire industries, and fuel the transformative potential of tomorrow. For those looking to make their mark on purposeful and enduring innovation, above and beyond fleeting trends, Marvell is a place to thrive, learn, and lead.\u00a0     Your Team, Your Impact  The Power Design team is responsible for driving power efficiency throughout the chip design lifecycle, from early architecture and RTL through physical implementation and final signoff. The team develops and owns the methodologies, tools, and flows used to estimate, analyze, track, and optimize chip power. We work closely with architecture, RTL, verification, and physical design teams to identify power challenges early, understand their root causes, and drive effective solutions while balancing power, performance, and area (PPA). Our work includes developing power models and estimation capabilities, analyzing power at different stages of the design flow, identifying optimization opportunities, and driving improvements at both the RTL and physical design levels. The team also explores new automation and AI-based methodologies to make power analysis faster, more accurate, and more actionable. A"
+},
+"https://nxp.wd3.myworkdayjobs.com/careers/job/Tianjin-Teda/DFT-Verification-intern_R-10066777": {
+"first_seen": "2026-09-23",
+"title": "DFT Verification intern",
+"company": "NXP",
+"desc": " Job Responsibility: -Contribute to SoC DFT design activities by running DFT pattern simulations, static and dynamic checks and documentation. -Assist with DFT AI Flow development under guidance from senior engineers. -Contribute to engineering quality, learning, and teamwork throughout the development cycle.    Requirements: -Currently pursuing a Master\u2019s degree in Electrical Engineering, Electronics, Computer Engineering, Computer Science or a related discipline. -Hands-on experience from ASIC EDA tools, SoC design projects, internships, coursework, or student competitions is a plus. -Familiar with SoC digital design, verification, programming, EDA tools; willingness to learn quickly is important. -Strong foundation in engineering fundamentals, problem solving, testing, and technical documentation. -Able to collaborate with cross-functional teams and communicate technical ideas clearly. -Good communication skills in English (written and spoken).    More information about NXP in Greater China...    #LI-6650"
+},
+"https://nxp.wd3.myworkdayjobs.com/careers/job/Tianjin-Teda/AI-Verification-Engineering-Intern_R-10066766": {
+"first_seen": "2026-09-23",
+"title": "AI Verification Engineering Intern",
+"company": "NXP",
+"desc": " We are looking for a highly motivated AI Verification Engineering Intern to help develop AI-powered solutions for semiconductor verification productivity. You will work closely with verification engineers to build intelligent tools and agents that automate engineering workflows, improve debugging efficiency, and accelerate verification execution.     Responsibilities   Develop AI-powered verification assistants and engineering agents.  Build automation flows for verification.  Apply RAG and AI agents to verification workflows.  Develop tools for:  Verification planning and testplan analysis  Verification tb files generation  Coverage gap identification  Regression result analysis  Debug assistance  Verification knowledge search and summarization    Integrate AI solutions with existing EDA tools and verification environments.  Collaborate with verification engineers to understand productivity bottlenecks and transform them into AI-assisted workflows.  Evaluate and benchmark emerging AI technologies for semiconductor engineering applications.  Present development results and recommendations to project teams.     Qualifications Required   BS/MS student in Computer Science, Electrical Engineering, Computer Engineering, Artificial Intelligence, or related fields.  Strong programming skills in Python.  Familiarity with machine learning, LLMs, or Generative AI technologies.  Experience with software development and debugging.  Strong problem-solving and communication skills.  Abili"
+},
+"https://nxp.wd3.myworkdayjobs.com/careers/job/Tianjin-Teda/Analog-Mixed-Signal-Design-Intern_R-10066740": {
+"first_seen": "2026-09-23",
+"title": "Analog/Mixed-Signal Design Intern",
+"company": "NXP",
+"desc": "  Responsibilities:    1) Design, implement and verify analog/mixed-signal IP    2) Provide technical guidance to layout, application, and validation engineers    3) Create thorough review documentation and follow established design flow    Requirements:    1) master student in Electrical Engineering    2) understanding of analog and mixed signal design    3) Familiar with  design/simulation/verification  tools     More information about NXP in Greater China...    #LI-6650"
+},
+"https://simplify.jobs/jobs/click/ed9c9453-52b1-4241-ac91-0065c19d9baf": {
+"first_seen": "2026-09-23",
+"title": "Client Co-op",
+"company": "Ciena",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/f3b98ad2-775f-49d5-9a53-90a4dd71ee7b": {
+"first_seen": "2026-09-23",
+"title": "mRNA Drug Substance Process Characterization Data Analytics and Visualization Co-op",
+"company": "Sanofi",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/0d294e92-1fef-43dd-98c6-0eeedb63ae4b": {
+"first_seen": "2026-09-23",
+"title": "Reliability and Safety Engineering Co-op",
+"company": "RTX",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/db0ab021-5bb7-48e4-8707-df9b866c9f75": {
+"first_seen": "2026-09-23",
+"title": "Packaging Engineer Co-op",
+"company": "Greenheck Group",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/bbd80626-7eda-4bcd-9059-84b16dffc496": {
+"first_seen": "2026-09-23",
+"title": "Packaging Engineer Co-op",
+"company": "Mars",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/273b5a97-9303-4ce1-b5b0-31f437ccfdc7": {
+"first_seen": "2026-09-23",
+"title": "Electrical Engineer Co-op",
+"company": "RTX",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/b6a23c4a-198c-457c-9db0-2099e286f72a": {
+"first_seen": "2026-09-23",
+"title": "Electrical Engineering Intern",
+"company": "Schweitzer Engineering Laboratories",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/d9a6bd58-486b-4194-b494-e6cef88faa24": {
+"first_seen": "2026-09-23",
+"title": "Electrical Engineer Intern",
+"company": "Illinois Tool Works",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/30e16fe7-9ec9-4a33-85f4-518bf5043e93": {
+"first_seen": "2026-09-23",
+"title": "Yield Engineering Intern",
+"company": "Qorvo",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/97bafc91-6965-4190-9aca-eb19889919f9": {
+"first_seen": "2026-09-23",
+"title": "Test Engineering Intern",
+"company": "Qorvo",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/676b6deb-db83-4dda-a7c9-ac08d74ec276": {
+"first_seen": "2026-09-23",
+"title": "CAD Drafter Intern",
+"company": "Kimley-Horn",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/5d8625b4-2f3c-4bb8-a7dc-6bf889d1b5db": {
+"first_seen": "2026-09-23",
+"title": "R&D Hardware Engineer Intern",
+"company": "Keysight Technologies",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/2367cc96-5286-4fd9-a8d3-778a66fa0c89": {
+"first_seen": "2026-09-23",
+"title": "System Protection Electrical Engineer Intern",
+"company": "Dominion Energy",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/fcf391aa-c004-463b-807b-acb4d73509d0": {
+"first_seen": "2026-09-23",
+"title": "Controls Engineer Intern",
+"company": "Marvin",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/a7e0568f-a68d-460d-850a-4c835ee113df": {
+"first_seen": "2026-09-23",
+"title": "Process Engineer Intern",
+"company": "Crane Co.",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/a8472d45-9d65-479c-9822-173cdacfce6c": {
+"first_seen": "2026-09-23",
+"title": "Electrical Engineer Intern/Co-op",
+"company": "SoundOff Signal",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/b3dc331c-813f-42bc-8240-602c63c6e919": {
+"first_seen": "2026-09-23",
+"title": "Optical Engineer Intern",
+"company": "Koch Industries",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4468950456": {
+"first_seen": "2026-09-23",
+"title": "Photonic Integrated Circuits Test Coop",
+"company": "Nokia",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4468959219": {
+"first_seen": "2026-09-23",
+"title": "Electrical Engineering Internship - Spring 2027",
+"company": "Vital Lyfe",
 "desc": ""
 }
 }
