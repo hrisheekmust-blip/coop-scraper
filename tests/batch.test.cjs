@@ -23,12 +23,14 @@ function environment() {
     escape,unescape,encodeURIComponent,decodeURIComponent,
     crypto:require('node:crypto').webcrypto,
     localStorage:storage(), sessionStorage:storage(), history:{replaceState(){}},
-    location:{hash:'',pathname:'/coop-scraper/relay.html',search:'',href:'https://jobs.lever.co/test',replace:u=>replaced.push(u)},
+    location:{hash:'',hostname:'jobs.lever.co',pathname:'/test/apply',search:'',href:'https://jobs.lever.co/test/apply',replace:u=>replaced.push(u)},
+    getComputedStyle:()=>({visibility:'visible'}),
+    Event:class {constructor(type,options){this.type=type;Object.assign(this,options)}},
     setTimeout:fn=>{timers.push(fn);return timers.length},clearTimeout(){},
     setInterval:fn=>{timers.push(fn);return timers.length},clearInterval(){},
-    document:{getElementById:k=>{if(!elements.has(k))elements.set(k,{value:'',textContent:'',innerHTML:'',style:{},classList:{add(){},toggle(){}},addEventListener(){}});return elements.get(k)},querySelectorAll:()=>[],querySelector:()=>null,body:{innerText:''},documentElement:{appendChild(){}},createElement:()=>({style:{}})},
+    document:{readyState:'complete',getElementById:k=>{if(!elements.has(k))elements.set(k,{value:'',textContent:'',innerHTML:'',style:{},classList:{add(){},toggle(){}},addEventListener(){}});return elements.get(k)},querySelectorAll:()=>[],querySelector:()=>null,body:{innerText:'',querySelectorAll:()=>[]},documentElement:{appendChild(){}},createElement:()=>({style:{},appendChild(){}})},
     addEventListener:(name,fn)=>listeners[name]=fn,removeEventListener(){},open:()=>({}),opener:null};
-  c.window=c;
+  c.window=c;c.top=c;c.MouseEvent=c.PointerEvent=c.KeyboardEvent=c.FocusEvent=c.Event;
   vm.createContext(c);
   return {c,elements,listeners,replaced,timers,run:s=>vm.runInContext(s,c)};
 }
@@ -39,12 +41,34 @@ function board() {
   return e;
 }
 const payload={type:'coop-payload',id,batchId:'batch-1',job:{company:'Test',role:'Intern'},files:[]};
+async function until(done) {
+  for(let i=0;i<100&&!done();i++)await new Promise(setImmediate);
+  assert.ok(done(),'userscript did not reach expected state');
+}
+function formEnvironment() {
+  const e=environment();e.c.setTimeout=fn=>setImmediate(fn);
+  e.c.location.hash='#coop='+id+'&p='+encode(payload);
+  e.c.CoopEngine={answerFor:()=>({k:'need'})};
+  let clicks=0;
+  const button={textContent:'Submit application',offsetWidth:100,getAttribute:()=>null,
+    focus(){},scrollIntoView(){},getBoundingClientRect:()=>({left:0,top:0,width:100,height:30}),
+    dispatchEvent(){},click:()=>clicks++};
+  e.c.document.querySelectorAll=s=>s==='button, input[type=submit], a[role=button], [role=button]'?[button]:[];
+  return {...e,button,clicks:()=>clicks};
+}
+function expose(e) {
+  e.run(read('coop-apply.user.js').replace(/  run\(\)\.catch[\s\S]*?\n\}\)\(\);/,
+    '  window.testing={finish,report,stallActions,fill,ownOptions,comboShows,matchOption,realClick};\n})();'));
+  return e.c.testing;
+}
 
 test('userscript consumes relay hash and reports success without window.opener',async()=>{
   const e=environment();e.c.location.hash='#coop='+id+'&p='+encode(payload);
+  e.c.setTimeout=fn=>setImmediate(fn);
+  e.c.sessionStorage.setItem('coop-clicked','batch-1:'+id);
   e.c.document.body.innerText='Thank you for applying';
   e.run(read('coop-apply.user.js'));
-  await new Promise(setImmediate);
+  await until(()=>e.replaced.length);
   assert.equal(e.replaced.length,1);
   const returned=new URL(e.replaced[0]);
   assert.equal(returned.pathname,'/coop-scraper/relay.html');
@@ -136,18 +160,10 @@ test('failed CSV refresh preserves existing rows and exposes the error',async()=
 });
 
 test('dry-run flag records submit readiness without clicking submit',async()=>{
-  const e=environment();e.c.__coopDry=true;
-  e.c.location.hash='#coop='+id;
-  e.c.sessionStorage.setItem('coop-payload',JSON.stringify(payload));
-  e.c.CoopEngine={answerFor:()=>({})};
-  e.c.setTimeout=fn=>setImmediate(fn);
-  let clicks=0;
-  const button={textContent:'Submit application',offsetWidth:100,click:()=>clicks++};
-  e.c.document.querySelector=()=>({});
-  e.c.document.querySelectorAll=selector=>selector==='button, input[type=submit]'?[button]:[];
+  const e=formEnvironment();e.c.__coopDry=true;
   e.run(read('coop-apply.user.js'));
-  for(let i=0;i<8&&!e.c.__coopLast;i++)await new Promise(setImmediate);
-  assert.equal(e.c.__coopLast.status,'dry-submit');assert.equal(clicks,0);assert.equal(e.replaced.length,0);
+  await until(()=>e.c.__coopLast);
+  assert.equal(e.c.__coopLast.status,'dry-submit');assert.equal(e.clicks(),0);assert.equal(e.replaced.length,0);
 });
 
 test('staging does not release an application when status cannot be saved',async()=>{
@@ -171,4 +187,85 @@ test('stopped queue records its in-flight result but does not open another job',
   e.c.location.hash='#done='+encode({...payload,ok:true});e.run(inline('relay.html'));e.timers[0]();
   assert.equal(JSON.parse(e.c.localStorage.getItem('coop-batch')).done,1);
   assert.equal(e.replaced.length,0);
+});
+
+test('successful submission always returns to relay once even with an opener',()=>{
+  const e=formEnvironment(),sent=[];e.c.opener={postMessage:(...m)=>sent.push(m)};
+  const api=expose(e);api.finish({ok:true,status:'applied'});api.finish({ok:true,status:'applied'});
+  assert.equal(sent.length,0);assert.equal(e.replaced.length,1);
+  const r=JSON.parse(Buffer.from(new URLSearchParams(new URL(e.replaced[0]).hash.slice(1)).get('done'),'base64url'));
+  assert.equal(r.batchId,payload.batchId);assert.equal(r.id,id);
+  assert.equal(e.c.sessionStorage.getItem('coop-payload'),null);
+});
+
+test('errors stay open and an explicit skip returns a non-submitted receipt',()=>{
+  const e=formEnvironment(),api=expose(e);
+  api.finish({ok:false,status:'error',need:['missing answer']});assert.equal(e.replaced.length,0);
+  assert.ok(e.c.sessionStorage.getItem('coop-payload'));
+  api.stallActions(['missing answer'],[])[1].fn();assert.equal(e.replaced.length,1);
+  const r=JSON.parse(Buffer.from(new URLSearchParams(new URL(e.replaced[0]).hash.slice(1)).get('done'),'base64url'));
+  assert.equal(r.ok,false);assert.equal(r.batchId,payload.batchId);
+});
+
+test('dry-run completion never posts results to the board or redirects',()=>{
+  const e=formEnvironment(),sent=[];e.c.__coopDry=true;e.c.opener={postMessage:m=>sent.push(m)};
+  expose(e).finish({ok:true,status:'applied'});
+  assert.equal(sent.length,0);assert.equal(e.replaced.length,0);assert.ok(e.c.sessionStorage.getItem('coop-payload'));
+});
+
+test('invalid or mismatched relay payload cannot reuse stored answers',()=>{
+  for(const p of ['broken',encode({...payload,id:other}),encode({...payload,files:null})]) {
+    const e=formEnvironment();e.c.sessionStorage.setItem('coop-payload',JSON.stringify(payload));
+    e.c.location.hash='#coop='+id+'&p='+p;e.run(read('coop-apply.user.js'));
+    assert.equal(e.c.__coopRunning,undefined);assert.equal(e.replaced.length,0);
+  }
+});
+
+test('confirmation text from a previous batch is not a successful current application',async()=>{
+  const e=formEnvironment();e.c.__coopDry=true;e.c.document.body.innerText='Thank you for applying';
+  e.c.sessionStorage.setItem('coop-clicked','old-batch:'+id);
+  e.run(read('coop-apply.user.js'));await until(()=>e.c.__coopLast);
+  assert.equal(e.c.__coopLast.status,'dry-submit');assert.equal(e.replaced.length,0);
+});
+
+test('multi-page dry run advances Next but does not activate Submit',async()=>{
+  const e=formEnvironment();e.c.__coopDry=true;let nextClicks=0;
+  e.button.textContent='Next';e.button.getAttribute=n=>n==='aria-label'?e.button.textContent:null;
+  e.button.click=()=>{nextClicks++;e.button.textContent='Submit application';e.c.document.body.innerText='Review your application'};
+  e.run(read('coop-apply.user.js'));await until(()=>e.c.__coopLast);
+  assert.equal(e.c.__coopLast.status,'dry-submit');assert.equal(nextClicks,1);
+});
+
+test('submit gets one activation and confirmed success carries the batch ID',async()=>{
+  const e=formEnvironment();let activations=0;
+  e.button.dispatchEvent=ev=>{if(ev.type==='click')activations++};
+  e.button.click=()=>{activations++;e.c.document.body.innerText='Your application has been submitted'};
+  e.run(read('coop-apply.user.js'));await until(()=>e.replaced.length);
+  assert.equal(activations,1);
+  const r=JSON.parse(Buffer.from(new URLSearchParams(new URL(e.replaced[0]).hash.slice(1)).get('done'),'base64url'));
+  assert.equal(r.ok,true);assert.equal(r.batchId,payload.batchId);
+});
+
+test('empty resume attachment stops submission',async()=>{
+  const e=formEnvironment();e.c.__coopDry=true;
+  const parent={textContent:'Resume',querySelectorAll:()=>[],querySelector:()=>null};
+  const file={tagName:'INPUT',files:[],offsetWidth:100,labels:[{textContent:'Resume'}],parentElement:parent,
+    getAttribute:n=>n==='type'?'file':null,closest:()=>parent};
+  e.c.document.body.querySelectorAll=s=>s==='input, textarea, select'?[file]:[];
+  const query=e.c.document.querySelectorAll;e.c.document.querySelectorAll=s=>s==='input[type=file]'?[file]:query(s);
+  e.run(read('coop-apply.user.js'));await until(()=>e.c.__coopLast);
+  assert.equal(e.c.__coopLast.status,'needs-you');assert.match(e.c.__coopLast.need.join(' '),/resume didn't attach/);
+  assert.equal(e.clicks(),0);
+});
+
+test('dropdown options are scoped to their control and committed phone values count',()=>{
+  const e=formEnvironment(),api=expose(e);
+  const option=textContent=>({textContent,offsetWidth:100});
+  const correct=[option('United States')],wrong=[option('Previous menu')];
+  e.c.document.getElementById=()=>({querySelectorAll:()=>correct});
+  e.c.document.querySelectorAll=()=>wrong;
+  const input={getAttribute:n=>n==='aria-controls'?'countries':null,closest:()=>null};
+  assert.equal(api.ownOptions(input)[0],correct[0]);
+  assert.equal(api.comboShows({querySelector:()=>({textContent:'+1'})},'United States (+1)'),true);
+  assert.equal(api.matchOption(['3.8 out of 4.0','3.9 out of 4.0','4.0 out of 4.0'],'3.96'),1);
 });
