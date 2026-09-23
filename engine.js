@@ -1,6 +1,6 @@
 /* Shared conservative answers. Unknown facts and ambiguous choices require review. */
 (function () {
-  const VERSION = 8;
+  const VERSION = 9;
   const STD_FIELDS = [["Name","input_text"],["Email","input_text"],["Phone","input_text"],["Location (city)","input_text"],["LinkedIn profile","input_text"],["Resume","file"],["Cover letter","file"],["School / University","input_text"],["Degree","input_text"],["Major","input_text"],["Expected graduation date","input_text"],["GPA","input_text"]];
   const norm = s => String(s ?? "").normalize("NFKC").toLowerCase().replace(/[✱*]/g, "").replace(/[’‘]/g, "'").replace(/\s+/g, " ").trim();
   const labelKey = s => norm(s).replace(/[?:]+$/, "").trim();
@@ -29,6 +29,30 @@
     return answer;
   }
   const bool = v => /^(yes|true)(\b|$)/i.test(String(v)) ? true : /^(no|false)(\b|$)/i.test(String(v)) ? false : null;
+  // Only explicit user answers enter this memory; never learn generated guesses.
+  const memoryKey = (label, jobId = "") => JSON.stringify([labelKey(label), jobId]);
+  const privateQuestion = label => /password|passcode|one.time|verification code|social security|ssn|passport|bank account|routing number|credit card|api key|access token|signature/i.test(label);
+  const contextualQuestion = label => /\b(this|our|us|here|role|position|company|employer|office|relocat\w*|commut\w*|salary|compensation|start date|availability|available|willing|agree|consent|certify|acknowledge|previously|ever)\b/i.test(label);
+  function learnedRecord(label, value, job, type = "text", options = []) {
+    if (!labelKey(label) || privateQuestion(label)) return null;
+    const values = (Array.isArray(value) ? value : [value]).map(v => String(v).trim()).filter(Boolean);
+    if (!values.length || values.some(v => v.length > 6000)) return null;
+    return {label:String(label).slice(0,1000),values,jobId:contextualQuestion(label)?String(job?.id||""):"",type,options:options.map(String).slice(0,300),updatedAt:new Date().toISOString()};
+  }
+  function mergeLearned(...lists) {
+    const out = new Map();
+    for (const r of lists.flat()) {
+      if (!r || typeof r.label !== "string" || privateQuestion(r.label) || !Array.isArray(r.values)) continue;
+      const key = memoryKey(r.label, r.jobId || ""), old = out.get(key);
+      if (!old || String(r.updatedAt||"") >= String(old.updatedAt||"")) out.set(key,r);
+    }
+    return [...out.values()];
+  }
+  function remembered(f, ctx) {
+    const matches = (ctx.learnedAnswers || []).filter(r => !r.deleted && labelKey(r.label) === labelKey(f.label) && (!r.jobId || r.jobId === ctx.job?.id));
+    const r = matches.find(r => r.jobId === ctx.job?.id) || matches.find(r => !r.jobId);
+    return r ? validateAnswer(f,{a:r.values.join(" + "),values:r.values,source:"your saved answer"}) : null;
+  }
   function propose(f, ctx) {
     const l = labelKey(f.label), p = ctx.profile || {}, a = ctx.answers || {}, o = optionsFor(f);
     const saved = key => p[key] === undefined || p[key] === "" ? need("Not saved in your profile") : {a:String(p[key]), source:key};
@@ -44,6 +68,7 @@
     if (/^(latitude|longitude|country_short_name)$/.test(l)) return need("Select your location on the application form; do not guess coordinates");
     const overrides = a.field_answers || {};
     const override = Object.keys(overrides).find(k => labelKey(k) === l);
+    const memoryAnswer = remembered(f,ctx); if (memoryAnswer) return memoryAnswer;
     if (override) { const value = overrides[override]; return Array.isArray(value) ? {a:value.join(" + "),values:value} : {a:String(value)}; }
     if (f.eeo || /^(gender|race|ethnicity|veteran ?status|disability ?status|pronouns)$/.test(l) || /^(how would you describe your (gender identity|racial|sexual orientation)|do you identify as transgender)/.test(l)) {
       if (!/decline|not.*(answer|disclos)|self.identify/i.test(p.eeo || "")) return need("No saved disclosure preference");
@@ -120,5 +145,5 @@
     return need();
   }
   function answerFor(f, ctx = {}) { return validateAnswer(f, propose(f,ctx)); }
-  window.CoopEngine = {VERSION,answerFor,validateAnswer,hiddenField,multiField,optionsFor,pickOpt,STD_FIELDS};
+  window.CoopEngine = {memoryKey,learnedRecord,mergeLearned,remembered,contextualQuestion,VERSION,answerFor,validateAnswer,hiddenField,multiField,optionsFor,pickOpt,STD_FIELDS};
 })();

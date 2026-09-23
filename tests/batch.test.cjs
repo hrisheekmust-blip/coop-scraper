@@ -51,7 +51,7 @@ async function until(done) {
 function formEnvironment() {
   const e=environment();e.c.setTimeout=fn=>setImmediate(fn);
   e.c.location.hash='#coop='+id+'&p='+encode(payload);
-  e.c.CoopEngine={VERSION:8,answerFor:()=>({k:'need'})};
+  e.c.CoopEngine={VERSION:9,answerFor:()=>({k:'need'})};
   let clicks=0;
   const button={textContent:'Submit application',offsetWidth:100,getAttribute:()=>null,
     focus(){},scrollIntoView(){},getBoundingClientRect:()=>({left:0,top:0,width:100,height:30}),
@@ -61,7 +61,7 @@ function formEnvironment() {
 }
 function expose(e) {
   e.run(read('coop-apply.user.js').replace(/  run\(\)\.catch[\s\S]*?\n\}\)\(\);/,
-    '  window.testing={finish,report,stallActions,fill,ownOptions,comboShows,matchOption,realClick,labelOf};\n})();'));
+    '  window.testing={finish,report,stallActions,fill,ownOptions,comboShows,matchOption,realClick,labelOf,trackEdit,captureEdited,programmaticWrite};\n})();'));
   return e.c.testing;
 }
 
@@ -380,4 +380,75 @@ test('automatic mode cannot activate an unknown final action',async()=>{
 test('new board payload explicitly enables automatic submission',async()=>{
  const e=board();const p=await e.run(`buildPayload({id:'${id}',materials:[],answers_obj:{}})`);
  assert.equal(p.autoSubmit,true);
+});
+
+test('new payload carries saved answers and keeps employer-specific answers scoped',async()=>{
+ const e=board();e.run(`cacheLearned([CoopEngine.learnedRecord('Favorite tool','Vim',{id:'a'})])`);
+ const p=await e.run(`buildPayload({id:'${id}',materials:[],answers_obj:{}})`);
+ assert.equal(p.learnedAnswers[0].values[0],'Vim');
+});
+test('batch preflight groups identical questions but separates job-specific commitments',async()=>{
+ const e=board();e.run(`rows=[{id:'a',company:'A'},{id:'b',company:'B'}];forms={a:{fields:[{label:'Favorite tool',required:true},{label:'Can you attend our office?',required:true}]},b:{fields:[{label:'Favorite tool',required:true},{label:'Can you attend our office?',required:true}]}}`);
+ await e.run(`prepareBatch(['a','b'])`);
+ const html=e.elements.get('prepbody').innerHTML;
+ assert.equal((html.match(/data-prep=/g)||[]).length,3);assert.match(html,/A, B/);
+});
+test('learned answers stay cached when private backup fails',async()=>{
+ const e=board();e.run('cfg.token="test"');e.c.fetch=async()=>({ok:false,status:503});
+ await assert.rejects(e.run(`saveLearned([CoopEngine.learnedRecord('Favorite tool','Vim',{id:'a'})])`));
+ assert.match(e.c.localStorage.getItem('coop-learned:hrisheekmust-blip/coop-apps'),/Vim/);
+ assert.equal(e.c.localStorage.getItem('coop-learned:hrisheekmust-blip/coop-apps:pending'),'1');
+});
+test('deferred batch question advances without claiming a submission',async()=>{
+ const e=formEnvironment();e.c.location.hash='#coop='+id+'&p='+encode({...payload,deferMissing:true,autoSubmit:true});
+ const parent={textContent:'Favorite tool',querySelectorAll:()=>[],querySelector:()=>null};
+ const field={tagName:'INPUT',value:'',required:true,offsetWidth:10,labels:[{textContent:'Favorite tool'}],parentElement:parent,getAttribute:n=>n==='type'?'text':null,closest:s=>s.includes('aria-hidden')?null:parent};
+ e.c.document.body.querySelectorAll=s=>s==='input, textarea, select'?[field]:[];
+ e.run(read('coop-apply.user.js'));await until(()=>e.replaced.length);
+ const r=JSON.parse(Buffer.from(new URLSearchParams(new URL(e.replaced[0]).hash.slice(1)).get('done'),'base64url'));
+ assert.equal(r.ok,false);assert.equal(r.deferred,true);assert.equal(e.clicks(),0);assert.equal(r.questions[0].label,'Favorite tool');
+});
+test('Save answers button never marks an unsubmitted application as applied',()=>{
+ const e=formEnvironment(),api=expose(e);api.stallActions(['missing'],[])[0].fn();
+ assert.equal(e.replaced.length,0);assert.notEqual(e.c.__coopLast?.status,'applied');
+});
+
+
+test('only real user edits are learned, then reused with the same question',()=>{
+ const e=formEnvironment();e.c.CoopEngine=environment().c.CoopEngine;const api=expose(e);
+ const field={isConnected:true,tagName:'INPUT',type:'text',value:'Vim',labels:[{textContent:'Favorite tool'}],getAttribute:()=>null,closest:()=>null,matches:()=>true};
+ api.trackEdit({isTrusted:false,type:'change',target:field});api.captureEdited();
+ assert.equal(JSON.parse(e.c.sessionStorage.getItem('coop-payload')).learnedAnswers.length,0);
+ api.trackEdit({isTrusted:true,type:'change',target:field});api.captureEdited();
+ const records=JSON.parse(e.c.sessionStorage.getItem('coop-payload')).learnedAnswers;
+ assert.equal(records.length,1);assert.equal(records[0].values[0],'Vim');
+});
+test('answer backup retries a conflict without discarding another saved answer',async()=>{
+ const e=board();e.run('cfg.token="test"');let puts=0,posted;
+ const remote=[{label:'Other question',values:['Other answer'],jobId:'',updatedAt:'2000-01-01'}];
+ e.c.fetch=async(url,opt)=>{if(opt.method==='PUT'){puts++;posted=JSON.parse(Buffer.from(JSON.parse(opt.body).content,'base64').toString());return puts===1?{ok:false,status:409}:{ok:true,json:async()=>({})}}
+ return {ok:true,json:async()=>({sha:'current',content:Buffer.from(JSON.stringify(remote)).toString('base64')})}};
+ await e.run(`saveLearned([CoopEngine.learnedRecord('Favorite tool','Vim',{id:'a'})])`);
+ assert.equal(puts,2);assert.equal(posted.length,2);assert.ok(posted.some(r=>r.label==='Other question'));
+});
+
+
+test('trusted input emitted by browser autofill commands is never learned',()=>{
+ const e=formEnvironment();e.c.CoopEngine=environment().c.CoopEngine;const api=expose(e);
+ const field={isConnected:true,tagName:'INPUT',type:'text',value:'Generated',labels:[{textContent:'Favorite tool'}],getAttribute:()=>null,closest:()=>null,matches:()=>true};
+ api.programmaticWrite(field,()=>api.trackEdit({isTrusted:true,type:'input',target:field}));api.captureEdited();
+ assert.equal(JSON.parse(e.c.sessionStorage.getItem('coop-payload')).learnedAnswers.length,0);
+ api.trackEdit({isTrusted:true,type:'input',target:field});api.captureEdited();
+ assert.equal(JSON.parse(e.c.sessionStorage.getItem('coop-payload')).learnedAnswers.length,1);
+});
+
+
+test('Ashby Yes/No buttons remember the most recent human choice',()=>{
+ const e=formEnvironment();e.c.CoopEngine=environment().c.CoopEngine;const api=expose(e);
+ const entry={querySelector:()=>({textContent:'Do you own a soldering iron?'})};
+ const button=value=>({isConnected:true,tagName:'BUTTON',textContent:value,closest:s=>s==='.ashby-application-form-field-entry'?entry:null,getAttribute:()=>null});
+ const yes=button('Yes'),no=button('No');
+ for(const b of [yes,no,yes])api.trackEdit({isTrusted:true,type:'click',target:{closest:s=>s.includes('button')?b:null}});
+ api.captureEdited();const records=JSON.parse(e.c.sessionStorage.getItem('coop-payload')).learnedAnswers;
+ assert.equal(records.length,1);assert.equal(records[0].values[0],'Yes');
 });

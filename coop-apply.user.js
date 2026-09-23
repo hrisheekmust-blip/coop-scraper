@@ -1,10 +1,10 @@
 // ==UserScript==
 // @name         Co-op board: one-click apply
 // @namespace    coop-hrisheek
-// @version      3.5
+// @version      3.6
 // @description  Opened by the co-op board: fills confirmed answers, attaches prepared files, and submits complete applications authorized from the board. The board controls which portals can be automated.
 // @match        *://*/*
-// @require      https://hrisheekmust-blip.github.io/coop-scraper/engine.js?v=8
+// @require      https://hrisheekmust-blip.github.io/coop-scraper/engine.js?v=9
 // @grant        none
 // @run-at       document-idle
 // ==/UserScript==
@@ -58,7 +58,7 @@
     }
   }
   window.addEventListener("message", e => { const d = e.data || {}; if (d.type === "coop-banner" && window.top === window) banner(d.msg, d.kind); });
-  const result = m => ({ ...m, type: "coop-result", id: payload ? payload.id : hashId, batchId: payload && payload.batchId, url: location.href, at: new Date().toISOString() });
+  const result = m => ({ ...m, learnedAnswers: payload?.learnedAnswers || [], type: "coop-result", id: payload ? payload.id : hashId, batchId: payload && payload.batchId, url: location.href, at: new Date().toISOString() });
   const report = m => {
     window.__coopLast = m; (window.__coopReports = window.__coopReports || []).push(m);
     if (DRY || m.ok) return; // Successful results have one durable route through the relay.
@@ -67,6 +67,7 @@
   let reported = false;
   function finish(m, skipped = false) {
     if (reported) return;
+    m = {...m,learnedAnswers:payload?.learnedAnswers||[]};
     report(m);
     if (DRY || (!m.ok && !skipped)) return; // Missing answers and errors stay on the form.
     reported = true;
@@ -74,9 +75,59 @@
     const r = result({ ...m, need: (m.need || []).slice(0, 12), done: (m.done || []).slice(-40) });
     location.replace(RELAY + "#done=" + b64e(JSON.stringify(r)));
   }
+  let resumeRequested = 0;
+  const editedControls = new Set();
+  const writingControls = new Set();
+  function programmaticWrite(el, fn) {
+    const nested=writingControls.has(el);writingControls.add(el);
+    const done=()=>{if(!nested)writingControls.delete(el)};
+    try {const value=fn();if(value?.finally)return value.finally(done);done();return value} catch(e){done();throw e}
+  }
+  function captureEdited() {
+    if (!payload || !window.CoopEngine?.learnedRecord) return;
+    const learned = [];
+    for (const el of editedControls) {
+      if (!el.isConnected || el.closest?.("#coop-banner") || /password|file|hidden/.test(el.type || "")) continue;
+      let label = labelOf(el), value = el.value, type = el.type || "text", options = [];
+      if (el.tagName === "BUTTON") {
+        const entry=el.closest(".ashby-application-form-field-entry");
+        if(!entry||!/^(yes|no)$/i.test(txt(el)))continue;
+        label=txt(entry.querySelector("label"));value=txt(el);type="Boolean";options=["Yes","No"];
+      } else if (el.tagName === "SELECT") { options=[...el.options].map(txt);value=[...el.selectedOptions].map(txt);type=el.multiple?"select-multiple":"select"; }
+      else if (/checkbox|radio/.test(type)) {
+        const fs=el.closest("fieldset,[role=group],[role=radiogroup],.application-question,.field");
+        if (!fs) continue;
+        const choices=[...fs.querySelectorAll("input[type=checkbox],input[type=radio]")];
+        label=groupLabel(fs);options=choices.map(x=>txt(x.labels?.[0]));value=choices.filter(x=>x.checked).map(x=>txt(x.labels?.[0]));
+      } else if (el.getAttribute("role") === "combobox") {
+        const ctrl=el.closest("[class*='select__control'],[class*='control']");
+        value=ctrl?[...ctrl.querySelectorAll("[class*='single-value'],[class*='multi-value__label']")].map(txt):[];
+        if (!value.length) continue; // A typed autocomplete query is not an answer.
+        type=value.length>1?"select-multiple":"text";
+      }
+      const record=window.CoopEngine.learnedRecord(label,value,{...payload.job,id:payload.id},type,options);
+      if (record) learned.push(record);
+    }
+    payload.learnedAnswers=window.CoopEngine.mergeLearned(payload.learnedAnswers||[],learned);
+    try { sessionStorage.setItem(KEY,JSON.stringify(payload)); } catch(e) {}
+  }
+  function trackEdit(e) {
+    if (!e.isTrusted || writingControls.has(e.target) || e.target.closest?.("#coop-banner") || e.target.type === "search") return;
+    if (e.target.matches?.("input,textarea,select")) editedControls.add(e.target);
+    if(e.type === "click") {const b=e.target.closest?.(".ashby-application-form-field-entry button");if(b&&/^(yes|no)$/i.test(txt(b))){editedControls.delete(b);editedControls.add(b)}}
+    // React Select options commit on click, then clear/blur the input.
+    if (e.type === "pointerdown") {
+      const active=document.activeElement;
+      if (active?.getAttribute?.("role")==="combobox") editedControls.add(active);
+    }
+    setTimeout(captureEdited,100);
+  }
   const stallActions = (need, done) => [
-    { label: "I finished it — continue", fn: () => finish({ ok: true, status: "applied", done: (done || []).concat("finished by hand in the form tab") }) },
-    { label: "Skip this one", fn: () => finish({ ok: false, status: "needs-you", need: need || ["skipped by you"], done }, true) }];
+    { label: "Save answers & continue", fn: () => {
+      captureEdited(); resumeRequested++;
+      banner("answers saved; checking the form again…");
+    } },
+    { label: "Set aside & continue batch", fn: () => {captureEdited();finish({ ok:false,status:"needs-you",deferred:true,need:need||["set aside by you"],done },true)} }];
 
   // ---------------------------------------------------------------- payload handshake with the board tab
   async function getPayload() {
@@ -96,7 +147,8 @@
   function fireReact(el, names, type) { const p = reactProps(el); if (!p) return false; let hit = false; for (const n of names) if (typeof p[n] === "function") { try { p[n](synth(el, type)); hit = true; } catch (e) {} } return hit; }
   const valDesc = el => Object.getOwnPropertyDescriptor(el.tagName === "TEXTAREA" ? HTMLTextAreaElement.prototype : HTMLInputElement.prototype, "value");
   function setNative(el, v) { el.focus(); valDesc(el).set.call(el, v); el.dispatchEvent(new Event("input", { bubbles: true })); el.dispatchEvent(new Event("change", { bubbles: true })); }
-  function setText(el, v) {
+  function setText(el,v) { return programmaticWrite(el,()=>writeText(el,v)); }
+  function writeText(el, v) {
     el.focus();
     try { el.select && el.select(); } catch (e) {}
     if (el.value) { try { document.execCommand("delete", false); } catch (e) {} if (el.value) valDesc(el).set.call(el, ""); el.dispatchEvent(new Event("input", { bubbles: true })); }
@@ -105,7 +157,8 @@
     el.dispatchEvent(new Event("input", { bubbles: true })); el.dispatchEvent(new Event("change", { bubbles: true }));
     el.dispatchEvent(new KeyboardEvent("keyup", { bubbles: true })); el.dispatchEvent(new FocusEvent("blur", { bubbles: true })); el.blur();
   }
-  async function setValueVerified(el, v) {
+  function setValueVerified(el,v) { return programmaticWrite(el,()=>writeValueVerified(el,v)); }
+  async function writeValueVerified(el, v) {
     setText(el, v); await sleep(80);
     let p = reactProps(el);
     if (p && "value" in p && p.value !== v) {
@@ -119,7 +172,8 @@
     if (opt) { realClick(opt); await sleep(200); }
     p = reactProps(el); return !p || !("value" in p) || p.value === v || el.value === v;
   }
-  async function setCheckedVerified(el, on) {
+  function setCheckedVerified(el,on) { return programmaticWrite(el,()=>writeCheckedVerified(el,on)); }
+  async function writeCheckedVerified(el, on) {
     const says = () => { const q = reactProps(el); return q && typeof q.checked === "boolean" ? q.checked : el.checked; };
     if (el.checked !== on) { el.click(); await sleep(80); }
     if (says() !== on && el.labels && el.labels[0]) { realClick(el.labels[0]); await sleep(80); }
@@ -200,8 +254,9 @@
 
   // ---------------------------------------------------------------- fill everything visible on the current page
   async function fill(P) {
-    const ctx = { job: P.job, answers: P.answers, profile: P.profile, cover: P.cover, coverText: P.coverText || "" };
-    const A = f => window.CoopEngine.answerFor(f, ctx);
+    const ctx = { learnedAnswers:P.learnedAnswers||[], job: {...P.job,id:P.id}, answers: P.answers, profile: P.profile, cover: P.cover, coverText: P.coverText || "" };
+    const questions = new Map();
+    const A = f => {questions.set(norm(f.label),f);return window.CoopEngine.answerFor(f, ctx)};
     const need = [], done = [], seen = new Set(), asked = new Set();
     const files = { resume: P.files.find(f => /resume/i.test(f.kind)), cover: P.cover ? P.files.find(f => /cover/i.test(f.kind)) : null };
     const root = document.querySelector(".jobs-easy-apply-modal") || document.querySelector("[role=dialog] form") || document.querySelector("form") || document.body;
@@ -329,7 +384,8 @@
     }
     const coords = [...root.querySelectorAll("input[name=latitude], input[name=longitude]")];
     if (coords.length && coords.some(el => !el.value?.trim())) need.push("Select your location from the location suggestions to complete its coordinates");
-    return { need, done };
+    captureEdited();
+    return { need, done, questions:[...questions.values()].filter(f=>need.some(n=>n===f.label||n.startsWith(f.label+" ("))) };
   }
 
   // ---------------------------------------------------------------- page-walking helpers
@@ -349,7 +405,7 @@
   const signature = () => location.href.split("#")[0] + "|" + bodyText().replace(/\d/g, "").slice(0, 3000);
   const spinner = () => [...document.querySelectorAll("[aria-busy='true'], [class*='spinner'], [class*='Spinner'], [class*='loading']:not([class*='loaded'])")].some(visible);
   async function settle(ms = 1200) { await sleep(ms); for (let i = 0; i < 20 && spinner(); i++) await sleep(300); }
-  async function waitChange() { const sig = signature(); while (signature() === sig) await sleep(1000); }
+  async function waitChange() { const sig = signature(), revision=resumeRequested; while (signature() === sig && revision===resumeRequested && !reported) await sleep(500); }
 
   // ---------------------------------------------------------------- portal quirks
   const findBtn = rx => [...document.querySelectorAll("a, button, input[type=button], input[type=submit], [role=button]")].filter(visible).find(x => rx.test(txt(x) + " " + (x.getAttribute("aria-label") || "") + " " + (x.value || "")) && !/alert|share|refer a friend|save job/i.test(txt(x)));
@@ -401,8 +457,9 @@
   async function run() {
     const P = await getPayload();
     if (!P) { banner("no answers for this posting reached this tab; go back to the board and click Apply again", "err"); return; }
+    for (const event of ["input","change","pointerdown","click"]) document.addEventListener(event,trackEdit,true);
     const submissionKey = (P.batchId || "legacy") + ":" + P.id;
-    if (window.CoopEngine?.VERSION !== 8) { banner("update the apply script from board Settings before continuing", "err"); report({ok:false,status:"needs-you",need:["answer engine update required"]}); return; }
+    if (window.CoopEngine?.VERSION !== 9) { banner("update the apply script from board Settings before continuing", "err"); report({ok:false,status:"needs-you",need:["answer engine update required"]}); return; }
     for (let i = 0; i < 40 && document.readyState !== "complete"; i++) await sleep(250);
     await settle(800);
     if (succeeded() && sessionStorage.getItem("coop-clicked") === submissionKey) { banner("submitted ✓ recorded on the board", "ok"); finish({ ok: true, status: "applied" }); return; }
@@ -413,7 +470,7 @@
       }
       const need = complaints();
       need.push(captchaUp() ? "Complete the captcha on this page" : "No submission confirmation yet. Check this tab before trying again.");
-      banner(need.join(" � "), "wait", stallActions(need, done));
+      banner(need.join(" · "), "wait", stallActions(need, done));
       report({ok:false,status:"needs-you",need,done});
     }
     // A reload after a slow response must never submit this application twice.
@@ -421,7 +478,7 @@
       banner("checking the previous submission; I will not press Submit again", "wait");
       await awaitSubmission([]); return;
     }
-    const mark = e => { if (e.isTrusted) sessionStorage.setItem("coop-clicked", submissionKey); };
+    const mark = e => { if(e.isTrusted)captureEdited(); if (e.isTrusted) sessionStorage.setItem("coop-clicked", submissionKey); };
     const clickMark = e => { const b = e.target.closest?.("button, input[type=submit]"); if (b && /submit|^apply( now)?$/i.test(norm(txt(b) || b.value))) mark(e); };
     document.addEventListener("submit", mark, true); document.addEventListener("click", clickMark, true);
     const mod = M[PORTAL] || M.other;
@@ -432,6 +489,7 @@
     if (pre !== true) { banner(pre, "err", stallActions([pre], [])); finish({ ok: false, status: "needs-you", need: [pre] }); return; }
     const allDone = [];
     for (let step = 0; step < 14; step++) {
+      if (reported) return;
       await settle(600);
       if (sessionStorage.getItem("coop-clicked") === submissionKey && succeeded()) { banner("submitted ✓ recorded on the board", "ok"); finish({ ok: true, status: "applied", done: allDone }); return; }
       if (loginPage()) {
@@ -444,11 +502,11 @@
         while (loginPage()) await sleep(1000);
         continue;
       }
-      if (captchaUp()) { banner("captcha: solve it and I'll continue", "wait"); if (DRY) { report({ ok: false, status: "captcha", done: allDone }); return; } while (captchaUp()) await sleep(1000); }
+      if (captchaUp()) { if(P.deferMissing&&!DRY){finish({ok:false,status:"needs-you",deferred:true,need:["captcha needs your attention"],done:allDone},true);return;} banner("captcha: solve it and I'll continue", "wait"); if (DRY) { report({ ok: false, status: "captcha", done: allDone }); return; } while (captchaUp()) await sleep(1000); }
       if (window.top === window && embeddedForm()) { banner("the form is embedded on this page; filling it inside the frame…"); await sleep(4000); if (embeddedForm()) { for (let k = 0; k < 600; k++) { await sleep(1000); if (!embeddedForm() || succeeded()) break; } continue; } }
       if (acceptCookies()) await sleep(400);
       banner(`page ${step + 1}: filling ${P.job.company} · ${P.job.role}…`);
-      const { need, done } = await fill(P); allDone.push(...done);
+      const { need, done, questions } = await fill(P); allDone.push(...done);
       if (mod.fix) await mod.fix(P);
       const btn = primaryButton();
       if (!btn) { banner("can't find the Next / Submit button on this page; press it yourself and I'll keep going", "wait", stallActions(need.concat(["next button"]), allDone)); report({ ok: false, status: DRY ? "no-button" : "needs-you", need: need.concat(["next button"]), done: allDone }); if (DRY) return; await waitChange(); continue; }
@@ -460,7 +518,8 @@
         const resumeBox = fileBoxes.find(f => /resume|cv/i.test(labelOf(f) + " " + txt(entryOf(f))));
         if (resumeBox && !(resumeBox.files && resumeBox.files.length) && !/\.pdf|\.doc/i.test(txt(entryOf(resumeBox)))) need.push("the resume didn't attach");
       }
-      if (need.length) { banner(`${need.length} field(s) need your review: ${need.join(" · ")}`, "err", stallActions(need, allDone)); report({ ok: false, status: "needs-you", need, done: allDone }); if (DRY) return; await waitChange(); continue; }
+      if (need.length && P.deferMissing && !DRY) { finish({ok:false,status:"needs-you",deferred:true,need,questions,done:allDone},true);return; }
+      if (need.length) { banner(`${need.length} field(s) need your review: ${need.join(" · ")}`, "err", stallActions(need, allDone)); report({ ok: false, status: "needs-you", need, questions, done: allDone }); if (DRY) return; await waitChange(); continue; }
       if (isSubmit && P.autoSubmit === true) {
         if (!/^(submit( (my|your))? application|submit|send application|apply( now)?)$/i.test(buttonLabel) || !onForm()) {
           const reasons=["Review this final action: " + buttonLabel];
@@ -471,7 +530,7 @@
         if (DRY) { report({ok:false,status:"dry-submit",need:[],done:allDone});return; }
         sessionStorage.setItem("coop-auto-attempt", submissionKey);
         sessionStorage.setItem("coop-clicked", submissionKey);
-        banner("submitting your application�");
+        banner("submitting your application…");
         realClick(btn);
         await awaitSubmission(allDone); return;
       }
