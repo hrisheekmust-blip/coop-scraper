@@ -635,7 +635,7 @@
 },
 "https://www.indeed.com/viewjob": {
 "first_seen": "2026-09-18",
-"title": "Intern - Hardware Engineer",
+"title": "Co-op- Hardware Engineer",
 "company": "Symbotic",
 "desc": ""
 },
@@ -6595,7 +6595,7 @@
 "https://www.linkedin.com/jobs/view/4470475523": {
 "first_seen": "2026-09-22",
 "title": "Electrical Engineering Intern",
-"company": "ITW",
+"company": "North Star Imaging",
 "desc": ""
 },
 "https://www.linkedin.com/jobs/view/4470419097": {
@@ -6704,6 +6704,48 @@
 "first_seen": "2026-09-22",
 "title": "Design Verification Intern",
 "company": "Quadric",
+"desc": ""
+},
+"https://jobs.lever.co/hermeus/d2651ecb-9aab-4d84-8e69-cbcf7cece28d": {
+"first_seen": "2026-09-23",
+"title": "Propulsion Test Engineering Intern - Spring 2027",
+"company": "Hermeus",
+"desc": ""
+},
+"https://jobs.ashbyhq.com/quadric/cb79384e-5dd8-49a0-a075-549e7285316c": {
+"first_seen": "2026-09-23",
+"title": "AI Kernel Engineer Intern",
+"company": "Quadric",
+"desc": ""
+},
+"https://jobs.ashbyhq.com/quadric/3f972411-63a7-4b94-869b-85012cc10d52": {
+"first_seen": "2026-09-23",
+"title": "Deep Learning Compiler Intern",
+"company": "Quadric",
+"desc": ""
+},
+"https://jobs.ashbyhq.com/quadric/6a6802ae-2a72-4cbf-b770-a4d1d8168275": {
+"first_seen": "2026-09-23",
+"title": "Data Science Intern- Model Optimization",
+"company": "Quadric",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4468517378": {
+"first_seen": "2026-09-23",
+"title": "Intern - Hardware Engineer",
+"company": "Symbotic",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4470653364": {
+"first_seen": "2026-09-23",
+"title": "Yield Engineering Intern",
+"company": "Qorvo, Inc.",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4324361902": {
+"first_seen": "2026-09-23",
+"title": "Robotic Process Engineer, Intern",
+"company": "Machina Labs",
 "desc": ""
 }
 }
