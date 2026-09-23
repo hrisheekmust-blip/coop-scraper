@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name         Co-op board: one-click apply
 // @namespace    coop-hrisheek
-// @version      3.4
-// @description  Opened by the co-op board: fills confirmed answers, attaches prepared files, and waits for your review and submission. The board controls which portals can be automated.
+// @version      3.5
+// @description  Opened by the co-op board: fills confirmed answers, attaches prepared files, and submits complete applications authorized from the board. The board controls which portals can be automated.
 // @match        *://*/*
 // @require      https://hrisheekmust-blip.github.io/coop-scraper/engine.js?v=8
 // @grant        none
@@ -70,7 +70,7 @@
     report(m);
     if (DRY || (!m.ok && !skipped)) return; // Missing answers and errors stay on the form.
     reported = true;
-    sessionStorage.removeItem(KEY); sessionStorage.removeItem("coop-clicked");
+    sessionStorage.removeItem(KEY); sessionStorage.removeItem("coop-clicked"); sessionStorage.removeItem("coop-auto-attempt");
     const r = result({ ...m, need: (m.need || []).slice(0, 12), done: (m.done || []).slice(-40) });
     location.replace(RELAY + "#done=" + b64e(JSON.stringify(r)));
   }
@@ -336,7 +336,7 @@
   const complaints = () => [...document.querySelectorAll("li, p, span, div, label")].filter(visible).map(txt).filter(t => t.length < 160 && /^missing entry for required field:|is required$|required field|please (complete|enter|select|fill)|this field is required|cannot be blank|must be/i.test(t)).map(t => t.replace(/^missing entry for required field:\s*/i, "").replace(/\s*is required$/i, "").trim()).filter((t, i, a) => t && a.indexOf(t) === i).slice(0, 12);
   const captchaUp = () => [...document.querySelectorAll("iframe[src*='hcaptcha'], iframe[src*='recaptcha'], iframe[src*='turnstile']")].some(f => visible(f) && f.getBoundingClientRect().height > 100);
   const bodyText = () => (document.body.innerText || "").slice(0, 20000);
-  const succeeded = () => /thank you for (applying|your application|your interest)|thanks for (applying|your application)|application (has been |was |is |successfully )?(submitted|received|complete)|we('ve| have) received your application|successfully (submitted|applied)|application submitted|you('ve| have) (successfully )?applied|your application was sent|we will be in touch|we'll be in touch|application confirmation/i.test(bodyText()) || /thanks|confirmation|success|submitted|applied/i.test(location.pathname + location.search);
+  const succeeded = () => /thank you for applying|thanks for applying|(?:your )?application (?:has been |was |is |successfully )?(?:submitted|received)|we(?:'ve| have) received your application|your application was sent/i.test(bodyText()) || /\/(?:thank-you|thanks|confirmation|application-submitted)(?:\/|$)/i.test(location.pathname);
   const loginPage = () => [...document.querySelectorAll("input[type=password]")].some(visible);
   function primaryButton() {
     const cands = [...document.querySelectorAll("button, input[type=submit], a[role=button], [role=button]")].filter(visible).filter(b => !b.disabled && b.getAttribute("aria-disabled") !== "true");
@@ -406,6 +406,21 @@
     for (let i = 0; i < 40 && document.readyState !== "complete"; i++) await sleep(250);
     await settle(800);
     if (succeeded() && sessionStorage.getItem("coop-clicked") === submissionKey) { banner("submitted âœ“ recorded on the board", "ok"); finish({ ok: true, status: "applied" }); return; }
+    async function awaitSubmission(done) {
+      for (let i = 0; i < 60; i++) {
+        if (succeeded()) { finish({ok:true,status:"applied",done}); return; }
+        await sleep(1000);
+      }
+      const need = complaints();
+      need.push(captchaUp() ? "Complete the captcha on this page" : "No submission confirmation yet. Check this tab before trying again.");
+      banner(need.join(" · "), "wait", stallActions(need, done));
+      report({ok:false,status:"needs-you",need,done});
+    }
+    // A reload after a slow response must never submit this application twice.
+    if (sessionStorage.getItem("coop-auto-attempt") === submissionKey) {
+      banner("checking the previous submission; I will not press Submit again", "wait");
+      await awaitSubmission([]); return;
+    }
     const mark = e => { if (e.isTrusted) sessionStorage.setItem("coop-clicked", submissionKey); };
     const clickMark = e => { const b = e.target.closest?.("button, input[type=submit]"); if (b && /submit|^apply( now)?$/i.test(norm(txt(b) || b.value))) mark(e); };
     document.addEventListener("submit", mark, true); document.addEventListener("click", clickMark, true);
@@ -446,6 +461,20 @@
         if (resumeBox && !(resumeBox.files && resumeBox.files.length) && !/\.pdf|\.doc/i.test(txt(entryOf(resumeBox)))) need.push("the resume didn't attach");
       }
       if (need.length) { banner(`${need.length} field(s) need your review: ${need.join(" Â· ")}`, "err", stallActions(need, allDone)); report({ ok: false, status: "needs-you", need, done: allDone }); if (DRY) return; await waitChange(); continue; }
+      if (isSubmit && P.autoSubmit === true) {
+        if (!/^(submit( (my|your))? application|submit|send application|apply( now)?)$/i.test(buttonLabel) || !onForm()) {
+          const reasons=["Review this final action: " + buttonLabel];
+          banner(reasons[0],"wait",stallActions(reasons,allDone));
+          report({ok:false,status:"needs-you",need:reasons,done:allDone});return;
+        }
+        if (succeeded()) { report({ok:false,status:"needs-you",need:["This page already contains confirmation text; check it before submitting"]});return; }
+        if (DRY) { report({ok:false,status:"dry-submit",need:[],done:allDone});return; }
+        sessionStorage.setItem("coop-auto-attempt", submissionKey);
+        sessionStorage.setItem("coop-clicked", submissionKey);
+        banner("submitting your application…");
+        realClick(btn);
+        await awaitSubmission(allDone); return;
+      }
       if (isSubmit) {
         banner("Review every answer and attachment, then submit using the site's button. I will not submit automatically.", "wait", stallActions([], allDone));
         report({ok:false,status:"needs-you",need:["final review and manual submission"],done:allDone});
