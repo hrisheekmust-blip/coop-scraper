@@ -204,10 +204,17 @@ def cmd_restore(a):
     if not src.exists():
         print("no such backup")
         return 1
+    import sqlite3
     cur = p["db"]
     if cur.exists():
-        shutil.copy2(cur, p["backups"] / f"before-restore-{int(time.time())}.sqlite3")
-    shutil.copy2(src, cur)
+        _db().backup(p["backups"] / f"before-restore-{int(time.time())}.sqlite3")
+    # Restore through SQLite's backup API into the live file: its WAL is handled correctly, unlike a file copy.
+    s = sqlite3.connect(str(src))
+    d = sqlite3.connect(str(cur))
+    with d:
+        s.backup(d)
+    s.close()
+    d.close()
     print(f"restored {src} (stop the service first; the previous database was kept in backups)")
 
 

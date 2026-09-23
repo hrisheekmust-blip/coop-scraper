@@ -98,11 +98,10 @@ class Workday(PortalAdapter):
         if not re.search(r"my applications|candidate home", text, re.I):
             return None
         req = (run.job.get("requisition") or "").lower()
-        title = (run.job.get("title") or "").lower()
         low = text.lower()
-        if (req and req in low) or (title and title in low):
-            return "submitted"
-        return "not_found"
+        if not req or run.job.get("provisional"):
+            return None            # a title alone can match last year's or another location's posting
+        return "submitted" if re.search(r"\b" + re.escape(req) + r"\b", low) else "not_found"
 
     def fix_page(self, obs, run):
         return None

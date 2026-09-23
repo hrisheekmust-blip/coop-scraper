@@ -25,6 +25,10 @@ from .policy import Proposal, Validated, need, validate
 from .questions import Question, norm
 
 BUILTIN_KEYS = {k for k, _, _ in RULES} | {"material.resume", "material.cover", "material.cover_text", "consent"}
+# Rules whose question carries a parameter (an employer, a skill, a place, a date range). A saved answer to one of
+# these is only reusable for the same wording, never across employers/skills/places: they're keyed by the exact
+# question (and employer when the wording is contextual) instead of the rule.
+PARAM_KEYS = {"history.prior_employee", "skills.experience", "prefs.relocate_to", "availability.covers_interval", "consent"}
 
 
 class Bank:
@@ -88,12 +92,14 @@ class AnswerEngine:
     # ------------------------------------------------------------------ keys and memory
     def key_for(self, q: Question) -> str:
         k = self.bank.key_for(q)
-        if k:
+        if k and k not in PARAM_KEYS:
             return k
+        if k:
+            return q.fallback_key()
         # builtin rule keys are computed by running the matcher without facts
         for key, rx, _ in RULES:
             if rx.match(q.norm):
-                return key
+                return q.fallback_key() if key in PARAM_KEYS else key
         return q.fallback_key()
 
     def _memory(self, keys, q: Question, bases=("explicit",)):

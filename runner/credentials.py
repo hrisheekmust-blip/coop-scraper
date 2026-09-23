@@ -58,19 +58,40 @@ class KeyringVault(Vault):
         import keyring  # Windows Credential Manager backend on Windows
         self.k = keyring
 
+    # Windows Credential Manager stores at most 2560 bytes per entry (1280 UTF-16 characters): long values
+    # (verification links) are split across numbered entries.
+    CHUNK = 1000
+
     def get(self, ref):
         _check_ref(ref)
-        return self.k.get_password(SERVICE, ref)
+        v = self.k.get_password(SERVICE, ref)
+        if v and v.startswith("chunks:"):
+            n = int(v[7:])
+            parts = [self.k.get_password(SERVICE, f"{ref}#{i}") or "" for i in range(n)]
+            v = "".join(parts)
+        return v
 
     def set(self, ref, value):
         _check_ref(ref)
-        self.k.set_password(SERVICE, ref, value)
+        self.delete(ref)
+        if len(value) > self.CHUNK:
+            parts = [value[i:i + self.CHUNK] for i in range(0, len(value), self.CHUNK)]
+            for i, part in enumerate(parts):
+                self.k.set_password(SERVICE, f"{ref}#{i}", part)
+            self.k.set_password(SERVICE, ref, f"chunks:{len(parts)}")
+        else:
+            self.k.set_password(SERVICE, ref, value)
         register_secret(value)
 
     def delete(self, ref):
         _check_ref(ref)
         try:
-            self.k.delete_password(SERVICE, ref)
+            v = self.k.get_password(SERVICE, ref)
+            if v and v.startswith("chunks:"):
+                for i in range(int(v[7:])):
+                    self.k.delete_password(SERVICE, f"{ref}#{i}")
+            if v is not None:
+                self.k.delete_password(SERVICE, ref)
         except Exception:
             pass
 

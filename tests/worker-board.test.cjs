@@ -59,7 +59,7 @@ test('job-board links are not sent to the worker', () => {
 
 test('status polling maps worker states onto the board', async () => {
   let apps = [{...view, state: 'submission_uncertain', display: 'Submission uncertain', reason: 'no confirmation yet'}];
-  const b = board(m => ({ok: true, applications: apps, now: '2026-09-23'}));
+  const b = board(m => ({ok: true, applications: apps, cursor: Math.floor(Math.random() * 1000) + 1}));
   b.run(`rows=[{id:'r1',company:'Acme',role:'X',location:'',link:'https://jobs.lever.co/acme/11111111-2222-3333-4444-555555555555'}]`);
   await b.run(`pollWorker()`);
   assert.equal(b.run(`jobs()[0].status`), 'uncertain');

@@ -22,7 +22,15 @@ from .identity import Realm, host_allowed, identify, realm_for
 from .policy import Validated
 from .questions import norm
 
-ALREADY_RX = re.compile(r"you (have )?already applied|already submitted an application|application (already )?exists for this (job|position)", re.I)
+ALREADY_RX = re.compile(r"^(it looks like )?you('ve| have) already (applied|submitted an application)( for| to)?( this| the)? ?(job|position|role|requisition|opening)?\.?$|^you('ve| have) already applied", re.I)
+
+
+def safe_url(u: str) -> str:
+    """Host and path for diagnostics, with anything token-like in the path replaced (activation links carry tokens)."""
+    p = urlsplit(u)
+    segs = ["[id]" if (len(x) >= 12 and re.search(r"\d", x) and re.search(r"[A-Za-z]", x)) or len(x) >= 24 else x
+            for x in (p.path or "").split("/")]
+    return scrub(f"{p.scheme}://{p.hostname or ''}{'/'.join(segs)}")
 
 
 class Park(Exception):
@@ -140,10 +148,10 @@ class ApplicationRun:
     def _step(self) -> bool:
         """One observe/act cycle. True when the application reached its final outcome."""
         obs = observe(self.page)
-        self._maybe_merge(obs.url)
+        self._maybe_merge(obs.url, obs.frame_urls)
         adapter = pick_adapter(obs.url)
         kind = adapter.page_kind(obs, self) or adapter.generic_kind(obs, self)
-        self.log("page", kind=kind, url=scrub(obs.url.split("?")[0]), adapter=adapter.name)
+        self.log("page", kind=kind, url=safe_url(obs.url), adapter=adapter.name)
         sig = obs.signature() + ":" + kind
         self.seen_sigs[sig] = self.seen_sigs.get(sig, 0) + 1
         if self.seen_sigs[sig] > 3:
@@ -153,12 +161,10 @@ class ApplicationRun:
         if kind == "closed":
             Q.mark_posting_closed(self.db, self.job["id"])
             raise Done(M.CLOSED, "the posting is closed")
+        if self._already_applied(obs):
+            raise Done(M.UNCERTAIN, "the portal says you already applied to this posting; check its history or your email, then resolve it")
         if kind == "confirmation":
-            if ALREADY_RX.search(obs.text()):
-                self._history_confirmed(obs, "the portal says you already applied")
             raise Park(M.FAILED, "unsupported", "a confirmation page appeared before anything was submitted in this attempt")
-        if ALREADY_RX.search(obs.text()):
-            self._history_confirmed(obs, "the portal says you already applied")
         if kind == "human":
             self.wait_human(obs)
             return False
@@ -193,8 +199,13 @@ class ApplicationRun:
         return False
 
     # ------------------------------------------------------------------ identity
-    def _maybe_merge(self, url):
+    def _maybe_merge(self, url, frame_urls=()):
         if self.job.get("provisional"):
+            # The real requisition can live in an embedded frame (company careers page wrapping Greenhouse).
+            for fu in [url, *frame_urls]:
+                if fu and not identify(fu).provisional:
+                    url = fu
+                    break
             ident = identify(url)
             if not ident.provisional:
                 new = Q.merge_job(self.db, self.job["id"], url)
@@ -218,9 +229,10 @@ class ApplicationRun:
         if shown and mine and shown != mine and self.account_id:
             raise Park(M.FAILED, "wrong_identity", "the portal is signed in as a different applicant")
 
-    def _history_confirmed(self, obs, text):
-        Q.confirm(self.db, self.app["id"], "history", {"url": obs.url, "text": text}, "portal said already applied", self.attempt_id)
-        raise Done(M.APPLIED, "already applied on the portal")
+    def _already_applied(self, obs) -> bool:
+        """Only a heading or alert that says so (not an FAQ line). It makes the application uncertain, never Applied:
+        a portal message is a lead to check, not a receipt."""
+        return any(ALREADY_RX.search(t.strip()) for t in list(obs.headings) + list(obs.errors))
 
     # ------------------------------------------------------------------ entering the application
     def enter_application(self, obs, adapter):
@@ -247,8 +259,9 @@ class ApplicationRun:
         if AGGREGATORS.search(host):
             raise Park(M.FAILED, "unsupported", f"{host} is a job board; the worker only applies on the employer's own portal")
         if urlsplit(url).scheme == "https" and host and host == job_host:
-            # Unknown portal, but it's the employer's own posting host from the board: a site-level realm.
-            return Realm(f"site:{host}", "site", host, (host,), "password")
+            # Unknown portal on the employer's own posting host. Its realm exists, but your password is only typed
+            # there after you approve the host once (extension settings -> Accounts).
+            return Realm(f"site:{host}", "site", host, (), "password")
         acc = self.db.one("SELECT r.id FROM realms r WHERE r.allowed_hosts LIKE ?", (f'%"{host}"%',))
         if acc:
             row = self.db.one("SELECT * FROM realms WHERE id=?", (acc["id"],))
@@ -260,6 +273,11 @@ class ApplicationRun:
         if self.realm and self.realm.id == realm.id and self.account_id:
             return self.accounts.row(self.account_id)
         a = self.accounts.ensure(realm)
+        host = (urlsplit(url).hostname or "").lower()
+        if not host_allowed(self.accounts.realm_hosts(realm.id), url):
+            self.accounts.request_host_approval(a["id"], host)
+            raise Park(M.NEEDS_HUMAN, "credential_destination",
+                       f"approve {host} as {self.job.get('company') or 'this employer'}'s login page in the extension settings (Accounts), then Resume")
         self.realm, self.account_id = realm, a["id"]
         self.ex.account_id = a["id"]
         with self.db.tx():
@@ -382,6 +400,8 @@ class ApplicationRun:
         btn = adapter.create_account_submit(observe(self.page), self)
         if not btn:
             raise Park(M.FAILED, "unsupported", "no Create Account button")
+        if btn.kind == "submit" or re.search(r"submit|apply", btn.text, re.I):
+            raise Park(M.FAILED, "unsupported", "this page creates the account inside the application form; that isn't supported yet")
         try:
             self.accounts.begin_registration(a["id"])
         except AccountError as e:
@@ -493,6 +513,14 @@ class ApplicationRun:
                 self.ex.click(btn, allow=("signin", "next", "other", "verify"))
             self.ex.settle(1500)
         secret = None
+        after = observe(self.page)
+        text = " ".join(after.errors) + " " + after.text()
+        if re.search(r"(invalid|incorrect|expired|wrong).{0,30}(code|link|token)|(code|link).{0,20}(invalid|incorrect|expired)", text, re.I):
+            raise Park(M.AWAITING_EMAIL, "email_verification", "the portal didn't accept the emailed code/link; waiting for a new one")
+        shown = pick_adapter(after.url).signed_in_identity(after, self)
+        mine = (self.accounts.application_email() or "").lower()
+        if shown and mine and shown != mine:
+            raise Park(M.FAILED, "wrong_identity", "after verification the portal shows a different applicant")
         self.accounts.set_status(a["id"], M.ACC_ACTIVE, "verified", registration_intent_at=None)
         self.save_session()
 
@@ -500,6 +528,7 @@ class ApplicationRun:
         """Update what the board shows without changing state (e.g. while waiting for you in place)."""
         with self.db.tx():
             self.db.x("UPDATE applications SET state_reason=?, updated_at=? WHERE id=?", (reason, now_iso(), self.app["id"]))
+            self.db.event("application", self.app["id"], "note", {"reason": reason})
 
     def wait_human(self, obs):
         """A captcha or identity check: you solve it in the worker window; the worker never tries to."""

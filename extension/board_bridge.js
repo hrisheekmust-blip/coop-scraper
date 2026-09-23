@@ -3,7 +3,7 @@
 "use strict";
 (() => {
   const ALLOWED = new Set(["worker.status", "application.enqueue", "application.status", "application.cancel", "application.resume",
-    "application.check", "application.resolve_uncertain", "application.set_cover", "account.list", "pending.list"]);
+    "application.check", "application.resolve_uncertain", "application.set_cover"]);
   const post = (id, response) => window.postMessage({ channel: "coop-runner-response", id, response }, location.origin);
   window.addEventListener("message", e => {
     if (e.source !== window || e.origin !== location.origin) return;

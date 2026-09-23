@@ -157,14 +157,27 @@ def sponsorship(ctx: Ctx, q: Question, key: str, when: str):
     return need("sponsorship isn't confirmed for this timeframe", ["work_auth.sponsorship_" + when], key)
 
 
+ORG_SUFFIX = re.compile(r"\b(inc|incorporated|corp|corporation|co|company|llc|ltd|limited|plc|gmbh|technologies|technology|group|holdings)\b\.?", re.I)
+
+
+def org(name: str) -> str:
+    return re.sub(r"[^a-z0-9 ]", "", ORG_SUFFIX.sub("", norm(name))).strip()
+
+
 def prior_employer(ctx: Ctx, q: Question, key: str):
-    emp = norm(ctx.employer)
+    """Only about the employer you're applying to ("us", "this company", or its name). Names must match exactly
+    after dropping Inc/Corp-style suffixes: 'Meta' is not 'Metabase', and 'a government agency' is not asked here."""
+    emp = org(ctx.employer)
+    m = re.search(r"(?:worked for|been employed by|worked at|employee of) (.+)$", q.norm)
+    entity = org(m.group(1)) if m else ""
+    if entity and entity not in ("us", "this", "this company", "this organization", "the company", "our company") and entity != emp:
+        return need("the question is about an organization other than this employer", [], key)
     lst = _f(ctx, "history.employers")
     complete = _f(ctx, "history.employers_complete")
     if not emp or not lst:
         return need("employment history isn't saved", ["history.employers"], key)
-    names = [norm(x) for x in (lst["value"] or [])]
-    if any(n and (n == emp or n in emp or emp in n) for n in names):
+    names = {org(x) for x in (lst["value"] or [])}
+    if emp in names:
         return Proposal(value="Yes", basis="derived", evidence=[lst["id"]], derivation="employer_in_history", key=key)
     if complete and complete["value"] is True:
         return Proposal(value="No", basis="derived", evidence=[lst["id"], complete["id"]], derivation="complete_history_excludes_employer", key=key)
@@ -193,7 +206,12 @@ def skill_experience(ctx: Ctx, q: Question, key: str, skill: str):
     return need(f"experience with {skill} isn't documented", ["skills.list"], key)
 
 
+NEGATION = re.compile(r"\b(not|don'?t|do not|never|decline|refuse|opt[- ]?out|disagree|withdraw)\b", re.I)
+
+
 def consent(ctx: Ctx, q: Question, key: str):
+    if NEGATION.search(q.label):
+        return need("a consent worded in the negative is never checked automatically", ["policy.approved_consents"], key)
     text = norm(q.label + " " + q.context)
     if re.search(r"marketing|newsletter|promotional|job alerts?|text messages|sms|talent community|future (job )?opportunities|keep me (informed|updated)", text):
         if q.required:

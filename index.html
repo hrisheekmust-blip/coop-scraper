@@ -205,7 +205,7 @@ function synthFor(j){if(!bank)return{};const variant=pickVariant(j.role,j.fit_wh
 const canon=r=>CoopEngine.reqKey(((forms[r.id]||{}).apply_url)||"")||CoopEngine.reqKey(r.link||"")||"id:"+r.id;
 /* ---------- worker mode: Apply goes to the application worker on this computer, through the extension bridge ----------
    The board never sees credentials or files in this mode; it sends one request per click and shows what the worker reports. */
-const W={views:{},online:null,err:"",since:"",timer:null};const rpcWait=new Map();
+const W={views:{},online:null,err:"",cursor:0,timer:null};const rpcWait=new Map();
 window.addEventListener("message",e=>{if(e.source!==window||e.origin!==location.origin)return;const d=e.data||{};
   if(d.channel==="coop-runner-response"&&rpcWait.has(d.id)){rpcWait.get(d.id)(d.response||{ok:false});rpcWait.delete(d.id)}});
 function rpc(msg,ms=8000){return new Promise(res=>{const id=crypto.randomUUID();rpcWait.set(id,res);window.postMessage({channel:"coop-runner-request",id,msg},location.origin);
@@ -216,14 +216,14 @@ const WMAP={applied:"applied",submission_uncertain:"uncertain",queued:"queued",r
 const wStatus=v=>v.state in WMAP?WMAP[v.state]:"applying";
 const AGG=/(^|\.)(linkedin\.com|indeed\.com|glassdoor\.com|symplicity\.com|joinhandshake\.com|simplify\.jobs|ziprecruiter\.com)$/;
 const workerEligible=j=>{try{const u=new URL(applyUrl(j));return u.protocol==="https:"&&!AGG.test(u.hostname)&&!(forms[j.id]||{}).closed}catch(e){return false}};
-async function pollWorker(){if(!workerMode())return;const r=await rpc({type:"application.status",since:W.since});const was=W.online;W.online=!!r.ok;W.err=r.ok?"":(r.error||"");
-  let changed=was!==W.online;if(r.ok){W.since=r.now||W.since;for(const v of r.applications||[]){if(v.board_ref){W.views[v.board_ref]=v;changed=true}}if(changed)backupApplied()}
+async function pollWorker(){if(!workerMode())return;const r=await rpc({type:"application.status",cursor:W.cursor});const was=W.online;W.online=!!r.ok;W.err=r.ok?"":(r.error||"");
+  let changed=was!==W.online;if(r.ok){W.cursor=r.cursor||W.cursor;for(const v of r.applications||[]){if(v.board_ref){W.views[v.board_ref]=v;changed=true}}if(changed)backupApplied()}
   if(changed){render();if(openId)drawRender()}}
-function startWorkerPolling(){clearInterval(W.timer);W.since="";if(workerMode()){pollWorker();W.timer=setInterval(pollWorker,5000)}}
+function startWorkerPolling(){clearInterval(W.timer);W.cursor=0;if(workerMode()){pollWorker();W.timer=setInterval(pollWorker,5000)}}
 /* Receipts the worker verified are copied into the private repo's state.json as a backup record. */
 function backupApplied(){if(!cfg.token)return;const todo=Object.values(W.views).filter(v=>v.state==="applied"&&v.board_ref&&state[v.board_ref]?.status!=="applied"&&!SENT.includes(state[v.board_ref]?.status));
   if(!todo.length)return;writeState(st=>{for(const v of todo){const r=v.receipt||{};st[v.board_ref]={...(st[v.board_ref]||{}),status:"applied",statusAt:r.at||new Date().toISOString(),note:"",
-    submitted:{at:r.at||"",portal:r.url||"",evidence:{text:r.text||"",kind:r.kind||""},notes:"verified by the application worker"}}}}).catch(()=>{})}
+    submitted:{at:r.at||"",portal:r.url||"",evidence:{text:r.text||"",kind:r.kind||""},notes:({page:"confirmation page seen by the application worker",email:"confirmation email matched by the worker",history:"found in the portal's application history",user:"you confirmed it was submitted"})[r.kind]||"recorded by the worker"}}}}).catch(()=>{})}
 async function workerEnqueue(j){const r=await rpc({type:"application.enqueue",request_id:crypto.randomUUID(),source_url:applyUrl(j),job_ref:j.id,company:j.company,title:j.role,location:j.location||""});
   if(!r.ok)throw new Error(r.offline?"Worker offline, nothing was queued: "+r.error:r.error);W.views[j.id]=r.application;render();if(openId)drawRender();return r.application}
 async function workerAction(type,app,extra={}){const r=await rpc({type,application_id:app,...extra});if(!r.ok)throw new Error(r.error);await pollWorker();return r}

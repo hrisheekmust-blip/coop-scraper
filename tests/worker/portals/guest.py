@@ -106,7 +106,8 @@ def lever(fx: Fixture, company="Acme Devices", org="acme", job=LEVER_JOB, hang_a
                  if (missing(f).length) return;
                  const r = await fetch('{base}/apply/submit', {{method:'POST', body: JSON.stringify(collect(f))}});
                  const j = await r.json();
-                 if (j.error) {{ document.getElementById('errs').innerHTML = '<div class="error" role="alert">'+j.error+'</div>'; return; }}
+                 if (j.error) {{ const ph = document.getElementById('phone'); ph.setAttribute('aria-invalid','true');
+                   const d = document.createElement('div'); d.className='error'; d.textContent=j.error; ph.closest('.field').appendChild(d); return; }}
                  if (j.ok) location.href='{base}/thanks'; }});"""
             return page(f"{company} - Apply", body, js)
         if req["path"] == base + "/apply/submit":

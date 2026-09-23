@@ -67,5 +67,7 @@ class SuccessFactors(PortalAdapter):
         low = obs.text().lower()
         if not re.search(r"job applications|my applications|applied", low):
             return None
-        req, title = (run.job.get("requisition") or "").lower(), (run.job.get("title") or "").lower()
-        return "submitted" if (req and req in low) or (title and title in low) else "not_found"
+        req = (run.job.get("requisition") or "").lower()
+        if not req or run.job.get("provisional"):
+            return None
+        return "submitted" if re.search(r"\b" + re.escape(req) + r"\b", low) else "not_found"

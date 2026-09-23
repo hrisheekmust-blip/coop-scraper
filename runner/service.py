@@ -129,7 +129,8 @@ class Service:
                           location=m["location"], material_policy=m["material_policy"])
             return {"application": r}
         if t == "application.status":
-            return {"applications": Q.list_views(db, m.get("since", "")), "now": now_iso()}
+            views, cursor = Q.list_views(db, m.get("cursor", 0))
+            return {"applications": views, "cursor": cursor, "now": now_iso()}
         if t == "application.cancel":
             return {"application": Q.cancel(db, m["application_id"])}
         if t == "application.resume":
@@ -150,9 +151,10 @@ class Service:
         if t == "mail.ingest":
             return {"result": Mailbox(db, acc).ingest(m["message"])}
         if t == "account.list":
-            rows = db.all("SELECT a.id, a.realm_id, a.status, a.status_reason, a.last_login_at, a.override_json, r.allowed_hosts FROM accounts a JOIN realms r ON r.id=a.realm_id")
+            rows = db.all("SELECT a.id, a.realm_id, a.status, a.status_reason, a.last_login_at, a.override_json, a.registration_intent_at, r.allowed_hosts FROM accounts a JOIN realms r ON r.id=a.realm_id")
             return {"accounts": [{"account_id": r["id"], "realm": r["realm_id"], "status": r["status"], "reason": r["status_reason"],
-                                  "last_login": r["last_login_at"], "has_override": bool(loads(r["override_json"], {})),
+                                  "last_login": r["last_login_at"], "has_override": bool({k for k in loads(r["override_json"], {}) if k != "pending_host"}),
+                                  "pending_host": loads(r["override_json"], {}).get("pending_host", ""), "registration_outstanding": bool(r["registration_intent_at"]),
                                   "hosts": loads(r["allowed_hosts"], [])} for r in rows]}
         if t == "account.resolve":
             kw = {}

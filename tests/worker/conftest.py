@@ -83,6 +83,12 @@ class Harness:
         ev = [Facts(self.db).get("education.major")["id"]]
         self.engine.remember(self.engine.key_for(q), label, text, {"kind": "job", "job": jid}, "generated", evidence=ev)
 
+    def approve(self, host):
+        """What you do once in the extension settings for an unfamiliar employer site."""
+        from runner.identity import Realm
+        a = self.accounts.ensure(Realm(f"site:{host}", "site", host, ()))
+        self.accounts.approve_host(a["realm_id"], host)
+
     def run(self):
         # the worker never shares its connection with the harness
         return self.worker.run_once()

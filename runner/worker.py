@@ -184,8 +184,12 @@ class Worker:
 
     def _finish(self, db, app_id, att, state, detail, run):
         cur = Q.app_row(db, app_id)["state"]
+        if not Q.owns(db, att, self.owner):
+            # The lease expired (sleep, a long stall) and recover() or another worker took over: never overwrite it.
+            log.warning("attempt %s lost its lease; leaving the application as it is", att)
+            return
         try:
-            if state is None:                      # lease lost: someone else owns it now
+            if state is None:
                 Q.end_attempt(db, att, "lease_lost")
                 return
             if cur in (M.APPLIED,) or state == cur:

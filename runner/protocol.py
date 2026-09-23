@@ -21,12 +21,12 @@ ALLOWED = {
     "application.set_cover": {BOARD, CLI},
     "mail.wanted": {OUTLOOK, CLI},
     "mail.ingest": {OUTLOOK, CLI},
-    "account.list": {SETTINGS, BOARD, CLI},
+    "account.list": {SETTINGS, CLI},
     "account.resolve": {SETTINGS, CLI},
     "credentials.set": {SETTINGS, CLI},
     "credentials.status": {SETTINGS, CLI},
     "profile.update": {SETTINGS, CLI},
-    "pending.list": {SETTINGS, BOARD, CLI},
+    "pending.list": {SETTINGS, CLI},
     "settings.get": {SETTINGS, CLI},
     "settings.set": {SETTINGS, CLI},
 }
@@ -88,7 +88,8 @@ def validate(channel: str, msg: dict) -> dict:
         out["job_ref"] = _str(msg, "job_ref", pattern=ID)
         out["on"] = bool(msg.get("on"))
     elif t == "application.status":
-        out["since"] = _str(msg, "since", required=False, max_len=40)
+        c = msg.get("cursor", 0)
+        out["cursor"] = c if isinstance(c, int) and c >= 0 else 0
     elif t == "mail.ingest":
         m = msg.get("message")
         if not isinstance(m, dict):

@@ -101,6 +101,8 @@ class Observation:
     password_fields: int
     frames: int
     progress: str = ""
+    frame_urls: list = field(default_factory=list)
+    field_errors: list = field(default_factory=list)   # labels of controls the portal marked invalid
 
     def signature(self) -> str:
         """Changes when the page meaningfully progresses (new URL, new question set, new step)."""
@@ -164,7 +166,9 @@ def observe(page) -> Observation:
         captcha |= bool(d["captcha"])
         pw += d["password_fields"]
         progress = progress or d.get("progress") or ""
-    return Observation(url, title, controls, buttons, errors, "\n".join(body)[:12000], captcha, headings, pw, len(frames), progress)
+    field_errors = [c.label for c in controls if c.raw.get("invalid") or c.raw.get("error")]
+    return Observation(url, title, controls, buttons, errors, "\n".join(body)[:12000], captcha, headings, pw, len(frames), progress,
+                       [f.url for f in frames], field_errors)
 
 
 # ---------------------------------------------------------------------------------------------- executor

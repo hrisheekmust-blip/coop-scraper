@@ -20,16 +20,17 @@ if (-not (Test-Path (Join-Path $Venv "Scripts\python.exe"))) {
   & $Python -3 -m venv $Venv
   if ($LASTEXITCODE -ne 0) { & $Python -m venv $Venv }
 }
+function Check($what) { if ($LASTEXITCODE -ne 0) { throw "$what failed (exit code $LASTEXITCODE)" } }
 $Py = Join-Path $Venv "Scripts\python.exe"
 $Pyw = Join-Path $Venv "Scripts\pythonw.exe"
-& $Py -c "import sys; assert sys.version_info >= (3, 11), 'Python 3.11 or newer is required'"
-& $Py -m pip install --upgrade pip | Out-Null
-& $Py -m pip install -r (Join-Path $Repo "runner\requirements.txt")
-& $Py -m playwright install chromium
+& $Py -c "import sys; assert sys.version_info >= (3, 11), 'Python 3.11 or newer is required'"; Check "Python version check"
+& $Py -m pip install --upgrade pip | Out-Null; Check "pip upgrade"
+& $Py -m pip install -r (Join-Path $Repo "runner\requirements.txt"); Check "installing packages"
+& $Py -m playwright install chromium; Check "installing Chromium"
 
 Write-Host "2/4 First-time setup"
 Push-Location $Repo
-& $Py -m runner setup --materials $Materials
+& $Py -m runner setup --materials $Materials; Check "setup"
 Pop-Location
 
 Write-Host "3/4 Native messaging host"

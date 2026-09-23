@@ -87,9 +87,17 @@ def identify(url: str) -> JobIdentity:
         return JobIdentity("lever", parts[0].lower(), parts[1].lower())
 
     # Workday: {tenant}.wd{N}.myworkdayjobs.com/{locale?}/{site}/job/{location}/{title}_{REQ}[/apply...]
+    #          wd{N}.myworkdaysite.com/{locale?}/recruiting/{tenant}/{site}/job/...
     m = re.fullmatch(r"([a-z0-9-]+)\.wd\d+\.(myworkdayjobs|myworkdaysite)\.com", host)
+    m2 = re.fullmatch(r"wd\d+\.myworkdaysite\.com", host)
+    if m2:
+        segs0 = [p for p in parts if not LOCALE.match(p)]
+        if len(segs0) >= 2 and segs0[0] == "recruiting":
+            m = True
+            tenant_override = segs0[1].lower()
+            parts = segs0[2:]
     if m:
-        tenant = m.group(1)
+        tenant = tenant_override if m2 and m is True else m.group(1)
         segs = [p for p in parts if not LOCALE.match(p)]
         for i, p in enumerate(segs):
             if p in ("job", "details") and i + 1 < len(segs):
@@ -164,6 +172,8 @@ def realm_for(url: str) -> Realm | None:
     if m:
         # Workday candidate accounts belong to the tenant; every wdN host variant of it is the same realm.
         return Realm(f"workday:{m.group(1)}", "workday", m.group(1), (host,), "password")
+    if re.fullmatch(r"wd\d+\.myworkdaysite\.com", host) and len(parts) >= 2 and parts[0] == "recruiting":
+        return Realm(f"workday:{parts[1].lower()}", "workday", parts[1].lower(), (host,), "password")
     if re.search(r"(^|\.)successfactors\.(com|eu)$|(^|\.)sapsf\.(com|eu)$", host):
         company = (q.get("company") or "").lower()
         if company:

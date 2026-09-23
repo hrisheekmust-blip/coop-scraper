@@ -29,9 +29,11 @@ async function load() {
   const acc = await rpc({ type: "account.list" });
   $("accounts").innerHTML = !acc.ok ? esc(acc.error) : acc.accounts.length ? acc.accounts.map(a => `<div class="card"><b>${esc(a.realm)}</b> · ${esc(a.status)}
       ${a.reason ? `<div class="mute">${esc(a.reason)}</div>` : ""}<div class="mute">login pages allowed on: ${a.hosts.map(esc).join(", ")}</div>
-      <div class="row">${["needs_credentials", "existing_account", "locked"].includes(a.status) ? `<input type="password" placeholder="password for this portal only" data-pw="${a.account_id}" style="max-width:240px"><button data-setpw="${a.account_id}">Save for this portal</button>` : ""}
-      ${a.status === "registration_uncertain" || a.status === "registering" ? `<button data-act="registration_not_created" data-id="${a.account_id}">No account was created</button><button data-act="existing_account_password_set" data-id="${a.account_id}">An account exists (uses my password)</button>` : ""}
-      ${a.status !== "active" ? `<button data-act="retry" data-id="${a.account_id}">Retry</button>` : ""}</div></div>`).join("") : "No portal accounts yet.";
+      <div class="row">${a.pending_host ? `<button class="primary" data-approve="${a.account_id}">Approve sign-in on ${esc(a.pending_host)}</button>` : ""}
+      ${["needs_credentials", "existing_account", "locked"].includes(a.status) ? `<input type="password" placeholder="password for this portal only" data-pw="${a.account_id}" style="max-width:240px"><button data-setpw="${a.account_id}">Save for this portal</button>` : ""}
+      ${a.registration_outstanding ? `<button data-act="registration_not_created" data-id="${a.account_id}">No account was created</button><button data-act="existing_account_password_set" data-id="${a.account_id}">The account exists (my password works)</button>` : ""}
+      ${a.status !== "active" && !a.registration_outstanding && !a.pending_host ? `<button data-act="retry" data-id="${a.account_id}">Retry</button>` : ""}</div></div>`).join("") : "No portal accounts yet.";
+  document.querySelectorAll("[data-approve]").forEach(b => b.onclick = async () => { await rpc({ type: "account.resolve", account_id: b.dataset.approve, action: "approve_host" }); load(); });
   document.querySelectorAll("[data-act]").forEach(b => b.onclick = async () => { await rpc({ type: "account.resolve", account_id: b.dataset.id, action: b.dataset.act }); load(); });
   document.querySelectorAll("[data-setpw]").forEach(b => b.onclick = async () => {
     const v = document.querySelector(`[data-pw="${b.dataset.setpw}"]`).value; if (!v) return;

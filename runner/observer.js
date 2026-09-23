@@ -144,6 +144,9 @@
       autocomplete: el.getAttribute("autocomplete") || "", automation: el.getAttribute("data-automation-id") || (el.closest("[data-automation-id]") || { getAttribute: () => "" }).getAttribute("data-automation-id") || "",
       max_len: el.maxLength > 0 ? el.maxLength : null, disabled: !!el.disabled, readonly: !!el.readOnly,
       invalid: el.getAttribute("aria-invalid") === "true",
+      error: (() => { const en = entryOf(el); if (!en || en.querySelectorAll("input:not([type=hidden]), select, textarea").length > 3) return "";
+        const e = en.querySelector(".error, .field-error, [class*='error' i]:not(input):not(select):not(textarea), [data-automation-id*='error' i]");
+        return e && vis(e) ? txt(e).slice(0, 200) : ""; })(),
     });
   }
   // buttons / navigation

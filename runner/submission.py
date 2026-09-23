@@ -28,6 +28,10 @@ def _prechecks(run, obs: Observation, adapter) -> list[str]:
     ident = identify(obs.url)
     if not ident.provisional and ident.portal == run.job.get("portal") and (ident.tenant, ident.requisition) != (run.job.get("tenant"), run.job.get("requisition")):
         problems.append("the page belongs to a different requisition")
+    if run.job.get("provisional") and run.job.get("requisition") and run.db.one(
+            "SELECT 1 FROM jobs WHERE id<>? AND merged_into IS NULL AND provisional=0 AND requisition=? AND portal=?",
+            (run.job["id"], run.job["requisition"], run.job["portal"])):
+        problems.append("another listing with the same requisition exists; resolve the duplicate first")
     if Q.cancel_requested(run.db, run.app["id"]):
         problems.append("cancelled")
     return problems
@@ -76,16 +80,18 @@ def submit(run, obs: Observation, button: Button, adapter):
             raise Done(M.APPLIED, ev.get("text", "")[:200])
         # Same form, same URL, field errors: the portal rejected the submission before accepting it.
         same_form = now.url.split("#")[0] == obs.url.split("#")[0] and now.fingerprint() == obs.fingerprint()
-        if not (same_form and now.errors):
+        # Only errors attached to fields prove the portal refused the form; a banner or toast could follow a success.
+        rejected = same_form and bool(now.field_errors) and not obs.field_errors
+        if not rejected:
             first_errors_at, seen_errors = None, 0
-        if same_form and now.errors:
+        if rejected:
             first_errors_at = first_errors_at or time.time()
             seen_errors += 1
             if seen_errors >= 3 and time.time() - first_errors_at >= 2:
                 Q.set_attempt_outcome(run.db, run.attempt_id, "validation_rejected")
                 run.log("validation_rejected", errors=now.errors[:5])
-                raise Park(M.NEEDS_INFO, "no_progress", "the portal rejected the form: " + "; ".join(now.errors[:4]),
-                           [{"blocker": "form_errors", "errors": now.errors[:6]}])
+                raise Park(M.NEEDS_INFO, "no_progress", "the portal rejected the form: " + "; ".join((now.errors or now.field_errors)[:4]),
+                           [{"blocker": "form_errors", "errors": (now.errors or now.field_errors)[:6], "fields": now.field_errors[:6]}])
     # No evidence in time. Try the portal's own history, read-only.
     verdict = None
     if adapter.supports_history:

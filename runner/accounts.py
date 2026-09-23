@@ -59,6 +59,14 @@ class Accounts:
         r = self.db.one("SELECT allowed_hosts FROM realms WHERE id=?", (realm_id,))
         return loads(r["allowed_hosts"], []) if r else []
 
+    def request_host_approval(self, account_id: str, host: str):
+        """Remember which host is waiting for your approval (shown in the extension settings)."""
+        a = self.row(account_id)
+        over = loads(a["override_json"], {})
+        if over.get("pending_host") != host:
+            over["pending_host"] = host
+            self.set_status(account_id, a["status"], f"waiting for you to approve {host} for sign-in", override_json=dumps(over))
+
     def approve_host(self, realm_id: str, host: str):
         """Your explicit approval that a login page on `host` belongs to this realm (account.resolve)."""
         with self.db.tx():
@@ -136,7 +144,7 @@ class Accounts:
         """Persisted before pressing Create account. A second call while one is outstanding is refused."""
         with self.db.tx():
             a = self.row(account_id)
-            if a["registration_intent_at"] and a["status"] in (M.ACC_REGISTERING, M.ACC_AWAITING_EMAIL, M.ACC_UNCERTAIN):
+            if a["registration_intent_at"]:
                 raise AccountError("registration_outstanding", "an earlier registration may have gone through; checking first")
             if not self.policy().get("allow_required_account_creation"):
                 raise AccountError("needs_credentials", "account creation is turned off in your settings")
@@ -168,7 +176,11 @@ class Accounts:
         elif action == "set_username_ref":
             over["username_ref"] = kw["ref"]
         elif action == "approve_host":
-            self.approve_host(a["realm_id"], kw["host"])
+            host = kw.get("host") or over.get("pending_host")
+            if not host:
+                raise AccountError("bad_action", "no host to approve")
+            self.approve_host(a["realm_id"], host)
+            over.pop("pending_host", None)
         elif action not in ("retry", "existing_account_password_set", "registration_not_created"):
             raise AccountError("bad_action", action)
         fields = {"override_json": dumps(over), "failed_logins": 0}

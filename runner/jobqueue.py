@@ -150,8 +150,13 @@ def app_view(db: DB, app_id: str) -> dict:
         return {}
     j = db.one("SELECT * FROM jobs WHERE id=?", (a["job_id"],))
     conf = db.one("SELECT kind, evidence_json, observed_at FROM confirmations WHERE application_id=? ORDER BY observed_at DESC LIMIT 1", (app_id,))
+    display = M.DISPLAY.get(a["state"], a["state"])
+    if a["state"] == M.APPLIED:
+        k = conf["kind"] if conf else ""
+        display = {"page": "Applied", "email": "Applied (confirmed by email)", "history": "Applied (portal history)",
+                   "user": "Applied (you confirmed)"}.get(k, "Applied (your earlier record)")
     return {"application_id": a["id"], "job_id": a["job_id"], "board_ref": a["board_ref"], "state": a["state"],
-            "display": M.DISPLAY.get(a["state"], a["state"]), "reason": a["state_reason"], "needs": loads(a["needs_json"], []),
+            "display": display, "employer_status": a["employer_status"], "reason": a["state_reason"], "needs": loads(a["needs_json"], []),
             "company": j["company"] if j else "", "title": j["title"] if j else "", "portal": j["portal"] if j else "",
             "requisition": j["requisition"] if j else "", "updated_at": a["updated_at"],
             "receipt": ({"kind": conf["kind"], "at": conf["observed_at"], **loads(conf["evidence_json"], {})} if conf else None)}
@@ -181,8 +186,11 @@ def enqueue(db: DB, request_id: str, source_url: str, board_ref: str = "", user_
         else:
             app_id = a["id"]
             st = a["state"]
-            if st in (M.CANCELLED, M.FAILED, M.CLOSED) or st in M.PARKED:
+            if a["state_reason"].startswith("duplicate listing of"):
+                note = "This listing is a duplicate of another application"
+            elif st in (M.CANCELLED, M.FAILED, M.CLOSED) or st in M.PARKED:
                 _set_state(db, app_id, M.QUEUED, "requeued by Apply", [])
+                db.x("UPDATE applications SET cancel_requested=0 WHERE id=?", (app_id,))
             elif st == M.UNCERTAIN:
                 note = "Submission is uncertain: check the portal or your email, then resolve it before applying again"
             elif st == M.APPLIED:
@@ -239,6 +247,8 @@ def cancel(db: DB, app_id: str) -> dict:
 def resume(db: DB, app_id: str) -> dict:
     with db.tx():
         a = app_row(db, app_id)
+        if a and a["state_reason"].startswith("duplicate listing of"):
+            raise Refused("this application was merged into another listing of the same job")
         if a and (a["state"] in M.PARKED or a["state"] in (M.FAILED, M.CANCELLED, M.CLOSED)):
             _set_state(db, app_id, M.QUEUED, "resumed")
             db.x("UPDATE applications SET cancel_requested=0 WHERE id=?", (app_id,))
@@ -272,14 +282,15 @@ def claim(db: DB, owner: str, lease_s: float = 90, max_live: int = 2, now: float
         live = db.one("SELECT COUNT(*) n FROM attempts WHERE ended_at IS NULL")["n"]
         if live >= max_live:
             return None
-        rows = db.all("""SELECT a.*, j.realm_id FROM applications a JOIN jobs j ON j.id=a.job_id
-                         WHERE a.cancel_requested=0 AND (a.state=? OR (a.state=? AND COALESCE(a.retry_at,0)<=?))
+        rows = db.all("""SELECT a.*, j.realm_id, j.resolved_url FROM applications a JOIN jobs j ON j.id=a.job_id
+                         WHERE a.cancel_requested=0 AND j.merged_into IS NULL AND (a.state=? OR (a.state=? AND COALESCE(a.retry_at,0)<=?))
                          ORDER BY a.updated_at""", (M.QUEUED, M.RETRY_WAIT, now))
-        busy = {r["realm_id"] for r in db.all("""SELECT j.realm_id FROM attempts t JOIN applications a ON a.id=t.application_id
-                                                 JOIN jobs j ON j.id=a.job_id WHERE t.ended_at IS NULL AND j.realm_id IS NOT NULL""")}
+        # One live attempt per account realm; jobs whose realm isn't known yet are serialized by host.
+        busy = {_realm_key(r) for r in db.all("""SELECT j.realm_id, j.resolved_url FROM attempts t JOIN applications a ON a.id=t.application_id
+                                                 JOIN jobs j ON j.id=a.job_id WHERE t.ended_at IS NULL""")}
         busy |= {r["name"][6:] for r in db.all("SELECT name FROM locks WHERE name LIKE 'realm:%' AND expires>?", (now,))}
         for a in rows:
-            if a["realm_id"] and a["realm_id"] in busy:
+            if _realm_key(a) in busy:
                 continue
             n = db.one("SELECT COALESCE(MAX(number),0)+1 n FROM attempts WHERE application_id=?", (a["id"],))["n"]
             att = new_id("att")
@@ -289,6 +300,18 @@ def claim(db: DB, owner: str, lease_s: float = 90, max_live: int = 2, now: float
             db.event("application", a["id"], "attempt_started", {"attempt": att, "number": n})
             return {"application": dict(a), "attempt_id": att}
     return None
+
+
+def _realm_key(r) -> str:
+    if r["realm_id"]:
+        return r["realm_id"]
+    from urllib.parse import urlsplit
+    return "host:" + (urlsplit(r["resolved_url"] or "").hostname or "").lower()
+
+
+def owns(db: DB, attempt_id: str, owner: str) -> bool:
+    t = db.one("SELECT lease_owner, ended_at FROM attempts WHERE id=?", (attempt_id,))
+    return bool(t) and t["ended_at"] is None and t["lease_owner"] == owner
 
 
 def _own(db, attempt_id, owner):
@@ -470,6 +493,13 @@ def release_lock(db: DB, name: str, owner: str):
         db.x("DELETE FROM locks WHERE name=? AND owner=?", (name, owner))
 
 
-def list_views(db: DB, since: str = "") -> list[dict]:
-    rows = db.all("SELECT id FROM applications WHERE updated_at>? ORDER BY updated_at", (since or "",))
-    return [app_view(db, r["id"]) for r in rows]
+def list_views(db: DB, cursor: int = 0) -> tuple[list[dict], int]:
+    """Applications changed since an event cursor. The cursor is the event sequence number, which only grows, so a
+    change committed while the board was reading is picked up next time."""
+    top = db.one("SELECT COALESCE(MAX(seq),0) s FROM events")["s"]
+    if not cursor:
+        ids = [r["id"] for r in db.all("SELECT id FROM applications ORDER BY updated_at")]
+    else:
+        ids = [r["entity_id"] for r in db.all("""SELECT DISTINCT entity_id FROM events WHERE entity_kind='application' AND seq>? AND seq<=?""",
+                                               (cursor, top))]
+    return [v for v in (app_view(db, i) for i in ids) if v], top

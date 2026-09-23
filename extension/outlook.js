@@ -27,8 +27,11 @@
       return u.href;
     } catch (e) { return ""; }
   }
+  // A stable id per message (a conversation can hold several codes): conversation id + a hash of the row.
+  const hash = t => { let h = 5381; for (let i = 0; i < t.length; i++) h = ((h << 5) + h + t.charCodeAt(i)) >>> 0; return h.toString(16); };
   function receivedAt(text) {
-    // Rows show a time for today's mail ("10:32 AM") and a date for older mail. Without a time, use now.
+    // Rows show a time for today's mail ("10:32 AM") and a date for older mail. Without a time: unknown (null);
+    // the worker then won't use the message for verification or to settle an uncertain application.
     const m = text.match(/\b(\d{1,2}):(\d{2})\s?(AM|PM)\b/i);
     if (m) {
       const d = new Date(); let h = +m[1] % 12; if (/pm/i.test(m[3])) h += 12;
@@ -36,7 +39,7 @@
       if (d.getTime() > Date.now() + 60000) d.setDate(d.getDate() - 1);
       return d.toISOString();
     }
-    return new Date().toISOString();
+    return null;
   }
   async function readOpen() {
     for (let i = 0; i < 20; i++) {
@@ -46,7 +49,7 @@
         const toEl = document.querySelector("[aria-label^='To' i], [data-testid='RecipientWell']") || null;
         const body = norm(pane.innerText).slice(0, 8000);
         return { body, links: [...pane.querySelectorAll("a[href]")].map(a => unwrap(a.href)).filter(u => u.startsWith("https://")).slice(0, 40),
-                 codes: [...new Set((body.match(/\b\d{4,8}\b/g) || []))].slice(0, 5),
+                 codes: [],   // the worker extracts codes itself, only digits next to code wording
                  from: header ? norm(header.getAttribute("title") || header.innerText).slice(0, 300) : "",
                  to: toEl ? norm(toEl.innerText).slice(0, 300) : "" };
       }
@@ -70,7 +73,7 @@
         const isOutcome = employers.some(e => low.includes(e)) && OUTCOME.test(r.text);
         if (!isVerify && !isOutcome) continue;
         seen.add(key);
-        const msg = { message_id: "owa:" + (r.id || key), subject: r.text.slice(0, 300), body_text: r.text, received_at: receivedAt(r.text), links: [], codes: [], from: "", to: "" };
+        const msg = { message_id: "owa:" + (r.id || "") + ":" + hash(r.text.slice(0, 300)), subject: r.text.slice(0, 300), body_text: r.text, received_at: receivedAt(r.text), links: [], codes: [], from: "", to: "" };
         if (isVerify) {
           r.el.click();
           const opened = await readOpen();

@@ -15,6 +15,12 @@ def test_first_signup_verification_email_login_and_multistep_submit(h):
     portal = GenericPortal(h.fx)
     h.start_outlook_bridge()
     app = h.enqueue(portal.url(42), "AcmeCo", "Hardware Validation Intern")["application_id"]
+    # An unfamiliar site: the worker stops before typing your password there until you approve the host once.
+    assert h.run() == M.NEEDS_HUMAN and "credential_destination" in h.view(app)["reason"]
+    assert portal.registrations == 0 and not portal.logins
+    acct = h.db.one("SELECT id FROM accounts")["id"]
+    h.accounts.resolve(acct, "approve_host")
+    Q.resume(h.db, app)
     assert h.run() == M.APPLIED, h.view(app)
     acct = portal.accounts[EMAIL]
     assert portal.registrations == 1 and acct["verified"] and acct["password"] == PASSWORD
@@ -32,6 +38,7 @@ def test_first_signup_verification_email_login_and_multistep_submit(h):
 
 def test_second_job_at_the_same_employer_reuses_the_account_and_session(h):
     portal = GenericPortal(h.fx)
+    h.approve("careers.acmeco.com")
     h.start_outlook_bridge()
     h.enqueue(portal.url(42), "AcmeCo")
     assert h.run() == M.APPLIED
@@ -44,6 +51,7 @@ def test_second_job_at_the_same_employer_reuses_the_account_and_session(h):
 
 def test_existing_account_with_a_different_password_stops_after_one_try(h):
     portal = GenericPortal(h.fx)
+    h.approve("careers.acmeco.com")
     portal.accounts[EMAIL] = {"password": "someone-elses-password!", "verified": True, "token": "", "first": "T", "last": "A"}
     app = h.enqueue(portal.url(42), "AcmeCo")["application_id"]
     assert h.run() == M.NEEDS_HUMAN
@@ -55,6 +63,7 @@ def test_existing_account_with_a_different_password_stops_after_one_try(h):
 
 def test_password_policy_rejection_is_an_account_exception_not_a_changed_password(h):
     portal = GenericPortal(h.fx, min_password=40)
+    h.approve("careers.acmeco.com")
     app = h.enqueue(portal.url(42), "AcmeCo")["application_id"]
     assert h.run() == M.NEEDS_HUMAN
     assert "password_policy" in h.view(app)["reason"]
@@ -64,6 +73,7 @@ def test_password_policy_rejection_is_an_account_exception_not_a_changed_passwor
 
 def test_no_mailbox_leaves_it_awaiting_email_and_it_resumes_when_the_email_arrives(h):
     portal = GenericPortal(h.fx)
+    h.approve("careers.acmeco.com")
     h.cfg.run.verify_wait_s = 1
     app = h.enqueue(portal.url(42), "AcmeCo")["application_id"]
     assert h.run() == M.AWAITING_EMAIL
@@ -85,7 +95,9 @@ def test_outstanding_registration_after_a_crash_is_not_repeated(h):
     app = h.enqueue(portal.url(42), "AcmeCo")["application_id"]
     # simulate: an earlier attempt pressed Create account and then the worker died
     from runner.identity import Realm
-    a = h.accounts.ensure(Realm("site:careers.acmeco.com", "site", "careers.acmeco.com", ("careers.acmeco.com",)))
+    h.approve("careers.acmeco.com")
+    h.cfg.run.verify_wait_s = 1
+    a = h.accounts.ensure(Realm("site:careers.acmeco.com", "site", "careers.acmeco.com", ()))
     h.accounts.begin_registration(a["id"])
     assert h.run() == M.NEEDS_HUMAN
     assert "registration_uncertain" in h.view(app)["reason"] and portal.registrations == 0
@@ -102,6 +114,7 @@ def test_login_on_an_unverified_host_never_receives_the_password(h):
 
 def test_page_text_instructions_change_nothing(h):
     portal = GenericPortal(h.fx, hostile=True)
+    h.approve("careers.acmeco.com")
     h.start_outlook_bridge()
     h.enqueue(portal.url(42), "AcmeCo")
     assert h.run() == M.APPLIED

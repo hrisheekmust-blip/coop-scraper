@@ -37,9 +37,10 @@ def test_outlook_bridge_reads_only_relevant_mail(pw_browser):
     page.wait_for_function("window.__sent.filter(m => m.type === 'mail.ingest').length >= 2", timeout=10000)
     sent = page.evaluate("window.__sent")
     ingests = [m["message"] for m in sent if m["type"] == "mail.ingest"]
-    verify = next(m for m in ingests if m["message_id"] == "owa:c1")
+    verify = next(m for m in ingests if m["message_id"].startswith("owa:c1:"))
     assert verify["links"] == ["https://acmesemi.wd1.myworkdayjobs.com/AcmeCareers/activate/tok123"]
-    assert any(m["message_id"] == "owa:c3" for m in ingests)
-    assert not any(m["message_id"] == "owa:c2" for m in ingests)
+    assert any(m["message_id"].startswith("owa:c3:") for m in ingests)
+    assert not any(m["message_id"].startswith("owa:c2:") for m in ingests)
+    assert verify["received_at"]                                              # "10:32 AM" was parsed
     assert not page.evaluate("!!window.__openedPersonal")
     ctx.close()
