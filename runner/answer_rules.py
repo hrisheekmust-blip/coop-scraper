@@ -219,11 +219,49 @@ def consent(ctx: Ctx, q: Question, key: str):
 
 
 def eeo(ctx: Ctx, q: Question, key: str):
+    if not q.option_list():
+        return need("self-identification is only answered by choosing a decline option", [], key)
     f = _f(ctx, "prefs.eeo_policy")
     if not f or not re.search(r"decline|not.*(answer|disclos)|self.identify", str(f["value"]), re.I):
         return need("no saved self-identification preference", ["prefs.eeo_policy"], key)
     return Proposal(value="decline", basis="fact", evidence=[f["id"]], key=key, sensitive=True,
-                    synonyms=[r"decline|don'?t wish|do not wish|prefer not|not to (answer|say|disclose)|rather not|no answer|choose not"])
+                    synonyms=[r"decline|don'?t wish|do not wish|prefer not|not to (answer|say|disclose)|rather not|no answer|choose not|(do not|don'?t) want to (answer|disclose|self.identify)"])
+
+
+def education_date(ctx: Ctx, q: Question, key: str):
+    """'From'/'To' (month/year) inside an Education section: start from education.start, end from the graduation date.
+    Outside an Education section the same words mean something else, so they stay unanswered."""
+    if not re.search(r"educat|school|universit|degree", (q.context or "") + " " + q.label, re.I):
+        return need("a From/To date outside an education section", [], key)
+    n = q.norm
+    end = bool(re.match(r"^(to|end|expected end|to \(actual or expected\)|graduation)", n))
+    pred = "education.graduation" if end else "education.start"
+    f = _f(ctx, pred)
+    if not f or not re.fullmatch(r"\d{4}-\d{2}(-\d{2})?", str(f["value"])):
+        return need("education dates aren't saved", [pred], key)
+    y, m = int(f["value"][:4]), int(f["value"][5:7])
+    part = "year" if n.endswith("year") else "month" if n.endswith("month") else "both"
+    ev = [f["id"]]
+    if part == "year":
+        return Proposal(value=str(y), basis="derived", evidence=ev, derivation="education_date_year", key=key)
+    if part == "month":
+        return Proposal(value=f"{m:02d}" if not q.option_list() else MONTHS[m - 1].capitalize(), basis="derived", evidence=ev,
+                        derivation="education_date_month", key=key, synonyms=[rf"^0?{m}$", rf"^{MONTHS[m-1]}$", rf"^{MONTHS[m-1][:3]}$"])
+    if q.control == "date":
+        return need("an exact day is needed; only month and year are saved", [pred], key)
+    return Proposal(value=f"{m:02d}/{y}", basis="derived", evidence=ev, derivation="education_date_month_year", key=key)
+
+
+def signature_date(ctx: Ctx, q: Question, key: str):
+    """The date on a self-identification form is the day you sign it: today."""
+    if not re.search(r"self.?identif|disabilit|voluntary|signature|sign", (q.context or "") + " " + q.label, re.I):
+        return need("a date field whose meaning isn't clear", [], key)
+    d = ctx.today
+    if q.control == "date":
+        v = d.isoformat()
+    else:
+        v = f"{d.month:02d}/{d.day:02d}/{d.year:04d}"
+    return Proposal(value=v, basis="policy", evidence=["policy:signature_date_is_today"], derivation="signature_date_today", key=key)
 
 
 def state_value(v):
@@ -261,8 +299,16 @@ RULES = [
     ("address.state", L(r"^(state|province|state/province|state or province|region)$"),
      lambda c, q, k: fact(c, "address.state", k, transform=state_value, synonyms=state_synonyms(_f(c, "address.state")["value"]) if _f(c, "address.state") else [])),
     ("address.zip", L(r"^(zip( code)?|postal code|zip/postal code|postcode|what is the zip code of your primary residence)$"), lambda c, q, k: fact(c, "address.zip", k)),
-    ("address.country", L(r"^(country|country of residence|current country|country/territory|country/region)$"),
+    ("address.country", L(r"^(country|country of residence|current country|country/territory|country/region|country/region of residence|country of residence/region)$"),
      lambda c, q, k: fact(c, "address.country", k, synonyms=COUNTRY_SYNONYMS.get(norm(str((_f(c, "address.country") or {}).get("value", ""))), []))),
+    ("address.line1", L(r"^(address( line)? ?1|address line one|street address|street|address)$"), lambda c, q, k: fact(c, "address.line1", k)),
+    ("address.line2", L(r"^(address( line)? ?2|apartment, suite, etc|apt/suite)$"), lambda c, q, k: fact(c, "address.line2", k)),
+    ("contact.phone_type", L(r"^((phone )?device type|phone type|type of phone)$"), lambda c, q, k: fact(c, "contact.phone_type", k)),
+    ("contact.phone_country", L(r"^(country phone code|phone country( code)?|country code|phone code)$"),
+     lambda c, q, k: fact(c, "address.country", k, synonyms=[rf"^{re.escape(norm(str((_f(c, 'address.country') or {}).get('value', ''))))}( of america)? \(\+\d+\)$",
+                                                              rf"^{re.escape(norm(str((_f(c, 'address.country') or {}).get('value', ''))))}( of america)? \+\d+$", r"^\+1$"])),
+    ("education.dates", L(r"^(from|start|start date|from date|attended from|to|end|end date|to \(actual or expected\)|expected end date|to date)( month| year)?$"), education_date),
+    ("self_id.date", L(r"^(date|today'?s date|signature date|date signed)$"), signature_date),
     ("address.location", L(r"^(location( \(city\))?|current location|your location|where are you (located|based)|where do you live)$"), lambda c, q, k: fact(c, "address.location_text", k)),
     ("education.school", L(r"^(school|university|college|college or university|school / university|school name|university name|institution|school or university)$"), lambda c, q, k: fact(c, "education.school", k)),
     ("education.major", L(r"^(major|field of study|major or field of study|discipline|concentration|area of study)$"), lambda c, q, k: fact(c, "education.major", k)),

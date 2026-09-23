@@ -45,6 +45,8 @@ def seed_profile(db):
         "education.graduation": "2027-12", "availability.intervals": [{"from": "2027-01", "to": "2027-06"}],
         "work_auth.us_authorized": True, "work_auth.sponsorship_now_or_future": False, "person.over_18": True,
         "prefs.eeo_policy": "decline", "prefs.relocate_general": True, "education.gpa": "3.9",
+        "prefs.hear_about": "Company careers page", "history.employers": ["Covalta"], "history.employers_complete": True,
+        "address.line1": "1 Test Street", "contact.phone_type": "Mobile", "education.start": "2024-09",
     }.items():
         f.add(pred, v, U)
     f.add("education.enrolled", True, U, valid_from="2024-09-01", valid_until="2027-12-31")

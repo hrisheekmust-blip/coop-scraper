@@ -28,12 +28,9 @@ def names():
     return [a.name for a in _REGISTRY] + [GENERIC.name]
 
 
-try:  # the account-based portals (stage F)
-    from .workday import Workday
-    from .successfactors import SuccessFactors
-    from .oracle import Oracle
-    from .icims import ICIMS
-    for _a in (Workday(), SuccessFactors(), Oracle(), ICIMS()):
-        _REGISTRY.append(_a)
-except ImportError:  # pragma: no cover
-    pass
+from .icims import ICIMS  # noqa: E402
+from .oracle import Oracle  # noqa: E402
+from .successfactors import SuccessFactors  # noqa: E402
+from .workday import Workday  # noqa: E402
+
+_REGISTRY += [Workday(), SuccessFactors(), Oracle(), ICIMS()]

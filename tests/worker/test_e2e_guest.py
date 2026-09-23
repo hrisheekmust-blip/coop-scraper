@@ -16,7 +16,8 @@ def test_greenhouse_react_select_conditional_question_and_confirmation(h):
     assert fields["authorized"] == "Yes" and fields["over18"] == "Yes"          # conditional question appeared and was answered
     assert fields["sponsor"] == "No" and fields["gender"] == "Decline To Self Identify"
     assert fields["resume"] == "Test_Applicant_Resume.pdf" and fields["privacy"] is True
-    assert fields["hear"] == ""                                                   # optional + unknown: left blank, not guessed
+    assert fields["hear"] == "Company careers page" and fields["linkedin"].endswith("test-applicant")
+    assert fields["fav"] == "" and fields["pronouns"] == ""                   # optional + unknown/sensitive: left blank, not guessed
     v = h.view(app)
     assert v["receipt"]["kind"] == "page" and "/confirmation" in v["receipt"]["url"]
     # snapshot of what was sent is frozen on the application

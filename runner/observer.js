@@ -63,7 +63,7 @@
     for (let i = 0; i < 8 && e; i++) {
       const box = e.closest("section, fieldset, [role=group], [data-automation-id*='Section' i], .section, div");
       if (!box) break;
-      const h = box.querySelector("h1, h2, h3, h4, legend, [role=heading]");
+      const h = box.querySelector("h1, h2, h3, h4, [role=heading]");
       if (h && !h.contains(el) && txt(h)) return txt(h).slice(0, 120);
       e = box.parentElement;
     }
@@ -111,7 +111,7 @@
   for (const el of fields) {
     if (taken.has(el)) continue;
     const tag = el.tagName.toLowerCase();
-    const type = (el.getAttribute("type") || tag).toLowerCase();
+    const type = (el.getAttribute("type") || (tag === "input" ? "text" : tag)).toLowerCase();
     if (["hidden", "submit", "button", "reset", "image", "radio", "checkbox", "search"].includes(type) && tag === "input") continue;
     if ((el.getAttribute("role") === "radiogroup" || el.getAttribute("role") === "group")) continue;
     if (!usable(el)) continue;
@@ -123,13 +123,21 @@
     const opts = tag === "select" ? [...el.options].map(o => ({ label: txt(o), value: o.value, ref: "" })).filter(o => o.label && !/^(select|choose|--|please select)/i.test(o.label)) : [];
     let value = tag === "select" ? [...el.selectedOptions].map(o => txt(o)).filter(v => !/^(select|choose|--|please select)/i.test(v)) : (el.value !== undefined ? el.value : txt(el));
     if (control === "combobox") {
-      const ctrl = el.closest("[class*='select__control'], [class*='control'], [class*='Control']");
-      const shown = ctrl ? [...ctrl.querySelectorAll("[class*='single-value'], [class*='multi-value__label'], [class*='singleValue']")].map(txt).filter(Boolean) : [];
+      const ctrl = el.closest("[class*='select__control'], [class*='control'], [class*='Control']") || entryOf(el);
+      // Only a rendered selection counts: typed search text in the input is not an answer.
+      const shown = ctrl ? [...ctrl.querySelectorAll("[class*='single-value'], [class*='multi-value__label'], [class*='singleValue'], [data-automation-id='selectedItem']")].map(txt).filter(Boolean) : [];
       if (tag === "button") { const t = txt(el); value = /^(select( one)?|choose|--)$/i.test(t) ? [] : [t]; }
       else value = shown;
     }
     if (type === "file") value = el.files && el.files.length ? [...el.files].map(f => f.name) : [];
-    const label = labelOf(el);
+    let label = labelOf(el);
+    // Split date parts ("Month" / "Year") take the group's question: "From Month", "To Year".
+    if (/^(month|year|day|mm|yyyy|dd)$/i.test(label)) {
+      const grp = el.closest("fieldset, [role=group], [data-automation-id^='formField'], .field, .date-group");
+      const gl = grp && grp.querySelector("legend, label:not([for]), [data-automation-id*='label' i], .label");
+      const g = gl ? qtext(gl) : "";
+      if (g && g.toLowerCase() !== label.toLowerCase()) label = g + " " + label;
+    }
     controls.push({
       ref: ref(el), control, tag, label, context: section(el), around: around(el).slice(0, 300), options: opts, multiple: !!el.multiple,
       required: required(el, label), value, placeholder: el.placeholder || "", name: el.name || "", id: el.id || "",

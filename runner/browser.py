@@ -187,6 +187,7 @@ class Executor:
             raise ActionRefused("action budget spent")
 
     def loc(self, key: str):
+        """Locate an observed control. A reference from before a navigation no longer exists: StaleRef."""
         fi, ref = key.split(":", 1)
         frames = self.page.frames
         fr = frames[int(fi)] if int(fi) < len(frames) else self.page.main_frame
@@ -284,9 +285,10 @@ class Executor:
             return False
         opt.first.click(timeout=5000)
         time.sleep(0.3)
-        shown = self.loc(c.key).evaluate("""e => { const c = e.closest("[class*='select__control'], [class*='control'], [class*='Control']");
-            const v = c ? [...c.querySelectorAll("[class*='single-value'], [class*='multi-value__label'], [class*='singleValue']")].map(x => x.innerText.trim()) : [];
-            return v.length ? v : [ (e.tagName === 'BUTTON' ? e.innerText : e.value || '').trim() ]; }""")
+        shown = self.loc(c.key).evaluate("""e => { const c = e.closest("[class*='select__control'], [class*='control'], [class*='Control']")
+              || e.closest("[data-automation-id^='formField'], .field, fieldset") || e.parentElement;
+            const v = c ? [...c.querySelectorAll("[class*='single-value'], [class*='multi-value__label'], [class*='singleValue'], [data-automation-id='selectedItem']")].map(x => x.innerText.trim()) : [];
+            return v.length ? v : (e.tagName === 'BUTTON' ? [e.innerText.trim()] : []); }""")
         return any(norm(s) == norm(label) for s in shown)
 
     def upload(self, c: Control, artifact_id: str) -> bool:
@@ -348,9 +350,27 @@ class Executor:
         self.loc(b.key).click(timeout=10000)
         self.log("click", text=scrub(b.text), kind=b.kind)
 
+    def wait_change(self, before: "Observation", timeout: float = 12.0) -> "Observation":
+        """After an action: wait until the page shows something new (navigation, new step, an error, a message)."""
+        end = time.time() + timeout
+        self.settle(400)
+        cur = observe(self.page)
+        while time.time() < end:
+            if cur.signature() != before.signature() or cur.errors != before.errors or cur.body[:2000] != before.body[:2000]:
+                self.settle(300)
+                return observe(self.page)
+            time.sleep(0.3)
+            cur = observe(self.page)
+        return cur
+
     def settle(self, ms=600):
         try:
             self.page.wait_for_load_state("domcontentloaded", timeout=15000)
+        except Exception:
+            pass
+        # Let fetch-then-navigate handlers finish (sign-in -> reload) before the next observation.
+        try:
+            self.page.wait_for_load_state("networkidle", timeout=2500)
         except Exception:
             pass
         end = time.time() + 10

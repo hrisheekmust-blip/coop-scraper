@@ -31,6 +31,7 @@ def greenhouse(fx: Fixture, company="Acme Photonics", board="acme", job=GH_JOB, 
               {textarea('why', f'Why are you interested in {company}?')}
               {select('gender', 'Gender', ['Male', 'Female', 'Decline To Self Identify'], required=False)}
               {text('hear', 'How did you hear about this job?', required=False)}
+              {text('pronouns', 'Pronouns', required=False)}{text('fav', 'What is your favorite programming language?', required=False)}
               {extra}
               {checkbox('privacy', 'I have read and agree to the Privacy Policy', required=True)}
               <div class="errors" id="errs"></div>

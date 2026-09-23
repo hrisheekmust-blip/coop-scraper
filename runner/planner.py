@@ -117,64 +117,80 @@ class ApplicationRun:
         self.state(M.RESOLVING)
         self.page.goto(self.job["resolved_url"], wait_until="domcontentloaded", timeout=45000)
         self.ex.settle(800)
+        stale = 0
         for step in range(self.cfg.max_steps):
             self.check_cancel()
-            obs = observe(self.page)
-            self._maybe_merge(obs.url)
-            adapter = pick_adapter(obs.url)
-            kind = adapter.page_kind(obs, self) or adapter.generic_kind(obs, self)
-            self.log("page", kind=kind, url=scrub(obs.url.split("?")[0]), adapter=adapter.name)
-            sig = obs.signature() + ":" + kind
-            self.seen_sigs[sig] = self.seen_sigs.get(sig, 0) + 1
-            if self.seen_sigs[sig] > 3:
-                raise Park(M.NEEDS_INFO if obs.errors else M.FAILED, "no_progress",
-                           "the page stopped advancing" + (": " + "; ".join(obs.errors[:3]) if obs.errors else ""),
-                           [{"blocker": "no_progress", "errors": obs.errors[:5]}])
-            if kind == "closed":
-                Q.mark_posting_closed(self.db, self.job["id"])
-                raise Done(M.CLOSED, "the posting is closed")
-            if kind == "confirmation":
-                if ALREADY_RX.search(obs.text()):
-                    self._history_confirmed(obs, "the portal says you already applied")
-                raise Park(M.FAILED, "unsupported", "a confirmation page appeared before anything was submitted in this attempt")
+            try:
+                if self._step():
+                    return
+                stale = 0
+            except (Park, Done):
+                raise
+            except Exception as e:
+                # The page changed under us (a reload after sign-in, a re-render): observe again, a few times at most.
+                if ("waiting for locator" in str(e) or "not attached" in str(e) or "Execution context was destroyed" in str(e)) \
+                        and not self.submitted and stale < 3:
+                    stale += 1
+                    self.log("page_changed_during_action")
+                    self.ex.settle(800)
+                    continue
+                raise
+        raise Park(M.FAILED, "no_progress", "too many pages without reaching the end of the application")
+
+    def _step(self) -> bool:
+        """One observe/act cycle. True when the application reached its final outcome."""
+        obs = observe(self.page)
+        self._maybe_merge(obs.url)
+        adapter = pick_adapter(obs.url)
+        kind = adapter.page_kind(obs, self) or adapter.generic_kind(obs, self)
+        self.log("page", kind=kind, url=scrub(obs.url.split("?")[0]), adapter=adapter.name)
+        sig = obs.signature() + ":" + kind
+        self.seen_sigs[sig] = self.seen_sigs.get(sig, 0) + 1
+        if self.seen_sigs[sig] > 3:
+            raise Park(M.NEEDS_INFO if obs.errors else M.FAILED, "no_progress",
+                       "the page stopped advancing" + (": " + "; ".join(obs.errors[:3]) if obs.errors else ""),
+                       [{"blocker": "no_progress", "errors": obs.errors[:5]}])
+        if kind == "closed":
+            Q.mark_posting_closed(self.db, self.job["id"])
+            raise Done(M.CLOSED, "the posting is closed")
+        if kind == "confirmation":
             if ALREADY_RX.search(obs.text()):
                 self._history_confirmed(obs, "the portal says you already applied")
-            if kind == "human":
-                self.wait_human(obs)
-                continue
-            if kind == "mfa":
-                raise Park(M.NEEDS_HUMAN, "mfa", "the portal asks for a second factor; sign in once in the worker window")
-            if kind == "job_page":
-                self.state(M.PREPARING) if Q.app_row(self.db, self.app["id"])["state"] == M.RESOLVING else None
-                self.enter_application(obs, adapter)
-                continue
-            if kind in ("login", "register", "verify_email", "email_code", "email_login"):
-                self.state(M.AUTHENTICATING) if Q.app_row(self.db, self.app["id"])["state"] in (M.RESOLVING, M.PREPARING, M.FILLING) else None
-                getattr(self, "do_" + kind)(obs, adapter)
-                continue
-            if kind == "form":
-                if Q.app_row(self.db, self.app["id"])["state"] in (M.RESOLVING, M.AUTHENTICATING):
-                    self.state(M.PREPARING)
-                self.state(M.FILLING)
-                self.verify_identity(obs, adapter)
-                if self.fill_and_advance(obs, adapter):
-                    return
-                continue
-            if kind == "review":
-                self.state(M.FILLING)
-                if self.fill_and_advance(obs, adapter):
-                    return
-                continue
-            # unknown: give the page a moment (SPAs), then try an apply entry, then stop with a diagnostic
-            self.ex.settle(1500)
-            obs2 = observe(self.page)
-            if obs2.signature() == obs.signature():
-                b = adapter.apply_entry(obs2, self)
-                if b:
-                    self.enter_application(obs2, adapter)
-                    continue
-                raise Park(M.FAILED, "unsupported", f"unrecognized page ({obs.title[:80]})")
-        raise Park(M.FAILED, "no_progress", "too many pages without reaching the end of the application")
+            raise Park(M.FAILED, "unsupported", "a confirmation page appeared before anything was submitted in this attempt")
+        if ALREADY_RX.search(obs.text()):
+            self._history_confirmed(obs, "the portal says you already applied")
+        if kind == "human":
+            self.wait_human(obs)
+            return False
+        if kind == "mfa":
+            raise Park(M.NEEDS_HUMAN, "mfa", "the portal asks for a second factor; sign in once in the worker window")
+        if kind == "job_page":
+            self.state(M.PREPARING) if Q.app_row(self.db, self.app["id"])["state"] == M.RESOLVING else None
+            self.enter_application(obs, adapter)
+            return False
+        if kind in ("login", "register", "verify_email", "email_code", "email_login", "consent_page"):
+            self.state(M.AUTHENTICATING) if Q.app_row(self.db, self.app["id"])["state"] in (M.RESOLVING, M.PREPARING, M.FILLING) else None
+            getattr(self, "do_" + kind)(obs, adapter)
+            return False
+        if kind == "form":
+            if Q.app_row(self.db, self.app["id"])["state"] in (M.RESOLVING, M.AUTHENTICATING):
+                self.state(M.PREPARING)
+            self.state(M.FILLING)
+            self.verify_identity(obs, adapter)
+            return bool(self.fill_and_advance(obs, adapter))
+        if kind == "review":
+            self.state(M.FILLING)
+            return bool(self.fill_and_advance(obs, adapter))
+        # unknown: give the page a moment (SPAs), then try an apply entry, then stop with a diagnostic
+        self.ex.settle(1500)
+        obs2 = observe(self.page)
+        if obs2.signature() == obs.signature():
+            b = adapter.apply_entry(obs2, self)
+            if b:
+                self.enter_application(obs2, adapter)
+                return False
+            raise Park(M.FAILED, "unsupported", f"unrecognized page ({obs.title[:80]})")
+        return False
 
     # ------------------------------------------------------------------ identity
     def _maybe_merge(self, url):
@@ -282,8 +298,7 @@ class ApplicationRun:
         if not btn:
             raise Park(M.FAILED, "unsupported", "no sign-in button")
         self.ex.click(btn, allow=("signin", "next", "other"))
-        self.ex.settle(1500)
-        after = observe(self.page)
+        after = self.ex.wait_change(obs)
         if BAD_LOGIN_RX.search(" ".join(after.errors) + " " + after.body[:3000]):
             n = self.accounts.login_failed(a["id"])
             # Never created or used by us here: the portal already had an account for this email with another password.
@@ -308,6 +323,12 @@ class ApplicationRun:
         if not em:
             raise Park(M.FAILED, "unsupported", "no email field on the sign-in page")
         self._cred(em, "email")
+        for c in obs.controls:
+            if c is not em and c.control != "password":
+                self.fill_one(c, obs)
+        needs = self.collect_needs(observe(self.page))
+        if needs:
+            self.park_needs(needs)
         btn = adapter.signin_submit(obs, self) or adapter.next_button(obs, self)
         if not btn:
             raise Park(M.FAILED, "unsupported", "no button to request the code")
@@ -365,9 +386,9 @@ class ApplicationRun:
                 raise Park(M.NEEDS_HUMAN, "registration_uncertain", "an earlier account registration here may have gone through; checking the mailbox first")
             raise Park(M.NEEDS_HUMAN, e.code, e.detail)
         btn.kind = "create_account"
+        before = observe(self.page)
         self.ex.click(btn, allow=("create_account",))
-        self.ex.settle(2000)
-        after = observe(self.page)
+        after = self.ex.wait_change(before, timeout=20)
         text = " ".join(after.errors) + " " + after.text()
         if EXISTS_RX.search(text):
             self.accounts.registration_result(a["id"], "existing_account", "the portal says an account exists for this email")
@@ -394,6 +415,25 @@ class ApplicationRun:
             raise Park(M.NEEDS_HUMAN, "registration_uncertain", "the account form didn't respond; check the worker window")
         self.accounts.registration_result(a["id"], "active")
         self.save_session()
+
+    def do_consent_page(self, obs, adapter):
+        """A privacy/data-processing statement to accept. Only accepted when your saved policy covers it."""
+        from .questions import Question
+        q = Question(label="I accept the data privacy statement", control="checkbox", options=["I accept"], context=obs.text()[:300],
+                     job_id=self.job["id"], employer=self.job.get("company", ""))
+        from .answer_rules import consent
+        p = consent(self.ctx(), q, "consent:data_privacy_statement")
+        if p.decision != "answer":
+            raise Park(M.NEEDS_HUMAN, "consent_unconfigured", "the portal asks you to accept a privacy statement your saved policy doesn't cover")
+        for c in obs.controls:
+            if c.control == "checkbox":
+                self.fill_one(c, obs)
+        for b in obs.buttons:
+            if re.fullmatch(r"(i )?accept|agree|i agree", b.text.strip(), re.I) and not b.disabled:
+                self.ex.click(b, allow=("other", "next", "signin"))
+                self.ex.settle(1000)
+                return
+        raise Park(M.FAILED, "unsupported", "couldn't find the Accept button")
 
     def do_verify_email(self, obs, adapter):
         self.ensure_account(obs.url)
@@ -444,7 +484,8 @@ class ApplicationRun:
             if len(box) != 1:
                 raise Park(M.NEEDS_HUMAN, "login_code", "couldn't find where to enter the code")
             self.ex.loc(box[0].key).fill(secret)
-            btn = adapter.signin_submit(cur, self) or adapter.next_button(cur, self)
+            btn = next((b for b in cur.buttons if re.fullmatch(r"(verify|confirm|continue|submit|next|sign in|log ?in)( code)?", b.text.strip(), re.I)
+                        and not b.disabled), None) or adapter.signin_submit(cur, self) or adapter.next_button(cur, self)
             if btn:
                 self.ex.click(btn, allow=("signin", "next", "other", "verify"))
             self.ex.settle(1500)
@@ -506,10 +547,13 @@ class ApplicationRun:
                 opts = []
             if not opts and c.raw.get("tag") == "input":
                 # async search box (school, city): search for the answer we would give, then read the results
-                first = self.engine.answer(q, self.ctx())
-                if isinstance(first, Validated) and first.text:
+                first = self.engine.propose(q, self.ctx())
+                val = first.value if first.decision == "answer" else None
+                if isinstance(val, list):
+                    val = val[0] if val else None
+                if isinstance(val, str) and val.strip():
                     try:
-                        opts = self.ex.combo_options(c, first.text.split(",")[0][:40])
+                        opts = self.ex.combo_options(c, val.split(",")[0][:40])
                     except Exception:
                         opts = []
             q.options = opts
@@ -597,8 +641,7 @@ class ApplicationRun:
             raise Park(M.FAILED, "unsupported", "no Next or Submit button on this page")
         before = obs.signature()
         self.ex.click(nxt)
-        self.ex.settle(1200)
-        after = observe(self.page)
+        after = self.ex.wait_change(obs)
         if after.signature() == before and after.errors:
             needs = self.collect_needs(after)
             if needs:
