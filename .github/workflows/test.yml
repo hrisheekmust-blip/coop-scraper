@@ -1,13 +1,15 @@
 name: application flow tests
 on:
   push:
-    paths: ["engine.js", "index.html", "relay.html", "coop-apply.user.js", "coop-mail.user.js", "tests/**", ".github/workflows/test.yml"]
+    paths: ["engine.js", "index.html", "relay.html", "coop-apply.user.js", "coop-mail.user.js", "tests/**", "runner/**", "extension/**",
+            "native_host/**", "scraper/forms.py", "requirements-dev.txt", "pytest.ini", ".github/workflows/test.yml"]
   pull_request:
-    paths: ["engine.js", "index.html", "relay.html", "coop-apply.user.js", "coop-mail.user.js", "tests/**", ".github/workflows/test.yml"]
+    paths: ["engine.js", "index.html", "relay.html", "coop-apply.user.js", "coop-mail.user.js", "tests/**", "runner/**", "extension/**",
+            "native_host/**", "scraper/forms.py", "requirements-dev.txt", "pytest.ini", ".github/workflows/test.yml"]
 permissions:
   contents: read
 jobs:
-  test:
+  board:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -15,3 +17,14 @@ jobs:
         with:
           node-version: "22"
       - run: node --test tests/*.test.cjs
+  worker:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install -r requirements-dev.txt
+      - run: python -m playwright install --with-deps chromium
+      - run: python -m pytest -q

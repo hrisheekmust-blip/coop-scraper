@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><title>Co-op Apply Worker</title>
+<style>
+:root{--bg:#f6f5f2;--ink:#1c1d21;--mute:#6b6f76;--line:#dedcd6;--accent:#b4552c;--ok:#1e7d4f;--bad:#b42323}
+@media (prefers-color-scheme:dark){:root{--bg:#17181b;--ink:#ebeae5;--mute:#9a9ea5;--line:#2e3137;--accent:#d9764a;--ok:#4cc48a;--bad:#f08a84}}
+body{margin:0;background:var(--bg);color:var(--ink);font:14px/1.45 system-ui,sans-serif;min-width:420px}
+main{max-width:640px;margin:0 auto;padding:18px}
+h1{font-size:18px;margin:0 0 4px}h2{font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--mute);margin:22px 0 8px}
+.card{border:1px solid var(--line);border-radius:8px;padding:12px 14px;margin:8px 0}
+label{display:block;margin:8px 0 4px;color:var(--mute);font-size:12px}
+input[type=password],input[type=text]{width:100%;box-sizing:border-box;padding:7px 9px;border:1px solid var(--line);border-radius:6px;background:transparent;color:var(--ink)}
+button{padding:6px 12px;border-radius:6px;border:1px solid var(--line);background:transparent;color:var(--ink);cursor:pointer;margin:6px 6px 0 0}
+button.primary{background:var(--accent);border-color:var(--accent);color:#fff}
+.ok{color:var(--ok)}.bad{color:var(--bad)}.mute{color:var(--mute);font-size:12px}
+.row{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+</style></head>
+<body><main>
+  <h1>Co-op Apply Worker</h1><div class="mute">Settings stay on this computer. Passwords go straight into Windows Credential Manager.</div>
+  <h2>Connection</h2><div class="card" id="conn">checking…</div>
+  <h2>Portal login</h2>
+  <div class="card">
+    <div id="credstate" class="mute"></div>
+    <label for="pw">Shared password for employer portals</label><input id="pw" type="password" autocomplete="new-password">
+    <label for="pw2">Again</label><input id="pw2" type="password" autocomplete="new-password">
+    <button class="primary" id="savepw">Save password</button>
+    <label for="un">Username where a portal wants one (optional; email is used otherwise)</label><input id="un" type="text" autocomplete="off">
+    <button id="saveun">Save username</button><span id="credmsg" class="mute"></span>
+  </div>
+  <h2>What the worker may accept for you</h2>
+  <div class="card" id="policy">loading…</div>
+  <h2>Accounts</h2><div id="accounts" class="mute">loading…</div>
+  <h2>Questions waiting for a prep pass</h2><div class="card" id="pending">loading…</div>
+</main><script src="settings.js"></script></body></html>

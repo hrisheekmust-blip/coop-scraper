@@ -22,6 +22,19 @@ from .evidence import scrub
 
 log = logging.getLogger("coop.worker")
 
+def keep_awake(on: bool):
+    """While an application is running, ask Windows not to sleep (the display may still turn off). No-op elsewhere."""
+    import sys
+    if sys.platform != "win32":
+        return
+    try:
+        import ctypes
+        ES_CONTINUOUS, ES_SYSTEM_REQUIRED = 0x80000000, 0x00000001
+        ctypes.windll.kernel32.SetThreadExecutionState(ES_CONTINUOUS | (ES_SYSTEM_REQUIRED if on else 0))
+    except Exception:
+        pass
+
+
 TRANSIENT = ("Timeout", "net::", "Navigation failed", "Target closed", "ERR_", "browser has been closed")
 
 
@@ -114,6 +127,7 @@ class Worker:
         ctx = None
         state, detail = M.FAILED, ""
         run = None
+        keep_awake(True)
         try:
             ctx = self.browser().new_context(accept_downloads=False, viewport={"width": 1366, "height": 900})
             if self.context_hook:
@@ -149,6 +163,7 @@ class Worker:
             else:
                 state, detail = M.FAILED, msg
         finally:
+            keep_awake(False)
             try:
                 if ctx:
                     ctx.close()

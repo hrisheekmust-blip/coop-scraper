@@ -1,0 +1,44 @@
+{
+  "manifest_version": 3,
+  "name": "Co-op Apply Worker Bridge",
+  "version": "1.0.0",
+  "description": "Connects your co-op board and Outlook tab to the application worker running on this computer.",
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAv8qP+wgNMY5TjfG8JUce+6oSn7u0hJCb12UkzHItmsrF0auAa6V96ctrTMZAHOWxedoBUD0GcrsMs3z8MBu2JSuPBn/1DogJ8mBiNgHpHsS1Sd8hyYt7/fJf3lZOpVp+2U90LF5MwzEBnSc6+Yjp2l0ZGsHDNBZFEDyVHeboGnSXMXHuswcxRoP4e8/sC0bazx3aZei5lsTyX1uT42zHEjiRDneyrR9gt9w3PCGTcAT4v4wO/4Bm1a3vP037OLUST6DWAF/9qXi6bfceCiVyOLZL8Hmbxc46dUYzZuGsnwyAkiQja04SvnvUrELaovAj5uhqL+yEGs5cS0rNMePK0wIDAQAB",
+  "permissions": [
+    "nativeMessaging",
+    "storage"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "options_page": "settings.html",
+  "action": {
+    "default_title": "Co-op Apply Worker",
+    "default_popup": "settings.html"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://hrisheekmust-blip.github.io/coop-scraper/*"
+      ],
+      "js": [
+        "board_bridge.js"
+      ],
+      "run_at": "document_start",
+      "all_frames": false
+    },
+    {
+      "matches": [
+        "https://outlook.office.com/*",
+        "https://outlook.office365.com/*",
+        "https://outlook.cloud.microsoft/*",
+        "https://outlook.live.com/*"
+      ],
+      "js": [
+        "outlook.js"
+      ],
+      "run_at": "document_idle",
+      "all_frames": false
+    }
+  ]
+}

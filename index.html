@@ -104,7 +104,7 @@ main{padding-block:14px 60px}
 .qa.need{border-color:#f5c48a;background:#fff8ee}.qa.eeo .a{color:var(--ink2)}.qa.long .a{font-size:.93em}
 .fitd{margin-top:14px}.fitd summary{cursor:pointer;color:var(--ink2)}
 .tog{display:inline-flex;align-items:center;gap:6px;font-size:.85em;color:var(--ink2);margin-left:auto;margin-right:10px;cursor:pointer;user-select:none}.tog.off{opacity:.5}.settings .tog{margin:10px 0 0;display:flex}
-.pill.s-applying{background:#1d4ed8;color:#fff}.pill.s-uncertain{background:#b45309;color:#fff}.pill.s-needs-you{background:var(--apply-bg);color:var(--apply-ink)}.alias{display:block;font-size:11px;color:var(--mute)}.alias.bad{color:var(--red)}.settings h4{margin:16px 0 4px}
+.pill.s-applying{background:#1d4ed8;color:#fff}.pill.s-needs-info,.pill.s-needs-verify{background:var(--apply-bg);color:var(--apply-ink)}.pill.s-failed{background:var(--now-bg);color:var(--now-ink)}.pill.s-closed{background:var(--watch-bg);color:var(--mute)}.pill.s-uncertain{background:#b45309;color:#fff}.pill.s-needs-you{background:var(--apply-bg);color:var(--apply-ink)}.alias{display:block;font-size:11px;color:var(--mute)}.alias.bad{color:var(--red)}.settings h4{margin:16px 0 4px}
 .edit textarea{width:100%;min-height:480px;font:14px/1.5 Georgia,serif;padding:12px;border:1px solid var(--line);border-radius:6px;resize:vertical}.editbar{display:flex;gap:8px;align-items:center;margin-top:8px}
 </style>
 </head>
@@ -128,6 +128,7 @@ main{padding-block:14px 60px}
 <script>
 /* ---------- config: materials + application state live in a PRIVATE repo, read/written with your token ---------- */
 const CFG_KEY="coop-cfg";let cfg={repo:"hrisheekmust-blip/coop-apps",token:"",cover:false};try{Object.assign(cfg,JSON.parse(localStorage.getItem(CFG_KEY)||"{}"))}catch(e){}
+cfg.mode=cfg.mode==="worker"?"worker":"userscript";
 const saveCfg=()=>{try{localStorage.setItem(CFG_KEY,JSON.stringify(cfg))}catch(e){}};
 const API="https://api.github.com/repos/";
 const gh=async(path,opt={})=>{const r=await fetch(API+cfg.repo+"/contents/"+path+(opt.raw?"":"?t="+Date.now()),{method:opt.method||"GET",headers:{Authorization:"Bearer "+cfg.token,Accept:opt.raw?"application/vnd.github.raw":"application/vnd.github+json","X-GitHub-Api-Version":"2022-11-28",...(opt.body?{"Content-Type":"application/json"}:{})},body:opt.body?JSON.stringify(opt.body):undefined});if(!r.ok)throw new Error(path+": HTTP "+r.status);return opt.raw?r:r.json()};
@@ -139,7 +140,7 @@ const daysTo=d=>d?Math.round((new Date(d+"T12:00")-new Date())/864e5):null;
 const uc=u=>({"APPLY NOW":"u-now","APPLY":"u-apply","SOON":"u-soon"}[u]||"u-watch");
 const csv=t=>{const rows=[];let row=[],cur="",q=false;for(let i=0;i<t.length;i++){const c=t[i];if(q){if(c=='"'){if(t[i+1]=='"'){cur+='"';i++}else q=false}else cur+=c}else if(c=='"')q=true;else if(c==','){row.push(cur);cur=""}else if(c=='\n'){row.push(cur);rows.push(row);row=[];cur=""}else if(c!='\r')cur+=c}if(cur||row.length){row.push(cur);rows.push(row)}const h=rows.shift()||[];return rows.filter(r=>r.length===h.length).map(r=>Object.fromEntries(h.map((k,i)=>[k,r[i]])))};
 async function sha1_16(s){const b=await crypto.subtle.digest("SHA-1",new TextEncoder().encode(s));return [...new Uint8Array(b)].map(x=>x.toString(16).padStart(2,"0")).join("").slice(0,16)}
-const isDone=j=>["applied","interview","offer","rejected","skip"].includes(j.status||"");const inFlight=j=>["queued","applying"].includes(j.status||"");
+const isDone=j=>["applied","interview","offer","rejected","skip","closed"].includes(j.status||"");const inFlight=j=>["queued","applying","needs-info","needs-verify"].includes(j.status||"");
 /* uncertain = Submit was pressed but no confirmation was seen. It is never retried automatically. */
 const isHeld=j=>j.status==="uncertain";
 const SENT=["applied","interview","offer","rejected"];
@@ -202,6 +203,30 @@ function synthFor(j){if(!bank)return{};const variant=pickVariant(j.role,j.fit_wh
    the board shows one row, and every alias shares the strongest recorded status. Original state
    records are left untouched; conflicting histories are flagged for you to reconcile. */
 const canon=r=>CoopEngine.reqKey(((forms[r.id]||{}).apply_url)||"")||CoopEngine.reqKey(r.link||"")||"id:"+r.id;
+/* ---------- worker mode: Apply goes to the application worker on this computer, through the extension bridge ----------
+   The board never sees credentials or files in this mode; it sends one request per click and shows what the worker reports. */
+const W={views:{},online:null,err:"",since:"",timer:null};const rpcWait=new Map();
+window.addEventListener("message",e=>{if(e.source!==window||e.origin!==location.origin)return;const d=e.data||{};
+  if(d.channel==="coop-runner-response"&&rpcWait.has(d.id)){rpcWait.get(d.id)(d.response||{ok:false});rpcWait.delete(d.id)}});
+function rpc(msg,ms=8000){return new Promise(res=>{const id=crypto.randomUUID();rpcWait.set(id,res);window.postMessage({channel:"coop-runner-request",id,msg},location.origin);
+  setTimeout(()=>{if(rpcWait.has(id)){rpcWait.delete(id);res({ok:false,offline:true,error:"the worker extension isn't installed or didn't answer"})}},ms)})}
+const workerMode=()=>cfg.mode==="worker";
+const WMAP={applied:"applied",submission_uncertain:"uncertain",queued:"queued",retry_wait:"queued",needs_information:"needs-info",awaiting_email:"needs-verify",
+  needs_human_verification:"needs-verify",failed:"failed",closed:"closed",cancelled:""};
+const wStatus=v=>v.state in WMAP?WMAP[v.state]:"applying";
+const AGG=/(^|\.)(linkedin\.com|indeed\.com|glassdoor\.com|symplicity\.com|joinhandshake\.com|simplify\.jobs|ziprecruiter\.com)$/;
+const workerEligible=j=>{try{const u=new URL(applyUrl(j));return u.protocol==="https:"&&!AGG.test(u.hostname)&&!(forms[j.id]||{}).closed}catch(e){return false}};
+async function pollWorker(){if(!workerMode())return;const r=await rpc({type:"application.status",since:W.since});const was=W.online;W.online=!!r.ok;W.err=r.ok?"":(r.error||"");
+  let changed=was!==W.online;if(r.ok){W.since=r.now||W.since;for(const v of r.applications||[]){if(v.board_ref){W.views[v.board_ref]=v;changed=true}}if(changed)backupApplied()}
+  if(changed){render();if(openId)drawRender()}}
+function startWorkerPolling(){clearInterval(W.timer);W.since="";if(workerMode()){pollWorker();W.timer=setInterval(pollWorker,5000)}}
+/* Receipts the worker verified are copied into the private repo's state.json as a backup record. */
+function backupApplied(){if(!cfg.token)return;const todo=Object.values(W.views).filter(v=>v.state==="applied"&&v.board_ref&&state[v.board_ref]?.status!=="applied"&&!SENT.includes(state[v.board_ref]?.status));
+  if(!todo.length)return;writeState(st=>{for(const v of todo){const r=v.receipt||{};st[v.board_ref]={...(st[v.board_ref]||{}),status:"applied",statusAt:r.at||new Date().toISOString(),note:"",
+    submitted:{at:r.at||"",portal:r.url||"",evidence:{text:r.text||"",kind:r.kind||""},notes:"verified by the application worker"}}}}).catch(()=>{})}
+async function workerEnqueue(j){const r=await rpc({type:"application.enqueue",request_id:crypto.randomUUID(),source_url:applyUrl(j),job_ref:j.id,company:j.company,title:j.role,location:j.location||""});
+  if(!r.ok)throw new Error(r.offline?"Worker offline, nothing was queued: "+r.error:r.error);W.views[j.id]=r.application;render();if(openId)drawRender();return r.application}
+async function workerAction(type,app,extra={}){const r=await rpc({type,application_id:app,...extra});if(!r.ok)throw new Error(r.error);await pollWorker();return r}
 function jobs(){const base=rows.map(r=>({...r,...(apps[r.id]||synthFor(r)),...(state[r.id]||{}),status:(state[r.id]||{}).status??local[r.id]??""}));
   const groups=new Map();for(const j of base){j.canon=canon(j);if(!groups.has(j.canon))groups.set(j.canon,[]);groups.get(j.canon).push(j)}
   for(const g of groups.values()){if(g.length<2)continue;
@@ -210,16 +235,18 @@ function jobs(){const base=rows.map(r=>({...r,...(apps[r.id]||synthFor(r)),...(s
     g.forEach((j,i)=>{j.aliases=g.filter(x=>x!==j).map(x=>({id:x.id,source:x.source,status:x.status}));j.primary=i===0;
       if(best!==j&&best.status){j.status=best.status;j.statusFrom=best.id;for(const k of ["submitted","email","note","statusAt"])if(best[k]!==undefined)j[k]=best[k]}
       j.conflict=hist.length>1&&hist.some(x=>SENT.includes(x))})}
+  if(workerMode())for(const g of groups.values()){const v=g.map(x=>W.views[x.id]).find(Boolean);if(!v)continue;
+    for(const j of g){j.wv=v;j.status=wStatus(v);j.note=v.reason||""}}
   return base.map(j=>({...j,primary:j.primary!==false}))}
 function listFor(){const q=$("q").value.toLowerCase();return jobs().filter(j=>{
   if(!j.primary)return false;
   const open=!isDone(j)&&!inFlight(j)&&!isHeld(j);
   const inView=view==="all"?true:view==="applied"?(isDone(j)||inFlight(j)||isHeld(j)):view==="auto"?(open&&noAccount(j)&&canOneClick(j)):open;
   return inView&&(!q||(j.company+" "+j.role+" "+j.location+" "+portalOf(j)).toLowerCase().includes(q))})}   // searching "ashby" or "greenhouse" narrows to that system
-const statusPill=j=>j.status?`<span class="pill s-${j.status}">${j.status}</span>`:"";
+const statusPill=j=>j.wv&&workerMode()?`<span class="pill s-${j.status||"queued"}">${esc(j.wv.display)}</span>`:j.status?`<span class="pill s-${j.status}">${j.status}</span>`:"";
 function rowHtml(j){const dl=daysTo(j.deadline);const hot=dl!==null&&dl<=14;const done=isDone(j)||isHeld(j);const hasMat=(j.materials||[]).length>0;
   return `<div class="row ${j.fit} ${done?"done":""}"><div class="stripe"></div>
-  <div class="urg">${!done&&!inFlight(j)&&!isHeld(j)&&canOneClick(j)?`<label class="sel" title="Select for batch apply"><input type="checkbox" data-sel="${j.id}" ${selected.has(j.id)?"checked":""}></label>`:''}<span class="pill ${uc(j.urgency)}">${j.urgency}</span>${j.new==="NEW"?'<br><span class="pill new">New</span>':''}</div>
+  <div class="urg">${!done&&!inFlight(j)&&!isHeld(j)&&(workerMode()?workerEligible(j):canOneClick(j))?`<label class="sel" title="Select for batch apply"><input type="checkbox" data-sel="${j.id}" ${selected.has(j.id)?"checked":""}></label>`:''}<span class="pill ${uc(j.urgency)}">${j.urgency}</span>${j.new==="NEW"?'<br><span class="pill new">New</span>':''}</div>
   <div class="co">${esc(j.company)}<span class="fit">${j.fit==="ADJACENT"?"EE":j.fit}</span></div>
   <div class="role"><a href="${esc(j.link)}" target="_blank" rel="noopener">${esc(j.role)}</a>${j.fit_why?`<small>${esc(j.fit_why)}</small>`:''}${j.aliases&&j.aliases.length?`<span class="alias${j.conflict?" bad":""}">${j.conflict?"conflicting statuses across listings; check before applying · ":""}also listed via ${j.aliases.map(a=>esc(a.source||"another link")).join(", ")}</span>`:''}</div>
   <div class="loc">${esc(j.location)}</div>
@@ -235,7 +262,7 @@ function render(){const list=listFor();$("count").textContent=list.length+" / "+
   batchBar();
   document.querySelectorAll("[data-skip]").forEach(b=>b.onclick=()=>setStatus(b.dataset.skip,"skip"));
   const g=meta&&meta.generated?new Date(meta.generated):null;const age=g?(Date.now()-g)/36e5:null;
-  $("sub").innerHTML=(g?`last scan ${g.toLocaleString([],{month:"short",day:"numeric",hour:"numeric",minute:"2-digit"})}${age>3?' <span class="stale">· stale</span>':''}`:"")+(cfg.token?"":' <span class="warn">· add your token in ⚙ to enable Apply</span>')}
+  $("sub").innerHTML=(g?`last scan ${g.toLocaleString([],{month:"short",day:"numeric",hour:"numeric",minute:"2-digit"})}${age>3?' <span class="stale">· stale</span>':''}`:"")+(cfg.token?"":' <span class="warn">· add your token in ⚙ to enable Apply</span>')+(workerMode()?(W.online===false?' <span class="warn">· worker offline</span>':W.online?' · worker mode':' · worker mode (connecting…)'):' · userscript mode')}
 /* ---------- state writes: data/state.json in the private repo (falls back to this browser only) ---------- */
 let stateWrites=Promise.resolve();
 function writeState(mut){const task=stateWrites.then(()=>saveState(mut));stateWrites=task.catch(()=>{});return task}
@@ -362,15 +389,38 @@ async function startBatch(force,opts={}){const all=jobs();
   const at=new Date().toISOString();
   writeState(st=>{for(const id of ids){const cur=st[id]||{};if(!SENT.includes(cur.status))st[id]={...cur,status:"queued",statusAt:at,note:"in the current batch"}}}).then(()=>render()).catch(e=>{$("bst").textContent="couldn't save queued status: "+e.message});
   await stageAll(ids,batch.batchId)}
-$("bgo").onclick=()=>{if(batch&&(batch.finished||batch.i>=batch.ids.length)){const ids=batch.ids.filter(id=>state[id]?.status==="needs-you");prepareBatch(ids).catch(e=>{$("bst").textContent=e.message});return}if(!selected.size&&view==="auto")for(const j of listFor())selected.add(j.id);prepareBatch([...selected]).catch(e=>{$("bst").textContent=e.message})};
+$("bgo").onclick=()=>{if(workerMode()){if(!selected.size&&view==="auto")for(const j of listFor())selected.add(j.id);workerBatch([...selected]);return}if(batch&&(batch.finished||batch.i>=batch.ids.length)){const ids=batch.ids.filter(id=>state[id]?.status==="needs-you");prepareBatch(ids).catch(e=>{$("bst").textContent=e.message});return}if(!selected.size&&view==="auto")for(const j of listFor())selected.add(j.id);prepareBatch([...selected]).catch(e=>{$("bst").textContent=e.message})};
 function cleanStaged(){for(const k of Object.keys(localStorage))if(/^coop-(q|f)-|^coop-staging:/.test(k))try{localStorage.removeItem(k)}catch(e){}}
 $("bclear").onclick=()=>{if(batch){if(!batch.finished&&batch.i<batch.ids.length){batch.finished=true;localStorage.setItem("coop-batch",JSON.stringify(batch))}else{batch=null;localStorage.removeItem("coop-batch");cleanStaged()}}selected.clear();render()};
-const applyOne=async(j,opts={})=>{selected.clear();selected.add(j.id);await startBatch(true,opts)};
+const applyOne=async(j,opts={})=>{if(workerMode())return workerEnqueue(j);selected.clear();selected.add(j.id);await startBatch(true,opts)};
+async function workerBatch(ids){const all=jobs();let n=0,fail=0;$("batchbar").classList.add("on");
+  for(const id of ids){const j=all.find(x=>x.id===id);if(!j||!workerEligible(j)||isDone(j)||inFlight(j)||isHeld(j))continue;
+    try{await workerEnqueue(j);n++}catch(e){fail++;$("bst").textContent=e.message;if(/offline/i.test(e.message))break}
+    $("bst").textContent=`Queued ${n} of ${ids.length} with the worker${fail?` · ${fail} not queued`:""}`}
+  selected.clear();render()}
 /* ---------- drawer ---------- */
 const blobCache={};
 async function matUrl(m){if(m.url)return m.url;if(m.gen==="cover")return URL.createObjectURL(coverBlob(m.text));if(m.gen==="text")return URL.createObjectURL(new Blob([m.text],{type:"text/plain;charset=utf-8"}));if(blobCache[m.path])return blobCache[m.path];const r=await gh(m.path,{raw:true});const pdf=/\.pdf$/i.test(m.path);const u=URL.createObjectURL(new Blob([await r.arrayBuffer()],{type:pdf?"application/pdf":"text/plain;charset=utf-8"}));blobCache[m.path]=u;return u}
 function openDrawer(id){openId=id;step=0;drawRender()}
 function closeDrawer(){openId=null;$("drawerHost").innerHTML=""}
+function workerFoot(j,step,tabs){const v=j.wv;
+  if(!v){if(step<tabs.length-1)return `<span class="hint">${step+1} / ${tabs.length}</span><button class="btn" id="next">Next</button>`;
+    const ok=workerEligible(j);return `<span class="hint" id="sendHint">${W.online===false?"Worker offline: "+esc(W.err):ok?"The worker applies in the background; you can close this page.":"This link isn't the employer's application (job board or closed posting)."}</span><button class="btn primary" id="wapply" ${ok?"":"disabled"}>Apply</button>`}
+  const needs=(v.needs||[]).map(n=>n.question?n.question.label:[...(n.problems||[]),...(n.errors||[])].join("; ")).filter(Boolean);
+  const active=["resolving","authenticating","preparing","filling","validating","ready_to_submit"].includes(v.state);
+  let b="";
+  if(v.state==="queued"||v.state==="retry_wait"||active)b+='<button class="btn ghost" id="wcancel">Cancel</button>';
+  if(["needs_information","awaiting_email","needs_human_verification","failed","closed","cancelled"].includes(v.state))b+='<button class="btn" id="wresume">Resume</button>';
+  if(v.state==="submission_uncertain")b+='<button class="btn" id="wcheck">Check outcome</button><button class="btn ghost" id="wyes">It went through</button><button class="btn ghost" id="wno">Checked: not submitted</button>';
+  return `<span class="hint">${statusPill(j)} ${esc(v.reason||"")}${needs.length?"<br>Needs: "+needs.slice(0,8).map(esc).join(" · "):""}${v.receipt?`<br>Receipt: ${esc((v.receipt.text||v.receipt.kind||"").slice(0,160))} · ${esc(v.receipt.at||"")}`:""}</span>${b}`}
+function wireWorkerFoot(j){const v=j.wv;const err=e=>{const h=document.querySelector(".dfoot .hint");if(h)h.textContent=e.message};
+  const a=$("wapply");if(a)a.onclick=async()=>{a.disabled=true;a.textContent="Queuing…";try{await workerEnqueue(j)}catch(e){a.disabled=false;a.textContent="Apply";err(e)}};
+  const c=$("wcancel");if(c)c.onclick=()=>workerAction("application.cancel",v.application_id).catch(err);
+  const r=$("wresume");if(r)r.onclick=()=>workerAction("application.resume",v.application_id).catch(err);
+  const k=$("wcheck");if(k)k.onclick=()=>workerAction("application.check",v.application_id).catch(err);
+  const y=$("wyes");if(y)y.onclick=()=>workerAction("application.resolve_uncertain",v.application_id,{resolution:"submitted",note:"you confirmed on the board"}).catch(err);
+  const no=$("wno");if(no)no.onclick=()=>{if(no.dataset.armed!=="1"){no.dataset.armed="1";no.textContent="Confirm: I checked the portal and email";return}
+    workerAction("application.resolve_uncertain",v.application_id,{resolution:"not_submitted"}).catch(err)}}
 async function drawRender(){const j=jobs().find(x=>x.id===openId);if(!j)return closeDrawer();
   const mats=j.materials||[];const done=isDone(j)||inFlight(j)||isHeld(j);
   const tabs=[...mats.map(m=>m.name),"Questions & answers",done?"Submitted":"Confirm"];const cur=tabs[step]||tabs[0];let body="";
@@ -382,7 +432,7 @@ async function drawRender(){const j=jobs().find(x=>x.id===openId);if(!j)return c
     step<tabs.length-1?`<span class="hint">${step+1} / ${tabs.length}</span><button class="btn" id="next">Next</button>`:
     !supported(j)?`<span class="hint">This portal needs a manual application.</span><a class="btn primary" href="${esc(applyUrl(j))}" target="_blank" rel="noopener">Open application</a>`:`<span class="hint" id="sendHint">${!cfg.token?"add your token in ⚙ first":mats.length?"":"no materials yet"}</span><button class="btn primary" id="confirm" ${cfg.token&&mats.length?"":"disabled"}>${canOneClick(j)?"Apply":!cfg.token?"Add your token first":"No materials yet"}</button>`;
   $("drawerHost").innerHTML=`<div class="overlay" id="ov"><div class="drawer" role="dialog" aria-label="Application"><div class="dhead"><div><h2>${esc(j.company)}</h2><span class="sub">${esc(j.role)} · ${esc(j.location)}</span></div><label class="tog ${done?"off":""}" title="Send a cover letter with this application"><input type="checkbox" id="covtog" ${coverOn(j)?"checked":""} ${done?"disabled":""}> cover letter</label><button class="x" id="close" aria-label="Close">×</button></div>
-  <div class="steps">${tabs.map((t,i)=>`<button class="${i===step?"on":""}" data-s="${i}">${esc(t)}</button>`).join("")}</div><div class="dbody">${body}</div><div class="dfoot">${foot}</div></div></div>`;
+  <div class="steps">${tabs.map((t,i)=>`<button class="${i===step?"on":""}" data-s="${i}">${esc(t)}</button>`).join("")}</div><div class="dbody">${body}</div><div class="dfoot">${workerMode()?workerFoot(j,step,tabs):foot}</div></div></div>`;
   $("close").onclick=closeDrawer;$("ov").onclick=e=>{if(e.target.id==="ov")closeDrawer()};
   document.querySelectorAll("[data-s]").forEach(b=>b.onclick=()=>{step=+b.dataset.s;drawRender()});
   const n=$("next");if(n)n.onclick=()=>{step++;drawRender()};
@@ -390,7 +440,8 @@ async function drawRender(){const j=jobs().find(x=>x.id===openId);if(!j)return c
   const rt=$("retry");if(rt)rt.onclick=()=>applyOne(j).catch(e=>{$("bst").textContent=e.message});
   const rs=$("resubmit");if(rs)rs.onclick=()=>{if(rs.dataset.armed!=="1"){rs.dataset.armed="1";rs.textContent="Confirm: I checked the portal and email";return}applyOne(j,{resubmit:true}).catch(e=>{$("bst").textContent=e.message})};const md=$("markdone");if(md)md.onclick=()=>writeState(st=>{st[j.id]={...(st[j.id]||{}),status:"applied",statusAt:new Date().toISOString(),note:"",submitted:{at:new Date().toISOString(),portal:applyUrl(j),files:[],notes:"marked applied by hand"}}}).then(()=>{render();drawRender()});
   const u=$("unq");if(u)u.onclick=()=>setStatus(j.id,"");
-  const ct=$("covtog");if(ct)ct.onchange=async()=>{await writeState(st=>{st[j.id]={...(st[j.id]||{}),cover:ct.checked}});drawRender()};
+  if(workerMode())wireWorkerFoot(j);
+  const ct=$("covtog");if(ct)ct.onchange=async()=>{if(workerMode())await rpc({type:"application.set_cover",job_ref:j.id,on:ct.checked});await writeState(st=>{st[j.id]={...(st[j.id]||{}),cover:ct.checked}});drawRender()};
   if(cur==="Questions & answers"&&(j.fit||j.answers_json||j.answers||j.answers_obj)){try{let a=j.answers_obj||{};if(j.answers_json){try{a=await (await gh(j.answers_json,{raw:true})).json()}catch(e){}}const f=j.fit?await (await gh(j.fit,{raw:true})).text():(j.fit_text||"");const box=$("fitbox");if(box)box.outerHTML=qaHtml(j,a)+(f?`<details class="fitd"><summary>Why this resume version</summary><pre>${esc(f)}</pre></details>`:"")}catch(e){const box=$("fitbox");if(box)box.textContent="couldn't load: "+e.message}}
   if(step<mats.length){const m=mats[step];try{const box=$("matbox");if(!box)return;const isText=/\(text\)/.test(m.name),isCover=/cover/i.test(m.name);
     if(isText){const orig=await (await fetch(await matUrl(m))).text();const cur=j.cover_text||orig;box.outerHTML=`<div class="edit"><p class="qhead">Edit the letter here. Saved text is what gets sent, pasted into a text box or built into a PDF, whichever the form wants.${j.cover_text?' <b>(edited)</b>':''}</p><textarea id="covedit" spellcheck="true">${esc(cur)}</textarea><div class="editbar"><button class="btn primary" id="covsave">Save</button><button class="btn ghost" id="covreset">Reset to original</button><span class="hint" id="covhint"></span></div></div>`;
@@ -402,6 +453,10 @@ async function drawRender(){const j=jobs().find(x=>x.id===openId);if(!j)return c
 function openSettings(){$("drawerHost").innerHTML=`<div class="overlay" id="ov"><div class="drawer" role="dialog" aria-label="Settings"><div class="dhead"><div><h2>Settings</h2><span class="sub">where materials and application status live</span></div><button class="x" id="close" aria-label="Close">×</button></div>
   <div class="dbody settings"><label for="repo">Private repo</label><input id="repo" value="${esc(cfg.repo)}"><label for="tok">GitHub token</label><input id="tok" type="password" value="${esc(cfg.token)}" placeholder="github_pat_…"><label class="tog"><input type="checkbox" id="covdef" ${cfg.cover===true?"checked":""}> send a cover letter by default (you can flip it per application)</label>
   <p>Fine-grained token, repository access limited to that one private repo, permission Contents: read and write. Stored only in this browser. It lets this page read your resumes and cover letters and write the queue Claude works from.</p>
+  <h4>Execution mode</h4><p>Currently: <b id="modenow">${workerMode()?"Worker":"Browser userscript"}</b>. Worker mode sends Apply to the application worker on this computer (install it and the bridge extension first); the old userscript never runs a job the worker owns.</p>
+  <label class="tog"><input type="radio" name="mode" value="userscript" ${workerMode()?"":"checked"}> Browser userscript (Ashby, Greenhouse, Lever only)</label>
+  <label class="tog"><input type="radio" name="mode" value="worker" ${workerMode()?"checked":""}> Application worker (all portals, runs in the background)</label>
+  <p id="workerline" class="hint"></p>
   <h4>One-click apply</h4><p>Install <a href="https://www.tampermonkey.net/" target="_blank" rel="noopener">Tampermonkey</a> once, then <a href="coop-apply.user.js" target="_blank" rel="noopener">install the apply script</a>. Update to apply script version 4.0; new applications started from the board submit automatically once required answers and attachments are ready. Batch Apply supports Ashby, Greenhouse and Lever. Other portals open for manual application. Once a batch is prepared you can close the board tab; the relay tab finishes it and results sync the next time the board is open. Solve any captcha or unanswered questions in the form tab before the batch continues.</p>
   <h4>Receipts</h4><p>When an application is verified as submitted, the relay tab sends a receipt (company, role, requisition, time, confirmation text) through <a href="https://ntfy.sh" target="_blank" rel="noopener">ntfy</a>: a push to your phone, and an email if you add an address. ntfy.sh limits free email to a handful per day, so large batches may only push.</p><label for="ntfy">ntfy topic</label><input id="ntfy" value="${esc(cfg.ntfy||"")}" placeholder="same topic as the posting alerts"><label for="remail">Receipt email (optional)</label><input id="remail" value="${esc(cfg.receiptEmail||"")}" placeholder="you@northeastern.edu">
   <h4>Answer memory</h4><p>Answers you supply are saved privately and reused for matching questions. Company, role, location and commitment-specific answers stay with that application.</p><button id="learned">Manage saved answers</button>
@@ -409,7 +464,8 @@ function openSettings(){$("drawerHost").innerHTML=`<div class="overlay" id="ov">
   <div class="dfoot"><span class="hint" id="shint"></span><button class="btn primary" id="save">Save</button></div></div></div>`;
   $("close").onclick=closeDrawer;$("ov").onclick=e=>{if(e.target.id==="ov")closeDrawer()};
   $("learned").onclick=openLearned;
-  $("save").onclick=async()=>{cfg.repo=$("repo").value.trim();cfg.token=$("tok").value.trim();cfg.cover=$("covdef").checked;cfg.ntfy=$("ntfy").value.trim().replace(/^https?:\/\/ntfy\.sh\//,"");cfg.receiptEmail=$("remail").value.trim();saveCfg();$("shint").textContent="checking…";try{await loadState();$("shint").textContent="connected";render();setTimeout(closeDrawer,600)}catch(e){$("shint").textContent="couldn't read data/state.json: "+e.message}}}
+  rpc({type:"worker.status"},4000).then(r=>{const el=$("workerline");if(el)el.textContent=r.ok?`Worker ${r.version} connected: ${r.workers} running${r.has_password?"":", no portal password saved yet (extension settings)"}.`:"Worker not reachable: "+(r.error||"")});
+  $("save").onclick=async()=>{cfg.repo=$("repo").value.trim();cfg.token=$("tok").value.trim();cfg.cover=$("covdef").checked;cfg.mode=(document.querySelector("input[name=mode]:checked")||{}).value==="worker"?"worker":"userscript";startWorkerPolling();cfg.ntfy=$("ntfy").value.trim().replace(/^https?:\/\/ntfy\.sh\//,"");cfg.receiptEmail=$("remail").value.trim();saveCfg();$("shint").textContent="checking…";try{await loadState();$("shint").textContent="connected";render();setTimeout(closeDrawer,600)}catch(e){$("shint").textContent="couldn't read data/state.json: "+e.message}}}
 /* ---------- load ---------- */
 async function readState(){if(!cfg.token){state={};stateSha=null;return}
   try{const r=await gh("data/state.json");stateSha=r.sha;state=JSON.parse(unb64(r.content))||{}}catch(e){if(/404/.test(e.message)){state={};stateSha=null}else throw e}
@@ -430,7 +486,7 @@ async function load(){const errors=[];try{const r=await fetch("data/sheet.csv?t=
 }
 $("q").addEventListener("input",render);$("gear").onclick=openSettings;
 document.querySelectorAll("#seg button").forEach(b=>b.onclick=()=>{view=b.dataset.v;document.querySelectorAll("#seg button").forEach(x=>x.classList.toggle("on",x===b));render()});
-load();setInterval(load,5*60*1000);
+load();setInterval(load,5*60*1000);startWorkerPolling();
 </script>
 </body>
 </html>

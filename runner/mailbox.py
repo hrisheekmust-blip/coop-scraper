@@ -63,6 +63,18 @@ def _dt(s):
         return None
 
 
+def _unwrap(u: str) -> str:
+    """Outlook rewrites links through safelinks; the real destination is in its url parameter."""
+    from urllib.parse import parse_qs
+    try:
+        p = urlsplit(u)
+        if (p.hostname or "").lower().endswith("safelinks.protection.outlook.com"):
+            return parse_qs(p.query).get("url", [""])[0]
+    except ValueError:
+        return ""
+    return u
+
+
 def _host(u):
     try:
         p = urlsplit(u)
@@ -113,7 +125,7 @@ class Mailbox:
         if to and app_email and app_email not in to:
             return {"decision": "ignored", "reason": "sent to a different address"}
         sender = str(msg.get("from") or "")
-        links = [str(u) for u in (msg.get("links") or []) if isinstance(u, str)][:50]
+        links = [_unwrap(str(u)) for u in (msg.get("links") or []) if isinstance(u, str)][:50]
         codes = [c for c in (msg.get("codes") or re.findall(r"\b\d{4,8}\b", f"{subject} {body}")) if re.fullmatch(r"\d{4,8}", str(c))]
         matches = []
         for w in self.accounts.waiting():

@@ -243,6 +243,9 @@ class ApplicationRun:
             return r
         host = (urlsplit(url).hostname or "").lower()
         job_host = (urlsplit(self.job["resolved_url"]).hostname or "").lower()
+        from .protocol import AGGREGATORS
+        if AGGREGATORS.search(host):
+            raise Park(M.FAILED, "unsupported", f"{host} is a job board; the worker only applies on the employer's own portal")
         if urlsplit(url).scheme == "https" and host and host == job_host:
             # Unknown portal, but it's the employer's own posting host from the board: a site-level realm.
             return Realm(f"site:{host}", "site", host, (host,), "password")

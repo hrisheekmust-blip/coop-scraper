@@ -1,0 +1,7 @@
+{
+  "name": "com.coop.apply_runner",
+  "description": "Co-op apply worker bridge",
+  "path": "__BRIDGE_BAT__",
+  "type": "stdio",
+  "allowed_origins": ["chrome-extension://jbpfdafeplfiphgmcohcpffnjfcdfaik/"]
+}
