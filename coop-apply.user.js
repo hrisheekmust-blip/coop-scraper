@@ -1,10 +1,10 @@
 // ==UserScript==
 // @name         Co-op board: one-click apply
 // @namespace    coop-hrisheek
-// @version      3.3
+// @version      3.4
 // @description  Opened by the co-op board: fills confirmed answers, attaches prepared files, and waits for your review and submission. The board controls which portals can be automated.
 // @match        *://*/*
-// @require      https://hrisheekmust-blip.github.io/coop-scraper/engine.js?v=7
+// @require      https://hrisheekmust-blip.github.io/coop-scraper/engine.js?v=8
 // @grant        none
 // @run-at       document-idle
 // ==/UserScript==
@@ -152,7 +152,7 @@
   }
   const comboShows = (ctrl, want) => {
     if (!ctrl || !want) return false;
-    const values = [...ctrl.querySelectorAll("[class*='single-value'], [class*='multi-value'], [class*='singleValue']")].map(txt);
+    const values = [...ctrl.querySelectorAll("[class*='single-value'], [class*='multi-value__label'], [class*='singleValue']")].map(txt);
     return matchOption(values, want) >= 0;
   };
   function realClick(el) {
@@ -171,8 +171,17 @@
     for (const child of copy.querySelectorAll("input, select, textarea, button, [role=listbox], [role=option]")) child.remove();
     return norm(copy.textContent);
   }
-  const entryOf = el => el.closest(".ashby-application-form-field-entry, fieldset, .field, .application-question, .application-field, li, .form-field, [class*='field-entry'], [class*='FieldEntry'], [class*='question'], [data-automation-id*='formField'], [data-automation-id*='FormField'], .jobs-easy-apply-form-element, .fb-dash-form-element, .iCIMS_TableRow, .oj-flex-item, .rcrtField") || el.parentElement;
+  const entryOf = el => el.closest(".ashby-application-form-field-entry, fieldset, .file-upload, .field, .application-question, .application-field, li, .form-field, [class*='field-entry'], [class*='FieldEntry'], [class*='question'], [data-automation-id*='formField'], [data-automation-id*='FormField'], .jobs-easy-apply-form-element, .fb-dash-form-element, .iCIMS_TableRow, .oj-flex-item, .rcrtField") || el.parentElement;
   function labelOf(el) {
+    // Greenhouse labels both upload inputs "Attach"; the group owns the question.
+    if (el.type === "file") {
+      const group = el.closest("[role=group][aria-labelledby], .file-upload");
+      const ids = group?.getAttribute("aria-labelledby");
+      const label = ids ? ids.split(/\s+/).map(id => questionText(document.getElementById(id))).join(" ") : "";
+      if (label) return label;
+      if (/^(resume|cv)$/i.test(el.id || el.name || "")) return "Resume";
+      if (/^cover[_-]?letter$/i.test(el.id || el.name || "")) return "Cover letter";
+    }
     if (el.labels && el.labels[0] && questionText(el.labels[0])) return questionText(el.labels[0]);
     const lb = el.getAttribute("aria-labelledby"); if (lb) { const t = lb.split(/\s+/).map(i => questionText(document.getElementById(i))).join(" "); if (t) return t; }
     if (el.getAttribute("aria-label")) return norm(el.getAttribute("aria-label"));
@@ -253,7 +262,7 @@
         if (f) { setFile(el, b64file(f)); done.push(q + " = " + f.name); await sleep(900); } else if (/required|\*/.test(around)) need.push(q || "file upload");
         continue;
       }
-      if (!visible(el) || el.disabled || el.readOnly) continue;
+      if (!visible(el) || el.disabled || el.readOnly || el.closest("[aria-hidden=\"true\"]")) continue;
       const q = labelOf(el);
       if (!q) { if (isRequired(el) && !(el.value || "").trim()) need.push("a required field I couldn't read the question for"); continue; }
       if (asked.has(q + "|" + type)) { if (isRequired(el) && !(el.value || "").trim()) need.push(q + " (a second field with the same question — I won't guess)"); continue; }
@@ -261,8 +270,9 @@
       const opts = el.tagName === "SELECT" ? [...el.options].map(o => txt(o)).filter(o => o && !/^(select|choose|--|please)/i.test(o)) : [];
       const isDate = type === "date" || /pick date|mm\/dd|yyyy|mm\/yyyy/i.test(el.placeholder || "") || /date/i.test(el.getAttribute("data-automation-id") || "");
       const r = A({ label: q, options: opts, type: isDate ? "date" : type, multiple:el.multiple });
-      if (r.k === "need") { if (!(el.value || "").trim()) { if (isRequired(el)) need.push(q); else done.push("left blank (optional): " + q); } continue; }
-      if (["file","auto","skip"].includes(r.k) || r.a === "") continue;
+      const isCombo = el.getAttribute("role") === "combobox" || /select__input|react-select|autocomplete|typeahead/i.test(el.className + " " + (el.parentElement && el.parentElement.className));
+      if (r.k === "need" && !isCombo) { if (!(el.value || "").trim()) { if (isRequired(el)) need.push(q); else done.push("left blank (optional): " + q); } continue; }
+      if (["file","auto","skip"].includes(r.k) || (r.a === "" && !isCombo)) continue;
       if (el.tagName === "SELECT") {
         const wanted = r.values || [r.a], choices = [...el.options];
         const picks = wanted.map(w => matchOption(choices.map(txt), w));
@@ -272,30 +282,43 @@
         done.push(q + " = " + r.a); continue;
       }
       if ((el.value || "").trim() && !isDate && (el.value.trim() === r.a || /^(name|first|last|email|phone|preferred)/i.test(q))) continue;   // portal prefilled it from the account
-      if (el.getAttribute("role") === "combobox" || /select__input|react-select|autocomplete|typeahead/i.test(el.className + " " + (el.parentElement && el.parentElement.className))) {
+      if (isCombo) {
         const ctrl = el.closest("[class*='select__control'], [class*='control'], [class*='Control']") || el.parentElement.parentElement;
-        const cur = norm(txt(ctrl).replace(q, ""));
-        if (cur && !/^(select|choose|search|type|--|start typing|please)/i.test(cur)) { done.push(q + " = " + cur); continue; }   // the portal already set it
+        const selected = [...ctrl.querySelectorAll("[class*='single-value'], [class*='multi-value__label']")].map(txt).filter(Boolean);
+        if (selected.length) { done.push(q + " = " + selected.join(" + ")); continue; }   // the portal already set it
         closeMenus(); await sleep(150);
         realClick(ctrl); el.focus(); KEY_DOWN(el);                            // the list opens from the control, not from the input
-        let opts = await waitFor(() => ownOptions(el), 2500), labels = opts.map(txt);
+        // Async city/school controls have no choices until a query is typed.
+        let opts = await waitFor(() => ownOptions(el), 800), labels = opts.map(txt);
         let r2 = labels.length ? A({ label: q, options: labels, type: "select" }) : r;
         let pick = r2.k === "need" || (r2.values || []).length > 1 ? -1 : matchOption(labels, r2.a);
-        if (pick < 0 && r2.a && r2.k !== "need" && labels.length > 12) {       // long list: narrow it, then look again
-          setNative(el, norm(r2.a.split(/[,(]/)[0]));
-          opts = await waitFor(() => ownOptions(el), 1500); labels = opts.map(txt); pick = matchOption(labels, r2.a);
-          // A single remaining suggestion is not proof that it matches.
+        if (pick < 0 && r.a && r.k !== "need" && (labels.length === 0 || labels.length > 12)) {
+          setNative(el, norm(r.a.split(/[,(]/)[0]));
+          fireReact(el, ["onChange"], "change");
+          await sleep(500); KEY_DOWN(el);
+          opts = await waitFor(() => ownOptions(el), 3500); labels = opts.map(txt);
+          r2 = labels.length ? A({ label: q, options: labels, type: "select" }) : r;
+          pick = r2.k === "need" || (r2.values || []).length > 1 ? -1 : matchOption(labels, r2.a);
         }
         if (pick < 0) {                                                        // nothing fits: leave it clean and say so, never park a half-typed answer in the box
-          closeMenus(); if (el.value) setNative(el, ""); el.blur();
+          if (el.value) setNative(el, ""); KEY_ESC(el); el.blur(); closeMenus();
           if (isRequired(el)) need.push(q + (labels.length ? " (none of the options fit)" : " (couldn't open the list)")); else done.push("left blank (optional): " + q);
           await sleep(120); continue;
         }
         realClick(opts[pick]); await sleep(350);
         // Do not fall back to pressing Enter on a possibly different option.
-        if (comboShows(ctrl, labels[pick])) done.push(q + " = " + labels[pick]);
+        let committed = comboShows(ctrl, labels[pick]);
+        // Phone selectors display only +1 after choosing a country. Reopen and
+        // verify the full selected option instead of equating countries by code.
+        if (!committed) {
+          realClick(ctrl); el.focus(); KEY_DOWN(el);
+          const check = await waitFor(() => ownOptions(el), 1200);
+          const selectedOption = check[matchOption(check.map(txt), labels[pick])];
+          committed = selectedOption?.getAttribute("aria-selected") === "true";
+        }
+        if (committed) done.push(q + " = " + labels[pick]);
         else { if (el.value) setNative(el, ""); if (isRequired(el)) need.push(q + " (the dropdown wouldn't take the answer)"); }
-        el.blur(); continue;
+        KEY_ESC(el); el.blur(); continue;
       }
       if (isDate) {
         // The engine only supplies a complete, explicitly saved ISO date.
@@ -379,7 +402,7 @@
     const P = await getPayload();
     if (!P) { banner("no answers for this posting reached this tab; go back to the board and click Apply again", "err"); return; }
     const submissionKey = (P.batchId || "legacy") + ":" + P.id;
-    if (window.CoopEngine?.VERSION !== 7) { banner("update the apply script from board Settings before continuing", "err"); report({ok:false,status:"needs-you",need:["answer engine update required"]}); return; }
+    if (window.CoopEngine?.VERSION !== 8) { banner("update the apply script from board Settings before continuing", "err"); report({ok:false,status:"needs-you",need:["answer engine update required"]}); return; }
     for (let i = 0; i < 40 && document.readyState !== "complete"; i++) await sleep(250);
     await settle(800);
     if (succeeded() && sessionStorage.getItem("coop-clicked") === submissionKey) { banner("submitted ✓ recorded on the board", "ok"); finish({ ok: true, status: "applied" }); return; }

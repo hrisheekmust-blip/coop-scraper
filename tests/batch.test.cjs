@@ -51,7 +51,7 @@ async function until(done) {
 function formEnvironment() {
   const e=environment();e.c.setTimeout=fn=>setImmediate(fn);
   e.c.location.hash='#coop='+id+'&p='+encode(payload);
-  e.c.CoopEngine={VERSION:7,answerFor:()=>({k:'need'})};
+  e.c.CoopEngine={VERSION:8,answerFor:()=>({k:'need'})};
   let clicks=0;
   const button={textContent:'Submit application',offsetWidth:100,getAttribute:()=>null,
     focus(){},scrollIntoView(){},getBoundingClientRect:()=>({left:0,top:0,width:100,height:30}),
@@ -300,7 +300,7 @@ test('unknown required answers block Next, not just final Submit',async()=>{
   const e=formEnvironment();e.c.__coopDry=true;e.button.textContent='Next';
   const parent={textContent:'Describe your clearance history',querySelectorAll:()=>[],querySelector:()=>null};
   const field={tagName:'INPUT',value:'',required:true,offsetWidth:100,labels:[{textContent:'Describe your clearance history'}],parentElement:parent,
-    getAttribute:n=>n==='type'?'text':null,closest:()=>parent};
+    getAttribute:n=>n==='type'?'text':null,closest:s=>s.includes('aria-hidden')?null:parent};
   e.c.document.body.querySelectorAll=s=>s==='input, textarea, select'?[field]:[];
   e.run(read('coop-apply.user.js'));await until(()=>e.c.__coopLast);
   assert.match(e.c.__coopLast.need.join(' '),/clearance history/);assert.equal(e.clicks(),0);
@@ -326,4 +326,21 @@ test('wrapped dropdown choices are excluded from the question label',()=>{
   assert.equal(q,'Select the location you can commute or relocate to');
   const real=environment().c.CoopEngine;
   assert.equal(real.answerFor({label:q,type:'select',options:['Boston, MA','Toronto']},{profile:{location:'Boston, MA'}}).a,'Boston, MA');
+});
+
+
+test('React Select hidden required proxy does not become an unanswered question',async()=>{
+  const e=formEnvironment();e.c.__coopDry=true;
+  const proxy={tagName:'INPUT',value:'',required:true,offsetWidth:1,getAttribute:n=>n==='type'?'text':n==='aria-hidden'?'true':null,closest:()=>proxy};
+  e.c.document.body.querySelectorAll=s=>s==='input, textarea, select'?[proxy]:[];
+  e.run(read('coop-apply.user.js'));await until(()=>e.c.__coopLast);
+  assert.deepEqual([...e.c.__coopLast.need],['final review and manual submission']);assert.equal(e.clicks(),0);
+});
+
+test('Greenhouse Attach upload uses its labelled group and not a neighboring file',()=>{
+  const e=formEnvironment(),api=expose(e);
+  e.c.document.getElementById=id=>({textContent:id==='resume-label'?'Resume/CV*':'Cover Letter'});
+  const field=id=>({type:'file',id,labels:[{textContent:'Attach'}],closest:()=>({getAttribute:()=>id+'-label'})});
+  assert.equal(api.labelOf(field('resume')),'Resume/CV');
+  assert.equal(api.labelOf(field('cover')),'Cover Letter');
 });

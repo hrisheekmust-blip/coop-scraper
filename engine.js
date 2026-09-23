@@ -1,6 +1,6 @@
 /* Shared conservative answers. Unknown facts and ambiguous choices require review. */
 (function () {
-  const VERSION = 7;
+  const VERSION = 8;
   const STD_FIELDS = [["Name","input_text"],["Email","input_text"],["Phone","input_text"],["Location (city)","input_text"],["LinkedIn profile","input_text"],["Resume","file"],["Cover letter","file"],["School / University","input_text"],["Degree","input_text"],["Major","input_text"],["Expected graduation date","input_text"],["GPA","input_text"]];
   const norm = s => String(s ?? "").normalize("NFKC").toLowerCase().replace(/[✱*]/g, "").replace(/[’‘]/g, "'").replace(/\s+/g, " ").trim();
   const labelKey = s => norm(s).replace(/[?:]+$/, "").trim();
@@ -73,15 +73,18 @@
       [/^(website|websites|portfolio( url)?|personal (website|site)|github or portfolio url)$/, "portfolio"],
       [/^(city|current city)$/, "city"],
       [/^(state|province|state\/province)$/, "state"],
-      [/^(country|country of residence|current country)$/, "country"],
+
       [/^(zip( code)?|postal code|zip\/postal code|what is the zip code of your primary residence)$/, "zip"],
       [/^(school|university|college|college or university|school \/ university|school name|university name|institution)$/, "school"],
       [/^(major|field of study|major or field of study|discipline|concentration)$/, "major"],
       [/^(academic year|class standing|year in school|current year of study)$/, "year"],
       [/^(desired salary|salary expectations|expected salary|desired compensation)$/, "salary"]
     ];
+    // A phone-country choice includes its dialing code; match its country name,
+    // never the dialing code alone (many countries share +1).
+    if (/^(country|country of residence|current country)$/.test(l)) return choose(p.country, x => norm(x.replace(/\s+\+\d+$/, "")) === norm(p.country));
     for (const [rx,key] of fields) if (rx.test(l)) return saved(key);
-    if (/^(location( \(city\))?|current location|your location|where are you (located|based)|where do you live)$/.test(l)) return choose(p.location, x => p.location && [p.location,`${p.location}, ${p.country}`].some(v => norm(x) === norm(v)));
+    if (/^(location( \(city\))?|current location|your location|where are you (located|based)|where do you live)$/.test(l)) return choose(p.location, x => p.location && [p.location,`${p.location}, ${p.country}`, ...(p.city && p.state && p.country ? [`${p.city}, ${p.state}, ${p.country}`] : [])].some(v => norm(x) === norm(v)));
     if (/^(select the location you can commute or relocate to|location preference|preferred (office|location|work location)|which (office|location|site)( would you prefer)?)$/.test(l)) {
       const locations = p.preferred_locations || (p.location ? [p.location] : []);
       const matches = o.filter(x => locations.some(v => norm(v) === norm(x)));

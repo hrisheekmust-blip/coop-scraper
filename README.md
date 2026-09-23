@@ -69,12 +69,12 @@ Batch Apply supports `jobs.ashbyhq.com`, `boards.greenhouse.io`, `job-boards.gre
 Other portals have an **Open application** link for manual completion.
 
 1. In board Settings, configure a token with Contents read/write access to the private materials repository.
-2. Install or update the Tampermonkey apply script to **version 3.3** from the board's Settings link.
+2. Install or update the Tampermonkey apply script to **version 3.4** from the board's Settings link.
 3. Select postings with prepared materials and click **Apply to all**. Allow the popup and keep the board tab open.
 4. Review every answer and attachment, complete missing fields or captcha, and submit using the application site's own button. The script never presses final Submit automatically. A confirmed submission returns to the relay
    and advances to the next posting. **Stop** prevents the next handoff; it does not close a form already open.
 
-Version 3.3 replaces broad keyword guesses with narrow profile-based mappings and exact option validation.
+Version 3.4 replaces broad keyword guesses with narrow profile-based mappings and exact option validation.
 Hidden portal metadata is omitted from the question preview. Unknown facts, ambiguous choices, unsupported
 options and dates without a confirmed day are left for review. The script stops before every final submission;
 batches proceed after you submit and a confirmation is detected. Upgrade the installed script to get both

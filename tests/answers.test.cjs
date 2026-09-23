@@ -67,3 +67,18 @@ test('all stored portal choices are valid or explicitly require review',()=>{
  }
  assert.ok(fields>1000);
 });
+
+
+test('phone country requires the exact country name, not a shared dial code',()=>{
+ assert.equal(answer('Country',['Canada +1','United States +1','United Kingdom +44'],'select').a,'United States +1');
+ assert.equal(answer('Country',['Canada +1','United Kingdom +44'],'select').k,'need');
+ assert.equal(answer('Country',['United States +1','United States +1'],'select').k,'need');
+});
+
+test('city autocomplete matches confirmed city, full state and country without picking another Boston',()=>{
+ const p={...profile,city:'Boston',state:'Massachusetts'};
+ const opts=['Boston, England, United Kingdom','Boston, New York, United States','East Boston, Massachusetts, United States','Boston, Massachusetts, United States'];
+ assert.equal(answer('Location (City)',opts,'select',p).a,opts[3]);
+ assert.equal(answer('Location (City)',opts.slice(0,3),'select',p).k,'need');
+ assert.equal(answer('Location (City)',['Boston'],'select',p).k,'need');
+});
