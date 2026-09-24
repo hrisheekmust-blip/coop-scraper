@@ -635,8 +635,8 @@
 },
 "https://www.indeed.com/viewjob": {
 "first_seen": "2026-09-18",
-"title": "Co-op- Hardware Engineer",
-"company": "Symbotic",
+"title": "Semiconductor Process Engineering Winter/Spring Co-Op (Jan-June '27)",
+"company": "Skyworks Solutions",
 "desc": ""
 },
 "https://www.linkedin.com/jobs/view/4468697840": {
@@ -6121,7 +6121,7 @@
 },
 "https://www.linkedin.com/jobs/view/4469979975": {
 "first_seen": "2026-09-21",
-"title": "TECO Spring 2027 Electrical Engineering Internship - Lighting",
+"title": "Spring 2027 Student Internship - Electrical Engineering, Lighting",
 "company": "Tampa Electric",
 "desc": ""
 },
@@ -7257,6 +7257,42 @@
 "first_seen": "2026-09-24",
 "title": "Software Defined Radio Hardware Intern (Winter 2027)",
 "company": "Astranis",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4469361815": {
+"first_seen": "2026-09-24",
+"title": "2027 Electrical Engineering Undergraduate Intern",
+"company": "The Aerospace Corporation",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4471169166": {
+"first_seen": "2026-09-24",
+"title": "Power Amplifier Design Co-Op (Jan-June 2027)",
+"company": "Skyworks Solutions, Inc.",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4461740281": {
+"first_seen": "2026-09-24",
+"title": "Field Product Performance Validation Engineering Co-Op",
+"company": "CNH",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4462112925": {
+"first_seen": "2026-09-24",
+"title": "2027 Electrical, Electronic, & Hardware Engineering (EHE) Intern",
+"company": "Stellantis",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4469630181": {
+"first_seen": "2026-09-24",
+"title": "Hardware Platform Development Intern",
+"company": "Graphcore",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4461749153": {
+"first_seen": "2026-09-24",
+"title": "Electrical and Electronics System Integration Engineer Co-Op",
+"company": "CNH",
 "desc": ""
 }
 }
