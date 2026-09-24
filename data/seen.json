@@ -635,8 +635,8 @@
 },
 "https://www.indeed.com/viewjob": {
 "first_seen": "2026-09-18",
-"title": "Electrical Engineering Co-Op - Spring 2027",
-"company": "SSOE Group",
+"title": "Electrical Engineering Intern (Spring 2027 Co-op) - Transmission & Distribution, Substation (Akron/Columbus)",
+"company": "Burns & McDonnell",
 "desc": ""
 },
 "https://www.linkedin.com/jobs/view/4468697840": {
@@ -1096,7 +1096,8 @@
 "https://www.linkedin.com/jobs/view/4465295003": {
 "first_seen": "2026-09-18",
 "title": "Student Intern 2027 - Electrical Substation",
-"company": "Stanley Consultants"
+"company": "Stanley Consultants",
+"desc": ""
 },
 "https://www.linkedin.com/jobs/view/4468833613": {
 "first_seen": "2026-09-18",
@@ -7851,6 +7852,78 @@
 "first_seen": "2026-09-24",
 "title": "Head-up Guidance Systems Engineering Co-op (Spring/Summer 2027) - Onsite",
 "company": "RTX",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/24e504eb-e7a8-47f5-bb3c-cf210d3b5cce": {
+"first_seen": "2026-09-24",
+"title": "Electrical Engineering Specialist Intern",
+"company": "Schweitzer Engineering Laboratories",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/73f3932a-8101-4847-a15a-d4828af37d25": {
+"first_seen": "2026-09-24",
+"title": "Systems Test Engineering Co-op",
+"company": "Johnson & Johnson",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4461779753": {
+"first_seen": "2026-09-24",
+"title": "Electrical Engineering Co-Op (Quinnesec & Escanaba, MI)",
+"company": "Billerud",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4470038548": {
+"first_seen": "2026-09-24",
+"title": "Electronic Systems - Co-Op Positions",
+"company": "Cummins Inc.",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4471687549": {
+"first_seen": "2026-09-24",
+"title": "Beatbox Electrical Engineering Co-op",
+"company": "Johnson & Johnson MedTech",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4470036647": {
+"first_seen": "2026-09-24",
+"title": "Product Engineering - Co-op Positions",
+"company": "Cummins Inc.",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4470026830": {
+"first_seen": "2026-09-24",
+"title": "Hardware Intern",
+"company": "Arista Networks",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4469787590": {
+"first_seen": "2026-09-24",
+"title": "System Test Engineer Co-Op Full Time Intern Jan-June 2027",
+"company": "iRhythm Technologies, Inc.",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4470102145": {
+"first_seen": "2026-09-24",
+"title": "Electrical Test Engineering Co-op Intern January-June 2027",
+"company": "iRhythm Technologies, Inc.",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4470041397": {
+"first_seen": "2026-09-24",
+"title": "Product Systems Validation - Co-Op Positions",
+"company": "Cummins Inc.",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4470043081": {
+"first_seen": "2026-09-24",
+"title": "Electrical Engineering Intern",
+"company": "Yank Technologies, Inc.",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4453129952": {
+"first_seen": "2026-09-24",
+"title": "Electrical Engineer Intern/Co-op Spring 2027 (multiple locations)",
+"company": "CMTA, Inc.",
 "desc": ""
 }
 }
