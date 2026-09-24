@@ -6,6 +6,7 @@ Changing a fact supersedes the old one and invalidates every answer derived from
 """
 from __future__ import annotations
 
+import re
 from datetime import date
 
 from .db import DB, dumps, loads, new_id, now_iso
@@ -29,10 +30,11 @@ BOOL_KEYS = {"authorized", "sponsorship", "relocate", "over18", "clearance", "pr
 
 
 def _bool(v):
+    """'Yes', 'Yes, US citizen', 'No active clearance' -> True/True/False. Anything else is not a yes/no fact."""
     s = str(v).strip().lower()
-    if s in ("yes", "true", "y", "1"):
+    if s in ("true", "y", "1") or re.match(r"^yes\b", s):
         return True
-    if s in ("no", "false", "n", "0"):
+    if s in ("false", "n", "0") or re.match(r"^no\b", s):
         return False
     return None
 
@@ -139,6 +141,12 @@ class Facts:
         gm, gy = profile.get("grad_month"), profile.get("grad_year")
         if gm and gy and str(gy).isdigit() and str(gm).isdigit():
             added.append(self.add("education.graduation", f"{int(gy):04d}-{int(gm):02d}", src))
+        # "January through June 2027": the interval exactly as you wrote it (month precision).
+        from .answer_rules import interval_in
+        iv = interval_in(str(profile.get("availability") or ""))
+        if iv:
+            (y1, m1), (y2, m2) = iv
+            added.append(self.add("availability.intervals", [{"from": f"{y1:04d}-{m1:02d}", "to": f"{y2:04d}-{m2:02d}"}], src))
         if profile.get("prior_employee") is not None and _bool(profile["prior_employee"]) is False:
             # A blanket "No" only holds as "no prior employers among the ones asked"; keep it as the employer list.
             pass
