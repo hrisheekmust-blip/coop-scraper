@@ -635,8 +635,8 @@
 },
 "https://www.indeed.com/viewjob": {
 "first_seen": "2026-09-18",
-"title": "Co-op- Hardware Engineer",
-"company": "Symbotic",
+"title": "Electrical Engineering Co-Op - Spring 2027",
+"company": "SSOE Group",
 "desc": ""
 },
 "https://www.linkedin.com/jobs/view/4468697840": {
@@ -2587,7 +2587,7 @@
 },
 "https://simplify.jobs/jobs/click/92e0027e-a9c8-4956-82d7-791d98c9d21b": {
 "first_seen": "2026-09-18",
-"title": "Silicon Intern",
+"title": "Silicon \u2013 Internship",
 "company": "Lightmatter",
 "desc": ""
 },
@@ -6121,7 +6121,7 @@
 },
 "https://www.linkedin.com/jobs/view/4469979975": {
 "first_seen": "2026-09-21",
-"title": "TECO Spring 2027 Electrical Engineering Internship - Lighting",
+"title": "Spring 2027 Student Internship - Electrical Engineering, Lighting",
 "company": "Tampa Electric",
 "desc": ""
 },
@@ -6985,7 +6985,7 @@
 },
 "https://simplify.jobs/jobs/click/377a2a22-6017-4f3f-9fc2-3793bd76e16d": {
 "first_seen": "2026-09-23",
-"title": "Device Engineer Intern",
+"title": "Device Engineer Intern/Co-op",
 "company": "Panther Life Sciences",
 "desc": ""
 },
@@ -7167,6 +7167,690 @@
 "first_seen": "2026-09-23",
 "title": "Semiconductor Process Engineering Winter/Spring Co-Op (Jan-June '27)",
 "company": "Skyworks Solutions, Inc.",
+"desc": ""
+},
+"https://job-boards.greenhouse.io/astranis/jobs/4713183006": {
+"first_seen": "2026-09-23",
+"title": "Propulsion Engineer Intern (Winter 2027)",
+"company": "Astranis",
+"desc": ""
+},
+"https://careers.skyworksinc.com/job/Power-Amplifier-Design-Co-Op-%28Jan-June-2027%29/78465-en_US": {
+"first_seen": "2026-09-23",
+"title": "Power Amplifier Design Co-Op (Jan-June 2027)",
+"company": "Skyworks",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/c2029e8e-7c86-4722-9b70-7c6018e85e47": {
+"first_seen": "2026-09-23",
+"title": "Automation & Controls Engineer Co-op Intern",
+"company": "Re:Build Manufacturing",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/4f4e536a-1c11-425a-84de-2a9e0512a60c": {
+"first_seen": "2026-09-23",
+"title": "Analytical Characterization / Protein Science Co-op",
+"company": "Flagship Pioneering",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/dec37e89-bc3d-4681-a0e6-f9485ecdd6e2": {
+"first_seen": "2026-09-23",
+"title": "Test Engineer Co-op",
+"company": "RTX",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/0b1fe42d-8ea6-4c68-bbf7-5ba32bf4a030": {
+"first_seen": "2026-09-23",
+"title": "Semiconductor Systems Automation Intern",
+"company": "Keysight Technologies",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4463403769": {
+"first_seen": "2026-09-23",
+"title": "Electrical Engineering Spring Co-op 2027",
+"company": "CenterPoint Energy",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4471129390": {
+"first_seen": "2026-09-23",
+"title": "Electrical Engineering Co-Op - Spring 2027",
+"company": "SSOE Group",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4471141218": {
+"first_seen": "2026-09-23",
+"title": "VLSI Engineer Intern",
+"company": "Hewlett Packard Enterprise",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4460621712": {
+"first_seen": "2026-09-23",
+"title": "Firmware Engineering Co-op",
+"company": "OnLogic",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4452305299": {
+"first_seen": "2026-09-23",
+"title": "Process Engineer Co-Op",
+"company": "Coty",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4470619855": {
+"first_seen": "2026-09-23",
+"title": "Hardware Engineer II Intern - United States",
+"company": "Cisco",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4470969841": {
+"first_seen": "2026-09-23",
+"title": "Electrical Engineering Intern",
+"company": "Alpha Additive, LLC",
+"desc": ""
+},
+"https://job-boards.greenhouse.io/astranis/jobs/4704803006": {
+"first_seen": "2026-09-24",
+"title": "FPGA Intern (Winter 2027)",
+"company": "Astranis",
+"desc": ""
+},
+"https://job-boards.greenhouse.io/astranis/jobs/4716087006": {
+"first_seen": "2026-09-24",
+"title": "Software Defined Radio Hardware Intern (Winter 2027)",
+"company": "Astranis",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4469361815": {
+"first_seen": "2026-09-24",
+"title": "2027 Electrical Engineering Undergraduate Intern",
+"company": "The Aerospace Corporation",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4471169166": {
+"first_seen": "2026-09-24",
+"title": "Power Amplifier Design Co-Op (Jan-June 2027)",
+"company": "Skyworks Solutions, Inc.",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4461740281": {
+"first_seen": "2026-09-24",
+"title": "Field Product Performance Validation Engineering Co-Op",
+"company": "CNH",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4462112925": {
+"first_seen": "2026-09-24",
+"title": "2027 Electrical, Electronic, & Hardware Engineering (EHE) Intern",
+"company": "Stellantis",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4469630181": {
+"first_seen": "2026-09-24",
+"title": "Hardware Platform Development Intern",
+"company": "Graphcore",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4461749153": {
+"first_seen": "2026-09-24",
+"title": "Electrical and Electronics System Integration Engineer Co-Op",
+"company": "CNH",
+"desc": ""
+},
+"https://job-boards.greenhouse.io/astranis/jobs/4708364006": {
+"first_seen": "2026-09-24",
+"title": "Technical Project Management Intern (Winter 2027)",
+"company": "Astranis",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/84a10b39-bce1-4be5-bc19-a609bfe69a12": {
+"first_seen": "2026-09-24",
+"title": "Firmware Engineer Intern/Co-op",
+"company": "Eaton",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/93dd3fda-fc7f-40c8-b141-553b32a68027": {
+"first_seen": "2026-09-24",
+"title": "Electrical Engineer Intern/Co-op",
+"company": "Eaton",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/8de66f0b-6d76-4ec4-9c92-6d32835beac3": {
+"first_seen": "2026-09-24",
+"title": "Electrical Engineer Co-op",
+"company": "Draper",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/7bbd8726-26fa-47d3-86a3-b7a38e7a3cae": {
+"first_seen": "2026-09-24",
+"title": "Electrical Engineer Co-op",
+"company": "AES",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/d925ed37-e2f2-4278-bf34-2d4b8825a49c": {
+"first_seen": "2026-09-24",
+"title": "Photonic Integrated Circuits Test Co-op",
+"company": "Nokia",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/d94151e3-0512-40b7-950d-04aa15fc8d08": {
+"first_seen": "2026-09-24",
+"title": "Packaging Engineer Co-op",
+"company": "Philips",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/d2c8d6aa-577e-4c0d-8edc-a385f1d6ad60": {
+"first_seen": "2026-09-24",
+"title": "Hardware Engineer Co-op",
+"company": "Symbotic",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/8ffdcbbf-aee2-49bd-a1b1-fe1fc4836151": {
+"first_seen": "2026-09-24",
+"title": "Systems Test Engineering Co-op",
+"company": "Johnson & Johnson",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/aa78b933-3642-48a1-b571-761eda48d252": {
+"first_seen": "2026-09-24",
+"title": "Electrical Engineering Intern",
+"company": "Kimley-Horn",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/65969adc-cfb4-4ea7-aa7b-24cabf200d29": {
+"first_seen": "2026-09-24",
+"title": "RF Engineering Content Intern",
+"company": "Keysight Technologies",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/4aa62c62-3f0b-4713-bb23-b4c49825f562": {
+"first_seen": "2026-09-24",
+"title": "Analog and Mixed Signal IC Design Engineer Intern",
+"company": "Keysight Technologies",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/4d195743-341d-4a80-b38f-12a24eb12dc7": {
+"first_seen": "2026-09-24",
+"title": "Process Engineer Intern",
+"company": "Micron Technology",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/980bdd56-1481-4272-bb42-a09ca9ce94e8": {
+"first_seen": "2026-09-24",
+"title": "Design Engineer Intern",
+"company": "Micron Technology",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/ce77f99e-ff23-4325-84bd-d4e49526f045": {
+"first_seen": "2026-09-24",
+"title": "Electrical Engineering Intern",
+"company": "Generac",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/a4819740-3b33-45dd-80b8-dc886f87c926": {
+"first_seen": "2026-09-24",
+"title": "Electrical Engineer Intern",
+"company": "Hendrick Motorsports",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/709228d2-7fb5-4625-bf10-583fdf99cded": {
+"first_seen": "2026-09-24",
+"title": "Electrical Engineer Intern",
+"company": "Advanced Energy",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/720a793e-c47a-4855-ba94-f7a3b6ca695f": {
+"first_seen": "2026-09-24",
+"title": "Firmware Engineer Intern",
+"company": "Advanced Energy",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/b8127d50-dc6f-46e2-9013-f37a1fa30d70": {
+"first_seen": "2026-09-24",
+"title": "Electrical Test Engineer Co-op",
+"company": "Keenfinity",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/d4ea9c35-a002-45a1-9581-1b181489a5f6": {
+"first_seen": "2026-09-24",
+"title": "Embedded Firmware Engineer Co-op",
+"company": "Keenfinity",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/2ba2a51b-ebd7-4d07-a9bf-4d901d1bd243": {
+"first_seen": "2026-09-24",
+"title": "Mission Networks Enterprise SOC Analyst Intern",
+"company": "L3Harris Technologies",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/b4230486-5635-4344-ac91-866d8cd2c016": {
+"first_seen": "2026-09-24",
+"title": "Electrical Engineering Intern",
+"company": "Kimley-Horn",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4471409093": {
+"first_seen": "2026-09-24",
+"title": "Electronics Hardware Engineer Co-Op",
+"company": "Schneider Electric",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4471168972": {
+"first_seen": "2026-09-24",
+"title": "Software Defined Radio Hardware Intern (Winter 2027)",
+"company": "Astranis Space Technologies",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4471179719": {
+"first_seen": "2026-09-24",
+"title": "FPGA Intern (Winter 2027)",
+"company": "Astranis Space Technologies",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4471185701": {
+"first_seen": "2026-09-24",
+"title": "Impella Pump Systems Test Engineering Co-Op",
+"company": "Johnson & Johnson MedTech",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4469327499": {
+"first_seen": "2026-09-24",
+"title": "Electrical Engineering Intern",
+"company": "Clark Nexsen, A JMT Company",
+"desc": ""
+},
+"https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Petah-Tikva/Design-Verification-Intern_2604493": {
+"first_seen": "2026-09-24",
+"title": "Design Verification Intern",
+"company": "Marvell",
+"desc": "  About Marvell   Marvell\u2019s semiconductor solutions are the essential building blocks of the data infrastructure that connects our world. Across enterprise, cloud and AI, and carrier architectures, our innovative technology is enabling new possibilities.\u00a0    At Marvell, you can affect the arc of individual lives, lift the trajectory of entire industries, and fuel the transformative potential of tomorrow. For those looking to make their mark on purposeful and enduring innovation, above and beyond fleeting trends, Marvell is a place to thrive, learn, and lead.\u00a0     Your Team, Your Impact  As part of the Cloud Switch / Design Verification team at Marvell, you will help verify complex semiconductor solutions that power next-generation cloud data center switching silicon. Our Switch group builds the switching systems that is used by hyperscale customers, so the quality of our verification work directly determines whether these chips work correctly in production.    What You Can Expect      Use industry-standard verification tools and methodologies \u2014 Verilog/SystemVerilog, UVM, and C \u2014 to verify SoC designs.    Help design, implement, and maintain UVM testbench components and other verification collateral to support functional verification.  Develop simulation test environments and components such as testbenches, checkers, and monitors.  Analyze design specifications to help build test plans, develop test cases, run simulations, and analyze results against coverage goals.  Use prob"
+},
+"https://nxp.wd3.myworkdayjobs.com/careers/job/Hamburg/Working-Student--f-m-d--RF-Validation-and-Lab-Automation_R-10066629": {
+"first_seen": "2026-09-24",
+"title": "Working Student (f/m/d) RF Validation and Lab Automation",
+"company": "NXP",
+"desc": "    For many applications, there is an ongoing need to make use of higher frequencies of the electromagnetic spectrum, which require technological innovations both for development of new products and for testing these products. Therefore, NXP Germany is engaging in the German part of the EU R&D program \u201cimportant project of common European interest\u201d (IPCEI) for microelectronics.              As part of this program, NXP has built up a brand-new competence center for high\u2011frequency technologies: the Terahertz Lab. The lab supports both innovation and development activities for next\u2011generation RF systems used in automotive radar, robotics, and future communication technologies.    You\u2019ll join a hands\u2011on engineering innovation environment where we conceptualize, simulate, and characterize advanced mmWave and sub\u2011THz systems (100 GHz and above) using state\u2011of\u2011the\u2011art high-end equipment.       Tasks     Perform and analyze RF measurements    Develop and perform PHY-level simulations    Develop pre- and post-processing for RF measurements    Perform electro-magnetic (EM) simulations for passive components    Develop system-level simulation models for active and passive lab components    Develop automated test routines for RF measurement setups    Create (automated) reports for measurement results    Develop remote control of measurement equipment    Contribute to the NXP-wide lab automation library    Develop automated storage of measurement data    Work closely with lab engineers "
+},
+"https://careers.skyworksinc.com/job/Agentic-Mixed-Signal-Verification-Platform-WinterSpring-Co-Op-%28Jan-June-&apos;27%29/78496-en_US": {
+"first_seen": "2026-09-24",
+"title": "Agentic Mixed-Signal Verification Platform Winter/Spring Co-Op (Jan-June '27)",
+"company": "Skyworks",
+"desc": ""
+},
+"https://semtech.wd1.myworkdayjobs.com/SemtechCareers/job/CAN---Burlington-ON/Validation-Engineering-Intern_REQ3628": {
+"first_seen": "2026-09-24",
+"title": "Validation Engineering Intern",
+"company": "Semtech",
+"desc": "   Location:   Burlington, ON.     Our Team:    Semtech\u2019s Signal Integrity Products group designs high performance optical networking product platforms that enable hyperscale data center applications, enterprise networking, wireless infrastructure including 5G networks, and passive optical network/Fibre-to-the-X markets.  To put it simply, whenever you use your computer to browse the web or use your smartphone to make a video call, most likely, your data is passing through one of many high-speed analog chips designed by the Analog IC teams at Semtech. Our experience and expertise ensures we are always pushing the boundaries of networking speed, ensuring the best experience for our end users \u2013 you!  Join us, and together we will continue to build a faster, better, and more secure online world for everyone.     Job Summary:    As a full member of our Validation group, you will be working with the product development teams both locally and remotely, providing product validation and test automation support. You will be provided the opportunity to learn from both our Validation and Design teams working with the leading-edge test and measurement tools and technologies.  Our approach to internship is to make the successful candidate an integral part of our team. We understand that it is best to learn through direct involvement and we will provide you with tasks that enable you to learn and to be productive at the same time. The more you learn the more complex your tasks will become."
+},
+"https://semtech.wd1.myworkdayjobs.com/SemtechCareers/job/CAN---Burlington-ON/Analog-Design-Engineer-Intern_REQ3622": {
+"first_seen": "2026-09-24",
+"title": "Analog Design Engineer Intern",
+"company": "Semtech",
+"desc": "   Location:   Burlington, ON. \u00a0    Our Team:    Semtech\u2019s Signal Integrity Products group designs high performance optical networking product platforms that enable hyperscale data center applications, enterprise networking, wireless infrastructure including 5G networks, and passive optical network/Fibre-to-the-X markets. \u00a0  To put it simply, whenever you use your computer to browse the web or use your smartphone to make a video call, most likely, your data is passing through one of many high-speed analog chips designed by the Analog IC teams at Semtech. Our experience and expertise ensures we are always pushing the boundaries of networking speed, ensuring the best experience for our end users \u2013 you! \u00a0  Join us, and together we will continue to build a faster, better, and more secure online world for everyone.     Job Summary:    Our approach to internship is to make the successful candidate an integral part of our team. We understand that it is best to learn through direct involvement and we will provide you with tasks that enable you to learn and to be productive at the same time. The more you learn the more complex your tasks will become. The internship program is an important part of our recruiting strategy. \u00a0    Responsibilities:     As the Intern, High Speed Analog IC Design, you will be involved with:  The design, development, verification and characterization of analog and mixed-signal circuits for use in our data communications products.\u00a0  Circuits such as phase-lock"
+},
+"https://semtech.wd1.myworkdayjobs.com/SemtechCareers/job/CAN---Calgary-AB/Analog-Design-Engineer-Intern_REQ3623": {
+"first_seen": "2026-09-24",
+"title": "Analog Design Engineer Intern",
+"company": "Semtech",
+"desc": "   Location:   Calgary, AB. \u00a0    Our Team:    Semtech\u2019s Signal Integrity Products group designs high performance optical networking product platforms that enable hyperscale data center applications, enterprise networking, wireless infrastructure including 5G networks, and passive optical network/Fibre-to-the-X markets. \u00a0  To put it simply, whenever you use your computer to browse the web or use your smartphone to make a video call, most likely, your data is passing through one of many high-speed analog chips designed by the Analog IC teams at Semtech. Our experience and expertise ensures we are always pushing the boundaries of networking speed, ensuring the best experience for our end users \u2013 you! \u00a0  Join us, and together we will continue to build a faster, better, and more secure online world for everyone.     Job Summary:    Our approach to internship is to make the successful candidate an integral part of our team. We understand that it is best to learn through direct involvement and we will provide you with tasks that enable you to learn and to be productive at the same time. The more you learn the more complex your tasks will become. The internship program is an important part of our recruiting strategy. \u00a0    Responsibilities:     As the Intern, High Speed Analog IC Design, you will be involved with:  The design, development, verification and characterization of analog and mixed-signal circuits for use in our data communications products.\u00a0  Circuits such as phase-locked "
+},
+"https://semtech.wd1.myworkdayjobs.com/SemtechCareers/job/CAN---Burlington-ON/Digital-IC-Design-Engineering-Intern_REQ3621": {
+"first_seen": "2026-09-24",
+"title": "Digital IC Design Engineering Intern",
+"company": "Semtech",
+"desc": "   Location:   Burlington, ON     Our Team:    As a member of our Digital Design group, you will be working in a team environment, contributing to development of advanced digital subsystems in next generation mixed-signal ICs for Semtech\u2019s Signal Integrity Products Division. You will have the opportunity to contribute to products in our data communications or broadcast video product lines.     Job Summary:    Joining our Digital Design team means you'll gain comprehensive experience across the full spectrum of digital silicon development - from initial concept definition through design, verification, and final implementation. You'll play a vital role as a project team member, delivering exceptional work while taking ownership of your contributions to ensure we successfully achieve our project goals and deadlines.     Responsibilities:     Design RTL block for digital subsystems  Interpret architecture and detailed design specifications to generate RTL or verification code  Work with a team to functionally verify a design or component using constrained random functional verification  Help create scripts and/or methodologies to improve or automate design processes  Use the best in class CAD tools to implement digital designs (including Synthesis, DFT insertion, and STA/timing closure)  Work with analog and digital engineers, system engineers and marketing to ensure the design meets all customer requirements  Create technical, process or product documentation  Assist in bring-up"
+},
+"https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-FL-MELBOURNE-310--1100-W-Hibiscus-Blvd--BLDG-310/Industrial-Engineering-Co-Op--Spring-Summer-2027-_01871770": {
+"first_seen": "2026-09-24",
+"title": "Industrial Engineering Co-Op (Spring/Summer 2027)",
+"company": "RTX",
+"desc": ""
+},
+"https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-IA-BELLEVUE-186--1500-State-St--STATE/Industrial-Engineering-Co-op--Spring-Summer-2027-_01876770": {
+"first_seen": "2026-09-24",
+"title": "Industrial Engineering Co-op (Spring/Summer 2027)",
+"company": "RTX",
+"desc": ""
+},
+"https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-IA-BELLEVUE-186--1500-State-St--STATE/Electrical-Engineering-for-Manufacturing-Co-op--Spring-Summer-2027-_01876808": {
+"first_seen": "2026-09-24",
+"title": "Electrical Engineering for Manufacturing Co-op (Spring/Summer 2027)",
+"company": "RTX",
+"desc": "  Date Posted:  2026-09-24&#xa;&#xa;  Country:  United States of America&#xa;&#xa;  Location:  US-IA-BELLEVUE-186 ~ 1500 State St ~ STATE&#xa;&#xa;  Position Role Type:  Onsite&#xa;&#xa;   U.S. Citizen, U.S. Person, or Immigration Status Requirements:    U.S. citizenship is required, as only U.S. citizens are authorized to access information under this program/contract.&#xa;&#xa;  Security Clearance Type:   None/Not Required&#xa;&#xa;  Security Clearance Status:   Not Required     Are you ready to explore the world of aerospace and defense? Do you want to learn from and collaborate with some of the greatest minds in the industry? At RTX, our internships, co-ops and full-time careers provide an exceptional foundation to work on complex problems, advance your skills and create a safer, more connected world. Discover opportunities to make a difference at RTX.   Collins Aerospace is a leader in technologically advanced, intelligent solutions that help redefine the aerospace and defense industry. With a comprehensive portfolio and deep technical expertise, we help customers meet the demands of the global market. Join us and help shape the future of aerospace and defense.    What You Will Do:    Immerse yourself in a full-time, Monday-Friday co-op session that will run from January to August 2027. (It is expected that students will take a semester off from coursework to fully engage in this mentorship opportunity.)  Work directly with our manufacturing production floor employees, i"
+},
+"https://www.linkedin.com/jobs/view/4452611940": {
+"first_seen": "2026-09-24",
+"title": "Co-op Electrical Engineering - Fall 2027",
+"company": "Schaeffler",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4461363708": {
+"first_seen": "2026-09-24",
+"title": "Electrical Engineer Co-Op - Fall 2027",
+"company": "Olin",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4452619694": {
+"first_seen": "2026-09-24",
+"title": "Co-op Electrical Engineering - Winter 2027",
+"company": "Schaeffler",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4462743730": {
+"first_seen": "2026-09-24",
+"title": "Electrical Engineer Student Experience - Spring 2027",
+"company": "Bobcat Company",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4453127998": {
+"first_seen": "2026-09-24",
+"title": "Electrical Engineer Intern/Co-op Spring 2027 (multiple locations)",
+"company": "CMTA, Inc.",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4471604799": {
+"first_seen": "2026-09-24",
+"title": "Electrical Engineering for Manufacturing Co-op (Spring/Summer 2027)",
+"company": "Collins Aerospace",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4453146483": {
+"first_seen": "2026-09-24",
+"title": "Electrical Engineer Intern/Co-op Spring 2027 (multiple locations)",
+"company": "CMTA, Inc.",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4461341638": {
+"first_seen": "2026-09-24",
+"title": "Reliability Engineer Co-Op - Spring or Fall 2027",
+"company": "Ahlstrom",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4461339074": {
+"first_seen": "2026-09-24",
+"title": "Platform Hardware and Systems Engineering - Intern, Bachelor\u2019s",
+"company": "Intel",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4425964141": {
+"first_seen": "2026-09-24",
+"title": "Embedded Systems Engineer Co-op (Bohemia, NY) \u2013 Spring 2027",
+"company": "GE Aerospace",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4461319872": {
+"first_seen": "2026-09-24",
+"title": "Platform Hardware and Systems Engineering - Intern, Bachelor\u2019s",
+"company": "Intel",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4451678642": {
+"first_seen": "2026-09-24",
+"title": "Intern - DRAM Design Engineer",
+"company": "Micron Technology",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4461396138": {
+"first_seen": "2026-09-24",
+"title": "Strategic Student Program: Cross-Domain Electronics Systems Engineering Intern (T&I, Spring 2027)",
+"company": "Siemens Digital Industries Software",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4469746423": {
+"first_seen": "2026-09-24",
+"title": "Electronics Engineer - Intern",
+"company": "Lockheed Martin",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4461320770": {
+"first_seen": "2026-09-24",
+"title": "Silicon Hardware Engineering - Intern, Bachelor\u2019s",
+"company": "Intel",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4461324273": {
+"first_seen": "2026-09-24",
+"title": "Silicon Hardware Engineering - Intern, Graduate",
+"company": "Intel",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4471102674": {
+"first_seen": "2026-09-24",
+"title": "Student Intern, Electrical Engineering, Spring 2027",
+"company": "Entergy",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4462186445": {
+"first_seen": "2026-09-24",
+"title": "Product Validation Engineering Co-op",
+"company": "CNH",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4462740731": {
+"first_seen": "2026-09-24",
+"title": "Test Engineer Student Experience - Spring 2027",
+"company": "Bobcat Company",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4461385949": {
+"first_seen": "2026-09-24",
+"title": "Strategic Student Program: Cross-Domain Electronics Systems Engineering Intern (T&I, Spring 2027)",
+"company": "Siemens Digital Industries Software",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4461336149": {
+"first_seen": "2026-09-24",
+"title": "Silicon Hardware Engineering - Intern, Graduate",
+"company": "Intel",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4461326235": {
+"first_seen": "2026-09-24",
+"title": "Silicon Hardware Engineering - Intern, Bachelor\u2019s",
+"company": "Intel",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4461333200": {
+"first_seen": "2026-09-24",
+"title": "Silicon Hardware Engineering - Intern, Graduate",
+"company": "Intel",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4461335125": {
+"first_seen": "2026-09-24",
+"title": "Silicon Hardware Engineering - Intern, Bachelor\u2019s",
+"company": "Intel",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4469671361": {
+"first_seen": "2026-09-24",
+"title": "Intern - ID1 Process Engineer",
+"company": "Micron Technology",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4460978308": {
+"first_seen": "2026-09-24",
+"title": "Intern - DRAM Technology DTCO & PPA Assessment Engineer",
+"company": "Micron Technology",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4461341050": {
+"first_seen": "2026-09-24",
+"title": "Platform Hardware and Systems Engineering - Intern, Bachelor\u2019s",
+"company": "Intel",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4459565493": {
+"first_seen": "2026-09-24",
+"title": "Hardware Developer Intern 2027 -Rochester, MN",
+"company": "IBM",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4461327249": {
+"first_seen": "2026-09-24",
+"title": "Platform Hardware and Systems Engineering - Intern, Bachelor\u2019s",
+"company": "Intel",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4471447105": {
+"first_seen": "2026-09-24",
+"title": "Intern- Electrical Engineering",
+"company": "Generac",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4461323278": {
+"first_seen": "2026-09-24",
+"title": "Platform Hardware and Systems Engineering - Intern, Graduate",
+"company": "Intel",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4461317981": {
+"first_seen": "2026-09-24",
+"title": "Platform Hardware and Systems Engineering - Intern, Graduate",
+"company": "Intel",
+"desc": ""
+},
+"https://www.samsara.com/company/careers/roles/8226602": {
+"first_seen": "2026-09-24",
+"title": "Firmware Engineer Co-Op",
+"company": "Samsara",
+"desc": ""
+},
+"https://job-boards.greenhouse.io/astranis/jobs/4715788006": {
+"first_seen": "2026-09-24",
+"title": "Electrical Integration Intern - RF (Summer 2027)",
+"company": "Astranis",
+"desc": ""
+},
+"https://job-boards.greenhouse.io/astranis/jobs/4705599006": {
+"first_seen": "2026-09-24",
+"title": "Software Developer, Network Software Intern (Winter 2027)",
+"company": "Astranis",
+"desc": ""
+},
+"https://job-boards.greenhouse.io/astranis/jobs/4715989006": {
+"first_seen": "2026-09-24",
+"title": "Supplier Quality Engineer Intern (Winter 2027)",
+"company": "Astranis",
+"desc": ""
+},
+"https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Analog-Design-Intern---BS---2027-Co-Op_2604788": {
+"first_seen": "2026-09-24",
+"title": "Analog Design Intern - BS - 2027 Co-Op",
+"company": "Marvell",
+"desc": "  About Marvell   Marvell\u2019s semiconductor solutions are the essential building blocks of the data infrastructure that connects our world. Across enterprise, cloud and AI, and carrier architectures, our innovative technology is enabling new possibilities.\u00a0    At Marvell, you can affect the arc of individual lives, lift the trajectory of entire industries, and fuel the transformative potential of tomorrow. For those looking to make their mark on purposeful and enduring innovation, above and beyond fleeting trends, Marvell is a place to thrive, learn, and lead.\u00a0    This is an existing vacancy.     Your Team, Your Impact  Trusted by the world\u2019s leading technology companies for 30 years, we move, store, process, and secure the world\u2019s data with semiconductor solutions designed for our customers\u2019 current needs and future ambitions. Through a process of deep collaboration and transparency, we\u2019re ultimately changing the way tomorrow\u2019s enterprise, cloud, automotive, and carrier markets transform\u2014for the better.  Marvell\u2019s Central Engineering Team is seeking analog mixed-signal design engineering students to support the development of analog IP products. PEY positions are located at the Marvell Toronto Design Centre and at Marvell headquarters in Santa Clara, CA. \u00a0  Hiring Managers:  Jackson Ding (Director of Design)  Ahmed Gharbiya (Analog IC Design Director)    What You Can Expect   Job responsibilities include support of IC design through design and layout, silicon evaluation, and c"
+},
+"https://jobs.smartrecruiters.com/renesaselectronics/744000151680529": {
+"first_seen": "2026-09-24",
+"title": "Validation Intern",
+"company": "Renesas",
+"desc": ""
+},
+"https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/CA-QC-SAINT-HUBERT-H05--7007-Chemin-De-La-Savane--BLDG-H05-FACTORY/Stage---Hiver-2027---Support-technique---Internship---Winter-2027---Technical-support_01876876": {
+"first_seen": "2026-09-24",
+"title": "Stage - Hiver 2027 - Support technique / Internship - Winter 2027 - Technical support",
+"company": "RTX",
+"desc": ""
+},
+"https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-IA-CEDAR-RAPIDS-105--400-Collins-Rd-NE--BLDG-105/Advanced-Manufacturing-Engineering-Co-Op--Spring-Summer-2027-_01874253": {
+"first_seen": "2026-09-24",
+"title": "Advanced Manufacturing Engineering Co-Op (Spring/Summer 2027)",
+"company": "RTX",
+"desc": ""
+},
+"https://jobs.smartrecruiters.com/aristanetworks/744000151659973": {
+"first_seen": "2026-09-24",
+"title": "Hardware Intern ",
+"company": "Arista Networks",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4471650356": {
+"first_seen": "2026-09-24",
+"title": "RF Front-End Engineer Summer/Fall Co-Op (June-Dec '27)",
+"company": "Skyworks Solutions, Inc.",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4471671487": {
+"first_seen": "2026-09-24",
+"title": "2027 Intern - SoC Digital Engineer",
+"company": "Motorola Solutions",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4461340077": {
+"first_seen": "2026-09-24",
+"title": "Silicon Hardware Engineering - Intern, Bachelor\u2019s",
+"company": "Intel",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4462447214": {
+"first_seen": "2026-09-24",
+"title": "Intern, Electrical Engineering",
+"company": "L3Harris Technologies",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4471628966": {
+"first_seen": "2026-09-24",
+"title": "Physical Design Intern - CPU/AI Hardware",
+"company": "Tenstorrent",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4471645588": {
+"first_seen": "2026-09-24",
+"title": "PDK Development Winter/Spring Co-Op (Jan-June '27)",
+"company": "Skyworks Solutions, Inc.",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4471636882": {
+"first_seen": "2026-09-24",
+"title": "Agentic Mixed-Signal Verification Platform Winter/Spring Co-Op (Jan-June '27)",
+"company": "Skyworks Solutions, Inc.",
+"desc": ""
+},
+"https://job-boards.greenhouse.io/astranis/jobs/4704778006": {
+"first_seen": "2026-09-24",
+"title": "Harness Design Engineer Intern (Winter 2027)",
+"company": "Astranis",
+"desc": ""
+},
+"https://job-boards.greenhouse.io/astranis/jobs/4716184006": {
+"first_seen": "2026-09-24",
+"title": "RF Validation Intern (Winter 2027)",
+"company": "Astranis",
+"desc": ""
+},
+"https://job-boards.greenhouse.io/astranis/jobs/4704818006": {
+"first_seen": "2026-09-24",
+"title": "Thermal Intern (Winter 2027)",
+"company": "Astranis",
+"desc": ""
+},
+"https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Ottawa-Canada/Data-Center-Silicon-Hardware-Engineering-Intern---BS---2027-Co-Op_2604525": {
+"first_seen": "2026-09-24",
+"title": "Data Center Silicon Hardware Engineering Intern - BS - 2027 Co-Op",
+"company": "Marvell",
+"desc": "  About Marvell   Marvell\u2019s semiconductor solutions are the essential building blocks of the data infrastructure that connects our world. Across enterprise, cloud and AI, and carrier architectures, our innovative technology is enabling new possibilities.\u00a0    At Marvell, you can affect the arc of individual lives, lift the trajectory of entire industries, and fuel the transformative potential of tomorrow. For those looking to make their mark on purposeful and enduring innovation, above and beyond fleeting trends, Marvell is a place to thrive, learn, and lead.\u00a0    This is an existing vacancy.     Your Team, Your Impact  Join a team developing cutting-edge data center custom silicon (advanced computer chips) that power next-generation AI computing, networking, connectivity, and infrastructure. Working alongside experienced engineers across architecture, design, verification, and physical design, you will contribute to real-world projects while gaining exposure to industry-leading technologies and methodologies. This is an opportunity to learn, grow, and make meaningful contributions in a collaborative, innovative, and inclusive engineering environment.    What You Can Expect    Work with experienced engineers on the design, implementation, and verification of digital hardware blocks and subsystems.  Develop RTL, verification environments, test cases, scripts, and automation tools to support semiconductor product development.  Debug RTL, simulation, and timing issues while collab"
+},
+"https://careers.skyworksinc.com/job/BAW-Design-WinterSpring-Co-Op-%28Jun-Dec-&apos;27%29/78510-en_US": {
+"first_seen": "2026-09-24",
+"title": "BAW Design Winter/Spring Co-Op (Jun-Dec '27)",
+"company": "Skyworks",
+"desc": ""
+},
+"https://careers.skyworksinc.com/job/BAW-Design-WinterSpring-Co-Op-%28Jan-June-&apos;27%29/78509-en_US": {
+"first_seen": "2026-09-24",
+"title": "BAW Design Winter/Spring Co-Op (Jan-June '27)",
+"company": "Skyworks",
+"desc": ""
+},
+"https://careers.skyworksinc.com/job/LNA-RFIC-Co-Op-%28WinterSpring-2027%29/78302-en_US": {
+"first_seen": "2026-09-24",
+"title": "LNA RFIC Co-Op (Winter/Spring 2027)",
+"company": "Skyworks",
+"desc": ""
+},
+"https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-OR-WILSONVILLE-596--27500-SW-Parkway-Ave--BLDG-596/Head-up-Guidance-Systems-Engineering-Co-op--Spring-Summer-2027----Onsite_01872666": {
+"first_seen": "2026-09-24",
+"title": "Head-up Guidance Systems Engineering Co-op (Spring/Summer 2027) - Onsite",
+"company": "RTX",
 "desc": ""
 }
 }
