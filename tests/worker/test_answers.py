@@ -224,3 +224,13 @@ def test_gpa_dropdown_rounds_down_and_graduate_gpa_is_not_applicable(eng):
     needs(ask(e, "GPA (Graduate)"))                                                     # free text: don't invent "N/A"
     f.add("education.degree", "Master of Science", U)
     needs(ask(e, "GPA (Graduate)", "select", ["Other/Not Applicable", "4.0 out of 4.0"]))
+
+
+def test_graduation_wordings_and_december_term(eng):
+    db, f, e = eng
+    f.add("education.graduation", "2027-12-26", U)
+    assert ok(ask(e, "What is your current graduation year? ")) == ["2027"]
+    assert ok(ask(e, "When is your anticipated graduation date?")) == ["December 2027"]
+    assert ok(ask(e, "Expected graduation.", "date")) == ["2027-12-26"]
+    assert ok(ask(e, "What is your current graduation date?", "select",
+                  ["Spring 2027", "Winter 2027", "Spring 2028"])) == ["Winter 2027"]

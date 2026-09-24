@@ -111,6 +111,8 @@ def grad(ctx: Ctx, q: Question, key: str, part: str):
                         basis="derived", evidence=ev, derivation="full_graduation_date", key=key)
     if q.option_list():
         syn = [rf"^{MONTHS[m-1]},? {y}$", rf"^{MONTHS[m-1][:3]}\.?,? {y}$", rf"^0?{m}/{y}$", rf"^{y}-0?{m}$"]
+        if m == 12:     # a December graduation is the fall/winter term of that year ("Winter 2027", "Fall 2027")
+            syn.append(rf"^(fall|winter) {y}$")
         return Proposal(value=f"{MONTHS[m-1].capitalize()} {y}", basis="derived", evidence=ev, derivation="month_year_of_graduation",
                         key=key, synonyms=syn)
     if "mm/yyyy" in ph or "mm / yyyy" in ph:
@@ -362,10 +364,11 @@ RULES = [
                         r"(: please convert your gpa to a 4\.0 scale(\. select \"not applicable\" if you do not have a \w+ gpa)?)?$"), lambda c, q, k: gpa(c, q, k)),
     ("education.gpa.graduate", L(r"^(gpa \((graduate|doctorate|masters?)\)|(graduate|doctorate|masters?|phd) gpa(: please convert your gpa to a 4\.0 scale.*)?)$"),
      lambda c, q, k: no_grad_gpa(c, q, k)),
-    ("education.graduation.month_year", L(r"^(expected |anticipated )?(graduation date|date of graduation|graduation)( \(mm/yyyy\))?$|^select your anticipated bachelor'?s degree graduation date$|^when do you (expect to )?graduate$"),
+    ("education.graduation.month_year", L(r"^(expected |anticipated )?(graduation date|date of graduation|graduation)( \(mm/yyyy\))?$|^select your anticipated bachelor'?s degree graduation date$|^when do you (expect to )?graduate$"
+                                          r"|^(what|when) is your (current |anticipated |expected )?graduation date( \(month/year\))?$|^expected graduation$"),
      lambda c, q, k: grad(c, q, k, "full")),
     ("education.graduation.month", L(r"^(expected |anticipated )?graduation month$"), lambda c, q, k: grad(c, q, k, "month")),
-    ("education.graduation.year", L(r"^(expected |anticipated )?graduation year$|^(expected )?year of graduation$"), lambda c, q, k: grad(c, q, k, "year")),
+    ("education.graduation.year", L(r"^(expected |anticipated )?graduation year$|^(expected )?year of graduation$|^what is your (current |anticipated |expected )?graduation year$"), lambda c, q, k: grad(c, q, k, "year")),
     ("education.currently_student", L(r"^(are you (currently )?(a )?(current |enrolled )?(student|enrolled( in (a|an) (degree|university|college) program)?)|are you currently enrolled in (a|an) (accredited )?(degree|university|college|bachelor'?s) program)$"),
      currently_student),
     ("test_scores.act", L(r"^(act( score)?|act composite score)$"), lambda c, q, k: fact(c, "test_scores.act", k, transform=str)),
