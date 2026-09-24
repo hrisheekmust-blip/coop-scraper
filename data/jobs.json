@@ -79,7 +79,6 @@
   "hw": "electrical engineer",
   "tier": "big",
   "sources": [
-   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-09-17",
@@ -318,8 +317,7 @@
   "hw": "fpga",
   "tier": "startup",
   "sources": [
-   "greenhouse",
-   "jobspy:indeed"
+   "greenhouse"
   ],
   "first_seen": "2026-09-24",
   "last_seen": "2026-09-24"
@@ -506,8 +504,7 @@
   "hw": "hardware",
   "tier": "startup",
   "sources": [
-   "greenhouse",
-   "jobspy:indeed"
+   "greenhouse"
   ],
   "first_seen": "2026-09-24",
   "last_seen": "2026-09-24"
@@ -762,7 +759,6 @@
   "hw": "electrical engineering",
   "tier": "big",
   "sources": [
-   "jobspy:indeed",
    "workday"
   ],
   "first_seen": "2026-09-22",
@@ -1205,7 +1201,6 @@
   "hw": "electrical engineer",
   "tier": "big",
   "sources": [
-   "internlist:coop",
    "workday"
   ],
   "first_seen": "2026-09-18",
@@ -1240,7 +1235,6 @@
   "hw": "metrology",
   "tier": "big",
   "sources": [
-   "internlist:coop",
    "workday"
   ],
   "first_seen": "2026-09-18",
@@ -1275,7 +1269,6 @@
   "hw": "product engineering",
   "tier": "big",
   "sources": [
-   "internlist:coop",
    "workday"
   ],
   "first_seen": "2026-09-18",
@@ -2763,6 +2756,23 @@
  },
  {
   "company": "RTX",
+  "title": "Electrical Engineering for Manufacturing Co-op (Spring/Summer 2027)",
+  "location": "US-IA-BELLEVUE-186 ~ 1500 State St ~ STATE",
+  "url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-IA-BELLEVUE-186--1500-State-St--STATE/Electrical-Engineering-for-Manufacturing-Co-op--Spring-Summer-2027-_01876808",
+  "posted": "Posted Today",
+  "deadline": "",
+  "term": "spring",
+  "rank": "A",
+  "hw": "electrical engineering",
+  "tier": "big",
+  "sources": [
+   "workday"
+  ],
+  "first_seen": "2026-09-24",
+  "last_seen": "2026-09-24"
+ },
+ {
+  "company": "RTX",
   "title": "Factory Enablement Digital Engineer (Spring/Summer Co-op)",
   "location": "US-IA-CEDAR RAPIDS-105 ~ 400 Collins Rd NE ~ BLDG 105",
   "url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-IA-CEDAR-RAPIDS-105--400-Collins-Rd-NE--BLDG-105/Factory-Enablement-Digital-Engineer--Spring-Summer-Co-op-_01876473",
@@ -2797,10 +2807,10 @@
  },
  {
   "company": "RTX",
-  "title": "Industrial Engineering Co-op (Spring/Summer 2027)",
-  "location": "US-IA-DECORAH-129 ~ 2464 River Rd ~ RIVER",
-  "url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-IA-DECORAH-129--2464-River-Rd--RIVER/Industrial-Engineering-Co-op--Spring-Summer-2027-_01873166",
-  "posted": "Posted 3 Days Ago",
+  "title": "Industrial Engineering Co-Op (Spring/Summer 2027)",
+  "location": "US-FL-MELBOURNE-310 ~ 1100 W Hibiscus Blvd ~ BLDG 310",
+  "url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-FL-MELBOURNE-310--1100-W-Hibiscus-Blvd--BLDG-310/Industrial-Engineering-Co-Op--Spring-Summer-2027-_01871770",
+  "posted": "Posted Today",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -2809,7 +2819,24 @@
   "sources": [
    "workday"
   ],
-  "first_seen": "2026-09-21",
+  "first_seen": "2026-09-24",
+  "last_seen": "2026-09-24"
+ },
+ {
+  "company": "RTX",
+  "title": "Industrial Engineering Co-op (Spring/Summer 2027)",
+  "location": "US-IA-BELLEVUE-186 ~ 1500 State St ~ STATE",
+  "url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-IA-BELLEVUE-186--1500-State-St--STATE/Industrial-Engineering-Co-op--Spring-Summer-2027-_01876770",
+  "posted": "Posted Today",
+  "deadline": "",
+  "term": "spring",
+  "rank": "A",
+  "hw": "maybe",
+  "tier": "big",
+  "sources": [
+   "workday"
+  ],
+  "first_seen": "2026-09-24",
   "last_seen": "2026-09-24"
  },
  {
@@ -2916,23 +2943,6 @@
  },
  {
   "company": "RTX",
-  "title": "Stage Hiver 2027 - Enqu\u00eateur Technique / Internship Winter 2027 - Technical Investigator",
-  "location": "CA-QC-SAINT HUBERT-H05 ~ 7007 Chemin De La Savane ~ BLDG H05 FACTORY",
-  "url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/CA-QC-SAINT-HUBERT-H05--7007-Chemin-De-La-Savane--BLDG-H05-FACTORY/Stage-Hiver-2027---Enquteur-Technique---Internship-Winter-2027---Technical-Investigator_01866082",
-  "posted": "Posted 30+ Days Ago",
-  "deadline": "",
-  "term": "spring",
-  "rank": "A",
-  "hw": "maybe",
-  "tier": "big",
-  "sources": [
-   "workday"
-  ],
-  "first_seen": "2026-09-18",
-  "last_seen": "2026-09-24"
- },
- {
-  "company": "RTX",
   "title": "Systems Engineer Co-Op (Spring/Summer 2027) - Onsite",
   "location": "US-IA-CEDAR RAPIDS-182 ~ 1100 Cimmie Ave Ne ~ BLDG 182",
   "url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-IA-CEDAR-RAPIDS-182--1100-Cimmie-Ave-Ne--BLDG-182/Systems-Engineer-Co-Op--Spring-Summer-2027----Onsite_01873686",
@@ -2985,9 +2995,9 @@
  {
   "company": "Rocket Lab",
   "title": "Manufacturing Engineering Intern Spring 2027",
-  "location": "Long Beach, CA",
-  "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7984943003",
-  "posted": "2026-09-16",
+  "location": "Wallops Island, VA",
+  "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7996617003",
+  "posted": "2026-09-17",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -3019,9 +3029,9 @@
  {
   "company": "Rocket Lab",
   "title": "Manufacturing Engineering Intern Spring 2027",
-  "location": "Wallops Island, VA",
-  "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7996617003",
-  "posted": "2026-09-17",
+  "location": "Long Beach, CA",
+  "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7984943003",
+  "posted": "2026-09-16",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -3242,15 +3252,14 @@
   "title": "Electrical Engineering Co-Op",
   "location": "San Francisco - SF9",
   "url": "https://www.samsara.com/company/careers/roles/8163118?gh_jid=8163118",
-  "posted": "2026-09-23",
+  "posted": "2026-09-24",
   "deadline": "",
   "term": "spring",
   "rank": "A",
   "hw": "electrical engineering",
   "tier": "big",
   "sources": [
-   "greenhouse",
-   "jobspy:linkedin"
+   "greenhouse"
   ],
   "first_seen": "2026-09-17",
   "last_seen": "2026-09-24"
@@ -3268,6 +3277,74 @@
   "tier": "",
   "sources": [
    "jobspy:linkedin"
+  ],
+  "first_seen": "2026-09-24",
+  "last_seen": "2026-09-24"
+ },
+ {
+  "company": "Semtech",
+  "title": "Analog Design Engineer Intern",
+  "location": "CAN - Burlington, ON",
+  "url": "https://semtech.wd1.myworkdayjobs.com/SemtechCareers/job/CAN---Burlington-ON/Analog-Design-Engineer-Intern_REQ3622",
+  "posted": "Posted Today",
+  "deadline": "",
+  "term": "spring",
+  "rank": "A",
+  "hw": "analog",
+  "tier": "big",
+  "sources": [
+   "workday"
+  ],
+  "first_seen": "2026-09-24",
+  "last_seen": "2026-09-24"
+ },
+ {
+  "company": "Semtech",
+  "title": "Analog Design Engineer Intern",
+  "location": "CAN - Calgary, AB",
+  "url": "https://semtech.wd1.myworkdayjobs.com/SemtechCareers/job/CAN---Calgary-AB/Analog-Design-Engineer-Intern_REQ3623",
+  "posted": "Posted Today",
+  "deadline": "",
+  "term": "spring",
+  "rank": "A",
+  "hw": "analog",
+  "tier": "big",
+  "sources": [
+   "workday"
+  ],
+  "first_seen": "2026-09-24",
+  "last_seen": "2026-09-24"
+ },
+ {
+  "company": "Semtech",
+  "title": "Digital IC Design Engineering Intern",
+  "location": "CAN - Burlington, ON",
+  "url": "https://semtech.wd1.myworkdayjobs.com/SemtechCareers/job/CAN---Burlington-ON/Digital-IC-Design-Engineering-Intern_REQ3621",
+  "posted": "Posted Today",
+  "deadline": "",
+  "term": "spring",
+  "rank": "A",
+  "hw": "ic design",
+  "tier": "big",
+  "sources": [
+   "workday"
+  ],
+  "first_seen": "2026-09-24",
+  "last_seen": "2026-09-24"
+ },
+ {
+  "company": "Semtech",
+  "title": "Validation Engineering Intern",
+  "location": "CAN - Burlington, ON",
+  "url": "https://semtech.wd1.myworkdayjobs.com/SemtechCareers/job/CAN---Burlington-ON/Validation-Engineering-Intern_REQ3628",
+  "posted": "Posted Today",
+  "deadline": "",
+  "term": "spring",
+  "rank": "A",
+  "hw": "validation",
+  "tier": "big",
+  "sources": [
+   "workday"
   ],
   "first_seen": "2026-09-24",
   "last_seen": "2026-09-24"
@@ -3389,6 +3466,23 @@
    "successfactors"
   ],
   "first_seen": "2026-09-18",
+  "last_seen": "2026-09-24"
+ },
+ {
+  "company": "Skyworks",
+  "title": "Agentic Mixed-Signal Verification Platform Winter/Spring Co-Op (Jan-June '27)",
+  "location": "Irvine, CA, USA    ",
+  "url": "https://careers.skyworksinc.com/job/Agentic-Mixed-Signal-Verification-Platform-WinterSpring-Co-Op-%28Jan-June-&apos;27%29/78496-en_US",
+  "posted": "2026-09-24",
+  "deadline": "",
+  "term": "spring",
+  "rank": "A",
+  "hw": "mixed-signal,verification",
+  "tier": "big",
+  "sources": [
+   "successfactors"
+  ],
+  "first_seen": "2026-09-24",
   "last_seen": "2026-09-24"
  },
  {
@@ -4304,7 +4398,6 @@
   "hw": "silicon",
   "tier": "big",
   "sources": [
-   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-09-17",
@@ -5003,8 +5096,7 @@
   "hw": "test engineer",
   "tier": "startup",
   "sources": [
-   "greenhouse",
-   "jobspy:linkedin"
+   "greenhouse"
   ],
   "first_seen": "2026-09-21",
   "last_seen": "2026-09-24"
@@ -6666,7 +6758,6 @@
   "hw": "electrical engineering",
   "tier": "big",
   "sources": [
-   "jobspy:linkedin",
    "oracle_hcm"
   ],
   "first_seen": "2026-09-18",
@@ -8021,8 +8112,6 @@
   "hw": "electronics",
   "tier": "big",
   "sources": [
-   "internlist:coop",
-   "internlist:winter-spring",
    "workday"
   ],
   "first_seen": "2026-09-18",
@@ -13020,6 +13109,23 @@
  },
  {
   "company": "Marvell",
+  "title": "Design Verification Intern",
+  "location": "2 Locations",
+  "url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Petah-Tikva/Design-Verification-Intern_2604493",
+  "posted": "Posted Today",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "design verification",
+  "tier": "big",
+  "sources": [
+   "workday"
+  ],
+  "first_seen": "2026-09-24",
+  "last_seen": "2026-09-24"
+ },
+ {
+  "company": "Marvell",
   "title": "Digital IC Design Intern",
   "location": "IL - Petah Tikva",
   "url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/IL---Petah-Tikva/Digital-IC-Design-Intern_2604490",
@@ -13065,6 +13171,23 @@
   "tier": "",
   "sources": [
    "internlist:winter-spring"
+  ],
+  "first_seen": "2026-09-18",
+  "last_seen": "2026-09-24"
+ },
+ {
+  "company": "Marvell",
+  "title": "System Chip Validation Intern",
+  "location": "Petah-Tikva",
+  "url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Petah-Tikva/System-Chip-Validation-Intern_2604495",
+  "posted": "Posted Today",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "chip",
+  "tier": "big",
+  "sources": [
+   "workday"
   ],
   "first_seen": "2026-09-18",
   "last_seen": "2026-09-24"
@@ -13922,6 +14045,23 @@
   "last_seen": "2026-09-24"
  },
  {
+  "company": "NXP",
+  "title": "Working Student (f/m/d) RF Validation and Lab Automation",
+  "location": "Hamburg",
+  "url": "https://nxp.wd3.myworkdayjobs.com/careers/job/Hamburg/Working-Student--f-m-d--RF-Validation-and-Lab-Automation_R-10066629",
+  "posted": "Posted Today",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "rf",
+  "tier": "big",
+  "sources": [
+   "workday"
+  ],
+  "first_seen": "2026-09-24",
+  "last_seen": "2026-09-24"
+ },
+ {
   "company": "Neuralink",
   "title": "Digital IC Design Engineer Intern",
   "location": "San Francisco, CA",
@@ -14649,8 +14789,7 @@
   "hw": "design verification",
   "tier": "startup",
   "sources": [
-   "ashby",
-   "jobspy:linkedin"
+   "ashby"
   ],
   "first_seen": "2026-09-22",
   "last_seen": "2026-09-24"
@@ -14667,8 +14806,7 @@
   "hw": "rtl,soc",
   "tier": "startup",
   "sources": [
-   "ashby",
-   "jobspy:linkedin"
+   "ashby"
   ],
   "first_seen": "2026-09-23",
   "last_seen": "2026-09-24"
@@ -15154,6 +15292,23 @@
   "title": "Hardware Engineering Intern",
   "location": "",
   "url": "https://seagatecareers.com/job/Hardware-Engineering-Intern/15010-en_US",
+  "posted": "2026-09-09",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "hardware",
+  "tier": "big",
+  "sources": [
+   "successfactors"
+  ],
+  "first_seen": "2026-09-18",
+  "last_seen": "2026-09-24"
+ },
+ {
+  "company": "Seagate",
+  "title": "Hardware Validation Intern",
+  "location": "",
+  "url": "https://seagatecareers.com/job/Hardware-Validation-Intern/15011-en_US",
   "posted": "2026-09-09",
   "deadline": "",
   "term": "unspecified",
@@ -15885,7 +16040,7 @@
   "title": "Emerging Talent - Electrical Engineering Internship",
   "location": "Long Beach, California, United States",
   "url": "https://boards.greenhouse.io/vast/jobs/4711401006?gh_jid=4711401006",
-  "posted": "2026-09-23",
+  "posted": "2026-09-24",
   "deadline": "",
   "term": "unspecified",
   "rank": "C",
@@ -15902,7 +16057,7 @@
   "title": "Emerging Talent - Manufacturing Engineering Internship",
   "location": "Long Beach, California, United States",
   "url": "https://boards.greenhouse.io/vast/jobs/4711403006?gh_jid=4711403006",
-  "posted": "2026-09-23",
+  "posted": "2026-09-24",
   "deadline": "",
   "term": "unspecified",
   "rank": "C",
@@ -15919,7 +16074,7 @@
   "title": "Emerging Talent - Mechanical/Aerospace Engineering Internship",
   "location": "Long Beach, California, United States",
   "url": "https://boards.greenhouse.io/vast/jobs/4711400006?gh_jid=4711400006",
-  "posted": "2026-09-23",
+  "posted": "2026-09-24",
   "deadline": "",
   "term": "unspecified",
   "rank": "C",
@@ -15936,7 +16091,7 @@
   "title": "University Recruiter II",
   "location": "Long Beach, California, United States",
   "url": "https://boards.greenhouse.io/vast/jobs/4693801006?gh_jid=4693801006",
-  "posted": "2026-09-23",
+  "posted": "2026-09-24",
   "deadline": "",
   "term": "unspecified",
   "rank": "C",
