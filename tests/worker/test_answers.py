@@ -210,3 +210,17 @@ def test_equivalence_bank_routes_new_wording(eng):
     assert ok(ask(e, "Primary e-mail for correspondence")) == ["test@example.edu"]
     with pytest.raises(PrepError):
         import_response(db, {"equivalents": [{"key": "contact.email", "patterns": ["email"]}]}, e)
+
+
+def test_gpa_dropdown_rounds_down_and_graduate_gpa_is_not_applicable(eng):
+    db, f, e = eng
+    f.add("education.gpa", "3.87", U)
+    one_dec = ["Not applicable/Do not recall", "4.0 out of 4.0", "3.9 out of 4.0", "3.8 out of 4.0", "3.7 out of 4.0"]
+    assert ok(ask(e, "GPA (Undergraduate)", "select", one_dec)) == ["3.8 out of 4.0"]   # never rounds up
+    assert ok(ask(e, "What is your current GPA?")) == ["3.87"]                          # text keeps the exact value
+    assert ok(ask(e, "GPA (Graduate)", "select", ["Other/Not Applicable", "4.0 out of 4.0"])) == ["Other/Not Applicable"]
+    assert ok(ask(e, "Masters GPA: Please convert your GPA to a 4.0 scale. Select \"Not Applicable\" if you do not have a Masters GPA",
+                  "select", ["Not Applicable", "3.9 out of 4.0"])) == ["Not Applicable"]
+    needs(ask(e, "GPA (Graduate)"))                                                     # free text: don't invent "N/A"
+    f.add("education.degree", "Master of Science", U)
+    needs(ask(e, "GPA (Graduate)", "select", ["Other/Not Applicable", "4.0 out of 4.0"]))

@@ -53,6 +53,31 @@ def fact(ctx, pred, key, *, synonyms=None, transform=None, sensitive=False):
     return Proposal(value=v, basis="fact", evidence=[f["id"]], key=key, synonyms=list(synonyms or []), sensitive=sensitive)
 
 
+def gpa(ctx, q, key):
+    """Your GPA as saved (e.g. 3.96). A one-decimal dropdown ('3.9 out of 4.0') gets the saved value rounded DOWN,
+    never up; the exact text is tried first."""
+    p = fact(ctx, "education.gpa", key)
+    if p.decision != "answer":
+        return p
+    m = re.fullmatch(r"\s*(\d)\.(\d)\d*\s*", str(p.value))
+    if m:
+        a, b = m.groups()
+        p.synonyms = [rf"^{a}\.{b}0?( ?(/|out of) ?4(\.0+)?)?$"]
+    return p
+
+
+def no_grad_gpa(ctx, q, key):
+    """Graduate/masters/doctorate GPA when your saved degree is a bachelor's: the form's own 'not applicable' option."""
+    deg = str((_f(ctx, "education.degree") or {}).get("value", ""))
+    if not re.search(r"bachelor|b\.?s\.?\b|b\.?a\.?\b|undergrad", deg, re.I):
+        return need("not saved in your profile", ["education.degree"], key)
+    f = _f(ctx, "education.degree")
+    if not q.option_list():
+        return need("this asks for a graduate GPA as text", ["education.degree"], key)
+    return Proposal(value="Not applicable", basis="derived", evidence=[f["id"]], key=key,
+                    derivation="bachelor's student: no graduate GPA", synonyms=[r"^(other ?/ ?)?not applicable\b", r"^n/?a$"])
+
+
 def yesno(ctx, pred, key, invert=False, sensitive=False):
     f = _f(ctx, pred)
     if not f or not isinstance(f["value"], bool):
@@ -333,7 +358,10 @@ RULES = [
     ("education.degree", L(r"^(degree|education level|highest (education|degree) level|current program type|program type|level of study|type of program|degree type|degree pursuing)$"),
      lambda c, q, k: fact(c, "education.degree", k, synonyms=degree_synonyms((_f(c, "education.degree") or {}).get("value", "")))),
     ("education.year_standing", L(r"^(academic year|class standing|year in school|current year of study|current year in school)$"), lambda c, q, k: fact(c, "education.year_standing", k)),
-    ("education.gpa", L(r"^(current |cumulative |overall |undergraduate |undergrad )?(gpa|grade point average)( \(undergraduate\))?( \(4\.0 scale\))?$"), lambda c, q, k: fact(c, "education.gpa", k)),
+    ("education.gpa", L(r"^(what is your )?(current |cumulative |overall |undergraduate |undergrad )?(gpa|grade point average)( \(undergraduate\))?( \(4\.0 scale\))?"
+                        r"(: please convert your gpa to a 4\.0 scale(\. select \"not applicable\" if you do not have a \w+ gpa)?)?$"), lambda c, q, k: gpa(c, q, k)),
+    ("education.gpa.graduate", L(r"^(gpa \((graduate|doctorate|masters?)\)|(graduate|doctorate|masters?|phd) gpa(: please convert your gpa to a 4\.0 scale.*)?)$"),
+     lambda c, q, k: no_grad_gpa(c, q, k)),
     ("education.graduation.month_year", L(r"^(expected |anticipated )?(graduation date|date of graduation|graduation)( \(mm/yyyy\))?$|^select your anticipated bachelor'?s degree graduation date$|^when do you (expect to )?graduate$"),
      lambda c, q, k: grad(c, q, k, "full")),
     ("education.graduation.month", L(r"^(expected |anticipated )?graduation month$"), lambda c, q, k: grad(c, q, k, "month")),
