@@ -50,8 +50,16 @@ $Action = New-ScheduledTaskAction -Execute $Pyw -Argument "-m runner service" -W
 $Trigger = New-ScheduledTaskTrigger -AtLogOn -User $env:USERNAME
 $Settings = New-ScheduledTaskSettingsSet -AllowStartIfOnBatteries -DontStopIfGoingOnBatteries -ExecutionTimeLimit ([TimeSpan]::Zero) `
   -RestartCount 5 -RestartInterval (New-TimeSpan -Minutes 1) -StartWhenAvailable
-Register-ScheduledTask -TaskName "CoopApplyRunner" -Action $Action -Trigger $Trigger -Settings $Settings -Force | Out-Null
-Start-ScheduledTask -TaskName "CoopApplyRunner"
+try {
+  Register-ScheduledTask -TaskName "CoopApplyRunner" -Action $Action -Trigger $Trigger -Settings $Settings -Force -ErrorAction Stop | Out-Null
+  Start-ScheduledTask -TaskName "CoopApplyRunner"
+} catch {
+  # Some PCs don't let a normal user register logon tasks: use the Startup folder instead and start it now.
+  Write-Host "  (scheduled task not allowed here: using the Startup folder instead)"
+  $Startup = [Environment]::GetFolderPath("Startup")
+  "@echo off`r`ncd /d `"$Repo`"`r`nstart `"`" `"$Pyw`" -m runner service`r`n" | Set-Content -Encoding ASCII (Join-Path $Startup "CoopApplyRunner.cmd")
+  Start-Process -FilePath $Pyw -ArgumentList "-m", "runner", "service" -WorkingDirectory $Repo -WindowStyle Hidden
+}
 Start-Sleep -Seconds 4
 Push-Location $Repo
 & $Py -m runner status
