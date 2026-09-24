@@ -1,16 +1,17 @@
 # New postings — 2026-09-24
 
-7 new of 979 tracked. Rank A = spring/Jan 2027 explicit, B = co-op with term unstated, C = intern with no term stated.
+8 new of 983 tracked. Rank A = spring/Jan 2027 explicit, B = co-op with term unstated, C = intern with no term stated.
 
 | Rank | Term | Company | Role | Location | Posted | Link |
 |---|---|---|---|---|---|---|
-| A | spring | Skyworks Solutions, Inc. | RF Front-End Engineer Summer/Fall Co-Op (June-Dec '27) | San Jose, CA | nan | [apply](https://www.linkedin.com/jobs/view/4471650356) |
-| C | unspecified | Motorola Solutions | 2027 Intern - SoC Digital Engineer | Plantation, FL | nan | [apply](https://www.linkedin.com/jobs/view/4471671487) |
-| C | unspecified | Intel | Silicon Hardware Engineering - Intern, Bachelor’s | Hillsboro, OR | nan | [apply](https://www.linkedin.com/jobs/view/4461340077) |
-| C | unspecified | L3Harris Technologies | Intern, Electrical Engineering | Fort Wayne, IN | nan | [apply](https://www.linkedin.com/jobs/view/4462447214) |
-| C | unspecified | Tenstorrent | Physical Design Intern - CPU/AI Hardware | Austin, CA | nan | [apply](https://www.linkedin.com/jobs/view/4471628966) |
-| A | spring | Skyworks Solutions, Inc. | PDK Development Winter/Spring Co-Op (Jan-June '27) | Austin, TX | nan | [apply](https://www.linkedin.com/jobs/view/4471645588) |
-| A | spring | Skyworks Solutions, Inc. | Agentic Mixed-Signal Verification Platform Winter/Spring Co-Op (Jan-June '27) | Irvine, CA | nan | [apply](https://www.linkedin.com/jobs/view/4471636882) |
+| A | spring | Astranis | Harness Design Engineer Intern (Winter 2027) | San Francisco | 2026-09-24 | [apply](https://job-boards.greenhouse.io/astranis/jobs/4704778006) |
+| A | spring | Astranis | RF Validation Intern (Winter 2027) | San Francisco | 2026-09-24 | [apply](https://job-boards.greenhouse.io/astranis/jobs/4716184006) |
+| A | spring | Astranis | Thermal Intern (Winter 2027) | San Francisco | 2026-09-24 | [apply](https://job-boards.greenhouse.io/astranis/jobs/4704818006) |
+| B | coop-unspecified | Marvell | Data Center Silicon Hardware Engineering Intern - BS - 2027 Co-Op | 2 Locations | Posted Today | [apply](https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Ottawa-Canada/Data-Center-Silicon-Hardware-Engineering-Intern---BS---2027-Co-Op_2604525) |
+| A | spring | Skyworks | BAW Design Winter/Spring Co-Op (Jun-Dec '27) | Andover, MA, USA     | 2026-09-24 | [apply](https://careers.skyworksinc.com/job/BAW-Design-WinterSpring-Co-Op-%28Jun-Dec-&apos;27%29/78510-en_US) |
+| A | spring | Skyworks | BAW Design Winter/Spring Co-Op (Jan-June '27) | Andover, MA, USA     | 2026-09-24 | [apply](https://careers.skyworksinc.com/job/BAW-Design-WinterSpring-Co-Op-%28Jan-June-&apos;27%29/78509-en_US) |
+| A | spring | Skyworks | LNA RFIC Co-Op (Winter/Spring 2027) | Greensboro, NC, USA     | 2026-09-24 | [apply](https://careers.skyworksinc.com/job/LNA-RFIC-Co-Op-%28WinterSpring-2027%29/78302-en_US) |
+| A | spring | RTX | Head-up Guidance Systems Engineering Co-op (Spring/Summer 2027) - Onsite | US-OR-WILSONVILLE-596 ~ 27500 SW Parkway Ave ~ BLDG 596 | Posted Today | [apply](https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-OR-WILSONVILLE-596--27500-SW-Parkway-Ave--BLDG-596/Head-up-Guidance-Systems-Engineering-Co-op--Spring-Summer-2027----Onsite_01872666) |
 
 ## All tracked
 
@@ -19,13 +20,13 @@
 | A | spring | 1X | Internship - Manufacturing Engineering | San Carlos, CA | 2026-09-14 | [apply](https://jobs.ashbyhq.com/1x/d687b375-8136-4e6f-baa6-369b89366050) |
 | A | spring | Ameren | Electrical Engineering Spring Co-Op | St Louis, MO | 2026-09-23 | [apply](https://www.linkedin.com/jobs/view/4451954677) |
 | A | spring | Anduril | Electrical Engineer Co-op | Quincy, MA, USA; Costa Mesa, CA, USA | 2026-09-15 | [apply](https://simplify.jobs/jobs/click/7facf78c-a3d2-4cd9-bbbe-c1673f0e7b99) |
-| A | spring | Anduril | Winter 2027 EWIS Harness Engineer Co-op | Costa Mesa, California, United States | 2026-09-21 | [apply](https://boards.greenhouse.io/andurilindustries/jobs/5236577007?gh_jid=5236577007) |
-| A | spring | Anduril | Winter 2027 Electrical Engineer Co-op | Costa Mesa, California, United States; Quincy, Massachusetts | 2026-09-21 | [apply](https://boards.greenhouse.io/andurilindustries/jobs/5236565007?gh_jid=5236565007) |
-| A | spring | Anduril | Winter 2027 Manufacturing Engineer Co-op | Lexington, Massachusetts, United States; Quincy, Massachuset | 2026-09-21 | [apply](https://boards.greenhouse.io/andurilindustries/jobs/5236589007?gh_jid=5236589007) |
-| A | spring | Anduril | Winter 2027 Propulsion Engineer Co-op | Costa Mesa, California, United States | 2026-09-21 | [apply](https://boards.greenhouse.io/andurilindustries/jobs/5236587007?gh_jid=5236587007) |
-| A | spring | Anduril | Winter 2027 Systems Engineer Co-op | Quincy, Massachusetts, United States | 2026-09-21 | [apply](https://boards.greenhouse.io/andurilindustries/jobs/5236599007?gh_jid=5236599007) |
-| A | spring | Anduril | Winter 2027 Test & Evaluation Engineer Co-op | Costa Mesa, California, United States | 2026-09-21 | [apply](https://boards.greenhouse.io/andurilindustries/jobs/5236583007?gh_jid=5236583007) |
-| A | spring | Anduril | Winter 2027 Warhead Engineer Co-op | Costa Mesa, California, United States | 2026-09-21 | [apply](https://boards.greenhouse.io/andurilindustries/jobs/5236585007?gh_jid=5236585007) |
+| A | spring | Anduril | Winter 2027 EWIS Harness Engineer Co-op | Costa Mesa, California, United States | 2026-09-24 | [apply](https://boards.greenhouse.io/andurilindustries/jobs/5236577007?gh_jid=5236577007) |
+| A | spring | Anduril | Winter 2027 Electrical Engineer Co-op | Costa Mesa, California, United States; Quincy, Massachusetts | 2026-09-24 | [apply](https://boards.greenhouse.io/andurilindustries/jobs/5236565007?gh_jid=5236565007) |
+| A | spring | Anduril | Winter 2027 Manufacturing Engineer Co-op | Lexington, Massachusetts, United States; Quincy, Massachuset | 2026-09-24 | [apply](https://boards.greenhouse.io/andurilindustries/jobs/5236589007?gh_jid=5236589007) |
+| A | spring | Anduril | Winter 2027 Propulsion Engineer Co-op | Costa Mesa, California, United States | 2026-09-24 | [apply](https://boards.greenhouse.io/andurilindustries/jobs/5236587007?gh_jid=5236587007) |
+| A | spring | Anduril | Winter 2027 Systems Engineer Co-op | Quincy, Massachusetts, United States | 2026-09-24 | [apply](https://boards.greenhouse.io/andurilindustries/jobs/5236599007?gh_jid=5236599007) |
+| A | spring | Anduril | Winter 2027 Test & Evaluation Engineer Co-op | Costa Mesa, California, United States | 2026-09-24 | [apply](https://boards.greenhouse.io/andurilindustries/jobs/5236583007?gh_jid=5236583007) |
+| A | spring | Anduril | Winter 2027 Warhead Engineer Co-op | Costa Mesa, California, United States | 2026-09-24 | [apply](https://boards.greenhouse.io/andurilindustries/jobs/5236585007?gh_jid=5236585007) |
 | A | spring | Arthrex | Engineering Co-op - Electromechanical Design | Naples, FL | 2026-09-22 | [apply](https://www.linkedin.com/jobs/view/4470212767) |
 | A | spring | Arthrex | Engineering Co-op - Manufacturing Validation | Ave Maria, FL | 2026-09-22 | [apply](https://www.linkedin.com/jobs/view/4470229021) |
 | A | spring | Arthrex | Test Engineering Co-op - Imaging and Resection | Naples, FL | 2026-09-22 | [apply](https://www.linkedin.com/jobs/view/4470225111) |
@@ -40,6 +41,7 @@
 | A | spring | Astranis | FPGA Intern (Winter 2027) | San Francisco | 2026-09-23 | [apply](https://job-boards.greenhouse.io/astranis/jobs/4704803006) |
 | A | spring | Astranis | Flight Software Intern (Winter 2027) | San Francisco | 2026-09-22 | [apply](https://job-boards.greenhouse.io/astranis/jobs/4704595006) |
 | A | spring | Astranis | Hardware Test Intern (Winter 2027) | San Francisco | 2026-09-22 | [apply](https://job-boards.greenhouse.io/astranis/jobs/4707012006) |
+| A | spring | Astranis | Harness Design Engineer Intern (Winter 2027) | San Francisco | 2026-09-24 | [apply](https://job-boards.greenhouse.io/astranis/jobs/4704778006) |
 | A | spring | Astranis | Mechanical Engineer Intern (Spring 2027) | San Francisco | 2026-08-31 | [apply](https://job-boards.greenhouse.io/astranis/jobs/4704602006) |
 | A | spring | Astranis | Mechanical Engineer Intern (Winter 2027) | San Francisco | 2026-08-31 | [apply](https://job-boards.greenhouse.io/astranis/jobs/4704600006) |
 | A | spring | Astranis | Network Planning Sales Engineer Intern (Winter 2027) | San Francisco, California | 2026-09-18 | [apply](https://job-boards.greenhouse.io/astranis/jobs/4704276006) |
@@ -47,11 +49,13 @@
 | A | spring | Astranis | Production Quality Intern (Winter 2027) | San Francisco | 2026-09-18 | [apply](https://job-boards.greenhouse.io/astranis/jobs/4705677006) |
 | A | spring | Astranis | Propulsion Engineer Intern (Winter 2027) | San Francisco | 2026-09-23 | [apply](https://job-boards.greenhouse.io/astranis/jobs/4713183006) |
 | A | spring | Astranis | Propulsion Manufacturing Intern (Winter 2027) | San Francisco | 2026-09-18 | [apply](https://job-boards.greenhouse.io/astranis/jobs/4705649006) |
+| A | spring | Astranis | RF Validation Intern (Winter 2027) | San Francisco | 2026-09-24 | [apply](https://job-boards.greenhouse.io/astranis/jobs/4716184006) |
 | A | spring | Astranis | Reliability Test Intern (Winter 2027) | San Francisco | 2026-09-22 | [apply](https://job-boards.greenhouse.io/astranis/jobs/4705626006) |
 | A | spring | Astranis | Software Defined Radio Hardware Intern (Winter 2027) | San Francisco | 2026-09-23 | [apply](https://job-boards.greenhouse.io/astranis/jobs/4716087006) |
 | A | spring | Astranis | Software Developer, Network Software Intern (Winter 2027) | San Francisco | 2026-09-24 | [apply](https://job-boards.greenhouse.io/astranis/jobs/4705599006) |
 | A | spring | Astranis | Supplier Quality Engineer Intern (Winter 2027) | San Francisco | 2026-09-24 | [apply](https://job-boards.greenhouse.io/astranis/jobs/4715989006) |
 | A | spring | Astranis | Technical Project Management Intern (Winter 2027) | San Francisco | 2026-09-23 | [apply](https://job-boards.greenhouse.io/astranis/jobs/4708364006) |
+| A | spring | Astranis | Thermal Intern (Winter 2027) | San Francisco | 2026-09-24 | [apply](https://job-boards.greenhouse.io/astranis/jobs/4704818006) |
 | A | spring | Astranis Space Technologies | FPGA Intern (Winter 2027) |  | nan | [apply](https://www.linkedin.com/jobs/view/4471179719) |
 | A | spring | Astranis Space Technologies | Software Defined Radio Hardware Intern (Winter 2027) |  | nan | [apply](https://www.linkedin.com/jobs/view/4471168972) |
 | A | spring | Axelera AI | Intern - AIPU Board Development | Florence (on-site) | 2026-09-21 | [apply](https://jobs.ashbyhq.com/axelera/cac5f1c7-2eb7-4bfe-b67f-dfc23dc59c16) |
@@ -130,7 +134,6 @@
 | A | spring | GE Aerospace | Manufacturing Engineering Co-op – US – Spring 2027 | 23 Locations | Posted 30+ Days Ago | [apply](https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Evendale/Manufacturing-Engineering-Co-op---US---Spring-2027_R5029663) |
 | A | spring | GE Aerospace | Systems Engineering Co-op - Electrical Engineering & Computer Engineering/Science (Avionics) - US - Spring 2027 | 2 Locations | Posted 30+ Days Ago | [apply](https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Grand-Rapids/Systems-Engineering-Co-op---Electrical-Engineering---Computer-Engineering-Science--Avionics----US---Spring-2027_R5030096-2) |
 | A | spring | GE Aerospace | Systems Engineering Co-op - Electrical Engineering & Computer Engineering/Science (Electric Power) - US - Spring 2027 | 2 Locations | Posted 30+ Days Ago | [apply](https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Dayton/Systems-Engineering-Co-op---Electrical-Engineering---Computer-Engineering-Science--Electric-Power----US---Spring-2027_R5030099-1) |
-| A | spring | GE Aerospace | Thermal Systems Design Engineering Intern (6 Months) | Istanbul | Posted 3 Days Ago | [apply](https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Istanbul/Thermal-Systems-Design-Engineering-Intern--6-Months-_R5039995-1) |
 | A | spring | GE Aerospace | Unison Engineering Intern - Spring 2027 | 4 Locations | Posted 30+ Days Ago | [apply](https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Jacksonville/Unison-Engineering-Intern---Spring-2027_R5037093-1) |
 | A | spring | GE Aerospace | Unison Engineering Part-time Co-op - US - Spring 2027 | Saint George UT US 1 | Posted 8 Days Ago | [apply](https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Saint-George-UT-US-1/Unison-Engineering-Part-time-Co-op---US---Spring-2027_R5040016) |
 | A | spring | GSK | Process Engineer Co-op | Upper Providence Township, PA, USA | 2026-09-01 | [apply](https://simplify.jobs/jobs/click/91acdeed-5336-47b8-b5f2-4a274a170ba6) |
@@ -190,22 +193,20 @@
 | A | spring | RTX | CH-53K Systems Engineering Coop (Spring/Summer 2027) - Onsite | US-IA-CEDAR RAPIDS-182 ~ 1100 Cimmie Ave Ne ~ BLDG 182 | Posted 16 Days Ago | [apply](https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-IA-CEDAR-RAPIDS-182--1100-Cimmie-Ave-Ne--BLDG-182/CH-53K-Systems-Engineering-Coop--Spring-Summer-2027----Onsite_01872668) |
 | A | spring | RTX | Electrical Engineering for Manufacturing Co-op (Spring/Summer 2027) | US-IA-BELLEVUE-186 ~ 1500 State St ~ STATE | Posted Today | [apply](https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-IA-BELLEVUE-186--1500-State-St--STATE/Electrical-Engineering-for-Manufacturing-Co-op--Spring-Summer-2027-_01876808) |
 | A | spring | RTX | Factory Enablement Digital Engineer (Spring/Summer Co-op) | US-IA-CEDAR RAPIDS-105 ~ 400 Collins Rd NE ~ BLDG 105 | Posted Yesterday | [apply](https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-IA-CEDAR-RAPIDS-105--400-Collins-Rd-NE--BLDG-105/Factory-Enablement-Digital-Engineer--Spring-Summer-Co-op-_01876473) |
-| A | spring | RTX | Head-up Guidance Systems Engineering Co-op, Spring/Summer 2027 (Onsite) | US-OR-WILSONVILLE-596 ~ 27500 SW Parkway Ave ~ BLDG 596 | Posted 10 Days Ago | [apply](https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-OR-WILSONVILLE-596--27500-SW-Parkway-Ave--BLDG-596/Head-up-Guidance-Systems-Engineering-Co-op--Spring-Summer-2027--Onsite-_01872670) |
+| A | spring | RTX | Head-up Guidance Systems Engineering Co-op (Spring/Summer 2027) - Onsite | US-OR-WILSONVILLE-596 ~ 27500 SW Parkway Ave ~ BLDG 596 | Posted Today | [apply](https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-OR-WILSONVILLE-596--27500-SW-Parkway-Ave--BLDG-596/Head-up-Guidance-Systems-Engineering-Co-op--Spring-Summer-2027----Onsite_01872666) |
 | A | spring | RTX | Industrial Engineering Co-Op (Spring/Summer 2027) | US-FL-MELBOURNE-310 ~ 1100 W Hibiscus Blvd ~ BLDG 310 | Posted Today | [apply](https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-FL-MELBOURNE-310--1100-W-Hibiscus-Blvd--BLDG-310/Industrial-Engineering-Co-Op--Spring-Summer-2027-_01871770) |
 | A | spring | RTX | Industrial Engineering Co-op (Spring/Summer 2027) | US-IA-BELLEVUE-186 ~ 1500 State St ~ STATE | Posted Today | [apply](https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-IA-BELLEVUE-186--1500-State-St--STATE/Industrial-Engineering-Co-op--Spring-Summer-2027-_01876770) |
 | A | spring | RTX | Internship - Winter 2027 - Development Engineering Support Analyst | CA-ON-MISSISSAUGA-P22M01 ~ 1801 Courtney Park Dr ~ P22M01 BL | Posted 21 Days Ago | [apply](https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/CA-ON-MISSISSAUGA-P22M01--1801-Courtney-Park-Dr--P22M01-BLDG/Internship---Winter-2027---Development-Engineering-Support-Analyst_01859772) |
 | A | spring | RTX | Project Engineering Co-op (Winter/Spring 2027) | US-CT-WINDSOR LOCKS-B1A ~ 1 Hamilton Rd ~ BLDG 1A | Posted 2 Days Ago | [apply](https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-CT-WINDSOR-LOCKS-B1A--1-Hamilton-Rd--BLDG-1A/Project-Engineering-Co-op--Winter-Spring-2027-_01872926) |
 | A | spring | RTX | Project Engineering Co-op (Winter/Spring 2027) | US-OH-TROY-101 ~ 101 Waco St ~ WACO | Posted 8 Days Ago | [apply](https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-OH-TROY-101--101-Waco-St--WACO/Project-Engineering-Co-op--Winter-Spring-2027-_01874635) |
 | A | spring | RTX | Spring/Summer  Coop - Systems Engineering - Onsite | US-MN-BURNSVILLE-WEST ~ 14300 Judicial Rd ~ WEST BLDG | Posted 2 Days Ago | [apply](https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-MN-BURNSVILLE-WEST--14300-Judicial-Rd--WEST-BLDG/Spring-Summer--Coop---Systems-Engineering---Onsite_01874528) |
-| A | spring | RTX | Stage - Hiver 2027 - Genie Industriel / Internship - Winter 2027 - Industrial_Engineering | CA-QC-LONGUEUIL-J01 ~ 1000 Blvd Marie-Victorin ~ J01 BLDG | Posted 3 Days Ago | [apply](https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/CA-QC-LONGUEUIL-J01--1000-Blvd-Marie-Victorin--J01-BLDG/Stage---Hiver-2027---Genie-Industriel---Internship---Winter-2027---Industrial-Engineering_01876308) |
 | A | spring | RTX | Stage - Hiver 2027 - Ingénierie de projet / Internship – Winter 2027 – Project Engineering | CA-QC-LONGUEUIL-J01 ~ 1000 Blvd Marie-Victorin ~ J01 BLDG | Posted Yesterday | [apply](https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/CA-QC-LONGUEUIL-J01--1000-Blvd-Marie-Victorin--J01-BLDG/Stage---Hiver-2027---Ingnierie-de-projet---Internship---Winter-2027---Project-Engineering_01877428) |
 | A | spring | RTX | Stage - Hiver 2027 - Support technique / Internship - Winter 2027 - Technical support | CA-QC-SAINT HUBERT-H05 ~ 7007 Chemin De La Savane ~ BLDG H05 | Posted Today | [apply](https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/CA-QC-SAINT-HUBERT-H05--7007-Chemin-De-La-Savane--BLDG-H05-FACTORY/Stage---Hiver-2027---Support-technique---Internship---Winter-2027---Technical-support_01876876) |
-| A | spring | RTX | Systems Engineer Co-Op (Spring/Summer 2027) - Onsite | US-IA-CEDAR RAPIDS-182 ~ 1100 Cimmie Ave Ne ~ BLDG 182 | Posted 3 Days Ago | [apply](https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-IA-CEDAR-RAPIDS-182--1100-Cimmie-Ave-Ne--BLDG-182/Systems-Engineer-Co-Op--Spring-Summer-2027----Onsite_01873686) |
 | A | spring | RTX | Systems Engineering Coop - Spring/Summer- Onsite | US-ND-JAMESTOWN-P1 ~ 2604 Highway 20 N ~ PLANT 1 | Posted 7 Days Ago | [apply](https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-ND-JAMESTOWN-P1--2604-Highway-20-N--PLANT-1/Systems-Engineering-Coop---Spring-Summer--Onsite_01873304) |
 | A | spring | Rocket Lab | Fluid Systems Intern Spring 2027 | Long Beach, CA | 2026-09-09 | [apply](https://job-boards.greenhouse.io/rocketlab/jobs/7986788003) |
-| A | spring | Rocket Lab | Manufacturing Engineering Intern Spring 2027 | Middle River, MD | 2026-09-16 | [apply](https://job-boards.greenhouse.io/rocketlab/jobs/7987020003) |
 | A | spring | Rocket Lab | Manufacturing Engineering Intern Spring 2027 | Wallops Island, VA | 2026-09-17 | [apply](https://job-boards.greenhouse.io/rocketlab/jobs/7996617003) |
 | A | spring | Rocket Lab | Manufacturing Engineering Intern Spring 2027 | Long Beach, CA | 2026-09-16 | [apply](https://job-boards.greenhouse.io/rocketlab/jobs/7984943003) |
+| A | spring | Rocket Lab | Manufacturing Engineering Intern Spring 2027 | Middle River, MD | 2026-09-16 | [apply](https://job-boards.greenhouse.io/rocketlab/jobs/7987020003) |
 | A | spring | Rocket Lab | Propulsion Design Intern Spring 2027 | Long Beach, CA | 2026-09-11 | [apply](https://job-boards.greenhouse.io/rocketlab/jobs/7987110003) |
 | A | spring | Rocket Lab | R&D Engineering Intern Spring 2027 | Albuquerque, NM | 2026-09-17 | [apply](https://job-boards.greenhouse.io/rocketlab/jobs/7996578003) |
 | A | spring | Rocket Lab | Systems Engineering Intern Spring 2027 | Long Beach, CA | 2026-09-09 | [apply](https://job-boards.greenhouse.io/rocketlab/jobs/7987044003) |
@@ -231,6 +232,8 @@
 | A | spring | Skyworks | Analog Design Intern (Winter/Spring 2027) | Austin, TX, USA     | 2026-09-21 | [apply](https://careers.skyworksinc.com/job/Analog-Design-Intern-%28WinterSpring-2027%29/78437-en_US) |
 | A | spring | Skyworks | Analog Design Winter/Spring Co-Op (Jan-June '27) | Andover, MA, USA     | 2026-08-25 | [apply](https://careers.skyworksinc.com/job/Analog-Design-WinterSpring-Co-Op-%28Jan-June-&apos;27%29/78282-en_US) |
 | A | spring | Skyworks | Analog IC Design Co-Op (Winter/Spring 2027) | Cedar Rapids, IA, USA     | 2026-08-14 | [apply](https://careers.skyworksinc.com/job/Analog-IC-Design-Co-Op-%28WinterSpring-2027%29/78191-en_US) |
+| A | spring | Skyworks | BAW Design Winter/Spring Co-Op (Jan-June '27) | Andover, MA, USA     | 2026-09-24 | [apply](https://careers.skyworksinc.com/job/BAW-Design-WinterSpring-Co-Op-%28Jan-June-&apos;27%29/78509-en_US) |
+| A | spring | Skyworks | BAW Design Winter/Spring Co-Op (Jun-Dec '27) | Andover, MA, USA     | 2026-09-24 | [apply](https://careers.skyworksinc.com/job/BAW-Design-WinterSpring-Co-Op-%28Jun-Dec-&apos;27%29/78510-en_US) |
 | A | spring | Skyworks | BAW/SAW Filter Design Co-Op (Winter/Spring 2027) | Irvine, CA, USA     | 2026-08-25 | [apply](https://careers.skyworksinc.com/job/BAWSAW-Filter-Design-Co-Op-%28WinterSpring-2027%29/78160-en_US) |
 | A | spring | Skyworks | Characterization Engineering Co-Op (Winter/Spring 2027) | Irvine, CA, USA     | 2026-08-18 | [apply](https://careers.skyworksinc.com/job/Characterization-Engineering-Co-Op-%28WinterSpring-2027%29/78240-en_US) |
 | A | spring | Skyworks | Characterization Engineering Winter/Spring Co-Op (Jan-Jun '27) | Newbury Park, CA, USA     | 2026-09-08 | [apply](https://careers.skyworksinc.com/job/Characterization-Engineering-WinterSpring-Co-Op-%28Jan-Jun-&apos;27%29/78360-en_US) |
@@ -239,6 +242,7 @@
 | A | spring | Skyworks | Electronic Design Automation Winter/Spring Co-Op (Jan-June '27) | San Jose, CA, USA     | 2026-09-21 | [apply](https://careers.skyworksinc.com/job/Electronic-Design-Automation-WinterSpring-Co-Op-%28Jan-June-&apos;27%29/78457-en_US) |
 | A | spring | Skyworks | Embedded Firmware Engineer Co-Op (Winter/Spring 2027) | Hillsboro, OR, USA     | 2026-08-26 | [apply](https://careers.skyworksinc.com/job/Embedded-Firmware-Engineer-Co-Op-%28WinterSpring-2027%29/78183-en_US) |
 | A | spring | Skyworks | High frequency PA design, Winter/Spring Engineering Co-op (Jan-June '27) | Newbury Park, CA, USA     | 2026-08-28 | [apply](https://careers.skyworksinc.com/job/High-frequency-PA-design%2C-WinterSpring-Engineering-Co-op-%28Jan-June-&apos;27%29/78287-en_US) |
+| A | spring | Skyworks | LNA RFIC Co-Op (Winter/Spring 2027) | Greensboro, NC, USA     | 2026-09-24 | [apply](https://careers.skyworksinc.com/job/LNA-RFIC-Co-Op-%28WinterSpring-2027%29/78302-en_US) |
 | A | spring | Skyworks | Power Amplifier Design Co-Op (Jan-June 2027) | Irvine, CA, USA     | 2026-09-23 | [apply](https://careers.skyworksinc.com/job/Power-Amplifier-Design-Co-Op-%28Jan-June-2027%29/78465-en_US) |
 | A | spring | Skyworks | Power Amplifier IC Design Co-Op (Winter/Spring 2027) | Irvine, CA, USA     | 2026-08-27 | [apply](https://careers.skyworksinc.com/job/Power-Amplifier-IC-Design-Co-Op-%28WinterSpring-2027%29/78293-en_US) |
 | A | spring | Skyworks | Product Engineering Co-Op (Winter/Spring 2027) | Austin, TX, USA     | 2026-08-28 | [apply](https://careers.skyworksinc.com/job/Product-Engineering-Co-Op-%28WinterSpring-2027%29/78224-en_US) |
@@ -502,6 +506,7 @@
 | B | coop-unspecified | Marmon Holdings | Controls Engineer Co-op | Mt. Juliet, TN, USA | 2026-09-15 | [apply](https://simplify.jobs/jobs/click/cf4fb838-5142-4823-b7e1-1e2b9b097553) |
 | B | coop-unspecified | Mars | Packaging Engineer Co-op | Chicago, IL, USA | 2026-09-21 | [apply](https://simplify.jobs/jobs/click/bbd80626-7eda-4bcd-9059-84b16dffc496) |
 | B | coop-unspecified | Marvell | Analog Design Intern - BS - 2027 Co-Op |  | Posted Today | [apply](https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Analog-Design-Intern---BS---2027-Co-Op_2604788) |
+| B | coop-unspecified | Marvell | Data Center Silicon Hardware Engineering Intern - BS - 2027 Co-Op | 2 Locations | Posted Today | [apply](https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Ottawa-Canada/Data-Center-Silicon-Hardware-Engineering-Intern---BS---2027-Co-Op_2604525) |
 | B | coop-unspecified | Masco | Hardware Test Engineer Co-op | Indianapolis, IN, USA | 2026-09-10 | [apply](https://simplify.jobs/jobs/click/ba331cf6-d626-43c1-9b17-6fa5e029be8e) |
 | B | coop-unspecified | Merck | Process Engineer Co-op | West Point, PA, USA; Wilmington, DE, USA | 2026-09-08 | [apply](https://simplify.jobs/jobs/click/82e9ee2d-2ddf-4c88-b986-9f2fb401e32b) |
 | B | coop-unspecified | Merck | Process Engineer Co-op | De Soto, KS, USA | 2026-09-11 | [apply](https://simplify.jobs/jobs/click/68eb732b-eda7-45fc-af09-4cf31e0424ba) |

@@ -55,7 +55,7 @@
   "title": "Winter 2027 EWIS Harness Engineer Co-op",
   "location": "Costa Mesa, California, United States",
   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5236577007?gh_jid=5236577007",
-  "posted": "2026-09-21",
+  "posted": "2026-09-24",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -72,14 +72,13 @@
   "title": "Winter 2027 Electrical Engineer Co-op",
   "location": "Costa Mesa, California, United States; Quincy, Massachusetts, United States",
   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5236565007?gh_jid=5236565007",
-  "posted": "2026-09-21",
+  "posted": "2026-09-24",
   "deadline": "",
   "term": "spring",
   "rank": "A",
   "hw": "electrical engineer",
   "tier": "big",
   "sources": [
-   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-09-17",
@@ -90,7 +89,7 @@
   "title": "Winter 2027 Manufacturing Engineer Co-op",
   "location": "Lexington, Massachusetts, United States; Quincy, Massachusetts, United States",
   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5236589007?gh_jid=5236589007",
-  "posted": "2026-09-21",
+  "posted": "2026-09-24",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -107,7 +106,7 @@
   "title": "Winter 2027 Propulsion Engineer Co-op",
   "location": "Costa Mesa, California, United States",
   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5236587007?gh_jid=5236587007",
-  "posted": "2026-09-21",
+  "posted": "2026-09-24",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -124,7 +123,7 @@
   "title": "Winter 2027 Systems Engineer Co-op",
   "location": "Quincy, Massachusetts, United States",
   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5236599007?gh_jid=5236599007",
-  "posted": "2026-09-21",
+  "posted": "2026-09-24",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -141,7 +140,7 @@
   "title": "Winter 2027 Test & Evaluation Engineer Co-op",
   "location": "Costa Mesa, California, United States",
   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5236583007?gh_jid=5236583007",
-  "posted": "2026-09-21",
+  "posted": "2026-09-24",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -158,7 +157,7 @@
   "title": "Winter 2027 Warhead Engineer Co-op",
   "location": "Costa Mesa, California, United States",
   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5236585007?gh_jid=5236585007",
-  "posted": "2026-09-21",
+  "posted": "2026-09-24",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -369,8 +368,7 @@
   "hw": "fpga",
   "tier": "startup",
   "sources": [
-   "greenhouse",
-   "jobspy:indeed"
+   "greenhouse"
   ],
   "first_seen": "2026-09-24",
   "last_seen": "2026-09-24"
@@ -407,6 +405,23 @@
    "greenhouse"
   ],
   "first_seen": "2026-09-22",
+  "last_seen": "2026-09-24"
+ },
+ {
+  "company": "Astranis",
+  "title": "Harness Design Engineer Intern (Winter 2027)",
+  "location": "San Francisco",
+  "url": "https://job-boards.greenhouse.io/astranis/jobs/4704778006",
+  "posted": "2026-09-24",
+  "deadline": "",
+  "term": "spring",
+  "rank": "A",
+  "hw": "maybe",
+  "tier": "startup",
+  "sources": [
+   "greenhouse"
+  ],
+  "first_seen": "2026-09-24",
   "last_seen": "2026-09-24"
  },
  {
@@ -530,6 +545,23 @@
  },
  {
   "company": "Astranis",
+  "title": "RF Validation Intern (Winter 2027)",
+  "location": "San Francisco",
+  "url": "https://job-boards.greenhouse.io/astranis/jobs/4716184006",
+  "posted": "2026-09-24",
+  "deadline": "",
+  "term": "spring",
+  "rank": "A",
+  "hw": "rf",
+  "tier": "startup",
+  "sources": [
+   "greenhouse"
+  ],
+  "first_seen": "2026-09-24",
+  "last_seen": "2026-09-24"
+ },
+ {
+  "company": "Astranis",
   "title": "Reliability Test Intern (Winter 2027)",
   "location": "San Francisco",
   "url": "https://job-boards.greenhouse.io/astranis/jobs/4705626006",
@@ -557,8 +589,7 @@
   "hw": "hardware",
   "tier": "startup",
   "sources": [
-   "greenhouse",
-   "jobspy:indeed"
+   "greenhouse"
   ],
   "first_seen": "2026-09-24",
   "last_seen": "2026-09-24"
@@ -603,6 +634,23 @@
   "location": "San Francisco",
   "url": "https://job-boards.greenhouse.io/astranis/jobs/4708364006",
   "posted": "2026-09-23",
+  "deadline": "",
+  "term": "spring",
+  "rank": "A",
+  "hw": "maybe",
+  "tier": "startup",
+  "sources": [
+   "greenhouse"
+  ],
+  "first_seen": "2026-09-24",
+  "last_seen": "2026-09-24"
+ },
+ {
+  "company": "Astranis",
+  "title": "Thermal Intern (Winter 2027)",
+  "location": "San Francisco",
+  "url": "https://job-boards.greenhouse.io/astranis/jobs/4704818006",
+  "posted": "2026-09-24",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -932,7 +980,6 @@
   "hw": "electrical engineering",
   "tier": "big",
   "sources": [
-   "jobspy:indeed",
    "workday"
   ],
   "first_seen": "2026-09-22",
@@ -1375,7 +1422,6 @@
   "hw": "electrical engineer",
   "tier": "big",
   "sources": [
-   "internlist:coop",
    "workday"
   ],
   "first_seen": "2026-09-18",
@@ -1410,7 +1456,6 @@
   "hw": "metrology",
   "tier": "big",
   "sources": [
-   "internlist:coop",
    "workday"
   ],
   "first_seen": "2026-09-18",
@@ -1445,7 +1490,6 @@
   "hw": "product engineering",
   "tier": "big",
   "sources": [
-   "internlist:coop",
    "workday"
   ],
   "first_seen": "2026-09-18",
@@ -1942,23 +1986,6 @@
    "workday"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-09-24"
- },
- {
-  "company": "GE Aerospace",
-  "title": "Thermal Systems Design Engineering Intern (6 Months)",
-  "location": "Istanbul",
-  "url": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Istanbul/Thermal-Systems-Design-Engineering-Intern--6-Months-_R5039995-1",
-  "posted": "Posted 3 Days Ago",
-  "deadline": "",
-  "term": "spring",
-  "rank": "A",
-  "hw": "maybe",
-  "tier": "big",
-  "sources": [
-   "workday"
-  ],
-  "first_seen": "2026-09-21",
   "last_seen": "2026-09-24"
  },
  {
@@ -2967,10 +2994,10 @@
  },
  {
   "company": "RTX",
-  "title": "Head-up Guidance Systems Engineering Co-op, Spring/Summer 2027 (Onsite)",
+  "title": "Head-up Guidance Systems Engineering Co-op (Spring/Summer 2027) - Onsite",
   "location": "US-OR-WILSONVILLE-596 ~ 27500 SW Parkway Ave ~ BLDG 596",
-  "url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-OR-WILSONVILLE-596--27500-SW-Parkway-Ave--BLDG-596/Head-up-Guidance-Systems-Engineering-Co-op--Spring-Summer-2027--Onsite-_01872670",
-  "posted": "Posted 10 Days Ago",
+  "url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-OR-WILSONVILLE-596--27500-SW-Parkway-Ave--BLDG-596/Head-up-Guidance-Systems-Engineering-Co-op--Spring-Summer-2027----Onsite_01872666",
+  "posted": "Posted Today",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -2979,7 +3006,7 @@
   "sources": [
    "workday"
   ],
-  "first_seen": "2026-09-18",
+  "first_seen": "2026-09-24",
   "last_seen": "2026-09-24"
  },
  {
@@ -3086,23 +3113,6 @@
  },
  {
   "company": "RTX",
-  "title": "Stage - Hiver 2027 - Genie Industriel / Internship - Winter 2027 - Industrial_Engineering",
-  "location": "CA-QC-LONGUEUIL-J01 ~ 1000 Blvd Marie-Victorin ~ J01 BLDG",
-  "url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/CA-QC-LONGUEUIL-J01--1000-Blvd-Marie-Victorin--J01-BLDG/Stage---Hiver-2027---Genie-Industriel---Internship---Winter-2027---Industrial-Engineering_01876308",
-  "posted": "Posted 3 Days Ago",
-  "deadline": "",
-  "term": "spring",
-  "rank": "A",
-  "hw": "maybe",
-  "tier": "big",
-  "sources": [
-   "workday"
-  ],
-  "first_seen": "2026-09-21",
-  "last_seen": "2026-09-24"
- },
- {
-  "company": "RTX",
   "title": "Stage - Hiver 2027 - Ing\u00e9nierie de projet / Internship \u2013 Winter 2027 \u2013 Project Engineering",
   "location": "CA-QC-LONGUEUIL-J01 ~ 1000 Blvd Marie-Victorin ~ J01 BLDG",
   "url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/CA-QC-LONGUEUIL-J01--1000-Blvd-Marie-Victorin--J01-BLDG/Stage---Hiver-2027---Ingnierie-de-projet---Internship---Winter-2027---Project-Engineering_01877428",
@@ -3133,23 +3143,6 @@
    "workday"
   ],
   "first_seen": "2026-09-24",
-  "last_seen": "2026-09-24"
- },
- {
-  "company": "RTX",
-  "title": "Systems Engineer Co-Op (Spring/Summer 2027) - Onsite",
-  "location": "US-IA-CEDAR RAPIDS-182 ~ 1100 Cimmie Ave Ne ~ BLDG 182",
-  "url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-IA-CEDAR-RAPIDS-182--1100-Cimmie-Ave-Ne--BLDG-182/Systems-Engineer-Co-Op--Spring-Summer-2027----Onsite_01873686",
-  "posted": "Posted 3 Days Ago",
-  "deadline": "",
-  "term": "spring",
-  "rank": "A",
-  "hw": "maybe",
-  "tier": "big",
-  "sources": [
-   "workday"
-  ],
-  "first_seen": "2026-09-21",
   "last_seen": "2026-09-24"
  },
  {
@@ -3189,23 +3182,6 @@
  {
   "company": "Rocket Lab",
   "title": "Manufacturing Engineering Intern Spring 2027",
-  "location": "Middle River, MD",
-  "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7987020003",
-  "posted": "2026-09-16",
-  "deadline": "",
-  "term": "spring",
-  "rank": "A",
-  "hw": "maybe",
-  "tier": "big",
-  "sources": [
-   "greenhouse"
-  ],
-  "first_seen": "2026-09-18",
-  "last_seen": "2026-09-24"
- },
- {
-  "company": "Rocket Lab",
-  "title": "Manufacturing Engineering Intern Spring 2027",
   "location": "Wallops Island, VA",
   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7996617003",
   "posted": "2026-09-17",
@@ -3225,6 +3201,23 @@
   "title": "Manufacturing Engineering Intern Spring 2027",
   "location": "Long Beach, CA",
   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7984943003",
+  "posted": "2026-09-16",
+  "deadline": "",
+  "term": "spring",
+  "rank": "A",
+  "hw": "maybe",
+  "tier": "big",
+  "sources": [
+   "greenhouse"
+  ],
+  "first_seen": "2026-09-18",
+  "last_seen": "2026-09-24"
+ },
+ {
+  "company": "Rocket Lab",
+  "title": "Manufacturing Engineering Intern Spring 2027",
+  "location": "Middle River, MD",
+  "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7987020003",
   "posted": "2026-09-16",
   "deadline": "",
   "term": "spring",
@@ -3664,6 +3657,40 @@
  },
  {
   "company": "Skyworks",
+  "title": "BAW Design Winter/Spring Co-Op (Jan-June '27)",
+  "location": "Andover, MA, USA    ",
+  "url": "https://careers.skyworksinc.com/job/BAW-Design-WinterSpring-Co-Op-%28Jan-June-&apos;27%29/78509-en_US",
+  "posted": "2026-09-24",
+  "deadline": "",
+  "term": "spring",
+  "rank": "A",
+  "hw": "maybe",
+  "tier": "big",
+  "sources": [
+   "successfactors"
+  ],
+  "first_seen": "2026-09-24",
+  "last_seen": "2026-09-24"
+ },
+ {
+  "company": "Skyworks",
+  "title": "BAW Design Winter/Spring Co-Op (Jun-Dec '27)",
+  "location": "Andover, MA, USA    ",
+  "url": "https://careers.skyworksinc.com/job/BAW-Design-WinterSpring-Co-Op-%28Jun-Dec-&apos;27%29/78510-en_US",
+  "posted": "2026-09-24",
+  "deadline": "",
+  "term": "spring",
+  "rank": "A",
+  "hw": "maybe",
+  "tier": "big",
+  "sources": [
+   "successfactors"
+  ],
+  "first_seen": "2026-09-24",
+  "last_seen": "2026-09-24"
+ },
+ {
+  "company": "Skyworks",
   "title": "BAW/SAW Filter Design Co-Op (Winter/Spring 2027)",
   "location": "Irvine, CA, USA    ",
   "url": "https://careers.skyworksinc.com/job/BAWSAW-Filter-Design-Co-Op-%28WinterSpring-2027%29/78160-en_US",
@@ -3796,6 +3823,23 @@
    "successfactors"
   ],
   "first_seen": "2026-09-18",
+  "last_seen": "2026-09-24"
+ },
+ {
+  "company": "Skyworks",
+  "title": "LNA RFIC Co-Op (Winter/Spring 2027)",
+  "location": "Greensboro, NC, USA    ",
+  "url": "https://careers.skyworksinc.com/job/LNA-RFIC-Co-Op-%28WinterSpring-2027%29/78302-en_US",
+  "posted": "2026-09-24",
+  "deadline": "",
+  "term": "spring",
+  "rank": "A",
+  "hw": "rfic",
+  "tier": "big",
+  "sources": [
+   "successfactors"
+  ],
+  "first_seen": "2026-09-24",
   "last_seen": "2026-09-24"
  },
  {
@@ -4507,7 +4551,6 @@
   "hw": "silicon",
   "tier": "big",
   "sources": [
-   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-09-17",
@@ -5189,8 +5232,7 @@
   "hw": "test engineer",
   "tier": "startup",
   "sources": [
-   "greenhouse",
-   "jobspy:linkedin"
+   "greenhouse"
   ],
   "first_seen": "2026-09-21",
   "last_seen": "2026-09-24"
@@ -6801,7 +6843,6 @@
   "hw": "electrical engineering",
   "tier": "big",
   "sources": [
-   "jobspy:linkedin",
    "oracle_hcm"
   ],
   "first_seen": "2026-09-18",
@@ -8190,8 +8231,6 @@
   "hw": "electronics",
   "tier": "big",
   "sources": [
-   "internlist:coop",
-   "internlist:winter-spring",
    "workday"
   ],
   "first_seen": "2026-09-18",
@@ -8293,6 +8332,23 @@
   "term": "coop-unspecified",
   "rank": "B",
   "hw": "analog",
+  "tier": "big",
+  "sources": [
+   "workday"
+  ],
+  "first_seen": "2026-09-24",
+  "last_seen": "2026-09-24"
+ },
+ {
+  "company": "Marvell",
+  "title": "Data Center Silicon Hardware Engineering Intern - BS - 2027 Co-Op",
+  "location": "2 Locations",
+  "url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Ottawa-Canada/Data-Center-Silicon-Hardware-Engineering-Intern---BS---2027-Co-Op_2604525",
+  "posted": "Posted Today",
+  "deadline": "",
+  "term": "coop-unspecified",
+  "rank": "B",
+  "hw": "hardware,silicon",
   "tier": "big",
   "sources": [
    "workday"
@@ -15226,8 +15282,7 @@
   "hw": "design verification",
   "tier": "startup",
   "sources": [
-   "ashby",
-   "jobspy:linkedin"
+   "ashby"
   ],
   "first_seen": "2026-09-22",
   "last_seen": "2026-09-24"
@@ -15244,8 +15299,7 @@
   "hw": "rtl,soc",
   "tier": "startup",
   "sources": [
-   "ashby",
-   "jobspy:linkedin"
+   "ashby"
   ],
   "first_seen": "2026-09-23",
   "last_seen": "2026-09-24"
