@@ -1,21 +1,10 @@
-# New postings — 2026-09-24
+# New postings — 2026-09-25
 
-12 new of 987 tracked. Rank A = spring/Jan 2027 explicit, B = co-op with term unstated, C = intern with no term stated.
+1 new of 988 tracked. Rank A = spring/Jan 2027 explicit, B = co-op with term unstated, C = intern with no term stated.
 
 | Rank | Term | Company | Role | Location | Posted | Link |
 |---|---|---|---|---|---|---|
-| C | unspecified | Schweitzer Engineering Laboratories | Electrical Engineering Specialist Intern | Houston, TX, USA; Plano, TX, USA; Round Rock, TX, USA | 2026-09-23 | [apply](https://simplify.jobs/jobs/click/24e504eb-e7a8-47f5-bb3c-cf210d3b5cce) |
-| B | coop-unspecified | Johnson & Johnson | Systems Test Engineering Co-op | Danvers, MA, USA | 2026-09-23 | [apply](https://simplify.jobs/jobs/click/73f3932a-8101-4847-a15a-d4828af37d25) |
-| B | coop-unspecified | Billerud | Electrical Engineering Co-Op (Quinnesec & Escanaba, MI) | Escanaba, MI | 2026-09-23 | [apply](https://www.linkedin.com/jobs/view/4461779753) |
-| A | spring | Cummins Inc. | Electronic Systems - Co-Op Positions | Columbus, IN | nan | [apply](https://www.linkedin.com/jobs/view/4470038548) |
-| B | coop-unspecified | Johnson & Johnson MedTech | Beatbox Electrical Engineering Co-op | Danvers, MA | nan | [apply](https://www.linkedin.com/jobs/view/4471687549) |
-| A | spring | Cummins Inc. | Product Engineering - Co-op Positions | Columbus, IN | nan | [apply](https://www.linkedin.com/jobs/view/4470036647) |
-| C | unspecified | Arista Networks | Hardware Intern | Nashua, NH | nan | [apply](https://www.linkedin.com/jobs/view/4470026830) |
-| A | spring | iRhythm Technologies, Inc. | System Test Engineer Co-Op Full Time Intern Jan-June 2027 | San Francisco, CA | nan | [apply](https://www.linkedin.com/jobs/view/4469787590) |
-| A | spring | iRhythm Technologies, Inc. | Electrical Test Engineering Co-op Intern January-June 2027 | San Francisco, CA | nan | [apply](https://www.linkedin.com/jobs/view/4470102145) |
-| A | spring | Cummins Inc. | Product Systems Validation - Co-Op Positions | Columbus, IN | nan | [apply](https://www.linkedin.com/jobs/view/4470041397) |
-| C | unspecified | Yank Technologies, Inc. | Electrical Engineering Intern | Brooklyn, NY | nan | [apply](https://www.linkedin.com/jobs/view/4470043081) |
-| A | spring | CMTA, Inc. | Electrical Engineer Intern/Co-op Spring 2027 (multiple locations) | Cincinnati, OH | nan | [apply](https://www.linkedin.com/jobs/view/4453129952) |
+| A | spring | Rocket Lab | Test Engineering Intern Spring 2027 | Wallops Island, VA | 2026-09-24 | [apply](https://job-boards.greenhouse.io/rocketlab/jobs/8003533003) |
 
 ## All tracked
 
@@ -213,13 +202,14 @@
 | A | spring | RTX | Stage - Hiver 2027 - Support technique / Internship - Winter 2027 - Technical support | CA-QC-SAINT HUBERT-H05 ~ 7007 Chemin De La Savane ~ BLDG H05 | Posted Today | [apply](https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/CA-QC-SAINT-HUBERT-H05--7007-Chemin-De-La-Savane--BLDG-H05-FACTORY/Stage---Hiver-2027---Support-technique---Internship---Winter-2027---Technical-support_01876876) |
 | A | spring | RTX | Systems Engineering Coop - Spring/Summer- Onsite | US-ND-JAMESTOWN-P1 ~ 2604 Highway 20 N ~ PLANT 1 | Posted 7 Days Ago | [apply](https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-ND-JAMESTOWN-P1--2604-Highway-20-N--PLANT-1/Systems-Engineering-Coop---Spring-Summer--Onsite_01873304) |
 | A | spring | Rocket Lab | Fluid Systems Intern Spring 2027 | Long Beach, CA | 2026-09-09 | [apply](https://job-boards.greenhouse.io/rocketlab/jobs/7986788003) |
-| A | spring | Rocket Lab | Manufacturing Engineering Intern Spring 2027 | Long Beach, CA | 2026-09-16 | [apply](https://job-boards.greenhouse.io/rocketlab/jobs/7984943003) |
 | A | spring | Rocket Lab | Manufacturing Engineering Intern Spring 2027 | Middle River, MD | 2026-09-16 | [apply](https://job-boards.greenhouse.io/rocketlab/jobs/7987020003) |
 | A | spring | Rocket Lab | Manufacturing Engineering Intern Spring 2027 | Wallops Island, VA | 2026-09-17 | [apply](https://job-boards.greenhouse.io/rocketlab/jobs/7996617003) |
+| A | spring | Rocket Lab | Manufacturing Engineering Intern Spring 2027 | Long Beach, CA | 2026-09-16 | [apply](https://job-boards.greenhouse.io/rocketlab/jobs/7984943003) |
 | A | spring | Rocket Lab | Propulsion Design Intern Spring 2027 | Long Beach, CA | 2026-09-11 | [apply](https://job-boards.greenhouse.io/rocketlab/jobs/7987110003) |
 | A | spring | Rocket Lab | R&D Engineering Intern Spring 2027 | Albuquerque, NM | 2026-09-17 | [apply](https://job-boards.greenhouse.io/rocketlab/jobs/7996578003) |
 | A | spring | Rocket Lab | Systems Engineering Intern Spring 2027 | Long Beach, CA | 2026-09-09 | [apply](https://job-boards.greenhouse.io/rocketlab/jobs/7987044003) |
 | A | spring | Rocket Lab | Test Engineering Intern - Manufacturing Spring 2027 | Long Beach, CA | 2026-09-17 | [apply](https://job-boards.greenhouse.io/rocketlab/jobs/7987042003) |
+| A | spring | Rocket Lab | Test Engineering Intern Spring 2027 | Wallops Island, VA | 2026-09-24 | [apply](https://job-boards.greenhouse.io/rocketlab/jobs/8003533003) |
 | A | spring | Rocket Lab | Test Engineering Intern Spring 2027 | Stennis Space Center, MS | 2026-09-17 | [apply](https://job-boards.greenhouse.io/rocketlab/jobs/7990352003) |
 | A | spring | Rocket Lab | Thermal Engineering Intern Spring 2027 | Long Beach, CA | 2026-09-21 | [apply](https://job-boards.greenhouse.io/rocketlab/jobs/8000951003) |
 | A | spring | SK hynix memory solutions America Inc. | ECC Design Engineering Intern | San Jose, CA | 2026-09-23 | [apply](https://www.linkedin.com/jobs/view/4462086110) |
