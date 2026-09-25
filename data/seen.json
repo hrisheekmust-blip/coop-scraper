@@ -635,8 +635,8 @@
 },
 "https://www.indeed.com/viewjob": {
 "first_seen": "2026-09-18",
-"title": "2027 Spring/Summer Co-Op - Electrical Maintenance",
-"company": "Alcon",
+"title": "Electrical Engineering for Manufacturing Co-op (Spring/Summer 2027)",
+"company": "Collins Aerospace",
 "desc": ""
 },
 "https://www.linkedin.com/jobs/view/4468697840": {
@@ -7936,6 +7936,102 @@
 "first_seen": "2026-09-25",
 "title": "LNA RFIC Co-Op (Winter/Spring 2027)",
 "company": "Skyworks Solutions, Inc.",
+"desc": ""
+},
+"https://globalfoundries.wd1.myworkdayjobs.com/External/job/SGP---Woodlands/Facility-Engineering--Automation-Intern--Jan-Jun-2027-_JR-2604650": {
+"first_seen": "2026-09-25",
+"title": "Facility Engineering, Automation Intern (Jan-Jun 2027)",
+"company": "GlobalFoundries",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/b47d2af4-c720-48b8-9f69-d59fd6bf74d9": {
+"first_seen": "2026-09-25",
+"title": "Electrical Engineer Co-op",
+"company": "SSOE Group",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/aea50023-bfc4-4203-a4d7-f3decbe8ebd6": {
+"first_seen": "2026-09-25",
+"title": "Electrical Engineering Co-op",
+"company": "Saab",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/331f5d80-cad0-4a99-ad69-80d48aa9b75c": {
+"first_seen": "2026-09-25",
+"title": "Electrical Engineering Co-op",
+"company": "Sonos",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/82994ed5-47e3-4963-b81f-9a255b7d9dd0": {
+"first_seen": "2026-09-25",
+"title": "Machine Design and Controls Engineer Co-op",
+"company": "Greenheck Group",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/c9792cfd-c5b4-4224-b707-ce3b840830f4": {
+"first_seen": "2026-09-25",
+"title": "Electrical Engineer Co-op Intern",
+"company": "iRhythm Technologies",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/372c09c6-bbc3-463c-a9a3-b0026a9ec3c3": {
+"first_seen": "2026-09-25",
+"title": "Electrical Engineering Intern",
+"company": "General Dynamics Mission Systems",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/47ab5c65-0421-4e8d-b3b1-e69e947c141b": {
+"first_seen": "2026-09-25",
+"title": "Semiconductor Advanced Packaging Process Engineering Intern",
+"company": "Keysight Technologies",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/22abac0f-72db-4d52-9db2-7c66356d9182": {
+"first_seen": "2026-09-25",
+"title": "Hardware Engineering Intern",
+"company": "Arista Networks",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/1329d695-f070-43e6-a06f-a7be2fbb1234": {
+"first_seen": "2026-09-25",
+"title": "Product Engineering Co-op",
+"company": "Cummins",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/093b3e9b-8675-431c-9224-fa45823cc47d": {
+"first_seen": "2026-09-25",
+"title": "Product Systems Validation Co-op",
+"company": "Cummins",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/b0ca533d-bf6d-4246-a226-fc28e29e91bb": {
+"first_seen": "2026-09-25",
+"title": "Electrical Design Intern",
+"company": "Bowman Consulting Group",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/0fa89824-36d3-4a9b-a0a9-6b9dcb2d9522": {
+"first_seen": "2026-09-25",
+"title": "Electrical Design Intern",
+"company": "Bowman Consulting Group",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/2db508b9-8c94-4578-af5c-2e9050a1fc01": {
+"first_seen": "2026-09-25",
+"title": "Hardware Platform Development Intern",
+"company": "Graphcore",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/0c3e33aa-b7f2-43c5-905a-19d5decedeeb": {
+"first_seen": "2026-09-25",
+"title": "Firmware Engineering Intern",
+"company": "Graphcore",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4470023832": {
+"first_seen": "2026-09-25",
+"title": "RF Validation Intern (Winter 2027)",
+"company": "Astranis Space Technologies",
 "desc": ""
 }
 }
