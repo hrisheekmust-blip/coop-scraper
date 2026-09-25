@@ -635,8 +635,8 @@
 },
 "https://www.indeed.com/viewjob": {
 "first_seen": "2026-09-18",
-"title": "Electrical Engineering Intern (Spring 2027 Co-op) - Transmission & Distribution, Substation (Akron/Columbus)",
-"company": "Burns & McDonnell",
+"title": "2027 Spring/Summer Co-Op - Electrical Maintenance",
+"company": "Alcon",
 "desc": ""
 },
 "https://www.linkedin.com/jobs/view/4468697840": {
@@ -7930,6 +7930,12 @@
 "first_seen": "2026-09-25",
 "title": "Test Engineering Intern Spring 2027",
 "company": "Rocket Lab",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4471806989": {
+"first_seen": "2026-09-25",
+"title": "LNA RFIC Co-Op (Winter/Spring 2027)",
+"company": "Skyworks Solutions, Inc.",
 "desc": ""
 }
 }
