@@ -1,17 +1,8 @@
 # New postings — 2026-09-25
 
-8 new of 979 tracked. Rank A = spring/Jan 2027 explicit, B = co-op with term unstated, C = intern with no term stated.
+0 new of 978 tracked. Rank A = spring/Jan 2027 explicit, B = co-op with term unstated, C = intern with no term stated.
 
-| Rank | Term | Company | Role | Location | Posted | Link |
-|---|---|---|---|---|---|---|
-| A | spring | Skyworks Solutions, Inc. | Analog IC Design Co-op (Summer/Fall 2027) | Irvine, CA | nan | [apply](https://www.linkedin.com/jobs/view/4472055845) |
-| B | coop-unspecified | Franklin Electric | Fall 2027 Electrical/Software Engineering Co-op | Fort Wayne, IN | nan | [apply](https://www.linkedin.com/jobs/view/4472009479) |
-| C | unspecified | Qorvo, Inc. | Electrical Design Engineering Intern | Richardson, TX | nan | [apply](https://www.linkedin.com/jobs/view/4472059572) |
-| C | unspecified | Veranex | Electrical Engineer Intern | Minneapolis, MN | nan | [apply](https://www.linkedin.com/jobs/view/4472069713) |
-| A | spring | Skyworks Solutions, Inc. | Analog IC Design Co-Op (Winter/Spring 2027) | Cedar Rapids, IA | nan | [apply](https://www.linkedin.com/jobs/view/4472059653) |
-| A | spring | CesiumAstro | Summer 2027 – Test Engineering Internship |  | nan | [apply](https://www.linkedin.com/jobs/view/4472058660) |
-| B | coop-unspecified | Arconic | Co-Op: Electrical Engineer (UT - Knoxville or Tennessee Tech) | Alcoa, TN | nan | [apply](https://www.linkedin.com/jobs/view/4472058096) |
-| C | unspecified | Veranex | Electrical Engineer Intern 2027 | Providence, RI | nan | [apply](https://www.linkedin.com/jobs/view/4472077367) |
+_nothing new today_
 
 ## All tracked
 
@@ -27,32 +18,32 @@
 | A | spring | Anduril | Winter 2027 Systems Engineer Co-op | Quincy, Massachusetts, United States | 2026-09-24 | [apply](https://boards.greenhouse.io/andurilindustries/jobs/5236599007?gh_jid=5236599007) |
 | A | spring | Anduril | Winter 2027 Test & Evaluation Engineer Co-op | Costa Mesa, California, United States | 2026-09-24 | [apply](https://boards.greenhouse.io/andurilindustries/jobs/5236583007?gh_jid=5236583007) |
 | A | spring | Anduril | Winter 2027 Warhead Engineer Co-op | Costa Mesa, California, United States | 2026-09-24 | [apply](https://boards.greenhouse.io/andurilindustries/jobs/5236585007?gh_jid=5236585007) |
-| A | spring | Astranis | Antenna Intern (Winter 2027) | San Francisco | 2026-09-23 | [apply](https://job-boards.greenhouse.io/astranis/jobs/4704284006) |
-| A | spring | Astranis | Assembly, Integration, and Test Intern (Winter 2027) | San Francisco | 2026-09-21 | [apply](https://job-boards.greenhouse.io/astranis/jobs/4704759006) |
-| A | spring | Astranis | Avionics Intern (Winter 2027) | San Francisco | 2026-09-22 | [apply](https://job-boards.greenhouse.io/astranis/jobs/4706025006) |
-| A | spring | Astranis | CAD Engineer Intern (Spring 2027) | San Francisco | 2026-09-16 | [apply](https://job-boards.greenhouse.io/astranis/jobs/4704740006) |
-| A | spring | Astranis | CAD Engineer Intern (Winter 2027) | San Francisco | 2026-09-16 | [apply](https://job-boards.greenhouse.io/astranis/jobs/4704748006) |
-| A | spring | Astranis | Electrical Integration Intern - RF (Summer 2027) | San Francisco | 2026-09-24 | [apply](https://job-boards.greenhouse.io/astranis/jobs/4715788006) |
-| A | spring | Astranis | Electrical Reliability Intern (Winter 2027) | San Francisco | 2026-09-22 | [apply](https://job-boards.greenhouse.io/astranis/jobs/4704782006) |
-| A | spring | Astranis | Environmental Test Engineer Intern (Winter 2027) | San Francisco | 2026-09-18 | [apply](https://job-boards.greenhouse.io/astranis/jobs/4705652006) |
-| A | spring | Astranis | FPGA Intern (Winter 2027) | San Francisco | 2026-09-23 | [apply](https://job-boards.greenhouse.io/astranis/jobs/4704803006) |
-| A | spring | Astranis | Flight Software Intern (Winter 2027) | San Francisco | 2026-09-22 | [apply](https://job-boards.greenhouse.io/astranis/jobs/4704595006) |
-| A | spring | Astranis | Hardware Test Intern (Winter 2027) | San Francisco | 2026-09-22 | [apply](https://job-boards.greenhouse.io/astranis/jobs/4707012006) |
-| A | spring | Astranis | Harness Design Engineer Intern (Winter 2027) | San Francisco | 2026-09-24 | [apply](https://job-boards.greenhouse.io/astranis/jobs/4704778006) |
-| A | spring | Astranis | Mechanical Engineer Intern (Spring 2027) | San Francisco | 2026-08-31 | [apply](https://job-boards.greenhouse.io/astranis/jobs/4704602006) |
-| A | spring | Astranis | Mechanical Engineer Intern (Winter 2027) | San Francisco | 2026-08-31 | [apply](https://job-boards.greenhouse.io/astranis/jobs/4704600006) |
-| A | spring | Astranis | Network Planning Sales Engineer Intern (Winter 2027) | San Francisco, California | 2026-09-18 | [apply](https://job-boards.greenhouse.io/astranis/jobs/4704276006) |
-| A | spring | Astranis | Power Electronics Intern (Winter 2027) | San Francisco | 2026-09-23 | [apply](https://job-boards.greenhouse.io/astranis/jobs/4706427006) |
-| A | spring | Astranis | Production Quality Intern (Winter 2027) | San Francisco | 2026-09-18 | [apply](https://job-boards.greenhouse.io/astranis/jobs/4705677006) |
-| A | spring | Astranis | Propulsion Engineer Intern (Winter 2027) | San Francisco | 2026-09-23 | [apply](https://job-boards.greenhouse.io/astranis/jobs/4713183006) |
-| A | spring | Astranis | Propulsion Manufacturing Intern (Winter 2027) | San Francisco | 2026-09-18 | [apply](https://job-boards.greenhouse.io/astranis/jobs/4705649006) |
-| A | spring | Astranis | RF Validation Intern (Winter 2027) | San Francisco | 2026-09-24 | [apply](https://job-boards.greenhouse.io/astranis/jobs/4716184006) |
-| A | spring | Astranis | Reliability Test Intern (Winter 2027) | San Francisco | 2026-09-22 | [apply](https://job-boards.greenhouse.io/astranis/jobs/4705626006) |
-| A | spring | Astranis | Software Defined Radio Hardware Intern (Winter 2027) | San Francisco | 2026-09-23 | [apply](https://job-boards.greenhouse.io/astranis/jobs/4716087006) |
-| A | spring | Astranis | Software Developer, Network Software Intern (Winter 2027) | San Francisco | 2026-09-24 | [apply](https://job-boards.greenhouse.io/astranis/jobs/4705599006) |
-| A | spring | Astranis | Supplier Quality Engineer Intern (Winter 2027) | San Francisco | 2026-09-24 | [apply](https://job-boards.greenhouse.io/astranis/jobs/4715989006) |
-| A | spring | Astranis | Technical Project Management Intern (Winter 2027) | San Francisco | 2026-09-23 | [apply](https://job-boards.greenhouse.io/astranis/jobs/4708364006) |
-| A | spring | Astranis | Thermal Intern (Winter 2027) | San Francisco | 2026-09-24 | [apply](https://job-boards.greenhouse.io/astranis/jobs/4704818006) |
+| A | spring | Astranis | Antenna Intern (Winter 2027) | San Francisco | 2026-09-25 | [apply](https://job-boards.greenhouse.io/astranis/jobs/4704284006) |
+| A | spring | Astranis | Assembly, Integration, and Test Intern (Winter 2027) | San Francisco | 2026-09-25 | [apply](https://job-boards.greenhouse.io/astranis/jobs/4704759006) |
+| A | spring | Astranis | Avionics Intern (Winter 2027) | San Francisco | 2026-09-25 | [apply](https://job-boards.greenhouse.io/astranis/jobs/4706025006) |
+| A | spring | Astranis | CAD Engineer Intern (Spring 2027) | San Francisco | 2026-09-25 | [apply](https://job-boards.greenhouse.io/astranis/jobs/4704740006) |
+| A | spring | Astranis | CAD Engineer Intern (Winter 2027) | San Francisco | 2026-09-25 | [apply](https://job-boards.greenhouse.io/astranis/jobs/4704748006) |
+| A | spring | Astranis | Electrical Integration Intern - RF (Summer 2027) | San Francisco | 2026-09-25 | [apply](https://job-boards.greenhouse.io/astranis/jobs/4715788006) |
+| A | spring | Astranis | Electrical Reliability Intern (Winter 2027) | San Francisco | 2026-09-25 | [apply](https://job-boards.greenhouse.io/astranis/jobs/4704782006) |
+| A | spring | Astranis | Environmental Test Engineer Intern (Winter 2027) | San Francisco | 2026-09-25 | [apply](https://job-boards.greenhouse.io/astranis/jobs/4705652006) |
+| A | spring | Astranis | FPGA Intern (Winter 2027) | San Francisco | 2026-09-25 | [apply](https://job-boards.greenhouse.io/astranis/jobs/4704803006) |
+| A | spring | Astranis | Flight Software Intern (Winter 2027) | San Francisco | 2026-09-25 | [apply](https://job-boards.greenhouse.io/astranis/jobs/4704595006) |
+| A | spring | Astranis | Hardware Test Intern (Winter 2027) | San Francisco | 2026-09-25 | [apply](https://job-boards.greenhouse.io/astranis/jobs/4707012006) |
+| A | spring | Astranis | Harness Design Engineer Intern (Winter 2027) | San Francisco | 2026-09-25 | [apply](https://job-boards.greenhouse.io/astranis/jobs/4704778006) |
+| A | spring | Astranis | Mechanical Engineer Intern (Spring 2027) | San Francisco | 2026-09-25 | [apply](https://job-boards.greenhouse.io/astranis/jobs/4704602006) |
+| A | spring | Astranis | Mechanical Engineer Intern (Winter 2027) | San Francisco | 2026-09-25 | [apply](https://job-boards.greenhouse.io/astranis/jobs/4704600006) |
+| A | spring | Astranis | Network Planning Sales Engineer Intern (Winter 2027) | San Francisco, California | 2026-09-25 | [apply](https://job-boards.greenhouse.io/astranis/jobs/4704276006) |
+| A | spring | Astranis | Power Electronics Intern (Winter 2027) | San Francisco | 2026-09-25 | [apply](https://job-boards.greenhouse.io/astranis/jobs/4706427006) |
+| A | spring | Astranis | Production Quality Intern (Winter 2027) | San Francisco | 2026-09-25 | [apply](https://job-boards.greenhouse.io/astranis/jobs/4705677006) |
+| A | spring | Astranis | Propulsion Engineer Intern (Winter 2027) | San Francisco | 2026-09-25 | [apply](https://job-boards.greenhouse.io/astranis/jobs/4713183006) |
+| A | spring | Astranis | Propulsion Manufacturing Intern (Winter 2027) | San Francisco | 2026-09-25 | [apply](https://job-boards.greenhouse.io/astranis/jobs/4705649006) |
+| A | spring | Astranis | RF Validation Intern (Winter 2027) | San Francisco | 2026-09-25 | [apply](https://job-boards.greenhouse.io/astranis/jobs/4716184006) |
+| A | spring | Astranis | Reliability Test Intern (Winter 2027) | San Francisco | 2026-09-25 | [apply](https://job-boards.greenhouse.io/astranis/jobs/4705626006) |
+| A | spring | Astranis | Software Defined Radio Hardware Intern (Winter 2027) | San Francisco | 2026-09-25 | [apply](https://job-boards.greenhouse.io/astranis/jobs/4716087006) |
+| A | spring | Astranis | Software Developer, Network Software Intern (Winter 2027) | San Francisco | 2026-09-25 | [apply](https://job-boards.greenhouse.io/astranis/jobs/4705599006) |
+| A | spring | Astranis | Supplier Quality Engineer Intern (Winter 2027) | San Francisco | 2026-09-25 | [apply](https://job-boards.greenhouse.io/astranis/jobs/4715989006) |
+| A | spring | Astranis | Technical Project Management Intern (Winter 2027) | San Francisco | 2026-09-25 | [apply](https://job-boards.greenhouse.io/astranis/jobs/4708364006) |
+| A | spring | Astranis | Thermal Intern (Winter 2027) | San Francisco | 2026-09-25 | [apply](https://job-boards.greenhouse.io/astranis/jobs/4704818006) |
 | A | spring | Astranis Space Technologies | FPGA Intern (Winter 2027) |  | 2026-09-24 | [apply](https://www.linkedin.com/jobs/view/4471179719) |
 | A | spring | Astranis Space Technologies | RF Validation Intern (Winter 2027) |  | nan | [apply](https://www.linkedin.com/jobs/view/4470023832) |
 | A | spring | Astranis Space Technologies | Software Defined Radio Hardware Intern (Winter 2027) |  | 2026-09-24 | [apply](https://www.linkedin.com/jobs/view/4471168972) |
@@ -219,7 +210,7 @@
 | A | spring | SSOE Group | Electrical Engineer Co-op | Toledo, OH, USA | 2026-09-23 | [apply](https://simplify.jobs/jobs/click/b47d2af4-c720-48b8-9f69-d59fd6bf74d9) |
 | A | spring | SSOE Group | Electrical Engineering Co-Op - Spring 2027 | Toledo, OH | 2026-09-23 | [apply](https://www.linkedin.com/jobs/view/4471129390) |
 | A | spring | Samsara | Electrical Engineer Co-op | San Francisco, CA, USA | 2026-08-31 | [apply](https://simplify.jobs/jobs/click/1fd9f3fb-b5dd-4e12-9bf7-6d3ff988d2c3) |
-| A | spring | Samsara | Electrical Engineering Co-Op | San Francisco - SF9 | 2026-09-24 | [apply](https://www.samsara.com/company/careers/roles/8163118?gh_jid=8163118) |
+| A | spring | Samsara | Electrical Engineering Co-Op | San Francisco - SF9 | 2026-09-25 | [apply](https://www.samsara.com/company/careers/roles/8163118?gh_jid=8163118) |
 | A | spring | Schaeffler | Co-op Electrical Engineering - Winter 2027 | Troy, MI | 2026-09-24 | [apply](https://www.linkedin.com/jobs/view/4452619694) |
 | A | spring | Schneider Electric | Electronics Hardware Engineer Co-Op | Cedar Rapids, IA | 2026-09-24 | [apply](https://www.linkedin.com/jobs/view/4471409093) |
 | A | spring | Shield AI | Electrical Engineering Spring Co-op (January 2027) (R4475) | Dallas, Texas | 1776259349 | [apply](https://jobs.lever.co/shieldai/87d982f2-8b2b-4c73-9a19-71e461c7b724) |
@@ -236,7 +227,6 @@
 | A | spring | Skyworks | BAW Design Winter/Spring Co-Op (Jan-June '27) | Andover, MA, USA     | 2026-09-24 | [apply](https://careers.skyworksinc.com/job/BAW-Design-WinterSpring-Co-Op-%28Jan-June-&apos;27%29/78509-en_US) |
 | A | spring | Skyworks | BAW Design Winter/Spring Co-Op (Jun-Dec '27) | Andover, MA, USA     | 2026-09-24 | [apply](https://careers.skyworksinc.com/job/BAW-Design-WinterSpring-Co-Op-%28Jun-Dec-&apos;27%29/78510-en_US) |
 | A | spring | Skyworks | BAW/SAW Filter Design Co-Op (Winter/Spring 2027) | Irvine, CA, USA     | 2026-08-25 | [apply](https://careers.skyworksinc.com/job/BAWSAW-Filter-Design-Co-Op-%28WinterSpring-2027%29/78160-en_US) |
-| A | spring | Skyworks | Characterization Engineering Co-Op (Winter/Spring 2027) | Irvine, CA, USA     | 2026-08-18 | [apply](https://careers.skyworksinc.com/job/Characterization-Engineering-Co-Op-%28WinterSpring-2027%29/78240-en_US) |
 | A | spring | Skyworks | Characterization Engineering Winter/Spring Co-Op (Jan-Jun '27) | Newbury Park, CA, USA     | 2026-09-08 | [apply](https://careers.skyworksinc.com/job/Characterization-Engineering-WinterSpring-Co-Op-%28Jan-Jun-&apos;27%29/78360-en_US) |
 | A | spring | Skyworks | Compound semiconductor TCAD (GaAs and GaN) Engineering Winter/Spring Co-op (Jan-June '27) | Newbury Park, CA, USA     | 2026-08-28 | [apply](https://careers.skyworksinc.com/job/Compound-semiconductor-TCAD-%28GaAs-and-GaN%29-Engineering-WinterSpring-Co-op-%28Jan-June-&apos;27%29/78286-en_US) |
 | A | spring | Skyworks | Data Engineering Winter/Spring Co-Op (Jan-June '27) | Irvine, CA, USA     | 2026-08-28 | [apply](https://careers.skyworksinc.com/job/Data-Engineering-WinterSpring-Co-Op-%28Jan-June-&apos;27%29/78284-en_US) |
@@ -541,7 +531,7 @@
 | B | coop-unspecified | Re:Build Manufacturing | Automation & Controls Engineer Co-op Intern | Rochester, NY, USA; Rush, NY, USA | 2026-09-21 | [apply](https://simplify.jobs/jobs/click/c2029e8e-7c86-4722-9b70-7c6018e85e47) |
 | B | coop-unspecified | Rehlko | Electrical Engineer Co-op | Sheboygan, WI, USA | 2026-09-16 | [apply](https://simplify.jobs/jobs/click/be56f081-e771-48ce-91c0-2dbe016ccb1f) |
 | B | coop-unspecified | Saab | Electrical Engineering Co-op | East Syracuse, NY, USA | 2026-09-23 | [apply](https://simplify.jobs/jobs/click/aea50023-bfc4-4203-a4d7-f3decbe8ebd6) |
-| B | coop-unspecified | Samsara | Firmware Engineer Co-Op | San Francisco - SF9 | 2026-09-24 | [apply](https://www.samsara.com/company/careers/roles/8226602?gh_jid=8226602) |
+| B | coop-unspecified | Samsara | Firmware Engineer Co-Op | San Francisco - SF9 | 2026-09-25 | [apply](https://www.samsara.com/company/careers/roles/8226602?gh_jid=8226602) |
 | B | coop-unspecified | Sanofi | mRNA Drug Substance Process Characterization Data Analytics and Visualization Co-op | Waltham, MA, USA | 2026-09-21 | [apply](https://simplify.jobs/jobs/click/f3b98ad2-775f-49d5-9a53-90a4dd71ee7b) |
 | B | coop-unspecified | Schaeffler | Co-op Electrical Engineering - Fall 2027 | Troy, MI | 2026-09-24 | [apply](https://www.linkedin.com/jobs/view/4452611940) |
 | B | coop-unspecified | Shield AI | Electrical Engineer Co-op | Dallas, TX, USA | 2026-09-01 | [apply](https://simplify.jobs/jobs/click/eb8f9769-0acf-47c3-bbb7-5f60c04f0239) |

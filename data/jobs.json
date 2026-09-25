@@ -79,7 +79,6 @@
   "hw": "electrical engineer",
   "tier": "big",
   "sources": [
-   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-09-17",
@@ -175,7 +174,7 @@
   "title": "Antenna Intern (Winter 2027)",
   "location": "San Francisco",
   "url": "https://job-boards.greenhouse.io/astranis/jobs/4704284006",
-  "posted": "2026-09-23",
+  "posted": "2026-09-25",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -192,7 +191,7 @@
   "title": "Assembly, Integration, and Test Intern (Winter 2027)",
   "location": "San Francisco",
   "url": "https://job-boards.greenhouse.io/astranis/jobs/4704759006",
-  "posted": "2026-09-21",
+  "posted": "2026-09-25",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -209,7 +208,7 @@
   "title": "Avionics Intern (Winter 2027)",
   "location": "San Francisco",
   "url": "https://job-boards.greenhouse.io/astranis/jobs/4706025006",
-  "posted": "2026-09-22",
+  "posted": "2026-09-25",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -226,7 +225,7 @@
   "title": "CAD Engineer Intern (Spring 2027)",
   "location": "San Francisco",
   "url": "https://job-boards.greenhouse.io/astranis/jobs/4704740006",
-  "posted": "2026-09-16",
+  "posted": "2026-09-25",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -243,7 +242,7 @@
   "title": "CAD Engineer Intern (Winter 2027)",
   "location": "San Francisco",
   "url": "https://job-boards.greenhouse.io/astranis/jobs/4704748006",
-  "posted": "2026-09-16",
+  "posted": "2026-09-25",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -260,7 +259,7 @@
   "title": "Electrical Integration Intern - RF (Summer 2027)",
   "location": "San Francisco",
   "url": "https://job-boards.greenhouse.io/astranis/jobs/4715788006",
-  "posted": "2026-09-24",
+  "posted": "2026-09-25",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -277,7 +276,7 @@
   "title": "Electrical Reliability Intern (Winter 2027)",
   "location": "San Francisco",
   "url": "https://job-boards.greenhouse.io/astranis/jobs/4704782006",
-  "posted": "2026-09-22",
+  "posted": "2026-09-25",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -294,7 +293,7 @@
   "title": "Environmental Test Engineer Intern (Winter 2027)",
   "location": "San Francisco",
   "url": "https://job-boards.greenhouse.io/astranis/jobs/4705652006",
-  "posted": "2026-09-18",
+  "posted": "2026-09-25",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -311,15 +310,14 @@
   "title": "FPGA Intern (Winter 2027)",
   "location": "San Francisco",
   "url": "https://job-boards.greenhouse.io/astranis/jobs/4704803006",
-  "posted": "2026-09-23",
+  "posted": "2026-09-25",
   "deadline": "",
   "term": "spring",
   "rank": "A",
   "hw": "fpga",
   "tier": "startup",
   "sources": [
-   "greenhouse",
-   "jobspy:indeed"
+   "greenhouse"
   ],
   "first_seen": "2026-09-24",
   "last_seen": "2026-09-25"
@@ -329,7 +327,7 @@
   "title": "Flight Software Intern (Winter 2027)",
   "location": "San Francisco",
   "url": "https://job-boards.greenhouse.io/astranis/jobs/4704595006",
-  "posted": "2026-09-22",
+  "posted": "2026-09-25",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -346,7 +344,7 @@
   "title": "Hardware Test Intern (Winter 2027)",
   "location": "San Francisco",
   "url": "https://job-boards.greenhouse.io/astranis/jobs/4707012006",
-  "posted": "2026-09-22",
+  "posted": "2026-09-25",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -363,7 +361,7 @@
   "title": "Harness Design Engineer Intern (Winter 2027)",
   "location": "San Francisco",
   "url": "https://job-boards.greenhouse.io/astranis/jobs/4704778006",
-  "posted": "2026-09-24",
+  "posted": "2026-09-25",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -380,7 +378,7 @@
   "title": "Mechanical Engineer Intern (Spring 2027)",
   "location": "San Francisco",
   "url": "https://job-boards.greenhouse.io/astranis/jobs/4704602006",
-  "posted": "2026-08-31",
+  "posted": "2026-09-25",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -397,7 +395,7 @@
   "title": "Mechanical Engineer Intern (Winter 2027)",
   "location": "San Francisco",
   "url": "https://job-boards.greenhouse.io/astranis/jobs/4704600006",
-  "posted": "2026-08-31",
+  "posted": "2026-09-25",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -414,7 +412,7 @@
   "title": "Network Planning Sales Engineer Intern (Winter 2027)",
   "location": "San Francisco, California",
   "url": "https://job-boards.greenhouse.io/astranis/jobs/4704276006",
-  "posted": "2026-09-18",
+  "posted": "2026-09-25",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -431,7 +429,7 @@
   "title": "Power Electronics Intern (Winter 2027)",
   "location": "San Francisco",
   "url": "https://job-boards.greenhouse.io/astranis/jobs/4706427006",
-  "posted": "2026-09-23",
+  "posted": "2026-09-25",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -448,7 +446,7 @@
   "title": "Production Quality Intern (Winter 2027)",
   "location": "San Francisco",
   "url": "https://job-boards.greenhouse.io/astranis/jobs/4705677006",
-  "posted": "2026-09-18",
+  "posted": "2026-09-25",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -465,7 +463,7 @@
   "title": "Propulsion Engineer Intern (Winter 2027)",
   "location": "San Francisco",
   "url": "https://job-boards.greenhouse.io/astranis/jobs/4713183006",
-  "posted": "2026-09-23",
+  "posted": "2026-09-25",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -482,7 +480,7 @@
   "title": "Propulsion Manufacturing Intern (Winter 2027)",
   "location": "San Francisco",
   "url": "https://job-boards.greenhouse.io/astranis/jobs/4705649006",
-  "posted": "2026-09-18",
+  "posted": "2026-09-25",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -499,7 +497,7 @@
   "title": "RF Validation Intern (Winter 2027)",
   "location": "San Francisco",
   "url": "https://job-boards.greenhouse.io/astranis/jobs/4716184006",
-  "posted": "2026-09-24",
+  "posted": "2026-09-25",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -516,7 +514,7 @@
   "title": "Reliability Test Intern (Winter 2027)",
   "location": "San Francisco",
   "url": "https://job-boards.greenhouse.io/astranis/jobs/4705626006",
-  "posted": "2026-09-22",
+  "posted": "2026-09-25",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -533,15 +531,14 @@
   "title": "Software Defined Radio Hardware Intern (Winter 2027)",
   "location": "San Francisco",
   "url": "https://job-boards.greenhouse.io/astranis/jobs/4716087006",
-  "posted": "2026-09-23",
+  "posted": "2026-09-25",
   "deadline": "",
   "term": "spring",
   "rank": "A",
   "hw": "hardware",
   "tier": "startup",
   "sources": [
-   "greenhouse",
-   "jobspy:indeed"
+   "greenhouse"
   ],
   "first_seen": "2026-09-24",
   "last_seen": "2026-09-25"
@@ -551,7 +548,7 @@
   "title": "Software Developer, Network Software Intern (Winter 2027)",
   "location": "San Francisco",
   "url": "https://job-boards.greenhouse.io/astranis/jobs/4705599006",
-  "posted": "2026-09-24",
+  "posted": "2026-09-25",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -568,7 +565,7 @@
   "title": "Supplier Quality Engineer Intern (Winter 2027)",
   "location": "San Francisco",
   "url": "https://job-boards.greenhouse.io/astranis/jobs/4715989006",
-  "posted": "2026-09-24",
+  "posted": "2026-09-25",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -585,7 +582,7 @@
   "title": "Technical Project Management Intern (Winter 2027)",
   "location": "San Francisco",
   "url": "https://job-boards.greenhouse.io/astranis/jobs/4708364006",
-  "posted": "2026-09-23",
+  "posted": "2026-09-25",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -602,7 +599,7 @@
   "title": "Thermal Intern (Winter 2027)",
   "location": "San Francisco",
   "url": "https://job-boards.greenhouse.io/astranis/jobs/4704818006",
-  "posted": "2026-09-24",
+  "posted": "2026-09-25",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -1034,7 +1031,6 @@
   "hw": "electrical engineering",
   "tier": "big",
   "sources": [
-   "jobspy:indeed",
    "workday"
   ],
   "first_seen": "2026-09-22",
@@ -1375,7 +1371,6 @@
   "hw": "electrical engineer",
   "tier": "big",
   "sources": [
-   "internlist:coop",
    "workday"
   ],
   "first_seen": "2026-09-18",
@@ -1410,7 +1405,6 @@
   "hw": "metrology",
   "tier": "big",
   "sources": [
-   "internlist:coop",
    "workday"
   ],
   "first_seen": "2026-09-18",
@@ -1445,7 +1439,6 @@
   "hw": "product engineering",
   "tier": "big",
   "sources": [
-   "internlist:coop",
    "workday"
   ],
   "first_seen": "2026-09-18",
@@ -3446,7 +3439,7 @@
   "title": "Electrical Engineering Co-Op",
   "location": "San Francisco - SF9",
   "url": "https://www.samsara.com/company/careers/roles/8163118?gh_jid=8163118",
-  "posted": "2026-09-24",
+  "posted": "2026-09-25",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -3723,23 +3716,6 @@
   "term": "spring",
   "rank": "A",
   "hw": "maybe",
-  "tier": "big",
-  "sources": [
-   "successfactors"
-  ],
-  "first_seen": "2026-09-18",
-  "last_seen": "2026-09-25"
- },
- {
-  "company": "Skyworks",
-  "title": "Characterization Engineering Co-Op (Winter/Spring 2027)",
-  "location": "Irvine, CA, USA    ",
-  "url": "https://careers.skyworksinc.com/job/Characterization-Engineering-Co-Op-%28WinterSpring-2027%29/78240-en_US",
-  "posted": "2026-08-18",
-  "deadline": "",
-  "term": "spring",
-  "rank": "A",
-  "hw": "characterization",
   "tier": "big",
   "sources": [
    "successfactors"
@@ -4610,7 +4586,6 @@
   "hw": "silicon",
   "tier": "big",
   "sources": [
-   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-09-17",
@@ -8394,8 +8369,6 @@
   "hw": "electronics",
   "tier": "big",
   "sources": [
-   "internlist:coop",
-   "internlist:winter-spring",
    "workday"
   ],
   "first_seen": "2026-09-18",
@@ -8957,15 +8930,14 @@
   "title": "Firmware Engineer Co-Op",
   "location": "San Francisco - SF9",
   "url": "https://www.samsara.com/company/careers/roles/8226602?gh_jid=8226602",
-  "posted": "2026-09-24",
+  "posted": "2026-09-25",
   "deadline": "",
   "term": "coop-unspecified",
   "rank": "B",
   "hw": "firmware",
   "tier": "big",
   "sources": [
-   "greenhouse",
-   "jobspy:linkedin"
+   "greenhouse"
   ],
   "first_seen": "2026-09-24",
   "last_seen": "2026-09-25"
@@ -13353,8 +13325,7 @@
   "hw": "packaging engineer,silicon",
   "tier": "startup",
   "sources": [
-   "greenhouse",
-   "jobspy:linkedin"
+   "greenhouse"
   ],
   "first_seen": "2026-09-17",
   "last_seen": "2026-09-25"
@@ -15227,8 +15198,7 @@
   "hw": "design verification",
   "tier": "startup",
   "sources": [
-   "ashby",
-   "jobspy:linkedin"
+   "ashby"
   ],
   "first_seen": "2026-09-22",
   "last_seen": "2026-09-25"
@@ -15245,8 +15215,7 @@
   "hw": "rtl,soc",
   "tier": "startup",
   "sources": [
-   "ashby",
-   "jobspy:linkedin"
+   "ashby"
   ],
   "first_seen": "2026-09-23",
   "last_seen": "2026-09-25"
@@ -16504,8 +16473,7 @@
   "hw": "electrical engineering",
   "tier": "startup",
   "sources": [
-   "greenhouse",
-   "jobspy:linkedin"
+   "greenhouse"
   ],
   "first_seen": "2026-09-17",
   "last_seen": "2026-09-25"
