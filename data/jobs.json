@@ -79,7 +79,6 @@
   "hw": "electrical engineer",
   "tier": "big",
   "sources": [
-   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-09-17",
@@ -318,8 +317,7 @@
   "hw": "fpga",
   "tier": "startup",
   "sources": [
-   "greenhouse",
-   "jobspy:indeed"
+   "greenhouse"
   ],
   "first_seen": "2026-09-24",
   "last_seen": "2026-09-25"
@@ -540,8 +538,7 @@
   "hw": "hardware",
   "tier": "startup",
   "sources": [
-   "greenhouse",
-   "jobspy:indeed"
+   "greenhouse"
   ],
   "first_seen": "2026-09-24",
   "last_seen": "2026-09-25"
@@ -1034,7 +1031,6 @@
   "hw": "electrical engineering",
   "tier": "big",
   "sources": [
-   "jobspy:indeed",
    "workday"
   ],
   "first_seen": "2026-09-22",
@@ -1409,7 +1405,6 @@
   "hw": "electrical engineer",
   "tier": "big",
   "sources": [
-   "internlist:coop",
    "workday"
   ],
   "first_seen": "2026-09-18",
@@ -1444,7 +1439,6 @@
   "hw": "metrology",
   "tier": "big",
   "sources": [
-   "internlist:coop",
    "workday"
   ],
   "first_seen": "2026-09-18",
@@ -1479,7 +1473,6 @@
   "hw": "product engineering",
   "tier": "big",
   "sources": [
-   "internlist:coop",
    "workday"
   ],
   "first_seen": "2026-09-18",
@@ -1872,23 +1865,6 @@
   "tier": "big",
   "sources": [
    "greenhouse"
-  ],
-  "first_seen": "2026-09-18",
-  "last_seen": "2026-09-25"
- },
- {
-  "company": "GE Aerospace",
-  "title": "Embedded Systems Engineer Co-op (Bohemia, NY) \u2013 Spring 2027",
-  "location": "Bohemia",
-  "url": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Bohemia/Embedded-Systems-Engineer-Co-op--Bohemia--NY----Spring-2027_R5035583-1",
-  "posted": "Posted 30+ Days Ago",
-  "deadline": "",
-  "term": "spring",
-  "rank": "A",
-  "hw": "embedded",
-  "tier": "big",
-  "sources": [
-   "workday"
   ],
   "first_seen": "2026-09-18",
   "last_seen": "2026-09-25"
@@ -3020,7 +2996,7 @@
   "company": "RTX",
   "title": "Factory Enablement Digital Engineer (Spring/Summer Co-op)",
   "location": "US-IA-CEDAR RAPIDS-105 ~ 400 Collins Rd NE ~ BLDG 105",
-  "url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-IA-CEDAR-RAPIDS-105--400-Collins-Rd-NE--BLDG-105/Factory-Enablement-Digital-Engineer--Spring-Summer-Co-op-_01876473",
+  "url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-IA-CEDAR-RAPIDS-105--400-Collins-Rd-NE--BLDG-105/Factory-Enablement-Digital-Engineer--Spring-Summer-Co-op-_01876474",
   "posted": "Posted 2 Days Ago",
   "deadline": "",
   "term": "spring",
@@ -3030,7 +3006,7 @@
   "sources": [
    "workday"
   ],
-  "first_seen": "2026-09-23",
+  "first_seen": "2026-09-25",
   "last_seen": "2026-09-25"
  },
  {
@@ -3700,8 +3676,8 @@
   "company": "Skyworks",
   "title": "Analog IC Design Co-Op (Winter/Spring 2027)",
   "location": "Cedar Rapids, IA, USA    ",
-  "url": "https://careers.skyworksinc.com/job/Analog-IC-Design-Co-Op-%28WinterSpring-2027%29/78191-en_US",
-  "posted": "2026-08-14",
+  "url": "https://careers.skyworksinc.com/job/Analog-IC-Design-Co-Op-%28WinterSpring-2027%29/78487-en_US",
+  "posted": "2026-09-25",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -3710,7 +3686,7 @@
   "sources": [
    "successfactors"
   ],
-  "first_seen": "2026-09-18",
+  "first_seen": "2026-09-25",
   "last_seen": "2026-09-25"
  },
  {
@@ -4644,7 +4620,6 @@
   "hw": "silicon",
   "tier": "big",
   "sources": [
-   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-09-17",
@@ -5023,6 +4998,23 @@
    "smartrecruiters"
   ],
   "first_seen": "2026-09-18",
+  "last_seen": "2026-09-25"
+ },
+ {
+  "company": "Wabtec",
+  "title": "Transducer Manufacturing Engineering Co-Op (January-June 2027)",
+  "location": "Waltham, MA, United States",
+  "url": "https://jobs.smartrecruiters.com/wabtec/3743990015687756",
+  "posted": "2026-09-25",
+  "deadline": "",
+  "term": "spring",
+  "rank": "A",
+  "hw": "maybe",
+  "tier": "big",
+  "sources": [
+   "smartrecruiters"
+  ],
+  "first_seen": "2026-09-25",
   "last_seen": "2026-09-25"
  },
  {
@@ -5754,6 +5746,23 @@
    "jobspy:linkedin"
   ],
   "first_seen": "2026-09-24",
+  "last_seen": "2026-09-25"
+ },
+ {
+  "company": "onsemi",
+  "title": "Spring 2027 - Validation Engineering Intern",
+  "location": "Nampa, ID, United States",
+  "url": "https://hctz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2506611",
+  "posted": "2026-09-25",
+  "deadline": "",
+  "term": "spring",
+  "rank": "A",
+  "hw": "validation",
+  "tier": "big",
+  "sources": [
+   "oracle_hcm"
+  ],
+  "first_seen": "2026-09-25",
   "last_seen": "2026-09-25"
  },
  {
@@ -7288,6 +7297,23 @@
  },
  {
   "company": "Entegris",
+  "title": "Controls Engineering Co-Op",
+  "location": "Austin, TX",
+  "url": "https://entegris.wd1.myworkdayjobs.com/EntegrisCareers/job/Austin-TX/Controls-Engineering-Co-Op_REQ-14460",
+  "posted": "Posted 15 Days Ago",
+  "deadline": "",
+  "term": "coop-unspecified",
+  "rank": "B",
+  "hw": "maybe",
+  "tier": "big",
+  "sources": [
+   "workday"
+  ],
+  "first_seen": "2026-09-25",
+  "last_seen": "2026-09-25"
+ },
+ {
+  "company": "Entegris",
   "title": "Cybersecurity Engineer Co-Op",
   "location": "Chaska, MN",
   "url": "https://entegris.wd1.myworkdayjobs.com/EntegrisCareers/job/Chaska-MN/Cybersecurity-Engineer-Co-Op_REQ-14472-1",
@@ -8360,8 +8386,6 @@
   "hw": "electronics",
   "tier": "big",
   "sources": [
-   "internlist:coop",
-   "internlist:winter-spring",
    "workday"
   ],
   "first_seen": "2026-09-18",
@@ -8930,8 +8954,7 @@
   "hw": "firmware",
   "tier": "big",
   "sources": [
-   "greenhouse",
-   "jobspy:linkedin"
+   "greenhouse"
   ],
   "first_seen": "2026-09-24",
   "last_seen": "2026-09-25"
@@ -14196,6 +14219,23 @@
  },
  {
   "company": "Moog",
+  "title": "Intern, Electrical Engineering",
+  "location": "Buffalo, NY",
+  "url": "https://moog.wd5.myworkdayjobs.com/MOOG_External_Career_Site/job/Buffalo-NY/Intern--Electrical-Engineering_R-26-20268",
+  "posted": "Posted Today",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "electrical engineering",
+  "tier": "big",
+  "sources": [
+   "workday"
+  ],
+  "first_seen": "2026-09-25",
+  "last_seen": "2026-09-25"
+ },
+ {
+  "company": "Moog",
   "title": "Intern, Electronic Engineering",
   "location": "Vilnius, LT",
   "url": "https://moog.wd5.myworkdayjobs.com/MOOG_External_Career_Site/job/Vilnius-LT/Intern--Electronic-Engineering_R-26-18636",
@@ -14966,7 +15006,7 @@
   "title": "Intern, Optical Packaging and Characterization Engineer",
   "location": "Milpitas, California, United States",
   "url": "https://www.psiquantum.com/apply?gh_jid=7761881003",
-  "posted": "2026-09-15",
+  "posted": "2026-09-25",
   "deadline": "",
   "term": "unspecified",
   "rank": "C",
@@ -15247,8 +15287,7 @@
   "hw": "design verification",
   "tier": "startup",
   "sources": [
-   "ashby",
-   "jobspy:linkedin"
+   "ashby"
   ],
   "first_seen": "2026-09-22",
   "last_seen": "2026-09-25"
@@ -15265,8 +15304,7 @@
   "hw": "rtl,soc",
   "tier": "startup",
   "sources": [
-   "ashby",
-   "jobspy:linkedin"
+   "ashby"
   ],
   "first_seen": "2026-09-23",
   "last_seen": "2026-09-25"
@@ -15405,23 +15443,6 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-09-22",
-  "last_seen": "2026-09-25"
- },
- {
-  "company": "RTX",
-  "title": "Power and Analog Electronic Engineer Intern (Onsite)",
-  "location": "US-AZ-TUCSON-M02 ~ 1151 E Hermans Rd ~ BLDG M02",
-  "url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-AZ-TUCSON-M02--1151-E-Hermans-Rd--BLDG-M02/Power-and-Analog-Electronic-Engineer-Intern--Onsite-_01875689",
-  "posted": "Posted 4 Days Ago",
-  "deadline": "",
-  "term": "unspecified",
-  "rank": "C",
-  "hw": "analog,electronic",
-  "tier": "big",
-  "sources": [
-   "workday"
-  ],
-  "first_seen": "2026-09-21",
   "last_seen": "2026-09-25"
  },
  {
@@ -16534,7 +16555,7 @@
   "title": "Emerging Talent - Electrical Engineering Internship",
   "location": "Long Beach, California, United States",
   "url": "https://boards.greenhouse.io/vast/jobs/4711401006?gh_jid=4711401006",
-  "posted": "2026-09-24",
+  "posted": "2026-09-25",
   "deadline": "",
   "term": "unspecified",
   "rank": "C",
@@ -16551,7 +16572,7 @@
   "title": "Emerging Talent - Manufacturing Engineering Internship",
   "location": "Long Beach, California, United States",
   "url": "https://boards.greenhouse.io/vast/jobs/4711403006?gh_jid=4711403006",
-  "posted": "2026-09-24",
+  "posted": "2026-09-25",
   "deadline": "",
   "term": "unspecified",
   "rank": "C",
@@ -16568,7 +16589,7 @@
   "title": "Emerging Talent - Mechanical/Aerospace Engineering Internship",
   "location": "Long Beach, California, United States",
   "url": "https://boards.greenhouse.io/vast/jobs/4711400006?gh_jid=4711400006",
-  "posted": "2026-09-24",
+  "posted": "2026-09-25",
   "deadline": "",
   "term": "unspecified",
   "rank": "C",
@@ -16585,7 +16606,7 @@
   "title": "University Recruiter II",
   "location": "Long Beach, California, United States",
   "url": "https://boards.greenhouse.io/vast/jobs/4693801006?gh_jid=4693801006",
-  "posted": "2026-09-24",
+  "posted": "2026-09-25",
   "deadline": "",
   "term": "unspecified",
   "rank": "C",
