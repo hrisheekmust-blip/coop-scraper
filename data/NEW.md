@@ -1,23 +1,10 @@
 # New postings — 2026-09-26
 
-14 new of 961 tracked. Rank A = spring/Jan 2027 explicit, B = co-op with term unstated, C = intern with no term stated.
+1 new of 968 tracked. Rank A = spring/Jan 2027 explicit, B = co-op with term unstated, C = intern with no term stated.
 
 | Rank | Term | Company | Role | Location | Posted | Link |
 |---|---|---|---|---|---|---|
-| B | coop-unspecified | MLC | Electrical Engineering Co-Op | Ste. Genevieve, MO | 2026-09-25 | [apply](https://www.linkedin.com/jobs/view/4459046489) |
-| A | spring | Burns & McDonnell | Electrical Engineering Intern (Spring 2027 Co-op) - Transmission & Distribution, Substation (Akron/Columbus) | Akron, OH | 2026-09-24 | [apply](https://www.linkedin.com/jobs/view/4470039279) |
-| B | coop-unspecified | Siemens | Electrical Engineering Co-op (North Carolina State University) | Wendell, NC | nan | [apply](https://www.linkedin.com/jobs/view/4462355513) |
-| A | spring | Winchester Ammunition | Winchester Electrical Engineer Co-Op - Spring 2027 | Independence, MO | nan | [apply](https://www.linkedin.com/jobs/view/4462310542) |
-| A | spring | Winchester Ammunition | Winchester Electrical Engineer 6-Month Co-Op - 2027 | East Alton, IL | nan | [apply](https://www.linkedin.com/jobs/view/4462310541) |
-| B | coop-unspecified | CNH | Electrical and Electronics System Integration Engineer Co-Op | Fargo, ND | 2026-09-24 | [apply](https://www.linkedin.com/jobs/view/4462171793) |
-| C | unspecified | MediaTek | 2026 Intern-RF/Analog/Mixed-Signal and Wireless Communication | West Lafayette, IN | nan | [apply](https://www.linkedin.com/jobs/view/4405137889) |
-| B | coop-unspecified | CNH | Product Validation Engineering Co-op 1 | Fargo, ND | nan | [apply](https://www.linkedin.com/jobs/view/4463615620) |
-| B | coop-unspecified | MLC | Reliability Engineering Co-Op | Ste. Genevieve, MO | 2026-09-25 | [apply](https://www.linkedin.com/jobs/view/4459046508) |
-| A | spring | Siemens Digital Industries Software | Strategic Student Program: Electronics Reliability Product Engineering Internship (Spring 2027, SIM STS) | Maryland Heights, MO | 2026-09-25 | [apply](https://www.linkedin.com/jobs/view/4463178821) |
-| C | unspecified | Infineon Technologies | Internship - Embedded Systems Engineer | San Jose, CA | nan | [apply](https://www.linkedin.com/jobs/view/4455113198) |
-| A | spring | Delta Air Lines | Intern, Research and Development Hardware Design Engineer (Spring 2027) | Atlanta, GA | nan | [apply](https://www.linkedin.com/jobs/view/4453701960) |
-| C | unspecified | Micron Technology | Intern - DRAM Design Rules | Boise, ID | nan | [apply](https://www.linkedin.com/jobs/view/4461968466) |
-| A | spring | BioSpace | 2027 Spring Co-op mRNA Drug Substance Process Characterization Data Analytics and Visualization, | Waltham, MA | 2026-09-25 | [apply](https://www.linkedin.com/jobs/view/4471854034) |
+| C | unspecified | Marvell | Analog Design Intern | Santa Clara, CA | Posted Today | [apply](https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Santa-Clara-CA/Analog-Design-Intern_2604084) |
 
 ## All tracked
 
@@ -613,9 +600,15 @@
 | C | unspecified | American Electric Power | Electrical Designer Intern | Tulsa, OK, USA | 2026-09-17 | [apply](https://simplify.jobs/jobs/click/da7c7d2b-bced-4608-a3d5-26a4e2609c29) |
 | C | unspecified | American Electric Power | Electrical Designer Intern | Roanoke, VA, USA | 2026-09-17 | [apply](https://simplify.jobs/jobs/click/d172263f-650c-4fda-ae5e-2aab971efffd) |
 | C | unspecified | Amperesand | Power Electronics Control Intern | San Francisco, CA, USA; Reno, NV, USA | 2026-09-20 | [apply](https://simplify.jobs/jobs/click/3e0d2987-a9a7-46ce-acbb-8daf3671d826) |
+| C | unspecified | Analog Devices | Analog Design Engineer Intern | 3 Locations | Posted 10 Days Ago | [apply](https://analogdevices.wd1.myworkdayjobs.com/External/job/US-MA-Wilmington/Analog-Design-Engineer-Intern_R265297) |
 | C | unspecified | Analog Devices | Analog Design Engineer Intern | San Jose, CA, USA; Wilmington, MA, USA; Durham, NC, USA | 2026-08-21 | [apply](https://simplify.jobs/jobs/click/7b4326db-4150-48f3-a6af-a5492b8a0b2a) |
+| C | unspecified | Analog Devices | Analog Devices Thailand’s Internship Program | Thailand, Chon Buri | Posted 30+ Days Ago | [apply](https://analogdevices.wd1.myworkdayjobs.com/External/job/Thailand-Chon-Buri/Analog-Devices-Thailand-s-Internship-Program_R258682) |
+| C | unspecified | Analog Devices | Digital Design Engineer Intern | 2 Locations | Posted 30+ Days Ago | [apply](https://analogdevices.wd1.myworkdayjobs.com/External/job/US-NC-Durham/Digital-Design-Engineer-Intern_R265298) |
+| C | unspecified | Analog Devices | Mixed Signal Engineer Intern | 2 Locations | Posted 30+ Days Ago | [apply](https://analogdevices.wd1.myworkdayjobs.com/External/job/US-MA-Wilmington/Mixed-Signal-Engineer-Intern_R265299) |
+| C | unspecified | Analog Devices | Product Engineer (Product Development) Intern | 3 Locations | Posted 10 Days Ago | [apply](https://analogdevices.wd1.myworkdayjobs.com/External/job/US-MA-Wilmington/Product-Engineer--Product-Development--Intern_R265302) |
 | C | unspecified | Analog Devices | Product Engineer Intern | San Jose, CA, USA; Wilmington, MA, USA; Durham, NC, USA | 2026-08-24 | [apply](https://simplify.jobs/jobs/click/13cc39f8-a256-4d21-866f-4cf8cb77d4ef) |
 | C | unspecified | Analog Devices | Test Engineer Intern | Wilmington, MA, USA; Durham, NC, USA | 2026-09-16 | [apply](https://simplify.jobs/jobs/click/83127520-9aed-4eb4-a7c5-63d711f65e1f) |
+| C | unspecified | Analog Devices | Test Engineering Intern | 2 Locations | Posted 10 Days Ago | [apply](https://analogdevices.wd1.myworkdayjobs.com/External/job/US-NC-Durham/Test-Engineering-Intern_R266146) |
 | C | unspecified | Andersen Corporation | Electrical Engineer Intern | Bayport, MN, USA | 2026-09-01 | [apply](https://simplify.jobs/jobs/click/51ee080a-10b9-434f-9b5e-9d1f3d08198a) |
 | C | unspecified | Anduril | 2027 Electrical Engineer Intern | Atlanta, Georgia, United States; Boston, Massachusetts, Unit | 2026-09-24 | [apply](https://boards.greenhouse.io/andurilindustries/jobs/5148101007?gh_jid=5148101007) |
 | C | unspecified | Antares Nuclear | Controls Engineer Intern | Los Angeles, CA, USA | 2026-09-01 | [apply](https://simplify.jobs/jobs/click/94448746-9131-4cb6-a894-369699f32189) |
@@ -804,6 +797,7 @@
 | C | unspecified | MSA | Electrical Engineer Intern | Kiel, WI, USA | 2026-09-03 | [apply](https://simplify.jobs/jobs/click/2c763b19-ac0d-4d58-8ecd-4ebd895ee7df) |
 | C | unspecified | Magna | Validation Engineer Intern | Auburn Hills, MI, USA | 2026-09-18 | [apply](https://simplify.jobs/jobs/click/f9425a33-0fd0-4dcb-8403-642a08c2e836) |
 | C | unspecified | Marvell | Advanced Packaging & Physical Integration Intern | Austin, TX, USA; Irvine, CA, USA; Santa Clara, CA, USA | 2026-09-10 | [apply](https://simplify.jobs/jobs/click/c19ad514-a4fd-4e47-a2ae-ab57347804ad) |
+| C | unspecified | Marvell | Analog Design Intern | Santa Clara, CA | Posted Today | [apply](https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Santa-Clara-CA/Analog-Design-Intern_2604084) |
 | C | unspecified | Marvell | Analog Design Intern | Cordoba, Argentina | Posted 30+ Days Ago | [apply](https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Cordoba-Argentina/Analog-Design-Intern_2602163) |
 | C | unspecified | Marvell | Analog Design Intern | Irvine, CA, USA; Santa Clara, CA, USA; Westlake Village, CA, | 2026-09-04 | [apply](https://simplify.jobs/jobs/click/ce92705c-8ef8-41b9-b977-84b925ad7137) |
 | C | unspecified | Marvell | Analog Modeling & Testing Engineer Intern | Cordoba, Argentina | Posted 30+ Days Ago | [apply](https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Cordoba-Argentina/Analog-Modeling---Testing-Engineer-Intern_2602068) |
