@@ -1,18 +1,8 @@
 # New postings — 2026-09-26
 
-9 new of 977 tracked. Rank A = spring/Jan 2027 explicit, B = co-op with term unstated, C = intern with no term stated.
+0 new of 976 tracked. Rank A = spring/Jan 2027 explicit, B = co-op with term unstated, C = intern with no term stated.
 
-| Rank | Term | Company | Role | Location | Posted | Link |
-|---|---|---|---|---|---|---|
-| B | coop-unspecified | RTX | Electrical Engineer Co-op | Bellevue, IA, USA | 2026-09-24 | [apply](https://simplify.jobs/jobs/click/97a261e1-91ed-4f11-a318-fb084b806f2d) |
-| B | coop-unspecified | Franklin Electric | Electrical/Software Engineering Co-op | Fort Wayne, IN, USA | 2026-09-23 | [apply](https://simplify.jobs/jobs/click/c5576e71-b9ba-4492-93b4-070f56b4f76f) |
-| C | unspecified | Qorvo | Electrical Design Engineer Intern | Richardson, TX, USA | 2026-09-25 | [apply](https://simplify.jobs/jobs/click/9c4ef67f-3b4e-4b21-ad86-71ccdeca4645) |
-| C | unspecified | Kimley-Horn | Electrical Engineer Intern | Portland, OR, USA | 2026-09-25 | [apply](https://simplify.jobs/jobs/click/1247d4d6-cee8-4c63-8a05-1da1ce2a5a3e) |
-| C | unspecified | Comfort Systems USA | Process Engineer Intern | Houston, TX, USA | 2026-09-25 | [apply](https://simplify.jobs/jobs/click/77e63e41-25a0-41bd-9dec-dcf1d55fd87c) |
-| B | coop-unspecified | Reynolds Consumer Products | Co-op Electrical Engineer | Louisville, KY | 2026-09-24 | [apply](https://www.linkedin.com/jobs/view/4461662552) |
-| C | unspecified | Johns Hopkins Applied Physics Laboratory | 2027 Internship – Algorithm, Software, or RF Systems Engineering | Laurel, MD | nan | [apply](https://www.linkedin.com/jobs/view/4470528998) |
-| C | unspecified | Skyworks Solutions, Inc. | Intern | Austin, TX | nan | [apply](https://www.linkedin.com/jobs/view/4472224434) |
-| A | spring | CMTA, Inc. | Electrical Engineer Intern/Co-op Spring 2027 (multiple locations) | Lexington, KY | nan | [apply](https://www.linkedin.com/jobs/view/4453128965) |
+_nothing new today_
 
 ## All tracked
 
@@ -943,7 +933,6 @@
 | C | unspecified | Seagate | Metrology maintenance engineering intern | Nakhon Ratchasima, THA,  | 2026-08-26 | [apply](https://seagatecareers.com/job/Metrology-maintenance-engineering-intern/14919-en_US) |
 | C | unspecified | Seagate | Product Engineering Intern | Nakhon Ratchasima, THA,  | 2026-07-20 | [apply](https://seagatecareers.com/job/Product-Engineering-Intern/14645-en_US) |
 | C | unspecified | Seagate | Recording Head Test Engineering Intern | Samut Prakan, THA,  | 2026-08-19 | [apply](https://seagatecareers.com/job/Recording-Head-Test-Engineering-Intern/14901-en_US) |
-| C | unspecified | Seagate | Research Intern, Electronics Design Engineering | Shugart, SGP,  | 2026-08-17 | [apply](https://seagatecareers.com/job/Research-Intern%2C-Electronics-Design-Engineering/14852-en_US) |
 | C | unspecified | Seagate | Test Process & Engineer Firmware Intern | Nakhon Ratchasima, THA,  | 2026-06-15 | [apply](https://seagatecareers.com/job/Test-Process-&amp;-Engineer-Firmware-Intern/14439-en_US) |
 | C | unspecified | Semtech | Analog Design Engineer Intern | CAN - Burlington, ON | Posted 2 Days Ago | [apply](https://semtech.wd1.myworkdayjobs.com/SemtechCareers/job/CAN---Burlington-ON/Analog-Design-Engineer-Intern_REQ3622) |
 | C | unspecified | Semtech | Analog Design Engineer Intern | CAN - Calgary, AB | Posted 2 Days Ago | [apply](https://semtech.wd1.myworkdayjobs.com/SemtechCareers/job/CAN---Calgary-AB/Analog-Design-Engineer-Intern_REQ3623) |
