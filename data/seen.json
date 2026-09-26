@@ -635,8 +635,8 @@
 },
 "https://www.indeed.com/viewjob": {
 "first_seen": "2026-09-18",
-"title": "Electrical Engineering for Manufacturing Co-op (Spring/Summer 2027)",
-"company": "Collins Aerospace",
+"title": "Analog IC Design Co-Op (Winter/Spring 2027)",
+"company": "Skyworks Solutions",
 "desc": ""
 },
 "https://www.linkedin.com/jobs/view/4468697840": {
@@ -8248,6 +8248,60 @@
 "first_seen": "2026-09-26",
 "title": "Electrical Integration Intern - Avionics (Winter 2027)",
 "company": "Astranis",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/97a261e1-91ed-4f11-a318-fb084b806f2d": {
+"first_seen": "2026-09-26",
+"title": "Electrical Engineer Co-op",
+"company": "RTX",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/c5576e71-b9ba-4492-93b4-070f56b4f76f": {
+"first_seen": "2026-09-26",
+"title": "Electrical/Software Engineering Co-op",
+"company": "Franklin Electric",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/9c4ef67f-3b4e-4b21-ad86-71ccdeca4645": {
+"first_seen": "2026-09-26",
+"title": "Electrical Design Engineer Intern",
+"company": "Qorvo",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/1247d4d6-cee8-4c63-8a05-1da1ce2a5a3e": {
+"first_seen": "2026-09-26",
+"title": "Electrical Engineer Intern",
+"company": "Kimley-Horn",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/77e63e41-25a0-41bd-9dec-dcf1d55fd87c": {
+"first_seen": "2026-09-26",
+"title": "Process Engineer Intern",
+"company": "Comfort Systems USA",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4461662552": {
+"first_seen": "2026-09-26",
+"title": "Co-op Electrical Engineer",
+"company": "Reynolds Consumer Products",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4470528998": {
+"first_seen": "2026-09-26",
+"title": "2027 Internship \u2013 Algorithm, Software, or RF Systems Engineering",
+"company": "Johns Hopkins Applied Physics Laboratory",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4472224434": {
+"first_seen": "2026-09-26",
+"title": "Intern",
+"company": "Skyworks Solutions, Inc.",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4453128965": {
+"first_seen": "2026-09-26",
+"title": "Electrical Engineer Intern/Co-op Spring 2027 (multiple locations)",
+"company": "CMTA, Inc.",
 "desc": ""
 }
 }
