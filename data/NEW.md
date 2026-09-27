@@ -1,8 +1,11 @@
-# New postings — 2026-09-26
+# New postings — 2026-09-27
 
-0 new of 969 tracked. Rank A = spring/Jan 2027 explicit, B = co-op with term unstated, C = intern with no term stated.
+2 new of 967 tracked. Rank A = spring/Jan 2027 explicit, B = co-op with term unstated, C = intern with no term stated.
 
-_nothing new today_
+| Rank | Term | Company | Role | Location | Posted | Link |
+|---|---|---|---|---|---|---|
+| C | unspecified | Hamilton Company | Electrical Engineering Intern | Reno, NV | 2026-09-24 | [apply](https://www.linkedin.com/jobs/view/4471629240) |
+| C | unspecified | Intel | Silicon Hardware Engineering - Intern, Graduate | Hillsboro, OR | 2026-09-24 | [apply](https://www.linkedin.com/jobs/view/4461334185) |
 
 ## All tracked
 
@@ -67,7 +70,6 @@ _nothing new today_
 | A | spring | Cummins | Product Engineering Co-op | Columbus, IN, USA | 2026-09-24 | [apply](https://simplify.jobs/jobs/click/1329d695-f070-43e6-a06f-a7be2fbb1234) |
 | A | spring | Cummins | Product Systems Validation Co-op | Columbus, IN, USA | 2026-09-24 | [apply](https://simplify.jobs/jobs/click/093b3e9b-8675-431c-9224-fa45823cc47d) |
 | A | spring | Cummins Inc. | Electronic Systems - Co-Op Positions | Columbus, IN | 2026-09-24 | [apply](https://www.linkedin.com/jobs/view/4470038548) |
-| A | spring | Cummins Inc. | Product Engineering - Co-op Positions | Columbus, IN | 2026-09-24 | [apply](https://www.linkedin.com/jobs/view/4470036647) |
 | A | spring | Cummins Inc. | Product Systems Validation - Co-Op Positions | Columbus, IN | 2026-09-24 | [apply](https://www.linkedin.com/jobs/view/4470041397) |
 | A | spring | Delta Air Lines | Intern, Research and Development Hardware Design Engineer (Spring 2027) | Atlanta, GA | nan | [apply](https://www.linkedin.com/jobs/view/4453701960) |
 | A | spring | Draper | Electrical Engineer Co-op | Cambridge, MA, USA | 2026-09-22 | [apply](https://simplify.jobs/jobs/click/8de66f0b-6d76-4ec4-9c92-6d32835beac3) |
@@ -266,7 +268,6 @@ _nothing new today_
 | A | spring | Skyworks Solutions, Inc. | Analog IC Design Co-op (Summer/Fall 2027) | Irvine, CA | 2026-09-25 | [apply](https://www.linkedin.com/jobs/view/4472055845) |
 | A | spring | Skyworks Solutions, Inc. | LNA RFIC Co-Op (Winter/Spring 2027) | Greensboro, NC | 2026-09-25 | [apply](https://www.linkedin.com/jobs/view/4471806989) |
 | A | spring | Skyworks Solutions, Inc. | PDK Development Winter/Spring Co-Op (Jan-June '27) | Austin, TX | 2026-09-24 | [apply](https://www.linkedin.com/jobs/view/4471645588) |
-| A | spring | Skyworks Solutions, Inc. | Power Amplifier Design Co-Op (Jan-June 2027) | Irvine, CA | 2026-09-24 | [apply](https://www.linkedin.com/jobs/view/4471169166) |
 | A | spring | Skyworks Solutions, Inc. | RF Front-End Engineer Summer/Fall Co-Op (June-Dec '27) | San Jose, CA | 2026-09-24 | [apply](https://www.linkedin.com/jobs/view/4471650356) |
 | A | spring | Sonos | Electrical Engineering Co-Op | Boston, MA | Posted 3 Days Ago | [apply](https://sonos.wd1.myworkdayjobs.com/Sonos/job/Boston-MA/Electrical-Engineering-Co-Op_R2824-2) |
 | A | spring | Sonos | Electrical Engineering Co-op | Boston, MA, USA | 2026-09-23 | [apply](https://simplify.jobs/jobs/click/331f5d80-cad0-4a99-ad69-80d48aa9b75c) |
@@ -713,6 +714,7 @@ _nothing new today_
 | C | unspecified | H3X Technologies | Embedded Controls Intern | Louisville, CO, USA | 2026-08-21 | [apply](https://simplify.jobs/jobs/click/bb7c0aac-5534-4988-b2eb-f17b650f5c9c) |
 | C | unspecified | H3X Technologies | Power Electronics Intern | Louisville, CO, USA | 2026-08-18 | [apply](https://simplify.jobs/jobs/click/ea5b02ef-a979-4e3e-8c9b-003ca559f92c) |
 | C | unspecified | HPR | FPGA Engineering Intern | Needham, MA | Aug 21 | [apply](https://job-boards.greenhouse.io/hyannisportresearch/jobs/7822801003) |
+| C | unspecified | Hamilton Company | Electrical Engineering Intern | Reno, NV | 2026-09-24 | [apply](https://www.linkedin.com/jobs/view/4471629240) |
 | C | unspecified | Harbinger Motors | Electrical Distribution Systems Intern | Garden Grove, CA, USA | 2026-09-15 | [apply](https://simplify.jobs/jobs/click/b6dd5446-12a3-462f-91d2-bca2341f67c2) |
 | C | unspecified | Heidelberg Materials | Electrical Engineer Intern | Mitchell, IN, USA | 2026-09-01 | [apply](https://simplify.jobs/jobs/click/0f50715b-a8dc-4f26-a0d7-aa151f0abc8b) |
 | C | unspecified | Heidelberg Materials | Electrical Engineer Intern | Fleetwood, PA, USA | 2026-08-31 | [apply](https://simplify.jobs/jobs/click/bb09f49e-866c-45f8-827f-f3a1b1c50e85) |
@@ -726,7 +728,6 @@ _nothing new today_
 | C | unspecified | Intel | Platform Hardware and Systems Engineering - Intern, Bachelor’s | 5 Locations | Posted 24 Days Ago | [apply](https://intel.wd1.myworkdayjobs.com/External/job/US-Oregon-Hillsboro/Platform-Hardware-and-Systems-Engineering---Intern--Bachelor-s_JR0286827) |
 | C | unspecified | Intel | Platform Hardware and Systems Engineering - Intern, Bachelor’s | Austin, TX | 2026-09-24 | [apply](https://www.linkedin.com/jobs/view/4461319872) |
 | C | unspecified | Intel | Platform Hardware and Systems Engineering - Intern, Bachelor’s | Santa Clara, CA | 2026-09-24 | [apply](https://www.linkedin.com/jobs/view/4461341050) |
-| C | unspecified | Intel | Platform Hardware and Systems Engineering - Intern, Bachelor’s | Hillsboro, OR | 2026-09-24 | [apply](https://www.linkedin.com/jobs/view/4461327249) |
 | C | unspecified | Intel | Platform Hardware and Systems Engineering - Intern, Graduate | 5 Locations | Posted 24 Days Ago | [apply](https://intel.wd1.myworkdayjobs.com/External/job/US-Oregon-Hillsboro/Platform-Hardware-and-Systems-Engineering---Intern--Graduate_JR0286828) |
 | C | unspecified | Intel | Platform Hardware and Systems Engineering - Intern, Graduate | Phoenix, AZ | 2026-09-24 | [apply](https://www.linkedin.com/jobs/view/4461323278) |
 | C | unspecified | Intel | Platform Hardware and Systems Engineering - Intern, Graduate | Santa Clara, CA | 2026-09-24 | [apply](https://www.linkedin.com/jobs/view/4461317981) |
@@ -739,6 +740,7 @@ _nothing new today_
 | C | unspecified | Intel | Silicon Hardware Engineering - Intern, Graduate | Santa Clara, CA | 2026-09-24 | [apply](https://www.linkedin.com/jobs/view/4461324273) |
 | C | unspecified | Intel | Silicon Hardware Engineering - Intern, Graduate | Folsom, CA | 2026-09-24 | [apply](https://www.linkedin.com/jobs/view/4461336149) |
 | C | unspecified | Intel | Silicon Hardware Engineering - Intern, Graduate | Phoenix, AZ | 2026-09-24 | [apply](https://www.linkedin.com/jobs/view/4461333200) |
+| C | unspecified | Intel | Silicon Hardware Engineering - Intern, Graduate | Hillsboro, OR | 2026-09-24 | [apply](https://www.linkedin.com/jobs/view/4461334185) |
 | C | unspecified | Interstates | Instrumentation & Electrical Intern | United States | 2026-09-08 | [apply](https://simplify.jobs/jobs/click/a6f77a50-07d3-4fba-be19-30a6c063f2cd) |
 | C | unspecified | Jane Street | Hardware Engineer (FPGA/ASIC) Intern | New York, NY | Jul 24 | [apply](https://www.janestreet.com/join-jane-street/position/8624440002/) |
 | C | unspecified | Johns Hopkins Applied Physics Laboratory | 2027 Internship – Algorithm, Software, or RF Systems Engineering | Laurel, MD | nan | [apply](https://www.linkedin.com/jobs/view/4470528998) |
@@ -974,6 +976,5 @@ _nothing new today_
 | C | unspecified | Viavi Solutions | Electrical Engineer Intern | Indianapolis, IN, USA | 2026-09-15 | [apply](https://simplify.jobs/jobs/click/efe647db-4e6b-4952-a9dd-2f6c3cddab30) |
 | C | unspecified | Viavi Solutions | Optical & Electrical Engineering Intern | Indianapolis, IN, USA | 2026-09-03 | [apply](https://simplify.jobs/jobs/click/12d65c04-d3a8-4cc7-9c55-37318c97a6c8) |
 | C | unspecified | WindBorne Systems | Embedded Electrical Engineer Intern | Palo Alto, CA, USA; Redwood City, CA, USA | 2026-08-12 | [apply](https://simplify.jobs/jobs/click/88ed3204-4d00-47e3-b41c-c62019949562) |
-| C | unspecified | Yank Technologies, Inc. | Electrical Engineering Intern | Brooklyn, NY | 2026-09-24 | [apply](https://www.linkedin.com/jobs/view/4470043081) |
 | C | unspecified | Zipline | Technical Writer Intern  | South San Francisco, California, USA | 2026-09-17 | [apply](https://www.zipline.com/open-roles/7996415003?gh_jid=7996415003) |
 | C | unspecified | Zoox | Contract Student Worker  – Firmware Engineer (FW Thermal/Body) | Foster City, CA | 1776284294 | [apply](https://jobs.lever.co/zoox/07f0834f-06ec-44c7-a24b-3efa08589d38) |
