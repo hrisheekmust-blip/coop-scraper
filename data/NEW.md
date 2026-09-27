@@ -1,14 +1,12 @@
 # New postings — 2026-09-27
 
-5 new of 936 tracked. Rank A = spring/Jan 2027 explicit, B = co-op with term unstated, C = intern with no term stated.
+3 new of 938 tracked. Rank A = spring/Jan 2027 explicit, B = co-op with term unstated, C = intern with no term stated.
 
 | Rank | Term | Company | Role | Location | Posted | Link |
 |---|---|---|---|---|---|---|
-| B | coop-unspecified | Rehlko | Electrical Engineering Spring/Fall Co-op | Sheboygan, WI | nan | [apply](https://www.linkedin.com/jobs/view/4472452691) |
-| A | spring | WSP in the U.S. | Electrical Engineering Co-op - Fall 2026/Winter 2027 | Philadelphia, PA | nan | [apply](https://www.linkedin.com/jobs/view/4416710875) |
-| A | spring | CMTA, Inc. | Electrical Engineer Intern/Co-op Spring 2027 (multiple locations) | Charlotte, NC | 2026-09-25 | [apply](https://www.linkedin.com/jobs/view/4453150003) |
-| A | spring | Etched | PD Intern | San Jose, CA | nan | [apply](https://www.linkedin.com/jobs/view/4385387732) |
-| C | unspecified | Arconic | Intern - Electrical Engineer | Alcoa, TN | 2026-09-25 | [apply](https://www.linkedin.com/jobs/view/4472059055) |
+| C | unspecified | QuEra | Internship - Quantum Applications Research | Boston, MA, USA | 2026-09-27 | [apply](https://job-boards.greenhouse.io/queracomputinginc/jobs/5435901008) |
+| C | unspecified | QuEra | Internship - Quantum Error Correction Research | Boston, MA  USA | 2026-09-27 | [apply](https://job-boards.greenhouse.io/queracomputinginc/jobs/5435899008) |
+| C | unspecified | QuEra | Internship - Scientific Software and Compilation | Boston, MA  USA | 2026-09-27 | [apply](https://job-boards.greenhouse.io/queracomputinginc/jobs/5435902008) |
 
 ## All tracked
 
@@ -422,7 +420,6 @@
 | B | coop-unspecified | Entegris | Analytical Quality Engineering Co-Op | Round Rock, TX | Posted 17 Days Ago | [apply](https://entegris.wd1.myworkdayjobs.com/EntegrisCareers/job/Round-Rock-TX/Analytical-Quality-Engineering-Co-Op_REQ-14464) |
 | B | coop-unspecified | Entegris | Application Engineering Co-Op | Billerica, MA | Posted 18 Days Ago | [apply](https://entegris.wd1.myworkdayjobs.com/EntegrisCareers/job/Billerica-MA/Application-Engineering-Co-Op_REQ-14473) |
 | B | coop-unspecified | Entegris | Capital Equipment Engineering Co-Op | Billerica, MA | Posted 18 Days Ago | [apply](https://entegris.wd1.myworkdayjobs.com/EntegrisCareers/job/Billerica-MA/Capital-Equipment-Engineering-Co-Op_REQ-14497) |
-| B | coop-unspecified | Entegris | Continuous Improvement Engineer Co-Op | Chaska, MN | Posted 17 Days Ago | [apply](https://entegris.wd1.myworkdayjobs.com/EntegrisCareers/job/Chaska-MN/Continuous-Improvement-Engineer-Co-Op_REQ-14478) |
 | B | coop-unspecified | Entegris | Continuous Improvement Engineer Co-Op | San Luis Obispo, CA | Posted 11 Days Ago | [apply](https://entegris.wd1.myworkdayjobs.com/EntegrisCareers/job/San-Luis-Obispo-CA/Continuous-Improvement-Engineer-Co-Op_REQ-14398) |
 | B | coop-unspecified | Entegris | Controls Engineering Co-Op | Austin, TX | Posted 17 Days Ago | [apply](https://entegris.wd1.myworkdayjobs.com/EntegrisCareers/job/Austin-TX/Controls-Engineering-Co-Op_REQ-14460) |
 | B | coop-unspecified | Entegris | Cybersecurity Engineer Co-Op | Chaska, MN | Posted 17 Days Ago | [apply](https://entegris.wd1.myworkdayjobs.com/EntegrisCareers/job/Chaska-MN/Cybersecurity-Engineer-Co-Op_REQ-14472-1) |
@@ -861,7 +858,10 @@
 | C | unspecified | Qorvo | Test Engineering Intern | Chelmsford, MA, USA | 2026-09-22 | [apply](https://simplify.jobs/jobs/click/97bafc91-6965-4190-9aca-eb19889919f9) |
 | C | unspecified | Qorvo | Yield Engineering Intern | Hillsboro, OR, USA | 2026-09-22 | [apply](https://simplify.jobs/jobs/click/30e16fe7-9ec9-4a33-85f4-518bf5043e93) |
 | C | unspecified | Qorvo, Inc. | Electrical Design Engineering Intern | Richardson, TX | 2026-09-25 | [apply](https://www.linkedin.com/jobs/view/4472059572) |
+| C | unspecified | QuEra | Internship - Quantum Applications Research | Boston, MA, USA | 2026-09-27 | [apply](https://job-boards.greenhouse.io/queracomputinginc/jobs/5435901008) |
+| C | unspecified | QuEra | Internship - Quantum Error Correction Research | Boston, MA  USA | 2026-09-27 | [apply](https://job-boards.greenhouse.io/queracomputinginc/jobs/5435899008) |
 | C | unspecified | QuEra | Internship - Research & Development | Boston, MA, USA | 2026-06-28 | [apply](https://job-boards.greenhouse.io/queracomputinginc/jobs/5227710008) |
+| C | unspecified | QuEra | Internship - Scientific Software and Compilation | Boston, MA  USA | 2026-09-27 | [apply](https://job-boards.greenhouse.io/queracomputinginc/jobs/5435902008) |
 | C | unspecified | QuEra | Internship Inquiries  | Boston, MA, USA | 2026-06-28 | [apply](https://job-boards.greenhouse.io/queracomputinginc/jobs/4182470008) |
 | C | unspecified | Quadric | AI Kernel Engineer Intern | Burlingame, CA (HQ) | 2026-09-23 | [apply](https://jobs.ashbyhq.com/quadric/cb79384e-5dd8-49a0-a075-549e7285316c) |
 | C | unspecified | Quadric | Data Science Intern- Model Optimization | Burlingame, CA (HQ) | 2026-09-23 | [apply](https://jobs.ashbyhq.com/quadric/6a6802ae-2a72-4cbf-b770-a4d1d8168275) |
