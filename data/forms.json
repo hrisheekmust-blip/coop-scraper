@@ -530,7 +530,7 @@
 "company": "Formlabs",
 "role": "Hardware Test Engineering Intern (Winter/Spring 2027)",
 "link": "https://careers.formlabs.com/job/8196515/apply/?gh_jid=8196515",
-"attempted": 1790536419,
+"attempted": 1790539300,
 "apply_url": "https://careers.formlabs.com/job/8196515/apply/?gh_jid=8196515",
 "portal": "greenhouse",
 "error": "ValueError: no board/job in url",
@@ -27435,7 +27435,7 @@
 "company": "Formlabs",
 "role": "Hardware R&D Engineering Intern (Winter/Spring 2027)",
 "link": "https://careers.formlabs.com/job/8172226/apply/?gh_jid=8172226",
-"attempted": 1790536419,
+"attempted": 1790539300,
 "apply_url": "https://careers.formlabs.com/job/8172226/apply/?gh_jid=8172226",
 "portal": "greenhouse",
 "error": "ValueError: no board/job in url",
@@ -27445,7 +27445,7 @@
 "company": "Formlabs",
 "role": "Hardware Systems Integration Intern (Winter/Spring 2027)",
 "link": "https://careers.formlabs.com/job/8172004/apply/?gh_jid=8172004",
-"attempted": 1790536419,
+"attempted": 1790539300,
 "apply_url": "https://careers.formlabs.com/job/8172004/apply/?gh_jid=8172004",
 "portal": "greenhouse",
 "error": "ValueError: no board/job in url",
@@ -31183,7 +31183,7 @@
 "company": "Formlabs",
 "role": "Electrical Engineering Intern (Winter/Spring 2027)",
 "link": "https://careers.formlabs.com/job/8148283/apply/?gh_jid=8148283",
-"attempted": 1790536419,
+"attempted": 1790539300,
 "apply_url": "https://careers.formlabs.com/job/8148283/apply/?gh_jid=8148283",
 "portal": "greenhouse",
 "error": "ValueError: no board/job in url",
@@ -33162,7 +33162,7 @@
 "company": "Formlabs",
 "role": "Manufacturing Engineering Intern (Winter/Spring 2027)",
 "link": "https://careers.formlabs.com/job/8161817/apply/?gh_jid=8161817",
-"attempted": 1790536419,
+"attempted": 1790539300,
 "apply_url": "https://careers.formlabs.com/job/8161817/apply/?gh_jid=8161817",
 "portal": "greenhouse",
 "error": "ValueError: no board/job in url",
@@ -33444,7 +33444,7 @@
 "company": "Formlabs",
 "role": "Industrial Design Intern (Winter/Spring 2027)",
 "link": "https://careers.formlabs.com/job/8172232/apply/?gh_jid=8172232",
-"attempted": 1790536419,
+"attempted": 1790539300,
 "apply_url": "https://careers.formlabs.com/job/8172232/apply/?gh_jid=8172232",
 "portal": "greenhouse",
 "error": "ValueError: no board/job in url",
@@ -40500,7 +40500,7 @@
 "company": "Quantinuum",
 "role": "Layout Automation Engineering Intern",
 "link": "https://simplify.jobs/jobs/click/e786530f-a166-4c4d-8e6a-a97d02405c85",
-"attempted": 1790536419,
+"attempted": 1790539300,
 "apply_url": "https://jobs.eu.lever.co/quantinuum/550a6e3c-2556-4ac3-8cc4-862cb0681dc0/apply?lever-source=Simplify",
 "portal": "lever",
 "error": "ValueError: no company/id in url",
@@ -40510,7 +40510,7 @@
 "company": "Quantinuum",
 "role": "Photonic Integrated Circuit Design Intern",
 "link": "https://simplify.jobs/jobs/click/7c5b5c68-c8bb-439a-8e46-f121d04eec2a",
-"attempted": 1790536419,
+"attempted": 1790539300,
 "apply_url": "https://jobs.eu.lever.co/quantinuum/ef4b4db2-4ce1-47f5-bfd1-12dfc8a90107/apply?lever-source=Simplify",
 "portal": "lever",
 "error": "ValueError: no company/id in url",
@@ -43667,7 +43667,7 @@
 "company": "Quantinuum",
 "role": "Electrical Engineer Intern",
 "link": "https://simplify.jobs/jobs/click/f61a7695-7297-4d3e-9f68-3ef0b85baec3",
-"attempted": 1790536419,
+"attempted": 1790539300,
 "apply_url": "https://jobs.eu.lever.co/quantinuum/672bb667-0569-44bc-a2fa-a0fcd85673fb/apply?lever-source=Simplify",
 "portal": "lever",
 "error": "ValueError: no company/id in url",
@@ -49216,7 +49216,7 @@
 "company": "Formlabs",
 "role": "Hardware R&D Engineering Intern",
 "link": "https://careers.formlabs.com/job/8097694/apply/?gh_jid=8097694&utm_source=github-vansh-ouckah",
-"attempted": 1790536419,
+"attempted": 1790539300,
 "apply_url": "https://careers.formlabs.com/job/8097694/apply/?gh_jid=8097694&utm_source=github-vansh-ouckah",
 "portal": "greenhouse",
 "error": "ValueError: no board/job in url",
@@ -51222,7 +51222,7 @@
 "company": "Akuna Capital",
 "role": "Hardware Engineer Intern",
 "link": "https://akunacapital.com/careers/job/8018880/?gh_jid=8018880&utm_source=github-vansh-ouckah",
-"attempted": 1790536419,
+"attempted": 1790539300,
 "apply_url": "https://akunacapital.com/careers/job/8018880/?gh_jid=8018880&utm_source=github-vansh-ouckah",
 "portal": "greenhouse",
 "error": "ValueError: no board/job in url",
@@ -61939,7 +61939,7 @@
 "company": "Astranis",
 "role": "Electrical Integration Intern - RF (Summer 2027)",
 "link": "https://job-boards.greenhouse.io/astranis/jobs/4715788006",
-"attempted": 1790278604,
+"attempted": 1790539300,
 "apply_url": "https://boards.greenhouse.io/astranis/jobs/4715788006",
 "portal": "greenhouse",
 "fields": [
@@ -62102,13 +62102,14 @@
 }
 ],
 "error": "",
-"fetched": "2026-09-24T19:36Z"
+"fetched": "2026-09-27T20:01Z",
+"closed": false
 },
 "0ec6302a42be978d": {
 "company": "Astranis",
 "role": "Software Developer, Network Software Intern (Winter 2027)",
 "link": "https://job-boards.greenhouse.io/astranis/jobs/4705599006",
-"attempted": 1790278604,
+"attempted": 1790539300,
 "apply_url": "https://boards.greenhouse.io/astranis/jobs/4705599006",
 "portal": "greenhouse",
 "fields": [
@@ -62274,13 +62275,14 @@
 }
 ],
 "error": "",
-"fetched": "2026-09-24T19:36Z"
+"fetched": "2026-09-27T20:01Z",
+"closed": false
 },
 "970a267b3f9b73e6": {
 "company": "Astranis",
 "role": "Supplier Quality Engineer Intern (Winter 2027)",
 "link": "https://job-boards.greenhouse.io/astranis/jobs/4715989006",
-"attempted": 1790278604,
+"attempted": 1790539300,
 "apply_url": "https://boards.greenhouse.io/astranis/jobs/4715989006",
 "portal": "greenhouse",
 "fields": [
@@ -62440,7 +62442,8 @@
 }
 ],
 "error": "",
-"fetched": "2026-09-24T19:36Z"
+"fetched": "2026-09-27T20:01Z",
+"closed": false
 },
 "308b0f89374ba1e3": {
 "company": "RTX",
@@ -62476,7 +62479,7 @@
 "company": "Samsara",
 "role": "Firmware Engineer Co-Op",
 "link": "https://www.samsara.com/company/careers/roles/8226602?gh_jid=8226602",
-"attempted": 1790278604,
+"attempted": 1790539300,
 "apply_url": "https://boards.greenhouse.io/samsara/jobs/8226602",
 "portal": "greenhouse",
 "fields": [
@@ -62755,7 +62758,8 @@
 }
 ],
 "error": "",
-"fetched": "2026-09-24T19:36Z"
+"fetched": "2026-09-27T20:01Z",
+"closed": false
 },
 "de636a4b282dee42": {
 "company": "Skyworks Solutions, Inc.",
@@ -65522,5 +65526,45 @@
 "fields": null,
 "error": "form not public for this portal",
 "li_checked": true
+},
+"c1b623adaee3c7b5": {
+"company": "CMTA, Inc.",
+"role": "Electrical Engineer Intern/Co-op Spring 2027 (multiple locations)",
+"link": "https://www.linkedin.com/jobs/view/4453150003",
+"attempted": 1790539300,
+"apply_url": "https://www.linkedin.com/jobs/view/4453150003",
+"portal": "linkedin",
+"fields": null,
+"error": "form not public for this portal"
+},
+"11fc94173b9e789d": {
+"company": "Etched",
+"role": "PD Intern",
+"link": "https://www.linkedin.com/jobs/view/4385387732",
+"attempted": 1790539300,
+"apply_url": "https://www.linkedin.com/jobs/view/4385387732",
+"portal": "linkedin",
+"fields": null,
+"error": "form not public for this portal"
+},
+"06599e39a3fa0f17": {
+"company": "Rehlko",
+"role": "Electrical Engineering Spring/Fall Co-op",
+"link": "https://www.linkedin.com/jobs/view/4472452691",
+"attempted": 1790539300,
+"apply_url": "https://www.linkedin.com/jobs/view/4472452691",
+"portal": "linkedin",
+"fields": null,
+"error": "form not public for this portal"
+},
+"095ab59eb223d65d": {
+"company": "Arconic",
+"role": "Intern - Electrical Engineer",
+"link": "https://www.linkedin.com/jobs/view/4472059055",
+"attempted": 1790539300,
+"apply_url": "https://www.linkedin.com/jobs/view/4472059055",
+"portal": "linkedin",
+"fields": null,
+"error": "form not public for this portal"
 }
 }
