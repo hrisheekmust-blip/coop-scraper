@@ -1,11 +1,8 @@
 # New postings — 2026-09-27
 
-2 new of 967 tracked. Rank A = spring/Jan 2027 explicit, B = co-op with term unstated, C = intern with no term stated.
+0 new of 967 tracked. Rank A = spring/Jan 2027 explicit, B = co-op with term unstated, C = intern with no term stated.
 
-| Rank | Term | Company | Role | Location | Posted | Link |
-|---|---|---|---|---|---|---|
-| C | unspecified | Hamilton Company | Electrical Engineering Intern | Reno, NV | 2026-09-24 | [apply](https://www.linkedin.com/jobs/view/4471629240) |
-| C | unspecified | Intel | Silicon Hardware Engineering - Intern, Graduate | Hillsboro, OR | 2026-09-24 | [apply](https://www.linkedin.com/jobs/view/4461334185) |
+_nothing new today_
 
 ## All tracked
 
