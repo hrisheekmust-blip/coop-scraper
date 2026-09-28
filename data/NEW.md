@@ -1,26 +1,21 @@
 # New postings — 2026-09-28
 
-17 new of 934 tracked. Rank A = spring/Jan 2027 explicit, B = co-op with term unstated, C = intern with no term stated.
+12 new of 947 tracked. Rank A = spring/Jan 2027 explicit, B = co-op with term unstated, C = intern with no term stated.
 
 | Rank | Term | Company | Role | Location | Posted | Link |
 |---|---|---|---|---|---|---|
-| A | spring | RTX | Co-op: Columbus Forge Disk (CFD) Systems Controls Engineer (January 2027 Start) | US-GA-MIDLAND-MPC ~ 8801/8987 Macon Rd ~ BLDG MPC | Posted Today | [apply](https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-GA-MIDLAND-MPC--88018987-Macon-Rd--BLDG-MPC/Co-op--Columbus-Forge-Disk--CFD--Systems-Controls-Engineer--January-2027-Start-_01878559) |
-| A | spring | WSP in the U.S. | Electrical Engineering Co-op - Fall 2026/Winter 2027 | Philadelphia, PA | nan | [apply](https://www.linkedin.com/jobs/view/4418027103) |
-| A | spring | Salas O'Brien | Electrical Designer Co-op - Spring 2027 | Atlanta, GA | nan | [apply](https://www.linkedin.com/jobs/view/4471373820) |
-| A | spring | Skyworks Solutions, Inc. | Characterization Engineering Summer/Fall Co-Op (June-Dec '27) | Thousand Oaks, CA | nan | [apply](https://www.linkedin.com/jobs/view/4472785432) |
-| A | spring | GE Aerospace | Systems Engineering Co-op - Electrical Engineering & Computer Engineering/Science (Electric Power) - US - Spring 2027 | Dayton, OH | nan | [apply](https://www.linkedin.com/jobs/view/4455239629) |
-| B | coop-unspecified | GE Aerospace | Systems Engineering Co-op - Electrical Engineering & Computer Engineering/Science (Electric Power) - US - Fall 2027 | Dayton, OH | nan | [apply](https://www.linkedin.com/jobs/view/4455246597) |
-| C | unspecified | Structavia Consulting Engineers | Electrical Engineering Intern | Louisville, KY | nan | [apply](https://www.linkedin.com/jobs/view/4471214004) |
-| B | coop-unspecified | GE Aerospace | Systems Engineering Co-op - Electrical Engineering & Computer Engineering/Science (Avionics) - US - Fall 2027 | Grand Rapids, MI | nan | [apply](https://www.linkedin.com/jobs/view/4455253509) |
-| B | coop-unspecified | Hargrove Engineers & Constructors | Electrical/Instrumentation Co-Op | Mobile, AL | nan | [apply](https://www.linkedin.com/jobs/view/4472725498) |
-| C | unspecified | MACOM | Design Engineer Intern | Hillsboro, OR | nan | [apply](https://www.linkedin.com/jobs/view/4472748102) |
-| C | unspecified | MACOM | RF Electrical Engineering Intern - Diode Applications - copy | Lowell, MA | nan | [apply](https://www.linkedin.com/jobs/view/4472745132) |
-| A | spring | GE Aerospace | Systems Engineering Co-op - Electrical Engineering & Computer Engineering/Science (Avionics) - US - Spring 2027 | Grand Rapids, MI | nan | [apply](https://www.linkedin.com/jobs/view/4455241571) |
-| C | unspecified | Dominion Energy | Intern - System Protection Electrical Engineer | Glen Allen, VA | 2026-09-25 | [apply](https://www.linkedin.com/jobs/view/4470667532) |
-| A | spring | Astranis Space Technologies | CAD Engineer Intern (Winter 2027) |  | 2026-09-26 | [apply](https://www.linkedin.com/jobs/view/4453901190) |
-| C | unspecified | Winnebago Industries | Electrical Engineering Intern | Clearwater, FL | nan | [apply](https://www.linkedin.com/jobs/view/4472782160) |
-| C | unspecified | Neuralink | Robot Optics Intern | San Francisco, CA | nan | [apply](https://www.linkedin.com/jobs/view/4416733277) |
-| C | unspecified | Neuralink | Robot Optics Intern | South San Francisco, CA | nan | [apply](https://www.linkedin.com/jobs/view/4416737254) |
+| C | unspecified | Texas Instruments | Digital Design Verification Engineering Intern | Santa Clara, CA, United States | 2026-09-28 | [apply](https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/25016380) |
+| B | coop-unspecified | Skyworks | Power Amplifier Design Co-Op (June-December 20270 | Irvine, CA, USA     | 2026-09-28 | [apply](https://careers.skyworksinc.com/job/Power-Amplifier-Design-Co-Op-%28June-December-20270/78466-en_US) |
+| A | spring | Skyworks | RF Technician Co-Op (Winter/Spring 2027) | Cedar Rapids, IA, USA     | 2026-09-28 | [apply](https://careers.skyworksinc.com/job/RF-Technician-Co-Op-%28WinterSpring-2027%29/78532-en_US) |
+| A | spring | Western Digital | Winter 2027 Intern/Co-op Development Engineer  | Rochester, MN, United States | 2026-09-28 | [apply](https://jobs.smartrecruiters.com/WesternDigital/744000152261929) |
+| C | unspecified | Renesas | Design Verification Intern | Duluth, GEORGIA, United States | 2026-09-28 | [apply](https://jobs.smartrecruiters.com/renesaselectronics/744000152284789) |
+| C | unspecified | Renesas | Firmware Engineering Intern | Austin, TEXAS, United States | 2026-09-28 | [apply](https://jobs.smartrecruiters.com/renesaselectronics/744000152265599) |
+| A | spring | RTX | Electrical Engineering Co-op | CA-ON-MIDLAND-450 ~ 450 Leitz Rd ~ BLDG 450 | Posted Today | [apply](https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/CA-ON-MIDLAND-450--450-Leitz-Rd--BLDG-450/Electrical-Engineering-Co-op_01878707) |
+| A | spring | RTX | Test & Validation Engineering Co-op (Spring 2027) | US-OH-UNIONTOWN-1555 ~ 1555 Corporate Woods Pkwy ~ CORP WOOD | Posted Today | [apply](https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-OH-UNIONTOWN-1555--1555-Corporate-Woods-Pkwy--CORP-WOODS/Test---Validation-Engineering-Co-op--Spring-2027-_01872857) |
+| A | spring | RTX | Co-op: Columbus Forge Disks Manufacturing Engineer (January 2027 Start) | US-GA-MIDLAND-MPC ~ 8801/8987 Macon Rd ~ BLDG MPC | Posted Today | [apply](https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-GA-MIDLAND-MPC--88018987-Macon-Rd--BLDG-MPC/Co-op--Columbus-Forge-Disks-Manufacturing-Engineer--January-2027-Start-_01878551) |
+| C | unspecified | HP | Electrical/Hardware Engineering Intern | Corvallis, Oregon, United States of America | Posted Today | [apply](https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/Corvallis-Oregon-United-States-of-America/Electrical-Hardware-Engineering-Intern_UNI4760-1) |
+| C | unspecified | General Dynamics Mission Systems | Intern Engineer - Infrastructure Hardware/Network |  |  | [apply](https://careers-gdms.icims.com/jobs/75025/intern-engineer---infrastructure-hardware-network/job) |
+| C | unspecified | General Dynamics Mission Systems | Intern Engineer - FPGA |  |  | [apply](https://careers-gdms.icims.com/jobs/75044/intern-engineer---fpga/job) |
 
 ## All tracked
 
@@ -192,6 +187,8 @@
 | A | spring | RTX | Advanced Manufacturing Engineering Co-Op (Spring/Summer 2027) | US-IA-CEDAR RAPIDS-105 ~ 400 Collins Rd NE ~ BLDG 105 | Posted 4 Days Ago | [apply](https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-IA-CEDAR-RAPIDS-105--400-Collins-Rd-NE--BLDG-105/Advanced-Manufacturing-Engineering-Co-Op--Spring-Summer-2027-_01874253) |
 | A | spring | RTX | CH-53K Systems Engineering Coop (Spring/Summer 2027) - Onsite | US-IA-CEDAR RAPIDS-182 ~ 1100 Cimmie Ave Ne ~ BLDG 182 | Posted 20 Days Ago | [apply](https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-IA-CEDAR-RAPIDS-182--1100-Cimmie-Ave-Ne--BLDG-182/CH-53K-Systems-Engineering-Coop--Spring-Summer-2027----Onsite_01872668) |
 | A | spring | RTX | Co-op: Columbus Forge Disk (CFD) Systems Controls Engineer (January 2027 Start) | US-GA-MIDLAND-MPC ~ 8801/8987 Macon Rd ~ BLDG MPC | Posted Today | [apply](https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-GA-MIDLAND-MPC--88018987-Macon-Rd--BLDG-MPC/Co-op--Columbus-Forge-Disk--CFD--Systems-Controls-Engineer--January-2027-Start-_01878559) |
+| A | spring | RTX | Co-op: Columbus Forge Disks Manufacturing Engineer (January 2027 Start) | US-GA-MIDLAND-MPC ~ 8801/8987 Macon Rd ~ BLDG MPC | Posted Today | [apply](https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-GA-MIDLAND-MPC--88018987-Macon-Rd--BLDG-MPC/Co-op--Columbus-Forge-Disks-Manufacturing-Engineer--January-2027-Start-_01878551) |
+| A | spring | RTX | Electrical Engineering Co-op | CA-ON-MIDLAND-450 ~ 450 Leitz Rd ~ BLDG 450 | Posted Today | [apply](https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/CA-ON-MIDLAND-450--450-Leitz-Rd--BLDG-450/Electrical-Engineering-Co-op_01878707) |
 | A | spring | RTX | Electrical Engineering for Manufacturing Co-op (Spring/Summer 2027) | US-IA-BELLEVUE-186 ~ 1500 State St ~ STATE | Posted 4 Days Ago | [apply](https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-IA-BELLEVUE-186--1500-State-St--STATE/Electrical-Engineering-for-Manufacturing-Co-op--Spring-Summer-2027-_01876808) |
 | A | spring | RTX | Electromagnetic Compatibility Engineering Co-Op (Spring/Summer 2027) | US-IL-ROCKFORD-P6 ~ 4747 Harrison Ave ~ 4747 HARRISON AVE-P6 | Posted Yesterday | [apply](https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-IL-ROCKFORD-P6--4747-Harrison-Ave--4747-HARRISON-AVE-P6/Electromagnetic-Compatibility-Engineering-Co-Op--Spring-Summer-2027-_01872918) |
 | A | spring | RTX | Factory Enablement Digital Engineer (Spring/Summer Co-op) | US-IA-CEDAR RAPIDS-105 ~ 400 Collins Rd NE ~ BLDG 105 | Posted 5 Days Ago | [apply](https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-IA-CEDAR-RAPIDS-105--400-Collins-Rd-NE--BLDG-105/Factory-Enablement-Digital-Engineer--Spring-Summer-Co-op-_01876473) |
@@ -205,13 +202,13 @@
 | A | spring | RTX | Pump Engineering Co-op (Spring/Summer 2027) | US-IL-ROCKFORD-P1 ~ 2421 11th St ~ 2421 11TH ST-P1 | Posted Today | [apply](https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-IL-ROCKFORD-P1--2421-11th-St--2421-11TH-ST-P1/Pump-Engineering-Co-op--Spring-Summer-2027-_01876586) |
 | A | spring | RTX | Quality Engineering Intern (Spring 2027) | US-AZ-TUCSON-801 ~ 1151 E Hermans Rd ~ BLDG 801 (External Si | Posted Today | [apply](https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-AZ-TUCSON-801--1151-E-Hermans-Rd--BLDG-801-External-Site/Quality-Engineering-Intern--Spring-2027-_01877724) |
 | A | spring | RTX | Spring/Summer  Coop - Systems Engineering - Onsite | US-MN-BURNSVILLE-WEST ~ 14300 Judicial Rd ~ WEST BLDG | Posted 6 Days Ago | [apply](https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-MN-BURNSVILLE-WEST--14300-Judicial-Rd--WEST-BLDG/Spring-Summer--Coop---Systems-Engineering---Onsite_01874528) |
-| A | spring | RTX | Stage - Hiver 2027 - Ingénierie de projet / Internship – Winter 2027 – Project Engineering | CA-QC-LONGUEUIL-J01 ~ 1000 Blvd Marie-Victorin ~ J01 BLDG | Posted 5 Days Ago | [apply](https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/CA-QC-LONGUEUIL-J01--1000-Blvd-Marie-Victorin--J01-BLDG/Stage---Hiver-2027---Ingnierie-de-projet---Internship---Winter-2027---Project-Engineering_01877428) |
 | A | spring | RTX | Stage - Hiver 2027 - Support technique / Internship - Winter 2027 - Technical support | CA-QC-SAINT HUBERT-H05 ~ 7007 Chemin De La Savane ~ BLDG H05 | Posted 4 Days Ago | [apply](https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/CA-QC-SAINT-HUBERT-H05--7007-Chemin-De-La-Savane--BLDG-H05-FACTORY/Stage---Hiver-2027---Support-technique---Internship---Winter-2027---Technical-support_01876876) |
 | A | spring | RTX | Systems Engineering Coop - Spring/Summer- Onsite | US-ND-JAMESTOWN-P1 ~ 2604 Highway 20 N ~ PLANT 1 | Posted 11 Days Ago | [apply](https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-ND-JAMESTOWN-P1--2604-Highway-20-N--PLANT-1/Systems-Engineering-Coop---Spring-Summer--Onsite_01873304) |
+| A | spring | RTX | Test & Validation Engineering Co-op (Spring 2027) | US-OH-UNIONTOWN-1555 ~ 1555 Corporate Woods Pkwy ~ CORP WOOD | Posted Today | [apply](https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-OH-UNIONTOWN-1555--1555-Corporate-Woods-Pkwy--CORP-WOODS/Test---Validation-Engineering-Co-op--Spring-2027-_01872857) |
 | A | spring | Rocket Lab | Fluid Systems Intern Spring 2027 | Long Beach, CA | 2026-09-09 | [apply](https://job-boards.greenhouse.io/rocketlab/jobs/7986788003) |
+| A | spring | Rocket Lab | Manufacturing Engineering Intern Spring 2027 | Wallops Island, VA | 2026-09-17 | [apply](https://job-boards.greenhouse.io/rocketlab/jobs/7996617003) |
 | A | spring | Rocket Lab | Manufacturing Engineering Intern Spring 2027 | Long Beach, CA | 2026-09-16 | [apply](https://job-boards.greenhouse.io/rocketlab/jobs/7984943003) |
 | A | spring | Rocket Lab | Manufacturing Engineering Intern Spring 2027 | Middle River, MD | 2026-09-16 | [apply](https://job-boards.greenhouse.io/rocketlab/jobs/7987020003) |
-| A | spring | Rocket Lab | Manufacturing Engineering Intern Spring 2027 | Wallops Island, VA | 2026-09-17 | [apply](https://job-boards.greenhouse.io/rocketlab/jobs/7996617003) |
 | A | spring | Rocket Lab | Propulsion Design Intern Spring 2027 | Long Beach, CA | 2026-09-11 | [apply](https://job-boards.greenhouse.io/rocketlab/jobs/7987110003) |
 | A | spring | Rocket Lab | R&D Engineering Intern Spring 2027 | Albuquerque, NM | 2026-09-17 | [apply](https://job-boards.greenhouse.io/rocketlab/jobs/7996578003) |
 | A | spring | Rocket Lab | Systems Engineering Intern Spring 2027 | Long Beach, CA | 2026-09-09 | [apply](https://job-boards.greenhouse.io/rocketlab/jobs/7987044003) |
@@ -255,8 +252,10 @@
 | A | spring | Skyworks | RF Design Validation/Testing Co-Op (Winter/Spring 2027) | Irvine, CA, USA     | 2026-08-25 | [apply](https://careers.skyworksinc.com/job/RF-Design-ValidationTesting-Co-Op-%28WinterSpring-2027%29/78193-en_US) |
 | A | spring | Skyworks | RF EM Design Co-Op (Winter/Spring 2027) | Irvine, CA, USA     | 2026-08-27 | [apply](https://careers.skyworksinc.com/job/RF-EM-Design-Co-Op-%28WinterSpring-2027%29/78268-en_US) |
 | A | spring | Skyworks | RF Front-End PA Design Co-Op (Jan-June 2027) | Andover, MA, USA     | 2026-08-21 | [apply](https://careers.skyworksinc.com/job/RF-Front-End-PA-Design-Co-Op-%28Jan-June-2027%29/78254-en_US) |
+| A | spring | Skyworks | RF Module Design Co-Op (Winter/Spring 2027) | Irvine, CA, USA     | 2026-08-25 | [apply](https://careers.skyworksinc.com/job/RF-Module-Design-Co-Op-%28WinterSpring-2027%29/78270-en_US) |
 | A | spring | Skyworks | RF Module Design Engineer Co-op (Winter/Spring 2027) | Cedar Rapids, IA, USA     | 2026-08-25 | [apply](https://careers.skyworksinc.com/job/RF-Module-Design-Engineer-Co-op-%28WinterSpring-2027%29/78264-en_US) |
 | A | spring | Skyworks | RF Module Engineer - Winter/Spring Co-Op (Jan-June '27) | San Jose, CA, USA     | 2026-08-24 | [apply](https://careers.skyworksinc.com/job/RF-Module-Engineer-WinterSpring-Co-Op-%28Jan-June-&apos;27%29/78263-en_US) |
+| A | spring | Skyworks | RF Technician Co-Op (Winter/Spring 2027) | Cedar Rapids, IA, USA     | 2026-09-28 | [apply](https://careers.skyworksinc.com/job/RF-Technician-Co-Op-%28WinterSpring-2027%29/78532-en_US) |
 | A | spring | Skyworks | RF Test Engineering Co-Op (January '27 - June '27) | Woburn, MA, USA     | 2026-09-02 | [apply](https://careers.skyworksinc.com/job/RF-Test-Engineering-Co-Op-%28January-&apos;27-June-&apos;27%29/78333-en_US) |
 | A | spring | Skyworks | RF Test Engineering Tech Co-Op (Winter/Spring 2027) | San Jose, CA, USA     | 2026-08-13 | [apply](https://careers.skyworksinc.com/job/RF-Test-Engineering-Tech-Co-Op-%28WinterSpring-2027%29/78170-en_US) |
 | A | spring | Skyworks | RF Validation Engineer - Winter/Spring Co-Op | Andover, MA, USA     | 2026-08-12 | [apply](https://careers.skyworksinc.com/job/RF-Validation-Engineer-WinterSpring-Co-Op/78067-en_US) |
@@ -302,49 +301,50 @@
 | A | spring | WSP in the U.S. | Electrical Engineering Co-op - Fall 2026/Winter 2027 | Philadelphia, PA | nan | [apply](https://www.linkedin.com/jobs/view/4418027103) |
 | A | spring | Wabtec | Firmware Engineering Co-Op (January-June 2027) | Waltham, MA, United States | 2026-09-14 | [apply](https://jobs.smartrecruiters.com/wabtec/3743990015249216) |
 | A | spring | Wabtec | Transducer Manufacturing Engineering Co-Op (January-June 2027) | Waltham, MA, United States | 2026-09-25 | [apply](https://jobs.smartrecruiters.com/wabtec/3743990015687756) |
+| A | spring | Western Digital | Winter 2027 Intern/Co-op Development Engineer  | Rochester, MN, United States | 2026-09-28 | [apply](https://jobs.smartrecruiters.com/WesternDigital/744000152261929) |
 | A | spring | Winchester Ammunition | Winchester Electrical Engineer 6-Month Co-Op - 2027 | East Alton, IL | 2026-09-26 | [apply](https://www.linkedin.com/jobs/view/4462310541) |
 | A | spring | Winchester Ammunition | Winchester Electrical Engineer Co-Op - Spring 2027 | Independence, MO | 2026-09-26 | [apply](https://www.linkedin.com/jobs/view/4462310542) |
-| A | spring | Zipline | Accounting Intern (Spring 2027) | South San Francisco, California, USA | 2026-09-17 | [apply](https://www.zipline.com/open-roles/7893921003?gh_jid=7893921003) |
-| A | spring | Zipline | Aerodynamics Intern (Spring 2027) | South San Francisco, California, USA | 2026-09-17 | [apply](https://www.zipline.com/open-roles/7904002003?gh_jid=7904002003) |
-| A | spring | Zipline | Aircraft Software Integration Intern (Spring 2027) | South San Francisco, California, USA | 2026-09-18 | [apply](https://www.zipline.com/open-roles/7986810003?gh_jid=7986810003) |
-| A | spring | Zipline | Applications Engineer Intern (Spring 2027) | South San Francisco, California, USA | 2026-09-17 | [apply](https://www.zipline.com/open-roles/7908677003?gh_jid=7908677003) |
-| A | spring | Zipline | Change Management Intern (Spring 2027) | South San Francisco, California, USA | 2026-09-17 | [apply](https://www.zipline.com/open-roles/7990677003?gh_jid=7990677003) |
-| A | spring | Zipline | Civil and Structural Engineer Intern (Spring 2027) | South San Francisco, California, USA | 2026-09-17 | [apply](https://www.zipline.com/open-roles/7904457003?gh_jid=7904457003) |
-| A | spring | Zipline | Commercial Implementation Intern (Spring 2027) | South San Francisco, California, USA | 2026-09-18 | [apply](https://www.zipline.com/open-roles/7999499003?gh_jid=7999499003) |
-| A | spring | Zipline | Commercial Marketplace Strategy and Operations Intern (Spring 2027) | South San Francisco, California, USA | 2026-09-17 | [apply](https://www.zipline.com/open-roles/7982302003?gh_jid=7982302003) |
-| A | spring | Zipline | Commercial Strategy & Operations Intern (Spring 2027) | Austin, Texas, USA; Houston, Texas, USA; Phoenix, Arizona, U | 2026-09-17 | [apply](https://www.zipline.com/open-roles/7980889003?gh_jid=7980889003) |
-| A | spring | Zipline | Community Engagement Intern (Spring 2027) | Austin, Texas, USA; Dallas-Fort Worth, Texas, USA; Los Angel | 2026-09-17 | [apply](https://www.zipline.com/open-roles/7867044003?gh_jid=7867044003) |
-| A | spring | Zipline | Computational Physics Intern (Spring 2027) | South San Francisco, California, USA | 2026-09-17 | [apply](https://www.zipline.com/open-roles/7904605003?gh_jid=7904605003) |
-| A | spring | Zipline | Construction Management Intern (Spring 2027) | Dallas-Fort Worth, Texas, USA | 2026-09-17 | [apply](https://www.zipline.com/open-roles/7894561003?gh_jid=7894561003) |
-| A | spring | Zipline | Controls Engineer Intern (Spring 2027) | South San Francisco, California, USA | 2026-09-17 | [apply](https://www.zipline.com/open-roles/7903823003?gh_jid=7903823003) |
-| A | spring | Zipline | Data Analytics Intern (Spring 2027) | South San Francisco, California, USA | 2026-09-17 | [apply](https://www.zipline.com/open-roles/7990420003?gh_jid=7990420003) |
-| A | spring | Zipline | Electrical Engineer Intern (Spring 2027) | South San Francisco, California, USA | 2026-09-17 | [apply](https://www.zipline.com/open-roles/7903708003?gh_jid=7903708003) |
-| A | spring | Zipline | Electrical Project Engineer Intern (Spring 2027) | South San Francisco, California, USA | 2026-09-17 | [apply](https://www.zipline.com/open-roles/7980874003?gh_jid=7980874003) |
-| A | spring | Zipline | Embedded Software Engineer Intern (Spring 2027) | South San Francisco, California, USA | 2026-09-17 | [apply](https://www.zipline.com/open-roles/7974897003?gh_jid=7974897003) |
-| A | spring | Zipline | Field Systems Engineer Intern (Spring 2027) | South San Francisco, California, USA | 2026-09-25 | [apply](https://www.zipline.com/open-roles/8004729003?gh_jid=8004729003) |
-| A | spring | Zipline | Flight Test Engineer Intern (Spring 2027) | South San Francisco, California, USA | 2026-09-21 | [apply](https://www.zipline.com/open-roles/7999929003?gh_jid=7999929003) |
-| A | spring | Zipline | Global Supply Management Intern (Spring 2027) | South San Francisco, California, USA | 2026-09-17 | [apply](https://www.zipline.com/open-roles/7891121003?gh_jid=7891121003) |
-| A | spring | Zipline | Hardware Test Intern (Spring 2027) | South San Francisco, California, USA | 2026-09-17 | [apply](https://www.zipline.com/open-roles/7894349003?gh_jid=7894349003) |
-| A | spring | Zipline | Launch & Scale Intern (Spring 2027) | South San Francisco, California, USA | 2026-09-17 | [apply](https://www.zipline.com/open-roles/7984998003?gh_jid=7984998003) |
-| A | spring | Zipline | Maintenance Tool Engineering Intern (Spring 2027) | Esparto, California, USA | 2026-09-17 | [apply](https://www.zipline.com/open-roles/7909945003?gh_jid=7909945003) |
-| A | spring | Zipline | Maps Intern (Spring 2027) | South San Francisco, California, USA | 2026-09-17 | [apply](https://www.zipline.com/open-roles/7929354003?gh_jid=7929354003) |
-| A | spring | Zipline | Marketing Intern (Spring 2027) | South San Francisco, California, USA | 2026-09-17 | [apply](https://www.zipline.com/open-roles/7968519003?gh_jid=7968519003) |
-| A | spring | Zipline | Material Planning Intern (Spring 2027) | South San Francisco, California, USA | 2026-09-17 | [apply](https://www.zipline.com/open-roles/7891219003?gh_jid=7891219003) |
-| A | spring | Zipline | Mechanical Engineer Intern (Spring 2027) | South San Francisco, California, USA | 2026-09-17 | [apply](https://www.zipline.com/open-roles/7865253003?gh_jid=7865253003) |
-| A | spring | Zipline | Operations Experience Intern (Spring 2027) | South San Francisco, California, USA | 2026-09-17 | [apply](https://www.zipline.com/open-roles/7920394003?gh_jid=7920394003) |
-| A | spring | Zipline | Partner Success Intern (Spring 2027) | Dallas-Fort Worth, Texas, USA | 2026-09-17 | [apply](https://www.zipline.com/open-roles/7904954003?gh_jid=7904954003) |
-| A | spring | Zipline | Quality & Manufacturing Intern (Spring 2027) | South San Francisco, California, USA | 2026-09-17 | [apply](https://www.zipline.com/open-roles/7824311003?gh_jid=7824311003) |
-| A | spring | Zipline | Real Estate Intern (Spring 2027) | South San Francisco, California, USA | 2026-09-17 | [apply](https://www.zipline.com/open-roles/7988625003?gh_jid=7988625003) |
-| A | spring | Zipline | Sales Operations Analyst Intern (Spring 2027) | South San Francisco, California, USA | 2026-09-17 | [apply](https://www.zipline.com/open-roles/7929099003?gh_jid=7929099003) |
-| A | spring | Zipline | Software Engineer Intern (Spring 2027) | South San Francisco, California, USA | 2026-09-17 | [apply](https://www.zipline.com/open-roles/7907191003?gh_jid=7907191003) |
-| A | spring | Zipline | Software Systems Validation Intern (Spring 2027) | South San Francisco, California, USA | 2026-09-17 | [apply](https://www.zipline.com/open-roles/7893955003?gh_jid=7893955003) |
-| A | spring | Zipline | Strategic Engagements & Events Intern (Spring 2027) | South San Francisco, California, USA | 2026-09-17 | [apply](https://www.zipline.com/open-roles/7857023003?gh_jid=7857023003) |
-| A | spring | Zipline | Strategic Finance Intern (Spring 2027) | South San Francisco, California, USA | 2026-09-17 | [apply](https://www.zipline.com/open-roles/7978791003?gh_jid=7978791003) |
-| A | spring | Zipline | Supplier Industrialization Engineering Intern (Spring 2027) | South San Francisco, California, USA | 2026-09-17 | [apply](https://www.zipline.com/open-roles/7891019003?gh_jid=7891019003) |
-| A | spring | Zipline | Supply Chain Business Operations Intern (Spring 2027) | South San Francisco, California, USA | 2026-09-17 | [apply](https://www.zipline.com/open-roles/7891225003?gh_jid=7891225003) |
-| A | spring | Zipline | System Test Automation Intern (Spring 2027) | South San Francisco, California, USA | 2026-09-17 | [apply](https://www.zipline.com/open-roles/7893946003?gh_jid=7893946003) |
-| A | spring | Zipline | Technical Program Manager Intern (Spring 2027) | South San Francisco, California, USA | 2026-09-17 | [apply](https://www.zipline.com/open-roles/7904446003?gh_jid=7904446003) |
-| A | spring | Zipline | Video Production and Social Media Intern (Spring 2027) | South San Francisco, California, USA | 2026-09-17 | [apply](https://www.zipline.com/open-roles/7896577003?gh_jid=7896577003) |
+| A | spring | Zipline | Accounting Intern (Spring 2027) | South San Francisco, California, USA | 2026-09-28 | [apply](https://www.zipline.com/open-roles/7893921003?gh_jid=7893921003) |
+| A | spring | Zipline | Aerodynamics Intern (Spring 2027) | South San Francisco, California, USA | 2026-09-28 | [apply](https://www.zipline.com/open-roles/7904002003?gh_jid=7904002003) |
+| A | spring | Zipline | Aircraft Software Integration Intern (Spring 2027) | South San Francisco, California, USA | 2026-09-28 | [apply](https://www.zipline.com/open-roles/7986810003?gh_jid=7986810003) |
+| A | spring | Zipline | Applications Engineer Intern (Spring 2027) | South San Francisco, California, USA | 2026-09-28 | [apply](https://www.zipline.com/open-roles/7908677003?gh_jid=7908677003) |
+| A | spring | Zipline | Change Management Intern (Spring 2027) | South San Francisco, California, USA | 2026-09-28 | [apply](https://www.zipline.com/open-roles/7990677003?gh_jid=7990677003) |
+| A | spring | Zipline | Civil and Structural Engineer Intern (Spring 2027) | South San Francisco, California, USA | 2026-09-28 | [apply](https://www.zipline.com/open-roles/7904457003?gh_jid=7904457003) |
+| A | spring | Zipline | Commercial Implementation Intern (Spring 2027) | South San Francisco, California, USA | 2026-09-28 | [apply](https://www.zipline.com/open-roles/7999499003?gh_jid=7999499003) |
+| A | spring | Zipline | Commercial Marketplace Strategy and Operations Intern (Spring 2027) | South San Francisco, California, USA | 2026-09-28 | [apply](https://www.zipline.com/open-roles/7982302003?gh_jid=7982302003) |
+| A | spring | Zipline | Commercial Strategy & Operations Intern (Spring 2027) | Austin, Texas, USA; Houston, Texas, USA; Phoenix, Arizona, U | 2026-09-28 | [apply](https://www.zipline.com/open-roles/7980889003?gh_jid=7980889003) |
+| A | spring | Zipline | Community Engagement Intern (Spring 2027) | Austin, Texas, USA; Dallas-Fort Worth, Texas, USA; Los Angel | 2026-09-28 | [apply](https://www.zipline.com/open-roles/7867044003?gh_jid=7867044003) |
+| A | spring | Zipline | Computational Physics Intern (Spring 2027) | South San Francisco, California, USA | 2026-09-28 | [apply](https://www.zipline.com/open-roles/7904605003?gh_jid=7904605003) |
+| A | spring | Zipline | Construction Management Intern (Spring 2027) | Dallas-Fort Worth, Texas, USA | 2026-09-28 | [apply](https://www.zipline.com/open-roles/7894561003?gh_jid=7894561003) |
+| A | spring | Zipline | Controls Engineer Intern (Spring 2027) | South San Francisco, California, USA | 2026-09-28 | [apply](https://www.zipline.com/open-roles/7903823003?gh_jid=7903823003) |
+| A | spring | Zipline | Data Analytics Intern (Spring 2027) | South San Francisco, California, USA | 2026-09-28 | [apply](https://www.zipline.com/open-roles/7990420003?gh_jid=7990420003) |
+| A | spring | Zipline | Electrical Engineer Intern (Spring 2027) | South San Francisco, California, USA | 2026-09-28 | [apply](https://www.zipline.com/open-roles/7903708003?gh_jid=7903708003) |
+| A | spring | Zipline | Electrical Project Engineer Intern (Spring 2027) | South San Francisco, California, USA | 2026-09-28 | [apply](https://www.zipline.com/open-roles/7980874003?gh_jid=7980874003) |
+| A | spring | Zipline | Embedded Software Engineer Intern (Spring 2027) | South San Francisco, California, USA | 2026-09-28 | [apply](https://www.zipline.com/open-roles/7974897003?gh_jid=7974897003) |
+| A | spring | Zipline | Field Systems Engineer Intern (Spring 2027) | South San Francisco, California, USA | 2026-09-28 | [apply](https://www.zipline.com/open-roles/8004729003?gh_jid=8004729003) |
+| A | spring | Zipline | Flight Test Engineer Intern (Spring 2027) | South San Francisco, California, USA | 2026-09-28 | [apply](https://www.zipline.com/open-roles/7999929003?gh_jid=7999929003) |
+| A | spring | Zipline | Global Supply Management Intern (Spring 2027) | South San Francisco, California, USA | 2026-09-28 | [apply](https://www.zipline.com/open-roles/7891121003?gh_jid=7891121003) |
+| A | spring | Zipline | Hardware Test Intern (Spring 2027) | South San Francisco, California, USA | 2026-09-28 | [apply](https://www.zipline.com/open-roles/7894349003?gh_jid=7894349003) |
+| A | spring | Zipline | Launch & Scale Intern (Spring 2027) | South San Francisco, California, USA | 2026-09-28 | [apply](https://www.zipline.com/open-roles/7984998003?gh_jid=7984998003) |
+| A | spring | Zipline | Maintenance Tool Engineering Intern (Spring 2027) | Esparto, California, USA | 2026-09-28 | [apply](https://www.zipline.com/open-roles/7909945003?gh_jid=7909945003) |
+| A | spring | Zipline | Maps Intern (Spring 2027) | South San Francisco, California, USA | 2026-09-28 | [apply](https://www.zipline.com/open-roles/7929354003?gh_jid=7929354003) |
+| A | spring | Zipline | Marketing Intern (Spring 2027) | South San Francisco, California, USA | 2026-09-28 | [apply](https://www.zipline.com/open-roles/7968519003?gh_jid=7968519003) |
+| A | spring | Zipline | Material Planning Intern (Spring 2027) | South San Francisco, California, USA | 2026-09-28 | [apply](https://www.zipline.com/open-roles/7891219003?gh_jid=7891219003) |
+| A | spring | Zipline | Mechanical Engineer Intern (Spring 2027) | South San Francisco, California, USA | 2026-09-28 | [apply](https://www.zipline.com/open-roles/7865253003?gh_jid=7865253003) |
+| A | spring | Zipline | Operations Experience Intern (Spring 2027) | South San Francisco, California, USA | 2026-09-28 | [apply](https://www.zipline.com/open-roles/7920394003?gh_jid=7920394003) |
+| A | spring | Zipline | Partner Success Intern (Spring 2027) | Dallas-Fort Worth, Texas, USA | 2026-09-28 | [apply](https://www.zipline.com/open-roles/7904954003?gh_jid=7904954003) |
+| A | spring | Zipline | Quality & Manufacturing Intern (Spring 2027) | South San Francisco, California, USA | 2026-09-28 | [apply](https://www.zipline.com/open-roles/7824311003?gh_jid=7824311003) |
+| A | spring | Zipline | Real Estate Intern (Spring 2027) | South San Francisco, California, USA | 2026-09-28 | [apply](https://www.zipline.com/open-roles/7988625003?gh_jid=7988625003) |
+| A | spring | Zipline | Sales Operations Analyst Intern (Spring 2027) | South San Francisco, California, USA | 2026-09-28 | [apply](https://www.zipline.com/open-roles/7929099003?gh_jid=7929099003) |
+| A | spring | Zipline | Software Engineer Intern (Spring 2027) | South San Francisco, California, USA | 2026-09-28 | [apply](https://www.zipline.com/open-roles/7907191003?gh_jid=7907191003) |
+| A | spring | Zipline | Software Systems Validation Intern (Spring 2027) | South San Francisco, California, USA | 2026-09-28 | [apply](https://www.zipline.com/open-roles/7893955003?gh_jid=7893955003) |
+| A | spring | Zipline | Strategic Engagements & Events Intern (Spring 2027) | South San Francisco, California, USA | 2026-09-28 | [apply](https://www.zipline.com/open-roles/7857023003?gh_jid=7857023003) |
+| A | spring | Zipline | Strategic Finance Intern (Spring 2027) | South San Francisco, California, USA | 2026-09-28 | [apply](https://www.zipline.com/open-roles/7978791003?gh_jid=7978791003) |
+| A | spring | Zipline | Supplier Industrialization Engineering Intern (Spring 2027) | South San Francisco, California, USA | 2026-09-28 | [apply](https://www.zipline.com/open-roles/7891019003?gh_jid=7891019003) |
+| A | spring | Zipline | Supply Chain Business Operations Intern (Spring 2027) | South San Francisco, California, USA | 2026-09-28 | [apply](https://www.zipline.com/open-roles/7891225003?gh_jid=7891225003) |
+| A | spring | Zipline | System Test Automation Intern (Spring 2027) | South San Francisco, California, USA | 2026-09-28 | [apply](https://www.zipline.com/open-roles/7893946003?gh_jid=7893946003) |
+| A | spring | Zipline | Technical Program Manager Intern (Spring 2027) | South San Francisco, California, USA | 2026-09-28 | [apply](https://www.zipline.com/open-roles/7904446003?gh_jid=7904446003) |
+| A | spring | Zipline | Video Production and Social Media Intern (Spring 2027) | South San Francisco, California, USA | 2026-09-28 | [apply](https://www.zipline.com/open-roles/7896577003?gh_jid=7896577003) |
 | A | spring | onsemi | Spring 2027 - IC Design Engineer Intern | Allen, TX, United States | 2026-09-28 | [apply](https://hctz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2506546) |
 | A | spring | onsemi | Spring 2027 - Validation Engineering Intern | Nampa, ID, United States | 2026-09-25 | [apply](https://hctz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2506611) |
 | A | spring | onsemi | Spring 2027 - Validation Engineering Intern | Nampa, ID | 2026-09-25 | [apply](https://www.linkedin.com/jobs/view/4470502371) |
@@ -533,6 +533,7 @@
 | B | coop-unspecified | Siemens | Electrical Engineering Co-op (North Carolina State University) | Wendell, NC | 2026-09-26 | [apply](https://www.linkedin.com/jobs/view/4462355513) |
 | B | coop-unspecified | Skyworks | Analog IC Design Co-op | Irvine, CA | Apr 20 | [apply](https://careers.skyworksinc.com/job/Irvine-Analog-IC-Design-SummerFall-Co-Op-(June-&apos;26-Dec-&apos;26)-CA-92602/76295-en_US/?feedId=177100&utm_source=github-vansh-ouckah) |
 | B | coop-unspecified | Skyworks | Microelectronics / Semiconductor Packaging Co-Op | Nashua, NH, USA     | 2026-09-14 | [apply](https://careers.skyworksinc.com/job/Microelectronics-Semiconductor-Packaging-Co-Op/78294-en_US) |
+| B | coop-unspecified | Skyworks | Power Amplifier Design Co-Op (June-December 20270 | Irvine, CA, USA     | 2026-09-28 | [apply](https://careers.skyworksinc.com/job/Power-Amplifier-Design-Co-Op-%28June-December-20270/78466-en_US) |
 | B | coop-unspecified | Skyworks | RF Design Automation Co-Op | Andover, MA, USA     | 2026-08-12 | [apply](https://careers.skyworksinc.com/job/RF-Design-Automation-Co-Op/78166-en_US) |
 | B | coop-unspecified | Skyworks | RF Filter Design / BAW development Co-Op | Andover, MA, USA     | 2026-09-15 | [apply](https://careers.skyworksinc.com/job/RF-Filter-Design-BAW-development-Co-Op/78245-en_US) |
 | B | coop-unspecified | Skyworks | RF Test Engineering Co-Op (June '27 - December '27) | Woburn, MA, USA     | 2026-09-15 | [apply](https://careers.skyworksinc.com/job/RF-Test-Engineering-Co-Op-%28June-&apos;27-December-&apos;27%29/78334-en_US) |
@@ -698,6 +699,8 @@
 | C | unspecified | General Dynamics Mission Systems | Electrical Engineering Intern | Scottsdale, AZ, USA | 2026-09-24 | [apply](https://simplify.jobs/jobs/click/372c09c6-bbc3-463c-a9a3-b0026a9ec3c3) |
 | C | unspecified | General Dynamics Mission Systems | Hardware EE Intern Engineer for Crypto and Cross Domain Solutions |  |  | [apply](https://careers-gdms.icims.com/jobs/74787/hardware-ee-intern-engineer-for-crypto-and-cross-domain-solutions/job) |
 | C | unspecified | General Dynamics Mission Systems | Hardware Electrical Engineer Intern | Scottsdale, AZ, USA | 2026-09-16 | [apply](https://simplify.jobs/jobs/click/ef1d83f4-af64-48b2-8faf-822dd65f485f) |
+| C | unspecified | General Dynamics Mission Systems | Intern Engineer - FPGA |  |  | [apply](https://careers-gdms.icims.com/jobs/75044/intern-engineer---fpga/job) |
+| C | unspecified | General Dynamics Mission Systems | Intern Engineer - Infrastructure Hardware/Network |  |  | [apply](https://careers-gdms.icims.com/jobs/75025/intern-engineer---infrastructure-hardware-network/job) |
 | C | unspecified | General Dynamics Mission Systems | Optical Engineer Intern |  |  | [apply](https://careers-gdms.icims.com/jobs/74540/optical-engineer-intern/job) |
 | C | unspecified | General Dynamics Mission Systems | Optical Engineer Intern | McLeansville, NC, USA | 2026-09-08 | [apply](https://simplify.jobs/jobs/click/fe5f656d-0aa0-468a-b224-181eab735016) |
 | C | unspecified | GlobalFoundries | 2H University Intern - Industrial Engineering (Layout) | SGP - Woodlands | Posted 30+ Days Ago | [apply](https://globalfoundries.wd1.myworkdayjobs.com/External/job/SGP---Woodlands/XMLNAME-2H-University-Intern---Industrial-Engineering--Layout-_JR-2502775) |
@@ -708,6 +711,7 @@
 | C | unspecified | Graphcore | Hardware Platform Development Intern | Austin, TX, USA | 2026-09-24 | [apply](https://simplify.jobs/jobs/click/2db508b9-8c94-4578-af5c-2e9050a1fc01) |
 | C | unspecified | H3X Technologies | Embedded Controls Intern | Louisville, CO, USA | 2026-08-21 | [apply](https://simplify.jobs/jobs/click/bb7c0aac-5534-4988-b2eb-f17b650f5c9c) |
 | C | unspecified | H3X Technologies | Power Electronics Intern | Louisville, CO, USA | 2026-08-18 | [apply](https://simplify.jobs/jobs/click/ea5b02ef-a979-4e3e-8c9b-003ca559f92c) |
+| C | unspecified | HP | Electrical/Hardware Engineering Intern | Corvallis, Oregon, United States of America | Posted Today | [apply](https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/Corvallis-Oregon-United-States-of-America/Electrical-Hardware-Engineering-Intern_UNI4760-1) |
 | C | unspecified | HPR | FPGA Engineering Intern | Needham, MA | Aug 21 | [apply](https://job-boards.greenhouse.io/hyannisportresearch/jobs/7822801003) |
 | C | unspecified | Harbinger Motors | Electrical Distribution Systems Intern | Garden Grove, CA, USA | 2026-09-15 | [apply](https://simplify.jobs/jobs/click/b6dd5446-12a3-462f-91d2-bca2341f67c2) |
 | C | unspecified | Heidelberg Materials | Electrical Engineer Intern | Mitchell, IN, USA | 2026-09-01 | [apply](https://simplify.jobs/jobs/click/0f50715b-a8dc-4f26-a0d7-aa151f0abc8b) |
@@ -892,6 +896,8 @@
 | C | unspecified | Re:Build Manufacturing | Electromechanical Technician Intern | Merrimack, NH, USA | 2026-09-03 | [apply](https://simplify.jobs/jobs/click/db7a047f-7420-4b49-8aaa-c79ba61a29fc) |
 | C | unspecified | Redwood Materials | Test Automation Engineer Intern | San Francisco, CA | Aug 06 | [apply](https://job-boards.greenhouse.io/redwoodmaterials/jobs/6126785004) |
 | C | unspecified | Reflect Orbital | Embedded Firmware Engineer Intern | Hawthorne, CA, USA | 2026-09-03 | [apply](https://simplify.jobs/jobs/click/6f3a77be-dd63-4de2-a8dd-80babbfaecac) |
+| C | unspecified | Renesas | Design Verification Intern | Duluth, GEORGIA, United States | 2026-09-28 | [apply](https://jobs.smartrecruiters.com/renesaselectronics/744000152284789) |
+| C | unspecified | Renesas | Firmware Engineering Intern | Austin, TEXAS, United States | 2026-09-28 | [apply](https://jobs.smartrecruiters.com/renesaselectronics/744000152265599) |
 | C | unspecified | Renesas | Integrated Сircuit Test Engineer - Intern | Lviv, , Ukraine | 2026-07-21 | [apply](https://jobs.smartrecruiters.com/renesaselectronics/744000138837009) |
 | C | unspecified | Rigetti | Research Intern: Scalable Fabrication of Superconducting Quantum Devices | Berkeley, CA | 1789424869 | [apply](https://jobs.lever.co/rigetti/efe28dd4-f331-4738-b282-23106928c3a3) |
 | C | unspecified | Rivian and Volkswagen Group Technologies | Engineering Intern, Embedded Hardware, Vehicle Networking & Audio | Palo Alto, CA | Nov 01 | [apply](https://careers.rivianvw.tech/rivian-vw-group-technology/jobs/27276/job) |
@@ -906,6 +912,7 @@
 | C | unspecified | Seagate | Failure Analysis Intern III (Auto Failure Analysis & Data Analytics) | Nakhon Ratchasima, THA,  | 2026-07-09 | [apply](https://seagatecareers.com/job/Failure-Analysis-Intern-III-%28Auto-Failure-Analysis-&amp;-Data-Analytics%29/14648-en_US) |
 | C | unspecified | Seagate | Hardware Engineering Intern |  | 2026-09-09 | [apply](https://seagatecareers.com/job/Hardware-Engineering-Intern/15010-en_US) |
 | C | unspecified | Seagate | Hardware Validation Intern |  | 2026-09-09 | [apply](https://seagatecareers.com/job/Hardware-Validation-Intern/15011-en_US) |
+| C | unspecified | Seagate | Head Failure Analysis Intern III |  | 2026-09-15 | [apply](https://seagatecareers.com/job/Head-Failure-Analysis-Intern-III/15061-en_US) |
 | C | unspecified | Seagate | Korat Firmware Test and Engineering Intern | Nakhon Ratchasima, THA,  | 2026-06-30 | [apply](https://seagatecareers.com/job/Korat-Firmware-Test-and-Engineering-Intern/14619-en_US) |
 | C | unspecified | Seagate | Metrology maintenance engineering intern | Nakhon Ratchasima, THA,  | 2026-08-26 | [apply](https://seagatecareers.com/job/Metrology-maintenance-engineering-intern/14919-en_US) |
 | C | unspecified | Seagate | Product Engineering Intern | Nakhon Ratchasima, THA,  | 2026-07-20 | [apply](https://seagatecareers.com/job/Product-Engineering-Intern/14645-en_US) |
@@ -929,6 +936,7 @@
 | C | unspecified | Texas Instruments | Analog IC Design Engineering Intern - Bachelors | Dallas, TX, United States | 2026-09-02 | [apply](https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/25017543) |
 | C | unspecified | Texas Instruments | Design Verification Engineer Intern | Knoxville, TN, USA; Dallas, TX, USA; Phoenix, AZ, USA | 2026-09-03 | [apply](https://simplify.jobs/jobs/click/7a74c2ea-0373-4933-9cde-8b4f1a84218e) |
 | C | unspecified | Texas Instruments | Design Verification Engineering Intern - Bachelors | Dallas, TX, United States | 2026-09-02 | [apply](https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/25017545) |
+| C | unspecified | Texas Instruments | Digital Design Verification Engineering Intern | Santa Clara, CA, United States | 2026-09-28 | [apply](https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/25016380) |
 | C | unspecified | Texas Instruments | Digital IC Design Engineer Intern | Knoxville, TN, USA; Dallas, TX, USA; Tucson, AZ, USA | 2026-09-03 | [apply](https://simplify.jobs/jobs/click/031c6b44-ce56-408c-81b2-2f6074c1d1dd) |
 | C | unspecified | Texas Instruments | Digital IC Design Engineering Intern - Bachelors | Dallas, TX, United States | 2026-09-02 | [apply](https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/25017547) |
 | C | unspecified | Texas Instruments | Packaging Engineer Intern | Dallas, TX, USA; United States | 2026-09-03 | [apply](https://simplify.jobs/jobs/click/0eb42ce5-1545-42e1-b143-30809529deb0) |
@@ -958,5 +966,5 @@
 | C | unspecified | Viavi Solutions | Optical & Electrical Engineering Intern | Indianapolis, IN, USA | 2026-09-03 | [apply](https://simplify.jobs/jobs/click/12d65c04-d3a8-4cc7-9c55-37318c97a6c8) |
 | C | unspecified | WindBorne Systems | Embedded Electrical Engineer Intern | Palo Alto, CA, USA; Redwood City, CA, USA | 2026-08-12 | [apply](https://simplify.jobs/jobs/click/88ed3204-4d00-47e3-b41c-c62019949562) |
 | C | unspecified | Winnebago Industries | Electrical Engineering Intern | Clearwater, FL | nan | [apply](https://www.linkedin.com/jobs/view/4472782160) |
-| C | unspecified | Zipline | Technical Writer Intern  | South San Francisco, California, USA | 2026-09-17 | [apply](https://www.zipline.com/open-roles/7996415003?gh_jid=7996415003) |
+| C | unspecified | Zipline | Technical Writer Intern  | South San Francisco, California, USA | 2026-09-28 | [apply](https://www.zipline.com/open-roles/7996415003?gh_jid=7996415003) |
 | C | unspecified | Zoox | Contract Student Worker  – Firmware Engineer (FW Thermal/Body) | Foster City, CA | 1776284294 | [apply](https://jobs.lever.co/zoox/07f0834f-06ec-44c7-a24b-3efa08589d38) |
