@@ -1,26 +1,8 @@
-# New postings — 2026-09-28
+# New postings — 2026-09-29
 
-17 new of 950 tracked. Rank A = spring/Jan 2027 explicit, B = co-op with term unstated, C = intern with no term stated.
+0 new of 949 tracked. Rank A = spring/Jan 2027 explicit, B = co-op with term unstated, C = intern with no term stated.
 
-| Rank | Term | Company | Role | Location | Posted | Link |
-|---|---|---|---|---|---|---|
-| A | spring | Coty | Process Engineer Co-Op | Sanford, NC | 2026-09-26 | [apply](https://www.linkedin.com/jobs/view/4444027221) |
-| A | spring | onsemi | Spring 2027 - IC Design Engineer Intern | Allen, TX | nan | [apply](https://www.linkedin.com/jobs/view/4471211796) |
-| A | spring | Collins Aerospace | Test & Validation Engineering Co-op (Spring 2027) | Uniontown, OH | nan | [apply](https://www.linkedin.com/jobs/view/4473014679) |
-| C | unspecified | MACOM | IC Design Intern | Milpitas, CA | nan | [apply](https://www.linkedin.com/jobs/view/4473000433) |
-| C | unspecified | MACOM | SOI MMIC Design Intern | Lowell, MA | nan | [apply](https://www.linkedin.com/jobs/view/4472786819) |
-| C | unspecified | Voyager Technologies | 2027 Electrical Engineer Intern | Long Beach, CA | nan | [apply](https://www.linkedin.com/jobs/view/4471567179) |
-| A | spring | Cummins Inc. | Electronic Systems - Summer Internship Positions | Columbus, IN | nan | [apply](https://www.linkedin.com/jobs/view/4471556364) |
-| C | unspecified | MACOM | GaN RF Power Amplifier Design Intern | Morgan Hill, CA | nan | [apply](https://www.linkedin.com/jobs/view/4472797472) |
-| C | unspecified | General Dynamics Mission Systems | FPGA Intern Engineer | Manassas, VA | nan | [apply](https://www.linkedin.com/jobs/view/4471558407) |
-| C | unspecified | MACOM | GaN RF Power Amplifier Applications Intern | Mesa, AZ | nan | [apply](https://www.linkedin.com/jobs/view/4472794604) |
-| A | spring | Collins Aerospace | Manufacturing Electrical Engineering Co-Op (Spring/Summer 2027) | Cedar Rapids, IA | nan | [apply](https://www.linkedin.com/jobs/view/4473024343) |
-| C | unspecified | MACOM | Failure Analysis Engineering Intern | Newport Beach, CA | nan | [apply](https://www.linkedin.com/jobs/view/4472788811) |
-| C | unspecified | Renesas Electronics | Firmware Engineering Intern | Austin, TX | nan | [apply](https://www.linkedin.com/jobs/view/4473011205) |
-| C | unspecified | HyperLight | R&D Operations & Automation Engineer Intern | Cambridge, MA | nan | [apply](https://www.linkedin.com/jobs/view/4473031275) |
-| C | unspecified | Yank Technologies, Inc. | Electrical Engineering Intern | Brooklyn, NY | nan | [apply](https://www.linkedin.com/jobs/view/4471547955) |
-| A | spring | Astranis Space Technologies | Electrical Integration Intern - Avionics (Winter 2027) |  | 2026-09-26 | [apply](https://www.linkedin.com/jobs/view/4470773326) |
-| C | unspecified | MACOM | Acoustic Wave Device Modeling and Design Intern | Lowell, MA | nan | [apply](https://www.linkedin.com/jobs/view/4472797468) |
+_nothing new today_
 
 ## All tracked
 
@@ -144,7 +126,6 @@
 | A | spring | GlobalFoundries | Advanced Manufacturing Engineering Intern (Jan-Jun 2027) | SGP - Woodlands | Posted 30+ Days Ago | [apply](https://globalfoundries.wd1.myworkdayjobs.com/External/job/SGP---Woodlands/Advanced-Manufacturing-Engineering-Intern--Jan-Jun-2027-_JR-2603835) |
 | A | spring | GlobalFoundries | Design Enablement Engineer Intern (Jan-Jun 2027) | SGP - Science Park | Posted 30+ Days Ago | [apply](https://globalfoundries.wd1.myworkdayjobs.com/External/job/SGP---Science-Park/Design-Enablement-Engineer-Intern--Jan-Jun-2027-_JR-2604275) |
 | A | spring | GlobalFoundries | ESD Device Design Engineer Intern (Jan-Jun 2027) | SGP - Woodlands | Posted 30+ Days Ago | [apply](https://globalfoundries.wd1.myworkdayjobs.com/External/job/SGP---Woodlands/ESD-Device-Design-Engineer-Intern--Jan-Jun-2027-_JR-2604348) |
-| A | spring | GlobalFoundries | Facility Engineering, Automation Intern (Jan-Jun 2027) | SGP - Woodlands | Posted 30+ Days Ago | [apply](https://globalfoundries.wd1.myworkdayjobs.com/External/job/SGP---Woodlands/Facility-Engineering--Automation-Intern--Jan-Jun-2027-_JR-2604650) |
 | A | spring | GlobalFoundries | Testsite Engineer Intern (Jan-Jun 2027) | SGP - Woodlands | Posted 30+ Days Ago | [apply](https://globalfoundries.wd1.myworkdayjobs.com/External/job/SGP---Woodlands/Testsite-Engineer-Intern--Jan-Jun-2027-_JR-2604402) |
 | A | spring | GlobalFoundries | •	Engineer Quality QMS Intern (Jan-Jun 2027) | SGP - Woodlands | Posted 30+ Days Ago | [apply](https://globalfoundries.wd1.myworkdayjobs.com/External/job/SGP---Woodlands/XMLNAME---Engineer-Quality-QMS-Intern--Jan-Jun-2027-_JR-2604510-1) |
 | A | spring | Hermeus | Avionics Electrical Engineering Intern - Spring/Summer 2027 | Atlanta, GA | 1788962832 | [apply](https://jobs.lever.co/hermeus/b7babdb5-64ee-49ad-a193-918d6a31c462) |
@@ -215,9 +196,9 @@
 | A | spring | RTX | Systems Engineering Coop - Spring/Summer- Onsite | US-ND-JAMESTOWN-P1 ~ 2604 Highway 20 N ~ PLANT 1 | Posted 11 Days Ago | [apply](https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-ND-JAMESTOWN-P1--2604-Highway-20-N--PLANT-1/Systems-Engineering-Coop---Spring-Summer--Onsite_01873304) |
 | A | spring | RTX | Test & Validation Engineering Co-op (Spring 2027) | US-OH-UNIONTOWN-1555 ~ 1555 Corporate Woods Pkwy ~ CORP WOOD | Posted Today | [apply](https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-OH-UNIONTOWN-1555--1555-Corporate-Woods-Pkwy--CORP-WOODS/Test---Validation-Engineering-Co-op--Spring-2027-_01872857) |
 | A | spring | Rocket Lab | Fluid Systems Intern Spring 2027 | Long Beach, CA | 2026-09-09 | [apply](https://job-boards.greenhouse.io/rocketlab/jobs/7986788003) |
-| A | spring | Rocket Lab | Manufacturing Engineering Intern Spring 2027 | Middle River, MD | 2026-09-16 | [apply](https://job-boards.greenhouse.io/rocketlab/jobs/7987020003) |
-| A | spring | Rocket Lab | Manufacturing Engineering Intern Spring 2027 | Long Beach, CA | 2026-09-16 | [apply](https://job-boards.greenhouse.io/rocketlab/jobs/7984943003) |
 | A | spring | Rocket Lab | Manufacturing Engineering Intern Spring 2027 | Wallops Island, VA | 2026-09-17 | [apply](https://job-boards.greenhouse.io/rocketlab/jobs/7996617003) |
+| A | spring | Rocket Lab | Manufacturing Engineering Intern Spring 2027 | Long Beach, CA | 2026-09-16 | [apply](https://job-boards.greenhouse.io/rocketlab/jobs/7984943003) |
+| A | spring | Rocket Lab | Manufacturing Engineering Intern Spring 2027 | Middle River, MD | 2026-09-16 | [apply](https://job-boards.greenhouse.io/rocketlab/jobs/7987020003) |
 | A | spring | Rocket Lab | Propulsion Design Intern Spring 2027 | Long Beach, CA | 2026-09-11 | [apply](https://job-boards.greenhouse.io/rocketlab/jobs/7987110003) |
 | A | spring | Rocket Lab | R&D Engineering Intern Spring 2027 | Albuquerque, NM | 2026-09-17 | [apply](https://job-boards.greenhouse.io/rocketlab/jobs/7996578003) |
 | A | spring | Rocket Lab | Systems Engineering Intern Spring 2027 | Long Beach, CA | 2026-09-09 | [apply](https://job-boards.greenhouse.io/rocketlab/jobs/7987044003) |
