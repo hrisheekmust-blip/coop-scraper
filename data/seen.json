@@ -635,8 +635,8 @@
 },
 "https://www.indeed.com/viewjob": {
 "first_seen": "2026-09-18",
-"title": "Electrical Designer Co-op - Spring 2027",
-"company": "Salas O'Brien",
+"title": "Manufacturing Electrical Engineering Co-Op ( Spring/Summer 2027)",
+"company": "Collins Aerospace",
 "desc": ""
 },
 "https://www.linkedin.com/jobs/view/4468697840": {
@@ -9033,6 +9033,102 @@
 "https://www.linkedin.com/jobs/view/4472797468": {
 "first_seen": "2026-09-28",
 "title": "Acoustic Wave Device Modeling and Design Intern",
+"company": "MACOM",
+"desc": ""
+},
+"https://jobs.lever.co/hermeus/78008094-ca81-4a0c-9a18-93b30f932acd": {
+"first_seen": "2026-09-29",
+"title": "Flight Software Engineering Intern (Simulation/Hardware-In-The-Loop) - Spring & Summer 2027",
+"company": "Hermeus",
+"desc": ""
+},
+"https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-IA-CEDAR-RAPIDS-106--400-Collins-Rd-NE--BLDG-106/Display-Systems-Engineering-Co-op--Spring-Summer-2027----Onsite_01870090": {
+"first_seen": "2026-09-29",
+"title": "Display Systems Engineering Co-op (Spring/Summer 2027) - Onsite",
+"company": "RTX",
+"desc": ""
+},
+"https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-IA-CEDAR-RAPIDS-131--5450-C-Ave-NE--BLDG-131/Systems-Engineer---Spring-Summer-Co-op-2027----Onsite-_01871506": {
+"first_seen": "2026-09-29",
+"title": "Systems Engineer - Spring/Summer Co-op 2027 - (Onsite)",
+"company": "RTX",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/11e12aaa-6e95-477a-a2ef-b0995c36edee": {
+"first_seen": "2026-09-29",
+"title": "Electrical Engineer Co-op",
+"company": "Johnson & Johnson",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/001c802d-81c2-4f30-8396-f15d442266a7": {
+"first_seen": "2026-09-29",
+"title": "System Test Engineer Co-op Intern",
+"company": "iRhythm Technologies",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/2b37797f-f21c-4a29-b163-6469e2a2c64d": {
+"first_seen": "2026-09-29",
+"title": "Firmware Quality Assurance Engineer Co-op Intern",
+"company": "iRhythm Technologies",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/42197318-8dfb-44d7-858c-40530bf1b62c": {
+"first_seen": "2026-09-29",
+"title": "Electrical Engineer Intern",
+"company": "Schweitzer Engineering Laboratories",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4473053240": {
+"first_seen": "2026-09-29",
+"title": "Power Amplifier Design Co-Op (June-December 20270",
+"company": "Skyworks Solutions, Inc.",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4473028040": {
+"first_seen": "2026-09-29",
+"title": "Co-op: Columbus Forge Disk (CFD) Systems Controls Engineer (January 2027 Start)",
+"company": "Pratt & Whitney",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4472786822": {
+"first_seen": "2026-09-29",
+"title": "IC Design Intern",
+"company": "MACOM",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4473052203": {
+"first_seen": "2026-09-29",
+"title": "RF Technician Co-Op (Winter/Spring 2027)",
+"company": "Skyworks Solutions, Inc.",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4472795583": {
+"first_seen": "2026-09-29",
+"title": "RF Product Engineering Intern",
+"company": "MACOM",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4473000434": {
+"first_seen": "2026-09-29",
+"title": "Diodes Product Engineering Intern",
+"company": "MACOM",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4473065205": {
+"first_seen": "2026-09-29",
+"title": "Product Engineer Intern",
+"company": "MACOM",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4462951062": {
+"first_seen": "2026-09-29",
+"title": "Intern - DRAM Test Structure Design and Layout Engineering",
+"company": "Micron Technology",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4473053591": {
+"first_seen": "2026-09-29",
+"title": "GaN Device Characterization & Modeling Intern",
 "company": "MACOM",
 "desc": ""
 }
