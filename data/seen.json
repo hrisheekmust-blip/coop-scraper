@@ -5852,7 +5852,7 @@
 },
 "https://globalfoundries.wd1.myworkdayjobs.com/External/job/SGP---Woodlands/XMLNAME---Engineer-Quality-QMS-Intern--Jan-Jun-2027-_JR-2604510-1": {
 "first_seen": "2026-09-21",
-"title": "\u2022\tEngineer Quality QMS Intern (Jan-Jun 2027)",
+"title": "Engineer Quality QMS Intern (Jan-Jun 2027)",
 "company": "GlobalFoundries",
 "desc": ""
 },
@@ -9574,6 +9574,174 @@
 "first_seen": "2026-09-30",
 "title": "Intern - ATE Process Engineer ID1",
 "company": "Micron Technology",
+"desc": ""
+},
+"https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Petah-Tikva/Design-Verification---Intern_2604481-1": {
+"first_seen": "2026-09-30",
+"title": "Design Verification - Intern",
+"company": "Marvell",
+"desc": "  About Marvell   Marvell\u2019s semiconductor solutions are the essential building blocks of the data infrastructure that connects our world. Across enterprise, cloud and AI, and carrier architectures, our innovative technology is enabling new possibilities.\u00a0    At Marvell, you can affect the arc of individual lives, lift the trajectory of entire industries, and fuel the transformative potential of tomorrow. For those looking to make their mark on purposeful and enduring innovation, above and beyond fleeting trends, Marvell is a place to thrive, learn, and lead.\u00a0     Your Team, Your Impact  Join a highly skilled development team, driving the development of Marvell's next-generation network switches. Our team is responsible for a wide range of IPs for switching products, from initial definition through architecture, design, and verification. As an intern, you will learn switch architecture, design and verification development tools and modern methodologies. You will be doing hands-on development tasks and learn to become an experienced engineer. You will learn system verilog, UVM, Python, C++, using AI tools, and how to implement and verify complex features. You will investigate and implement new protocols and features and verify them to tapeout quality. We are looking for excellent students, able to handle complex problems, with excellent people relations and collaboration skills.    What You Can Expect    Implement new features in design and verification.  Reach high-frequency, "
+},
+"https://careers.skyworksinc.com/job/RF-Filter-Design-BAW-development-Co-Op/78244-en_US": {
+"first_seen": "2026-09-30",
+"title": "RF Filter Design / BAW development Co-Op",
+"company": "Skyworks",
+"desc": ""
+},
+"https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-IA-CEDAR-RAPIDS-182--1100-Cimmie-Ave-Ne--BLDG-182/XMLNAME-2027-Systems-Engineer-Intern--Onsite----Mission-Sensor-Manager_01879093": {
+"first_seen": "2026-09-30",
+"title": "2027 Systems Engineer Intern (Onsite) - Mission Sensor Manager",
+"company": "RTX",
+"desc": "  Date Posted:  2026-09-29&#xa;&#xa;  Country:  United States of America&#xa;&#xa;  Location:  US-IA-CEDAR RAPIDS-182 ~ 1100 Cimmie Ave Ne ~ BLDG 182&#xa;&#xa;  Position Role Type:  Onsite&#xa;&#xa;   U.S. Citizen, U.S. Person, or Immigration Status Requirements:    U.S. citizenship is required, as only U.S. citizens are authorized to access information under this program/contract.&#xa;&#xa;  Security Clearance Type:   None/Not Required&#xa;&#xa;  Security Clearance Status:   Not Required     Are you ready to explore the world of aerospace and defense? Do you want to learn from and collaborate with some of the greatest minds in the industry? At RTX, our internships, co-ops and full-time careers provide an exceptional foundation to work on complex problems, advance your skills and create a safer, more connected world. Discover opportunities to make a difference at RTX.    What You Will Do:   Help ensure mission-critical avionics software performs flawlessly in the real world. As a Systems Engineer Intern\u00a0supporting Mission Sensors, Weapons, and IFF (Identification Friendly or Foe) avionics systems, you\u2019ll play a key role in primarily developing requirements, tests, verification, along with software and systems integration that support aerospace and defense applications. You\u2019ll work within a highly collaborative Agile team, helping develop and translate requirements into robust software solutions and test strategies while supporting system integration and verification efforts. "
+},
+"https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-IA-CEDAR-RAPIDS-108--400-Collins-Rd-NE--BLDG-108/Industrial-Engineering-Co-op--Spring-Summer-2027-_01874876": {
+"first_seen": "2026-09-30",
+"title": "Industrial Engineering Co-op (Spring/Summer 2027)",
+"company": "RTX",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/6f47eb79-90cd-4ed3-af26-2edf628356fd": {
+"first_seen": "2026-09-30",
+"title": "Process Engineer Intern/Co-op",
+"company": "Stantec",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/57abb112-942a-48e5-b2ae-e41c85f91226": {
+"first_seen": "2026-09-30",
+"title": "Test Engineer Co-op",
+"company": "Wabtec",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/c0e0b469-db4a-4519-953a-6872667b451d": {
+"first_seen": "2026-09-30",
+"title": "Firmware Engineer Co-op",
+"company": "Wabtec",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/1e7c1f0a-5b1c-4e0a-9320-eb8e37d27c45": {
+"first_seen": "2026-09-30",
+"title": "Product Engineer Co-op",
+"company": "Heraeus Group",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/8819b9d6-b38f-48be-b6dc-fd3cbe8db9c2": {
+"first_seen": "2026-09-30",
+"title": "Electrical Engineer Co-op",
+"company": "Arconic",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/b093dc80-6f35-4169-89f5-0d73730c8a3d": {
+"first_seen": "2026-09-30",
+"title": "Electrical Engineer Intern",
+"company": "Kimley-Horn",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/01ab6eec-4136-4128-af72-6ec106a0bada": {
+"first_seen": "2026-09-30",
+"title": "Electrical Engineer Intern",
+"company": "Wieland",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/f4ec9754-f694-4e49-89d1-e4e407d7d2ff": {
+"first_seen": "2026-09-30",
+"title": "EDA AI/ML Software Intern",
+"company": "Keysight Technologies",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/2f8cb420-1d37-4da2-b624-4a2f38e9d546": {
+"first_seen": "2026-09-30",
+"title": "EDA AI/ML Layout Engineering Intern",
+"company": "Keysight Technologies",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/954fb300-549f-44b9-b74a-c3400faeed5f": {
+"first_seen": "2026-09-30",
+"title": "Electrical Engineering Co-op",
+"company": "ABB",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/c3cff8bf-39b8-4c41-973c-0690998136dc": {
+"first_seen": "2026-09-30",
+"title": "Electrical Engineer Intern",
+"company": "CannonDesign",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/688f17ce-5f50-4920-b619-7b34f3968a7f": {
+"first_seen": "2026-09-30",
+"title": "Electrical Engineering Intern",
+"company": "Kimley-Horn",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/501328bb-0f33-407c-bbf6-feae377c8ad6": {
+"first_seen": "2026-09-30",
+"title": "Electrical/Hardware Engineering Intern",
+"company": "Hewlett Packard",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/c3cf0e0c-833f-44df-a0c9-d931121ecb8a": {
+"first_seen": "2026-09-30",
+"title": "System Validation Engineer Intern",
+"company": "Graphcore",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4464640324": {
+"first_seen": "2026-09-30",
+"title": "Electrical Controls Engineering Co-op - 2027",
+"company": "Johnsonville",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4462570209": {
+"first_seen": "2026-09-30",
+"title": "Electronics/Electrical Systems Engineer Co-Op (Fixed Term)",
+"company": "Blue Origin",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4471764700": {
+"first_seen": "2026-09-30",
+"title": "Reliability Engineering Intern",
+"company": "StructaLink Group",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4473544789": {
+"first_seen": "2026-09-30",
+"title": "Controls or Electrical Engineer Intern",
+"company": "KOCH Finishing Systems",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4473704283": {
+"first_seen": "2026-09-30",
+"title": "FPGA Engineering Co-op (Spring/Summer 2027)",
+"company": "Collins Aerospace",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4471983502": {
+"first_seen": "2026-09-30",
+"title": "Internship 2027 - Electrical Controls Engineer",
+"company": "Avion Solutions, Inc.",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4454510355": {
+"first_seen": "2026-09-30",
+"title": "ASIC Design Engineer Intern (Video Silicon IP) - 2027 Summer",
+"company": "ByteDance",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4473705655": {
+"first_seen": "2026-09-30",
+"title": "CAD Model Design Intern",
+"company": "Analytical Mechanics Associates",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4473589306": {
+"first_seen": "2026-09-30",
+"title": "Product Reliability Engineering Intern",
+"company": "MACOM",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4471782695": {
+"first_seen": "2026-09-30",
+"title": "Electrical Engineering Intern",
+"company": "RoboNex 88 Technologies",
 "desc": ""
 }
 }
