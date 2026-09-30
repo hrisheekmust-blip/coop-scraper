@@ -79,7 +79,6 @@
   "hw": "electrical engineer",
   "tier": "big",
   "sources": [
-   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-09-17",
@@ -1272,7 +1271,6 @@
   "hw": "electrical engineer",
   "tier": "big",
   "sources": [
-   "internlist:coop",
    "workday"
   ],
   "first_seen": "2026-09-18",
@@ -1307,7 +1305,6 @@
   "hw": "metrology",
   "tier": "big",
   "sources": [
-   "internlist:coop",
    "workday"
   ],
   "first_seen": "2026-09-18",
@@ -1342,7 +1339,6 @@
   "hw": "product engineering",
   "tier": "big",
   "sources": [
-   "internlist:coop",
    "workday"
   ],
   "first_seen": "2026-09-18",
@@ -2111,6 +2107,23 @@
    "lever"
   ],
   "first_seen": "2026-09-18",
+  "last_seen": "2026-09-30"
+ },
+ {
+  "company": "Hermeus",
+  "title": "Loads & Dynamics Engineering Intern - Summer 2027",
+  "location": "Los Angeles, CA",
+  "url": "https://jobs.lever.co/hermeus/29c10a11-aa02-4d64-83d0-00001cbd3ac0",
+  "posted": "1790798692",
+  "deadline": "",
+  "term": "spring",
+  "rank": "A",
+  "hw": "maybe",
+  "tier": "startup",
+  "sources": [
+   "lever"
+  ],
+  "first_seen": "2026-09-30",
   "last_seen": "2026-09-30"
  },
  {
@@ -2932,23 +2945,6 @@
  },
  {
   "company": "RTX",
-  "title": "A2G 2027 Spring/Summer Co-op- Systems Engineering (Onsite)",
-  "location": "US-IA-CEDAR RAPIDS-131 ~ 5450 C Ave NE ~ BLDG 131",
-  "url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-IA-CEDAR-RAPIDS-131--5450-C-Ave-NE--BLDG-131/A2G-2027-Spring-Summer-Co-op--Systems-Engineering--Onsite-_01869257",
-  "posted": "Posted 3 Days Ago",
-  "deadline": "",
-  "term": "spring",
-  "rank": "A",
-  "hw": "maybe",
-  "tier": "big",
-  "sources": [
-   "workday"
-  ],
-  "first_seen": "2026-09-28",
-  "last_seen": "2026-09-30"
- },
- {
-  "company": "RTX",
   "title": "CH-53K Systems Engineering Coop (Spring/Summer 2027) - Onsite",
   "location": "US-IA-CEDAR RAPIDS-182 ~ 1100 Cimmie Ave Ne ~ BLDG 182",
   "url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-IA-CEDAR-RAPIDS-182--1100-Cimmie-Ave-Ne--BLDG-182/CH-53K-Systems-Engineering-Coop--Spring-Summer-2027----Onsite_01872668",
@@ -3047,23 +3043,6 @@
    "workday"
   ],
   "first_seen": "2026-09-24",
-  "last_seen": "2026-09-30"
- },
- {
-  "company": "RTX",
-  "title": "Electromagnetic Compatibility Engineering Co-Op (Spring/Summer 2027)",
-  "location": "US-IL-ROCKFORD-P6 ~ 4747 Harrison Ave ~ 4747 HARRISON AVE-P6",
-  "url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-IL-ROCKFORD-P6--4747-Harrison-Ave--4747-HARRISON-AVE-P6/Electromagnetic-Compatibility-Engineering-Co-Op--Spring-Summer-2027-_01872918",
-  "posted": "Posted 3 Days Ago",
-  "deadline": "",
-  "term": "spring",
-  "rank": "A",
-  "hw": "maybe",
-  "tier": "big",
-  "sources": [
-   "workday"
-  ],
-  "first_seen": "2026-09-28",
   "last_seen": "2026-09-30"
  },
  {
@@ -3426,9 +3405,9 @@
  {
   "company": "Rocket Lab",
   "title": "Manufacturing Engineering Intern Spring 2027",
-  "location": "Middle River, MD",
-  "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7987020003",
-  "posted": "2026-09-16",
+  "location": "Wallops Island, VA",
+  "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7996617003",
+  "posted": "2026-09-17",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -3443,9 +3422,9 @@
  {
   "company": "Rocket Lab",
   "title": "Manufacturing Engineering Intern Spring 2027",
-  "location": "Wallops Island, VA",
-  "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7996617003",
-  "posted": "2026-09-17",
+  "location": "Middle River, MD",
+  "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7987020003",
+  "posted": "2026-09-16",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -3673,8 +3652,7 @@
   "hw": "electrical engineer",
   "tier": "startup",
   "sources": [
-   "ashby",
-   "jobspy:linkedin"
+   "ashby"
   ],
   "first_seen": "2026-09-17",
   "last_seen": "2026-09-30"
@@ -4677,7 +4655,6 @@
   "hw": "silicon",
   "tier": "big",
   "sources": [
-   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-09-17",
@@ -5070,7 +5047,6 @@
   "hw": "test engineer",
   "tier": "big",
   "sources": [
-   "jobspy:indeed",
    "smartrecruiters"
   ],
   "first_seen": "2026-09-29",
@@ -5890,6 +5866,23 @@
    "jobspy:linkedin"
   ],
   "first_seen": "2026-09-28",
+  "last_seen": "2026-09-30"
+ },
+ {
+  "company": "onsemi",
+  "title": "Spring 2027 - Manufacturing Engineer Intern",
+  "location": "Nampa, ID, United States",
+  "url": "https://hctz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2506813",
+  "posted": "2026-09-30",
+  "deadline": "",
+  "term": "spring",
+  "rank": "A",
+  "hw": "maybe",
+  "tier": "big",
+  "sources": [
+   "oracle_hcm"
+  ],
+  "first_seen": "2026-09-30",
   "last_seen": "2026-09-30"
  },
  {
@@ -8718,8 +8711,6 @@
   "hw": "electronics",
   "tier": "big",
   "sources": [
-   "internlist:coop",
-   "internlist:winter-spring",
    "workday"
   ],
   "first_seen": "2026-09-18",
@@ -9124,23 +9115,6 @@
  },
  {
   "company": "RTX",
-  "title": "2027 Summer-Fall Co-op - Systems Engineering (Onsite)",
-  "location": "US-IA-CEDAR RAPIDS-131 ~ 5450 C Ave NE ~ BLDG 131",
-  "url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-IA-CEDAR-RAPIDS-131--5450-C-Ave-NE--BLDG-131/XMLNAME-2027-Summer-Fall-Co-op---Systems-Engineering--Onsite-_01868438",
-  "posted": "Posted 3 Days Ago",
-  "deadline": "",
-  "term": "coop-unspecified",
-  "rank": "B",
-  "hw": "maybe",
-  "tier": "big",
-  "sources": [
-   "workday"
-  ],
-  "first_seen": "2026-09-28",
-  "last_seen": "2026-09-30"
- },
- {
-  "company": "RTX",
   "title": "2027 Systems Engineering Co-op \u2013 Special Operations Aviation Mainline (Onsite)",
   "location": "US-IA-CEDAR RAPIDS-182 ~ 1100 Cimmie Ave Ne ~ BLDG 182",
   "url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-IA-CEDAR-RAPIDS-182--1100-Cimmie-Ave-Ne--BLDG-182/XMLNAME-2027-Systems-Engineering-Co-op---Special-Operations-Aviation-Mainline--Onsite-_01870331",
@@ -9322,9 +9296,7 @@
   "hw": "firmware",
   "tier": "big",
   "sources": [
-   "greenhouse",
-   "internlist:coop",
-   "internlist:winter-spring"
+   "greenhouse"
   ],
   "first_seen": "2026-09-24",
   "last_seen": "2026-09-30"
@@ -9395,23 +9367,6 @@
    "successfactors"
   ],
   "first_seen": "2026-09-28",
-  "last_seen": "2026-09-30"
- },
- {
-  "company": "Skyworks",
-  "title": "RF Design Automation Co-Op",
-  "location": "Andover, MA, USA    ",
-  "url": "https://careers.skyworksinc.com/job/RF-Design-Automation-Co-Op/78166-en_US",
-  "posted": "2026-08-12",
-  "deadline": "",
-  "term": "coop-unspecified",
-  "rank": "B",
-  "hw": "rf",
-  "tier": "big",
-  "sources": [
-   "successfactors"
-  ],
-  "first_seen": "2026-09-17",
   "last_seen": "2026-09-30"
  },
  {
@@ -11699,7 +11654,6 @@
   "hw": "circuits",
   "tier": "big",
   "sources": [
-   "jobspy:indeed",
    "workday"
   ],
   "first_seen": "2026-09-30",
@@ -12118,8 +12072,8 @@
   "company": "GE Aerospace",
   "title": "Military DoD SkillBridge Internship - Test Technician Level 2 \u2013 On Wing Support",
   "location": "Pittsburgh",
-  "url": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Pittsburgh/Military-DoD-SkillBridge-Internship---Test-Technician-Level-2---On-Wing-Support_R5032038-1",
-  "posted": "Posted 30+ Days Ago",
+  "url": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Pittsburgh/Military-DoD-SkillBridge-Internship---Test-Technician-Level-2---On-Wing-Support_R5040996-1",
+  "posted": "Posted Today",
   "deadline": "",
   "term": "unspecified",
   "rank": "C",
@@ -12128,7 +12082,7 @@
   "sources": [
    "workday"
   ],
-  "first_seen": "2026-09-18",
+  "first_seen": "2026-09-30",
   "last_seen": "2026-09-30"
  },
  {
@@ -12848,6 +12802,23 @@
  },
  {
   "company": "Intel",
+  "title": "GPU Physical Design Engineer Intern",
+  "location": "Costa Rica, San Jose",
+  "url": "https://intel.wd1.myworkdayjobs.com/External/job/Costa-Rica-San-Jose/GPU-Physical-Design-Engineer-Intern_JR0287532",
+  "posted": "Posted Today",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "physical design",
+  "tier": "big",
+  "sources": [
+   "workday"
+  ],
+  "first_seen": "2026-09-30",
+  "last_seen": "2026-09-30"
+ },
+ {
+  "company": "Intel",
   "title": "Platform Hardware and Systems Engineering - Intern, Bachelor\u2019s",
   "location": "5 Locations",
   "url": "https://intel.wd1.myworkdayjobs.com/External/job/US-Oregon-Hillsboro/Platform-Hardware-and-Systems-Engineering---Intern--Bachelor-s_JR0286827",
@@ -12977,7 +12948,6 @@
   "hw": "optical engineer",
   "tier": "big",
   "sources": [
-   "jobspy:linkedin",
    "workday"
   ],
   "first_seen": "2026-09-30",
@@ -13685,6 +13655,23 @@
   "last_seen": "2026-09-30"
  },
  {
+  "company": "Leidos",
+  "title": "Embedded Design Engineering Intern \u2013 Firmware",
+  "location": "Huntsville, AL",
+  "url": "https://leidos.wd5.myworkdayjobs.com/External/job/Huntsville-AL/Embedded-Design-Engineering-Intern---Firmware_R-00193574",
+  "posted": "Posted Today",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "embedded,firmware",
+  "tier": "big",
+  "sources": [
+   "workday"
+  ],
+  "first_seen": "2026-09-30",
+  "last_seen": "2026-09-30"
+ },
+ {
   "company": "Lightmatter",
   "title": "Photonics Characterization Intern & New Grad",
   "location": "Boston, MA",
@@ -13730,8 +13717,7 @@
   "hw": "packaging engineer,silicon",
   "tier": "startup",
   "sources": [
-   "greenhouse",
-   "internlist:winter-spring"
+   "greenhouse"
   ],
   "first_seen": "2026-09-17",
   "last_seen": "2026-09-30"
@@ -14006,23 +13992,6 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-09-30"
- },
- {
-  "company": "Marvell",
-  "title": "Analog Design Intern",
-  "location": "Santa Clara, CA",
-  "url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Santa-Clara-CA/Analog-Design-Intern_2604084",
-  "posted": "Posted 4 Days Ago",
-  "deadline": "",
-  "term": "unspecified",
-  "rank": "C",
-  "hw": "analog",
-  "tier": "big",
-  "sources": [
-   "workday"
-  ],
-  "first_seen": "2026-09-26",
   "last_seen": "2026-09-30"
  },
  {
@@ -14567,6 +14536,23 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-09-18",
+  "last_seen": "2026-09-30"
+ },
+ {
+  "company": "Monolithic Power Systems",
+  "title": "CAD intern",
+  "location": "San Jose, CA",
+  "url": "https://monolithicpower.wd12.myworkdayjobs.com/MPS_Careers/job/San-Jose-CA/CAD-intern_R-2029",
+  "posted": "Posted Today",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "cad",
+  "tier": "big",
+  "sources": [
+   "workday"
+  ],
+  "first_seen": "2026-09-30",
   "last_seen": "2026-09-30"
  },
  {
@@ -16355,6 +16341,40 @@
   "last_seen": "2026-09-30"
  },
  {
+  "company": "Skyworks",
+  "title": "Analog/Mixed-Signal Intern",
+  "location": "Nashua, NH, USA    ",
+  "url": "https://careers.skyworksinc.com/job/AnalogMixed-Signal-Intern/78414-en_US",
+  "posted": "2026-09-30",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "analog,mixed-signal",
+  "tier": "big",
+  "sources": [
+   "successfactors"
+  ],
+  "first_seen": "2026-09-30",
+  "last_seen": "2026-09-30"
+ },
+ {
+  "company": "Skyworks",
+  "title": "Analog/mixed-signal Design Intern",
+  "location": "Nashua, NH, USA    ",
+  "url": "https://careers.skyworksinc.com/job/Analogmixed-signal-Design-Intern/78367-en_US",
+  "posted": "2026-09-30",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "analog,mixed-signal",
+  "tier": "big",
+  "sources": [
+   "successfactors"
+  ],
+  "first_seen": "2026-09-30",
+  "last_seen": "2026-09-30"
+ },
+ {
   "company": "Stryker",
   "title": "Electrical Engineering Intern",
   "location": "Weston, FL, USA",
@@ -16519,8 +16539,6 @@
   "hw": "digital design,verification",
   "tier": "big",
   "sources": [
-   "jobspy:indeed",
-   "jobspy:linkedin",
    "oracle_hcm"
   ],
   "first_seen": "2026-09-28",
