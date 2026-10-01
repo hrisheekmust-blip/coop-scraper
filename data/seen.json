@@ -5576,7 +5576,7 @@
 },
 "https://simplify.jobs/jobs/click/e1468fbb-919f-4a99-ac32-2eeed45252b7": {
 "first_seen": "2026-09-19",
-"title": "Electrical Engineer Intern",
+"title": "Electrical Engineering Intern",
 "company": "Kimley-Horn",
 "desc": ""
 },
@@ -6986,7 +6986,7 @@
 },
 "https://simplify.jobs/jobs/click/377a2a22-6017-4f3f-9fc2-3793bd76e16d": {
 "first_seen": "2026-09-23",
-"title": "Device Engineer Intern/Co-op",
+"title": "Device Engineer Intern Co-op",
 "company": "Panther Life Sciences",
 "desc": ""
 },
@@ -10096,6 +10096,150 @@
 "first_seen": "2026-10-01",
 "title": "Hardware Reliability & Test Engineering Intern",
 "company": "Base Power Company",
+"desc": ""
+},
+"https://job-boards.greenhouse.io/vardaspace/jobs/8010167003": {
+"first_seen": "2026-10-01",
+"title": "Structures Engineering Internship - Summer 2027",
+"company": "Varda Space",
+"desc": ""
+},
+"https://job-boards.greenhouse.io/vardaspace/jobs/8010172003": {
+"first_seen": "2026-10-01",
+"title": "Thermal Engineering Internship - Summer 2027",
+"company": "Varda Space",
+"desc": ""
+},
+"https://flir.wd1.myworkdayjobs.com/flircareers/job/US---Chestnut-Ridge-NY/Manufacturing-Engineer-Co-Op_REQ36603": {
+"first_seen": "2026-10-01",
+"title": "Manufacturing Engineer Co-Op",
+"company": "Teledyne FLIR",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/b775300a-deec-4b5e-a53d-8890bf6e9e02": {
+"first_seen": "2026-10-01",
+"title": "R&D Electrical Engineer Co-op",
+"company": "ABB",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/89a55bb0-1a26-4c4b-8874-d26cf1f5d2b7": {
+"first_seen": "2026-10-01",
+"title": "Embedded Design Engineer Intern",
+"company": "Leidos",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/77683a46-3905-4bb2-8804-a1a8b4ac003a": {
+"first_seen": "2026-10-01",
+"title": "Electrical Engineering Co-op",
+"company": "CAE",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/d05474d6-97d6-4b12-ab94-1e5b8edb7b97": {
+"first_seen": "2026-10-01",
+"title": "Electrical Engineer Intern",
+"company": "Kimley-Horn",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/8c3babb7-dcbc-4c5e-af7a-a879eae188ea": {
+"first_seen": "2026-10-01",
+"title": "Product Engineer Intern",
+"company": "Booz Allen",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/a364de31-c343-4f07-a805-18190208ab18": {
+"first_seen": "2026-10-01",
+"title": "Test Technician Level 2 Intern",
+"company": "GE Aerospace",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/51cc2941-0688-4fdf-bcdf-e8a3b22d856e": {
+"first_seen": "2026-10-01",
+"title": "CAD Intern",
+"company": "Monolithic Power Systems",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/9750e606-5a81-4a74-9492-ca1a93b10e38": {
+"first_seen": "2026-10-01",
+"title": "Optical Engineer Intern",
+"company": "KLA Corporation",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/66fd3b4a-cc9c-4090-9786-0bf42637abfd": {
+"first_seen": "2026-10-01",
+"title": "Optical Engineer Intern",
+"company": "KLA",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/bdf2648c-f542-4f77-9441-246628f0597e": {
+"first_seen": "2026-10-01",
+"title": "Electrical Engineering Intern",
+"company": "Kimley-Horn",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/9b261b80-926c-47fb-86e5-5fcfc6caca4a": {
+"first_seen": "2026-10-01",
+"title": "Electrical Engineering Intern/Co-op",
+"company": "Arcadis",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/c7dd7c71-8500-4061-87cf-a5a63925732e": {
+"first_seen": "2026-10-01",
+"title": "Electrical Engineer Intern",
+"company": "L3Harris Technologies",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/c1927093-f6c0-419a-aa07-4178c1dffdf2": {
+"first_seen": "2026-10-01",
+"title": "Electrical Engineering Intern",
+"company": "L3Harris Technologies",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/425f9072-8894-4abe-aff3-1bf6ccd9c848": {
+"first_seen": "2026-10-01",
+"title": "Hardware Reliability & Test Engineering Intern",
+"company": "Base Power",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/0910ff0b-c0a1-4f8f-aeb8-eba0cddb551c": {
+"first_seen": "2026-10-01",
+"title": "Medium Voltage Test Engineering Intern",
+"company": "Heron Power",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4472388628": {
+"first_seen": "2026-10-01",
+"title": "RF Hardware Intern (Winter 2027)",
+"company": "Astranis Space Technologies",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4472194349": {
+"first_seen": "2026-10-01",
+"title": "Electrical Engineering Intern",
+"company": "Vortexion Labs",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4472398757": {
+"first_seen": "2026-10-01",
+"title": "Intern - System Test Automation Engineer \u2013 San Diego, CA \u2013 Summer 2027",
+"company": "Philips",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4474125135": {
+"first_seen": "2026-10-01",
+"title": "2027 Test Engineering Intern - VSFB CA",
+"company": "Northrop Grumman",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4473950371": {
+"first_seen": "2026-10-01",
+"title": "Validation Engineer Co-op Spring 2027",
+"company": "Randstad USA",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4472643873": {
+"first_seen": "2026-10-01",
+"title": "CAD intern",
+"company": "Monolithic Power Systems, Inc.",
 "desc": ""
 }
 }
