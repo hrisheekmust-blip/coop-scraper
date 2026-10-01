@@ -36,10 +36,16 @@
   "tier": "big"
  },
  {
+  "name": "HP",
+  "ats": "greenhouse",
+  "token": "hp",
+  "tier": "big"
+ },
+ {
   "name": "Navitas Semiconductor",
   "ats": "smartrecruiters",
   "slug": "navitas",
-  "tier": "big"
+  "tier": "startup"
  },
  {
   "name": "Arista Networks",
@@ -87,7 +93,7 @@
   "name": "Lightmatter",
   "ats": "greenhouse",
   "token": "lightmatter",
-  "tier": "big"
+  "tier": "startup"
  },
  {
   "name": "Whoop",
@@ -99,7 +105,7 @@
   "name": "Rapid Micro Biosystems",
   "ats": "lever",
   "token": "rapidmicrobio",
-  "tier": "big"
+  "tier": "startup"
  },
  {
   "name": "Cerebras",
@@ -111,19 +117,19 @@
   "name": "Etched",
   "ats": "ashby",
   "token": "etched",
-  "tier": "big"
+  "tier": "startup"
  },
  {
   "name": "d-Matrix",
   "ats": "ashby",
   "token": "d-matrix",
-  "tier": "big"
+  "tier": "startup"
  },
  {
   "name": "MatX",
   "ats": "ashby",
   "token": "matx",
-  "tier": "big"
+  "tier": "startup"
  },
  {
   "name": "Tenstorrent",
@@ -135,43 +141,43 @@
   "name": "Axelera AI",
   "ats": "ashby",
   "token": "axelera",
-  "tier": "big"
+  "tier": "startup"
  },
  {
   "name": "Fractile",
   "ats": "greenhouse",
   "token": "fractile",
-  "tier": "big"
+  "tier": "startup"
  },
  {
   "name": "Extropic",
   "ats": "ashby",
   "token": "extropic",
-  "tier": "big"
+  "tier": "startup"
  },
  {
   "name": "Normal Computing",
   "ats": "ashby",
   "token": "normalcomputing",
-  "tier": "big"
+  "tier": "startup"
  },
  {
   "name": "Eliyan",
   "ats": "lever",
   "token": "eliyan",
-  "tier": "big"
+  "tier": "startup"
  },
  {
   "name": "Lumotive",
   "ats": "lever",
   "token": "lumotive",
-  "tier": "big"
+  "tier": "startup"
  },
  {
   "name": "Substrate",
   "ats": "ashby",
   "token": "substrate",
-  "tier": "big"
+  "tier": "startup"
  },
  {
   "name": "Kioxia America",
@@ -189,7 +195,7 @@
   "name": "Rain AI",
   "ats": "ashby",
   "token": "rain",
-  "tier": "big"
+  "tier": "startup"
  },
  {
   "name": "Epirus",
@@ -237,6 +243,6 @@
   "name": "Mach Industries",
   "ats": "greenhouse",
   "token": "machindustries",
-  "tier": "big"
+  "tier": "startup"
  }
 ]
