@@ -1,19 +1,57 @@
 # New postings — 2026-10-02
 
-3 new of 981 tracked. Rank A = spring/Jan 2027 explicit, B = co-op with term unstated, C = intern with no term stated.
+42 new of 1069 tracked. Rank A = spring/Jan 2027 explicit, B = co-op with term unstated, C = intern with no term stated.
 
 | Rank | Term | Company | Role | Location | Posted | Link |
 |---|---|---|---|---|---|---|
-| C | unspecified | onsemi | Reliability Intern | Dong Nai, Viet Nam | 2026-10-02 | [apply](https://hctz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2506772) |
-| A | spring | RTX | Stage – Hiver 2027 - Coordination des projets de recherche collaboratifs et amelioration du processus de gestion des technologies / Internship – Winter 2027 - Collaborative Research Projects Coordination & Technology Management Process Improvement | CA-QC-LONGUEUIL-J01 ~ 1000 Blvd Marie-Victorin ~ J01 BLDG | Posted Today | [apply](https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/CA-QC-LONGUEUIL-J01--1000-Blvd-Marie-Victorin--J01-BLDG/Stage---Hiver-2027---Coordination-des-projets-de-recherche-collaboratifs-et-amelioration-du-processus-de-gestion-des-technologies---Internship---Winter-2027---Collaborative-Research-Projects-Coordination---Technology-Management-Process-Improvement_01868255) |
-| B | coop-unspecified | Wabtec | Transducer Manufacturing Engineering Co-Op | Waltham, MA, United States | 2026-10-02 | [apply](https://jobs.smartrecruiters.com/wabtec/3743990015874986) |
+| B | coop-unspecified | Rivian | Engineer Intern Co-op | Palo Alto, CA, USA | 2026-10-01 | [apply](https://simplify.jobs/jobs/click/6afc68db-8174-4996-815c-024b34fd54b0) |
+| B | coop-unspecified | Rivian | Audio Hardware Engineer Intern Co-op | Palo Alto, CA, USA | 2026-09-30 | [apply](https://simplify.jobs/jobs/click/a92fa0b6-3ef2-4c58-8fc3-5597e8ac9fcb) |
+| B | coop-unspecified | Rivian | Engineering Intern/Co-op | Palo Alto, CA, USA | 2026-09-30 | [apply](https://simplify.jobs/jobs/click/5d100053-6d4b-4c33-8d82-3223fd0e3410) |
+| B | coop-unspecified | AMD | Hardware Design Verification Engineer Co-op/Intern | San Jose, CA, USA; Santa Clara, CA, USA | 2026-08-21 | [apply](https://simplify.jobs/jobs/click/c042921c-cebf-43b2-952d-c5484993695b) |
+| C | unspecified | Kimley-Horn | Electrical Engineer Intern | Sacramento, CA, USA | 2026-10-02 | [apply](https://simplify.jobs/jobs/click/0f02889b-d52b-4c31-8695-f9aac3f08e39) |
+| C | unspecified | BGE | Electrical Engineer Intern | Austin, TX, USA | 2026-10-01 | [apply](https://simplify.jobs/jobs/click/f86e7d72-e7ba-49e6-84b3-4d702568ca07) |
+| C | unspecified | BGE | Electrical Engineer Internship | Frisco, TX, USA | 2026-10-01 | [apply](https://simplify.jobs/jobs/click/e99dec20-2b5e-4332-89d2-2048f9fe670c) |
+| C | unspecified | Magna | Optics Engineering Intern | Southfield, MI, USA | 2026-10-01 | [apply](https://simplify.jobs/jobs/click/1c2be5c5-568e-4267-992c-d7b9469c0e33) |
+| C | unspecified | Keysight Technologies | R&D Software Engineering Intern | Santa Clara, CA, USA; Calabasas, CA, USA | 2026-09-22 | [apply](https://simplify.jobs/jobs/click/cbd56b83-ba52-4c04-b781-d4ae5e585151) |
+| A | spring | The Hershey Company | Future Opportunities Electrical Controls Co-Op (Spring 2027) | Hershey, PA | 2026-10-02 | [apply](https://www.linkedin.com/jobs/view/4473371988) |
+| A | spring | SSOE Group | Electrical Engineering Co-Op - Spring 2027 | Toledo, OH | 2026-10-02 | [apply](https://www.linkedin.com/jobs/view/4475038260) |
+| A | spring | Insulet Corporation | Co-op, Life Cycle Engineering - Electrical: January - June 2027 (Hybrid) | Acton, MA | 2026-10-02 | [apply](https://www.linkedin.com/jobs/view/4464817103) |
+| A | spring | Insulet Corporation | Co-op, R&D Electrical Engineering: January - June 2027 (Hybrid) | Acton, MA | 2026-10-02 | [apply](https://www.linkedin.com/jobs/view/4464821070) |
+| B | coop-unspecified | Southwire Company | Electrical Engineer Co-op | Carrollton, GA | 2026-10-02 | [apply](https://www.linkedin.com/jobs/view/4465888523) |
+| A | spring | Bridgestone Americas | Electrical Engineering Co-op Spring 2027 | Nashville, TN | 2026-10-02 | [apply](https://www.linkedin.com/jobs/view/4455447044) |
+| B | coop-unspecified | Schaeffler | Co-Op - Humanoid Robotics (Electrical Engineering) - 2027 | Troy, MI | 2026-10-02 | [apply](https://www.linkedin.com/jobs/view/4475017211) |
+| C | unspecified | NVIDIA | NVIDIA 2027 Internships: Hardware Engineering | Santa Clara, CA | 2026-10-02 | [apply](https://www.linkedin.com/jobs/view/4455482190) |
+| C | unspecified | Infineon Technologies | Internship - IC Analog Design | Andover, MA | 2026-10-02 | [apply](https://www.linkedin.com/jobs/view/4474753381) |
+| C | unspecified | NVIDIA | NVIDIA 2027 Internships: Mixed Signal Design | Santa Clara, CA | 2026-10-02 | [apply](https://www.linkedin.com/jobs/view/4455491140) |
+| C | unspecified | TetraMem - Accelerate The World | US 2026 Hardware - Analog Intern | San Jose, CA | 2026-10-02 | [apply](https://www.linkedin.com/jobs/view/4473390340) |
+| C | unspecified | Analog Devices | Mixed Signal Engineer Intern | Durham, NC | 2026-10-02 | [apply](https://www.linkedin.com/jobs/view/4454163998) |
+| C | unspecified | NVIDIA | NVIDIA 2027 Internships: Digital Circuit Design | Santa Clara, CA | 2026-10-02 | [apply](https://www.linkedin.com/jobs/view/4455483200) |
+| C | unspecified | IBM | Microarchitecture / Software Intern 2027 - AI Accelerators Research | Yorktown Heights, NY | 2026-10-02 | [apply](https://www.linkedin.com/jobs/view/4463932655) |
+| C | unspecified | IBM | Silicon Technology Research and Development Hardware Engineering Intern 2027 | Albany, NY | 2026-10-02 | [apply](https://www.linkedin.com/jobs/view/4463929719) |
+| A | spring | Brewer Science | Process Engineer Co-Op | Vichy, MO | 2026-10-02 | [apply](https://www.linkedin.com/jobs/view/4475019815) |
+| C | unspecified | Micron Technology | Intern - ATE Process Engineer ID1 | Boise, ID | 2026-10-02 | [apply](https://www.linkedin.com/jobs/view/4473343194) |
+| C | unspecified | NVIDIA | NVIDIA 2027 Internships: Hardware Verification | Santa Clara, CA | 2026-10-02 | [apply](https://www.linkedin.com/jobs/view/4455474235) |
+| C | unspecified | NVIDIA | NVIDIA 2027 Internships: Hardware Physical Design / VLSI | Santa Clara, CA | 2026-10-02 | [apply](https://www.linkedin.com/jobs/view/4455486147) |
+| C | unspecified | Marvell Technology | Ph.D. Intern - AI/ML & Design Automation | Austin, TX | 2026-10-02 | [apply](https://www.linkedin.com/jobs/view/4463911968) |
+| A | spring | Persona AI | Electrical Engineering Internship | Greater Houston | 2026-10-02 | [apply](https://www.linkedin.com/jobs/view/4447230327) |
+| A | spring | Robynex Automation | Electrical Engineering Intern | Massachusetts, United States | 2026-10-02 | [apply](https://www.linkedin.com/jobs/view/4473161031) |
+| C | unspecified | RoboForce | Robotics Electrical Engineering Intern (Fall/Winter 2026) | Milpitas, CA | 2026-10-02 | [apply](https://www.linkedin.com/jobs/view/4474760393) |
+| C | unspecified | Marvell Technology | Ph.D. Intern - AI/ML & Design Automation | Westborough, MA | 2026-10-02 | [apply](https://www.linkedin.com/jobs/view/4463933024) |
+| C | unspecified | IBM | Silicon Technology Research and Development Research Scientist Intern - 2027 | Yorktown Heights, NY | 2026-10-02 | [apply](https://www.linkedin.com/jobs/view/4463935654) |
+| C | unspecified | Marvell Technology | Ph.D. Intern - AI/ML & Design Automation | Chandler, AZ | 2026-10-02 | [apply](https://www.linkedin.com/jobs/view/4463934025) |
+| C | unspecified | Graco | Electrical Engineer Intern | Rogers, MN | 2026-10-02 | [apply](https://www.linkedin.com/jobs/view/4463900569) |
+| C | unspecified | Graco | Electrical Engineering Intern | Dayton, MN | 2026-10-02 | [apply](https://www.linkedin.com/jobs/view/4463907630) |
+| C | unspecified | Everline Tech | Electrical Engineering Intern | Kentucky, United States | 2026-10-02 | [apply](https://www.linkedin.com/jobs/view/4473138995) |
+| C | unspecified | Marvell Technology | Ph.D. Intern - Advanced Packaging & Physical Integration | Westborough, MA | 2026-10-02 | [apply](https://www.linkedin.com/jobs/view/4463936005) |
+| C | unspecified | Marvell Technology | Ph.D. Intern - Advanced Packaging & Physical Integration | Santa Clara, CA | 2026-10-02 | [apply](https://www.linkedin.com/jobs/view/4463942567) |
+| C | unspecified | NVIDIA | NVIDIA 2027 Internships: Computer Architecture | Santa Clara, CA | 2026-10-02 | [apply](https://www.linkedin.com/jobs/view/4455487157) |
+| C | unspecified | NVIDIA | NVIDIA 2027 Internships: Deep Learning Computer Architecture | Santa Clara, CA | 2026-10-02 | [apply](https://www.linkedin.com/jobs/view/4455474232) |
 
 ## All tracked
 
 | Rank | Term | Company | Role | Location | Posted | Link |
 |---|---|---|---|---|---|---|
 | A | spring | 1X | Internship - Manufacturing Engineering | San Carlos, CA | 2026-09-14 | [apply](https://jobs.ashbyhq.com/1x/d687b375-8136-4e6f-baa6-369b89366050) |
-| A | spring | ABB | R&D Electrical Engineering Co-op - Spring 2027 | Bloomfield, CT | 2026-09-29 | [apply](https://www.linkedin.com/jobs/view/4473290708) |
 | A | spring | Amca | Electrical Engineering Internship (Winter Spring 2027) | El Segundo, CA | 2026-10-02 | [apply](https://www.linkedin.com/jobs/view/4472991438) |
 | A | spring | Anduril | Electrical Engineer Co-op | Quincy, MA, USA; Costa Mesa, CA, USA | 2026-09-15 | [apply](https://simplify.jobs/jobs/click/7facf78c-a3d2-4cd9-bbbe-c1673f0e7b99) |
 | A | spring | Anduril | Winter 2027 EWIS Harness Engineer Co-op | Costa Mesa, California, United States | 2026-09-24 | [apply](https://boards.greenhouse.io/andurilindustries/jobs/5236577007?gh_jid=5236577007) |
@@ -58,12 +96,16 @@
 | A | spring | BAE Systems | Electrical Engineering Coop (Spring/Summer 2027), Onsite | Cedar Rapids, Iowa, United States | 2026-10-01 | [apply](https://jobs.baesystems.com/global/en/job/127774BR/electrical-engineering-coop-spring-summer-2027-onsite) |
 | A | spring | BAE Systems | Material Engineering Co-op III (Spring/Summer 2027 or Summer/Fall 2027) | Cedar Rapids, Iowa, United States | 2026-10-01 | [apply](https://jobs.baesystems.com/global/en/job/129786BR/material-engineering-co-op-iii-spring-summer-2027-or-summer-fall-2027) |
 | A | spring | BAE Systems | Operations Engineering (Industrial, Mechanical, Electrical) Co-op, Spring/Summer, 2027 | Cedar Rapids, Iowa, United States | 2026-10-01 | [apply](https://jobs.baesystems.com/global/en/job/126541BR/operations-engineering-industrial-mechanical-electrical-co-op-spring-summer-2027) |
+| A | spring | Barry-Wehmiller | Controls Engineer Intern/Co-op | Remote in USA; Eau Claire, WI, USA; Boston, MA, USA | 2026-08-31 | [apply](https://simplify.jobs/jobs/click/76428358-6208-4aa7-a337-4ce9ae38a575) |
+| A | spring | Barry-Wehmiller | Validation Engineer Intern/Co-op | Raleigh, NC, USA | 2026-09-03 | [apply](https://simplify.jobs/jobs/click/b2545d26-df40-4a52-b189-30a48f145922) |
 | A | spring | Blue Origin | Electronics/Electrical Systems Engineer Co-Op (Fixed Term) | Los Angeles, CA | 2026-09-30 | [apply](https://www.linkedin.com/jobs/view/4462570209) |
 | A | spring | Booz Allen | Product Engineer Intern | McLean, VA, USA | 2026-09-30 | [apply](https://simplify.jobs/jobs/click/8c3babb7-dcbc-4c5e-af7a-a879eae188ea) |
-| A | spring | Bridgestone Americas | Electrical Engineer Co-op Summer/Fall 2027 | Nashville, TN | 2026-10-01 | [apply](https://www.linkedin.com/jobs/view/4455426986) |
+| A | spring | Brewer Science | Process Engineer Co-Op | Vichy, MO | 2026-10-02 | [apply](https://www.linkedin.com/jobs/view/4475019815) |
+| A | spring | Bridgestone Americas | Electrical Engineering Co-op Spring 2027 | Nashville, TN | 2026-10-02 | [apply](https://www.linkedin.com/jobs/view/4455447044) |
+| A | spring | CDM Smith | Electrical Engineering Co-op | Boston, MA, USA | 2026-09-04 | [apply](https://simplify.jobs/jobs/click/fc2b9f0e-8223-40c5-a952-c280e0f3245c) |
 | A | spring | Ciena | Verification Engineer Intern (Spring 2027) | Atlanta | Posted 10 Days Ago | [apply](https://ciena.wd5.myworkdayjobs.com/Careers/job/Atlanta/Verification-Engineer-Intern--Spring-2027-_R031686) |
 | A | spring | Cisco | Systems Quality Engineer I (Co-op) - United States | Maynard, MA | 2026-09-29 | [apply](https://www.linkedin.com/jobs/view/4473553226) |
-| A | spring | Collins Aerospace | Electrical Engineering Co-op (Winter/Spring 2027) | Cedar Rapids, IA, US | 2026-10-01 | [apply](https://www.indeed.com/viewjob?jk=735b28a2043475c8) |
+| A | spring | Collins Aerospace | Electrical Engineering Co-op (Winter/Spring 2027) | Cedar Rapids, IA | 2026-10-01 | [apply](https://www.linkedin.com/jobs/view/4474541016) |
 | A | spring | Collins Aerospace | FPGA Engineering Co-op (Spring/Summer 2027) | Cedar Rapids, IA | 2026-09-30 | [apply](https://www.linkedin.com/jobs/view/4473704283) |
 | A | spring | Collins Aerospace | Manufacturing Electrical Engineering Co-Op (Spring/Summer 2027) | Cedar Rapids, IA | 2026-10-01 | [apply](https://www.linkedin.com/jobs/view/4474527444) |
 | A | spring | Cummins | Product Engineering Co-op | Columbus, IN, USA | 2026-09-24 | [apply](https://simplify.jobs/jobs/click/1329d695-f070-43e6-a06f-a7be2fbb1234) |
@@ -73,7 +115,9 @@
 | A | spring | Draper | Electrical Engineering Co-Op (Spring 2027) | Cambridge, MA | Posted 10 Days Ago | [apply](https://draper.wd5.myworkdayjobs.com/Draper_Careers/job/Cambridge-MA/Electrical-Engineering-Co-Op--Spring-2027-_JR002941) |
 | A | spring | Draper | Electro-Mechanical Instrument Co-op (Spring 2027) | Cambridge, MA | Posted 30+ Days Ago | [apply](https://draper.wd5.myworkdayjobs.com/Draper_Careers/job/Cambridge-MA/Electro-Mechanical-Instrument-Co-op--Spring-2027-_JR002883-1) |
 | A | spring | Draper | Materials and Chemistry Engineering Co-op (Spring 2027) | Cambridge, MA | Posted 11 Days Ago | [apply](https://draper.wd5.myworkdayjobs.com/Draper_Careers/job/Cambridge-MA/Materials-and-Chemistry-Engineering-Co-op--Spring-2027-_JR002942) |
+| A | spring | Draper | Optics-Physics Sensor Engineering Co-op | Cambridge, MA, USA | 2026-08-31 | [apply](https://simplify.jobs/jobs/click/c2915142-c10f-4cf7-8de6-cfd5d54e9026) |
 | A | spring | Draper | Optics-Physics Sensor Engineering Co-op (Spring 2027) | Cambridge, MA | Posted 30+ Days Ago | [apply](https://draper.wd5.myworkdayjobs.com/Draper_Careers/job/Cambridge-MA/Optics-Physics-Sensor-Engineering-Co-op--Spring-2027-_JR002884) |
+| A | spring | Draper | Sensor Electrical Engineering Co-op | Cambridge, MA, USA | 2026-08-31 | [apply](https://simplify.jobs/jobs/click/b23545b3-7e52-47da-adc5-d2a085e0b26e) |
 | A | spring | Draper | Sensor Electrical Engineering Co-op (Spring 2027) | Cambridge, MA | Posted 30+ Days Ago | [apply](https://draper.wd5.myworkdayjobs.com/Draper_Careers/job/Cambridge-MA/Sensor-Electrical-Engineering-Co-op--Spring-2027-_JR002885) |
 | A | spring | Draper | Systems Engineering Co-Op (Spring 2027) | Cambridge, MA | Posted 21 Days Ago | [apply](https://draper.wd5.myworkdayjobs.com/Draper_Careers/job/Cambridge-MA/Systems-Engineering-Co-Op--Spring-2027-_JR002882) |
 | A | spring | Emerson | Cybersecurity Engineering Co-op (Jan27-May27) | Shakopee, MN, United States | 2026-09-01 | [apply](https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26009321) |
@@ -107,6 +151,8 @@
 | A | spring | Etched | RTL Intern | San Jose | 2026-09-18 | [apply](https://jobs.ashbyhq.com/etched/157ed4f4-6e3b-4ec9-b93f-3e363e92041e) |
 | A | spring | Etched | Supercomputing Intern | San Jose | 2026-05-19 | [apply](https://jobs.ashbyhq.com/etched/b45e357c-07ea-4499-9911-1d3cc9b9ac71) |
 | A | spring | Figure AI | Electrical Engineering Intern [Fall 2026] | San Jose, CA | 2026-09-22 | [apply](https://job-boards.greenhouse.io/figureai/jobs/4676467006) |
+| A | spring | Flex | Electrical Engineering Co-op | Hollis, NH, USA | 2026-07-30 | [apply](https://simplify.jobs/jobs/click/ab9e71a3-a1bb-4ee3-8beb-d84f475d8796) |
+| A | spring | Flex | New Product Introduction Process Engineer Co-op | Nashua, NH, USA | 2026-07-30 | [apply](https://simplify.jobs/jobs/click/a6c1ca98-97b9-4b04-afcc-f9e407492bea) |
 | A | spring | Formlabs | Electrical Engineering Intern (Winter/Spring 2027) | Somerville, MA | 2026-08-21 | [apply](https://careers.formlabs.com/job/8148283/apply/?gh_jid=8148283) |
 | A | spring | Formlabs | Hardware R&D Engineering Intern (Winter/Spring 2027) | Somerville, MA | 2026-09-01 | [apply](https://careers.formlabs.com/job/8172226/apply/?gh_jid=8172226) |
 | A | spring | Formlabs | Hardware Systems Integration Intern (Winter/Spring 2027) | Somerville, MA | 2026-09-01 | [apply](https://careers.formlabs.com/job/8172004/apply/?gh_jid=8172004) |
@@ -120,8 +166,8 @@
 | A | spring | GE Aerospace | Systems Engineering Co-op - Electrical Engineering & Computer Engineering/Science (Electric Power) - US - Spring 2027 | 2 Locations | Posted 30+ Days Ago | [apply](https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Dayton/Systems-Engineering-Co-op---Electrical-Engineering---Computer-Engineering-Science--Electric-Power----US---Spring-2027_R5030099-1) |
 | A | spring | GE Aerospace | Unison Engineering Intern - Spring 2027 | 4 Locations | Posted 30+ Days Ago | [apply](https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Jacksonville/Unison-Engineering-Intern---Spring-2027_R5037093-1) |
 | A | spring | GE Aerospace | Unison Engineering Part-time Co-op - US - Spring 2027 | Saint George UT US 1 | Posted 16 Days Ago | [apply](https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Saint-George-UT-US-1/Unison-Engineering-Part-time-Co-op---US---Spring-2027_R5040016) |
+| A | spring | GSK | Process Engineer Co-op | Upper Providence Township, PA, USA | 2026-09-01 | [apply](https://simplify.jobs/jobs/click/91acdeed-5336-47b8-b5f2-4a274a170ba6) |
 | A | spring | General Dynamics Mission Systems | Electrical Engineer Co-Op (January - May 2027) |  |  | [apply](https://careers-gdms.icims.com/jobs/74598/electrical-engineer-co-op-%28january---may-2027%29/job) |
-| A | spring | Georgia Tech Research Institute | Electrical and Computer Engineering Intern - Spring 2027 - ICL | Atlanta, GA | 2026-09-29 | [apply](https://www.linkedin.com/jobs/view/4473263854) |
 | A | spring | GlobalFoundries | Advanced Manufacturing Engineering Intern (Jan-Jun 2027) | SGP - Woodlands | Posted 30+ Days Ago | [apply](https://globalfoundries.wd1.myworkdayjobs.com/External/job/SGP---Woodlands/Advanced-Manufacturing-Engineering-Intern--Jan-Jun-2027-_JR-2603835) |
 | A | spring | GlobalFoundries | Design Enablement Engineer Intern (Jan-Jun 2027) | SGP - Science Park | Posted 30+ Days Ago | [apply](https://globalfoundries.wd1.myworkdayjobs.com/External/job/SGP---Science-Park/Design-Enablement-Engineer-Intern--Jan-Jun-2027-_JR-2604275) |
 | A | spring | GlobalFoundries | ESD Device Design Engineer Intern (Jan-Jun 2027) | SGP - Woodlands | Posted 30+ Days Ago | [apply](https://globalfoundries.wd1.myworkdayjobs.com/External/job/SGP---Woodlands/ESD-Device-Design-Engineer-Intern--Jan-Jun-2027-_JR-2604348) |
@@ -153,27 +199,37 @@
 | A | spring | Honeywell | Spring 2027 Engineering Co-Op | United States | 2026-09-29 | [apply](https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/158959) |
 | A | spring | Hunter Engineering Company | Test Engineering Co-Op | Greater St. Louis | 2026-10-01 | [apply](https://www.linkedin.com/jobs/view/4453474780) |
 | A | spring | ITT | Hardware & Indirect Sourcing Co-op | Seneca Falls, NY, USA | 2026-09-17 | [apply](https://simplify.jobs/jobs/click/56777104-ded5-413e-80ec-8048ad9ecbd1) |
+| A | spring | Insulet Corporation | Co-op, Life Cycle Engineering - Electrical: January - June 2027 (Hybrid) | Acton, MA | 2026-10-02 | [apply](https://www.linkedin.com/jobs/view/4464817103) |
+| A | spring | Insulet Corporation | Co-op, R&D Electrical Engineering: January - June 2027 (Hybrid) | Acton, MA | 2026-10-02 | [apply](https://www.linkedin.com/jobs/view/4464821070) |
 | A | spring | Jacobs | Electrical Engineering Co-op Spring 2027 | Cincinnati, OH | 2026-10-01 | [apply](https://www.linkedin.com/jobs/view/4465335837) |
+| A | spring | Johnson & Johnson | Electrical Engineer Co-op | Cincinnati, OH, USA | 2026-08-26 | [apply](https://simplify.jobs/jobs/click/d02d34ac-9c2e-4bee-8f46-6f90940519ea) |
 | A | spring | Kodiak | Winter 2027 Intern, Data Engineering | Mountain View, CA | 2026-09-30 | [apply](https://job-boards.greenhouse.io/kodiak/jobs/4396622009) |
 | A | spring | Kodiak | Winter 2027 Intern, Electrical Engineering | Mountain View, CA | 2026-09-30 | [apply](https://job-boards.greenhouse.io/kodiak/jobs/4382626009) |
 | A | spring | Lawrence Livermore National Laboratory | CGSR Undergraduate Research Associate - Spring 2027 | Livermore, CA, United States | 2026-08-11 | [apply](https://jobs.smartrecruiters.com/llnl/3743990014540256) |
+| A | spring | Legrand | Electrical Engineering Co-Op (Spring 2027) | Middletown, PA | 2026-10-02 | [apply](https://www.linkedin.com/jobs/view/4473275067) |
 | A | spring | MIT Lincoln Laboratory | AI for Circuit Generation Co-Op (6-month term) - Group 07-76 | Lexington, MA | 2026-10-01 | [apply](https://www.linkedin.com/jobs/view/4469228159) |
+| A | spring | MIT Lincoln Laboratory | Printed Circuit Board Designer Co-Op (6-month term) - Group 07-76 | Lexington, MA | 2026-10-02 | [apply](https://www.linkedin.com/jobs/view/4469213684) |
 | A | spring | MKS Inc. | 2027 Spring Electrical Engineering Co-op (R20789) | Rochester, NY | 2026-10-01 | [apply](https://www.linkedin.com/jobs/view/4464132008) |
 | A | spring | MKS Inc. | 2027 Spring Reliability Engineering Co-op (R20156) | Rochester, NY | 2026-09-30 | [apply](https://www.linkedin.com/jobs/view/4463883067) |
 | A | spring | MKS Inc. | 2027 Spring Reliability Engineering Co-op (R20162) | Rochester, NY | 2026-09-30 | [apply](https://www.linkedin.com/jobs/view/4463896029) |
 | A | spring | Mach Industries | Spring 2027 Engineering Internship | Huntington Beach, California, United States; San Francisco,  | 2026-09-24 | [apply](https://job-boards.greenhouse.io/machindustries/jobs/4397035009) |
-| A | spring | Marotta Controls | Spring 2027 Electrical Engineering Internship/Co-Op | Parsippany, NJ | 2026-09-29 | [apply](https://www.linkedin.com/jobs/view/4462878280) |
-| A | spring | Micron Technology | Intern - ATE Process Engineer ID1 | Boise, ID | 2026-09-29 | [apply](https://www.linkedin.com/jobs/view/4471589872) |
+| A | spring | McKenney's | CAD Co-op | Atlanta, GA, USA | 2026-08-07 | [apply](https://simplify.jobs/jobs/click/59d59a1d-d144-45a5-939e-fbc304b8adae) |
 | A | spring | Midmark | Firmware Engineering Co-op (Spring 2027) | Versailles, OH | 2026-06-22 | [apply](https://hcor.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/4333) |
 | A | spring | Moog | Intern, Test Engineering | Buffalo, NY | Posted 10 Days Ago | [apply](https://moog.wd5.myworkdayjobs.com/MOOG_External_Career_Site/job/Buffalo-NY/Intern--Test-Engineering_R-26-20243-1) |
+| A | spring | Mosaic | Electrical Engineer Co-op Intern | Tampa, FL, USA; Bartow, FL, USA | 2026-07-21 | [apply](https://simplify.jobs/jobs/click/5976a3be-9fa6-4309-9f60-b64f10b6f78f) |
+| A | spring | Mosaic | Process Engineer Co-op Intern | Duette, FL, USA; Fort Meade, FL, USA; Bradley, FL, USA | 2026-07-21 | [apply](https://simplify.jobs/jobs/click/a9885711-07b2-4506-b06a-b194c7260e40) |
 | A | spring | National Laboratory of the Rockies | Electrical Engineer Intern | Remote in USA; Boulder, CO, USA | 2026-09-15 | [apply](https://simplify.jobs/jobs/click/3f81238f-1c11-4457-85c0-e7056c728e07) |
 | A | spring | National Laboratory of the Rockies | Power System/Power Electronics Modeling Intern | Remote in USA; Golden, CO, USA | 2026-09-18 | [apply](https://simplify.jobs/jobs/click/2e630d35-98ce-4bbb-88b0-83066dab5920) |
+| A | spring | Nexus Engineering Group | Instrumentation & Controls Engineer Intern Co-op | Maumee, OH, USA | 2026-08-31 | [apply](https://simplify.jobs/jobs/click/5208bcfe-319f-49a1-9487-c67015fceacc) |
 | A | spring | Nova-Tech | Electrical Engineer Co-op | Willmar, MN, USA | 2026-09-09 | [apply](https://simplify.jobs/jobs/click/612ee749-1941-4c6c-a43f-82581bdad400) |
 | A | spring | Nutrien | Co-op Student, Electrical/Instrumentation | Aurora, NC | 2026-09-29 | [apply](https://www.linkedin.com/jobs/view/4471766981) |
 | A | spring | Olin | Electrical Engineer 6-Month Co-Op - 2027 | McIntosh, AL | 2026-10-01 | [apply](https://www.linkedin.com/jobs/view/4464163090) |
+| A | spring | OnLogic | Firmware Engineer Co-op | South Burlington, VT, USA; Cary, NC, USA | 2026-09-01 | [apply](https://simplify.jobs/jobs/click/c1e6167a-30ef-491c-b132-0ca2202fdaaa) |
 | A | spring | Peak Energy | Systems Integration and Test Engineer Intern (Winter/Spring - Jan 2027 Start) | Burlingame, CA | 2026-10-01 | [apply](https://www.linkedin.com/jobs/view/4474551107) |
 | A | spring | Peak Energy | Systems Integration and Test Engineer Intern (Winter/Spring - Jan 2027 Start) | San Francisco, CA | 2026-10-01 | [apply](https://www.linkedin.com/jobs/view/4474550157) |
+| A | spring | Pennsylvania State University | Electronic Systems and Hardware Co-op | Warminster Township, PA, USA | 2026-07-02 | [apply](https://simplify.jobs/jobs/click/8b147aea-c74c-428c-8253-1eb6b906d174) |
 | A | spring | Pennsylvania State University | Embedded Systems and Hardware Co-op | Warminster Township, PA, USA | 2026-06-20 | [apply](https://simplify.jobs/jobs/click/9b3a298c-8894-407e-bb7b-b72434713c39) |
+| A | spring | Persona AI | Electrical Engineering Internship | Greater Houston | 2026-10-02 | [apply](https://www.linkedin.com/jobs/view/4447230327) |
 | A | spring | Philips | Intern - System Test Automation Engineer – San Diego, CA – Summer 2027 | San Diego, CA | 2026-10-01 | [apply](https://www.linkedin.com/jobs/view/4472398757) |
 | A | spring | RTX | 2027 Spring/Summer Sys Integration Engineering Co-op - Onsite | US-IA-CEDAR RAPIDS-130 ~ 5350 C Ave NE ~ BLDG 130 | Posted 5 Days Ago | [apply](https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-IA-CEDAR-RAPIDS-130--5350-C-Ave-NE--BLDG-130/XMLNAME-2027-Spring-Summer-Sys-Integration-Engineering-Co-op---Onsite_01873169) |
 | A | spring | RTX | Aerothermal Engineer Co-Op (January 2027) (Hybrid) | US-PR-AGUADILLA-110 ~ Rd 110 N Km 28.8 ~ RD110 | Posted Yesterday | [apply](https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-PR-AGUADILLA-110--Rd-110-N-Km-288--RD110/Aerothermal-Engineer-Co-Op--January-2027---Hybrid-_01874136) |
@@ -213,10 +269,11 @@
 | A | spring | Rivian | Engineering Intern - Design Verification, Neural Engine (Spring 2027 Co-op) | Palo Alto, CA | 2026-09-30 | [apply](https://www.linkedin.com/jobs/view/4472377017) |
 | A | spring | Rivian | Engineering Intern - Design-for-Test (Spring 2027 Co-Op) | Palo Alto, CA | 2026-09-30 | [apply](https://www.linkedin.com/jobs/view/4472365551) |
 | A | spring | Rivian | Engineering Intern - Machine Learning Hardware (Spring 2027 Co-op) | Palo Alto, CA | 2026-09-30 | [apply](https://www.linkedin.com/jobs/view/4472361610) |
+| A | spring | Robynex Automation | Electrical Engineering Intern | Massachusetts, United States | 2026-10-02 | [apply](https://www.linkedin.com/jobs/view/4473161031) |
 | A | spring | Rocket Lab | Fluid Systems Intern Spring 2027 | Long Beach, CA | 2026-09-09 | [apply](https://job-boards.greenhouse.io/rocketlab/jobs/7986788003) |
-| A | spring | Rocket Lab | Manufacturing Engineering Intern Spring 2027 | Wallops Island, VA | 2026-09-17 | [apply](https://job-boards.greenhouse.io/rocketlab/jobs/7996617003) |
-| A | spring | Rocket Lab | Manufacturing Engineering Intern Spring 2027 | Middle River, MD | 2026-09-16 | [apply](https://job-boards.greenhouse.io/rocketlab/jobs/7987020003) |
 | A | spring | Rocket Lab | Manufacturing Engineering Intern Spring 2027 | Long Beach, CA | 2026-09-16 | [apply](https://job-boards.greenhouse.io/rocketlab/jobs/7984943003) |
+| A | spring | Rocket Lab | Manufacturing Engineering Intern Spring 2027 | Middle River, MD | 2026-09-16 | [apply](https://job-boards.greenhouse.io/rocketlab/jobs/7987020003) |
+| A | spring | Rocket Lab | Manufacturing Engineering Intern Spring 2027 | Wallops Island, VA | 2026-09-17 | [apply](https://job-boards.greenhouse.io/rocketlab/jobs/7996617003) |
 | A | spring | Rocket Lab | Propulsion Design Intern Spring 2027 | Long Beach, CA | 2026-09-11 | [apply](https://job-boards.greenhouse.io/rocketlab/jobs/7987110003) |
 | A | spring | Rocket Lab | R&D Engineering Intern Spring 2027 | Albuquerque, NM | 2026-09-17 | [apply](https://job-boards.greenhouse.io/rocketlab/jobs/7996578003) |
 | A | spring | Rocket Lab | Systems Engineering Intern Spring 2027 | Long Beach, CA | 2026-09-09 | [apply](https://job-boards.greenhouse.io/rocketlab/jobs/7987044003) |
@@ -225,6 +282,8 @@
 | A | spring | Rocket Lab | Test Engineering Intern Spring 2027 | Wallops Island, VA | 2026-10-02 | [apply](https://job-boards.greenhouse.io/rocketlab/jobs/8003533003) |
 | A | spring | Rocket Lab | Thermal Engineering Intern Spring 2027 | Long Beach, CA | 2026-09-21 | [apply](https://job-boards.greenhouse.io/rocketlab/jobs/8000951003) |
 | A | spring | SSOE Group | Electrical Engineer Co-op | Toledo, OH, USA | 2026-09-23 | [apply](https://simplify.jobs/jobs/click/b47d2af4-c720-48b8-9f69-d59fd6bf74d9) |
+| A | spring | SSOE Group | Electrical Engineering Co-Op - Spring 2027 | Toledo, OH | 2026-10-02 | [apply](https://www.linkedin.com/jobs/view/4475038260) |
+| A | spring | Samsara | Electrical Engineer Co-op | San Francisco, CA, USA | 2026-08-31 | [apply](https://simplify.jobs/jobs/click/1fd9f3fb-b5dd-4e12-9bf7-6d3ff988d2c3) |
 | A | spring | Samsara | Electrical Engineering Co-Op | San Francisco - SF9 | 2026-09-25 | [apply](https://www.samsara.com/company/careers/roles/8163118?gh_jid=8163118) |
 | A | spring | Sandia National Laboratories | Intern, R&D Graduate Summer -  Advanced RF Communications, Onsite | Albuquerque, NM | 2026-10-01 | [apply](https://www.linkedin.com/jobs/view/4472583775) |
 | A | spring | Shield AI | Electrical Engineering Spring Co-op (January 2027) (R4475) | Dallas, Texas | 1776259349 | [apply](https://jobs.lever.co/shieldai/87d982f2-8b2b-4c73-9a19-71e461c7b724) |
@@ -276,14 +335,18 @@
 | A | spring | Skyworks | Test Engineering Intern (Winter/Spring 2027) | Austin, TX, USA     | 2026-08-28 | [apply](https://careers.skyworksinc.com/job/Test-Engineering-Intern-%28WinterSpring-2027%29/78228-en_US) |
 | A | spring | Skyworks | Validation Engineer (VE) Winter/Spring Co-Op (Jan-June '27) | Newbury Park, CA, USA     | 2026-08-19 | [apply](https://careers.skyworksinc.com/job/Validation-Engineer-%28VE%29-WinterSpring-Co-Op-%28Jan-June-&apos;27%29/78216-en_US) |
 | A | spring | Skyworks | Wireless Protocol Engineer Co-Op (Winter Spring 2027) | Hillsboro, OR, USA     | 2026-08-26 | [apply](https://careers.skyworksinc.com/job/Wireless-Protocol-Engineer-Co-Op-%28Winter-Spring-2027%29/78184-en_US) |
-| A | spring | Skyworks Solutions, Inc. | RF Circuit Design Winter/Spring Co-Op (Jan-June '27) | Andover, MA | 2026-09-29 | [apply](https://www.linkedin.com/jobs/view/4473519248) |
+| A | spring | Skyworks Solutions | RF Design Validation Winter/Spring Co-Op (Jan-June '27) | Andover, MA, US | 2026-10-02 | [apply](https://www.indeed.com/viewjob?jk=92cb3359bcc93893) |
 | A | spring | Sonos | Electrical Engineering Co-Op | Boston, MA | Posted 9 Days Ago | [apply](https://sonos.wd1.myworkdayjobs.com/Sonos/job/Boston-MA/Electrical-Engineering-Co-Op_R2824-2) |
 | A | spring | Sonos | Electrical Engineering Co-op | Boston, MA, USA | 2026-09-23 | [apply](https://simplify.jobs/jobs/click/331f5d80-cad0-4a99-ad69-80d48aa9b75c) |
+| A | spring | SpaceX | Silicon Engineer Intern/Co-op | Palo Alto, CA, USA; Irvine, CA, USA; Redmond, WA, USA | 2026-08-03 | [apply](https://simplify.jobs/jobs/click/36c3e2e6-475a-4ffb-adad-e6d9a2dcc94e) |
+| A | spring | SpaceX | Silicon Engineering Intern/Co-op | Palo Alto, CA, USA; Irvine, CA, USA; Redmond, WA, USA | 2026-08-03 | [apply](https://simplify.jobs/jobs/click/92effc23-8bc6-4592-b34f-08926569140b) |
 | A | spring | SpaceX | Spring 2027 Engineering Internship/Co-op | Flexible - Any SpaceX Site | 2026-09-29 | [apply](https://boards.greenhouse.io/spacex/jobs/8616338002?gh_jid=8616338002) |
 | A | spring | SpaceX | Spring 2027 Graduate Engineer Internship/Co-op | Flexible - Any SpaceX Site | 2026-09-29 | [apply](https://boards.greenhouse.io/spacex/jobs/8621749002?gh_jid=8621749002) |
 | A | spring | SpaceX | Spring 2027 Silicon Engineering Internship/Co-op | Flexible - Any SpaceX Site | 2026-09-29 | [apply](https://boards.greenhouse.io/spacex/jobs/8636134002?gh_jid=8636134002) |
+| A | spring | Specter Aerospace | Electrical Engineer Co-op | Boston, MA, USA | 2026-08-13 | [apply](https://simplify.jobs/jobs/click/c2a98bdc-8bce-4c3d-b3fe-5e8241c59c21) |
 | A | spring | Structonix Engineers | Reliability Engineering Intern | New York, NY | 2026-10-02 | [apply](https://www.linkedin.com/jobs/view/4472590091) |
 | A | spring | The Campbell's Company | Packaging Engineer Co-op | Camden, NJ, USA | 2026-09-15 | [apply](https://simplify.jobs/jobs/click/02ca0447-1b8e-4ca0-9b5f-a7a9284c63ea) |
+| A | spring | The Hershey Company | Future Opportunities Electrical Controls Co-Op (Spring 2027) | Hershey, PA | 2026-10-02 | [apply](https://www.linkedin.com/jobs/view/4473371988) |
 | A | spring | The Toro Company | Electrical/software Co-Op - BOSS Snowplow | Dickinson County, MI | 2026-09-30 | [apply](https://www.linkedin.com/jobs/view/4472153925) |
 | A | spring | Varda Space | Applications Engineering Internship - Spring 2027 | El Segundo, California, United States | 2026-10-01 | [apply](https://job-boards.greenhouse.io/vardaspace/jobs/7824822003) |
 | A | spring | Varda Space | Avionics Engineering Internship - Spring 2027 | El Segundo, California, United States | 2026-10-01 | [apply](https://job-boards.greenhouse.io/vardaspace/jobs/7824780003) |
@@ -301,9 +364,9 @@
 | A | spring | Varda Space | Supply Chain Internship - Spring 2027 | El Segundo, California, United States | 2026-10-01 | [apply](https://job-boards.greenhouse.io/vardaspace/jobs/7824827003) |
 | A | spring | Varda Space | Thermal Engineering Internship - Summer 2027 | El Segundo, California, United States | 2026-10-01 | [apply](https://job-boards.greenhouse.io/vardaspace/jobs/8010172003) |
 | A | spring | Varda Space | Vehicle Integration & Test Internship - Spring 2027 | El Segundo, California, United States | 2026-10-01 | [apply](https://job-boards.greenhouse.io/vardaspace/jobs/7824772003) |
+| A | spring | Verkada | Hardware Engineer Co-op | San Mateo, CA, USA | 2026-09-02 | [apply](https://simplify.jobs/jobs/click/b35f91ad-c38c-4364-900b-0caafa2215a7) |
 | A | spring | Wabtec | Co-Op, Test Engineer - Transducer (January-June 2027) | State College, PA, United States | 2026-09-29 | [apply](https://jobs.smartrecruiters.com/wabtec/3743990015763566) |
 | A | spring | Wabtec | Firmware Engineering Co-Op (January-June 2027) | Waltham, MA, United States | 2026-10-02 | [apply](https://jobs.smartrecruiters.com/wabtec/3743990015854776) |
-| A | spring | Wabtec Corporation | Co-Op, Test Engineer - Transducer (January-June 2027) | State College, PA | 2026-09-29 | [apply](https://www.linkedin.com/jobs/view/4473272207) |
 | A | spring | Western Digital | Winter 2027 Intern/Co-op Development Engineer  | Rochester, MN, United States | 2026-09-28 | [apply](https://jobs.smartrecruiters.com/WesternDigital/744000152261929) |
 | A | spring | Zipline | Accounting Intern (Spring 2027) | South San Francisco, California, USA | 2026-09-28 | [apply](https://www.zipline.com/open-roles/7893921003?gh_jid=7893921003) |
 | A | spring | Zipline | Aerodynamics Intern (Spring 2027) | South San Francisco, California, USA | 2026-09-28 | [apply](https://www.zipline.com/open-roles/7904002003?gh_jid=7904002003) |
@@ -352,23 +415,40 @@
 | B | coop-unspecified | ABB | Electrical Engineering Co-op | Greenville, SC, USA | 2026-09-29 | [apply](https://simplify.jobs/jobs/click/954fb300-549f-44b9-b74a-c3400faeed5f) |
 | B | coop-unspecified | ABB | R&D Electrical Engineer Co-op | Bloomfield, CT, USA | 2026-09-29 | [apply](https://simplify.jobs/jobs/click/b775300a-deec-4b5e-a53d-8890bf6e9e02) |
 | B | coop-unspecified | AES | Electrical Engineer Co-op | Indianapolis, IN, USA | 2026-09-22 | [apply](https://simplify.jobs/jobs/click/7bbd8726-26fa-47d3-86a3-b7a38e7a3cae) |
+| B | coop-unspecified | AMD | 2027 Undergrad Hardware Design Verification Engineering Co-op/Intern | San Jose, CA, USA; Santa Clara, CA, USA | 2026-08-21 | [apply](https://simplify.jobs/jobs/click/859f3772-e32c-49b4-a277-ec18490b63ed) |
+| B | coop-unspecified | AMD | ASIC Package Engineer Intern Co-op | San Jose, CA, USA; Santa Clara, CA, USA | 2026-08-25 | [apply](https://simplify.jobs/jobs/click/8d8ee1d2-7639-4b3a-a595-6be2478476c4) |
+| B | coop-unspecified | AMD | ASIC Package Engineering Co-op/Intern | San Jose, CA, USA; Santa Clara, CA, USA | 2026-08-25 | [apply](https://simplify.jobs/jobs/click/06673e9a-5d65-4652-9ea8-f673b24c85a5) |
+| B | coop-unspecified | AMD | ASIC Package Engineering Intern Co-op | Secaucus, NJ, USA; Austin, TX, USA; Longmont, CO, USA | 2026-08-25 | [apply](https://simplify.jobs/jobs/click/87d12a7b-d741-4dd9-a558-de2b329aa098) |
 | B | coop-unspecified | AMD | Analog/Mixed-Signal Design Intern/Co-op | San Jose, CA, USA; Santa Clara, CA, USA | 2026-09-11 | [apply](https://simplify.jobs/jobs/click/e89671c2-e2eb-43d8-b95f-8fa9f1144385) |
+| B | coop-unspecified | AMD | Firmware Engineer Co-op/Intern | San Jose, CA, USA; Santa Clara, CA, USA | 2026-08-21 | [apply](https://simplify.jobs/jobs/click/0446e9d0-fc91-4c78-970a-fe7b5809cd30) |
+| B | coop-unspecified | AMD | Firmware Engineer Intern/Co-op | Secaucus, NJ, USA; Rochester, NY, USA; Austin, TX, USA | 2026-08-21 | [apply](https://simplify.jobs/jobs/click/2b9774d4-2b94-4dc3-9aca-7b5dc857eaa2) |
+| B | coop-unspecified | AMD | Firmware Engineer Intern/Co-op | San Jose, CA, USA; Santa Clara, CA, USA | 2026-08-21 | [apply](https://simplify.jobs/jobs/click/3a7a0552-99e6-49df-a934-5f5f8e97109b) |
+| B | coop-unspecified | AMD | Hardware Design Verification Engineer Co-op/Intern | San Jose, CA, USA; Santa Clara, CA, USA | 2026-08-21 | [apply](https://simplify.jobs/jobs/click/c042921c-cebf-43b2-952d-c5484993695b) |
+| B | coop-unspecified | AMD | Hardware Design Verification Engineering Intern/Co-op | Secaucus, NJ, USA; Rochester, NY, USA; Austin, TX, USA | 2026-08-21 | [apply](https://simplify.jobs/jobs/click/16ab9e56-fd38-43a4-a048-7cca73f13c2d) |
+| B | coop-unspecified | AMD | Hardware Engineer Intern/Co-op | San Jose, CA, USA; Santa Clara, CA, USA | 2026-08-21 | [apply](https://simplify.jobs/jobs/click/2f20ddf7-c228-470e-9c1f-f35d8a1bfc0a) |
+| B | coop-unspecified | AMD | Hardware Engineering Intern/Co-op | Rochester, NY, USA; Austin, TX, USA; Longmont, CO, USA | 2026-08-21 | [apply](https://simplify.jobs/jobs/click/33e514e4-a58b-48dd-a27c-aed4a3391473) |
 | B | coop-unspecified | AMD | Optical & Photonics Engineering Intern/Co-op | San Jose, CA, USA; Santa Clara, CA, USA | 2026-09-11 | [apply](https://simplify.jobs/jobs/click/b9a00835-ca07-400b-a12a-27cbe97c83d1) |
 | B | coop-unspecified | AMD | SerDes Optical Transceivers Silicon Design and Architecture Modeling Engineer Intern/Co-op | San Jose, CA, USA; Santa Clara, CA, USA | 2026-09-11 | [apply](https://simplify.jobs/jobs/click/5cefc7e6-b923-4f8b-805c-97d558b50afd) |
 | B | coop-unspecified | Aerotech | Electrical/Computer Engineering Intern Co-op | Pittsburgh, PA, USA | 2026-08-31 | [apply](https://simplify.jobs/jobs/click/2f9629e6-d596-4732-b145-84c6123660ec) |
+| B | coop-unspecified | Ajinomoto Health & Nutrition North America | Process Engineer Co-op | Akron, OH, USA | 2026-08-28 | [apply](https://simplify.jobs/jobs/click/d01f197d-7a90-49e9-9ac8-af5b0bd84c04) |
 | B | coop-unspecified | Amazon | Hardware Development Engineer Intern/Co-Op, ROBOTICS - 2027 | US, MA, North Reading | 2026-09-09 | [apply](https://www.amazon.jobs/en/jobs/10535282/hardware-development-engineer-intern-co-op-robotics-2027) |
 | B | coop-unspecified | Amazon | Industrial Development Engineer Intern/Co-op, ROBOTICS - 2027 | US, MA, North Reading | 2026-09-10 | [apply](https://www.amazon.jobs/en/jobs/10536817/industrial-development-engineer-intern-co-op-robotics-2027) |
 | B | coop-unspecified | Amazon | Robotics - Hardware Development Engineer Intern/Co-op - 2026 (Robotics, Mechanical, Electrical, Hardware Test, Reliability, Failure Analysis, Operations, and more) | US, MA, Westboro | 2025-12-17 | [apply](https://www.amazon.jobs/en/jobs/3145033/robotics-hardware-development-engineer-intern-co-op-2026-robotics-mechanical-electrical-hardware-test-reliability-failure-analysis-operations-and-more) |
-| B | coop-unspecified | Analogic | Hardware/Software Engineering Co-Op | Salem, NH | 2026-09-29 | [apply](https://www.linkedin.com/jobs/view/4469950947) |
+| B | coop-unspecified | Ameren | CAD Technician Co-op | St. Louis, MO, USA | 2026-08-12 | [apply](https://simplify.jobs/jobs/click/7e02e457-b220-4fb6-8538-930f4785ad72) |
+| B | coop-unspecified | Ameren | Electrical Engineer Co-op | St. Louis, MO, USA | 2026-08-11 | [apply](https://simplify.jobs/jobs/click/8627e0a4-b020-4e69-85f2-3d42cbb0c65b) |
+| B | coop-unspecified | American Axle & Manufacturing | Electrical Engineering Co-op | Detroit, MI, USA | 2026-07-04 | [apply](https://simplify.jobs/jobs/click/f107c506-e96c-4e5e-b20d-f2093113efad) |
 | B | coop-unspecified | Applied Materials | 2026 Fall Materials Engineering Co-op (TCAD Modeling) - Doctorate (Gloucester, MA) | Gloucester,MA | Posted 30 Days Ago | [apply](https://amat.wd1.myworkdayjobs.com/External/job/GloucesterMA/XMLNAME-2026-Fall-Materials-Engineering-Co-op---Doctorate--Gloucester--MA-_R2611503) |
 | B | coop-unspecified | Applied Materials | 2026-2027 Process Engineer Co-op - Doctorate (Gloucester, MA) | Gloucester,MA | Posted 30+ Days Ago | [apply](https://amat.wd1.myworkdayjobs.com/External/job/GloucesterMA/XMLNAME-2026-2027-Process-Engineer-Co-op---Doctorate--Gloucester--MA-_R2626230) |
 | B | coop-unspecified | Applied Materials | 2027 Spring Electrical Engineer (Controls, PCB) Co-op BS or MS (Gloucester, MA) | Gloucester,MA | Posted 18 Days Ago | [apply](https://amat.wd1.myworkdayjobs.com/External/job/GloucesterMA/XMLNAME-2027-Spring-Electrical-Engineer-Co-op-BS-or-MS--Gloucester--MA-_R2628288-1) |
 | B | coop-unspecified | Applied Materials | 2027 Spring Product Quality Engineer Co-op  - Bachelor's (Gloucester, MA) | Gloucester,MA | Posted 23 Days Ago | [apply](https://amat.wd1.myworkdayjobs.com/External/job/GloucesterMA/XMLNAME-2027-Spring-Product-Quality-Engineer-Co-op----Bachelor-s--Gloucester--MA-_R2628291) |
 | B | coop-unspecified | Applied Materials | Electrical Engineer Co-op | Gloucester, MA, USA | 2026-09-09 | [apply](https://simplify.jobs/jobs/click/441d92c8-bb63-49f4-94cb-afcd777fa84a) |
+| B | coop-unspecified | Applied Materials | Process Engineer Co-op | Gloucester, MA, USA | 2026-08-14 | [apply](https://simplify.jobs/jobs/click/a0c03f03-eddd-4ae9-89c6-b89785874543) |
 | B | coop-unspecified | Arcadis | Electrical Engineering Intern/Co-op | Buffalo, NY, USA; Clifton Park, NY, USA | 2026-09-30 | [apply](https://simplify.jobs/jobs/click/9b261b80-926c-47fb-86e5-5fcfc6caca4a) |
 | B | coop-unspecified | Arconic | Electrical Engineer Co-op | Alcoa, TN, USA | 2026-09-25 | [apply](https://simplify.jobs/jobs/click/8819b9d6-b38f-48be-b6dc-fd3cbe8db9c2) |
 | B | coop-unspecified | Arconic | Electrical Engineer Co-op | Davenport, IA, USA | 2026-09-12 | [apply](https://simplify.jobs/jobs/click/15c41dc4-7618-4a49-97b6-8ffb9d5180f1) |
 | B | coop-unspecified | Autostore | Electronics Engineering Co-op | Atlanta, GA, USA | 2026-09-13 | [apply](https://simplify.jobs/jobs/click/d81bc1c9-aee7-4814-8ab8-598008962e65) |
+| B | coop-unspecified | Axcelis Technologies | Manufacturing Test Development Co-op | Beverly, MA, USA | 2026-09-02 | [apply](https://simplify.jobs/jobs/click/956fa1e6-7708-401a-86b4-5559e1f5904b) |
+| B | coop-unspecified | Axcelis Technologies | Manufacturing Test Development Engineer Co-op | Beverly, MA, USA | 2026-09-02 | [apply](https://simplify.jobs/jobs/click/13e85579-7901-4f44-b0a2-bd7957121a05) |
 | B | coop-unspecified | BAE Systems | 2027 Co-Op (Spring-Summer or Summer-Fall) Electrical Engineer (onsite) | Cedar Rapids, Iowa, United States | 2026-10-01 | [apply](https://jobs.baesystems.com/global/en/job/125922BR/2027-co-op-spring-summer-or-summer-fall-electrical-engineer-onsite) |
 | B | coop-unspecified | Bass Pro Shops | CAD Technician Co-op | Springfield, MO, USA | 2026-09-14 | [apply](https://simplify.jobs/jobs/click/75f68046-c38d-40d9-9d31-f3f6c944fb5c) |
 | B | coop-unspecified | Bass Pro Shops | Electrical Engineer Co-op | Springfield, MO, USA | 2026-09-14 | [apply](https://simplify.jobs/jobs/click/dd4a2ea2-98f2-4b0c-9171-ab44a15a4fd3) |
@@ -377,11 +457,15 @@
 | B | coop-unspecified | Bayer | Radiology Software Verification Co-Op | Indianola, PA | 2026-10-01 | [apply](https://www.linkedin.com/jobs/view/4474349266) |
 | B | coop-unspecified | Beam Therapeutics | Process Engineer Co-op | Cambridge, MA, USA | 2026-09-10 | [apply](https://simplify.jobs/jobs/click/1a326672-217e-4b83-8e8a-eaaf1eb7819e) |
 | B | coop-unspecified | Blue Origin | Electrical Systems Engineer Co-op | Los Angeles, CA, USA | 2026-09-08 | [apply](https://simplify.jobs/jobs/click/7fedfbc6-98b6-4de0-b225-0a62b5515501) |
-| B | coop-unspecified | CAE | Electrical Engineering Co-Op-EN | Arlington, TX | 2026-09-30 | [apply](https://www.linkedin.com/jobs/view/4472636798) |
+| B | coop-unspecified | BlueScope | Electrical Engineering Co-op | Perrysburg, OH, USA | 2026-06-20 | [apply](https://simplify.jobs/jobs/click/a49b3316-890b-4ab9-9d7b-032ae2389991) |
+| B | coop-unspecified | CAE | Electrical Engineering Co-Op-EN | Arlington, TX | 2026-09-30 | [apply](https://www.linkedin.com/jobs/view/4472631897) |
 | B | coop-unspecified | CAE | Electrical Engineering Co-op | Arlington, TX, USA | 2026-09-30 | [apply](https://simplify.jobs/jobs/click/77683a46-3905-4bb2-8804-a1a8b4ac003a) |
 | B | coop-unspecified | California Closets | Product Engineer Co-op | Grand Rapids, MI, USA | 2026-09-16 | [apply](https://simplify.jobs/jobs/click/0764ff94-87f0-4b4d-9b7a-a71ca1fd5dae) |
+| B | coop-unspecified | Carmeuse | Process Engineer Co-op | Pittsburgh, PA, USA | 2026-08-27 | [apply](https://simplify.jobs/jobs/click/33795d33-1132-4bc3-b14d-89d328531825) |
 | B | coop-unspecified | CenterPoint Energy | Electrical Engineer Spring 2026 Co-op | Houston, TX, USA | 2025-11-20 | [apply](https://simplify.jobs/jobs/click/7ebec3c4-1021-4022-ba0c-7dabbd731f22) |
 | B | coop-unspecified | CenterPoint Energy | Electrical Engineering Co-op | Houston, TX, USA | 2026-09-09 | [apply](https://simplify.jobs/jobs/click/f8b52a77-ada4-4fa1-94b2-e82aca3d6e38) |
+| B | coop-unspecified | CenterPoint Energy | Electrical Engineering Fall Co-op | Evansville, IN, USA | 2026-08-18 | [apply](https://simplify.jobs/jobs/click/5f5b894f-1d44-4764-87ad-6fb1cf35b5d4) |
+| B | coop-unspecified | Church & Dwight | Packaging Engineer Co-op | Princeton, NJ, USA | 2026-09-02 | [apply](https://simplify.jobs/jobs/click/fbcc8cf5-adb3-4004-a9da-bba604a07669) |
 | B | coop-unspecified | Ciena | Client Co-op | Rochester, NY, USA | 2026-09-21 | [apply](https://simplify.jobs/jobs/click/ed9c9453-52b1-4241-ac91-0065c19d9baf) |
 | B | coop-unspecified | Cisco | Associate Applications Engineer I (Co-op) - United States | Maynard, Massachusetts, US | Posted 3 Days Ago | [apply](https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Maynard-Massachusetts-US/Associate-Applications-Engineer-I--Co-op----United-States_2026910) |
 | B | coop-unspecified | Cisco | Firmware Engineer II (Co-op) - United States | Maynard, Massachusetts, US | Posted 3 Days Ago | [apply](https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Maynard-Massachusetts-US/Firmware-Engineer-II--Co-op----United-States_2026913) |
@@ -396,14 +480,18 @@
 | B | coop-unspecified | Cisco | Systems Quality Engineer I (Co-op) - United States | Maynard, Massachusetts, US | Posted 3 Days Ago | [apply](https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Maynard-Massachusetts-US/Systems-Quality-Engineer-I--Co-op----United-States_2026751) |
 | B | coop-unspecified | Cisco | Systems Quality Engineer II (Co-op) - United States | Maynard, Massachusetts, US | Posted 3 Days Ago | [apply](https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Maynard-Massachusetts-US/Systems-Quality-Engineer-II--Co-op----United-States_2026915) |
 | B | coop-unspecified | Cisco | Systems Quality Engineer II (Co-op) - United States | Maynard, MA | 2026-09-29 | [apply](https://www.linkedin.com/jobs/view/4473550359) |
+| B | coop-unspecified | ControlTouch Systems | Controls Engineer Co-op | Louisville, KY, USA | 2026-05-21 | [apply](https://simplify.jobs/jobs/click/ebbda9e4-94fd-494b-97d1-722e96003a1d) |
 | B | coop-unspecified | Cyvl | Hardware Engineer Intern Co-op | Boston, MA, USA; Somerville, MA, USA | 2026-09-14 | [apply](https://simplify.jobs/jobs/click/057dd9da-1280-4dab-a6a2-a29c81fedad0) |
+| B | coop-unspecified | DGL Consulting Engineers | CAD Technician Co-op | Ohio, USA; Indiana, USA | 2026-08-03 | [apply](https://simplify.jobs/jobs/click/92548184-80c6-4c77-bd32-3904695e08ea) |
+| B | coop-unspecified | Daktronics | Hardware Design Co-op Intern | Brookings, SD, USA | 2026-08-24 | [apply](https://simplify.jobs/jobs/click/28a744e2-2ac1-4370-ae97-b7520c9897dd) |
+| B | coop-unspecified | Daktronics | Manufacturing Process Engineer Co-op Intern | Sioux Falls, SD, USA | 2026-08-31 | [apply](https://simplify.jobs/jobs/click/b06fc7c7-9dd7-4b09-9a4e-605b5c6a33b3) |
 | B | coop-unspecified | Danaher | Process Validation Engineering Co-op | Fargo, ND, USA | 2026-09-01 | [apply](https://simplify.jobs/jobs/click/c24ed2c4-b3fc-4d3e-9b65-7644a84d2d53) |
-| B | coop-unspecified | Dauch | Electrical Engineering College Co-op | Detroit, MI | 2026-10-02 | [apply](https://www.linkedin.com/jobs/view/4428091248) |
 | B | coop-unspecified | Delta Faucet | Hardware Test Engineer Co-op | Indianapolis, IN, USA | 2026-09-10 | [apply](https://simplify.jobs/jobs/click/13cc6434-f556-4ec8-9988-0885c92192c7) |
 | B | coop-unspecified | Dominion Energy | Electrical and Instrumentation Co-op | Eastover, SC, USA | 2026-09-28 | [apply](https://simplify.jobs/jobs/click/fa3ba83d-fac2-4969-98b8-fa7f62159ed8) |
 | B | coop-unspecified | Draper | Co-Op Student Engineering | 2 Locations | Posted 3 Days Ago | [apply](https://draper.wd5.myworkdayjobs.com/Draper_Careers/job/Lowell-MA/Co-Op-Student-Engineering_JR002974) |
 | B | coop-unspecified | Duracell | Process Engineer Co-op | Cleveland, TN, USA | 2026-09-16 | [apply](https://simplify.jobs/jobs/click/5d30fda2-9a49-4121-b318-a3746f3699aa) |
 | B | coop-unspecified | Eaton | Electrical Engineer Intern/Co-op | Peachtree City, GA, USA | 2026-09-22 | [apply](https://simplify.jobs/jobs/click/93dd3fda-fc7f-40c8-b141-553b32a68027) |
+| B | coop-unspecified | Eaton | Electrical Engineer Intern/Co-op | Moon Twp, PA, USA | 2026-09-01 | [apply](https://simplify.jobs/jobs/click/39a7c09d-a55b-4153-b381-578c91b82e09) |
 | B | coop-unspecified | Eaton | Firmware Engineer Intern/Co-op | Moon Twp, PA, USA | 2026-09-22 | [apply](https://simplify.jobs/jobs/click/84a10b39-bce1-4be5-bc19-a609bfe69a12) |
 | B | coop-unspecified | Emerson | Design Engineering Co-Op | Marshalltown, IA, United States | 2026-09-01 | [apply](https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26008754) |
 | B | coop-unspecified | Emerson | Electrical Engineering Co-Op | Marshalltown, IA, United States | 2026-09-01 | [apply](https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26008715) |
@@ -448,27 +536,38 @@
 | B | coop-unspecified | Entegris | Quality Engineering Co-Op | Rockrimmon, Colorado Springs, CO | Posted 22 Days Ago | [apply](https://entegris.wd1.myworkdayjobs.com/EntegrisCareers/job/Rockrimmon-Colorado-Springs-CO/Quality-Engineering-Co-Op_REQ-14468) |
 | B | coop-unspecified | Entegris | Technical Training Co-Op | Chaska, MN | Posted 21 Days Ago | [apply](https://entegris.wd1.myworkdayjobs.com/EntegrisCareers/job/Chaska-MN/Technical-Training-Co-Op_REQ-14459) |
 | B | coop-unspecified | Entegris | Technical Training Co-op | Rockrimmon, Colorado Springs, CO | Posted 22 Days Ago | [apply](https://entegris.wd1.myworkdayjobs.com/EntegrisCareers/job/Rockrimmon-Colorado-Springs-CO/Technical-Training-Co-op_REQ-14467) |
+| B | coop-unspecified | Firetiger | Product Engineer Intern/Co-op | San Francisco, CA, USA | 2026-07-21 | [apply](https://simplify.jobs/jobs/click/005ce970-8e7b-41e0-9e62-2f26655f9748) |
+| B | coop-unspecified | First Quality | Controls Engineer Intern Co-op | Anderson, SC, USA | 2026-07-04 | [apply](https://simplify.jobs/jobs/click/ca50d4f7-caa1-48d6-8af5-4ae306104c02) |
 | B | coop-unspecified | Flagship Pioneering | Analytical Characterization / Protein Science Co-op | Cambridge, MA, USA | 2026-09-21 | [apply](https://simplify.jobs/jobs/click/4f4e536a-1c11-425a-84de-2a9e0512a60c) |
+| B | coop-unspecified | Forge Atomics | Electrical Engineer Intern/Co-op | El Segundo, CA, USA | 2026-08-13 | [apply](https://simplify.jobs/jobs/click/69fad6f6-a399-49f1-b6d7-6b68365133b5) |
+| B | coop-unspecified | Fortive | Test Engineer Co-op | Everett, WA, USA | 2026-08-28 | [apply](https://simplify.jobs/jobs/click/95ddcf2b-a63e-4b21-9b7a-ccb896576abc) |
+| B | coop-unspecified | Framatome | Electrical Engineer Intern Co-op | Lynchburg, VA, USA | 2026-08-20 | [apply](https://simplify.jobs/jobs/click/2f6d1363-5eff-4778-ae83-37983d9aaebe) |
 | B | coop-unspecified | Franklin Electric | Electrical/Software Engineering Co-op | Fort Wayne, IN, USA | 2026-09-23 | [apply](https://simplify.jobs/jobs/click/c5576e71-b9ba-4492-93b4-070f56b4f76f) |
 | B | coop-unspecified | GE Aerospace | Engines Engineering Co-op – US – Fall 2027 | 2 Locations | Posted 30+ Days Ago | [apply](https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Evendale/Engines-Engineering-Co-op---US---Fall-2027_R5029625-1) |
 | B | coop-unspecified | GE Aerospace | Manufacturing Engineering Co-op – US – Fall 2027 | 23 Locations | Posted 30+ Days Ago | [apply](https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Evendale/Manufacturing-Engineering-Co-op---US---Fall-2027_R5029664-1) |
 | B | coop-unspecified | GE Aerospace | Systems Engineering Co-op - Electrical Engineering & Computer Engineering/Science (Avionics) - US - Fall 2027 | 2 Locations | Posted 30+ Days Ago | [apply](https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Grand-Rapids/Systems-Engineering-Co-op---Electrical-Engineering---Computer-Engineering-Science--Avionics----US---Fall-2027_R5030141-1) |
 | B | coop-unspecified | GE Aerospace | Systems Engineering Co-op - Electrical Engineering & Computer Engineering/Science (Electric Power) - US - Fall 2027 | 2 Locations | Posted 30+ Days Ago | [apply](https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Dayton/Systems-Engineering-Co-op---Electrical-Engineering---Computer-Engineering-Science--Electric-Power----US---Fall-2027_R5030143-1) |
 | B | coop-unspecified | GE Aerospace | Unison Engineering Part-time Co-op - US - Fall 2027 | Saint George UT US 1 | Posted 16 Days Ago | [apply](https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Saint-George-UT-US-1/Unison-Engineering-Part-time-Co-op---US---Fall-2027_R5040164-1) |
+| B | coop-unspecified | GE Appliances | Electrical Engineer Co-op | Louisville, KY, USA | 2026-08-25 | [apply](https://simplify.jobs/jobs/click/259c0c7d-c60b-40ad-936e-d5aef95bbb9f) |
 | B | coop-unspecified | GE Healthcare | Electrical Engineer Co-op | Madison, WI, USA | 2026-09-16 | [apply](https://simplify.jobs/jobs/click/182d99fd-858d-4860-93b7-4f77b0167c1b) |
 | B | coop-unspecified | GE Healthcare | Infant Care Verification and Validation Engineering Co-op | Waukesha, WI, USA | 2026-09-16 | [apply](https://simplify.jobs/jobs/click/f93a68c5-be5c-43a5-9f4c-2deab0e77c2a) |
 | B | coop-unspecified | GE Healthcare | Verification and Validation Automation and Test Tools Engineering Co-op | Madison, WI, USA | 2026-09-11 | [apply](https://simplify.jobs/jobs/click/3c601ad5-ffdb-4d2c-a371-baeeb282d04a) |
+| B | coop-unspecified | GE Vernova | Hardware Engineer Co-op | Rochester, NY, USA | 2026-09-03 | [apply](https://simplify.jobs/jobs/click/4209c5e8-720b-4527-aed6-1d5b57782d05) |
 | B | coop-unspecified | General Dynamics | Electrical Technician Co-op | Crawfordville, FL, USA | 2026-09-17 | [apply](https://simplify.jobs/jobs/click/5aa0b99c-ddaf-4321-9654-dbf159d7639d) |
 | B | coop-unspecified | General Dynamics Mission Systems | Electrical Engineer Co-op | McLeansville, NC, USA | 2026-09-08 | [apply](https://simplify.jobs/jobs/click/d5c9f5d8-df7f-4297-8abe-786147928d95) |
-| B | coop-unspecified | General Dynamics Mission Systems | Electrical Engineering Co-Op (Fall/Winter) | Pittsfield, MA | 2026-10-01 | [apply](https://www.linkedin.com/jobs/view/4472826479) |
+| B | coop-unspecified | General Dynamics Mission Systems | Electrical Engineering Co-Op (Fall/Winter) | Pittsfield, MA | 2026-10-02 | [apply](https://www.linkedin.com/jobs/view/4472826479) |
 | B | coop-unspecified | General Dynamics Mission Systems | Intern Engineer - (Co-Op) |  |  | [apply](https://careers-gdms.icims.com/jobs/73842/intern-engineer---%28co-op%29/job) |
 | B | coop-unspecified | General Dynamics Mission Systems | Regional Strike Programs - Systems Engineering  (Fall Co-op) |  |  | [apply](https://careers-gdms.icims.com/jobs/74681/regional-strike-programs---systems-engineering--%28fall-co-op%29/job) |
+| B | coop-unspecified | General Motors | Manufacturing Controls Engineer Co-op | Rochester, NY, USA; Detroit, MI, USA; Flint, MI, USA | 2026-08-31 | [apply](https://simplify.jobs/jobs/click/65898fb3-db94-4f9e-bc17-03a1099910d1) |
 | B | coop-unspecified | Gorbel | Electrical Engineer Co-op | Victor, NY, USA | 2026-09-21 | [apply](https://simplify.jobs/jobs/click/3a00bf93-9628-4dbf-baa2-19da862e2949) |
 | B | coop-unspecified | Greenheck Group | Machine Design and Controls Engineer Co-op | Schofield, WI, USA | 2026-09-23 | [apply](https://simplify.jobs/jobs/click/82994ed5-47e3-4963-b81f-9a255b7d9dd0) |
 | B | coop-unspecified | Greenheck Group | Packaging Engineer Co-op | Schofield, WI, USA | 2026-09-21 | [apply](https://simplify.jobs/jobs/click/db0ab021-5bb7-48e4-8707-df9b866c9f75) |
+| B | coop-unspecified | Hargrove | Electrical/Instrumentation Co-op | Mobile, AL, USA | 2026-08-21 | [apply](https://simplify.jobs/jobs/click/c435f0e8-93e0-4ba5-b135-cf43503bacb1) |
 | B | coop-unspecified | Heraeus Group | Product Engineer Co-op | Fridley, MN, USA | 2026-09-29 | [apply](https://simplify.jobs/jobs/click/1e7c1f0a-5b1c-4e0a-9320-eb8e37d27c45) |
 | B | coop-unspecified | Insulet | Electrical Engineering Co-op | Acton, MA, USA | 2026-09-10 | [apply](https://simplify.jobs/jobs/click/4488d9e4-5ff9-4041-bb53-54feb6a20ba1) |
+| B | coop-unspecified | J.M. Smucker | Packaging Engineer Intern Co-op | Orrville, OH, USA | 2026-09-02 | [apply](https://simplify.jobs/jobs/click/11c9aacf-a83f-4296-a020-94846fd96fba) |
 | B | coop-unspecified | Johnson & Johnson | Electrical Engineer Co-op | Danvers, MA, USA | 2026-09-24 | [apply](https://simplify.jobs/jobs/click/11e12aaa-6e95-477a-a2ef-b0995c36edee) |
+| B | coop-unspecified | Johnson & Johnson | Electrical Engineering Co-op | Cincinnati, OH, USA | 2026-09-01 | [apply](https://simplify.jobs/jobs/click/318f1739-5d28-4330-afd4-1427be4f950e) |
 | B | coop-unspecified | Johnson & Johnson | Reliability Maintenance Technician Co-op | Wilson, NC, USA | 2026-09-14 | [apply](https://simplify.jobs/jobs/click/7a93e017-4912-48e2-a1bf-fe589a068bb8) |
 | B | coop-unspecified | Johnson & Johnson | Systems Test Engineering Co-op | Danvers, MA, USA | 2026-09-23 | [apply](https://simplify.jobs/jobs/click/73f3932a-8101-4847-a15a-d4828af37d25) |
 | B | coop-unspecified | Johnsonville | Electrical Controls Engineering Co-op - 2027 | Sheboygan Falls, WI | 2026-09-30 | [apply](https://www.linkedin.com/jobs/view/4464640324) |
@@ -478,6 +577,7 @@
 | B | coop-unspecified | Lennox International | Hardware Engineering Co-op | Carrollton, TX, USA | 2026-09-17 | [apply](https://simplify.jobs/jobs/click/34d8f865-8389-4eba-9e9e-66c244a5a9f3) |
 | B | coop-unspecified | Leonardo DRS | 2027 Summer - Electrical Engineering Intern/Co-op - Cypress CA | Cypress, CA | 2026-09-30 | [apply](https://www.linkedin.com/jobs/view/4462560376) |
 | B | coop-unspecified | Leonardo DRS | 2027 Summer - Electrical Test Engineering Intern/Co-op - Cypress CA | Cypress, CA | 2026-09-30 | [apply](https://www.linkedin.com/jobs/view/4462563331) |
+| B | coop-unspecified | Marathon Petroleum | Electrical Engineer Intern/Co-op | Salt Lake City, UT, USA; El Paso, TX, USA; Detroit, MI, USA | 2026-08-29 | [apply](https://simplify.jobs/jobs/click/9c46e6de-7bd5-473a-8c83-1ebeb24f0867) |
 | B | coop-unspecified | Marmon Holdings | Controls Engineer Co-op | Mt. Juliet, TN, USA | 2026-09-15 | [apply](https://simplify.jobs/jobs/click/cf4fb838-5142-4823-b7e1-1e2b9b097553) |
 | B | coop-unspecified | Mars | Packaging Engineer Co-op | Chicago, IL, USA | 2026-09-21 | [apply](https://simplify.jobs/jobs/click/bbd80626-7eda-4bcd-9059-84b16dffc496) |
 | B | coop-unspecified | Marvell | Analog Design Intern - BS - 2027 Co-Op |  | Posted 8 Days Ago | [apply](https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Analog-Design-Intern---BS---2027-Co-Op_2604788) |
@@ -487,27 +587,36 @@
 | B | coop-unspecified | Mercury Systems | 2027 Electrical Engineering Co-Op | Gulf Breeze, FL | 2026-10-01 | [apply](https://www.linkedin.com/jobs/view/4464161859) |
 | B | coop-unspecified | Michelin | Electrical Engineer Co-op Intern | Greenville, SC, USA | 2026-09-08 | [apply](https://simplify.jobs/jobs/click/7ed7b754-ad49-49fc-990e-9c9d0bdbafd8) |
 | B | coop-unspecified | NY Creates | Test and Measurement (Electro-optic Test) Co-op | Rochester, NY | 2026-10-01 | [apply](https://www.linkedin.com/jobs/view/4474338544) |
+| B | coop-unspecified | Nexus Engineering Group | Electrical Engineer Intern Co-op | Cleveland, OH, USA | 2026-08-31 | [apply](https://simplify.jobs/jobs/click/942a234a-a335-43a8-844f-480ef2447e85) |
+| B | coop-unspecified | Nidec | Electrical Engineering Co-op | Fort Smith, AR, USA | 2026-08-18 | [apply](https://simplify.jobs/jobs/click/e5cb0861-884b-4970-ae18-487418453ba4) |
+| B | coop-unspecified | Nidec | Test Lab Engineer Co-op | St. Louis, MO, USA | 2026-07-17 | [apply](https://simplify.jobs/jobs/click/2b524c26-dc94-466d-b684-f390328278c1) |
 | B | coop-unspecified | Nokia | Optical System Engineer Co-Op | United States | 2026-09-30 | [apply](https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/40648) |
 | B | coop-unspecified | Nokia | Photonic Integrated Circuits Test Co-op | Sunnyvale, CA, USA | 2026-09-22 | [apply](https://simplify.jobs/jobs/click/d925ed37-e2f2-4278-bf34-2d4b8825a49c) |
 | B | coop-unspecified | Nokia | Photonic Integrated Circuits Test Coop | United States | 2026-09-22 | [apply](https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/40743) |
-| B | coop-unspecified | Olin | Process Controls Engineer Co-Op - Fall 2027 | Freeport, TX | 2026-10-01 | [apply](https://www.linkedin.com/jobs/view/4464151917) |
 | B | coop-unspecified | Panther Life Sciences | Device Engineer Intern Co-op | Pittsburgh, PA, USA | 2026-09-17 | [apply](https://simplify.jobs/jobs/click/377a2a22-6017-4f3f-9fc2-3793bd76e16d) |
+| B | coop-unspecified | Pella | Process Engineer Co-op | Pella, IA, USA | 2026-09-04 | [apply](https://simplify.jobs/jobs/click/1c4166dc-c147-4bdf-9163-06ea23744fd8) |
 | B | coop-unspecified | Peter Basso Associates | Electrical Engineering Co-op | Troy, MI, USA | 2026-09-18 | [apply](https://simplify.jobs/jobs/click/920873e0-f3c8-4a0c-9d54-220989219108) |
+| B | coop-unspecified | Philips | Electrical Engineering Co-op | Latham, NY, USA | 2026-09-03 | [apply](https://simplify.jobs/jobs/click/4fca3be8-1df0-45d6-b6f8-e598a87a3c58) |
 | B | coop-unspecified | Philips | Packaging Engineer Co-op | Plymouth, MN, USA | 2026-09-22 | [apply](https://simplify.jobs/jobs/click/d94151e3-0512-40b7-950d-04aa15fc8d08) |
-| B | coop-unspecified | Printpack | Process Engineer Co-op | Newport News, VA, USA | 2026-08-19 | [apply](https://simplify.jobs/jobs/click/d85b5e2a-3f31-4f1b-b68b-abae6fdb3f8d) |
+| B | coop-unspecified | Printpack | Process Engineer Co-op | Newport News, VA, USA | 2026-08-25 | [apply](https://simplify.jobs/jobs/click/b56a34cc-38ab-4bdf-b4ae-bfb3a41dfc19) |
 | B | coop-unspecified | RTX | 2027 Systems Engineering Co-op – Special Operations Aviation Mainline (Onsite) | US-IA-CEDAR RAPIDS-182 ~ 1100 Cimmie Ave Ne ~ BLDG 182 | Posted 3 Days Ago | [apply](https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-IA-CEDAR-RAPIDS-182--1100-Cimmie-Ave-Ne--BLDG-182/XMLNAME-2027-Systems-Engineering-Co-op---Special-Operations-Aviation-Mainline--Onsite-_01870331) |
 | B | coop-unspecified | RTX | Electrical Engineering Co-op | Jamestown, ND, USA | 2026-09-14 | [apply](https://simplify.jobs/jobs/click/785b24c0-78fa-4eca-93dd-e8130b6c30e7) |
 | B | coop-unspecified | RTX | Electrical Firmware Co-op | Cedar Rapids, IA, USA | 2026-09-17 | [apply](https://simplify.jobs/jobs/click/d1b58794-f4e7-4d28-af0d-73a29d2fd9b6) |
 | B | coop-unspecified | RTX | FPGA Engineer Co-op | Cedar Rapids, IA, USA | 2026-09-29 | [apply](https://simplify.jobs/jobs/click/f97e9cc9-e342-4cbb-b39c-0628cdca1516) |
 | B | coop-unspecified | RTX | Manufacturing Electrical Engineer Co-op | Cedar Rapids, IA, USA | 2026-09-28 | [apply](https://simplify.jobs/jobs/click/05ff70d3-a28e-4899-81e8-4f12570f0438) |
 | B | coop-unspecified | RTX | Manufacturing Electrical Engineering Co-op | Cedar Rapids, IA, USA | 2026-09-28 | [apply](https://simplify.jobs/jobs/click/1162b765-77a7-41d5-a58c-d5c86ff3f700) |
+| B | coop-unspecified | RTX | Reliability and Safety Engineering Co-op | Cedar Rapids, IA, USA | 2026-09-21 | [apply](https://simplify.jobs/jobs/click/0d294e92-1fef-43dd-98c6-0eeedb63ae4b) |
 | B | coop-unspecified | RTX | System Engineering Co-op (Remote) | US-CO-AURORA-S75 ~ 16800 E Centretech Pkwy ~ BLDG S75 | Posted 10 Days Ago | [apply](https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-CO-AURORA-S75--16800-E-Centretech-Pkwy--BLDG-S75/System-Engineering-Co-op--Remote-_01868902) |
 | B | coop-unspecified | RTX | Systems Engineering Co-op – Special Operations Aviation Mainline | US-IA-CEDAR RAPIDS-182 ~ 1100 Cimmie Ave Ne ~ BLDG 182 | Posted 3 Days Ago | [apply](https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-IA-CEDAR-RAPIDS-182--1100-Cimmie-Ave-Ne--BLDG-182/Systems-Engineering-Co-op---Special-Operations-Aviation-Mainline_01870329) |
 | B | coop-unspecified | Re:Build Manufacturing | Automation & Controls Engineer Co-op Intern | Rochester, NY, USA; Rush, NY, USA | 2026-09-21 | [apply](https://simplify.jobs/jobs/click/c2029e8e-7c86-4722-9b70-7c6018e85e47) |
 | B | coop-unspecified | Rehlko | Electrical Engineer Co-op | Sheboygan, WI, USA | 2026-09-16 | [apply](https://simplify.jobs/jobs/click/be56f081-e771-48ce-91c0-2dbe016ccb1f) |
-| B | coop-unspecified | Rivian | Engineering Intern Co-op | Palo Alto, CA, USA | 2026-09-30 | [apply](https://simplify.jobs/jobs/click/04e00d36-839d-4f8d-bad8-082a70f7c73e) |
+| B | coop-unspecified | Rivian | Audio Hardware Engineer Intern Co-op | Palo Alto, CA, USA | 2026-09-30 | [apply](https://simplify.jobs/jobs/click/a92fa0b6-3ef2-4c58-8fc3-5597e8ac9fcb) |
+| B | coop-unspecified | Rivian | Engineer Intern Co-op | Palo Alto, CA, USA | 2026-10-01 | [apply](https://simplify.jobs/jobs/click/6afc68db-8174-4996-815c-024b34fd54b0) |
+| B | coop-unspecified | Rivian | Engineering Intern/Co-op | Palo Alto, CA, USA | 2026-09-30 | [apply](https://simplify.jobs/jobs/click/5d100053-6d4b-4c33-8d82-3223fd0e3410) |
 | B | coop-unspecified | Saab | Electrical Engineering Co-op | East Syracuse, NY, USA | 2026-09-23 | [apply](https://simplify.jobs/jobs/click/aea50023-bfc4-4203-a4d7-f3decbe8ebd6) |
 | B | coop-unspecified | Samsara | Firmware Engineer Co-Op | San Francisco - SF9 | 2026-09-25 | [apply](https://www.samsara.com/company/careers/roles/8226602?gh_jid=8226602) |
+| B | coop-unspecified | Schaeffler | Co-Op - Humanoid Robotics (Electrical Engineering) - 2027 | Troy, MI | 2026-10-02 | [apply](https://www.linkedin.com/jobs/view/4475017211) |
+| B | coop-unspecified | Shield AI | Electrical Engineer Co-op | Dallas, TX, USA | 2026-09-01 | [apply](https://simplify.jobs/jobs/click/eb8f9769-0acf-47c3-bbb7-5f60c04f0239) |
 | B | coop-unspecified | Siemens Healthineers | Electrical Engineering Co-op - Hoffman Estates, IL | Hoffman Estates, IL | 2026-10-01 | [apply](https://www.linkedin.com/jobs/view/4463442137) |
 | B | coop-unspecified | Siemens Healthineers | Electrical Engineering Co-op - Knoxville, TN | Knoxville, TN | 2026-10-01 | [apply](https://www.linkedin.com/jobs/view/4464252082) |
 | B | coop-unspecified | Skyworks | Analog IC Design Co-op | Irvine, CA | Apr 20 | [apply](https://careers.skyworksinc.com/job/Irvine-Analog-IC-Design-SummerFall-Co-Op-(June-&apos;26-Dec-&apos;26)-CA-92602/76295-en_US/?feedId=177100&utm_source=github-vansh-ouckah) |
@@ -519,11 +628,15 @@
 | B | coop-unspecified | Sonos | Audio Systems Engineering Co-Op | Boston, MA | Posted 9 Days Ago | [apply](https://sonos.wd1.myworkdayjobs.com/Sonos/job/Boston-MA/Audio-Systems-Engineering-Co-Op_R2827-2) |
 | B | coop-unspecified | Sonos | Radio Systems Engineering Co-Op | Boston, MA | Posted 9 Days Ago | [apply](https://sonos.wd1.myworkdayjobs.com/Sonos/job/Boston-MA/Radio-Systems-Engineering-Co-Op_R2825-2) |
 | B | coop-unspecified | SoundOff Signal | Electrical Engineer Intern/Co-op | Hudsonville, MI, USA | 2026-09-22 | [apply](https://simplify.jobs/jobs/click/a8472d45-9d65-479c-9822-173cdacfce6c) |
+| B | coop-unspecified | Southwire Company | Electrical Engineer Co-op | Carrollton, GA | 2026-10-02 | [apply](https://www.linkedin.com/jobs/view/4465888523) |
+| B | coop-unspecified | Specter Aerospace | PLC/Controls Engineer Co-op | Peabody, MA, USA | 2026-08-13 | [apply](https://simplify.jobs/jobs/click/3da3385a-689e-4256-8ffc-1ea32c231859) |
+| B | coop-unspecified | Specter Aerospace | Propulsion Test Engineer Co-op | Peabody, MA, USA | 2026-08-13 | [apply](https://simplify.jobs/jobs/click/8d25fd92-9935-464c-99be-f6ed2cdcf910) |
 | B | coop-unspecified | Stantec | Electrical Engineer Intern Co-op | Richmond, VA, USA | 2026-09-17 | [apply](https://simplify.jobs/jobs/click/768a6a1a-a61d-466c-adc0-4009f212e51f) |
 | B | coop-unspecified | Stantec | Process Engineer Intern/Co-op | Philadelphia, PA, USA; Burlington, MA, USA | 2026-09-29 | [apply](https://simplify.jobs/jobs/click/6f47eb79-90cd-4ed3-af26-2edf628356fd) |
 | B | coop-unspecified | Symbotic | Hardware Engineer Co-op | Wilmington, MA, USA | 2026-09-21 | [apply](https://simplify.jobs/jobs/click/d2c8d6aa-577e-4c0d-8edc-a385f1d6ad60) |
 | B | coop-unspecified | Teledyne FLIR | Manufacturing Engineer Co-Op | US - Chestnut Ridge, NY | Posted Yesterday | [apply](https://flir.wd1.myworkdayjobs.com/flircareers/job/US---Chestnut-Ridge-NY/Manufacturing-Engineer-Co-Op_REQ36603) |
 | B | coop-unspecified | Textron | Electrical Engineer Co-op | Hunt Valley, Cockeysville, MD, USA | 2026-09-01 | [apply](https://simplify.jobs/jobs/click/a5cced3e-dc67-4673-b28d-5e857a494f94) |
+| B | coop-unspecified | The Campbell's Company | Process Engineer Co-op | Camden, NJ, USA | 2026-08-20 | [apply](https://simplify.jobs/jobs/click/92a440e2-f5f4-49bf-a65f-5bd219e8798c) |
 | B | coop-unspecified | The Toro Company | Electrical/software Co-op | Iron Mountain, MI, USA | 2026-09-28 | [apply](https://simplify.jobs/jobs/click/fb4240c7-cb85-41c8-82ab-0d99dd36ba66) |
 | B | coop-unspecified | Thermo Fisher Scientific | Development Engineering Co-Op | Rochester, New York, United States of America | 2026-09-11 | [apply](https://jobs.thermofisher.com/global/en/job/R-01368185/development-engineering-co-op) |
 | B | coop-unspecified | Thermo Fisher Scientific | Engineering Co-Op | Greenville, North Carolina, United States of America | 2026-09-10 | [apply](https://jobs.thermofisher.com/global/en/job/R-01366580/engineering-co-op) |
@@ -540,12 +653,14 @@
 | B | coop-unspecified | Varian | Electrical Engineer Co-op | Knoxville, TN, USA | 2026-09-11 | [apply](https://simplify.jobs/jobs/click/b1226b59-018b-429f-9281-38c0fbc9cef7) |
 | B | coop-unspecified | Varian | Electrical Engineer Co-op | Hoffman Estates, IL, USA | 2026-09-09 | [apply](https://simplify.jobs/jobs/click/c40d83aa-df42-49a5-9a8a-96021088f325) |
 | B | coop-unspecified | Viavi Solutions | Hardware Engineering Co-op | Germantown, MD, USA | 2026-09-14 | [apply](https://simplify.jobs/jobs/click/d868dd61-4273-4a03-8416-bce9089b387f) |
+| B | coop-unspecified | WEC Energy Group | Electrical Engineer Co-op | Milwaukee, WI, USA | 2026-08-14 | [apply](https://simplify.jobs/jobs/click/229eb4ec-e5c5-4e54-ada3-ff2e9a52d4eb) |
 | B | coop-unspecified | Wabtec | Full-Time Spring Engineering Co-op | Erie, PA, United States | 2026-08-28 | [apply](https://jobs.smartrecruiters.com/wabtec/3743990014915476) |
 | B | coop-unspecified | Wabtec | Test Engineer Co-op | State College, PA, USA | 2026-09-29 | [apply](https://simplify.jobs/jobs/click/57abb112-942a-48e5-b2ae-e41c85f91226) |
 | B | coop-unspecified | Wabtec | Transducer Manufacturing Engineering Co-Op | Waltham, MA, United States | 2026-10-02 | [apply](https://jobs.smartrecruiters.com/wabtec/3743990015874986) |
 | B | coop-unspecified | Waters | Electrical Technician Co-op | Milford, MA, USA | 2026-09-11 | [apply](https://simplify.jobs/jobs/click/1554804f-d4cb-4ce4-8f16-f8a8d40db8b5) |
 | B | coop-unspecified | Watts Water | Product Engineer Co-op | North Andover, MA, USA | 2026-09-17 | [apply](https://simplify.jobs/jobs/click/3d8b7f55-52f3-424e-a5e9-39b2745f5e08) |
 | B | coop-unspecified | Winchester Ammunition | Winchester Electrical Engineer Co-Op - Fall 2027 | Independence, MO | 2026-09-30 | [apply](https://www.linkedin.com/jobs/view/4472323998) |
+| B | coop-unspecified | Winland Foods | Packaging Engineer Co-op | Oak Brook, IL, USA | 2026-08-05 | [apply](https://simplify.jobs/jobs/click/1d6fcabd-090a-498b-9001-8d8af1d5b3d2) |
 | B | coop-unspecified | bioMérieux | Hardware Co-op | Hazelwood, MO, USA | 2026-09-15 | [apply](https://simplify.jobs/jobs/click/6b921b31-d209-48f8-a6ae-12349aed6e6b) |
 | B | coop-unspecified | iRhythm Technologies | Electrical Engineer Co-op Intern | San Francisco, CA, USA | 2026-09-24 | [apply](https://simplify.jobs/jobs/click/c9792cfd-c5b4-4224-b707-ce3b840830f4) |
 | B | coop-unspecified | nVent | Electrical Engineer Co-op | Solon, OH, USA | 2026-09-14 | [apply](https://simplify.jobs/jobs/click/957c3364-e30b-41ad-ad6d-f852dda58429) |
@@ -576,6 +691,7 @@
 | C | unspecified | Analog Devices | Analog Devices Thailand’s Internship Program | Thailand, Chon Buri | Posted 30+ Days Ago | [apply](https://analogdevices.wd1.myworkdayjobs.com/External/job/Thailand-Chon-Buri/Analog-Devices-Thailand-s-Internship-Program_R258682) |
 | C | unspecified | Analog Devices | Digital Design Engineer Intern | 2 Locations | Posted 30+ Days Ago | [apply](https://analogdevices.wd1.myworkdayjobs.com/External/job/US-NC-Durham/Digital-Design-Engineer-Intern_R265298) |
 | C | unspecified | Analog Devices | Mixed Signal Engineer Intern | 2 Locations | Posted 30+ Days Ago | [apply](https://analogdevices.wd1.myworkdayjobs.com/External/job/US-MA-Wilmington/Mixed-Signal-Engineer-Intern_R265299) |
+| C | unspecified | Analog Devices | Mixed Signal Engineer Intern | Durham, NC | 2026-10-02 | [apply](https://www.linkedin.com/jobs/view/4454163998) |
 | C | unspecified | Analog Devices | Product Engineer (Product Development) Intern | 3 Locations | Posted 16 Days Ago | [apply](https://analogdevices.wd1.myworkdayjobs.com/External/job/US-MA-Wilmington/Product-Engineer--Product-Development--Intern_R265302) |
 | C | unspecified | Analog Devices | Product Engineer Intern | San Jose, CA, USA; Wilmington, MA, USA; Durham, NC, USA | 2026-08-24 | [apply](https://simplify.jobs/jobs/click/13cc39f8-a256-4d21-866f-4cf8cb77d4ef) |
 | C | unspecified | Analog Devices | Test Engineer Intern | Wilmington, MA, USA; Durham, NC, USA | 2026-09-16 | [apply](https://simplify.jobs/jobs/click/83127520-9aed-4eb4-a7c5-63d711f65e1f) |
@@ -592,14 +708,15 @@
 | C | unspecified | Atomic Semi | Software Engineer Intern, Chip Design Tools | San Francisco, CA | Jul 27 | [apply](https://jobs.ashbyhq.com/fab2/907766af-a3c0-49a3-b01e-246baa437d10?embed=true&utm_source=github-vansh-ouckah) |
 | C | unspecified | BAE Systems | Spring and Summer Electrical Engineering Intern IV (Hybrid) | Cedar Rapids, Iowa, United States | 2026-10-01 | [apply](https://jobs.baesystems.com/global/en/job/129449BR/spring-and-summer-electrical-engineering-intern-iv-hybrid) |
 | C | unspecified | BCI Burke | CAD Playground Design Intern | Fond du Lac, WI, USA | 2026-09-17 | [apply](https://simplify.jobs/jobs/click/efba6c94-dcee-4cb9-9759-d5b7efe9fc0d) |
+| C | unspecified | BGE | Electrical Engineer Intern | Austin, TX, USA | 2026-10-01 | [apply](https://simplify.jobs/jobs/click/f86e7d72-e7ba-49e6-84b3-4d702568ca07) |
 | C | unspecified | BGE | Electrical Engineer Intern | Frisco, TX, USA | 2026-09-08 | [apply](https://simplify.jobs/jobs/click/814cee98-280c-457d-b759-548b149eaf7e) |
+| C | unspecified | BGE | Electrical Engineer Internship | Frisco, TX, USA | 2026-10-01 | [apply](https://simplify.jobs/jobs/click/e99dec20-2b5e-4332-89d2-2048f9fe670c) |
 | C | unspecified | BRPH | Electrical Engineer Intern | Orlando, FL, USA; Melbourne, FL, USA | 2026-09-15 | [apply](https://simplify.jobs/jobs/click/cf9d0dea-9b51-4c85-8354-7647e928382d) |
 | C | unspecified | BRPH | Electrical Engineer Intern | Phoenix, AZ, USA | 2026-09-09 | [apply](https://simplify.jobs/jobs/click/b0c0f335-31c5-4304-acdc-bcbd700ad9fd) |
 | C | unspecified | Base Power | Electrical Engineering Intern | Austin, TX, USA; San Carlos, CA, USA | 2026-09-30 | [apply](https://simplify.jobs/jobs/click/fdb23024-9715-4aa9-8c71-4112b295b5bf) |
 | C | unspecified | Base Power | Hardware Engineer Intern | Austin, TX, USA; San Carlos, CA, USA | 2026-05-21 | [apply](https://simplify.jobs/jobs/click/733ec987-5677-4e4e-a8fc-0a8dbcef6060) |
 | C | unspecified | Base Power | Hardware Reliability & Test Engineering Intern | Austin, TX, USA | 2026-10-01 | [apply](https://simplify.jobs/jobs/click/425f9072-8894-4abe-aff3-1bf6ccd9c848) |
 | C | unspecified | Base Power Company | Electrical Engineering Intern | San Carlos, TX | 2026-10-01 | [apply](https://www.linkedin.com/jobs/view/4472372523) |
-| C | unspecified | Basin Electric Power Cooperative | STUDENT INTERN - ELECTRICAL ENGINEERING (I&C TELECOM) (HDQ) | Bismarck, ND | 2026-09-29 | [apply](https://www.linkedin.com/jobs/view/4463243276) |
 | C | unspecified | Blue Origin | 2026 Intern Conversion - Electronics/Electrical Systems Engineer I | 9 Locations | Posted 30+ Days Ago | [apply](https://blueorigin.wd5.myworkdayjobs.com/BlueOrigin/job/Greater-Seattle-Area/XMLNAME-2026-Intern-Conversion---Electronics-Electrical-Systems-Engineer-I_R70292) |
 | C | unspecified | Blue Origin | 2026 Intern Conversion - Materials and Process Engineer I | 9 Locations | Posted 30+ Days Ago | [apply](https://blueorigin.wd5.myworkdayjobs.com/BlueOrigin/job/Greater-Seattle-Area/XMLNAME-2026-Intern-Conversion---Materials-and-Process-Engineer-I_R70281) |
 | C | unspecified | Blue Origin | 2026 Intern Conversion - Test Engineer I | 9 Locations | Posted 30+ Days Ago | [apply](https://blueorigin.wd5.myworkdayjobs.com/BlueOrigin/job/Greater-Seattle-Area/XMLNAME-2026-Intern-Conversion---Test-Engineer-I_R70271) |
@@ -624,7 +741,6 @@
 | C | unspecified | Cadence | Intern: Application Engineering - Digital Verification & Simulation/VIP | BELO HORIZONTE | Posted 30+ Days Ago | [apply](https://cadence.wd1.myworkdayjobs.com/External_Careers/job/BELO-HORIZONTE/Intern--Application-Engineering---Digital-Verification---Simulation-VIP_R54888) |
 | C | unspecified | Cadence | Intern: Software Engineering: Hardware Verification R&D | BELO HORIZONTE | Posted 9 Days Ago | [apply](https://cadence.wd1.myworkdayjobs.com/External_Careers/job/BELO-HORIZONTE/Intern--Software-Engineering--Hardware-Verification-R-D_R56477) |
 | C | unspecified | Canadian Solar | Raw Material Test Engineer Intern | Mesquite, TX, USA | 2026-09-04 | [apply](https://simplify.jobs/jobs/click/a5bfc923-5b19-475c-9bbc-813d1c070b9e) |
-| C | unspecified | CannonDesign | Electrical Engineer Intern | Boston, MA, USA | 2026-09-29 | [apply](https://simplify.jobs/jobs/click/18d92490-7ffa-409a-a712-1c7ae98bf996) |
 | C | unspecified | CannonDesign | Electrical Engineer Intern | Chicago, IL, USA | 2026-09-29 | [apply](https://simplify.jobs/jobs/click/c3cff8bf-39b8-4c41-973c-0690998136dc) |
 | C | unspecified | CannonDesign | Electrical Intern | Buffalo, NY, USA | 2026-09-29 | [apply](https://simplify.jobs/jobs/click/c316f82d-7979-45a1-9adc-2e74bbd7c41b) |
 | C | unspecified | Celanese | Electrical Engineer Intern | Washington, WV, USA; Mt Pleasant, SC, USA; Bishop, TX, USA | 2026-09-03 | [apply](https://simplify.jobs/jobs/click/87b60ee3-d4a2-4778-8202-59de47f9f54c) |
@@ -661,11 +777,11 @@
 | C | unspecified | Emerson Electric | Test Engineer Intern | Shakopee, MN, USA; Eden Prairie, MN, USA | 2026-09-01 | [apply](https://simplify.jobs/jobs/click/f709f3a2-d69c-4a81-a4b1-1b1c5cc11ab7) |
 | C | unspecified | Emerson Electric | Test Engineer Intern | Boulder, CO, USA | 2026-09-01 | [apply](https://simplify.jobs/jobs/click/a300d803-f4bd-4145-a877-3742453bc12b) |
 | C | unspecified | Energy Transfer Partners | Electrical Engineering Intern | Houston, TX, USA | 2026-09-12 | [apply](https://simplify.jobs/jobs/click/e17cd413-af97-4d88-a633-fc5418877356) |
-| C | unspecified | Enerpac Tool Group | Electrical Engineering Intern | Milwaukee, WI | 2026-10-01 | [apply](https://www.linkedin.com/jobs/view/4472982599) |
 | C | unspecified | Envista | Process Engineer Intern | Mahwah, NJ, USA | 2026-08-05 | [apply](https://simplify.jobs/jobs/click/e7a23625-e094-40a8-b09c-68a7b044e843) |
 | C | unspecified | Etched | Firmware Intern | San Jose, CA | May 22 | [apply](https://jobs.ashbyhq.com/Etched/0e78a385-c450-4749-9803-0970ce2971a5) |
 | C | unspecified | Etched | People Operations Intern | San Jose | 2026-09-17 | [apply](https://jobs.ashbyhq.com/etched/dc036272-19b8-464f-a22d-2505c14b5270) |
 | C | unspecified | Etched | Performance Tools Intern | San Jose | 2026-08-03 | [apply](https://jobs.ashbyhq.com/etched/f02e8035-7dc9-4b0c-aab7-75bbb4e975b8) |
+| C | unspecified | Everline Tech | Electrical Engineering Intern | Kentucky, United States | 2026-10-02 | [apply](https://www.linkedin.com/jobs/view/4473138995) |
 | C | unspecified | Fab2 | Electrical Engineer Intern | San Francisco, CA, USA; Austin, TX, USA; Lockhart, TX, USA | 2026-08-27 | [apply](https://simplify.jobs/jobs/click/813ce4a3-f0d2-4422-8bc6-baa8f9cf613a) |
 | C | unspecified | Formlabs | Hardware R&D Engineering Intern | Somerville, MA | Aug 21 | [apply](https://careers.formlabs.com/job/8097694/apply/?gh_jid=8097694&utm_source=github-vansh-ouckah) |
 | C | unspecified | Foundation | Electrical Engineer Intern | San Francisco, CA, USA | 2026-08-12 | [apply](https://simplify.jobs/jobs/click/3fdba607-c52a-4da8-96b4-ad0933b78280) |
@@ -695,9 +811,12 @@
 | C | unspecified | GlobalFoundries | 2H University Intern - Industrial Engineering (Layout) | SGP - Woodlands | Posted 30+ Days Ago | [apply](https://globalfoundries.wd1.myworkdayjobs.com/External/job/SGP---Woodlands/XMLNAME-2H-University-Intern---Industrial-Engineering--Layout-_JR-2502775) |
 | C | unspecified | Graco | Electrical Engineer Intern | Dayton, MN, USA | 2026-09-10 | [apply](https://simplify.jobs/jobs/click/e309c30e-cbaa-46b5-9168-aab10b6460f7) |
 | C | unspecified | Graco | Electrical Engineer Intern | Rogers, MN, USA | 2026-09-10 | [apply](https://simplify.jobs/jobs/click/7ce53143-32f8-44dd-a13f-6d4c1e7b8ffc) |
+| C | unspecified | Graco | Electrical Engineer Intern | Rogers, MN | 2026-10-02 | [apply](https://www.linkedin.com/jobs/view/4463900569) |
 | C | unspecified | Graco | Electrical Engineering Intern | Dexter, MI, USA | 2026-09-15 | [apply](https://simplify.jobs/jobs/click/e040bce8-cb7a-4395-ae5a-4bd67a686445) |
+| C | unspecified | Graco | Electrical Engineering Intern | Dayton, MN | 2026-10-02 | [apply](https://www.linkedin.com/jobs/view/4463907630) |
+| C | unspecified | Graphcore | Firmware Engineer Intern | Austin, TX, USA | 2026-09-24 | [apply](https://simplify.jobs/jobs/click/0c3e33aa-b7f2-43c5-905a-19d5decedeeb) |
 | C | unspecified | Graphcore | Hardware Platform Development Intern | Austin, TX, USA | 2026-09-24 | [apply](https://simplify.jobs/jobs/click/2db508b9-8c94-4578-af5c-2e9050a1fc01) |
-| C | unspecified | Graphcore | System Validation Engineering Intern | Austin, TX, USA | 2026-09-24 | [apply](https://simplify.jobs/jobs/click/c3cf0e0c-833f-44df-a0c9-d931121ecb8a) |
+| C | unspecified | Graphcore | System Validation Engineer Intern | Austin, TX, USA | 2026-09-24 | [apply](https://simplify.jobs/jobs/click/c3cf0e0c-833f-44df-a0c9-d931121ecb8a) |
 | C | unspecified | H3X Technologies | Embedded Controls Intern | Louisville, CO, USA | 2026-08-21 | [apply](https://simplify.jobs/jobs/click/bb7c0aac-5534-4988-b2eb-f17b650f5c9c) |
 | C | unspecified | H3X Technologies | Power Electronics Intern | Louisville, CO, USA | 2026-08-18 | [apply](https://simplify.jobs/jobs/click/ea5b02ef-a979-4e3e-8c9b-003ca559f92c) |
 | C | unspecified | HPR | FPGA Engineering Intern | Needham, MA | Aug 21 | [apply](https://job-boards.greenhouse.io/hyannisportresearch/jobs/7822801003) |
@@ -707,6 +826,9 @@
 | C | unspecified | Hendrick Motorsports | Electrical Engineer Intern | Charlotte, NC, USA | 2026-09-23 | [apply](https://simplify.jobs/jobs/click/a4819740-3b33-45dd-80b8-dc886f87c926) |
 | C | unspecified | Heron Power | Medium Voltage Test Engineering Intern | Scotts Valley, CA, USA | 2026-09-30 | [apply](https://simplify.jobs/jobs/click/0910ff0b-c0a1-4f8f-aeb8-eba0cddb551c) |
 | C | unspecified | Hewlett Packard | Electrical/Hardware Engineering Intern | Corvallis, OR, USA | 2026-09-28 | [apply](https://simplify.jobs/jobs/click/501328bb-0f33-407c-bbf6-feae377c8ad6) |
+| C | unspecified | IBM | Microarchitecture / Software Intern 2027 - AI Accelerators Research | Yorktown Heights, NY | 2026-10-02 | [apply](https://www.linkedin.com/jobs/view/4463932655) |
+| C | unspecified | IBM | Silicon Technology Research and Development Hardware Engineering Intern 2027 | Albany, NY | 2026-10-02 | [apply](https://www.linkedin.com/jobs/view/4463929719) |
+| C | unspecified | IBM | Silicon Technology Research and Development Research Scientist Intern - 2027 | Yorktown Heights, NY | 2026-10-02 | [apply](https://www.linkedin.com/jobs/view/4463935654) |
 | C | unspecified | IMC | Hardware Engineer Intern | Chicago, IL | Jul 24 | [apply](https://www.imc.com/us/careers/jobs/4823945101) |
 | C | unspecified | Illinois Tool Works | Electrical Engineer Intern | Rogers, MN, USA | 2026-09-22 | [apply](https://simplify.jobs/jobs/click/d9a6bd58-486b-4194-b494-e6cef88faa24) |
 | C | unspecified | Illinois Tool Works | Electrical Engineering Intern | Troy, OH, USA | 2026-09-04 | [apply](https://simplify.jobs/jobs/click/8c1609ee-afef-4443-8add-461ea8bf3a9c) |
@@ -716,6 +838,7 @@
 | C | unspecified | Infineon Technologies | Internship - Analog Mixed-Signal Design | San Jose, CA | 2026-10-02 | [apply](https://www.linkedin.com/jobs/view/4362974948) |
 | C | unspecified | Infineon Technologies | Internship - Analog Mixed-Signal Design Verification Engineer | Andover, MA | 2026-10-02 | [apply](https://www.linkedin.com/jobs/view/4465695379) |
 | C | unspecified | Infineon Technologies | Internship - Embedded Systems EngineerInternship - Embedded Systems Engineer | Austin, TX | 2026-10-02 | [apply](https://www.linkedin.com/jobs/view/4456727484) |
+| C | unspecified | Infineon Technologies | Internship - IC Analog Design | Andover, MA | 2026-10-02 | [apply](https://www.linkedin.com/jobs/view/4474753381) |
 | C | unspecified | Infineon Technologies | Internship - PDK Engineer | Lexington, KY | 2026-10-02 | [apply](https://www.linkedin.com/jobs/view/4469888440) |
 | C | unspecified | Intel | GPU Physical Design Engineer Intern | Costa Rica, San Jose | Posted 2 Days Ago | [apply](https://intel.wd1.myworkdayjobs.com/External/job/Costa-Rica-San-Jose/GPU-Physical-Design-Engineer-Intern_JR0287532) |
 | C | unspecified | Intel | Platform Hardware and Systems Engineering - Intern, Bachelor’s | 5 Locations | Posted 30 Days Ago | [apply](https://intel.wd1.myworkdayjobs.com/External/job/US-Oregon-Hillsboro/Platform-Hardware-and-Systems-Engineering---Intern--Bachelor-s_JR0286827) |
@@ -735,6 +858,7 @@
 | C | unspecified | Keysight Technologies | R&D Electrical Engineering Intern | Colorado Springs, CO, USA | 2026-10-01 | [apply](https://simplify.jobs/jobs/click/e6a8426e-49ab-4f36-8753-80765cac0304) |
 | C | unspecified | Keysight Technologies | R&D Hardware Engineer Intern | Santa Rosa, CA, USA | 2026-09-22 | [apply](https://simplify.jobs/jobs/click/5d8625b4-2f3c-4bb8-a7dc-6bf889d1b5db) |
 | C | unspecified | Keysight Technologies | R&D Packaging and Signal Integrity Intern | Colorado Springs, CO, USA | 2026-09-08 | [apply](https://simplify.jobs/jobs/click/95f70268-a80b-4e11-b4c3-587d08de81ba) |
+| C | unspecified | Keysight Technologies | R&D Software Engineering Intern | Santa Clara, CA, USA; Calabasas, CA, USA | 2026-09-22 | [apply](https://simplify.jobs/jobs/click/cbd56b83-ba52-4c04-b781-d4ae5e585151) |
 | C | unspecified | Keysight Technologies | RF Engineering Content Intern | Santa Rosa, CA, USA | 2026-09-23 | [apply](https://simplify.jobs/jobs/click/65969adc-cfb4-4ea7-aa7b-24cabf200d29) |
 | C | unspecified | Keysight Technologies | RF IC Designer Intern | Santa Rosa, CA | 2026-09-30 | [apply](https://www.linkedin.com/jobs/view/4472640110) |
 | C | unspecified | Keysight Technologies | RF/Microwave Engineer Intern | Santa Rosa, CA, USA | 2026-09-16 | [apply](https://simplify.jobs/jobs/click/c8143b98-c52d-4c79-beef-d382c8ccf725) |
@@ -745,6 +869,7 @@
 | C | unspecified | Keysight Technologies | Semiconductor Systems Automation Intern | Santa Rosa, CA, USA | 2026-09-23 | [apply](https://simplify.jobs/jobs/click/0b1fe42d-8ea6-4c68-bbf7-5ba32bf4a030) |
 | C | unspecified | Kimley-Horn | CAD Drafter Intern | Raleigh, NC, USA | 2026-09-22 | [apply](https://simplify.jobs/jobs/click/676b6deb-db83-4dda-a7c9-ac08d74ec276) |
 | C | unspecified | Kimley-Horn | CAD Drafter Intern | Charlotte, NC, USA | 2026-09-15 | [apply](https://simplify.jobs/jobs/click/d099cf32-bea1-42cc-849e-d21314dc4ee2) |
+| C | unspecified | Kimley-Horn | Electrical Engineer Intern | Sacramento, CA, USA | 2026-10-02 | [apply](https://simplify.jobs/jobs/click/0f02889b-d52b-4c31-8695-f9aac3f08e39) |
 | C | unspecified | Kimley-Horn | Electrical Engineer Intern | St Louis Park, MN, USA | 2026-10-01 | [apply](https://simplify.jobs/jobs/click/0c1285b6-a1c6-4641-853b-2b7fb5ccebd0) |
 | C | unspecified | Kimley-Horn | Electrical Engineer Intern | Palm Beach Gardens, FL, USA | 2026-09-30 | [apply](https://simplify.jobs/jobs/click/d05474d6-97d6-4b12-ab94-1e5b8edb7b97) |
 | C | unspecified | Kimley-Horn | Electrical Engineer Intern | San Antonio, TX, USA | 2026-09-29 | [apply](https://simplify.jobs/jobs/click/b093dc80-6f35-4169-89f5-0d73730c8a3d) |
@@ -764,15 +889,12 @@
 | C | unspecified | L3Harris Technologies | Electrical Engineer Intern | Carlsbad, CA, USA | 2026-09-10 | [apply](https://simplify.jobs/jobs/click/a1562a5b-5303-4b17-aa73-487b8aa88817) |
 | C | unspecified | L3Harris Technologies | Electrical Engineer Intern | San Diego, CA, USA | 2026-09-10 | [apply](https://simplify.jobs/jobs/click/07537388-f182-4f59-90fa-6617dfbaa256) |
 | C | unspecified | L3Harris Technologies | Electrical Engineer Intern | Rochester, NY, USA | 2026-09-10 | [apply](https://simplify.jobs/jobs/click/929f2b44-a14f-436c-be87-9213e5b7c0ff) |
-| C | unspecified | L3Harris Technologies | Electrical Engineer Intern | Waco, TX | 2026-09-29 | [apply](https://www.linkedin.com/jobs/view/4455719956) |
 | C | unspecified | L3Harris Technologies | Electrical Engineer Intern - Fall 2027 | Greenville, TX | 2026-09-30 | [apply](https://www.linkedin.com/jobs/view/4455728085) |
 | C | unspecified | L3Harris Technologies | Electrical Engineering Intern | Rochester, NY, USA | 2026-09-30 | [apply](https://simplify.jobs/jobs/click/c1927093-f6c0-419a-aa07-4178c1dffdf2) |
 | C | unspecified | L3Harris Technologies | Integration/Test Engineer Intern | Melbourne, FL, USA | 2026-09-10 | [apply](https://simplify.jobs/jobs/click/352fa54f-2951-4516-9bad-74ec4d58df98) |
 | C | unspecified | L3Harris Technologies | Integration/Test Engineering Intern | Melbourne, FL, USA | 2026-09-10 | [apply](https://simplify.jobs/jobs/click/1ce2a613-e411-4a03-a5e2-73ef2a74935a) |
 | C | unspecified | L3Harris Technologies | Integration/Test Engineering Intern | Carlsbad, CA, USA | 2026-09-10 | [apply](https://simplify.jobs/jobs/click/c0297af2-4511-4985-8015-4fdac7a3c188) |
 | C | unspecified | L3Harris Technologies | Integration/Test Engineering Intern | Clifton, NJ, USA | 2026-09-10 | [apply](https://simplify.jobs/jobs/click/eff30b5e-9ebf-4312-af66-8ac0326770d5) |
-| C | unspecified | L3Harris Technologies | Intern, Electrical Engineer (Rochester, NY) | Rochester, NY | 2026-09-29 | [apply](https://www.linkedin.com/jobs/view/4473248076) |
-| C | unspecified | L3Harris Technologies | Intern, Electrical Engineer - FPGA | Palm Bay, FL | 2026-09-29 | [apply](https://www.linkedin.com/jobs/view/4455734060) |
 | C | unspecified | L3Harris Technologies | Mission Networks Enterprise SOC Analyst Intern | Melbourne, FL, USA | 2026-09-23 | [apply](https://simplify.jobs/jobs/click/2ba2a51b-ebd7-4d07-a9bf-4d901d1bd243) |
 | C | unspecified | L3Harris Technologies | RF/Wireless Engineer Intern | Salt Lake City, UT, USA | 2026-09-10 | [apply](https://simplify.jobs/jobs/click/a0a62d1f-aded-4e5f-bb78-e4129ad05974) |
 | C | unspecified | Layup Parts | Electrical Engineer Intern | Huntington Beach, CA, USA | 2026-04-24 | [apply](https://simplify.jobs/jobs/click/7aee3588-7e48-429c-a025-1c31b08e9313) |
@@ -783,21 +905,15 @@
 | C | unspecified | Lightmatter | Silicon Packaging Engineer - Intern & New Grad | Mountain View, CA | 2026-09-25 | [apply](https://boards.greenhouse.io/lightmatter/jobs/5422712008?gh_jid=5422712008) |
 | C | unspecified | Loram | Electrical Engineer Intern | Hamel, Medina, MN, USA | 2026-09-04 | [apply](https://simplify.jobs/jobs/click/9aad0dad-d70e-4ccf-83fb-4bf03e79af7f) |
 | C | unspecified | LotusWorks | Electrical & Instrumentation Technician Intern | Rio Rancho, NM, USA | 2026-07-10 | [apply](https://simplify.jobs/jobs/click/29682415-e6db-47ac-b60c-1ecc87979cda) |
-| C | unspecified | MACOM | Applications Engineering Intern | Newport Beach, CA | 2026-09-29 | [apply](https://www.linkedin.com/jobs/view/4473530158) |
-| C | unspecified | MACOM | Design Engineer Intern | Newport Beach, CA | 2026-09-29 | [apply](https://www.linkedin.com/jobs/view/4473522392) |
 | C | unspecified | MACOM | Embedded Hardware/Controls Intern | Morrisville, NC | 2026-10-01 | [apply](https://www.linkedin.com/jobs/view/4474518160) |
 | C | unspecified | MACOM | Fab Equipment Engineering Intern | Durham, NC | 2026-10-02 | [apply](https://www.linkedin.com/jobs/view/4474575074) |
 | C | unspecified | MACOM | MMIC Yield Improvement intern | Durham, NC | 2026-10-01 | [apply](https://www.linkedin.com/jobs/view/4474302957) |
 | C | unspecified | MACOM | Photodetector Wafer Processing & Device Characterization Intern | Ann Arbor, MI | 2026-09-30 | [apply](https://www.linkedin.com/jobs/view/4473936689) |
-| C | unspecified | MACOM | Product Engineering Intern | Nashua, NH | 2026-09-29 | [apply](https://www.linkedin.com/jobs/view/4473531166) |
 | C | unspecified | MACOM | Product Reliability Engineering Intern | Lowell, MA | 2026-09-30 | [apply](https://www.linkedin.com/jobs/view/4473589306) |
-| C | unspecified | MACOM | RF Power Product Engineering Intern | Mesa, AZ | 2026-09-29 | [apply](https://www.linkedin.com/jobs/view/4473518839) |
-| C | unspecified | MACOM | RF Product Modeling Intern | Morrisville, NC | 2026-09-29 | [apply](https://www.linkedin.com/jobs/view/4473532133) |
-| C | unspecified | MACOM | Semiconductor Process Development Intern | Durham, NC | 2026-09-29 | [apply](https://www.linkedin.com/jobs/view/4473515953) |
+| C | unspecified | MACOM | Semiconductor Process Development Intern | Durham, NC | 2026-09-30 | [apply](https://www.linkedin.com/jobs/view/4473781686) |
 | C | unspecified | MACOM | Validation Engineer Intern | Newport Beach, CA | 2026-10-01 | [apply](https://www.linkedin.com/jobs/view/4474516183) |
-| C | unspecified | MAHLE | Platform Design Electrical Engineering Intern | Lockport, NY | 2026-09-29 | [apply](https://www.linkedin.com/jobs/view/4473513179) |
-| C | unspecified | MKS Inc. | 2027 Photonics Technical Content Intern (R20546) | Rochester, NY | 2026-09-29 | [apply](https://www.linkedin.com/jobs/view/4471955496) |
 | C | unspecified | MSA | Electrical Engineer Intern | Kiel, WI, USA | 2026-09-03 | [apply](https://simplify.jobs/jobs/click/2c763b19-ac0d-4d58-8ecd-4ebd895ee7df) |
+| C | unspecified | Magna | Optics Engineering Intern | Southfield, MI, USA | 2026-10-01 | [apply](https://simplify.jobs/jobs/click/1c2be5c5-568e-4267-992c-d7b9469c0e33) |
 | C | unspecified | Magna | Validation Engineer Intern | Auburn Hills, MI, USA | 2026-09-18 | [apply](https://simplify.jobs/jobs/click/f9425a33-0fd0-4dcb-8403-642a08c2e836) |
 | C | unspecified | Magna International | Intern - Engineering Optics | Southfield, MI | 2026-10-02 | [apply](https://www.linkedin.com/jobs/view/4474546707) |
 | C | unspecified | Marvell | Advanced Packaging & Physical Integration Intern | Austin, TX, USA; Irvine, CA, USA; Santa Clara, CA, USA | 2026-09-10 | [apply](https://simplify.jobs/jobs/click/c19ad514-a4fd-4e47-a2ae-ab57347804ad) |
@@ -812,6 +928,11 @@
 | C | unspecified | Marvell | Silicon Photonics & Optical Communications Intern | Morrisville, NC, USA; Austin, TX, USA; Irvine, CA, USA | 2026-09-10 | [apply](https://simplify.jobs/jobs/click/342e517e-d017-42fb-bb64-ddef503487f8) |
 | C | unspecified | Marvell | System Chip Validation Intern | Petah-Tikva | Posted 8 Days Ago | [apply](https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Petah-Tikva/System-Chip-Validation-Intern_2604495) |
 | C | unspecified | Marvell Technology | Analog Design Intern | Santa Clara, CA | 2026-10-01 | [apply](https://www.linkedin.com/jobs/view/4472986132) |
+| C | unspecified | Marvell Technology | Ph.D. Intern - AI/ML & Design Automation | Austin, TX | 2026-10-02 | [apply](https://www.linkedin.com/jobs/view/4463911968) |
+| C | unspecified | Marvell Technology | Ph.D. Intern - AI/ML & Design Automation | Westborough, MA | 2026-10-02 | [apply](https://www.linkedin.com/jobs/view/4463933024) |
+| C | unspecified | Marvell Technology | Ph.D. Intern - AI/ML & Design Automation | Chandler, AZ | 2026-10-02 | [apply](https://www.linkedin.com/jobs/view/4463934025) |
+| C | unspecified | Marvell Technology | Ph.D. Intern - Advanced Packaging & Physical Integration | Westborough, MA | 2026-10-02 | [apply](https://www.linkedin.com/jobs/view/4463936005) |
+| C | unspecified | Marvell Technology | Ph.D. Intern - Advanced Packaging & Physical Integration | Santa Clara, CA | 2026-10-02 | [apply](https://www.linkedin.com/jobs/view/4463942567) |
 | C | unspecified | Marvin | Controls Engineer Intern | Warroad, MN, USA | 2026-09-22 | [apply](https://simplify.jobs/jobs/click/fcf391aa-c004-463b-807b-acb4d73509d0) |
 | C | unspecified | Microchip | Intern-Equipment Engineering Technician (Metrology) | OR - Gresham | Posted 30+ Days Ago | [apply](https://microchiphr.wd5.myworkdayjobs.com/External/job/OR---Gresham/Intern-Equipment-Engineering-Technician--Metrology-_R3077-26) |
 | C | unspecified | Microchip | Intern-Technician (Electronics) | PA - Mount Holly Springs | Posted 30+ Days Ago | [apply](https://microchiphr.wd5.myworkdayjobs.com/External/job/PA---Mount-Holly-Springs/Intern-Technician--Electronics-_R847-26) |
@@ -826,7 +947,7 @@
 | C | unspecified | Micron Technology | Electrical Engineer Intern | Boise, ID, USA | 2026-09-01 | [apply](https://simplify.jobs/jobs/click/1332c5af-a188-4adc-b53a-332d33165496) |
 | C | unspecified | Micron Technology | Firmware Engineer Intern | Longmont, CO, USA | 2026-09-15 | [apply](https://simplify.jobs/jobs/click/9158832e-544f-42af-af55-12573eabe341) |
 | C | unspecified | Micron Technology | HBM SoC Physical Design Engineer Intern | Folsom, CA, USA | 2026-09-15 | [apply](https://simplify.jobs/jobs/click/563ce3fa-deec-437a-883e-6c9179763ddc) |
-| C | unspecified | Micron Technology | Intern - Signal Integrity | Boise, ID | 2026-09-29 | [apply](https://www.linkedin.com/jobs/view/4471587953) |
+| C | unspecified | Micron Technology | Intern - ATE Process Engineer ID1 | Boise, ID | 2026-10-02 | [apply](https://www.linkedin.com/jobs/view/4473343194) |
 | C | unspecified | Micron Technology | PHY Digital Design & Automation Engineer Intern | Richardson, TX, USA | 2026-09-14 | [apply](https://simplify.jobs/jobs/click/d223a623-0565-4e7d-86f4-c5a03ffc81b1) |
 | C | unspecified | Micron Technology | Process Engineer Intern | Boise, ID, USA | 2026-09-23 | [apply](https://simplify.jobs/jobs/click/4d195743-341d-4a80-b38f-12a24eb12dc7) |
 | C | unspecified | Micron Technology | Product Engineer Intern | Boise, ID, USA | 2026-09-15 | [apply](https://simplify.jobs/jobs/click/82d2f53d-fc5f-477d-bbfa-42b2f0710605) |
@@ -838,15 +959,22 @@
 | C | unspecified | Moog | Intern, Electronic Engineering | Vilnius, LT | Posted 30+ Days Ago | [apply](https://moog.wd5.myworkdayjobs.com/MOOG_External_Career_Site/job/Vilnius-LT/Intern--Electronic-Engineering_R-26-18636) |
 | C | unspecified | Moog | Intern, Product Engineering | Buffalo, NY | Posted 4 Days Ago | [apply](https://moog.wd5.myworkdayjobs.com/MOOG_External_Career_Site/job/Buffalo-NY/Intern--Product-Engineering_R-26-20334) |
 | C | unspecified | NVIDIA | NVIDIA 2027 Internships: Computer Architecture | US, CA, Santa Clara | Posted 30+ Days Ago | [apply](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Computer-Architecture_JR2023489) |
+| C | unspecified | NVIDIA | NVIDIA 2027 Internships: Computer Architecture | Santa Clara, CA | 2026-10-02 | [apply](https://www.linkedin.com/jobs/view/4455487157) |
 | C | unspecified | NVIDIA | NVIDIA 2027 Internships: Deep Learning Computer Architecture | US, CA, Santa Clara | Posted 30+ Days Ago | [apply](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Deep-Learning-Computer-Architecture_JR2023491) |
+| C | unspecified | NVIDIA | NVIDIA 2027 Internships: Deep Learning Computer Architecture | Santa Clara, CA | 2026-10-02 | [apply](https://www.linkedin.com/jobs/view/4455474232) |
 | C | unspecified | NVIDIA | NVIDIA 2027 Internships: Digital Circuit Design | US, CA, Santa Clara | Posted 30+ Days Ago | [apply](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Digital-Circuit-Design_JR2023504) |
+| C | unspecified | NVIDIA | NVIDIA 2027 Internships: Digital Circuit Design | Santa Clara, CA | 2026-10-02 | [apply](https://www.linkedin.com/jobs/view/4455483200) |
 | C | unspecified | NVIDIA | NVIDIA 2027 Internships: Hardware ASIC Design | US, CA, Santa Clara | Posted 30+ Days Ago | [apply](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Hardware-ASIC-Design_JR2023486) |
 | C | unspecified | NVIDIA | NVIDIA 2027 Internships: Hardware ASIC Design | Santa Clara, CA | 2026-10-01 | [apply](https://www.linkedin.com/jobs/view/4455469781) |
 | C | unspecified | NVIDIA | NVIDIA 2027 Internships: Hardware Design for Test (DFT) | US, CA, Santa Clara | Posted 30+ Days Ago | [apply](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Hardware-Design-for-Test--DFT-_JR2023487-1) |
 | C | unspecified | NVIDIA | NVIDIA 2027 Internships: Hardware Engineering | US, CA, Santa Clara | Posted 30+ Days Ago | [apply](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Hardware-Engineering_JR2023508-1) |
+| C | unspecified | NVIDIA | NVIDIA 2027 Internships: Hardware Engineering | Santa Clara, CA | 2026-10-02 | [apply](https://www.linkedin.com/jobs/view/4455482190) |
 | C | unspecified | NVIDIA | NVIDIA 2027 Internships: Hardware Physical Design / VLSI | US, CA, Santa Clara | Posted 30+ Days Ago | [apply](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Hardware-Physical-Design---VLSI_JR2023501) |
+| C | unspecified | NVIDIA | NVIDIA 2027 Internships: Hardware Physical Design / VLSI | Santa Clara, CA | 2026-10-02 | [apply](https://www.linkedin.com/jobs/view/4455486147) |
 | C | unspecified | NVIDIA | NVIDIA 2027 Internships: Hardware Verification | US, CA, Santa Clara | Posted 30+ Days Ago | [apply](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Hardware-Verification_JR2023500) |
+| C | unspecified | NVIDIA | NVIDIA 2027 Internships: Hardware Verification | Santa Clara, CA | 2026-10-02 | [apply](https://www.linkedin.com/jobs/view/4455474235) |
 | C | unspecified | NVIDIA | NVIDIA 2027 Internships: Mixed Signal Design | US, CA, Santa Clara | Posted 30+ Days Ago | [apply](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Mixed-Signal-Design_JR2023502) |
+| C | unspecified | NVIDIA | NVIDIA 2027 Internships: Mixed Signal Design | Santa Clara, CA | 2026-10-02 | [apply](https://www.linkedin.com/jobs/view/4455491140) |
 | C | unspecified | NVIDIA | PhD Research Intern | Santa Clara, CA, USA | 2026-09-29 | [apply](https://simplify.jobs/jobs/click/b2b7e2a7-9e82-4ddc-a910-d256f40be96a) |
 | C | unspecified | NXP | AI Verification Engineering Intern | Tianjin (Teda) | Posted 9 Days Ago | [apply](https://nxp.wd3.myworkdayjobs.com/careers/job/Tianjin-Teda/AI-Verification-Engineering-Intern_R-10066766) |
 | C | unspecified | NXP | Analog/Mixed-Signal Design Intern | Tianjin (Teda) | Posted 9 Days Ago | [apply](https://nxp.wd3.myworkdayjobs.com/careers/job/Tianjin-Teda/Analog-Mixed-Signal-Design-Intern_R-10066740) |
@@ -903,7 +1031,6 @@
 | C | unspecified | Quantinuum | Electrical Engineer Intern | Broomfield, CO, USA | 2026-09-11 | [apply](https://simplify.jobs/jobs/click/f61a7695-7297-4d3e-9f68-3ef0b85baec3) |
 | C | unspecified | Quantinuum | Optics R&D Technician Intern | Albuquerque, NM, USA | 2026-09-18 | [apply](https://simplify.jobs/jobs/click/2ad7bdc6-2fca-4643-b503-127c2e9624e0) |
 | C | unspecified | Quantinuum | Photonic Integrated Circuit Design Intern | Broomfield, CO, USA | 2026-09-11 | [apply](https://simplify.jobs/jobs/click/7c5b5c68-c8bb-439a-8e46-f121d04eec2a) |
-| C | unspecified | RENK America | Intern - Electrical Engineering | Muskegon, MI | 2026-09-29 | [apply](https://www.linkedin.com/jobs/view/4471772219) |
 | C | unspecified | REV Robotics | Electrical Engineer Intern | Carrollton, TX, USA | 2026-09-17 | [apply](https://simplify.jobs/jobs/click/543a91b1-9042-4e1b-bdb1-91cd53d42f85) |
 | C | unspecified | RTX | 2027 Systems Engineer Intern (Onsite) - Mission Sensor Manager | US-IA-CEDAR RAPIDS-182 ~ 1100 Cimmie Ave Ne ~ BLDG 182 | Posted 3 Days Ago | [apply](https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-IA-CEDAR-RAPIDS-182--1100-Cimmie-Ave-Ne--BLDG-182/XMLNAME-2027-Systems-Engineer-Intern--Onsite----Mission-Sensor-Manager_01879093) |
 | C | unspecified | RTX | Power and Analog Electronic Engineer Intern | Tucson, AZ, USA | 2026-09-21 | [apply](https://simplify.jobs/jobs/click/c7fa82d8-d38a-48d9-8f18-c6f798ffe999) |
@@ -916,6 +1043,7 @@
 | C | unspecified | Rivian and Volkswagen Group Technologies | Electromechanical Design Engineering Intern (January - August 2027) | Irvine, CA | 2026-09-30 | [apply](https://www.linkedin.com/jobs/view/4463559412) |
 | C | unspecified | Rivian and Volkswagen Group Technologies | Electromechanical Design Engineering Intern (January - August 2027) | Palo Alto, CA | 2026-09-30 | [apply](https://www.linkedin.com/jobs/view/4463566356) |
 | C | unspecified | Rivian and Volkswagen Group Technologies | Engineering Intern, Embedded Hardware, Vehicle Networking & Audio | Palo Alto, CA | Nov 01 | [apply](https://careers.rivianvw.tech/rivian-vw-group-technology/jobs/27276/job) |
+| C | unspecified | RoboForce | Robotics Electrical Engineering Intern (Fall/Winter 2026) | Milpitas, CA | 2026-10-02 | [apply](https://www.linkedin.com/jobs/view/4474760393) |
 | C | unspecified | Robotgifs.com | Robotics Electrical Engineering Intern (Fall/Winter 2026) | Milpitas, CA | 2026-09-30 | [apply](https://www.linkedin.com/jobs/view/4472353295) |
 | C | unspecified | Rocket Lab | CAD Data Intern | Auckland, NZ | 2026-10-01 | [apply](https://job-boards.greenhouse.io/rocketlab/jobs/7963751003) |
 | C | unspecified | Rocket Lab | RF Test Engineer Intern | Auckland, NZ | 2026-08-17 | [apply](https://job-boards.greenhouse.io/rocketlab/jobs/7845193003) |
@@ -924,7 +1052,6 @@
 | C | unspecified | Schweitzer Engineering Laboratories | Electrical Engineer Intern | Plymouth, MI, USA | 2026-09-29 | [apply](https://simplify.jobs/jobs/click/15d3475c-4063-4f6c-af66-fbb173289029) |
 | C | unspecified | Schweitzer Engineering Laboratories | Electrical Engineer Intern | Houston, TX, USA; Plano, TX, USA; Round Rock, TX, USA | 2026-09-25 | [apply](https://simplify.jobs/jobs/click/42197318-8dfb-44d7-858c-40530bf1b62c) |
 | C | unspecified | Schweitzer Engineering Laboratories | Electrical Engineer Intern | Fairview Heights, IL, USA | 2026-09-10 | [apply](https://simplify.jobs/jobs/click/eaa946b7-b8d3-48dc-b5a5-efe7d3adb416) |
-| C | unspecified | Schweitzer Engineering Laboratories | Electrical Engineer Intern | Pullman, WA, USA | 2026-09-08 | [apply](https://simplify.jobs/jobs/click/38447776-17be-41ab-a37c-893a30656338) |
 | C | unspecified | Schweitzer Engineering Laboratories | Electrical Engineering Intern | Wesley Chapel, FL, USA | 2026-09-22 | [apply](https://simplify.jobs/jobs/click/b6a23c4a-198c-457c-9db0-2099e286f72a) |
 | C | unspecified | Schweitzer Engineering Laboratories | Electrical Engineering Specialist Intern | Houston, TX, USA; Plano, TX, USA; Round Rock, TX, USA | 2026-09-23 | [apply](https://simplify.jobs/jobs/click/24e504eb-e7a8-47f5-bb3c-cf210d3b5cce) |
 | C | unspecified | Seagate | Electrical Design Engineering Intern | Nakhon Ratchasima, THA,  | 2026-01-27 | [apply](https://seagatecareers.com/job/Electrical-Design-Engineering-Intern/13582-en_US) |
@@ -952,9 +1079,9 @@
 | C | unspecified | Skyworks Solutions, Inc. | Analog/mixed-signal Design Intern | Nashua, NH | 2026-09-30 | [apply](https://www.linkedin.com/jobs/view/4473930706) |
 | C | unspecified | Stryker | Electrical Engineering Intern | Weston, FL, USA | 2026-09-02 | [apply](https://simplify.jobs/jobs/click/61029f11-ef86-4f8a-bf15-92d10b7cf4dc) |
 | C | unspecified | Stryker | Packaging Engineer Intern | Tempe, AZ, USA | 2026-09-03 | [apply](https://simplify.jobs/jobs/click/cecb8d6f-d7c1-47f8-9a72-966e012a325b) |
-| C | unspecified | TTM Technologies | RF/Microwave Engineering Intern | Syracuse, NY | 2026-10-01 | [apply](https://www.linkedin.com/jobs/view/4465084697) |
 | C | unspecified | Tesla | Chassis Integration Engineer Intern, Vehicle Firmware | Palo Alto, CA | Aug 08 | [apply](https://www.tesla.com/careers/search/job/247989?source=Indeed&source=Indeed&tags=organicjob&utm_source=github-vansh-ouckah) |
 | C | unspecified | Tesla | Chassis Validation Engineer Intern, Vehicle Firmware | Palo Alto, CA | Aug 08 | [apply](https://www.tesla.com/careers/search/job/247990) |
+| C | unspecified | TetraMem - Accelerate The World | US 2026 Hardware - Analog Intern | San Jose, CA | 2026-10-02 | [apply](https://www.linkedin.com/jobs/view/4473390340) |
 | C | unspecified | Texas Instruments | Analog IC Design Engineer Intern | Knoxville, TN, USA; Dallas, TX, USA; Phoenix, AZ, USA | 2026-09-03 | [apply](https://simplify.jobs/jobs/click/9b863925-a24a-403b-982f-18403d027333) |
 | C | unspecified | Texas Instruments | Analog IC Design Engineering Intern | Knoxville, TN, USA; Dallas, TX, USA; Phoenix, AZ, USA | 2026-09-03 | [apply](https://simplify.jobs/jobs/click/a4885be4-c0d8-4714-bec6-11f1d0d763de) |
 | C | unspecified | Texas Instruments | Analog IC Design Engineering Intern - Bachelors | Dallas, TX, United States | 2026-09-02 | [apply](https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/25017543) |

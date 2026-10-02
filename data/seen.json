@@ -635,8 +635,8 @@
 },
 "https://www.indeed.com/viewjob": {
 "first_seen": "2026-09-18",
-"title": "Electrical Engineering Co-op (Winter/Spring 2027)",
-"company": "Collins Aerospace",
+"title": "RF Design Validation Winter/Spring Co-Op (Jan-June '27)",
+"company": "Skyworks Solutions",
 "desc": ""
 },
 "https://www.linkedin.com/jobs/view/4468697840": {
@@ -2204,7 +2204,7 @@
 },
 "https://simplify.jobs/jobs/click/859f3772-e32c-49b4-a277-ec18490b63ed": {
 "first_seen": "2026-09-18",
-"title": "Hardware Design Verification Engineer Co-op/Intern",
+"title": "2027 Undergrad Hardware Design Verification Engineering Co-op/Intern",
 "company": "AMD",
 "desc": ""
 },
@@ -8024,7 +8024,7 @@
 },
 "https://simplify.jobs/jobs/click/0c3e33aa-b7f2-43c5-905a-19d5decedeeb": {
 "first_seen": "2026-09-25",
-"title": "Firmware Engineering Intern",
+"title": "Firmware Engineer Intern",
 "company": "Graphcore",
 "desc": ""
 },
@@ -9680,7 +9680,7 @@
 },
 "https://simplify.jobs/jobs/click/c3cf0e0c-833f-44df-a0c9-d931121ecb8a": {
 "first_seen": "2026-09-30",
-"title": "System Validation Engineering Intern",
+"title": "System Validation Engineer Intern",
 "company": "Graphcore",
 "desc": ""
 },
@@ -10846,6 +10846,258 @@
 "first_seen": "2026-10-02",
 "title": "Transducer Manufacturing Engineering Co-Op",
 "company": "Wabtec",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/6afc68db-8174-4996-815c-024b34fd54b0": {
+"first_seen": "2026-10-02",
+"title": "Engineer Intern Co-op",
+"company": "Rivian",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/a92fa0b6-3ef2-4c58-8fc3-5597e8ac9fcb": {
+"first_seen": "2026-10-02",
+"title": "Audio Hardware Engineer Intern Co-op",
+"company": "Rivian",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/5d100053-6d4b-4c33-8d82-3223fd0e3410": {
+"first_seen": "2026-10-02",
+"title": "Engineering Intern/Co-op",
+"company": "Rivian",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/c042921c-cebf-43b2-952d-c5484993695b": {
+"first_seen": "2026-10-02",
+"title": "Hardware Design Verification Engineer Co-op/Intern",
+"company": "AMD",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/0f02889b-d52b-4c31-8695-f9aac3f08e39": {
+"first_seen": "2026-10-02",
+"title": "Electrical Engineer Intern",
+"company": "Kimley-Horn",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/f86e7d72-e7ba-49e6-84b3-4d702568ca07": {
+"first_seen": "2026-10-02",
+"title": "Electrical Engineer Intern",
+"company": "BGE",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/e99dec20-2b5e-4332-89d2-2048f9fe670c": {
+"first_seen": "2026-10-02",
+"title": "Electrical Engineer Internship",
+"company": "BGE",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/1c2be5c5-568e-4267-992c-d7b9469c0e33": {
+"first_seen": "2026-10-02",
+"title": "Optics Engineering Intern",
+"company": "Magna",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/cbd56b83-ba52-4c04-b781-d4ae5e585151": {
+"first_seen": "2026-10-02",
+"title": "R&D Software Engineering Intern",
+"company": "Keysight Technologies",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4473371988": {
+"first_seen": "2026-10-02",
+"title": "Future Opportunities Electrical Controls Co-Op (Spring 2027)",
+"company": "The Hershey Company",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4475038260": {
+"first_seen": "2026-10-02",
+"title": "Electrical Engineering Co-Op - Spring 2027",
+"company": "SSOE Group",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4464817103": {
+"first_seen": "2026-10-02",
+"title": "Co-op, Life Cycle Engineering - Electrical: January - June 2027 (Hybrid)",
+"company": "Insulet Corporation",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4464821070": {
+"first_seen": "2026-10-02",
+"title": "Co-op, R&D Electrical Engineering: January - June 2027 (Hybrid)",
+"company": "Insulet Corporation",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4465888523": {
+"first_seen": "2026-10-02",
+"title": "Electrical Engineer Co-op",
+"company": "Southwire Company",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4455447044": {
+"first_seen": "2026-10-02",
+"title": "Electrical Engineering Co-op Spring 2027",
+"company": "Bridgestone Americas",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4475017211": {
+"first_seen": "2026-10-02",
+"title": "Co-Op - Humanoid Robotics (Electrical Engineering) - 2027",
+"company": "Schaeffler",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4455482190": {
+"first_seen": "2026-10-02",
+"title": "NVIDIA 2027 Internships: Hardware Engineering",
+"company": "NVIDIA",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4474753381": {
+"first_seen": "2026-10-02",
+"title": "Internship - IC Analog Design",
+"company": "Infineon Technologies",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4455491140": {
+"first_seen": "2026-10-02",
+"title": "NVIDIA 2027 Internships: Mixed Signal Design",
+"company": "NVIDIA",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4473390340": {
+"first_seen": "2026-10-02",
+"title": "US 2026 Hardware - Analog Intern",
+"company": "TetraMem - Accelerate The World",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4454163998": {
+"first_seen": "2026-10-02",
+"title": "Mixed Signal Engineer Intern",
+"company": "Analog Devices",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4455483200": {
+"first_seen": "2026-10-02",
+"title": "NVIDIA 2027 Internships: Digital Circuit Design",
+"company": "NVIDIA",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4463932655": {
+"first_seen": "2026-10-02",
+"title": "Microarchitecture / Software Intern 2027 - AI Accelerators Research",
+"company": "IBM",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4463929719": {
+"first_seen": "2026-10-02",
+"title": "Silicon Technology Research and Development Hardware Engineering Intern 2027",
+"company": "IBM",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4475019815": {
+"first_seen": "2026-10-02",
+"title": "Process Engineer Co-Op",
+"company": "Brewer Science",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4473343194": {
+"first_seen": "2026-10-02",
+"title": "Intern - ATE Process Engineer ID1",
+"company": "Micron Technology",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4455474235": {
+"first_seen": "2026-10-02",
+"title": "NVIDIA 2027 Internships: Hardware Verification",
+"company": "NVIDIA",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4455486147": {
+"first_seen": "2026-10-02",
+"title": "NVIDIA 2027 Internships: Hardware Physical Design / VLSI",
+"company": "NVIDIA",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4463911968": {
+"first_seen": "2026-10-02",
+"title": "Ph.D. Intern - AI/ML & Design Automation",
+"company": "Marvell Technology",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4447230327": {
+"first_seen": "2026-10-02",
+"title": "Electrical Engineering Internship",
+"company": "Persona AI",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4473161031": {
+"first_seen": "2026-10-02",
+"title": "Electrical Engineering Intern",
+"company": "Robynex Automation",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4474760393": {
+"first_seen": "2026-10-02",
+"title": "Robotics Electrical Engineering Intern (Fall/Winter 2026)",
+"company": "RoboForce",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4463933024": {
+"first_seen": "2026-10-02",
+"title": "Ph.D. Intern - AI/ML & Design Automation",
+"company": "Marvell Technology",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4463935654": {
+"first_seen": "2026-10-02",
+"title": "Silicon Technology Research and Development Research Scientist Intern - 2027",
+"company": "IBM",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4463934025": {
+"first_seen": "2026-10-02",
+"title": "Ph.D. Intern - AI/ML & Design Automation",
+"company": "Marvell Technology",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4463900569": {
+"first_seen": "2026-10-02",
+"title": "Electrical Engineer Intern",
+"company": "Graco",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4463907630": {
+"first_seen": "2026-10-02",
+"title": "Electrical Engineering Intern",
+"company": "Graco",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4473138995": {
+"first_seen": "2026-10-02",
+"title": "Electrical Engineering Intern",
+"company": "Everline Tech",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4463936005": {
+"first_seen": "2026-10-02",
+"title": "Ph.D. Intern - Advanced Packaging & Physical Integration",
+"company": "Marvell Technology",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4463942567": {
+"first_seen": "2026-10-02",
+"title": "Ph.D. Intern - Advanced Packaging & Physical Integration",
+"company": "Marvell Technology",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4455487157": {
+"first_seen": "2026-10-02",
+"title": "NVIDIA 2027 Internships: Computer Architecture",
+"company": "NVIDIA",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4455474232": {
+"first_seen": "2026-10-02",
+"title": "NVIDIA 2027 Internships: Deep Learning Computer Architecture",
+"company": "NVIDIA",
 "desc": ""
 }
 }
