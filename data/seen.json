@@ -635,8 +635,8 @@
 },
 "https://www.indeed.com/viewjob": {
 "first_seen": "2026-09-18",
-"title": "FPGA Engineering Co-op (Spring/Summer 2027)",
-"company": "Collins Aerospace",
+"title": "Spring 2027 Internship: Electrical Engineering",
+"company": "nan",
 "desc": ""
 },
 "https://www.linkedin.com/jobs/view/4468697840": {
@@ -9680,7 +9680,7 @@
 },
 "https://simplify.jobs/jobs/click/c3cf0e0c-833f-44df-a0c9-d931121ecb8a": {
 "first_seen": "2026-09-30",
-"title": "System Validation Engineer Intern",
+"title": "System Validation Engineering Intern",
 "company": "Graphcore",
 "desc": ""
 },
@@ -10161,7 +10161,7 @@
 "https://simplify.jobs/jobs/click/9750e606-5a81-4a74-9492-ca1a93b10e38": {
 "first_seen": "2026-10-01",
 "title": "Optical Engineer Intern",
-"company": "KLA",
+"company": "KLA Corporation",
 "desc": ""
 },
 "https://simplify.jobs/jobs/click/66fd3b4a-cc9c-4090-9786-0bf42637abfd": {
@@ -10612,6 +10612,108 @@
 "first_seen": "2026-10-02",
 "title": "Systems Engineering Co-Op (January 2027) (Hybrid)",
 "company": "RTX",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/04e00d36-839d-4f8d-bad8-082a70f7c73e": {
+"first_seen": "2026-10-02",
+"title": "Engineering Intern Co-op",
+"company": "Rivian",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/05ff70d3-a28e-4899-81e8-4f12570f0438": {
+"first_seen": "2026-10-02",
+"title": "Manufacturing Electrical Engineer Co-op",
+"company": "RTX",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/1162b765-77a7-41d5-a58c-d5c86ff3f700": {
+"first_seen": "2026-10-02",
+"title": "Manufacturing Electrical Engineering Co-op",
+"company": "RTX",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/c821a189-b150-4657-a1c7-b7a27d61e0b8": {
+"first_seen": "2026-10-02",
+"title": "Electrical Engineering Intern",
+"company": "General Dynamics Mission Systems",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/6dcb8213-1eb6-450d-a498-748fa95a9816": {
+"first_seen": "2026-10-02",
+"title": "Systems Integration and Test Engineer Intern",
+"company": "The Aerospace Corporation",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/789ef3ea-2d9e-4a2e-a618-5cc8c2614d43": {
+"first_seen": "2026-10-02",
+"title": "Electrical Engineer Intern",
+"company": "Quanta Services",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/0c1285b6-a1c6-4641-853b-2b7fb5ccebd0": {
+"first_seen": "2026-10-02",
+"title": "Electrical Engineer Intern",
+"company": "Kimley-Horn",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/e6a8426e-49ab-4f36-8753-80765cac0304": {
+"first_seen": "2026-10-02",
+"title": "R&D Electrical Engineering Intern",
+"company": "Keysight Technologies",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/143ce7ae-5c29-4044-a261-8a181ac6b29c": {
+"first_seen": "2026-10-02",
+"title": "R&D Electrical Engineer Intern",
+"company": "Keysight Technologies",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/7a03fb73-759e-4d0e-8ee5-88b533ee7892": {
+"first_seen": "2026-10-02",
+"title": "Radio Frequency IC Designer Intern",
+"company": "Keysight Technologies",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4472982599": {
+"first_seen": "2026-10-02",
+"title": "Electrical Engineering Intern",
+"company": "Enerpac Tool Group",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4474560092": {
+"first_seen": "2026-10-02",
+"title": "ASIC Design Engineer Intern (Video Silicon IP) - 2027 Summer",
+"company": "ByteDance",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4474551107": {
+"first_seen": "2026-10-02",
+"title": "Systems Integration and Test Engineer Intern (Winter/Spring - Jan 2027 Start)",
+"company": "Peak Energy",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4474550157": {
+"first_seen": "2026-10-02",
+"title": "Systems Integration and Test Engineer Intern (Winter/Spring - Jan 2027 Start)",
+"company": "Peak Energy",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4474546707": {
+"first_seen": "2026-10-02",
+"title": "Intern - Engineering Optics",
+"company": "Magna International",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4473781686": {
+"first_seen": "2026-10-02",
+"title": "Semiconductor Process Development Intern",
+"company": "MACOM",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4472991438": {
+"first_seen": "2026-10-02",
+"title": "Electrical Engineering Internship (Winter Spring 2027)",
+"company": "Amca",
 "desc": ""
 }
 }
