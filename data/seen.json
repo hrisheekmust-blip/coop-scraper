@@ -635,8 +635,8 @@
 },
 "https://www.indeed.com/viewjob": {
 "first_seen": "2026-09-18",
-"title": "Spring 2027 Internship: Electrical Engineering",
-"company": "nan",
+"title": "Electrical Engineering Co-op (Winter/Spring 2027)",
+"company": "Collins Aerospace",
 "desc": ""
 },
 "https://www.linkedin.com/jobs/view/4468697840": {
@@ -10161,7 +10161,7 @@
 "https://simplify.jobs/jobs/click/9750e606-5a81-4a74-9492-ca1a93b10e38": {
 "first_seen": "2026-10-01",
 "title": "Optical Engineer Intern",
-"company": "KLA Corporation",
+"company": "KLA",
 "desc": ""
 },
 "https://simplify.jobs/jobs/click/66fd3b4a-cc9c-4090-9786-0bf42637abfd": {
@@ -10714,6 +10714,96 @@
 "first_seen": "2026-10-02",
 "title": "Electrical Engineering Internship (Winter Spring 2027)",
 "company": "Amca",
+"desc": ""
+},
+"https://nxp.wd3.myworkdayjobs.com/careers/job/Chandler-Office/Digital-Physical-Design--P-R--Intern_R-10064673": {
+"first_seen": "2026-10-02",
+"title": "Digital Physical Design (P&R) Intern",
+"company": "NXP",
+"desc": "  Job Responsibility:\u00a0 \u00a0    As a Physical Design Intern, you will join a highly experienced team. Your key responsibilities will be:  Understand the existing flow, tools and scripts to do Digital backend flow from Synthesis to GDS2 using Cadence tools Support with multiple parallel runs to experiment with different RTL implementations, and/or tools options to find the most area-optimal solution Deeply study the Cadence tools\u2019 user-manuals and user-forum discussions, and suggest improvements to existing flows and scripts that could improve the quality and efficiency of the backend flow     Job Qualification: \u00a0\u00a0   Pursuing Master's degree (MSEE) with majority of courses relevant to Digital Design, RTL, Digital backend flow  Any prior experience with this flow is a strong plus  Willing to relocate to Phoenix Metro area (Arizona) for the full duration of internship, and minimum 3 days per week full-day presence in NXP's Chandler office  Excellent on problem-solving, teamwork, planning, organizing, attention to detail and communication skills.      More information about NXP in the United States...     NXP is an Equal  Opportunity/Affirmative  Action Employer regardless of age, color, national origin, race, religion, creed, gender, sex, sexual orientation, gender identity and/or expression, marital status, status as a disabled veteran and/or veteran of the Vietnam Era or any other characteristic protected by federal, state or local law. In addition, NXP will provide reasonable acc"
+},
+"https://seagatecareers.com/job/Head-Failure-Analysis-Intern/15130-en_US": {
+"first_seen": "2026-10-02",
+"title": "Head Failure Analysis Intern",
+"company": "Seagate",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/d85b5e2a-3f31-4f1b-b68b-abae6fdb3f8d": {
+"first_seen": "2026-10-02",
+"title": "Process Engineer Co-op",
+"company": "Printpack",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4428091248": {
+"first_seen": "2026-10-02",
+"title": "Electrical Engineering College Co-op",
+"company": "Dauch",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4465335837": {
+"first_seen": "2026-10-02",
+"title": "Electrical Engineering Co-op Spring 2027",
+"company": "Jacobs",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4472660041": {
+"first_seen": "2026-10-02",
+"title": "Electrical Engineering Co-op",
+"company": "SmithGroup",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4455426986": {
+"first_seen": "2026-10-02",
+"title": "Electrical Engineer Co-op Summer/Fall 2027",
+"company": "Bridgestone Americas",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4474585656": {
+"first_seen": "2026-10-02",
+"title": "2027 Hardware Electronics Engineer Intern \u2013 Rolling Meadows IL",
+"company": "Northrop Grumman",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4465084697": {
+"first_seen": "2026-10-02",
+"title": "RF/Microwave Engineering Intern",
+"company": "TTM Technologies",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4465899688": {
+"first_seen": "2026-10-02",
+"title": "Electrical Manufacturing Engineering Co-Op",
+"company": "Entegris",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4472590091": {
+"first_seen": "2026-10-02",
+"title": "Reliability Engineering Intern",
+"company": "Structonix Engineers",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4474575074": {
+"first_seen": "2026-10-02",
+"title": "Fab Equipment Engineering Intern",
+"company": "MACOM",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4472808981": {
+"first_seen": "2026-10-02",
+"title": "Product Engineering Intern",
+"company": "Red Oak Technologies",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4463092493": {
+"first_seen": "2026-10-02",
+"title": "Process Engineer Intern (Year-Round)",
+"company": "Charter Steel",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4456727484": {
+"first_seen": "2026-10-02",
+"title": "Internship - Embedded Systems EngineerInternship - Embedded Systems Engineer",
+"company": "Infineon Technologies",
 "desc": ""
 }
 }
