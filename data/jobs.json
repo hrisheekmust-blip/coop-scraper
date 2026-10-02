@@ -96,7 +96,6 @@
   "hw": "electrical engineer",
   "tier": "big",
   "sources": [
-   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-09-17",
@@ -1307,8 +1306,6 @@
   "hw": "electrical engineer",
   "tier": "big",
   "sources": [
-   "internlist:coop",
-   "jobspy:linkedin",
    "workday"
   ],
   "first_seen": "2026-09-18",
@@ -1360,7 +1357,6 @@
   "hw": "metrology",
   "tier": "big",
   "sources": [
-   "internlist:coop",
    "workday"
   ],
   "first_seen": "2026-09-18",
@@ -1395,7 +1391,6 @@
   "hw": "product engineering",
   "tier": "big",
   "sources": [
-   "internlist:coop",
    "workday"
   ],
   "first_seen": "2026-09-18",
@@ -3310,23 +3305,6 @@
  },
  {
   "company": "RTX",
-  "title": "Systems Engineer - Spring/Summer Co-op 2027 - (Onsite)",
-  "location": "US-IA-CEDAR RAPIDS-131 ~ 5450 C Ave NE ~ BLDG 131",
-  "url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-IA-CEDAR-RAPIDS-131--5450-C-Ave-NE--BLDG-131/Systems-Engineer---Spring-Summer-Co-op-2027----Onsite-_01871506",
-  "posted": "Posted 3 Days Ago",
-  "deadline": "",
-  "term": "spring",
-  "rank": "A",
-  "hw": "maybe",
-  "tier": "big",
-  "sources": [
-   "workday"
-  ],
-  "first_seen": "2026-09-29",
-  "last_seen": "2026-10-02"
- },
- {
-  "company": "RTX",
   "title": "Systems Engineering Co-Op (January 2027) (Hybrid)",
   "location": "US-PR-AGUADILLA-110 ~ Rd 110 N Km 28.8 ~ RD110",
   "url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-PR-AGUADILLA-110--Rd-110-N-Km-288--RD110/Systems-Engineering-Co-Op--January-2027---Hybrid-_01879457",
@@ -3447,6 +3425,23 @@
  {
   "company": "Rocket Lab",
   "title": "Manufacturing Engineering Intern Spring 2027",
+  "location": "Wallops Island, VA",
+  "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7996617003",
+  "posted": "2026-09-17",
+  "deadline": "",
+  "term": "spring",
+  "rank": "A",
+  "hw": "maybe",
+  "tier": "big",
+  "sources": [
+   "greenhouse"
+  ],
+  "first_seen": "2026-09-18",
+  "last_seen": "2026-10-02"
+ },
+ {
+  "company": "Rocket Lab",
+  "title": "Manufacturing Engineering Intern Spring 2027",
   "location": "Long Beach, CA",
   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7984943003",
   "posted": "2026-09-16",
@@ -3467,23 +3462,6 @@
   "location": "Middle River, MD",
   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7987020003",
   "posted": "2026-09-16",
-  "deadline": "",
-  "term": "spring",
-  "rank": "A",
-  "hw": "maybe",
-  "tier": "big",
-  "sources": [
-   "greenhouse"
-  ],
-  "first_seen": "2026-09-18",
-  "last_seen": "2026-10-02"
- },
- {
-  "company": "Rocket Lab",
-  "title": "Manufacturing Engineering Intern Spring 2027",
-  "location": "Wallops Island, VA",
-  "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7996617003",
-  "posted": "2026-09-17",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -3643,8 +3621,7 @@
   "hw": "electrical engineering",
   "tier": "big",
   "sources": [
-   "greenhouse",
-   "jobspy:linkedin"
+   "greenhouse"
   ],
   "first_seen": "2026-09-17",
   "last_seen": "2026-10-02"
@@ -3696,8 +3673,7 @@
   "hw": "electrical engineer",
   "tier": "startup",
   "sources": [
-   "ashby",
-   "jobspy:linkedin"
+   "ashby"
   ],
   "first_seen": "2026-09-17",
   "last_seen": "2026-10-02"
@@ -4146,6 +4122,23 @@
  },
  {
   "company": "Skyworks",
+  "title": "RF Design Validation Winter/Spring Co-Op (Jan-June '27)",
+  "location": "Andover, MA, USA    ",
+  "url": "https://careers.skyworksinc.com/job/RF-Design-Validation-WinterSpring-Co-Op-%28Jan-June-&apos;27%29/78067-en_US",
+  "posted": "2026-08-12",
+  "deadline": "",
+  "term": "spring",
+  "rank": "A",
+  "hw": "rf",
+  "tier": "big",
+  "sources": [
+   "successfactors"
+  ],
+  "first_seen": "2026-10-02",
+  "last_seen": "2026-10-02"
+ },
+ {
+  "company": "Skyworks",
   "title": "RF Design Validation/Testing Co-Op (Winter/Spring 2027)",
   "location": "Irvine, CA, USA    ",
   "url": "https://careers.skyworksinc.com/job/RF-Design-ValidationTesting-Co-Op-%28WinterSpring-2027%29/78193-en_US",
@@ -4290,23 +4283,6 @@
   "term": "spring",
   "rank": "A",
   "hw": "rf,test engineering",
-  "tier": "big",
-  "sources": [
-   "successfactors"
-  ],
-  "first_seen": "2026-09-18",
-  "last_seen": "2026-10-02"
- },
- {
-  "company": "Skyworks",
-  "title": "RF Validation Engineer - Winter/Spring Co-Op",
-  "location": "Andover, MA, USA    ",
-  "url": "https://careers.skyworksinc.com/job/RF-Validation-Engineer-WinterSpring-Co-Op/78067-en_US",
-  "posted": "2026-08-12",
-  "deadline": "",
-  "term": "spring",
-  "rank": "A",
-  "hw": "rf",
   "tier": "big",
   "sources": [
    "successfactors"
@@ -4598,7 +4574,6 @@
   "hw": "silicon",
   "tier": "big",
   "sources": [
-   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-09-17",
@@ -4946,6 +4921,23 @@
   "last_seen": "2026-10-02"
  },
  {
+  "company": "Wabtec",
+  "title": "Firmware Engineering Co-Op (January-June 2027)",
+  "location": "Waltham, MA, United States",
+  "url": "https://jobs.smartrecruiters.com/wabtec/3743990015854776",
+  "posted": "2026-10-02",
+  "deadline": "",
+  "term": "spring",
+  "rank": "A",
+  "hw": "firmware",
+  "tier": "big",
+  "sources": [
+   "smartrecruiters"
+  ],
+  "first_seen": "2026-10-02",
+  "last_seen": "2026-10-02"
+ },
+ {
   "company": "Wabtec Corporation",
   "title": "Co-Op, Test Engineer - Transducer (January-June 2027)",
   "location": "State College, PA",
@@ -5229,8 +5221,7 @@
   "hw": "electrical engineer",
   "tier": "startup",
   "sources": [
-   "greenhouse",
-   "jobspy:linkedin"
+   "greenhouse"
   ],
   "first_seen": "2026-09-17",
   "last_seen": "2026-10-02"
@@ -7902,7 +7893,6 @@
   "hw": "electronics",
   "tier": "big",
   "sources": [
-   "internlist:winter-spring",
    "workday"
   ],
   "first_seen": "2026-09-18",
@@ -8469,9 +8459,7 @@
   "hw": "firmware",
   "tier": "big",
   "sources": [
-   "greenhouse",
-   "internlist:coop",
-   "internlist:winter-spring"
+   "greenhouse"
   ],
   "first_seen": "2026-09-24",
   "last_seen": "2026-10-02"
@@ -10845,8 +10833,6 @@
   "hw": "circuits",
   "tier": "big",
   "sources": [
-   "internlist:winter-spring",
-   "jobspy:indeed",
    "workday"
   ],
   "first_seen": "2026-09-30",
@@ -11497,6 +11483,23 @@
    "icims"
   ],
   "first_seen": "2026-09-29",
+  "last_seen": "2026-10-02"
+ },
+ {
+  "company": "General Dynamics Mission Systems",
+  "title": "FPGA Intern Engineer",
+  "location": "",
+  "url": "https://careers-gdms.icims.com/jobs/75125/fpga-intern-engineer/job",
+  "posted": "",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "fpga",
+  "tier": "big",
+  "sources": [
+   "icims"
+  ],
+  "first_seen": "2026-10-02",
   "last_seen": "2026-10-02"
  },
  {
@@ -12174,7 +12177,6 @@
   "hw": "optical engineer",
   "tier": "big",
   "sources": [
-   "jobspy:linkedin",
    "workday"
   ],
   "first_seen": "2026-09-30",
@@ -13115,8 +13117,7 @@
   "hw": "packaging engineer,silicon",
   "tier": "startup",
   "sources": [
-   "greenhouse",
-   "internlist:winter-spring"
+   "greenhouse"
   ],
   "first_seen": "2026-09-17",
   "last_seen": "2026-10-02"
@@ -14347,6 +14348,23 @@
  },
  {
   "company": "NXP",
+  "title": "Internship Student Analog Mixed Signal verification F/M",
+  "location": "Catania",
+  "url": "https://nxp.wd3.myworkdayjobs.com/careers/job/Catania/Internship-Student-Analog-Mixed-Signal-verification-F-M_R-10064672",
+  "posted": "Posted Today",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "analog,mixed signal,verification",
+  "tier": "big",
+  "sources": [
+   "workday"
+  ],
+  "first_seen": "2026-10-02",
+  "last_seen": "2026-10-02"
+ },
+ {
+  "company": "NXP",
   "title": "Process Engineer Intern",
   "location": "Bangkok",
   "url": "https://nxp.wd3.myworkdayjobs.com/careers/job/Bangkok/Process-Engineer-Intern_R-10064147",
@@ -14723,23 +14741,6 @@
  },
  {
   "company": "Pliant",
-  "title": "Compliance Operations Intern (m/f/d)",
-  "location": "Berlin, Berlin (Hybrid)",
-  "url": "https://jobs.ashbyhq.com/pliant/04b4f9eb-6875-487f-a1b1-f7623769de4a",
-  "posted": "2026-09-03",
-  "deadline": "",
-  "term": "unspecified",
-  "rank": "C",
-  "hw": "maybe",
-  "tier": "startup",
-  "sources": [
-   "ashby"
-  ],
-  "first_seen": "2026-09-18",
-  "last_seen": "2026-10-02"
- },
- {
-  "company": "Pliant",
   "title": "Working Student - Partner Sales, Benelux and Nordics Market (m/f/d)",
   "location": "Berlin, Berlin (Hybrid)",
   "url": "https://jobs.ashbyhq.com/pliant/98698cce-8226-415d-941f-11da1293d5ca",
@@ -15107,8 +15108,7 @@
   "hw": "design verification",
   "tier": "startup",
   "sources": [
-   "ashby",
-   "jobspy:linkedin"
+   "ashby"
   ],
   "first_seen": "2026-09-22",
   "last_seen": "2026-10-02"
@@ -15125,8 +15125,7 @@
   "hw": "rtl,soc",
   "tier": "startup",
   "sources": [
-   "ashby",
-   "jobspy:linkedin"
+   "ashby"
   ],
   "first_seen": "2026-09-23",
   "last_seen": "2026-10-02"
@@ -15627,6 +15626,23 @@
  },
  {
   "company": "Seagate",
+  "title": "Engineering Intern (slider process engineer)",
+  "location": "Nakhon Ratchasima, THA, ",
+  "url": "https://seagatecareers.com/job/Engineering-Intern-%28slider-process-engineer%29/14914-en_US",
+  "posted": "2026-09-03",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "process engineer",
+  "tier": "big",
+  "sources": [
+   "successfactors"
+  ],
+  "first_seen": "2026-09-18",
+  "last_seen": "2026-10-02"
+ },
+ {
+  "company": "Seagate",
   "title": "Failure Analysis Intern III (Auto Failure Analysis & Data Analytics)",
   "location": "Nakhon Ratchasima, THA, ",
   "url": "https://seagatecareers.com/job/Failure-Analysis-Intern-III-%28Auto-Failure-Analysis-&amp;-Data-Analytics%29/14648-en_US",
@@ -15754,6 +15770,23 @@
   "term": "unspecified",
   "rank": "C",
   "hw": "product engineering",
+  "tier": "big",
+  "sources": [
+   "successfactors"
+  ],
+  "first_seen": "2026-09-18",
+  "last_seen": "2026-10-02"
+ },
+ {
+  "company": "Seagate",
+  "title": "Recording Head Test Engineering Intern",
+  "location": "Samut Prakan, THA, ",
+  "url": "https://seagatecareers.com/job/Recording-Head-Test-Engineering-Intern/14901-en_US",
+  "posted": "2026-08-19",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "test engineering",
   "tier": "big",
   "sources": [
    "successfactors"
