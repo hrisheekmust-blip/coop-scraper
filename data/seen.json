@@ -10161,7 +10161,7 @@
 "https://simplify.jobs/jobs/click/9750e606-5a81-4a74-9492-ca1a93b10e38": {
 "first_seen": "2026-10-01",
 "title": "Optical Engineer Intern",
-"company": "KLA",
+"company": "KLA Corporation",
 "desc": ""
 },
 "https://simplify.jobs/jobs/click/66fd3b4a-cc9c-4090-9786-0bf42637abfd": {
@@ -11104,6 +11104,24 @@
 "first_seen": "2026-10-03",
 "title": "Supply Chain Analytics Intern [Winter 2027]",
 "company": "Figure AI",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4475044398": {
+"first_seen": "2026-10-03",
+"title": "ASIC Engineering Intern",
+"company": "Hewlett Packard Enterprise",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4475037591": {
+"first_seen": "2026-10-03",
+"title": "Electronic Engineering Internship",
+"company": "Silicon Forest Electronics, a subsidiary of Impact Electronic Solutions",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4463936625": {
+"first_seen": "2026-10-03",
+"title": "Silicon Technology Research and Development Research Scientist Intern - 2027",
+"company": "IBM",
 "desc": ""
 }
 }
