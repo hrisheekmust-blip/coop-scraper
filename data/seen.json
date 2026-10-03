@@ -1844,13 +1844,13 @@
 },
 "https://simplify.jobs/jobs/click/612ee749-1941-4c6c-a43f-82581bdad400": {
 "first_seen": "2026-09-18",
-"title": "Electrical Engineer Co-op",
+"title": "Electrical Engineering Co-op",
 "company": "Nova-Tech",
 "desc": ""
 },
 "https://simplify.jobs/jobs/click/f8b52a77-ada4-4fa1-94b2-e82aca3d6e38": {
 "first_seen": "2026-09-18",
-"title": "Electrical Engineering Co-op",
+"title": "Electrical Engineering Spring Co-op 2027",
 "company": "CenterPoint Energy",
 "desc": ""
 },
@@ -5588,7 +5588,7 @@
 },
 "https://simplify.jobs/jobs/click/543a91b1-9042-4e1b-bdb1-91cd53d42f85": {
 "first_seen": "2026-09-19",
-"title": "Electrical Engineering INTERN",
+"title": "Electrical Engineer Intern",
 "company": "REV Robotics",
 "desc": ""
 },
@@ -10161,7 +10161,7 @@
 "https://simplify.jobs/jobs/click/9750e606-5a81-4a74-9492-ca1a93b10e38": {
 "first_seen": "2026-10-01",
 "title": "Optical Engineer Intern",
-"company": "KLA",
+"company": "KLA Corporation",
 "desc": ""
 },
 "https://simplify.jobs/jobs/click/66fd3b4a-cc9c-4090-9786-0bf42637abfd": {
@@ -11176,6 +11176,90 @@
 "first_seen": "2026-10-03",
 "title": "Epitaxial Material Development Intern",
 "company": "MACOM",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4457543998": {
+"first_seen": "2026-10-03",
+"title": "CO-OP Electrical Engineering",
+"company": "Mobile Communications America",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4457571041": {
+"first_seen": "2026-10-03",
+"title": "CO-OP Electrical Engineering",
+"company": "Mobile Communications America",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4464252582": {
+"first_seen": "2026-10-03",
+"title": "Electrical Engineering Co-Op",
+"company": "Cleveland-Cliffs",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4446986127": {
+"first_seen": "2026-10-03",
+"title": "Electrical Engineering Co-op",
+"company": "Flex",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4465375181": {
+"first_seen": "2026-10-03",
+"title": "Hardware Development Engineer Intern/Co-Op, ROBOTICS - 2027",
+"company": "Amazon",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4454690213": {
+"first_seen": "2026-10-03",
+"title": "Analog Design Engineer Intern",
+"company": "Analog Devices",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4401522351": {
+"first_seen": "2026-10-03",
+"title": "DFT Intern",
+"company": "Etched",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4454186080": {
+"first_seen": "2026-10-03",
+"title": "Mixed Signal Engineer Intern",
+"company": "Analog Devices",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4456299270": {
+"first_seen": "2026-10-03",
+"title": "Electrical Engineer Intern, Robotics and Surgery Engineering",
+"company": "Neuralink",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4473433949": {
+"first_seen": "2026-10-03",
+"title": "Engineering Internship (Electrical)",
+"company": "Everline Tech",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4446435422": {
+"first_seen": "2026-10-03",
+"title": "Graduate Intern \u2013 Focused Ion Beam, Electron Microscopy, and Autonomous Characterization",
+"company": "National Laboratory of the Rockies",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4466388702": {
+"first_seen": "2026-10-03",
+"title": "Test Engineering Intern",
+"company": "Emerson",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4463918184": {
+"first_seen": "2026-10-03",
+"title": "Ph.D. Intern - AI/ML & Design Automation",
+"company": "Marvell Technology",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4473450197": {
+"first_seen": "2026-10-03",
+"title": "Electrical Engineering Intern",
+"company": "Mechronix",
 "desc": ""
 }
 }
