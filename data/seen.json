@@ -635,8 +635,8 @@
 },
 "https://www.indeed.com/viewjob": {
 "first_seen": "2026-09-18",
-"title": "RF Design Validation Winter/Spring Co-Op (Jan-June '27)",
-"company": "Skyworks Solutions",
+"title": "Electrical Engineering Co-Op - Spring 2027",
+"company": "SSOE Group",
 "desc": ""
 },
 "https://www.linkedin.com/jobs/view/4468697840": {
@@ -2228,7 +2228,7 @@
 },
 "https://simplify.jobs/jobs/click/33e514e4-a58b-48dd-a27c-aed4a3391473": {
 "first_seen": "2026-09-18",
-"title": "Hardware Engineering Intern/Co-op",
+"title": "2027 Undergrad Hardware Engineering intern/co-op",
 "company": "AMD",
 "desc": ""
 },
@@ -5588,7 +5588,7 @@
 },
 "https://simplify.jobs/jobs/click/543a91b1-9042-4e1b-bdb1-91cd53d42f85": {
 "first_seen": "2026-09-19",
-"title": "Electrical Engineer Intern",
+"title": "Electrical Engineering INTERN",
 "company": "REV Robotics",
 "desc": ""
 },
@@ -10161,7 +10161,7 @@
 "https://simplify.jobs/jobs/click/9750e606-5a81-4a74-9492-ca1a93b10e38": {
 "first_seen": "2026-10-01",
 "title": "Optical Engineer Intern",
-"company": "KLA Corporation",
+"company": "KLA",
 "desc": ""
 },
 "https://simplify.jobs/jobs/click/66fd3b4a-cc9c-4090-9786-0bf42637abfd": {
@@ -11122,6 +11122,60 @@
 "first_seen": "2026-10-03",
 "title": "Silicon Technology Research and Development Research Scientist Intern - 2027",
 "company": "IBM",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/26421879-2b39-4d9e-bb39-48c7ed152482": {
+"first_seen": "2026-10-03",
+"title": "Electrical Engineering Co-op",
+"company": "General Dynamics Mission Systems",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/5f01546f-f729-4ca0-8c55-ad07a2464749": {
+"first_seen": "2026-10-03",
+"title": "Manufacturing Electrical Engineering Co-op",
+"company": "RTX",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/0be57a8f-1921-4409-b55e-533f0c5180d4": {
+"first_seen": "2026-10-03",
+"title": "Electrical Engineer Co-op",
+"company": "RTX",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/b68ce210-4a77-483d-9bc7-9da13b481a1b": {
+"first_seen": "2026-10-03",
+"title": "Electrical Engineer Intern",
+"company": "Kimley-Horn",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4473391210": {
+"first_seen": "2026-10-03",
+"title": "Future Opportunities Electrical Controls Co-Op (Summer 2027)",
+"company": "The Hershey Company",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4475093590": {
+"first_seen": "2026-10-03",
+"title": "Analog Design Intern",
+"company": "The Best Job Board",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4475060798": {
+"first_seen": "2026-10-03",
+"title": "RF IC Design Intern",
+"company": "MACOM",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4456207831": {
+"first_seen": "2026-10-03",
+"title": "Intern - Yield Technology Equipment",
+"company": "Micron Technology",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4475061744": {
+"first_seen": "2026-10-03",
+"title": "Epitaxial Material Development Intern",
+"company": "MACOM",
 "desc": ""
 }
 }
