@@ -530,7 +530,7 @@
 "company": "Formlabs",
 "role": "Hardware Test Engineering Intern (Winter/Spring 2027)",
 "link": "https://careers.formlabs.com/job/8196515/apply/?gh_jid=8196515",
-"attempted": 1791128362,
+"attempted": 1791130114,
 "apply_url": "https://careers.formlabs.com/job/8196515/apply/?gh_jid=8196515",
 "portal": "greenhouse",
 "error": "ValueError: no board/job in url",
@@ -27392,7 +27392,7 @@
 "company": "Formlabs",
 "role": "Hardware R&D Engineering Intern (Winter/Spring 2027)",
 "link": "https://careers.formlabs.com/job/8172226/apply/?gh_jid=8172226",
-"attempted": 1791128362,
+"attempted": 1791130114,
 "apply_url": "https://careers.formlabs.com/job/8172226/apply/?gh_jid=8172226",
 "portal": "greenhouse",
 "error": "ValueError: no board/job in url",
@@ -27402,7 +27402,7 @@
 "company": "Formlabs",
 "role": "Hardware Systems Integration Intern (Winter/Spring 2027)",
 "link": "https://careers.formlabs.com/job/8172004/apply/?gh_jid=8172004",
-"attempted": 1791128362,
+"attempted": 1791130114,
 "apply_url": "https://careers.formlabs.com/job/8172004/apply/?gh_jid=8172004",
 "portal": "greenhouse",
 "error": "ValueError: no board/job in url",
@@ -31140,7 +31140,7 @@
 "company": "Formlabs",
 "role": "Electrical Engineering Intern (Winter/Spring 2027)",
 "link": "https://careers.formlabs.com/job/8148283/apply/?gh_jid=8148283",
-"attempted": 1791128362,
+"attempted": 1791130114,
 "apply_url": "https://careers.formlabs.com/job/8148283/apply/?gh_jid=8148283",
 "portal": "greenhouse",
 "error": "ValueError: no board/job in url",
@@ -33119,7 +33119,7 @@
 "company": "Formlabs",
 "role": "Manufacturing Engineering Intern (Winter/Spring 2027)",
 "link": "https://careers.formlabs.com/job/8161817/apply/?gh_jid=8161817",
-"attempted": 1791128362,
+"attempted": 1791130114,
 "apply_url": "https://careers.formlabs.com/job/8161817/apply/?gh_jid=8161817",
 "portal": "greenhouse",
 "error": "ValueError: no board/job in url",
@@ -33401,7 +33401,7 @@
 "company": "Formlabs",
 "role": "Industrial Design Intern (Winter/Spring 2027)",
 "link": "https://careers.formlabs.com/job/8172232/apply/?gh_jid=8172232",
-"attempted": 1791128362,
+"attempted": 1791130114,
 "apply_url": "https://careers.formlabs.com/job/8172232/apply/?gh_jid=8172232",
 "portal": "greenhouse",
 "error": "ValueError: no board/job in url",
@@ -39173,7 +39173,7 @@
 "company": "Texas Instruments (TI)",
 "role": "Product/Test Engineering Intern",
 "link": "https://northeastern-csm.symplicity.com/students/app/jobs/detail/41b20345d73cb437f01057f1c9dd61b7",
-"attempted": 1791020064,
+"attempted": 1791130114,
 "apply_url": "https://northeastern-csm.symplicity.com/students/app/jobs/detail/41b20345d73cb437f01057f1c9dd61b7",
 "portal": "nuworks",
 "fields": null,
@@ -40467,7 +40467,7 @@
 "company": "Quantinuum",
 "role": "Photonic Integrated Circuit Design Intern",
 "link": "https://simplify.jobs/jobs/click/7c5b5c68-c8bb-439a-8e46-f121d04eec2a",
-"attempted": 1791128362,
+"attempted": 1791130114,
 "apply_url": "https://jobs.eu.lever.co/quantinuum/ef4b4db2-4ce1-47f5-bfd1-12dfc8a90107/apply?lever-source=Simplify",
 "portal": "lever",
 "error": "ValueError: no company/id in url",
@@ -40936,9 +40936,9 @@
 },
 "4c4f01e3436d377a": {
 "company": "AMD",
-"role": "Firmware Engineer Intern/Co-op",
+"role": "Firmware Engineering Intern Co-op",
 "link": "https://simplify.jobs/jobs/click/2b9774d4-2b94-4dc3-9aca-7b5dc857eaa2",
-"attempted": 1791020064,
+"attempted": 1791130114,
 "apply_url": "https://careers.amd.com/careers-home/jobs/90805?icims=1&utm_source=Simplify",
 "portal": "icims",
 "fields": null,
@@ -43624,7 +43624,7 @@
 "company": "Quantinuum",
 "role": "Electrical Engineer Intern",
 "link": "https://simplify.jobs/jobs/click/f61a7695-7297-4d3e-9f68-3ef0b85baec3",
-"attempted": 1791128362,
+"attempted": 1791130114,
 "apply_url": "https://jobs.eu.lever.co/quantinuum/672bb667-0569-44bc-a2fa-a0fcd85673fb/apply?lever-source=Simplify",
 "portal": "lever",
 "error": "ValueError: no company/id in url",
@@ -49185,7 +49185,7 @@
 "company": "Formlabs",
 "role": "Hardware R&D Engineering Intern",
 "link": "https://careers.formlabs.com/job/8097694/apply/?gh_jid=8097694&utm_source=github-vansh-ouckah",
-"attempted": 1791128362,
+"attempted": 1791130114,
 "apply_url": "https://careers.formlabs.com/job/8097694/apply/?gh_jid=8097694&utm_source=github-vansh-ouckah",
 "portal": "greenhouse",
 "error": "ValueError: no board/job in url",
@@ -51191,7 +51191,7 @@
 "company": "Akuna Capital",
 "role": "Hardware Engineer Intern",
 "link": "https://akunacapital.com/careers/job/8018880/?gh_jid=8018880&utm_source=github-vansh-ouckah",
-"attempted": 1791128362,
+"attempted": 1791130114,
 "apply_url": "https://akunacapital.com/careers/job/8018880/?gh_jid=8018880&utm_source=github-vansh-ouckah",
 "portal": "greenhouse",
 "error": "ValueError: no board/job in url",
@@ -53538,9 +53538,9 @@
 },
 "51ff2e6ac222e017": {
 "company": "Marvell",
-"role": "Architecture, DSP & Systems Architecture Ph.D. Intern",
+"role": "Ph.D. Intern",
 "link": "https://simplify.jobs/jobs/click/b993dfd1-18f6-4fe1-97b4-b37792dd18ae",
-"attempted": 1790677031,
+"attempted": 1791130114,
 "apply_url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Santa-Clara-CA/PhD-Intern---Architecture--DSP---Systems-Architecture_2604415?utm_source=Simplify",
 "portal": "workday",
 "fields": null,
@@ -55259,9 +55259,9 @@
 },
 "045c554c9784dc1c": {
 "company": "Phillips 66",
-"role": "Instrumentation & Electrical Technician Intern",
+"role": "Midstream Instrumentation & Electrical Technician Intern",
 "link": "https://simplify.jobs/jobs/click/83de3761-248d-42c2-9cf7-748b89606866",
-"attempted": 1790788093,
+"attempted": 1791130114,
 "apply_url": "https://careers.phillips66.com/job/Oklahoma-City-2027-Technical-Intern-Midstream-Instrumentation-&-Electrical-Technician-OK-73116/1420846200/?ats=successfactors&utm_source=Simplify",
 "portal": "successfactors",
 "fields": null,
@@ -65320,9 +65320,9 @@
 },
 "00db3cedf2822d17": {
 "company": "GE Appliances",
-"role": "Electrical Engineering Co-op Spring 2027",
+"role": "Electrical Engineer Co-op",
 "link": "https://simplify.jobs/jobs/click/1e3d3a80-84e2-4576-8274-bb56e5167f47",
-"attempted": 1790501782,
+"attempted": 1791130114,
 "apply_url": "https://haier.wd3.myworkdayjobs.com/ge_appliances/job/USA-Louisville-KY/Electrical-Engineering-Co-op-Spring-2027_REQ-24834?utm_source=Simplify",
 "portal": "workday",
 "fields": null,
@@ -68277,7 +68277,7 @@
 "company": "CannonDesign",
 "role": "Electrical Engineer Intern",
 "link": "https://simplify.jobs/jobs/click/c3cff8bf-39b8-4c41-973c-0690998136dc",
-"attempted": 1791128362,
+"attempted": 1791130114,
 "apply_url": "https://www.cannondesign.com/careers/electrical-student-intern-3?gh_jid=8852053002&gh_src=Simplify",
 "portal": "greenhouse",
 "error": "ValueError: no board/job in url",
@@ -71627,7 +71627,7 @@
 "company": "RTX",
 "role": "Manufacturing Electrical Engineer Co-op",
 "link": "https://simplify.jobs/jobs/click/05ff70d3-a28e-4899-81e8-4f12570f0438",
-"attempted": 1791020064,
+"attempted": 1791130114,
 "apply_url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-108--400-Collins-Rd-NE--BLDG-108/Manufacturing-Electrical-Engineering-Co-Op---Spring-Summer-2027-_01870639?utm_source=Simplify",
 "portal": "workday",
 "fields": null,
@@ -73251,6 +73251,233 @@
 "attempted": 1791128362,
 "apply_url": "https://haier.wd3.myworkdayjobs.com/ge_appliances/job/USA-Louisville-KY/Electrical-Engineering-Co-op-Summer-2027_REQ-26429?utm_source=Simplify",
 "portal": "workday",
+"fields": null,
+"error": "form not public for this portal"
+},
+"c58684545a0be76a": {
+"company": "Marathon Petroleum Corporation",
+"role": "Intern/Co-op - Refining Electrical Engineering (Spring 2027)",
+"link": "https://www.linkedin.com/jobs/view/4364956174",
+"attempted": 1791130114,
+"apply_url": "https://www.linkedin.com/jobs/view/4364956174",
+"portal": "linkedin",
+"fields": null,
+"error": "form not public for this portal"
+},
+"ad748c8051b2890d": {
+"company": "Ultralife Corporation",
+"role": "Electrical Engineer Co-Op",
+"link": "https://www.linkedin.com/jobs/view/4475387759",
+"attempted": 1791130114,
+"apply_url": "https://www.linkedin.com/jobs/view/4475387759",
+"portal": "linkedin",
+"fields": null,
+"error": "form not public for this portal"
+},
+"1fbc0bb93b122e8c": {
+"company": "Draper",
+"role": "Integrated Circuit Intern",
+"link": "https://simplify.jobs/jobs/click/be5ac22c-80eb-4333-a56c-065702c86e60",
+"attempted": 1791130114,
+"apply_url": "https://draper.wd5.myworkdayjobs.com/Draper_Careers/job/Cambridge-MA/Integrated-Circuits-Intern_JR002973?utm_source=Simplify",
+"portal": "workday",
+"fields": null,
+"error": "form not public for this portal"
+},
+"f7eb61afa1c216a7": {
+"company": "American University",
+"role": "SOC Tech Support Intern",
+"link": "https://simplify.jobs/jobs/click/9a838c92-419e-488b-8f11-f95b940ab29d",
+"attempted": 1791130114,
+"apply_url": "https://american.wd1.myworkdayjobs.com/au/job/Main-Campus-Washington-DC/SOC-Tech-Support--Student-_R4991?utm_source=Simplify",
+"portal": "workday",
+"fields": null,
+"error": "form not public for this portal"
+},
+"8c050bbe58d8e871": {
+"company": "Fab2",
+"role": "Semiconductor Packaging Engineer Intern",
+"link": "https://simplify.jobs/jobs/click/73fe59bd-6ea1-4126-b2c2-83f766ca2520",
+"attempted": 1791130114,
+"apply_url": "https://jobs.ashbyhq.com/fab2/96e96a9c-8419-4a67-ba4a-4b28e87b3f16/application",
+"portal": "ashby",
+"fields": [
+{
+"label": "Name",
+"type": "String",
+"required": true,
+"options": [],
+"section": ""
+},
+{
+"label": "Email",
+"type": "Email",
+"required": true,
+"options": [],
+"section": ""
+},
+{
+"label": "Resume",
+"type": "File",
+"required": true,
+"options": [],
+"section": ""
+},
+{
+"label": "Portfolio - File upload",
+"type": "File",
+"required": true,
+"options": [],
+"section": ""
+},
+{
+"label": "Portfolio - website link",
+"type": "String",
+"required": true,
+"options": [],
+"section": ""
+},
+{
+"label": "Have you included a portfolio with your application?",
+"type": "Boolean",
+"required": true,
+"options": [],
+"section": ""
+},
+{
+"label": "Location",
+"type": "Location",
+"required": true,
+"options": [],
+"section": ""
+},
+{
+"label": "Tell us a bit about yourself and why you'd like to join fab2",
+"type": "LongText",
+"required": true,
+"options": [],
+"section": ""
+},
+{
+"label": "Ideal start date in office",
+"type": "Date",
+"required": true,
+"options": [],
+"section": ""
+},
+{
+"label": "Ideal end date",
+"type": "Date",
+"required": true,
+"options": [],
+"section": ""
+},
+{
+"label": "Are you currently authorized to work in the United States?",
+"type": "Boolean",
+"required": true,
+"options": [],
+"section": ""
+},
+{
+"label": "Will you, at any point, require employer sponsorship to work in the United States?",
+"type": "Boolean",
+"required": true,
+"options": [],
+"section": ""
+},
+{
+"label": "How did you hear about us?",
+"type": "ValueSelect",
+"required": true,
+"options": [
+"Twitter",
+"LinkedIn",
+"Sam's Youtube",
+"Google Search",
+"Indeed or other search engine",
+"Word of mouth",
+"Referral",
+"Other"
+],
+"section": ""
+},
+{
+"label": "I am one of the following: (a) a citizen of the United States; (b) a lawful permanent resident of the United States; or (c) a person admitted into the United States as an asylee or refugee:",
+"type": "Boolean",
+"required": true,
+"options": [],
+"section": "U.S. Export Control Questions"
+},
+{
+"label": "If no, is your home country listed below?",
+"type": "Boolean",
+"required": true,
+"options": [],
+"section": "U.S. Export Control Questions"
+}
+],
+"error": "",
+"closed": false,
+"fetched": "2026-10-04T16:08Z"
+},
+"cd931bcd6a9ebbc0": {
+"company": "Neuralink",
+"role": "Electrical Engineer Intern, Robotics and Surgery Engineering",
+"link": "https://www.linkedin.com/jobs/view/4456278315",
+"attempted": 1791130114,
+"apply_url": "https://www.linkedin.com/jobs/view/4456278315",
+"portal": "linkedin",
+"fields": null,
+"error": "form not public for this portal"
+},
+"8776612b9f6ab9ae": {
+"company": "RTX",
+"role": "Electrical Engineer Co-op",
+"link": "https://simplify.jobs/jobs/click/d2cfc1c7-5b96-4408-928f-605d1ec363e7",
+"attempted": 1791130114,
+"apply_url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-ND-JAMESTOWN-P1--2604-Highway-20-N--PLANT-1/Electrical-Engineering-Co-op--Summer-Fall-_01872215-1?utm_source=Simplify",
+"portal": "workday",
+"fields": null,
+"error": "form not public for this portal"
+},
+"1112a7856d9b3d8b": {
+"company": "GE Healthcare",
+"role": "LSS Verification and Validation Engineering Co-op",
+"link": "https://simplify.jobs/jobs/click/b54e2926-7997-4f5f-a896-dc1c02815232",
+"attempted": 1791130114,
+"apply_url": "https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/Madison/LSS-V-V-Engineering-Co-op_R4046309-1?utm_source=Simplify",
+"portal": "workday",
+"fields": null,
+"error": "form not public for this portal"
+},
+"7f3b1d549c6739e5": {
+"company": "National Laboratory of the Rockies",
+"role": "Modeling, Real-Time Simulation and Hardware in the Loop Testing of Distribution Systems Intern",
+"link": "https://simplify.jobs/jobs/click/10731eb2-94f9-4429-978f-e51aaef9e89b",
+"attempted": 1791130114,
+"apply_url": "https://nrel.wd5.myworkdayjobs.com/NLR/job/Golden-CO/Graduate--Year-Round--Intern---Modeling--Real-Time-Simulation-and-Hardware-in-the-Loop--HIL--Testing-of-Distribution-Systems_R14483?utm_source=Simplify",
+"portal": "workday",
+"fields": null,
+"error": "form not public for this portal"
+},
+"9d38e6004d811ed5": {
+"company": "Blue Origin",
+"role": "Electronics/Electrical Systems Engineer Co-op",
+"link": "https://simplify.jobs/jobs/click/7fedfbc6-98b6-4de0-b225-0a62b5515501",
+"attempted": 1791130114,
+"apply_url": "https://blueorigin.wd5.myworkdayjobs.com/blueorigin/job/Los-Angeles-CA/Electronics-Electrical-Systems-Engineer-Co-Op_R71548?utm_source=Simplify",
+"portal": "workday",
+"fields": null,
+"error": "form not public for this portal"
+},
+"f5a99238f7d479d6": {
+"company": "MACOM",
+"role": "Process Development Engineering Intern",
+"link": "https://www.linkedin.com/jobs/view/4475069460",
+"attempted": 1791130114,
+"apply_url": "https://www.linkedin.com/jobs/view/4475069460",
+"portal": "linkedin",
 "fields": null,
 "error": "form not public for this portal"
 }
