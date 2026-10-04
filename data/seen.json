@@ -10161,7 +10161,7 @@
 "https://simplify.jobs/jobs/click/9750e606-5a81-4a74-9492-ca1a93b10e38": {
 "first_seen": "2026-10-01",
 "title": "Optical Engineer Intern",
-"company": "KLA Corporation",
+"company": "KLA",
 "desc": ""
 },
 "https://simplify.jobs/jobs/click/66fd3b4a-cc9c-4090-9786-0bf42637abfd": {
@@ -11452,6 +11452,30 @@
 "first_seen": "2026-10-04",
 "title": "Electrical Engineering Intern",
 "company": "L3Harris Technologies",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4473499245": {
+"first_seen": "2026-10-04",
+"title": "Electrical Engineering Intern",
+"company": "Mechvanta Engineering",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4465172128": {
+"first_seen": "2026-10-04",
+"title": "Intern Electrical Engineering",
+"company": "Watchfire",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4475051620": {
+"first_seen": "2026-10-04",
+"title": "ASIC Design Engineer Intern (Video Silicon IP) - 2027 Summer",
+"company": "ByteDance",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4463953113": {
+"first_seen": "2026-10-04",
+"title": "Ph.D. Intern - AI/ML & Design Automation",
+"company": "Marvell Technology",
 "desc": ""
 }
 }
