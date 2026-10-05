@@ -2162,7 +2162,7 @@
 },
 "https://simplify.jobs/jobs/click/06673e9a-5d65-4652-9ea8-f673b24c85a5": {
 "first_seen": "2026-09-18",
-"title": "ASIC Package Engineering Co-op/Intern",
+"title": "2027 Undergrad ASIC Package Engineering Co-op/Intern",
 "company": "AMD",
 "desc": ""
 },
@@ -3332,7 +3332,7 @@
 },
 "https://simplify.jobs/jobs/click/0d6cd267-758c-4b3e-b2cb-6738e4bf1f90": {
 "first_seen": "2026-09-18",
-"title": "Electrical Engineer Intern",
+"title": "Electrical Engineer Internship",
 "company": "Johns Hopkins Applied Physics Laboratory",
 "desc": ""
 },
@@ -9650,7 +9650,7 @@
 },
 "https://simplify.jobs/jobs/click/2f8cb420-1d37-4da2-b624-4a2f38e9d546": {
 "first_seen": "2026-09-30",
-"title": "EDA AI/ML Layout Engineering Intern",
+"title": "EDA AI/ML Layout Engineer Intern",
 "company": "Keysight Technologies",
 "desc": ""
 },
@@ -10161,7 +10161,7 @@
 "https://simplify.jobs/jobs/click/9750e606-5a81-4a74-9492-ca1a93b10e38": {
 "first_seen": "2026-10-01",
 "title": "Optical Engineer Intern",
-"company": "KLA",
+"company": "KLA Corporation",
 "desc": ""
 },
 "https://simplify.jobs/jobs/click/66fd3b4a-cc9c-4090-9786-0bf42637abfd": {
@@ -10616,7 +10616,7 @@
 },
 "https://simplify.jobs/jobs/click/04e00d36-839d-4f8d-bad8-082a70f7c73e": {
 "first_seen": "2026-10-02",
-"title": "Engineering Intern Co-op",
+"title": "Engineer Intern Co-op",
 "company": "Rivian",
 "desc": ""
 },
@@ -10664,7 +10664,7 @@
 },
 "https://simplify.jobs/jobs/click/143ce7ae-5c29-4044-a261-8a181ac6b29c": {
 "first_seen": "2026-10-02",
-"title": "R&D Electrical Engineer Intern",
+"title": "Research and Development Electrical Engineering Intern",
 "company": "Keysight Technologies",
 "desc": ""
 },
@@ -10862,7 +10862,7 @@
 },
 "https://simplify.jobs/jobs/click/5d100053-6d4b-4c33-8d82-3223fd0e3410": {
 "first_seen": "2026-10-02",
-"title": "Engineering Intern/Co-op",
+"title": "Engineering Intern Co-op",
 "company": "Rivian",
 "desc": ""
 },
@@ -11494,6 +11494,54 @@
 "first_seen": "2026-10-05",
 "title": "Fall 2027 Co-op - R&D Coffee Process Engineer",
 "company": "Keurig Dr Pepper Inc.",
+"desc": ""
+},
+"https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Ignite-Internships--Hardware-Engineering_JR2027047": {
+"first_seen": "2026-10-05",
+"title": "NVIDIA 2027 Ignite Internships: Hardware Engineering",
+"company": "NVIDIA",
+"desc": "   By submitting your resume, you acknowledge that your Ignite Internships: Software Engineering application will be processed in accordance with NVIDIA\u2019s       Applicant Privacy Policy      and you agree to our      Terms of Service     . We\u2019ll review resumes on an ongoing basis, and a recruiter may reach out if your experience fits one of our many internship opportunities.\u00a0    The NVIDIA Ignite Application will be open from 10/5/2026 - 10/18/2026   The NVIDIA Ignite program gives you everything you need to start building your career\u2014a whole lot earlier than you might expect. This inclusive, 12-week summer pre-internship program was created to give current first and second year undergrad students, from a variety of backgrounds, a chance to work hands-on with real technical experts on real projects. It\u2019s a fully immersive experience covering the products, culture, and ecosystem that makes NVIDIA a truly unique place to ignite your career. The 12-week Ignite Internship is located on-site at Santa Clara, CA. NVIDIA will cover one-time round trip expense for students traveling over 50 miles to Santa Clara and provide a supplemental housing stipend to assist with living expenses over the summer.    Potential Internships in this field include:      AI Developer Technology  ASIC Physical Design and Timing  GPU Verification and Design  Hardware ASIC  Hardware CPU Infrastructure  Hardware Infrastructure Content/Performance  Power Architect      What we need to see:    Must be a first"
+},
+"https://simplify.jobs/jobs/click/ddae6979-7fcd-4b8d-97c8-36d02bd02f06": {
+"first_seen": "2026-10-05",
+"title": "Undergrad ASIC Package Engineering Intern Co-op",
+"company": "AMD",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4475520864": {
+"first_seen": "2026-10-05",
+"title": "VLSI Design Verification Internship",
+"company": "Hewlett Packard Enterprise",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4473616701": {
+"first_seen": "2026-10-05",
+"title": "Reliability Engineering Intern",
+"company": "Enervexa PowerLabs",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4456631983": {
+"first_seen": "2026-10-05",
+"title": "Intern - Yield Enhancement, Data Analysis",
+"company": "Micron Technology",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4473637135": {
+"first_seen": "2026-10-05",
+"title": "Electrical Engineering Intern",
+"company": "StructaLink Group",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4463926086": {
+"first_seen": "2026-10-05",
+"title": "Ph.D. Intern - Advanced Packaging & Physical Integration",
+"company": "Marvell Technology",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4464803682": {
+"first_seen": "2026-10-05",
+"title": "Electrical Engineering Intern",
+"company": "Indorama Ventures: Indovinya",
 "desc": ""
 }
 }
