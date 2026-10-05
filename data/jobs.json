@@ -79,7 +79,6 @@
   "hw": "electrical engineer",
   "tier": "big",
   "sources": [
-   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-09-17",
@@ -88,9 +87,9 @@
  {
   "company": "Anduril",
   "title": "Winter 2027 Manufacturing Engineer Co-op",
-  "location": "Lexington, Massachusetts, United States; Quincy, Massachusetts, United States",
+  "location": "Ashville, Ohio, United States; Lexington, Massachusetts, United States; Quincy, Massachusetts, United States",
   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5236589007?gh_jid=5236589007",
-  "posted": "2026-09-24",
+  "posted": "2026-10-05",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -1272,7 +1271,6 @@
   "hw": "electrical engineer",
   "tier": "big",
   "sources": [
-   "internlist:coop",
    "workday"
   ],
   "first_seen": "2026-09-18",
@@ -1307,7 +1305,6 @@
   "hw": "metrology",
   "tier": "big",
   "sources": [
-   "internlist:coop",
    "workday"
   ],
   "first_seen": "2026-09-18",
@@ -1325,7 +1322,6 @@
   "hw": "product engineering",
   "tier": "big",
   "sources": [
-   "internlist:coop",
    "workday"
   ],
   "first_seen": "2026-09-18",
@@ -1941,23 +1937,6 @@
    "workday"
   ],
   "first_seen": "2026-09-21",
-  "last_seen": "2026-10-05"
- },
- {
-  "company": "GlobalFoundries",
-  "title": "Facility Engineering, Automation Intern (Jan-Jun 2027)",
-  "location": "SGP - Woodlands",
-  "url": "https://globalfoundries.wd1.myworkdayjobs.com/External/job/SGP---Woodlands/Facility-Engineering--Automation-Intern--Jan-Jun-2027-_JR-2604650",
-  "posted": "Posted 5 Days Ago",
-  "deadline": "",
-  "term": "spring",
-  "rank": "A",
-  "hw": "maybe",
-  "tier": "big",
-  "sources": [
-   "workday"
-  ],
-  "first_seen": "2026-09-25",
   "last_seen": "2026-10-05"
  },
  {
@@ -3051,10 +3030,10 @@
  },
  {
   "company": "RTX",
-  "title": "Industrial Engineering Co-Op (Spring/Summer 2027)",
+  "title": "Industrial Engineering Co-op (Spring/Summer 2027)",
   "location": "US-IA-CEDAR RAPIDS-108 ~ 400 Collins Rd NE ~ BLDG 108",
-  "url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-IA-CEDAR-RAPIDS-108--400-Collins-Rd-NE--BLDG-108/Industrial-Engineering-Co-Op--Spring-Summer-2027-_01871284",
-  "posted": "Posted 4 Days Ago",
+  "url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-IA-CEDAR-RAPIDS-108--400-Collins-Rd-NE--BLDG-108/Industrial-Engineering-Co-op--Spring-Summer-2027-_01874876",
+  "posted": "Posted Today",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -3063,7 +3042,7 @@
   "sources": [
    "workday"
   ],
-  "first_seen": "2026-10-01",
+  "first_seen": "2026-09-30",
   "last_seen": "2026-10-05"
  },
  {
@@ -3085,10 +3064,10 @@
  },
  {
   "company": "RTX",
-  "title": "Manufacturing Engineering Co-op (Spring/Summer 2027)",
-  "location": "US-ND-JAMESTOWN-P1 ~ 2604 Highway 20 N ~ PLANT 1",
-  "url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-ND-JAMESTOWN-P1--2604-Highway-20-N--PLANT-1/Manufacturing-Engineering-Co-op--Spring-Summer-2027-_01870846",
-  "posted": "Posted 6 Days Ago",
+  "title": "Manufacturing Engineering Co-Op (Spring 2027) (Onsite)",
+  "location": "US-PR-SANTA ISABEL-B2 ~ Felicia Industrial Park - St B2 ~ BLDG 2",
+  "url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-PR-SANTA-ISABEL-B2--Felicia-Industrial-Park---St-B2--BLDG-2/Manufacturing-Engineering-Co-Op--Spring-2027---Onsite-_01878947",
+  "posted": "Posted Today",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -3097,7 +3076,7 @@
   "sources": [
    "workday"
   ],
-  "first_seen": "2026-09-29",
+  "first_seen": "2026-10-05",
   "last_seen": "2026-10-05"
  },
  {
@@ -3307,8 +3286,8 @@
  {
   "company": "Rocket Lab",
   "title": "Manufacturing Engineering Intern Spring 2027",
-  "location": "Long Beach, CA",
-  "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7984943003",
+  "location": "Middle River, MD",
+  "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7987020003",
   "posted": "2026-09-16",
   "deadline": "",
   "term": "spring",
@@ -3324,8 +3303,8 @@
  {
   "company": "Rocket Lab",
   "title": "Manufacturing Engineering Intern Spring 2027",
-  "location": "Middle River, MD",
-  "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7987020003",
+  "location": "Long Beach, CA",
+  "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7984943003",
   "posted": "2026-09-16",
   "deadline": "",
   "term": "spring",
@@ -3426,23 +3405,6 @@
  {
   "company": "Rocket Lab",
   "title": "Test Engineering Intern Spring 2027",
-  "location": "Stennis Space Center, MS",
-  "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7990352003",
-  "posted": "2026-09-17",
-  "deadline": "",
-  "term": "spring",
-  "rank": "A",
-  "hw": "test engineering",
-  "tier": "big",
-  "sources": [
-   "greenhouse"
-  ],
-  "first_seen": "2026-09-17",
-  "last_seen": "2026-10-05"
- },
- {
-  "company": "Rocket Lab",
-  "title": "Test Engineering Intern Spring 2027",
   "location": "Wallops Island, VA",
   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/8003533003",
   "posted": "2026-10-05",
@@ -3455,6 +3417,23 @@
    "greenhouse"
   ],
   "first_seen": "2026-09-25",
+  "last_seen": "2026-10-05"
+ },
+ {
+  "company": "Rocket Lab",
+  "title": "Test Engineering Intern Spring 2027",
+  "location": "Stennis Space Center, MS",
+  "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7990352003",
+  "posted": "2026-09-17",
+  "deadline": "",
+  "term": "spring",
+  "rank": "A",
+  "hw": "test engineering",
+  "tier": "big",
+  "sources": [
+   "greenhouse"
+  ],
+  "first_seen": "2026-09-17",
   "last_seen": "2026-10-05"
  },
  {
@@ -3846,6 +3825,23 @@
    "successfactors"
   ],
   "first_seen": "2026-09-18",
+  "last_seen": "2026-10-05"
+ },
+ {
+  "company": "Skyworks",
+  "title": "Filter Design Solutions Co-Op (Winter/Spring 2027)",
+  "location": "Irvine, CA, USA    ",
+  "url": "https://careers.skyworksinc.com/job/Filter-Design-Solutions-Co-Op-%28WinterSpring-2027%29/78267-en_US",
+  "posted": "2026-08-25",
+  "deadline": "",
+  "term": "spring",
+  "rank": "A",
+  "hw": "maybe",
+  "tier": "big",
+  "sources": [
+   "successfactors"
+  ],
+  "first_seen": "2026-10-05",
   "last_seen": "2026-10-05"
  },
  {
@@ -4506,7 +4502,6 @@
   "hw": "silicon",
   "tier": "big",
   "sources": [
-   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-09-17",
@@ -5290,8 +5285,7 @@
   "hw": "hardware",
   "tier": "startup",
   "sources": [
-   "greenhouse",
-   "jobspy:linkedin"
+   "greenhouse"
   ],
   "first_seen": "2026-09-17",
   "last_seen": "2026-10-05"
@@ -8681,23 +8675,6 @@
  },
  {
   "company": "RTX",
-  "title": "2027 Systems Engineering Co-op \u2013 Special Operations Aviation Mainline (Onsite)",
-  "location": "US-IA-CEDAR RAPIDS-182 ~ 1100 Cimmie Ave Ne ~ BLDG 182",
-  "url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-IA-CEDAR-RAPIDS-182--1100-Cimmie-Ave-Ne--BLDG-182/XMLNAME-2027-Systems-Engineering-Co-op---Special-Operations-Aviation-Mainline--Onsite-_01870331",
-  "posted": "Posted 6 Days Ago",
-  "deadline": "",
-  "term": "coop-unspecified",
-  "rank": "B",
-  "hw": "maybe",
-  "tier": "big",
-  "sources": [
-   "workday"
-  ],
-  "first_seen": "2026-09-29",
-  "last_seen": "2026-10-05"
- },
- {
-  "company": "RTX",
   "title": "Electrical Engineer Co-op",
   "location": "Cedar Rapids, IA, USA",
   "url": "https://simplify.jobs/jobs/click/0be57a8f-1921-4409-b55e-533f0c5180d4",
@@ -8797,23 +8774,6 @@
    "internlist:coop"
   ],
   "first_seen": "2026-09-23",
-  "last_seen": "2026-10-05"
- },
- {
-  "company": "RTX",
-  "title": "Systems Engineering Co-op \u2013 Special Operations Aviation Mainline",
-  "location": "US-IA-CEDAR RAPIDS-182 ~ 1100 Cimmie Ave Ne ~ BLDG 182",
-  "url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-IA-CEDAR-RAPIDS-182--1100-Cimmie-Ave-Ne--BLDG-182/Systems-Engineering-Co-op---Special-Operations-Aviation-Mainline_01870329",
-  "posted": "Posted 6 Days Ago",
-  "deadline": "",
-  "term": "coop-unspecified",
-  "rank": "B",
-  "hw": "maybe",
-  "tier": "big",
-  "sources": [
-   "workday"
-  ],
-  "first_seen": "2026-09-29",
   "last_seen": "2026-10-05"
  },
  {
@@ -8947,9 +8907,7 @@
   "hw": "firmware",
   "tier": "big",
   "sources": [
-   "greenhouse",
-   "internlist:coop",
-   "internlist:winter-spring"
+   "greenhouse"
   ],
   "first_seen": "2026-09-24",
   "last_seen": "2026-10-05"
@@ -11413,23 +11371,6 @@
   "last_seen": "2026-10-05"
  },
  {
-  "company": "Draper",
-  "title": "Integrated Circuits Intern",
-  "location": "Cambridge, MA",
-  "url": "https://draper.wd5.myworkdayjobs.com/Draper_Careers/job/Cambridge-MA/Integrated-Circuits-Intern_JR002973",
-  "posted": "Posted 5 Days Ago",
-  "deadline": "",
-  "term": "unspecified",
-  "rank": "C",
-  "hw": "circuits",
-  "tier": "big",
-  "sources": [
-   "workday"
-  ],
-  "first_seen": "2026-09-30",
-  "last_seen": "2026-10-05"
- },
- {
   "company": "Eaton",
   "title": "Product Engineering Intern",
   "location": "South Milwaukee, WI, USA",
@@ -13740,8 +13681,7 @@
   "hw": "packaging engineer,silicon",
   "tier": "startup",
   "sources": [
-   "greenhouse",
-   "internlist:winter-spring"
+   "greenhouse"
   ],
   "first_seen": "2026-09-17",
   "last_seen": "2026-10-05"
@@ -16094,6 +16034,57 @@
  },
  {
   "company": "Renesas",
+  "title": "Analog Intern",
+  "location": "San Jose, CALIFORNIA, United States",
+  "url": "https://jobs.smartrecruiters.com/renesaselectronics/744000153587608",
+  "posted": "2026-10-05",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "analog",
+  "tier": "big",
+  "sources": [
+   "smartrecruiters"
+  ],
+  "first_seen": "2026-10-05",
+  "last_seen": "2026-10-05"
+ },
+ {
+  "company": "Renesas",
+  "title": "Analog Intern",
+  "location": "Plano, TX, United States",
+  "url": "https://jobs.smartrecruiters.com/renesaselectronics/744000153497087",
+  "posted": "2026-10-05",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "analog",
+  "tier": "big",
+  "sources": [
+   "smartrecruiters"
+  ],
+  "first_seen": "2026-10-05",
+  "last_seen": "2026-10-05"
+ },
+ {
+  "company": "Renesas",
+  "title": "Analog Intern",
+  "location": "San Diego, CA, United States",
+  "url": "https://jobs.smartrecruiters.com/renesaselectronics/744000153500409",
+  "posted": "2026-10-05",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "analog",
+  "tier": "big",
+  "sources": [
+   "smartrecruiters"
+  ],
+  "first_seen": "2026-10-05",
+  "last_seen": "2026-10-05"
+ },
+ {
+  "company": "Renesas",
   "title": "Integrated \u0421ircuit Test Engineer - Intern",
   "location": "Lviv, , Ukraine",
   "url": "https://jobs.smartrecruiters.com/renesaselectronics/744000138837009",
@@ -16332,14 +16323,14 @@
  },
  {
   "company": "Seagate",
-  "title": "Product Engineering Intern",
+  "title": "Metrology maintenance engineering intern",
   "location": "Nakhon Ratchasima, THA, ",
-  "url": "https://seagatecareers.com/job/Product-Engineering-Intern/14645-en_US",
-  "posted": "2026-07-20",
+  "url": "https://seagatecareers.com/job/Metrology-maintenance-engineering-intern/14919-en_US",
+  "posted": "2026-08-26",
   "deadline": "",
   "term": "unspecified",
   "rank": "C",
-  "hw": "product engineering",
+  "hw": "metrology",
   "tier": "big",
   "sources": [
    "successfactors"
@@ -16349,14 +16340,14 @@
  },
  {
   "company": "Seagate",
-  "title": "Recording Head Test Engineering Intern",
-  "location": "Samut Prakan, THA, ",
-  "url": "https://seagatecareers.com/job/Recording-Head-Test-Engineering-Intern/14901-en_US",
-  "posted": "2026-08-19",
+  "title": "Product Engineering Intern",
+  "location": "Nakhon Ratchasima, THA, ",
+  "url": "https://seagatecareers.com/job/Product-Engineering-Intern/14645-en_US",
+  "posted": "2026-07-20",
   "deadline": "",
   "term": "unspecified",
   "rank": "C",
-  "hw": "test engineering",
+  "hw": "product engineering",
   "tier": "big",
   "sources": [
    "successfactors"
