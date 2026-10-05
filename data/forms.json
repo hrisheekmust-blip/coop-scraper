@@ -530,7 +530,7 @@
 "company": "Formlabs",
 "role": "Hardware Test Engineering Intern (Winter/Spring 2027)",
 "link": "https://careers.formlabs.com/job/8196515/apply/?gh_jid=8196515",
-"attempted": 1791155379,
+"attempted": 1791160151,
 "apply_url": "https://careers.formlabs.com/job/8196515/apply/?gh_jid=8196515",
 "portal": "greenhouse",
 "error": "ValueError: no board/job in url",
@@ -27381,7 +27381,7 @@
 "company": "Formlabs",
 "role": "Hardware R&D Engineering Intern (Winter/Spring 2027)",
 "link": "https://careers.formlabs.com/job/8172226/apply/?gh_jid=8172226",
-"attempted": 1791155379,
+"attempted": 1791160151,
 "apply_url": "https://careers.formlabs.com/job/8172226/apply/?gh_jid=8172226",
 "portal": "greenhouse",
 "error": "ValueError: no board/job in url",
@@ -27391,7 +27391,7 @@
 "company": "Formlabs",
 "role": "Hardware Systems Integration Intern (Winter/Spring 2027)",
 "link": "https://careers.formlabs.com/job/8172004/apply/?gh_jid=8172004",
-"attempted": 1791155379,
+"attempted": 1791160151,
 "apply_url": "https://careers.formlabs.com/job/8172004/apply/?gh_jid=8172004",
 "portal": "greenhouse",
 "error": "ValueError: no board/job in url",
@@ -31129,7 +31129,7 @@
 "company": "Formlabs",
 "role": "Electrical Engineering Intern (Winter/Spring 2027)",
 "link": "https://careers.formlabs.com/job/8148283/apply/?gh_jid=8148283",
-"attempted": 1791155379,
+"attempted": 1791160151,
 "apply_url": "https://careers.formlabs.com/job/8148283/apply/?gh_jid=8148283",
 "portal": "greenhouse",
 "error": "ValueError: no board/job in url",
@@ -33108,7 +33108,7 @@
 "company": "Formlabs",
 "role": "Manufacturing Engineering Intern (Winter/Spring 2027)",
 "link": "https://careers.formlabs.com/job/8161817/apply/?gh_jid=8161817",
-"attempted": 1791155379,
+"attempted": 1791160151,
 "apply_url": "https://careers.formlabs.com/job/8161817/apply/?gh_jid=8161817",
 "portal": "greenhouse",
 "error": "ValueError: no board/job in url",
@@ -33390,7 +33390,7 @@
 "company": "Formlabs",
 "role": "Industrial Design Intern (Winter/Spring 2027)",
 "link": "https://careers.formlabs.com/job/8172232/apply/?gh_jid=8172232",
-"attempted": 1791155379,
+"attempted": 1791160151,
 "apply_url": "https://careers.formlabs.com/job/8172232/apply/?gh_jid=8172232",
 "portal": "greenhouse",
 "error": "ValueError: no board/job in url",
@@ -40456,7 +40456,7 @@
 "company": "Quantinuum",
 "role": "Photonic Integrated Circuit Design Intern",
 "link": "https://simplify.jobs/jobs/click/7c5b5c68-c8bb-439a-8e46-f121d04eec2a",
-"attempted": 1791155379,
+"attempted": 1791160151,
 "apply_url": "https://jobs.eu.lever.co/quantinuum/ef4b4db2-4ce1-47f5-bfd1-12dfc8a90107/apply?lever-source=Simplify",
 "portal": "lever",
 "error": "ValueError: no company/id in url",
@@ -43613,7 +43613,7 @@
 "company": "Quantinuum",
 "role": "Electrical Engineer Intern",
 "link": "https://simplify.jobs/jobs/click/f61a7695-7297-4d3e-9f68-3ef0b85baec3",
-"attempted": 1791155379,
+"attempted": 1791160151,
 "apply_url": "https://jobs.eu.lever.co/quantinuum/672bb667-0569-44bc-a2fa-a0fcd85673fb/apply?lever-source=Simplify",
 "portal": "lever",
 "error": "ValueError: no company/id in url",
@@ -49163,7 +49163,7 @@
 "company": "Formlabs",
 "role": "Hardware R&D Engineering Intern",
 "link": "https://careers.formlabs.com/job/8097694/apply/?gh_jid=8097694&utm_source=github-vansh-ouckah",
-"attempted": 1791155379,
+"attempted": 1791160151,
 "apply_url": "https://careers.formlabs.com/job/8097694/apply/?gh_jid=8097694&utm_source=github-vansh-ouckah",
 "portal": "greenhouse",
 "error": "ValueError: no board/job in url",
@@ -51169,7 +51169,7 @@
 "company": "Akuna Capital",
 "role": "Hardware Engineer Intern",
 "link": "https://akunacapital.com/careers/job/8018880/?gh_jid=8018880&utm_source=github-vansh-ouckah",
-"attempted": 1791155379,
+"attempted": 1791160151,
 "apply_url": "https://akunacapital.com/careers/job/8018880/?gh_jid=8018880&utm_source=github-vansh-ouckah",
 "portal": "greenhouse",
 "error": "ValueError: no board/job in url",
@@ -51866,7 +51866,7 @@
 "company": "1X",
 "role": "Internship - CNC Machine Park",
 "link": "https://jobs.ashbyhq.com/1x/ebc45d87-58d7-40d8-9e3d-5f3c8aa5eb48",
-"attempted": 1790895248,
+"attempted": 1791160151,
 "apply_url": "https://jobs.ashbyhq.com/1x/ebc45d87-58d7-40d8-9e3d-5f3c8aa5eb48/application",
 "portal": "ashby",
 "fields": [
@@ -51921,14 +51921,14 @@
 }
 ],
 "error": "",
-"fetched": "2026-10-01T22:54Z",
+"fetched": "2026-10-05T00:29Z",
 "closed": false
 },
 "02cfedbed08e1773": {
 "company": "Rigetti",
 "role": "Research Intern: Scalable Fabrication of Superconducting Quantum Devices",
 "link": "https://jobs.lever.co/rigetti/efe28dd4-f331-4738-b282-23106928c3a3",
-"attempted": 1790895248,
+"attempted": 1791160151,
 "apply_url": "https://jobs.lever.co/rigetti/efe28dd4-f331-4738-b282-23106928c3a3/apply",
 "portal": "lever",
 "fields": [
@@ -52147,14 +52147,14 @@
 }
 ],
 "error": "",
-"fetched": "2026-10-01T22:54Z",
+"fetched": "2026-10-05T00:29Z",
 "closed": false
 },
 "caad243b7fd66b75": {
 "company": "Etched",
 "role": "People Operations Intern",
 "link": "https://jobs.ashbyhq.com/etched/dc036272-19b8-464f-a22d-2505c14b5270",
-"attempted": 1790895248,
+"attempted": 1791160151,
 "apply_url": "https://jobs.ashbyhq.com/etched/dc036272-19b8-464f-a22d-2505c14b5270/application",
 "portal": "ashby",
 "fields": [
@@ -52341,7 +52341,7 @@
 }
 ],
 "error": "",
-"fetched": "2026-10-01T22:54Z",
+"fetched": "2026-10-05T00:29Z",
 "closed": false
 },
 "2694f83535a93864": {
@@ -53648,7 +53648,7 @@
 "company": "Pliant",
 "role": "Working Student - Partner Sales, Benelux and Nordics Market (m/f/d)",
 "link": "https://jobs.ashbyhq.com/pliant/98698cce-8226-415d-941f-11da1293d5ca",
-"attempted": 1790895248,
+"attempted": 1791160151,
 "apply_url": "https://jobs.ashbyhq.com/pliant/98698cce-8226-415d-941f-11da1293d5ca/application",
 "portal": "ashby",
 "fields": [
@@ -53769,7 +53769,7 @@
 }
 ],
 "error": "",
-"fetched": "2026-10-01T22:54Z",
+"fetched": "2026-10-05T00:29Z",
 "closed": false
 },
 "d92faa83c3f0cb74": {
@@ -54175,7 +54175,7 @@
 "company": "Pliant",
 "role": "Working Student - Partner Sales, German Market (m/f/d )",
 "link": "https://jobs.ashbyhq.com/pliant/11b8ee7c-08d4-4b96-8992-41b109ee64bf",
-"attempted": 1790895248,
+"attempted": 1791160151,
 "apply_url": "https://jobs.ashbyhq.com/pliant/11b8ee7c-08d4-4b96-8992-41b109ee64bf/application",
 "portal": "ashby",
 "fields": [
@@ -54296,14 +54296,14 @@
 }
 ],
 "error": "",
-"fetched": "2026-10-01T22:54Z",
+"fetched": "2026-10-05T00:29Z",
 "closed": false
 },
 "97c07fbaabe2dbec": {
 "company": "Etched",
 "role": "Performance Tools Intern",
 "link": "https://jobs.ashbyhq.com/etched/f02e8035-7dc9-4b0c-aab7-75bbb4e975b8",
-"attempted": 1790895248,
+"attempted": 1791160151,
 "apply_url": "https://jobs.ashbyhq.com/etched/f02e8035-7dc9-4b0c-aab7-75bbb4e975b8/application",
 "portal": "ashby",
 "fields": [
@@ -54490,7 +54490,7 @@
 }
 ],
 "error": "",
-"fetched": "2026-10-01T22:54Z",
+"fetched": "2026-10-05T00:29Z",
 "closed": false
 },
 "99e3ce7bb1149827": {
@@ -54605,7 +54605,7 @@
 "company": "QuEra",
 "role": "Internship - Research & Development",
 "link": "https://job-boards.greenhouse.io/queracomputinginc/jobs/5227710008",
-"attempted": 1790895248,
+"attempted": 1791160151,
 "apply_url": "https://boards.greenhouse.io/queracomputinginc/jobs/5227710008",
 "portal": "greenhouse",
 "fields": [
@@ -54781,14 +54781,14 @@
 }
 ],
 "error": "",
-"fetched": "2026-10-01T22:54Z",
+"fetched": "2026-10-05T00:29Z",
 "closed": false
 },
 "33088fefd803a40d": {
 "company": "QuEra",
 "role": "Internship Inquiries ",
 "link": "https://job-boards.greenhouse.io/queracomputinginc/jobs/4182470008",
-"attempted": 1790895248,
+"attempted": 1791160151,
 "apply_url": "https://boards.greenhouse.io/queracomputinginc/jobs/4182470008",
 "portal": "greenhouse",
 "fields": [
@@ -54842,14 +54842,14 @@
 }
 ],
 "error": "",
-"fetched": "2026-10-01T22:54Z",
+"fetched": "2026-10-05T00:29Z",
 "closed": false
 },
 "2aeedc29474fd1e9": {
 "company": "Periodic Labs",
 "role": "Research Intern",
 "link": "https://simplify.jobs/jobs/click/4284c1a9-1025-463f-97ee-3b175776e726",
-"attempted": 1790895248,
+"attempted": 1791160151,
 "apply_url": "https://jobs.ashbyhq.com/periodic-labs/2cfb099d-42f1-4dff-93f4-1862b13f914a/application",
 "portal": "ashby",
 "fields": [
@@ -54924,7 +54924,7 @@
 }
 ],
 "error": "",
-"fetched": "2026-10-01T22:54Z",
+"fetched": "2026-10-05T00:29Z",
 "closed": false
 },
 "3b9dc89ac6dce42e": {
@@ -54941,7 +54941,7 @@
 "company": "Impulse Space",
 "role": "General Application \u2013 Engineering (Full-Time + Internships)",
 "link": "https://jobs.ashbyhq.com/impulse/0b03563e-e0b8-4774-b3da-5a072170614f",
-"attempted": 1790895248,
+"attempted": 1791160151,
 "apply_url": "https://jobs.ashbyhq.com/impulse/0b03563e-e0b8-4774-b3da-5a072170614f/application",
 "portal": "ashby",
 "fields": [
@@ -55013,7 +55013,7 @@
 }
 ],
 "error": "",
-"fetched": "2026-10-01T22:54Z",
+"fetched": "2026-10-05T00:29Z",
 "closed": false
 },
 "40923cef95fdb09b": {
@@ -68255,7 +68255,7 @@
 "company": "CannonDesign",
 "role": "Electrical Engineer Intern",
 "link": "https://simplify.jobs/jobs/click/c3cff8bf-39b8-4c41-973c-0690998136dc",
-"attempted": 1791155379,
+"attempted": 1791160151,
 "apply_url": "https://www.cannondesign.com/careers/electrical-student-intern-3?gh_jid=8852053002&gh_src=Simplify",
 "portal": "greenhouse",
 "error": "ValueError: no board/job in url",
@@ -72981,7 +72981,7 @@
 "company": "Etched",
 "role": "DFT Intern",
 "link": "https://www.linkedin.com/jobs/view/4401522351",
-"attempted": 1791072504,
+"attempted": 1791160151,
 "apply_url": "https://www.linkedin.com/jobs/view/4401522351",
 "portal": "linkedin",
 "fields": null,
@@ -72992,7 +72992,7 @@
 "company": "Cleveland-Cliffs",
 "role": "Electrical Engineering Co-Op",
 "link": "https://www.linkedin.com/jobs/view/4464252582",
-"attempted": 1791072504,
+"attempted": 1791160151,
 "apply_url": "https://www.linkedin.com/jobs/view/4464252582",
 "portal": "linkedin",
 "fields": null,
@@ -73003,7 +73003,7 @@
 "company": "Flex",
 "role": "Electrical Engineering Co-op",
 "link": "https://www.linkedin.com/jobs/view/4446986127",
-"attempted": 1791072504,
+"attempted": 1791160151,
 "apply_url": "https://www.linkedin.com/jobs/view/4446986127",
 "portal": "linkedin",
 "fields": null,
@@ -73025,7 +73025,7 @@
 "company": "Mobile Communications America",
 "role": "CO-OP Electrical Engineering",
 "link": "https://www.linkedin.com/jobs/view/4457543998",
-"attempted": 1791072504,
+"attempted": 1791160151,
 "apply_url": "https://www.linkedin.com/jobs/view/4457543998",
 "portal": "linkedin",
 "fields": null,
@@ -73036,7 +73036,7 @@
 "company": "Mobile Communications America",
 "role": "CO-OP Electrical Engineering",
 "link": "https://www.linkedin.com/jobs/view/4457571041",
-"attempted": 1791072504,
+"attempted": 1791160151,
 "apply_url": "https://www.linkedin.com/jobs/view/4457571041",
 "portal": "linkedin",
 "fields": null,
@@ -73047,7 +73047,7 @@
 "company": "Analog Devices",
 "role": "Analog Design Engineer Intern",
 "link": "https://www.linkedin.com/jobs/view/4454690213",
-"attempted": 1791072504,
+"attempted": 1791160151,
 "apply_url": "https://www.linkedin.com/jobs/view/4454690213",
 "portal": "linkedin",
 "fields": null,
@@ -73058,7 +73058,7 @@
 "company": "Analog Devices",
 "role": "Mixed Signal Engineer Intern",
 "link": "https://www.linkedin.com/jobs/view/4454186080",
-"attempted": 1791072504,
+"attempted": 1791160151,
 "apply_url": "https://www.linkedin.com/jobs/view/4454186080",
 "portal": "linkedin",
 "fields": null,
@@ -73069,7 +73069,7 @@
 "company": "National Laboratory of the Rockies",
 "role": "Graduate Intern \u2013 Focused Ion Beam, Electron Microscopy, and Autonomous Characterization",
 "link": "https://www.linkedin.com/jobs/view/4446435422",
-"attempted": 1791072504,
+"attempted": 1791160151,
 "apply_url": "https://www.linkedin.com/jobs/view/4446435422",
 "portal": "linkedin",
 "fields": null,
@@ -73080,7 +73080,7 @@
 "company": "Emerson",
 "role": "Test Engineering Intern",
 "link": "https://www.linkedin.com/jobs/view/4466388702",
-"attempted": 1791072504,
+"attempted": 1791160151,
 "apply_url": "https://www.linkedin.com/jobs/view/4466388702",
 "portal": "linkedin",
 "fields": null,
@@ -73102,7 +73102,7 @@
 "company": "Neuralink",
 "role": "Electrical Engineer Intern, Robotics and Surgery Engineering",
 "link": "https://www.linkedin.com/jobs/view/4456299270",
-"attempted": 1791072504,
+"attempted": 1791160151,
 "apply_url": "https://www.linkedin.com/jobs/view/4456299270",
 "portal": "linkedin",
 "fields": null,
@@ -73113,7 +73113,7 @@
 "company": "Marvell Technology",
 "role": "Ph.D. Intern - AI/ML & Design Automation",
 "link": "https://www.linkedin.com/jobs/view/4463918184",
-"attempted": 1791072504,
+"attempted": 1791160151,
 "apply_url": "https://www.linkedin.com/jobs/view/4463918184",
 "portal": "linkedin",
 "fields": null,
@@ -73500,40 +73500,44 @@
 "company": "ByteDance",
 "role": "ASIC Design Engineer Intern (Video Silicon IP) - 2027 Summer",
 "link": "https://www.linkedin.com/jobs/view/4475051620",
-"attempted": 1791155379,
+"attempted": 1791160151,
 "apply_url": "https://www.linkedin.com/jobs/view/4475051620",
 "portal": "linkedin",
 "fields": null,
-"error": "form not public for this portal"
+"error": "form not public for this portal",
+"li_checked": true
 },
 "d405e8aebfcbc422": {
 "company": "Mechvanta Engineering",
 "role": "Electrical Engineering Intern",
 "link": "https://www.linkedin.com/jobs/view/4473499245",
-"attempted": 1791155379,
+"attempted": 1791160151,
 "apply_url": "https://www.linkedin.com/jobs/view/4473499245",
 "portal": "linkedin",
 "fields": null,
-"error": "form not public for this portal"
+"error": "form not public for this portal",
+"li_checked": true
 },
 "b711d6352ba6a532": {
 "company": "Watchfire",
 "role": "Intern Electrical Engineering",
 "link": "https://www.linkedin.com/jobs/view/4465172128",
-"attempted": 1791155379,
+"attempted": 1791160151,
 "apply_url": "https://www.linkedin.com/jobs/view/4465172128",
 "portal": "linkedin",
 "fields": null,
-"error": "form not public for this portal"
+"error": "form not public for this portal",
+"li_checked": true
 },
 "ba977897be89cd02": {
 "company": "Marvell Technology",
 "role": "Ph.D. Intern - AI/ML & Design Automation",
 "link": "https://www.linkedin.com/jobs/view/4463953113",
-"attempted": 1791155379,
+"attempted": 1791160151,
 "apply_url": "https://www.linkedin.com/jobs/view/4463953113",
 "portal": "linkedin",
 "fields": null,
-"error": "form not public for this portal"
+"error": "form not public for this portal",
+"li_checked": true
 }
 }
