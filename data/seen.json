@@ -3968,7 +3968,7 @@
 },
 "https://jobs.ashbyhq.com/etched/f05e3218-5ec7-41d1-bc99-bb7014422229": {
 "first_seen": "2026-09-18",
-"title": "Mechancial / Thermal Intern",
+"title": "Mechanical / Thermal Intern",
 "company": "Etched",
 "desc": ""
 },
@@ -11572,6 +11572,48 @@
 "first_seen": "2026-10-05",
 "title": "Manufacturing Engineering Co-Op (Spring 2027) (Onsite)",
 "company": "RTX",
+"desc": ""
+},
+"https://boards.greenhouse.io/andurilindustries/jobs/5257571007": {
+"first_seen": "2026-10-06",
+"title": "Winter 2027 Quality & Test Engineer Co-op",
+"company": "Anduril",
+"desc": ""
+},
+"https://boards.greenhouse.io/andurilindustries/jobs/5257693007": {
+"first_seen": "2026-10-06",
+"title": "Winter 2027 Reliability Engineer Co-op",
+"company": "Anduril",
+"desc": ""
+},
+"https://jobs.lever.co/zoox/8ed069c6-78b3-403f-9bb7-6fc9237b2973": {
+"first_seen": "2026-10-06",
+"title": "Contract Student Worker - Fleet Maps Validation (FT 40 hrs/week)",
+"company": "Zoox",
+"desc": ""
+},
+"https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Santa-Clara-CA/Analog-Design-Intern_2603776": {
+"first_seen": "2026-10-06",
+"title": "Analog Design Intern",
+"company": "Marvell",
+"desc": "  About Marvell    Marvell\u2019s semiconductor solutions are the essential building blocks of the data infrastructure that connects our world. Across enterprise, cloud and AI, and carrier architectures, our innovative technology is enabling new possibilities.\u00a0    At Marvell, you can affect the arc of individual lives, lift the trajectory of entire industries, and fuel the transformative potential of tomorrow. For those looking to make their mark on purposeful and enduring innovation, above and beyond fleeting trends, Marvell is a place to thrive, learn, and lead.\u00a0     Your Team, Your Impact    As an Analog IC Design Engineer with Marvell, you\u2019ll be a member of the Central Engineering business group. If you picture Marvell as a wheel, Central Engineering is the center hub providing IP to be used by all the other spokes on that wheel, including Automotive, Storage, Security, and Networking. You\u2019ll be part of a small analog team making a big impact on this organization. Additionally, Marvell has the perfect size and scale for you to learn several aspects of engineering that will be new to you, but also have the time and freedom to dive deep into the details of your specialization on most projects.    What You Can Expect  In this (hybrid/remote/in-office) role in LOCATION, you\u2019ll build transistor level circuits from scratch or be given existing blocks to improve or port. Using a variety of CAD tools, but primarily Cadence, you will build or improve your circuit, simulate different pe"
+},
+"https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-IA-CEDAR-RAPIDS-108--400-Collins-Rd-NE--BLDG-108/Industrial-Engineering-Co-Op--Spring-Summer-2027-_01870984": {
+"first_seen": "2026-10-06",
+"title": "Industrial Engineering Co-Op (Spring/Summer 2027)",
+"company": "RTX",
+"desc": ""
+},
+"https://seagatecareers.com/job/Recording-Head-Test-Engineering-Intern/14904-en_US": {
+"first_seen": "2026-10-06",
+"title": "Recording Head Test Engineering Intern",
+"company": "Seagate",
+"desc": ""
+},
+"https://careers-gdms.icims.com/jobs/75126/electrical-engineering-intern-%28cwl%29/job": {
+"first_seen": "2026-10-06",
+"title": "Electrical Engineering Intern (CWL)",
+"company": "General Dynamics Mission Systems",
 "desc": ""
 }
 }
