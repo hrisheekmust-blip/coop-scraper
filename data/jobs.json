@@ -1618,10 +1618,10 @@
  },
  {
   "company": "Figure AI",
-  "title": "Electrical Engineering Intern [Fall 2026]",
+  "title": "Electrical Engineering Intern [Winter 2027]",
   "location": "San Jose, CA",
   "url": "https://job-boards.greenhouse.io/figureai/jobs/4676467006",
-  "posted": "2026-09-22",
+  "posted": "2026-10-06",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -1635,10 +1635,27 @@
  },
  {
   "company": "Figure AI",
+  "title": "Special Projects Intern [Winter 2027]",
+  "location": "San Jose, CA",
+  "url": "https://job-boards.greenhouse.io/figureai/jobs/4694889006",
+  "posted": "2026-10-06",
+  "deadline": "",
+  "term": "spring",
+  "rank": "A",
+  "hw": "maybe",
+  "tier": "startup",
+  "sources": [
+   "greenhouse"
+  ],
+  "first_seen": "2026-10-06",
+  "last_seen": "2026-10-06"
+ },
+ {
+  "company": "Figure AI",
   "title": "Supply Chain Analytics Intern [Winter 2027]",
   "location": "San Jose, CA",
   "url": "https://job-boards.greenhouse.io/figureai/jobs/4718858006",
-  "posted": "2026-10-02",
+  "posted": "2026-10-06",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -2489,7 +2506,7 @@
   "title": "Winter 2027 Intern, Electrical Engineering",
   "location": "Mountain View, CA",
   "url": "https://job-boards.greenhouse.io/kodiak/jobs/4382626009",
-  "posted": "2026-09-30",
+  "posted": "2026-10-06",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -3067,8 +3084,8 @@
   "company": "RTX",
   "title": "Industrial Engineering Co-Op (Spring/Summer 2027)",
   "location": "US-IA-CEDAR RAPIDS-108 ~ 400 Collins Rd NE ~ BLDG 108",
-  "url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-IA-CEDAR-RAPIDS-108--400-Collins-Rd-NE--BLDG-108/Industrial-Engineering-Co-Op--Spring-Summer-2027-_01870984",
-  "posted": "Posted Yesterday",
+  "url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-IA-CEDAR-RAPIDS-108--400-Collins-Rd-NE--BLDG-108/Industrial-Engineering-Co-Op--Spring-Summer-2027-_01879706",
+  "posted": "Posted Today",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -3146,23 +3163,6 @@
    "workday"
   ],
   "first_seen": "2026-10-06",
-  "last_seen": "2026-10-06"
- },
- {
-  "company": "RTX",
-  "title": "Manufacturing Engineering Ops Co-Op (Spring/Summer 2027)",
-  "location": "US-IL-ROCKFORD-P1 ~ 2421 11th St ~ 2421 11TH ST-P1",
-  "url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-IL-ROCKFORD-P1--2421-11th-St--2421-11TH-ST-P1/Manufacturing-Engineering-Ops-Co-Op--Spring-Summer-2027-_01876912",
-  "posted": "Posted 5 Days Ago",
-  "deadline": "",
-  "term": "spring",
-  "rank": "A",
-  "hw": "maybe",
-  "tier": "big",
-  "sources": [
-   "workday"
-  ],
-  "first_seen": "2026-10-01",
   "last_seen": "2026-10-06"
  },
  {
@@ -3265,6 +3265,23 @@
    "workday"
   ],
   "first_seen": "2026-10-01",
+  "last_seen": "2026-10-06"
+ },
+ {
+  "company": "RTX",
+  "title": "Stage - Hiver 2027-Stagiaire Technicien en Instrumentation/Internship - Winter 2027-Instrumentation Technician",
+  "location": "CA-QC-LONGUEUIL-J01 ~ 1000 Blvd Marie-Victorin ~ J01 BLDG",
+  "url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/CA-QC-LONGUEUIL-J01--1000-Blvd-Marie-Victorin--J01-BLDG/Stage---Hiver-2027-Stagiaire-Technicien-en-Instrumentation-Internship---Winter-2027-Instrumentation-Technician_01878634",
+  "posted": "Posted Today",
+  "deadline": "",
+  "term": "spring",
+  "rank": "A",
+  "hw": "instrumentation",
+  "tier": "big",
+  "sources": [
+   "workday"
+  ],
+  "first_seen": "2026-10-06",
   "last_seen": "2026-10-06"
  },
  {
@@ -3389,6 +3406,23 @@
  {
   "company": "Rocket Lab",
   "title": "Manufacturing Engineering Intern Spring 2027",
+  "location": "Long Beach, CA",
+  "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7984943003",
+  "posted": "2026-09-16",
+  "deadline": "",
+  "term": "spring",
+  "rank": "A",
+  "hw": "maybe",
+  "tier": "big",
+  "sources": [
+   "greenhouse"
+  ],
+  "first_seen": "2026-09-18",
+  "last_seen": "2026-10-06"
+ },
+ {
+  "company": "Rocket Lab",
+  "title": "Manufacturing Engineering Intern Spring 2027",
   "location": "Middle River, MD",
   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7987020003",
   "posted": "2026-09-16",
@@ -3409,23 +3443,6 @@
   "location": "Wallops Island, VA",
   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7996617003",
   "posted": "2026-09-17",
-  "deadline": "",
-  "term": "spring",
-  "rank": "A",
-  "hw": "maybe",
-  "tier": "big",
-  "sources": [
-   "greenhouse"
-  ],
-  "first_seen": "2026-09-18",
-  "last_seen": "2026-10-06"
- },
- {
-  "company": "Rocket Lab",
-  "title": "Manufacturing Engineering Intern Spring 2027",
-  "location": "Long Beach, CA",
-  "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7984943003",
-  "posted": "2026-09-16",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -3508,23 +3525,6 @@
  {
   "company": "Rocket Lab",
   "title": "Test Engineering Intern Spring 2027",
-  "location": "Wallops Island, VA",
-  "url": "https://job-boards.greenhouse.io/rocketlab/jobs/8003533003",
-  "posted": "2026-10-06",
-  "deadline": "",
-  "term": "spring",
-  "rank": "A",
-  "hw": "test engineering",
-  "tier": "big",
-  "sources": [
-   "greenhouse"
-  ],
-  "first_seen": "2026-09-25",
-  "last_seen": "2026-10-06"
- },
- {
-  "company": "Rocket Lab",
-  "title": "Test Engineering Intern Spring 2027",
   "location": "Stennis Space Center, MS",
   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7990352003",
   "posted": "2026-09-17",
@@ -3537,6 +3537,23 @@
    "greenhouse"
   ],
   "first_seen": "2026-09-17",
+  "last_seen": "2026-10-06"
+ },
+ {
+  "company": "Rocket Lab",
+  "title": "Test Engineering Intern Spring 2027",
+  "location": "Wallops Island, VA",
+  "url": "https://job-boards.greenhouse.io/rocketlab/jobs/8003533003",
+  "posted": "2026-10-06",
+  "deadline": "",
+  "term": "spring",
+  "rank": "A",
+  "hw": "test engineering",
+  "tier": "big",
+  "sources": [
+   "greenhouse"
+  ],
+  "first_seen": "2026-09-25",
   "last_seen": "2026-10-06"
  },
  {
@@ -7423,9 +7440,9 @@
  {
   "company": "Entegris",
   "title": "Manufacturing Engineering Co-Op",
-  "location": "Colorado Springs, CO",
-  "url": "https://entegris.wd1.myworkdayjobs.com/EntegrisCareers/job/Colorado-Springs-CO/Manufacturing-Engineering-Co-Op_REQ-14508",
-  "posted": "Posted 26 Days Ago",
+  "location": "Bloomington, MN",
+  "url": "https://entegris.wd1.myworkdayjobs.com/EntegrisCareers/job/Bloomington-MN/Manufacturing-Engineering-Co-Op_REQ-14417",
+  "posted": "Posted 27 Days Ago",
   "deadline": "",
   "term": "coop-unspecified",
   "rank": "B",
@@ -7440,9 +7457,9 @@
  {
   "company": "Entegris",
   "title": "Manufacturing Engineering Co-Op",
-  "location": "Bloomington, MN",
-  "url": "https://entegris.wd1.myworkdayjobs.com/EntegrisCareers/job/Bloomington-MN/Manufacturing-Engineering-Co-Op_REQ-14417",
-  "posted": "Posted 27 Days Ago",
+  "location": "Colorado Springs, CO",
+  "url": "https://entegris.wd1.myworkdayjobs.com/EntegrisCareers/job/Colorado-Springs-CO/Manufacturing-Engineering-Co-Op_REQ-14508",
+  "posted": "Posted 26 Days Ago",
   "deadline": "",
   "term": "coop-unspecified",
   "rank": "B",
@@ -8704,6 +8721,23 @@
    "oracle_hcm"
   ],
   "first_seen": "2026-09-30",
+  "last_seen": "2026-10-06"
+ },
+ {
+  "company": "Nokia",
+  "title": "Optical Systems Group Co-op",
+  "location": "United States",
+  "url": "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/41218",
+  "posted": "2026-10-06",
+  "deadline": "",
+  "term": "coop-unspecified",
+  "rank": "B",
+  "hw": "maybe",
+  "tier": "big",
+  "sources": [
+   "oracle_hcm"
+  ],
+  "first_seen": "2026-10-06",
   "last_seen": "2026-10-06"
  },
  {
@@ -14114,23 +14148,6 @@
  {
   "company": "Marvell",
   "title": "Analog Design Intern",
-  "location": "Santa Clara, CA",
-  "url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Santa-Clara-CA/Analog-Design-Intern_2603776",
-  "posted": "Posted Yesterday",
-  "deadline": "",
-  "term": "unspecified",
-  "rank": "C",
-  "hw": "analog",
-  "tier": "big",
-  "sources": [
-   "workday"
-  ],
-  "first_seen": "2026-10-06",
-  "last_seen": "2026-10-06"
- },
- {
-  "company": "Marvell",
-  "title": "Analog Design Intern",
   "location": "Cordoba, Argentina",
   "url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Cordoba-Argentina/Analog-Design-Intern_2602163",
   "posted": "Posted 30+ Days Ago",
@@ -15103,23 +15120,6 @@
  },
  {
   "company": "NXP",
-  "title": "Digital Physical Design (P&R) Intern",
-  "location": "Chandler (Office)",
-  "url": "https://nxp.wd3.myworkdayjobs.com/careers/job/Chandler-Office/Digital-Physical-Design--P-R--Intern_R-10064673",
-  "posted": "Posted 30+ Days Ago",
-  "deadline": "",
-  "term": "unspecified",
-  "rank": "C",
-  "hw": "physical design",
-  "tier": "big",
-  "sources": [
-   "workday"
-  ],
-  "first_seen": "2026-10-02",
-  "last_seen": "2026-10-06"
- },
- {
-  "company": "NXP",
   "title": "Embedded SW Developer Intern - Security",
   "location": "2 Locations",
   "url": "https://nxp.wd3.myworkdayjobs.com/careers/job/Brno/Embedded-SW-Developer-Intern---Security_R-10066538-1",
@@ -15150,23 +15150,6 @@
    "workday"
   ],
   "first_seen": "2026-10-02",
-  "last_seen": "2026-10-06"
- },
- {
-  "company": "NXP",
-  "title": "Internship \u2013 Product Engineering (ML Model Development)",
-  "location": "Nijmegen",
-  "url": "https://nxp.wd3.myworkdayjobs.com/careers/job/Nijmegen/Internship---Product-Engineering--ML-Model-Development-_R-10064264-1",
-  "posted": "Posted Yesterday",
-  "deadline": "",
-  "term": "unspecified",
-  "rank": "C",
-  "hw": "product engineering",
-  "tier": "big",
-  "sources": [
-   "workday"
-  ],
-  "first_seen": "2026-10-06",
   "last_seen": "2026-10-06"
  },
  {
@@ -16224,6 +16207,23 @@
   "last_seen": "2026-10-06"
  },
  {
+  "company": "Renesas",
+  "title": "Post Silicon Validation Intern",
+  "location": "Duluth, GEORGIA, United States",
+  "url": "https://jobs.smartrecruiters.com/renesaselectronics/744000153840059",
+  "posted": "2026-10-06",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "silicon",
+  "tier": "big",
+  "sources": [
+   "smartrecruiters"
+  ],
+  "first_seen": "2026-10-06",
+  "last_seen": "2026-10-06"
+ },
+ {
   "company": "Rigetti",
   "title": "Research Intern: Scalable Fabrication of Superconducting Quantum Devices",
   "location": "Berkeley, CA",
@@ -16412,14 +16412,14 @@
  },
  {
   "company": "Seagate",
-  "title": "Head Failure Analysis Intern III",
+  "title": "Hardware Engineering Intern",
   "location": "",
-  "url": "https://seagatecareers.com/job/Head-Failure-Analysis-Intern-III/15061-en_US",
-  "posted": "2026-09-15",
+  "url": "https://seagatecareers.com/job/Hardware-Engineering-Intern/15010-en_US",
+  "posted": "2026-09-09",
   "deadline": "",
   "term": "unspecified",
   "rank": "C",
-  "hw": "failure analysis",
+  "hw": "hardware",
   "tier": "big",
   "sources": [
    "successfactors"
@@ -16429,14 +16429,48 @@
  },
  {
   "company": "Seagate",
-  "title": "Metrology maintenance engineering intern",
-  "location": "Nakhon Ratchasima, THA, ",
-  "url": "https://seagatecareers.com/job/Metrology-maintenance-engineering-intern/14919-en_US",
-  "posted": "2026-08-26",
+  "title": "Hardware Validation Intern",
+  "location": "",
+  "url": "https://seagatecareers.com/job/Hardware-Validation-Intern/15011-en_US",
+  "posted": "2026-09-09",
   "deadline": "",
   "term": "unspecified",
   "rank": "C",
-  "hw": "metrology",
+  "hw": "hardware",
+  "tier": "big",
+  "sources": [
+   "successfactors"
+  ],
+  "first_seen": "2026-09-18",
+  "last_seen": "2026-10-06"
+ },
+ {
+  "company": "Seagate",
+  "title": "Head Failure Analysis Intern",
+  "location": "",
+  "url": "https://seagatecareers.com/job/Head-Failure-Analysis-Intern/15130-en_US",
+  "posted": "2026-10-02",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "failure analysis",
+  "tier": "big",
+  "sources": [
+   "successfactors"
+  ],
+  "first_seen": "2026-10-02",
+  "last_seen": "2026-10-06"
+ },
+ {
+  "company": "Seagate",
+  "title": "Head Failure Analysis Intern III",
+  "location": "",
+  "url": "https://seagatecareers.com/job/Head-Failure-Analysis-Intern-III/15061-en_US",
+  "posted": "2026-09-15",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "failure analysis",
   "tier": "big",
   "sources": [
    "successfactors"
