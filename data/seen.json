@@ -635,8 +635,8 @@
 },
 "https://www.indeed.com/viewjob": {
 "first_seen": "2026-09-18",
-"title": "Electrical Engineer Intern / Co-Op - SPRING / SUMMER 2027",
-"company": "REAL ALLOY",
+"title": "Process Engineer Co-Op",
+"company": "GAF",
 "desc": ""
 },
 "https://www.linkedin.com/jobs/view/4468697840": {
@@ -937,7 +937,8 @@
 "https://www.linkedin.com/jobs/view/4466512530": {
 "first_seen": "2026-09-18",
 "title": "Intern - PHY Digital Design & Automation Engineer, HBM",
-"company": "Micron Technology"
+"company": "Micron Technology",
+"desc": ""
 },
 "https://www.linkedin.com/jobs/view/4456558389": {
 "first_seen": "2026-09-18",
@@ -2227,7 +2228,7 @@
 },
 "https://simplify.jobs/jobs/click/2f20ddf7-c228-470e-9c1f-f35d8a1bfc0a": {
 "first_seen": "2026-09-18",
-"title": "Hardware Engineer Intern/Co-op",
+"title": "2027 Undergrad Hardware Engineering intern/co-op",
 "company": "AMD",
 "desc": ""
 },
@@ -2497,7 +2498,7 @@
 },
 "https://simplify.jobs/jobs/click/325c996b-39fe-46f1-9b9d-a348022ccef7": {
 "first_seen": "2026-09-18",
-"title": "Semiconductor Process Development Engineering Intern",
+"title": "Semiconductor Process Development Engineer Intern",
 "company": "Keysight Technologies",
 "desc": ""
 },
@@ -10675,7 +10676,7 @@
 },
 "https://simplify.jobs/jobs/click/7a03fb73-759e-4d0e-8ee5-88b533ee7892": {
 "first_seen": "2026-10-02",
-"title": "Radio Frequency IC Designer Intern",
+"title": "RF IC Designer Intern",
 "company": "Keysight Technologies",
 "desc": ""
 },
@@ -12387,6 +12388,78 @@
 "first_seen": "2026-10-07",
 "title": "Big Data Factory Automation Intern",
 "company": "MACOM",
+"desc": ""
+},
+"https://jobs.smartrecruiters.com/renesaselectronics/744000154056909": {
+"first_seen": "2026-10-07",
+"title": "Intern Verification Engineer",
+"company": "Renesas",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/31cc6d53-82a9-4c54-b9da-84406b320237": {
+"first_seen": "2026-10-07",
+"title": "Electronics Hardware Systems Engineer Co-op",
+"company": "Rheem",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/990eaa51-6712-4722-a665-5d3e0f7507ba": {
+"first_seen": "2026-10-07",
+"title": "Electrical Engineer Co-op",
+"company": "Vanasse Hangen Brustlin",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/5ef9b302-b44e-451c-8167-f2ba025ecd3d": {
+"first_seen": "2026-10-07",
+"title": "R&D Electrical Engineer Co-op",
+"company": "Fresenius Medical Care",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/9f18b641-6742-4888-8c7d-816f12b89724": {
+"first_seen": "2026-10-07",
+"title": "Electrical Engineer Co-op",
+"company": "WSP",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4476326863": {
+"first_seen": "2026-10-07",
+"title": "Electrical Engineer Intern / Co-Op - SPRING / SUMMER 2027",
+"company": "Real Alloy",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4474642286": {
+"first_seen": "2026-10-07",
+"title": "Electronics Hardware Design Intern",
+"company": "BorgWarner",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4475126442": {
+"first_seen": "2026-10-07",
+"title": "CST Application Engineer Intern - Silicon",
+"company": "Cadence",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4476378931": {
+"first_seen": "2026-10-07",
+"title": "Hypersonic RF Software Engineering Intern",
+"company": "AV",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4475194589": {
+"first_seen": "2026-10-07",
+"title": "Global Operations Supplier Process Engineer Co-Op",
+"company": "Dell Technologies",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4474430217": {
+"first_seen": "2026-10-07",
+"title": "R&D Hardware Engineering Internship",
+"company": "Keysight Technologies",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4475163470": {
+"first_seen": "2026-10-07",
+"title": "Electrical Engineering Labs Intern",
+"company": "Hewlett Packard Enterprise",
 "desc": ""
 }
 }
