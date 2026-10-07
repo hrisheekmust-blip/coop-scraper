@@ -530,7 +530,7 @@
 "company": "Formlabs",
 "role": "Hardware Test Engineering Intern (Winter/Spring 2027)",
 "link": "https://careers.formlabs.com/job/8196515/apply/?gh_jid=8196515",
-"attempted": 1791322477,
+"attempted": 1791334730,
 "apply_url": "https://careers.formlabs.com/job/8196515/apply/?gh_jid=8196515",
 "portal": "greenhouse",
 "error": "ValueError: no board/job in url",
@@ -27156,9 +27156,9 @@
 },
 "c36df8051642baea": {
 "company": "CDM Smith",
-"role": "Electrical Engineering Co-op",
+"role": "Electrical Engineer Co-op",
 "link": "https://simplify.jobs/jobs/click/fc2b9f0e-8223-40c5-a952-c280e0f3245c",
-"attempted": 1791197257,
+"attempted": 1791334730,
 "apply_url": "https://careers.cdmsmith.com/jobs/4397?icims=1&utm_source=Simplify",
 "portal": "icims",
 "fields": null,
@@ -27381,7 +27381,7 @@
 "company": "Formlabs",
 "role": "Hardware R&D Engineering Intern (Winter/Spring 2027)",
 "link": "https://careers.formlabs.com/job/8172226/apply/?gh_jid=8172226",
-"attempted": 1791322477,
+"attempted": 1791334730,
 "apply_url": "https://careers.formlabs.com/job/8172226/apply/?gh_jid=8172226",
 "portal": "greenhouse",
 "error": "ValueError: no board/job in url",
@@ -27391,7 +27391,7 @@
 "company": "Formlabs",
 "role": "Hardware Systems Integration Intern (Winter/Spring 2027)",
 "link": "https://careers.formlabs.com/job/8172004/apply/?gh_jid=8172004",
-"attempted": 1791322477,
+"attempted": 1791334730,
 "apply_url": "https://careers.formlabs.com/job/8172004/apply/?gh_jid=8172004",
 "portal": "greenhouse",
 "error": "ValueError: no board/job in url",
@@ -27411,7 +27411,7 @@
 "company": "Draper",
 "role": "Optics-Physics Sensor Engineering Co-op",
 "link": "https://simplify.jobs/jobs/click/c2915142-c10f-4cf7-8de6-cfd5d54e9026",
-"attempted": 1791197257,
+"attempted": 1791334730,
 "apply_url": "https://draper.wd5.myworkdayjobs.com/Draper_Careers/job/Cambridge-MA/Optics-Physics-Sensor-Engineering-Co-op--Spring-2027-_JR002884?utm_source=Simplify",
 "portal": "workday",
 "fields": null,
@@ -27421,7 +27421,7 @@
 "company": "Draper",
 "role": "Sensor Electrical Engineer Co-op",
 "link": "https://simplify.jobs/jobs/click/b23545b3-7e52-47da-adc5-d2a085e0b26e",
-"attempted": 1791197257,
+"attempted": 1791334730,
 "apply_url": "https://draper.wd5.myworkdayjobs.com/Draper_Careers/job/Cambridge-MA/Sensor-Electrical-Engineering-Co-op--Spring-2027-_JR002885?utm_source=Simplify",
 "portal": "workday",
 "fields": null,
@@ -31129,7 +31129,7 @@
 "company": "Formlabs",
 "role": "Electrical Engineering Intern (Winter/Spring 2027)",
 "link": "https://careers.formlabs.com/job/8148283/apply/?gh_jid=8148283",
-"attempted": 1791322477,
+"attempted": 1791334730,
 "apply_url": "https://careers.formlabs.com/job/8148283/apply/?gh_jid=8148283",
 "portal": "greenhouse",
 "error": "ValueError: no board/job in url",
@@ -33108,7 +33108,7 @@
 "company": "Formlabs",
 "role": "Manufacturing Engineering Intern (Winter/Spring 2027)",
 "link": "https://careers.formlabs.com/job/8161817/apply/?gh_jid=8161817",
-"attempted": 1791322477,
+"attempted": 1791334730,
 "apply_url": "https://careers.formlabs.com/job/8161817/apply/?gh_jid=8161817",
 "portal": "greenhouse",
 "error": "ValueError: no board/job in url",
@@ -33390,7 +33390,7 @@
 "company": "Formlabs",
 "role": "Industrial Design Intern (Winter/Spring 2027)",
 "link": "https://careers.formlabs.com/job/8172232/apply/?gh_jid=8172232",
-"attempted": 1791322477,
+"attempted": 1791334730,
 "apply_url": "https://careers.formlabs.com/job/8172232/apply/?gh_jid=8172232",
 "portal": "greenhouse",
 "error": "ValueError: no board/job in url",
@@ -40456,7 +40456,7 @@
 "company": "Quantinuum",
 "role": "Photonic Integrated Circuit Design Intern",
 "link": "https://simplify.jobs/jobs/click/7c5b5c68-c8bb-439a-8e46-f121d04eec2a",
-"attempted": 1791322477,
+"attempted": 1791334730,
 "apply_url": "https://jobs.eu.lever.co/quantinuum/ef4b4db2-4ce1-47f5-bfd1-12dfc8a90107/apply?lever-source=Simplify",
 "portal": "lever",
 "error": "ValueError: no company/id in url",
@@ -43613,7 +43613,7 @@
 "company": "Quantinuum",
 "role": "Electrical Engineer Intern",
 "link": "https://simplify.jobs/jobs/click/f61a7695-7297-4d3e-9f68-3ef0b85baec3",
-"attempted": 1791322477,
+"attempted": 1791334730,
 "apply_url": "https://jobs.eu.lever.co/quantinuum/672bb667-0569-44bc-a2fa-a0fcd85673fb/apply?lever-source=Simplify",
 "portal": "lever",
 "error": "ValueError: no company/id in url",
@@ -49163,7 +49163,7 @@
 "company": "Formlabs",
 "role": "Hardware R&D Engineering Intern",
 "link": "https://careers.formlabs.com/job/8097694/apply/?gh_jid=8097694&utm_source=github-vansh-ouckah",
-"attempted": 1791283056,
+"attempted": 1791334730,
 "apply_url": "https://careers.formlabs.com/job/8097694/apply/?gh_jid=8097694&utm_source=github-vansh-ouckah",
 "portal": "greenhouse",
 "error": "ValueError: no board/job in url",
@@ -51169,7 +51169,7 @@
 "company": "Akuna Capital",
 "role": "Hardware Engineer Intern",
 "link": "https://akunacapital.com/careers/job/8018880/?gh_jid=8018880&utm_source=github-vansh-ouckah",
-"attempted": 1791283056,
+"attempted": 1791334730,
 "apply_url": "https://akunacapital.com/careers/job/8018880/?gh_jid=8018880&utm_source=github-vansh-ouckah",
 "portal": "greenhouse",
 "error": "ValueError: no board/job in url",
@@ -60048,7 +60048,7 @@
 "company": "Quadric",
 "role": "RTL SoC Design Intern",
 "link": "https://jobs.ashbyhq.com/quadric/8bc97324-bcdb-4680-a03c-4c6e590644c2",
-"attempted": 1791052759,
+"attempted": 1791334730,
 "apply_url": "https://jobs.ashbyhq.com/quadric/8bc97324-bcdb-4680-a03c-4c6e590644c2/application",
 "portal": "ashby",
 "fields": [
@@ -60128,14 +60128,14 @@
 }
 ],
 "error": "",
-"fetched": "2026-10-03T18:39Z",
+"fetched": "2026-10-07T00:58Z",
 "closed": false
 },
 "0d9554fa1cee4a43": {
 "company": "Panther Life Sciences",
 "role": "Device Engineer Intern Co-op",
 "link": "https://simplify.jobs/jobs/click/377a2a22-6017-4f3f-9fc2-3793bd76e16d",
-"attempted": 1791052759,
+"attempted": 1791334730,
 "apply_url": "https://jobs.ashbyhq.com/panther-life-sciences/8f024440-c3d5-4fc7-9891-92f5170b6675/application",
 "portal": "ashby",
 "fields": [
@@ -60189,7 +60189,7 @@
 }
 ],
 "error": "",
-"fetched": "2026-10-03T18:39Z",
+"fetched": "2026-10-07T00:58Z",
 "closed": false
 },
 "0f9c539762b255d7": {
@@ -60240,7 +60240,7 @@
 "company": "Astranis",
 "role": "Propulsion Engineer Intern (Winter 2027)",
 "link": "https://job-boards.greenhouse.io/astranis/jobs/4713183006",
-"attempted": 1791052759,
+"attempted": 1791334730,
 "apply_url": "https://boards.greenhouse.io/astranis/jobs/4713183006",
 "portal": "greenhouse",
 "fields": [
@@ -60421,7 +60421,7 @@
 }
 ],
 "error": "",
-"fetched": "2026-10-03T18:39Z",
+"fetched": "2026-10-07T00:58Z",
 "closed": false
 },
 "33043bf0bdc8700e": {
@@ -60471,7 +60471,7 @@
 "company": "Flagship Pioneering",
 "role": "Analytical Characterization / Protein Science Co-op",
 "link": "https://simplify.jobs/jobs/click/4f4e536a-1c11-425a-84de-2a9e0512a60c",
-"attempted": 1791052759,
+"attempted": 1791334730,
 "apply_url": "https://boards.greenhouse.io/fspco-op012325/jobs/8786247002",
 "portal": "greenhouse",
 "fields": [
@@ -60540,7 +60540,7 @@
 }
 ],
 "error": "",
-"fetched": "2026-10-03T18:39Z",
+"fetched": "2026-10-07T00:58Z",
 "closed": false
 },
 "6078c7a5969e5b50": {
@@ -60611,7 +60611,7 @@
 "company": "Astranis",
 "role": "FPGA Intern (Winter 2027)",
 "link": "https://job-boards.greenhouse.io/astranis/jobs/4704803006",
-"attempted": 1791052759,
+"attempted": 1791334730,
 "apply_url": "https://boards.greenhouse.io/astranis/jobs/4704803006",
 "portal": "greenhouse",
 "fields": [
@@ -60771,14 +60771,14 @@
 }
 ],
 "error": "",
-"fetched": "2026-10-03T18:39Z",
+"fetched": "2026-10-07T00:58Z",
 "closed": false
 },
 "06be17fa75fbe017": {
 "company": "Astranis",
 "role": "Software Defined Radio Hardware Intern (Winter 2027)",
 "link": "https://job-boards.greenhouse.io/astranis/jobs/4716087006",
-"attempted": 1791052759,
+"attempted": 1791334730,
 "apply_url": "https://boards.greenhouse.io/astranis/jobs/4716087006",
 "portal": "greenhouse",
 "fields": [
@@ -60968,7 +60968,7 @@
 }
 ],
 "error": "",
-"fetched": "2026-10-03T18:39Z",
+"fetched": "2026-10-07T00:58Z",
 "closed": false
 },
 "005213886790b078": {
@@ -61083,7 +61083,7 @@
 "company": "Astranis",
 "role": "Technical Project Management Intern (Winter 2027)",
 "link": "https://job-boards.greenhouse.io/astranis/jobs/4708364006",
-"attempted": 1791052759,
+"attempted": 1791334730,
 "apply_url": "https://boards.greenhouse.io/astranis/jobs/4708364006",
 "portal": "greenhouse",
 "fields": [
@@ -61266,7 +61266,7 @@
 }
 ],
 "error": "",
-"fetched": "2026-10-03T18:39Z",
+"fetched": "2026-10-07T00:58Z",
 "closed": false
 },
 "9dc74e7b29168990": {
@@ -61894,7 +61894,7 @@
 "company": "Astranis",
 "role": "Electrical Integration Intern - RF (Summer 2027)",
 "link": "https://job-boards.greenhouse.io/astranis/jobs/4715788006",
-"attempted": 1791066604,
+"attempted": 1791334730,
 "apply_url": "https://boards.greenhouse.io/astranis/jobs/4715788006",
 "portal": "greenhouse",
 "fields": [
@@ -62057,14 +62057,14 @@
 }
 ],
 "error": "",
-"fetched": "2026-10-03T22:30Z",
+"fetched": "2026-10-07T00:58Z",
 "closed": false
 },
 "0ec6302a42be978d": {
 "company": "Astranis",
 "role": "Software Developer, Network Software Intern (Winter 2027)",
 "link": "https://job-boards.greenhouse.io/astranis/jobs/4705599006",
-"attempted": 1791066604,
+"attempted": 1791334730,
 "apply_url": "https://boards.greenhouse.io/astranis/jobs/4705599006",
 "portal": "greenhouse",
 "fields": [
@@ -62230,14 +62230,14 @@
 }
 ],
 "error": "",
-"fetched": "2026-10-03T22:30Z",
+"fetched": "2026-10-07T00:58Z",
 "closed": false
 },
 "970a267b3f9b73e6": {
 "company": "Astranis",
 "role": "Supplier Quality Engineer Intern (Winter 2027)",
 "link": "https://job-boards.greenhouse.io/astranis/jobs/4715989006",
-"attempted": 1791066604,
+"attempted": 1791334730,
 "apply_url": "https://boards.greenhouse.io/astranis/jobs/4715989006",
 "portal": "greenhouse",
 "fields": [
@@ -62397,7 +62397,7 @@
 }
 ],
 "error": "",
-"fetched": "2026-10-03T22:30Z",
+"fetched": "2026-10-07T00:58Z",
 "closed": false
 },
 "308b0f89374ba1e3": {
@@ -62434,7 +62434,7 @@
 "company": "Samsara",
 "role": "Firmware Engineer Co-Op",
 "link": "https://www.samsara.com/company/careers/roles/8226602?gh_jid=8226602",
-"attempted": 1791066604,
+"attempted": 1791334730,
 "apply_url": "https://boards.greenhouse.io/samsara/jobs/8226602",
 "portal": "greenhouse",
 "fields": [
@@ -62713,7 +62713,7 @@
 }
 ],
 "error": "",
-"fetched": "2026-10-03T22:30Z",
+"fetched": "2026-10-07T00:58Z",
 "closed": false
 },
 "de636a4b282dee42": {
@@ -66463,7 +66463,7 @@
 "company": "Skyworks",
 "role": "Power Amplifier Design Co-Op (June-December 20270",
 "link": "https://careers.skyworksinc.com/job/Power-Amplifier-Design-Co-Op-%28June-December-20270/78466-en_US",
-"attempted": 1791197257,
+"attempted": 1791334730,
 "apply_url": "https://careers.skyworksinc.com/job/Power-Amplifier-Design-Co-Op-%28June-December-20270/78466-en_US",
 "portal": "other",
 "fields": null,
@@ -68273,7 +68273,7 @@
 "company": "CannonDesign",
 "role": "Electrical Engineer Intern",
 "link": "https://simplify.jobs/jobs/click/c3cff8bf-39b8-4c41-973c-0690998136dc",
-"attempted": 1791322477,
+"attempted": 1791334730,
 "apply_url": "https://www.cannondesign.com/careers/electrical-student-intern-3?gh_jid=8852053002&gh_src=Simplify",
 "portal": "greenhouse",
 "error": "ValueError: no board/job in url",
@@ -68333,7 +68333,7 @@
 "company": "Graphcore",
 "role": "System Validation Engineer Intern",
 "link": "https://simplify.jobs/jobs/click/c3cf0e0c-833f-44df-a0c9-d931121ecb8a",
-"attempted": 1791039991,
+"attempted": 1791334730,
 "apply_url": "https://boards.greenhouse.io/graphcore/jobs/8841978002",
 "portal": "greenhouse",
 "fields": [
@@ -68462,7 +68462,7 @@
 ],
 "error": "",
 "closed": false,
-"fetched": "2026-10-03T15:06Z"
+"fetched": "2026-10-07T00:58Z"
 },
 "89d5ffd5c9e2b885": {
 "company": "RTX",
@@ -68563,7 +68563,7 @@
 "company": "Hermeus",
 "role": "Loads & Dynamics Engineering Intern - Summer 2027",
 "link": "https://jobs.lever.co/hermeus/29c10a11-aa02-4d64-83d0-00001cbd3ac0",
-"attempted": 1791066604,
+"attempted": 1791334730,
 "apply_url": "https://jobs.lever.co/hermeus/29c10a11-aa02-4d64-83d0-00001cbd3ac0/apply",
 "portal": "lever",
 "fields": [
@@ -68690,8 +68690,7 @@
 "Event \u2013 Industry",
 "Referral",
 "Recruiter Outreach",
-"HyTech - Fall 2026",
-"PDK Airshow 2026"
+"Embry-Riddle Fall 2026 Career EXPO"
 ]
 },
 {
@@ -69118,7 +69117,7 @@
 ],
 "error": "",
 "closed": false,
-"fetched": "2026-10-03T22:30Z"
+"fetched": "2026-10-07T00:58Z"
 },
 "ec102b89e4c0b8e7": {
 "company": "onsemi",
@@ -69315,7 +69314,7 @@
 "company": "Amperesand",
 "role": "Power Electronics Control Intern",
 "link": "https://simplify.jobs/jobs/click/08c139e2-a160-4b28-adb9-1ddb307cfa6f",
-"attempted": 1791066604,
+"attempted": 1791334730,
 "apply_url": "https://boards.greenhouse.io/amperesand/jobs/4425221009",
 "portal": "greenhouse",
 "fields": [
@@ -69539,7 +69538,7 @@
 ],
 "error": "",
 "closed": false,
-"fetched": "2026-10-03T22:30Z"
+"fetched": "2026-10-07T00:58Z"
 },
 "940a7f26cf4a2a3f": {
 "company": "CannonDesign",
@@ -69585,7 +69584,7 @@
 "company": "Astranis",
 "role": "RF Hardware Intern (Winter 2027)",
 "link": "https://job-boards.greenhouse.io/astranis/jobs/4708417006",
-"attempted": 1791074927,
+"attempted": 1791334730,
 "apply_url": "https://boards.greenhouse.io/astranis/jobs/4708417006",
 "portal": "greenhouse",
 "fields": [
@@ -69749,13 +69748,13 @@
 ],
 "error": "",
 "closed": false,
-"fetched": "2026-10-04T00:48Z"
+"fetched": "2026-10-07T00:58Z"
 },
 "5612ac137bb5fdcf": {
 "company": "Astranis",
 "role": "Automation & Controls Engineering Intern (Winter 2027)",
 "link": "https://job-boards.greenhouse.io/astranis/jobs/4718203006",
-"attempted": 1791074927,
+"attempted": 1791334730,
 "apply_url": "https://boards.greenhouse.io/astranis/jobs/4718203006",
 "portal": "greenhouse",
 "fields": [
@@ -69934,13 +69933,13 @@
 ],
 "error": "",
 "closed": false,
-"fetched": "2026-10-04T00:48Z"
+"fetched": "2026-10-07T00:58Z"
 },
 "75aee7650e93ad11": {
 "company": "Astranis",
 "role": "Radiation Effects Engineer Intern (Winter 2027)",
 "link": "https://job-boards.greenhouse.io/astranis/jobs/4704335006",
-"attempted": 1791074927,
+"attempted": 1791334730,
 "apply_url": "https://boards.greenhouse.io/astranis/jobs/4704335006",
 "portal": "greenhouse",
 "fields": [
@@ -70101,7 +70100,7 @@
 ],
 "error": "",
 "closed": false,
-"fetched": "2026-10-04T00:48Z"
+"fetched": "2026-10-07T00:58Z"
 },
 "4d4df5f7e8c2e41d": {
 "company": "Rivian",
@@ -74759,5 +74758,525 @@
 "portal": "smartrecruiters",
 "fields": null,
 "error": "form not public for this portal"
+},
+"a76d5c4dc1438a0e": {
+"company": "Figure AI",
+"role": "Firmware Engineering Intern [Winter 2027]",
+"link": "https://job-boards.greenhouse.io/figureai/jobs/4601309006",
+"attempted": 1791334730,
+"apply_url": "https://boards.greenhouse.io/figureai/jobs/4601309006",
+"portal": "greenhouse",
+"fields": [
+{
+"label": "First Name",
+"type": "input_text",
+"required": true,
+"options": []
+},
+{
+"label": "Last Name",
+"type": "input_text",
+"required": true,
+"options": []
+},
+{
+"label": "Email",
+"type": "input_text",
+"required": true,
+"options": []
+},
+{
+"label": "Phone",
+"type": "input_text",
+"required": true,
+"options": []
+},
+{
+"label": "Resume/CV",
+"type": "input_file",
+"required": false,
+"options": []
+},
+{
+"label": "LinkedIn Profile",
+"type": "input_text",
+"required": false,
+"options": []
+},
+{
+"label": "Website",
+"type": "input_text",
+"required": false,
+"options": []
+},
+{
+"label": "Longitude",
+"type": "input_hidden",
+"required": true,
+"options": []
+},
+{
+"label": "Latitude",
+"type": "input_hidden",
+"required": true,
+"options": []
+},
+{
+"label": "Location",
+"type": "input_text",
+"required": true,
+"options": []
+}
+],
+"error": "",
+"closed": false,
+"fetched": "2026-10-07T00:58Z"
+},
+"6a0a9f80ff3396ae": {
+"company": "Figure AI",
+"role": "Validation Engineering Intern [Winter 2027]",
+"link": "https://job-boards.greenhouse.io/figureai/jobs/4606072006",
+"attempted": 1791334730,
+"apply_url": "https://boards.greenhouse.io/figureai/jobs/4606072006",
+"portal": "greenhouse",
+"fields": [
+{
+"label": "First Name",
+"type": "input_text",
+"required": true,
+"options": []
+},
+{
+"label": "Last Name",
+"type": "input_text",
+"required": true,
+"options": []
+},
+{
+"label": "Email",
+"type": "input_text",
+"required": true,
+"options": []
+},
+{
+"label": "Phone",
+"type": "input_text",
+"required": true,
+"options": []
+},
+{
+"label": "Resume/CV",
+"type": "input_file",
+"required": false,
+"options": []
+},
+{
+"label": "LinkedIn Profile",
+"type": "input_text",
+"required": false,
+"options": []
+},
+{
+"label": "Website",
+"type": "input_text",
+"required": false,
+"options": []
+},
+{
+"label": "Longitude",
+"type": "input_hidden",
+"required": true,
+"options": []
+},
+{
+"label": "Latitude",
+"type": "input_hidden",
+"required": true,
+"options": []
+},
+{
+"label": "Location",
+"type": "input_text",
+"required": true,
+"options": []
+}
+],
+"error": "",
+"closed": false,
+"fetched": "2026-10-07T00:58Z"
+},
+"9b2693d433d931fd": {
+"company": "Figure AI",
+"role": "Commercial Operations Intern [Winter 2027]",
+"link": "https://job-boards.greenhouse.io/figureai/jobs/4719591006",
+"attempted": 1791334730,
+"apply_url": "https://boards.greenhouse.io/figureai/jobs/4719591006",
+"portal": "greenhouse",
+"fields": [
+{
+"label": "First Name",
+"type": "input_text",
+"required": true,
+"options": []
+},
+{
+"label": "Last Name",
+"type": "input_text",
+"required": true,
+"options": []
+},
+{
+"label": "Email",
+"type": "input_text",
+"required": true,
+"options": []
+},
+{
+"label": "Phone",
+"type": "input_text",
+"required": true,
+"options": []
+},
+{
+"label": "Resume/CV",
+"type": "input_file",
+"required": false,
+"options": []
+},
+{
+"label": "LinkedIn Profile",
+"type": "input_text",
+"required": true,
+"options": []
+},
+{
+"label": "Website",
+"type": "input_text",
+"required": false,
+"options": []
+},
+{
+"label": "Longitude",
+"type": "input_hidden",
+"required": true,
+"options": []
+},
+{
+"label": "Latitude",
+"type": "input_hidden",
+"required": true,
+"options": []
+},
+{
+"label": "Location",
+"type": "input_text",
+"required": true,
+"options": []
+},
+{
+"label": "VeteranStatus",
+"type": "multi_value_single_select",
+"required": false,
+"options": [
+"I don't wish to answer",
+"I identify as one or more of the classifications of a protected veteran",
+"I am not a protected veteran"
+],
+"eeo": true
+},
+{
+"label": "Race",
+"type": "multi_value_single_select",
+"required": false,
+"options": [
+"Decline To Self Identify",
+"Two or More Races",
+"Native Hawaiian or Other Pacific Islander",
+"White",
+"Hispanic or Latino",
+"Black or African American",
+"Asian",
+"American Indian or Alaskan Native"
+],
+"eeo": true
+},
+{
+"label": "Gender",
+"type": "multi_value_single_select",
+"required": false,
+"options": [
+"Decline To Self Identify",
+"Female",
+"Male"
+],
+"eeo": true
+}
+],
+"error": "",
+"closed": false,
+"fetched": "2026-10-07T00:58Z"
+},
+"608a438d0910a450": {
+"company": "Figure AI",
+"role": "Mechanical Engineer Intern [Winter 2027]",
+"link": "https://job-boards.greenhouse.io/figureai/jobs/4303098006",
+"attempted": 1791334730,
+"apply_url": "https://boards.greenhouse.io/figureai/jobs/4303098006",
+"portal": "greenhouse",
+"fields": [
+{
+"label": "First Name",
+"type": "input_text",
+"required": true,
+"options": []
+},
+{
+"label": "Last Name",
+"type": "input_text",
+"required": true,
+"options": []
+},
+{
+"label": "Email",
+"type": "input_text",
+"required": true,
+"options": []
+},
+{
+"label": "Phone",
+"type": "input_text",
+"required": true,
+"options": []
+},
+{
+"label": "Resume/CV",
+"type": "input_file",
+"required": false,
+"options": []
+},
+{
+"label": "LinkedIn Profile",
+"type": "input_text",
+"required": true,
+"options": []
+},
+{
+"label": "We\u2019d love to see what you\u2019ve built \u2014 please share a portfolio of your past projects!",
+"type": "input_file",
+"required": true,
+"options": []
+},
+{
+"label": "Website",
+"type": "input_text",
+"required": false,
+"options": []
+},
+{
+"label": "Longitude",
+"type": "input_hidden",
+"required": true,
+"options": []
+},
+{
+"label": "Latitude",
+"type": "input_hidden",
+"required": true,
+"options": []
+},
+{
+"label": "Location",
+"type": "input_text",
+"required": true,
+"options": []
+}
+],
+"error": "",
+"closed": false,
+"fetched": "2026-10-07T00:58Z"
+},
+"a3d4ce43191df6d5": {
+"company": "Figure AI",
+"role": "Middleware Intern [Winter 2027]",
+"link": "https://job-boards.greenhouse.io/figureai/jobs/4605724006",
+"attempted": 1791334730,
+"apply_url": "https://boards.greenhouse.io/figureai/jobs/4605724006",
+"portal": "greenhouse",
+"fields": [
+{
+"label": "First Name",
+"type": "input_text",
+"required": true,
+"options": []
+},
+{
+"label": "Last Name",
+"type": "input_text",
+"required": true,
+"options": []
+},
+{
+"label": "Email",
+"type": "input_text",
+"required": true,
+"options": []
+},
+{
+"label": "Phone",
+"type": "input_text",
+"required": true,
+"options": []
+},
+{
+"label": "Resume/CV",
+"type": "input_file",
+"required": false,
+"options": []
+},
+{
+"label": "LinkedIn Profile",
+"type": "input_text",
+"required": false,
+"options": []
+},
+{
+"label": "Website",
+"type": "input_text",
+"required": false,
+"options": []
+},
+{
+"label": "Longitude",
+"type": "input_hidden",
+"required": true,
+"options": []
+},
+{
+"label": "Latitude",
+"type": "input_hidden",
+"required": true,
+"options": []
+},
+{
+"label": "Location",
+"type": "input_text",
+"required": true,
+"options": []
+}
+],
+"error": "",
+"closed": false,
+"fetched": "2026-10-07T00:58Z"
+},
+"c84ca9788f06cb7d": {
+"company": "Figure AI",
+"role": "Security Engineer Intern [Winter 2027]",
+"link": "https://job-boards.greenhouse.io/figureai/jobs/4719593006",
+"attempted": 1791334730,
+"apply_url": "https://boards.greenhouse.io/figureai/jobs/4719593006",
+"portal": "greenhouse",
+"fields": [
+{
+"label": "First Name",
+"type": "input_text",
+"required": true,
+"options": []
+},
+{
+"label": "Last Name",
+"type": "input_text",
+"required": true,
+"options": []
+},
+{
+"label": "Email",
+"type": "input_text",
+"required": true,
+"options": []
+},
+{
+"label": "Phone",
+"type": "input_text",
+"required": true,
+"options": []
+},
+{
+"label": "Resume/CV",
+"type": "input_file",
+"required": false,
+"options": []
+},
+{
+"label": "LinkedIn Profile",
+"type": "input_text",
+"required": true,
+"options": []
+},
+{
+"label": "Website",
+"type": "input_text",
+"required": false,
+"options": []
+},
+{
+"label": "Longitude",
+"type": "input_hidden",
+"required": true,
+"options": []
+},
+{
+"label": "Latitude",
+"type": "input_hidden",
+"required": true,
+"options": []
+},
+{
+"label": "Location",
+"type": "input_text",
+"required": true,
+"options": []
+},
+{
+"label": "VeteranStatus",
+"type": "multi_value_single_select",
+"required": false,
+"options": [
+"I don't wish to answer",
+"I identify as one or more of the classifications of a protected veteran",
+"I am not a protected veteran"
+],
+"eeo": true
+},
+{
+"label": "Race",
+"type": "multi_value_single_select",
+"required": false,
+"options": [
+"Decline To Self Identify",
+"Two or More Races",
+"Native Hawaiian or Other Pacific Islander",
+"White",
+"Hispanic or Latino",
+"Black or African American",
+"Asian",
+"American Indian or Alaskan Native"
+],
+"eeo": true
+},
+{
+"label": "Gender",
+"type": "multi_value_single_select",
+"required": false,
+"options": [
+"Decline To Self Identify",
+"Female",
+"Male"
+],
+"eeo": true
+}
+],
+"error": "",
+"closed": false,
+"fetched": "2026-10-07T00:58Z"
 }
 }
