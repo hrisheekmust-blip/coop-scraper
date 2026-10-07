@@ -1,220 +1,214 @@
 fetching ATS boards…
-  SpaceX                       greenhouse      2673 jobs  1.5s
-  Astera Labs                  greenhouse       182 jobs  0.2s
-  Lightmatter                  greenhouse        68 jobs  0.1s
-  Tenstorrent                  greenhouse       130 jobs  0.1s
-  Anduril                      greenhouse      2470 jobs  1.4s
+  SpaceX                       greenhouse      2683 jobs  2.0s
+  Astera Labs                  greenhouse       181 jobs  0.4s
+  Lightmatter                  greenhouse        66 jobs  0.1s
+  Tenstorrent                  greenhouse       131 jobs  0.1s
+  Anduril                      greenhouse      2474 jobs  2.5s
   Hudson River Trading         greenhouse        88 jobs  0.1s
   Jump Trading                 greenhouse       109 jobs  0.1s
-  DRW                          greenhouse       177 jobs  0.2s
-  IMC                          greenhouse       171 jobs  0.2s
-  Optiver                      greenhouse       162 jobs  0.2s
-  Zipline                      greenhouse       345 jobs  0.2s
-  Relativity Space             greenhouse       347 jobs  0.3s
-  PsiQuantum                   greenhouse        75 jobs  0.1s
-  IonQ                         greenhouse       131 jobs  0.2s
-  Samsara                      greenhouse       241 jobs  0.2s
-  Waymo                        greenhouse       368 jobs  0.2s
+  DRW                          greenhouse       180 jobs  0.1s
+  IMC                          greenhouse       175 jobs  0.2s
+  Optiver                      greenhouse       161 jobs  0.2s
+  Zipline                      greenhouse       353 jobs  0.3s
+  Relativity Space             greenhouse       346 jobs  0.3s
+  PsiQuantum                   greenhouse        76 jobs  0.1s
+  IonQ                         greenhouse       130 jobs  0.2s
+  Samsara                      greenhouse       239 jobs  0.3s
+  Waymo                        greenhouse       374 jobs  0.2s
   Nuro                         greenhouse       104 jobs  0.1s
-  Lucid Motors                 greenhouse       442 jobs  0.6s
+  Lucid Motors                 greenhouse       443 jobs  0.6s
   Epirus                       greenhouse        42 jobs  0.2s
   Astranis                     greenhouse       184 jobs  0.2s
   Vast                         greenhouse       199 jobs  0.2s
-  Ursa Major                   greenhouse       106 jobs  0.2s
-  Muon Space                   greenhouse       137 jobs  0.2s
-  Rocket Lab                   greenhouse       553 jobs  0.7s
-  Apptronik                    greenhouse        79 jobs  0.1s
+  Ursa Major                   greenhouse       111 jobs  0.2s
+  Muon Space                   greenhouse       134 jobs  0.1s
+  Rocket Lab                   greenhouse       556 jobs  0.5s
+  Apptronik                    greenhouse        77 jobs  0.1s
   Figure AI                    greenhouse        92 jobs  0.1s
   Agility Robotics             greenhouse        77 jobs  0.1s
   SambaNova                    greenhouse        62 jobs  0.1s
-  Varda Space                  greenhouse       108 jobs  0.2s
+  Varda Space                  greenhouse       110 jobs  0.2s
   Oura                         greenhouse        78 jobs  0.1s
   Anello Photonics             greenhouse         7 jobs  0.1s
-  Vannevar Labs                greenhouse        29 jobs  0.1s
-  Kodiak                       greenhouse        69 jobs  0.1s
+  Vannevar Labs                greenhouse        30 jobs  0.1s
+  Kodiak                       greenhouse        70 jobs  0.1s
   Motional                     greenhouse        74 jobs  0.1s
-  Torc Robotics                greenhouse        49 jobs  0.2s
-  Planet Labs                  greenhouse       117 jobs  0.2s
-  Scale AI                     greenhouse       190 jobs  0.2s
-  Anthropic                    greenhouse       638 jobs  0.4s
+  Torc Robotics                greenhouse        48 jobs  0.1s
+  Planet Labs                  greenhouse       119 jobs  0.2s
+  Scale AI                     greenhouse       187 jobs  0.2s
+  Anthropic                    greenhouse       646 jobs  0.4s
   May Mobility                 greenhouse        38 jobs  0.1s
   Glydways                     greenhouse        22 jobs  0.1s
   Butterfly Network            greenhouse        23 jobs  0.1s
-  Rigetti                      lever             17 jobs  0.2s
-  Eliyan                       lever             22 jobs  0.2s
-  Atom Computing               lever             35 jobs  0.4s
-  Shield AI                    lever            594 jobs  0.6s
-  Zoox                         lever            238 jobs  1.3s
-  Aeva                         lever             42 jobs  0.2s
-  Hermeus                      lever             84 jobs  0.3s
-  Dexterity                    lever             16 jobs  0.2s
-  Pickle Robot                 lever             11 jobs  0.1s
-  Waabi                        lever             91 jobs  5.1s
-  Etched                       ashby            108 jobs  0.2s
-  d-Matrix                     ashby             34 jobs  0.1s
-  MatX                         ashby             45 jobs  0.2s
+  Rigetti                      lever             17 jobs  0.4s
+  Eliyan                       lever             22 jobs  0.4s
+  Atom Computing               lever             35 jobs  0.3s
+  Shield AI                    lever            595 jobs  1.0s
+  Zoox                         lever            236 jobs  1.8s
+  Aeva                         lever             43 jobs  0.4s
+  Hermeus                      lever             83 jobs  0.5s
+  Dexterity                    lever             17 jobs  0.4s
+  Pickle Robot                 lever             11 jobs  0.3s
+  Waabi                        lever             91 jobs  0.6s
+  Etched                       ashby            109 jobs  0.3s
+  d-Matrix                     ashby             36 jobs  0.2s
+  MatX                         ashby             47 jobs  0.2s
   Cerebras                     ashby            119 jobs  0.2s
-  WHOOP                        ashby            155 jobs  0.2s
-  Specter                      ashby             39 jobs  0.2s
-  Saronic                      ashby            204 jobs  0.2s
-  Axelera AI                   ashby              8 jobs  0.1s
-  Lambda                       ashby             84 jobs  0.1s
-  Skydio                       ashby            154 jobs  0.2s
-  Form Energy                  ashby            203 jobs  0.2s
-  Quadric                      ashby             14 jobs  0.1s
-  Physical Intelligence        ashby             37 jobs  0.2s
-  1X                           ashby             98 jobs  0.2s
-  Impulse Space                ashby              2 jobs  0.2s
-  Applied Intuition            ashby            315 jobs  0.3s
-  OpenAI                       ashby            823 jobs  0.2s
-  Wayve                        ashby            152 jobs  0.2s
+  WHOOP                        ashby            157 jobs  0.3s
+  Specter                      ashby             39 jobs  0.1s
+  Saronic                      ashby            209 jobs  0.2s
+  Axelera AI                   ashby              8 jobs  0.2s
+  Lambda                       ashby             87 jobs  0.2s
+  Skydio                       ashby            152 jobs  0.2s
+  Form Energy                  ashby            209 jobs  0.2s
+  Quadric                      ashby             13 jobs  0.2s
+  Physical Intelligence        ashby             37 jobs  0.1s
+  1X                           ashby             97 jobs  0.2s
+  Impulse Space                ashby              2 jobs  0.1s
+  Applied Intuition            ashby            318 jobs  0.2s
+  OpenAI                       ashby            816 jobs  0.3s
+  Wayve                        ashby            151 jobs  0.3s
   Pliant                       ashby             39 jobs  0.2s
-  NVIDIA                       workday          128 jobs  9.5s
-  Intel                        workday           82 jobs  5.9s
-  Analog Devices               workday           81 jobs  4.9s
-  Marvell                      workday           62 jobs  3.8s
-  NXP                          workday          123 jobs  8.2s
-  Microchip                    workday           74 jobs  3.8s
-  Wolfspeed                    workday           96 jobs  3.6s
-  Silicon Labs                 workday           64 jobs  4.1s
-  Broadcom                     workday          364 jobs  10.5s
-  Allegro MicroSystems         workday           64 jobs  3.8s
-  Monolithic Power Systems     workday           83 jobs  2.0s
-  Blue Origin                  workday          130 jobs  4.6s
-  Draper                       workday           73 jobs  3.8s
-  Boston Dynamics              workday           56 jobs  4.4s
-  KLA                          workday          133 jobs  5.9s
-  Applied Materials            workday          135 jobs  7.9s
-  Cadence                      workday           91 jobs  4.7s
-  Cisco                        workday          690 jobs  13.8s
-  Samsung Semiconductor        workday          137 jobs  10.9s
-  Texas Instruments            oracle_hcm       583 jobs  12.6s
-  onsemi                       oracle_hcm       389 jobs  7.7s
-  Skyworks                     successfactors_csb   196 jobs  16.4s
+  NVIDIA                       workday        FAILED URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of 
+  Intel                        workday           84 jobs  6.3s
+  Analog Devices               workday           83 jobs  7.1s
+  Marvell                      workday           62 jobs  3.2s
+  NXP                          workday          121 jobs  8.6s
+  Microchip                    workday           75 jobs  4.1s
+  Wolfspeed                    workday           96 jobs  5.0s
+  Silicon Labs                 workday           65 jobs  3.9s
+  Broadcom                     workday          361 jobs  10.2s
+  Allegro MicroSystems         workday           63 jobs  5.9s
+  Monolithic Power Systems     workday           83 jobs  2.4s
+  Blue Origin                  workday          127 jobs  5.6s
+  Draper                       workday           74 jobs  4.1s
+  Boston Dynamics              workday           55 jobs  3.3s
+  KLA                          workday          134 jobs  6.5s
+  Applied Materials            workday          135 jobs  7.5s
+  Cadence                      workday           92 jobs  6.8s
+  Cisco                        workday          694 jobs  17.0s
+  Samsung Semiconductor        workday          136 jobs  11.2s
+  Texas Instruments            oracle_hcm       588 jobs  12.1s
+  onsemi                       oracle_hcm       392 jobs  6.7s
+  Skyworks                     successfactors_csb   199 jobs  12.2s
   Teradyne                     successfactors_csb FAILED HTTPError: HTTP Error 401: 401
   Infineon                     eightfold      FAILED HTTPError: HTTP Error 403: FORBIDDEN
-  AMD                          icims              0 jobs  1.4s
-  Amazon                       amazon            14 jobs  2.6s
+  AMD                          icims              0 jobs  1.6s
+  Amazon                       amazon            14 jobs  2.3s
   Micron                       eightfold      FAILED HTTPError: HTTP Error 403: FORBIDDEN
   Qualcomm                     eightfold      FAILED HTTPError: HTTP Error 403: FORBIDDEN
-  Keysight                     icims              0 jobs  2.7s
-  Western Digital              smartrecruiters   340 jobs  2.4s
+  Keysight                     icims              0 jobs  1.5s
+  Western Digital              smartrecruiters   339 jobs  2.1s
   Lam Research                 eightfold      FAILED HTTPError: HTTP Error 403: FORBIDDEN
   Qorvo                        successfactors_csb FAILED HTTPError: HTTP Error 401: 401
-  Renesas                      smartrecruiters   949 jobs  4.9s
-  GlobalFoundries              workday           63 jobs  4.6s
-  Arm                          icims              0 jobs  1.4s
+  Renesas                      smartrecruiters   948 jobs  4.8s
+  GlobalFoundries              workday           61 jobs  5.3s
+  Arm                          icims              0 jobs  1.3s
   Rambus                       icims              0 jobs  1.4s
-  Ambarella                    workday           35 jobs  1.6s
-  MaxLinear                    icims              0 jobs  1.5s
-  Semtech                      workday           49 jobs  3.9s
+  Ambarella                    workday           35 jobs  1.5s
+  MaxLinear                    icims              0 jobs  1.4s
+  Semtech                      workday           49 jobs  4.7s
   Vicor                        successfactors_csb FAILED HTTPError: HTTP Error 401: 401
-  Lumentum                     workday           72 jobs  4.5s
-  MKS Instruments              workday           70 jobs  4.0s
-  Entegris                     workday           84 jobs  4.5s
-  ASML                         workday          550 jobs  33.6s
-  FormFactor                   workday           75 jobs  3.5s
-  Onto Innovation              workday          193 jobs  6.9s
+  Lumentum                     workday           73 jobs  4.0s
+  MKS Instruments              workday           69 jobs  4.0s
+  Entegris                     workday           83 jobs  4.9s
+  ASML                         workday          550 jobs  35.3s
+  FormFactor                   workday           74 jobs  3.8s
+  Onto Innovation              workday          191 jobs  7.4s
   MIT Lincoln Laboratory       successfactors_csb FAILED HTTPError: HTTP Error 401: 401
-  RTX                          workday          938 jobs  22.1s
+  RTX                          workday          960 jobs  30.5s
   Lockheed Martin              eightfold      FAILED HTTPError: HTTP Error 403: FORBIDDEN
-  Northrop Grumman             workday          709 jobs  22.2s
-  Boeing                       workday          136 jobs  8.8s
-  GE Aerospace                 workday          493 jobs  11.9s
-  Bose                         workday           61 jobs  3.4s
+  Northrop Grumman             workday          704 jobs  25.5s
+  Boeing                       workday          137 jobs  8.5s
+  GE Aerospace                 workday          503 jobs  12.4s
+  Bose                         workday           60 jobs  3.3s
   iRobot                       workday        FAILED HTTPError: HTTP Error 422: Unprocessable Entity
   Dell                         workday        FAILED HTTPError: HTTP Error 422: Unprocessable Entity
-  HP                           workday           86 jobs  6.0s
-  SiFive                       workday           70 jobs  3.4s
+  HP                           workday           95 jobs  6.7s
+  SiFive                       workday           72 jobs  3.3s
   Groq                         greenhouse     FAILED HTTPError: HTTP Error 404: Not Found
-  Ciena                        workday           60 jobs  4.0s
+  Ciena                        workday           60 jobs  4.1s
   Garmin                       icims              0 jobs  1.8s
-  Sonos                        workday           49 jobs  2.5s
+  Sonos                        workday           49 jobs  3.0s
   Eaton                        eightfold      FAILED HTTPError: HTTP Error 403: FORBIDDEN
   Waters Corporation           icims              0 jobs  1.6s
   Symbotic                     workday        FAILED HTTPError: HTTP Error 422: Unprocessable Entity
-  Commonwealth Fusion Systems  lever            113 jobs  1.0s
+  Commonwealth Fusion Systems  lever            119 jobs  0.5s
   ChipAgents                   ashby             16 jobs  0.2s
   Atomic Semi                  ashby          FAILED HTTPError: HTTP Error 404: Not Found
-  Empower Semiconductor        workday           40 jobs  3.1s
+  Empower Semiconductor        workday           40 jobs  3.5s
   Movandi                      smartrecruiters     1 jobs  0.5s
-  Nexperia                     workday           79 jobs  6.1s
+  Nexperia                     workday           80 jobs  7.1s
   SK hynix America             greenhouse        53 jobs  0.1s
   nEye Systems                 lever             20 jobs  0.3s
-  QuEra                        greenhouse        77 jobs  0.1s
-  Alphawave Semi               workday            0 jobs  1.6s
-  Ambiq                        greenhouse        46 jobs  0.1s
-  Tetramem                     smartrecruiters     6 jobs  0.5s
-  Leidos                       workday          148 jobs  9.1s
-  Curtiss-Wright               workday           99 jobs  4.2s
-  Moog                         workday          433 jobs  10.8s
-  Teledyne FLIR                workday           97 jobs  4.4s
-  Honeywell                    oracle_hcm       720 jobs  19.6s
+  QuEra                        greenhouse        75 jobs  0.1s
+  Alphawave Semi               workday            0 jobs  1.9s
+  Ambiq                        greenhouse        46 jobs  0.2s
+  Tetramem                     smartrecruiters     6 jobs  0.4s
+  Leidos                       workday          148 jobs  9.6s
+  Curtiss-Wright               workday           97 jobs  4.1s
+  Moog                         workday          434 jobs  12.0s
+  Teledyne FLIR                workday           97 jobs  4.1s
+  Honeywell                    oracle_hcm       719 jobs  19.7s
   Juniper Networks             oracle_hcm         0 jobs  1.8s
-  Emerson                      oracle_hcm       564 jobs  19.9s
-  Nokia                        oracle_hcm       239 jobs  8.4s
-  Lattice Semiconductor        greenhouse        13 jobs  0.1s
-  Seagate                      successfactors_csb   161 jobs  17.0s
-  BAE Systems                  phenom           321 jobs  1.8s
-  General Dynamics Mission Systems icims             53 jobs  4.3s
+  Emerson                      oracle_hcm       570 jobs  20.2s
+  Nokia                        oracle_hcm       238 jobs  8.6s
+  Lattice Semiconductor        greenhouse        14 jobs  0.1s
+  Seagate                      successfactors_csb   167 jobs  10.0s
+  BAE Systems                  phenom           324 jobs  2.1s
+  General Dynamics Mission Systems icims             55 jobs  4.2s
   Navitas Semiconductor        smartrecruiters    51 jobs  0.8s
-  Arista Networks              smartrecruiters   242 jobs  1.4s
+  Arista Networks              smartrecruiters   243 jobs  1.4s
   Analog Devices Maxim         smartrecruiters     3 jobs  0.4s
-  Wabtec                       smartrecruiters   772 jobs  1.5s
-  Formlabs                     greenhouse       231 jobs  0.2s
+  Wabtec                       smartrecruiters   773 jobs  1.6s
+  Formlabs                     greenhouse       236 jobs  0.2s
   Markforged                   greenhouse         3 jobs  0.1s
-  Thermo Fisher Scientific     phenom            77 jobs  1.1s
-  Toast                        greenhouse       321 jobs  0.2s
-  Rapid Micro Biosystems       lever              7 jobs  3.4s
+  Thermo Fisher Scientific     phenom            75 jobs  1.0s
+  Toast                        greenhouse       307 jobs  0.2s
+  Rapid Micro Biosystems       lever              9 jobs  0.4s
   Fractile                     greenhouse        37 jobs  0.1s
-  Extropic                     ashby             10 jobs  0.1s
-  Normal Computing             ashby             18 jobs  0.1s
-  Lumotive                     lever              9 jobs  0.2s
+  Extropic                     ashby             10 jobs  0.2s
+  Normal Computing             ashby             18 jobs  0.2s
+  Lumotive                     lever             10 jobs  0.3s
   Substrate                    ashby              7 jobs  0.1s
   Kioxia America               smartrecruiters    19 jobs  0.5s
-  Rain AI                      ashby             43 jobs  0.1s
-  Lawrence Livermore National Laboratory smartrecruiters   172 jobs  0.4s
-  NASA JPL                     phenom             8 jobs  1.0s
+  Rain AI                      ashby             43 jobs  0.2s
+  Lawrence Livermore National Laboratory smartrecruiters   175 jobs  0.4s
+  NASA JPL                     phenom             8 jobs  1.2s
   Ultra Electronics            ashby              3 jobs  0.1s
-  Palantir                     lever            314 jobs  0.5s
-  Mach Industries              greenhouse       140 jobs  0.2s
+  Palantir                     lever            314 jobs  0.8s
+  Mach Industries              greenhouse       141 jobs  0.1s
 fetching GitHub lists…
   github:vanshb03-offseason: 157 rows
   github:vanshb03-summer: 214 rows
   github:sndsh404: 135 rows
   github:hardware-internships-2027: 32 rows
 fetching internlist.org (Simplify) lists…
-  internlist:coop             2755 jobs  87.0s
-  internlist:winter-spring   13541 jobs  366.6s
+  internlist:coop             2758 jobs  19.7s
+  internlist:winter-spring   13366 jobs  109.3s
 LinkedIn/Indeed sweep…
-  jobspy 'electrical engineering co-op spring 2027': 70 new
-  jobspy 'hardware engineer co-op 2027': 29 new
-  jobspy 'analog design intern 2027': 57 new
-  jobspy 'ASIC intern spring 2027': 25 new
-2026-10-07 10:26:36,280 - ERROR - JobSpy:LinkedIn - LinkedIn response status code 429
-  jobspy 'test engineer co-op 2027': 21 new
+  jobspy 'electrical engineering co-op spring 2027': 76 new
+  jobspy 'hardware engineer co-op 2027': 36 new
+  jobspy 'analog design intern 2027': 63 new
+  jobspy 'ASIC intern spring 2027': 30 new
+  jobspy 'test engineer co-op 2027': 43 new
   jobspy 'silicon engineering intern spring 2027': 14 new
-  jobspy 'RF engineer co-op': 23 new
-  jobspy 'semiconductor co-op': 38 new
-  jobspy 'design verification intern 2027': 32 new
-  jobspy 'physical design intern 2027': 59 new
-2026-10-07 10:29:31,909 - ERROR - JobSpy:LinkedIn - LinkedIn response status code 429
-  jobspy 'semiconductor startup intern': 2 new
-  jobspy 'chip design startup intern': 16 new
-2026-10-07 10:30:11,957 - ERROR - JobSpy:LinkedIn - LinkedIn response status code 429
-  jobspy 'EDA intern': 6 new
-  jobspy 'silicon photonics intern': 25 new
-2026-10-07 10:30:50,975 - ERROR - JobSpy:LinkedIn - LinkedIn response status code 429
-  jobspy 'AI chip startup intern': 0 new
-2026-10-07 10:31:10,834 - ERROR - JobSpy:LinkedIn - LinkedIn response status code 429
-  jobspy 'analog mixed-signal intern': 5 new
-2026-10-07 10:31:10,955 - ERROR - JobSpy:LinkedIn - LinkedIn response status code 429
-  jobspy 'chiplet intern': 0 new
-  jobspy 'RFIC intern': 3 new
-  jobspy 'power semiconductor intern': 21 new
+  jobspy 'RF engineer co-op': 18 new
+  jobspy 'semiconductor co-op': 41 new
+  jobspy 'design verification intern 2027': 39 new
+  jobspy 'physical design intern 2027': 60 new
+  jobspy 'semiconductor startup intern': 21 new
+  jobspy 'chip design startup intern': 8 new
+  jobspy 'EDA intern': 23 new
+  jobspy 'silicon photonics intern': 29 new
+  jobspy 'AI chip startup intern': 32 new
+  jobspy 'analog mixed-signal intern': 9 new
+  jobspy 'chiplet intern': 25 new
+  jobspy 'RFIC intern': 2 new
+  jobspy 'power semiconductor intern': 28 new
   jobspy 'semiconductor intern spring': 16 new
-  jobspy 'chip startup engineering intern 2027': 13 new
-openings: 22 | sheet.csv: 1159 {'CHIP': 241, 'HARDWARE': 368, 'MAYBE': 270, 'ADJACENT': 280} {'APPLY NOW': 181, 'APPLY': 228, 'SOON': 39, 'WATCH': 711} | watchlist: 108 | events: 7
+  jobspy 'chip startup engineering intern 2027': 6 new
+openings: 21 | sheet.csv: 1184 {'CHIP': 249, 'HARDWARE': 370, 'MAYBE': 270, 'ADJACENT': 295} {'APPLY NOW': 196, 'APPLY': 226, 'SOON': 40, 'WATCH': 722} | watchlist: 106 | events: 7
 
-raw=47064 kept=1053 new=12 rejected=45820
-rank: {'A': 356, 'B': 252, 'C': 445}  reject reasons: {'not intern': 31023, 'no hardware keyword': 10150, 'excluded title': 2735, 'software only': 1442, 'non-US': 280, 'summer only': 156, 'phd/ms only': 30, 'fall only': 4}
+raw=47024 kept=1079 new=26 rejected=45745
+rank: {'A': 370, 'B': 252, 'C': 457}  reject reasons: {'not intern': 30916, 'no hardware keyword': 10128, 'excluded title': 2755, 'software only': 1466, 'non-US': 269, 'summer only': 178, 'phd/ms only': 27, 'fall only': 6}

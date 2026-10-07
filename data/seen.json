@@ -635,8 +635,8 @@
 },
 "https://www.indeed.com/viewjob": {
 "first_seen": "2026-09-18",
-"title": "Process Engineer Co-Op",
-"company": "GAF",
+"title": "Test Systems Software Co-op - Spring 2027 - ELSYS",
+"company": "Georgia Tech",
 "desc": ""
 },
 "https://www.linkedin.com/jobs/view/4468697840": {
@@ -943,7 +943,8 @@
 "https://www.linkedin.com/jobs/view/4456558389": {
 "first_seen": "2026-09-18",
 "title": "Intern Software Engineer / Agent Engineer - EDA - Poughkeepsie 2027",
-"company": "IBM"
+"company": "IBM",
+"desc": ""
 },
 "https://www.linkedin.com/jobs/view/4466185231": {
 "first_seen": "2026-09-18",
@@ -2876,7 +2877,7 @@
 },
 "https://simplify.jobs/jobs/click/3286eb4f-5511-4560-ae4e-9d241dca2cda": {
 "first_seen": "2026-09-18",
-"title": "Photonics Characterization Intern New Grad",
+"title": "Photonics Characterization Intern",
 "company": "Lightmatter",
 "desc": ""
 },
@@ -10167,7 +10168,7 @@
 "https://simplify.jobs/jobs/click/9750e606-5a81-4a74-9492-ca1a93b10e38": {
 "first_seen": "2026-10-01",
 "title": "Optical Engineer Intern",
-"company": "KLA Corporation",
+"company": "KLA",
 "desc": ""
 },
 "https://simplify.jobs/jobs/click/66fd3b4a-cc9c-4090-9786-0bf42637abfd": {
@@ -11318,7 +11319,7 @@
 },
 "https://simplify.jobs/jobs/click/a5a8ff7e-b250-4699-8d5f-b15adf724936": {
 "first_seen": "2026-10-04",
-"title": "Firmware Engineer Intern/Co-op",
+"title": "Undergrad Firmware Engineer Intern Co-op",
 "company": "AMD",
 "desc": ""
 },
@@ -12508,6 +12509,162 @@
 "first_seen": "2026-10-07",
 "title": "Stage - Hiver 2027 - Ing\u00e9nierie de fabrication / Internship - Winter 2027 - Manufacturing Engineer",
 "company": "RTX",
+"desc": ""
+},
+"https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-IL-ROCKFORD-P6--4747-Harrison-Ave--4747-HARRISON-AVE-P6/Embedded-Controls-Hardware-Co-Op--Winter-Spring-2027-_01871814": {
+"first_seen": "2026-10-07",
+"title": "Embedded Controls Hardware Co-Op (Winter/Spring 2027)",
+"company": "RTX",
+"desc": "  Date Posted:  2026-10-07&#xa;&#xa;  Country:  United States of America&#xa;&#xa;  Location:  US-IL-ROCKFORD-P6 ~ 4747 Harrison Ave ~ 4747 HARRISON AVE-P6&#xa;&#xa;  Position Role Type:  Onsite&#xa;&#xa;   U.S. Citizen, U.S. Person, or Immigration Status Requirements:    U.S. citizenship is required, as only U.S. citizens are authorized to access information under this program/contract.&#xa;&#xa;  Security Clearance Type:   None/Not Required&#xa;&#xa;  Security Clearance Status:   Not Required     Are you ready to explore the world of aerospace and defense? Do you want to learn from and collaborate with some of the greatest minds in the industry? At RTX, our internships, co-ops and full-time careers provide an exceptional foundation to work on complex problems, advance your skills and create a safer, more connected world. Discover opportunities to make a difference at RTX.    Collins Aerospace is currently seeking an embedded controls engineer co-op student in our Electric Power Embedded Controls department. This position is based onsite in Rockford, IL. Teams are comprised of cross-functional engineers.     What You Will Do:     Able to apply fundamental knowledge to immediate embedded controls engineering tasks identified by a hardware lead engineer that is identified to work with our co-op.    Expected to engage in controls engineering practices as assigned by the lead engineer that cover the hardware lifecycle. This may include requirements engineering, analysis, design,"
+},
+"https://simplify.jobs/jobs/click/74acf3a4-f4b9-4efb-9ee6-581595947f11": {
+"first_seen": "2026-10-07",
+"title": "Controls Engineer Intern Co-op",
+"company": "Hitachi Energy",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/64ca34e7-6ead-4af4-a0b6-1e958edebbb4": {
+"first_seen": "2026-10-07",
+"title": "Test & Validation Engineer Co-op",
+"company": "RTX",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/7a51f5d5-0895-48b9-ac48-7dc9b31fb561": {
+"first_seen": "2026-10-07",
+"title": "Powertrain Test Engineer Intern/Co-op",
+"company": "Rivian",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4475452953": {
+"first_seen": "2026-10-07",
+"title": "Electronics Hardware Engineer Co-Op",
+"company": "Schneider Electric",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4476914993": {
+"first_seen": "2026-10-07",
+"title": "Hardware-in-the-loop Test Design Co-op - Spring 2027 - ELSYS",
+"company": "Georgia Tech Research Institute",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4475472864": {
+"first_seen": "2026-10-07",
+"title": "NTP Birmingham - Spring 2027 Automation Process Engineer Co-Op",
+"company": "Nucor Corporation",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4475458793": {
+"first_seen": "2026-10-07",
+"title": "Electronics Hardware Engineer Co-Op",
+"company": "Schneider Electric",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4475410501": {
+"first_seen": "2026-10-07",
+"title": "Hardware Engineering Intern",
+"company": "Hewlett Packard Enterprise",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4475495204": {
+"first_seen": "2026-10-07",
+"title": "Analog Design Engineering Intern - ATD",
+"company": "Texas Instruments",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4476931262": {
+"first_seen": "2026-10-07",
+"title": "Hardware-in-the-loop Test Design Intern - Spring 2027 - ELSYS",
+"company": "Georgia Tech Research Institute",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4475708140": {
+"first_seen": "2026-10-07",
+"title": "2027 RF Engineering Intern - BS/MS",
+"company": "Lam Research",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4476325415": {
+"first_seen": "2026-10-07",
+"title": "Job Posting: Electrical Engineering Intern",
+"company": "Resono Pressure Systems",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4475421697": {
+"first_seen": "2026-10-07",
+"title": "Hardware Intern - Architecture, AI HW & System on a Chip",
+"company": "Tenstorrent",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4476946304": {
+"first_seen": "2026-10-07",
+"title": "ASIC Design Engineer Intern",
+"company": "Hewlett Packard Enterprise",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4476914950": {
+"first_seen": "2026-10-07",
+"title": "Test Systems Software Co-op - Spring 2027 - ELSYS",
+"company": "Georgia Tech Research Institute",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4476928836": {
+"first_seen": "2026-10-07",
+"title": "Acute Care Hardware Systems Engineering Co-op",
+"company": "Werfen",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4476905334": {
+"first_seen": "2026-10-07",
+"title": "Machine Learning Modeling Winter/Spring Co-Op (Jan-June '27)",
+"company": "Skyworks Solutions, Inc.",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4476568193": {
+"first_seen": "2026-10-07",
+"title": "Reliability Engineering Intern",
+"company": "Infrasynk Engineering",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4476915378": {
+"first_seen": "2026-10-07",
+"title": "Device Integration Intern",
+"company": "MACOM",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4475422447": {
+"first_seen": "2026-10-07",
+"title": "RF/EM Engineering Co-op/Intern",
+"company": "Skyworks Solutions, Inc.",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4466816524": {
+"first_seen": "2026-10-07",
+"title": "New Product Introduction Process Engineer Co-Op - Spring 2027 (UT Arlington)",
+"company": "Siemens",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4476912513": {
+"first_seen": "2026-10-07",
+"title": "Photolithography Process Engineering Intern",
+"company": "MACOM",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4475434262": {
+"first_seen": "2026-10-07",
+"title": "Intern, Physical Design & DFT",
+"company": "Tenstorrent",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4474455862": {
+"first_seen": "2026-10-07",
+"title": "Reliability Engineering Intern",
+"company": "Hydronexa Solutions",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4457232011": {
+"first_seen": "2026-10-07",
+"title": "Hardware Developer Intern 2027 -Austin",
+"company": "IBM",
 "desc": ""
 }
 }
