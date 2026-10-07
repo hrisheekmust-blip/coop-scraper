@@ -635,8 +635,8 @@
 },
 "https://www.indeed.com/viewjob": {
 "first_seen": "2026-09-18",
-"title": "Electrical Engineering Co-op - Spring/Summer 2027",
-"company": "WSP",
+"title": "Electrical Engineer Intern / Co-Op - SPRING / SUMMER 2027",
+"company": "REAL ALLOY",
 "desc": ""
 },
 "https://www.linkedin.com/jobs/view/4468697840": {
@@ -689,7 +689,8 @@
 "https://www.linkedin.com/jobs/view/4364957181": {
 "first_seen": "2026-09-18",
 "title": "Intern/Co-op - Refining Electrical Engineering (Spring 2027)",
-"company": "Marathon Petroleum Corporation"
+"company": "Marathon Petroleum Corporation",
+"desc": ""
 },
 "https://www.linkedin.com/jobs/view/4467433880": {
 "first_seen": "2026-09-18",
@@ -789,12 +790,14 @@
 "https://www.linkedin.com/jobs/view/4467457028": {
 "first_seen": "2026-09-18",
 "title": "Hardware Engineer I (Intern) - United States",
-"company": "Cisco"
+"company": "Cisco",
+"desc": ""
 },
 "https://www.linkedin.com/jobs/view/4467443876": {
 "first_seen": "2026-09-18",
 "title": "Hardware Engineer I (Intern) - United States",
-"company": "Cisco"
+"company": "Cisco",
+"desc": ""
 },
 "https://www.linkedin.com/jobs/view/4459603408": {
 "first_seen": "2026-09-18",
@@ -944,7 +947,8 @@
 "https://www.linkedin.com/jobs/view/4466185231": {
 "first_seen": "2026-09-18",
 "title": "Protection & Automation Electrical Engineering Intern (Spring 2027)",
-"company": "Siemens"
+"company": "Siemens",
+"desc": ""
 },
 "https://www.linkedin.com/jobs/view/4466163775": {
 "first_seen": "2026-09-18",
@@ -10162,7 +10166,7 @@
 "https://simplify.jobs/jobs/click/9750e606-5a81-4a74-9492-ca1a93b10e38": {
 "first_seen": "2026-10-01",
 "title": "Optical Engineer Intern",
-"company": "KLA",
+"company": "KLA Corporation",
 "desc": ""
 },
 "https://simplify.jobs/jobs/click/66fd3b4a-cc9c-4090-9786-0bf42637abfd": {
@@ -10293,7 +10297,7 @@
 },
 "https://simplify.jobs/jobs/click/fa3ba83d-fac2-4969-98b8-fa7f62159ed8": {
 "first_seen": "2026-10-01",
-"title": "Electrical and Instrumentation Co-op",
+"title": "Electronics Engineering Technology Co-op",
 "company": "Dominion Energy",
 "desc": ""
 },
@@ -12119,6 +12123,270 @@
 "first_seen": "2026-10-07",
 "title": "Validation Engineering Intern [Winter 2027]",
 "company": "Figure AI",
+"desc": ""
+},
+"https://amat.wd1.myworkdayjobs.com/External/job/GloucesterMA/XMLNAME-2026-Process-Engineer-Co-op---Adv-Degree--Gloucester--MA-_R2623409": {
+"first_seen": "2026-10-07",
+"title": "2026 Process Engineer Co-op - Adv Degree (Gloucester, MA)",
+"company": "Applied Materials",
+"desc": "  Who We Are    Applied Materials is the global leader in materials science and engineering solutions that are at the foundation of virtually every new semiconductor chip and advanced display in the world. The equipment that we create and service is essential to advancing AI and accelerating the commercialization of next-generation semiconductor chips. Join us and push the boundaries of materials science and engineering in a company at the foundation of the electronics industry. The work we do together advances the world\u2019s technology.\u00a0    What We Offer    Location: Gloucester,MA   You\u2019ll benefit from a supportive work culture that encourages you to learn, develop, and grow your career as you take on challenges and drive innovative solutions for our customers. We empower our team to push the boundaries of what is possible\u2014while learning every day in a supportive leading global company. Visit our Careers website to learn more.\u00a0    At Applied Materials, we care about the health and wellbeing of our employees. We\u2019re committed to providing programs and support that encourage personal and professional growth and care for you at work, at home, or wherever you may go. Learn more about our    benefits   .\u00a0     Applied Materials\u2019 Advanced Project Development Department is searching for a co-op to join our team! Our work involves developing and optimizing process for the next generation of semiconductor product that is in use by leading companies across the world. The position will enta"
+},
+"https://boards.greenhouse.io/andurilindustries/jobs/5257674007": {
+"first_seen": "2026-10-07",
+"title": "2027 Quality & Test Engineer Intern",
+"company": "Anduril",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/c7741209-39e1-4a51-8870-947e10bc3baa": {
+"first_seen": "2026-10-07",
+"title": "Controls Engineer Intern Co-op",
+"company": "Hitachi Energy",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/ef1134c6-b8e9-4764-9153-e85268e91f72": {
+"first_seen": "2026-10-07",
+"title": "Photonics Design Engineering Co-op",
+"company": "AMD",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/30e9e0aa-8391-483c-b656-915454ce40ad": {
+"first_seen": "2026-10-07",
+"title": "Electrical/Controls Engineer Co-op",
+"company": "nVent",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4474082693": {
+"first_seen": "2026-10-07",
+"title": "Georgia-Pacific Electrical Engineering Co-op - Green Bay, WI (2027)",
+"company": "Georgia-Pacific LLC",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4476312161": {
+"first_seen": "2026-10-07",
+"title": "Controls Engineer Co-Op",
+"company": "Entegris",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4476369205": {
+"first_seen": "2026-10-07",
+"title": "Electrical Engineering Technician Co-op",
+"company": "GE HealthCare",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4474097836": {
+"first_seen": "2026-10-07",
+"title": "Mixed Signal Circuit Design Coop",
+"company": "Nokia",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4466102519": {
+"first_seen": "2026-10-07",
+"title": "Electrical Engineering Co-op: Power",
+"company": "GPD Group",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4465791679": {
+"first_seen": "2026-10-07",
+"title": "Electrical Design Engineering Co-op",
+"company": "GPD Group",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4467208353": {
+"first_seen": "2026-10-07",
+"title": "Electrical Engineering Co-Op (June - Dec 2027)",
+"company": "nVent",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4476345886": {
+"first_seen": "2026-10-07",
+"title": "RF test Engineering Co-op",
+"company": "Skyworks Solutions, Inc.",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4474061593": {
+"first_seen": "2026-10-07",
+"title": "Electrical Engineering Intern",
+"company": "Valorantum",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4474958900": {
+"first_seen": "2026-10-07",
+"title": "Electrical Engineering Intern",
+"company": "Structavia Consulting Engineers",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4467232192": {
+"first_seen": "2026-10-07",
+"title": "2027 Co-Op - Electrical Engineering",
+"company": "CESO, INC.",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4476325014": {
+"first_seen": "2026-10-07",
+"title": "Hardware Security and Trust Co-op - Spring 2027 - CIPHER",
+"company": "Georgia Tech Research Institute",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4467217581": {
+"first_seen": "2026-10-07",
+"title": "Analog Hardware Design Intern",
+"company": "Emerson",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4465255344": {
+"first_seen": "2026-10-07",
+"title": "Design Intern 2027 - Advanced Integrated Circuits Research",
+"company": "IBM",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4474939948": {
+"first_seen": "2026-10-07",
+"title": "Intern - Next Gen HBM Platform Arch",
+"company": "Micron Technology",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4475131752": {
+"first_seen": "2026-10-07",
+"title": "PCIe Design Verification Intern - Spring 2027",
+"company": "NVIDIA",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4455852996": {
+"first_seen": "2026-10-07",
+"title": "Digital Design Engineer Intern",
+"company": "Analog Devices",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4476505086": {
+"first_seen": "2026-10-07",
+"title": "Research Intern - Loop Engineering",
+"company": "SK hynix memory solutions America Inc.",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4465235513": {
+"first_seen": "2026-10-07",
+"title": "AI Native Hardware & Software Codesign internship 2027",
+"company": "IBM",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4474411279": {
+"first_seen": "2026-10-07",
+"title": "ASIC Physical Design Coop",
+"company": "Nokia",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4474057510": {
+"first_seen": "2026-10-07",
+"title": "Reliability Engineering Intern",
+"company": "TalentSphere Global",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4474400002": {
+"first_seen": "2026-10-07",
+"title": "Reliability Engineering Intern",
+"company": "Thermagia Engineering",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4474088379": {
+"first_seen": "2026-10-07",
+"title": "Internship - MOCVD Process Engineer",
+"company": "Lumentum",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4474402251": {
+"first_seen": "2026-10-07",
+"title": "Manufacturing Process Engineer Co-op",
+"company": "Original Composites & Fiberglass",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4475140344": {
+"first_seen": "2026-10-07",
+"title": "PCIe Design Verification Intern - Summer 2027",
+"company": "NVIDIA",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4474993750": {
+"first_seen": "2026-10-07",
+"title": "Hardware Engineering Intern",
+"company": "Deepshard, Inc.",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4476516213": {
+"first_seen": "2026-10-07",
+"title": "Validation Engineering Intern [Winter 2027]",
+"company": "Figure",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4474093195": {
+"first_seen": "2026-10-07",
+"title": "Internship - Semiconductor Fab Process Engineer",
+"company": "Lumentum",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4476511352": {
+"first_seen": "2026-10-07",
+"title": "Firmware Engineering Intern [Winter 2027]",
+"company": "Figure",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4465243448": {
+"first_seen": "2026-10-07",
+"title": "AI Native Hardware & Software Codesign internship 2027",
+"company": "IBM",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4474088696": {
+"first_seen": "2026-10-07",
+"title": "2027 Internship - Optics and Photonics Group",
+"company": "Johns Hopkins Applied Physics Laboratory",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4465251638": {
+"first_seen": "2026-10-07",
+"title": "Field Instrumentation Design Internship",
+"company": "Fervo Energy",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4465256879": {
+"first_seen": "2026-10-07",
+"title": "Automation and Controls Engineer Intern - Year Round",
+"company": "Charter Steel",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4465238983": {
+"first_seen": "2026-10-07",
+"title": "Reliability Engineering Internship - Spring 2027",
+"company": "IKO North America",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4467413015": {
+"first_seen": "2026-10-07",
+"title": "Firmware Engineering Intern, Winter 2026",
+"company": "Mill",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4458776679": {
+"first_seen": "2026-10-07",
+"title": "Electrical Engineering Intern",
+"company": "Danfoss",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4364966054": {
+"first_seen": "2026-10-07",
+"title": "Intern/Co-op - Refining Electrical Engineering (Spring 2027)",
+"company": "Marathon Petroleum Corporation",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4465240993": {
+"first_seen": "2026-10-07",
+"title": "Equipment Engineering Intern",
+"company": "Analog Devices",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4476358736": {
+"first_seen": "2026-10-07",
+"title": "Big Data Factory Automation Intern",
+"company": "MACOM",
 "desc": ""
 }
 }
