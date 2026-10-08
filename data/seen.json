@@ -635,8 +635,8 @@
 },
 "https://www.indeed.com/viewjob": {
 "first_seen": "2026-09-18",
-"title": "Test Systems Software Co-op - Spring 2027 - ELSYS",
-"company": "Georgia Tech",
+"title": "Process Engineer Co-Op",
+"company": "GAF",
 "desc": ""
 },
 "https://www.linkedin.com/jobs/view/4468697840": {
@@ -10168,7 +10168,7 @@
 "https://simplify.jobs/jobs/click/9750e606-5a81-4a74-9492-ca1a93b10e38": {
 "first_seen": "2026-10-01",
 "title": "Optical Engineer Intern",
-"company": "KLA Corporation",
+"company": "KLA",
 "desc": ""
 },
 "https://simplify.jobs/jobs/click/66fd3b4a-cc9c-4090-9786-0bf42637abfd": {
@@ -12773,6 +12773,48 @@
 "first_seen": "2026-10-08",
 "title": "Intern/Co-op - Refining Electrical Engineering (Spring 2027)",
 "company": "Marathon Petroleum Corporation",
+"desc": ""
+},
+"https://intel.wd1.myworkdayjobs.com/External/job/PRC-Shanghai/Firmware-and-Development-Tools-Intern_JR0287536": {
+"first_seen": "2026-10-08",
+"title": "Firmware and Development Tools Intern",
+"company": "Intel",
+"desc": "  Job Details:       Job Description:\u00a0   About the Internship   Are you interested in full-stack development, automation, and the tools that support GPU firmware engineering? Join Intel\u2019s GPU Firmware Development Team to build practical software engineering and problem-solving skills through real projects.  Our team develops firmware for multiple microcontrollers on GPU boards, along with the DevOps tools and continuous integration (CI) platforms that support daily development. As an intern, you will  primarily focus on firmware development tools and platforms , contributing to full-stack web applications, build and release automation, and firmware test cases. Depending on project needs and your development, you may also have opportunities to contribute to firmware implementation and gain experience across the firmware development lifecycle.   What You Will Do   With guidance from your mentor and team, you will start with development tools and platforms, with opportunities to expand into firmware testing and development.   Firmware Tools and Platform Development    Contribute to firmware build, release, and CI platforms, including web frontends, backend services, and database design and implementation.  Develop and maintain automated workflows using GitHub Actions to connect code builds, testing, and releases and improve development efficiency.  Develop Python tools and scripts to support firmware development, debugging, testing, and log analysis.  Use and configure simulator"
+},
+"https://simplify.jobs/jobs/click/ef447dbd-c6a9-410f-9409-c1bd4fd27261": {
+"first_seen": "2026-10-08",
+"title": "Mixed Signal Circuit Design Co-op",
+"company": "Nokia",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/d0abf4dd-4e5e-46d9-8066-74d1f5d593ec": {
+"first_seen": "2026-10-08",
+"title": "ASIC Physical Design Co-op",
+"company": "Nokia",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4476978710": {
+"first_seen": "2026-10-08",
+"title": "Embedded Controls Hardware Co-Op (Winter/Spring 2027)",
+"company": "Collins Aerospace",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4475797346": {
+"first_seen": "2026-10-08",
+"title": "Hardware Engineering Intern",
+"company": "Hewlett Packard Enterprise",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4475759455": {
+"first_seen": "2026-10-08",
+"title": "R&D Electrical Engineer Intern",
+"company": "Boston Scientific",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4474415396": {
+"first_seen": "2026-10-08",
+"title": "Internship - Semiconductor Fab Process Engineer",
+"company": "Lumentum",
 "desc": ""
 }
 }
