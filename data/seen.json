@@ -635,8 +635,8 @@
 },
 "https://www.indeed.com/viewjob": {
 "first_seen": "2026-09-18",
-"title": "Process Engineer Co-Op",
-"company": "GAF",
+"title": "Spring 2027: Electrical Engineering Co-op, Shark (January to June)",
+"company": "SharkNinja",
 "desc": ""
 },
 "https://www.linkedin.com/jobs/view/4468697840": {
@@ -10168,7 +10168,7 @@
 "https://simplify.jobs/jobs/click/9750e606-5a81-4a74-9492-ca1a93b10e38": {
 "first_seen": "2026-10-01",
 "title": "Optical Engineer Intern",
-"company": "KLA",
+"company": "KLA Corporation",
 "desc": ""
 },
 "https://simplify.jobs/jobs/click/66fd3b4a-cc9c-4090-9786-0bf42637abfd": {
@@ -11973,7 +11973,7 @@
 },
 "https://www.linkedin.com/jobs/view/4476129445": {
 "first_seen": "2026-10-06",
-"title": "SSED Test Engineering Intern - Spring 2026 - SEAL",
+"title": "SSED Test Engineering Intern - Spring 2027 - SEAL",
 "company": "Georgia Tech Research Institute",
 "desc": ""
 },
@@ -12870,5 +12870,101 @@
 "title": "Engineering Intern - RF Systems",
 "company": "RTX",
 "desc": "  Date Posted:  2026-10-08&#xa;&#xa;  Country:  United States of America&#xa;&#xa;  Location:  US-IN-FT WAYNE-150A ~ 1010 Production Rd ~ BLDG 150A&#xa;&#xa;  Position Role Type:  Onsite&#xa;&#xa;   U.S. Citizen, U.S. Person, or Immigration Status Requirements:    The ability to obtain and maintain a U.S. government issued security clearance is required.\u200b  U.S. citizenship is required, as only U.S. citizens are eligible for a security clearance&#xa;&#xa;  Security Clearance Type:   DoD Clearance: Secret&#xa;&#xa;  Security Clearance Status:   Active and existing security clearance required after day 1     At RTX, the world's largest aerospace and defense company, 185,000 great minds are united by purpose and inspired to make a difference solving the world\u2019s most complex problems. With our three market leading businesses, world-class operations and investments in research and development, we offer capabilities and opportunity no one else can. Together, we push the boundaries of known science and find new ways to connect and protect our world.   Raytheon brings the strength of more than 100 years of experience and renowned engineering expertise to meet the needs of today\u2019s mission and stay ahead of tomorrow\u2019s threat. We deliver solutions that help our nation and allies defend freedoms and deter aggression, creating a safer, more secure world. Join us and help shape the future of aerospace and defense.  Are you ready to explore the world of aerospace and defense? Do you want to "
+},
+"https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/25016378": {
+"first_seen": "2026-10-08",
+"title": "Analog Design Eng Intern",
+"company": "Texas Instruments",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/f60133b0-d5de-4a8f-8b1a-e8600ae5e198": {
+"first_seen": "2026-10-08",
+"title": "Electrical Engineer Intern",
+"company": "ENFRA",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4474856118": {
+"first_seen": "2026-10-08",
+"title": "Co-op: Electrical Engineering, Cranberry (Spring 2027)",
+"company": "MSA - The Safety Company",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4474851247": {
+"first_seen": "2026-10-08",
+"title": "Co-op: Electrical Engineering Technology, Cranberry (Spring 2027)",
+"company": "MSA - The Safety Company",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4477415468": {
+"first_seen": "2026-10-08",
+"title": "Electrical Engineering Co-op 2026",
+"company": "Nexteer Automotive",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4364953201": {
+"first_seen": "2026-10-08",
+"title": "Intern/Co-op - Refining Electrical Engineering (Spring 2027)",
+"company": "Marathon Petroleum Corporation",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4475726179": {
+"first_seen": "2026-10-08",
+"title": "Electrical Engineering Intern",
+"company": "Nordson Corporation",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4476926191": {
+"first_seen": "2026-10-08",
+"title": "Analog Design Intern",
+"company": "Renesas Electronics",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4476792093": {
+"first_seen": "2026-10-08",
+"title": "Electronics Engineering Intern",
+"company": "S&C Electric Company",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4474946578": {
+"first_seen": "2026-10-08",
+"title": "Intern - DRAM Device Engineer",
+"company": "Micron Technology",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4477473346": {
+"first_seen": "2026-10-08",
+"title": "Engineering Intern - RF Systems",
+"company": "Raytheon",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4476514873": {
+"first_seen": "2026-10-08",
+"title": "Advanced Sensors and Techniques Co-Op (Spring 2027) - Group 09-02",
+"company": "MIT Lincoln Laboratory",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4477198041": {
+"first_seen": "2026-10-08",
+"title": "Product Engineer Intern",
+"company": "Swik AI",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4477419414": {
+"first_seen": "2026-10-08",
+"title": "Memory Server System Testing Intern",
+"company": "Renesas Electronics",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4476215013": {
+"first_seen": "2026-10-08",
+"title": "Power Systems & Power Electronics Engineering Internship (co-op)",
+"company": "Karh",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4477185964": {
+"first_seen": "2026-10-08",
+"title": "Electrical Engineering Intern/Co-op (Spring or Summer '27)",
+"company": "Rugged Robotics",
+"desc": ""
 }
 }
