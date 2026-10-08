@@ -1811,7 +1811,7 @@
   "title": "Commercial Operations Intern [Winter 2027]",
   "location": "San Jose, CA",
   "url": "https://job-boards.greenhouse.io/figureai/jobs/4719591006",
-  "posted": "2026-10-07",
+  "posted": "2026-10-08",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -1828,7 +1828,7 @@
   "title": "Electrical Engineering Intern [Winter 2027]",
   "location": "San Jose, CA",
   "url": "https://job-boards.greenhouse.io/figureai/jobs/4676467006",
-  "posted": "2026-10-07",
+  "posted": "2026-10-08",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -1845,7 +1845,7 @@
   "title": "Firmware Engineering Intern [Winter 2027]",
   "location": "San Jose, CA",
   "url": "https://job-boards.greenhouse.io/figureai/jobs/4601309006",
-  "posted": "2026-10-07",
+  "posted": "2026-10-08",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -1862,7 +1862,7 @@
   "title": "Mechanical Engineer Intern [Winter 2027]",
   "location": "San Jose, CA",
   "url": "https://job-boards.greenhouse.io/figureai/jobs/4303098006",
-  "posted": "2026-10-07",
+  "posted": "2026-10-08",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -1879,7 +1879,7 @@
   "title": "Middleware Intern [Winter 2027]",
   "location": "San Jose, CA",
   "url": "https://job-boards.greenhouse.io/figureai/jobs/4605724006",
-  "posted": "2026-10-07",
+  "posted": "2026-10-08",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -1896,7 +1896,7 @@
   "title": "Security Engineer Intern [Winter 2027]",
   "location": "San Jose, CA",
   "url": "https://job-boards.greenhouse.io/figureai/jobs/4719593006",
-  "posted": "2026-10-07",
+  "posted": "2026-10-08",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -1913,7 +1913,7 @@
   "title": "Special Projects Intern [Winter 2027]",
   "location": "San Jose, CA",
   "url": "https://job-boards.greenhouse.io/figureai/jobs/4694889006",
-  "posted": "2026-10-07",
+  "posted": "2026-10-08",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -1930,7 +1930,7 @@
   "title": "Supply Chain Analytics Intern [Winter 2027]",
   "location": "San Jose, CA",
   "url": "https://job-boards.greenhouse.io/figureai/jobs/4718858006",
-  "posted": "2026-10-07",
+  "posted": "2026-10-08",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -1947,7 +1947,7 @@
   "title": "Validation Engineering Intern [Winter 2027]",
   "location": "San Jose, CA",
   "url": "https://job-boards.greenhouse.io/figureai/jobs/4606072006",
-  "posted": "2026-10-07",
+  "posted": "2026-10-08",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -2220,7 +2220,7 @@
   "company": "GE Aerospace",
   "title": "Thermal Systems Design Engineering Intern (6 Months)",
   "location": "Istanbul",
-  "url": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Istanbul/Thermal-Systems-Design-Engineering-Intern--6-Months-_R5039995-1",
+  "url": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Istanbul/Thermal-Systems-Design-Engineering-Intern--6-Months-_R5039990-1",
   "posted": "Posted 3 Days Ago",
   "deadline": "",
   "term": "spring",
@@ -2230,7 +2230,7 @@
   "sources": [
    "workday"
   ],
-  "first_seen": "2026-09-21",
+  "first_seen": "2026-09-28",
   "last_seen": "2026-10-08"
  },
  {
@@ -4446,6 +4446,23 @@
  },
  {
   "company": "Skyworks",
+  "title": "Digital IC Design Co-op (Winter/Spring 2027)",
+  "location": "Cedar Rapids, IA, USA    ",
+  "url": "https://careers.skyworksinc.com/job/Digital-IC-Design-Co-op-%28WinterSpring-2027%29/78613-en_US",
+  "posted": "2026-10-08",
+  "deadline": "",
+  "term": "spring",
+  "rank": "A",
+  "hw": "ic design",
+  "tier": "big",
+  "sources": [
+   "successfactors"
+  ],
+  "first_seen": "2026-10-08",
+  "last_seen": "2026-10-08"
+ },
+ {
+  "company": "Skyworks",
   "title": "Electronic Design Automation Winter/Spring Co-Op (Jan-June '27)",
   "location": "San Jose, CA, USA    ",
   "url": "https://careers.skyworksinc.com/job/Electronic-Design-Automation-WinterSpring-Co-Op-%28Jan-June-&apos;27%29/78457-en_US",
@@ -5276,23 +5293,6 @@
    "jobspy:linkedin"
   ],
   "first_seen": "2026-10-06",
-  "last_seen": "2026-10-08"
- },
- {
-  "company": "Varda Space",
-  "title": "Applications Engineering Internship - Spring 2027",
-  "location": "El Segundo, California, United States",
-  "url": "https://job-boards.greenhouse.io/vardaspace/jobs/7824822003",
-  "posted": "2026-10-01",
-  "deadline": "",
-  "term": "spring",
-  "rank": "A",
-  "hw": "maybe",
-  "tier": "startup",
-  "sources": [
-   "greenhouse"
-  ],
-  "first_seen": "2026-09-18",
   "last_seen": "2026-10-08"
  },
  {
@@ -6368,23 +6368,6 @@
   "last_seen": "2026-10-08"
  },
  {
-  "company": "onsemi",
-  "title": "Spring 2027 - Validation Engineering Intern",
-  "location": "Nampa, ID, United States",
-  "url": "https://hctz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2506611",
-  "posted": "2026-09-25",
-  "deadline": "",
-  "term": "spring",
-  "rank": "A",
-  "hw": "validation",
-  "tier": "big",
-  "sources": [
-   "oracle_hcm"
-  ],
-  "first_seen": "2026-09-25",
-  "last_seen": "2026-10-08"
- },
- {
   "company": "ABB",
   "title": "Electrical Engineering: Variable Speed and Specialty Motors Co-op",
   "location": "Greenville, SC, USA",
@@ -7030,23 +7013,6 @@
   "tier": "",
   "sources": [
    "internlist:coop"
-  ],
-  "first_seen": "2026-09-18",
-  "last_seen": "2026-10-08"
- },
- {
-  "company": "BAE Systems",
-  "title": "2027 Co-Op (Spring-Summer or Summer-Fall) Electrical Engineer (onsite)",
-  "location": "Cedar Rapids, Iowa, United States",
-  "url": "https://jobs.baesystems.com/global/en/job/125922BR/2027-co-op-spring-summer-or-summer-fall-electrical-engineer-onsite",
-  "posted": "2026-10-01",
-  "deadline": "",
-  "term": "coop-unspecified",
-  "rank": "B",
-  "hw": "electrical engineer",
-  "tier": "big",
-  "sources": [
-   "phenom"
   ],
   "first_seen": "2026-09-18",
   "last_seen": "2026-10-08"
@@ -16882,6 +16848,40 @@
  },
  {
   "company": "RTX",
+  "title": "Electrical Engineering Intern - Test Solutions",
+  "location": "US-MA-TEWKSBURY-TB2 ~ 50 Apple Hill Dr ~ SUDBURY BLDG, Tewksbury Tb2 200 Sudbury",
+  "url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-MA-TEWKSBURY-TB2--50-Apple-Hill-Dr--SUDBURY-BLDG-Tewksbury-Tb2-200-Sudbury/Electrical-Engineering-Intern---Test-Solutions_01881321",
+  "posted": "Posted Today",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "electrical engineering",
+  "tier": "big",
+  "sources": [
+   "workday"
+  ],
+  "first_seen": "2026-10-08",
+  "last_seen": "2026-10-08"
+ },
+ {
+  "company": "RTX",
+  "title": "Engineering Intern - RF Systems",
+  "location": "US-IN-FT WAYNE-150A ~ 1010 Production Rd ~ BLDG 150A",
+  "url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-IN-FT-WAYNE-150A--1010-Production-Rd--BLDG-150A/Engineering-Intern---RF-Systems_01879696",
+  "posted": "Posted Today",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "rf",
+  "tier": "big",
+  "sources": [
+   "workday"
+  ],
+  "first_seen": "2026-10-08",
+  "last_seen": "2026-10-08"
+ },
+ {
+  "company": "RTX",
   "title": "Power and Analog Electronics Engineer Intern",
   "location": "Tucson, AZ, USA",
   "url": "https://simplify.jobs/jobs/click/c7fa82d8-d38a-48d9-8f18-c6f798ffe999",
@@ -17069,14 +17069,14 @@
  },
  {
   "company": "Rocket Lab",
-  "title": "RF Test Engineer Intern",
+  "title": "Radio Frequency Test Engineer Intern",
   "location": "Auckland, NZ",
   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7845193003",
-  "posted": "2026-08-17",
+  "posted": "2026-10-08",
   "deadline": "",
   "term": "unspecified",
   "rank": "C",
-  "hw": "rf,test engineer",
+  "hw": "test engineer",
   "tier": "big",
   "sources": [
    "greenhouse"
@@ -17188,14 +17188,14 @@
  },
  {
   "company": "Seagate",
-  "title": "Failure Analysis Intern III (Auto Failure Analysis & Data Analytics)",
+  "title": "Engineering Intern (slider process engineer)",
   "location": "Nakhon Ratchasima, THA, ",
-  "url": "https://seagatecareers.com/job/Failure-Analysis-Intern-III-%28Auto-Failure-Analysis-&amp;-Data-Analytics%29/14648-en_US",
-  "posted": "2026-07-09",
+  "url": "https://seagatecareers.com/job/Engineering-Intern-%28slider-process-engineer%29/14914-en_US",
+  "posted": "2026-09-03",
   "deadline": "",
   "term": "unspecified",
   "rank": "C",
-  "hw": "failure analysis",
+  "hw": "process engineer",
   "tier": "big",
   "sources": [
    "successfactors"
@@ -17205,14 +17205,14 @@
  },
  {
   "company": "Seagate",
-  "title": "Hardware Engineering Intern",
-  "location": "",
-  "url": "https://seagatecareers.com/job/Hardware-Engineering-Intern/15010-en_US",
-  "posted": "2026-09-09",
+  "title": "Failure Analysis Intern III (Auto Failure Analysis & Data Analytics)",
+  "location": "Nakhon Ratchasima, THA, ",
+  "url": "https://seagatecareers.com/job/Failure-Analysis-Intern-III-%28Auto-Failure-Analysis-&amp;-Data-Analytics%29/14648-en_US",
+  "posted": "2026-07-09",
   "deadline": "",
   "term": "unspecified",
   "rank": "C",
-  "hw": "hardware",
+  "hw": "failure analysis",
   "tier": "big",
   "sources": [
    "successfactors"
@@ -17974,7 +17974,7 @@
   "title": "Emerging Talent - Electrical Engineering Internship",
   "location": "Long Beach, California, United States",
   "url": "https://boards.greenhouse.io/vast/jobs/4711401006?gh_jid=4711401006",
-  "posted": "2026-10-07",
+  "posted": "2026-10-08",
   "deadline": "",
   "term": "unspecified",
   "rank": "C",
@@ -17991,7 +17991,7 @@
   "title": "Emerging Talent - Manufacturing Engineering Internship",
   "location": "Long Beach, California, United States",
   "url": "https://boards.greenhouse.io/vast/jobs/4711403006?gh_jid=4711403006",
-  "posted": "2026-10-07",
+  "posted": "2026-10-08",
   "deadline": "",
   "term": "unspecified",
   "rank": "C",
@@ -18008,7 +18008,7 @@
   "title": "Emerging Talent - Mechanical/Aerospace Engineering Internship",
   "location": "Long Beach, California, United States",
   "url": "https://boards.greenhouse.io/vast/jobs/4711400006?gh_jid=4711400006",
-  "posted": "2026-10-07",
+  "posted": "2026-10-08",
   "deadline": "",
   "term": "unspecified",
   "rank": "C",
@@ -18025,7 +18025,7 @@
   "title": "University Recruiter II",
   "location": "Long Beach, California, United States",
   "url": "https://boards.greenhouse.io/vast/jobs/4693801006?gh_jid=4693801006",
-  "posted": "2026-10-07",
+  "posted": "2026-10-08",
   "deadline": "",
   "term": "unspecified",
   "rank": "C",
