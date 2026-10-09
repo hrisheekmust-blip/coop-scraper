@@ -635,8 +635,8 @@
 },
 "https://www.indeed.com/viewjob": {
 "first_seen": "2026-09-18",
-"title": "Co-op: Electrical Engineering Technology, Cranberry (Spring 2027)",
-"company": "MSA Safety",
+"title": "2027 Spring/Summer Undergrad Validation/Debug Co-Op",
+"company": "AMD",
 "desc": ""
 },
 "https://www.linkedin.com/jobs/view/4468697840": {
@@ -2145,7 +2145,7 @@
 },
 "https://simplify.jobs/jobs/click/259c0c7d-c60b-40ad-936e-d5aef95bbb9f": {
 "first_seen": "2026-09-18",
-"title": "Electrical Engineering Co-op",
+"title": "Electrical Engineering Co-op Fall 2027",
 "company": "GE Appliances",
 "desc": ""
 },
@@ -2463,7 +2463,7 @@
 },
 "https://simplify.jobs/jobs/click/d2ed8bfd-47d2-42c8-a039-2a2a90b3c635": {
 "first_seen": "2026-09-18",
-"title": "Hardware Engineering Co-op",
+"title": "Hardware Engineer Co-op",
 "company": "Lennox International",
 "desc": ""
 },
@@ -5877,7 +5877,7 @@
 },
 "https://simplify.jobs/jobs/click/34d8f865-8389-4eba-9e9e-66c244a5a9f3": {
 "first_seen": "2026-09-21",
-"title": "Hardware Engineer Co-op",
+"title": "Hardware Engineering Co-op",
 "company": "Lennox International",
 "desc": ""
 },
@@ -8439,7 +8439,7 @@
 },
 "https://simplify.jobs/jobs/click/1e3d3a80-84e2-4576-8274-bb56e5167f47": {
 "first_seen": "2026-09-27",
-"title": "Electrical Engineer Co-op",
+"title": "Electrical Engineering Co-op Spring 2027",
 "company": "GE Appliances",
 "desc": ""
 },
@@ -10168,7 +10168,7 @@
 "https://simplify.jobs/jobs/click/9750e606-5a81-4a74-9492-ca1a93b10e38": {
 "first_seen": "2026-10-01",
 "title": "Optical Engineer Intern",
-"company": "KLA",
+"company": "KLA Corporation",
 "desc": ""
 },
 "https://simplify.jobs/jobs/click/66fd3b4a-cc9c-4090-9786-0bf42637abfd": {
@@ -11331,7 +11331,7 @@
 },
 "https://simplify.jobs/jobs/click/31b163c5-2933-4708-b57f-40ac28e156d1": {
 "first_seen": "2026-10-04",
-"title": "Electrical Engineer Co-op",
+"title": "Electrical Engineering Co-op",
 "company": "GE Appliances",
 "desc": ""
 },
@@ -13067,6 +13067,30 @@
 "first_seen": "2026-10-09",
 "title": "Electrical Engineering Intern - Test Solutions",
 "company": "Raytheon",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/c1abbad6-b31f-4d4b-a4e5-f5da8e4a552a": {
+"first_seen": "2026-10-09",
+"title": "Controls Engineer Intern",
+"company": "Wabtec",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4477666057": {
+"first_seen": "2026-10-09",
+"title": "Spring 2027:  Electrical Engineering Co-op, Shark (January to June)",
+"company": "SharkNinja",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4477625645": {
+"first_seen": "2026-10-09",
+"title": "ASIC Verification/Design Engineering Intern",
+"company": "HPE Aruba Networking",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4474874904": {
+"first_seen": "2026-10-09",
+"title": "Optical Engineering Intern - Camera, Depth & Cover Window Optics",
+"company": "Meta",
 "desc": ""
 }
 }
