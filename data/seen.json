@@ -635,8 +635,8 @@
 },
 "https://www.indeed.com/viewjob": {
 "first_seen": "2026-09-18",
-"title": "2027 Spring/Summer Undergrad Validation/Debug Co-Op",
-"company": "AMD",
+"title": "Electrical Engineering Co-Op",
+"company": "Bose",
 "desc": ""
 },
 "https://www.linkedin.com/jobs/view/4468697840": {
@@ -747,7 +747,7 @@
 },
 "https://www.linkedin.com/jobs/view/4468818985": {
 "first_seen": "2026-09-18",
-"title": "Electrical/Controls Engineering Co-Op",
+"title": "Electrical/Controls Engineering Co-Op (June - December 2027)",
 "company": "nVent",
 "desc": ""
 },
@@ -2145,7 +2145,7 @@
 },
 "https://simplify.jobs/jobs/click/259c0c7d-c60b-40ad-936e-d5aef95bbb9f": {
 "first_seen": "2026-09-18",
-"title": "Electrical Engineering Co-op Fall 2027",
+"title": "Electrical Engineering Co-op",
 "company": "GE Appliances",
 "desc": ""
 },
@@ -5691,7 +5691,7 @@
 },
 "https://www.linkedin.com/jobs/view/4468829317": {
 "first_seen": "2026-09-19",
-"title": "Intern - Electrical Engineer",
+"title": "Intern - Electrical Engineer (Fall 2026/Winter 2027)",
 "company": "Itron, Inc.",
 "desc": ""
 },
@@ -8439,7 +8439,7 @@
 },
 "https://simplify.jobs/jobs/click/1e3d3a80-84e2-4576-8274-bb56e5167f47": {
 "first_seen": "2026-09-27",
-"title": "Electrical Engineering Co-op Spring 2027",
+"title": "Electrical Engineer Co-op",
 "company": "GE Appliances",
 "desc": ""
 },
@@ -10168,7 +10168,7 @@
 "https://simplify.jobs/jobs/click/9750e606-5a81-4a74-9492-ca1a93b10e38": {
 "first_seen": "2026-10-01",
 "title": "Optical Engineer Intern",
-"company": "KLA Corporation",
+"company": "KLA",
 "desc": ""
 },
 "https://simplify.jobs/jobs/click/66fd3b4a-cc9c-4090-9786-0bf42637abfd": {
@@ -12591,7 +12591,7 @@
 },
 "https://www.linkedin.com/jobs/view/4475421697": {
 "first_seen": "2026-10-07",
-"title": "Hardware Intern - Architecture, AI HW & System on a Chip",
+"title": "Hardware Intern - Architecture, AI HW & SoC (USA)",
 "company": "Tenstorrent",
 "desc": ""
 },
@@ -12651,7 +12651,7 @@
 },
 "https://www.linkedin.com/jobs/view/4475434262": {
 "first_seen": "2026-10-07",
-"title": "Intern, Physical Design & DFT",
+"title": "Silicon Intern - Physical Design & DFT (USA)",
 "company": "Tenstorrent",
 "desc": ""
 },
@@ -13103,6 +13103,96 @@
 "first_seen": "2026-10-09",
 "title": "Project Engineering Co-op - Detroit Water - Spring 2027",
 "company": "Emerson",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/7ac603b8-4b2e-4336-b50f-d2c39bdc88b5": {
+"first_seen": "2026-10-09",
+"title": "Controls Engineer Co-op",
+"company": "GAF",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4477823359": {
+"first_seen": "2026-10-09",
+"title": "Electrical Engineering Co-Op",
+"company": "Bose Corporation",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4477442712": {
+"first_seen": "2026-10-09",
+"title": "Electronics for Contested Space Co-Op (Spring / Summer 2027) - Group 09-94",
+"company": "MIT Lincoln Laboratory",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4475250785": {
+"first_seen": "2026-10-09",
+"title": "Hardware Developer Intern - Poughkeepsie, NY - 2027",
+"company": "IBM",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4477865596": {
+"first_seen": "2026-10-09",
+"title": "Intern, VLSI Design Engineering",
+"company": "Sandisk",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4477858996": {
+"first_seen": "2026-10-09",
+"title": "Circuit Design Engineer - Intern",
+"company": "Sandisk",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4476295616": {
+"first_seen": "2026-10-09",
+"title": "Thermal Test Engineer Co-Op",
+"company": "BAC (Baltimore Aircoil Company, Inc.)",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4477854443": {
+"first_seen": "2026-10-09",
+"title": "Optics Engineering Co-Op- San Diego State University",
+"company": "Samtec Inc",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4476807877": {
+"first_seen": "2026-10-09",
+"title": "Reliability Engineering Intern",
+"company": "Mechronix",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4477870342": {
+"first_seen": "2026-10-09",
+"title": "Intern, Product Development Engineering - Memory Product Yield Enhancement",
+"company": "Sandisk",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4476866173": {
+"first_seen": "2026-10-09",
+"title": "Electrical Engineering Intern",
+"company": "Arn Autonomy",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4475246126": {
+"first_seen": "2026-10-09",
+"title": "Reliability Engineering Intern",
+"company": "Enervexa PowerLabs",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4476815599": {
+"first_seen": "2026-10-09",
+"title": "Reliability Engineering Intern",
+"company": "AeroMatrix 12",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4474402802": {
+"first_seen": "2026-10-09",
+"title": "Internship - Semiconductor Equipment Engineer",
+"company": "Lumentum",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4477849945": {
+"first_seen": "2026-10-09",
+"title": "Hardware Intern",
+"company": "Meter",
 "desc": ""
 }
 }
