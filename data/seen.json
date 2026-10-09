@@ -635,8 +635,8 @@
 },
 "https://www.indeed.com/viewjob": {
 "first_seen": "2026-09-18",
-"title": "Spring 2027: Electrical Engineering Co-op, Shark (January to June)",
-"company": "SharkNinja",
+"title": "Co-op: Electrical Engineering Technology, Cranberry (Spring 2027)",
+"company": "MSA Safety",
 "desc": ""
 },
 "https://www.linkedin.com/jobs/view/4468697840": {
@@ -10168,7 +10168,7 @@
 "https://simplify.jobs/jobs/click/9750e606-5a81-4a74-9492-ca1a93b10e38": {
 "first_seen": "2026-10-01",
 "title": "Optical Engineer Intern",
-"company": "KLA Corporation",
+"company": "KLA",
 "desc": ""
 },
 "https://simplify.jobs/jobs/click/66fd3b4a-cc9c-4090-9786-0bf42637abfd": {
@@ -12971,6 +12971,102 @@
 "first_seen": "2026-10-09",
 "title": "Product Development Engineering Co-Op",
 "company": "Entegris",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/a5122270-8462-44a7-99b1-d63295a317ff": {
+"first_seen": "2026-10-09",
+"title": "Process Engineer Co-op",
+"company": "GAF",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/802cf7a7-7944-4827-82da-1770e78ca962": {
+"first_seen": "2026-10-09",
+"title": "Process Engineer Co-op",
+"company": "GAF",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/985e3458-8411-4f64-ba35-db88a6a6bfe9": {
+"first_seen": "2026-10-09",
+"title": "Controls Engineer Co-op",
+"company": "GAF",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/39a21b54-452a-45ba-aa7e-ed8b0ab14dd5": {
+"first_seen": "2026-10-09",
+"title": "Controls Engineer Co-op",
+"company": "GAF",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/6af42b36-f6ea-468e-9e3b-9a6e81aebbf8": {
+"first_seen": "2026-10-09",
+"title": "Firmware Engineer Co-op",
+"company": "Entrust",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/85e731a2-7cf8-43d3-96cd-18fd89056117": {
+"first_seen": "2026-10-09",
+"title": "Electrical Engineer Co-op",
+"company": "S&C Electric Company",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/8f24ebfd-0909-4da7-aba0-55c93afc1b56": {
+"first_seen": "2026-10-09",
+"title": "Controls Engineer Intern Co-op",
+"company": "Axis Automation",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/25c9c3c2-732e-4e49-b9e8-33498fbbfe9d": {
+"first_seen": "2026-10-09",
+"title": "Manufacturing Process Engineer Co-op",
+"company": "Original Composites and Fibers",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/082ed332-717b-4faf-9e5a-066669e4636b": {
+"first_seen": "2026-10-09",
+"title": "Supplier Process Engineer Co-op",
+"company": "Dell Technologies",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4477603318": {
+"first_seen": "2026-10-09",
+"title": "Digital IC Design Co-op (Winter/Spring 2027)",
+"company": "Skyworks Solutions, Inc.",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4477496125": {
+"first_seen": "2026-10-09",
+"title": "SPRING 2027: ELECTRICAL ENGINEERING CO-OP, SHARK (JANUARY TO JUNE)",
+"company": "SharkNinja France",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4474862753": {
+"first_seen": "2026-10-09",
+"title": "2027 Spring/Summer Undergrad Validation/Debug Co-Op",
+"company": "AMD",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4463896037": {
+"first_seen": "2026-10-09",
+"title": "2027 Spring Reliability Engineering Undergraduate Intern/Co-op (R20092)",
+"company": "MKS Inc.",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4477417017": {
+"first_seen": "2026-10-09",
+"title": "Intern Electronics Technician",
+"company": "Xadite Engineering",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4477498686": {
+"first_seen": "2026-10-09",
+"title": "Process Engineer Co-Op (January-August 2027)",
+"company": "Ingredion Incorporated",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4477462842": {
+"first_seen": "2026-10-09",
+"title": "Electrical Engineering Intern - Test Solutions",
+"company": "Raytheon",
 "desc": ""
 }
 }
