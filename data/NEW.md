@@ -1,24 +1,11 @@
-# New postings — 2026-10-09
+# New postings — 2026-10-10
 
-15 new of 1059 tracked. Rank A = spring/Jan 2027 explicit, B = co-op with term unstated, C = intern with no term stated.
+2 new of 1062 tracked. Rank A = spring/Jan 2027 explicit, B = co-op with term unstated, C = intern with no term stated.
 
 | Rank | Term | Company | Role | Location | Posted | Link |
 |---|---|---|---|---|---|---|
-| A | spring | GAF | Controls Engineer Co-op | Newton, KS, USA | 2026-10-07 | [apply](https://simplify.jobs/jobs/click/7ac603b8-4b2e-4336-b50f-d2c39bdc88b5) |
-| A | spring | Bose Corporation | Electrical Engineering Co-Op | Framingham, MA, USA | 2026-10-09 | [apply](https://www.linkedin.com/jobs/view/4477823359) |
-| A | spring | MIT Lincoln Laboratory | Electronics for Contested Space Co-Op (Spring / Summer 2027) - Group 09-94 | Lexington, MA, USA | 2026-10-09 | [apply](https://www.linkedin.com/jobs/view/4477442712) |
-| C | unspecified | IBM | Hardware Developer Intern - Poughkeepsie, NY - 2027 | Rochester, MN, USA | 2026-10-09 | [apply](https://www.linkedin.com/jobs/view/4475250785) |
-| C | unspecified | Sandisk | Intern, VLSI Design Engineering | Milpitas, CA, USA | 2026-10-09 | [apply](https://www.linkedin.com/jobs/view/4477865596) |
-| C | unspecified | Sandisk | Circuit Design Engineer - Intern | Folsom, CA, USA | 2026-10-09 | [apply](https://www.linkedin.com/jobs/view/4477858996) |
-| B | coop-unspecified | BAC (Baltimore Aircoil Company, Inc.) | Thermal Test Engineer Co-Op | Jessup, MD, USA | 2026-10-09 | [apply](https://www.linkedin.com/jobs/view/4476295616) |
-| B | coop-unspecified | Samtec Inc | Optics Engineering Co-Op- San Diego State University | San Diego, CA, USA | 2026-10-09 | [apply](https://www.linkedin.com/jobs/view/4477854443) |
-| A | spring | Mechronix | Reliability Engineering Intern | New York, USA | 2026-10-09 | [apply](https://www.linkedin.com/jobs/view/4476807877) |
-| C | unspecified | Sandisk | Intern, Product Development Engineering - Memory Product Yield Enhancement | Milpitas, CA, USA | 2026-10-09 | [apply](https://www.linkedin.com/jobs/view/4477870342) |
-| C | unspecified | Arn Autonomy | Electrical Engineering Intern | San Francisco, CA, USA | 2026-10-09 | [apply](https://www.linkedin.com/jobs/view/4476866173) |
-| A | spring | Enervexa PowerLabs | Reliability Engineering Intern | New York, USA | 2026-10-09 | [apply](https://www.linkedin.com/jobs/view/4475246126) |
-| A | spring | AeroMatrix 12 | Reliability Engineering Intern | New York, USA | 2026-10-09 | [apply](https://www.linkedin.com/jobs/view/4476815599) |
-| C | unspecified | Lumentum | Internship - Semiconductor Equipment Engineer | Greensboro, NC, USA | 2026-10-06 | [apply](https://www.linkedin.com/jobs/view/4474402802) |
-| C | unspecified | Meter | Hardware Intern | San Francisco, CA, USA | 2026-10-09 | [apply](https://www.linkedin.com/jobs/view/4477849945) |
+| A | spring | Zipline | Firmware Engineer Intern (Spring 2027)  | South San Francisco, California, USA | 2026-10-09 | [apply](https://www.zipline.com/open-roles/8020863003?gh_jid=8020863003) |
+| C | unspecified | Atom Computing | Research Intern | Berkeley, CA | 1791587715 | [apply](https://jobs.lever.co/atomcomputing/5c0d521e-3198-4c00-989e-ebfc73b7e0e9) |
 
 ## All tracked
 
@@ -377,6 +364,7 @@
 | A | spring | Zipline | Electrical Engineer Intern (Spring 2027) | South San Francisco, California, USA | 2026-10-03 | [apply](https://www.zipline.com/open-roles/7903708003?gh_jid=7903708003) |
 | A | spring | Zipline | Electrical Project Engineer Intern (Spring 2027) | South San Francisco, California, USA | 2026-10-03 | [apply](https://www.zipline.com/open-roles/7980874003?gh_jid=7980874003) |
 | A | spring | Zipline | Field Systems Engineer Intern (Spring 2027) | South San Francisco, California, USA | 2026-10-03 | [apply](https://www.zipline.com/open-roles/8004729003?gh_jid=8004729003) |
+| A | spring | Zipline | Firmware Engineer Intern (Spring 2027)  | South San Francisco, California, USA | 2026-10-09 | [apply](https://www.zipline.com/open-roles/8020863003?gh_jid=8020863003) |
 | A | spring | Zipline | Flight Test Engineer Intern (Spring 2027) | South San Francisco, California, USA | 2026-10-03 | [apply](https://www.zipline.com/open-roles/7999929003?gh_jid=7999929003) |
 | A | spring | Zipline | Global Supply Management Intern (Spring 2027) | South San Francisco, California, USA | 2026-10-03 | [apply](https://www.zipline.com/open-roles/7891121003?gh_jid=7891121003) |
 | A | spring | Zipline | Hardware Test Intern (Spring 2027) | South San Francisco, California, USA | 2026-10-03 | [apply](https://www.zipline.com/open-roles/7894349003?gh_jid=7894349003) |
@@ -689,6 +677,7 @@
 | C | unspecified | Arista Networks | System Test Engineer  Intern | Santa Clara, CA, United States | 2026-02-25 | [apply](https://jobs.smartrecruiters.com/aristanetworks/744000111461585) |
 | C | unspecified | Arn Autonomy | Electrical Engineering Intern | San Francisco, CA, USA | 2026-10-09 | [apply](https://www.linkedin.com/jobs/view/4476866173) |
 | C | unspecified | Astranis | Reliability Test Intern | San Francisco, CA | Aug 21 | [apply](https://job-boards.greenhouse.io/astranis/jobs/4677973006) |
+| C | unspecified | Atom Computing | Research Intern | Berkeley, CA | 1791587715 | [apply](https://jobs.lever.co/atomcomputing/5c0d521e-3198-4c00-989e-ebfc73b7e0e9) |
 | C | unspecified | Atomic Semi | Software Engineer Intern, Chip Design Tools | San Francisco, CA | Jul 27 | [apply](https://jobs.ashbyhq.com/fab2/907766af-a3c0-49a3-b01e-246baa437d10?embed=true&utm_source=github-vansh-ouckah) |
 | C | unspecified | BAE Systems | Spring and Summer Electrical Engineering Intern IV (Hybrid) | Cedar Rapids, Iowa, United States | 2026-10-01 | [apply](https://jobs.baesystems.com/global/en/job/129449BR/spring-and-summer-electrical-engineering-intern-iv-hybrid) |
 | C | unspecified | BGE | Electrical Engineer Intern | Austin, TX, USA | 2026-10-01 | [apply](https://simplify.jobs/jobs/click/f86e7d72-e7ba-49e6-84b3-4d702568ca07) |
@@ -817,6 +806,7 @@
 | C | unspecified | Infineon Technologies | Internship - IC Analog Design | Andover, MA, USA | 2026-10-07 | [apply](https://www.linkedin.com/jobs/view/4474753381) |
 | C | unspecified | Infineon Technologies | Internship - PDK Engineer | Lexington, KY, USA | 2026-10-07 | [apply](https://www.linkedin.com/jobs/view/4469888440) |
 | C | unspecified | Intel | Firmware and Development Tools Intern | 2 Locations | Posted Yesterday | [apply](https://intel.wd1.myworkdayjobs.com/External/job/PRC-Shanghai/Firmware-and-Development-Tools-Intern_JR0287536) |
+| C | unspecified | Intel | GPU Physical Design Engineer Intern | Costa Rica, San Jose | Posted Today | [apply](https://intel.wd1.myworkdayjobs.com/External/job/Costa-Rica-San-Jose/GPU-Physical-Design-Engineer-Intern_JR0287532) |
 | C | unspecified | Intel | Platform Hardware and Systems Engineering - Intern, Bachelor’s | 5 Locations | Posted 30+ Days Ago | [apply](https://intel.wd1.myworkdayjobs.com/External/job/US-Oregon-Hillsboro/Platform-Hardware-and-Systems-Engineering---Intern--Bachelor-s_JR0286827) |
 | C | unspecified | Intel | Platform Hardware and Systems Engineering - Intern, Graduate | 5 Locations | Posted 30+ Days Ago | [apply](https://intel.wd1.myworkdayjobs.com/External/job/US-Oregon-Hillsboro/Platform-Hardware-and-Systems-Engineering---Intern--Graduate_JR0286828) |
 | C | unspecified | Intel | Silicon Hardware Engineering - Intern, Bachelor’s | 5 Locations | Posted 30+ Days Ago | [apply](https://intel.wd1.myworkdayjobs.com/External/job/US-Oregon-Hillsboro/Silicon-Hardware-Engineering---Intern--Bachelor-s_JR0286829) |
@@ -1021,10 +1011,10 @@
 | C | unspecified | Seagate | Electrical Design Engineering Intern | Nakhon Ratchasima, THA,  | 2026-01-27 | [apply](https://seagatecareers.com/job/Electrical-Design-Engineering-Intern/13582-en_US) |
 | C | unspecified | Seagate | Engineering Intern (slider process engineer) | Nakhon Ratchasima, THA,  | 2026-09-03 | [apply](https://seagatecareers.com/job/Engineering-Intern-%28slider-process-engineer%29/14914-en_US) |
 | C | unspecified | Seagate | Failure Analysis Intern III (Auto Failure Analysis & Data Analytics) | Nakhon Ratchasima, THA,  | 2026-07-09 | [apply](https://seagatecareers.com/job/Failure-Analysis-Intern-III-%28Auto-Failure-Analysis-&amp;-Data-Analytics%29/14648-en_US) |
-| C | unspecified | Seagate | Hardware Engineering Intern |  | 2026-09-09 | [apply](https://seagatecareers.com/job/Hardware-Engineering-Intern/15010-en_US) |
 | C | unspecified | Seagate | Hardware Validation Intern |  | 2026-09-09 | [apply](https://seagatecareers.com/job/Hardware-Validation-Intern/15011-en_US) |
 | C | unspecified | Seagate | Head Failure Analysis Intern |  | 2026-10-02 | [apply](https://seagatecareers.com/job/Head-Failure-Analysis-Intern/15130-en_US) |
 | C | unspecified | Seagate | Head Failure Analysis Intern III |  | 2026-09-15 | [apply](https://seagatecareers.com/job/Head-Failure-Analysis-Intern-III/15061-en_US) |
+| C | unspecified | Seagate | Metrology maintenance engineering intern | Nakhon Ratchasima, THA,  | 2026-08-26 | [apply](https://seagatecareers.com/job/Metrology-maintenance-engineering-intern/14919-en_US) |
 | C | unspecified | Seagate | Product Engineering Intern | Nakhon Ratchasima, THA,  | 2026-07-20 | [apply](https://seagatecareers.com/job/Product-Engineering-Intern/14645-en_US) |
 | C | unspecified | Seagate | Recording Head Test Engineering Intern | Samut Prakan, THA,  | 2026-08-19 | [apply](https://seagatecareers.com/job/Recording-Head-Test-Engineering-Intern/14901-en_US) |
 | C | unspecified | Semtech | Analog Design Engineer Intern | CAN - Burlington, ON | Posted 15 Days Ago | [apply](https://semtech.wd1.myworkdayjobs.com/SemtechCareers/job/CAN---Burlington-ON/Analog-Design-Engineer-Intern_REQ3622) |
