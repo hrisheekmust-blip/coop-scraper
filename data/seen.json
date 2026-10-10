@@ -1587,7 +1587,7 @@
 },
 "https://simplify.jobs/jobs/click/182d99fd-858d-4860-93b7-4f77b0167c1b": {
 "first_seen": "2026-09-18",
-"title": "ARC Electrical Engineer CO-OP",
+"title": "Electrical Engineer Co-op",
 "company": "GE Healthcare",
 "desc": ""
 },
@@ -1755,7 +1755,7 @@
 },
 "https://simplify.jobs/jobs/click/e89671c2-e2eb-43d8-b95f-8fa9f1144385": {
 "first_seen": "2026-09-18",
-"title": "Analog/Mixed-Signal Design Intern/Co-op",
+"title": "Analog/Mixed-Signal SerDes Design Intern Co-op",
 "company": "AMD",
 "desc": ""
 },
@@ -12147,7 +12147,7 @@
 },
 "https://simplify.jobs/jobs/click/ef1134c6-b8e9-4764-9153-e85268e91f72": {
 "first_seen": "2026-10-07",
-"title": "Photonics Design Engineering Co-op",
+"title": "Photonics Design Engineer Co-op",
 "company": "AMD",
 "desc": ""
 },
@@ -12711,7 +12711,7 @@
 },
 "https://simplify.jobs/jobs/click/50e44cc5-709f-4a31-bcc9-c9ec3e559b93": {
 "first_seen": "2026-10-08",
-"title": "Electrical Engineer Intern / Co-Op",
+"title": "Electrical Engineer Intern Co-op",
 "company": "Real Alloy",
 "desc": ""
 },
@@ -13265,6 +13265,18 @@
 "first_seen": "2026-10-10",
 "title": "FPGA Engineer Intern",
 "company": "Garmin",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/1df63c40-51aa-4d48-b7c2-4dc7dc01c068": {
+"first_seen": "2026-10-10",
+"title": "Process Engineer Co-op",
+"company": "Greif",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4475290907": {
+"first_seen": "2026-10-10",
+"title": "CC Electrical Engineer Intern",
+"company": "CITGO",
 "desc": ""
 }
 }
