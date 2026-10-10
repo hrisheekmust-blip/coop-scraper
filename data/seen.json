@@ -10168,7 +10168,7 @@
 "https://simplify.jobs/jobs/click/9750e606-5a81-4a74-9492-ca1a93b10e38": {
 "first_seen": "2026-10-01",
 "title": "Optical Engineer Intern",
-"company": "KLA",
+"company": "KLA Corporation",
 "desc": ""
 },
 "https://simplify.jobs/jobs/click/66fd3b4a-cc9c-4090-9786-0bf42637abfd": {
@@ -13191,7 +13191,7 @@
 },
 "https://www.linkedin.com/jobs/view/4477849945": {
 "first_seen": "2026-10-09",
-"title": "Hardware Intern",
+"title": "Hardware Engineering Intern",
 "company": "Meter",
 "desc": ""
 },
@@ -13205,6 +13205,48 @@
 "first_seen": "2026-10-10",
 "title": "Research Intern",
 "company": "Atom Computing",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/c37a6a12-d3dc-4a5a-8c59-fe166d387a9b": {
+"first_seen": "2026-10-10",
+"title": "Electrical Co-op",
+"company": "IMEG",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/9630872e-9c92-43fe-be5c-1bfdaf5e8f05": {
+"first_seen": "2026-10-10",
+"title": "Electrical Engineering Co-op",
+"company": "Trane Technologies",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/eff2c71d-6c7f-4d0e-b4e4-ea555e25f5b8": {
+"first_seen": "2026-10-10",
+"title": "Electrical Engineering Co-op",
+"company": "Watts Water",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/b3904f79-eace-4a0d-8fe5-32cb652a4a4e": {
+"first_seen": "2026-10-10",
+"title": "Automation Process Engineer Co-op",
+"company": "Nucor",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/560dca20-ee7d-4406-bef2-be998ced912d": {
+"first_seen": "2026-10-10",
+"title": "Acute Care Hardware Systems Engineer Co-op",
+"company": "Werfen",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4478012113": {
+"first_seen": "2026-10-10",
+"title": "Intern",
+"company": "Skyworks Solutions, Inc.",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4477875830": {
+"first_seen": "2026-10-10",
+"title": "ASIC Engineer Intern",
+"company": "Hewlett Packard Enterprise",
 "desc": ""
 }
 }
