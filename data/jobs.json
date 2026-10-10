@@ -164,7 +164,6 @@
   "hw": "electrical engineer",
   "tier": "big",
   "sources": [
-   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-09-17",
@@ -216,7 +215,6 @@
   "hw": "test engineer",
   "tier": "big",
   "sources": [
-   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-10-06",
@@ -1477,7 +1475,6 @@
   "hw": "electrical engineer",
   "tier": "big",
   "sources": [
-   "internlist:coop",
    "workday"
   ],
   "first_seen": "2026-09-18",
@@ -1512,7 +1509,6 @@
   "hw": "metrology",
   "tier": "big",
   "sources": [
-   "internlist:coop",
    "workday"
   ],
   "first_seen": "2026-09-18",
@@ -1530,7 +1526,6 @@
   "hw": "product engineering",
   "tier": "big",
   "sources": [
-   "internlist:coop",
    "workday"
   ],
   "first_seen": "2026-09-18",
@@ -3931,8 +3926,7 @@
   "hw": "electrical engineering",
   "tier": "big",
   "sources": [
-   "greenhouse",
-   "internlist:coop"
+   "greenhouse"
   ],
   "first_seen": "2026-09-17",
   "last_seen": "2026-10-10"
@@ -5037,7 +5031,6 @@
   "hw": "silicon",
   "tier": "big",
   "sources": [
-   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-09-17",
@@ -5083,7 +5076,7 @@
   "title": "Avionics Engineering Internship - Spring 2027",
   "location": "El Segundo, California, United States",
   "url": "https://job-boards.greenhouse.io/vardaspace/jobs/7824780003",
-  "posted": "2026-10-01",
+  "posted": "2026-10-10",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -5100,7 +5093,7 @@
   "title": "Biologics Formulation Research Internship - Spring 2027",
   "location": "El Segundo, California, United States",
   "url": "https://job-boards.greenhouse.io/vardaspace/jobs/7824834003",
-  "posted": "2026-10-01",
+  "posted": "2026-10-10",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -5117,7 +5110,7 @@
   "title": "Cybersecurity Internship - Spring 2027",
   "location": "El Segundo, California, United States",
   "url": "https://job-boards.greenhouse.io/vardaspace/jobs/7824766003",
-  "posted": "2026-10-01",
+  "posted": "2026-10-10",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -5134,7 +5127,7 @@
   "title": "Environmental Health & Safety (EHS) Internship - Spring 2027",
   "location": "El Segundo, California, United States",
   "url": "https://job-boards.greenhouse.io/vardaspace/jobs/7824783003",
-  "posted": "2026-10-01",
+  "posted": "2026-10-10",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -5151,7 +5144,7 @@
   "title": "Flight Software Internship - Spring 2027",
   "location": "El Segundo, California, United States",
   "url": "https://job-boards.greenhouse.io/vardaspace/jobs/7824815003",
-  "posted": "2026-10-01",
+  "posted": "2026-10-10",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -5168,7 +5161,7 @@
   "title": "Guidance, Navigation & Controls (GNC) Internship - Spring 2027",
   "location": "El Segundo, California, United States",
   "url": "https://job-boards.greenhouse.io/vardaspace/jobs/7824781003",
-  "posted": "2026-10-01",
+  "posted": "2026-10-10",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -5185,7 +5178,7 @@
   "title": "Manufacturing Engineering Internship - Spring 2027",
   "location": "El Segundo, California, United States",
   "url": "https://job-boards.greenhouse.io/vardaspace/jobs/7824767003",
-  "posted": "2026-10-01",
+  "posted": "2026-10-10",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -5202,7 +5195,7 @@
   "title": "Mechanisms & Payload Internship - Spring 2027",
   "location": "El Segundo, California, United States",
   "url": "https://job-boards.greenhouse.io/vardaspace/jobs/7824821003",
-  "posted": "2026-10-01",
+  "posted": "2026-10-10",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -5219,7 +5212,7 @@
   "title": "Propulsion Engineering Internship - Spring 2027",
   "location": "El Segundo, California, United States",
   "url": "https://job-boards.greenhouse.io/vardaspace/jobs/7824765003",
-  "posted": "2026-10-01",
+  "posted": "2026-10-10",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -5236,7 +5229,7 @@
   "title": "Site Reliability Internship - Spring 2027",
   "location": "El Segundo, California, United States",
   "url": "https://job-boards.greenhouse.io/vardaspace/jobs/7824814003",
-  "posted": "2026-10-01",
+  "posted": "2026-10-10",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -5253,7 +5246,7 @@
   "title": "Structures Engineering Internship - Spring 2027",
   "location": "El Segundo, California, United States",
   "url": "https://job-boards.greenhouse.io/vardaspace/jobs/7824817003",
-  "posted": "2026-10-01",
+  "posted": "2026-10-10",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -5270,7 +5263,7 @@
   "title": "Structures Engineering Internship - Summer 2027",
   "location": "El Segundo, California, United States",
   "url": "https://job-boards.greenhouse.io/vardaspace/jobs/8010167003",
-  "posted": "2026-10-01",
+  "posted": "2026-10-10",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -5287,7 +5280,7 @@
   "title": "Supply Chain Internship - Spring 2027",
   "location": "El Segundo, California, United States",
   "url": "https://job-boards.greenhouse.io/vardaspace/jobs/7824827003",
-  "posted": "2026-10-01",
+  "posted": "2026-10-10",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -5304,7 +5297,7 @@
   "title": "Thermal Engineering Internship - Summer 2027",
   "location": "El Segundo, California, United States",
   "url": "https://job-boards.greenhouse.io/vardaspace/jobs/8010172003",
-  "posted": "2026-10-01",
+  "posted": "2026-10-10",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -5321,7 +5314,7 @@
   "title": "Vehicle Integration & Test Internship - Spring 2027",
   "location": "El Segundo, California, United States",
   "url": "https://job-boards.greenhouse.io/vardaspace/jobs/7824772003",
-  "posted": "2026-10-01",
+  "posted": "2026-10-10",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -5685,8 +5678,7 @@
   "hw": "electrical",
   "tier": "startup",
   "sources": [
-   "greenhouse",
-   "jobspy:linkedin"
+   "greenhouse"
   ],
   "first_seen": "2026-09-17",
   "last_seen": "2026-10-10"
@@ -6590,7 +6582,6 @@
   "hw": "process engineer",
   "tier": "big",
   "sources": [
-   "jobspy:linkedin",
    "workday"
   ],
   "first_seen": "2026-10-07",
@@ -7651,9 +7642,9 @@
  {
   "company": "Entegris",
   "title": "Manufacturing Engineering Co-Op",
-  "location": "Bloomington, MN",
-  "url": "https://entegris.wd1.myworkdayjobs.com/EntegrisCareers/job/Bloomington-MN/Manufacturing-Engineering-Co-Op_REQ-14417",
-  "posted": "Posted 30+ Days Ago",
+  "location": "Colorado Springs, CO",
+  "url": "https://entegris.wd1.myworkdayjobs.com/EntegrisCareers/job/Colorado-Springs-CO/Manufacturing-Engineering-Co-Op_REQ-14508",
+  "posted": "Posted 30 Days Ago",
   "deadline": "",
   "term": "coop-unspecified",
   "rank": "B",
@@ -7668,9 +7659,9 @@
  {
   "company": "Entegris",
   "title": "Manufacturing Engineering Co-Op",
-  "location": "Colorado Springs, CO",
-  "url": "https://entegris.wd1.myworkdayjobs.com/EntegrisCareers/job/Colorado-Springs-CO/Manufacturing-Engineering-Co-Op_REQ-14508",
-  "posted": "Posted 30 Days Ago",
+  "location": "Bloomington, MN",
+  "url": "https://entegris.wd1.myworkdayjobs.com/EntegrisCareers/job/Bloomington-MN/Manufacturing-Engineering-Co-Op_REQ-14417",
+  "posted": "Posted 30+ Days Ago",
   "deadline": "",
   "term": "coop-unspecified",
   "rank": "B",
@@ -7752,23 +7743,6 @@
  },
  {
   "company": "Entegris",
-  "title": "Manufacturing Systems and Planning Co-Op",
-  "location": "Rockrimmon, Colorado Springs, CO",
-  "url": "https://entegris.wd1.myworkdayjobs.com/EntegrisCareers/job/Rockrimmon-Colorado-Springs-CO/Manufacturing-Systems-and-Planning-Co-Op_REQ-14410",
-  "posted": "Posted 30+ Days Ago",
-  "deadline": "",
-  "term": "coop-unspecified",
-  "rank": "B",
-  "hw": "maybe",
-  "tier": "big",
-  "sources": [
-   "workday"
-  ],
-  "first_seen": "2026-10-06",
-  "last_seen": "2026-10-10"
- },
- {
-  "company": "Entegris",
   "title": "Materials Engineering Co-Op",
   "location": "Chaska, MN",
   "url": "https://entegris.wd1.myworkdayjobs.com/EntegrisCareers/job/Chaska-MN/Materials-Engineering-Co-Op_REQ-14451",
@@ -7787,9 +7761,9 @@
  {
   "company": "Entegris",
   "title": "NPI Engineering Co-Op",
-  "location": "Chaska, MN",
-  "url": "https://entegris.wd1.myworkdayjobs.com/EntegrisCareers/job/Chaska-MN/NPI-Engineering-Co-Op_REQ-14426",
-  "posted": "Posted 29 Days Ago",
+  "location": "Rockrimmon, Colorado Springs, CO",
+  "url": "https://entegris.wd1.myworkdayjobs.com/EntegrisCareers/job/Rockrimmon-Colorado-Springs-CO/NPI-Engineering-Co-Op_REQ-14488",
+  "posted": "Posted 30 Days Ago",
   "deadline": "",
   "term": "coop-unspecified",
   "rank": "B",
@@ -7804,9 +7778,9 @@
  {
   "company": "Entegris",
   "title": "NPI Engineering Co-Op",
-  "location": "Rockrimmon, Colorado Springs, CO",
-  "url": "https://entegris.wd1.myworkdayjobs.com/EntegrisCareers/job/Rockrimmon-Colorado-Springs-CO/NPI-Engineering-Co-Op_REQ-14488",
-  "posted": "Posted 30 Days Ago",
+  "location": "Chaska, MN",
+  "url": "https://entegris.wd1.myworkdayjobs.com/EntegrisCareers/job/Chaska-MN/NPI-Engineering-Co-Op_REQ-14426",
+  "posted": "Posted 29 Days Ago",
   "deadline": "",
   "term": "coop-unspecified",
   "rank": "B",
@@ -9559,9 +9533,7 @@
   "hw": "firmware",
   "tier": "big",
   "sources": [
-   "greenhouse",
-   "internlist:coop",
-   "internlist:winter-spring"
+   "greenhouse"
   ],
   "first_seen": "2026-09-24",
   "last_seen": "2026-10-10"
@@ -14316,8 +14288,7 @@
   "hw": "packaging engineer,silicon",
   "tier": "startup",
   "sources": [
-   "greenhouse",
-   "internlist:winter-spring"
+   "greenhouse"
   ],
   "first_seen": "2026-09-17",
   "last_seen": "2026-10-10"
@@ -16738,23 +16709,6 @@
  },
  {
   "company": "Seagate",
-  "title": "Hardware Engineering Intern",
-  "location": "",
-  "url": "https://seagatecareers.com/job/Hardware-Engineering-Intern/15010-en_US",
-  "posted": "2026-09-09",
-  "deadline": "",
-  "term": "unspecified",
-  "rank": "C",
-  "hw": "hardware",
-  "tier": "big",
-  "sources": [
-   "successfactors"
-  ],
-  "first_seen": "2026-09-18",
-  "last_seen": "2026-10-10"
- },
- {
-  "company": "Seagate",
   "title": "Hardware Validation Intern",
   "location": "",
   "url": "https://seagatecareers.com/job/Hardware-Validation-Intern/15011-en_US",
@@ -17157,7 +17111,6 @@
   "hw": "analog",
   "tier": "big",
   "sources": [
-   "jobspy:linkedin",
    "oracle_hcm"
   ],
   "first_seen": "2026-10-08",
@@ -17577,7 +17530,7 @@
   "title": "University Recruiter ",
   "location": "El Segundo, California, United States",
   "url": "https://job-boards.greenhouse.io/vardaspace/jobs/8016066003",
-  "posted": "2026-10-08",
+  "posted": "2026-10-10",
   "deadline": "",
   "term": "unspecified",
   "rank": "C",
