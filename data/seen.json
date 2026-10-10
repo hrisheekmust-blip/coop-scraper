@@ -1587,7 +1587,7 @@
 },
 "https://simplify.jobs/jobs/click/182d99fd-858d-4860-93b7-4f77b0167c1b": {
 "first_seen": "2026-09-18",
-"title": "Electrical Engineer Co-op",
+"title": "ARC Electrical Engineer CO-OP",
 "company": "GE Healthcare",
 "desc": ""
 },
@@ -2775,7 +2775,7 @@
 },
 "https://simplify.jobs/jobs/click/14ec984d-ef65-43ce-b7aa-c632eeeec417": {
 "first_seen": "2026-09-18",
-"title": "Electrical Engineering Intern",
+"title": "Electrical Engineer Intern",
 "company": "Sierra Lobo",
 "desc": ""
 },
@@ -10168,7 +10168,7 @@
 "https://simplify.jobs/jobs/click/9750e606-5a81-4a74-9492-ca1a93b10e38": {
 "first_seen": "2026-10-01",
 "title": "Optical Engineer Intern",
-"company": "KLA Corporation",
+"company": "KLA",
 "desc": ""
 },
 "https://simplify.jobs/jobs/click/66fd3b4a-cc9c-4090-9786-0bf42637abfd": {
@@ -12711,7 +12711,7 @@
 },
 "https://simplify.jobs/jobs/click/50e44cc5-709f-4a31-bcc9-c9ec3e559b93": {
 "first_seen": "2026-10-08",
-"title": "Electrical Engineer Intern Co-op",
+"title": "Electrical Engineer Intern / Co-Op",
 "company": "Real Alloy",
 "desc": ""
 },
@@ -13247,6 +13247,24 @@
 "first_seen": "2026-10-10",
 "title": "ASIC Engineer Intern",
 "company": "Hewlett Packard Enterprise",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4475601970": {
+"first_seen": "2026-10-10",
+"title": "ASIC Engineer Intern, Architecture",
+"company": "Meta",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4475618187": {
+"first_seen": "2026-10-10",
+"title": "ASIC Engineer Intern, Architecture",
+"company": "Meta",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4476900580": {
+"first_seen": "2026-10-10",
+"title": "FPGA Engineer Intern",
+"company": "Garmin",
 "desc": ""
 }
 }
