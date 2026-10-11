@@ -635,8 +635,8 @@
 },
 "https://www.indeed.com/viewjob": {
 "first_seen": "2026-09-18",
-"title": "Electrical Engineering Co-Op",
-"company": "Bose",
+"title": "Co-op: Electrical Engineering, Cranberry (Spring 2027)",
+"company": "MSA Safety",
 "desc": ""
 },
 "https://www.linkedin.com/jobs/view/4468697840": {
@@ -5721,7 +5721,7 @@
 },
 "https://simplify.jobs/jobs/click/83de3761-248d-42c2-9cf7-748b89606866": {
 "first_seen": "2026-09-20",
-"title": "Midstream Instrumentation & Electrical Technician Intern",
+"title": "Instrumentation & Electrical Technician Intern",
 "company": "Phillips 66",
 "desc": ""
 },
@@ -13149,7 +13149,7 @@
 },
 "https://www.linkedin.com/jobs/view/4477854443": {
 "first_seen": "2026-10-09",
-"title": "Optics Engineering Co-Op- San Diego State University",
+"title": "Optics Process Engineering Co-Op- San Diego State University",
 "company": "Samtec Inc",
 "desc": ""
 },
@@ -13343,6 +13343,30 @@
 "first_seen": "2026-10-11",
 "title": "Electrical Engineering Intern",
 "company": "Voltair",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4477896195": {
+"first_seen": "2026-10-11",
+"title": "Intern, Test Engineering",
+"company": "Harbinger",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4475227415": {
+"first_seen": "2026-10-11",
+"title": "Systems Integration and Test Engineer Intern",
+"company": "Lockheed Martin",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4475650967": {
+"first_seen": "2026-10-11",
+"title": "Reliability Engineering Intern",
+"company": "MechSpire",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4476895394": {
+"first_seen": "2026-10-11",
+"title": "Intern, R&D Undergraduate Summer - Resilient Embedded Systems, Onsite",
+"company": "Sandia National Laboratories",
 "desc": ""
 }
 }
