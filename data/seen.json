@@ -10168,7 +10168,7 @@
 "https://simplify.jobs/jobs/click/9750e606-5a81-4a74-9492-ca1a93b10e38": {
 "first_seen": "2026-10-01",
 "title": "Optical Engineer Intern",
-"company": "KLA Corporation",
+"company": "KLA",
 "desc": ""
 },
 "https://simplify.jobs/jobs/click/66fd3b4a-cc9c-4090-9786-0bf42637abfd": {
@@ -13319,6 +13319,30 @@
 "first_seen": "2026-10-11",
 "title": "Hardware Engineer I (Intern) - United States",
 "company": "Cisco",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/03ef3ae7-6187-4dc4-b071-8321ca680d8b": {
+"first_seen": "2026-10-11",
+"title": "Embedded Controls Engineer Co-op",
+"company": "RTX",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/8aad9dcb-a19f-48c5-ad5f-debd03b46dfd": {
+"first_seen": "2026-10-11",
+"title": "Embedded Controls Hardware Engineer Co-op",
+"company": "RTX",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4477256282": {
+"first_seen": "2026-10-11",
+"title": "CSG Hardware Engineering Intern",
+"company": "Dell Technologies",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4476810800": {
+"first_seen": "2026-10-11",
+"title": "Electrical Engineering Intern",
+"company": "Voltair",
 "desc": ""
 }
 }
