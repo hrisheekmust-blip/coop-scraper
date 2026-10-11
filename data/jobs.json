@@ -147,7 +147,6 @@
   "hw": "electrical engineer",
   "tier": "big",
   "sources": [
-   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-09-17",
@@ -199,7 +198,6 @@
   "hw": "test engineer",
   "tier": "big",
   "sources": [
-   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-10-06",
@@ -1375,7 +1373,6 @@
   "hw": "electrical engineer",
   "tier": "big",
   "sources": [
-   "internlist:coop",
    "workday"
   ],
   "first_seen": "2026-09-18",
@@ -1410,7 +1407,6 @@
   "hw": "metrology",
   "tier": "big",
   "sources": [
-   "internlist:coop",
    "workday"
   ],
   "first_seen": "2026-09-18",
@@ -1428,7 +1424,6 @@
   "hw": "product engineering",
   "tier": "big",
   "sources": [
-   "internlist:coop",
    "workday"
   ],
   "first_seen": "2026-09-18",
@@ -3711,8 +3706,7 @@
   "hw": "electrical engineering",
   "tier": "big",
   "sources": [
-   "greenhouse",
-   "internlist:coop"
+   "greenhouse"
   ],
   "first_seen": "2026-09-17",
   "last_seen": "2026-10-11"
@@ -4766,7 +4760,6 @@
   "hw": "silicon",
   "tier": "big",
   "sources": [
-   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-09-17",
@@ -9303,9 +9296,7 @@
   "hw": "firmware",
   "tier": "big",
   "sources": [
-   "greenhouse",
-   "internlist:coop",
-   "internlist:winter-spring"
+   "greenhouse"
   ],
   "first_seen": "2026-09-24",
   "last_seen": "2026-10-11"
@@ -14025,8 +14016,7 @@
   "hw": "packaging engineer,silicon",
   "tier": "startup",
   "sources": [
-   "greenhouse",
-   "internlist:winter-spring"
+   "greenhouse"
   ],
   "first_seen": "2026-09-17",
   "last_seen": "2026-10-11"
@@ -16413,9 +16403,9 @@
  },
  {
   "company": "Seagate",
-  "title": "Hardware Validation Intern",
+  "title": "Hardware Engineering Intern",
   "location": "",
-  "url": "https://seagatecareers.com/job/Hardware-Validation-Intern/15011-en_US",
+  "url": "https://seagatecareers.com/job/Hardware-Engineering-Intern/15010-en_US",
   "posted": "2026-09-09",
   "deadline": "",
   "term": "unspecified",
@@ -16430,19 +16420,19 @@
  },
  {
   "company": "Seagate",
-  "title": "Head Failure Analysis Intern",
+  "title": "Hardware Validation Intern",
   "location": "",
-  "url": "https://seagatecareers.com/job/Head-Failure-Analysis-Intern/15130-en_US",
-  "posted": "2026-10-02",
+  "url": "https://seagatecareers.com/job/Hardware-Validation-Intern/15011-en_US",
+  "posted": "2026-09-09",
   "deadline": "",
   "term": "unspecified",
   "rank": "C",
-  "hw": "failure analysis",
+  "hw": "hardware",
   "tier": "big",
   "sources": [
    "successfactors"
   ],
-  "first_seen": "2026-10-02",
+  "first_seen": "2026-09-18",
   "last_seen": "2026-10-11"
  },
  {
@@ -16483,8 +16473,8 @@
   "company": "Seagate",
   "title": "Product Engineering Intern",
   "location": "Nakhon Ratchasima, THA, ",
-  "url": "https://seagatecareers.com/job/Product-Engineering-Intern/14645-en_US",
-  "posted": "2026-07-20",
+  "url": "https://seagatecareers.com/job/Product-Engineering-Intern/14647-en_US",
+  "posted": "2026-07-01",
   "deadline": "",
   "term": "unspecified",
   "rank": "C",
@@ -16815,7 +16805,6 @@
   "hw": "analog",
   "tier": "big",
   "sources": [
-   "jobspy:linkedin",
    "oracle_hcm"
   ],
   "first_seen": "2026-10-08",
