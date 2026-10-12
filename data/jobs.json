@@ -147,7 +147,6 @@
   "hw": "electrical engineer",
   "tier": "big",
   "sources": [
-   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-09-17",
@@ -199,7 +198,6 @@
   "hw": "test engineer",
   "tier": "big",
   "sources": [
-   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-10-06",
@@ -1359,8 +1357,6 @@
   "hw": "electrical engineer",
   "tier": "big",
   "sources": [
-   "internlist:coop",
-   "jobspy:linkedin",
    "workday"
   ],
   "first_seen": "2026-09-18",
@@ -1412,7 +1408,6 @@
   "hw": "metrology",
   "tier": "big",
   "sources": [
-   "internlist:coop",
    "workday"
   ],
   "first_seen": "2026-09-18",
@@ -1430,7 +1425,6 @@
   "hw": "product engineering",
   "tier": "big",
   "sources": [
-   "internlist:coop",
    "workday"
   ],
   "first_seen": "2026-09-18",
@@ -1642,6 +1636,23 @@
  },
  {
   "company": "Figure AI",
+  "title": "Deployment Engineering Intern",
+  "location": "San Jose, CA",
+  "url": "https://job-boards.greenhouse.io/figureai/jobs/4721113006",
+  "posted": "2026-10-12",
+  "deadline": "",
+  "term": "spring",
+  "rank": "A",
+  "hw": "maybe",
+  "tier": "startup",
+  "sources": [
+   "greenhouse"
+  ],
+  "first_seen": "2026-10-12",
+  "last_seen": "2026-10-12"
+ },
+ {
+  "company": "Figure AI",
   "title": "Electrical Engineering Intern [Winter 2027]",
   "location": "San Jose, CA",
   "url": "https://job-boards.greenhouse.io/figureai/jobs/4676467006",
@@ -1697,23 +1708,6 @@
   "location": "San Jose, CA",
   "url": "https://job-boards.greenhouse.io/figureai/jobs/4605724006",
   "posted": "2026-10-09",
-  "deadline": "",
-  "term": "spring",
-  "rank": "A",
-  "hw": "maybe",
-  "tier": "startup",
-  "sources": [
-   "greenhouse"
-  ],
-  "first_seen": "2026-10-07",
-  "last_seen": "2026-10-12"
- },
- {
-  "company": "Figure AI",
-  "title": "Security Engineer Intern [Winter 2027]",
-  "location": "San Jose, CA",
-  "url": "https://job-boards.greenhouse.io/figureai/jobs/4719593006",
-  "posted": "2026-10-08",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -2986,23 +2980,6 @@
  },
  {
   "company": "RTX",
-  "title": "Electrical Engineer COOP (RF and Digital Design) (January 2027) (Hybrid)",
-  "location": "US-PR-AGUADILLA-110 ~ Rd 110 N Km 28.8 ~ RD110",
-  "url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-PR-AGUADILLA-110--Rd-110-N-Km-288--RD110/Electrical-Engineer-COOP--RF-and-Digital-Design---January-2027---Hybrid-_01874113",
-  "posted": "Posted 11 Days Ago",
-  "deadline": "",
-  "term": "spring",
-  "rank": "A",
-  "hw": "digital design,electrical engineer,rf",
-  "tier": "big",
-  "sources": [
-   "workday"
-  ],
-  "first_seen": "2026-10-01",
-  "last_seen": "2026-10-12"
- },
- {
-  "company": "RTX",
   "title": "Electrical Engineering Co-op",
   "location": "CA-ON-MIDLAND-450 ~ 450 Leitz Rd ~ BLDG 450",
   "url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/CA-ON-MIDLAND-450--450-Leitz-Rd--BLDG-450/Electrical-Engineering-Co-op_01878707",
@@ -3106,9 +3083,9 @@
  {
   "company": "RTX",
   "title": "Industrial Engineering Co-Op (Spring/Summer 2027)",
-  "location": "US-IA-CEDAR RAPIDS-108 ~ 400 Collins Rd NE ~ BLDG 108",
-  "url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-IA-CEDAR-RAPIDS-108--400-Collins-Rd-NE--BLDG-108/Industrial-Engineering-Co-Op--Spring-Summer-2027-_01879706",
-  "posted": "Posted 6 Days Ago",
+  "location": "US-IA-CEDAR RAPIDS-109 ~ 400 Collins Rd NE ~ BLDG 109",
+  "url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-IA-CEDAR-RAPIDS-109--400-Collins-Rd-NE--BLDG-109/Industrial-Engineering-Co-Op--Spring-Summer-2027-_01871431",
+  "posted": "Posted Today",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -3117,7 +3094,7 @@
   "sources": [
    "workday"
   ],
-  "first_seen": "2026-10-06",
+  "first_seen": "2026-10-12",
   "last_seen": "2026-10-12"
  },
  {
@@ -3173,10 +3150,10 @@
  },
  {
   "company": "RTX",
-  "title": "Manufacturing Engineering Co-Op (Spring/Summer 2027)",
-  "location": "US-OH-TROY-101 ~ 101 Waco St ~ WACO",
-  "url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-OH-TROY-101--101-Waco-St--WACO/Manufacturing-Engineering-Co-Op--Spring-Summer-2027-_01879477",
-  "posted": "Posted 6 Days Ago",
+  "title": "Manufacturing Engineering Co-op (Spring/Summer 2027)",
+  "location": "US-VA-STERLING-291 ~ 22640 Davis Dr ~ DAVIS",
+  "url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-VA-STERLING-291--22640-Davis-Dr--DAVIS/Manufacturing-Engineering-Co-op--Spring-Summer-2027-_01878577",
+  "posted": "Posted Today",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -3185,7 +3162,7 @@
   "sources": [
    "workday"
   ],
-  "first_seen": "2026-10-06",
+  "first_seen": "2026-10-12",
   "last_seen": "2026-10-12"
  },
  {
@@ -3271,23 +3248,6 @@
    "workday"
   ],
   "first_seen": "2026-10-07",
-  "last_seen": "2026-10-12"
- },
- {
-  "company": "RTX",
-  "title": "Stage - Hiver 2027-Stagiaire Technicien en Instrumentation/Internship - Winter 2027-Instrumentation Technician",
-  "location": "CA-QC-LONGUEUIL-J01 ~ 1000 Blvd Marie-Victorin ~ J01 BLDG",
-  "url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/CA-QC-LONGUEUIL-J01--1000-Blvd-Marie-Victorin--J01-BLDG/Stage---Hiver-2027-Stagiaire-Technicien-en-Instrumentation-Internship---Winter-2027-Instrumentation-Technician_01878634",
-  "posted": "Posted 6 Days Ago",
-  "deadline": "",
-  "term": "spring",
-  "rank": "A",
-  "hw": "instrumentation",
-  "tier": "big",
-  "sources": [
-   "workday"
-  ],
-  "first_seen": "2026-10-06",
   "last_seen": "2026-10-12"
  },
  {
@@ -3591,8 +3551,7 @@
   "hw": "electrical engineering",
   "tier": "big",
   "sources": [
-   "greenhouse",
-   "internlist:coop"
+   "greenhouse"
   ],
   "first_seen": "2026-09-17",
   "last_seen": "2026-10-12"
@@ -4629,7 +4588,6 @@
   "hw": "silicon",
   "tier": "big",
   "sources": [
-   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-09-17",
@@ -5097,23 +5055,6 @@
  },
  {
   "company": "Zipline",
-  "title": "Civil and Structural Engineer Intern (Spring 2027)",
-  "location": "South San Francisco, California, USA",
-  "url": "https://www.zipline.com/open-roles/7904457003?gh_jid=7904457003",
-  "posted": "2026-10-03",
-  "deadline": "",
-  "term": "spring",
-  "rank": "A",
-  "hw": "maybe",
-  "tier": "startup",
-  "sources": [
-   "greenhouse"
-  ],
-  "first_seen": "2026-09-18",
-  "last_seen": "2026-10-12"
- },
- {
-  "company": "Zipline",
   "title": "Commercial Implementation Intern (Spring 2027)",
   "location": "South San Francisco, California, USA",
   "url": "https://www.zipline.com/open-roles/7999499003?gh_jid=7999499003",
@@ -5277,8 +5218,7 @@
   "hw": "electrical",
   "tier": "startup",
   "sources": [
-   "greenhouse",
-   "jobspy:linkedin"
+   "greenhouse"
   ],
   "first_seen": "2026-09-17",
   "last_seen": "2026-10-12"
@@ -5312,8 +5252,7 @@
   "hw": "firmware",
   "tier": "startup",
   "sources": [
-   "greenhouse",
-   "jobspy:linkedin"
+   "greenhouse"
   ],
   "first_seen": "2026-10-10",
   "last_seen": "2026-10-12"
@@ -7209,23 +7148,6 @@
  {
   "company": "Entegris",
   "title": "Manufacturing Engineer Co-Op",
-  "location": "Rockrimmon, Colorado Springs, CO",
-  "url": "https://entegris.wd1.myworkdayjobs.com/EntegrisCareers/job/Rockrimmon-Colorado-Springs-CO/Manufacturing-Engineer-Co-Op_REQ-14411",
-  "posted": "Posted 30+ Days Ago",
-  "deadline": "",
-  "term": "coop-unspecified",
-  "rank": "B",
-  "hw": "maybe",
-  "tier": "big",
-  "sources": [
-   "workday"
-  ],
-  "first_seen": "2026-09-18",
-  "last_seen": "2026-10-12"
- },
- {
-  "company": "Entegris",
-  "title": "Manufacturing Engineer Co-Op",
   "location": "Bedford, MA",
   "url": "https://entegris.wd1.myworkdayjobs.com/EntegrisCareers/job/Bedford-MA/Manufacturing-Engineer-Co-Op_REQ-14484",
   "posted": "Posted 30+ Days Ago",
@@ -7357,6 +7279,23 @@
    "workday"
   ],
   "first_seen": "2026-09-25",
+  "last_seen": "2026-10-12"
+ },
+ {
+  "company": "Entegris",
+  "title": "Mechanical Test Engineer Co-Op",
+  "location": "Chaska, MN",
+  "url": "https://entegris.wd1.myworkdayjobs.com/EntegrisCareers/job/Chaska-MN/Mechanical-Test-Engineer-Co-Op_REQ-14477-1",
+  "posted": "Posted 30+ Days Ago",
+  "deadline": "",
+  "term": "coop-unspecified",
+  "rank": "B",
+  "hw": "maybe",
+  "tier": "big",
+  "sources": [
+   "workday"
+  ],
+  "first_seen": "2026-10-12",
   "last_seen": "2026-10-12"
  },
  {
@@ -7527,6 +7466,23 @@
    "workday"
   ],
   "first_seen": "2026-09-18",
+  "last_seen": "2026-10-12"
+ },
+ {
+  "company": "Entegris",
+  "title": "Science & Engineering Co-op",
+  "location": "Bedford, MA",
+  "url": "https://entegris.wd1.myworkdayjobs.com/EntegrisCareers/job/Bedford-MA/Science---Engineering-Co-op_REQ-14396",
+  "posted": "Posted 30+ Days Ago",
+  "deadline": "",
+  "term": "coop-unspecified",
+  "rank": "B",
+  "hw": "maybe",
+  "tier": "big",
+  "sources": [
+   "workday"
+  ],
+  "first_seen": "2026-10-12",
   "last_seen": "2026-10-12"
  },
  {
@@ -7735,6 +7691,23 @@
  },
  {
   "company": "GE Aerospace",
+  "title": "Engines Engineering Co-op \u2013 US \u2013 Fall 2027 - Returning Students",
+  "location": "2 Locations",
+  "url": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Evendale/Engines-Engineering-Co-op---US---Fall-2027---Returning-Students_R5030072-2",
+  "posted": "Posted Today",
+  "deadline": "",
+  "term": "coop-unspecified",
+  "rank": "B",
+  "hw": "maybe",
+  "tier": "big",
+  "sources": [
+   "workday"
+  ],
+  "first_seen": "2026-10-12",
+  "last_seen": "2026-10-12"
+ },
+ {
+  "company": "GE Aerospace",
   "title": "Manufacturing Engineering Co-op \u2013 US \u2013 Fall 2027",
   "location": "23 Locations",
   "url": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Evendale/Manufacturing-Engineering-Co-op---US---Fall-2027_R5029664-1",
@@ -7748,6 +7721,23 @@
    "workday"
   ],
   "first_seen": "2026-09-18",
+  "last_seen": "2026-10-12"
+ },
+ {
+  "company": "GE Aerospace",
+  "title": "Manufacturing Engineering Co-op \u2013 US \u2013 Fall 2027 - Returning Students",
+  "location": "23 Locations",
+  "url": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Evendale/Manufacturing-Engineering-Co-op---US---Fall-2027---Returning-Students_R5030081-1",
+  "posted": "Posted Today",
+  "deadline": "",
+  "term": "coop-unspecified",
+  "rank": "B",
+  "hw": "maybe",
+  "tier": "big",
+  "sources": [
+   "workday"
+  ],
+  "first_seen": "2026-10-12",
   "last_seen": "2026-10-12"
  },
  {
@@ -7769,6 +7759,23 @@
  },
  {
   "company": "GE Aerospace",
+  "title": "Systems Engineering Co-op - Electrical Engineering & Computer Engineering/Science (Avionics) - US - Fall 2027 - Returning Students",
+  "location": "2 Locations",
+  "url": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Grand-Rapids/Systems-Engineering-Co-op---Electrical-Engineering---Computer-Engineering-Science--Avionics----US---Fall-2027---Returning-Students_R5030180-1",
+  "posted": "Posted Today",
+  "deadline": "",
+  "term": "coop-unspecified",
+  "rank": "B",
+  "hw": "electrical engineering",
+  "tier": "big",
+  "sources": [
+   "workday"
+  ],
+  "first_seen": "2026-10-12",
+  "last_seen": "2026-10-12"
+ },
+ {
+  "company": "GE Aerospace",
   "title": "Systems Engineering Co-op - Electrical Engineering & Computer Engineering/Science (Electric Power) - US - Fall 2027",
   "location": "2 Locations",
   "url": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Dayton/Systems-Engineering-Co-op---Electrical-Engineering---Computer-Engineering-Science--Electric-Power----US---Fall-2027_R5030143-1",
@@ -7782,6 +7789,23 @@
    "workday"
   ],
   "first_seen": "2026-09-18",
+  "last_seen": "2026-10-12"
+ },
+ {
+  "company": "GE Aerospace",
+  "title": "Systems Engineering Co-op - Electrical Engineering & Computer Engineering/Science (Electric Power) - US - Fall 2027 - Returning Students",
+  "location": "2 Locations",
+  "url": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Dayton/Systems-Engineering-Co-op---Electrical-Engineering---Computer-Engineering-Science--Electric-Power----US---Fall-2027---Returning-Students_R5030182-1",
+  "posted": "Posted Today",
+  "deadline": "",
+  "term": "coop-unspecified",
+  "rank": "B",
+  "hw": "electrical engineering",
+  "tier": "big",
+  "sources": [
+   "workday"
+  ],
+  "first_seen": "2026-10-12",
   "last_seen": "2026-10-12"
  },
  {
@@ -9100,9 +9124,7 @@
   "hw": "firmware",
   "tier": "big",
   "sources": [
-   "greenhouse",
-   "internlist:coop",
-   "internlist:winter-spring"
+   "greenhouse"
   ],
   "first_seen": "2026-09-24",
   "last_seen": "2026-10-12"
@@ -13720,8 +13742,7 @@
   "hw": "packaging engineer,silicon",
   "tier": "startup",
   "sources": [
-   "greenhouse",
-   "internlist:winter-spring"
+   "greenhouse"
   ],
   "first_seen": "2026-09-17",
   "last_seen": "2026-10-12"
@@ -14580,8 +14601,8 @@
   "company": "Moog",
   "title": "Intern, Product Engineering",
   "location": "Buffalo, NY",
-  "url": "https://moog.wd5.myworkdayjobs.com/MOOG_External_Career_Site/job/Buffalo-NY/Intern--Product-Engineering_R-26-20334",
-  "posted": "Posted 14 Days Ago",
+  "url": "https://moog.wd5.myworkdayjobs.com/MOOG_External_Career_Site/job/Buffalo-NY/Intern--Product-Engineering_R-26-20429",
+  "posted": "Posted Today",
   "deadline": "",
   "term": "unspecified",
   "rank": "C",
@@ -14590,7 +14611,7 @@
   "sources": [
    "workday"
   ],
-  "first_seen": "2026-09-28",
+  "first_seen": "2026-10-12",
   "last_seen": "2026-10-12"
  },
  {
@@ -14850,19 +14871,19 @@
  },
  {
   "company": "NXP",
-  "title": "Internship \u2013 Product Engineering (ML Model Development)",
-  "location": "Nijmegen",
-  "url": "https://nxp.wd3.myworkdayjobs.com/careers/job/Nijmegen/Internship---Product-Engineering--ML-Model-Development-_R-10064264-1",
-  "posted": "Posted 7 Days Ago",
+  "title": "Internship: Secure Firmware Development (m/f/d)",
+  "location": "Gratkorn",
+  "url": "https://nxp.wd3.myworkdayjobs.com/careers/job/Gratkorn/Internship--Secure-Firmware-Development--m-f-d-_R-10066772",
+  "posted": "Posted Today",
   "deadline": "",
   "term": "unspecified",
   "rank": "C",
-  "hw": "product engineering",
+  "hw": "firmware",
   "tier": "big",
   "sources": [
    "workday"
   ],
-  "first_seen": "2026-10-06",
+  "first_seen": "2026-10-12",
   "last_seen": "2026-10-12"
  },
  {
@@ -15733,23 +15754,6 @@
   "last_seen": "2026-10-12"
  },
  {
-  "company": "RTX",
-  "title": "Safety and Reliability Intern (Onsite)",
-  "location": "US-CT-EAST HARTFORD-ETC ~ 400 Main St ~ BLDG ETC",
-  "url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-CT-EAST-HARTFORD-ETC--400-Main-St--BLDG-ETC/Safety-and-Reliability-Intern--Onsite-_01873849",
-  "posted": "Posted 6 Days Ago",
-  "deadline": "",
-  "term": "unspecified",
-  "rank": "C",
-  "hw": "reliability",
-  "tier": "big",
-  "sources": [
-   "workday"
-  ],
-  "first_seen": "2026-09-18",
-  "last_seen": "2026-10-12"
- },
- {
   "company": "Redwood Materials",
   "title": "Test Automation Engineer Intern",
   "location": "San Francisco, CA",
@@ -16195,7 +16199,7 @@
   "company": "Seagate",
   "title": "Recording Head Test Engineering Intern",
   "location": "Samut Prakan, THA, ",
-  "url": "https://seagatecareers.com/job/Recording-Head-Test-Engineering-Intern/14901-en_US",
+  "url": "https://seagatecareers.com/job/Recording-Head-Test-Engineering-Intern/14903-en_US",
   "posted": "2026-08-19",
   "deadline": "",
   "term": "unspecified",
@@ -16205,7 +16209,7 @@
   "sources": [
    "successfactors"
   ],
-  "first_seen": "2026-09-18",
+  "first_seen": "2026-10-12",
   "last_seen": "2026-10-12"
  },
  {
