@@ -635,8 +635,8 @@
 },
 "https://www.indeed.com/viewjob": {
 "first_seen": "2026-09-18",
-"title": "Co-op: Electrical Engineering, Cranberry (Spring 2027)",
-"company": "MSA Safety",
+"title": "Electrical Engineering Co-Op",
+"company": "Bose",
 "desc": ""
 },
 "https://www.linkedin.com/jobs/view/4468697840": {
@@ -5721,7 +5721,7 @@
 },
 "https://simplify.jobs/jobs/click/83de3761-248d-42c2-9cf7-748b89606866": {
 "first_seen": "2026-09-20",
-"title": "Instrumentation & Electrical Technician Intern",
+"title": "Midstream Instrumentation & Electrical Technician Intern",
 "company": "Phillips 66",
 "desc": ""
 },
@@ -13397,6 +13397,24 @@
 "first_seen": "2026-10-12",
 "title": "Avionics Electrical Engineering Intern - Spring/Summer 2027",
 "company": "Hermeus",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4477125935": {
+"first_seen": "2026-10-12",
+"title": "Undergrad Co-op - Electrical Engineering (Jan - Mar 2027)",
+"company": "Amgen",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4475233714": {
+"first_seen": "2026-10-12",
+"title": "Electrical Engineering Intern - Spring 2027",
+"company": "STV",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4475699235": {
+"first_seen": "2026-10-12",
+"title": "Electrical Engineering - Intern",
+"company": "StructaLink Group",
 "desc": ""
 }
 }
