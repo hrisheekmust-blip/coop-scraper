@@ -635,8 +635,8 @@
 },
 "https://www.indeed.com/viewjob": {
 "first_seen": "2026-09-18",
-"title": "Electrical Engineering Co-Op",
-"company": "Bose",
+"title": "Hardware Development Co-Op",
+"company": "Nokia",
 "desc": ""
 },
 "https://www.linkedin.com/jobs/view/4468697840": {
@@ -10168,7 +10168,7 @@
 "https://simplify.jobs/jobs/click/9750e606-5a81-4a74-9492-ca1a93b10e38": {
 "first_seen": "2026-10-01",
 "title": "Optical Engineer Intern",
-"company": "KLA Corporation",
+"company": "KLA",
 "desc": ""
 },
 "https://simplify.jobs/jobs/click/66fd3b4a-cc9c-4090-9786-0bf42637abfd": {
@@ -13511,6 +13511,96 @@
 "first_seen": "2026-10-13",
 "title": "Hardware Development Co-Op",
 "company": "Nokia",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/659487b2-6d42-417e-ae1f-aef9c6b807bf": {
+"first_seen": "2026-10-13",
+"title": "Characterization Co-op",
+"company": "Sanofi",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/772840e3-4552-42aa-b102-8cb0e1752b13": {
+"first_seen": "2026-10-13",
+"title": "Electrical Engineering Co-op",
+"company": "SharkNinja",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/6cc0c358-c993-4a43-9ae7-5b05f84b3ad6": {
+"first_seen": "2026-10-13",
+"title": "Process Engineer Co-op",
+"company": "Ingredion",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/a2005a82-4241-4a44-8cc5-31c415670ba9": {
+"first_seen": "2026-10-13",
+"title": "Electrical Engineer Intern Co-op",
+"company": "Rugged Robotics",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/7e68ac6d-e42d-4ba4-9cdf-eb5b44a8c6e4": {
+"first_seen": "2026-10-13",
+"title": "Electrical Engineering Technology Co-op",
+"company": "MSA Safety",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/93c487ce-79a1-4da5-86f6-3cfebea198ed": {
+"first_seen": "2026-10-13",
+"title": "Electrical Engineering Co-op",
+"company": "MSA Safety",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/34e1ccac-6d72-4074-a9ab-c115f3476374": {
+"first_seen": "2026-10-13",
+"title": "Validation Engineer Intern Co-op",
+"company": "BorgWarner",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4476053343": {
+"first_seen": "2026-10-13",
+"title": "Hardware Development Co-Op",
+"company": "Nokia",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4477574473": {
+"first_seen": "2026-10-13",
+"title": "Spring 2027 Electrical / Controls Engineering Co-Op",
+"company": "Trew",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4477921940": {
+"first_seen": "2026-10-13",
+"title": "Intern - Electrical Engineer",
+"company": "Advanced Energy",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4478569756": {
+"first_seen": "2026-10-13",
+"title": "Systems Engineering Co-op - Electrical Engineering & Computer Engineering/Science (Electric Power) - US - Fall 2027 - Returning Students",
+"company": "GE Aerospace",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4476056137": {
+"first_seen": "2026-10-13",
+"title": "Spring Co-op - Recording Electronics Data Analytics & Optimization",
+"company": "WD",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4476033777": {
+"first_seen": "2026-10-13",
+"title": "Reliability Engineering Intern",
+"company": "Tech World Networking",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4477598912": {
+"first_seen": "2026-10-13",
+"title": "CVS: FPGA Electrical Engineer Intern",
+"company": "Space Dynamics Laboratory",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4476038668": {
+"first_seen": "2026-10-13",
+"title": "R&D Engineer 1, Hardware Intern",
+"company": "Keysight Technologies",
 "desc": ""
 }
 }
