@@ -300,7 +300,7 @@
 },
 "https://jobs.lever.co/shieldai/87d982f2-8b2b-4c73-9a19-71e461c7b724": {
 "first_seen": "2026-09-17",
-"title": "Electrical Engineering Spring Co-op (January 2027) (R4475)",
+"title": "Electrical Engineering Intern - X-BAT Avionics (R4475)",
 "company": "Shield AI",
 "desc": ""
 },
@@ -13487,6 +13487,30 @@
 "first_seen": "2026-10-12",
 "title": "Recording Head Test Engineering Intern",
 "company": "Seagate",
+"desc": ""
+},
+"https://job-boards.greenhouse.io/rocketlab/jobs/8007204003": {
+"first_seen": "2026-10-13",
+"title": "Ground Systems Engineering Intern Spring 2027",
+"company": "Rocket Lab",
+"desc": ""
+},
+"https://jobs.smartrecruiters.com/WesternDigital/744000155109379": {
+"first_seen": "2026-10-13",
+"title": "Spring Co-op - Recording Electronics Data Analytics & Optimization",
+"company": "Western Digital",
+"desc": ""
+},
+"https://entegris.wd1.myworkdayjobs.com/EntegrisCareers/job/Billerica-MA/Material-Quality-Engineering-Co-Op_REQ-14469": {
+"first_seen": "2026-10-13",
+"title": "Material Quality Engineering Co-Op",
+"company": "Entegris",
+"desc": ""
+},
+"https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/40268": {
+"first_seen": "2026-10-13",
+"title": "Hardware Development Co-Op",
+"company": "Nokia",
 "desc": ""
 }
 }
