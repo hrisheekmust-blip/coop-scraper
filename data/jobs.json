@@ -1244,6 +1244,23 @@
  },
  {
   "company": "Emerson",
+  "title": "Test & Evaluation Engineer Co-Op",
+  "location": "Marshalltown, IA, United States",
+  "url": "https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26010157",
+  "posted": "2026-10-13",
+  "deadline": "",
+  "term": "spring",
+  "rank": "A",
+  "hw": "maybe",
+  "tier": "big",
+  "sources": [
+   "oracle_hcm"
+  ],
+  "first_seen": "2026-09-18",
+  "last_seen": "2026-10-13"
+ },
+ {
+  "company": "Emerson",
   "title": "Test Engineering Co-op (Jan27-May27)",
   "location": "Shakopee, MN, United States",
   "url": "https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26009323",
@@ -3185,23 +3202,6 @@
  {
   "company": "Rocket Lab",
   "title": "Manufacturing Engineering Intern Spring 2027",
-  "location": "Wallops Island, VA",
-  "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7996617003",
-  "posted": "2026-09-17",
-  "deadline": "",
-  "term": "spring",
-  "rank": "A",
-  "hw": "maybe",
-  "tier": "big",
-  "sources": [
-   "greenhouse"
-  ],
-  "first_seen": "2026-09-18",
-  "last_seen": "2026-10-13"
- },
- {
-  "company": "Rocket Lab",
-  "title": "Manufacturing Engineering Intern Spring 2027",
   "location": "Long Beach, CA",
   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7984943003",
   "posted": "2026-09-16",
@@ -3222,6 +3222,23 @@
   "location": "Middle River, MD",
   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7987020003",
   "posted": "2026-09-16",
+  "deadline": "",
+  "term": "spring",
+  "rank": "A",
+  "hw": "maybe",
+  "tier": "big",
+  "sources": [
+   "greenhouse"
+  ],
+  "first_seen": "2026-09-18",
+  "last_seen": "2026-10-13"
+ },
+ {
+  "company": "Rocket Lab",
+  "title": "Manufacturing Engineering Intern Spring 2027",
+  "location": "Wallops Island, VA",
+  "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7996617003",
+  "posted": "2026-09-17",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -3304,23 +3321,6 @@
  {
   "company": "Rocket Lab",
   "title": "Test Engineering Intern Spring 2027",
-  "location": "Wallops Island, VA",
-  "url": "https://job-boards.greenhouse.io/rocketlab/jobs/8003533003",
-  "posted": "2026-10-13",
-  "deadline": "",
-  "term": "spring",
-  "rank": "A",
-  "hw": "test engineering",
-  "tier": "big",
-  "sources": [
-   "greenhouse"
-  ],
-  "first_seen": "2026-09-25",
-  "last_seen": "2026-10-13"
- },
- {
-  "company": "Rocket Lab",
-  "title": "Test Engineering Intern Spring 2027",
   "location": "Stennis Space Center, MS",
   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7990352003",
   "posted": "2026-09-17",
@@ -3333,6 +3333,23 @@
    "greenhouse"
   ],
   "first_seen": "2026-09-17",
+  "last_seen": "2026-10-13"
+ },
+ {
+  "company": "Rocket Lab",
+  "title": "Test Engineering Intern Spring 2027",
+  "location": "Wallops Island, VA",
+  "url": "https://job-boards.greenhouse.io/rocketlab/jobs/8003533003",
+  "posted": "2026-10-13",
+  "deadline": "",
+  "term": "spring",
+  "rank": "A",
+  "hw": "test engineering",
+  "tier": "big",
+  "sources": [
+   "greenhouse"
+  ],
+  "first_seen": "2026-09-25",
   "last_seen": "2026-10-13"
  },
  {
@@ -3690,23 +3707,6 @@
    "successfactors"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-13"
- },
- {
-  "company": "Skyworks",
-  "title": "Filter Design Solutions Co-Op (Winter/Spring 2027)",
-  "location": "Irvine, CA, USA    ",
-  "url": "https://careers.skyworksinc.com/job/Filter-Design-Solutions-Co-Op-%28WinterSpring-2027%29/78267-en_US",
-  "posted": "2026-08-25",
-  "deadline": "",
-  "term": "spring",
-  "rank": "A",
-  "hw": "maybe",
-  "tier": "big",
-  "sources": [
-   "successfactors"
-  ],
-  "first_seen": "2026-10-05",
   "last_seen": "2026-10-13"
  },
  {
@@ -4412,7 +4412,7 @@
   "title": "Avionics Engineering Internship - Spring 2027",
   "location": "El Segundo, California, United States",
   "url": "https://job-boards.greenhouse.io/vardaspace/jobs/7824780003",
-  "posted": "2026-10-10",
+  "posted": "2026-10-13",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -4429,7 +4429,7 @@
   "title": "Biologics Formulation Research Internship - Spring 2027",
   "location": "El Segundo, California, United States",
   "url": "https://job-boards.greenhouse.io/vardaspace/jobs/7824834003",
-  "posted": "2026-10-10",
+  "posted": "2026-10-13",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -4446,7 +4446,7 @@
   "title": "Cybersecurity Internship - Spring 2027",
   "location": "El Segundo, California, United States",
   "url": "https://job-boards.greenhouse.io/vardaspace/jobs/7824766003",
-  "posted": "2026-10-10",
+  "posted": "2026-10-13",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -4463,7 +4463,7 @@
   "title": "Environmental Health & Safety (EHS) Internship - Spring 2027",
   "location": "El Segundo, California, United States",
   "url": "https://job-boards.greenhouse.io/vardaspace/jobs/7824783003",
-  "posted": "2026-10-10",
+  "posted": "2026-10-13",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -4480,7 +4480,7 @@
   "title": "Flight Software Internship - Spring 2027",
   "location": "El Segundo, California, United States",
   "url": "https://job-boards.greenhouse.io/vardaspace/jobs/7824815003",
-  "posted": "2026-10-10",
+  "posted": "2026-10-13",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -4497,7 +4497,7 @@
   "title": "Guidance, Navigation & Controls (GNC) Internship - Spring 2027",
   "location": "El Segundo, California, United States",
   "url": "https://job-boards.greenhouse.io/vardaspace/jobs/7824781003",
-  "posted": "2026-10-10",
+  "posted": "2026-10-13",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -4514,7 +4514,7 @@
   "title": "Manufacturing Engineering Internship - Spring 2027",
   "location": "El Segundo, California, United States",
   "url": "https://job-boards.greenhouse.io/vardaspace/jobs/7824767003",
-  "posted": "2026-10-10",
+  "posted": "2026-10-13",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -4531,7 +4531,7 @@
   "title": "Mechanisms & Payload Internship - Spring 2027",
   "location": "El Segundo, California, United States",
   "url": "https://job-boards.greenhouse.io/vardaspace/jobs/7824821003",
-  "posted": "2026-10-10",
+  "posted": "2026-10-13",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -4548,7 +4548,7 @@
   "title": "Propulsion Engineering Internship - Spring 2027",
   "location": "El Segundo, California, United States",
   "url": "https://job-boards.greenhouse.io/vardaspace/jobs/7824765003",
-  "posted": "2026-10-10",
+  "posted": "2026-10-13",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -4565,7 +4565,7 @@
   "title": "Site Reliability Internship - Spring 2027",
   "location": "El Segundo, California, United States",
   "url": "https://job-boards.greenhouse.io/vardaspace/jobs/7824814003",
-  "posted": "2026-10-10",
+  "posted": "2026-10-13",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -4582,7 +4582,7 @@
   "title": "Structures Engineering Internship - Spring 2027",
   "location": "El Segundo, California, United States",
   "url": "https://job-boards.greenhouse.io/vardaspace/jobs/7824817003",
-  "posted": "2026-10-10",
+  "posted": "2026-10-13",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -4599,7 +4599,7 @@
   "title": "Structures Engineering Internship - Summer 2027",
   "location": "El Segundo, California, United States",
   "url": "https://job-boards.greenhouse.io/vardaspace/jobs/8010167003",
-  "posted": "2026-10-10",
+  "posted": "2026-10-13",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -4616,7 +4616,7 @@
   "title": "Supply Chain Internship - Spring 2027",
   "location": "El Segundo, California, United States",
   "url": "https://job-boards.greenhouse.io/vardaspace/jobs/7824827003",
-  "posted": "2026-10-10",
+  "posted": "2026-10-13",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -4633,7 +4633,7 @@
   "title": "Thermal Engineering Internship - Summer 2027",
   "location": "El Segundo, California, United States",
   "url": "https://job-boards.greenhouse.io/vardaspace/jobs/8010172003",
-  "posted": "2026-10-10",
+  "posted": "2026-10-13",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -4650,7 +4650,7 @@
   "title": "Vehicle Integration & Test Internship - Spring 2027",
   "location": "El Segundo, California, United States",
   "url": "https://job-boards.greenhouse.io/vardaspace/jobs/7824772003",
-  "posted": "2026-10-10",
+  "posted": "2026-10-13",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -6787,6 +6787,23 @@
   "last_seen": "2026-10-13"
  },
  {
+  "company": "Emerson",
+  "title": "Quality Engineering Co-op",
+  "location": "Marshalltown, IA, United States",
+  "url": "https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26009739",
+  "posted": "2026-10-13",
+  "deadline": "",
+  "term": "coop-unspecified",
+  "rank": "B",
+  "hw": "maybe",
+  "tier": "big",
+  "sources": [
+   "oracle_hcm"
+  ],
+  "first_seen": "2026-09-18",
+  "last_seen": "2026-10-13"
+ },
+ {
   "company": "Emerson Electric",
   "title": "Electrical Engineer Co-op",
   "location": "Rockford, IL, USA; Elyria, OH, USA",
@@ -7148,23 +7165,6 @@
  {
   "company": "Entegris",
   "title": "NPI Engineering Co-Op",
-  "location": "Rockrimmon, Colorado Springs, CO",
-  "url": "https://entegris.wd1.myworkdayjobs.com/EntegrisCareers/job/Rockrimmon-Colorado-Springs-CO/NPI-Engineering-Co-Op_REQ-14488",
-  "posted": "Posted 30+ Days Ago",
-  "deadline": "",
-  "term": "coop-unspecified",
-  "rank": "B",
-  "hw": "maybe",
-  "tier": "big",
-  "sources": [
-   "workday"
-  ],
-  "first_seen": "2026-09-18",
-  "last_seen": "2026-10-13"
- },
- {
-  "company": "Entegris",
-  "title": "NPI Engineering Co-Op",
   "location": "Chaska, MN",
   "url": "https://entegris.wd1.myworkdayjobs.com/EntegrisCareers/job/Chaska-MN/NPI-Engineering-Co-Op_REQ-14426",
   "posted": "Posted 30+ Days Ago",
@@ -7211,23 +7211,6 @@
    "internlist:coop"
   ],
   "first_seen": "2026-10-04",
-  "last_seen": "2026-10-13"
- },
- {
-  "company": "Entegris",
-  "title": "Process Engineering Co-Op",
-  "location": "Rockrimmon, Colorado Springs, CO",
-  "url": "https://entegris.wd1.myworkdayjobs.com/EntegrisCareers/job/Rockrimmon-Colorado-Springs-CO/Process-Engineering-Co-Op_REQ-14485",
-  "posted": "Posted 30+ Days Ago",
-  "deadline": "",
-  "term": "coop-unspecified",
-  "rank": "B",
-  "hw": "maybe",
-  "tier": "big",
-  "sources": [
-   "workday"
-  ],
-  "first_seen": "2026-09-18",
   "last_seen": "2026-10-13"
  },
  {
@@ -12881,6 +12864,23 @@
   "last_seen": "2026-10-13"
  },
  {
+  "company": "KLA",
+  "title": "Product Development Intern - Electron Beam Instrumentation",
+  "location": "Ann Arbor, MI",
+  "url": "https://kla.wd1.myworkdayjobs.com/Search/job/Ann-Arbor-MI/Product-Development-Intern---Electron-Beam-Instrumentation_2642032",
+  "posted": "Posted Today",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "instrumentation",
+  "tier": "big",
+  "sources": [
+   "workday"
+  ],
+  "first_seen": "2026-10-13",
+  "last_seen": "2026-10-13"
+ },
+ {
   "company": "Keysight Technologies",
   "title": "Analog and Mixed Signal IC Design Engineer Intern",
   "location": "Santa Clara, CA, USA",
@@ -15738,6 +15738,40 @@
  },
  {
   "company": "Seagate",
+  "title": "Hardware Engineering Intern",
+  "location": "",
+  "url": "https://seagatecareers.com/job/Hardware-Engineering-Intern/15010-en_US",
+  "posted": "2026-09-09",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "hardware",
+  "tier": "big",
+  "sources": [
+   "successfactors"
+  ],
+  "first_seen": "2026-09-18",
+  "last_seen": "2026-10-13"
+ },
+ {
+  "company": "Seagate",
+  "title": "Hardware Validation Intern",
+  "location": "",
+  "url": "https://seagatecareers.com/job/Hardware-Validation-Intern/15011-en_US",
+  "posted": "2026-09-09",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "hardware",
+  "tier": "big",
+  "sources": [
+   "successfactors"
+  ],
+  "first_seen": "2026-09-18",
+  "last_seen": "2026-10-13"
+ },
+ {
+  "company": "Seagate",
   "title": "Head Failure Analysis Intern",
   "location": "",
   "url": "https://seagatecareers.com/job/Head-Failure-Analysis-Intern/15130-en_US",
@@ -15808,7 +15842,7 @@
   "company": "Seagate",
   "title": "Recording Head Test Engineering Intern",
   "location": "Samut Prakan, THA, ",
-  "url": "https://seagatecareers.com/job/Recording-Head-Test-Engineering-Intern/14904-en_US",
+  "url": "https://seagatecareers.com/job/Recording-Head-Test-Engineering-Intern/14901-en_US",
   "posted": "2026-08-19",
   "deadline": "",
   "term": "unspecified",
@@ -15818,7 +15852,7 @@
   "sources": [
    "successfactors"
   ],
-  "first_seen": "2026-10-06",
+  "first_seen": "2026-09-18",
   "last_seen": "2026-10-13"
  },
  {
@@ -16523,7 +16557,7 @@
   "title": "University Recruiter ",
   "location": "El Segundo, California, United States",
   "url": "https://job-boards.greenhouse.io/vardaspace/jobs/8016066003",
-  "posted": "2026-10-10",
+  "posted": "2026-10-13",
   "deadline": "",
   "term": "unspecified",
   "rank": "C",
