@@ -2043,7 +2043,7 @@
 },
 "https://simplify.jobs/jobs/click/eb8f9769-0acf-47c3-bbb7-5f60c04f0239": {
 "first_seen": "2026-09-18",
-"title": "Electrical Engineer Co-op",
+"title": "Electrical Engineering Co-op",
 "company": "Shield AI",
 "desc": ""
 },
@@ -6027,7 +6027,7 @@
 },
 "https://www.linkedin.com/jobs/view/4424110045": {
 "first_seen": "2026-09-21",
-"title": "Electrical Engineering Spring Co-op (January 2027) (R4475)",
+"title": "Electrical Engineering Intern - X-BAT Avionics (R4475)",
 "company": "Shield AI",
 "desc": ""
 },
@@ -10168,7 +10168,7 @@
 "https://simplify.jobs/jobs/click/9750e606-5a81-4a74-9492-ca1a93b10e38": {
 "first_seen": "2026-10-01",
 "title": "Optical Engineer Intern",
-"company": "KLA",
+"company": "KLA Corporation",
 "desc": ""
 },
 "https://simplify.jobs/jobs/click/66fd3b4a-cc9c-4090-9786-0bf42637abfd": {
@@ -13716,5 +13716,77 @@
 "title": "Product Development Intern - Electron Beam Instrumentation",
 "company": "KLA",
 "desc": " To make electronics, you need chips, wafers, transistors, reticles, and... To make these, you must see, test and manufacture them at scale\u2014faster and better than ever before. That's where KLA comes in. Whether you're early in your career or an experienced professional, you'll solve complex challenges, work alongside brilliant minds and help shape the future of technology.      Group/Division   The Semiconductor Products and Customers (Semi PC) business unit designs, builds and sells KLA\u2019s product portfolio to help chip manufacturers meet high-quality standards for technologies like AI, data centers, automotive and electronic devices. Our inspection, metrology, and analytics systems detect and monitor defects across logic and memory chips, specialty semiconductors, wafers, reticles, advanced packaging, process equipment and materials. We also develop technologies for specialty processes, IC substrates, and PCB manufacturing, including etch and deposition, component inspection, and imaging and analytics.   KLA's Central Engineering organization is made up of nine Centers of Excellence (CoEs) spanning disciplines like automation, motion control, sensors, platform design, and packaging. Each CoE contributes not only technical deliverables but also deep expertise, best practices, and advanced tools that elevate both what we build\u2014and how we build it.       What You'll Do    In this role, you will play a key part in advancing business priorities by delivering high-impact work acro"
+},
+"https://www.linkedin.com/jobs/view/4476464037": {
+"first_seen": "2026-10-13",
+"title": "Electrical Engineering Intern",
+"company": "Valorantum",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4479004552": {
+"first_seen": "2026-10-13",
+"title": "Electrical Engineer Co-op",
+"company": "National Carwash Solutions",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4478177310": {
+"first_seen": "2026-10-13",
+"title": "Intern, Analog Mixed-Signal ASIC Automation/Characterization - Spring 2026",
+"company": "pSemi, A Murata Company",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4479042902": {
+"first_seen": "2026-10-13",
+"title": "Winter/Spring 2027 Electrical Engineer Internship",
+"company": "Cryptic Vector",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4469941887": {
+"first_seen": "2026-10-13",
+"title": "Electrical Design Engineering Intern",
+"company": "CNH",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4476476778": {
+"first_seen": "2026-10-13",
+"title": "Hardware Developer Intern - Rochester, MN - 2027",
+"company": "IBM",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4476472799": {
+"first_seen": "2026-10-13",
+"title": "R&D Hardware Design Engineer, Intern",
+"company": "Keysight Technologies",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4468163658": {
+"first_seen": "2026-10-13",
+"title": "Research Intern 2027 - Superconducting Circuit Design for Quantum Computing",
+"company": "IBM",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4478104284": {
+"first_seen": "2026-10-13",
+"title": "Intern - ID1 ATE PI Engineer",
+"company": "Micron Technology",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4385389613": {
+"first_seen": "2026-10-13",
+"title": "Firmware Intern",
+"company": "Etched",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4478153947": {
+"first_seen": "2026-10-13",
+"title": "Embedded Hardware & Controls Engineering Intern",
+"company": "Cache Energy",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4476456407": {
+"first_seen": "2026-10-13",
+"title": "Electrical Engineering Intern",
+"company": "Mechronix",
+"desc": ""
 }
 }
