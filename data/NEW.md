@@ -1,24 +1,11 @@
 # New postings — 2026-10-14
 
-15 new of 1008 tracked. Rank A = spring/Jan 2027 explicit, B = co-op with term unstated, C = intern with no term stated.
+2 new of 1007 tracked. Rank A = spring/Jan 2027 explicit, B = co-op with term unstated, C = intern with no term stated.
 
 | Rank | Term | Company | Role | Location | Posted | Link |
 |---|---|---|---|---|---|---|
-| A | spring | RTX | 2027 Spring/Summer Co-Op, Systems Engineering - Onsite | US-CT-EAST HARTFORD-ETC ~ 400 Main St ~ BLDG ETC | Posted Today | [apply](https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-CT-EAST-HARTFORD-ETC--400-Main-St--BLDG-ETC/XMLNAME-2027-Spring-Summer-Co-Op--Systems-Engineering---Onsite_01876249) |
-| C | unspecified | Northrop Grumman | 2027 H/W Electronics Engineering Intern – Annapolis MD | United States-Maryland-Annapolis | Posted Today | [apply](https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Maryland-Annapolis/XMLNAME-2027-H-W-Electronics-Engineering-Intern---Annapolis-MD_R10254689-1) |
-| A | spring | BAE Systems | Operations Engineering (Industrial, Mechanical, Electrical) Co-op, Spring/Summer, 2027 | Cedar Rapids, Iowa, United States | 2026-10-01 | [apply](https://jobs.baesystems.com/global/en/job/130805BR/operations-engineering-industrial-mechanical-electrical-co-op-spring-summer-2027) |
-| B | coop-unspecified | Jabil | Metrology & Quality Technician Intern Co-op | Clinton, MA, USA | 2026-10-09 | [apply](https://simplify.jobs/jobs/click/46c27a21-886e-49f4-9094-e8e4aaff0b95) |
-| B | coop-unspecified | ITT | Product Engineer Co-op | Lancaster, PA, USA | 2026-10-09 | [apply](https://simplify.jobs/jobs/click/a4c9429c-326f-4154-8afe-98951f0f6ea9) |
-| B | coop-unspecified | Bose | Electrical Engineering Co-op | Framingham, MA, USA | 2026-10-09 | [apply](https://simplify.jobs/jobs/click/264948c2-8f83-449b-b105-6d1af4c9a360) |
-| B | coop-unspecified | Werfen | R&D Systems Hardware Engineering Co-op | Bedford, MA, USA | 2026-10-09 | [apply](https://simplify.jobs/jobs/click/d16d5776-a774-4531-951a-cf1dede1cc30) |
-| A | spring | Bison® | Electrical Engineering Co-op - Spring 2027 | Kent, OH, USA | 2026-10-14 | [apply](https://www.linkedin.com/jobs/view/4479276887) |
-| C | unspecified | Hewlett Packard Enterprise | VLSI Logic Design Intern | Greater Fort Collins Area | 2026-10-13 | [apply](https://www.linkedin.com/jobs/view/4478750701) |
-| C | unspecified | Hewlett Packard Enterprise | VLSI Logic Design Intern | Chippewa Falls, WI, USA | 2026-10-13 | [apply](https://www.linkedin.com/jobs/view/4478758399) |
-| B | coop-unspecified | Nokia | Optoelectronics Test Development Coop | Allentown, PA, USA | 2026-10-14 | [apply](https://www.linkedin.com/jobs/view/4476610399) |
-| C | unspecified | The Aerospace Corporation | 2027 Photonics Device Characterization Undergraduate Intern | El Segundo, CA, USA | 2026-10-14 | [apply](https://www.linkedin.com/jobs/view/4476645093) |
-| C | unspecified | Raytheon | Electro-Optics Systems Engineer Intern (Onsite) | McKinney, TX, USA | 2026-10-14 | [apply](https://www.linkedin.com/jobs/view/4479245943) |
-| C | unspecified | Vortexion Labs | Electrical Engineering Intern | New York, USA | 2026-10-14 | [apply](https://www.linkedin.com/jobs/view/4476450196) |
-| C | unspecified | MechNova | Electrical Engineering Intern | Los Angeles, CA, USA | 2026-10-14 | [apply](https://www.linkedin.com/jobs/view/4476439748) |
+| A | spring | Skyworks | Analog and RF circuit design Winter/Spring Co-Op (Jan-June '27) | San Jose, CA, USA     | 2026-10-14 | [apply](https://careers.skyworksinc.com/job/Analog-and-RF-circuit-design-WinterSpring-Co-Op-%28Jan-June-&apos;27%29/78610-en_US) |
+| C | unspecified | Renesas | Intern, Product Engineering | Lviv, , Ukraine | 2026-10-14 | [apply](https://jobs.smartrecruiters.com/renesaselectronics/744000155551520) |
 
 ## All tracked
 
@@ -238,6 +225,7 @@
 | A | spring | Skyworks | Analog Design Intern (Winter/Spring 2027) | Austin, TX, USA     | 2026-09-21 | [apply](https://careers.skyworksinc.com/job/Analog-Design-Intern-%28WinterSpring-2027%29/78437-en_US) |
 | A | spring | Skyworks | Analog Design Winter/Spring Co-Op (Jan-June '27) | Andover, MA, USA     | 2026-08-25 | [apply](https://careers.skyworksinc.com/job/Analog-Design-WinterSpring-Co-Op-%28Jan-June-&apos;27%29/78282-en_US) |
 | A | spring | Skyworks | Analog IC Design Co-Op (Winter/Spring 2027) | Cedar Rapids, IA, USA     | 2026-09-25 | [apply](https://careers.skyworksinc.com/job/Analog-IC-Design-Co-Op-%28WinterSpring-2027%29/78487-en_US) |
+| A | spring | Skyworks | Analog and RF circuit design Winter/Spring Co-Op (Jan-June '27) | San Jose, CA, USA     | 2026-10-14 | [apply](https://careers.skyworksinc.com/job/Analog-and-RF-circuit-design-WinterSpring-Co-Op-%28Jan-June-&apos;27%29/78610-en_US) |
 | A | spring | Skyworks | BAW Design Winter/Spring Co-Op (Jan-June '27) | Andover, MA, USA     | 2026-09-24 | [apply](https://careers.skyworksinc.com/job/BAW-Design-WinterSpring-Co-Op-%28Jan-June-&apos;27%29/78509-en_US) |
 | A | spring | Skyworks | BAW Design Winter/Spring Co-Op (Jun-Dec '27) | Andover, MA, USA     | 2026-09-24 | [apply](https://careers.skyworksinc.com/job/BAW-Design-WinterSpring-Co-Op-%28Jun-Dec-&apos;27%29/78510-en_US) |
 | A | spring | Skyworks | BAW/SAW Filter Design Co-Op (Winter/Spring 2027) | Irvine, CA, USA     | 2026-08-25 | [apply](https://careers.skyworksinc.com/job/BAWSAW-Filter-Design-Co-Op-%28WinterSpring-2027%29/78160-en_US) |
@@ -954,9 +942,9 @@
 | C | unspecified | Raytheon | Power and Analog Electronic Engineer Intern (Onsite) | Tucson, AZ, USA | 2026-10-13 | [apply](https://www.linkedin.com/jobs/view/4470244493) |
 | C | unspecified | Redwood Materials | Test Automation Engineer Intern | San Francisco, CA | Aug 06 | [apply](https://job-boards.greenhouse.io/redwoodmaterials/jobs/6126785004) |
 | C | unspecified | Reflect Orbital | Embedded Firmware Engineer Intern | Hawthorne, CA, USA | 2026-09-03 | [apply](https://simplify.jobs/jobs/click/6f3a77be-dd63-4de2-a8dd-80babbfaecac) |
-| C | unspecified | Renesas | Design Verification Intern | Duluth, GEORGIA, United States | 2026-10-06 | [apply](https://jobs.smartrecruiters.com/renesaselectronics/744000153770924) |
 | C | unspecified | Renesas | Integrated Сircuit Test Engineer - Intern | Lviv, , Ukraine | 2026-07-21 | [apply](https://jobs.smartrecruiters.com/renesaselectronics/744000138837009) |
 | C | unspecified | Renesas | Intern Verification Engineer | Lviv, , Ukraine | 2026-10-07 | [apply](https://jobs.smartrecruiters.com/renesaselectronics/744000154056909) |
+| C | unspecified | Renesas | Intern, Product Engineering | Lviv, , Ukraine | 2026-10-14 | [apply](https://jobs.smartrecruiters.com/renesaselectronics/744000155551520) |
 | C | unspecified | Rigetti | Research Intern: Scalable Fabrication of Superconducting Quantum Devices | Berkeley, CA | 1789424869 | [apply](https://jobs.lever.co/rigetti/efe28dd4-f331-4738-b282-23106928c3a3) |
 | C | unspecified | Rivian | UIUC Research Park Intern - Low Voltage Electronics | Champaign, IL, USA | 2026-10-13 | [apply](https://www.linkedin.com/jobs/view/4478169798) |
 | C | unspecified | Rivian and Volkswagen Group Technologies | Engineering Intern, Embedded Hardware, Vehicle Networking & Audio | Palo Alto, CA | Nov 01 | [apply](https://careers.rivianvw.tech/rivian-vw-group-technology/jobs/27276/job) |
@@ -970,9 +958,7 @@
 | C | unspecified | Seagate | Electrical Design Engineering Intern | Nakhon Ratchasima, THA,  | 2026-01-27 | [apply](https://seagatecareers.com/job/Electrical-Design-Engineering-Intern/13582-en_US) |
 | C | unspecified | Seagate | Engineering Intern (slider process engineer) | Nakhon Ratchasima, THA,  | 2026-09-03 | [apply](https://seagatecareers.com/job/Engineering-Intern-%28slider-process-engineer%29/14914-en_US) |
 | C | unspecified | Seagate | Failure Analysis Intern III (Auto Failure Analysis & Data Analytics) | Nakhon Ratchasima, THA,  | 2026-07-09 | [apply](https://seagatecareers.com/job/Failure-Analysis-Intern-III-%28Auto-Failure-Analysis-&amp;-Data-Analytics%29/14648-en_US) |
-| C | unspecified | Seagate | Hardware Engineering Intern |  | 2026-09-09 | [apply](https://seagatecareers.com/job/Hardware-Engineering-Intern/15010-en_US) |
 | C | unspecified | Seagate | Hardware Validation Intern |  | 2026-09-09 | [apply](https://seagatecareers.com/job/Hardware-Validation-Intern/15011-en_US) |
-| C | unspecified | Seagate | Head Failure Analysis Intern |  | 2026-10-02 | [apply](https://seagatecareers.com/job/Head-Failure-Analysis-Intern/15130-en_US) |
 | C | unspecified | Seagate | Head Failure Analysis Intern III |  | 2026-09-15 | [apply](https://seagatecareers.com/job/Head-Failure-Analysis-Intern-III/15061-en_US) |
 | C | unspecified | Seagate | Metrology maintenance engineering intern | Nakhon Ratchasima, THA,  | 2026-08-26 | [apply](https://seagatecareers.com/job/Metrology-maintenance-engineering-intern/14919-en_US) |
 | C | unspecified | Seagate | Product Engineering Intern | Nakhon Ratchasima, THA,  | 2026-07-20 | [apply](https://seagatecareers.com/job/Product-Engineering-Intern/14645-en_US) |

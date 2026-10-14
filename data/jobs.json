@@ -147,7 +147,6 @@
   "hw": "electrical engineer",
   "tier": "big",
   "sources": [
-   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-09-17",
@@ -199,7 +198,6 @@
   "hw": "test engineer",
   "tier": "big",
   "sources": [
-   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-10-06",
@@ -1341,7 +1339,6 @@
   "hw": "electrical engineer",
   "tier": "big",
   "sources": [
-   "internlist:coop",
    "workday"
   ],
   "first_seen": "2026-09-18",
@@ -1376,7 +1373,6 @@
   "hw": "metrology",
   "tier": "big",
   "sources": [
-   "internlist:coop",
    "workday"
   ],
   "first_seen": "2026-09-18",
@@ -1394,7 +1390,6 @@
   "hw": "product engineering",
   "tier": "big",
   "sources": [
-   "internlist:coop",
    "workday"
   ],
   "first_seen": "2026-09-18",
@@ -3455,8 +3450,7 @@
   "hw": "electrical engineering",
   "tier": "big",
   "sources": [
-   "greenhouse",
-   "internlist:coop"
+   "greenhouse"
   ],
   "first_seen": "2026-09-17",
   "last_seen": "2026-10-14"
@@ -3646,6 +3640,23 @@
    "successfactors"
   ],
   "first_seen": "2026-09-25",
+  "last_seen": "2026-10-14"
+ },
+ {
+  "company": "Skyworks",
+  "title": "Analog and RF circuit design Winter/Spring Co-Op (Jan-June '27)",
+  "location": "San Jose, CA, USA    ",
+  "url": "https://careers.skyworksinc.com/job/Analog-and-RF-circuit-design-WinterSpring-Co-Op-%28Jan-June-&apos;27%29/78610-en_US",
+  "posted": "2026-10-14",
+  "deadline": "",
+  "term": "spring",
+  "rank": "A",
+  "hw": "analog,circuit,rf",
+  "tier": "big",
+  "sources": [
+   "successfactors"
+  ],
+  "first_seen": "2026-10-14",
   "last_seen": "2026-10-14"
  },
  {
@@ -4408,7 +4419,6 @@
   "hw": "silicon",
   "tier": "big",
   "sources": [
-   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-09-17",
@@ -5141,8 +5151,7 @@
   "hw": "test engineer",
   "tier": "startup",
   "sources": [
-   "greenhouse",
-   "jobspy:linkedin"
+   "greenhouse"
   ],
   "first_seen": "2026-09-21",
   "last_seen": "2026-10-14"
@@ -9337,9 +9346,7 @@
   "hw": "firmware",
   "tier": "big",
   "sources": [
-   "greenhouse",
-   "internlist:coop",
-   "internlist:winter-spring"
+   "greenhouse"
   ],
   "first_seen": "2026-09-24",
   "last_seen": "2026-10-14"
@@ -13789,8 +13796,7 @@
   "hw": "packaging engineer,silicon",
   "tier": "startup",
   "sources": [
-   "greenhouse",
-   "internlist:winter-spring"
+   "greenhouse"
   ],
   "first_seen": "2026-09-17",
   "last_seen": "2026-10-14"
@@ -15871,23 +15877,6 @@
  },
  {
   "company": "Renesas",
-  "title": "Design Verification Intern",
-  "location": "Duluth, GEORGIA, United States",
-  "url": "https://jobs.smartrecruiters.com/renesaselectronics/744000153770924",
-  "posted": "2026-10-06",
-  "deadline": "",
-  "term": "unspecified",
-  "rank": "C",
-  "hw": "design verification",
-  "tier": "big",
-  "sources": [
-   "smartrecruiters"
-  ],
-  "first_seen": "2026-10-06",
-  "last_seen": "2026-10-14"
- },
- {
-  "company": "Renesas",
   "title": "Integrated \u0421ircuit Test Engineer - Intern",
   "location": "Lviv, , Ukraine",
   "url": "https://jobs.smartrecruiters.com/renesaselectronics/744000138837009",
@@ -15918,6 +15907,23 @@
    "smartrecruiters"
   ],
   "first_seen": "2026-10-07",
+  "last_seen": "2026-10-14"
+ },
+ {
+  "company": "Renesas",
+  "title": "Intern, Product Engineering",
+  "location": "Lviv, , Ukraine",
+  "url": "https://jobs.smartrecruiters.com/renesaselectronics/744000155551520",
+  "posted": "2026-10-14",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "product engineering",
+  "tier": "big",
+  "sources": [
+   "smartrecruiters"
+  ],
+  "first_seen": "2026-10-14",
   "last_seen": "2026-10-14"
  },
  {
@@ -16143,23 +16149,6 @@
  },
  {
   "company": "Seagate",
-  "title": "Hardware Engineering Intern",
-  "location": "",
-  "url": "https://seagatecareers.com/job/Hardware-Engineering-Intern/15010-en_US",
-  "posted": "2026-09-09",
-  "deadline": "",
-  "term": "unspecified",
-  "rank": "C",
-  "hw": "hardware",
-  "tier": "big",
-  "sources": [
-   "successfactors"
-  ],
-  "first_seen": "2026-09-18",
-  "last_seen": "2026-10-14"
- },
- {
-  "company": "Seagate",
   "title": "Hardware Validation Intern",
   "location": "",
   "url": "https://seagatecareers.com/job/Hardware-Validation-Intern/15011-en_US",
@@ -16173,23 +16162,6 @@
    "successfactors"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-14"
- },
- {
-  "company": "Seagate",
-  "title": "Head Failure Analysis Intern",
-  "location": "",
-  "url": "https://seagatecareers.com/job/Head-Failure-Analysis-Intern/15130-en_US",
-  "posted": "2026-10-02",
-  "deadline": "",
-  "term": "unspecified",
-  "rank": "C",
-  "hw": "failure analysis",
-  "tier": "big",
-  "sources": [
-   "successfactors"
-  ],
-  "first_seen": "2026-10-02",
   "last_seen": "2026-10-14"
  },
  {
