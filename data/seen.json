@@ -635,8 +635,8 @@
 },
 "https://www.indeed.com/viewjob": {
 "first_seen": "2026-09-18",
-"title": "Hardware Development Co-Op",
-"company": "Nokia",
+"title": "Test Engineering CO-OP (Spring 2027)",
+"company": "Kearfott Corporation",
 "desc": ""
 },
 "https://www.linkedin.com/jobs/view/4468697840": {
@@ -13805,6 +13805,78 @@
 "first_seen": "2026-10-14",
 "title": "Optoelectronics Test Development Coop",
 "company": "Nokia",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4479207248": {
+"first_seen": "2026-10-14",
+"title": "Electrical Engineering Co-op - Spring 2027",
+"company": "AMETEK",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4476486141": {
+"first_seen": "2026-10-14",
+"title": "Intern & Co-op \u2013 Electrical/Controls Engineer - Whitehall, MI (2027)",
+"company": "Howmet Aerospace",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4479234397": {
+"first_seen": "2026-10-14",
+"title": "Electrical Engineering Intern",
+"company": "Advanced Sterilization Products",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4478169798": {
+"first_seen": "2026-10-14",
+"title": "UIUC Research Park Intern - Low Voltage Electronics",
+"company": "Rivian",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4478172478": {
+"first_seen": "2026-10-14",
+"title": "Electrical Engineering Intern",
+"company": "Mettler-Toledo International, Inc",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4479043205": {
+"first_seen": "2026-10-14",
+"title": "Internship \u2013 R&D Product Engineer",
+"company": "Infineon Technologies",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4479088700": {
+"first_seen": "2026-10-14",
+"title": "Co-Op \u2013 Medical Device Engineer",
+"company": "Organon",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4479099922": {
+"first_seen": "2026-10-14",
+"title": "RTL Design and Verification Internship",
+"company": "Synopsys Inc",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4476490032": {
+"first_seen": "2026-10-14",
+"title": "Reliability Engineering Intern",
+"company": "Enervexa PowerLabs",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4479233247": {
+"first_seen": "2026-10-14",
+"title": "RF Hardware Engineer Intern",
+"company": "SoloPulse",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4477992897": {
+"first_seen": "2026-10-14",
+"title": "Intern - Yield Enhancement  Engineer",
+"company": "Micron Technology",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4476080475": {
+"first_seen": "2026-10-14",
+"title": "Test Engineering Intern Tech III",
+"company": "Keysight Technologies",
 "desc": ""
 }
 }
