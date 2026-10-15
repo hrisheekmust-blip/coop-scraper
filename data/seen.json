@@ -10168,7 +10168,7 @@
 "https://simplify.jobs/jobs/click/9750e606-5a81-4a74-9492-ca1a93b10e38": {
 "first_seen": "2026-10-01",
 "title": "Optical Engineer Intern",
-"company": "KLA Corporation",
+"company": "KLA",
 "desc": ""
 },
 "https://simplify.jobs/jobs/click/66fd3b4a-cc9c-4090-9786-0bf42637abfd": {
@@ -14153,6 +14153,42 @@
 "first_seen": "2026-10-14",
 "title": "Intern, Advanced Media R&D Characterization and Recording Physicist",
 "company": "Seagate Technology",
+"desc": ""
+},
+"https://jobs.lever.co/atomcomputing/f17f16bc-d448-4a24-8449-281d660fdbfc": {
+"first_seen": "2026-10-15",
+"title": "Research Intern",
+"company": "Atom Computing",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4478825033": {
+"first_seen": "2026-10-15",
+"title": "Amazon Robotics - Hardware Development Engineer Intern/Co-op - 2027",
+"company": "AbilityLinks",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4477020123": {
+"first_seen": "2026-10-15",
+"title": "Spring 2027 - Semiconductor AI Specialist Intern",
+"company": "onsemi",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4477014886": {
+"first_seen": "2026-10-15",
+"title": "2027 Sensor Modeling and Simulation Grad Intern",
+"company": "The Aerospace Corporation",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4475102339": {
+"first_seen": "2026-10-15",
+"title": "Electro-Optical Engineer Intern",
+"company": "Space Dynamics Laboratory",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4479746164": {
+"first_seen": "2026-10-15",
+"title": "Test Engineering Intern",
+"company": "Arthrex",
 "desc": ""
 }
 }

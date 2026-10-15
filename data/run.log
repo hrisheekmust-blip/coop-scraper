@@ -1,298 +1,352 @@
 fetching ATS boards…
-  SpaceX                       greenhouse      2743 jobs  1.5s
-  Astera Labs                  greenhouse       183 jobs  0.2s
-  Lightmatter                  greenhouse        62 jobs  0.1s
-  Tenstorrent                  greenhouse       128 jobs  0.1s
-  Anduril                      greenhouse      2521 jobs  1.8s
-  Hudson River Trading         greenhouse        89 jobs  0.1s
-  Jump Trading                 greenhouse       102 jobs  0.1s
-  DRW                          greenhouse       167 jobs  0.2s
-  IMC                          greenhouse       175 jobs  0.2s
-  Optiver                      greenhouse       162 jobs  0.2s
-  Zipline                      greenhouse       351 jobs  0.2s
+  SpaceX                       greenhouse      2747 jobs  1.6s
+  Astera Labs                  greenhouse       183 jobs  0.5s
+  Lightmatter                  greenhouse        62 jobs  0.3s
+  Tenstorrent                  greenhouse       129 jobs  0.4s
+  Anduril                      greenhouse      2522 jobs  2.3s
+  Hudson River Trading         greenhouse        89 jobs  0.4s
+  Jump Trading                 greenhouse       102 jobs  0.3s
+  DRW                          greenhouse       167 jobs  0.4s
+  IMC                          greenhouse       174 jobs  0.4s
+  Optiver                      greenhouse       162 jobs  0.5s
+  Zipline                      greenhouse       350 jobs  0.5s
   Relativity Space             greenhouse       362 jobs  0.6s
-  PsiQuantum                   greenhouse        77 jobs  0.1s
-  IonQ                         greenhouse       133 jobs  0.2s
-  Samsara                      greenhouse       257 jobs  0.3s
-  Waymo                        greenhouse       366 jobs  1.7s
-  Nuro                         greenhouse       108 jobs  0.1s
-  Lucid Motors                 greenhouse       453 jobs  0.6s
-  Epirus                       greenhouse        40 jobs  0.1s
-  Astranis                     greenhouse       180 jobs  0.2s
-  Vast                         greenhouse       187 jobs  0.2s
-  Ursa Major                   greenhouse       111 jobs  0.2s
-  Muon Space                   greenhouse       141 jobs  0.1s
-  Rocket Lab                   greenhouse       581 jobs  0.6s
-  Apptronik                    greenhouse        78 jobs  0.1s
-  Figure AI                    greenhouse        97 jobs  0.2s
-  Agility Robotics             greenhouse        73 jobs  0.1s
-  SambaNova                    greenhouse        62 jobs  0.1s
-  Varda Space                  greenhouse       111 jobs  0.2s
-  Oura                         greenhouse        76 jobs  0.1s
-  Anello Photonics             greenhouse         6 jobs  0.1s
-  Vannevar Labs                greenhouse        31 jobs  0.1s
-  Kodiak                       greenhouse        67 jobs  0.1s
-  Motional                     greenhouse        81 jobs  0.1s
-  Torc Robotics                greenhouse        50 jobs  0.1s
-  Planet Labs                  greenhouse       118 jobs  0.2s
-  Scale AI                     greenhouse       182 jobs  0.2s
-  Anthropic                    greenhouse       650 jobs  0.4s
-  May Mobility                 greenhouse        39 jobs  0.1s
-  Glydways                     greenhouse        20 jobs  0.1s
-  Butterfly Network            greenhouse        21 jobs  0.1s
-  Rigetti                      lever             17 jobs  0.6s
-  Eliyan                       lever             22 jobs  0.6s
-  Atom Computing               lever             34 jobs  0.7s
-  Shield AI                    lever            612 jobs  12.9s
-  Zoox                         lever            240 jobs  1.2s
+  PsiQuantum                   greenhouse        77 jobs  0.4s
+  IonQ                         greenhouse       133 jobs  0.5s
+  Samsara                      greenhouse       257 jobs  0.6s
+  Waymo                        greenhouse       365 jobs  0.5s
+  Nuro                         greenhouse       108 jobs  0.4s
+  Lucid Motors                 greenhouse       453 jobs  1.0s
+  Epirus                       greenhouse        40 jobs  0.4s
+  Astranis                     greenhouse       181 jobs  0.5s
+  Vast                         greenhouse       186 jobs  0.4s
+  Ursa Major                   greenhouse       111 jobs  0.5s
+  Muon Space                   greenhouse       141 jobs  0.5s
+  Rocket Lab                   greenhouse       582 jobs  0.8s
+  Apptronik                    greenhouse        78 jobs  0.4s
+  Figure AI                    greenhouse        97 jobs  0.3s
+  Agility Robotics             greenhouse        73 jobs  0.4s
+  SambaNova                    greenhouse        62 jobs  0.3s
+  Varda Space                  greenhouse       112 jobs  0.4s
+  Oura                         greenhouse        76 jobs  0.3s
+  Anello Photonics             greenhouse         6 jobs  0.2s
+  Vannevar Labs                greenhouse        30 jobs  0.3s
+  Kodiak                       greenhouse        67 jobs  0.4s
+  Motional                     greenhouse        81 jobs  0.4s
+  Torc Robotics                greenhouse        50 jobs  0.4s
+  Planet Labs                  greenhouse       118 jobs  0.4s
+  Scale AI                     greenhouse       182 jobs  0.4s
+  Anthropic                    greenhouse       648 jobs  0.8s
+  May Mobility                 greenhouse        39 jobs  0.3s
+  Glydways                     greenhouse        20 jobs  0.2s
+  Butterfly Network            greenhouse        21 jobs  0.2s
+  Rigetti                      lever             17 jobs  0.3s
+  Eliyan                       lever             21 jobs  0.4s
+  Atom Computing               lever             35 jobs  7.6s
+  Shield AI                    lever            612 jobs  0.9s
+  Zoox                         lever            239 jobs  0.6s
   Aeva                         lever             40 jobs  0.9s
-  Hermeus                      lever             81 jobs  1.0s
-  Dexterity                    lever             22 jobs  0.7s
+  Hermeus                      lever             81 jobs  0.5s
+  Dexterity                    lever             22 jobs  0.4s
   Pickle Robot                 lever              8 jobs  0.5s
-  Waabi                        lever             96 jobs  2.1s
-  Etched                       ashby            113 jobs  0.1s
-  d-Matrix                     ashby             37 jobs  0.1s
-  MatX                         ashby             41 jobs  0.1s
-  Cerebras                     ashby            124 jobs  0.1s
-  WHOOP                        ashby            173 jobs  0.1s
-  Specter                      ashby             37 jobs  0.1s
-  Saronic                      ashby            232 jobs  0.1s
-  Axelera AI                   ashby              9 jobs  0.0s
-  Lambda                       ashby             90 jobs  0.2s
-  Skydio                       ashby            161 jobs  0.1s
-  Form Energy                  ashby            209 jobs  0.1s
-  Quadric                      ashby             15 jobs  0.1s
-  Physical Intelligence        ashby             39 jobs  0.1s
-  1X                           ashby            100 jobs  0.1s
-  Impulse Space                ashby              2 jobs  0.0s
-  Applied Intuition            ashby            329 jobs  0.1s
-  OpenAI                       ashby            801 jobs  0.3s
+  Waabi                        lever             96 jobs  0.6s
+  Etched                       ashby            116 jobs  0.2s
+  d-Matrix                     ashby             37 jobs  0.2s
+  MatX                         ashby             41 jobs  0.2s
+  Cerebras                     ashby            124 jobs  0.3s
+  WHOOP                        ashby            173 jobs  0.3s
+  Specter                      ashby             37 jobs  0.2s
+  Saronic                      ashby            232 jobs  0.3s
+  Axelera AI                   ashby              9 jobs  0.2s
+  Lambda                       ashby             91 jobs  0.1s
+  Skydio                       ashby            160 jobs  0.3s
+  Form Energy                  ashby            208 jobs  0.3s
+  Quadric                      ashby             15 jobs  0.2s
+  Physical Intelligence        ashby             41 jobs  0.2s
+  1X                           ashby            100 jobs  0.2s
+  Impulse Space                ashby              2 jobs  0.1s
+  Applied Intuition            ashby            329 jobs  0.3s
+  OpenAI                       ashby            804 jobs  0.3s
   Wayve                        ashby            166 jobs  0.2s
-  Pliant                       ashby             37 jobs  0.1s
-  NVIDIA                       workday          132 jobs  8.7s
-  Intel                        workday           86 jobs  6.1s
-  Analog Devices               workday           87 jobs  4.6s
-  Marvell                      workday           73 jobs  3.9s
-  NXP                          workday          118 jobs  6.9s
-  Microchip                    workday           79 jobs  3.5s
-  Wolfspeed                    workday           95 jobs  3.1s
-  Silicon Labs                 workday           66 jobs  5.3s
-  Broadcom                     workday          372 jobs  7.8s
+  Pliant                       ashby             37 jobs  0.2s
+  NVIDIA                       workday          132 jobs  9.1s
+  Intel                        workday           86 jobs  6.9s
+  Analog Devices               workday           87 jobs  5.3s
+  Marvell                      workday           73 jobs  4.6s
+  NXP                          workday          118 jobs  8.0s
+  Microchip                    workday           79 jobs  3.7s
+  Wolfspeed                    workday           95 jobs  3.8s
+  Silicon Labs                 workday           66 jobs  3.7s
+  Broadcom                     workday          371 jobs  11.6s
   Allegro MicroSystems         workday           63 jobs  3.9s
-  Monolithic Power Systems     workday           84 jobs  2.4s
-  Blue Origin                  workday          133 jobs  6.1s
-  Draper                       workday           73 jobs  6.0s
-  Boston Dynamics              workday           56 jobs  3.3s
-  KLA                          workday          110 jobs  5.7s
-  Applied Materials            workday          138 jobs  7.7s
-  Cadence                      workday           97 jobs  5.5s
-  Cisco                        workday          666 jobs  17.4s
-  Samsung Semiconductor        workday          132 jobs  9.3s
-  Texas Instruments            oracle_hcm       499 jobs  11.4s
-  onsemi                       oracle_hcm       394 jobs  7.7s
-  Skyworks                     successfactors_csb   213 jobs  11.8s
+  Monolithic Power Systems     workday           84 jobs  2.5s
+  Blue Origin                  workday          134 jobs  5.2s
+  Draper                       workday           73 jobs  4.8s
+  Boston Dynamics              workday           56 jobs  3.7s
+  KLA                          workday          110 jobs  9.8s
+  Applied Materials            workday          138 jobs  8.6s
+  Cadence                      workday           97 jobs  4.9s
+  Cisco                        workday          663 jobs  18.2s
+  Samsung Semiconductor        workday          132 jobs  10.7s
+  Texas Instruments            oracle_hcm       503 jobs  9.9s
+  onsemi                       oracle_hcm       391 jobs  7.1s
+  Skyworks                     successfactors_csb   211 jobs  18.3s
   Teradyne                     successfactors_csb FAILED HTTPError: HTTP Error 401: 401
   Infineon                     eightfold      FAILED HTTPError: HTTP Error 403: FORBIDDEN
-  AMD                          icims              0 jobs  0.7s
-  Amazon                       amazon            22 jobs  1.9s
+  AMD                          icims              0 jobs  1.3s
+  Amazon                       amazon            22 jobs  4.1s
   Micron                       eightfold      FAILED HTTPError: HTTP Error 403: FORBIDDEN
   Qualcomm                     eightfold      FAILED HTTPError: HTTP Error 403: FORBIDDEN
-  Keysight                     icims              0 jobs  1.2s
-  Western Digital              smartrecruiters   338 jobs  1.9s
+  Keysight                     icims              0 jobs  2.3s
+  Western Digital              smartrecruiters   339 jobs  2.0s
   Lam Research                 eightfold      FAILED HTTPError: HTTP Error 403: FORBIDDEN
   Qorvo                        successfactors_csb FAILED HTTPError: HTTP Error 401: 401
-  Renesas                      smartrecruiters   925 jobs  4.5s
-  GlobalFoundries              workday           66 jobs  4.1s
-  Arm                          icims              0 jobs  0.7s
-  Rambus                       icims              0 jobs  0.4s
-  Ambarella                    workday           38 jobs  1.1s
-  MaxLinear                    icims              0 jobs  0.3s
-  Semtech                      workday           53 jobs  3.0s
+  Renesas                      smartrecruiters   926 jobs  4.9s
+  GlobalFoundries              workday           66 jobs  5.1s
+  Arm                          icims              0 jobs  1.9s
+  Rambus                       icims              0 jobs  1.6s
+  Ambarella                    workday           38 jobs  1.5s
+  MaxLinear                    icims              0 jobs  1.5s
+  Semtech                      workday           53 jobs  3.5s
   Vicor                        successfactors_csb FAILED HTTPError: HTTP Error 401: 401
-  Lumentum                     workday           74 jobs  4.0s
-  MKS Instruments              workday           66 jobs  3.1s
-  Entegris                     workday           89 jobs  4.6s
-  ASML                         workday          553 jobs  26.0s
-  FormFactor                   workday           75 jobs  3.3s
-  Onto Innovation              workday          175 jobs  5.4s
+  Lumentum                     workday           74 jobs  4.2s
+  MKS Instruments              workday           66 jobs  4.0s
+  Entegris                     workday           89 jobs  4.9s
+  ASML                         workday          554 jobs  34.5s
+  FormFactor                   workday           75 jobs  3.4s
+  Onto Innovation              workday          176 jobs  7.8s
   MIT Lincoln Laboratory       successfactors_csb FAILED HTTPError: HTTP Error 401: 401
-  RTX                          workday          970 jobs  27.3s
+  RTX                          workday          972 jobs  27.5s
   Lockheed Martin              eightfold      FAILED HTTPError: HTTP Error 403: FORBIDDEN
-  Northrop Grumman             workday          701 jobs  19.1s
-  Boeing                       workday          129 jobs  8.2s
-  GE Aerospace                 workday          544 jobs  16.8s
-  Bose                         workday           58 jobs  2.6s
+  Northrop Grumman             workday          702 jobs  23.8s
+  Boeing                       workday          129 jobs  9.0s
+  GE Aerospace                 workday          545 jobs  14.4s
+  Bose                         workday           58 jobs  3.1s
   iRobot                       workday        FAILED HTTPError: HTTP Error 422: Unprocessable Entity
   Dell                         workday        FAILED HTTPError: HTTP Error 422: Unprocessable Entity
-  HP                           workday           96 jobs  5.9s
-  SiFive                       workday           73 jobs  3.0s
+  HP                           workday           96 jobs  6.1s
+  SiFive                       workday           73 jobs  3.3s
   Groq                         greenhouse     FAILED HTTPError: HTTP Error 404: Not Found
-  Ciena                        workday           60 jobs  4.6s
-  Garmin                       icims              0 jobs  0.8s
-  Sonos                        workday           51 jobs  2.8s
+  Ciena                        workday           60 jobs  5.2s
+  Garmin                       icims              0 jobs  1.6s
+  Sonos                        workday           51 jobs  2.7s
   Eaton                        eightfold      FAILED HTTPError: HTTP Error 403: FORBIDDEN
-  Waters Corporation           icims              0 jobs  0.6s
+  Waters Corporation           icims              0 jobs  1.6s
   Symbotic                     workday        FAILED HTTPError: HTTP Error 422: Unprocessable Entity
-  Commonwealth Fusion Systems  lever            123 jobs  1.2s
-  ChipAgents                   ashby             12 jobs  0.2s
+  Commonwealth Fusion Systems  lever            123 jobs  0.6s
+  ChipAgents                   ashby             12 jobs  0.3s
   Atomic Semi                  ashby          FAILED HTTPError: HTTP Error 404: Not Found
   Empower Semiconductor        workday           44 jobs  3.4s
-  Movandi                      smartrecruiters     1 jobs  0.4s
-  Nexperia                     workday           79 jobs  4.8s
-  SK hynix America             greenhouse        49 jobs  0.1s
-  nEye Systems                 lever             17 jobs  0.7s
-  QuEra                        greenhouse        77 jobs  0.2s
-  Alphawave Semi               workday            0 jobs  1.5s
-  Ambiq                        greenhouse        47 jobs  0.2s
+  Movandi                      smartrecruiters     1 jobs  0.5s
+  Nexperia                     workday           79 jobs  6.6s
+  SK hynix America             greenhouse        49 jobs  0.3s
+  nEye Systems                 lever             17 jobs  0.5s
+  QuEra                        greenhouse        77 jobs  0.3s
+  Alphawave Semi               workday            0 jobs  2.2s
+  Ambiq                        greenhouse        47 jobs  0.3s
   Tetramem                     smartrecruiters     6 jobs  0.5s
-  Leidos                       workday          150 jobs  9.9s
-  Curtiss-Wright               workday           99 jobs  4.0s
-  Moog                         workday          433 jobs  12.8s
-  Teledyne FLIR                workday           96 jobs  6.0s
-  Honeywell                    oracle_hcm       716 jobs  19.5s
-  Juniper Networks             oracle_hcm         0 jobs  1.2s
-  Emerson                      oracle_hcm       585 jobs  20.9s
-  Nokia                        oracle_hcm       247 jobs  6.6s
-  Lattice Semiconductor        greenhouse         9 jobs  0.1s
-  Seagate                      successfactors_csb   176 jobs  6.8s
-  BAE Systems                  phenom           304 jobs  1.3s
-  General Dynamics Mission Systems icims             62 jobs  2.0s
-  Navitas Semiconductor        smartrecruiters    54 jobs  0.7s
-  Arista Networks              smartrecruiters   247 jobs  1.2s
-  Analog Devices Maxim         smartrecruiters     3 jobs  0.4s
-  Wabtec                       smartrecruiters   786 jobs  1.1s
-  Formlabs                     greenhouse       241 jobs  0.2s
-  Markforged                   greenhouse         4 jobs  0.1s
-  Thermo Fisher Scientific     phenom            72 jobs  0.7s
-  Toast                        greenhouse       315 jobs  0.2s
-  Rapid Micro Biosystems       lever              9 jobs  0.7s
-  Fractile                     greenhouse        39 jobs  0.1s
-  Extropic                     ashby             10 jobs  0.1s
-  Normal Computing             ashby             22 jobs  0.1s
-  Lumotive                     lever             10 jobs  0.6s
-  Substrate                    ashby              7 jobs  0.0s
-  Kioxia America               smartrecruiters    19 jobs  0.4s
-  Rain AI                      ashby             41 jobs  0.1s
-  Lawrence Livermore National Laboratory smartrecruiters   177 jobs  0.3s
-  NASA JPL                     phenom            10 jobs  0.7s
+  Leidos                       workday          150 jobs  10.6s
+  Curtiss-Wright               workday          100 jobs  4.8s
+  Moog                         workday          434 jobs  15.6s
+  Teledyne FLIR                workday           96 jobs  4.7s
+  Honeywell                    oracle_hcm       717 jobs  20.0s
+  Juniper Networks             oracle_hcm         0 jobs  2.2s
+  Emerson                      oracle_hcm       582 jobs  20.9s
+  Nokia                        oracle_hcm       242 jobs  25.9s
+  Lattice Semiconductor        greenhouse         9 jobs  0.3s
+  Seagate                      successfactors_csb   166 jobs  13.3s
+  BAE Systems                  phenom           306 jobs  2.3s
+  General Dynamics Mission Systems icims             62 jobs  5.0s
+  Navitas Semiconductor        smartrecruiters    54 jobs  0.8s
+  Arista Networks              smartrecruiters   247 jobs  1.4s
+  Analog Devices Maxim         smartrecruiters     3 jobs  0.5s
+  Wabtec                       smartrecruiters   786 jobs  1.8s
+  Formlabs                     greenhouse       241 jobs  0.4s
+  Markforged                   greenhouse         4 jobs  0.2s
+  Thermo Fisher Scientific     phenom            72 jobs  1.6s
+  Toast                        greenhouse       315 jobs  0.5s
+  Rapid Micro Biosystems       lever              9 jobs  0.4s
+  Fractile                     greenhouse        39 jobs  0.3s
+  Extropic                     ashby             10 jobs  0.2s
+  Normal Computing             ashby             22 jobs  0.2s
+  Lumotive                     lever             10 jobs  0.3s
+  Substrate                    ashby              7 jobs  0.2s
+  Kioxia America               smartrecruiters    19 jobs  0.5s
+  Rain AI                      ashby             41 jobs  0.2s
+  Lawrence Livermore National Laboratory smartrecruiters   178 jobs  0.5s
+  NASA JPL                     phenom            11 jobs  1.5s
   Ultra Electronics            ashby              3 jobs  0.1s
-  Palantir                     lever            314 jobs  1.5s
-  Mach Industries              greenhouse       144 jobs  0.2s
+  Palantir                     lever            314 jobs  0.8s
+  Mach Industries              greenhouse       144 jobs  0.4s
 fetching GitHub lists…
   github:vanshb03-offseason: 157 rows
   github:vanshb03-summer: 214 rows
   github:sndsh404: 135 rows
   github:hardware-internships-2027: 31 rows
 fetching internlist.org (Simplify) lists…
-  internlist:coop             2749 jobs  15.9s
-  internlist:winter-spring   11568 jobs  74.1s
+  internlist:coop             2747 jobs  18.8s
+  internlist:winter-spring   11542 jobs  72.9s
 LinkedIn/Indeed sweep…
-2026-10-14 23:13:33,957 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4479207248
-2026-10-14 23:13:49,888 - ERROR - JobSpy:LinkedIn - LinkedIn response status code 429
+2026-10-15 01:34:02,943 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4477921940
+2026-10-15 01:34:03,007 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4424110045
+2026-10-15 01:34:04,967 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4477013526
+2026-10-15 01:34:09,989 - ERROR - JobSpy:LinkedIn - LinkedIn response status code 429
   jobspy 'electrical engineering co-op spring 2027': 33 new
-2026-10-14 23:13:50,007 - ERROR - JobSpy:LinkedIn - LinkedIn response status code 429
-  jobspy 'hardware engineer co-op 2027': 10 new
-2026-10-14 23:13:51,935 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4479564977
-2026-10-14 23:13:51,962 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4478169798
-2026-10-14 23:13:54,949 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4479717005
-2026-10-14 23:14:02,019 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4469422816
-2026-10-14 23:14:05,988 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4467814095
-2026-10-14 23:14:10,973 - ERROR - JobSpy:LinkedIn - LinkedIn response status code 429
-  jobspy 'analog design intern 2027': 25 new
-2026-10-14 23:14:24,999 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4478761191
-2026-10-14 23:14:36,985 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4479564977
-2026-10-14 23:14:45,994 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4439663447
-2026-10-14 23:14:48,003 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4478744668
-  jobspy 'ASIC intern spring 2027': 28 new
-2026-10-14 23:14:54,951 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4479565189
-2026-10-14 23:15:14,971 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4479207248
-2026-10-14 23:15:18,026 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4461542791
-  jobspy 'test engineer co-op 2027': 36 new
-2026-10-14 23:15:31,911 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4468182033
-2026-10-14 23:15:31,999 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4469991636
-2026-10-14 23:15:39,823 - ERROR - JobSpy:LinkedIn - LinkedIn response status code 429
-  jobspy 'silicon engineering intern spring 2027': 1 new
-2026-10-14 23:15:39,972 - ERROR - JobSpy:LinkedIn - LinkedIn response status code 429
-  jobspy 'RF engineer co-op': 4 new
-2026-10-14 23:15:45,996 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4470634516
-2026-10-14 23:15:50,575 - ERROR - JobSpy:LinkedIn - LinkedIn response status code 429
-  jobspy 'semiconductor co-op': 7 new
-2026-10-14 23:16:01,946 - ERROR - JobSpy:LinkedIn - LinkedIn response status code 429
-  jobspy 'design verification intern 2027': 33 new
-2026-10-14 23:16:07,922 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4479090836
-2026-10-14 23:16:26,020 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4469989515
-  jobspy 'physical design intern 2027': 68 new
-2026-10-14 23:16:45,996 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4478482557
-2026-10-14 23:16:47,910 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4477007707
-2026-10-14 23:16:47,974 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4479241920
-2026-10-14 23:16:48,067 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4479579396
-2026-10-14 23:17:08,008 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4478481839
-  jobspy 'semiconductor startup intern': 27 new
-2026-10-14 23:17:34,928 - ERROR - JobSpy:LinkedIn - LinkedIn response status code 429
+2026-10-15 01:34:40,995 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4468944585
+2026-10-15 01:34:48,076 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4477598912
+2026-10-15 01:34:50,054 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4461749153
+  jobspy 'hardware engineer co-op 2027': 38 new
+2026-10-15 01:34:53,058 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4478169798
+2026-10-15 01:35:01,924 - ERROR - JobSpy:LinkedIn - LinkedIn response status code 429
+  jobspy 'analog design intern 2027': 11 new
+2026-10-15 01:35:05,839 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4477625645
+2026-10-15 01:35:05,935 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4385399156
+2026-10-15 01:35:06,006 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4442094536
+2026-10-15 01:35:16,953 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4478761191
+2026-10-15 01:35:17,051 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4478177310
+2026-10-15 01:35:38,949 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4460818728
+  jobspy 'ASIC intern spring 2027': 23 new
+2026-10-15 01:35:49,006 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4469038301
+2026-10-15 01:35:54,026 - ERROR - JobSpy:LinkedIn - LinkedIn response status code 429
+  jobspy 'test engineer co-op 2027': 14 new
+2026-10-15 01:35:59,976 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4479564977
+2026-10-15 01:36:05,937 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4468474906
+2026-10-15 01:36:06,023 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4478760395
+2026-10-15 01:36:06,854 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4469006109
+2026-10-15 01:36:07,026 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4478169798
+2026-10-15 01:36:13,778 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4479030786
+2026-10-15 01:36:13,949 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4479087201
+2026-10-15 01:36:14,054 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4476472799
+2026-10-15 01:36:14,778 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4442094536
+2026-10-15 01:36:14,878 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4479218146
+2026-10-15 01:36:20,016 - ERROR - JobSpy:LinkedIn - LinkedIn response status code 429
+  jobspy 'silicon engineering intern spring 2027': 5 new
+2026-10-15 01:36:21,930 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4477013526
+2026-10-15 01:36:22,025 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4479251820
+2026-10-15 01:36:23,970 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4469428586
+2026-10-15 01:36:31,919 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4479729478
+2026-10-15 01:36:31,992 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4479202894
+2026-10-15 01:36:34,908 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4424908263
+2026-10-15 01:36:42,994 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4476665547
+2026-10-15 01:36:53,048 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4354537206
+2026-10-15 01:36:54,957 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4461749153
+2026-10-15 01:36:55,019 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4463646046
+  jobspy 'RF engineer co-op': 32 new
+2026-10-15 01:36:56,830 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4467646085
+2026-10-15 01:36:56,944 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4468950456
+2026-10-15 01:37:01,745 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4459555617
+2026-10-15 01:37:09,872 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4461569063
+2026-10-15 01:37:09,962 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4411525560
+2026-10-15 01:37:11,414 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4468510610
+2026-10-15 01:37:20,941 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4469988633
+2026-10-15 01:37:21,031 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4411529333
+2026-10-15 01:37:21,758 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4451961040
+2026-10-15 01:37:29,906 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4478708497
+2026-10-15 01:37:30,000 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4462071490
+  jobspy 'semiconductor co-op': 32 new
+2026-10-15 01:37:32,004 - ERROR - JobSpy:LinkedIn - LinkedIn response status code 429
+  jobspy 'design verification intern 2027': 32 new
+2026-10-15 01:37:33,004 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4469010057
+2026-10-15 01:37:37,024 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4459552775
+2026-10-15 01:37:45,837 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4469982306
+2026-10-15 01:37:49,846 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4468598307
+2026-10-15 01:38:04,771 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4469979883
+2026-10-15 01:38:04,837 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4468183058
+2026-10-15 01:38:05,001 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4478747874
+2026-10-15 01:38:06,986 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4478750701
+  jobspy 'physical design intern 2027': 63 new
+2026-10-15 01:38:09,963 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4477935543
+2026-10-15 01:38:12,027 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4476780555
+2026-10-15 01:38:13,954 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4479579396
+2026-10-15 01:38:23,996 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4459268488
+2026-10-15 01:38:25,952 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4385399156
+2026-10-15 01:38:32,799 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4479267547
+2026-10-15 01:38:32,873 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4478563717
+2026-10-15 01:38:32,983 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4478481839
+2026-10-15 01:38:35,031 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4385389613
+2026-10-15 01:38:43,881 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4460649361
+2026-10-15 01:38:45,844 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4462096136
+2026-10-15 01:38:45,906 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4478828296
+  jobspy 'semiconductor startup intern': 23 new
+2026-10-15 01:38:47,950 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4468168747
+2026-10-15 01:38:48,015 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4424110045
+2026-10-15 01:38:50,019 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4459555617
+2026-10-15 01:38:57,968 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4479508872
+2026-10-15 01:38:59,870 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4468944585
+2026-10-15 01:38:59,957 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4479087201
+2026-10-15 01:39:03,888 - ERROR - JobSpy:LinkedIn - LinkedIn response status code 429
   jobspy 'chip design startup intern': 0 new
-2026-10-14 23:17:35,006 - ERROR - JobSpy:LinkedIn - LinkedIn response status code 429
+2026-10-15 01:39:04,007 - ERROR - JobSpy:LinkedIn - LinkedIn response status code 429
   jobspy 'EDA intern': 4 new
-2026-10-14 23:17:49,995 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4479203689
-2026-10-14 23:17:56,921 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4478595714
-2026-10-14 23:17:56,983 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4478413604
-2026-10-14 23:17:59,938 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4479020616
-2026-10-14 23:18:00,031 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4479094962
-2026-10-14 23:18:08,990 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4476657074
-2026-10-14 23:18:10,940 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4476657073
-2026-10-14 23:18:11,009 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4477003765
-  jobspy 'silicon photonics intern': 29 new
-2026-10-14 23:18:26,341 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4478701686
-2026-10-14 23:18:39,442 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4479082111
-2026-10-14 23:18:45,021 - ERROR - JobSpy:LinkedIn - LinkedIn response status code 429
-  jobspy 'AI chip startup intern': 24 new
-2026-10-14 23:18:57,903 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4461569317
-2026-10-14 23:18:58,019 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4470244493
-2026-10-14 23:19:00,015 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4469422816
-2026-10-14 23:19:02,018 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4469006109
-2026-10-14 23:19:08,988 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4479234397
-2026-10-14 23:19:10,963 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4461565158
-2026-10-14 23:19:20,958 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4479503872
-2026-10-14 23:19:21,018 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4469017690
-  jobspy 'analog mixed-signal intern': 12 new
-2026-10-14 23:19:34,962 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4460828547
-2026-10-14 23:19:36,934 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4460094745
-2026-10-14 23:19:41,000 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4477936897
-2026-10-14 23:19:52,257 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4459248928
-2026-10-14 23:19:53,010 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4479559501
-2026-10-14 23:19:54,923 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4478719019
-2026-10-14 23:19:54,955 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4468474906
-2026-10-14 23:19:55,029 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4468936316
-  jobspy 'chiplet intern': 28 new
-2026-10-14 23:20:01,019 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4469428586
-2026-10-14 23:20:06,920 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4469433493
-2026-10-14 23:20:07,027 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4470244493
-2026-10-14 23:20:17,023 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4478177310
-2026-10-14 23:20:29,938 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4467646085
-2026-10-14 23:20:30,029 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4478716901
-2026-10-14 23:20:31,995 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4478176899
-  jobspy 'RFIC intern': 11 new
-2026-10-14 23:20:34,938 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4424110045
-2026-10-14 23:20:34,966 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4439663447
-2026-10-14 23:20:34,993 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4465937276
-2026-10-14 23:20:36,893 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4479020616
-2026-10-14 23:20:45,002 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4469423864
-2026-10-14 23:20:46,985 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4477935543
-2026-10-14 23:20:55,002 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4475601458
-2026-10-14 23:21:00,979 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4479717005
-2026-10-14 23:21:01,009 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4470219788
-2026-10-14 23:21:02,967 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4459540098
-  jobspy 'power semiconductor intern': 29 new
-2026-10-14 23:21:04,938 - ERROR - JobSpy:LinkedIn - LinkedIn response status code 429
+2026-10-15 01:39:04,826 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4468950456
+2026-10-15 01:39:04,901 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4477018258
+2026-10-15 01:39:04,970 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4469999336
+2026-10-15 01:39:07,829 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4476692073
+2026-10-15 01:39:07,925 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4476645093
+2026-10-15 01:39:08,023 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4468787242
+2026-10-15 01:39:27,964 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4475102339
+2026-10-15 01:39:29,883 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4479047859
+2026-10-15 01:39:29,953 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4468474906
+2026-10-15 01:39:37,999 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4479566639
+2026-10-15 01:39:42,011 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4470622600
+  jobspy 'silicon photonics intern': 28 new
+2026-10-15 01:39:43,985 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4478177429
+2026-10-15 01:39:55,885 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4479251274
+2026-10-15 01:39:55,942 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4477019375
+2026-10-15 01:39:56,015 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4478563717
+2026-10-15 01:40:10,904 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4425105258
+2026-10-15 01:40:10,974 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4468171798
+2026-10-15 01:40:14,788 - ERROR - JobSpy:LinkedIn - LinkedIn response status code 429
+  jobspy 'AI chip startup intern': 25 new
+2026-10-15 01:40:14,925 - ERROR - JobSpy:LinkedIn - LinkedIn response status code 429
+  jobspy 'analog mixed-signal intern': 1 new
+2026-10-15 01:40:18,013 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4477006962
+2026-10-15 01:40:20,833 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4477999639
+2026-10-15 01:40:20,916 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4464589511
+2026-10-15 01:40:28,011 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4470448992
+2026-10-15 01:40:29,953 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4460828547
+2026-10-15 01:40:32,040 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4460094745
+2026-10-15 01:40:36,024 - ERROR - JobSpy:LinkedIn - LinkedIn response status code 429
+  jobspy 'chiplet intern': 14 new
+2026-10-15 01:40:39,850 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4476476778
+2026-10-15 01:40:40,014 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4468163658
+2026-10-15 01:40:47,801 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4469421799
+2026-10-15 01:40:47,967 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4469422817
+2026-10-15 01:40:48,863 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4469433493
+2026-10-15 01:40:48,934 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4470244493
+2026-10-15 01:40:49,094 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4469006109
+2026-10-15 01:40:49,797 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4479233247
+2026-10-15 01:40:50,760 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4461542791
+2026-10-15 01:40:57,016 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4479717005
+2026-10-15 01:40:58,862 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4459555617
+2026-10-15 01:40:58,943 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4477907461
+2026-10-15 01:41:05,832 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4477018258
+2026-10-15 01:41:06,003 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4479030786
+2026-10-15 01:41:07,978 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4469422816
+2026-10-15 01:41:09,961 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4478176899
+  jobspy 'RFIC intern': 6 new
+2026-10-15 01:41:11,873 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4470244493
+2026-10-15 01:41:11,941 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4478104284
+2026-10-15 01:41:13,943 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4461298180
+2026-10-15 01:41:20,834 - ERROR - JobSpy:LinkedIn - LinkedIn response status code 429
+  jobspy 'power semiconductor intern': 23 new
+2026-10-15 01:41:20,952 - ERROR - JobSpy:LinkedIn - LinkedIn response status code 429
   jobspy 'semiconductor intern spring': 1 new
-2026-10-14 23:21:11,017 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4469991636
-2026-10-14 23:21:16,910 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4385399156
-2026-10-14 23:21:16,974 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4468171100
-2026-10-14 23:21:26,982 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4469048992
-2026-10-14 23:21:30,049 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4479564977
-2026-10-14 23:21:36,005 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4470619472
-2026-10-14 23:21:38,023 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4469481520
-  jobspy 'chip startup engineering intern 2027': 6 new
-openings: 27 | sheet.csv: 1130 {'CHIP': 244, 'HARDWARE': 344, 'MAYBE': 267, 'ADJACENT': 275} {'APPLY NOW': 114, 'APPLY': 276, 'SOON': 39, 'WATCH': 701} | watchlist: 111 | events: 7
+2026-10-15 01:41:24,806 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4479042902
+2026-10-15 01:41:24,869 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4442094536
+2026-10-15 01:41:24,933 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4478169798
+2026-10-15 01:41:24,988 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4479579396
+2026-10-15 01:41:34,022 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4468510610
+2026-10-15 01:41:34,805 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4468171100
+2026-10-15 01:41:34,911 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4468168747
+2026-10-15 01:41:35,001 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4467646085
+2026-10-15 01:41:43,941 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4469048992
+2026-10-15 01:41:44,002 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4460818728
+2026-10-15 01:41:45,903 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4478104284
+2026-10-15 01:41:45,970 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4479564977
+2026-10-15 01:41:53,883 - WARNING - JobSpy:LinkedIn - LinkedIn response status code 429 for job 4476628408
+  jobspy 'chip startup engineering intern 2027': 5 new
+openings: 27 | sheet.csv: 1130 {'CHIP': 244, 'HARDWARE': 346, 'MAYBE': 269, 'ADJACENT': 271} {'APPLY NOW': 90, 'APPLY': 300, 'SOON': 35, 'WATCH': 705} | watchlist: 111 | events: 7
 
-raw=45379 kept=1024 new=5 rejected=44204
-rank: {'A': 337, 'B': 271, 'C': 416}  reject reasons: {'not intern': 30491, 'no hardware keyword': 9236, 'excluded title': 2585, 'software only': 1407, 'non-US': 279, 'summer only': 168, 'phd/ms only': 33, 'fall only': 5}
+raw=45349 kept=1024 new=6 rejected=44171
+rank: {'A': 337, 'B': 273, 'C': 414}  reject reasons: {'not intern': 30497, 'no hardware keyword': 9220, 'excluded title': 2575, 'software only': 1401, 'non-US': 278, 'summer only': 162, 'phd/ms only': 33, 'fall only': 5}
