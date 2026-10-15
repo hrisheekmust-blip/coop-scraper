@@ -518,7 +518,7 @@
 "company": "Formlabs",
 "role": "Hardware Test Engineering Intern (Winter/Spring 2027)",
 "link": "https://careers.formlabs.com/job/8196515/apply/?gh_jid=8196515",
-"attempted": 1792020150,
+"attempted": 1792025802,
 "apply_url": "https://careers.formlabs.com/job/8196515/apply/?gh_jid=8196515",
 "portal": "greenhouse",
 "error": "ValueError: no board/job in url",
@@ -27287,7 +27287,7 @@
 "company": "Formlabs",
 "role": "Hardware R&D Engineering Intern (Winter/Spring 2027)",
 "link": "https://careers.formlabs.com/job/8172226/apply/?gh_jid=8172226",
-"attempted": 1792020150,
+"attempted": 1792025802,
 "apply_url": "https://careers.formlabs.com/job/8172226/apply/?gh_jid=8172226",
 "portal": "greenhouse",
 "error": "ValueError: no board/job in url",
@@ -27297,7 +27297,7 @@
 "company": "Formlabs",
 "role": "Hardware Systems Integration Intern (Winter/Spring 2027)",
 "link": "https://careers.formlabs.com/job/8172004/apply/?gh_jid=8172004",
-"attempted": 1792020150,
+"attempted": 1792025802,
 "apply_url": "https://careers.formlabs.com/job/8172004/apply/?gh_jid=8172004",
 "portal": "greenhouse",
 "error": "ValueError: no board/job in url",
@@ -31035,7 +31035,7 @@
 "company": "Formlabs",
 "role": "Electrical Engineering Intern (Winter/Spring 2027)",
 "link": "https://careers.formlabs.com/job/8148283/apply/?gh_jid=8148283",
-"attempted": 1792020150,
+"attempted": 1792025802,
 "apply_url": "https://careers.formlabs.com/job/8148283/apply/?gh_jid=8148283",
 "portal": "greenhouse",
 "error": "ValueError: no board/job in url",
@@ -32553,7 +32553,7 @@
 "company": "Rocket Lab",
 "role": "Systems Engineering Intern Spring 2027",
 "link": "https://job-boards.greenhouse.io/rocketlab/jobs/7987044003",
-"attempted": 1791765617,
+"attempted": 1792025802,
 "apply_url": "https://boards.greenhouse.io/rocketlab/jobs/7987044003",
 "portal": "greenhouse",
 "fields": [
@@ -32997,7 +32997,7 @@
 }
 ],
 "error": "",
-"fetched": "2026-10-12T00:40Z",
+"fetched": "2026-10-15T00:56Z",
 "closed": false
 },
 "fccacb447254a2c5": {
@@ -33014,7 +33014,7 @@
 "company": "Formlabs",
 "role": "Manufacturing Engineering Intern (Winter/Spring 2027)",
 "link": "https://careers.formlabs.com/job/8161817/apply/?gh_jid=8161817",
-"attempted": 1792020150,
+"attempted": 1792025802,
 "apply_url": "https://careers.formlabs.com/job/8161817/apply/?gh_jid=8161817",
 "portal": "greenhouse",
 "error": "ValueError: no board/job in url",
@@ -33296,7 +33296,7 @@
 "company": "Formlabs",
 "role": "Industrial Design Intern (Winter/Spring 2027)",
 "link": "https://careers.formlabs.com/job/8172232/apply/?gh_jid=8172232",
-"attempted": 1792020150,
+"attempted": 1792025802,
 "apply_url": "https://careers.formlabs.com/job/8172232/apply/?gh_jid=8172232",
 "portal": "greenhouse",
 "error": "ValueError: no board/job in url",
@@ -37009,7 +37009,7 @@
 "company": "Etched",
 "role": "Finance Intern",
 "link": "https://jobs.ashbyhq.com/etched/a0a1671e-15d4-474c-8227-97fe16ade553",
-"attempted": 1791765617,
+"attempted": 1792025802,
 "apply_url": "https://jobs.ashbyhq.com/etched/a0a1671e-15d4-474c-8227-97fe16ade553/application",
 "portal": "ashby",
 "error": "",
@@ -37195,14 +37195,14 @@
 "section": "Additional Information"
 }
 ],
-"fetched": "2026-10-12T00:40Z",
+"fetched": "2026-10-15T00:56Z",
 "closed": false
 },
 "a8533605216c5ebb": {
 "company": "Etched",
 "role": "PD Intern",
 "link": "https://jobs.ashbyhq.com/etched/bd8c5768-7efa-4a18-9e56-485ccaf4ec77",
-"attempted": 1791765617,
+"attempted": 1792025802,
 "apply_url": "https://jobs.ashbyhq.com/etched/bd8c5768-7efa-4a18-9e56-485ccaf4ec77/application",
 "portal": "ashby",
 "error": "",
@@ -37389,7 +37389,7 @@
 "section": "Additional Information"
 }
 ],
-"fetched": "2026-10-12T00:40Z",
+"fetched": "2026-10-15T00:56Z",
 "closed": false
 },
 "0b806e60c33b6c09": {
@@ -40367,7 +40367,7 @@
 "company": "Quantinuum",
 "role": "Photonic Integrated Circuit Design Intern",
 "link": "https://simplify.jobs/jobs/click/7c5b5c68-c8bb-439a-8e46-f121d04eec2a",
-"attempted": 1792020150,
+"attempted": 1792025802,
 "apply_url": "https://jobs.eu.lever.co/quantinuum/ef4b4db2-4ce1-47f5-bfd1-12dfc8a90107/apply?lever-source=Simplify",
 "portal": "lever",
 "error": "ValueError: no company/id in url",
@@ -43516,7 +43516,7 @@
 "company": "Quantinuum",
 "role": "Electrical Engineer Intern",
 "link": "https://simplify.jobs/jobs/click/f61a7695-7297-4d3e-9f68-3ef0b85baec3",
-"attempted": 1792020150,
+"attempted": 1792025802,
 "apply_url": "https://jobs.eu.lever.co/quantinuum/672bb667-0569-44bc-a2fa-a0fcd85673fb/apply?lever-source=Simplify",
 "portal": "lever",
 "error": "ValueError: no company/id in url",
@@ -49066,7 +49066,7 @@
 "company": "Formlabs",
 "role": "Hardware R&D Engineering Intern",
 "link": "https://careers.formlabs.com/job/8097694/apply/?gh_jid=8097694&utm_source=github-vansh-ouckah",
-"attempted": 1792020150,
+"attempted": 1792025802,
 "apply_url": "https://careers.formlabs.com/job/8097694/apply/?gh_jid=8097694&utm_source=github-vansh-ouckah",
 "portal": "greenhouse",
 "error": "ValueError: no board/job in url",
@@ -51079,7 +51079,7 @@
 "company": "Akuna Capital",
 "role": "Hardware Engineer Intern",
 "link": "https://akunacapital.com/careers/job/8018880/?gh_jid=8018880&utm_source=github-vansh-ouckah",
-"attempted": 1792020150,
+"attempted": 1792025802,
 "apply_url": "https://akunacapital.com/careers/job/8018880/?gh_jid=8018880&utm_source=github-vansh-ouckah",
 "portal": "greenhouse",
 "error": "ValueError: no board/job in url",
@@ -68205,7 +68205,7 @@
 "company": "CannonDesign",
 "role": "Electrical Engineer Intern",
 "link": "https://simplify.jobs/jobs/click/c3cff8bf-39b8-4c41-973c-0690998136dc",
-"attempted": 1792020150,
+"attempted": 1792025802,
 "apply_url": "https://www.cannondesign.com/careers/electrical-student-intern-3?gh_jid=8852053002&gh_src=Simplify",
 "portal": "greenhouse",
 "error": "ValueError: no board/job in url",
@@ -82740,40 +82740,44 @@
 "company": "Teleflex",
 "role": "Test Engineering Co-op",
 "link": "https://www.linkedin.com/jobs/view/4479710662",
-"attempted": 1792020150,
+"attempted": 1792025802,
 "apply_url": "https://www.linkedin.com/jobs/view/4479710662",
 "portal": "linkedin",
 "fields": null,
-"error": "form not public for this portal"
+"error": "form not public for this portal",
+"li_checked": true
 },
 "4000ee0f07422844": {
 "company": "HX5, LLC",
 "role": "RF Electronics Co-op",
 "link": "https://www.linkedin.com/jobs/view/4477013526",
-"attempted": 1792020150,
+"attempted": 1792025802,
 "apply_url": "https://www.linkedin.com/jobs/view/4477013526",
 "portal": "linkedin",
 "fields": null,
-"error": "form not public for this portal"
+"error": "form not public for this portal",
+"li_checked": true
 },
 "6b56cf5b92d22eb8": {
 "company": "Seagate Technology",
 "role": "Intern, Advanced Media R&D Characterization and Recording Physicist",
 "link": "https://www.linkedin.com/jobs/view/4477003765",
-"attempted": 1792020150,
+"attempted": 1792025802,
 "apply_url": "https://www.linkedin.com/jobs/view/4477003765",
 "portal": "linkedin",
 "fields": null,
-"error": "form not public for this portal"
+"error": "form not public for this portal",
+"li_checked": true
 },
 "2f07e185a82df39a": {
 "company": "Lockheed Martin",
 "role": "Systems Integration/Electrical Test Engineer-INTERN",
 "link": "https://www.linkedin.com/jobs/view/4476677017",
-"attempted": 1792020150,
+"attempted": 1792025802,
 "apply_url": "https://www.linkedin.com/jobs/view/4476677017",
 "portal": "linkedin",
 "fields": null,
-"error": "form not public for this portal"
+"error": "form not public for this portal",
+"li_checked": true
 }
 }
