@@ -175,7 +175,7 @@
   "title": "Winter 2027 EWIS Harness Engineer Co-op",
   "location": "Costa Mesa, California, United States",
   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5236577007?gh_jid=5236577007",
-  "posted": "2026-10-05",
+  "posted": "2026-10-15",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -192,14 +192,13 @@
   "title": "Winter 2027 Electrical Engineer Co-op",
   "location": "Costa Mesa, California, United States; Quincy, Massachusetts, United States",
   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5236565007?gh_jid=5236565007",
-  "posted": "2026-10-05",
+  "posted": "2026-10-15",
   "deadline": "",
   "term": "spring",
   "rank": "A",
   "hw": "electrical engineer",
   "tier": "big",
   "sources": [
-   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-09-17",
@@ -251,7 +250,6 @@
   "hw": "test engineer",
   "tier": "big",
   "sources": [
-   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-10-06",
@@ -1444,7 +1442,6 @@
   "hw": "test engineering",
   "tier": "big",
   "sources": [
-   "jobspy:linkedin",
    "oracle_hcm"
   ],
   "first_seen": "2026-09-18",
@@ -1496,8 +1493,6 @@
   "hw": "electrical engineer",
   "tier": "big",
   "sources": [
-   "internlist:coop",
-   "jobspy:linkedin",
    "workday"
   ],
   "first_seen": "2026-09-18",
@@ -1515,7 +1510,6 @@
   "hw": "metrology",
   "tier": "big",
   "sources": [
-   "internlist:coop",
    "workday"
   ],
   "first_seen": "2026-09-18",
@@ -1533,7 +1527,6 @@
   "hw": "product engineering",
   "tier": "big",
   "sources": [
-   "internlist:coop",
    "workday"
   ],
   "first_seen": "2026-09-18",
@@ -1826,6 +1819,23 @@
    "greenhouse"
   ],
   "first_seen": "2026-10-07",
+  "last_seen": "2026-10-15"
+ },
+ {
+  "company": "Figure AI",
+  "title": "Hardware Reliability Intern [Winter 2027]",
+  "location": "San Jose, CA",
+  "url": "https://job-boards.greenhouse.io/figureai/jobs/4613067006",
+  "posted": "2026-10-15",
+  "deadline": "",
+  "term": "spring",
+  "rank": "A",
+  "hw": "hardware",
+  "tier": "startup",
+  "sources": [
+   "greenhouse"
+  ],
+  "first_seen": "2026-10-15",
   "last_seen": "2026-10-15"
  },
  {
@@ -3379,8 +3389,8 @@
  {
   "company": "Rocket Lab",
   "title": "Manufacturing Engineering Intern Spring 2027",
-  "location": "Middle River, MD",
-  "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7987020003",
+  "location": "Long Beach, CA",
+  "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7984943003",
   "posted": "2026-09-16",
   "deadline": "",
   "term": "spring",
@@ -3413,8 +3423,8 @@
  {
   "company": "Rocket Lab",
   "title": "Manufacturing Engineering Intern Spring 2027",
-  "location": "Long Beach, CA",
-  "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7984943003",
+  "location": "Middle River, MD",
+  "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7987020003",
   "posted": "2026-09-16",
   "deadline": "",
   "term": "spring",
@@ -3498,23 +3508,6 @@
  {
   "company": "Rocket Lab",
   "title": "Test Engineering Intern Spring 2027",
-  "location": "Wallops Island, VA",
-  "url": "https://job-boards.greenhouse.io/rocketlab/jobs/8003533003",
-  "posted": "2026-10-15",
-  "deadline": "",
-  "term": "spring",
-  "rank": "A",
-  "hw": "test engineering",
-  "tier": "big",
-  "sources": [
-   "greenhouse"
-  ],
-  "first_seen": "2026-09-25",
-  "last_seen": "2026-10-15"
- },
- {
-  "company": "Rocket Lab",
-  "title": "Test Engineering Intern Spring 2027",
   "location": "Stennis Space Center, MS",
   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7990352003",
   "posted": "2026-09-17",
@@ -3527,6 +3520,23 @@
    "greenhouse"
   ],
   "first_seen": "2026-09-17",
+  "last_seen": "2026-10-15"
+ },
+ {
+  "company": "Rocket Lab",
+  "title": "Test Engineering Intern Spring 2027",
+  "location": "Wallops Island, VA",
+  "url": "https://job-boards.greenhouse.io/rocketlab/jobs/8003533003",
+  "posted": "2026-10-15",
+  "deadline": "",
+  "term": "spring",
+  "rank": "A",
+  "hw": "test engineering",
+  "tier": "big",
+  "sources": [
+   "greenhouse"
+  ],
+  "first_seen": "2026-09-25",
   "last_seen": "2026-10-15"
  },
  {
@@ -3592,8 +3602,7 @@
   "hw": "electrical engineering",
   "tier": "big",
   "sources": [
-   "greenhouse",
-   "internlist:coop"
+   "greenhouse"
   ],
   "first_seen": "2026-09-17",
   "last_seen": "2026-10-15"
@@ -3987,6 +3996,23 @@
    "successfactors"
   ],
   "first_seen": "2026-09-18",
+  "last_seen": "2026-10-15"
+ },
+ {
+  "company": "Skyworks",
+  "title": "IC Layout Co-op (Winter/Spring 2027)",
+  "location": "Cedar Rapids, IA, USA    ; Greensboro, NC, USA    ",
+  "url": "https://careers.skyworksinc.com/job/IC-Layout-Co-op-%28WinterSpring-2027%29/78684-en_US",
+  "posted": "2026-10-15",
+  "deadline": "",
+  "term": "spring",
+  "rank": "A",
+  "hw": "layout",
+  "tier": "big",
+  "sources": [
+   "successfactors"
+  ],
+  "first_seen": "2026-10-15",
   "last_seen": "2026-10-15"
  },
  {
@@ -4597,7 +4623,6 @@
   "hw": "silicon",
   "tier": "big",
   "sources": [
-   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-09-17",
@@ -5347,8 +5372,7 @@
   "hw": "test engineer",
   "tier": "startup",
   "sources": [
-   "greenhouse",
-   "jobspy:linkedin"
+   "greenhouse"
   ],
   "first_seen": "2026-09-21",
   "last_seen": "2026-10-15"
@@ -9562,9 +9586,7 @@
   "hw": "firmware",
   "tier": "big",
   "sources": [
-   "greenhouse",
-   "internlist:coop",
-   "internlist:winter-spring"
+   "greenhouse"
   ],
   "first_seen": "2026-09-24",
   "last_seen": "2026-10-15"
@@ -11109,23 +11131,6 @@
   "last_seen": "2026-10-15"
  },
  {
-  "company": "Arista Networks",
-  "title": "System Test Engineer  Intern",
-  "location": "Santa Clara, CA, United States",
-  "url": "https://jobs.smartrecruiters.com/aristanetworks/744000111461585",
-  "posted": "2026-02-25",
-  "deadline": "",
-  "term": "unspecified",
-  "rank": "C",
-  "hw": "test engineer",
-  "tier": "big",
-  "sources": [
-   "smartrecruiters"
-  ],
-  "first_seen": "2026-09-18",
-  "last_seen": "2026-10-15"
- },
- {
   "company": "Astranis",
   "title": "Reliability Test Intern",
   "location": "San Francisco, CA",
@@ -12004,7 +12009,6 @@
   "hw": "circuits",
   "tier": "big",
   "sources": [
-   "jobspy:indeed",
    "workday"
   ],
   "first_seen": "2026-10-15",
@@ -12090,7 +12094,6 @@
   "hw": "electrical",
   "tier": "big",
   "sources": [
-   "jobspy:linkedin",
    "oracle_hcm"
   ],
   "first_seen": "2026-09-18",
@@ -14253,8 +14256,7 @@
   "hw": "packaging engineer,silicon",
   "tier": "startup",
   "sources": [
-   "greenhouse",
-   "internlist:winter-spring"
+   "greenhouse"
   ],
   "first_seen": "2026-09-17",
   "last_seen": "2026-10-15"
@@ -16193,8 +16195,7 @@
   "hw": "design verification",
   "tier": "startup",
   "sources": [
-   "ashby",
-   "jobspy:linkedin"
+   "ashby"
   ],
   "first_seen": "2026-09-22",
   "last_seen": "2026-10-15"
@@ -16211,8 +16212,7 @@
   "hw": "rtl,soc",
   "tier": "startup",
   "sources": [
-   "ashby",
-   "jobspy:linkedin"
+   "ashby"
   ],
   "first_seen": "2026-09-23",
   "last_seen": "2026-10-15"
@@ -16539,6 +16539,23 @@
    "jobspy:linkedin"
   ],
   "first_seen": "2026-10-14",
+  "last_seen": "2026-10-15"
+ },
+ {
+  "company": "Saronic",
+  "title": "University Recruiter",
+  "location": "Austin, TX",
+  "url": "https://jobs.ashbyhq.com/saronic/e2853143-feb3-4ad2-b64a-05966a191624",
+  "posted": "2026-10-15",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "maybe",
+  "tier": "startup",
+  "sources": [
+   "ashby"
+  ],
+  "first_seen": "2026-10-15",
   "last_seen": "2026-10-15"
  },
  {
@@ -17471,8 +17488,6 @@
   "hw": "validation",
   "tier": "big",
   "sources": [
-   "jobspy:indeed",
-   "jobspy:linkedin",
    "oracle_hcm"
   ],
   "first_seen": "2026-10-14",
