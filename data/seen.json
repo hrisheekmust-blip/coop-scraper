@@ -635,8 +635,8 @@
 },
 "https://www.indeed.com/viewjob": {
 "first_seen": "2026-09-18",
-"title": "Test Engineering CO-OP (Spring 2027)",
-"company": "Kearfott Corporation",
+"title": "Drexel Electrical Engineering Co-op (Spring/Summer 2027) - Kennett Square",
+"company": "Constellation Energy",
 "desc": ""
 },
 "https://www.linkedin.com/jobs/view/4468697840": {
@@ -3483,7 +3483,7 @@
 },
 "https://simplify.jobs/jobs/click/88ed3204-4d00-47e3-b41c-c62019949562": {
 "first_seen": "2026-09-18",
-"title": "Electrical Engineer Intern",
+"title": "Embedded Electrical Engineer Intern",
 "company": "WindBorne Systems",
 "desc": ""
 },
@@ -14249,6 +14249,102 @@
 "first_seen": "2026-10-15",
 "title": "Full-Time Spring Engineering Co-op",
 "company": "Wabtec",
+"desc": ""
+},
+"https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/25016081": {
+"first_seen": "2026-10-15",
+"title": "Device Reliability Engineering Intern",
+"company": "Texas Instruments",
+"desc": ""
+},
+"https://boards.greenhouse.io/andurilindustries/jobs/5257709007": {
+"first_seen": "2026-10-15",
+"title": "2027 Flight Test Engineer Intern",
+"company": "Anduril",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/24c2d5a3-467d-49eb-a5e6-8d36e5ded684": {
+"first_seen": "2026-10-15",
+"title": "Hardware Development Co-op",
+"company": "Nokia",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4479112514": {
+"first_seen": "2026-10-15",
+"title": "Integrated Circuits Intern",
+"company": "Draper",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4461387754": {
+"first_seen": "2026-10-15",
+"title": "Electrical Engineering Intern (RF Circuitry)",
+"company": "Shure",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4476668576": {
+"first_seen": "2026-10-15",
+"title": "Electrical Design Engineering Intern 2027",
+"company": "Avynera Studios",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4477058998": {
+"first_seen": "2026-10-15",
+"title": "ASIC Design Engineer Intern",
+"company": "Meta",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4477074242": {
+"first_seen": "2026-10-15",
+"title": "ASIC Engineering Intern, Design Verification (Silicon Engineering)",
+"company": "Meta",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4461375917": {
+"first_seen": "2026-10-15",
+"title": "FPGA Development Intern",
+"company": "Shure",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4478198183": {
+"first_seen": "2026-10-15",
+"title": "Test Engineering CO-OP (Spring 2027)",
+"company": "Kearfott Corporation",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4477095747": {
+"first_seen": "2026-10-15",
+"title": "Reliability Engineering Intern",
+"company": "AeroNex Systems",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4477063631": {
+"first_seen": "2026-10-15",
+"title": "Hardware Engineer Intern, Camera & Sensing Architecture",
+"company": "Meta",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4477059931": {
+"first_seen": "2026-10-15",
+"title": "Hardware Engineer Intern, Camera & Sensing Architecture",
+"company": "Meta",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4477062806": {
+"first_seen": "2026-10-15",
+"title": "Electrical Engineering Intern",
+"company": "Meta",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4461320768": {
+"first_seen": "2026-10-15",
+"title": "Platform Hardware and Systems Engineering - Intern, Graduate",
+"company": "Intel",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4461341049": {
+"first_seen": "2026-10-15",
+"title": "Platform Hardware and Systems Engineering - Intern, Graduate",
+"company": "Intel",
 "desc": ""
 }
 }
