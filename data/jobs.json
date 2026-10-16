@@ -165,7 +165,6 @@
   "hw": "electrical engineer",
   "tier": "big",
   "sources": [
-   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-09-17",
@@ -217,7 +216,6 @@
   "hw": "test engineer",
   "tier": "big",
   "sources": [
-   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-10-06",
@@ -1529,7 +1527,6 @@
   "hw": "test engineering",
   "tier": "big",
   "sources": [
-   "jobspy:linkedin",
    "oracle_hcm"
   ],
   "first_seen": "2026-09-18",
@@ -1582,8 +1579,6 @@
   "hw": "electrical engineer",
   "tier": "big",
   "sources": [
-   "internlist:coop",
-   "jobspy:linkedin",
    "workday"
   ],
   "first_seen": "2026-09-18",
@@ -1601,7 +1596,6 @@
   "hw": "metrology",
   "tier": "big",
   "sources": [
-   "internlist:coop",
    "workday"
   ],
   "first_seen": "2026-09-18",
@@ -1619,7 +1613,6 @@
   "hw": "product engineering",
   "tier": "big",
   "sources": [
-   "internlist:coop",
    "workday"
   ],
   "first_seen": "2026-09-18",
@@ -1916,6 +1909,23 @@
  },
  {
   "company": "Figure AI",
+  "title": "Embedded Software Engineering Intern [Winter 2027]",
+  "location": "San Jose, CA",
+  "url": "https://job-boards.greenhouse.io/figureai/jobs/4722086006",
+  "posted": "2026-10-16",
+  "deadline": "",
+  "term": "spring",
+  "rank": "A",
+  "hw": "maybe",
+  "tier": "startup",
+  "sources": [
+   "greenhouse"
+  ],
+  "first_seen": "2026-10-14",
+  "last_seen": "2026-10-16"
+ },
+ {
+  "company": "Figure AI",
   "title": "Firmware Engineering Intern [Winter 2027]",
   "location": "San Jose, CA",
   "url": "https://job-boards.greenhouse.io/figureai/jobs/4601309006",
@@ -1970,7 +1980,7 @@
   "title": "Middleware Intern [Winter 2027]",
   "location": "San Jose, CA",
   "url": "https://job-boards.greenhouse.io/figureai/jobs/4605724006",
-  "posted": "2026-10-09",
+  "posted": "2026-10-16",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -3226,6 +3236,23 @@
  },
  {
   "company": "RTX",
+  "title": "Hot Section Engineering - Design Engineer Co-Op (January 2027) (Hybrid)",
+  "location": "US-PR-AGUADILLA-110 ~ Rd 110 N Km 28.8 ~ RD110",
+  "url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-PR-AGUADILLA-110--Rd-110-N-Km-288--RD110/Hot-Section-Engineering---Design-Engineer-Co-Op--January-2027---Hybrid-_01882862",
+  "posted": "Posted Today",
+  "deadline": "",
+  "term": "spring",
+  "rank": "A",
+  "hw": "maybe",
+  "tier": "big",
+  "sources": [
+   "workday"
+  ],
+  "first_seen": "2026-10-16",
+  "last_seen": "2026-10-16"
+ },
+ {
+  "company": "RTX",
   "title": "Industrial Engineer Co-op (Spring/Summer 2027)",
   "location": "US-IA-CORALVILLE-155 ~ 2855 Heartland Dr ~ HEARTLAND BLDG 155",
   "url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-IA-CORALVILLE-155--2855-Heartland-Dr--HEARTLAND-BLDG-155/Industrial-Engineer-Co-op--Spring-Summer-2027-_01881169",
@@ -3362,23 +3389,6 @@
  },
  {
   "company": "RTX",
-  "title": "Reliability Engineering Co-Op (January 2027) (Hybrid)",
-  "location": "US-PR-AGUADILLA-110 ~ Rd 110 N Km 28.8 ~ RD110",
-  "url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-PR-AGUADILLA-110--Rd-110-N-Km-288--RD110/Reliability-Engineering-Co-Op--January-2027---Hybrid-_01873496",
-  "posted": "Posted 15 Days Ago",
-  "deadline": "",
-  "term": "spring",
-  "rank": "A",
-  "hw": "reliability",
-  "tier": "big",
-  "sources": [
-   "workday"
-  ],
-  "first_seen": "2026-10-01",
-  "last_seen": "2026-10-16"
- },
- {
-  "company": "RTX",
   "title": "SOA Platform Systems Futures- Spring/Summer Co-op",
   "location": "US-IA-CEDAR RAPIDS-182 ~ 1100 Cimmie Ave Ne ~ BLDG 182",
   "url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-IA-CEDAR-RAPIDS-182--1100-Cimmie-Ave-Ne--BLDG-182/SOA-Platform-Systems-Futures--Spring-Summer-Co-op_01880874",
@@ -3482,6 +3492,23 @@
  {
   "company": "Rocket Lab",
   "title": "Manufacturing Engineering Intern Spring 2027",
+  "location": "Long Beach, CA",
+  "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7984943003",
+  "posted": "2026-09-16",
+  "deadline": "",
+  "term": "spring",
+  "rank": "A",
+  "hw": "maybe",
+  "tier": "big",
+  "sources": [
+   "greenhouse"
+  ],
+  "first_seen": "2026-09-18",
+  "last_seen": "2026-10-16"
+ },
+ {
+  "company": "Rocket Lab",
+  "title": "Manufacturing Engineering Intern Spring 2027",
   "location": "Wallops Island, VA",
   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7996617003",
   "posted": "2026-09-17",
@@ -3501,23 +3528,6 @@
   "title": "Manufacturing Engineering Intern Spring 2027",
   "location": "Middle River, MD",
   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7987020003",
-  "posted": "2026-09-16",
-  "deadline": "",
-  "term": "spring",
-  "rank": "A",
-  "hw": "maybe",
-  "tier": "big",
-  "sources": [
-   "greenhouse"
-  ],
-  "first_seen": "2026-09-18",
-  "last_seen": "2026-10-16"
- },
- {
-  "company": "Rocket Lab",
-  "title": "Manufacturing Engineering Intern Spring 2027",
-  "location": "Long Beach, CA",
-  "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7984943003",
   "posted": "2026-09-16",
   "deadline": "",
   "term": "spring",
@@ -3601,23 +3611,6 @@
  {
   "company": "Rocket Lab",
   "title": "Test Engineering Intern Spring 2027",
-  "location": "Stennis Space Center, MS",
-  "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7990352003",
-  "posted": "2026-09-17",
-  "deadline": "",
-  "term": "spring",
-  "rank": "A",
-  "hw": "test engineering",
-  "tier": "big",
-  "sources": [
-   "greenhouse"
-  ],
-  "first_seen": "2026-09-17",
-  "last_seen": "2026-10-16"
- },
- {
-  "company": "Rocket Lab",
-  "title": "Test Engineering Intern Spring 2027",
   "location": "Wallops Island, VA",
   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/8003533003",
   "posted": "2026-10-16",
@@ -3630,6 +3623,23 @@
    "greenhouse"
   ],
   "first_seen": "2026-09-25",
+  "last_seen": "2026-10-16"
+ },
+ {
+  "company": "Rocket Lab",
+  "title": "Test Engineering Intern Spring 2027",
+  "location": "Stennis Space Center, MS",
+  "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7990352003",
+  "posted": "2026-09-17",
+  "deadline": "",
+  "term": "spring",
+  "rank": "A",
+  "hw": "test engineering",
+  "tier": "big",
+  "sources": [
+   "greenhouse"
+  ],
+  "first_seen": "2026-09-17",
   "last_seen": "2026-10-16"
  },
  {
@@ -3713,8 +3723,7 @@
   "hw": "electrical engineering",
   "tier": "big",
   "sources": [
-   "greenhouse",
-   "internlist:coop"
+   "greenhouse"
   ],
   "first_seen": "2026-09-17",
   "last_seen": "2026-10-16"
@@ -4769,7 +4778,6 @@
   "hw": "silicon",
   "tier": "big",
   "sources": [
-   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-09-17",
@@ -4883,7 +4891,7 @@
   "title": "Avionics Engineering Internship - Spring 2027",
   "location": "El Segundo, California, United States",
   "url": "https://job-boards.greenhouse.io/vardaspace/jobs/7824780003",
-  "posted": "2026-10-13",
+  "posted": "2026-10-16",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -4900,7 +4908,7 @@
   "title": "Biologics Formulation Research Internship - Spring 2027",
   "location": "El Segundo, California, United States",
   "url": "https://job-boards.greenhouse.io/vardaspace/jobs/7824834003",
-  "posted": "2026-10-13",
+  "posted": "2026-10-16",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -4917,7 +4925,7 @@
   "title": "Cybersecurity Internship - Spring 2027",
   "location": "El Segundo, California, United States",
   "url": "https://job-boards.greenhouse.io/vardaspace/jobs/7824766003",
-  "posted": "2026-10-13",
+  "posted": "2026-10-16",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -4934,7 +4942,7 @@
   "title": "Environmental Health & Safety (EHS) Internship - Spring 2027",
   "location": "El Segundo, California, United States",
   "url": "https://job-boards.greenhouse.io/vardaspace/jobs/7824783003",
-  "posted": "2026-10-13",
+  "posted": "2026-10-16",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -4951,7 +4959,7 @@
   "title": "Flight Software Internship - Spring 2027",
   "location": "El Segundo, California, United States",
   "url": "https://job-boards.greenhouse.io/vardaspace/jobs/7824815003",
-  "posted": "2026-10-13",
+  "posted": "2026-10-16",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -4968,7 +4976,7 @@
   "title": "Guidance, Navigation & Controls (GNC) Internship - Spring 2027",
   "location": "El Segundo, California, United States",
   "url": "https://job-boards.greenhouse.io/vardaspace/jobs/7824781003",
-  "posted": "2026-10-13",
+  "posted": "2026-10-16",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -4985,7 +4993,7 @@
   "title": "Manufacturing Engineering Internship - Spring 2027",
   "location": "El Segundo, California, United States",
   "url": "https://job-boards.greenhouse.io/vardaspace/jobs/7824767003",
-  "posted": "2026-10-13",
+  "posted": "2026-10-16",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -5002,7 +5010,7 @@
   "title": "Mechanisms & Payload Internship - Spring 2027",
   "location": "El Segundo, California, United States",
   "url": "https://job-boards.greenhouse.io/vardaspace/jobs/7824821003",
-  "posted": "2026-10-13",
+  "posted": "2026-10-16",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -5019,7 +5027,7 @@
   "title": "Propulsion Engineering Internship - Spring 2027",
   "location": "El Segundo, California, United States",
   "url": "https://job-boards.greenhouse.io/vardaspace/jobs/7824765003",
-  "posted": "2026-10-13",
+  "posted": "2026-10-16",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -5036,7 +5044,7 @@
   "title": "Site Reliability Internship - Spring 2027",
   "location": "El Segundo, California, United States",
   "url": "https://job-boards.greenhouse.io/vardaspace/jobs/7824814003",
-  "posted": "2026-10-13",
+  "posted": "2026-10-16",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -5053,7 +5061,7 @@
   "title": "Structures Engineering Internship - Spring 2027",
   "location": "El Segundo, California, United States",
   "url": "https://job-boards.greenhouse.io/vardaspace/jobs/7824817003",
-  "posted": "2026-10-13",
+  "posted": "2026-10-16",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -5070,7 +5078,7 @@
   "title": "Structures Engineering Internship - Summer 2027",
   "location": "El Segundo, California, United States",
   "url": "https://job-boards.greenhouse.io/vardaspace/jobs/8010167003",
-  "posted": "2026-10-13",
+  "posted": "2026-10-16",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -5087,7 +5095,7 @@
   "title": "Supply Chain Internship - Spring 2027",
   "location": "El Segundo, California, United States",
   "url": "https://job-boards.greenhouse.io/vardaspace/jobs/7824827003",
-  "posted": "2026-10-13",
+  "posted": "2026-10-16",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -5104,7 +5112,7 @@
   "title": "Thermal Engineering Internship - Summer 2027",
   "location": "El Segundo, California, United States",
   "url": "https://job-boards.greenhouse.io/vardaspace/jobs/8010172003",
-  "posted": "2026-10-13",
+  "posted": "2026-10-16",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -5121,7 +5129,7 @@
   "title": "Vehicle Integration & Test Internship - Spring 2027",
   "location": "El Segundo, California, United States",
   "url": "https://job-boards.greenhouse.io/vardaspace/jobs/7824772003",
-  "posted": "2026-10-13",
+  "posted": "2026-10-16",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -9936,9 +9944,7 @@
   "hw": "firmware",
   "tier": "big",
   "sources": [
-   "greenhouse",
-   "internlist:coop",
-   "internlist:winter-spring"
+   "greenhouse"
   ],
   "first_seen": "2026-09-24",
   "last_seen": "2026-10-16"
@@ -12309,7 +12315,6 @@
   "hw": "circuits",
   "tier": "big",
   "sources": [
-   "jobspy:indeed",
    "workday"
   ],
   "first_seen": "2026-10-15",
@@ -12705,23 +12710,6 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-10-04",
-  "last_seen": "2026-10-16"
- },
- {
-  "company": "Figure AI",
-  "title": "Embedded Software Engineering Intern, Platform",
-  "location": "San Jose, CA",
-  "url": "https://job-boards.greenhouse.io/figureai/jobs/4722086006",
-  "posted": "2026-10-14",
-  "deadline": "",
-  "term": "unspecified",
-  "rank": "C",
-  "hw": "maybe",
-  "tier": "startup",
-  "sources": [
-   "greenhouse"
-  ],
-  "first_seen": "2026-10-14",
   "last_seen": "2026-10-16"
  },
  {
@@ -14625,8 +14613,7 @@
   "hw": "packaging engineer,silicon",
   "tier": "startup",
   "sources": [
-   "greenhouse",
-   "internlist:winter-spring"
+   "greenhouse"
   ],
   "first_seen": "2026-09-17",
   "last_seen": "2026-10-16"
@@ -16320,7 +16307,7 @@
   "title": "Intern, Optical Packaging and Characterization Engineer",
   "location": "Milpitas, California, United States",
   "url": "https://www.psiquantum.com/apply?gh_jid=7761881003",
-  "posted": "2026-10-13",
+  "posted": "2026-10-16",
   "deadline": "",
   "term": "unspecified",
   "rank": "C",
@@ -16599,8 +16586,7 @@
   "hw": "design verification",
   "tier": "startup",
   "sources": [
-   "ashby",
-   "jobspy:linkedin"
+   "ashby"
   ],
   "first_seen": "2026-09-22",
   "last_seen": "2026-10-16"
@@ -16617,8 +16603,7 @@
   "hw": "rtl,soc",
   "tier": "startup",
   "sources": [
-   "ashby",
-   "jobspy:linkedin"
+   "ashby"
   ],
   "first_seen": "2026-09-23",
   "last_seen": "2026-10-16"
@@ -17084,6 +17069,23 @@
  },
  {
   "company": "Seagate",
+  "title": "Head Failure Analysis Intern",
+  "location": "",
+  "url": "https://seagatecareers.com/job/Head-Failure-Analysis-Intern/15130-en_US",
+  "posted": "2026-10-02",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "failure analysis",
+  "tier": "big",
+  "sources": [
+   "successfactors"
+  ],
+  "first_seen": "2026-10-02",
+  "last_seen": "2026-10-16"
+ },
+ {
+  "company": "Seagate",
   "title": "Head Failure Analysis Intern III",
   "location": "",
   "url": "https://seagatecareers.com/job/Head-Failure-Analysis-Intern-III/15061-en_US",
@@ -17114,23 +17116,6 @@
    "successfactors"
   ],
   "first_seen": "2026-10-14",
-  "last_seen": "2026-10-16"
- },
- {
-  "company": "Seagate",
-  "title": "Metrology maintenance engineering intern",
-  "location": "Nakhon Ratchasima, THA, ",
-  "url": "https://seagatecareers.com/job/Metrology-maintenance-engineering-intern/14919-en_US",
-  "posted": "2026-08-26",
-  "deadline": "",
-  "term": "unspecified",
-  "rank": "C",
-  "hw": "metrology",
-  "tier": "big",
-  "sources": [
-   "successfactors"
-  ],
-  "first_seen": "2026-09-18",
   "last_seen": "2026-10-16"
  },
  {
@@ -17791,8 +17776,6 @@
   "hw": "validation",
   "tier": "big",
   "sources": [
-   "jobspy:indeed",
-   "jobspy:linkedin",
    "oracle_hcm"
   ],
   "first_seen": "2026-10-14",
@@ -17922,7 +17905,7 @@
   "title": "University Recruiter ",
   "location": "El Segundo, California, United States",
   "url": "https://job-boards.greenhouse.io/vardaspace/jobs/8016066003",
-  "posted": "2026-10-13",
+  "posted": "2026-10-16",
   "deadline": "",
   "term": "unspecified",
   "rank": "C",
