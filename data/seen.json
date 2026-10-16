@@ -635,8 +635,8 @@
 },
 "https://www.indeed.com/viewjob": {
 "first_seen": "2026-09-18",
-"title": "Process Engineer Co-op Spring 2027",
-"company": "Tremco CPG Inc.",
+"title": "R&D Process Engineer Co-Op",
+"company": "GAF",
 "desc": ""
 },
 "https://www.linkedin.com/jobs/view/4468697840": {
@@ -14519,6 +14519,30 @@
 "first_seen": "2026-10-16",
 "title": "Hot Section Engineering - Design Engineer Co-Op (January 2027) (Hybrid)",
 "company": "RTX",
+"desc": ""
+},
+"https://entegris.wd1.myworkdayjobs.com/EntegrisCareers/job/San-Luis-Obispo-CA/Designer-Drafter-Co-Op_REQ-14428-1": {
+"first_seen": "2026-10-16",
+"title": "Designer/Drafter Co-Op",
+"company": "Entegris",
+"desc": ""
+},
+"https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/CA-QC-LONGUEUIL-AY--1000-Blvd-Marie-Victorin--AY-BLDG/Stage---Hiver-2027---tudiant-en-gnie-des-matriaux--8-Mois----Internship---Winter-2027---Materials-Engineering--8-Months-_01868778-1": {
+"first_seen": "2026-10-16",
+"title": "Stage - Hiver 2027 - \u00c9tudiant en g\u00e9nie des mat\u00e9riaux (8 Mois) / Internship - Winter 2027 - Materials Engineering (8 Months)",
+"company": "RTX",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4480512162": {
+"first_seen": "2026-10-16",
+"title": "Firmware Co-op",
+"company": "University of Alaska Fairbanks Petroleum Engineering",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4477716032": {
+"first_seen": "2026-10-16",
+"title": "Quality Assurance Metrology Co-Op",
+"company": "Coherent Corp.",
 "desc": ""
 }
 }
