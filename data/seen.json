@@ -1725,7 +1725,7 @@
 },
 "https://simplify.jobs/jobs/click/d81bc1c9-aee7-4814-8ab8-598008962e65": {
 "first_seen": "2026-09-18",
-"title": "Electronics Engineering Co-op",
+"title": "Electrical Engineer Co-op",
 "company": "Autostore",
 "desc": ""
 },
@@ -14471,6 +14471,48 @@
 "first_seen": "2026-10-16",
 "title": "Signal Integrity Intern",
 "company": "Meta",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/a0c93f2d-63da-4cc6-ae93-f2fdf6fc64cd": {
+"first_seen": "2026-10-16",
+"title": "Optoelectronics Test Development Co-op",
+"company": "Nokia",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/b1596608-5636-4f12-9390-ed6787ec2fb8": {
+"first_seen": "2026-10-16",
+"title": "Controls Engineer Co-op",
+"company": "Kodak",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4461319617": {
+"first_seen": "2026-10-16",
+"title": "Substation Electrical CO-OP",
+"company": "HDR",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4479307855": {
+"first_seen": "2026-10-16",
+"title": "Intern, R&D Graduate Year-Round - Smart Electronics Software - Hybrid",
+"company": "Sandia National Laboratories",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4451658949": {
+"first_seen": "2026-10-16",
+"title": "Intern - DRAM Design Engineer",
+"company": "Micron Technology",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4479362456": {
+"first_seen": "2026-10-16",
+"title": "Intern",
+"company": "SiTime",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4477709115": {
+"first_seen": "2026-10-16",
+"title": "Electrical Engineering Intern",
+"company": "MechSpire",
 "desc": ""
 }
 }

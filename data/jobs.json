@@ -51,23 +51,6 @@
   "last_seen": "2026-10-16"
  },
  {
-  "company": "AeroNex Systems",
-  "title": "Reliability Engineering Intern",
-  "location": "New York, NY, USA",
-  "url": "https://www.linkedin.com/jobs/view/4477095747",
-  "posted": "2026-10-15",
-  "deadline": "",
-  "term": "spring",
-  "rank": "A",
-  "hw": "reliability",
-  "tier": "",
-  "sources": [
-   "jobspy:linkedin"
-  ],
-  "first_seen": "2026-10-15",
-  "last_seen": "2026-10-16"
- },
- {
   "company": "Amazon",
   "title": "Embedded Firmware Co-op, Amazon Robotics - Spring 2027",
   "location": "US, MA, North Reading",
@@ -182,6 +165,7 @@
   "hw": "electrical engineer",
   "tier": "big",
   "sources": [
+   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-09-17",
@@ -233,6 +217,7 @@
   "hw": "test engineer",
   "tier": "big",
   "sources": [
+   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-10-06",
@@ -835,19 +820,19 @@
  },
  {
   "company": "Astranis Space Technologies",
-  "title": "Power Electronics Intern (Winter 2027)",
+  "title": "RF Validation Intern (Winter 2027)",
   "location": "San Francisco Bay Area",
-  "url": "https://www.linkedin.com/jobs/view/4469423864",
-  "posted": "2026-10-14",
+  "url": "https://www.linkedin.com/jobs/view/4470023832",
+  "posted": "2026-10-16",
   "deadline": "",
   "term": "spring",
   "rank": "A",
-  "hw": "power electronics",
+  "hw": "rf",
   "tier": "",
   "sources": [
    "jobspy:linkedin"
   ],
-  "first_seen": "2026-09-23",
+  "first_seen": "2026-09-25",
   "last_seen": "2026-10-16"
  },
  {
@@ -1004,6 +989,40 @@
   "last_seen": "2026-10-16"
  },
  {
+  "company": "Bobcat Company",
+  "title": "Electrical Engineer Student Experience - Spring 2027",
+  "location": "Bismarck, ND, USA",
+  "url": "https://www.linkedin.com/jobs/view/4462743730",
+  "posted": "2026-10-16",
+  "deadline": "",
+  "term": "spring",
+  "rank": "A",
+  "hw": "electrical engineer",
+  "tier": "",
+  "sources": [
+   "jobspy:linkedin"
+  ],
+  "first_seen": "2026-09-24",
+  "last_seen": "2026-10-16"
+ },
+ {
+  "company": "Bobcat Company",
+  "title": "Test Engineer Student Experience - Spring 2027",
+  "location": "Bismarck, ND, USA",
+  "url": "https://www.linkedin.com/jobs/view/4462740731",
+  "posted": "2026-10-16",
+  "deadline": "",
+  "term": "spring",
+  "rank": "A",
+  "hw": "test engineer",
+  "tier": "",
+  "sources": [
+   "jobspy:linkedin"
+  ],
+  "first_seen": "2026-09-24",
+  "last_seen": "2026-10-16"
+ },
+ {
   "company": "Booz Allen",
   "title": "Product Engineer Intern",
   "location": "McLean, VA, USA",
@@ -1035,6 +1054,23 @@
    "workday"
   ],
   "first_seen": "2026-10-09",
+  "last_seen": "2026-10-16"
+ },
+ {
+  "company": "CMTA, Inc.",
+  "title": "Electrical Engineer Intern/Co-op Spring 2027 (multiple locations)",
+  "location": "Cincinnati, OH, USA",
+  "url": "https://www.linkedin.com/jobs/view/4453129952",
+  "posted": "2026-10-16",
+  "deadline": "",
+  "term": "spring",
+  "rank": "A",
+  "hw": "electrical engineer",
+  "tier": "",
+  "sources": [
+   "jobspy:linkedin"
+  ],
+  "first_seen": "2026-09-24",
   "last_seen": "2026-10-16"
  },
  {
@@ -1106,6 +1142,23 @@
   "last_seen": "2026-10-16"
  },
  {
+  "company": "Collins Aerospace",
+  "title": "Electrical Engineering for Manufacturing Co-op (Spring/Summer 2027)",
+  "location": "Bellevue, IA, USA",
+  "url": "https://www.linkedin.com/jobs/view/4471604799",
+  "posted": "2026-10-16",
+  "deadline": "",
+  "term": "spring",
+  "rank": "A",
+  "hw": "electrical engineering",
+  "tier": "",
+  "sources": [
+   "jobspy:linkedin"
+  ],
+  "first_seen": "2026-09-24",
+  "last_seen": "2026-10-16"
+ },
+ {
   "company": "Constellation",
   "title": "Drexel Electrical Engineering Co-op (Spring/Summer 2027) - Kennett Square",
   "location": "Kennett Square, PA, USA",
@@ -1173,6 +1226,40 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-09-25",
+  "last_seen": "2026-10-16"
+ },
+ {
+  "company": "Cummins Inc.",
+  "title": "Electronic Systems - Co-Op Positions",
+  "location": "Columbus, IN, USA",
+  "url": "https://www.linkedin.com/jobs/view/4470038548",
+  "posted": "2026-10-16",
+  "deadline": "",
+  "term": "spring",
+  "rank": "A",
+  "hw": "electronic",
+  "tier": "",
+  "sources": [
+   "jobspy:linkedin"
+  ],
+  "first_seen": "2026-09-24",
+  "last_seen": "2026-10-16"
+ },
+ {
+  "company": "Cummins Inc.",
+  "title": "Product Systems Validation - Co-Op Positions",
+  "location": "Columbus, IN, USA",
+  "url": "https://www.linkedin.com/jobs/view/4470041397",
+  "posted": "2026-10-16",
+  "deadline": "",
+  "term": "spring",
+  "rank": "A",
+  "hw": "validation",
+  "tier": "",
+  "sources": [
+   "jobspy:linkedin"
+  ],
+  "first_seen": "2026-09-24",
   "last_seen": "2026-10-16"
  },
  {
@@ -1442,6 +1529,7 @@
   "hw": "test engineering",
   "tier": "big",
   "sources": [
+   "jobspy:linkedin",
    "oracle_hcm"
   ],
   "first_seen": "2026-09-18",
@@ -1494,6 +1582,8 @@
   "hw": "electrical engineer",
   "tier": "big",
   "sources": [
+   "internlist:coop",
+   "jobspy:linkedin",
    "workday"
   ],
   "first_seen": "2026-09-18",
@@ -1511,6 +1601,7 @@
   "hw": "metrology",
   "tier": "big",
   "sources": [
+   "internlist:coop",
    "workday"
   ],
   "first_seen": "2026-09-18",
@@ -1528,6 +1619,7 @@
   "hw": "product engineering",
   "tier": "big",
   "sources": [
+   "internlist:coop",
    "workday"
   ],
   "first_seen": "2026-09-18",
@@ -1548,6 +1640,23 @@
    "internlist:coop"
   ],
   "first_seen": "2026-09-18",
+  "last_seen": "2026-10-16"
+ },
+ {
+  "company": "Ephemeris Net",
+  "title": "2027 Spring Electrical Engineering Internship",
+  "location": "San Francisco Bay Area",
+  "url": "https://www.linkedin.com/jobs/view/4463192693",
+  "posted": "2026-10-16",
+  "deadline": "",
+  "term": "spring",
+  "rank": "A",
+  "hw": "electrical engineering",
+  "tier": "",
+  "sources": [
+   "jobspy:linkedin"
+  ],
+  "first_seen": "2026-09-25",
   "last_seen": "2026-10-16"
  },
  {
@@ -1599,23 +1708,6 @@
    "ashby"
   ],
   "first_seen": "2026-09-17",
-  "last_seen": "2026-10-16"
- },
- {
-  "company": "Etched",
-  "title": "DV Intern",
-  "location": "San Jose, CA, USA",
-  "url": "https://www.linkedin.com/jobs/view/4385399156",
-  "posted": "2026-10-13",
-  "deadline": "",
-  "term": "spring",
-  "rank": "A",
-  "hw": "dv",
-  "tier": "",
-  "sources": [
-   "jobspy:linkedin"
-  ],
-  "first_seen": "2026-09-21",
   "last_seen": "2026-10-16"
  },
  {
@@ -2843,24 +2935,6 @@
   "last_seen": "2026-10-16"
  },
  {
-  "company": "Micron Technology",
-  "title": "Intern - ID1 ATE PI Engineer",
-  "location": "Boise, ID, USA",
-  "url": "https://www.linkedin.com/jobs/view/4478104284",
-  "posted": "2026-10-13",
-  "deadline": "",
-  "term": "spring",
-  "rank": "A",
-  "hw": "ate",
-  "tier": "",
-  "sources": [
-   "jobspy:indeed",
-   "jobspy:linkedin"
-  ],
-  "first_seen": "2026-10-13",
-  "last_seen": "2026-10-16"
- },
- {
   "company": "Midmark",
   "title": "Firmware Engineering Co-op (Spring 2027)",
   "location": "Versailles, OH",
@@ -2943,6 +3017,23 @@
    "internlist:coop"
   ],
   "first_seen": "2026-09-18",
+  "last_seen": "2026-10-16"
+ },
+ {
+  "company": "Organon",
+  "title": "Co-Op \u2013 Medical Device Engineer",
+  "location": "Greater Philadelphia",
+  "url": "https://www.linkedin.com/jobs/view/4479088700",
+  "posted": "2026-10-13",
+  "deadline": "",
+  "term": "spring",
+  "rank": "A",
+  "hw": "device engineer",
+  "tier": "",
+  "sources": [
+   "jobspy:linkedin"
+  ],
+  "first_seen": "2026-10-14",
   "last_seen": "2026-10-16"
  },
  {
@@ -3355,24 +3446,6 @@
   "last_seen": "2026-10-16"
  },
  {
-  "company": "Rivian",
-  "title": "UIUC Research Park Intern - Low Voltage Electronics",
-  "location": "Champaign, IL, USA",
-  "url": "https://www.linkedin.com/jobs/view/4478169798",
-  "posted": "2026-10-13",
-  "deadline": "",
-  "term": "spring",
-  "rank": "A",
-  "hw": "electronics",
-  "tier": "",
-  "sources": [
-   "jobspy:indeed",
-   "jobspy:linkedin"
-  ],
-  "first_seen": "2026-10-14",
-  "last_seen": "2026-10-16"
- },
- {
   "company": "Rocket Lab",
   "title": "Fluid Systems Intern Spring 2027",
   "location": "Long Beach, CA",
@@ -3577,6 +3650,24 @@
   "last_seen": "2026-10-16"
  },
  {
+  "company": "SK hynix memory solutions America Inc.",
+  "title": "Quality Assurance Test Engineer Intern",
+  "location": "San Jose, CA, USA",
+  "url": "https://www.linkedin.com/jobs/view/4479267547",
+  "posted": "2026-10-14",
+  "deadline": "",
+  "term": "spring",
+  "rank": "A",
+  "hw": "test engineer",
+  "tier": "",
+  "sources": [
+   "jobspy:indeed",
+   "jobspy:linkedin"
+  ],
+  "first_seen": "2026-10-14",
+  "last_seen": "2026-10-16"
+ },
+ {
   "company": "SSOE Group",
   "title": "Electrical Engineer Co-op",
   "location": "Toledo, OH, USA",
@@ -3622,7 +3713,8 @@
   "hw": "electrical engineering",
   "tier": "big",
   "sources": [
-   "greenhouse"
+   "greenhouse",
+   "internlist:coop"
   ],
   "first_seen": "2026-09-17",
   "last_seen": "2026-10-16"
@@ -3679,20 +3771,37 @@
   "last_seen": "2026-10-16"
  },
  {
-  "company": "Shield AI",
-  "title": "Electrical Engineering Co-op - January 2027",
-  "location": "Boston, MA, USA",
-  "url": "https://www.linkedin.com/jobs/view/4424110045",
-  "posted": "2026-10-13",
+  "company": "Siemens Digital Industries Software",
+  "title": "Strategic Student Program: Cross-Domain Electronics Systems Engineering Intern (T&I, Spring 2027)",
+  "location": "Detroit, MI, USA",
+  "url": "https://www.linkedin.com/jobs/view/4461385949",
+  "posted": "2026-10-16",
   "deadline": "",
   "term": "spring",
   "rank": "A",
-  "hw": "electrical engineering",
+  "hw": "electronics",
   "tier": "",
   "sources": [
    "jobspy:linkedin"
   ],
-  "first_seen": "2026-09-21",
+  "first_seen": "2026-09-24",
+  "last_seen": "2026-10-16"
+ },
+ {
+  "company": "Siemens Digital Industries Software",
+  "title": "Strategic Student Program: Cross-Domain Electronics Systems Engineering Intern (T&I, Spring 2027)",
+  "location": "Wilsonville, OR, USA",
+  "url": "https://www.linkedin.com/jobs/view/4461396138",
+  "posted": "2026-10-16",
+  "deadline": "",
+  "term": "spring",
+  "rank": "A",
+  "hw": "electronics",
+  "tier": "",
+  "sources": [
+   "jobspy:linkedin"
+  ],
+  "first_seen": "2026-09-24",
   "last_seen": "2026-10-16"
  },
  {
@@ -4660,6 +4769,7 @@
   "hw": "silicon",
   "tier": "big",
   "sources": [
+   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-09-17",
@@ -4714,6 +4824,23 @@
    "jobspy:linkedin"
   ],
   "first_seen": "2026-09-23",
+  "last_seen": "2026-10-16"
+ },
+ {
+  "company": "Teleflex",
+  "title": "Test Engineering Co-op",
+  "location": "Morrisville, NC, USA",
+  "url": "https://www.linkedin.com/jobs/view/4479710662",
+  "posted": "2026-10-14",
+  "deadline": "",
+  "term": "spring",
+  "rank": "A",
+  "hw": "test engineering",
+  "tier": "",
+  "sources": [
+   "jobspy:linkedin"
+  ],
+  "first_seen": "2026-10-14",
   "last_seen": "2026-10-16"
  },
  {
@@ -6442,14 +6569,14 @@
  },
  {
   "company": "Autostore",
-  "title": "Electronics Engineering Co-op",
+  "title": "Electrical Engineer Co-op",
   "location": "Atlanta, GA, USA",
   "url": "https://simplify.jobs/jobs/click/d81bc1c9-aee7-4814-8ab8-598008962e65",
   "posted": "2026-09-13",
   "deadline": "",
   "term": "coop-unspecified",
   "rank": "B",
-  "hw": "electronics",
+  "hw": "electrical engineer",
   "tier": "",
   "sources": [
    "internlist:coop",
@@ -6703,6 +6830,57 @@
   "last_seen": "2026-10-16"
  },
  {
+  "company": "CNH",
+  "title": "Electrical and Electronics System Integration Engineer Co-Op",
+  "location": "Fargo, ND, USA",
+  "url": "https://www.linkedin.com/jobs/view/4462171793",
+  "posted": "2026-10-16",
+  "deadline": "",
+  "term": "coop-unspecified",
+  "rank": "B",
+  "hw": "electrical,electronics",
+  "tier": "",
+  "sources": [
+   "jobspy:linkedin"
+  ],
+  "first_seen": "2026-09-26",
+  "last_seen": "2026-10-16"
+ },
+ {
+  "company": "CNH",
+  "title": "Electrical and Electronics System Integration Engineer Co-Op",
+  "location": "Racine, WI, USA",
+  "url": "https://www.linkedin.com/jobs/view/4461749153",
+  "posted": "2026-10-14",
+  "deadline": "",
+  "term": "coop-unspecified",
+  "rank": "B",
+  "hw": "electrical,electronics",
+  "tier": "",
+  "sources": [
+   "jobspy:linkedin"
+  ],
+  "first_seen": "2026-09-24",
+  "last_seen": "2026-10-16"
+ },
+ {
+  "company": "CNH",
+  "title": "Field Product Performance Validation Engineering Co-Op",
+  "location": "Racine, WI, USA",
+  "url": "https://www.linkedin.com/jobs/view/4461740281",
+  "posted": "2026-10-15",
+  "deadline": "",
+  "term": "coop-unspecified",
+  "rank": "B",
+  "hw": "validation",
+  "tier": "",
+  "sources": [
+   "jobspy:linkedin"
+  ],
+  "first_seen": "2026-09-24",
+  "last_seen": "2026-10-16"
+ },
+ {
   "company": "California Closets",
   "title": "Product Engineer Co-op",
   "location": "Grand Rapids, MI, USA",
@@ -6939,6 +7117,23 @@
    "internlist:coop"
   ],
   "first_seen": "2026-09-18",
+  "last_seen": "2026-10-16"
+ },
+ {
+  "company": "Cummins Inc.",
+  "title": "Product Engineering - Co-op Positions",
+  "location": "Columbus, IN, USA",
+  "url": "https://www.linkedin.com/jobs/view/4470036647",
+  "posted": "2026-10-16",
+  "deadline": "",
+  "term": "coop-unspecified",
+  "rank": "B",
+  "hw": "product engineering",
+  "tier": "",
+  "sources": [
+   "jobspy:linkedin"
+  ],
+  "first_seen": "2026-09-24",
   "last_seen": "2026-10-16"
  },
  {
@@ -8294,40 +8489,6 @@
  },
  {
   "company": "General Motors",
-  "title": "2027 Co-Op \u2013 Manufacturing Controls Engineer",
-  "location": "Rochester, NY, USA",
-  "url": "https://www.linkedin.com/jobs/view/4461500191",
-  "posted": "2026-10-13",
-  "deadline": "",
-  "term": "coop-unspecified",
-  "rank": "B",
-  "hw": "controls engineer",
-  "tier": "",
-  "sources": [
-   "jobspy:linkedin"
-  ],
-  "first_seen": "2026-09-22",
-  "last_seen": "2026-10-16"
- },
- {
-  "company": "General Motors",
-  "title": "2027 Co-Op \u2013 Manufacturing Controls Engineer",
-  "location": "Lake Orion, MI, USA",
-  "url": "https://www.linkedin.com/jobs/view/4461289376",
-  "posted": "2026-10-13",
-  "deadline": "",
-  "term": "coop-unspecified",
-  "rank": "B",
-  "hw": "controls engineer",
-  "tier": "",
-  "sources": [
-   "jobspy:linkedin"
-  ],
-  "first_seen": "2026-09-22",
-  "last_seen": "2026-10-16"
- },
- {
-  "company": "General Motors",
   "title": "Manufacturing Controls Engineer Co-op",
   "location": "Rochester, NY, USA; Detroit, MI, USA; Flint, MI, USA",
   "url": "https://simplify.jobs/jobs/click/65898fb3-db94-4f9e-bc17-03a1099910d1",
@@ -8410,6 +8571,23 @@
    "internlist:coop"
   ],
   "first_seen": "2026-10-10",
+  "last_seen": "2026-10-16"
+ },
+ {
+  "company": "HDR",
+  "title": "Substation Electrical CO-OP",
+  "location": "Madison, WI, USA",
+  "url": "https://www.linkedin.com/jobs/view/4461319617",
+  "posted": "2026-10-16",
+  "deadline": "",
+  "term": "coop-unspecified",
+  "rank": "B",
+  "hw": "electrical",
+  "tier": "",
+  "sources": [
+   "jobspy:linkedin"
+  ],
+  "first_seen": "2026-10-16",
   "last_seen": "2026-10-16"
  },
  {
@@ -8738,6 +8916,40 @@
   "last_seen": "2026-10-16"
  },
  {
+  "company": "Johnson & Johnson MedTech",
+  "title": "Beatbox Electrical Engineering Co-op",
+  "location": "Danvers, MA, USA",
+  "url": "https://www.linkedin.com/jobs/view/4471687549",
+  "posted": "2026-10-16",
+  "deadline": "",
+  "term": "coop-unspecified",
+  "rank": "B",
+  "hw": "electrical engineering",
+  "tier": "",
+  "sources": [
+   "jobspy:linkedin"
+  ],
+  "first_seen": "2026-09-24",
+  "last_seen": "2026-10-16"
+ },
+ {
+  "company": "Johnson & Johnson MedTech",
+  "title": "Impella Pump Systems Test Engineering Co-Op",
+  "location": "Danvers, MA, USA",
+  "url": "https://www.linkedin.com/jobs/view/4471185701",
+  "posted": "2026-10-15",
+  "deadline": "",
+  "term": "coop-unspecified",
+  "rank": "B",
+  "hw": "systems test",
+  "tier": "",
+  "sources": [
+   "jobspy:linkedin"
+  ],
+  "first_seen": "2026-09-24",
+  "last_seen": "2026-10-16"
+ },
+ {
   "company": "Keenfinity",
   "title": "Electrical Test Engineering Co-op",
   "location": "Fairport, NY, USA",
@@ -8788,6 +9000,23 @@
    "internlist:coop"
   ],
   "first_seen": "2026-10-08",
+  "last_seen": "2026-10-16"
+ },
+ {
+  "company": "Kodak",
+  "title": "Controls Engineer Co-op",
+  "location": "Rochester, NY, USA",
+  "url": "https://simplify.jobs/jobs/click/b1596608-5636-4f12-9390-ed6787ec2fb8",
+  "posted": "2026-09-18",
+  "deadline": "",
+  "term": "coop-unspecified",
+  "rank": "B",
+  "hw": "controls engineer",
+  "tier": "",
+  "sources": [
+   "internlist:coop"
+  ],
+  "first_seen": "2026-10-16",
   "last_seen": "2026-10-16"
  },
  {
@@ -9151,6 +9380,23 @@
  },
  {
   "company": "Nokia",
+  "title": "Optoelectronics Test Development Co-op",
+  "location": "Allentown, PA, USA",
+  "url": "https://simplify.jobs/jobs/click/a0c93f2d-63da-4cc6-ae93-f2fdf6fc64cd",
+  "posted": "2026-10-14",
+  "deadline": "",
+  "term": "coop-unspecified",
+  "rank": "B",
+  "hw": "test development",
+  "tier": "",
+  "sources": [
+   "internlist:coop"
+  ],
+  "first_seen": "2026-10-16",
+  "last_seen": "2026-10-16"
+ },
+ {
+  "company": "Nokia",
   "title": "Optoelectronics Test Development Coop",
   "location": "United States",
   "url": "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/41124",
@@ -9424,6 +9670,23 @@
   "last_seen": "2026-10-16"
  },
  {
+  "company": "Raytheon",
+  "title": "Test Engineering Specialist Co-Op (Onsite)",
+  "location": "Andover, MA, USA",
+  "url": "https://www.linkedin.com/jobs/view/4469968894",
+  "posted": "2026-10-15",
+  "deadline": "",
+  "term": "coop-unspecified",
+  "rank": "B",
+  "hw": "test engineering",
+  "tier": "",
+  "sources": [
+   "jobspy:linkedin"
+  ],
+  "first_seen": "2026-09-21",
+  "last_seen": "2026-10-16"
+ },
+ {
   "company": "Re:Build Manufacturing",
   "title": "Automation & Controls Engineer Intern Co-op",
   "location": "Rochester, NY, USA; Rush, NY, USA",
@@ -9673,7 +9936,26 @@
   "hw": "firmware",
   "tier": "big",
   "sources": [
-   "greenhouse"
+   "greenhouse",
+   "internlist:coop",
+   "internlist:winter-spring"
+  ],
+  "first_seen": "2026-09-24",
+  "last_seen": "2026-10-16"
+ },
+ {
+  "company": "Schaeffler",
+  "title": "Co-op Electrical Engineering - Fall 2027",
+  "location": "Troy, MI, USA",
+  "url": "https://www.linkedin.com/jobs/view/4452611940",
+  "posted": "2026-10-16",
+  "deadline": "",
+  "term": "coop-unspecified",
+  "rank": "B",
+  "hw": "electrical engineering",
+  "tier": "",
+  "sources": [
+   "jobspy:linkedin"
   ],
   "first_seen": "2026-09-24",
   "last_seen": "2026-10-16"
@@ -11251,6 +11533,23 @@
   "last_seen": "2026-10-16"
  },
  {
+  "company": "Avicena Tech",
+  "title": "Hardware Automation Software Engineering Intern",
+  "location": "Sunnyvale, CA, USA",
+  "url": "https://www.linkedin.com/jobs/view/4459575797",
+  "posted": "2026-10-15",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "hardware",
+  "tier": "",
+  "sources": [
+   "jobspy:linkedin"
+  ],
+  "first_seen": "2026-09-23",
+  "last_seen": "2026-10-16"
+ },
+ {
   "company": "BGE",
   "title": "Electrical Engineer Intern",
   "location": "Austin, TX, USA",
@@ -11727,23 +12026,6 @@
   "last_seen": "2026-10-16"
  },
  {
-  "company": "Celestica",
-  "title": "Student Intern, Hardware Design",
-  "location": "Austin, TX, USA",
-  "url": "https://www.linkedin.com/jobs/view/4469974858",
-  "posted": "2026-10-13",
-  "deadline": "",
-  "term": "unspecified",
-  "rank": "C",
-  "hw": "hardware",
-  "tier": "",
-  "sources": [
-   "jobspy:linkedin"
-  ],
-  "first_seen": "2026-09-21",
-  "last_seen": "2026-10-16"
- },
- {
   "company": "Centurum",
   "title": "Electrical Engineer Intern",
   "location": "San Diego, CA, USA",
@@ -11758,24 +12040,6 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-16"
- },
- {
-  "company": "Cirrus Logic",
-  "title": "2027 Internship - Systems Engineering - Power & Control",
-  "location": "Austin, TX, USA",
-  "url": "https://www.linkedin.com/jobs/view/4479161279",
-  "posted": "2026-10-15",
-  "deadline": "",
-  "term": "unspecified",
-  "rank": "C",
-  "hw": "maybe",
-  "tier": "",
-  "sources": [
-   "jobspy:indeed",
-   "jobspy:linkedin"
-  ],
-  "first_seen": "2026-10-15",
   "last_seen": "2026-10-16"
  },
  {
@@ -12045,6 +12309,7 @@
   "hw": "circuits",
   "tier": "big",
   "sources": [
+   "jobspy:indeed",
    "workday"
   ],
   "first_seen": "2026-10-15",
@@ -12133,23 +12398,6 @@
    "oracle_hcm"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-16"
- },
- {
-  "company": "Emerson",
-  "title": "Electrical Design Engineering Intern",
-  "location": "Eden Prairie, MN, USA",
-  "url": "https://www.linkedin.com/jobs/view/4461565158",
-  "posted": "2026-10-13",
-  "deadline": "",
-  "term": "unspecified",
-  "rank": "C",
-  "hw": "electrical",
-  "tier": "",
-  "sources": [
-   "jobspy:linkedin"
-  ],
-  "first_seen": "2026-09-22",
   "last_seen": "2026-10-16"
  },
  {
@@ -12337,6 +12585,23 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-09-18",
+  "last_seen": "2026-10-16"
+ },
+ {
+  "company": "Etched",
+  "title": "DV Intern",
+  "location": "San Jose, CA, USA",
+  "url": "https://www.linkedin.com/jobs/view/4385399156",
+  "posted": "2026-10-13",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "dv",
+  "tier": "",
+  "sources": [
+   "jobspy:linkedin"
+  ],
+  "first_seen": "2026-09-21",
   "last_seen": "2026-10-16"
  },
  {
@@ -12593,23 +12858,6 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-09-22",
-  "last_seen": "2026-10-16"
- },
- {
-  "company": "Garmin",
-  "title": "Electrical Design Engineer Intern",
-  "location": "Olathe, KS, USA",
-  "url": "https://www.linkedin.com/jobs/view/4455917827",
-  "posted": "2026-10-16",
-  "deadline": "",
-  "term": "unspecified",
-  "rank": "C",
-  "hw": "electrical",
-  "tier": "",
-  "sources": [
-   "jobspy:linkedin"
-  ],
-  "first_seen": "2026-10-16",
   "last_seen": "2026-10-16"
  },
  {
@@ -13021,6 +13269,23 @@
   "last_seen": "2026-10-16"
  },
  {
+  "company": "HPE Aruba Networking",
+  "title": "ASIC Verification Engineering Intern",
+  "location": "Roseville, CA, USA",
+  "url": "https://www.linkedin.com/jobs/view/4478761191",
+  "posted": "2026-10-13",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "asic,verification",
+  "tier": "",
+  "sources": [
+   "jobspy:linkedin"
+  ],
+  "first_seen": "2026-10-13",
+  "last_seen": "2026-10-16"
+ },
+ {
   "company": "HPR",
   "title": "FPGA Engineering Intern",
   "location": "Needham, MA",
@@ -13115,6 +13380,23 @@
   "term": "unspecified",
   "rank": "C",
   "hw": "asic",
+  "tier": "",
+  "sources": [
+   "jobspy:linkedin"
+  ],
+  "first_seen": "2026-10-13",
+  "last_seen": "2026-10-16"
+ },
+ {
+  "company": "Hewlett Packard Enterprise",
+  "title": "VLSI Design Verification Intern",
+  "location": "Greater Fort Collins Area",
+  "url": "https://www.linkedin.com/jobs/view/4478751591",
+  "posted": "2026-10-13",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "design verification,vlsi",
   "tier": "",
   "sources": [
    "jobspy:linkedin"
@@ -13293,23 +13575,6 @@
   "last_seen": "2026-10-16"
  },
  {
-  "company": "Infineon Technologies",
-  "title": "Internship \u2013 R&D Product Engineer",
-  "location": "Leominster, MA, USA",
-  "url": "https://www.linkedin.com/jobs/view/4479043205",
-  "posted": "2026-10-13",
-  "deadline": "",
-  "term": "unspecified",
-  "rank": "C",
-  "hw": "product engineer",
-  "tier": "",
-  "sources": [
-   "jobspy:linkedin"
-  ],
-  "first_seen": "2026-10-14",
-  "last_seen": "2026-10-16"
- },
- {
   "company": "Intel",
   "title": "Platform Hardware and Systems Engineering - Intern, Bachelor\u2019s",
   "location": "5 Locations",
@@ -13324,6 +13589,23 @@
    "workday"
   ],
   "first_seen": "2026-09-17",
+  "last_seen": "2026-10-16"
+ },
+ {
+  "company": "Intel",
+  "title": "Platform Hardware and Systems Engineering - Intern, Bachelor\u2019s",
+  "location": "Austin, TX, USA",
+  "url": "https://www.linkedin.com/jobs/view/4461319872",
+  "posted": "2026-10-16",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "hardware",
+  "tier": "",
+  "sources": [
+   "jobspy:linkedin"
+  ],
+  "first_seen": "2026-09-24",
   "last_seen": "2026-10-16"
  },
  {
@@ -13380,9 +13662,9 @@
  {
   "company": "Intel",
   "title": "Platform Hardware and Systems Engineering - Intern, Graduate",
-  "location": "Austin, TX, USA",
-  "url": "https://www.linkedin.com/jobs/view/4461341049",
-  "posted": "2026-10-15",
+  "location": "Santa Clara, CA, USA",
+  "url": "https://www.linkedin.com/jobs/view/4461317981",
+  "posted": "2026-10-16",
   "deadline": "",
   "term": "unspecified",
   "rank": "C",
@@ -13391,15 +13673,15 @@
   "sources": [
    "jobspy:linkedin"
   ],
-  "first_seen": "2026-10-15",
+  "first_seen": "2026-09-24",
   "last_seen": "2026-10-16"
  },
  {
   "company": "Intel",
   "title": "Platform Hardware and Systems Engineering - Intern, Graduate",
-  "location": "Folsom, CA, USA",
-  "url": "https://www.linkedin.com/jobs/view/4461320768",
-  "posted": "2026-10-15",
+  "location": "Phoenix, AZ, USA",
+  "url": "https://www.linkedin.com/jobs/view/4461323278",
+  "posted": "2026-10-16",
   "deadline": "",
   "term": "unspecified",
   "rank": "C",
@@ -13408,7 +13690,7 @@
   "sources": [
    "jobspy:linkedin"
   ],
-  "first_seen": "2026-10-15",
+  "first_seen": "2026-09-24",
   "last_seen": "2026-10-16"
  },
  {
@@ -13431,9 +13713,9 @@
  {
   "company": "Intel",
   "title": "Silicon Hardware Engineering - Intern, Bachelor\u2019s",
-  "location": "Austin, TX, USA",
-  "url": "https://www.linkedin.com/jobs/view/4461335124",
-  "posted": "2026-10-15",
+  "location": "Santa Clara, CA, USA",
+  "url": "https://www.linkedin.com/jobs/view/4461320770",
+  "posted": "2026-10-16",
   "deadline": "",
   "term": "unspecified",
   "rank": "C",
@@ -13442,7 +13724,58 @@
   "sources": [
    "jobspy:linkedin"
   ],
-  "first_seen": "2026-09-27",
+  "first_seen": "2026-09-24",
+  "last_seen": "2026-10-16"
+ },
+ {
+  "company": "Intel",
+  "title": "Silicon Hardware Engineering - Intern, Bachelor\u2019s",
+  "location": "Phoenix, AZ, USA",
+  "url": "https://www.linkedin.com/jobs/view/4461326235",
+  "posted": "2026-10-16",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "hardware,silicon",
+  "tier": "",
+  "sources": [
+   "jobspy:linkedin"
+  ],
+  "first_seen": "2026-09-24",
+  "last_seen": "2026-10-16"
+ },
+ {
+  "company": "Intel",
+  "title": "Silicon Hardware Engineering - Intern, Bachelor\u2019s",
+  "location": "Folsom, CA, USA",
+  "url": "https://www.linkedin.com/jobs/view/4461335125",
+  "posted": "2026-10-16",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "hardware,silicon",
+  "tier": "",
+  "sources": [
+   "jobspy:linkedin"
+  ],
+  "first_seen": "2026-09-24",
+  "last_seen": "2026-10-16"
+ },
+ {
+  "company": "Intel",
+  "title": "Silicon Hardware Engineering - Intern, Bachelor\u2019s",
+  "location": "Hillsboro, OR, USA",
+  "url": "https://www.linkedin.com/jobs/view/4461340077",
+  "posted": "2026-10-16",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "hardware,silicon",
+  "tier": "",
+  "sources": [
+   "jobspy:linkedin"
+  ],
+  "first_seen": "2026-09-24",
   "last_seen": "2026-10-16"
  },
  {
@@ -13460,6 +13793,23 @@
    "workday"
   ],
   "first_seen": "2026-09-17",
+  "last_seen": "2026-10-16"
+ },
+ {
+  "company": "Intel",
+  "title": "Silicon Hardware Engineering - Intern, Graduate",
+  "location": "Santa Clara, CA, USA",
+  "url": "https://www.linkedin.com/jobs/view/4461324273",
+  "posted": "2026-10-16",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "hardware,silicon",
+  "tier": "",
+  "sources": [
+   "jobspy:linkedin"
+  ],
+  "first_seen": "2026-09-24",
   "last_seen": "2026-10-16"
  },
  {
@@ -13713,6 +14063,7 @@
   "tier": "",
   "sources": [
    "internlist:winter-spring",
+   "jobspy:indeed",
    "jobspy:linkedin"
   ],
   "first_seen": "2026-09-23",
@@ -14025,6 +14376,23 @@
   "last_seen": "2026-10-16"
  },
  {
+  "company": "Kratos Defense and Security Solutions",
+  "title": "SkillBridge RF Technician Internship for Service Members",
+  "location": "Colorado Springs, CO, USA",
+  "url": "https://www.linkedin.com/jobs/view/4424908263",
+  "posted": "2026-10-13",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "rf",
+  "tier": "",
+  "sources": [
+   "jobspy:linkedin"
+  ],
+  "first_seen": "2026-09-21",
+  "last_seen": "2026-10-16"
+ },
+ {
   "company": "L3Harris Technologies",
   "title": "Electrical Engineer Intern",
   "location": "Clifton, NJ, USA",
@@ -14257,7 +14625,8 @@
   "hw": "packaging engineer,silicon",
   "tier": "startup",
   "sources": [
-   "greenhouse"
+   "greenhouse",
+   "internlist:winter-spring"
   ],
   "first_seen": "2026-09-17",
   "last_seen": "2026-10-16"
@@ -14345,23 +14714,6 @@
    "jobspy:linkedin"
   ],
   "first_seen": "2026-10-16",
-  "last_seen": "2026-10-16"
- },
- {
-  "company": "MACOM",
-  "title": "Device Integration Intern",
-  "location": "Lowell, MA, USA",
-  "url": "https://www.linkedin.com/jobs/view/4479020616",
-  "posted": "2026-10-13",
-  "deadline": "",
-  "term": "unspecified",
-  "rank": "C",
-  "hw": "maybe",
-  "tier": "",
-  "sources": [
-   "jobspy:linkedin"
-  ],
-  "first_seen": "2026-10-14",
   "last_seen": "2026-10-16"
  },
  {
@@ -14654,6 +15006,40 @@
   "last_seen": "2026-10-16"
  },
  {
+  "company": "MechSpire",
+  "title": "Electrical Engineering Intern",
+  "location": "Massachusetts, USA",
+  "url": "https://www.linkedin.com/jobs/view/4477709115",
+  "posted": "2026-10-16",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "electrical engineering",
+  "tier": "",
+  "sources": [
+   "jobspy:linkedin"
+  ],
+  "first_seen": "2026-10-16",
+  "last_seen": "2026-10-16"
+ },
+ {
+  "company": "Mercury Systems",
+  "title": "2027 RF Engineering Intern",
+  "location": "Oxnard, CA, USA",
+  "url": "https://www.linkedin.com/jobs/view/4469017690",
+  "posted": "2026-10-13",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "rf",
+  "tier": "",
+  "sources": [
+   "jobspy:linkedin"
+  ],
+  "first_seen": "2026-09-22",
+  "last_seen": "2026-10-16"
+ },
+ {
   "company": "Meta",
   "title": "ASIC Design Engineer Intern",
   "location": "Sunnyvale, CA, USA",
@@ -14663,6 +15049,23 @@
   "term": "unspecified",
   "rank": "C",
   "hw": "asic",
+  "tier": "",
+  "sources": [
+   "jobspy:linkedin"
+  ],
+  "first_seen": "2026-10-15",
+  "last_seen": "2026-10-16"
+ },
+ {
+  "company": "Meta",
+  "title": "ASIC Engineering Intern, Design Verification (Silicon Engineering)",
+  "location": "Sunnyvale, CA, USA",
+  "url": "https://www.linkedin.com/jobs/view/4477074242",
+  "posted": "2026-10-15",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "asic,design verification,silicon",
   "tier": "",
   "sources": [
    "jobspy:linkedin"
@@ -14682,6 +15085,7 @@
   "hw": "maybe",
   "tier": "",
   "sources": [
+   "jobspy:indeed",
    "jobspy:linkedin"
   ],
   "first_seen": "2026-10-15",
@@ -14736,23 +15140,6 @@
    "jobspy:linkedin"
   ],
   "first_seen": "2026-10-15",
-  "last_seen": "2026-10-16"
- },
- {
-  "company": "Meta",
-  "title": "Signal Integrity Intern",
-  "location": "Menlo Park, CA, USA",
-  "url": "https://www.linkedin.com/jobs/view/4476652449",
-  "posted": "2026-10-14",
-  "deadline": "",
-  "term": "unspecified",
-  "rank": "C",
-  "hw": "signal integrity",
-  "tier": "",
-  "sources": [
-   "jobspy:linkedin"
-  ],
-  "first_seen": "2026-10-16",
   "last_seen": "2026-10-16"
  },
  {
@@ -14927,6 +15314,40 @@
  },
  {
   "company": "Micron Technology",
+  "title": "Intern - DRAM Design Engineer",
+  "location": "Boise, ID, USA",
+  "url": "https://www.linkedin.com/jobs/view/4451658949",
+  "posted": "2026-10-16",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "maybe",
+  "tier": "",
+  "sources": [
+   "jobspy:linkedin"
+  ],
+  "first_seen": "2026-10-16",
+  "last_seen": "2026-10-16"
+ },
+ {
+  "company": "Micron Technology",
+  "title": "Intern - DRAM Technology DTCO & PPA Assessment Engineer",
+  "location": "Boise, ID, USA",
+  "url": "https://www.linkedin.com/jobs/view/4460978308",
+  "posted": "2026-10-16",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "maybe",
+  "tier": "",
+  "sources": [
+   "jobspy:linkedin"
+  ],
+  "first_seen": "2026-09-24",
+  "last_seen": "2026-10-16"
+ },
+ {
+  "company": "Micron Technology",
   "title": "Intern - Design Engineer, HBM",
   "location": "Richardson, TX, USA",
   "url": "https://www.linkedin.com/jobs/view/4469006109",
@@ -14944,19 +15365,19 @@
  },
  {
   "company": "Micron Technology",
-  "title": "Intern - Design Engineer, HIG HBM",
-  "location": "Richardson, TX, USA",
-  "url": "https://www.linkedin.com/jobs/view/4469461097",
-  "posted": "2026-10-15",
+  "title": "Intern - ID1 Process Engineer",
+  "location": "Boise, ID, USA",
+  "url": "https://www.linkedin.com/jobs/view/4469671361",
+  "posted": "2026-10-16",
   "deadline": "",
   "term": "unspecified",
   "rank": "C",
-  "hw": "maybe",
+  "hw": "process engineer",
   "tier": "",
   "sources": [
    "jobspy:linkedin"
   ],
-  "first_seen": "2026-09-23",
+  "first_seen": "2026-09-24",
   "last_seen": "2026-10-16"
  },
  {
@@ -14974,6 +15395,23 @@
    "jobspy:linkedin"
   ],
   "first_seen": "2026-09-23",
+  "last_seen": "2026-10-16"
+ },
+ {
+  "company": "Micron Technology",
+  "title": "Intern Design Engineer - HIG HBM",
+  "location": "Richardson, TX, USA",
+  "url": "https://www.linkedin.com/jobs/view/4469661969",
+  "posted": "2026-10-16",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "maybe",
+  "tier": "",
+  "sources": [
+   "jobspy:linkedin"
+  ],
+  "first_seen": "2026-09-25",
   "last_seen": "2026-10-16"
  },
  {
@@ -15725,6 +16163,23 @@
   "last_seen": "2026-10-16"
  },
  {
+  "company": "Northrop Grumman",
+  "title": "2027 S/W Embedded Engineering Intern \u2013 Annapolis MD",
+  "location": "Annapolis, MD, USA",
+  "url": "https://www.linkedin.com/jobs/view/4480177071",
+  "posted": "2026-10-15",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "embedded",
+  "tier": "",
+  "sources": [
+   "jobspy:linkedin"
+  ],
+  "first_seen": "2026-10-15",
+  "last_seen": "2026-10-16"
+ },
+ {
   "company": "Odys Aviation",
   "title": "Robotics & Embedded Systems Intern",
   "location": "Long Beach, CA, USA",
@@ -15790,23 +16245,6 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-16"
- },
- {
-  "company": "Omni Powertrain Technologies",
-  "title": "ELECTRICAL OR MEGATRONICS ENGINEERING INTERN",
-  "location": "Houston, TX, USA",
-  "url": "https://www.linkedin.com/jobs/view/4478457540",
-  "posted": "2026-10-14",
-  "deadline": "",
-  "term": "unspecified",
-  "rank": "C",
-  "hw": "electrical",
-  "tier": "",
-  "sources": [
-   "jobspy:linkedin"
-  ],
-  "first_seen": "2026-10-14",
   "last_seen": "2026-10-16"
  },
  {
@@ -16161,7 +16599,8 @@
   "hw": "design verification",
   "tier": "startup",
   "sources": [
-   "ashby"
+   "ashby",
+   "jobspy:linkedin"
   ],
   "first_seen": "2026-09-22",
   "last_seen": "2026-10-16"
@@ -16178,7 +16617,8 @@
   "hw": "rtl,soc",
   "tier": "startup",
   "sources": [
-   "ashby"
+   "ashby",
+   "jobspy:linkedin"
   ],
   "first_seen": "2026-09-23",
   "last_seen": "2026-10-16"
@@ -16321,23 +16761,6 @@
  },
  {
   "company": "Raytheon",
-  "title": "Electro-Optics Systems Engineer Intern (Onsite)",
-  "location": "McKinney, TX, USA",
-  "url": "https://www.linkedin.com/jobs/view/4479245943",
-  "posted": "2026-10-14",
-  "deadline": "",
-  "term": "unspecified",
-  "rank": "C",
-  "hw": "optics",
-  "tier": "",
-  "sources": [
-   "jobspy:linkedin"
-  ],
-  "first_seen": "2026-10-14",
-  "last_seen": "2026-10-16"
- },
- {
-  "company": "Raytheon",
   "title": "Power and Analog Electronic Engineer Intern (Onsite)",
   "location": "Tucson, AZ, USA",
   "url": "https://www.linkedin.com/jobs/view/4470244493",
@@ -16351,6 +16774,23 @@
    "jobspy:linkedin"
   ],
   "first_seen": "2026-09-22",
+  "last_seen": "2026-10-16"
+ },
+ {
+  "company": "Raytheon",
+  "title": "RF Systems Engineer Intern (Onsite)",
+  "location": "McKinney, TX, USA",
+  "url": "https://www.linkedin.com/jobs/view/4479251820",
+  "posted": "2026-10-14",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "rf",
+  "tier": "",
+  "sources": [
+   "jobspy:linkedin"
+  ],
+  "first_seen": "2026-10-14",
   "last_seen": "2026-10-16"
  },
  {
@@ -16439,6 +16879,23 @@
   "last_seen": "2026-10-16"
  },
  {
+  "company": "Rivian",
+  "title": "UIUC Research Park Intern - Low Voltage Electronics",
+  "location": "Champaign, IL, USA",
+  "url": "https://www.linkedin.com/jobs/view/4478169798",
+  "posted": "2026-10-13",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "electronics",
+  "tier": "",
+  "sources": [
+   "jobspy:linkedin"
+  ],
+  "first_seen": "2026-10-14",
+  "last_seen": "2026-10-16"
+ },
+ {
   "company": "Rivian and Volkswagen Group Technologies",
   "title": "Engineering Intern, Embedded Hardware, Vehicle Networking & Audio",
   "location": "Palo Alto, CA",
@@ -16453,6 +16910,23 @@
    "github:vanshb03-offseason"
   ],
   "first_seen": "2026-09-17",
+  "last_seen": "2026-10-16"
+ },
+ {
+  "company": "Sandia National Laboratories",
+  "title": "Intern, R&D Graduate Year-Round - Smart Electronics Software - Hybrid",
+  "location": "Albuquerque, NM, USA",
+  "url": "https://www.linkedin.com/jobs/view/4479307855",
+  "posted": "2026-10-16",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "electronics",
+  "tier": "",
+  "sources": [
+   "jobspy:linkedin"
+  ],
+  "first_seen": "2026-10-16",
   "last_seen": "2026-10-16"
  },
  {
@@ -16779,6 +17253,23 @@
   "last_seen": "2026-10-16"
  },
  {
+  "company": "SiTime",
+  "title": "Intern",
+  "location": "Tempe, AZ, USA",
+  "url": "https://www.linkedin.com/jobs/view/4479362456",
+  "posted": "2026-10-16",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "maybe",
+  "tier": "",
+  "sources": [
+   "jobspy:linkedin"
+  ],
+  "first_seen": "2026-10-16",
+  "last_seen": "2026-10-16"
+ },
+ {
   "company": "Sierra Lobo",
   "title": "Electrical Engineer Intern",
   "location": "Milan, OH, USA",
@@ -17086,23 +17577,6 @@
  },
  {
   "company": "Texas Instruments",
-  "title": "Device Reliability Engineering Intern",
-  "location": "Dallas, TX, USA",
-  "url": "https://www.linkedin.com/jobs/view/4479155830",
-  "posted": "2026-10-15",
-  "deadline": "",
-  "term": "unspecified",
-  "rank": "C",
-  "hw": "reliability",
-  "tier": "",
-  "sources": [
-   "jobspy:linkedin"
-  ],
-  "first_seen": "2026-10-16",
-  "last_seen": "2026-10-16"
- },
- {
-  "company": "Texas Instruments",
   "title": "Digital IC Design Engineer Intern",
   "location": "Knoxville, TN, USA; Dallas, TX, USA; Tucson, AZ, USA",
   "url": "https://simplify.jobs/jobs/click/031c6b44-ce56-408c-81b2-2f6074c1d1dd",
@@ -17317,43 +17791,11 @@
   "hw": "validation",
   "tier": "big",
   "sources": [
+   "jobspy:indeed",
+   "jobspy:linkedin",
    "oracle_hcm"
   ],
   "first_seen": "2026-10-14",
-  "last_seen": "2026-10-16"
- },
- {
-  "company": "The Aerospace Corporation",
-  "title": "2027 Photonics Device Characterization Undergraduate Intern",
-  "location": "El Segundo, CA, USA",
-  "url": "https://www.linkedin.com/jobs/view/4476645093",
-  "posted": "2026-10-14",
-  "deadline": "",
-  "term": "unspecified",
-  "rank": "C",
-  "hw": "characterization,photonics",
-  "tier": "",
-  "sources": [
-   "jobspy:linkedin"
-  ],
-  "first_seen": "2026-10-14",
-  "last_seen": "2026-10-16"
- },
- {
-  "company": "The Aerospace Corporation",
-  "title": "2027 Sensor Modeling and Simulation Grad Intern",
-  "location": "Chantilly, VA, USA",
-  "url": "https://www.linkedin.com/jobs/view/4477014886",
-  "posted": "2026-10-15",
-  "deadline": "",
-  "term": "unspecified",
-  "rank": "C",
-  "hw": "sensor",
-  "tier": "",
-  "sources": [
-   "jobspy:linkedin"
-  ],
-  "first_seen": "2026-10-15",
   "last_seen": "2026-10-16"
  },
  {
@@ -17386,6 +17828,23 @@
   "tier": "",
   "sources": [
    "internlist:winter-spring"
+  ],
+  "first_seen": "2026-10-15",
+  "last_seen": "2026-10-16"
+ },
+ {
+  "company": "TikTok",
+  "title": "Research Engineer - Intern (Video and Edge, Multimedia Lab) - 2027 Start (PhD) - Intern (Video and Edge, Multimedia Lab) - 2027 Start (PhD)",
+  "location": "San Diego, CA, USA",
+  "url": "https://www.linkedin.com/jobs/view/4478845169",
+  "posted": "2026-10-15",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "maybe",
+  "tier": "",
+  "sources": [
+   "jobspy:linkedin"
   ],
   "first_seen": "2026-10-15",
   "last_seen": "2026-10-16"
