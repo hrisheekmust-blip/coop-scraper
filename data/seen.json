@@ -635,8 +635,8 @@
 },
 "https://www.indeed.com/viewjob": {
 "first_seen": "2026-09-18",
-"title": "Drexel Electrical Engineering Co-op (Spring/Summer 2027) - Kennett Square",
-"company": "Constellation Energy",
+"title": "Process Engineer Co-op Spring 2027",
+"company": "Tremco CPG Inc.",
 "desc": ""
 },
 "https://www.linkedin.com/jobs/view/4468697840": {
@@ -14399,6 +14399,36 @@
 "first_seen": "2026-10-15",
 "title": "Sensor Characterization Co-Op",
 "company": "Laminar",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4477339469": {
+"first_seen": "2026-10-16",
+"title": "Electronics Engineering Intern",
+"company": "Lynntech, Inc.",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4480178049": {
+"first_seen": "2026-10-16",
+"title": "2027 H/W Electronics Engineering Intern \u2013 Annapolis MD",
+"company": "Northrop Grumman",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4480191600": {
+"first_seen": "2026-10-16",
+"title": "IC Layout Co-op (Winter/Spring 2027)",
+"company": "Skyworks Solutions, Inc.",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4480183387": {
+"first_seen": "2026-10-16",
+"title": "Hardware Reliability Intern [Winter 2027]",
+"company": "Figure",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4479155830": {
+"first_seen": "2026-10-16",
+"title": "Device Reliability Engineering Intern",
+"company": "Texas Instruments",
 "desc": ""
 }
 }
