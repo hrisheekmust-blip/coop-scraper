@@ -10168,7 +10168,7 @@
 "https://simplify.jobs/jobs/click/9750e606-5a81-4a74-9492-ca1a93b10e38": {
 "first_seen": "2026-10-01",
 "title": "Optical Engineer Intern",
-"company": "KLA",
+"company": "KLA Corporation",
 "desc": ""
 },
 "https://simplify.jobs/jobs/click/66fd3b4a-cc9c-4090-9786-0bf42637abfd": {
@@ -14429,6 +14429,48 @@
 "first_seen": "2026-10-16",
 "title": "Device Reliability Engineering Intern",
 "company": "Texas Instruments",
+"desc": ""
+},
+"https://entegris.wd1.myworkdayjobs.com/EntegrisCareers/job/Franklin-MA/R-D-Co-Op_REQ-14446": {
+"first_seen": "2026-10-16",
+"title": "R&D Co-Op",
+"company": "Entegris",
+"desc": ""
+},
+"https://entegris.wd1.myworkdayjobs.com/EntegrisCareers/job/Billerica-MA/Manufacturing-Engineering-Co-Op_REQ-14492": {
+"first_seen": "2026-10-16",
+"title": "Manufacturing Engineering Co-Op",
+"company": "Entegris",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/26e816da-9dba-4778-81d4-c9a9d4b0fb1d": {
+"first_seen": "2026-10-16",
+"title": "Hardware Development Engineer Intern Co-op",
+"company": "Amazon",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/5c733d67-f558-4718-bb30-4ed14ffe66e2": {
+"first_seen": "2026-10-16",
+"title": "Electrical/Controls Engineer Intern Co-op",
+"company": "Howmet Aerospace",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/6518e8e0-75ab-4a1e-9f17-12c52a5a67ca": {
+"first_seen": "2026-10-16",
+"title": "Electrical Engineer Co-op Intern",
+"company": "GE Vernova",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4455917827": {
+"first_seen": "2026-10-16",
+"title": "Electrical Design Engineer Intern",
+"company": "Garmin",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4476652449": {
+"first_seen": "2026-10-16",
+"title": "Signal Integrity Intern",
+"company": "Meta",
 "desc": ""
 }
 }
