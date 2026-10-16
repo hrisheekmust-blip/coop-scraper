@@ -182,7 +182,6 @@
   "hw": "electrical engineer",
   "tier": "big",
   "sources": [
-   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-09-17",
@@ -234,7 +233,6 @@
   "hw": "test engineer",
   "tier": "big",
   "sources": [
-   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-10-06",
@@ -891,7 +889,7 @@
   "title": "Electrical Engineering Coop (Spring/Summer 2027), Onsite",
   "location": "Cedar Rapids, Iowa, United States",
   "url": "https://jobs.baesystems.com/global/en/job/127774BR/electrical-engineering-coop-spring-summer-2027-onsite",
-  "posted": "2026-10-01",
+  "posted": "2026-10-16",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -1496,8 +1494,6 @@
   "hw": "electrical engineer",
   "tier": "big",
   "sources": [
-   "internlist:coop",
-   "jobspy:linkedin",
    "workday"
   ],
   "first_seen": "2026-09-18",
@@ -1515,7 +1511,6 @@
   "hw": "metrology",
   "tier": "big",
   "sources": [
-   "internlist:coop",
    "workday"
   ],
   "first_seen": "2026-09-18",
@@ -1533,7 +1528,6 @@
   "hw": "product engineering",
   "tier": "big",
   "sources": [
-   "internlist:coop",
    "workday"
   ],
   "first_seen": "2026-09-18",
@@ -2285,6 +2279,40 @@
    "workday"
   ],
   "first_seen": "2026-09-18",
+  "last_seen": "2026-10-16"
+ },
+ {
+  "company": "GlobalFoundries",
+  "title": "Design Enablement Engineer Intern (Jan-Jun 2027)",
+  "location": "SGP - Science Park",
+  "url": "https://globalfoundries.wd1.myworkdayjobs.com/External/job/SGP---Science-Park/Design-Enablement-Engineer-Intern--Jan-Jun-2027-_JR-2604275",
+  "posted": "Posted 30+ Days Ago",
+  "deadline": "",
+  "term": "spring",
+  "rank": "A",
+  "hw": "maybe",
+  "tier": "big",
+  "sources": [
+   "workday"
+  ],
+  "first_seen": "2026-09-21",
+  "last_seen": "2026-10-16"
+ },
+ {
+  "company": "GlobalFoundries",
+  "title": "Testsite Engineer Intern (Jan-Jun 2027)",
+  "location": "SGP - Woodlands",
+  "url": "https://globalfoundries.wd1.myworkdayjobs.com/External/job/SGP---Woodlands/Testsite-Engineer-Intern--Jan-Jun-2027-_JR-2604402",
+  "posted": "Posted 30+ Days Ago",
+  "deadline": "",
+  "term": "spring",
+  "rank": "A",
+  "hw": "maybe",
+  "tier": "big",
+  "sources": [
+   "workday"
+  ],
+  "first_seen": "2026-09-21",
   "last_seen": "2026-10-16"
  },
  {
@@ -3381,6 +3409,23 @@
  {
   "company": "Rocket Lab",
   "title": "Manufacturing Engineering Intern Spring 2027",
+  "location": "Wallops Island, VA",
+  "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7996617003",
+  "posted": "2026-09-17",
+  "deadline": "",
+  "term": "spring",
+  "rank": "A",
+  "hw": "maybe",
+  "tier": "big",
+  "sources": [
+   "greenhouse"
+  ],
+  "first_seen": "2026-09-18",
+  "last_seen": "2026-10-16"
+ },
+ {
+  "company": "Rocket Lab",
+  "title": "Manufacturing Engineering Intern Spring 2027",
   "location": "Middle River, MD",
   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7987020003",
   "posted": "2026-09-16",
@@ -3401,23 +3446,6 @@
   "location": "Long Beach, CA",
   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7984943003",
   "posted": "2026-09-16",
-  "deadline": "",
-  "term": "spring",
-  "rank": "A",
-  "hw": "maybe",
-  "tier": "big",
-  "sources": [
-   "greenhouse"
-  ],
-  "first_seen": "2026-09-18",
-  "last_seen": "2026-10-16"
- },
- {
-  "company": "Rocket Lab",
-  "title": "Manufacturing Engineering Intern Spring 2027",
-  "location": "Wallops Island, VA",
-  "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7996617003",
-  "posted": "2026-09-17",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -3594,8 +3622,7 @@
   "hw": "electrical engineering",
   "tier": "big",
   "sources": [
-   "greenhouse",
-   "internlist:coop"
+   "greenhouse"
   ],
   "first_seen": "2026-09-17",
   "last_seen": "2026-10-16"
@@ -4633,7 +4660,6 @@
   "hw": "silicon",
   "tier": "big",
   "sources": [
-   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-09-17",
@@ -5383,8 +5409,7 @@
   "hw": "test engineer",
   "tier": "startup",
   "sources": [
-   "greenhouse",
-   "jobspy:linkedin"
+   "greenhouse"
   ],
   "first_seen": "2026-09-21",
   "last_seen": "2026-10-16"
@@ -9648,9 +9673,7 @@
   "hw": "firmware",
   "tier": "big",
   "sources": [
-   "greenhouse",
-   "internlist:coop",
-   "internlist:winter-spring"
+   "greenhouse"
   ],
   "first_seen": "2026-09-24",
   "last_seen": "2026-10-16"
@@ -12022,7 +12045,6 @@
   "hw": "circuits",
   "tier": "big",
   "sources": [
-   "jobspy:indeed",
    "workday"
   ],
   "first_seen": "2026-10-15",
@@ -12108,7 +12130,6 @@
   "hw": "electrical",
   "tier": "big",
   "sources": [
-   "jobspy:linkedin",
    "oracle_hcm"
   ],
   "first_seen": "2026-09-18",
@@ -14236,8 +14257,7 @@
   "hw": "packaging engineer,silicon",
   "tier": "startup",
   "sources": [
-   "greenhouse",
-   "internlist:winter-spring"
+   "greenhouse"
   ],
   "first_seen": "2026-09-17",
   "last_seen": "2026-10-16"
@@ -15403,7 +15423,7 @@
   "title": "Internship: Secure Firmware Development (m/f/d)",
   "location": "Gratkorn",
   "url": "https://nxp.wd3.myworkdayjobs.com/careers/job/Gratkorn/Internship--Secure-Firmware-Development--m-f-d-_R-10066772",
-  "posted": "Posted 4 Days Ago",
+  "posted": "Posted Today",
   "deadline": "",
   "term": "unspecified",
   "rank": "C",
@@ -15841,40 +15861,6 @@
   "last_seen": "2026-10-16"
  },
  {
-  "company": "Pliant",
-  "title": "Working Student - Partner Sales, Benelux and Nordics Market (m/f/d)",
-  "location": "Berlin, Berlin (Hybrid)",
-  "url": "https://jobs.ashbyhq.com/pliant/98698cce-8226-415d-941f-11da1293d5ca",
-  "posted": "2026-09-08",
-  "deadline": "",
-  "term": "unspecified",
-  "rank": "C",
-  "hw": "maybe",
-  "tier": "startup",
-  "sources": [
-   "ashby"
-  ],
-  "first_seen": "2026-09-18",
-  "last_seen": "2026-10-16"
- },
- {
-  "company": "Pliant",
-  "title": "Working Student - Partner Sales, German Market (m/f/d )",
-  "location": "Berlin, Berlin (Hybrid)",
-  "url": "https://jobs.ashbyhq.com/pliant/11b8ee7c-08d4-4b96-8992-41b109ee64bf",
-  "posted": "2026-08-12",
-  "deadline": "",
-  "term": "unspecified",
-  "rank": "C",
-  "hw": "maybe",
-  "tier": "startup",
-  "sources": [
-   "ashby"
-  ],
-  "first_seen": "2026-09-18",
-  "last_seen": "2026-10-16"
- },
- {
   "company": "Prosidian Consulting",
   "title": "CAD Intern",
   "location": "Charlotte, NC, USA",
@@ -16175,8 +16161,7 @@
   "hw": "design verification",
   "tier": "startup",
   "sources": [
-   "ashby",
-   "jobspy:linkedin"
+   "ashby"
   ],
   "first_seen": "2026-09-22",
   "last_seen": "2026-10-16"
@@ -16193,8 +16178,7 @@
   "hw": "rtl,soc",
   "tier": "startup",
   "sources": [
-   "ashby",
-   "jobspy:linkedin"
+   "ashby"
   ],
   "first_seen": "2026-09-23",
   "last_seen": "2026-10-16"
@@ -16422,23 +16406,6 @@
  },
  {
   "company": "Renesas",
-  "title": "Intern Verification Engineer",
-  "location": "Lviv, , Ukraine",
-  "url": "https://jobs.smartrecruiters.com/renesaselectronics/744000154056909",
-  "posted": "2026-10-07",
-  "deadline": "",
-  "term": "unspecified",
-  "rank": "C",
-  "hw": "verification",
-  "tier": "big",
-  "sources": [
-   "smartrecruiters"
-  ],
-  "first_seen": "2026-10-07",
-  "last_seen": "2026-10-16"
- },
- {
-  "company": "Renesas",
   "title": "Intern, Product Engineering",
   "location": "Lviv, , Ukraine",
   "url": "https://jobs.smartrecruiters.com/renesaselectronics/744000155551520",
@@ -16639,23 +16606,6 @@
    "successfactors"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-16"
- },
- {
-  "company": "Seagate",
-  "title": "Head Failure Analysis Intern",
-  "location": "",
-  "url": "https://seagatecareers.com/job/Head-Failure-Analysis-Intern/15130-en_US",
-  "posted": "2026-10-02",
-  "deadline": "",
-  "term": "unspecified",
-  "rank": "C",
-  "hw": "failure analysis",
-  "tier": "big",
-  "sources": [
-   "successfactors"
-  ],
-  "first_seen": "2026-10-02",
   "last_seen": "2026-10-16"
  },
  {
@@ -17367,8 +17317,6 @@
   "hw": "validation",
   "tier": "big",
   "sources": [
-   "jobspy:indeed",
-   "jobspy:linkedin",
    "oracle_hcm"
   ],
   "first_seen": "2026-10-14",
