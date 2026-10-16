@@ -635,8 +635,8 @@
 },
 "https://www.indeed.com/viewjob": {
 "first_seen": "2026-09-18",
-"title": "R&D Process Engineer Co-Op",
-"company": "GAF",
+"title": "Embedded Systems Hardware Co-op - Spring 2027 - Applied Embedded Systems Division/ELSYS",
+"company": "Georgia Tech",
 "desc": ""
 },
 "https://www.linkedin.com/jobs/view/4468697840": {
@@ -10168,7 +10168,7 @@
 "https://simplify.jobs/jobs/click/9750e606-5a81-4a74-9492-ca1a93b10e38": {
 "first_seen": "2026-10-01",
 "title": "Optical Engineer Intern",
-"company": "KLA Corporation",
+"company": "KLA",
 "desc": ""
 },
 "https://simplify.jobs/jobs/click/66fd3b4a-cc9c-4090-9786-0bf42637abfd": {
@@ -14549,6 +14549,36 @@
 "first_seen": "2026-10-16",
 "title": "Mechanical Packaging Engineer Co-op",
 "company": "Nokia",
+"desc": ""
+},
+"https://entegris.wd1.myworkdayjobs.com/EntegrisCareers/job/San-Luis-Obispo-CA/Material-Quality-Engineering-Co-Op_REQ-14470": {
+"first_seen": "2026-10-16",
+"title": "Material Quality Engineering Co-Op",
+"company": "Entegris",
+"desc": ""
+},
+"https://job-boards.greenhouse.io/queracomputinginc/jobs/5455950008": {
+"first_seen": "2026-10-16",
+"title": "QPU Build Co-Op \u2013 Optics & Data Analysis",
+"company": "QuEra",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4480538219": {
+"first_seen": "2026-10-16",
+"title": "R&D Electrical Hardware Engineer Intern",
+"company": "Boston Scientific",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4461388757": {
+"first_seen": "2026-10-16",
+"title": "Electrical Engineering Intern (Digital Circuitry)",
+"company": "Shure",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4480552838": {
+"first_seen": "2026-10-16",
+"title": "QPU Build Co-Op \u2013 Optics & Data Analysis",
+"company": "QuEra Computing Inc.",
 "desc": ""
 }
 }
