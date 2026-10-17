@@ -635,8 +635,8 @@
 },
 "https://www.indeed.com/viewjob": {
 "first_seen": "2026-09-18",
-"title": "Embedded Systems Hardware Co-op - Spring 2027 - Applied Embedded Systems Division/ELSYS",
-"company": "Georgia Tech",
+"title": "R&D Process Engineer Co-Op",
+"company": "GAF",
 "desc": ""
 },
 "https://www.linkedin.com/jobs/view/4468697840": {
@@ -1983,7 +1983,7 @@
 },
 "https://simplify.jobs/jobs/click/c1e6167a-30ef-491c-b132-0ca2202fdaaa": {
 "first_seen": "2026-09-18",
-"title": "Firmware Engineer Co-op",
+"title": "Firmware Engineering Co-op",
 "company": "OnLogic",
 "desc": ""
 },
@@ -14627,6 +14627,54 @@
 "first_seen": "2026-10-17",
 "title": "Entegris Specialty Coatings Research and Development Co-Op",
 "company": "Entegris",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4453144835": {
+"first_seen": "2026-10-17",
+"title": "Electrical Engineer Intern/Co-op Spring 2027 (multiple locations)",
+"company": "CMTA, Inc.",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4480563295": {
+"first_seen": "2026-10-17",
+"title": "Embedded Systems Hardware Co-op - Spring 2027 - Applied Embedded Systems Division/ELSYS",
+"company": "Georgia Tech Research Institute",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4477764890": {
+"first_seen": "2026-10-17",
+"title": "Reliability Engineering Intern",
+"company": "Tech World Networking",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4479680686": {
+"first_seen": "2026-10-17",
+"title": "Intern, R&D Graduate Year Round - Formal Verification",
+"company": "Sandia National Laboratories",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4479685670": {
+"first_seen": "2026-10-17",
+"title": "Post Silicon Validation Engineering Intern",
+"company": "Tessolve",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4479386776": {
+"first_seen": "2026-10-17",
+"title": "Intern, R&D Graduate Summer - Resilient Embedded Systems, Onsite",
+"company": "Sandia National Laboratories",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4477020485": {
+"first_seen": "2026-10-17",
+"title": "2027 Sensor Modeling and Simulation Undergrad Intern",
+"company": "The Aerospace Corporation",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4477717860": {
+"first_seen": "2026-10-17",
+"title": "Electrical Engineering Intern",
+"company": "Dynareon",
 "desc": ""
 }
 }
