@@ -10168,7 +10168,7 @@
 "https://simplify.jobs/jobs/click/9750e606-5a81-4a74-9492-ca1a93b10e38": {
 "first_seen": "2026-10-01",
 "title": "Optical Engineer Intern",
-"company": "KLA",
+"company": "KLA Corporation",
 "desc": ""
 },
 "https://simplify.jobs/jobs/click/66fd3b4a-cc9c-4090-9786-0bf42637abfd": {
@@ -14591,6 +14591,24 @@
 "first_seen": "2026-10-17",
 "title": "Electrical Engineer Intern, Cooper Lighting Solutions - Spring 2027",
 "company": "Signify",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/2426eed2-a847-4eb5-b42b-1e4063ee6925": {
+"first_seen": "2026-10-17",
+"title": "Hardware Development Engineer Co-op",
+"company": "Rockwell Automation",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/e0b859e9-986a-4e60-8d41-367501cabbe3": {
+"first_seen": "2026-10-17",
+"title": "CCS Electrical Engineer Co-op",
+"company": "Varian",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4461391647": {
+"first_seen": "2026-10-17",
+"title": "Electrical Engineering (Pro Audio Circuitry) Intern",
+"company": "Shure",
 "desc": ""
 }
 }
