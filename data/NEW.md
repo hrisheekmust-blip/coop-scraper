@@ -1,11 +1,8 @@
 # New postings — 2026-10-17
 
-2 new of 1034 tracked. Rank A = spring/Jan 2027 explicit, B = co-op with term unstated, C = intern with no term stated.
+0 new of 1032 tracked. Rank A = spring/Jan 2027 explicit, B = co-op with term unstated, C = intern with no term stated.
 
-| Rank | Term | Company | Role | Location | Posted | Link |
-|---|---|---|---|---|---|---|
-| C | unspecified | Moog | Product Engineering Intern | Buffalo, NY | Oct 12 | [apply](https://moog.wd5.myworkdayjobs.com/en-US/MOOG_External_Career_Site/job/Buffalo-NY/Intern--Product-Engineering_R-26-20429) |
-| C | unspecified | Juniper Networks | HPC/AI System Admin HW/SW Service Engineer Intern | All, TN | Oct 12 | [apply](https://hpe.wd5.myworkdayjobs.com/en-US/Jobsathpe/job/All-Tennessee-United-States-of-America/HPC-AI-System-Admin-HW-SW-Service-Engineer-Intern_1213404) |
+_nothing new today_
 
 ## All tracked
 
@@ -979,12 +976,10 @@
 | C | unspecified | Seagate | Electrical Design Engineering Intern | Nakhon Ratchasima, THA,  | 2026-01-27 | [apply](https://seagatecareers.com/job/Electrical-Design-Engineering-Intern/13582-en_US) |
 | C | unspecified | Seagate | Engineering Intern (slider process engineer) | Nakhon Ratchasima, THA,  | 2026-09-03 | [apply](https://seagatecareers.com/job/Engineering-Intern-%28slider-process-engineer%29/14914-en_US) |
 | C | unspecified | Seagate | Failure Analysis Intern III (Auto Failure Analysis & Data Analytics) | Nakhon Ratchasima, THA,  | 2026-07-09 | [apply](https://seagatecareers.com/job/Failure-Analysis-Intern-III-%28Auto-Failure-Analysis-&amp;-Data-Analytics%29/14648-en_US) |
-| C | unspecified | Seagate | Head Failure Analysis Intern |  | 2026-10-02 | [apply](https://seagatecareers.com/job/Head-Failure-Analysis-Intern/15130-en_US) |
 | C | unspecified | Seagate | Head Failure Analysis Intern III |  | 2026-09-15 | [apply](https://seagatecareers.com/job/Head-Failure-Analysis-Intern-III/15061-en_US) |
 | C | unspecified | Seagate | Intern, Advanced Media R&D Characterization and Recording Physicist |  | 2026-10-14 | [apply](https://seagatecareers.com/job/Intern%2C-Advanced-Media-R&amp;D-Characterization-and-Recording-Physicist/15300-en_US) |
 | C | unspecified | Seagate | Metrology maintenance engineering intern | Nakhon Ratchasima, THA,  | 2026-08-26 | [apply](https://seagatecareers.com/job/Metrology-maintenance-engineering-intern/14919-en_US) |
 | C | unspecified | Seagate | Product Engineering Intern | Nakhon Ratchasima, THA,  | 2026-07-20 | [apply](https://seagatecareers.com/job/Product-Engineering-Intern/14645-en_US) |
-| C | unspecified | Seagate | Recording Head Test Engineering Intern | Samut Prakan, THA,  | 2026-08-19 | [apply](https://seagatecareers.com/job/Recording-Head-Test-Engineering-Intern/14901-en_US) |
 | C | unspecified | Semtech | Analog Design Engineer Intern | CAN - Burlington, ON | Posted 23 Days Ago | [apply](https://semtech.wd1.myworkdayjobs.com/SemtechCareers/job/CAN---Burlington-ON/Analog-Design-Engineer-Intern_REQ3622) |
 | C | unspecified | Semtech | Analog Design Engineer Intern | CAN - Calgary, AB | Posted 23 Days Ago | [apply](https://semtech.wd1.myworkdayjobs.com/SemtechCareers/job/CAN---Calgary-AB/Analog-Design-Engineer-Intern_REQ3623) |
 | C | unspecified | Semtech | Digital IC Design Engineering Intern | CAN - Burlington, ON | Posted 23 Days Ago | [apply](https://semtech.wd1.myworkdayjobs.com/SemtechCareers/job/CAN---Burlington-ON/Digital-IC-Design-Engineering-Intern_REQ3621) |
