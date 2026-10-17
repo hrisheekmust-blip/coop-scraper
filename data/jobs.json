@@ -165,7 +165,6 @@
   "hw": "electrical engineer",
   "tier": "big",
   "sources": [
-   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-09-17",
@@ -217,7 +216,6 @@
   "hw": "test engineer",
   "tier": "big",
   "sources": [
-   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-10-06",
@@ -1444,7 +1442,6 @@
   "hw": "test engineering",
   "tier": "big",
   "sources": [
-   "jobspy:linkedin",
    "oracle_hcm"
   ],
   "first_seen": "2026-09-18",
@@ -1496,8 +1493,6 @@
   "hw": "electrical engineer",
   "tier": "big",
   "sources": [
-   "internlist:coop",
-   "jobspy:linkedin",
    "workday"
   ],
   "first_seen": "2026-09-18",
@@ -1515,7 +1510,6 @@
   "hw": "metrology",
   "tier": "big",
   "sources": [
-   "internlist:coop",
    "workday"
   ],
   "first_seen": "2026-09-18",
@@ -3498,23 +3492,6 @@
  {
   "company": "Rocket Lab",
   "title": "Test Engineering Intern Spring 2027",
-  "location": "Stennis Space Center, MS",
-  "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7990352003",
-  "posted": "2026-09-17",
-  "deadline": "",
-  "term": "spring",
-  "rank": "A",
-  "hw": "test engineering",
-  "tier": "big",
-  "sources": [
-   "greenhouse"
-  ],
-  "first_seen": "2026-09-17",
-  "last_seen": "2026-10-16"
- },
- {
-  "company": "Rocket Lab",
-  "title": "Test Engineering Intern Spring 2027",
   "location": "Wallops Island, VA",
   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/8003533003",
   "posted": "2026-10-16",
@@ -3527,6 +3504,23 @@
    "greenhouse"
   ],
   "first_seen": "2026-09-25",
+  "last_seen": "2026-10-16"
+ },
+ {
+  "company": "Rocket Lab",
+  "title": "Test Engineering Intern Spring 2027",
+  "location": "Stennis Space Center, MS",
+  "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7990352003",
+  "posted": "2026-09-17",
+  "deadline": "",
+  "term": "spring",
+  "rank": "A",
+  "hw": "test engineering",
+  "tier": "big",
+  "sources": [
+   "greenhouse"
+  ],
+  "first_seen": "2026-09-17",
   "last_seen": "2026-10-16"
  },
  {
@@ -3592,8 +3586,7 @@
   "hw": "electrical engineering",
   "tier": "big",
   "sources": [
-   "greenhouse",
-   "internlist:coop"
+   "greenhouse"
   ],
   "first_seen": "2026-09-17",
   "last_seen": "2026-10-16"
@@ -4631,7 +4624,6 @@
   "hw": "silicon",
   "tier": "big",
   "sources": [
-   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-09-17",
@@ -9764,9 +9756,7 @@
   "hw": "firmware",
   "tier": "big",
   "sources": [
-   "greenhouse",
-   "internlist:coop",
-   "internlist:winter-spring"
+   "greenhouse"
   ],
   "first_seen": "2026-09-24",
   "last_seen": "2026-10-16"
@@ -12189,7 +12179,6 @@
   "hw": "circuits",
   "tier": "big",
   "sources": [
-   "jobspy:indeed",
    "workday"
   ],
   "first_seen": "2026-10-15",
@@ -14402,8 +14391,7 @@
   "hw": "packaging engineer,silicon",
   "tier": "startup",
   "sources": [
-   "greenhouse",
-   "internlist:winter-spring"
+   "greenhouse"
   ],
   "first_seen": "2026-09-17",
   "last_seen": "2026-10-16"
@@ -16309,8 +16297,7 @@
   "hw": "design verification",
   "tier": "startup",
   "sources": [
-   "ashby",
-   "jobspy:linkedin"
+   "ashby"
   ],
   "first_seen": "2026-09-22",
   "last_seen": "2026-10-16"
@@ -16327,8 +16314,7 @@
   "hw": "rtl,soc",
   "tier": "startup",
   "sources": [
-   "ashby",
-   "jobspy:linkedin"
+   "ashby"
   ],
   "first_seen": "2026-09-23",
   "last_seen": "2026-10-16"
@@ -16760,23 +16746,6 @@
  },
  {
   "company": "Seagate",
-  "title": "Head Failure Analysis Intern",
-  "location": "",
-  "url": "https://seagatecareers.com/job/Head-Failure-Analysis-Intern/15130-en_US",
-  "posted": "2026-10-02",
-  "deadline": "",
-  "term": "unspecified",
-  "rank": "C",
-  "hw": "failure analysis",
-  "tier": "big",
-  "sources": [
-   "successfactors"
-  ],
-  "first_seen": "2026-10-02",
-  "last_seen": "2026-10-16"
- },
- {
-  "company": "Seagate",
   "title": "Head Failure Analysis Intern III",
   "location": "",
   "url": "https://seagatecareers.com/job/Head-Failure-Analysis-Intern-III/15061-en_US",
@@ -16836,23 +16805,6 @@
   "term": "unspecified",
   "rank": "C",
   "hw": "product engineering",
-  "tier": "big",
-  "sources": [
-   "successfactors"
-  ],
-  "first_seen": "2026-09-18",
-  "last_seen": "2026-10-16"
- },
- {
-  "company": "Seagate",
-  "title": "Recording Head Test Engineering Intern",
-  "location": "Samut Prakan, THA, ",
-  "url": "https://seagatecareers.com/job/Recording-Head-Test-Engineering-Intern/14901-en_US",
-  "posted": "2026-08-19",
-  "deadline": "",
-  "term": "unspecified",
-  "rank": "C",
-  "hw": "test engineering",
   "tier": "big",
   "sources": [
    "successfactors"
@@ -17501,8 +17453,6 @@
   "hw": "validation",
   "tier": "big",
   "sources": [
-   "jobspy:indeed",
-   "jobspy:linkedin",
    "oracle_hcm"
   ],
   "first_seen": "2026-10-14",
