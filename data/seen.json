@@ -635,8 +635,8 @@
 },
 "https://www.indeed.com/viewjob": {
 "first_seen": "2026-09-18",
-"title": "R&D Process Engineer Co-Op",
-"company": "GAF",
+"title": "Embedded Systems Hardware Co-op - Spring 2027 - Applied Embedded Systems Division/ELSYS",
+"company": "Georgia Tech",
 "desc": ""
 },
 "https://www.linkedin.com/jobs/view/4468697840": {
@@ -14675,6 +14675,18 @@
 "first_seen": "2026-10-17",
 "title": "Electrical Engineering Intern",
 "company": "Dynareon",
+"desc": ""
+},
+"https://moog.wd5.myworkdayjobs.com/en-US/MOOG_External_Career_Site/job/Buffalo-NY/Intern--Product-Engineering_R-26-20429": {
+"first_seen": "2026-10-17",
+"title": "Product Engineering Intern",
+"company": "Moog",
+"desc": ""
+},
+"https://hpe.wd5.myworkdayjobs.com/en-US/Jobsathpe/job/All-Tennessee-United-States-of-America/HPC-AI-System-Admin-HW-SW-Service-Engineer-Intern_1213404": {
+"first_seen": "2026-10-17",
+"title": "HPC/AI System Admin HW/SW Service Engineer Intern",
+"company": "Juniper Networks",
 "desc": ""
 }
 }
