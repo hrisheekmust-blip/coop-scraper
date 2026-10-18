@@ -635,8 +635,8 @@
 },
 "https://www.indeed.com/viewjob": {
 "first_seen": "2026-09-18",
-"title": "Embedded Systems Hardware Co-op - Spring 2027 - Applied Embedded Systems Division/ELSYS",
-"company": "Georgia Tech",
+"title": "R&D Process Engineer Co-Op",
+"company": "GAF",
 "desc": ""
 },
 "https://www.linkedin.com/jobs/view/4468697840": {
@@ -10168,7 +10168,7 @@
 "https://simplify.jobs/jobs/click/9750e606-5a81-4a74-9492-ca1a93b10e38": {
 "first_seen": "2026-10-01",
 "title": "Optical Engineer Intern",
-"company": "KLA Corporation",
+"company": "KLA",
 "desc": ""
 },
 "https://simplify.jobs/jobs/click/66fd3b4a-cc9c-4090-9786-0bf42637abfd": {
@@ -14693,6 +14693,12 @@
 "first_seen": "2026-10-17",
 "title": "Signal Integrity Intern",
 "company": "Meta",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4479189994": {
+"first_seen": "2026-10-18",
+"title": "Instrumentation and Controls Co-op - Spring 2027",
+"company": "Salas O'Brien",
 "desc": ""
 }
 }
