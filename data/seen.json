@@ -1401,7 +1401,7 @@
 },
 "https://jobs.lever.co/hermeus/2cbb75f7-a040-47b2-a442-d9cc1faedb11": {
 "first_seen": "2026-09-18",
-"title": "Propulsion Component Engineering Intern - Spring 2027",
+"title": "Propulsion Component Engineering Intern - Spring/Summer 2027",
 "company": "Hermeus",
 "desc": ""
 },
@@ -6717,7 +6717,7 @@
 },
 "https://jobs.lever.co/hermeus/d2651ecb-9aab-4d84-8e69-cbcf7cece28d": {
 "first_seen": "2026-09-23",
-"title": "Propulsion Test Engineering Intern - Spring 2027",
+"title": "Propulsion Test Engineering Intern - Spring/Summer/Fall 2027",
 "company": "Hermeus",
 "desc": ""
 },
@@ -6963,7 +6963,7 @@
 },
 "https://jobs.ashbyhq.com/quadric/8bc97324-bcdb-4680-a03c-4c6e590644c2": {
 "first_seen": "2026-09-23",
-"title": "RTL SoC Design Intern",
+"title": "RTL Intern",
 "company": "Quadric",
 "desc": ""
 },
@@ -14825,6 +14825,12 @@
 "first_seen": "2026-10-19",
 "title": "Hardware Development Engineer Co-op",
 "company": "Rockwell Automation",
+"desc": ""
+},
+"https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-ME-NORTH-BERWICK-113--113-Wells-St--WELLS-Rte-9/Project-Engineering-Co-op--Spring-Summer-2027---Onsite-_01882221": {
+"first_seen": "2026-10-19",
+"title": "Project Engineering Co-op (Spring/Summer 2027) (Onsite)",
+"company": "RTX",
 "desc": ""
 }
 }
