@@ -1295,6 +1295,23 @@
  },
  {
   "company": "Draper",
+  "title": "Optoelectronics Electrical Engineering Co-Op",
+  "location": "Cambridge, MA",
+  "url": "https://draper.wd5.myworkdayjobs.com/Draper_Careers/job/Cambridge-MA/Optoelectronics-Electrical-Engineering-Co-Op_JR003044-1",
+  "posted": "Posted Today",
+  "deadline": "",
+  "term": "spring",
+  "rank": "A",
+  "hw": "electrical engineering",
+  "tier": "big",
+  "sources": [
+   "workday"
+  ],
+  "first_seen": "2026-10-19",
+  "last_seen": "2026-10-19"
+ },
+ {
+  "company": "Draper",
   "title": "Sensor Electrical Engineering Co-op (Spring 2027)",
   "location": "Cambridge, MA",
   "url": "https://draper.wd5.myworkdayjobs.com/Draper_Careers/job/Cambridge-MA/Sensor-Electrical-Engineering-Co-op--Spring-2027-_JR002885",
@@ -3371,23 +3388,6 @@
  {
   "company": "Rocket Lab",
   "title": "Manufacturing Engineering Intern Spring 2027",
-  "location": "Long Beach, CA",
-  "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7984943003",
-  "posted": "2026-09-16",
-  "deadline": "",
-  "term": "spring",
-  "rank": "A",
-  "hw": "maybe",
-  "tier": "big",
-  "sources": [
-   "greenhouse"
-  ],
-  "first_seen": "2026-09-18",
-  "last_seen": "2026-10-19"
- },
- {
-  "company": "Rocket Lab",
-  "title": "Manufacturing Engineering Intern Spring 2027",
   "location": "Wallops Island, VA",
   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7996617003",
   "posted": "2026-09-17",
@@ -3407,6 +3407,23 @@
   "title": "Manufacturing Engineering Intern Spring 2027",
   "location": "Middle River, MD",
   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7987020003",
+  "posted": "2026-09-16",
+  "deadline": "",
+  "term": "spring",
+  "rank": "A",
+  "hw": "maybe",
+  "tier": "big",
+  "sources": [
+   "greenhouse"
+  ],
+  "first_seen": "2026-09-18",
+  "last_seen": "2026-10-19"
+ },
+ {
+  "company": "Rocket Lab",
+  "title": "Manufacturing Engineering Intern Spring 2027",
+  "location": "Long Beach, CA",
+  "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7984943003",
   "posted": "2026-09-16",
   "deadline": "",
   "term": "spring",
@@ -4968,23 +4985,6 @@
   "last_seen": "2026-10-19"
  },
  {
-  "company": "Wabtec",
-  "title": "Firmware Engineering Co-Op (January-June 2027)",
-  "location": "Waltham, MA, United States",
-  "url": "https://jobs.smartrecruiters.com/wabtec/3743990015854776",
-  "posted": "2026-10-02",
-  "deadline": "",
-  "term": "spring",
-  "rank": "A",
-  "hw": "firmware",
-  "tier": "big",
-  "sources": [
-   "smartrecruiters"
-  ],
-  "first_seen": "2026-10-02",
-  "last_seen": "2026-10-19"
- },
- {
   "company": "Western Digital",
   "title": "Spring Co-op - Recording Electronics Data Analytics & Optimization",
   "location": "Rochester, MN, United States",
@@ -5074,7 +5074,7 @@
   "title": "Aerodynamics Intern (Spring 2027)",
   "location": "South San Francisco, California, USA",
   "url": "https://www.zipline.com/open-roles/7904002003?gh_jid=7904002003",
-  "posted": "2026-10-15",
+  "posted": "2026-10-19",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -5091,7 +5091,7 @@
   "title": "Aircraft Software Integration Intern (Spring 2027)",
   "location": "South San Francisco, California, USA",
   "url": "https://www.zipline.com/open-roles/7986810003?gh_jid=7986810003",
-  "posted": "2026-10-15",
+  "posted": "2026-10-19",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -5159,7 +5159,7 @@
   "title": "Commercial Strategy & Operations Intern (Spring 2027)",
   "location": "Austin, Texas, USA; Houston, Texas, USA; Phoenix, Arizona, USA; San Antonio, Texas, USA",
   "url": "https://www.zipline.com/open-roles/7980889003?gh_jid=7980889003",
-  "posted": "2026-10-15",
+  "posted": "2026-10-19",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -5227,7 +5227,7 @@
   "title": "Controls Engineer Intern (Spring 2027)",
   "location": "South San Francisco, California, USA",
   "url": "https://www.zipline.com/open-roles/7903823003?gh_jid=7903823003",
-  "posted": "2026-10-15",
+  "posted": "2026-10-19",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -5312,7 +5312,7 @@
   "title": "Firmware Engineer Intern (Spring 2027) ",
   "location": "South San Francisco, California, USA",
   "url": "https://www.zipline.com/open-roles/8020863003?gh_jid=8020863003",
-  "posted": "2026-10-15",
+  "posted": "2026-10-19",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -5329,7 +5329,7 @@
   "title": "Flight Test Engineer Intern (Spring 2027)",
   "location": "South San Francisco, California, USA",
   "url": "https://www.zipline.com/open-roles/7999929003?gh_jid=7999929003",
-  "posted": "2026-10-15",
+  "posted": "2026-10-19",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -5380,7 +5380,7 @@
   "title": "Launch & Scale Intern (Spring 2027)",
   "location": "South San Francisco, California, USA",
   "url": "https://www.zipline.com/open-roles/7984998003?gh_jid=7984998003",
-  "posted": "2026-10-15",
+  "posted": "2026-10-19",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -5414,7 +5414,7 @@
   "title": "Maps Intern (Spring 2027)",
   "location": "South San Francisco, California, USA",
   "url": "https://www.zipline.com/open-roles/7929354003?gh_jid=7929354003",
-  "posted": "2026-10-15",
+  "posted": "2026-10-19",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -5482,7 +5482,7 @@
   "title": "Operations Experience Intern (Spring 2027)",
   "location": "South San Francisco, California, USA",
   "url": "https://www.zipline.com/open-roles/7920394003?gh_jid=7920394003",
-  "posted": "2026-10-15",
+  "posted": "2026-10-19",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -5516,7 +5516,7 @@
   "title": "Real Estate Intern (Spring 2027)",
   "location": "South San Francisco, California, USA",
   "url": "https://www.zipline.com/open-roles/7988625003?gh_jid=7988625003",
-  "posted": "2026-10-15",
+  "posted": "2026-10-19",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -5652,7 +5652,7 @@
   "title": "System Test Automation Intern (Spring 2027)",
   "location": "South San Francisco, California, USA",
   "url": "https://www.zipline.com/open-roles/7893946003?gh_jid=7893946003",
-  "posted": "2026-10-15",
+  "posted": "2026-10-19",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -6210,91 +6210,6 @@
    "internlist:coop"
   ],
   "first_seen": "2026-10-08",
-  "last_seen": "2026-10-19"
- },
- {
-  "company": "Applied Materials",
-  "title": "2026 Fall Materials Engineering Co-op (TCAD Modeling) - Doctorate (Gloucester, MA)",
-  "location": "Gloucester,MA",
-  "url": "https://amat.wd1.myworkdayjobs.com/External/job/GloucesterMA/XMLNAME-2026-Fall-Materials-Engineering-Co-op---Doctorate--Gloucester--MA-_R2611503",
-  "posted": "Posted 30+ Days Ago",
-  "deadline": "",
-  "term": "coop-unspecified",
-  "rank": "B",
-  "hw": "maybe",
-  "tier": "big",
-  "sources": [
-   "workday"
-  ],
-  "first_seen": "2026-09-18",
-  "last_seen": "2026-10-19"
- },
- {
-  "company": "Applied Materials",
-  "title": "2026 Process Engineer Co-op - Adv Degree (Gloucester, MA)",
-  "location": "Gloucester,MA",
-  "url": "https://amat.wd1.myworkdayjobs.com/External/job/GloucesterMA/XMLNAME-2026-Process-Engineer-Co-op---Adv-Degree--Gloucester--MA-_R2623409",
-  "posted": "Posted 13 Days Ago",
-  "deadline": "",
-  "term": "coop-unspecified",
-  "rank": "B",
-  "hw": "process engineer",
-  "tier": "big",
-  "sources": [
-   "workday"
-  ],
-  "first_seen": "2026-10-07",
-  "last_seen": "2026-10-19"
- },
- {
-  "company": "Applied Materials",
-  "title": "2026-2027 Process Engineer Co-op - Doctorate (Gloucester, MA)",
-  "location": "Gloucester,MA",
-  "url": "https://amat.wd1.myworkdayjobs.com/External/job/GloucesterMA/XMLNAME-2026-2027-Process-Engineer-Co-op---Doctorate--Gloucester--MA-_R2626230",
-  "posted": "Posted 30+ Days Ago",
-  "deadline": "",
-  "term": "coop-unspecified",
-  "rank": "B",
-  "hw": "process engineer",
-  "tier": "big",
-  "sources": [
-   "workday"
-  ],
-  "first_seen": "2026-09-18",
-  "last_seen": "2026-10-19"
- },
- {
-  "company": "Applied Materials",
-  "title": "2027 Spring Electrical Engineer (Controls, PCB) Co-op BS or MS (Gloucester, MA)",
-  "location": "Gloucester,MA",
-  "url": "https://amat.wd1.myworkdayjobs.com/External/job/GloucesterMA/XMLNAME-2027-Spring-Electrical-Engineer-Co-op-BS-or-MS--Gloucester--MA-_R2628288-1",
-  "posted": "Posted 30+ Days Ago",
-  "deadline": "",
-  "term": "coop-unspecified",
-  "rank": "B",
-  "hw": "maybe",
-  "tier": "big",
-  "sources": [
-   "workday"
-  ],
-  "first_seen": "2026-09-18",
-  "last_seen": "2026-10-19"
- },
- {
-  "company": "Applied Materials",
-  "title": "2027 Spring Product Quality Engineer Co-op  - Bachelor's (Gloucester, MA)",
-  "location": "Gloucester,MA",
-  "url": "https://amat.wd1.myworkdayjobs.com/External/job/GloucesterMA/XMLNAME-2027-Spring-Product-Quality-Engineer-Co-op----Bachelor-s--Gloucester--MA-_R2628291",
-  "posted": "Posted 13 Days Ago",
-  "deadline": "",
-  "term": "coop-unspecified",
-  "rank": "B",
-  "hw": "maybe",
-  "tier": "big",
-  "sources": [
-   "workday"
-  ],
-  "first_seen": "2026-09-18",
   "last_seen": "2026-10-19"
  },
  {
@@ -7556,6 +7471,23 @@
  },
  {
   "company": "Entegris",
+  "title": "Manufacturing Engineering Co-Op",
+  "location": "Danbury, CT",
+  "url": "https://entegris.wd1.myworkdayjobs.com/EntegrisCareers/job/Danbury-CT/Manufacturing-Engineering-Co-Op_REQ-15071",
+  "posted": "Posted Today",
+  "deadline": "",
+  "term": "coop-unspecified",
+  "rank": "B",
+  "hw": "maybe",
+  "tier": "big",
+  "sources": [
+   "workday"
+  ],
+  "first_seen": "2026-10-19",
+  "last_seen": "2026-10-19"
+ },
+ {
+  "company": "Entegris",
   "title": "Manufacturing Systems Engineer Co-Op",
   "location": "Rockrimmon, Colorado Springs, CO",
   "url": "https://entegris.wd1.myworkdayjobs.com/EntegrisCareers/job/Rockrimmon-Colorado-Springs-CO/Manufacturing-Systems-Engineer-Co-Op_REQ-14437",
@@ -7824,23 +7756,6 @@
    "workday"
   ],
   "first_seen": "2026-10-13",
-  "last_seen": "2026-10-19"
- },
- {
-  "company": "Entegris",
-  "title": "Science & Engineering Co-op",
-  "location": "Bedford, MA",
-  "url": "https://entegris.wd1.myworkdayjobs.com/EntegrisCareers/job/Bedford-MA/Science---Engineering-Co-op_REQ-14396",
-  "posted": "Posted 30+ Days Ago",
-  "deadline": "",
-  "term": "coop-unspecified",
-  "rank": "B",
-  "hw": "maybe",
-  "tier": "big",
-  "sources": [
-   "workday"
-  ],
-  "first_seen": "2026-10-12",
   "last_seen": "2026-10-19"
  },
  {
@@ -9388,7 +9303,7 @@
  {
   "company": "QuEra",
   "title": "QPU Build Co-Op \u2013 Optics & Data Analysis",
-  "location": "Boston, MA  USA",
+  "location": "Boston, MA, USA",
   "url": "https://job-boards.greenhouse.io/queracomputinginc/jobs/5455950008",
   "posted": "2026-10-19",
   "deadline": "",
@@ -14887,23 +14802,6 @@
  },
  {
   "company": "Moog",
-  "title": "Intern, Electronic Engineering",
-  "location": "Vilnius, LT",
-  "url": "https://moog.wd5.myworkdayjobs.com/MOOG_External_Career_Site/job/Vilnius-LT/Intern--Electronic-Engineering_R-26-18636",
-  "posted": "Posted 30+ Days Ago",
-  "deadline": "",
-  "term": "unspecified",
-  "rank": "C",
-  "hw": "electronic",
-  "tier": "big",
-  "sources": [
-   "workday"
-  ],
-  "first_seen": "2026-09-18",
-  "last_seen": "2026-10-19"
- },
- {
-  "company": "Moog",
   "title": "Product Engineering Intern",
   "location": "Buffalo, NY",
   "url": "https://moog.wd5.myworkdayjobs.com/en-US/MOOG_External_Career_Site/job/Buffalo-NY/Intern--Product-Engineering_R-26-20429",
@@ -15971,6 +15869,23 @@
    "workday"
   ],
   "first_seen": "2026-09-18",
+  "last_seen": "2026-10-19"
+ },
+ {
+  "company": "RTX",
+  "title": "Electro-Optics Systems Engineer Intern (Onsite)",
+  "location": "US-TX-MCKINNEY-513WD ~ 2501 W University Dr ~ WING D BLDG",
+  "url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-TX-MCKINNEY-513WD--2501-W-University-Dr--WING-D-BLDG/Electro-Optics-Systems-Engineer-Intern--Onsite-_01880586",
+  "posted": "Posted Today",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "optics",
+  "tier": "big",
+  "sources": [
+   "workday"
+  ],
+  "first_seen": "2026-10-14",
   "last_seen": "2026-10-19"
  },
  {
@@ -17062,6 +16977,23 @@
   "last_seen": "2026-10-19"
  },
  {
+  "company": "Ursa Major",
+  "title": "2027 Summer Avionics Electrical Engineer Intern",
+  "location": "Berthoud, Colorado",
+  "url": "https://ursamajor.com/careers/?gh_jid=4745125005",
+  "posted": "2026-10-19",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "electrical engineer",
+  "tier": "startup",
+  "sources": [
+   "greenhouse"
+  ],
+  "first_seen": "2026-10-19",
+  "last_seen": "2026-10-19"
+ },
+ {
   "company": "VAST",
   "title": "Electrical Engineer Intern",
   "location": "Long Beach, CA, USA",
@@ -17295,23 +17227,6 @@
   "tier": "",
   "sources": [
    "internlist:winter-spring"
-  ],
-  "first_seen": "2026-09-18",
-  "last_seen": "2026-10-19"
- },
- {
-  "company": "Zipline",
-  "title": "Technical Writer Intern ",
-  "location": "South San Francisco, California, USA",
-  "url": "https://www.zipline.com/open-roles/7996415003?gh_jid=7996415003",
-  "posted": "2026-10-15",
-  "deadline": "",
-  "term": "unspecified",
-  "rank": "C",
-  "hw": "maybe",
-  "tier": "startup",
-  "sources": [
-   "greenhouse"
   ],
   "first_seen": "2026-09-18",
   "last_seen": "2026-10-19"
