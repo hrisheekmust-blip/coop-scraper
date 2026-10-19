@@ -10168,7 +10168,7 @@
 "https://simplify.jobs/jobs/click/9750e606-5a81-4a74-9492-ca1a93b10e38": {
 "first_seen": "2026-10-01",
 "title": "Optical Engineer Intern",
-"company": "KLA",
+"company": "KLA Corporation",
 "desc": ""
 },
 "https://simplify.jobs/jobs/click/66fd3b4a-cc9c-4090-9786-0bf42637abfd": {
@@ -14801,6 +14801,30 @@
 "first_seen": "2026-10-19",
 "title": "Electrical Component Intern (May-Dec)",
 "company": "MAHLE",
+"desc": ""
+},
+"https://nxp.wd3.myworkdayjobs.com/careers/job/Tianjin-Teda/XMLNAME-2027-Intern---STA-agent-developer-Intern_R-10066785": {
+"first_seen": "2026-10-19",
+"title": "2027 Intern - STA agent developer Intern",
+"company": "NXP",
+"desc": "  The role involves leveraging the company's internal AI platform to build domain-specific assistants using technologies such as LLMs, RAG (Retrieval-Augmented Generation), and Knowledge Graphs. No prior STA experience is required, but an interest in applying AI to engineering problems is highly desirable.  Key Responsibilities   Develop AI Agents using the company's internal AI platform.  Build and maintain RAG/KAG-based knowledge systems.  Explore the use of LLMs to assist engineering workflows, such as information retrieval, report analysis, and issue investigation.  Work with STA and CAD engineers to understand requirements and identify automation opportunities.  Evaluate and improve Agent performance through prompt engineering and knowledge optimization.  Document solutions and share best practices with the team.   Required Qualifications   Currently pursuing a Bachelor's, Master's, or PhD degree in Computer Science, Electrical Engineering, AI, or related fields.  Basic knowledge of LLMs and AI Agent concepts.  Programming experience in Python.  Familiarity with RAG, vector databases, knowledge graphs, or related AI technologies.  Strong problem-solving skills and willingness to learn new domains.      More information about NXP in Greater China...    #LI-6650"
+},
+"https://cadence.wd1.myworkdayjobs.com/External_Careers/job/VALBONNE-Sophia/Intern-Mixed-Signal-IP_R56280-1": {
+"first_seen": "2026-10-19",
+"title": "Intern Mixed Signal IP",
+"company": "Cadence",
+"desc": "   At Cadence, we hire and develop leaders and innovators who want to make an impact on the world of technology.     At Cadence, we hire and develop leaders and innovators who want to make an impact on the world of technology.   \u00a0  Cadence is a pivotal leader in electronic design, building upon more than 30 years of computational software expertise. The company applies its underlying Intelligent System Design strategy to deliver software, hardware and IP that turn design concepts into reality.  \u00a0  Cadence customers are the world\u2019s most innovative companies, delivering extraordinary electronic products from chips to boards to systems for the most dynamic market applications including consumer, hyperscale computing, 5G communications, automotive, aerospace industrial and health.  \u00a0  \u00a0   We are looking for an intern in Advanced Node Process Monitor Design   \u00a0  \u00a0   Title:  Intern   Location : Sophia-Antipolis, France   Duration : 6 months   From : early Q1 2027  \u00a0    Internship Description    \u00a0  Are you curious about advanced technology nodes in microelectronics and eager to gain hands-on experience using them to tackle real engineering challenges? Do you enjoy solving problems and finding smarter ways to work? If so, we'd love to hear from you.  \u00a0  At Cadence, we believe great candidates come from a variety of backgrounds and experiences. You do not need to be an expert in microelectronics or transistor technologies to apply. We are looking for motivated and curious individuals "
+},
+"https://seagatecareers.com/job/Characterization-and-Analytics-Group-Intern/15389-en_US": {
+"first_seen": "2026-10-19",
+"title": "Characterization and Analytics Group Intern",
+"company": "Seagate",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/c04624a0-a7cb-44c1-92eb-ef543a7db13b": {
+"first_seen": "2026-10-19",
+"title": "Hardware Development Engineer Co-op",
+"company": "Rockwell Automation",
 "desc": ""
 }
 }
