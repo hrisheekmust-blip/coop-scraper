@@ -635,8 +635,8 @@
 },
 "https://www.indeed.com/viewjob": {
 "first_seen": "2026-09-18",
-"title": "R&D Process Engineer Co-Op",
-"company": "GAF",
+"title": "2027 Summer Avionics Electrical Engineer Intern",
+"company": "Ursa Major Technologies, Inc.",
 "desc": ""
 },
 "https://www.linkedin.com/jobs/view/4468697840": {
@@ -10168,7 +10168,7 @@
 "https://simplify.jobs/jobs/click/9750e606-5a81-4a74-9492-ca1a93b10e38": {
 "first_seen": "2026-10-01",
 "title": "Optical Engineer Intern",
-"company": "KLA Corporation",
+"company": "KLA",
 "desc": ""
 },
 "https://simplify.jobs/jobs/click/66fd3b4a-cc9c-4090-9786-0bf42637abfd": {
@@ -14849,6 +14849,72 @@
 "first_seen": "2026-10-19",
 "title": "Manufacturing Engineering Co-Op",
 "company": "Entegris",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4481207845": {
+"first_seen": "2026-10-19",
+"title": "Power Emphasis Electrical Engineering Co-Op",
+"company": "Ameren",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4481204513": {
+"first_seen": "2026-10-19",
+"title": "Spring Co-Op - Avionics and Electrical Systems Engineer",
+"company": "Textron",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4478601334": {
+"first_seen": "2026-10-19",
+"title": "Electrical Hardware Design Engineering Intern",
+"company": "Leidos",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4478601916": {
+"first_seen": "2026-10-19",
+"title": "2027 Internship - Electrical and Computer Engineering Intern",
+"company": "Johns Hopkins Applied Physics Laboratory",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4481229912": {
+"first_seen": "2026-10-19",
+"title": "2027 Summer Avionics Electrical Engineer Intern",
+"company": "Ursa Major",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4480268265": {
+"first_seen": "2026-10-19",
+"title": "Post Silicon Validation Engineering Intern",
+"company": "Tessolve",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4479692357": {
+"first_seen": "2026-10-19",
+"title": "Intern - Memory Design Engineer, HBM",
+"company": "Micron Technology",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4478614319": {
+"first_seen": "2026-10-19",
+"title": "Reliability Engineering Intern",
+"company": "MechSpire",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4481226570": {
+"first_seen": "2026-10-19",
+"title": "2027 Summer Test Engineering Internship",
+"company": "Ursa Major",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4481258475": {
+"first_seen": "2026-10-19",
+"title": "Process Engineering Intern",
+"company": "MACOM",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4480810296": {
+"first_seen": "2026-10-19",
+"title": "Hardware Engineering & Connected Devices Internship",
+"company": "ADT",
 "desc": ""
 }
 }
