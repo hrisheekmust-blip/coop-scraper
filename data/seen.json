@@ -15216,5 +15216,11 @@
 "title": "2027 Electromechanical Undergraduate Intern",
 "company": "The Aerospace Corporation",
 "desc": ""
+},
+"https://intel.wd1.myworkdayjobs.com/External/job/US-Colorado-Fort-Collins/Design-Verification-Graduate-Intern-2027_JR0287651": {
+"first_seen": "2026-10-20",
+"title": "Design Verification Graduate Intern 2027",
+"company": "Intel",
+"desc": "  Job Details:       Job Description:\u00a0  At Intel, the Design Verification Engineer Graduate Intern role offers an exciting opportunity to contribute to the functional verification of silicon designs, ensuring they meet specifications and performance targets. In this role, you will engage in hands-on tasks such as developing verification plans, creating test benches, and contributing to the verification environment to ensure thorough architecture coverage. Your efforts will play a key part in uncovering design issues and collaborating on solutions, enhancing both your technical expertise and Intel's innovative products.   Business group   This position is part of Intel's Data Center Group (DCG), a dynamic organization dedicated to transforming how data is processed, stored, and analyzed across global industries. DCG drives innovation in server, cloud, and AI technologies, enabling Intel to deliver powerful, scalable solutions that support the future of computing. As part of this group, you will contribute to groundbreaking projects and make an impact on Intel's leading-edge technologies.   Key Responsibilities   - Support the development of verification plans, test benches, and verification environments to ensure design architecture coverage.  - Collaborate with architecture and design teams to verify functional correctness, implementation efficiency, and performance optimization.  - Assist with emulation and simulation tasks to validate designs, analyze power and performance "
 }
 }
