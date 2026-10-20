@@ -1,22 +1,5 @@
 [
  {
-  "company": "1X",
-  "title": "Internship - Manufacturing Engineering",
-  "location": "San Carlos, CA",
-  "url": "https://jobs.ashbyhq.com/1x/d687b375-8136-4e6f-baa6-369b89366050",
-  "posted": "2026-09-14",
-  "deadline": "",
-  "term": "spring",
-  "rank": "A",
-  "hw": "maybe",
-  "tier": "startup",
-  "sources": [
-   "ashby"
-  ],
-  "first_seen": "2026-09-18",
-  "last_seen": "2026-10-20"
- },
- {
   "company": "Amazon",
   "title": "Embedded Firmware Co-op, Amazon Robotics - Spring 2027",
   "location": "US, MA, North Reading",
@@ -31,6 +14,23 @@
    "amazon"
   ],
   "first_seen": "2026-10-08",
+  "last_seen": "2026-10-20"
+ },
+ {
+  "company": "Amazon",
+  "title": "Hardware Development Engineer Intern , Winter 2027",
+  "location": "US, WA, Bellevue",
+  "url": "https://www.amazon.jobs/en/jobs/10584121/hardware-development-engineer-intern-winter-2027",
+  "posted": "2026-10-20",
+  "deadline": "",
+  "term": "spring",
+  "rank": "A",
+  "hw": "hardware",
+  "tier": "big",
+  "sources": [
+   "amazon"
+  ],
+  "first_seen": "2026-10-20",
   "last_seen": "2026-10-20"
  },
  {
@@ -1397,6 +1397,23 @@
  },
  {
   "company": "Entegris",
+  "title": "Reliability Engineer Co-Op",
+  "location": "Bedford, MA",
+  "url": "https://entegris.wd1.myworkdayjobs.com/EntegrisCareers/job/Bedford-MA/Reliability-Engineer-Co-Op_REQ-14399",
+  "posted": "Posted 30+ Days Ago",
+  "deadline": "",
+  "term": "spring",
+  "rank": "A",
+  "hw": "reliability",
+  "tier": "big",
+  "sources": [
+   "workday"
+  ],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20"
+ },
+ {
+  "company": "Entegris",
   "title": "Reliability Engineer Co-op",
   "location": "Bedford, MA, USA",
   "url": "https://simplify.jobs/jobs/click/97164f01-0976-4179-899d-179c517e312b",
@@ -2590,7 +2607,7 @@
   "title": "Winter 2027 Intern, Data Engineering",
   "location": "Mountain View, CA",
   "url": "https://job-boards.greenhouse.io/kodiak/jobs/4396622009",
-  "posted": "2026-09-30",
+  "posted": "2026-10-20",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -2607,7 +2624,7 @@
   "title": "Winter 2027 Intern, Electrical Engineering",
   "location": "Mountain View, CA",
   "url": "https://job-boards.greenhouse.io/kodiak/jobs/4382626009",
-  "posted": "2026-10-06",
+  "posted": "2026-10-20",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -2617,23 +2634,6 @@
    "greenhouse"
   ],
   "first_seen": "2026-09-17",
-  "last_seen": "2026-10-20"
- },
- {
-  "company": "Lawrence Livermore National Laboratory",
-  "title": "CGSR Undergraduate Research Associate - Spring 2027",
-  "location": "Livermore, CA, United States",
-  "url": "https://jobs.smartrecruiters.com/llnl/3743990014540256",
-  "posted": "2026-08-11",
-  "deadline": "",
-  "term": "spring",
-  "rank": "A",
-  "hw": "maybe",
-  "tier": "big",
-  "sources": [
-   "smartrecruiters"
-  ],
-  "first_seen": "2026-09-18",
   "last_seen": "2026-10-20"
  },
  {
@@ -3184,6 +3184,23 @@
  {
   "company": "Rocket Lab",
   "title": "Manufacturing Engineering Intern Spring 2027",
+  "location": "Long Beach, CA",
+  "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7984943003",
+  "posted": "2026-09-16",
+  "deadline": "",
+  "term": "spring",
+  "rank": "A",
+  "hw": "maybe",
+  "tier": "big",
+  "sources": [
+   "greenhouse"
+  ],
+  "first_seen": "2026-09-18",
+  "last_seen": "2026-10-20"
+ },
+ {
+  "company": "Rocket Lab",
+  "title": "Manufacturing Engineering Intern Spring 2027",
   "location": "Middle River, MD",
   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7987020003",
   "posted": "2026-09-16",
@@ -3204,23 +3221,6 @@
   "location": "Wallops Island, VA",
   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7996617003",
   "posted": "2026-09-17",
-  "deadline": "",
-  "term": "spring",
-  "rank": "A",
-  "hw": "maybe",
-  "tier": "big",
-  "sources": [
-   "greenhouse"
-  ],
-  "first_seen": "2026-09-18",
-  "last_seen": "2026-10-20"
- },
- {
-  "company": "Rocket Lab",
-  "title": "Manufacturing Engineering Intern Spring 2027",
-  "location": "Long Beach, CA",
-  "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7984943003",
-  "posted": "2026-09-16",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -3303,23 +3303,6 @@
  {
   "company": "Rocket Lab",
   "title": "Test Engineering Intern Spring 2027",
-  "location": "Stennis Space Center, MS",
-  "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7990352003",
-  "posted": "2026-09-17",
-  "deadline": "",
-  "term": "spring",
-  "rank": "A",
-  "hw": "test engineering",
-  "tier": "big",
-  "sources": [
-   "greenhouse"
-  ],
-  "first_seen": "2026-09-17",
-  "last_seen": "2026-10-20"
- },
- {
-  "company": "Rocket Lab",
-  "title": "Test Engineering Intern Spring 2027",
   "location": "Wallops Island, VA",
   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/8003533003",
   "posted": "2026-10-20",
@@ -3332,6 +3315,23 @@
    "greenhouse"
   ],
   "first_seen": "2026-09-25",
+  "last_seen": "2026-10-20"
+ },
+ {
+  "company": "Rocket Lab",
+  "title": "Test Engineering Intern Spring 2027",
+  "location": "Stennis Space Center, MS",
+  "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7990352003",
+  "posted": "2026-09-17",
+  "deadline": "",
+  "term": "spring",
+  "rank": "A",
+  "hw": "test engineering",
+  "tier": "big",
+  "sources": [
+   "greenhouse"
+  ],
+  "first_seen": "2026-09-17",
   "last_seen": "2026-10-20"
  },
  {
@@ -4870,7 +4870,7 @@
   "title": "Accounting Intern (Spring 2027)",
   "location": "South San Francisco, California, USA",
   "url": "https://www.zipline.com/open-roles/7893921003?gh_jid=7893921003",
-  "posted": "2026-10-15",
+  "posted": "2026-10-20",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -5159,7 +5159,7 @@
   "title": "Global Supply Management Intern (Spring 2027)",
   "location": "South San Francisco, California, USA",
   "url": "https://www.zipline.com/open-roles/7891121003?gh_jid=7891121003",
-  "posted": "2026-10-15",
+  "posted": "2026-10-20",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -5261,7 +5261,7 @@
   "title": "Material Planning Intern (Spring 2027)",
   "location": "South San Francisco, California, USA",
   "url": "https://www.zipline.com/open-roles/7891219003?gh_jid=7891219003",
-  "posted": "2026-10-15",
+  "posted": "2026-10-20",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -5414,7 +5414,7 @@
   "title": "Strategic Finance Intern (Spring 2027)",
   "location": "South San Francisco, California, USA",
   "url": "https://www.zipline.com/open-roles/7978791003?gh_jid=7978791003",
-  "posted": "2026-10-15",
+  "posted": "2026-10-20",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -5431,7 +5431,7 @@
   "title": "Supplier Industrialization Engineering Intern (Spring 2027)",
   "location": "South San Francisco, California, USA",
   "url": "https://www.zipline.com/open-roles/7891019003?gh_jid=7891019003",
-  "posted": "2026-10-15",
+  "posted": "2026-10-20",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -5448,7 +5448,7 @@
   "title": "Supply Chain Business Operations Intern (Spring 2027)",
   "location": "South San Francisco, California, USA",
   "url": "https://www.zipline.com/open-roles/7891225003?gh_jid=7891225003",
-  "posted": "2026-10-15",
+  "posted": "2026-10-20",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -7524,23 +7524,6 @@
   "title": "Quality Engineer Co-Op",
   "location": "San Luis Obispo, CA",
   "url": "https://entegris.wd1.myworkdayjobs.com/EntegrisCareers/job/San-Luis-Obispo-CA/Quality-Engineer-Co-Op_REQ-14434",
-  "posted": "Posted 30+ Days Ago",
-  "deadline": "",
-  "term": "coop-unspecified",
-  "rank": "B",
-  "hw": "maybe",
-  "tier": "big",
-  "sources": [
-   "workday"
-  ],
-  "first_seen": "2026-09-18",
-  "last_seen": "2026-10-20"
- },
- {
-  "company": "Entegris",
-  "title": "Quality Engineering Co-Op",
-  "location": "Rockrimmon, Colorado Springs, CO",
-  "url": "https://entegris.wd1.myworkdayjobs.com/EntegrisCareers/job/Rockrimmon-Colorado-Springs-CO/Quality-Engineering-Co-Op_REQ-14468",
   "posted": "Posted 30+ Days Ago",
   "deadline": "",
   "term": "coop-unspecified",
@@ -10344,23 +10327,6 @@
   "last_seen": "2026-10-20"
  },
  {
-  "company": "1X",
-  "title": "Internship - CNC Machine Park",
-  "location": "Hayward, CA",
-  "url": "https://jobs.ashbyhq.com/1x/ebc45d87-58d7-40d8-9e3d-5f3c8aa5eb48",
-  "posted": "2026-09-18",
-  "deadline": "",
-  "term": "unspecified",
-  "rank": "C",
-  "hw": "maybe",
-  "tier": "startup",
-  "sources": [
-   "ashby"
-  ],
-  "first_seen": "2026-09-18",
-  "last_seen": "2026-10-20"
- },
- {
   "company": "AIR Control Concepts",
   "title": "Controls Engineer Intern",
   "location": "Lenexa, KS, USA",
@@ -12896,6 +12862,23 @@
  },
  {
   "company": "Intel",
+  "title": "Signal Integrity Student Worker Engineer",
+  "location": "Costa Rica, San Jose",
+  "url": "https://intel.wd1.myworkdayjobs.com/External/job/Costa-Rica-San-Jose/Signal-Integrity-Student-Worker-Engineer_JR0288318",
+  "posted": "Posted Today",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "signal integrity",
+  "tier": "big",
+  "sources": [
+   "workday"
+  ],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20"
+ },
+ {
+  "company": "Intel",
   "title": "Silicon Hardware Engineering - Intern, Bachelor\u2019s",
   "location": "5 Locations",
   "url": "https://intel.wd1.myworkdayjobs.com/External/job/US-Oregon-Hillsboro/Silicon-Hardware-Engineering---Intern--Bachelor-s_JR0286829",
@@ -13052,7 +13035,7 @@
   "company": "KLA",
   "title": "Product Development Intern - Electron Beam Instrumentation",
   "location": "Ann Arbor, MI",
-  "url": "https://kla.wd1.myworkdayjobs.com/Search/job/Ann-Arbor-MI/Product-Development-Intern---Electron-Beam-Instrumentation_2642032",
+  "url": "https://kla.wd1.myworkdayjobs.com/Search/job/Ann-Arbor-MI/Product-Development-Intern---Electron-Beam-Instrumentation_2642030",
   "posted": "Posted 7 Days Ago",
   "deadline": "",
   "term": "unspecified",
@@ -13062,7 +13045,7 @@
   "sources": [
    "workday"
   ],
-  "first_seen": "2026-10-13",
+  "first_seen": "2026-10-20",
   "last_seen": "2026-10-20"
  },
  {
@@ -15159,9 +15142,9 @@
  {
   "company": "PsiQuantum",
   "title": "Intern, Optical Packaging and Characterization Engineer",
-  "location": "Milpitas, California, United States",
+  "location": "Milpitas, California",
   "url": "https://www.psiquantum.com/apply?gh_jid=7761881003",
-  "posted": "2026-10-16",
+  "posted": "2026-10-20",
   "deadline": "",
   "term": "unspecified",
   "rank": "C",
@@ -15616,23 +15599,6 @@
   "last_seen": "2026-10-20"
  },
  {
-  "company": "Rigetti",
-  "title": "Research Intern: Scalable Fabrication of Superconducting Quantum Devices",
-  "location": "Berkeley, CA",
-  "url": "https://jobs.lever.co/rigetti/efe28dd4-f331-4738-b282-23106928c3a3",
-  "posted": "1789424869",
-  "deadline": "",
-  "term": "unspecified",
-  "rank": "C",
-  "hw": "maybe",
-  "tier": "startup",
-  "sources": [
-   "lever"
-  ],
-  "first_seen": "2026-09-18",
-  "last_seen": "2026-10-20"
- },
- {
   "company": "Rivian and Volkswagen Group Technologies",
   "title": "Engineering Intern, Embedded Hardware, Vehicle Networking & Audio",
   "location": "Palo Alto, CA",
@@ -15908,7 +15874,7 @@
   "company": "Seagate",
   "title": "Recording Head Test Engineering Intern",
   "location": "Samut Prakan, THA, ",
-  "url": "https://seagatecareers.com/job/Recording-Head-Test-Engineering-Intern/14901-en_US",
+  "url": "https://seagatecareers.com/job/Recording-Head-Test-Engineering-Intern/14904-en_US",
   "posted": "2026-08-19",
   "deadline": "",
   "term": "unspecified",
@@ -15918,7 +15884,7 @@
   "sources": [
    "successfactors"
   ],
-  "first_seen": "2026-09-18",
+  "first_seen": "2026-10-06",
   "last_seen": "2026-10-20"
  },
  {
