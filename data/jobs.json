@@ -164,6 +164,7 @@
   "hw": "electrical engineer",
   "tier": "big",
   "sources": [
+   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-09-17",
@@ -215,6 +216,7 @@
   "hw": "test engineer",
   "tier": "big",
   "sources": [
+   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-10-06",
@@ -1407,6 +1409,7 @@
   "hw": "electrical engineer",
   "tier": "big",
   "sources": [
+   "internlist:coop",
    "workday"
   ],
   "first_seen": "2026-09-18",
@@ -1424,6 +1427,7 @@
   "hw": "metrology",
   "tier": "big",
   "sources": [
+   "internlist:coop",
    "workday"
   ],
   "first_seen": "2026-09-18",
@@ -2654,24 +2658,6 @@
   "last_seen": "2026-10-20"
  },
  {
-  "company": "Keysight Technologies",
-  "title": "R&D Hardware Engineer Intern",
-  "location": "Santa Clara, CA, USA",
-  "url": "https://www.linkedin.com/jobs/view/4478635568",
-  "posted": "2026-10-20",
-  "deadline": "",
-  "term": "spring",
-  "rank": "A",
-  "hw": "hardware",
-  "tier": "",
-  "sources": [
-   "jobspy:indeed",
-   "jobspy:linkedin"
-  ],
-  "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
- },
- {
   "company": "Kodiak",
   "title": "Winter 2027 Intern, Data Engineering",
   "location": "Mountain View, CA",
@@ -2959,6 +2945,23 @@
    "workday"
   ],
   "first_seen": "2026-09-24",
+  "last_seen": "2026-10-20"
+ },
+ {
+  "company": "RTX",
+  "title": "Engineering Support to Operations - Project Engineering Co-Op (January 2027) (Hybrid)",
+  "location": "US-PR-AGUADILLA-110 ~ Rd 110 N Km 28.8 ~ RD110",
+  "url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-PR-AGUADILLA-110--Rd-110-N-Km-288--RD110/Engineering-Support-to-Operations---Project-Engineering-Co-Op--January-2027---Hybrid-_01873703",
+  "posted": "Posted 19 Days Ago",
+  "deadline": "",
+  "term": "spring",
+  "rank": "A",
+  "hw": "maybe",
+  "tier": "big",
+  "sources": [
+   "workday"
+  ],
+  "first_seen": "2026-10-01",
   "last_seen": "2026-10-20"
  },
  {
@@ -3338,23 +3341,6 @@
  {
   "company": "Rocket Lab",
   "title": "Test Engineering Intern Spring 2027",
-  "location": "Stennis Space Center, MS",
-  "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7990352003",
-  "posted": "2026-09-17",
-  "deadline": "",
-  "term": "spring",
-  "rank": "A",
-  "hw": "test engineering",
-  "tier": "big",
-  "sources": [
-   "greenhouse"
-  ],
-  "first_seen": "2026-09-17",
-  "last_seen": "2026-10-20"
- },
- {
-  "company": "Rocket Lab",
-  "title": "Test Engineering Intern Spring 2027",
   "location": "Wallops Island, VA",
   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/8003533003",
   "posted": "2026-10-20",
@@ -3367,6 +3353,23 @@
    "greenhouse"
   ],
   "first_seen": "2026-09-25",
+  "last_seen": "2026-10-20"
+ },
+ {
+  "company": "Rocket Lab",
+  "title": "Test Engineering Intern Spring 2027",
+  "location": "Stennis Space Center, MS",
+  "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7990352003",
+  "posted": "2026-09-17",
+  "deadline": "",
+  "term": "spring",
+  "rank": "A",
+  "hw": "test engineering",
+  "tier": "big",
+  "sources": [
+   "greenhouse"
+  ],
+  "first_seen": "2026-09-17",
   "last_seen": "2026-10-20"
  },
  {
@@ -3449,7 +3452,8 @@
   "hw": "electrical engineering",
   "tier": "big",
   "sources": [
-   "greenhouse"
+   "greenhouse",
+   "internlist:coop"
   ],
   "first_seen": "2026-09-17",
   "last_seen": "2026-10-20"
@@ -3508,8 +3512,8 @@
  {
   "company": "Siemens Digital Industries Software",
   "title": "Strategic Student Program: Cross-Domain Manufacturing Systems Engineering Intern  (T&I, Spring 2027)",
-  "location": "Wilsonville, OR, USA",
-  "url": "https://www.linkedin.com/jobs/view/4480427337",
+  "location": "Detroit, MI, USA",
+  "url": "https://www.linkedin.com/jobs/view/4480431142",
   "posted": "2026-10-20",
   "deadline": "",
   "term": "spring",
@@ -3525,8 +3529,8 @@
  {
   "company": "Siemens Digital Industries Software",
   "title": "Strategic Student Program: Cross-Domain Manufacturing Systems Engineering Intern  (T&I, Spring 2027)",
-  "location": "Detroit, MI, USA",
-  "url": "https://www.linkedin.com/jobs/view/4480431142",
+  "location": "Wilsonville, OR, USA",
+  "url": "https://www.linkedin.com/jobs/view/4480427337",
   "posted": "2026-10-20",
   "deadline": "",
   "term": "spring",
@@ -4486,6 +4490,7 @@
   "hw": "silicon",
   "tier": "big",
   "sources": [
+   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-09-17",
@@ -4850,23 +4855,6 @@
   "last_seen": "2026-10-20"
  },
  {
-  "company": "WSP in the U.S.",
-  "title": "Electrical Engineering Intern (Mission Critical/Data Center) - Fall 2026 - Spring 2027",
-  "location": "New York, NY, USA",
-  "url": "https://www.linkedin.com/jobs/view/4481284002",
-  "posted": "2026-10-19",
-  "deadline": "",
-  "term": "spring",
-  "rank": "A",
-  "hw": "electrical engineering",
-  "tier": "",
-  "sources": [
-   "jobspy:linkedin"
-  ],
-  "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
- },
- {
   "company": "Wabtec",
   "title": "Co-Op, Test Engineer - Transducer (January-June 2027)",
   "location": "State College, PA, United States",
@@ -4895,6 +4883,7 @@
   "hw": "electronics",
   "tier": "big",
   "sources": [
+   "github:vanshb03-offseason",
    "smartrecruiters"
   ],
   "first_seen": "2026-10-13",
@@ -6278,8 +6267,7 @@
   "hw": "test development",
   "tier": "",
   "sources": [
-   "internlist:coop",
-   "jobspy:linkedin"
+   "internlist:coop"
   ],
   "first_seen": "2026-09-18",
   "last_seen": "2026-10-20"
@@ -6883,6 +6871,7 @@
   "hw": "electrical engineering",
   "tier": "big",
   "sources": [
+   "jobspy:indeed",
    "workday"
   ],
   "first_seen": "2026-10-19",
@@ -9565,7 +9554,9 @@
   "hw": "firmware",
   "tier": "big",
   "sources": [
-   "greenhouse"
+   "greenhouse",
+   "internlist:coop",
+   "internlist:winter-spring"
   ],
   "first_seen": "2026-09-24",
   "last_seen": "2026-10-20"
@@ -10045,23 +10036,6 @@
   "tier": "big",
   "sources": [
    "phenom"
-  ],
-  "first_seen": "2026-09-18",
-  "last_seen": "2026-10-20"
- },
- {
-  "company": "Tokyo Electron",
-  "title": "Process Engineer Co-op",
-  "location": "Albany, NY, USA",
-  "url": "https://simplify.jobs/jobs/click/0a2cf094-4726-4aaf-83e7-a98d4b679e9e",
-  "posted": "2026-09-16",
-  "deadline": "2026-10-23",
-  "term": "coop-unspecified",
-  "rank": "B",
-  "hw": "process engineer",
-  "tier": "",
-  "sources": [
-   "internlist:coop"
   ],
   "first_seen": "2026-09-18",
   "last_seen": "2026-10-20"
@@ -11704,6 +11678,23 @@
   "last_seen": "2026-10-20"
  },
  {
+  "company": "Daimler Truck North America",
+  "title": "Electrical Engineering Intern",
+  "location": "Hibbing, MN, USA",
+  "url": "https://www.linkedin.com/jobs/view/4478923471",
+  "posted": "2026-10-20",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "electrical engineering",
+  "tier": "",
+  "sources": [
+   "jobspy:linkedin"
+  ],
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20"
+ },
+ {
   "company": "Danaher",
   "title": "Computer Systems Validation Intern",
   "location": "Fargo, ND, USA",
@@ -12405,7 +12396,7 @@
   "company": "General Dynamics Mission Systems",
   "title": "Electrical Engineering Intern",
   "location": "",
-  "url": "https://careers-gdms.icims.com/jobs/74850/electrical-engineering-intern/job",
+  "url": "https://careers-gdms.icims.com/jobs/75284/electrical-engineering-intern/job",
   "posted": "",
   "deadline": "",
   "term": "unspecified",
@@ -12415,7 +12406,7 @@
   "sources": [
    "icims"
   ],
-  "first_seen": "2026-10-01",
+  "first_seen": "2026-10-20",
   "last_seen": "2026-10-20"
  },
  {
@@ -12846,15 +12837,16 @@
  {
   "company": "Hewlett Packard Enterprise",
   "title": "Hardware Engineering Design Intern",
-  "location": "Roseville, CA, USA",
-  "url": "https://www.linkedin.com/jobs/view/4481522628",
-  "posted": "2026-10-20",
+  "location": "Roseville, CA",
+  "url": "https://hpe.wd5.myworkdayjobs.com/jobsathpe/job/Roseville-California-United-States-of-America/Hardware-Engineering-Design-Intern_1214168",
+  "posted": "Oct 18",
   "deadline": "",
   "term": "unspecified",
   "rank": "C",
   "hw": "hardware",
   "tier": "",
   "sources": [
+   "github:vanshb03-summer",
    "jobspy:linkedin"
   ],
   "first_seen": "2026-10-20",
@@ -13300,6 +13292,25 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-10-02",
+  "last_seen": "2026-10-20"
+ },
+ {
+  "company": "Keysight Technologies",
+  "title": "R&D Hardware Engineer Intern",
+  "location": "Santa Clara, CA",
+  "url": "https://jobs.keysight.com/jobs/54804?icims=1&utm_source=github-vansh-ouckah",
+  "posted": "Oct 19",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "hardware",
+  "tier": "",
+  "sources": [
+   "github:vanshb03-summer",
+   "jobspy:indeed",
+   "jobspy:linkedin"
+  ],
+  "first_seen": "2026-10-20",
   "last_seen": "2026-10-20"
  },
  {
@@ -14479,7 +14490,7 @@
   "company": "Micron Technology",
   "title": "Intern - Design Engineer, HBM",
   "location": "Richardson, TX, USA",
-  "url": "https://www.linkedin.com/jobs/view/4480452887",
+  "url": "https://www.linkedin.com/jobs/view/4480459619",
   "posted": "2026-10-20",
   "deadline": "",
   "term": "unspecified",
@@ -15888,23 +15899,6 @@
  },
  {
   "company": "Seagate",
-  "title": "Engineering Intern (slider process engineer)",
-  "location": "Nakhon Ratchasima, THA, ",
-  "url": "https://seagatecareers.com/job/Engineering-Intern-%28slider-process-engineer%29/14914-en_US",
-  "posted": "2026-09-03",
-  "deadline": "",
-  "term": "unspecified",
-  "rank": "C",
-  "hw": "process engineer",
-  "tier": "big",
-  "sources": [
-   "successfactors"
-  ],
-  "first_seen": "2026-09-18",
-  "last_seen": "2026-10-20"
- },
- {
-  "company": "Seagate",
   "title": "Failure Analysis Intern III (Auto Failure Analysis & Data Analytics)",
   "location": "Nakhon Ratchasima, THA, ",
   "url": "https://seagatecareers.com/job/Failure-Analysis-Intern-III-%28Auto-Failure-Analysis-&amp;-Data-Analytics%29/14648-en_US",
@@ -15922,10 +15916,10 @@
  },
  {
   "company": "Seagate",
-  "title": "Head Failure Analysis Intern III",
+  "title": "Head Failure Analysis Intern",
   "location": "",
-  "url": "https://seagatecareers.com/job/Head-Failure-Analysis-Intern-III/15061-en_US",
-  "posted": "2026-09-15",
+  "url": "https://seagatecareers.com/job/Head-Failure-Analysis-Intern/15130-en_US",
+  "posted": "2026-10-02",
   "deadline": "",
   "term": "unspecified",
   "rank": "C",
@@ -15934,7 +15928,7 @@
   "sources": [
    "successfactors"
   ],
-  "first_seen": "2026-09-18",
+  "first_seen": "2026-10-02",
   "last_seen": "2026-10-20"
  },
  {
@@ -15981,23 +15975,6 @@
   "term": "unspecified",
   "rank": "C",
   "hw": "product engineering",
-  "tier": "big",
-  "sources": [
-   "successfactors"
-  ],
-  "first_seen": "2026-09-18",
-  "last_seen": "2026-10-20"
- },
- {
-  "company": "Seagate",
-  "title": "Recording Head Test Engineering Intern",
-  "location": "Samut Prakan, THA, ",
-  "url": "https://seagatecareers.com/job/Recording-Head-Test-Engineering-Intern/14901-en_US",
-  "posted": "2026-08-19",
-  "deadline": "",
-  "term": "unspecified",
-  "rank": "C",
-  "hw": "test engineering",
   "tier": "big",
   "sources": [
    "successfactors"
