@@ -1587,7 +1587,7 @@
 },
 "https://simplify.jobs/jobs/click/182d99fd-858d-4860-93b7-4f77b0167c1b": {
 "first_seen": "2026-09-18",
-"title": "Electrical Engineer Co-op",
+"title": "ARC Electrical Engineer CO-OP",
 "company": "GE Healthcare",
 "desc": ""
 },
@@ -10168,7 +10168,7 @@
 "https://simplify.jobs/jobs/click/9750e606-5a81-4a74-9492-ca1a93b10e38": {
 "first_seen": "2026-10-01",
 "title": "Optical Engineer Intern",
-"company": "KLA Corporation",
+"company": "KLA",
 "desc": ""
 },
 "https://simplify.jobs/jobs/click/66fd3b4a-cc9c-4090-9786-0bf42637abfd": {
@@ -14963,6 +14963,84 @@
 "first_seen": "2026-10-20",
 "title": "Intern, Firmware Engineering",
 "company": "Heron Power",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/0fc14bdd-19a2-41e6-9e1c-dd9c54f155ce": {
+"first_seen": "2026-10-20",
+"title": "Manufacturing and Reliability Engineer Co-op",
+"company": "Merck",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/9ba037f5-1b2b-4904-a711-458c06bb1fd3": {
+"first_seen": "2026-10-20",
+"title": "Electrical Engineer Co-op",
+"company": "Rockwell Automation",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/0a9ce9b7-d5b8-4236-b53e-9b0f85df728c": {
+"first_seen": "2026-10-20",
+"title": "Hardware Engineering Intern",
+"company": "Schweitzer Engineering Laboratories",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4481522628": {
+"first_seen": "2026-10-20",
+"title": "Hardware Engineering Design Intern",
+"company": "Hewlett Packard Enterprise",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4478299910": {
+"first_seen": "2026-10-20",
+"title": "Electrical Engineering Intern",
+"company": "AxoraQ",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4478635568": {
+"first_seen": "2026-10-20",
+"title": "R&D Hardware Engineer Intern",
+"company": "Keysight Technologies",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4441824294": {
+"first_seen": "2026-10-20",
+"title": "Electrical Engineer Internship",
+"company": "Techtronic Industries - TTI",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4481511566": {
+"first_seen": "2026-10-20",
+"title": "RF Design Intern, AI focus",
+"company": "MACOM",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4481218452": {
+"first_seen": "2026-10-20",
+"title": "Electrical Hardware Engineering Intern",
+"company": "Lemonergy",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4481528549": {
+"first_seen": "2026-10-20",
+"title": "ASIC Intern",
+"company": "HPE Aruba Networking",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4480427337": {
+"first_seen": "2026-10-20",
+"title": "Strategic Student Program: Cross-Domain Manufacturing Systems Engineering Intern  (T&I, Spring 2027)",
+"company": "Siemens Digital Industries Software",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4481524169": {
+"first_seen": "2026-10-20",
+"title": "Failure Analysis Intern",
+"company": "MACOM",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4478634470": {
+"first_seen": "2026-10-20",
+"title": "RF Engineer Intern",
+"company": "Sierra Nevada Corporation",
 "desc": ""
 }
 }
