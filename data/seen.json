@@ -635,8 +635,8 @@
 },
 "https://www.indeed.com/viewjob": {
 "first_seen": "2026-09-18",
-"title": "2027 Summer Avionics Electrical Engineer Intern",
-"company": "Ursa Major Technologies, Inc.",
+"title": "Hardware Development Engineer Intern , Winter 2027",
+"company": "Amazon.com",
 "desc": ""
 },
 "https://www.linkedin.com/jobs/view/4468697840": {
@@ -1587,7 +1587,7 @@
 },
 "https://simplify.jobs/jobs/click/182d99fd-858d-4860-93b7-4f77b0167c1b": {
 "first_seen": "2026-09-18",
-"title": "ARC Electrical Engineer CO-OP",
+"title": "Electrical Engineer Co-op",
 "company": "GE Healthcare",
 "desc": ""
 },
@@ -1659,7 +1659,7 @@
 },
 "https://simplify.jobs/jobs/click/eb296649-bde8-42d5-9752-3b2aa1b47621": {
 "first_seen": "2026-09-18",
-"title": "Product Validation Engineer Co-op",
+"title": "Product Testing and Validation Engineer Co-op",
 "company": "Bass Pro Shops",
 "desc": ""
 },
@@ -5571,7 +5571,7 @@
 },
 "https://simplify.jobs/jobs/click/2e6978bb-ece5-4ba5-9ed6-b6b11bed2627": {
 "first_seen": "2026-09-19",
-"title": "ASIC Digital Design Intern",
+"title": "ASIC Digital Design Engineer Intern",
 "company": "Micron Technology",
 "desc": ""
 },
@@ -10168,7 +10168,7 @@
 "https://simplify.jobs/jobs/click/9750e606-5a81-4a74-9492-ca1a93b10e38": {
 "first_seen": "2026-10-01",
 "title": "Optical Engineer Intern",
-"company": "KLA",
+"company": "KLA Corporation",
 "desc": ""
 },
 "https://simplify.jobs/jobs/click/66fd3b4a-cc9c-4090-9786-0bf42637abfd": {
@@ -10857,7 +10857,7 @@
 },
 "https://simplify.jobs/jobs/click/6afc68db-8174-4996-815c-024b34fd54b0": {
 "first_seen": "2026-10-02",
-"title": "Design-for-Test Engineer Co-op Intern",
+"title": "Engineering Intern Co-op",
 "company": "Rivian",
 "desc": ""
 },
@@ -14127,7 +14127,7 @@
 },
 "https://simplify.jobs/jobs/click/d2bc672d-9a7a-4a59-a574-5d7bd1ad9d4b": {
 "first_seen": "2026-10-14",
-"title": "CGT-AD Characterization Co-op",
+"title": "Cell & Gene Therapy Development Analytical Development Characterization Co-op",
 "company": "Johnson & Johnson",
 "desc": ""
 },
@@ -15090,5 +15090,131 @@
 "title": "Reliability Engineer Co-Op",
 "company": "Entegris",
 "desc": "  Job Title:      Reliability Engineer Co-Op      Job Description:             Here at Entegris, we use advanced science to enable technologies that transform the world, and we are seeking employees who have the drive to continue the mission.   The Role:  Our site in Bedford, MA is seeking a Reliability Engineer Co-Op to join our team for the Spring 2027 season. This assignment is intended to be 6 months in duration. This position will be responsible for improving the reliability of equipment and parameters to improve uptime and process yield. They will work with process engineering and maintenance to improve procedures, troubleshooting, implementing process improvements, and documenting new procedures and tasks.   What You\u2019ll Do:     Work with maintenance team and process engineering team to drive process and product quality.    Participate in safety programs.    Work with teams to mitigate equipment obsolescence and business continuity risks.    Work with teams to scope and design new equipment (coating tools, etching tools etc.) to support manufacturing capacity.    Work with team to upgrade existing equipment to increase availability and revenue per sq. ft.    Work with cross functional team to improve equipment availability and drive excellence.    Review opportunities for improvement with current equipment and fixtures that could impact product yield.    Work with development team and process team to bring new capabilities in new and support facilitation activities.    "
+},
+"https://jobs.ashbyhq.com/skydio/370da6a5-5ae6-48fe-8e08-9b1dcc63bf34": {
+"first_seen": "2026-10-20",
+"title": "Embedded Software Engineer Intern - Winer 2027",
+"company": "Skydio",
+"desc": ""
+},
+"https://alliance.wd3.myworkdayjobs.com/nissanjobs/job/Santa-Clara-California---United-States-of-America/AI-Autonomous-Driving-Verification---Validation-Intern---Summer-2027---Santa-Clara--CA_R00214263": {
+"first_seen": "2026-10-20",
+"title": "AI Autonomous Driving Verification & Validation Intern",
+"company": "Nissan",
+"desc": ""
+},
+"https://jobs.ashbyhq.com/heron-power/5dbf22e3-41ba-40de-b428-6fab9934d6da": {
+"first_seen": "2026-10-20",
+"title": "Firmware Engineering Intern",
+"company": "Heron Power",
+"desc": ""
+},
+"https://job-boards.greenhouse.io/togetherai/jobs/5238469007": {
+"first_seen": "2026-10-20",
+"title": "Hardware Security Engineer Intern",
+"company": "Together AI",
+"desc": ""
+},
+"https://fa-erqb-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3022475": {
+"first_seen": "2026-10-20",
+"title": "Hardware Engineering & Connected Devices Intern",
+"company": "ADT",
+"desc": ""
+},
+"https://boards.greenhouse.io/andurilindustries/jobs/5268689007": {
+"first_seen": "2026-10-20",
+"title": "2027 Field Test Engineer Intern",
+"company": "Anduril",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4478636553": {
+"first_seen": "2026-10-20",
+"title": "Electrical Engineering Shareholder Intern",
+"company": "Teck Resources Limited",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4480415106": {
+"first_seen": "2026-10-20",
+"title": "Electrical Engineering Co-Op",
+"company": "SEW-EURODRIVE - USA",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4481284002": {
+"first_seen": "2026-10-20",
+"title": "Electrical Engineering Intern (Mission Critical/Data Center) - Fall 2026 - Spring 2027",
+"company": "WSP in the U.S.",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4481748731": {
+"first_seen": "2026-10-20",
+"title": "Hardware Development Engineer Intern , Winter 2027",
+"company": "Amazon",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4480702178": {
+"first_seen": "2026-10-20",
+"title": "Intern, R&D Graduate Summer - Advanced Radio Frequency and Electronic Systems, Onsite",
+"company": "Sandia National Laboratories",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4480483893": {
+"first_seen": "2026-10-20",
+"title": "Intern, R&D Undergraduate Summer - Advanced Radio Frequency and Electronic Systems, Onsite",
+"company": "Sandia National Laboratories",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4478914097": {
+"first_seen": "2026-10-20",
+"title": "Electrical Engineer Intern",
+"company": "Applied Materials",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4480452887": {
+"first_seen": "2026-10-20",
+"title": "Intern - Design Engineer, HBM",
+"company": "Micron Technology",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4480431142": {
+"first_seen": "2026-10-20",
+"title": "Strategic Student Program: Cross-Domain Manufacturing Systems Engineering Intern  (T&I, Spring 2027)",
+"company": "Siemens Digital Industries Software",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4478693244": {
+"first_seen": "2026-10-20",
+"title": "Systems Integration/Electrical Test Engineer-INTERN",
+"company": "Lockheed Martin",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4480725088": {
+"first_seen": "2026-10-20",
+"title": "Post Silicon ATE Test Intern",
+"company": "Tessolve",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4481752948": {
+"first_seen": "2026-10-20",
+"title": "Electrical Engineer, 2027 Internship",
+"company": "Humble Robotics",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4478914710": {
+"first_seen": "2026-10-20",
+"title": "Electrical Engineer Intern",
+"company": "RoboNexis",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4481758298": {
+"first_seen": "2026-10-20",
+"title": "Plant Vehicle Engineering Intern, Electrical Systems & Harness Support",
+"company": "Slate Auto",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4478664197": {
+"first_seen": "2026-10-20",
+"title": "2027 Electromechanical Undergraduate Intern",
+"company": "The Aerospace Corporation",
+"desc": ""
 }
 }
