@@ -1587,7 +1587,7 @@
 },
 "https://simplify.jobs/jobs/click/182d99fd-858d-4860-93b7-4f77b0167c1b": {
 "first_seen": "2026-09-18",
-"title": "ARC Electrical Engineer CO-OP",
+"title": "Electrical Engineer Co-op",
 "company": "GE Healthcare",
 "desc": ""
 },
@@ -2373,7 +2373,7 @@
 },
 "https://simplify.jobs/jobs/click/a6c1ca98-97b9-4b04-afcc-f9e407492bea": {
 "first_seen": "2026-09-18",
-"title": "NPI Process Engineer Co-op",
+"title": "New Product Introduction Process Engineer Co-op",
 "company": "Flex",
 "desc": ""
 },
@@ -2937,7 +2937,7 @@
 },
 "https://simplify.jobs/jobs/click/ece79785-c82a-4477-a018-a2d549575253": {
 "first_seen": "2026-09-18",
-"title": "Electrical Engineer Intern",
+"title": "Electrical Engineering Intern",
 "company": "L3Harris Technologies",
 "desc": ""
 },
@@ -3171,7 +3171,7 @@
 },
 "https://simplify.jobs/jobs/click/ce92705c-8ef8-41b9-b977-84b925ad7137": {
 "first_seen": "2026-09-18",
-"title": "Analog, Mixed Signal & Circuit Design Intern",
+"title": "PhD Intern",
 "company": "Marvell",
 "desc": ""
 },
@@ -3495,13 +3495,13 @@
 },
 "https://simplify.jobs/jobs/click/5e939f05-b509-4a23-97cf-eab3f830f1f3": {
 "first_seen": "2026-09-18",
-"title": "Materials and Process Engineer 1 Intern",
+"title": "Materials and Process Engineer Intern",
 "company": "Blue Origin",
 "desc": ""
 },
 "https://simplify.jobs/jobs/click/e586d565-9a03-414c-881e-bb1e51ee22b7": {
 "first_seen": "2026-09-18",
-"title": "Electronics/Electrical Systems Engineer 1 Intern",
+"title": "Electronics/Electrical Systems Engineer Intern",
 "company": "Blue Origin",
 "desc": ""
 },
@@ -5199,13 +5199,13 @@
 },
 "https://simplify.jobs/jobs/click/b993dfd1-18f6-4fe1-97b4-b37792dd18ae": {
 "first_seen": "2026-09-18",
-"title": "Ph.D. Intern",
+"title": "Ph.D. Architecture, DSP & Systems Intern",
 "company": "Marvell",
 "desc": ""
 },
 "https://simplify.jobs/jobs/click/c19ad514-a4fd-4e47-a2ae-ab57347804ad": {
 "first_seen": "2026-09-18",
-"title": "Ph.D. Advanced Packaging & Physical Integration Intern",
+"title": "Advanced Packaging & Physical Integration PhD Intern",
 "company": "Marvell",
 "desc": ""
 },
@@ -5547,7 +5547,7 @@
 },
 "https://simplify.jobs/jobs/click/f9425a33-0fd0-4dcb-8403-642a08c2e836": {
 "first_seen": "2026-09-19",
-"title": "Validation Engineering Intern",
+"title": "Validation Engineer Intern",
 "company": "Magna",
 "desc": ""
 },
@@ -6651,7 +6651,7 @@
 },
 "https://simplify.jobs/jobs/click/c7fa82d8-d38a-48d9-8f18-c6f798ffe999": {
 "first_seen": "2026-09-22",
-"title": "Power and Analog Electronics Engineer Intern",
+"title": "Power and Analog Electronic Engineer Intern",
 "company": "RTX",
 "desc": ""
 },
@@ -8259,7 +8259,7 @@
 },
 "https://simplify.jobs/jobs/click/97a261e1-91ed-4f11-a318-fb084b806f2d": {
 "first_seen": "2026-09-26",
-"title": "Electrical Engineer Co-op",
+"title": "Electrical Engineering for Manufacturing Co-op",
 "company": "RTX",
 "desc": ""
 },
@@ -11355,7 +11355,7 @@
 },
 "https://simplify.jobs/jobs/click/b54e2926-7997-4f5f-a896-dc1c02815232": {
 "first_seen": "2026-10-04",
-"title": "LSS Verification and Validation Engineering Co-op",
+"title": "LSS Verification and Validation Engineer Co-op",
 "company": "GE Healthcare",
 "desc": ""
 },
@@ -12759,7 +12759,7 @@
 },
 "https://simplify.jobs/jobs/click/877a9341-f1cf-4811-b50f-994e93d1791e": {
 "first_seen": "2026-10-08",
-"title": "R&D Electrical Engineering Co-op",
+"title": "Research and Development Electrical Engineering Co-op",
 "company": "Insulet",
 "desc": ""
 },
@@ -14925,7 +14925,7 @@
 },
 "https://www.linkedin.com/jobs/view/4480403449": {
 "first_seen": "2026-10-20",
-"title": "Optoelectronics Electrical Engineering Co-Op",
+"title": "Optoelectronics Electrical Engineering Co-Op (Spring 2027)",
 "company": "Draper",
 "desc": ""
 },
@@ -15371,6 +15371,156 @@
 "first_seen": "2026-10-21",
 "title": "Engineering Co-op",
 "company": "Emerson",
+"desc": ""
+},
+"https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/CA-QC-LONGUEUIL-J01--1000-Blvd-Marie-Victorin--J01-BLDG/Stage---Hiver-2027---Conception-de-la-section-d-essai---Internship---Winter-2027---Test-Section-Design_01871035": {
+"first_seen": "2026-10-21",
+"title": "Stage - Hiver 2027 - Conception de la section d'essai / Internship - Winter 2027 - Test Section Design",
+"company": "RTX",
+"desc": ""
+},
+"https://aero.wd5.myworkdayjobs.com/External/job/El-Segundo-CA/XMLNAME-2027-Hardware-Security-Engineering-Undergrad--Intern_R016954": {
+"first_seen": "2026-10-21",
+"title": "Hardware Security Engineering Intern",
+"company": "Aerospace Corporation",
+"desc": ""
+},
+"https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Santa-Clara-CA/Silicon-Validation-Intern--BS---Summer-2027_2603850-1": {
+"first_seen": "2026-10-21",
+"title": "Silicon Validation Intern",
+"company": "Marvell",
+"desc": "  About Marvell    Marvell\u2019s semiconductor solutions are the essential building blocks of the data infrastructure that connects our world. Across enterprise, cloud and AI, and carrier architectures, our innovative technology is enabling new possibilities.\u00a0    At Marvell, you can affect the arc of individual lives, lift the trajectory of entire industries, and fuel the transformative potential of tomorrow. For those looking to make their mark on purposeful and enduring innovation, above and beyond fleeting trends, Marvell is a place to thrive, learn, and lead.\u00a0     Your Team, Your Impact    The Rack Scale Switch Chip Validation team validates and delivers the high-performance switching silicon and system-level solutions used inside modern AI and cloud data center racks. As an intern, you will contribute to day-to-day engineering work such as running emulation and verification tests, debugging silicon and hardware issues, troubleshooting switch performance and efficiency, and writing scripts to automate workflows, all alongside experienced engineers. Your work will support the team's efforts to deliver reliable, high-bandwidth, low-latency switch products that are a key part of Marvell's data infrastructure portfolio. These products help customers scale AI workloads and enable the next generation of data center networking.    What You Can Expect    Support post-silicon validation of high-speed switch silicon under the guidance of senior engineers.    \u00b7 Assist in developing, doc"
+},
+"https://rockwellautomation.wd1.myworkdayjobs.com/External-Rockwell-Automation-Early-Careers/job/Mayfield-Heights-Ohio-United-States/Intern--Hardware-Development-Engineer--May---Aug-2027-_R26-6892-2": {
+"first_seen": "2026-10-21",
+"title": "Hardware Development Engineer Intern",
+"company": "Rockwell Automation",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/9e0a7027-3473-4f91-a6f2-a3668bbae6b1": {
+"first_seen": "2026-10-21",
+"title": "Process Engineer Co-op",
+"company": "GAF",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/673ff5d4-16cd-4478-acad-98e508412c5c": {
+"first_seen": "2026-10-21",
+"title": "Manufacturing Electrical Engineer Co-op",
+"company": "RTX",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/2db1a02b-245c-429b-8e23-1e5cadc4297d": {
+"first_seen": "2026-10-21",
+"title": "Vehicle Verification Engineering Student Co-op",
+"company": "Magna",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4481111333": {
+"first_seen": "2026-10-21",
+"title": "Co-Op Electrical Engineering",
+"company": "Smith+Nephew",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4479415789": {
+"first_seen": "2026-10-21",
+"title": "Electrical Engineering Intern",
+"company": "Valorantum",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4472154759": {
+"first_seen": "2026-10-21",
+"title": "Automation & Controls Engineer Co-op/Intern",
+"company": "Re:Build",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4480795868": {
+"first_seen": "2026-10-21",
+"title": "Intern Electrical Engineering",
+"company": "Smith+Nephew",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4482160145": {
+"first_seen": "2026-10-21",
+"title": "Optical Engineer Co-Op",
+"company": "QuEra Computing Inc.",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4482097830": {
+"first_seen": "2026-10-21",
+"title": "Electrical Design Engineer Intern",
+"company": "Garmin",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4481107722": {
+"first_seen": "2026-10-21",
+"title": "Intern - Design Engineer, Pathfinding",
+"company": "Micron Technology",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4481112595": {
+"first_seen": "2026-10-21",
+"title": "Intern - Design Engineer, Pathfinding",
+"company": "Micron Technology",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4479435678": {
+"first_seen": "2026-10-21",
+"title": "2027 Hardware Security Engineering Grad Intern",
+"company": "The Aerospace Corporation",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4479432755": {
+"first_seen": "2026-10-21",
+"title": "2027 Hardware Security Engineering Undergrad Intern",
+"company": "The Aerospace Corporation",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4479430981": {
+"first_seen": "2026-10-21",
+"title": "2027 Digital Signals & RF Engineering Undergrad Intern",
+"company": "The Aerospace Corporation",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4479447202": {
+"first_seen": "2026-10-21",
+"title": "2027 Signal Processing and RF Engineering Undergrad Intern",
+"company": "The Aerospace Corporation",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4479438675": {
+"first_seen": "2026-10-21",
+"title": "2027 Hardware Security Engineering Undergrad Intern",
+"company": "The Aerospace Corporation",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4479401938": {
+"first_seen": "2026-10-21",
+"title": "Electrical Engineering Intern",
+"company": "Robynex Automation",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4481110656": {
+"first_seen": "2026-10-21",
+"title": "Intern - Semiconductor Global Category Supplier Management",
+"company": "Micron Technology",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4481117351": {
+"first_seen": "2026-10-21",
+"title": "Intern - Semiconductor Global Category Supplier Management",
+"company": "Micron Technology",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4481133538": {
+"first_seen": "2026-10-21",
+"title": "Electrical Engineering Intern - Summer",
+"company": "Carrier",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4482097404": {
+"first_seen": "2026-10-21",
+"title": "Power Electronics Intern",
+"company": "Daikin Applied Americas",
 "desc": ""
 }
 }
