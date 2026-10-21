@@ -28,8 +28,7 @@
   "hw": "hardware",
   "tier": "big",
   "sources": [
-   "amazon",
-   "github:vanshb03-offseason"
+   "amazon"
   ],
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-21"
@@ -165,7 +164,6 @@
   "hw": "electrical engineer",
   "tier": "big",
   "sources": [
-   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-09-17",
@@ -217,7 +215,6 @@
   "hw": "test engineer",
   "tier": "big",
   "sources": [
-   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-10-06",
@@ -1131,7 +1128,7 @@
   "title": "Electro-Mechanical Instrument Co-op (Spring 2027)",
   "location": "Cambridge, MA",
   "url": "https://draper.wd5.myworkdayjobs.com/Draper_Careers/job/Cambridge-MA/Electro-Mechanical-Instrument-Co-op--Spring-2027-_JR002883-1",
-  "posted": "Posted 30+ Days Ago",
+  "posted": "Posted Today",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -1175,6 +1172,23 @@
    "workday"
   ],
   "first_seen": "2026-09-18",
+  "last_seen": "2026-10-21"
+ },
+ {
+  "company": "Draper",
+  "title": "Optoelectronics Electrical Engineering Co-Op (Spring 2027)",
+  "location": "Cambridge, MA",
+  "url": "https://draper.wd5.myworkdayjobs.com/Draper_Careers/job/Cambridge-MA/Optoelectronics-Electrical-Engineering-Co-Op_JR003044-1",
+  "posted": "Posted Today",
+  "deadline": "",
+  "term": "spring",
+  "rank": "A",
+  "hw": "electrical engineering",
+  "tier": "big",
+  "sources": [
+   "workday"
+  ],
+  "first_seen": "2026-10-19",
   "last_seen": "2026-10-21"
  },
  {
@@ -1393,7 +1407,6 @@
   "hw": "electrical engineer",
   "tier": "big",
   "sources": [
-   "internlist:coop",
    "workday"
   ],
   "first_seen": "2026-09-18",
@@ -1411,7 +1424,6 @@
   "hw": "metrology",
   "tier": "big",
   "sources": [
-   "internlist:coop",
    "workday"
   ],
   "first_seen": "2026-09-18",
@@ -2831,23 +2843,6 @@
  },
  {
   "company": "RTX",
-  "title": "2027 Spring/Summer Co-Op, Systems Engineering - Onsite",
-  "location": "US-CT-EAST HARTFORD-ETC ~ 400 Main St ~ BLDG ETC",
-  "url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-CT-EAST-HARTFORD-ETC--400-Main-St--BLDG-ETC/XMLNAME-2027-Spring-Summer-Co-Op--Systems-Engineering---Onsite_01876249",
-  "posted": "Posted 7 Days Ago",
-  "deadline": "",
-  "term": "spring",
-  "rank": "A",
-  "hw": "maybe",
-  "tier": "big",
-  "sources": [
-   "workday"
-  ],
-  "first_seen": "2026-10-14",
-  "last_seen": "2026-10-21"
- },
- {
-  "company": "RTX",
   "title": "CH-53K Systems Engineering Coop (Spring/Summer 2027) - Onsite",
   "location": "US-IA-CEDAR RAPIDS-182 ~ 1100 Cimmie Ave Ne ~ BLDG 182",
   "url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-IA-CEDAR-RAPIDS-182--1100-Cimmie-Ave-Ne--BLDG-182/CH-53K-Systems-Engineering-Coop--Spring-Summer-2027----Onsite_01872668",
@@ -2946,6 +2941,23 @@
    "workday"
   ],
   "first_seen": "2026-10-06",
+  "last_seen": "2026-10-21"
+ },
+ {
+  "company": "RTX",
+  "title": "Manufacturing Electrical Engineer Co-op (Spring/Summer 2027)",
+  "location": "US-FL-MELBOURNE-308 ~ 1100 W Hibiscus Blvd ~ BLDG 308",
+  "url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-FL-MELBOURNE-308--1100-W-Hibiscus-Blvd--BLDG-308/Manufacturing-Electrical-Engineer-Co-op--Spring-Summer-2027-_01883878",
+  "posted": "Posted Today",
+  "deadline": "",
+  "term": "spring",
+  "rank": "A",
+  "hw": "electrical engineer",
+  "tier": "big",
+  "sources": [
+   "workday"
+  ],
+  "first_seen": "2026-10-21",
   "last_seen": "2026-10-21"
  },
  {
@@ -3121,9 +3133,9 @@
  {
   "company": "Rocket Lab",
   "title": "Manufacturing Engineering Intern Spring 2027",
-  "location": "Long Beach, CA",
-  "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7984943003",
-  "posted": "2026-09-16",
+  "location": "Wallops Island, VA",
+  "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7996617003",
+  "posted": "2026-09-17",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -3155,9 +3167,9 @@
  {
   "company": "Rocket Lab",
   "title": "Manufacturing Engineering Intern Spring 2027",
-  "location": "Wallops Island, VA",
-  "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7996617003",
-  "posted": "2026-09-17",
+  "location": "Long Beach, CA",
+  "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7984943003",
+  "posted": "2026-09-16",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -3351,8 +3363,7 @@
   "hw": "electrical engineering",
   "tier": "big",
   "sources": [
-   "greenhouse",
-   "internlist:coop"
+   "greenhouse"
   ],
   "first_seen": "2026-09-17",
   "last_seen": "2026-10-21"
@@ -3954,23 +3965,6 @@
  },
  {
   "company": "Skyworks",
-  "title": "RF Design Validation Winter/Spring Co-Op (Jan-June '27)",
-  "location": "Andover, MA, USA    ",
-  "url": "https://careers.skyworksinc.com/job/RF-Design-Validation-WinterSpring-Co-Op-%28Jan-June-&apos;27%29/78067-en_US",
-  "posted": "2026-08-12",
-  "deadline": "",
-  "term": "spring",
-  "rank": "A",
-  "hw": "rf",
-  "tier": "big",
-  "sources": [
-   "successfactors"
-  ],
-  "first_seen": "2026-10-02",
-  "last_seen": "2026-10-21"
- },
- {
-  "company": "Skyworks",
   "title": "RF Design Validation/Testing Co-Op (Winter/Spring 2027)",
   "location": "Irvine, CA, USA    ",
   "url": "https://careers.skyworksinc.com/job/RF-Design-ValidationTesting-Co-Op-%28WinterSpring-2027%29/78193-en_US",
@@ -4389,7 +4383,6 @@
   "hw": "silicon",
   "tier": "big",
   "sources": [
-   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-09-17",
@@ -4799,7 +4792,6 @@
   "hw": "electronics",
   "tier": "big",
   "sources": [
-   "github:vanshb03-offseason",
    "smartrecruiters"
   ],
   "first_seen": "2026-10-13",
@@ -6795,24 +6787,6 @@
  {
   "company": "Draper",
   "title": "Optoelectronics Electrical Engineering Co-Op",
-  "location": "Cambridge, MA",
-  "url": "https://draper.wd5.myworkdayjobs.com/Draper_Careers/job/Cambridge-MA/Optoelectronics-Electrical-Engineering-Co-Op_JR003044-1",
-  "posted": "Posted 2 Days Ago",
-  "deadline": "",
-  "term": "coop-unspecified",
-  "rank": "B",
-  "hw": "electrical engineering",
-  "tier": "big",
-  "sources": [
-   "jobspy:indeed",
-   "workday"
-  ],
-  "first_seen": "2026-10-19",
-  "last_seen": "2026-10-21"
- },
- {
-  "company": "Draper",
-  "title": "Optoelectronics Electrical Engineering Co-Op",
   "location": "Greater Boston",
   "url": "https://www.linkedin.com/jobs/view/4480403449",
   "posted": "2026-10-20",
@@ -8024,6 +7998,23 @@
  },
  {
   "company": "General Dynamics Mission Systems",
+  "title": "Electrical Engineering Co-Op (Fall/Winter)",
+  "location": "",
+  "url": "https://careers-gdms.icims.com/jobs/74924/electrical-engineering-co-op-%28fall-winter%29/job",
+  "posted": "",
+  "deadline": "",
+  "term": "coop-unspecified",
+  "rank": "B",
+  "hw": "electrical engineering",
+  "tier": "big",
+  "sources": [
+   "icims"
+  ],
+  "first_seen": "2026-10-21",
+  "last_seen": "2026-10-21"
+ },
+ {
+  "company": "General Dynamics Mission Systems",
   "title": "Electrical Engineering Co-op",
   "location": "Pittsfield, MA, USA",
   "url": "https://simplify.jobs/jobs/click/26421879-2b39-4d9e-bb39-48c7ed152482",
@@ -9171,10 +9162,10 @@
  },
  {
   "company": "RTX",
-  "title": "Operations Engineering Specialist Co-Op (Onsite)",
-  "location": "US-MA-ANDOVER-AN1 ~ 350 Lowell St ~ AN1 ESSEX BLDG",
-  "url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-MA-ANDOVER-AN1--350-Lowell-St--AN1-ESSEX-BLDG/Operations-Engineering-Specialist-Co-Op--Onsite-_01874745",
-  "posted": "Posted 7 Days Ago",
+  "title": "Part Time Systems Engineer Co-Op (Remote)",
+  "location": "US-CO-AURORA-S75 ~ 16800 E Centretech Pkwy ~ BLDG S75",
+  "url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-CO-AURORA-S75--16800-E-Centretech-Pkwy--BLDG-S75/Part-Time-Systems-Engineer-Co-Op--Remote-_01883866",
+  "posted": "Posted Today",
   "deadline": "",
   "term": "coop-unspecified",
   "rank": "B",
@@ -9183,7 +9174,7 @@
   "sources": [
    "workday"
   ],
-  "first_seen": "2026-09-21",
+  "first_seen": "2026-10-21",
   "last_seen": "2026-10-21"
  },
  {
@@ -9201,23 +9192,6 @@
    "internlist:coop"
   ],
   "first_seen": "2026-09-23",
-  "last_seen": "2026-10-21"
- },
- {
-  "company": "RTX",
-  "title": "Test Engineering Specialist Co-Op (Onsite)",
-  "location": "US-MA-ANDOVER-AN1 ~ 350 Lowell St ~ AN1 ESSEX BLDG",
-  "url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-MA-ANDOVER-AN1--350-Lowell-St--AN1-ESSEX-BLDG/Test-Engineering-Specialist-Co-Op--Onsite-_01874746",
-  "posted": "Posted 7 Days Ago",
-  "deadline": "",
-  "term": "coop-unspecified",
-  "rank": "B",
-  "hw": "test engineering",
-  "tier": "big",
-  "sources": [
-   "workday"
-  ],
-  "first_seen": "2026-09-21",
   "last_seen": "2026-10-21"
  },
  {
@@ -9504,9 +9478,7 @@
   "hw": "firmware",
   "tier": "big",
   "sources": [
-   "greenhouse",
-   "internlist:coop",
-   "internlist:winter-spring"
+   "greenhouse"
   ],
   "first_seen": "2026-09-24",
   "last_seen": "2026-10-21"
@@ -14931,6 +14903,23 @@
  },
  {
   "company": "NXP",
+  "title": "Internship \u2013 Product Engineering (Data Science: Machine Learning Analyst)",
+  "location": "Nijmegen",
+  "url": "https://nxp.wd3.myworkdayjobs.com/careers/job/Nijmegen/Internship---Product-Engineering--Data-Science--Machine-Learning-Analyst-_R-10064265-1",
+  "posted": "Posted 15 Days Ago",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "product engineering",
+  "tier": "big",
+  "sources": [
+   "workday"
+  ],
+  "first_seen": "2026-10-21",
+  "last_seen": "2026-10-21"
+ },
+ {
+  "company": "NXP",
   "title": "Internship \u2013 Product Engineering (ML Model Development)",
   "location": "Nijmegen",
   "url": "https://nxp.wd3.myworkdayjobs.com/careers/job/Nijmegen/Internship---Product-Engineering--ML-Model-Development-_R-10064264-1",
@@ -15696,6 +15685,23 @@
  },
  {
   "company": "RTX",
+  "title": "Electrical Engineer Intern",
+  "location": "US-AZ-TUCSON-805 ~ 1151 E Hermans Rd ~ BLDG 805",
+  "url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-AZ-TUCSON-805--1151-E-Hermans-Rd--BLDG-805/Electrical-Engineer-Intern_01874283",
+  "posted": "Posted Today",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "electrical engineer",
+  "tier": "big",
+  "sources": [
+   "workday"
+  ],
+  "first_seen": "2026-09-18",
+  "last_seen": "2026-10-21"
+ },
+ {
+  "company": "RTX",
   "title": "Power and Analog Electronics Engineer Intern",
   "location": "Tucson, AZ, USA",
   "url": "https://simplify.jobs/jobs/click/c7fa82d8-d38a-48d9-8f18-c6f798ffe999",
@@ -15999,23 +16005,6 @@
    "successfactors"
   ],
   "first_seen": "2026-10-14",
-  "last_seen": "2026-10-21"
- },
- {
-  "company": "Seagate",
-  "title": "Metrology maintenance engineering intern",
-  "location": "Nakhon Ratchasima, THA, ",
-  "url": "https://seagatecareers.com/job/Metrology-maintenance-engineering-intern/14919-en_US",
-  "posted": "2026-08-26",
-  "deadline": "",
-  "term": "unspecified",
-  "rank": "C",
-  "hw": "metrology",
-  "tier": "big",
-  "sources": [
-   "successfactors"
-  ],
-  "first_seen": "2026-09-18",
   "last_seen": "2026-10-21"
  },
  {
