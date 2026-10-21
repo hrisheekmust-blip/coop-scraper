@@ -1587,7 +1587,7 @@
 },
 "https://simplify.jobs/jobs/click/182d99fd-858d-4860-93b7-4f77b0167c1b": {
 "first_seen": "2026-09-18",
-"title": "Electrical Engineer Co-op",
+"title": "ARC Electrical Engineer CO-OP",
 "company": "GE Healthcare",
 "desc": ""
 },
@@ -10168,7 +10168,7 @@
 "https://simplify.jobs/jobs/click/9750e606-5a81-4a74-9492-ca1a93b10e38": {
 "first_seen": "2026-10-01",
 "title": "Optical Engineer Intern",
-"company": "KLA Corporation",
+"company": "KLA",
 "desc": ""
 },
 "https://simplify.jobs/jobs/click/66fd3b4a-cc9c-4090-9786-0bf42637abfd": {
@@ -15269,6 +15269,60 @@
 "first_seen": "2026-10-21",
 "title": "Internship, SI Chip Thermal Design Engineer, SI Hardware (Winter/Spring 2027)",
 "company": "Tesla",
+"desc": ""
+},
+"https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-IA-CEDAR-RAPIDS-105--400-Collins-Rd-NE--BLDG-105/Co-op--Systems-Engineering-Co-op--Summer-Fall-2027----Onsite_01873973": {
+"first_seen": "2026-10-21",
+"title": "Co-op: Systems Engineering Co-op (Summer-Fall 2027) - Onsite",
+"company": "RTX",
+"desc": ""
+},
+"https://seagatecareers.com/job/Test-Development-Intern/15430-en_US": {
+"first_seen": "2026-10-21",
+"title": "Test Development Intern",
+"company": "Seagate",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/c6f28916-c10f-43e9-bb33-9d9846cdb4ab": {
+"first_seen": "2026-10-21",
+"title": "Quality Assurance Metrology Co-op",
+"company": "Coherent",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/cb97a825-fb9c-4963-8150-71ee2afdd589": {
+"first_seen": "2026-10-21",
+"title": "R&D Process Engineer Co-op",
+"company": "GAF",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/dec6543a-64f0-495d-a501-0004ea9365b7": {
+"first_seen": "2026-10-21",
+"title": "Sensor Characterization Co-op",
+"company": "Laminar",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4482026847": {
+"first_seen": "2026-10-21",
+"title": "Electrical Engineering Intern",
+"company": "AV",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4478948665": {
+"first_seen": "2026-10-21",
+"title": "Hardware Engineering Intern",
+"company": "Keysight Technologies",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4482042362": {
+"first_seen": "2026-10-21",
+"title": "ASIC Design Intern",
+"company": "SK hynix memory solutions America Inc.",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4478697133": {
+"first_seen": "2026-10-21",
+"title": "Radio Frequency (RF) Engineering Intern",
+"company": "Lockheed Martin",
 "desc": ""
 }
 }
