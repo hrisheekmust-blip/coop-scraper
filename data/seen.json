@@ -10168,7 +10168,7 @@
 "https://simplify.jobs/jobs/click/9750e606-5a81-4a74-9492-ca1a93b10e38": {
 "first_seen": "2026-10-01",
 "title": "Optical Engineer Intern",
-"company": "KLA",
+"company": "KLA Corporation",
 "desc": ""
 },
 "https://simplify.jobs/jobs/click/66fd3b4a-cc9c-4090-9786-0bf42637abfd": {
@@ -15533,6 +15533,18 @@
 "first_seen": "2026-10-21",
 "title": "Lab Operations Intern",
 "company": "Etched",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4482179814": {
+"first_seen": "2026-10-21",
+"title": "Intern - Engineering (ASIC Verification)",
+"company": "Microchip Technology Inc.",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4481136752": {
+"first_seen": "2026-10-21",
+"title": "Power Electronics & Motor Controls Engineering Intern",
+"company": "Wright Electric",
 "desc": ""
 }
 }
