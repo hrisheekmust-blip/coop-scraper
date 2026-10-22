@@ -28,8 +28,7 @@
   "hw": "hardware",
   "tier": "big",
   "sources": [
-   "amazon",
-   "github:vanshb03-offseason"
+   "amazon"
   ],
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-22"
@@ -318,7 +317,6 @@
   "hw": "process engineer",
   "tier": "big",
   "sources": [
-   "jobspy:indeed",
    "workday"
   ],
   "first_seen": "2026-10-21",
@@ -818,23 +816,6 @@
   "last_seen": "2026-10-22"
  },
  {
-  "company": "Axelera AI",
-  "title": "Intern - AIPU Board Development",
-  "location": "Florence (on-site)",
-  "url": "https://jobs.ashbyhq.com/axelera/cac5f1c7-2eb7-4bfe-b67f-dfc23dc59c16",
-  "posted": "2026-09-21",
-  "deadline": "",
-  "term": "spring",
-  "rank": "A",
-  "hw": "maybe",
-  "tier": "startup",
-  "sources": [
-   "ashby"
-  ],
-  "first_seen": "2026-09-21",
-  "last_seen": "2026-10-22"
- },
- {
   "company": "BAE Systems",
   "title": "Electrical Engineering Coop (Spring/Summer 2027), Onsite",
   "location": "Cedar Rapids, Iowa, United States",
@@ -951,57 +932,6 @@
    "workday"
   ],
   "first_seen": "2026-10-09",
-  "last_seen": "2026-10-22"
- },
- {
-  "company": "Cadence",
-  "title": "Intern Mixed Signal IP",
-  "location": "VALBONNE (Sophia)",
-  "url": "https://cadence.wd1.myworkdayjobs.com/External_Careers/job/VALBONNE-Sophia/Intern-Mixed-Signal-IP_R56280-1",
-  "posted": "Posted 3 Days Ago",
-  "deadline": "",
-  "term": "spring",
-  "rank": "A",
-  "hw": "mixed signal",
-  "tier": "big",
-  "sources": [
-   "workday"
-  ],
-  "first_seen": "2026-10-19",
-  "last_seen": "2026-10-22"
- },
- {
-  "company": "Cadence",
-  "title": "Intern: AI for Silicon Test Data Analytics & Failure Analysis",
-  "location": "VALBONNE (Sophia)",
-  "url": "https://cadence.wd1.myworkdayjobs.com/External_Careers/job/VALBONNE-Sophia/Intern--AI-for-Silicon-Test-Data-Analytics---Failure-Analysis_R56810-1",
-  "posted": "Posted 2 Days Ago",
-  "deadline": "",
-  "term": "spring",
-  "rank": "A",
-  "hw": "failure analysis,silicon",
-  "tier": "big",
-  "sources": [
-   "workday"
-  ],
-  "first_seen": "2026-10-20",
-  "last_seen": "2026-10-22"
- },
- {
-  "company": "Cadence",
-  "title": "Intern: AI for Smarter ATE Test Development & Debug",
-  "location": "VALBONNE (Sophia)",
-  "url": "https://cadence.wd1.myworkdayjobs.com/External_Careers/job/VALBONNE-Sophia/Intern--AI-for-Smarter-ATE-Test-Development---Debug_R56811-1",
-  "posted": "Posted 2 Days Ago",
-  "deadline": "",
-  "term": "spring",
-  "rank": "A",
-  "hw": "ate,test development",
-  "tier": "big",
-  "sources": [
-   "workday"
-  ],
-  "first_seen": "2026-10-20",
   "last_seen": "2026-10-22"
  },
  {
@@ -1222,7 +1152,6 @@
   "hw": "electrical engineering",
   "tier": "big",
   "sources": [
-   "jobspy:indeed",
    "workday"
   ],
   "first_seen": "2026-10-19",
@@ -1306,6 +1235,23 @@
   "term": "spring",
   "rank": "A",
   "hw": "electrical engineering",
+  "tier": "big",
+  "sources": [
+   "oracle_hcm"
+  ],
+  "first_seen": "2026-09-18",
+  "last_seen": "2026-10-22"
+ },
+ {
+  "company": "Emerson",
+  "title": "Manufacturing Engineering Co-Op",
+  "location": "Marshalltown, IA, United States",
+  "url": "https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26009034",
+  "posted": "2026-10-22",
+  "deadline": "",
+  "term": "spring",
+  "rank": "A",
+  "hw": "maybe",
   "tier": "big",
   "sources": [
    "oracle_hcm"
@@ -1461,7 +1407,6 @@
   "hw": "electrical engineer",
   "tier": "big",
   "sources": [
-   "internlist:coop",
    "workday"
   ],
   "first_seen": "2026-09-18",
@@ -1479,7 +1424,6 @@
   "hw": "metrology",
   "tier": "big",
   "sources": [
-   "internlist:coop",
    "workday"
   ],
   "first_seen": "2026-09-18",
@@ -2950,6 +2894,23 @@
  },
  {
   "company": "RTX",
+  "title": "Internship - Winter 2027 - Combustion Engineering",
+  "location": "CA-ON-MISSISSAUGA-P22M01 ~ 1801 Courtney Park Dr ~ P22M01 BLDG",
+  "url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/CA-ON-MISSISSAUGA-P22M01--1801-Courtney-Park-Dr--P22M01-BLDG/Internship---Winter-2027---Combustion-Engineering_01871804-1",
+  "posted": "Posted Today",
+  "deadline": "",
+  "term": "spring",
+  "rank": "A",
+  "hw": "maybe",
+  "tier": "big",
+  "sources": [
+   "workday"
+  ],
+  "first_seen": "2026-10-22",
+  "last_seen": "2026-10-22"
+ },
+ {
+  "company": "RTX",
   "title": "Manufacturing Electrical Engineer Co-op (Spring/Summer 2027)",
   "location": "US-FL-MELBOURNE-308 ~ 1100 W Hibiscus Blvd ~ BLDG 308",
   "url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-FL-MELBOURNE-308--1100-W-Hibiscus-Blvd--BLDG-308/Manufacturing-Electrical-Engineer-Co-op--Spring-Summer-2027-_01883878",
@@ -3138,6 +3099,23 @@
  {
   "company": "Rocket Lab",
   "title": "Manufacturing Engineering Intern Spring 2027",
+  "location": "Wallops Island, VA",
+  "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7996617003",
+  "posted": "2026-09-17",
+  "deadline": "",
+  "term": "spring",
+  "rank": "A",
+  "hw": "maybe",
+  "tier": "big",
+  "sources": [
+   "greenhouse"
+  ],
+  "first_seen": "2026-09-18",
+  "last_seen": "2026-10-22"
+ },
+ {
+  "company": "Rocket Lab",
+  "title": "Manufacturing Engineering Intern Spring 2027",
   "location": "Middle River, MD",
   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7987020003",
   "posted": "2026-09-16",
@@ -3158,23 +3136,6 @@
   "location": "Long Beach, CA",
   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7984943003",
   "posted": "2026-09-16",
-  "deadline": "",
-  "term": "spring",
-  "rank": "A",
-  "hw": "maybe",
-  "tier": "big",
-  "sources": [
-   "greenhouse"
-  ],
-  "first_seen": "2026-09-18",
-  "last_seen": "2026-10-22"
- },
- {
-  "company": "Rocket Lab",
-  "title": "Manufacturing Engineering Intern Spring 2027",
-  "location": "Wallops Island, VA",
-  "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7996617003",
-  "posted": "2026-09-17",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -3257,23 +3218,6 @@
  {
   "company": "Rocket Lab",
   "title": "Test Engineering Intern Spring 2027",
-  "location": "Wallops Island, VA",
-  "url": "https://job-boards.greenhouse.io/rocketlab/jobs/8003533003",
-  "posted": "2026-10-22",
-  "deadline": "",
-  "term": "spring",
-  "rank": "A",
-  "hw": "test engineering",
-  "tier": "big",
-  "sources": [
-   "greenhouse"
-  ],
-  "first_seen": "2026-09-25",
-  "last_seen": "2026-10-22"
- },
- {
-  "company": "Rocket Lab",
-  "title": "Test Engineering Intern Spring 2027",
   "location": "Stennis Space Center, MS",
   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7990352003",
   "posted": "2026-09-17",
@@ -3286,6 +3230,23 @@
    "greenhouse"
   ],
   "first_seen": "2026-09-17",
+  "last_seen": "2026-10-22"
+ },
+ {
+  "company": "Rocket Lab",
+  "title": "Test Engineering Intern Spring 2027",
+  "location": "Wallops Island, VA",
+  "url": "https://job-boards.greenhouse.io/rocketlab/jobs/8003533003",
+  "posted": "2026-10-22",
+  "deadline": "",
+  "term": "spring",
+  "rank": "A",
+  "hw": "test engineering",
+  "tier": "big",
+  "sources": [
+   "greenhouse"
+  ],
+  "first_seen": "2026-09-25",
   "last_seen": "2026-10-22"
  },
  {
@@ -3386,8 +3347,7 @@
   "hw": "electrical engineering",
   "tier": "big",
   "sources": [
-   "greenhouse",
-   "internlist:coop"
+   "greenhouse"
   ],
   "first_seen": "2026-09-17",
   "last_seen": "2026-10-22"
@@ -4408,7 +4368,6 @@
   "hw": "silicon",
   "tier": "big",
   "sources": [
-   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-09-17",
@@ -4801,7 +4760,6 @@
   "hw": "electronics",
   "tier": "big",
   "sources": [
-   "github:vanshb03-offseason",
    "smartrecruiters"
   ],
   "first_seen": "2026-10-13",
@@ -9471,9 +9429,7 @@
   "hw": "firmware",
   "tier": "big",
   "sources": [
-   "greenhouse",
-   "internlist:coop",
-   "internlist:winter-spring"
+   "greenhouse"
   ],
   "first_seen": "2026-09-24",
   "last_seen": "2026-10-22"
@@ -11371,40 +11327,6 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-22"
- },
- {
-  "company": "Cadence",
-  "title": "Intern: Application Engineering - Digital Verification & Simulation/VIP",
-  "location": "BELO HORIZONTE",
-  "url": "https://cadence.wd1.myworkdayjobs.com/External_Careers/job/BELO-HORIZONTE/Intern--Application-Engineering---Digital-Verification---Simulation-VIP_R54888",
-  "posted": "Posted 30+ Days Ago",
-  "deadline": "",
-  "term": "unspecified",
-  "rank": "C",
-  "hw": "verification",
-  "tier": "big",
-  "sources": [
-   "workday"
-  ],
-  "first_seen": "2026-09-17",
-  "last_seen": "2026-10-22"
- },
- {
-  "company": "Cadence",
-  "title": "Intern: Software Engineering: Hardware Verification R&D",
-  "location": "BELO HORIZONTE",
-  "url": "https://cadence.wd1.myworkdayjobs.com/External_Careers/job/BELO-HORIZONTE/Intern--Software-Engineering--Hardware-Verification-R-D_R56477",
-  "posted": "Posted 29 Days Ago",
-  "deadline": "",
-  "term": "unspecified",
-  "rank": "C",
-  "hw": "hardware,verification",
-  "tier": "big",
-  "sources": [
-   "workday"
-  ],
-  "first_seen": "2026-09-23",
   "last_seen": "2026-10-22"
  },
  {
@@ -13809,23 +13731,6 @@
   "last_seen": "2026-10-22"
  },
  {
-  "company": "Leidos",
-  "title": "Embedded Design Engineering Intern \u2013 Firmware",
-  "location": "Huntsville, AL",
-  "url": "https://leidos.wd5.myworkdayjobs.com/External/job/Huntsville-AL/Embedded-Design-Engineering-Intern---Firmware_R-00193574",
-  "posted": "Posted Yesterday",
-  "deadline": "",
-  "term": "unspecified",
-  "rank": "C",
-  "hw": "embedded,firmware",
-  "tier": "big",
-  "sources": [
-   "workday"
-  ],
-  "first_seen": "2026-09-30",
-  "last_seen": "2026-10-22"
- },
- {
   "company": "Lightmatter",
   "title": "Photonics Characterization Intern",
   "location": "Boston, MA, USA",
@@ -14347,7 +14252,6 @@
   "hw": "asic,verification",
   "tier": "big",
   "sources": [
-   "github:vanshb03-summer",
    "workday"
   ],
   "first_seen": "2026-10-21",
@@ -14948,23 +14852,6 @@
    "workday"
   ],
   "first_seen": "2026-09-17",
-  "last_seen": "2026-10-22"
- },
- {
-  "company": "NVIDIA",
-  "title": "Signal and Power Integrity Student",
-  "location": "2 Locations",
-  "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Yokneam/Signal-and-Power-Integrity-Student_JR2028119-1",
-  "posted": "Posted Today",
-  "deadline": "",
-  "term": "unspecified",
-  "rank": "C",
-  "hw": "power integrity",
-  "tier": "big",
-  "sources": [
-   "workday"
-  ],
-  "first_seen": "2026-10-22",
   "last_seen": "2026-10-22"
  },
  {
@@ -16274,6 +16161,23 @@
    "successfactors"
   ],
   "first_seen": "2026-10-21",
+  "last_seen": "2026-10-22"
+ },
+ {
+  "company": "Seagate",
+  "title": "Wafer Metrology Intern",
+  "location": "",
+  "url": "https://seagatecareers.com/job/Wafer-Metrology-Intern/15428-en_US",
+  "posted": "2026-10-22",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "metrology,wafer",
+  "tier": "big",
+  "sources": [
+   "successfactors"
+  ],
+  "first_seen": "2026-10-22",
   "last_seen": "2026-10-22"
  },
  {
