@@ -635,8 +635,8 @@
 },
 "https://www.indeed.com/viewjob": {
 "first_seen": "2026-09-18",
-"title": "Hardware Development Engineer Intern , Winter 2027",
-"company": "Amazon.com",
+"title": "Manufacturing Electrical Engineer Co-op (Spring/Summer 2027)",
+"company": "Collins Aerospace",
 "desc": ""
 },
 "https://www.linkedin.com/jobs/view/4468697840": {
@@ -1587,7 +1587,7 @@
 },
 "https://simplify.jobs/jobs/click/182d99fd-858d-4860-93b7-4f77b0167c1b": {
 "first_seen": "2026-09-18",
-"title": "Electrical Engineer Co-op",
+"title": "Anesthesia and Respiratory Care Electrical Engineer Co-op",
 "company": "GE Healthcare",
 "desc": ""
 },
@@ -2295,7 +2295,7 @@
 },
 "https://simplify.jobs/jobs/click/c2a98bdc-8bce-4c3d-b3fe-5e8241c59c21": {
 "first_seen": "2026-09-18",
-"title": "Electrical Engineer Co-op",
+"title": "Electrical Engineering Co-op",
 "company": "Specter Aerospace",
 "desc": ""
 },
@@ -15569,6 +15569,48 @@
 "first_seen": "2026-10-22",
 "title": "2027 Photonics Technologies Graduate Intern",
 "company": "The Aerospace Corporation",
+"desc": ""
+},
+"https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Yokneam/Signal-and-Power-Integrity-Student_JR2028119-1": {
+"first_seen": "2026-10-22",
+"title": "Signal and Power Integrity Student",
+"company": "NVIDIA",
+"desc": " We are looking for a Signal & Power Integrity Student to join our team.\u00a0NVIDIA has been redefining computer graphics, PC gaming, and accelerated computing for more than 25 years, and is now shaping the next era of computing. It\u2019s an outstanding innovation hub fueled by phenomenal technology\u2014and amazing people! We are constantly reinventing ourselves to stay ahead of the market and bring groundbreaking products and services to the industry. NVIDIA is widely considered to be one of the technology world\u2019s most desirable employers. Doing what\u2019s never been done before takes vision, innovation, and the world\u2019s best talent. As an NVIDIAN, you\u2019ll be immersed in a diverse, supportive environment where everyone is inspired to do their best work. Come join the team and see how you can make a lasting impact on the world.    What you'll be doing:    Characterization of high frequencies PCB, connectors and cable channels up to 400Gb/s per lane.  Design layout guidelines for our systems.  Simulate passive and active elements in 3D and 2D simulation tools.  Measure systems in the lab using Network Analyzer, TDR and scope.  Master InfiniBand, Ethernet and PCI-Ex Layer 1 specifications and implementation methods.  Work in intense environment and control multi-discipline expertise.     What we need to see:    Pursuing B.Sc. in Electrical Engineering OR\u00a0M.Sc./Ph.D. student in Electrical Engineering.  Completed course in Electromagnetic Fields and Waves & Distributed Systems     Ways to stand ou"
+},
+"https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-MA-CAMBRIDGE-BBN06--10--50-Moulton-St--MOULTON-B6/Systems-Administrator-Co-Op--Spring-Summer-2027-_01882888": {
+"first_seen": "2026-10-22",
+"title": "Systems Administrator Co-Op (Spring/Summer 2027)",
+"company": "RTX",
+"desc": ""
+},
+"https://johndeere.eightfold.ai/careers/job/137483990019": {
+"first_seen": "2026-10-22",
+"title": "Software Engineer Student Intern, Product Engineering",
+"company": "John Deere",
+"desc": ""
+},
+"https://aero.wd5.myworkdayjobs.com/External/job/El-Segundo-CA/XMLNAME-2027-Signal-Processing-and-RF-Engineering-Undergrad-Intern_R016849": {
+"first_seen": "2026-10-22",
+"title": "Signal Processing and RF Engineering Intern",
+"company": "Aerospace Corporation",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/3cccbd25-d96e-4da8-bc1a-bb46049aeaf4": {
+"first_seen": "2026-10-22",
+"title": "Optoelectronics Electrical Engineer Co-op",
+"company": "Draper",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/b3558d40-d142-413a-a407-260128c03d10": {
+"first_seen": "2026-10-22",
+"title": "Engineering Intern Co-op",
+"company": "Rivian",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4479491242": {
+"first_seen": "2026-10-22",
+"title": "ASIC Design Engineer Intern",
+"company": "Meta",
 "desc": ""
 }
 }
