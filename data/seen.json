@@ -6375,7 +6375,7 @@
 },
 "https://jobs.lever.co/hermeus/ee3a4109-b6e7-4ed5-8981-a483b3936e5a": {
 "first_seen": "2026-09-22",
-"title": "Build Reliability Engineering Intern - Spring/Summer 2027",
+"title": "Build Reliability Engineering Intern - Spring 2027",
 "company": "Hermeus",
 "desc": ""
 },
@@ -15093,7 +15093,7 @@
 },
 "https://jobs.ashbyhq.com/skydio/370da6a5-5ae6-48fe-8e08-9b1dcc63bf34": {
 "first_seen": "2026-10-20",
-"title": "Embedded Software Engineer Intern - Winer 2027",
+"title": "Embedded Software Engineer Intern - Winter 2027",
 "company": "Skydio",
 "desc": ""
 },
@@ -15624,5 +15624,35 @@
 "title": "Wafer Metrology Intern",
 "company": "Seagate",
 "desc": ""
+},
+"https://job-boards.greenhouse.io/vardaspace/jobs/8041944003": {
+"first_seen": "2026-10-22",
+"title": "Construction Management Internship \u2013 Spring 2027",
+"company": "Varda Space",
+"desc": ""
+},
+"https://ambarella.wd108.myworkdayjobs.com/Ambarella/job/US-Headquarters/Physical-Design-Engineer-Intern_JR100393": {
+"first_seen": "2026-10-22",
+"title": "Physical Design Engineer Intern",
+"company": "Ambarella",
+"desc": "  AI Vision Processors For Edge Applications     Our solutions make cameras smarter by extracting valuable data from high-resolution video streams.       Job Description   The Physical Design Engineer will\u00a0be an integral part of the physical design team with all aspects of physical design implementation and verification tasks for Ambarella\u2019s cutting edge\u00a0low power\u00a0AI\u00a0SoC from Netlist to GDSII.  The Physical Design Engineer will be responsible for the following areas throughout all phase of SoC implementation process; floor-planning, auto place and route, static timing analysis, eco implementation, signal integrity analysis, EM/IR analysis, formal verification, and physical layout verification (LVS/DRC/DFM) at block and/or full chip level. "
+},
+"https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/CA-QC-LONGUEUIL-J01--1000-Blvd-Marie-Victorin--J01-BLDG/Stage---Hiver-2027---Ingnierie---outils-d-intgrit-des-produits-et-amlioration-des-processus---Internship---Winter-2027---Engineering-Product-Integrity-tools-and-process-improvements_01863379": {
+"first_seen": "2026-10-22",
+"title": "Stage - Hiver 2027 - Ing\u00e9nierie : outils d'int\u00e9grit\u00e9 des produits et am\u00e9lioration des processus / Internship - Winter 2027 - Engineering Product Integrity tools and process improvements",
+"company": "RTX",
+"desc": ""
+},
+"https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-AZ-TUCSON-801-A20--1151-E-Hermans-Rd--BLDG-A20-External-Site/Automation-Systems-Engineering-Intern--Spring-2027-_01884308": {
+"first_seen": "2026-10-22",
+"title": "Automation Systems Engineering Intern (Spring 2027)",
+"company": "RTX",
+"desc": ""
+},
+"https://moog.wd5.myworkdayjobs.com/MOOG_External_Career_Site/job/Buffalo-NY/Intern--Electrical-Engineering_R-26-19569": {
+"first_seen": "2026-10-22",
+"title": "Intern, Electrical Engineering",
+"company": "Moog",
+"desc": " Moog is a performance culture that empowers people to achieve great things. Our people enjoy solving interesting technical challenges in a culture where everyone trusts each other to do the right thing. For you, working with us can mean deeper job satisfaction, better rewards, and a great quality of life inside and outside of work.      Job Title : Intern, Electrical Engineering    Reporting To:  Manager, Electrical Engrg.    Work Schedule:  Onsite \u2013 Buffalo, NY The Electrical Design Engineering team within our Military Aircraft Group is seeking a spring/summer 2027 block intern. The intern will have an onsite work schedule in East Aurora, NY.\u00a0\u00a0\u00a0    To be considered for this role, here\u2019s what you\u2019ll need to bring with you:\u00a0 \u00a0\u00a0\u00a0   Enrolled in an Electrical Engineering Bachelor's or Master's Degree program, at an accredited university.\u00a0    GPA of  at least  3.0; exact GPA requirement will be specified by department.\u00a0    This position requires access to U.S. export-controlled information.\u00a0    Ability to relocate for the duration of the internship.\u00a0    Students within the Moog U.S. Internship Program are expected to have a professional disposition, effective communication skills, a strong desire to learn, a positive attitude, and the ability to work in a team environment.\u00a0    In this role you will:\u00a0\u00a0 \u00a0\u00a0\u00a0   Contribute to the preparation and execution of key electrical engineering tasks at Moog.\u00a0    Provide technical support to engineers, as needed.\u00a0    Work experience may include"
 }
 }
