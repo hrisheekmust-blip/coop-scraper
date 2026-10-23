@@ -28,8 +28,7 @@
   "hw": "hardware",
   "tier": "big",
   "sources": [
-   "amazon",
-   "github:vanshb03-offseason"
+   "amazon"
   ],
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-23"
@@ -148,7 +147,6 @@
   "hw": "electrical engineer",
   "tier": "big",
   "sources": [
-   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-09-17",
@@ -200,7 +198,6 @@
   "hw": "test engineer",
   "tier": "big",
   "sources": [
-   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-10-06",
@@ -320,7 +317,6 @@
   "hw": "process engineer",
   "tier": "big",
   "sources": [
-   "jobspy:indeed",
    "workday"
   ],
   "first_seen": "2026-10-21",
@@ -841,7 +837,7 @@
   "title": "Electrical Engineering Coop (Spring/Summer 2027), Onsite",
   "location": "Cedar Rapids, Iowa, United States",
   "url": "https://jobs.baesystems.com/global/en/job/127774BR/electrical-engineering-coop-spring-summer-2027-onsite",
-  "posted": "2026-10-16",
+  "posted": "2026-10-23",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -858,7 +854,7 @@
   "title": "Material Engineering Co-op III (Spring/Summer 2027 or Summer/Fall 2027)",
   "location": "Cedar Rapids, Iowa, United States",
   "url": "https://jobs.baesystems.com/global/en/job/129786BR/material-engineering-co-op-iii-spring-summer-2027-or-summer-fall-2027",
-  "posted": "2026-10-01",
+  "posted": "2026-10-23",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -1173,7 +1169,6 @@
   "hw": "electrical engineering",
   "tier": "big",
   "sources": [
-   "jobspy:indeed",
    "workday"
   ],
   "first_seen": "2026-10-19",
@@ -1310,7 +1305,6 @@
   "hw": "electrical engineer",
   "tier": "big",
   "sources": [
-   "internlist:coop",
    "workday"
   ],
   "first_seen": "2026-09-18",
@@ -1328,7 +1322,6 @@
   "hw": "metrology",
   "tier": "big",
   "sources": [
-   "internlist:coop",
    "workday"
   ],
   "first_seen": "2026-09-18",
@@ -3423,8 +3416,7 @@
   "hw": "electrical engineering",
   "tier": "big",
   "sources": [
-   "greenhouse",
-   "internlist:coop"
+   "greenhouse"
   ],
   "first_seen": "2026-09-17",
   "last_seen": "2026-10-23"
@@ -4360,7 +4352,6 @@
   "hw": "silicon",
   "tier": "big",
   "sources": [
-   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-09-17",
@@ -4804,7 +4795,6 @@
   "hw": "electronics",
   "tier": "big",
   "sources": [
-   "github:vanshb03-offseason",
    "smartrecruiters"
   ],
   "first_seen": "2026-10-13",
@@ -5043,8 +5033,7 @@
   "hw": "electrical engineer",
   "tier": "startup",
   "sources": [
-   "greenhouse",
-   "jobspy:linkedin"
+   "greenhouse"
   ],
   "first_seen": "2026-09-17",
   "last_seen": "2026-10-23"
@@ -6641,23 +6630,6 @@
    "jobspy:linkedin"
   ],
   "first_seen": "2026-09-30",
-  "last_seen": "2026-10-23"
- },
- {
-  "company": "Cisco",
-  "title": "Systems Quality Engineer I (Co-op) - United States",
-  "location": "Maynard, Massachusetts, US",
-  "url": "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Maynard-Massachusetts-US/Systems-Quality-Engineer-I--Co-op----United-States_2026751",
-  "posted": "Posted 24 Days Ago",
-  "deadline": "",
-  "term": "coop-unspecified",
-  "rank": "B",
-  "hw": "maybe",
-  "tier": "big",
-  "sources": [
-   "workday"
-  ],
-  "first_seen": "2026-09-29",
   "last_seen": "2026-10-23"
  },
  {
@@ -9476,9 +9448,7 @@
   "hw": "firmware",
   "tier": "big",
   "sources": [
-   "greenhouse",
-   "internlist:coop",
-   "internlist:winter-spring"
+   "greenhouse"
   ],
   "first_seen": "2026-09-24",
   "last_seen": "2026-10-23"
@@ -9589,7 +9559,7 @@
   "company": "Skyworks",
   "title": "RF Filter Design / BAW development Co-Op",
   "location": "Andover, MA, USA    ",
-  "url": "https://careers.skyworksinc.com/job/RF-Filter-Design-BAW-development-Co-Op/78245-en_US",
+  "url": "https://careers.skyworksinc.com/job/RF-Filter-Design-BAW-development-Co-Op/78244-en_US",
   "posted": "2026-09-15",
   "deadline": "",
   "term": "coop-unspecified",
@@ -9599,7 +9569,7 @@
   "sources": [
    "successfactors"
   ],
-  "first_seen": "2026-09-18",
+  "first_seen": "2026-09-30",
   "last_seen": "2026-10-23"
  },
  {
@@ -11869,23 +11839,6 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-09-23",
-  "last_seen": "2026-10-23"
- },
- {
-  "company": "Draper",
-  "title": "Integrated Circuits Intern",
-  "location": "Cambridge, MA",
-  "url": "https://draper.wd5.myworkdayjobs.com/Draper_Careers/job/Cambridge-MA/Integrated-Circuits-Intern_JR003036",
-  "posted": "Posted 8 Days Ago",
-  "deadline": "",
-  "term": "unspecified",
-  "rank": "C",
-  "hw": "circuits",
-  "tier": "big",
-  "sources": [
-   "workday"
-  ],
-  "first_seen": "2026-10-15",
   "last_seen": "2026-10-23"
  },
  {
@@ -14436,7 +14389,6 @@
   "hw": "asic,verification",
   "tier": "big",
   "sources": [
-   "github:vanshb03-summer",
    "workday"
   ],
   "first_seen": "2026-10-21",
@@ -14781,6 +14733,23 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-09-18",
+  "last_seen": "2026-10-23"
+ },
+ {
+  "company": "NVIDIA",
+  "title": "Computer Architecture Intern - 2027",
+  "location": "2 Locations",
+  "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/Computer-Architecture-Intern---2027_JR2026052",
+  "posted": "Posted Today",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "computer architecture",
+  "tier": "big",
+  "sources": [
+   "workday"
+  ],
+  "first_seen": "2026-10-23",
   "last_seen": "2026-10-23"
  },
  {

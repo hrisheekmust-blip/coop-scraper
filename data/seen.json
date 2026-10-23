@@ -15804,5 +15804,11 @@
 "title": "Intern - Electrical Engineer (Winter, 2027)",
 "company": "Itron, Inc.",
 "desc": ""
+},
+"https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/Computer-Architecture-Intern---2027_JR2026052": {
+"first_seen": "2026-10-23",
+"title": "Computer Architecture Intern - 2027",
+"company": "NVIDIA",
+"desc": "            We are now looking for Computer Architecture Interns in our group!    The NVIDIA Architecture group is looking for world class architects and computer science interns to join and lead our various architecture efforts. A key part of NVIDIA's strength is to innovate in the graphics and parallel computing fields delivering the highest performance in the world for parallel processing algorithms. We are constantly looking for ways to improve our GPU architecture and maintain our leadership by developing new parallel programming models, new architectures and new infrastructure that is required to make this successful. \u00a0   What you'll be doing:     Enhance GPU architecture to extend the state of the art in performance, efficiency, programmability and reliability    Analyze, tune and prototype key applications for new GPU architectures    Build model to predict performance, power and reliability on future architecture    Design and develop tools to analyze, simulate, validate, and verify application performance and energy consumption    Collaborate across the company to guide the direction of GPU computing, working with software, research and product team       What we need to see:     MS Degree in relevant discipline (CS, EE, Math).\u00a0 PhD helpful    Expert programming skills in C or C++    Strong background in computer architecture, parallel processing, signal processing and/or high performance computing    Experience in characterizing and modeling system-level performanc"
 }
 }
