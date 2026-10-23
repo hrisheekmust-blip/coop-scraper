@@ -635,8 +635,8 @@
 },
 "https://www.indeed.com/viewjob": {
 "first_seen": "2026-09-18",
-"title": "Co-op: Verification and Validation Engineering (Spring 2027)",
-"company": "MSA Safety",
+"title": "Electrical Engineering Co-Op - Spring 2027",
+"company": "SSOE Group",
 "desc": ""
 },
 "https://www.linkedin.com/jobs/view/4468697840": {
@@ -16014,5 +16014,11 @@
 "title": "AI Hardware Engineering Intern",
 "company": "Intel",
 "desc": "  Job Details:       Job Description:\u00a0   About the Job   Intel is seeking exceptional Computer Science, Electrical Engineering, Computer Engineering, and AI/ML students to join an AI Hardware Engineering internship focused on the future of AI inference and AI infrastructure with hardware/software co-design expertise.\u00a0   This internship approaches AI infrastructure as a hardware/software co-design challenge. The intern will analyze how model architecture, inference behavior, memory movement, data-center constraints, and software stacks influence end-to-end customer outcomes, including throughput, latency, time-to-first-token, tokens per second, power consumption, utilization, total cost of ownership, and deployability.\u00a0   The successful candidate will be technically hands-on, capable of independent research and analysis, and comfortable working within a highly technical team of researchers and engineers addressing complex AI hardware and infrastructure challenges.\u00a0    What You Will Do \u00a0   Conduct technical research on the next generation of AI infrastructure, including CPUs, GPUs, AI accelerators, ASICs, memory systems, networking, storage, rack-scale architecture, power delivery, cooling, and cluster management.\u00a0  Analyze GenAI and agentic AI workloads to understand their hardware implications, including transformer architecture based inference, mixture-of-experts architectures, multimodal models, real-time interactive inference, and distributed serving.\u00a0  Evaluate the hardwa"
+},
+"https://simplify.jobs/jobs/click/f8508b74-7916-4715-84a5-8661b229a2fd": {
+"first_seen": "2026-10-23",
+"title": "Electronics Strategy Project Intern",
+"company": "TikTok",
+"desc": ""
 }
 }
