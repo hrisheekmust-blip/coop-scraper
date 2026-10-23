@@ -635,8 +635,8 @@
 },
 "https://www.indeed.com/viewjob": {
 "first_seen": "2026-09-18",
-"title": "Manufacturing Electrical Engineer Co-op (Spring/Summer 2027)",
-"company": "Collins Aerospace",
+"title": "Electrical Engineering Co-Op - Spring 2027",
+"company": "SSOE Group",
 "desc": ""
 },
 "https://www.linkedin.com/jobs/view/4468697840": {
@@ -10168,7 +10168,7 @@
 "https://simplify.jobs/jobs/click/9750e606-5a81-4a74-9492-ca1a93b10e38": {
 "first_seen": "2026-10-01",
 "title": "Optical Engineer Intern",
-"company": "KLA Corporation",
+"company": "KLA",
 "desc": ""
 },
 "https://simplify.jobs/jobs/click/66fd3b4a-cc9c-4090-9786-0bf42637abfd": {
@@ -15743,6 +15743,12 @@
 "first_seen": "2026-10-23",
 "title": "Stage - Hiver 2027- Support \u00e0 l\u2019ing\u00e9nierie du d\u00e9veloppement / Internship - Winter 2027 - Development Engineering Internship",
 "company": "RTX",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4464163088": {
+"first_seen": "2026-10-23",
+"title": "Process Controls Engineer 6-Month Co-Op - 2027",
+"company": "Olin",
 "desc": ""
 }
 }
