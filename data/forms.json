@@ -514,7 +514,7 @@
 "company": "Formlabs",
 "role": "Hardware Test Engineering Intern (Winter/Spring 2027)",
 "link": "https://careers.formlabs.com/job/8196515/apply/?gh_jid=8196515",
-"attempted": 1792884057,
+"attempted": 1792886164,
 "apply_url": "https://careers.formlabs.com/job/8196515/apply/?gh_jid=8196515",
 "portal": "greenhouse",
 "error": "ValueError: no board/job in url",
@@ -27256,7 +27256,7 @@
 "company": "Formlabs",
 "role": "Hardware R&D Engineering Intern (Winter/Spring 2027)",
 "link": "https://careers.formlabs.com/job/8172226/apply/?gh_jid=8172226",
-"attempted": 1792884057,
+"attempted": 1792886164,
 "apply_url": "https://careers.formlabs.com/job/8172226/apply/?gh_jid=8172226",
 "portal": "greenhouse",
 "error": "ValueError: no board/job in url",
@@ -27266,7 +27266,7 @@
 "company": "Formlabs",
 "role": "Hardware Systems Integration Intern (Winter/Spring 2027)",
 "link": "https://careers.formlabs.com/job/8172004/apply/?gh_jid=8172004",
-"attempted": 1792884057,
+"attempted": 1792886164,
 "apply_url": "https://careers.formlabs.com/job/8172004/apply/?gh_jid=8172004",
 "portal": "greenhouse",
 "error": "ValueError: no board/job in url",
@@ -31005,7 +31005,7 @@
 "company": "Formlabs",
 "role": "Electrical Engineering Intern (Winter/Spring 2027)",
 "link": "https://careers.formlabs.com/job/8148283/apply/?gh_jid=8148283",
-"attempted": 1792884057,
+"attempted": 1792886164,
 "apply_url": "https://careers.formlabs.com/job/8148283/apply/?gh_jid=8148283",
 "portal": "greenhouse",
 "error": "ValueError: no board/job in url",
@@ -32984,7 +32984,7 @@
 "company": "Formlabs",
 "role": "Manufacturing Engineering Intern (Winter/Spring 2027)",
 "link": "https://careers.formlabs.com/job/8161817/apply/?gh_jid=8161817",
-"attempted": 1792884057,
+"attempted": 1792886164,
 "apply_url": "https://careers.formlabs.com/job/8161817/apply/?gh_jid=8161817",
 "portal": "greenhouse",
 "error": "ValueError: no board/job in url",
@@ -33266,7 +33266,7 @@
 "company": "Formlabs",
 "role": "Industrial Design Intern (Winter/Spring 2027)",
 "link": "https://careers.formlabs.com/job/8172232/apply/?gh_jid=8172232",
-"attempted": 1792884057,
+"attempted": 1792886164,
 "apply_url": "https://careers.formlabs.com/job/8172232/apply/?gh_jid=8172232",
 "portal": "greenhouse",
 "error": "ValueError: no board/job in url",
@@ -40337,7 +40337,7 @@
 "company": "Quantinuum",
 "role": "Photonic Integrated Circuit Design Intern",
 "link": "https://simplify.jobs/jobs/click/7c5b5c68-c8bb-439a-8e46-f121d04eec2a",
-"attempted": 1792884057,
+"attempted": 1792886164,
 "apply_url": "https://jobs.eu.lever.co/quantinuum/ef4b4db2-4ce1-47f5-bfd1-12dfc8a90107/apply?lever-source=Simplify",
 "portal": "lever",
 "error": "ValueError: no company/id in url",
@@ -49059,7 +49059,7 @@
 "company": "Formlabs",
 "role": "Hardware R&D Engineering Intern",
 "link": "https://careers.formlabs.com/job/8097694/apply/?gh_jid=8097694&utm_source=github-vansh-ouckah",
-"attempted": 1792884057,
+"attempted": 1792886164,
 "apply_url": "https://careers.formlabs.com/job/8097694/apply/?gh_jid=8097694&utm_source=github-vansh-ouckah",
 "portal": "greenhouse",
 "error": "ValueError: no board/job in url",
@@ -51072,7 +51072,7 @@
 "company": "Akuna Capital",
 "role": "Hardware Engineer Intern",
 "link": "https://akunacapital.com/careers/job/8018880/?gh_jid=8018880&utm_source=github-vansh-ouckah",
-"attempted": 1792884057,
+"attempted": 1792886164,
 "apply_url": "https://akunacapital.com/careers/job/8018880/?gh_jid=8018880&utm_source=github-vansh-ouckah",
 "portal": "greenhouse",
 "error": "ValueError: no board/job in url",
@@ -83623,7 +83623,7 @@
 "company": "Figure AI",
 "role": "Hardware Reliability Intern [Winter 2027]",
 "link": "https://job-boards.greenhouse.io/figureai/jobs/4613067006",
-"attempted": 1792625342,
+"attempted": 1792886164,
 "apply_url": "https://boards.greenhouse.io/figureai/jobs/4613067006",
 "portal": "greenhouse",
 "fields": [
@@ -83705,18 +83705,32 @@
 ],
 "error": "",
 "closed": false,
-"fetched": "2026-10-21T23:29Z"
+"fetched": "2026-10-24T23:56Z"
 },
 "e34060f53b250501": {
 "company": "Saronic",
 "role": "University Recruiter",
 "link": "https://jobs.ashbyhq.com/saronic/e2853143-feb3-4ad2-b64a-05966a191624",
-"attempted": 1792625342,
+"attempted": 1792886164,
 "apply_url": "https://jobs.ashbyhq.com/saronic/e2853143-feb3-4ad2-b64a-05966a191624/application",
 "portal": "ashby",
 "fields": [
 {
-"label": "Name",
+"label": "Preferred Full Name",
+"type": "String",
+"required": true,
+"options": [],
+"section": "Basic Information"
+},
+{
+"label": "Legal First Name",
+"type": "String",
+"required": true,
+"options": [],
+"section": "Basic Information"
+},
+{
+"label": "Legal Last Name",
 "type": "String",
 "required": true,
 "options": [],
@@ -83725,6 +83739,13 @@
 {
 "label": "Email",
 "type": "Email",
+"required": true,
+"options": [],
+"section": "Basic Information"
+},
+{
+"label": "Phone",
+"type": "Phone",
 "required": true,
 "options": [],
 "section": "Basic Information"
@@ -83795,7 +83816,7 @@
 ],
 "error": "",
 "closed": false,
-"fetched": "2026-10-21T23:29Z"
+"fetched": "2026-10-24T23:56Z"
 },
 "8ab051cff4231787": {
 "company": "Laminar",
@@ -83952,7 +83973,7 @@
 "company": "Entegris",
 "role": "R&D Co-Op",
 "link": "https://entegris.wd1.myworkdayjobs.com/EntegrisCareers/job/Franklin-MA/R-D-Co-Op_REQ-14446",
-"attempted": 1792794995,
+"attempted": 1792886164,
 "apply_url": "https://entegris.wd1.myworkdayjobs.com/EntegrisCareers/job/Franklin-MA/R-D-Co-Op_REQ-14446",
 "portal": "workday",
 "fields": null,
@@ -86257,7 +86278,7 @@
 "company": "Anduril",
 "role": "Winter 2027 Robotics Engineer Co-op",
 "link": "https://boards.greenhouse.io/andurilindustries/jobs/5271842007?gh_jid=5271842007",
-"attempted": 1792623067,
+"attempted": 1792886164,
 "apply_url": "https://boards.greenhouse.io/andurilindustries/jobs/5271842007",
 "portal": "greenhouse",
 "fields": [
@@ -86423,7 +86444,7 @@
 ],
 "error": "",
 "closed": false,
-"fetched": "2026-10-21T22:51Z"
+"fetched": "2026-10-24T23:56Z"
 },
 "f0615319780884f7": {
 "company": "Microchip Technology Inc.",
@@ -86451,7 +86472,7 @@
 "company": "Etched",
 "role": "Lab Operations Intern",
 "link": "https://jobs.ashbyhq.com/etched/7d400861-c124-475f-8cef-73b9fd5199cf",
-"attempted": 1792625342,
+"attempted": 1792886164,
 "apply_url": "https://jobs.ashbyhq.com/etched/7d400861-c124-475f-8cef-73b9fd5199cf/application",
 "portal": "ashby",
 "fields": [
@@ -86638,7 +86659,7 @@
 ],
 "error": "",
 "closed": false,
-"fetched": "2026-10-21T23:29Z"
+"fetched": "2026-10-24T23:56Z"
 },
 "da25b87140fbb4dc": {
 "company": "Teradyne",
@@ -94666,10 +94687,11 @@
 "company": "KLA",
 "role": "Product Development Engineering Intern",
 "link": "https://www.linkedin.com/jobs/view/4480696440",
-"attempted": 1792884057,
+"attempted": 1792886164,
 "apply_url": "https://www.linkedin.com/jobs/view/4480696440",
 "portal": "linkedin",
 "fields": null,
-"error": "form not public for this portal"
+"error": "form not public for this portal",
+"li_checked": true
 }
 }
