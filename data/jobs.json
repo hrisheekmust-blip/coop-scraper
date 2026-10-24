@@ -1,41 +1,5 @@
 [
  {
-  "company": "Amazon",
-  "title": "Embedded Firmware Co-op, Amazon Robotics - Spring 2027",
-  "location": "US, MA, North Reading",
-  "url": "https://www.amazon.jobs/en/jobs/10573570/embedded-firmware-co-op-amazon-robotics-spring-2027",
-  "posted": "2026-10-08",
-  "deadline": "",
-  "term": "spring",
-  "rank": "A",
-  "hw": "embedded,firmware",
-  "tier": "big",
-  "sources": [
-   "amazon",
-   "github:vanshb03-offseason"
-  ],
-  "first_seen": "2026-10-08",
-  "last_seen": "2026-10-24"
- },
- {
-  "company": "Amazon",
-  "title": "Hardware Development Engineer Intern , Winter 2027",
-  "location": "US, WA, Bellevue",
-  "url": "https://www.amazon.jobs/en/jobs/10584121/hardware-development-engineer-intern-winter-2027",
-  "posted": "2026-10-20",
-  "deadline": "",
-  "term": "spring",
-  "rank": "A",
-  "hw": "hardware",
-  "tier": "big",
-  "sources": [
-   "amazon",
-   "github:vanshb03-offseason"
-  ],
-  "first_seen": "2026-10-20",
-  "last_seen": "2026-10-24"
- },
- {
   "company": "Amca",
   "title": "Electrical Engineering Internship (Winter Spring 2027)",
   "location": "El Segundo, CA, USA",
@@ -132,7 +96,6 @@
   "hw": "electrical engineer",
   "tier": "big",
   "sources": [
-   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-09-17",
@@ -184,7 +147,6 @@
   "hw": "test engineer",
   "tier": "big",
   "sources": [
-   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-10-06",
@@ -304,7 +266,6 @@
   "hw": "process engineer",
   "tier": "big",
   "sources": [
-   "jobspy:indeed",
    "workday"
   ],
   "first_seen": "2026-10-21",
@@ -1293,7 +1254,6 @@
   "hw": "electrical engineer",
   "tier": "big",
   "sources": [
-   "internlist:coop",
    "workday"
   ],
   "first_seen": "2026-09-18",
@@ -1311,7 +1271,6 @@
   "hw": "metrology",
   "tier": "big",
   "sources": [
-   "internlist:coop",
    "workday"
   ],
   "first_seen": "2026-09-18",
@@ -2146,7 +2105,6 @@
   "hw": "hardware",
   "tier": "startup",
   "sources": [
-   "github:vanshb03-summer",
    "lever"
   ],
   "first_seen": "2026-09-29",
@@ -3355,9 +3313,7 @@
   "hw": "electrical engineering",
   "tier": "big",
   "sources": [
-   "greenhouse",
-   "internlist:coop",
-   "jobspy:linkedin"
+   "greenhouse"
   ],
   "first_seen": "2026-09-17",
   "last_seen": "2026-10-24"
@@ -4292,7 +4248,6 @@
   "hw": "silicon",
   "tier": "big",
   "sources": [
-   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-09-17",
@@ -4651,7 +4606,6 @@
   "hw": "electronics",
   "tier": "big",
   "sources": [
-   "github:vanshb03-offseason",
    "smartrecruiters"
   ],
   "first_seen": "2026-10-13",
@@ -4890,8 +4844,7 @@
   "hw": "electrical engineer",
   "tier": "startup",
   "sources": [
-   "greenhouse",
-   "jobspy:linkedin"
+   "greenhouse"
   ],
   "first_seen": "2026-09-17",
   "last_seen": "2026-10-24"
@@ -5713,74 +5666,6 @@
    "internlist:coop"
   ],
   "first_seen": "2026-10-16",
-  "last_seen": "2026-10-24"
- },
- {
-  "company": "Amazon",
-  "title": "Hardware Development Engineer Intern/Co-Op, ROBOTICS - 2027",
-  "location": "US, MA, North Reading",
-  "url": "https://www.amazon.jobs/en/jobs/10535282/hardware-development-engineer-intern-co-op-robotics-2027",
-  "posted": "2026-09-09",
-  "deadline": "",
-  "term": "coop-unspecified",
-  "rank": "B",
-  "hw": "hardware",
-  "tier": "big",
-  "sources": [
-   "amazon"
-  ],
-  "first_seen": "2026-09-18",
-  "last_seen": "2026-10-24"
- },
- {
-  "company": "Amazon",
-  "title": "Industrial Development Engineer Intern/Co-op, ROBOTICS - 2027",
-  "location": "US, MA, North Reading",
-  "url": "https://www.amazon.jobs/en/jobs/10536817/industrial-development-engineer-intern-co-op-robotics-2027",
-  "posted": "2026-09-10",
-  "deadline": "",
-  "term": "coop-unspecified",
-  "rank": "B",
-  "hw": "maybe",
-  "tier": "big",
-  "sources": [
-   "amazon"
-  ],
-  "first_seen": "2026-09-18",
-  "last_seen": "2026-10-24"
- },
- {
-  "company": "Amazon",
-  "title": "Robotics - Hardware Development Engineer Intern/Co-op - 2026 (Robotics, Mechanical, Electrical, Hardware Test, Reliability, Failure Analysis, Operations, and more)",
-  "location": "US, MA, Westboro",
-  "url": "https://www.amazon.jobs/en/jobs/3145033/robotics-hardware-development-engineer-intern-co-op-2026-robotics-mechanical-electrical-hardware-test-reliability-failure-analysis-operations-and-more",
-  "posted": "2025-12-17",
-  "deadline": "",
-  "term": "coop-unspecified",
-  "rank": "B",
-  "hw": "maybe",
-  "tier": "big",
-  "sources": [
-   "amazon"
-  ],
-  "first_seen": "2026-09-18",
-  "last_seen": "2026-10-24"
- },
- {
-  "company": "Amazon",
-  "title": "System Development Engineer Intern/Co-op, ROBOTICS -  2027",
-  "location": "US, MA, North Reading",
-  "url": "https://www.amazon.jobs/en/jobs/10587087/system-development-engineer-intern-co-op-robotics-2027",
-  "posted": "2026-10-22",
-  "deadline": "",
-  "term": "coop-unspecified",
-  "rank": "B",
-  "hw": "maybe",
-  "tier": "big",
-  "sources": [
-   "amazon"
-  ],
-  "first_seen": "2026-10-22",
   "last_seen": "2026-10-24"
  },
  {
@@ -9235,9 +9120,7 @@
   "hw": "firmware",
   "tier": "big",
   "sources": [
-   "greenhouse",
-   "internlist:coop",
-   "internlist:winter-spring"
+   "greenhouse"
   ],
   "first_seen": "2026-09-24",
   "last_seen": "2026-10-24"
@@ -10272,23 +10155,6 @@
  },
  {
   "company": "Amazon",
-  "title": "ASIC Engineer Intern, Annapurna Labs - 2027",
-  "location": "US, CA, Cupertino",
-  "url": "https://www.amazon.jobs/en/jobs/10517535/asic-engineer-intern-annapurna-labs-2027",
-  "posted": "2026-08-27",
-  "deadline": "",
-  "term": "unspecified",
-  "rank": "C",
-  "hw": "asic",
-  "tier": "big",
-  "sources": [
-   "amazon"
-  ],
-  "first_seen": "2026-09-18",
-  "last_seen": "2026-10-24"
- },
- {
-  "company": "Amazon",
   "title": "Cloud Hardware Development Engineer Intern",
   "location": "Austin, TXCupertino, CA",
   "url": "https://amazon.jobs/en/jobs/10517649/cloud-hardware-development-engineer-intern-annapurna-labs-2027",
@@ -10302,23 +10168,6 @@
    "github:vanshb03-summer"
   ],
   "first_seen": "2026-10-23",
-  "last_seen": "2026-10-24"
- },
- {
-  "company": "Amazon",
-  "title": "Cloud Hardware Development Engineer Intern, Annapurna Labs - 2027",
-  "location": "US, TX, Austin",
-  "url": "https://www.amazon.jobs/en/jobs/10517649/cloud-hardware-development-engineer-intern-annapurna-labs-2027",
-  "posted": "2026-08-27",
-  "deadline": "",
-  "term": "unspecified",
-  "rank": "C",
-  "hw": "hardware",
-  "tier": "big",
-  "sources": [
-   "amazon"
-  ],
-  "first_seen": "2026-09-18",
   "last_seen": "2026-10-24"
  },
  {
@@ -14025,7 +13874,6 @@
   "hw": "asic,verification",
   "tier": "big",
   "sources": [
-   "github:vanshb03-summer",
    "workday"
   ],
   "first_seen": "2026-10-21",
@@ -16305,7 +16153,6 @@
   "hw": "digital design,verification",
   "tier": "big",
   "sources": [
-   "github:vanshb03-summer",
    "oracle_hcm"
   ],
   "first_seen": "2026-09-28",
@@ -16851,8 +16698,7 @@
   "hw": "electrical engineering",
   "tier": "startup",
   "sources": [
-   "greenhouse",
-   "jobspy:linkedin"
+   "greenhouse"
   ],
   "first_seen": "2026-09-17",
   "last_seen": "2026-10-24"
