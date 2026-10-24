@@ -1,10 +1,8 @@
 # New postings — 2026-10-24
 
-1 new of 991 tracked. Rank A = spring/Jan 2027 explicit, B = co-op with term unstated, C = intern with no term stated.
+0 new of 991 tracked. Rank A = spring/Jan 2027 explicit, B = co-op with term unstated, C = intern with no term stated.
 
-| Rank | Term | Company | Role | Location | Posted | Link |
-|---|---|---|---|---|---|---|
-| C | unspecified | North Star Scientific Corporation | Electrical Engineer Intern | Kapolei, HI, USA | 2026-10-23 | [apply](https://www.linkedin.com/jobs/view/4481948306) |
+_nothing new today_
 
 ## All tracked
 
