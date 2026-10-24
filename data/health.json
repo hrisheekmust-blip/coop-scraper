@@ -492,9 +492,9 @@
  "NVIDIA": {
   "best": 134,
   "zero_runs": 0,
-  "fail_runs": 1,
-  "err": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
-  "last_n": 0
+  "fail_runs": 0,
+  "err": "",
+  "last_n": 134
  },
  "Intel": {
   "best": 89,
@@ -515,7 +515,7 @@
   "zero_runs": 0,
   "fail_runs": 0,
   "err": "",
-  "last_n": 67
+  "last_n": 66
  },
  "NXP": {
   "best": 128,
@@ -527,9 +527,9 @@
  "Microchip": {
   "best": 84,
   "zero_runs": 0,
-  "fail_runs": 1,
-  "err": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
-  "last_n": 0
+  "fail_runs": 0,
+  "err": "",
+  "last_n": 76
  },
  "Wolfspeed": {
   "best": 99,
@@ -555,9 +555,9 @@
  "Allegro MicroSystems": {
   "best": 66,
   "zero_runs": 0,
-  "fail_runs": 1,
-  "err": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
-  "last_n": 0
+  "fail_runs": 0,
+  "err": "",
+  "last_n": 66
  },
  "Monolithic Power Systems": {
   "best": 86,
@@ -569,16 +569,16 @@
  "Blue Origin": {
   "best": 137,
   "zero_runs": 0,
-  "fail_runs": 1,
-  "err": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
-  "last_n": 0
+  "fail_runs": 0,
+  "err": "",
+  "last_n": 137
  },
  "Draper": {
   "best": 75,
   "zero_runs": 0,
-  "fail_runs": 1,
-  "err": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
-  "last_n": 0
+  "fail_runs": 0,
+  "err": "",
+  "last_n": 73
  },
  "Boston Dynamics": {
   "best": 60,
@@ -611,9 +611,9 @@
  "Cisco": {
   "best": 695,
   "zero_runs": 0,
-  "fail_runs": 1,
-  "err": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
-  "last_n": 0
+  "fail_runs": 0,
+  "err": "",
+  "last_n": 683
  },
  "Samsung Semiconductor": {
   "best": 147,
@@ -641,25 +641,25 @@
   "zero_runs": 0,
   "fail_runs": 0,
   "err": "",
-  "last_n": 209
+  "last_n": 210
  },
  "Teradyne": {
   "best": 0,
   "zero_runs": 0,
-  "fail_runs": 277,
+  "fail_runs": 278,
   "err": "HTTPError: HTTP Error 401: 401",
   "last_n": 0
  },
  "Infineon": {
   "best": 0,
   "zero_runs": 0,
-  "fail_runs": 277,
+  "fail_runs": 278,
   "err": "HTTPError: HTTP Error 403: FORBIDDEN",
   "last_n": 0
  },
  "AMD": {
   "best": 0,
-  "zero_runs": 275,
+  "zero_runs": 276,
   "fail_runs": 0,
   "err": "",
   "last_n": 0
@@ -695,20 +695,20 @@
  "Micron": {
   "best": 0,
   "zero_runs": 0,
-  "fail_runs": 277,
+  "fail_runs": 278,
   "err": "HTTPError: HTTP Error 403: FORBIDDEN",
   "last_n": 0
  },
  "Qualcomm": {
   "best": 0,
   "zero_runs": 0,
-  "fail_runs": 277,
+  "fail_runs": 278,
   "err": "HTTPError: HTTP Error 403: FORBIDDEN",
   "last_n": 0
  },
  "Keysight": {
   "best": 0,
-  "zero_runs": 276,
+  "zero_runs": 277,
   "fail_runs": 0,
   "err": "",
   "last_n": 0
@@ -723,14 +723,14 @@
  "Lam Research": {
   "best": 0,
   "zero_runs": 0,
-  "fail_runs": 276,
+  "fail_runs": 277,
   "err": "HTTPError: HTTP Error 403: FORBIDDEN",
   "last_n": 0
  },
  "Qorvo": {
   "best": 0,
   "zero_runs": 0,
-  "fail_runs": 276,
+  "fail_runs": 277,
   "err": "HTTPError: HTTP Error 401: 401",
   "last_n": 0
  },
@@ -750,14 +750,14 @@
  },
  "Arm": {
   "best": 0,
-  "zero_runs": 275,
-  "fail_runs": 1,
-  "err": "HTTPError: HTTP Error 520: Unknown",
+  "zero_runs": 276,
+  "fail_runs": 0,
+  "err": "",
   "last_n": 0
  },
  "Rambus": {
   "best": 0,
-  "zero_runs": 275,
+  "zero_runs": 276,
   "fail_runs": 0,
   "err": "",
   "last_n": 0
@@ -771,7 +771,7 @@
  },
  "MaxLinear": {
   "best": 0,
-  "zero_runs": 275,
+  "zero_runs": 276,
   "fail_runs": 0,
   "err": "",
   "last_n": 0
@@ -786,16 +786,16 @@
  "Vicor": {
   "best": 0,
   "zero_runs": 0,
-  "fail_runs": 276,
+  "fail_runs": 277,
   "err": "HTTPError: HTTP Error 401: 401",
   "last_n": 0
  },
  "Lumentum": {
   "best": 76,
   "zero_runs": 0,
-  "fail_runs": 1,
-  "err": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
-  "last_n": 0
+  "fail_runs": 0,
+  "err": "",
+  "last_n": 75
  },
  "MKS Instruments": {
   "best": 71,
@@ -816,7 +816,7 @@
   "zero_runs": 0,
   "fail_runs": 0,
   "err": "",
-  "last_n": 570
+  "last_n": 571
  },
  "FormFactor": {
   "best": 78,
@@ -835,21 +835,21 @@
  "MIT Lincoln Laboratory": {
   "best": 0,
   "zero_runs": 0,
-  "fail_runs": 276,
+  "fail_runs": 277,
   "err": "HTTPError: HTTP Error 401: 401",
   "last_n": 0
  },
  "RTX": {
   "best": 996,
   "zero_runs": 0,
-  "fail_runs": 1,
-  "err": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
-  "last_n": 0
+  "fail_runs": 0,
+  "err": "",
+  "last_n": 971
  },
  "Lockheed Martin": {
   "best": 0,
   "zero_runs": 0,
-  "fail_runs": 276,
+  "fail_runs": 277,
   "err": "HTTPError: HTTP Error 403: FORBIDDEN",
   "last_n": 0
  },
@@ -858,21 +858,21 @@
   "zero_runs": 0,
   "fail_runs": 0,
   "err": "",
-  "last_n": 663
+  "last_n": 662
  },
  "Boeing": {
   "best": 137,
   "zero_runs": 0,
   "fail_runs": 0,
   "err": "",
-  "last_n": 137
+  "last_n": 136
  },
  "GE Aerospace": {
   "best": 549,
   "zero_runs": 0,
-  "fail_runs": 1,
-  "err": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
-  "last_n": 0
+  "fail_runs": 0,
+  "err": "",
+  "last_n": 535
  },
  "Bose": {
   "best": 71,
@@ -884,23 +884,23 @@
  "iRobot": {
   "best": 0,
   "zero_runs": 0,
-  "fail_runs": 276,
+  "fail_runs": 277,
   "err": "HTTPError: HTTP Error 422: Unprocessable Entity",
   "last_n": 0
  },
  "Dell": {
   "best": 0,
   "zero_runs": 0,
-  "fail_runs": 276,
+  "fail_runs": 277,
   "err": "HTTPError: HTTP Error 422: Unprocessable Entity",
   "last_n": 0
  },
  "HP": {
   "best": 104,
   "zero_runs": 0,
-  "fail_runs": 1,
-  "err": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
-  "last_n": 0
+  "fail_runs": 0,
+  "err": "",
+  "last_n": 97
  },
  "SiFive": {
   "best": 74,
@@ -912,22 +912,22 @@
  "Groq": {
   "best": 0,
   "zero_runs": 0,
-  "fail_runs": 276,
+  "fail_runs": 277,
   "err": "HTTPError: HTTP Error 404: Not Found",
   "last_n": 0
  },
  "Ciena": {
   "best": 63,
   "zero_runs": 0,
-  "fail_runs": 1,
-  "err": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
-  "last_n": 0
+  "fail_runs": 0,
+  "err": "",
+  "last_n": 61
  },
  "Garmin": {
   "best": 0,
-  "zero_runs": 274,
-  "fail_runs": 1,
-  "err": "HTTPError: HTTP Error 520: Unknown",
+  "zero_runs": 275,
+  "fail_runs": 0,
+  "err": "",
   "last_n": 0
  },
  "Sonos": {
@@ -940,13 +940,13 @@
  "Eaton": {
   "best": 0,
   "zero_runs": 0,
-  "fail_runs": 276,
+  "fail_runs": 277,
   "err": "HTTPError: HTTP Error 403: FORBIDDEN",
   "last_n": 0
  },
  "Waters Corporation": {
   "best": 0,
-  "zero_runs": 271,
+  "zero_runs": 272,
   "fail_runs": 0,
   "err": "",
   "last_n": 0
@@ -954,7 +954,7 @@
  "Symbotic": {
   "best": 0,
   "zero_runs": 0,
-  "fail_runs": 276,
+  "fail_runs": 277,
   "err": "HTTPError: HTTP Error 422: Unprocessable Entity",
   "last_n": 0
  },
@@ -975,7 +975,7 @@
  "Atomic Semi": {
   "best": 0,
   "zero_runs": 0,
-  "fail_runs": 276,
+  "fail_runs": 277,
   "err": "HTTPError: HTTP Error 404: Not Found",
   "last_n": 0
  },
@@ -1023,7 +1023,7 @@
  },
  "Alphawave Semi": {
   "best": 0,
-  "zero_runs": 275,
+  "zero_runs": 276,
   "fail_runs": 0,
   "err": "",
   "last_n": 0
@@ -1033,7 +1033,7 @@
   "zero_runs": 0,
   "fail_runs": 0,
   "err": "",
-  "last_n": 46
+  "last_n": 45
  },
  "Tetramem": {
   "best": 6,
@@ -1045,9 +1045,9 @@
  "Leidos": {
   "best": 152,
   "zero_runs": 0,
-  "fail_runs": 1,
-  "err": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
-  "last_n": 0
+  "fail_runs": 0,
+  "err": "",
+  "last_n": 152
  },
  "Curtiss-Wright": {
   "best": 102,
@@ -1059,9 +1059,9 @@
  "Moog": {
   "best": 458,
   "zero_runs": 0,
-  "fail_runs": 1,
-  "err": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
-  "last_n": 0
+  "fail_runs": 0,
+  "err": "",
+  "last_n": 432
  },
  "Teledyne FLIR": {
   "best": 100,
@@ -1079,7 +1079,7 @@
  },
  "Juniper Networks": {
   "best": 0,
-  "zero_runs": 276,
+  "zero_runs": 277,
   "fail_runs": 0,
   "err": "",
   "last_n": 0
@@ -1117,7 +1117,7 @@
   "zero_runs": 0,
   "fail_runs": 0,
   "err": "",
-  "last_n": 316
+  "last_n": 330
  },
  "General Dynamics Mission Systems": {
   "best": 65,
@@ -1180,7 +1180,7 @@
   "zero_runs": 0,
   "fail_runs": 0,
   "err": "",
-  "last_n": 322
+  "last_n": 321
  },
  "Rapid Micro Biosystems": {
   "best": 10,
@@ -1194,7 +1194,7 @@
   "zero_runs": 0,
   "fail_runs": 0,
   "err": "",
-  "last_n": 40
+  "last_n": 39
  },
  "Extropic": {
   "best": 10,
