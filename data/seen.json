@@ -635,8 +635,8 @@
 },
 "https://www.indeed.com/viewjob": {
 "first_seen": "2026-09-18",
-"title": "Electrical Engineering Co-Op - Spring 2027",
-"company": "SSOE Group",
+"title": "Co-op: Verification and Validation Engineering (Spring 2027)",
+"company": "MSA Safety",
 "desc": ""
 },
 "https://www.linkedin.com/jobs/view/4468697840": {
@@ -16025,6 +16025,48 @@
 "first_seen": "2026-10-24",
 "title": "Developer Productivity Intern [Winter 2027]",
 "company": "Figure AI",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4483165872": {
+"first_seen": "2026-10-24",
+"title": "June 2027 Co-op - Reliability Engineering #5953",
+"company": "Shield AI",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4482315617": {
+"first_seen": "2026-10-24",
+"title": "AI Hardware Engineering Intern",
+"company": "Intel",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4452891578": {
+"first_seen": "2026-10-24",
+"title": "Technical Intern, Physical Design",
+"company": "Ampere",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4483191359": {
+"first_seen": "2026-10-24",
+"title": "RF Linearizer Design Intern",
+"company": "MACOM",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4480674950": {
+"first_seen": "2026-10-24",
+"title": "2027 Internship - Radio Frequency (RF) Systems Test Engineer - Electronic Warfare",
+"company": "Johns Hopkins Applied Physics Laboratory",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4480699423": {
+"first_seen": "2026-10-24",
+"title": "Product Development Engineering Intern",
+"company": "KLA",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4482316606": {
+"first_seen": "2026-10-24",
+"title": "AI Hardware Engineering Intern",
+"company": "Intel",
 "desc": ""
 }
 }
