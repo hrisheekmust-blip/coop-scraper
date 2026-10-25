@@ -1,4 +1,4 @@
-# New postings — 2026-10-24
+# New postings — 2026-10-25
 
 0 new of 985 tracked. Rank A = spring/Jan 2027 explicit, B = co-op with term unstated, C = intern with no term stated.
 
@@ -758,7 +758,6 @@ _nothing new today_
 | C | unspecified | Johns Hopkins Applied Physics Laboratory | 2027 Internship - Radio Frequency (RF) Systems Test Engineer - Electronic Warfare | Laurel, MD, USA | 2026-10-23 | [apply](https://www.linkedin.com/jobs/view/4480674950) |
 | C | unspecified | Johns Hopkins Applied Physics Laboratory | Electrical Engineer Internship | Laurel, MD, USA | 2026-09-01 | [apply](https://simplify.jobs/jobs/click/0d6cd267-758c-4b3e-b2cb-6738e4bf1f90) |
 | C | unspecified | Juniper Networks | HPC/AI System Admin HW/SW Service Engineer Intern | All, TN | Oct 12 | [apply](https://hpe.wd5.myworkdayjobs.com/en-US/Jobsathpe/job/All-Tennessee-United-States-of-America/HPC-AI-System-Admin-HW-SW-Service-Engineer-Intern_1213404) |
-| C | unspecified | Juniper Systems | INTERN, Electrical Engineering | Logan, UT, USA | 2026-10-22 | [apply](https://www.linkedin.com/jobs/view/4482823163) |
 | C | unspecified | KLA | Optical Engineer Intern | Milpitas, CA | Posted 24 Days Ago | [apply](https://kla.wd1.myworkdayjobs.com/Search/job/Milpitas-CA/Optical-Engineer-Intern_2641712-1) |
 | C | unspecified | KLA | Optical Engineer Intern | Milpitas, CA, USA | 2026-09-30 | [apply](https://simplify.jobs/jobs/click/9750e606-5a81-4a74-9492-ca1a93b10e38) |
 | C | unspecified | KLA | Product Development Engineering Intern | Milpitas, CA, USA | 2026-10-23 | [apply](https://www.linkedin.com/jobs/view/4480696440) |
@@ -912,6 +911,7 @@ _nothing new today_
 | C | unspecified | Renesas | Intern, Product Engineering | Lviv, , Ukraine | 2026-10-14 | [apply](https://jobs.smartrecruiters.com/renesaselectronics/744000155551520) |
 | C | unspecified | Renesas | Product Engineering Intern | Morrisville, North Carolina, United States | 2026-10-23 | [apply](https://jobs.smartrecruiters.com/renesaselectronics/744000157550697) |
 | C | unspecified | Rivian and Volkswagen Group Technologies | Electromechanical Design Engineering Intern (January - August 2027) | Irvine, CA, USA | 2026-10-22 | [apply](https://www.linkedin.com/jobs/view/4463559412) |
+| C | unspecified | Rivian and Volkswagen Group Technologies | Electromechanical Design Engineering Intern (January - August 2027) | Palo Alto, CA, USA | 2026-10-22 | [apply](https://www.linkedin.com/jobs/view/4463566356) |
 | C | unspecified | Rivian and Volkswagen Group Technologies | Engineering Intern, Embedded Hardware, Vehicle Networking & Audio | Palo Alto, CA | Nov 01 | [apply](https://careers.rivianvw.tech/rivian-vw-group-technology/jobs/27276/job) |
 | C | unspecified | Rockwell Automation | Firmware Engineer Intern | Mequon, WIEden Prairie, MN | Oct 21 | [apply](https://rockwellautomation.wd1.myworkdayjobs.com/External_Rockwell_Automation/job/Mequon-Wisconsin-United-States/Firmware-Engineer-Intern_R26-8321) |
 | C | unspecified | Rockwell Automation | Hardware Development Engineer Intern | Mayfield Heights, OH | Oct 19 | [apply](https://rockwellautomation.wd1.myworkdayjobs.com/External-Rockwell-Automation-Early-Careers/job/Mayfield-Heights-Ohio-United-States/Intern--Hardware-Development-Engineer--May---Aug-2027-_R26-6892-2) |
