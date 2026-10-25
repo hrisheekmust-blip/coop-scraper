@@ -11,8 +11,7 @@
   "hw": "embedded,firmware",
   "tier": "big",
   "sources": [
-   "amazon",
-   "github:vanshb03-offseason"
+   "amazon"
   ],
   "first_seen": "2026-10-08",
   "last_seen": "2026-10-25"
@@ -29,8 +28,7 @@
   "hw": "hardware",
   "tier": "big",
   "sources": [
-   "amazon",
-   "github:vanshb03-offseason"
+   "amazon"
   ],
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-25"
@@ -132,7 +130,6 @@
   "hw": "electrical engineer",
   "tier": "big",
   "sources": [
-   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-09-17",
@@ -184,7 +181,6 @@
   "hw": "test engineer",
   "tier": "big",
   "sources": [
-   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-10-06",
@@ -1292,7 +1288,6 @@
   "hw": "electrical engineer",
   "tier": "big",
   "sources": [
-   "internlist:coop",
    "workday"
   ],
   "first_seen": "2026-09-18",
@@ -1310,7 +1305,6 @@
   "hw": "metrology",
   "tier": "big",
   "sources": [
-   "internlist:coop",
    "workday"
   ],
   "first_seen": "2026-09-18",
@@ -2145,7 +2139,6 @@
   "hw": "hardware",
   "tier": "startup",
   "sources": [
-   "github:vanshb03-summer",
    "lever"
   ],
   "first_seen": "2026-09-29",
@@ -3320,9 +3313,7 @@
   "hw": "electrical engineering",
   "tier": "big",
   "sources": [
-   "greenhouse",
-   "internlist:coop",
-   "jobspy:linkedin"
+   "greenhouse"
   ],
   "first_seen": "2026-09-17",
   "last_seen": "2026-10-25"
@@ -4257,7 +4248,6 @@
   "hw": "silicon",
   "tier": "big",
   "sources": [
-   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-09-17",
@@ -4599,7 +4589,6 @@
   "hw": "electronics",
   "tier": "big",
   "sources": [
-   "github:vanshb03-offseason",
    "smartrecruiters"
   ],
   "first_seen": "2026-10-13",
@@ -4838,8 +4827,7 @@
   "hw": "electrical engineer",
   "tier": "startup",
   "sources": [
-   "greenhouse",
-   "jobspy:linkedin"
+   "greenhouse"
   ],
   "first_seen": "2026-09-17",
   "last_seen": "2026-10-25"
@@ -9184,9 +9172,7 @@
   "hw": "firmware",
   "tier": "big",
   "sources": [
-   "greenhouse",
-   "internlist:coop",
-   "internlist:winter-spring"
+   "greenhouse"
   ],
   "first_seen": "2026-09-24",
   "last_seen": "2026-10-25"
@@ -13908,7 +13894,6 @@
   "hw": "asic,verification",
   "tier": "big",
   "sources": [
-   "github:vanshb03-summer",
    "workday"
   ],
   "first_seen": "2026-10-21",
@@ -16171,7 +16156,6 @@
   "hw": "digital design,verification",
   "tier": "big",
   "sources": [
-   "github:vanshb03-summer",
    "oracle_hcm"
   ],
   "first_seen": "2026-09-28",
@@ -16631,8 +16615,7 @@
   "hw": "electrical engineering",
   "tier": "startup",
   "sources": [
-   "greenhouse",
-   "jobspy:linkedin"
+   "greenhouse"
   ],
   "first_seen": "2026-09-17",
   "last_seen": "2026-10-25"
