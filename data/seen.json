@@ -16194,5 +16194,245 @@
 "title": "Wireless Hardware Engineer Intern",
 "company": "Skydio",
 "desc": ""
+},
+"https://go.vansh.nyc/gD": {
+"first_seen": "2026-10-25",
+"title": "Hardware Development Engineer Intern",
+"company": "Amazon",
+"desc": ""
+},
+"https://go.vansh.nyc/gK": {
+"first_seen": "2026-10-25",
+"title": "Embedded Firmware Co-op",
+"company": "Amazon",
+"desc": ""
+},
+"https://go.vansh.nyc/cT": {
+"first_seen": "2026-10-25",
+"title": "Hardware Development Engineer Intern",
+"company": "Amazon.com Services LLC",
+"desc": ""
+},
+"https://go.vansh.nyc/8o": {
+"first_seen": "2026-10-25",
+"title": "Recording Electronics Data Analytics & Optimization Co-op",
+"company": "Western Digital",
+"desc": ""
+},
+"https://go.vansh.nyc/g8": {
+"first_seen": "2026-10-25",
+"title": "Embedded Firmware Co-op, Amazon Robotics",
+"company": "Amazon",
+"desc": ""
+},
+"https://go.vansh.nyc/fT": {
+"first_seen": "2026-10-25",
+"title": "Firmware Engineering Co-op",
+"company": "Bracco",
+"desc": ""
+},
+"https://go.vansh.nyc/fQ": {
+"first_seen": "2026-10-25",
+"title": "Firmware Engineer II Co-op",
+"company": "Cisco",
+"desc": ""
+},
+"https://go.vansh.nyc/u": {
+"first_seen": "2026-10-25",
+"title": "Chassis Integration Engineer Intern, Vehicle Firmware",
+"company": "Tesla",
+"desc": ""
+},
+"https://go.vansh.nyc/q": {
+"first_seen": "2026-10-25",
+"title": "Chassis Validation Engineer Intern, Vehicle Firmware",
+"company": "Tesla",
+"desc": ""
+},
+"https://go.vansh.nyc/By": {
+"first_seen": "2026-10-25",
+"title": "Hardware Test and Reliability Intern",
+"company": "Skydio",
+"desc": ""
+},
+"https://go.vansh.nyc/hE": {
+"first_seen": "2026-10-25",
+"title": "FPGA Design Intern",
+"company": "Keysight Technologies",
+"desc": ""
+},
+"https://go.vansh.nyc/hp": {
+"first_seen": "2026-10-25",
+"title": "Robotics Engineer Intern, Hardware & Software",
+"company": "Trace Labs",
+"desc": ""
+},
+"https://go.vansh.nyc/ex": {
+"first_seen": "2026-10-25",
+"title": "Test Engineering Intern",
+"company": "Hitachi",
+"desc": ""
+},
+"https://go.vansh.nyc/hm": {
+"first_seen": "2026-10-25",
+"title": "CPU IP Design & Verification Intern, RISC-V Processor Development",
+"company": "GlobalFoundries",
+"desc": ""
+},
+"https://go.vansh.nyc/hA": {
+"first_seen": "2026-10-25",
+"title": "ASIC Engineer Intern",
+"company": "Amazon",
+"desc": ""
+},
+"https://go.vansh.nyc/gF": {
+"first_seen": "2026-10-25",
+"title": "ASIC Engineer Intern",
+"company": "Amazon",
+"desc": ""
+},
+"https://go.vansh.nyc/gL": {
+"first_seen": "2026-10-25",
+"title": "Cloud Hardware Development Engineer Intern",
+"company": "Amazon",
+"desc": ""
+},
+"https://go.vansh.nyc/gA": {
+"first_seen": "2026-10-25",
+"title": "Firmware Engineer Intern",
+"company": "Rockwell Automation",
+"desc": ""
+},
+"https://go.vansh.nyc/ed": {
+"first_seen": "2026-10-25",
+"title": "Engineering Intern, ASIC Verification",
+"company": "Microchip Technology",
+"desc": ""
+},
+"https://go.vansh.nyc/dW": {
+"first_seen": "2026-10-25",
+"title": "Software Engineer Student Intern, Product Engineering",
+"company": "John Deere",
+"desc": ""
+},
+"https://go.vansh.nyc/gy": {
+"first_seen": "2026-10-25",
+"title": "Physical Design Engineer Intern",
+"company": "Ambarella",
+"desc": ""
+},
+"https://go.vansh.nyc/ee": {
+"first_seen": "2026-10-25",
+"title": "Signal Processing and RF Engineering Intern",
+"company": "Aerospace Corporation",
+"desc": ""
+},
+"https://go.vansh.nyc/dv": {
+"first_seen": "2026-10-25",
+"title": "Hardware Security Engineering Intern",
+"company": "Aerospace Corporation",
+"desc": ""
+},
+"https://go.vansh.nyc/dq": {
+"first_seen": "2026-10-25",
+"title": "Silicon Validation Intern",
+"company": "Marvell",
+"desc": ""
+},
+"https://go.vansh.nyc/gp": {
+"first_seen": "2026-10-25",
+"title": "ASIC Design Intern",
+"company": "SK Hynix Memory Solution",
+"desc": ""
+},
+"https://go.vansh.nyc/d1": {
+"first_seen": "2026-10-25",
+"title": "Hardware Development Engineer Intern",
+"company": "Rockwell Automation",
+"desc": ""
+},
+"https://go.vansh.nyc/bp": {
+"first_seen": "2026-10-25",
+"title": "AI Autonomous Driving Verification & Validation Intern",
+"company": "Nissan",
+"desc": ""
+},
+"https://go.vansh.nyc/ce": {
+"first_seen": "2026-10-25",
+"title": "R&D Hardware Engineer Intern",
+"company": "Keysight Technologies",
+"desc": ""
+},
+"https://go.vansh.nyc/by": {
+"first_seen": "2026-10-25",
+"title": "Firmware Engineering Intern",
+"company": "Heron Power",
+"desc": ""
+},
+"https://go.vansh.nyc/c3": {
+"first_seen": "2026-10-25",
+"title": "Hardware Engineering Design Intern",
+"company": "Hewlett Packard Enterprise",
+"desc": ""
+},
+"https://go.vansh.nyc/bm": {
+"first_seen": "2026-10-25",
+"title": "Hardware Security Engineer Intern",
+"company": "Together AI",
+"desc": ""
+},
+"https://go.vansh.nyc/b9": {
+"first_seen": "2026-10-25",
+"title": "Hardware Engineering & Connected Devices Intern",
+"company": "ADT",
+"desc": ""
+},
+"https://go.vansh.nyc/aN": {
+"first_seen": "2026-10-25",
+"title": "SoC Machine Learning Software Engineer Intern",
+"company": "Apple",
+"desc": ""
+},
+"https://go.vansh.nyc/8f": {
+"first_seen": "2026-10-25",
+"title": "HPC/AI System Admin HW/SW Service Engineer Intern",
+"company": "Juniper Networks",
+"desc": ""
+},
+"https://go.vansh.nyc/fR": {
+"first_seen": "2026-10-25",
+"title": "Flight Software Engineering Intern, Simulation/Hardware-In-The-Loop",
+"company": "Hermeus",
+"desc": ""
+},
+"https://go.vansh.nyc/6R": {
+"first_seen": "2026-10-25",
+"title": "FPGA Engineering Intern",
+"company": "HPR",
+"desc": ""
+},
+"https://go.vansh.nyc/5n": {
+"first_seen": "2026-10-25",
+"title": "FPGA Intern",
+"company": "DRW",
+"desc": ""
+},
+"https://go.vansh.nyc/44": {
+"first_seen": "2026-10-25",
+"title": "Hardware Engineer (FPGA/ASIC) Intern",
+"company": "Jane Street",
+"desc": ""
+},
+"https://go.vansh.nyc/1u": {
+"first_seen": "2026-10-25",
+"title": "Analog IC Design Co-op",
+"company": "Skyworks",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4482766455": {
+"first_seen": "2026-10-25",
+"title": "Intern, E-Systems & Total Vehicle Validation Spring 2027 - Summer 2027",
+"company": "BMW Group",
+"desc": ""
 }
 }
