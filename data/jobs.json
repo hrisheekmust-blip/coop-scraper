@@ -306,6 +306,23 @@
   "last_seen": "2026-10-26"
  },
  {
+  "company": "Applied Materials",
+  "title": "Summer 2027 Process Engineer Intern- Master's (Santa Clara, CA)",
+  "location": "Santa Clara,CA",
+  "url": "https://amat.wd1.myworkdayjobs.com/External/job/Santa-ClaraCA/Summer-2027-Process-Engineer-Intern--Master-s--Santa-Clara--CA-_R2629701",
+  "posted": "Posted 5 Days Ago",
+  "deadline": "",
+  "term": "spring",
+  "rank": "A",
+  "hw": "process engineer",
+  "tier": "big",
+  "sources": [
+   "workday"
+  ],
+  "first_seen": "2026-10-21",
+  "last_seen": "2026-10-26"
+ },
+ {
   "company": "Astranis",
   "title": "Antenna Intern (Winter 2027)",
   "location": "San Francisco",
@@ -983,6 +1000,23 @@
    "jobspy:linkedin"
   ],
   "first_seen": "2026-10-03",
+  "last_seen": "2026-10-26"
+ },
+ {
+  "company": "Commonwealth Fusion Systems",
+  "title": "Intern - Cryogenics Engineer - Spring 2027",
+  "location": "Devens, MA",
+  "url": "https://jobs.lever.co/cfsenergy/12638cfd-8bad-40b5-88b4-1fe3b21aec8f",
+  "posted": "1793046178",
+  "deadline": "",
+  "term": "spring",
+  "rank": "A",
+  "hw": "maybe",
+  "tier": "big",
+  "sources": [
+   "lever"
+  ],
+  "first_seen": "2026-10-26",
   "last_seen": "2026-10-26"
  },
  {
@@ -2009,23 +2043,6 @@
   "last_seen": "2026-10-26"
  },
  {
-  "company": "General Dynamics Mission Systems",
-  "title": "Electrical Engineer Co-Op (January - May 2027)",
-  "location": "",
-  "url": "https://careers-gdms.icims.com/jobs/74598/electrical-engineer-co-op-%28january---may-2027%29/job",
-  "posted": "",
-  "deadline": "",
-  "term": "spring",
-  "rank": "A",
-  "hw": "electrical engineer",
-  "tier": "big",
-  "sources": [
-   "icims"
-  ],
-  "first_seen": "2026-09-18",
-  "last_seen": "2026-10-26"
- },
- {
   "company": "Hermeus",
   "title": "Avionics Electrical Engineering Intern - Spring/Summer 2027",
   "location": "Atlanta, GA",
@@ -2810,6 +2827,23 @@
  },
  {
   "company": "RTX",
+  "title": "Industrial Engineering Co-op (Spring/Summer 2027)",
+  "location": "US-IA-BELLEVUE-186 ~ 1500 State St ~ STATE",
+  "url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-IA-BELLEVUE-186--1500-State-St--STATE/Industrial-Engineering-Co-op--Spring-Summer-2027-_01876770",
+  "posted": "Posted Today",
+  "deadline": "",
+  "term": "spring",
+  "rank": "A",
+  "hw": "maybe",
+  "tier": "big",
+  "sources": [
+   "workday"
+  ],
+  "first_seen": "2026-09-24",
+  "last_seen": "2026-10-26"
+ },
+ {
+  "company": "RTX",
   "title": "Internship - Winter 2027 - Combustion Engineering",
   "location": "CA-ON-MISSISSAUGA-P22M01 ~ 1801 Courtney Park Dr ~ P22M01 BLDG",
   "url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/CA-ON-MISSISSAUGA-P22M01--1801-Courtney-Park-Dr--P22M01-BLDG/Internship---Winter-2027---Combustion-Engineering_01871804-1",
@@ -2823,6 +2857,23 @@
    "workday"
   ],
   "first_seen": "2026-10-22",
+  "last_seen": "2026-10-26"
+ },
+ {
+  "company": "RTX",
+  "title": "Internship - Winter 2027 - Engineering student",
+  "location": "CA-ON-MISSISSAUGA-P22M01 ~ 1801 Courtney Park Dr ~ P22M01 BLDG",
+  "url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/CA-ON-MISSISSAUGA-P22M01--1801-Courtney-Park-Dr--P22M01-BLDG/Internship---Winter-2027---Engineering-student_01884926",
+  "posted": "Posted Today",
+  "deadline": "",
+  "term": "spring",
+  "rank": "A",
+  "hw": "maybe",
+  "tier": "big",
+  "sources": [
+   "workday"
+  ],
+  "first_seen": "2026-10-26",
   "last_seen": "2026-10-26"
  },
  {
@@ -2964,23 +3015,6 @@
  {
   "company": "Rocket Lab",
   "title": "Manufacturing Engineering Intern Spring 2027",
-  "location": "Wallops Island, VA",
-  "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7996617003",
-  "posted": "2026-09-17",
-  "deadline": "",
-  "term": "spring",
-  "rank": "A",
-  "hw": "maybe",
-  "tier": "big",
-  "sources": [
-   "greenhouse"
-  ],
-  "first_seen": "2026-09-18",
-  "last_seen": "2026-10-26"
- },
- {
-  "company": "Rocket Lab",
-  "title": "Manufacturing Engineering Intern Spring 2027",
   "location": "Middle River, MD",
   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7987020003",
   "posted": "2026-09-16",
@@ -3001,6 +3035,23 @@
   "location": "Long Beach, CA",
   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7984943003",
   "posted": "2026-09-16",
+  "deadline": "",
+  "term": "spring",
+  "rank": "A",
+  "hw": "maybe",
+  "tier": "big",
+  "sources": [
+   "greenhouse"
+  ],
+  "first_seen": "2026-09-18",
+  "last_seen": "2026-10-26"
+ },
+ {
+  "company": "Rocket Lab",
+  "title": "Manufacturing Engineering Intern Spring 2027",
+  "location": "Wallops Island, VA",
+  "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7996617003",
+  "posted": "2026-09-17",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -3083,23 +3134,6 @@
  {
   "company": "Rocket Lab",
   "title": "Test Engineering Intern Spring 2027",
-  "location": "Wallops Island, VA",
-  "url": "https://job-boards.greenhouse.io/rocketlab/jobs/8003533003",
-  "posted": "2026-10-26",
-  "deadline": "",
-  "term": "spring",
-  "rank": "A",
-  "hw": "test engineering",
-  "tier": "big",
-  "sources": [
-   "greenhouse"
-  ],
-  "first_seen": "2026-09-25",
-  "last_seen": "2026-10-26"
- },
- {
-  "company": "Rocket Lab",
-  "title": "Test Engineering Intern Spring 2027",
   "location": "Stennis Space Center, MS",
   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7990352003",
   "posted": "2026-09-17",
@@ -3112,6 +3146,23 @@
    "greenhouse"
   ],
   "first_seen": "2026-09-17",
+  "last_seen": "2026-10-26"
+ },
+ {
+  "company": "Rocket Lab",
+  "title": "Test Engineering Intern Spring 2027",
+  "location": "Wallops Island, VA",
+  "url": "https://job-boards.greenhouse.io/rocketlab/jobs/8003533003",
+  "posted": "2026-10-26",
+  "deadline": "",
+  "term": "spring",
+  "rank": "A",
+  "hw": "test engineering",
+  "tier": "big",
+  "sources": [
+   "greenhouse"
+  ],
+  "first_seen": "2026-09-25",
   "last_seen": "2026-10-26"
  },
  {
@@ -3932,23 +3983,6 @@
  },
  {
   "company": "Sonos",
-  "title": "Electrical Engineering Co-Op",
-  "location": "Boston, MA",
-  "url": "https://sonos.wd1.myworkdayjobs.com/Sonos/job/Boston-MA/Electrical-Engineering-Co-Op_R2824-2",
-  "posted": "Posted 30+ Days Ago",
-  "deadline": "",
-  "term": "spring",
-  "rank": "A",
-  "hw": "electrical engineering",
-  "tier": "big",
-  "sources": [
-   "workday"
-  ],
-  "first_seen": "2026-09-23",
-  "last_seen": "2026-10-26"
- },
- {
-  "company": "Sonos",
   "title": "Electrical Engineering Co-op",
   "location": "Boston, MA, USA",
   "url": "https://simplify.jobs/jobs/click/331f5d80-cad0-4a99-ad69-80d48aa9b75c",
@@ -4208,23 +4242,6 @@
   "title": "Manufacturing Engineering Internship - Spring 2027",
   "location": "El Segundo, California, United States",
   "url": "https://job-boards.greenhouse.io/vardaspace/jobs/7824767003",
-  "posted": "2026-10-20",
-  "deadline": "",
-  "term": "spring",
-  "rank": "A",
-  "hw": "maybe",
-  "tier": "startup",
-  "sources": [
-   "greenhouse"
-  ],
-  "first_seen": "2026-09-18",
-  "last_seen": "2026-10-26"
- },
- {
-  "company": "Varda Space",
-  "title": "Mechanisms & Payload Internship - Spring 2027",
-  "location": "El Segundo, California, United States",
-  "url": "https://job-boards.greenhouse.io/vardaspace/jobs/7824821003",
   "posted": "2026-10-20",
   "deadline": "",
   "term": "spring",
@@ -5670,6 +5687,91 @@
  },
  {
   "company": "Applied Materials",
+  "title": "2026 Fall Materials Engineering Co-op (TCAD Modeling) - Doctorate (Gloucester, MA)",
+  "location": "Gloucester,MA",
+  "url": "https://amat.wd1.myworkdayjobs.com/External/job/GloucesterMA/XMLNAME-2026-Fall-Materials-Engineering-Co-op---Doctorate--Gloucester--MA-_R2611503",
+  "posted": "Posted 30+ Days Ago",
+  "deadline": "",
+  "term": "coop-unspecified",
+  "rank": "B",
+  "hw": "maybe",
+  "tier": "big",
+  "sources": [
+   "workday"
+  ],
+  "first_seen": "2026-09-18",
+  "last_seen": "2026-10-26"
+ },
+ {
+  "company": "Applied Materials",
+  "title": "2026 Process Engineer Co-op - Adv Degree (Gloucester, MA)",
+  "location": "Gloucester,MA",
+  "url": "https://amat.wd1.myworkdayjobs.com/External/job/GloucesterMA/XMLNAME-2026-Process-Engineer-Co-op---Adv-Degree--Gloucester--MA-_R2623409",
+  "posted": "Posted 20 Days Ago",
+  "deadline": "",
+  "term": "coop-unspecified",
+  "rank": "B",
+  "hw": "process engineer",
+  "tier": "big",
+  "sources": [
+   "workday"
+  ],
+  "first_seen": "2026-10-07",
+  "last_seen": "2026-10-26"
+ },
+ {
+  "company": "Applied Materials",
+  "title": "2026-2027 Process Engineer Co-op - Doctorate (Gloucester, MA)",
+  "location": "Gloucester,MA",
+  "url": "https://amat.wd1.myworkdayjobs.com/External/job/GloucesterMA/XMLNAME-2026-2027-Process-Engineer-Co-op---Doctorate--Gloucester--MA-_R2626230",
+  "posted": "Posted 30+ Days Ago",
+  "deadline": "",
+  "term": "coop-unspecified",
+  "rank": "B",
+  "hw": "process engineer",
+  "tier": "big",
+  "sources": [
+   "workday"
+  ],
+  "first_seen": "2026-09-18",
+  "last_seen": "2026-10-26"
+ },
+ {
+  "company": "Applied Materials",
+  "title": "2027 Spring Electrical Engineer (Controls, PCB) Co-op BS or MS (Gloucester, MA)",
+  "location": "Gloucester,MA",
+  "url": "https://amat.wd1.myworkdayjobs.com/External/job/GloucesterMA/XMLNAME-2027-Spring-Electrical-Engineer-Co-op-BS-or-MS--Gloucester--MA-_R2628288-1",
+  "posted": "Posted 30+ Days Ago",
+  "deadline": "",
+  "term": "coop-unspecified",
+  "rank": "B",
+  "hw": "maybe",
+  "tier": "big",
+  "sources": [
+   "workday"
+  ],
+  "first_seen": "2026-09-18",
+  "last_seen": "2026-10-26"
+ },
+ {
+  "company": "Applied Materials",
+  "title": "2027 Spring Product Quality Engineer Co-op  - Bachelor's (Gloucester, MA)",
+  "location": "Gloucester,MA",
+  "url": "https://amat.wd1.myworkdayjobs.com/External/job/GloucesterMA/XMLNAME-2027-Spring-Product-Quality-Engineer-Co-op----Bachelor-s--Gloucester--MA-_R2628291",
+  "posted": "Posted 20 Days Ago",
+  "deadline": "",
+  "term": "coop-unspecified",
+  "rank": "B",
+  "hw": "maybe",
+  "tier": "big",
+  "sources": [
+   "workday"
+  ],
+  "first_seen": "2026-09-18",
+  "last_seen": "2026-10-26"
+ },
+ {
+  "company": "Applied Materials",
   "title": "Electrical Engineer Co-op",
   "location": "Gloucester, MA, USA",
   "url": "https://simplify.jobs/jobs/click/441d92c8-bb63-49f4-94cb-afcd777fa84a",
@@ -5950,6 +6052,23 @@
   "last_seen": "2026-10-26"
  },
  {
+  "company": "Boston Dynamics",
+  "title": "Systems Test Engineer - Co-Op",
+  "location": "Waltham Office (POST)",
+  "url": "https://bostondynamics.wd1.myworkdayjobs.com/Boston_Dynamics/job/Waltham-Office-POST/Systems-Test-Engineer---Co-Op_R3312",
+  "posted": "",
+  "deadline": "",
+  "term": "coop-unspecified",
+  "rank": "B",
+  "hw": "systems test",
+  "tier": "big",
+  "sources": [
+   "workday"
+  ],
+  "first_seen": "2026-10-26",
+  "last_seen": "2026-10-26"
+ },
+ {
   "company": "Bracco",
   "title": "Firmware Engineering Co-op",
   "location": "Pleasanton, CA",
@@ -6168,23 +6287,6 @@
   "tier": "",
   "sources": [
    "jobspy:linkedin"
-  ],
-  "first_seen": "2026-10-01",
-  "last_seen": "2026-10-26"
- },
- {
-  "company": "Cisco",
-  "title": "Hardware Engineer II (Co-op) - United States",
-  "location": "San Jose, California, US",
-  "url": "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/San-Jose-California-US/Hardware-Engineer-II--Co-op----United-States_2025375",
-  "posted": "Posted 25 Days Ago",
-  "deadline": "",
-  "term": "coop-unspecified",
-  "rank": "B",
-  "hw": "hardware",
-  "tier": "big",
-  "sources": [
-   "workday"
   ],
   "first_seen": "2026-10-01",
   "last_seen": "2026-10-26"
@@ -6978,8 +7080,8 @@
  {
   "company": "Entegris",
   "title": "Process Engineering Co-Op",
-  "location": "Bedford, MA",
-  "url": "https://entegris.wd1.myworkdayjobs.com/EntegrisCareers/job/Bedford-MA/Process-Engineering-Co-Op_REQ-14458",
+  "location": "Rockrimmon, Colorado Springs, CO",
+  "url": "https://entegris.wd1.myworkdayjobs.com/EntegrisCareers/job/Rockrimmon-Colorado-Springs-CO/Process-Engineering-Co-Op_REQ-14485",
   "posted": "Posted 30+ Days Ago",
   "deadline": "",
   "term": "coop-unspecified",
@@ -6995,8 +7097,8 @@
  {
   "company": "Entegris",
   "title": "Process Engineering Co-Op",
-  "location": "Rockrimmon, Colorado Springs, CO",
-  "url": "https://entegris.wd1.myworkdayjobs.com/EntegrisCareers/job/Rockrimmon-Colorado-Springs-CO/Process-Engineering-Co-Op_REQ-14485",
+  "location": "Bedford, MA",
+  "url": "https://entegris.wd1.myworkdayjobs.com/EntegrisCareers/job/Bedford-MA/Process-Engineering-Co-Op_REQ-14458",
   "posted": "Posted 30+ Days Ago",
   "deadline": "",
   "term": "coop-unspecified",
@@ -8553,7 +8655,7 @@
   "title": "Optical Engineer Co-Op",
   "location": "Boston, MA, USA",
   "url": "https://job-boards.greenhouse.io/queracomputinginc/jobs/5460294008",
-  "posted": "2026-10-21",
+  "posted": "2026-10-26",
   "deadline": "",
   "term": "coop-unspecified",
   "rank": "B",
@@ -8570,7 +8672,7 @@
   "title": "QPU Build Co-Op \u2013 Optics & Data Analysis",
   "location": "Boston, MA, USA",
   "url": "https://job-boards.greenhouse.io/queracomputinginc/jobs/5455950008",
-  "posted": "2026-10-19",
+  "posted": "2026-10-26",
   "deadline": "",
   "term": "coop-unspecified",
   "rank": "B",
@@ -8631,6 +8733,23 @@
    "internlist:coop"
   ],
   "first_seen": "2026-10-21",
+  "last_seen": "2026-10-26"
+ },
+ {
+  "company": "RTX",
+  "title": "Operations Engineering Specialist Co-Op (Onsite)",
+  "location": "US-MA-ANDOVER-AN1 ~ 350 Lowell St ~ AN1 ESSEX BLDG",
+  "url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-MA-ANDOVER-AN1--350-Lowell-St--AN1-ESSEX-BLDG/Operations-Engineering-Specialist-Co-Op--Onsite-_01874745",
+  "posted": "Posted Today",
+  "deadline": "",
+  "term": "coop-unspecified",
+  "rank": "B",
+  "hw": "maybe",
+  "tier": "big",
+  "sources": [
+   "workday"
+  ],
+  "first_seen": "2026-09-21",
   "last_seen": "2026-10-26"
  },
  {
@@ -9011,7 +9130,7 @@
   "company": "Skyworks",
   "title": "RF Filter Design / BAW development Co-Op",
   "location": "Andover, MA, USA    ",
-  "url": "https://careers.skyworksinc.com/job/RF-Filter-Design-BAW-development-Co-Op/78244-en_US",
+  "url": "https://careers.skyworksinc.com/job/RF-Filter-Design-BAW-development-Co-Op/78245-en_US",
   "posted": "2026-09-15",
   "deadline": "",
   "term": "coop-unspecified",
@@ -9021,7 +9140,7 @@
   "sources": [
    "successfactors"
   ],
-  "first_seen": "2026-09-30",
+  "first_seen": "2026-09-18",
   "last_seen": "2026-10-26"
  },
  {
@@ -14635,7 +14754,7 @@
   "title": "Internship - Quantum Applications Research",
   "location": "Boston, MA, USA",
   "url": "https://job-boards.greenhouse.io/queracomputinginc/jobs/5435901008",
-  "posted": "2026-09-27",
+  "posted": "2026-10-26",
   "deadline": "",
   "term": "unspecified",
   "rank": "C",
@@ -14652,7 +14771,7 @@
   "title": "Internship - Quantum Error Correction Research",
   "location": "Boston, MA, USA",
   "url": "https://job-boards.greenhouse.io/queracomputinginc/jobs/5435899008",
-  "posted": "2026-10-01",
+  "posted": "2026-10-26",
   "deadline": "",
   "term": "unspecified",
   "rank": "C",
@@ -14669,7 +14788,7 @@
   "title": "Internship - Research & Development",
   "location": "Boston, MA, USA",
   "url": "https://job-boards.greenhouse.io/queracomputinginc/jobs/5227710008",
-  "posted": "2026-06-28",
+  "posted": "2026-10-26",
   "deadline": "",
   "term": "unspecified",
   "rank": "C",
@@ -14686,7 +14805,7 @@
   "title": "Internship - Scientific Software and Compilation",
   "location": "Boston, MA, USA",
   "url": "https://job-boards.greenhouse.io/queracomputinginc/jobs/5435902008",
-  "posted": "2026-10-01",
+  "posted": "2026-10-26",
   "deadline": "",
   "term": "unspecified",
   "rank": "C",
@@ -14703,7 +14822,7 @@
   "title": "Internship Inquiries ",
   "location": "Boston, MA, USA",
   "url": "https://job-boards.greenhouse.io/queracomputinginc/jobs/4182470008",
-  "posted": "2026-06-28",
+  "posted": "2026-10-26",
   "deadline": "",
   "term": "unspecified",
   "rank": "C",
@@ -14883,23 +15002,6 @@
    "smartrecruiters"
   ],
   "first_seen": "2026-10-14",
-  "last_seen": "2026-10-26"
- },
- {
-  "company": "Renesas",
-  "title": "Product Engineering Intern",
-  "location": "Morrisville, North Carolina, United States",
-  "url": "https://jobs.smartrecruiters.com/renesaselectronics/744000157838311",
-  "posted": "2026-10-26",
-  "deadline": "",
-  "term": "unspecified",
-  "rank": "C",
-  "hw": "product engineering",
-  "tier": "big",
-  "sources": [
-   "smartrecruiters"
-  ],
-  "first_seen": "2026-10-26",
   "last_seen": "2026-10-26"
  },
  {
@@ -15549,6 +15651,23 @@
   "last_seen": "2026-10-26"
  },
  {
+  "company": "Skyworks",
+  "title": "Physical Verification Intern",
+  "location": "Greensboro, USA    ",
+  "url": "https://careers.skyworksinc.com/job/Physical-Verification-Intern/78759-en_US",
+  "posted": "2026-10-26",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "verification",
+  "tier": "big",
+  "sources": [
+   "successfactors"
+  ],
+  "first_seen": "2026-10-26",
+  "last_seen": "2026-10-26"
+ },
+ {
   "company": "Stanley Consultants",
   "title": "Student Intern 2027 - Electrical Substation",
   "location": "Muscatine, IA, USA",
@@ -15648,6 +15767,23 @@
    "jobspy:linkedin"
   ],
   "first_seen": "2026-10-25",
+  "last_seen": "2026-10-26"
+ },
+ {
+  "company": "Texas Instruments",
+  "title": "Analog Design Eng Intern",
+  "location": "Santa Clara, CA, United States",
+  "url": "https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/25018682",
+  "posted": "2026-10-26",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "analog",
+  "tier": "big",
+  "sources": [
+   "oracle_hcm"
+  ],
+  "first_seen": "2026-10-26",
   "last_seen": "2026-10-26"
  },
  {
