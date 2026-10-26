@@ -130,6 +130,7 @@
   "hw": "electrical engineer",
   "tier": "big",
   "sources": [
+   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-09-17",
@@ -181,6 +182,7 @@
   "hw": "test engineer",
   "tier": "big",
   "sources": [
+   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-10-06",
@@ -1305,6 +1307,7 @@
   "hw": "electrical engineer",
   "tier": "big",
   "sources": [
+   "internlist:coop",
    "workday"
   ],
   "first_seen": "2026-09-18",
@@ -1322,6 +1325,7 @@
   "hw": "metrology",
   "tier": "big",
   "sources": [
+   "internlist:coop",
    "workday"
   ],
   "first_seen": "2026-09-18",
@@ -3262,7 +3266,9 @@
   "hw": "electrical engineering",
   "tier": "big",
   "sources": [
-   "greenhouse"
+   "greenhouse",
+   "internlist:coop",
+   "jobspy:linkedin"
   ],
   "first_seen": "2026-09-17",
   "last_seen": "2026-10-25"
@@ -4146,6 +4152,7 @@
   "hw": "silicon",
   "tier": "big",
   "sources": [
+   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-09-17",
@@ -9070,7 +9077,9 @@
   "hw": "firmware",
   "tier": "big",
   "sources": [
-   "greenhouse"
+   "greenhouse",
+   "internlist:coop",
+   "internlist:winter-spring"
   ],
   "first_seen": "2026-09-24",
   "last_seen": "2026-10-25"
@@ -12536,23 +12545,6 @@
   "last_seen": "2026-10-25"
  },
  {
-  "company": "Itron, Inc.",
-  "title": "Intern - Electrical Engineer (Winter, 2027)",
-  "location": "San Jose, CA, USA",
-  "url": "https://www.linkedin.com/jobs/view/4482773677",
-  "posted": "2026-10-22",
-  "deadline": "",
-  "term": "unspecified",
-  "rank": "C",
-  "hw": "electrical engineer",
-  "tier": "",
-  "sources": [
-   "jobspy:linkedin"
-  ],
-  "first_seen": "2026-10-23",
-  "last_seen": "2026-10-25"
- },
- {
   "company": "Jane Street",
   "title": "Hardware Engineer (FPGA/ASIC) Intern",
   "location": "New York, NY",
@@ -13914,23 +13906,6 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-25"
- },
- {
-  "company": "Micron Technology",
-  "title": "Intern - ATE Process Engineer ID1",
-  "location": "Boise, ID, USA",
-  "url": "https://www.linkedin.com/jobs/view/4473343194",
-  "posted": "2026-10-24",
-  "deadline": "",
-  "term": "unspecified",
-  "rank": "C",
-  "hw": "ate",
-  "tier": "",
-  "sources": [
-   "jobspy:linkedin"
-  ],
-  "first_seen": "2026-10-02",
   "last_seen": "2026-10-25"
  },
  {
@@ -15686,6 +15661,40 @@
  },
  {
   "company": "Skydio",
+  "title": "Autonomy Engineer Intern, 2027",
+  "location": "San Mateo, California, United States",
+  "url": "https://jobs.ashbyhq.com/skydio/d39c46ce-a4e9-45d2-99bf-17e3b7dac34b",
+  "posted": "2026-10-25",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "maybe",
+  "tier": "startup",
+  "sources": [
+   "ashby"
+  ],
+  "first_seen": "2026-10-25",
+  "last_seen": "2026-10-25"
+ },
+ {
+  "company": "Skydio",
+  "title": "Autonomy Engineer Intern, Computer Vision / Deep Learning, 2027",
+  "location": "San Mateo, California, United States",
+  "url": "https://jobs.ashbyhq.com/skydio/ae4a6f7d-a240-4fa2-8c8e-04cc906e4ef9",
+  "posted": "2026-09-03",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "maybe",
+  "tier": "startup",
+  "sources": [
+   "ashby"
+  ],
+  "first_seen": "2026-10-25",
+  "last_seen": "2026-10-25"
+ },
+ {
+  "company": "Skydio",
   "title": "Hardware Test and Reliability Intern",
   "location": "San Mateo, CA",
   "url": "https://go.vansh.nyc/By?s=y",
@@ -15697,6 +15706,40 @@
   "tier": "",
   "sources": [
    "github:vanshb03-summer"
+  ],
+  "first_seen": "2026-10-25",
+  "last_seen": "2026-10-25"
+ },
+ {
+  "company": "Skydio",
+  "title": "PhD Autonomy Engineer Intern - Deep Learning / Computer Vision, 2027",
+  "location": "San Mateo, California, United States",
+  "url": "https://jobs.ashbyhq.com/skydio/f1a72f5b-6157-47c1-8de9-379a32c7419f",
+  "posted": "2026-10-25",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "maybe",
+  "tier": "startup",
+  "sources": [
+   "ashby"
+  ],
+  "first_seen": "2026-10-25",
+  "last_seen": "2026-10-25"
+ },
+ {
+  "company": "Skydio",
+  "title": "PhD Autonomy Engineer Intern, 2027",
+  "location": "San Mateo, California, United States",
+  "url": "https://jobs.ashbyhq.com/skydio/fe26fdf8-15b2-44e6-8e43-ace13431453c",
+  "posted": "2026-10-25",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "maybe",
+  "tier": "startup",
+  "sources": [
+   "ashby"
   ],
   "first_seen": "2026-10-25",
   "last_seen": "2026-10-25"
@@ -15872,6 +15915,23 @@
   "last_seen": "2026-10-25"
  },
  {
+  "company": "Tessolve",
+  "title": "Post Silicon ATE Test Intern",
+  "location": "San Jose, CA, USA",
+  "url": "https://www.linkedin.com/jobs/view/4482693695",
+  "posted": "2026-10-25",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "ate,silicon",
+  "tier": "",
+  "sources": [
+   "jobspy:linkedin"
+  ],
+  "first_seen": "2026-10-25",
+  "last_seen": "2026-10-25"
+ },
+ {
   "company": "Texas Instruments",
   "title": "Analog Design Engineering Intern - ATD",
   "location": "Dallas, TX, United States",
@@ -15985,6 +16045,7 @@
   "hw": "digital design,verification",
   "tier": "big",
   "sources": [
+   "github:vanshb03-summer",
    "oracle_hcm"
   ],
   "first_seen": "2026-09-28",
@@ -16376,7 +16437,8 @@
   "hw": "electrical engineering",
   "tier": "startup",
   "sources": [
-   "greenhouse"
+   "greenhouse",
+   "jobspy:linkedin"
   ],
   "first_seen": "2026-09-17",
   "last_seen": "2026-10-25"

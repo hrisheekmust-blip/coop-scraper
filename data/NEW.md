@@ -1,10 +1,14 @@
 # New postings — 2026-10-25
 
-1 new of 972 tracked. Rank A = spring/Jan 2027 explicit, B = co-op with term unstated, C = intern with no term stated.
+5 new of 975 tracked. Rank A = spring/Jan 2027 explicit, B = co-op with term unstated, C = intern with no term stated.
 
 | Rank | Term | Company | Role | Location | Posted | Link |
 |---|---|---|---|---|---|---|
-| C | unspecified | Mach Industries | University Recruiter | Huntington Beach, California, United States | 2026-10-25 | [apply](https://job-boards.greenhouse.io/machindustries/jobs/4466802009) |
+| C | unspecified | Skydio | Autonomy Engineer Intern, Computer Vision / Deep Learning, 2027 | San Mateo, California, United States | 2026-09-03 | [apply](https://jobs.ashbyhq.com/skydio/ae4a6f7d-a240-4fa2-8c8e-04cc906e4ef9) |
+| C | unspecified | Skydio | PhD Autonomy Engineer Intern - Deep Learning / Computer Vision, 2027 | San Mateo, California, United States | 2026-10-25 | [apply](https://jobs.ashbyhq.com/skydio/f1a72f5b-6157-47c1-8de9-379a32c7419f) |
+| C | unspecified | Skydio | PhD Autonomy Engineer Intern, 2027 | San Mateo, California, United States | 2026-10-25 | [apply](https://jobs.ashbyhq.com/skydio/fe26fdf8-15b2-44e6-8e43-ace13431453c) |
+| C | unspecified | Skydio | Autonomy Engineer Intern, 2027 | San Mateo, California, United States | 2026-10-25 | [apply](https://jobs.ashbyhq.com/skydio/d39c46ce-a4e9-45d2-99bf-17e3b7dac34b) |
+| C | unspecified | Tessolve | Post Silicon ATE Test Intern | San Jose, CA, USA | 2026-10-25 | [apply](https://www.linkedin.com/jobs/view/4482693695) |
 
 ## All tracked
 
@@ -745,7 +749,6 @@
 | C | unspecified | Intel | Silicon Hardware Engineering - Intern, Graduate | 5 Locations | Posted 30+ Days Ago | [apply](https://intel.wd1.myworkdayjobs.com/External/job/US-Oregon-Hillsboro/Silicon-Hardware-Engineering---Intern--Graduate_JR0286830) |
 | C | unspecified | Interstates | Electrical & Automation Estimating Intern | Sioux Center, IA, USA; Sioux Falls, SD, USA | 2026-09-14 | [apply](https://simplify.jobs/jobs/click/7bc7fb15-9046-4548-a8c3-cfc1035174e3) |
 | C | unspecified | Interstates | Instrumentation & Electrical Intern | United States | 2026-09-08 | [apply](https://simplify.jobs/jobs/click/a6f77a50-07d3-4fba-be19-30a6c063f2cd) |
-| C | unspecified | Itron, Inc. | Intern - Electrical Engineer (Winter, 2027) | San Jose, CA, USA | 2026-10-22 | [apply](https://www.linkedin.com/jobs/view/4482773677) |
 | C | unspecified | Jane Street | Hardware Engineer (FPGA/ASIC) Intern | New York, NY | Jul 24 | [apply](https://go.vansh.nyc/44?s=y) |
 | C | unspecified | John Deere | Software Engineer Student Intern, Product Engineering | Cary, NC | Oct 21 | [apply](https://go.vansh.nyc/dW?s=y) |
 | C | unspecified | Johns Hopkins Applied Physics Laboratory | 2027 Internship - Radio Frequency (RF) Systems Test Engineer - Electronic Warfare | Laurel, MD, USA | 2026-10-23 | [apply](https://www.linkedin.com/jobs/view/4480674950) |
@@ -826,7 +829,6 @@
 | C | unspecified | Micron Technology | Digital Design Engineer Intern | Minneapolis, MN, USA | 2026-09-18 | [apply](https://simplify.jobs/jobs/click/2e6978bb-ece5-4ba5-9ed6-b6b11bed2627) |
 | C | unspecified | Micron Technology | Electrical Engineer Intern | Boise, ID, USA | 2026-09-01 | [apply](https://simplify.jobs/jobs/click/1332c5af-a188-4adc-b53a-332d33165496) |
 | C | unspecified | Micron Technology | HBM SoC Physical Design Engineer Intern | Folsom, CA, USA | 2026-09-15 | [apply](https://simplify.jobs/jobs/click/563ce3fa-deec-437a-883e-6c9179763ddc) |
-| C | unspecified | Micron Technology | Intern - ATE Process Engineer ID1 | Boise, ID, USA | 2026-10-24 | [apply](https://www.linkedin.com/jobs/view/4473343194) |
 | C | unspecified | Micron Technology | Intern - Yield Technology Equipment | Boise, ID, USA | 2026-10-25 | [apply](https://www.linkedin.com/jobs/view/4456207831) |
 | C | unspecified | Micron Technology | Process Engineer 1 Intern | Boise, ID, USA | 2026-09-17 | [apply](https://simplify.jobs/jobs/click/83636c41-0139-42d0-9112-48f060acdf56) |
 | C | unspecified | Micron Technology | Process Engineer Intern | Boise, ID, USA | 2026-09-23 | [apply](https://simplify.jobs/jobs/click/4d195743-341d-4a80-b38f-12a24eb12dc7) |
@@ -930,7 +932,11 @@
 | C | unspecified | Semtech | Digital IC Design Engineering Intern | CAN - Burlington, ON | Posted 30+ Days Ago | [apply](https://semtech.wd1.myworkdayjobs.com/SemtechCareers/job/CAN---Burlington-ON/Digital-IC-Design-Engineering-Intern_REQ3621) |
 | C | unspecified | Semtech | Validation Engineering Intern | CAN - Burlington, ON | Posted 30+ Days Ago | [apply](https://semtech.wd1.myworkdayjobs.com/SemtechCareers/job/CAN---Burlington-ON/Validation-Engineering-Intern_REQ3628) |
 | C | unspecified | SiFive | Intern - Design Verification Infrastructure Engineer - Platform | 4 Locations |  | [apply](https://sifive.wd1.myworkdayjobs.com/sifivecareers/job/Santa-Clara-California-United-States/Intern---Design-Verification-Infrastructure-Engineer---Platform_R-101291-1) |
+| C | unspecified | Skydio | Autonomy Engineer Intern, 2027 | San Mateo, California, United States | 2026-10-25 | [apply](https://jobs.ashbyhq.com/skydio/d39c46ce-a4e9-45d2-99bf-17e3b7dac34b) |
+| C | unspecified | Skydio | Autonomy Engineer Intern, Computer Vision / Deep Learning, 2027 | San Mateo, California, United States | 2026-09-03 | [apply](https://jobs.ashbyhq.com/skydio/ae4a6f7d-a240-4fa2-8c8e-04cc906e4ef9) |
 | C | unspecified | Skydio | Hardware Test and Reliability Intern | San Mateo, CA | Oct 25 | [apply](https://go.vansh.nyc/By?s=y) |
+| C | unspecified | Skydio | PhD Autonomy Engineer Intern - Deep Learning / Computer Vision, 2027 | San Mateo, California, United States | 2026-10-25 | [apply](https://jobs.ashbyhq.com/skydio/f1a72f5b-6157-47c1-8de9-379a32c7419f) |
+| C | unspecified | Skydio | PhD Autonomy Engineer Intern, 2027 | San Mateo, California, United States | 2026-10-25 | [apply](https://jobs.ashbyhq.com/skydio/fe26fdf8-15b2-44e6-8e43-ace13431453c) |
 | C | unspecified | Skydio | Wireless Hardware Engineer Intern | San Mateo, CA | Oct 25 | [apply](https://go.vansh.nyc/i?s=y) |
 | C | unspecified | Skyworks | Analog Design Intern | Austin, TX, USA     | 2026-08-18 | [apply](https://careers.skyworksinc.com/job/Analog-Design-Intern/78173-en_US) |
 | C | unspecified | Skyworks | Analog/Mixed-Signal Intern | Nashua, NH, USA     | 2026-09-30 | [apply](https://careers.skyworksinc.com/job/AnalogMixed-Signal-Intern/78414-en_US) |
@@ -941,6 +947,7 @@
 | C | unspecified | Stryker | Electrical Engineering Intern | Weston, FL, USA | 2026-09-02 | [apply](https://simplify.jobs/jobs/click/61029f11-ef86-4f8a-bf15-92d10b7cf4dc) |
 | C | unspecified | Tesla | Chassis Integration Engineer Intern, Vehicle Firmware | Palo Alto, CA | Aug 08 | [apply](https://go.vansh.nyc/u?s=z) |
 | C | unspecified | Tesla | Chassis Validation Engineer Intern, Vehicle Firmware | Palo Alto, CA | Aug 08 | [apply](https://go.vansh.nyc/q?s=z) |
+| C | unspecified | Tessolve | Post Silicon ATE Test Intern | San Jose, CA, USA | 2026-10-25 | [apply](https://www.linkedin.com/jobs/view/4482693695) |
 | C | unspecified | Texas Instruments | Analog Design Engineering Intern - ATD | Dallas, TX, United States | 2026-10-07 | [apply](https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/25015924) |
 | C | unspecified | Texas Instruments | Analog IC Design Engineer Intern | Knoxville, TN, USA; Dallas, TX, USA; Phoenix, AZ, USA | 2026-09-03 | [apply](https://simplify.jobs/jobs/click/a4885be4-c0d8-4714-bec6-11f1d0d763de) |
 | C | unspecified | Texas Instruments | Analog IC Design Engineering Intern | Knoxville, TN, USA; Dallas, TX, USA; Phoenix, AZ, USA | 2026-09-03 | [apply](https://simplify.jobs/jobs/click/9b863925-a24a-403b-982f-18403d027333) |
