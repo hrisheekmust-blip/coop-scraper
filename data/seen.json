@@ -7365,13 +7365,13 @@
 },
 "https://simplify.jobs/jobs/click/65969adc-cfb4-4ea7-aa7b-24cabf200d29": {
 "first_seen": "2026-09-24",
-"title": "RF Engineer Intern",
+"title": "RF Engineering Intern",
 "company": "Keysight Technologies",
 "desc": ""
 },
 "https://simplify.jobs/jobs/click/4aa62c62-3f0b-4713-bb23-b4c49825f562": {
 "first_seen": "2026-09-24",
-"title": "Analog and Mixed Signal Integrated Circuit Design Engineer Intern",
+"title": "Analog and Mixed Signal IC Design Engineer Intern",
 "company": "Keysight Technologies",
 "desc": ""
 },
@@ -7989,7 +7989,7 @@
 },
 "https://simplify.jobs/jobs/click/47ab5c65-0421-4e8d-b3b1-e69e947c141b": {
 "first_seen": "2026-09-25",
-"title": "Semiconductor Advanced Packaging Process Engineering Intern",
+"title": "Semiconductor Advanced Packaging Process Engineer Intern",
 "company": "Keysight Technologies",
 "desc": ""
 },
@@ -10677,7 +10677,7 @@
 },
 "https://simplify.jobs/jobs/click/7a03fb73-759e-4d0e-8ee5-88b533ee7892": {
 "first_seen": "2026-10-02",
-"title": "Radio Frequency IC Designer Intern",
+"title": "RF IC Designer Intern",
 "company": "Keysight Technologies",
 "desc": ""
 },
@@ -17255,6 +17255,36 @@
 "first_seen": "2026-10-27",
 "title": "Co-Op, Characterization Electrodeposited Material",
 "company": "Lila Sciences",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/dce27784-6ae2-4045-83b4-9f796fffcc25": {
+"first_seen": "2026-10-27",
+"title": "Electrical Engineering Co-op",
+"company": "Entergy",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/2f95ea2c-6a79-450f-944b-c6d755deeba2": {
+"first_seen": "2026-10-27",
+"title": "Optical Engineer Co-op",
+"company": "QuEra Computing",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/09d4f22e-3567-4a74-a8d4-96828dc3434b": {
+"first_seen": "2026-10-27",
+"title": "Manufacturing Electrical Engineer Co-op",
+"company": "RTX",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4484019193": {
+"first_seen": "2026-10-27",
+"title": "Hardware Engineering Intern",
+"company": "Hewlett Packard Enterprise",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4483271472": {
+"first_seen": "2026-10-27",
+"title": "Process Engineer Intern",
+"company": "Abstrax Tech, Inc",
 "desc": ""
 }
 }
