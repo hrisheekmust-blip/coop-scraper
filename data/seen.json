@@ -635,8 +635,8 @@
 },
 "https://www.indeed.com/viewjob": {
 "first_seen": "2026-09-18",
-"title": "Process Engineering Intern",
-"company": "Skyworks Solutions",
+"title": "2027 Internship - Formal Verification Engineer",
+"company": "Cirrus Logic",
 "desc": ""
 },
 "https://www.linkedin.com/jobs/view/4468697840": {
@@ -6231,7 +6231,7 @@
 },
 "https://simplify.jobs/jobs/click/d433ab93-3907-41ab-b8b2-8cd84eeb91ea": {
 "first_seen": "2026-09-22",
-"title": "Semiconductor Process Engineering Intern",
+"title": "Semiconductor Process Engineer Intern",
 "company": "Keysight Technologies",
 "desc": ""
 },
@@ -17345,6 +17345,78 @@
 "first_seen": "2026-10-27",
 "title": "Engineering Co-Op",
 "company": "Thermo Fisher Scientific",
+"desc": ""
+},
+"https://careers.skyworksinc.com/job/Test-Engineering-Intern/78712-en_US": {
+"first_seen": "2026-10-27",
+"title": "Test Engineering Intern",
+"company": "Skyworks",
+"desc": ""
+},
+"https://careers.skyworksinc.com/job/Characterization-Engineering-Intern/78713-en_US": {
+"first_seen": "2026-10-27",
+"title": "Characterization Engineering Intern",
+"company": "Skyworks",
+"desc": ""
+},
+"https://go.vansh.nyc/VP": {
+"first_seen": "2026-10-27",
+"title": "Product Yield Software Engineer Intern",
+"company": "Micron Technology",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4466111463": {
+"first_seen": "2026-10-27",
+"title": "Electrical Engineering Co-op: Power",
+"company": "GPD Group",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4465791678": {
+"first_seen": "2026-10-27",
+"title": "Electrical Design Engineering Co-op",
+"company": "GPD Group",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4483673729": {
+"first_seen": "2026-10-27",
+"title": "Co-op -Embedded Test Engineer - Murrysville, PA-January-June 2027",
+"company": "Philips",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4481888867": {
+"first_seen": "2026-10-27",
+"title": "Electrical Engineering Intern",
+"company": "Mechronix",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4484212591": {
+"first_seen": "2026-10-27",
+"title": "Graduate Engineering Intern - Electronics",
+"company": "Mayo Clinic",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4484090252": {
+"first_seen": "2026-10-27",
+"title": "Intern",
+"company": "Skyworks Solutions, Inc.",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4484237462": {
+"first_seen": "2026-10-27",
+"title": "Electrical Design Engineer Intern (Spring 2027)",
+"company": "Peak Energy",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4484077975": {
+"first_seen": "2026-10-27",
+"title": "System Engineering Intern",
+"company": "MACOM",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4483666145": {
+"first_seen": "2026-10-27",
+"title": "Power Electronics & Motor Controls Engineering Intern",
+"company": "Wright Electric",
 "desc": ""
 }
 }
