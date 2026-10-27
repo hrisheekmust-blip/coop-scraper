@@ -3819,7 +3819,7 @@
 },
 "https://www.zipline.com/open-roles/7896577003": {
 "first_seen": "2026-09-18",
-"title": "Video Production and Social Media Intern (Spring 2027)",
+"title": "Video Production Intern (Spring 2027)",
 "company": "Zipline",
 "desc": ""
 },
@@ -17291,6 +17291,60 @@
 "first_seen": "2026-10-27",
 "title": "Part Time Systems Engineer Co-Op (Remote)",
 "company": "RTX",
+"desc": ""
+},
+"https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/IL---Petah-Tikva/Design-Verification--Intern_2604486": {
+"first_seen": "2026-10-27",
+"title": "Design Verification- Intern",
+"company": "Marvell",
+"desc": "  About Marvell   Marvell\u2019s semiconductor solutions are the essential building blocks of the data infrastructure that connects our world. Across enterprise, cloud and AI, and carrier architectures, our innovative technology is enabling new possibilities.\u00a0    At Marvell, you can affect the arc of individual lives, lift the trajectory of entire industries, and fuel the transformative potential of tomorrow. For those looking to make their mark on purposeful and enduring innovation, above and beyond fleeting trends, Marvell is a place to thrive, learn, and lead.\u00a0     Your Team, Your Impact  Join a highly skilled development team, driving the development of Marvell's next-generation network switches. Our team is responsible for a wide range of IPs for switching products, from initial definition through architecture, design, and verification. As an intern, you will learn switch architecture, design and verification development tools and modern methodologies. You will be doing hands-on development tasks and learn to become an experienced engineer. You will learn system verilog, UVM, Python, C++, using AI tools, and how to implement and verify complex features. You will investigate and implement new protocols and features and verify them to tapeout quality. We are looking for excellent students, able to handle complex problems, with excellent people relations and collaboration skills.    What You Can Expect    Implement new design and verification features.  Reach high-frequency, hig"
+},
+"https://bostondynamics.wd1.myworkdayjobs.com/Boston_Dynamics/job/Waltham-Office-POST/Electrical-Engineer-Co-Op_R3315": {
+"first_seen": "2026-10-27",
+"title": "Electrical Engineer Co-Op",
+"company": "Boston Dynamics",
+"desc": "  As an Electrical Engineering Co-Op you will work with the Atlas Electrical Engineering team to help design, build, and troubleshoot compact electrical systems in robots.\u00a0      Boston Dynamics is a world leader in mobile robots, tackling some of the toughest robotics challenges. For years, our awe-inspiring       viral videos on YouTube       have shown the world what remarkably capable robots can do. Now we are quickly becoming a recognized leader in automation solutions for industrial applications, logistics and warehouses.\u00a0       How you will make an impact:      Work within a multidisciplinary team of mechanical, electrical, and software engineers to help design and support complex robotic systems    Assist with the design, prototyping, and testing of various circuit boards and electromechanical subassemblies    Troubleshoot and root cause challenging electrical and systems problems       We are looking for:      Actively pursuing a BS or MS in Electrical Engineering or a similar field    Familiarity with reading schematics and circuit fundamentals    Strong analytical and problem solving skills    Experience with Python or MATLAB    Experience working hands-on with electronics and related lab equipment such as oscilloscopes, power supplies, multimeters, and soldering equipment     Strong written and verbal communication skills        Nice to have:      Experience using schematic capture and PCB layout software    Experience with microcontrollers    Experience with power"
+},
+"https://careers.skyworksinc.com/job/Software-Characterization-Engineering-Intern/78785-en_US": {
+"first_seen": "2026-10-27",
+"title": "Software Characterization Engineering Intern",
+"company": "Skyworks",
+"desc": ""
+},
+"https://careers.skyworksinc.com/job/RF-Design-Engineering-Intern/78790-en_US": {
+"first_seen": "2026-10-27",
+"title": "RF Design Engineering Intern",
+"company": "Skyworks",
+"desc": ""
+},
+"https://careers.skyworksinc.com/job/Analog-Design-Engineering-Intern/78736-en_US": {
+"first_seen": "2026-10-27",
+"title": "Analog Design Engineering Intern",
+"company": "Skyworks",
+"desc": ""
+},
+"https://asml.wd3.myworkdayjobs.com/ASMLEXT1/job/San-Jose-CA-USA/Internship--Imaging-product-engineer_J-00355220": {
+"first_seen": "2026-10-27",
+"title": "Internship- Imaging product engineer",
+"company": "ASML",
+"desc": "  Introduction   The Imaging Engineering Intern role supports ASML's mission to advance lithography technology through innovative software and imaging solutions. You will work with experienced engineers to evaluate advanced deep ultraviolet (DUV) and extreme ultraviolet (EUV) imaging concepts, perform feasibility studies, and contribute to software solutions that help customers tackle increasingly complex semiconductor manufacturing challenges. This internship provides valuable exposure to computational lithography, imaging algorithms, simulation technologies, and product development in a collaborative engineering environment.    Roles and Responsibilities   As a Imaging Engineering Intern, you will support imaging product engineering activities focused on computational lithography and advanced scanner technologies. You will collaborate with cross-functional teams to investigate new concepts, develop software capabilities, and generate data-driven insights that support future product innovation.    Conduct feasibility studies related to advanced DUV and EUV imaging technologies.  Support computational lithography investigations through modeling, simulation, and data analysis.  Perform prototype testing and generate technical data to evaluate imaging concepts and software features.  Develop and enhance software functionality that meets customer requirements and product specifications.  Create and maintain technical documentation, including user guides and engineering reports. "
+},
+"https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-IA-CEDAR-RAPIDS-108--400-Collins-Rd-NE--BLDG-108/Product-Quality-Engineering-Co-Op--Spring-Summer-2027-_01885440": {
+"first_seen": "2026-10-27",
+"title": "Product Quality Engineering Co-Op (Spring/Summer 2027)",
+"company": "RTX",
+"desc": ""
+},
+"https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-FL-ST-PETERSBURG-381BD--7401-22nd-Ave-N--BLDG-D/Systems-Engineering-Co-op_01884435": {
+"first_seen": "2026-10-27",
+"title": "Systems Engineering Co-op",
+"company": "RTX",
+"desc": ""
+},
+"https://jobs.thermofisher.com/global/en/job/R-01372098/engineering-co-op": {
+"first_seen": "2026-10-27",
+"title": "Engineering Co-Op",
+"company": "Thermo Fisher Scientific",
 "desc": ""
 }
 }
