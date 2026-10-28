@@ -1,17 +1,17 @@
 {
  "SpaceX": {
-  "best": 2838,
+  "best": 2846,
   "zero_runs": 0,
   "fail_runs": 0,
   "err": "",
-  "last_n": 2838
+  "last_n": 2846
  },
  "Astera Labs": {
   "best": 185,
   "zero_runs": 0,
   "fail_runs": 0,
   "err": "",
-  "last_n": 179
+  "last_n": 177
  },
  "Lightmatter": {
   "best": 68,
@@ -32,7 +32,7 @@
   "zero_runs": 0,
   "fail_runs": 0,
   "err": "",
-  "last_n": 2535
+  "last_n": 2540
  },
  "Hudson River Trading": {
   "best": 90,
@@ -60,35 +60,35 @@
   "zero_runs": 0,
   "fail_runs": 0,
   "err": "",
-  "last_n": 169
+  "last_n": 168
  },
  "Optiver": {
   "best": 172,
   "zero_runs": 0,
   "fail_runs": 0,
   "err": "",
-  "last_n": 158
+  "last_n": 157
  },
  "Zipline": {
   "best": 357,
   "zero_runs": 0,
   "fail_runs": 0,
   "err": "",
-  "last_n": 346
+  "last_n": 343
  },
  "Relativity Space": {
   "best": 405,
   "zero_runs": 0,
   "fail_runs": 0,
   "err": "",
-  "last_n": 405
+  "last_n": 404
  },
  "PsiQuantum": {
   "best": 80,
   "zero_runs": 0,
   "fail_runs": 0,
   "err": "",
-  "last_n": 78
+  "last_n": 80
  },
  "IonQ": {
   "best": 137,
@@ -102,14 +102,14 @@
   "zero_runs": 0,
   "fail_runs": 0,
   "err": "",
-  "last_n": 319
+  "last_n": 316
  },
  "Waymo": {
   "best": 375,
   "zero_runs": 0,
   "fail_runs": 0,
   "err": "",
-  "last_n": 369
+  "last_n": 370
  },
  "Nuro": {
   "best": 110,
@@ -123,21 +123,21 @@
   "zero_runs": 0,
   "fail_runs": 0,
   "err": "",
-  "last_n": 438
+  "last_n": 442
  },
  "Epirus": {
   "best": 44,
   "zero_runs": 0,
   "fail_runs": 0,
   "err": "",
-  "last_n": 38
+  "last_n": 39
  },
  "Astranis": {
-  "best": 186,
+  "best": 187,
   "zero_runs": 0,
   "fail_runs": 0,
   "err": "",
-  "last_n": 186
+  "last_n": 187
  },
  "Vast": {
   "best": 211,
@@ -151,7 +151,7 @@
   "zero_runs": 0,
   "fail_runs": 0,
   "err": "",
-  "last_n": 130
+  "last_n": 127
  },
  "Muon Space": {
   "best": 146,
@@ -165,7 +165,7 @@
   "zero_runs": 0,
   "fail_runs": 0,
   "err": "",
-  "last_n": 556
+  "last_n": 554
  },
  "Apptronik": {
   "best": 87,
@@ -189,11 +189,11 @@
   "last_n": 69
  },
  "SambaNova": {
-  "best": 69,
+  "best": 71,
   "zero_runs": 0,
   "fail_runs": 0,
   "err": "",
-  "last_n": 69
+  "last_n": 71
  },
  "Varda Space": {
   "best": 120,
@@ -242,35 +242,35 @@
   "zero_runs": 0,
   "fail_runs": 0,
   "err": "",
-  "last_n": 46
+  "last_n": 47
  },
  "Planet Labs": {
   "best": 132,
   "zero_runs": 0,
   "fail_runs": 0,
   "err": "",
-  "last_n": 132
+  "last_n": 131
  },
  "Scale AI": {
   "best": 224,
   "zero_runs": 0,
   "fail_runs": 0,
   "err": "",
-  "last_n": 169
+  "last_n": 171
  },
  "Anthropic": {
   "best": 683,
   "zero_runs": 0,
   "fail_runs": 0,
   "err": "",
-  "last_n": 678
+  "last_n": 680
  },
  "May Mobility": {
   "best": 47,
   "zero_runs": 0,
   "fail_runs": 0,
   "err": "",
-  "last_n": 40
+  "last_n": 38
  },
  "Glydways": {
   "best": 25,
@@ -284,7 +284,7 @@
   "zero_runs": 0,
   "fail_runs": 0,
   "err": "",
-  "last_n": 20
+  "last_n": 18
  },
  "Rigetti": {
   "best": 17,
@@ -312,14 +312,14 @@
   "zero_runs": 0,
   "fail_runs": 0,
   "err": "",
-  "last_n": 660
+  "last_n": 657
  },
  "Zoox": {
   "best": 243,
   "zero_runs": 0,
   "fail_runs": 0,
   "err": "",
-  "last_n": 228
+  "last_n": 227
  },
  "Aeva": {
   "best": 45,
@@ -333,7 +333,7 @@
   "zero_runs": 0,
   "fail_runs": 0,
   "err": "",
-  "last_n": 79
+  "last_n": 78
  },
  "Dexterity": {
   "best": 30,
@@ -361,7 +361,7 @@
   "zero_runs": 0,
   "fail_runs": 0,
   "err": "",
-  "last_n": 117
+  "last_n": 119
  },
  "d-Matrix": {
   "best": 44,
@@ -389,7 +389,7 @@
   "zero_runs": 0,
   "fail_runs": 0,
   "err": "",
-  "last_n": 135
+  "last_n": 134
  },
  "Specter": {
   "best": 39,
@@ -417,14 +417,14 @@
   "zero_runs": 0,
   "fail_runs": 0,
   "err": "",
-  "last_n": 96
+  "last_n": 94
  },
  "Skydio": {
   "best": 176,
   "zero_runs": 0,
   "fail_runs": 0,
   "err": "",
-  "last_n": 174
+  "last_n": 173
  },
  "Form Energy": {
   "best": 212,
@@ -452,7 +452,7 @@
   "zero_runs": 0,
   "fail_runs": 0,
   "err": "",
-  "last_n": 103
+  "last_n": 102
  },
  "Impulse Space": {
   "best": 3,
@@ -466,7 +466,7 @@
   "zero_runs": 0,
   "fail_runs": 0,
   "err": "",
-  "last_n": 326
+  "last_n": 327
  },
  "OpenAI": {
   "best": 841,
@@ -501,14 +501,14 @@
   "zero_runs": 0,
   "fail_runs": 0,
   "err": "",
-  "last_n": 90
+  "last_n": 91
  },
  "Analog Devices": {
   "best": 101,
   "zero_runs": 0,
   "fail_runs": 0,
   "err": "",
-  "last_n": 99
+  "last_n": 98
  },
  "Marvell": {
   "best": 73,
@@ -536,7 +536,7 @@
   "zero_runs": 0,
   "fail_runs": 0,
   "err": "",
-  "last_n": 91
+  "last_n": 90
  },
  "Silicon Labs": {
   "best": 66,
@@ -550,7 +550,7 @@
   "zero_runs": 0,
   "fail_runs": 0,
   "err": "",
-  "last_n": 372
+  "last_n": 373
  },
  "Allegro MicroSystems": {
   "best": 67,
@@ -571,7 +571,7 @@
   "zero_runs": 0,
   "fail_runs": 0,
   "err": "",
-  "last_n": 137
+  "last_n": 138
  },
  "Draper": {
   "best": 75,
@@ -585,7 +585,7 @@
   "zero_runs": 0,
   "fail_runs": 0,
   "err": "",
-  "last_n": 56
+  "last_n": 57
  },
  "KLA": {
   "best": 147,
@@ -595,11 +595,11 @@
   "last_n": 109
  },
  "Applied Materials": {
-  "best": 140,
+  "best": 141,
   "zero_runs": 0,
   "fail_runs": 0,
   "err": "",
-  "last_n": 140
+  "last_n": 141
  },
  "Cadence": {
   "best": 104,
@@ -609,57 +609,57 @@
   "last_n": 103
  },
  "Cisco": {
-  "best": 707,
+  "best": 709,
   "zero_runs": 0,
   "fail_runs": 0,
   "err": "",
-  "last_n": 707
+  "last_n": 709
  },
  "Samsung Semiconductor": {
   "best": 147,
   "zero_runs": 0,
   "fail_runs": 0,
   "err": "",
-  "last_n": 131
+  "last_n": 132
  },
  "Texas Instruments": {
   "best": 592,
   "zero_runs": 0,
   "fail_runs": 0,
   "err": "",
-  "last_n": 527
+  "last_n": 531
  },
  "onsemi": {
   "best": 398,
   "zero_runs": 0,
   "fail_runs": 0,
   "err": "",
-  "last_n": 382
+  "last_n": 387
  },
  "Skyworks": {
-  "best": 283,
+  "best": 287,
   "zero_runs": 0,
   "fail_runs": 0,
   "err": "",
-  "last_n": 283
+  "last_n": 287
  },
  "Teradyne": {
   "best": 0,
   "zero_runs": 0,
-  "fail_runs": 312,
+  "fail_runs": 313,
   "err": "HTTPError: HTTP Error 401: 401",
   "last_n": 0
  },
  "Infineon": {
   "best": 0,
   "zero_runs": 0,
-  "fail_runs": 312,
+  "fail_runs": 313,
   "err": "HTTPError: HTTP Error 403: FORBIDDEN",
   "last_n": 0
  },
  "AMD": {
   "best": 0,
-  "zero_runs": 310,
+  "zero_runs": 311,
   "fail_runs": 0,
   "err": "",
   "last_n": 0
@@ -695,20 +695,20 @@
  "Micron": {
   "best": 0,
   "zero_runs": 0,
-  "fail_runs": 312,
+  "fail_runs": 313,
   "err": "HTTPError: HTTP Error 403: FORBIDDEN",
   "last_n": 0
  },
  "Qualcomm": {
   "best": 0,
   "zero_runs": 0,
-  "fail_runs": 312,
+  "fail_runs": 313,
   "err": "HTTPError: HTTP Error 403: FORBIDDEN",
   "last_n": 0
  },
  "Keysight": {
   "best": 0,
-  "zero_runs": 311,
+  "zero_runs": 312,
   "fail_runs": 0,
   "err": "",
   "last_n": 0
@@ -718,19 +718,19 @@
   "zero_runs": 0,
   "fail_runs": 0,
   "err": "",
-  "last_n": 350
+  "last_n": 349
  },
  "Lam Research": {
   "best": 0,
   "zero_runs": 0,
-  "fail_runs": 311,
+  "fail_runs": 312,
   "err": "HTTPError: HTTP Error 403: FORBIDDEN",
   "last_n": 0
  },
  "Qorvo": {
   "best": 0,
   "zero_runs": 0,
-  "fail_runs": 311,
+  "fail_runs": 312,
   "err": "HTTPError: HTTP Error 401: 401",
   "last_n": 0
  },
@@ -739,7 +739,7 @@
   "zero_runs": 0,
   "fail_runs": 0,
   "err": "",
-  "last_n": 960
+  "last_n": 958
  },
  "GlobalFoundries": {
   "best": 81,
@@ -750,14 +750,14 @@
  },
  "Arm": {
   "best": 0,
-  "zero_runs": 310,
+  "zero_runs": 311,
   "fail_runs": 0,
   "err": "",
   "last_n": 0
  },
  "Rambus": {
   "best": 0,
-  "zero_runs": 310,
+  "zero_runs": 311,
   "fail_runs": 0,
   "err": "",
   "last_n": 0
@@ -771,7 +771,7 @@
  },
  "MaxLinear": {
   "best": 0,
-  "zero_runs": 310,
+  "zero_runs": 311,
   "fail_runs": 0,
   "err": "",
   "last_n": 0
@@ -786,7 +786,7 @@
  "Vicor": {
   "best": 0,
   "zero_runs": 0,
-  "fail_runs": 311,
+  "fail_runs": 312,
   "err": "HTTPError: HTTP Error 401: 401",
   "last_n": 0
  },
@@ -802,40 +802,40 @@
   "zero_runs": 0,
   "fail_runs": 0,
   "err": "",
-  "last_n": 65
+  "last_n": 66
  },
  "Entegris": {
   "best": 96,
   "zero_runs": 0,
   "fail_runs": 0,
   "err": "",
-  "last_n": 77
+  "last_n": 76
  },
  "ASML": {
-  "best": 583,
+  "best": 590,
   "zero_runs": 0,
   "fail_runs": 0,
   "err": "",
-  "last_n": 583
+  "last_n": 590
  },
  "FormFactor": {
   "best": 78,
   "zero_runs": 0,
   "fail_runs": 0,
   "err": "",
-  "last_n": 76
+  "last_n": 77
  },
  "Onto Innovation": {
   "best": 205,
   "zero_runs": 0,
   "fail_runs": 0,
   "err": "",
-  "last_n": 201
+  "last_n": 202
  },
  "MIT Lincoln Laboratory": {
   "best": 0,
   "zero_runs": 0,
-  "fail_runs": 311,
+  "fail_runs": 312,
   "err": "HTTPError: HTTP Error 401: 401",
   "last_n": 0
  },
@@ -844,12 +844,12 @@
   "zero_runs": 0,
   "fail_runs": 0,
   "err": "",
-  "last_n": 983
+  "last_n": 977
  },
  "Lockheed Martin": {
   "best": 0,
   "zero_runs": 0,
-  "fail_runs": 311,
+  "fail_runs": 312,
   "err": "HTTPError: HTTP Error 403: FORBIDDEN",
   "last_n": 0
  },
@@ -861,18 +861,18 @@
   "last_n": 668
  },
  "Boeing": {
-  "best": 139,
+  "best": 141,
   "zero_runs": 0,
   "fail_runs": 0,
   "err": "",
-  "last_n": 139
+  "last_n": 141
  },
  "GE Aerospace": {
   "best": 549,
   "zero_runs": 0,
   "fail_runs": 0,
   "err": "",
-  "last_n": 542
+  "last_n": 549
  },
  "Bose": {
   "best": 71,
@@ -884,14 +884,14 @@
  "iRobot": {
   "best": 0,
   "zero_runs": 0,
-  "fail_runs": 311,
+  "fail_runs": 312,
   "err": "HTTPError: HTTP Error 422: Unprocessable Entity",
   "last_n": 0
  },
  "Dell": {
   "best": 0,
   "zero_runs": 0,
-  "fail_runs": 311,
+  "fail_runs": 312,
   "err": "HTTPError: HTTP Error 422: Unprocessable Entity",
   "last_n": 0
  },
@@ -900,7 +900,7 @@
   "zero_runs": 0,
   "fail_runs": 0,
   "err": "",
-  "last_n": 100
+  "last_n": 101
  },
  "SiFive": {
   "best": 75,
@@ -912,7 +912,7 @@
  "Groq": {
   "best": 0,
   "zero_runs": 0,
-  "fail_runs": 311,
+  "fail_runs": 312,
   "err": "HTTPError: HTTP Error 404: Not Found",
   "last_n": 0
  },
@@ -925,28 +925,28 @@
  },
  "Garmin": {
   "best": 0,
-  "zero_runs": 309,
+  "zero_runs": 310,
   "fail_runs": 0,
   "err": "",
   "last_n": 0
  },
  "Sonos": {
-  "best": 54,
+  "best": 56,
   "zero_runs": 0,
   "fail_runs": 0,
   "err": "",
-  "last_n": 54
+  "last_n": 56
  },
  "Eaton": {
   "best": 0,
   "zero_runs": 0,
-  "fail_runs": 311,
+  "fail_runs": 312,
   "err": "HTTPError: HTTP Error 403: FORBIDDEN",
   "last_n": 0
  },
  "Waters Corporation": {
   "best": 0,
-  "zero_runs": 306,
+  "zero_runs": 307,
   "fail_runs": 0,
   "err": "",
   "last_n": 0
@@ -954,16 +954,16 @@
  "Symbotic": {
   "best": 0,
   "zero_runs": 0,
-  "fail_runs": 311,
+  "fail_runs": 312,
   "err": "HTTPError: HTTP Error 422: Unprocessable Entity",
   "last_n": 0
  },
  "Commonwealth Fusion Systems": {
-  "best": 134,
+  "best": 136,
   "zero_runs": 0,
   "fail_runs": 0,
   "err": "",
-  "last_n": 134
+  "last_n": 136
  },
  "ChipAgents": {
   "best": 16,
@@ -975,7 +975,7 @@
  "Atomic Semi": {
   "best": 0,
   "zero_runs": 0,
-  "fail_runs": 311,
+  "fail_runs": 312,
   "err": "HTTPError: HTTP Error 404: Not Found",
   "last_n": 0
  },
@@ -1019,11 +1019,11 @@
   "zero_runs": 0,
   "fail_runs": 0,
   "err": "",
-  "last_n": 73
+  "last_n": 74
  },
  "Alphawave Semi": {
   "best": 0,
-  "zero_runs": 310,
+  "zero_runs": 311,
   "fail_runs": 0,
   "err": "",
   "last_n": 0
@@ -1047,21 +1047,21 @@
   "zero_runs": 0,
   "fail_runs": 0,
   "err": "",
-  "last_n": 149
+  "last_n": 147
  },
  "Curtiss-Wright": {
   "best": 102,
   "zero_runs": 0,
   "fail_runs": 0,
   "err": "",
-  "last_n": 96
+  "last_n": 95
  },
  "Moog": {
   "best": 458,
   "zero_runs": 0,
   "fail_runs": 0,
   "err": "",
-  "last_n": 436
+  "last_n": 437
  },
  "Teledyne FLIR": {
   "best": 100,
@@ -1079,7 +1079,7 @@
  },
  "Juniper Networks": {
   "best": 0,
-  "zero_runs": 311,
+  "zero_runs": 312,
   "fail_runs": 0,
   "err": "",
   "last_n": 0
@@ -1089,14 +1089,14 @@
   "zero_runs": 0,
   "fail_runs": 0,
   "err": "",
-  "last_n": 557
+  "last_n": 556
  },
  "Nokia": {
   "best": 255,
   "zero_runs": 0,
   "fail_runs": 0,
   "err": "",
-  "last_n": 235
+  "last_n": 236
  },
  "Lattice Semiconductor": {
   "best": 14,
@@ -1108,16 +1108,16 @@
  "Seagate": {
   "best": 203,
   "zero_runs": 0,
-  "fail_runs": 1,
-  "err": "URLError: <urlopen error [Errno 104] Connection reset by peer>",
-  "last_n": 0
+  "fail_runs": 0,
+  "err": "",
+  "last_n": 199
  },
  "BAE Systems": {
   "best": 347,
   "zero_runs": 0,
   "fail_runs": 0,
   "err": "",
-  "last_n": 319
+  "last_n": 314
  },
  "General Dynamics Mission Systems": {
   "best": 70,
@@ -1152,7 +1152,7 @@
   "zero_runs": 0,
   "fail_runs": 0,
   "err": "",
-  "last_n": 786
+  "last_n": 785
  },
  "Formlabs": {
   "best": 249,
@@ -1169,18 +1169,18 @@
   "last_n": 4
  },
  "Thermo Fisher Scientific": {
-  "best": 91,
+  "best": 92,
   "zero_runs": 0,
   "fail_runs": 0,
   "err": "",
-  "last_n": 91
+  "last_n": 92
  },
  "Toast": {
   "best": 345,
   "zero_runs": 0,
   "fail_runs": 0,
   "err": "",
-  "last_n": 342
+  "last_n": 340
  },
  "Rapid Micro Biosystems": {
   "best": 10,
@@ -1191,10 +1191,10 @@
  },
  "Fractile": {
   "best": 43,
-  "zero_runs": 0,
+  "zero_runs": 1,
   "fail_runs": 0,
   "err": "",
-  "last_n": 39
+  "last_n": 0
  },
  "Extropic": {
   "best": 10,
@@ -1264,13 +1264,13 @@
   "zero_runs": 0,
   "fail_runs": 0,
   "err": "",
-  "last_n": 303
+  "last_n": 304
  },
  "Mach Industries": {
-  "best": 165,
+  "best": 166,
   "zero_runs": 0,
   "fail_runs": 0,
   "err": "",
-  "last_n": 165
+  "last_n": 166
  }
 }

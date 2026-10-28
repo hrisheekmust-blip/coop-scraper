@@ -1,5 +1,22 @@
 [
  {
+  "company": "ASML",
+  "title": "Co-op - Optical Engineer (Internship)",
+  "location": "Wilton, CT, USA",
+  "url": "https://asml.wd3.myworkdayjobs.com/ASMLEXT1/job/Wilton-CT-USA/Co-op---Optical-Engineer--Internship-_J-00354451",
+  "posted": "Posted Today",
+  "deadline": "",
+  "term": "spring",
+  "rank": "A",
+  "hw": "optical engineer",
+  "tier": "big",
+  "sources": [
+   "workday"
+  ],
+  "first_seen": "2026-10-28",
+  "last_seen": "2026-10-28"
+ },
+ {
   "company": "AbbVie",
   "title": "Validation Engineer Co-op",
   "location": "Worcester, MA, USA",
@@ -1706,7 +1723,7 @@
   "title": "Hardware Reliability Intern [Winter 2027]",
   "location": "San Jose, CA",
   "url": "https://job-boards.greenhouse.io/figureai/jobs/4613067006",
-  "posted": "2026-10-15",
+  "posted": "2026-10-28",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -2878,6 +2895,23 @@
  },
  {
   "company": "RTX",
+  "title": "Industrial Engineering Co-Op (Spring/Summer 2027)",
+  "location": "US-IA-CORALVILLE-155 ~ 2855 Heartland Dr ~ HEARTLAND BLDG 155",
+  "url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-IA-CORALVILLE-155--2855-Heartland-Dr--HEARTLAND-BLDG-155/Industrial-Engineering-Co-Op--Spring-Summer-2027-_01885605",
+  "posted": "Posted Today",
+  "deadline": "",
+  "term": "spring",
+  "rank": "A",
+  "hw": "maybe",
+  "tier": "big",
+  "sources": [
+   "workday"
+  ],
+  "first_seen": "2026-10-28",
+  "last_seen": "2026-10-28"
+ },
+ {
+  "company": "RTX",
   "title": "Industrial Engineering Co-op (Spring/Summer 2027)",
   "location": "US-IA-BELLEVUE-186 ~ 1500 State St ~ STATE",
   "url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-IA-BELLEVUE-186--1500-State-St--STATE/Industrial-Engineering-Co-op--Spring-Summer-2027-_01876770",
@@ -3049,23 +3083,6 @@
  {
   "company": "Rocket Lab",
   "title": "Manufacturing Engineering Intern Spring 2027",
-  "location": "Long Beach, CA",
-  "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7984943003",
-  "posted": "2026-09-16",
-  "deadline": "",
-  "term": "spring",
-  "rank": "A",
-  "hw": "maybe",
-  "tier": "big",
-  "sources": [
-   "greenhouse"
-  ],
-  "first_seen": "2026-09-18",
-  "last_seen": "2026-10-28"
- },
- {
-  "company": "Rocket Lab",
-  "title": "Manufacturing Engineering Intern Spring 2027",
   "location": "Middle River, MD",
   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7987020003",
   "posted": "2026-09-16",
@@ -3086,6 +3103,23 @@
   "location": "Wallops Island, VA",
   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7996617003",
   "posted": "2026-09-17",
+  "deadline": "",
+  "term": "spring",
+  "rank": "A",
+  "hw": "maybe",
+  "tier": "big",
+  "sources": [
+   "greenhouse"
+  ],
+  "first_seen": "2026-09-18",
+  "last_seen": "2026-10-28"
+ },
+ {
+  "company": "Rocket Lab",
+  "title": "Manufacturing Engineering Intern Spring 2027",
+  "location": "Long Beach, CA",
+  "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7984943003",
+  "posted": "2026-09-16",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -3660,19 +3694,19 @@
  },
  {
   "company": "Skyworks",
-  "title": "RF Circuit Design Winter/Spring Co-Op (Jan-June '27)",
-  "location": "Andover, MA, USA    ",
-  "url": "https://careers.skyworksinc.com/job/RF-Circuit-Design-WinterSpring-Co-Op-%28Jan-June-&apos;27%29/78369-en_US",
-  "posted": "2026-09-29",
+  "title": "RF Applications Winter/Spring Co-Op",
+  "location": "Woburn, MA, USA    ",
+  "url": "https://careers.skyworksinc.com/job/RF-Applications-WinterSpring-Co-Op/78475-en_US",
+  "posted": "2026-09-22",
   "deadline": "",
   "term": "spring",
   "rank": "A",
-  "hw": "circuit,rf",
+  "hw": "rf",
   "tier": "big",
   "sources": [
    "successfactors"
   ],
-  "first_seen": "2026-09-29",
+  "first_seen": "2026-09-22",
   "last_seen": "2026-10-28"
  },
  {
@@ -3860,6 +3894,23 @@
    "successfactors"
   ],
   "first_seen": "2026-09-17",
+  "last_seen": "2026-10-28"
+ },
+ {
+  "company": "Skyworks",
+  "title": "RFIC Design Winter/Spring Co-Op (Jan-June '27)",
+  "location": "Newbury Park, CA, USA    ",
+  "url": "https://careers.skyworksinc.com/job/RFIC-Design-WinterSpring-Co-Op-%28Jan-June-&apos;27%29/78698-en_US",
+  "posted": "2026-10-28",
+  "deadline": "",
+  "term": "spring",
+  "rank": "A",
+  "hw": "rfic",
+  "tier": "big",
+  "sources": [
+   "successfactors"
+  ],
+  "first_seen": "2026-10-28",
   "last_seen": "2026-10-28"
  },
  {
@@ -4871,23 +4922,6 @@
   "title": "Mechanical Engineer Intern (Spring 2027)",
   "location": "South San Francisco, California, USA",
   "url": "https://www.zipline.com/open-roles/7865253003?gh_jid=7865253003",
-  "posted": "2026-10-19",
-  "deadline": "",
-  "term": "spring",
-  "rank": "A",
-  "hw": "maybe",
-  "tier": "startup",
-  "sources": [
-   "greenhouse"
-  ],
-  "first_seen": "2026-09-18",
-  "last_seen": "2026-10-28"
- },
- {
-  "company": "Zipline",
-  "title": "Operations Experience Intern (Spring 2027)",
-  "location": "South San Francisco, California, USA",
-  "url": "https://www.zipline.com/open-roles/7920394003?gh_jid=7920394003",
   "posted": "2026-10-19",
   "deadline": "",
   "term": "spring",
@@ -6689,23 +6723,6 @@
  },
  {
   "company": "Entegris",
-  "title": "Capital Equipment Engineering Co-Op",
-  "location": "Billerica, MA",
-  "url": "https://entegris.wd1.myworkdayjobs.com/EntegrisCareers/job/Billerica-MA/Capital-Equipment-Engineering-Co-Op_REQ-14497",
-  "posted": "Posted 30+ Days Ago",
-  "deadline": "",
-  "term": "coop-unspecified",
-  "rank": "B",
-  "hw": "maybe",
-  "tier": "big",
-  "sources": [
-   "workday"
-  ],
-  "first_seen": "2026-09-18",
-  "last_seen": "2026-10-28"
- },
- {
-  "company": "Entegris",
   "title": "Design and Process Engineering Co-Op",
   "location": "Bedford, MA",
   "url": "https://entegris.wd1.myworkdayjobs.com/EntegrisCareers/job/Bedford-MA/Design-and-Process-Engineering-Co-Op_REQ-14491",
@@ -8018,6 +8035,23 @@
    "internlist:coop"
   ],
   "first_seen": "2026-10-08",
+  "last_seen": "2026-10-28"
+ },
+ {
+  "company": "Leidos",
+  "title": "Cybersecurity Engineer Co-op",
+  "location": "Bethesda, MD",
+  "url": "https://leidos.wd5.myworkdayjobs.com/External/job/Bethesda-MD/Cybersecurity-Engineer-Co-op_R-00190764",
+  "posted": "Posted Today",
+  "deadline": "",
+  "term": "coop-unspecified",
+  "rank": "B",
+  "hw": "maybe",
+  "tier": "big",
+  "sources": [
+   "workday"
+  ],
+  "first_seen": "2026-09-18",
   "last_seen": "2026-10-28"
  },
  {
@@ -12132,6 +12166,23 @@
   "last_seen": "2026-10-28"
  },
  {
+  "company": "FormFactor",
+  "title": "Electrical Design Automation Intern \u2013 AI & EDA Automation",
+  "location": "Livermore, CA",
+  "url": "https://formfactor.wd1.myworkdayjobs.com/FFI-Careers/job/Livermore-CA/Electrical-Design-Automation-Intern---AI---EDA-Automation_JR101304",
+  "posted": "Posted Today",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "eda,electrical",
+  "tier": "big",
+  "sources": [
+   "workday"
+  ],
+  "first_seen": "2026-10-28",
+  "last_seen": "2026-10-28"
+ },
+ {
   "company": "Foundation",
   "title": "Electrical Engineer Intern",
   "location": "San Francisco, CA, USA",
@@ -13149,23 +13200,6 @@
    "workday"
   ],
   "first_seen": "2026-09-17",
-  "last_seen": "2026-10-28"
- },
- {
-  "company": "Intel",
-  "title": "Signal Integrity Student Worker Engineer",
-  "location": "Costa Rica, San Jose",
-  "url": "https://intel.wd1.myworkdayjobs.com/External/job/Costa-Rica-San-Jose/Signal-Integrity-Student-Worker-Engineer_JR0288318",
-  "posted": "Posted 8 Days Ago",
-  "deadline": "",
-  "term": "unspecified",
-  "rank": "C",
-  "hw": "signal integrity",
-  "tier": "big",
-  "sources": [
-   "workday"
-  ],
-  "first_seen": "2026-10-20",
   "last_seen": "2026-10-28"
  },
  {
@@ -14410,23 +14444,6 @@
    "workday"
   ],
   "first_seen": "2026-10-21",
-  "last_seen": "2026-10-28"
- },
- {
-  "company": "Microchip",
-  "title": "Intern-Equipment Engineering Technician (Metrology)",
-  "location": "OR - Gresham",
-  "url": "https://microchiphr.wd5.myworkdayjobs.com/External/job/OR---Gresham/Intern-Equipment-Engineering-Technician--Metrology-_R3077-26",
-  "posted": "Posted 30+ Days Ago",
-  "deadline": "",
-  "term": "unspecified",
-  "rank": "C",
-  "hw": "metrology",
-  "tier": "big",
-  "sources": [
-   "workday"
-  ],
-  "first_seen": "2026-09-18",
   "last_seen": "2026-10-28"
  },
  {
@@ -16113,6 +16130,210 @@
   "last_seen": "2026-10-28"
  },
  {
+  "company": "Seagate",
+  "title": "Characterization and Analytics Group Intern",
+  "location": "",
+  "url": "https://seagatecareers.com/job/Characterization-and-Analytics-Group-Intern/15389-en_US",
+  "posted": "2026-10-19",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "characterization",
+  "tier": "big",
+  "sources": [
+   "successfactors"
+  ],
+  "first_seen": "2026-10-19",
+  "last_seen": "2026-10-28"
+ },
+ {
+  "company": "Seagate",
+  "title": "Engineering Intern (slider process engineer)",
+  "location": "Nakhon Ratchasima, THA, ",
+  "url": "https://seagatecareers.com/job/Engineering-Intern-%28slider-process-engineer%29/14914-en_US",
+  "posted": "2026-09-03",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "process engineer",
+  "tier": "big",
+  "sources": [
+   "successfactors"
+  ],
+  "first_seen": "2026-09-18",
+  "last_seen": "2026-10-28"
+ },
+ {
+  "company": "Seagate",
+  "title": "Failure Analysis Intern III (Auto Failure Analysis & Data Analytics)",
+  "location": "Nakhon Ratchasima, THA, ",
+  "url": "https://seagatecareers.com/job/Failure-Analysis-Intern-III-%28Auto-Failure-Analysis-&amp;-Data-Analytics%29/14648-en_US",
+  "posted": "2026-07-09",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "failure analysis",
+  "tier": "big",
+  "sources": [
+   "successfactors"
+  ],
+  "first_seen": "2026-09-18",
+  "last_seen": "2026-10-28"
+ },
+ {
+  "company": "Seagate",
+  "title": "Failure Analysis Tools Development Intern",
+  "location": "",
+  "url": "https://seagatecareers.com/job/Failure-Analysis-Tools-Development-Intern/15441-en_US",
+  "posted": "2026-10-27",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "failure analysis",
+  "tier": "big",
+  "sources": [
+   "successfactors"
+  ],
+  "first_seen": "2026-10-27",
+  "last_seen": "2026-10-28"
+ },
+ {
+  "company": "Seagate",
+  "title": "Head Failure Analysis Intern",
+  "location": "",
+  "url": "https://seagatecareers.com/job/Head-Failure-Analysis-Intern/15130-en_US",
+  "posted": "2026-10-02",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "failure analysis",
+  "tier": "big",
+  "sources": [
+   "successfactors"
+  ],
+  "first_seen": "2026-10-02",
+  "last_seen": "2026-10-28"
+ },
+ {
+  "company": "Seagate",
+  "title": "Head Failure Analysis Intern III",
+  "location": "",
+  "url": "https://seagatecareers.com/job/Head-Failure-Analysis-Intern-III/15061-en_US",
+  "posted": "2026-09-15",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "failure analysis",
+  "tier": "big",
+  "sources": [
+   "successfactors"
+  ],
+  "first_seen": "2026-09-18",
+  "last_seen": "2026-10-28"
+ },
+ {
+  "company": "Seagate",
+  "title": "Intern, Advanced Media R&D Characterization and Recording Physicist",
+  "location": "",
+  "url": "https://seagatecareers.com/job/Intern%2C-Advanced-Media-R&amp;D-Characterization-and-Recording-Physicist/15300-en_US",
+  "posted": "2026-10-14",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "characterization",
+  "tier": "big",
+  "sources": [
+   "successfactors"
+  ],
+  "first_seen": "2026-10-14",
+  "last_seen": "2026-10-28"
+ },
+ {
+  "company": "Seagate",
+  "title": "Metrology maintenance engineering intern",
+  "location": "Nakhon Ratchasima, THA, ",
+  "url": "https://seagatecareers.com/job/Metrology-maintenance-engineering-intern/14919-en_US",
+  "posted": "2026-08-26",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "metrology",
+  "tier": "big",
+  "sources": [
+   "successfactors"
+  ],
+  "first_seen": "2026-09-18",
+  "last_seen": "2026-10-28"
+ },
+ {
+  "company": "Seagate",
+  "title": "Product Engineering Intern",
+  "location": "Nakhon Ratchasima, THA, ",
+  "url": "https://seagatecareers.com/job/Product-Engineering-Intern/14645-en_US",
+  "posted": "2026-07-20",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "product engineering",
+  "tier": "big",
+  "sources": [
+   "successfactors"
+  ],
+  "first_seen": "2026-09-18",
+  "last_seen": "2026-10-28"
+ },
+ {
+  "company": "Seagate",
+  "title": "Recording Head Test Engineering Intern",
+  "location": "Samut Prakan, THA, ",
+  "url": "https://seagatecareers.com/job/Recording-Head-Test-Engineering-Intern/14901-en_US",
+  "posted": "2026-08-19",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "test engineering",
+  "tier": "big",
+  "sources": [
+   "successfactors"
+  ],
+  "first_seen": "2026-09-18",
+  "last_seen": "2026-10-28"
+ },
+ {
+  "company": "Seagate",
+  "title": "Test Development Intern",
+  "location": "",
+  "url": "https://seagatecareers.com/job/Test-Development-Intern/15430-en_US",
+  "posted": "2026-10-21",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "test development",
+  "tier": "big",
+  "sources": [
+   "successfactors"
+  ],
+  "first_seen": "2026-10-21",
+  "last_seen": "2026-10-28"
+ },
+ {
+  "company": "Seagate",
+  "title": "Wafer Metrology Intern",
+  "location": "",
+  "url": "https://seagatecareers.com/job/Wafer-Metrology-Intern/15428-en_US",
+  "posted": "2026-10-22",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "metrology,wafer",
+  "tier": "big",
+  "sources": [
+   "successfactors"
+  ],
+  "first_seen": "2026-10-22",
+  "last_seen": "2026-10-28"
+ },
+ {
   "company": "Seagate Technology",
   "title": "Wafer Metrology Intern",
   "location": "Bloomington, MN, USA",
@@ -16473,8 +16694,8 @@
   "company": "Skyworks",
   "title": "Characterization Engineering Intern",
   "location": "Greensboro, USA    ",
-  "url": "https://careers.skyworksinc.com/job/Characterization-Engineering-Intern/78713-en_US",
-  "posted": "2026-10-27",
+  "url": "https://careers.skyworksinc.com/job/Characterization-Engineering-Intern/78726-en_US",
+  "posted": "2026-10-28",
   "deadline": "",
   "term": "unspecified",
   "rank": "C",
@@ -16483,7 +16704,7 @@
   "sources": [
    "successfactors"
   ],
-  "first_seen": "2026-10-27",
+  "first_seen": "2026-10-28",
   "last_seen": "2026-10-28"
  },
  {
@@ -16559,6 +16780,23 @@
   "title": "Product Engineering Intern",
   "location": "Greensboro, USA    ",
   "url": "https://careers.skyworksinc.com/job/Product-Engineering-Intern/78749-en_US",
+  "posted": "2026-10-28",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "product engineering",
+  "tier": "big",
+  "sources": [
+   "successfactors"
+  ],
+  "first_seen": "2026-10-28",
+  "last_seen": "2026-10-28"
+ },
+ {
+  "company": "Skyworks",
+  "title": "Product Engineering Intern",
+  "location": "Hillsboro, USA    ",
+  "url": "https://careers.skyworksinc.com/job/Product-Engineering-Intern/78779-en_US",
   "posted": "2026-10-28",
   "deadline": "",
   "term": "unspecified",
@@ -16677,8 +16915,8 @@
   "company": "Skyworks",
   "title": "Test Engineering Intern",
   "location": "Greensboro, USA    ",
-  "url": "https://careers.skyworksinc.com/job/Test-Engineering-Intern/78712-en_US",
-  "posted": "2026-10-27",
+  "url": "https://careers.skyworksinc.com/job/Test-Engineering-Intern/78746-en_US",
+  "posted": "2026-10-28",
   "deadline": "",
   "term": "unspecified",
   "rank": "C",
@@ -16687,7 +16925,24 @@
   "sources": [
    "successfactors"
   ],
-  "first_seen": "2026-10-27",
+  "first_seen": "2026-10-28",
+  "last_seen": "2026-10-28"
+ },
+ {
+  "company": "Skyworks",
+  "title": "Test Engineering Intern",
+  "location": "Hillsboro, USA    ",
+  "url": "https://careers.skyworksinc.com/job/Test-Engineering-Intern/78777-en_US",
+  "posted": "2026-10-28",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "test engineering",
+  "tier": "big",
+  "sources": [
+   "successfactors"
+  ],
+  "first_seen": "2026-10-28",
   "last_seen": "2026-10-28"
  },
  {
