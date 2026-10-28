@@ -1599,7 +1599,7 @@
 },
 "https://simplify.jobs/jobs/click/717a9235-d891-49bf-845f-ebea0388bfe1": {
 "first_seen": "2026-09-18",
-"title": "Electrical Engineer Co-op",
+"title": "Electrical Engineering Co-op",
 "company": "Emerson Electric",
 "desc": ""
 },
@@ -2181,7 +2181,7 @@
 },
 "https://simplify.jobs/jobs/click/c435f0e8-93e0-4ba5-b135-cf43503bacb1": {
 "first_seen": "2026-09-18",
-"title": "Electrical/Instrumentation Co-op",
+"title": "Electrical & Instrumentation Co-op",
 "company": "Hargrove",
 "desc": ""
 },
@@ -17693,6 +17693,90 @@
 "first_seen": "2026-10-28",
 "title": "Industrial Engineering Co-Op (Spring/Summer 2027)",
 "company": "RTX",
+"desc": ""
+},
+"https://go.vansh.nyc/Xn": {
+"first_seen": "2026-10-28",
+"title": "CPU Design Verification Engineer Intern",
+"company": "RosaicLabs",
+"desc": ""
+},
+"https://go.vansh.nyc/Xp": {
+"first_seen": "2026-10-28",
+"title": "AI Accelerator Design Verification Engineer Intern",
+"company": "RosaicLabs",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/5fe98bec-56ab-40e9-965e-33a95d5cdfe1": {
+"first_seen": "2026-10-28",
+"title": "Verification and Validation Engineering Co-op",
+"company": "MSA Safety",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/7dd027fe-3dbb-458c-bb7a-da6c4065b96a": {
+"first_seen": "2026-10-28",
+"title": "Process Engineer Co-op",
+"company": "GAF",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4484708169": {
+"first_seen": "2026-10-28",
+"title": "Hardware Electrical Engineering Co-Op (Spring 2027)",
+"company": "RTX",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4467410851": {
+"first_seen": "2026-10-28",
+"title": "Electrical Engineering Co-Op",
+"company": "Bass Pro Shops",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4484490357": {
+"first_seen": "2026-10-28",
+"title": "RF/Analog IC Design Intern",
+"company": "Skyworks Solutions, Inc.",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4484471924": {
+"first_seen": "2026-10-28",
+"title": "RFIC Design Engineer Intern",
+"company": "Skyworks Solutions, Inc.",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4467421145": {
+"first_seen": "2026-10-28",
+"title": "Product Testing and Validation Engineering Co-op",
+"company": "Bass Pro Shops",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4484472862": {
+"first_seen": "2026-10-28",
+"title": "Test Engineering Intern",
+"company": "Skyworks Solutions, Inc.",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4483889748": {
+"first_seen": "2026-10-28",
+"title": "Process Integration Development Engineer PhD Intern 2027",
+"company": "Intel",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4484484480": {
+"first_seen": "2026-10-28",
+"title": "Device and Process Development Intern",
+"company": "Skyworks Solutions, Inc.",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4484482499": {
+"first_seen": "2026-10-28",
+"title": "IC Layout Engineering Intern",
+"company": "Skyworks Solutions, Inc.",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4484746102": {
+"first_seen": "2026-10-28",
+"title": "RFIC Design Winter/Spring Co-Op (Jan-June '27)",
+"company": "Skyworks Solutions, Inc.",
 "desc": ""
 }
 }
