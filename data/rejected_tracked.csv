@@ -55,23 +55,23 @@ Jump Trading,Campus C++ Software Engineer (Intern),Hong Kong; Shanghai,software 
 Jump Trading,Campus C++ Software Engineer (Intern),Singapore,software only,https://www.jumptrading.com/hr/job?gh_jid=8027946
 Jump Trading,Campus Data Engineer (Intern),Chicago,software only,https://www.jumptrading.com/hr/job?gh_jid=8002998
 Jump Trading,Campus ML Research Engineer (Intern),London,software only,https://www.jumptrading.com/hr/job?gh_jid=7977145
-Jump Trading,Campus Python Software Engineer (Intern),Hong Kong; Shanghai,software only,https://www.jumptrading.com/hr/job?gh_jid=8027923
 Jump Trading,Campus Python Software Engineer (Intern),Singapore,software only,https://www.jumptrading.com/hr/job?gh_jid=8027955
+Jump Trading,Campus Python Software Engineer (Intern),Hong Kong; Shanghai,software only,https://www.jumptrading.com/hr/job?gh_jid=8027923
+Jump Trading,Campus Quantitative Researcher (Intern),London; Amsterdam,no hardware keyword,https://www.jumptrading.com/hr/job?gh_jid=8010307
 Jump Trading,Campus Quantitative Researcher (Intern),Hong Kong; Shanghai,no hardware keyword,https://www.jumptrading.com/hr/job?gh_jid=8027900
 Jump Trading,Campus Quantitative Researcher (Intern),Singapore,no hardware keyword,https://www.jumptrading.com/hr/job?gh_jid=8027939
-Jump Trading,Campus Quantitative Researcher (Intern),London; Amsterdam,no hardware keyword,https://www.jumptrading.com/hr/job?gh_jid=8010307
 Jump Trading,Campus Quantitative Researcher (M1/M2 Intern),London; Paris,no hardware keyword,https://www.jumptrading.com/hr/job?gh_jid=8059384
 Jump Trading,Campus Quantitative Researcher (Off-Cycle - Winter/Spring 2027 Intern) ,Hong Kong; Shanghai,no hardware keyword,https://www.jumptrading.com/hr/job?gh_jid=8027898
 Jump Trading,"Campus Quantitative Researcher, PhD (Intern)",Chicago; New York,no hardware keyword,https://www.jumptrading.com/hr/job?gh_jid=8049938
 Jump Trading,"Campus Quantitative Researcher, UG/MS (Intern)",Chicago; New York,no hardware keyword,https://www.jumptrading.com/hr/job?gh_jid=7982648
-Jump Trading,Campus Quantitative Trader (Intern),London; Amsterdam,no hardware keyword,https://www.jumptrading.com/hr/job?gh_jid=8050772
-Jump Trading,Campus Quantitative Trader (Intern),Hong Kong; Shanghai,no hardware keyword,https://www.jumptrading.com/hr/job?gh_jid=8027922
-Jump Trading,Campus Quantitative Trader (Intern),Singapore,no hardware keyword,https://www.jumptrading.com/hr/job?gh_jid=8027941
 Jump Trading,Campus Quantitative Trader (Intern),Chicago; New York,no hardware keyword,https://www.jumptrading.com/hr/job?gh_jid=7848371
+Jump Trading,Campus Quantitative Trader (Intern),London; Amsterdam,no hardware keyword,https://www.jumptrading.com/hr/job?gh_jid=8050772
+Jump Trading,Campus Quantitative Trader (Intern),Singapore,no hardware keyword,https://www.jumptrading.com/hr/job?gh_jid=8027941
+Jump Trading,Campus Quantitative Trader (Intern),Hong Kong; Shanghai,no hardware keyword,https://www.jumptrading.com/hr/job?gh_jid=8027922
 Jump Trading,Campus Software Engineer (Intern),Chicago,software only,https://www.jumptrading.com/hr/job?gh_jid=8002989
 Jump Trading,Campus Systems Engineer (Intern),Chicago,no hardware keyword,https://www.jumptrading.com/hr/job?gh_jid=8007788
-Jump Trading,Campus Systems Engineer (Intern),Singapore,no hardware keyword,https://www.jumptrading.com/hr/job?gh_jid=8027952
 Jump Trading,Campus Systems Engineer (Intern),London; Amsterdam,no hardware keyword,https://www.jumptrading.com/hr/job?gh_jid=8000323
+Jump Trading,Campus Systems Engineer (Intern),Singapore,no hardware keyword,https://www.jumptrading.com/hr/job?gh_jid=8027952
 Jump Trading,Campus UI Software Engineer (Intern),London,excluded title,https://www.jumptrading.com/hr/job?gh_jid=7974943
 Jump Trading,Campus UI Software Engineer (Intern),Chicago,excluded title,https://www.jumptrading.com/hr/job?gh_jid=8003019
 DRW,AI/ML Research Intern,Montreal,software only,https://job-boards.greenhouse.io/drweng/jobs/7991171
@@ -122,8 +122,8 @@ Optiver,Quantitative Trading Internship (2027 Start),"Amsterdam, North Holland, 
 Optiver,Quantitative Trading Internship (Singapore) - 2027,Singapore,no hardware keyword,https://www.optiver.com/join-us/jobs/8642260002/?gh_jid=8642260002
 Optiver,Quantitative Trading Internship (Summer 2027 - Shanghai),"Shanghai, China",no hardware keyword,https://www.optiver.com/join-us/jobs/8623923002/?gh_jid=8623923002
 Optiver,Quantitative Trading Internship (Taiwan) - 2027,"Taipei, Taiwan",no hardware keyword,https://www.optiver.com/join-us/jobs/8011956002/?gh_jid=8011956002
-Optiver,Software Engineer Internship (2027 Start),"London, England, United Kingdom",software only,https://www.optiver.com/join-us/jobs/8713435002/?gh_jid=8713435002
 Optiver,Software Engineer Internship (2027 Start),"Amsterdam, North Holland, Netherlands",software only,https://www.optiver.com/join-us/jobs/8713409002/?gh_jid=8713409002
+Optiver,Software Engineer Internship (2027 Start),"London, England, United Kingdom",software only,https://www.optiver.com/join-us/jobs/8713435002/?gh_jid=8713435002
 Zipline,Accounting Intern (Summer 2027),"South San Francisco, California, USA",excluded title,https://www.zipline.com/open-roles/7894364003?gh_jid=7894364003
 Zipline,Aircraft Software Integration Intern (Summer 2027),"South San Francisco, California, USA",software only,https://www.zipline.com/open-roles/7986848003?gh_jid=7986848003
 Zipline,Australia Community Engagement Internship,"Lake Macquarie, New South Wales, Australia",no hardware keyword,https://www.zipline.com/open-roles/7861323003?gh_jid=7861323003
@@ -293,17 +293,17 @@ Rocket Lab,Business Development Intern Summer 2027,"Toronto, CAN",excluded title
 Rocket Lab,Combustion Devices Intern Spring 2027,"Long Beach, CA",no hardware keyword,https://job-boards.greenhouse.io/rocketlab/jobs/7986744003
 Rocket Lab,Combustion Devices Intern Summer 2027,"Long Beach, CA",no hardware keyword,https://job-boards.greenhouse.io/rocketlab/jobs/7986748003
 Rocket Lab,Electrical Engineering Intern Spring 2027,"Toronto, CAN",non-US,https://job-boards.greenhouse.io/rocketlab/jobs/7990045003
-Rocket Lab,Electrical Engineering Intern Summer 2027,"Long Beach, CA",summer only,https://job-boards.greenhouse.io/rocketlab/jobs/7990683003
 Rocket Lab,Electrical Engineering Intern Summer 2027,"Pasadena, CA",summer only,https://job-boards.greenhouse.io/rocketlab/jobs/7998598003
 Rocket Lab,Electrical Engineering Intern Summer 2027,"Toronto, CAN",non-US,https://job-boards.greenhouse.io/rocketlab/jobs/7990043003
+Rocket Lab,Electrical Engineering Intern Summer 2027,"Long Beach, CA",summer only,https://job-boards.greenhouse.io/rocketlab/jobs/7990683003
 Rocket Lab,Export Compliance Intern Spring 2027,"Long Beach, CA",no hardware keyword,https://job-boards.greenhouse.io/rocketlab/jobs/8013534003
 Rocket Lab,Flight Software Intern Spring 2027,"Littleton, CO",software only,https://job-boards.greenhouse.io/rocketlab/jobs/7989724003
 Rocket Lab,Flight Software Intern Summer 2027,"Littleton, CO",software only,https://job-boards.greenhouse.io/rocketlab/jobs/7989722003
 Rocket Lab,Fluid Component Intern Spring 2027,"Long Beach, CA",no hardware keyword,https://job-boards.greenhouse.io/rocketlab/jobs/7990367003
 Rocket Lab,Fluid Component Intern Summer 2027,"Long Beach, CA",no hardware keyword,https://job-boards.greenhouse.io/rocketlab/jobs/7990365003
 Rocket Lab,Fluid Systems Intern Summer 2027,"Long Beach, CA",no hardware keyword,https://job-boards.greenhouse.io/rocketlab/jobs/7986794003
-Rocket Lab,Government Operations Intern Spring 2027,"Washington, DC",no hardware keyword,https://job-boards.greenhouse.io/rocketlab/jobs/7992752003
 Rocket Lab,Government Operations Intern Spring 2027,"Littleton, CO",no hardware keyword,https://job-boards.greenhouse.io/rocketlab/jobs/8001399003
+Rocket Lab,Government Operations Intern Spring 2027,"Washington, DC",no hardware keyword,https://job-boards.greenhouse.io/rocketlab/jobs/7992752003
 Rocket Lab,Government Operations Intern Summer 2027,"Washington, DC",no hardware keyword,https://job-boards.greenhouse.io/rocketlab/jobs/7992754003
 Rocket Lab,Government Operations Intern Summer 2027,"Littleton, CO",no hardware keyword,https://job-boards.greenhouse.io/rocketlab/jobs/8001401003
 Rocket Lab,Ground Systems Engineering Intern,"Auckland, NZ",no hardware keyword,https://job-boards.greenhouse.io/rocketlab/jobs/7821140003
@@ -312,14 +312,14 @@ Rocket Lab,HITL Engineering Intern Summer 2027,"Long Beach, CA",no hardware keyw
 Rocket Lab,Indirect Procurement Intern Spring 2027,"Long Beach, CA",excluded title,https://job-boards.greenhouse.io/rocketlab/jobs/7989035003
 Rocket Lab,Indirect Procurement Intern Summer 2027,"Long Beach, CA",excluded title,https://job-boards.greenhouse.io/rocketlab/jobs/7989063003
 Rocket Lab,Integration & Test Intern Summer 2027,"Long Beach, CA",no hardware keyword,https://job-boards.greenhouse.io/rocketlab/jobs/7987250003
-Rocket Lab,Manufacturing Engineering Intern Summer 2027,"Long Beach, CA",no hardware keyword,https://job-boards.greenhouse.io/rocketlab/jobs/7984564003
-Rocket Lab,Manufacturing Engineering Intern Summer 2027,"Middle River, MD",no hardware keyword,https://job-boards.greenhouse.io/rocketlab/jobs/7988835003
 Rocket Lab,Manufacturing Engineering Intern Summer 2027,"Wallops Island, VA",no hardware keyword,https://job-boards.greenhouse.io/rocketlab/jobs/7996623003
-Rocket Lab,Mechanical Engineering Intern Spring 2027,"Long Beach, CA",excluded title,https://job-boards.greenhouse.io/rocketlab/jobs/7985634003
+Rocket Lab,Manufacturing Engineering Intern Summer 2027,"Middle River, MD",no hardware keyword,https://job-boards.greenhouse.io/rocketlab/jobs/7988835003
+Rocket Lab,Manufacturing Engineering Intern Summer 2027,"Long Beach, CA",no hardware keyword,https://job-boards.greenhouse.io/rocketlab/jobs/7984564003
 Rocket Lab,Mechanical Engineering Intern Spring 2027,"Silver Spring, MD",excluded title,https://job-boards.greenhouse.io/rocketlab/jobs/7989995003
-Rocket Lab,Mechanical Engineering Intern Summer 2027,"Toronto, CAN",excluded title,https://job-boards.greenhouse.io/rocketlab/jobs/7991769003
+Rocket Lab,Mechanical Engineering Intern Spring 2027,"Long Beach, CA",excluded title,https://job-boards.greenhouse.io/rocketlab/jobs/7985634003
 Rocket Lab,Mechanical Engineering Intern Summer 2027,"Silver Spring, MD",excluded title,https://job-boards.greenhouse.io/rocketlab/jobs/7989904003
 Rocket Lab,Mechanical Engineering Intern Summer 2027,"Long Beach, CA",excluded title,https://job-boards.greenhouse.io/rocketlab/jobs/7991448003
+Rocket Lab,Mechanical Engineering Intern Summer 2027,"Toronto, CAN",excluded title,https://job-boards.greenhouse.io/rocketlab/jobs/7991769003
 Rocket Lab,Neutron Mechanical Development Intern,"Auckland, NZ",excluded title,https://job-boards.greenhouse.io/rocketlab/jobs/7821193003
 Rocket Lab,Optical Engineering Intern Summer 2027,"Tucson, AZ",no hardware keyword,https://job-boards.greenhouse.io/rocketlab/jobs/7992102003
 Rocket Lab,People & Culture Intern Spring 2027,"Long Beach, CA",no hardware keyword,https://job-boards.greenhouse.io/rocketlab/jobs/7994892003
@@ -329,27 +329,27 @@ Rocket Lab,Propulsion Analyst Intern Summer 2027,"Long Beach, CA",no hardware ke
 Rocket Lab,Propulsion Design Intern Summer 2027,"Long Beach, CA",no hardware keyword,https://job-boards.greenhouse.io/rocketlab/jobs/7986816003
 Rocket Lab,R&D Engineering Intern Summer 2027,"Albuquerque, NM",no hardware keyword,https://job-boards.greenhouse.io/rocketlab/jobs/7996576003
 Rocket Lab,RF Engineering Intern Summer 2027,"Long Beach, CA",summer only,https://job-boards.greenhouse.io/rocketlab/jobs/8013277003
+Rocket Lab,Security Analyst Intern Spring 2027,"Wallops Island, VA",no hardware keyword,https://job-boards.greenhouse.io/rocketlab/jobs/7986959003
 Rocket Lab,Security Analyst Intern Spring 2027,"Middle River, MD",no hardware keyword,https://job-boards.greenhouse.io/rocketlab/jobs/7986965003
 Rocket Lab,Security Analyst Intern Spring 2027,"Albuquerque, NM",no hardware keyword,https://job-boards.greenhouse.io/rocketlab/jobs/7986872003
 Rocket Lab,Security Analyst Intern Spring 2027,"Long Beach, CA",no hardware keyword,https://job-boards.greenhouse.io/rocketlab/jobs/7986954003
-Rocket Lab,Security Analyst Intern Spring 2027,"Wallops Island, VA",no hardware keyword,https://job-boards.greenhouse.io/rocketlab/jobs/7986959003
 Rocket Lab,Security Analyst Intern Summer 2027,"Albuquerque, NM",no hardware keyword,https://job-boards.greenhouse.io/rocketlab/jobs/7986874003
-Rocket Lab,Security Analyst Intern Summer 2027,"Long Beach, CA",no hardware keyword,https://job-boards.greenhouse.io/rocketlab/jobs/7986956003
 Rocket Lab,Security Analyst Intern Summer 2027,"Wallops Island, VA",no hardware keyword,https://job-boards.greenhouse.io/rocketlab/jobs/7986961003
+Rocket Lab,Security Analyst Intern Summer 2027,"Long Beach, CA",no hardware keyword,https://job-boards.greenhouse.io/rocketlab/jobs/7986956003
 Rocket Lab,Security Analyst Intern Summer 2027,"Middle River, MD",no hardware keyword,https://job-boards.greenhouse.io/rocketlab/jobs/7986963003
 Rocket Lab,Supplier Quality Engineer Intern,"Auckland, NZ",no hardware keyword,https://job-boards.greenhouse.io/rocketlab/jobs/7819101003
 Rocket Lab,Supply Chain Intern,"Long Beach, CA",excluded title,https://job-boards.greenhouse.io/rocketlab/jobs/7984786003
 Rocket Lab,Supply Chain Intern Spring 2027,"Silver Spring, MD",excluded title,https://job-boards.greenhouse.io/rocketlab/jobs/7986131003
-Rocket Lab,Supply Chain Intern Spring 2027,"Tucson, AZ",excluded title,https://job-boards.greenhouse.io/rocketlab/jobs/7990378003
 Rocket Lab,Supply Chain Intern Spring 2027,"Long Beach, CA",excluded title,https://job-boards.greenhouse.io/rocketlab/jobs/7985032003
 Rocket Lab,Supply Chain Intern Spring 2027,"Middle River, MD",excluded title,https://job-boards.greenhouse.io/rocketlab/jobs/7990069003
+Rocket Lab,Supply Chain Intern Spring 2027,"Tucson, AZ",excluded title,https://job-boards.greenhouse.io/rocketlab/jobs/7990378003
 Rocket Lab,Supply Chain Intern Summer 2027,"Middle River, MD",excluded title,https://job-boards.greenhouse.io/rocketlab/jobs/7990063003
-Rocket Lab,Supply Chain Intern Summer 2027,"Silver Spring, MD",excluded title,https://job-boards.greenhouse.io/rocketlab/jobs/7999237003
 Rocket Lab,Supply Chain Intern Summer 2027,"Long Beach, CA",excluded title,https://job-boards.greenhouse.io/rocketlab/jobs/7984568003
+Rocket Lab,Supply Chain Intern Summer 2027,"Silver Spring, MD",excluded title,https://job-boards.greenhouse.io/rocketlab/jobs/7999237003
 Rocket Lab,Systems Engineering Intern Summer 2027,"Pasadena, CA",no hardware keyword,https://job-boards.greenhouse.io/rocketlab/jobs/7990138003
-Rocket Lab,Systems Engineering Intern Summer 2027,"Long Beach, CA",no hardware keyword,https://job-boards.greenhouse.io/rocketlab/jobs/7987046003
 Rocket Lab,Systems Engineering Intern Summer 2027,"Chantilly, VA",no hardware keyword,https://job-boards.greenhouse.io/rocketlab/jobs/7990272003
 Rocket Lab,Systems Engineering Intern Summer 2027,"Tucson, AZ",no hardware keyword,https://job-boards.greenhouse.io/rocketlab/jobs/7990270003
+Rocket Lab,Systems Engineering Intern Summer 2027,"Long Beach, CA",no hardware keyword,https://job-boards.greenhouse.io/rocketlab/jobs/7987046003
 Rocket Lab,Talent Acquisition Intern Summer 2027,"Long Beach, CA",no hardware keyword,https://job-boards.greenhouse.io/rocketlab/jobs/7990319003
 Rocket Lab,Talent Acquisition Partner II - University Recruiting (Temporary),"Long Beach, CA",no hardware keyword,https://job-boards.greenhouse.io/rocketlab/jobs/8019697003
 Rocket Lab,Test Engineering Intern - Avionics Summer 2027,"Long Beach, CA",summer only,https://job-boards.greenhouse.io/rocketlab/jobs/7987159003
@@ -507,6 +507,7 @@ Intel,Media AI Software Intern,"Poland, Gdansk",software only,https://intel.wd1.
 Intel,System Software Engineering Intern,"Poland, Gdansk",software only,https://intel.wd1.myworkdayjobs.com/External/job/Poland-Gdansk/System-Software-Engineering-Intern_JR0288207
 Intel,"Facilities Services - Intern, Graduate",4 Locations,excluded title,https://intel.wd1.myworkdayjobs.com/External/job/US-Oregon-Hillsboro/Facilities-Services---Intern--Graduate_JR0288230
 Intel,Compiler Engineering Graduate Intern,"Canada, Toronto",no hardware keyword,https://intel.wd1.myworkdayjobs.com/External/job/Canada-Toronto/Compiler-Engineering-Graduate-Intern_JR0287933
+Intel,AI Software Engineer Intern,3 Locations,software only,https://intel.wd1.myworkdayjobs.com/External/job/PRC-Shanghai/AI-Software-Engineer-Intern_JR0288692
 Intel,"Sales and Marketing - Intern, Graduate",4 Locations,excluded title,https://intel.wd1.myworkdayjobs.com/External/job/US-California-Santa-Clara/Sales-and-Marketing---Intern--Graduate_JR0286839
 Intel,"Sales and Marketing - Intern, Bachelor’s",4 Locations,excluded title,https://intel.wd1.myworkdayjobs.com/External/job/US-California-Santa-Clara/Sales-and-Marketing---Intern--Bachelor-s_JR0286838
 Intel,AI SOC Power Delivery Pathfinding PhD Intern,"US, Oregon, Hillsboro",phd/ms only,https://intel.wd1.myworkdayjobs.com/External/job/US-Oregon-Hillsboro/AI-SOC-Power-Delivery-Pathfinding-PhD-Intern_JR0287538
@@ -756,7 +757,7 @@ KLA,Research Scientist Student,"Migdal Ha'emek, Israel",software only,https://kl
 KLA,Working Student (f/m/d) – Physics / Electrical Engineering / Signal Processing (Thesis Option Available),"Weilburg, Germany",non-US,https://kla.wd1.myworkdayjobs.com/Search/job/Weilburg-Germany/Working-Student--f-m-d----Physics---Electrical-Engineering---Signal-Processing--Thesis-Option-Available-_2638657
 Applied Materials,Intern,"Singapore,SGP",no hardware keyword,https://amat.wd1.myworkdayjobs.com/External/job/SingaporeSGP/Intern_R2626579
 Applied Materials,Intern,"Singapore,SGP",no hardware keyword,https://amat.wd1.myworkdayjobs.com/External/job/SingaporeSGP/Intern_R2626566
-Applied Materials,College Intern,"Singapore,SGP",no hardware keyword,https://amat.wd1.myworkdayjobs.com/External/job/SingaporeSGP/College-Intern_R2626455
+Applied Materials,intern,"Singapore,SGP",no hardware keyword,https://amat.wd1.myworkdayjobs.com/External/job/SingaporeSGP/intern_R2626460
 Applied Materials,College Intern,"Singapore,SGP",no hardware keyword,https://amat.wd1.myworkdayjobs.com/External/job/SingaporeSGP/College-Intern_R2626453
 Applied Materials,College Intern,"Singapore,SGP",no hardware keyword,https://amat.wd1.myworkdayjobs.com/External/job/SingaporeSGP/College-Intern_R2626457
 Applied Materials,College Intern,"Singapore,SGP",no hardware keyword,https://amat.wd1.myworkdayjobs.com/External/job/SingaporeSGP/College-Intern_R2626195
@@ -845,9 +846,6 @@ Cadence,CST Application Engineer Intern - Systems ATX,SAN JOSE,no hardware keywo
 Cisco,"Amplify Marketing Specialist Intern, Singapore","Singapore, Singapore",excluded title,https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Singapore-Singapore/Amplify-Marketing-Specialist-Intern--Singapore_2029387
 Cisco,Hardware Engineer PhD (Intern) - United States,2 Locations,phd/ms only,https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/San-Jose-California-US/Hardware-Engineer-PhD--Intern----United-States_2024991
 Cisco,Critical Accounts Manager I (Intern) - Mexico,"Mexico City, Mexico",no hardware keyword,https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Mexico-City-Mexico/Critical-Accounts-Manager-I--Intern----Mexico_2026269
-Cisco,Business Analyst I Intern - Colombia,"Bogota, Colombia",excluded title,https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Bogota-Colombia/Business-Analyst-I-Intern---Colombia_2023675
-Cisco,Business Analyst I (Intern) – Mexico,"Guadalajara, Mexico",excluded title,https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Guadalajara-Mexico/Business-Analyst-I--Intern----Mexico_2029054
-Cisco,Associate Sales Engineer I (Intern) - Brazil,BRA-BRASILIA,excluded title,https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/BRA-BRASILIA/Associate-Sales-Engineer-I--Intern----Brazil_2029143
 Cisco,Software Engineer Data & AI PhD (Intern) - United States,3 Locations,software only,https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/San-Jose-California-US/Software-Engineer-Data---AI-PhD--Intern----United-States_2025611
 Cisco,Amplify Marketing Specialist I (Intern) - United States,4 Locations,excluded title,https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/San-Jose-California-US/Amplify-Marketing-Specialist-I--Intern----United-States_2028393
 Cisco,FLEX - Emerging Leaders I (Intern) - United States,"Chicago, Illinois, US",no hardware keyword,https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Chicago-Illinois-US/FLEX---Emerging-Leaders-I--Intern----United-States_2028850
@@ -895,9 +893,8 @@ Texas Instruments,2027 Information Technology Intern (Clark),Philippines,no hard
 Texas Instruments,2028 Technical Sales Engineering Intern,Japan,excluded title,https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/25010388
 Texas Instruments,"Sales Engineering Intern (Bellevue, WA)","Bellevue, WA, United States",excluded title,https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/25017947
 Texas Instruments,2028 Field Applications Engineering Intern,Japan,no hardware keyword,https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/25010389
-Texas Instruments,2027 Intake Information Technology Intern,"Melaka, Malaysia",no hardware keyword,https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/25012715
+Texas Instruments,2027 Intake Information Technology Intern (6 Months Internship Duration),"Melaka, Malaysia",no hardware keyword,https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/25012715
 Texas Instruments,2027 Intake Intern (Accounting/Tax/ Finance),"Wilayah Persekutuan Kuala Lumpur, Malaysia",excluded title,https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/25011985
-Texas Instruments,2027 Intake Intern (Logistics/Procurement/ Data Analytics),"Wilayah Persekutuan Kuala Lumpur, Malaysia",excluded title,https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/25011799
 Texas Instruments,Analog Design Eng Intern m/f/d,"Freising, Bayern, Germany",non-US,https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/25012568
 Texas Instruments,Process Development Engineer Intern - DLP,"Dallas, TX, United States",no hardware keyword,https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/25013674
 Texas Instruments,"Field Applications Engineering Intern - Guildford & Manchester, United Kingdom",United Kingdom,no hardware keyword,https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/25018498
@@ -1060,10 +1057,10 @@ Skyworks,Sourcing Business Analyst Intern,"Singapore, SGP    ",excluded title,ht
 Skyworks,Talent Acquisition Intern,"Bangalore, KA, IND    ",no hardware keyword,https://careers.skyworksinc.com/job/Talent-Acquisition-Intern/78377-en_US
 Skyworks,IC Circuit Design Intern,"Singapore, SGP    ",non-US,https://careers.skyworksinc.com/job/IC-Circuit-Design-Intern/78567-en_US
 Skyworks,Process Engineering Intern,"Richardson, USA    ",no hardware keyword,https://careers.skyworksinc.com/job/Process-Engineering-Intern/78798-en_US
-Skyworks,Software Engineering Intern,"Greensboro, USA    ",software only,https://careers.skyworksinc.com/job/Software-Engineering-Intern/78795-en_US
 Skyworks,Process Engineering Intern,"Richardson, USA    ",no hardware keyword,https://careers.skyworksinc.com/job/Process-Engineering-Intern/78783-en_US
-Skyworks,RMI Timing Software Engineering Summer Intern (May-Aug '27),"Austin, TX, USA    ",summer only,https://careers.skyworksinc.com/job/RMI-Timing-Software-Engineering-Summer-Intern-%28May-Aug-&apos;27%29/78420-en_US
+Skyworks,Software Engineering Intern,"Greensboro, USA    ",software only,https://careers.skyworksinc.com/job/Software-Engineering-Intern/78795-en_US
 Skyworks,Audio Systems Engineering Intern-Summer 2027,"Hillsboro, OR, USA    ",no hardware keyword,https://careers.skyworksinc.com/job/Audio-Systems-Engineering-Intern-Summer-2027/78225-en_US
+Skyworks,RMI Timing Software Engineering Summer Intern (May-Aug '27),"Austin, TX, USA    ",summer only,https://careers.skyworksinc.com/job/RMI-Timing-Software-Engineering-Summer-Intern-%28May-Aug-&apos;27%29/78420-en_US
 Skyworks,Quality Engineering Intern (Quality Metric),"Singapore, SGP    ",no hardware keyword,https://careers.skyworksinc.com/job/Quality-Engineering-Intern-%28Quality-Metric%29/78591-en_US
 Skyworks,AI Engineering Summer Intern (May-Aug '27),"Newbury Park, CA, USA    ",software only,https://careers.skyworksinc.com/job/AI-Engineering-Summer-Intern-%28May-Aug-&apos;27%29/78595-en_US
 Skyworks,Factory Automation (Hardware) Intern,"Singapore, SGP    ",non-US,https://careers.skyworksinc.com/job/Factory-Automation-%28Hardware%29-Intern/78577-en_US
@@ -1083,33 +1080,33 @@ Skyworks,Intern,"Austin, TX, USA    ",no hardware keyword,https://careers.skywor
 Skyworks,Intern,"Austin, TX, USA    ",no hardware keyword,https://careers.skyworksinc.com/job/Intern/78463-en_US
 Skyworks,Intern,"Toulouse, FRA    ",no hardware keyword,https://careers.skyworksinc.com/job/Intern/78703-en_US
 Skyworks,Intern,"Richardson, USA    ",no hardware keyword,https://careers.skyworksinc.com/job/Intern/78710-en_US
-Skyworks,Analog and RF circuit design Summer/Fall Co-Op (June-Dec '27),"San Jose, CA, USA    ",summer only,https://careers.skyworksinc.com/job/Analog-and-RF-circuit-design-SummerFall-Co-Op-%28June-Dec-&apos;27%29/78608-en_US
 Skyworks,Sourcing Intern,"Singapore, SGP    ",no hardware keyword,https://careers.skyworksinc.com/job/Sourcing-Intern/78579-en_US
 Skyworks,Sourcing Intern,"Greensboro, USA    ",no hardware keyword,https://careers.skyworksinc.com/job/Sourcing-Intern/78753-en_US
 Skyworks,Packaging Intern,"Greensboro, USA    ",no hardware keyword,https://careers.skyworksinc.com/job/Packaging-Intern/78794-en_US
+Skyworks,Analog and RF circuit design Summer/Fall Co-Op (June-Dec '27),"San Jose, CA, USA    ",summer only,https://careers.skyworksinc.com/job/Analog-and-RF-circuit-design-SummerFall-Co-Op-%28June-Dec-&apos;27%29/78608-en_US
 Skyworks,Co-Op,"Austin, TX, USA    ",no hardware keyword,https://careers.skyworksinc.com/job/Co-Op/78449-en_US
-Skyworks,RF Filter Design / BAW development Co-Op( January- December 2027),"Ottawa, ON, CAN    ",non-US,https://careers.skyworksinc.com/job/RF-Filter-Design-BAW-development-Co-Op%28-January-December-2027%29/78411-en_US
+Skyworks,Lithography Process Intern,"Singapore, SGP    ",no hardware keyword,https://careers.skyworksinc.com/job/Lithography-Process-Intern/78557-en_US
 Skyworks,Process Engineering Intern,"Richardson, USA    ",no hardware keyword,https://careers.skyworksinc.com/job/Process-Engineering-Intern/78787-en_US
-Skyworks,Facilities Engineering Intern,"Richardson, USA    ",excluded title,https://careers.skyworksinc.com/job/Facilities-Engineering-Intern/78797-en_US
 Skyworks,Applications Engineering Intern,"Apopka, USA    ",no hardware keyword,https://careers.skyworksinc.com/job/Applications-Engineering-Intern/78761-en_US
+Skyworks,Facilities Engineering Intern,"Richardson, USA    ",excluded title,https://careers.skyworksinc.com/job/Facilities-Engineering-Intern/78797-en_US
 Skyworks,Packaging Engineering Intern,"Greensboro, USA    ",no hardware keyword,https://careers.skyworksinc.com/job/Packaging-Engineering-Intern/78793-en_US
-Skyworks,Device Engineering Intern,"Richardson, USA    ",no hardware keyword,https://careers.skyworksinc.com/job/Device-Engineering-Intern/78781-en_US
-Skyworks,Modeling Engineering Intern,"Barcelona, ESP    ",no hardware keyword,https://careers.skyworksinc.com/job/Modeling-Engineering-Intern/78707-en_US
-Skyworks,Process Engineering Intern,"Richardson, USA    ",no hardware keyword,https://careers.skyworksinc.com/job/Process-Engineering-Intern/78742-en_US
 Skyworks,Applications Engineering Intern,"Barcelona, ESP    ",no hardware keyword,https://careers.skyworksinc.com/job/Applications-Engineering-Intern/78762-en_US
 Skyworks,Facilities Engineering Intern,"Greensboro, USA    ",excluded title,https://careers.skyworksinc.com/job/Facilities-Engineering-Intern/78764-en_US
+Skyworks,Modeling Engineering Intern,"Barcelona, ESP    ",no hardware keyword,https://careers.skyworksinc.com/job/Modeling-Engineering-Intern/78707-en_US
+Skyworks,Device Engineering Intern,"Richardson, USA    ",no hardware keyword,https://careers.skyworksinc.com/job/Device-Engineering-Intern/78781-en_US
+Skyworks,Process Engineering Intern,"Richardson, USA    ",no hardware keyword,https://careers.skyworksinc.com/job/Process-Engineering-Intern/78742-en_US
 Skyworks,Industrial Engineering Intern,"Greensboro, USA    ",no hardware keyword,https://careers.skyworksinc.com/job/Industrial-Engineering-Intern/78744-en_US
 Skyworks,Data Analytics Intern,"Greensboro, USA    ",no hardware keyword,https://careers.skyworksinc.com/job/Data-Analytics-Intern/78719-en_US
 Skyworks,Test Engineering Co-Op (Summer/Fall 2027),"Newbury Park, CA, USA    ",summer only,https://careers.skyworksinc.com/job/Test-Engineering-Co-Op-%28SummerFall-2027%29/78214-en_US
 Skyworks,PDK Development Winter/Spring Co-Op (Jan-June '27),"Austin, TX, USA    ; Hillsboro, OR, USA    ; Irvine, CA, USA    ; Maitland, FL, USA    ; Newbury Park, CA, USA    ; San Jose, CA, USA    ",no hardware keyword,https://careers.skyworksinc.com/job/PDK-Development-WinterSpring-Co-Op-%28Jan-June-&apos;27%29/78490-en_US
 Skyworks,Quality Systems Co-Op (Wafer Fabs) Summer/Fall (June - Dec '27),"Newbury Park, CA, USA    ",summer only,https://careers.skyworksinc.com/job/Quality-Systems-Co-Op-%28Wafer-Fabs%29-SummerFall-%28June-Dec-&apos;27%29/78256-en_US
-Skyworks,Product Test Engineering Intern,"Singapore, SGP    ",non-US,https://careers.skyworksinc.com/job/Product-Test-Engineering-Intern/78555-en_US
 Skyworks,Quality Engineering Intern (Reliability),"Singapore, SGP    ",non-US,https://careers.skyworksinc.com/job/Quality-Engineering-Intern-%28Reliability%29/78338-en_US
-Skyworks,GaAs/GaN Design Intern,"Apopka, USA    ",no hardware keyword,https://careers.skyworksinc.com/job/GaAsGaN-Design-Intern/78782-en_US
-Skyworks,Sourcing Business Analyst Intern,"Greensboro, USA    ",excluded title,https://careers.skyworksinc.com/job/Sourcing-Business-Analyst-Intern/78755-en_US
+Skyworks,Product Test Engineering Intern,"Singapore, SGP    ",non-US,https://careers.skyworksinc.com/job/Product-Test-Engineering-Intern/78555-en_US
 Skyworks,SAW R&D Intern,"Apopka, USA    ",no hardware keyword,https://careers.skyworksinc.com/job/SAW-R&amp;D-Intern/78760-en_US
 Skyworks,BAW Research & Development Intern,"Apopka, USA    ",no hardware keyword,https://careers.skyworksinc.com/job/BAW-Research-&amp;-Development-Intern/78711-en_US
 Skyworks,Business Process Integration Intern,"Greensboro, USA    ",excluded title,https://careers.skyworksinc.com/job/Business-Process-Integration-Intern/78732-en_US
+Skyworks,GaAs/GaN Design Intern,"Apopka, USA    ",no hardware keyword,https://careers.skyworksinc.com/job/GaAsGaN-Design-Intern/78782-en_US
+Skyworks,Sourcing Business Analyst Intern,"Greensboro, USA    ",excluded title,https://careers.skyworksinc.com/job/Sourcing-Business-Analyst-Intern/78755-en_US
 Skyworks,Process Engineering Intern (SAW Process),"Singapore, SGP    ",no hardware keyword,https://careers.skyworksinc.com/job/Process-Engineering-Intern-%28SAW-Process%29/78592-en_US
 Skyworks,Process Engineering Intern (BAW Process),"Singapore, SGP    ",no hardware keyword,https://careers.skyworksinc.com/job/Process-Engineering-Intern-%28BAW-Process%29/78564-en_US
 Skyworks,RF Module Design Summer Intern,"Cedar Rapids, IA, USA    ",summer only,https://careers.skyworksinc.com/job/RF-Module-Design-Summer-Intern/78370-en_US
@@ -1151,12 +1148,13 @@ Skyworks,RFIC Design Co-Op (Jan-Dec 2027),"Ottawa, ON, CAN    ",non-US,https://c
 Skyworks,Product Failure Analysis Summer/Fall Co-Op (June-Dec '27),"Newbury Park, CA, USA    ",summer only,https://careers.skyworksinc.com/job/Product-Failure-Analysis-SummerFall-Co-Op-%28June-Dec-&apos;27%29/78546-en_US
 Skyworks,RF Module Design Co-Op (Summer/Fall 2027),"Irvine, CA, USA    ",summer only,https://careers.skyworksinc.com/job/RF-Module-Design-Co-Op-%28SummerFall-2027%29/78271-en_US
 Skyworks,Assembly/Tuning Co-Op (Winter/Spring 2027),"San Jose, CA, USA    ",no hardware keyword,https://careers.skyworksinc.com/job/AssemblyTuning-Co-Op-%28WinterSpring-2027%29/78168-en_US
+Skyworks,RF Filter Design / BAW development Co-Op( January- December 2027),"Ottawa, ON, CAN    ",non-US,https://careers.skyworksinc.com/job/RF-Filter-Design-BAW-development-Co-Op%28-January-December-2027%29/78411-en_US
 Skyworks,AI/ML Summer/Fall Co-Op (June-Dec '27),"Irvine, CA, USA    ",software only,https://careers.skyworksinc.com/job/AIML-SummerFall-Co-Op-%28June-Dec-&apos;27%29/78498-en_US
-Skyworks,"IC Packaging Thermal / Mechanical Simulation Co-Op (Winter/Spring, January - June 2027)","Irvine, CA, USA    ",excluded title,https://careers.skyworksinc.com/job/IC-Packaging-Thermal-Mechanical-Simulation-Co-Op-%28WinterSpring%2C-January-June-2027%29/78217-en_US
 Skyworks,AI Automation & Software Developer Co-op (Winter/Spring 2027),"Cedar Rapids, IA, USA    ",software only,https://careers.skyworksinc.com/job/AI-Automation-&amp;-Software-Developer-Co-op-%28WinterSpring-2027%29/78222-en_US
+Skyworks,"IC Packaging Thermal / Mechanical Simulation Co-Op (Winter/Spring, January - June 2027)","Irvine, CA, USA    ",excluded title,https://careers.skyworksinc.com/job/IC-Packaging-Thermal-Mechanical-Simulation-Co-Op-%28WinterSpring%2C-January-June-2027%29/78217-en_US
 Skyworks,RF Front-End EM Design Co-Op (Summer/Fall 2027),"Newbury Park, CA, USA    ",summer only,https://careers.skyworksinc.com/job/RF-Front-End-EM-Design-Co-Op-%28SummerFall-2027%29/78165-en_US
-Skyworks,Digital Supply Chain Winter/Spring Co-Op (Jan-June '27),"Irvine, CA, USA    ",excluded title,https://careers.skyworksinc.com/job/Digital-Supply-Chain-WinterSpring-Co-Op-%28Jan-June-&apos;27%29/78453-en_US
 Skyworks,Reliability Lab Summer/Fall Co-Op (June - Dec '27),"Newbury Park, CA, USA    ",summer only,https://careers.skyworksinc.com/job/Reliability-Lab-SummerFall-Co-Op-%28June-Dec-&apos;27%29/78447-en_US
+Skyworks,Digital Supply Chain Winter/Spring Co-Op (Jan-June '27),"Irvine, CA, USA    ",excluded title,https://careers.skyworksinc.com/job/Digital-Supply-Chain-WinterSpring-Co-Op-%28Jan-June-&apos;27%29/78453-en_US
 Skyworks,Cybersecurity Winter/Spring Co-Op (Jan - June '27),"Irvine, CA, USA    ",no hardware keyword,https://careers.skyworksinc.com/job/Cybersecurity-WinterSpring-Co-Op-%28Jan-June-&apos;27%29/78250-en_US
 Skyworks,BAW/SAW RF Lap Summer/Fall Co-Op (June-Dec '27),"Irvine, CA, USA    ",summer only,https://careers.skyworksinc.com/job/BAWSAW-RF-Lap-SummerFall-Co-Op-%28June-Dec-&apos;27%29/78483-en_US
 Skyworks,Filter Design Engineer Co-op (Summer/Fall 2027),,no hardware keyword,https://careers.skyworksinc.com/job/Filter-Design-Engineer-Co-op-%28SummerFall-2027%29/78309-en_US
@@ -1169,7 +1167,6 @@ Skyworks,Product Engineering Co-Op (Jan-Dec 2027),"Ottawa, ON, CAN    ",non-US,h
 Skyworks,RFIC Design Co-Op (Jan-Dec 2027),"Ottawa, ON, CAN    ",non-US,https://careers.skyworksinc.com/job/RFIC-Design-Co-Op-%28Jan-Dec-2027%29/78205-en_US
 Skyworks,Test Engineering Co-Op (May 2027-April 2028)),"Ottawa, ON, CAN    ",non-US,https://careers.skyworksinc.com/job/Test-Engineering-Co-Op-%28May-2027-April-2028%29%29/78274-en_US
 Skyworks,Product Development - Assembly and Tuning Winter/Spring Co-Op (Jan-June '27),"Newbury Park, CA, USA    ",no hardware keyword,https://careers.skyworksinc.com/job/Product-Development-Assembly-and-Tuning-WinterSpring-Co-Op-%28Jan-June-&apos;27%29/78174-en_US
-Skyworks,Lithography Process Intern,"Singapore, SGP    ",no hardware keyword,https://careers.skyworksinc.com/job/Lithography-Process-Intern/78557-en_US
 Amazon,"Hardware Development Engineer Intern,  Summer 2027","US, CA, Sunnyvale",summer only,https://www.amazon.jobs/en/jobs/10578090/hardware-development-engineer-intern-summer-2027
 Amazon,"ASIC Engineer Intern, Summer 2027","US, CA, Sunnyvale",summer only,https://www.amazon.jobs/en/jobs/10576619/asic-engineer-intern-summer-2027
 Amazon,"Software Development Engineer Intern, Annapurna Labs - 2027","US, CA, Cupertino",software only,https://www.amazon.jobs/en/jobs/10517567/software-development-engineer-intern-annapurna-labs-2027
@@ -1405,6 +1402,9 @@ FormFactor,"Intern, Procurement","Farmers Branch, TX",excluded title,https://for
 FormFactor,"Intern, Facilities Engineering","Farmers Branch, TX",excluded title,https://formfactor.wd1.myworkdayjobs.com/FFI-Careers/job/Farmers-Branch-TX/Intern--Facilities-Engineering_JR101337-1
 FormFactor,"Intern,  Supply Chain Operations","Farmers Branch, TX",excluded title,https://formfactor.wd1.myworkdayjobs.com/FFI-Careers/job/Farmers-Branch-TX/Intern---Supply-Chain-Operations_JR101358
 Onto Innovation,Mechanical Systems Engineer Intern,Bloomington-MN,excluded title,https://onto.wd1.myworkdayjobs.com/ONTO_Careers/job/Bloomington-MN/Mechanical-Systems-Engineer-Intern_R-5723
+RTX,"Intern, Accounts Payable",PH-BTG-TANAUAN CITY-018 ~ Lot 18 3rd St ~ LOT 18-1,no hardware keyword,https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/PH-BTG-TANAUAN-CITY-018--Lot-18-3rd-St--LOT-18-1/Intern--Accounts-Payable_01878788
+RTX,"Intern, Accounts Payable",PH-BTG-TANAUAN CITY-018 ~ Lot 18 3rd St ~ LOT 18-1,no hardware keyword,https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/PH-BTG-TANAUAN-CITY-018--Lot-18-3rd-St--LOT-18-1/Intern--Accounts-Payable_01878789
+RTX,"Intern, Accounts Payable",PH-BTG-TANAUAN CITY-018 ~ Lot 18 3rd St ~ LOT 18-1,no hardware keyword,https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/PH-BTG-TANAUAN-CITY-018--Lot-18-3rd-St--LOT-18-1/Intern--Accounts-Payable_01878786
 RTX,"Receiver, Exciter, & Processing Architecture Software Engineer Intern (Summer 2027) - Onsite",US-MA-MARLBOROUGH-MA2 ~ 1001 Boston Post Rd ~ BLDG 2,software only,https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-MA-MARLBOROUGH-MA2--1001-Boston-Post-Rd--BLDG-2/Receiver--Exciter----Processing-Architecture-Software-Engineer-Intern--Summer-2027----Onsite_01885187
 RTX,Antenna and Microwave Intern (Summer 2027),US-MA-TEWKSBURY-TB1 ~ 50 Apple Hill Dr ~ ASSABET BLDG,no hardware keyword,https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-MA-TEWKSBURY-TB1--50-Apple-Hill-Dr--ASSABET-BLDG/Antenna-and-Microwave-Intern--Summer-2027-_01884126
 RTX,Stage - Planificateur de production (Hiver 2027) | Internship – Production Planner Winter 2027,CA-QC-LONGUEUIL-J01 ~ 1000 Blvd Marie-Victorin ~ J01 BLDG,no hardware keyword,https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/CA-QC-LONGUEUIL-J01--1000-Blvd-Marie-Victorin--J01-BLDG/Stage---Planificateur-de-production--Hiver-2027----Internship---Production-Planner-Winter-2027_01867333
@@ -1446,10 +1446,7 @@ RTX,"Internship Spring 2027 - Mechanical Engineering Technology, CNC, or Precisi
 RTX,"Internship Spring 2027 - Mechanical Engineering Technology, CNC, or Precision Machining Student",CA-NS-HALIFAX-PLANT 41 ~ 189 Pratt & Whitney Dr ~ PLANT 41,excluded title,https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/CA-NS-HALIFAX-PLANT-41--189-Pratt--Whitney-Dr--PLANT-41/Internship-Spring-2027---Mechanical-Engineering-Technology--CNC--or-Precision-Machining-Student_01883216
 RTX,Materials Management & Logistics Internship Program (Summer 2027),US-CT-EAST HARTFORD-ETC ~ 400 Main St ~ BLDG ETC,excluded title,https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-CT-EAST-HARTFORD-ETC--400-Main-St--BLDG-ETC/Materials-Management---Logistics-Internship-Program--Summer-2027-_01862953-1
 RTX,Electrical Engineering Intern (Summer 2027)(Onsite),US-MA-MARLBOROUGH-MA1 ~ 1001 Boston Post Rd ~ BLDG 1,summer only,https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-MA-MARLBOROUGH-MA1--1001-Boston-Post-Rd--BLDG-1/Electrical-Engineering-Intern--Summer-2027--Onsite-_01882705
-RTX,Test Equipment Mechanical Engineering Co-op (Winter/Spring 2027),US-IL-ROCKFORD-P1 ~ 2421 11th St ~ 2421 11TH ST-P1,excluded title,https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-IL-ROCKFORD-P1--2421-11th-St--2421-11TH-ST-P1/Test-Equipment-Mechanical-Engineering-Co-op--Winter-Spring-2027-_01874053
-RTX,Project Engineering Intern (Summer 2027),US-CT-WINDSOR LOCKS-B1A ~ 1 Hamilton Rd ~ BLDG 1A,no hardware keyword,https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-CT-WINDSOR-LOCKS-B1A--1-Hamilton-Rd--BLDG-1A/Project-Engineering-Intern--Summer-2027-_01872535
 RTX,Internship - Winter 2027 - Production Scheduler Intern,CA-NS-HALIFAX-PLANT 41 ~ 189 Pratt & Whitney Dr ~ PLANT 41,no hardware keyword,https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/CA-NS-HALIFAX-PLANT-41--189-Pratt--Whitney-Dr--PLANT-41/Internship---Winter-2027---Production-Scheduler-Intern_01871015
-RTX,Aero Thermal Fluids Intern (Summer 2027) (Onsite),US-CT-EAST HARTFORD-ETC ~ 400 Main St ~ BLDG ETC,no hardware keyword,https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-CT-EAST-HARTFORD-ETC--400-Main-St--BLDG-ETC/Aero-Thermal-Fluids-Intern--Summer-2027---Onsite-_01882602
 RTX,Electrical Engineering Intern (Summer 2027),US-CA-EL SEGUNDO-R01 ~ 2000 E Imperial Hwy ~ BLDG R01,summer only,https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-CA-EL-SEGUNDO-R01--2000-E-Imperial-Hwy--BLDG-R01/Electrical-Engineering-Intern--Summer-2027-_01867428
 RTX,Analog and Power Design Electrical Engineering Intern (Summer 2027),US-MA-MARLBOROUGH-MA3 ~ 1001 Boston Post Rd ~ BLDG 3,summer only,https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-MA-MARLBOROUGH-MA3--1001-Boston-Post-Rd--BLDG-3/Analog-and-Power-Design-Electrical-Engineering-Intern--Summer-2027-_01871778
 RTX,Part-Time Software Engineer Co-op(Remote),US-CO-AURORA-S77 ~ 16470 E Hughes Dr ~ BLDG S77,software only,https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-CO-AURORA-S77--16470-E-Hughes-Dr--BLDG-S77/Part-Time-Software-Engineer-Co-op-Remote-_01883451
@@ -1489,8 +1486,6 @@ Northrop Grumman,2027 Software Engineering Intern - Beavercreek OH,United States
 Northrop Grumman,2027 Mechanical Engineering Intern - Clearfield UT,United States-Utah-Clearfield,excluded title,https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Utah-Clearfield/XMLNAME-2027-Mechanical-Engineering-Intern---Clearfield-UT_R10257639-1
 Northrop Grumman,2027 Supply Chain Intern - HYBRID/Baltimore MD/Redondo Beach CA,2 Locations,excluded title,https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Maryland-Baltimore/XMLNAME-2027-Supply-Chain-Intern---HYBRID-Baltimore-MD-Redondo-Beach-CA_R10257568-1
 Northrop Grumman,2027 Supply Chain Intern - HYBRID/Baltimore MD/Redondo Beach CA,2 Locations,excluded title,https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Maryland-Baltimore/XMLNAME-2027-Supply-Chain-Intern---HYBRID-Baltimore-MD-Redondo-Beach-CA_R10257567
-Northrop Grumman,2027 Business Management Intern,United States-Ohio-Beavercreek,excluded title,https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Ohio-Beavercreek/XMLNAME-2027-Business-Management-Intern_R10257345
-Northrop Grumman,2027 Business Management Intern,United States-Utah-Clearfield,excluded title,https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Utah-Clearfield/XMLNAME-2027-Business-Management-Intern_R10257339
 Northrop Grumman,Gilbert Manufacturing Technician Intern - Fall,United States-Arizona-Gilbert,no hardware keyword,https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Arizona-Gilbert/Gilbert-Manufacturing-Technician-Intern---Fall_R10250962
 Northrop Grumman,2027 Engineering Intern - Hollywood (MD) (Evergreen),United States-Maryland-Hollywood,no hardware keyword,https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Maryland-Hollywood/XMLNAME-2027-Engineering-Intern---Hollywood--MD---Evergreen-_R10253725
 Northrop Grumman,2027 Engineering Intern - Melbourne (FL) (Evergreen),United States-Florida-Melbourne,no hardware keyword,https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Florida-Melbourne/XMLNAME-2027-Engineering-Intern---Melbourne--FL---Evergreen-_R10253720-1
@@ -1524,7 +1519,6 @@ GE Aerospace,Internship - Production Control,Pomigliano D'Arco,no hardware keywo
 GE Aerospace,Program Management Intern,Rivalta di Torino,excluded title,https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Rivalta-di-Torino/Program-Management-Intern_R5042066-1
 GE Aerospace,Internship - Production Analysis,Pomigliano D'Arco,no hardware keyword,https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Pomigliano-DArco/Internship---Production-Analysis_R5042045-2
 GE Aerospace,Intern - Inspection,Subang,no hardware keyword,https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Subang/Intern---Inspection_R5041883-1
-GE Aerospace,Variable Geometries IME/IDB Intern,Queretaro,no hardware keyword,https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Queretaro/Variable-Geometries-IME-IDB-Intern_R5040577-1
 GE Aerospace,Contract Operation Intern,Shanghai,no hardware keyword,https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Shanghai/Contract-Operation-Intern_R5041792
 GE Aerospace,LEAN Assistant Intern,Veresegyhaz,no hardware keyword,https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Veresegyhaz/LEAN-Assistant-Intern_R5041439-1
 GE Aerospace,CNC Programmer Co-op - Spring 2027,Lynn,no hardware keyword,https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Lynn/CNC-Programmer-Co-op---Spring-2027_R5033208-1
@@ -1578,9 +1572,13 @@ Bose,Automotive Demand Planning Co-Op,2 Locations,no hardware keyword,https://bo
 Bose,Public Relations Coordinator (Co-op),"US, MA - Framingham",no hardware keyword,https://boseallaboutme.wd503.myworkdayjobs.com/Bose_Careers/job/US-MA---Framingham/Public-Relations-Coordinator--Co-op-_R29265
 Bose,Embedded Audio ML Engineer Co-op,"US, MA - Framingham",software only,https://boseallaboutme.wd503.myworkdayjobs.com/Bose_Careers/job/US-MA---Framingham/Audio-Machine-Learning-Engineer-Co-op_R28719
 Bose,Audio Machine Learning Co-op,"US, MA - Framingham",software only,https://boseallaboutme.wd503.myworkdayjobs.com/Bose_Careers/job/US-MA---Framingham/Audio-Machine-Learning-Co-op_R29274
+HP,College Intern - Firmware Engineering,"Singapore, South West, Singapore",non-US,https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/Singapore-South-West-Singapore/College-Intern---Firmware-Engineering_UNI5128-1
+HP,College Intern - Agentic AI Engineering,"Singapore, South West, Singapore",software only,https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/Singapore-South-West-Singapore/College-Intern---Agentic-AI-Engineering_UNI5129-1
+HP,College Intern – Manufacturing Engineer in Supply Chain,"Singapore, South West, Singapore",excluded title,https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/Singapore-South-West-Singapore/College-Intern---Manufacturing-Engineer-in-Supply-Chain_UNI4033-2
+HP,College Intern - New Product Introduction Engineering (NPI IT Control Systems),"Singapore, South West, Singapore",no hardware keyword,https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/Singapore-South-West-Singapore/College-Intern---New-Product-Introduction-Engineering--NPI-IT-Control-Systems-_UNI4546-1
+HP,College Intern - Process and Digitalization,"Singapore, South West, Singapore",no hardware keyword,https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/Singapore-South-West-Singapore/College-Intern---Process-and-Digitalization_UNI4586-2
 HP,Cloud Engineering Intern - HP IQ,"San Francisco, California, United States of America",software only,https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/San-Francisco-California-United-States-of-America/Cloud-Engineering-Intern_UNI4799-1
 HP,AI & Automation Intern,"Sant Cugat del Valles, Barcelona, Spain",software only,https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/Sant-Cugat-del-Valles-Barcelona-Spain/AI---Automation-Intern_UNI3950-1
-HP,College Intern - Process and Digitalization,"Singapore, South West, Singapore",no hardware keyword,https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/Singapore-South-West-Singapore/College-Intern---Process-and-Digitalization_UNI4586-2
 HP,Placement Year - CPS & Gaming Marketing Intern,"Reading, Berkshire, United Kingdom",excluded title,https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/Reading-Berkshire-United-Kingdom/Placement-Year---PS---Print-Marketing-Intern_UNI4900-1
 HP,Placement Year - CPS & Gaming Marketing Intern,"Reading, Berkshire, United Kingdom",excluded title,https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/Reading-Berkshire-United-Kingdom/Placement-Year---PS---Print-Marketing-Intern_UNI4901-1
 HP,UK&I Print Marketing Intern,"Reading, Berkshire, United Kingdom",excluded title,https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/Reading-Berkshire-United-Kingdom/UK-I-Print-Marketing-Intern_UNI4896-1
@@ -1690,7 +1688,6 @@ Curtiss-Wright,Co-op (Spring Term),US-PA-Cheswick (EMD),no hardware keyword,http
 Curtiss-Wright,Co-op (Summer Term),US-PA-Cheswick (EMD),no hardware keyword,https://curtisswright.wd1.myworkdayjobs.com/CW_External_Career_Site/job/US-PA-Cheswick-EMD/Co-op--Summer-Term-_JR4041
 Moog,"Intern, Additive Manufacturing Engineering","Buffalo, NY",no hardware keyword,https://moog.wd5.myworkdayjobs.com/MOOG_External_Career_Site/job/Buffalo-NY/Intern--Additive-Manufacturing-Engineering_R-26-20786
 Moog,Engineering Internship Program,"Dublin, IRL",no hardware keyword,https://moog.wd5.myworkdayjobs.com/MOOG_External_Career_Site/job/Dublin-IRL/Engineering-Internship-Program_R-26-20166
-Moog,"Intern, Manufacturing and Industrial Engineering","Torrance, CA",no hardware keyword,https://moog.wd5.myworkdayjobs.com/MOOG_External_Career_Site/job/Torrance-CA/Intern--Manufacturing-and-Industrial-Engineering_R-26-19823
 Moog,"Intern, Quality Engineering","Torrance, CA",no hardware keyword,https://moog.wd5.myworkdayjobs.com/MOOG_External_Career_Site/job/Torrance-CA/Intern--Quality-Engineering_R-26-19822
 Moog,"Intern, Product Engineering","Torrance, CA",summer only,https://moog.wd5.myworkdayjobs.com/MOOG_External_Career_Site/job/Torrance-CA/Intern--Product-Engineering_R-26-19984
 Teledyne FLIR,Computer Engineering Intern,"US - Lincoln, NE",no hardware keyword,https://flir.wd1.myworkdayjobs.com/flircareers/job/US---Lincoln-NE/Computer-Engineering-Intern_REQ29119
@@ -1779,8 +1776,8 @@ Honeywell,Intern (m/w/d) (Bachelor) Sales Ops,"Offenbach am Main, Hessen, German
 Honeywell,Intern Bachelors - Engineering Program Management (m/f/d),"Amsterdam, Noord-Holland, Netherlands",excluded title,https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/160331
 Honeywell,Digitalization Engineering Intern - Master's,"Charlotte, NC, United States",no hardware keyword,https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/160296
 Honeywell,Intern Bachelor's Document Specialist,"Markham, ON, Canada",no hardware keyword,https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/160382
-Honeywell,Intern Bachelors Field Service Technician,"Markham, ON, Canada",no hardware keyword,https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/160530
 Honeywell,Intern Electronic Hardware Engineer,"CMX, Mexico",non-US,https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/160032
+Honeywell,Intern Bachelors Field Service Technician,"Markham, ON, Canada",no hardware keyword,https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/160530
 Honeywell,Intern Bachelors Field Service Technician,"Markham, ON, Canada",no hardware keyword,https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/160178
 Honeywell,Intern Bachelors Field Service Technician,"Markham, ON, Canada",no hardware keyword,https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/160397
 Honeywell,"Security, Fire & BMS Systems Estimator Intern (m/f/d)","Bracknell, Berkshire, United Kingdom",no hardware keyword,https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/159037
@@ -1906,21 +1903,25 @@ Seagate,IT Communications Intern - Summer 2027,,no hardware keyword,https://seag
 Seagate,Talent Acquisition & University Relations Intern,,no hardware keyword,https://seagatecareers.com/job/Talent-Acquisition-&amp;-University-Relations-Intern/15447-en_US
 Seagate,Data Science Intern,"Shugart, SGP, ",software only,https://seagatecareers.com/job/Data-Science-Intern/14735-en_US
 Seagate,Device Physics Summer Intern (PhD),,no hardware keyword,https://seagatecareers.com/job/Device-Physics-Summer-Intern-%28PhD%29/15411-en_US
-Seagate,"Revenue Operations Account Management Intern, Supply & Demand",,no hardware keyword,https://seagatecareers.com/job/Revenue-Operations-Account-Management-Intern%2C-Supply-&amp;-Demand/15045-en_US
 Seagate,AI Adoption Intern,,software only,https://seagatecareers.com/job/AI-Adoption-Intern/15158-en_US
+Seagate,"Revenue Operations Account Management Intern, Supply & Demand",,no hardware keyword,https://seagatecareers.com/job/Revenue-Operations-Account-Management-Intern%2C-Supply-&amp;-Demand/15045-en_US
 Seagate,Sustaining Intern - Graduating High School Senior (Summer 2027),,no hardware keyword,https://seagatecareers.com/job/Sustaining-Intern-Graduating-High-School-Senior-%28Summer-2027%29/15295-en_US
 Seagate,Microscopy Engineer Intern,,no hardware keyword,https://seagatecareers.com/job/Microscopy-Engineer-Intern/15429-en_US
+Seagate,Data Scientist Intern,,no hardware keyword,https://seagatecareers.com/job/Data-Scientist-Intern/15442-en_US
+Seagate,Data Scientist Intern,,no hardware keyword,https://seagatecareers.com/job/Data-Scientist-Intern/15444-en_US
+Seagate,Data Scientist Intern,,no hardware keyword,https://seagatecareers.com/job/Data-Scientist-Intern/15443-en_US
 Seagate,Supply Chain / NPI Materials Intern,"Longmont, CO, USA, ",excluded title,https://seagatecareers.com/job/Supply-Chain-NPI-Materials-Intern/14732-en_US
 Seagate,Summer Intern - Cryptography and Security,,no hardware keyword,https://seagatecareers.com/job/Summer-Intern-Cryptography-and-Security/15266-en_US
 Seagate,Web Application Developer Intern,,software only,https://seagatecareers.com/job/Web-Application-Developer-Intern/15198-en_US
 Seagate,Web Application Developer Intern,,software only,https://seagatecareers.com/job/Web-Application-Developer-Intern/15220-en_US
+Seagate,Sputter Equipment Development Intern,,no hardware keyword,https://seagatecareers.com/job/Sputter-Equipment-Development-Intern/15479-en_US
 Seagate,Summer Intern - Machine Learning for Corporate Strategy,,software only,https://seagatecareers.com/job/Summer-Intern-Machine-Learning-for-Corporate-Strategy/15363-en_US
 Seagate,"HR Intern, Site Human Resources & Business Partner","Shugart, SGP, ",excluded title,https://seagatecareers.com/job/HR-Intern%2C-Site-Human-Resources-&amp;-Business-Partner/14827-en_US
 Seagate,Web Application Developer Intern,,software only,https://seagatecareers.com/job/Web-Application-Developer-Intern/15221-en_US
 Seagate,Web Application Developer Intern,,software only,https://seagatecareers.com/job/Web-Application-Developer-Intern/15278-en_US
 Seagate,Intern - Reference Architecture & Design,,no hardware keyword,https://seagatecareers.com/job/Intern-Reference-Architecture-&amp;-Design/14990-en_US
-Seagate,"Research Intern (Summer 2027), ML and Security",,software only,https://seagatecareers.com/job/Research-Intern-%28Summer-2027%29%2C-ML-and-Security/15265-en_US
 Seagate,ASE Intern,,no hardware keyword,https://seagatecareers.com/job/ASE-Intern/15431-en_US
+Seagate,"Research Intern (Summer 2027), ML and Security",,software only,https://seagatecareers.com/job/Research-Intern-%28Summer-2027%29%2C-ML-and-Security/15265-en_US
 Seagate,Data Trust Security Analysis Intern (Postgraduate Internship),"Shugart, SGP, ",no hardware keyword,https://seagatecareers.com/job/Data-Trust-Security-Analysis-Intern-%28Postgraduate-Internship%29/13494-en_US
 Seagate,"Quality Assurance Intern, Data Analytics",,no hardware keyword,https://seagatecareers.com/job/Quality-Assurance-Intern%2C-Data-Analytics/15261-en_US
 Seagate,Embedded Software Engineering Intern,,software only,https://seagatecareers.com/job/Embedded-Software-Engineering-Intern/15345-en_US
@@ -1935,9 +1936,9 @@ Seagate,"Edge Finance Process Improvement, Automation & AI - Summer 2027 Intern"
 Seagate,AI-Native Development Intern,,software only,https://seagatecareers.com/job/AI-Native-Development-Intern/15132-en_US
 Seagate,Research Intern (Summer 2027) - Formal Methods and Security,,no hardware keyword,https://seagatecareers.com/job/Research-Intern-%28Summer-2027%29-Formal-Methods-and-Security/15267-en_US
 Seagate,"Media R&D Intern, Analytical chemistry","Singapore, SGP, ",no hardware keyword,https://seagatecareers.com/job/Media-R&amp;D-Intern%2C-Analytical-chemistry/14377-en_US
-Seagate,Sustaining Intern - Post-First Year of College (Summer 2027),,no hardware keyword,https://seagatecareers.com/job/Sustaining-Intern-Post-First-Year-of-College-%28Summer-2027%29/15293-en_US
 Seagate,Drive PPE Intern,"Nakhon Ratchasima, THA, ",no hardware keyword,https://seagatecareers.com/job/Drive-PPE-Intern/14634-en_US
 Seagate,Facility Engineering Intern,"Samut Prakan, THA, ",no hardware keyword,https://seagatecareers.com/job/Facility-Engineering-Intern/14916-en_US
+Seagate,Sustaining Intern - Post-First Year of College (Summer 2027),,no hardware keyword,https://seagatecareers.com/job/Sustaining-Intern-Post-First-Year-of-College-%28Summer-2027%29/15293-en_US
 Seagate,"Singapore Occupational Health Intern, Wellness Programs & Engagement",,no hardware keyword,https://seagatecareers.com/job/Singapore-Occupational-Health-Intern%2C-Wellness-Programs-&amp;-Engagement/15035-en_US
 Seagate,Global Revenue Operations Analytics: Data Analyst Intern,,excluded title,https://seagatecareers.com/job/Global-Revenue-Operations-Analytics-Data-Analyst-Intern/14977-en_US
 Seagate,"Supply Chain Intern, Sales & Operation Planning (S&OP)",,excluded title,https://seagatecareers.com/job/Supply-Chain-Intern%2C-Sales-&amp;-Operation-Planning-%28S&amp;OP%29/15252-en_US
@@ -1959,6 +1960,7 @@ Seagate,AI Chatbot Development Intern,,software only,https://seagatecareers.com/
 Seagate,AI Engineering Hub Intern,"Wuxi, CHN, ",software only,https://seagatecareers.com/job/AI-Engineering-Hub-Intern/14690-en_US
 Seagate,"Research Intern, AI for Science","Shugart, SGP, ",software only,https://seagatecareers.com/job/Research-Intern%2C-AI-for-Science/14946-en_US
 Seagate,AI Engineering Hub Intern,"Wuxi, CHN, ",software only,https://seagatecareers.com/job/AI-Engineering-Hub-Intern/14691-en_US
+Seagate,Head Stack Assembly Equipment Software Engineering Intern,"Wuxi, CHN, ",software only,https://seagatecareers.com/job/Head-Stack-Assembly-Equipment-Software-Engineering-Intern/14960-en_US
 Seagate,HDD Application Engineering (AE) Intern,,no hardware keyword,https://seagatecareers.com/job/HDD-Application-Engineering-%28AE%29-Intern/14984-en_US
 Seagate,"Engineering IT Intern, AI Solutions",,software only,https://seagatecareers.com/job/Engineering-IT-Intern%2C-AI-Solutions/15321-en_US
 Seagate,Mechatronics Engineering Intern (CAG Team),,no hardware keyword,https://seagatecareers.com/job/Mechatronics-Engineering-Intern-%28CAG-Team%29/15407-en_US
@@ -1984,6 +1986,7 @@ Seagate,Manufacturing Intern,,no hardware keyword,https://seagatecareers.com/job
 Seagate,Manufacturing Intern,,no hardware keyword,https://seagatecareers.com/job/Manufacturing-Intern/15238-en_US
 Seagate,Intern III,"Nakhon Ratchasima, THA, ",no hardware keyword,https://seagatecareers.com/job/Intern-III/14867-en_US
 Seagate,Manufacturing Intern,"Nakhon Ratchasima, THA, ",no hardware keyword,https://seagatecareers.com/job/Manufacturing-Intern/14868-en_US
+Seagate,AI ML Intern,,software only,https://seagatecareers.com/job/AI-ML-Intern/15064-en_US
 Seagate,Maintenance Engineering Intern,,no hardware keyword,https://seagatecareers.com/job/Maintenance-Engineering-Intern/15008-en_US
 Seagate,Manufacturing Supervisor Intern,,no hardware keyword,https://seagatecareers.com/job/Manufacturing-Supervisor-Intern/15263-en_US
 Seagate,Process Engineering Intern,"Samut Prakan, THA, ",no hardware keyword,https://seagatecareers.com/job/Process-Engineering-Intern/14894-en_US
@@ -2029,11 +2032,11 @@ BAE Systems,"Logistics Intern III, (Onsite)","Austin, Texas, United States",excl
 BAE Systems,"Engineering Intern III, Summer 2027","Endicott, New York, United States",no hardware keyword,https://jobs.baesystems.com/global/en/job/129873BR/engineering-intern-iii-summer-2027
 BAE Systems,"M&S Engineering Intern, Summer 2027","Rockville, Maryland, United States",no hardware keyword,https://jobs.baesystems.com/global/en/job/131309BR/m-s-engineering-intern-summer-2027
 BAE Systems,"Supply Chain Intern III, Summer 2027 (Onsite)","Fort Wayne, Indiana, United States",excluded title,https://jobs.baesystems.com/global/en/job/130711BR/supply-chain-intern-iii-summer-2027-onsite
-BAE Systems,"Mechanical Engineering Intern, Summer 2027 (Hybrid)","Nashua, New Hampshire, United States",excluded title,https://jobs.baesystems.com/global/en/job/129934BR/mechanical-engineering-intern-summer-2027-hybrid
-BAE Systems,"Engineering Intern (EE/CE/RF), Summer 2027 (Hybrid)","Nashua, New Hampshire, United States",summer only,https://jobs.baesystems.com/global/en/job/129933BR/engineering-intern-ee-ce-rf-summer-2027-hybrid
 BAE Systems,"Additive Manufacturing Intern II, Summer 2027 (Onsite)","Hudson, New Hampshire, United States",no hardware keyword,https://jobs.baesystems.com/global/en/job/129369BR/additive-manufacturing-intern-ii-summer-2027-onsite
-BAE Systems,"Manufacturing Engineering Intern II, Summer 2027","Austin, Texas, United States",no hardware keyword,https://jobs.baesystems.com/global/en/job/131672BR/manufacturing-engineering-intern-ii-summer-2027
+BAE Systems,"Engineering Intern (EE/CE/RF), Summer 2027 (Hybrid)","Nashua, New Hampshire, United States",summer only,https://jobs.baesystems.com/global/en/job/129933BR/engineering-intern-ee-ce-rf-summer-2027-hybrid
+BAE Systems,"Mechanical Engineering Intern, Summer 2027 (Hybrid)","Nashua, New Hampshire, United States",excluded title,https://jobs.baesystems.com/global/en/job/129934BR/mechanical-engineering-intern-summer-2027-hybrid
 BAE Systems,"Supply Chain Intern II, Summer 2027","Nashua, New Hampshire, United States",excluded title,https://jobs.baesystems.com/global/en/job/131676BR/supply-chain-intern-ii-summer-2027
+BAE Systems,"Manufacturing Engineering Intern II, Summer 2027","Austin, Texas, United States",no hardware keyword,https://jobs.baesystems.com/global/en/job/131672BR/manufacturing-engineering-intern-ii-summer-2027
 BAE Systems,"System Engineer Intern, Summer 2027","Rockville, Maryland, United States",no hardware keyword,https://jobs.baesystems.com/global/en/job/129958BR/system-engineer-intern-summer-2027
 BAE Systems,"Electronic Systems Finance Intern III, Summer 2027","Nashua, New Hampshire, United States",excluded title,https://jobs.baesystems.com/global/en/job/129972BR/electronic-systems-finance-intern-iii-summer-2027
 BAE Systems,"Contracts Intern, Summer 2027 (Cedar Rapids, IA)","Cedar Rapids, Iowa, United States",no hardware keyword,https://jobs.baesystems.com/global/en/job/131487BR/contracts-intern-summer-2027-cedar-rapids-ia
@@ -2042,8 +2045,8 @@ BAE Systems,"Contracts Intern, Summer 2027 - New Hampshire","Nashua, New Hampshi
 BAE Systems,"Research Engineering Intern III, Summer 2027 (Onsite)","Merrimack, New Hampshire, United States",no hardware keyword,https://jobs.baesystems.com/global/en/job/131389BR/research-engineering-intern-iii-summer-2027-onsite
 BAE Systems,"Research Engineering Intern IV, Summer 2027 (Onsite)","Merrimack, New Hampshire, United States",no hardware keyword,https://jobs.baesystems.com/global/en/job/131390BR/research-engineering-intern-iv-summer-2027-onsite
 BAE Systems,"Software Engineering Intern III, Summer 2027 (Onsite)","San Diego, California, United States",software only,https://jobs.baesystems.com/global/en/job/129576BR/software-engineering-intern-iii-summer-2027-onsite
-BAE Systems,"System Modeling Engineer Intern, Summer 2027","Rockville, Maryland, United States",no hardware keyword,https://jobs.baesystems.com/global/en/job/131759BR/system-modeling-engineer-intern-summer-2027
 BAE Systems,Technical Intern 3 - Service Desk,"Clearfield, Utah, United States",no hardware keyword,https://jobs.baesystems.com/global/en/job/131300BR/technical-intern-3-service-desk
+BAE Systems,"System Modeling Engineer Intern, Summer 2027","Rockville, Maryland, United States",no hardware keyword,https://jobs.baesystems.com/global/en/job/131759BR/system-modeling-engineer-intern-summer-2027
 BAE Systems,"Contracts Intern, Summer 2027 -  Greenlawn, NY (Hybrid)","Greenlawn, New York, United States",no hardware keyword,https://jobs.baesystems.com/global/en/job/131581BR/contracts-intern-summer-2027-greenlawn-ny-hybrid
 BAE Systems,"Contracts Intern, Summer 2027 - Fort Wayne, IN","Fort Wayne, Indiana, United States",no hardware keyword,https://jobs.baesystems.com/global/en/job/131590BR/contracts-intern-summer-2027-fort-wayne-in
 BAE Systems,"Contracts Intern III, Summer 2027 - Austin, TX","Austin, Texas, United States",no hardware keyword,https://jobs.baesystems.com/global/en/job/131846BR/contracts-intern-iii-summer-2027-austin-tx
@@ -2054,18 +2057,17 @@ BAE Systems,"Operations Program Management Intern III, Summer 2027 (Onsite)","Gr
 BAE Systems,"Quality Engineering Intern III (Summer 2027) Nashua, NH","Nashua, New Hampshire, United States",no hardware keyword,https://jobs.baesystems.com/global/en/job/130888BR/quality-engineering-intern-iii-summer-2027-nashua-nh
 BAE Systems,"Hardware Engineering Intern III, Summer 2027 (Onsite)","San Diego, California, United States",summer only,https://jobs.baesystems.com/global/en/job/129896BR/hardware-engineering-intern-iii-summer-2027-onsite
 BAE Systems,"Software Engineering Intern III, Summer 2027 (Onsite)","Fort Wayne, Indiana, United States",software only,https://jobs.baesystems.com/global/en/job/131092BR/software-engineering-intern-iii-summer-2027-onsite
-BAE Systems,"Systems Engineering Intern II, Summer 2027 (NH-Onsite)","Nashua, New Hampshire, United States",no hardware keyword,https://jobs.baesystems.com/global/en/job/128225BR/systems-engineering-intern-ii-summer-2027-nh-onsite
 BAE Systems,Facilities Project Management Intern (Onsite) Summer 2027,"Nashua, New Hampshire, United States",excluded title,https://jobs.baesystems.com/global/en/job/129504BR/facilities-project-management-intern-onsite-summer-2027
 BAE Systems,"Supply Chain Intern II, (Summer 2027) Hybrid","Cedar Rapids, Iowa, United States",excluded title,https://jobs.baesystems.com/global/en/job/127992BR/supply-chain-intern-ii-summer-2027-hybrid
-BAE Systems,"Software Engineering Intern II, Summer 2027 (Onsite)","Totowa, New Jersey, United States",software only,https://jobs.baesystems.com/global/en/job/130817BR/software-engineering-intern-ii-summer-2027-onsite
 BAE Systems,"Continuous Improvement Engineering Intern III (Summer 2027) Merrimac, NH","Merrimack, New Hampshire, United States",no hardware keyword,https://jobs.baesystems.com/global/en/job/131045BR/continuous-improvement-engineering-intern-iii-summer-2027-merrimac-nh
+BAE Systems,"Software Engineering Intern II, Summer 2027 (Onsite)","Totowa, New Jersey, United States",software only,https://jobs.baesystems.com/global/en/job/130817BR/software-engineering-intern-ii-summer-2027-onsite
 BAE Systems,Electronic Systems Finance Intern III - Summer 2027 (Hybrid),"Fort Wayne, Indiana, United States",excluded title,https://jobs.baesystems.com/global/en/job/130393BR/electronic-systems-finance-intern-iii-summer-2027-hybrid
 BAE Systems,"Business Analyst Intern III, Summer 2027 (Remote)","Endicott, New York, United States",excluded title,https://jobs.baesystems.com/global/en/job/129379BR/business-analyst-intern-iii-summer-2027-remote
 BAE Systems,"Space Systems - Core Systems Engineering Intern, Summer 2027","Broomfield, Colorado, United States",no hardware keyword,https://jobs.baesystems.com/global/en/job/131827BR/space-systems-core-systems-engineering-intern-summer-2027
 BAE Systems,"Radio-frequency (RF) Engineering Intern, Summer 2027 (Hybrid)","Nashua, New Hampshire, United States",summer only,https://jobs.baesystems.com/global/en/job/129931BR/radio-frequency-rf-engineering-intern-summer-2027-hybrid
 BAE Systems,"Software Developer Intern III, Summer 2027 (Onsite)","Rome, New York, United States",software only,https://jobs.baesystems.com/global/en/job/129774BR/software-developer-intern-iii-summer-2027-onsite
-BAE Systems,"Industrial Engineering Intern II, Summer 2027 - Nashua, NH","Nashua, New Hampshire, United States",no hardware keyword,https://jobs.baesystems.com/global/en/job/131674BR/industrial-engineering-intern-ii-summer-2027-nashua-nh
 BAE Systems,"Industrial Engineering Intern II, Summer 2027 - Austin, TX","Austin, Texas, United States",no hardware keyword,https://jobs.baesystems.com/global/en/job/131671BR/industrial-engineering-intern-ii-summer-2027-austin-tx
+BAE Systems,"Industrial Engineering Intern II, Summer 2027 - Nashua, NH","Nashua, New Hampshire, United States",no hardware keyword,https://jobs.baesystems.com/global/en/job/131674BR/industrial-engineering-intern-ii-summer-2027-nashua-nh
 BAE Systems,"Program Quality Engineering Intern III (Summer 2027), Diego, CA","San Diego, California, United States",no hardware keyword,https://jobs.baesystems.com/global/en/job/131046BR/program-quality-engineering-intern-iii-summer-2027-diego-ca
 BAE Systems,"Quality Engineering Intern II (Summer 2027) Cedar Rapids, IA","Cedar Rapids, Iowa, United States",no hardware keyword,https://jobs.baesystems.com/global/en/job/131041BR/quality-engineering-intern-ii-summer-2027-cedar-rapids-ia
 BAE Systems,"Facilities Project Management Intern III, (Onsite) Summer 2027","Nashua, New Hampshire, United States",excluded title,https://jobs.baesystems.com/global/en/job/130468BR/facilities-project-management-intern-iii-onsite-summer-2027
@@ -2080,8 +2082,8 @@ BAE Systems,"Embedded Software Engineering Co-Op III (Summer/Fall 2027) , Naviga
 BAE Systems,Chemical Engineering Co-Op (May 2027-April 2028),"Kingsport, Tennessee, United States",excluded title,https://jobs.baesystems.com/global/en/job/130929BR/chemical-engineering-co-op-may-2027-april-2028
 BAE Systems,"Operations Engineering (Industrial, Mechanical, Electrical) Co-op, Summer/Fall 2027","Cedar Rapids, Iowa, United States",excluded title,https://jobs.baesystems.com/global/en/job/130509BR/operations-engineering-industrial-mechanical-electrical-co-op-summer-fall-2027
 BAE Systems,"Mechanical Engineering Coop (Spring/Summer 2027), Onsite","Cedar Rapids, Iowa, United States",excluded title,https://jobs.baesystems.com/global/en/job/127776BR/mechanical-engineering-coop-spring-summer-2027-onsite
-BAE Systems,"Mechanical Engineering Coop (Summer/Fall 2027), Onsite","Cedar Rapids, Iowa, United States",excluded title,https://jobs.baesystems.com/global/en/job/127778BR/mechanical-engineering-coop-summer-fall-2027-onsite
 BAE Systems,"Electrical Engineering Coop (Summer/Fall 2027), Onsite","Cedar Rapids, Iowa, United States",summer only,https://jobs.baesystems.com/global/en/job/127775BR/electrical-engineering-coop-summer-fall-2027-onsite
+BAE Systems,"Mechanical Engineering Coop (Summer/Fall 2027), Onsite","Cedar Rapids, Iowa, United States",excluded title,https://jobs.baesystems.com/global/en/job/127778BR/mechanical-engineering-coop-summer-fall-2027-onsite
 General Dynamics Mission Systems,Mechanical Engineering Intern,,excluded title,https://careers-gdms.icims.com/jobs/75542/mechanical-engineering-intern/job
 General Dynamics Mission Systems,Software & Systems Infrastructure Integration Intern,,software only,https://careers-gdms.icims.com/jobs/75520/software-%26-systems-infrastructure-integration-intern/job
 General Dynamics Mission Systems,Software Engineer Intern for Crypto & Cross Domain Solutions,,software only,https://careers-gdms.icims.com/jobs/75477/software-engineer-intern-for-crypto-%26-cross-domain-solutions/job
@@ -2140,6 +2142,7 @@ Navitas Semiconductor,Student Services & Experience Officer - Activities ,"Sydne
 Arista Networks,Software Engineer Intern 2026/2027,"Dublin, County Dublin, Ireland",software only,https://jobs.smartrecruiters.com/aristanetworks/744000152369329
 Arista Networks,Intern Software Engineer - C/C++,"Poland - Remote, , Poland",software only,https://jobs.smartrecruiters.com/aristanetworks/744000149101159
 Arista Networks,Internal Audit Intern – Accounting & Finance,"Remote, OR, United States",excluded title,https://jobs.smartrecruiters.com/aristanetworks/744000128256979
+Wabtec,Wabtec Spring 2027 Software Engineering Co-Op (10-Week),"Schenectady, NY, United States",software only,https://jobs.smartrecruiters.com/wabtec/3743990016452226
 Wabtec,Internship/ Working Student (m/w/d) Regional Marketing EMEA ,"Hamburg, HH, Germany",excluded title,https://jobs.smartrecruiters.com/wabtec/3743990016397921
 Wabtec,Supply Chain Coordinator - Intern,"Beijing, BJ, China",excluded title,https://jobs.smartrecruiters.com/wabtec/3743990016047936
 Wabtec,Controls Engineering Intern,"Oak Creek, WI, United States",no hardware keyword,https://jobs.smartrecruiters.com/wabtec/3743990016001814
@@ -2182,14 +2185,16 @@ Thermo Fisher Scientific,Supply Chain Intern,"Pittsburgh, Pennsylvania, United S
 Thermo Fisher Scientific,Supplier Relations Intern,"Pittsburgh, Pennsylvania, United States of America",no hardware keyword,https://jobs.thermofisher.com/global/en/job/R-01366588/supplier-relations-intern
 Thermo Fisher Scientific,PPI Business Intern,"Richmond, Virginia, United States of America",excluded title,https://jobs.thermofisher.com/global/en/job/R-01366572/ppi-business-intern
 Thermo Fisher Scientific,Process Safety Intern,"Fair Lawn, New Jersey, United States of America",no hardware keyword,https://jobs.thermofisher.com/global/en/job/R-01366633/process-safety-intern
+Thermo Fisher Scientific,EHS Intern,"Eindhoven, Netherlands",no hardware keyword,https://jobs.thermofisher.com/global/en/job/R-01358473/ehs-intern
 Thermo Fisher Scientific,Quality Control Laboratory Intern,"Plainville, Massachusetts, United States of America",no hardware keyword,https://jobs.thermofisher.com/global/en/job/R-01366593/quality-control-laboratory-intern
 Thermo Fisher Scientific,2027 FLDP Finance Intern,"Waltham, Massachusetts, United States of America",excluded title,https://jobs.thermofisher.com/global/en/job/R-01361452/2027-fldp-finance-intern
 Thermo Fisher Scientific,Intern Software Scientist - X-ray Spectroscopy,"Eindhoven, Netherlands",software only,https://jobs.thermofisher.com/global/en/job/R-01366276/intern-software-scientist-x-ray-spectroscopy
-Thermo Fisher Scientific,TMF Support Coordinator Intern with English,"Sofia, Bulgaria",no hardware keyword,https://jobs.thermofisher.com/global/en/job/R-01363914/tmf-support-coordinator-intern-with-english
 Thermo Fisher Scientific,Intern - Integrating GenAI into TEM Life-Science Applications,"Eindhoven, Netherlands",no hardware keyword,https://jobs.thermofisher.com/global/en/job/R-01366281/intern-integrating-genai-into-tem-life-science-applications
+Thermo Fisher Scientific,TMF Support Coordinator Intern with English,"Sofia, Bulgaria",no hardware keyword,https://jobs.thermofisher.com/global/en/job/R-01363914/tmf-support-coordinator-intern-with-english
 Thermo Fisher Scientific,Field Sales & Services Intern,"Remote, Massachusetts, United States of America",excluded title,https://jobs.thermofisher.com/global/en/job/R-01367380/field-sales-services-intern
 Thermo Fisher Scientific,Sr. Operations Data Analytics Intern,"Logan, Utah, United States of America",no hardware keyword,https://jobs.thermofisher.com/global/en/job/R-01366619/sr-operations-data-analytics-intern
 Thermo Fisher Scientific,Mechanical Engineering Intern,"Eindhoven, Netherlands",excluded title,https://jobs.thermofisher.com/global/en/job/R-01366285/mechanical-engineering-intern
+Thermo Fisher Scientific,Manufacturing Planner/Scheduler Intern,"Monza, Monza e Brianza, Italy",no hardware keyword,https://jobs.thermofisher.com/global/en/job/R-01373970/manufacturing-planner-scheduler-intern
 Thermo Fisher Scientific,Supply Chain Co-op,"Marietta, Ohio, United States of America",excluded title,https://jobs.thermofisher.com/global/en/job/R-01366630/supply-chain-co-op
 Thermo Fisher Scientific,Quality Co-op,"Marietta, Ohio, United States of America",no hardware keyword,https://jobs.thermofisher.com/global/en/job/R-01366629/quality-co-op
 Thermo Fisher Scientific,Process Engineering Co-op,"Whitby, Ontario, Canada",no hardware keyword,https://jobs.thermofisher.com/global/en/job/R-01366589/process-engineering-co-op
@@ -2310,6 +2315,7 @@ Mach Industries,"Summer 2027 Engineering Internship, Electrical","Huntington Bea
 Mach Industries,"Summer 2027 Engineering Internship, Manufacturing","Huntington Beach, California, United States; Victorville, California, United States",no hardware keyword,https://job-boards.greenhouse.io/machindustries/jobs/4429928009
 Mach Industries,"Summer 2027 Engineering Internship, Mechanical","Huntington Beach, California, United States; San Francisco, California, United States; San Luis Obispo, California, United States; Victorville, California, United States",excluded title,https://job-boards.greenhouse.io/machindustries/jobs/4420611009
 Mach Industries,"Summer 2027 Engineering Internship, Software/GNC","Huntington Beach, California, United States; San Francisco, California, United States",software only,https://job-boards.greenhouse.io/machindustries/jobs/4420626009
+Wabtec,Software Engineering Co-op,"Schenectady, NY",software only,https://go.vansh.nyc/X9?s=z
 Texas Instruments,"Web Marketing Intern, Front-end Developer","Dallas, TX",excluded title,https://go.vansh.nyc/Wf?s=z
 RTX,Software Platform Engineer Co-op,"Aurora, CORemoteUnited States",software only,https://go.vansh.nyc/CR?s=z
 Analog Devices,DevOps Co-op,"Boston, MA",software only,https://go.vansh.nyc/Qf?s=z
@@ -2369,7 +2375,6 @@ AMD,Software Engineer Intern,"**6 locations**Austin, TXBoxborough, MARochester, 
 AMD,Machine Learning Co-op,"**6 locations**Rochester, NYAustin, TXLongmont, COFishkill, NYFort Collins, COBoxborough, MA",software only,https://go.vansh.nyc/Oi?s=z
 AMD,"Machine Learning Co-op, Artificial Intelligence","San Jose, CASanta Clara, CA",software only,https://go.vansh.nyc/Ol?s=z
 SpaceX,"Software Engineer Intern, Fleet Health Instrumentation",Remote,software only,https://go.vansh.nyc/6J?s=z
-Etched,Supercomputing Intern,"San Jose, CA",no hardware keyword,https://go.vansh.nyc/2P?s=z
 Sonos,Software Engineering Intern,"Seattle, WA",software only,https://go.vansh.nyc/W9?s=y
 Sonos,Data Quality Intern,"Boston, MA",no hardware keyword,https://go.vansh.nyc/Wa?s=y
 RTX,"Software Engineer Intern, Receiver, Exciter, & Processing Architecture","Marlborough, MA",software only,https://go.vansh.nyc/WQ?s=y
@@ -2391,6 +2396,7 @@ Skydio,Process Engineering Intern,"San Mateo, CA",no hardware keyword,https://go
 Skydio,Product Design Engineer Intern,"San Mateo, CA",no hardware keyword,https://go.vansh.nyc/BB?s=y
 Skydio,"Autonomy Engineer Intern, Computer Vision / Deep Learning","San Mateo, CA",no hardware keyword,https://go.vansh.nyc/BA?s=y
 Skydio,Flight Test Intern,"San Mateo, CA",no hardware keyword,https://go.vansh.nyc/Bz?s=y
+Shield AI,Software Engineer Intern,"San Diego, CA",software only,https://go.vansh.nyc/X7?s=y
 General Dynamics Mission Systems,Software Test Engineer Intern,"Pittsburgh, PA",software only,https://go.vansh.nyc/T5?s=y
 Skydio,"Autonomy Engineer Intern, Deep Learning / Computer Vision","San Mateo, CA",no hardware keyword,https://go.vansh.nyc/BL?s=y
 Thermo Fisher Scientific,IT & Digital Intern,"**4 locations**Pittsburgh, PAFrederick, MDCarlsbad, CAMorrisville, NC",no hardware keyword,https://go.vansh.nyc/hU?s=y
@@ -2591,6 +2597,10 @@ Jump Trading,Campus ASIC Engineer (Intern),Bristol,non-US,https://www.jumptradin
 Jump Trading,Campus Systems Engineer (Intern),Chicago,no hardware keyword,https://www.jumptrading.com/hr/job?gh_jid=8007788
 Jump Trading,Campus Systems Engineer (Intern),London; Amsterdam,no hardware keyword,https://www.jumptrading.com/hr/job?gh_jid=8000323
 Jump Trading,Campus Systems Engineer (Intern),Singapore,no hardware keyword,https://www.jumptrading.com/hr/job?gh_jid=8027952
+Amazon,System Development Engineer Intern Co-op,"Nashville, TN, USA; North Reading, MA, USA; Tempe, AZ, USA",no hardware keyword,https://simplify.jobs/jobs/click/bbc441b7-f57f-4641-8c9c-796eef6a2a51
+Entegris,Designer/Drafter Co-op,"San Luis Obispo, CA, USA",no hardware keyword,https://simplify.jobs/jobs/click/8efd3c21-7e55-4042-af0b-0fa1be1942a6
+RTX,Software Engineer Co-op,"Remote in USA; Richardson, TX, USA",software only,https://simplify.jobs/jobs/click/3acab1ad-8c1c-4e51-b8d6-95ea67db24c1
+Symbotic,Machine Learning Ops Co-op,"Wilmington, MA, USA",software only,https://simplify.jobs/jobs/click/f7ab51e5-51b0-4110-bafa-eedb30aa6138
 RTX,Environmental Health & Safety / Facilities Engineer Co-op,"Manchester, IA, USA",excluded title,https://simplify.jobs/jobs/click/7e4fdf74-4151-47b9-9310-6ec78f4e3cf7
 RTX,Systems Administrator Co-op,"Cambridge, MA, USA",no hardware keyword,https://simplify.jobs/jobs/click/f9522b60-28bf-43ea-8a5e-a43f5328d46b
 RTX,Manufacturing Electrical Engineer Co-op,"Manchester, IA, USA",non-US,https://simplify.jobs/jobs/click/faf397e4-b484-4077-b4bb-06683eeef400
@@ -2604,6 +2614,7 @@ RTX,Systems Engineer Co-op,"Remote in USA; Aurora, CO, USA",no hardware keyword,
 RTX,Systems Engineer Co-op,"Remote in USA; Aurora, CO, USA",no hardware keyword,https://simplify.jobs/jobs/click/81c054ad-82de-4a86-b7a1-9060cfd3d594
 RTX,Systems Engineer Co-op,"Cedar Rapids, IA, USA",no hardware keyword,https://simplify.jobs/jobs/click/2ca36aac-8f74-4dbd-a1e4-246b5b96785d
 RTX,Systems Engineering Co-op,"Cedar Rapids, IA, USA",no hardware keyword,https://simplify.jobs/jobs/click/c26ceab4-8d11-4773-9ca5-8db9aac322f6
+RTX,Software Engineer Co-op,"Remote in USA; Richardson, TX, USA",software only,https://simplify.jobs/jobs/click/a5702f5f-906d-4b1f-8b18-e4034368a2cb
 RTX,Software Engineer Co-op,"Remote in USA; Richardson, TX, USA",software only,https://simplify.jobs/jobs/click/d6b959d0-3774-41d6-bc89-d62b84ca38bf
 RTX,Customer Quality Engineering Co-op,"Burnsville, MN, USA",excluded title,https://simplify.jobs/jobs/click/ff12267a-4e60-4807-a890-bef4f785ec56
 Entegris,Manufacturing Engineering Co-op,"Danbury, CT, USA",no hardware keyword,https://simplify.jobs/jobs/click/b5d8096f-d20c-4cf5-87b3-70335e8bdef1
@@ -2692,8 +2703,8 @@ RTX,Systems Engineering Co-op,"Cedar Rapids, IA, USA",no hardware keyword,https:
 Analog Devices,Healthcare Mechanical Engineering Co-op,"Wilmington, MA, USA",excluded title,https://simplify.jobs/jobs/click/a805a883-e5c9-4a3f-ae0f-387fdf9d4ffe
 Wabtec,Transducer Manufacturing Engineer Co-op,"Waltham, MA, USA",no hardware keyword,https://simplify.jobs/jobs/click/466eab03-9fdf-4d85-aca4-35b4885a1d60
 RTX,Systems Engineering Co-op,"Cedar Rapids, IA, USA",no hardware keyword,https://simplify.jobs/jobs/click/daa030e5-29ed-41b7-a232-320d4719092c
-RTX,Industrial Engineering Co-op,"Melbourne, FL, USA",no hardware keyword,https://simplify.jobs/jobs/click/8f9b8523-87b7-4d7b-9469-d6f6f5f906a6
 RTX,Industrial Engineer Co-op,"Melbourne, FL, USA",no hardware keyword,https://simplify.jobs/jobs/click/c77415b2-bd11-4d6f-9821-d205cdc76985
+RTX,Advanced Manufacturing Engineering Co-op,"Cedar Rapids, IA, USA",no hardware keyword,https://simplify.jobs/jobs/click/c4d94263-961b-436c-a7ba-9164b7281d8c
 AMD,2027 Undergrad Program Management Intern/Co-op,"Austin, TX, USA",excluded title,https://simplify.jobs/jobs/click/94f19b04-ea41-4445-8bb7-49d438f810f5
 RTX,Industrial Engineering Co-op,"Bellevue, IA, USA",no hardware keyword,https://simplify.jobs/jobs/click/fc4dd3a3-9ac7-4c32-966e-83dc3779febf
 GE Aerospace,Additive Manufacturing / Supply Chain Co-op,"West Chester, PA, USA",excluded title,https://simplify.jobs/jobs/click/a09bf55b-daf3-4dfe-a30b-3a78b1bcd531
@@ -2788,6 +2799,7 @@ Entegris,Manufacturing Systems Engineer Co-op,"Colorado Springs, CO, USA",no har
 Entegris,Maintenance Engineering Technician Co-op,"Hillsboro, OR, USA",no hardware keyword,https://simplify.jobs/jobs/click/fc21bbf9-a424-4f54-bb08-6cf2901318d9
 Entegris,Manufacturing Engineering Co-op,"Aurora, IL, USA",no hardware keyword,https://simplify.jobs/jobs/click/2097513e-95a5-49f2-a94e-bb19ec8e0607
 Entegris,Innovation Training Co-op,"Danbury, CT, USA",no hardware keyword,https://simplify.jobs/jobs/click/39542ec8-b4fc-49e7-8133-aa2935496791
+Entegris,Lab Automation & AI Engineering Co-op,"Billerica, MA, USA",software only,https://simplify.jobs/jobs/click/a3b700b5-11b3-48ae-92cf-a4cd8017c1f6
 Entegris,Industrial Engineering Co-op,"Billerica, MA, USA",no hardware keyword,https://simplify.jobs/jobs/click/f419431e-d7ab-4623-8ae8-df953f31ea22
 Entegris,Industrial Engineering Co-op,"Bedford, MA, USA",no hardware keyword,https://simplify.jobs/jobs/click/0c56742a-68d2-4d17-83b7-503a8a2db882
 Entegris,Industrial Engineering Co-op,"Bedford, MA, USA",no hardware keyword,https://simplify.jobs/jobs/click/fa8e8592-a785-4f3e-96f4-53afd0e3c1a4
@@ -2891,6 +2903,8 @@ GE Aerospace,Supply Chain Operations Co-op,"Dayton, OH, USA; Arkansas City, KS, 
 GE Aerospace,Engines Engineering Co-op,"Lynn, MA, USA; Evendale, OH, USA",no hardware keyword,https://simplify.jobs/jobs/click/e96de3b0-d701-4f9e-8f4e-23946f5308f7
 Bose,Embedded Audio ML Engineer Co-op,"Framingham, MA, USA",software only,https://simplify.jobs/jobs/click/4db14536-35df-4c54-a441-ac5bd7b8253f
 Waabi,Research Intern Co-op,"Remote in USA; Toronto, ON, Canada; San Francisco, CA, USA",no hardware keyword,https://simplify.jobs/jobs/click/38a2f2d5-6d77-4fc4-b288-8111b7fa7eb7
+Ciena,Electronic Reliability Engineer Co-op,"Ottawa, ON, Canada",non-US,https://simplify.jobs/jobs/click/1a2e7785-ecd0-432f-a592-087e510f7845
+Ciena,Optical Performance Lab Verification and Testing Co-op,"Ottawa, ON, Canada",non-US,https://simplify.jobs/jobs/click/c38dd12a-f9fd-4a0b-a05b-3cab487861a4
 Nokia,Network Systems Engineer Co-op Intern,Canada,no hardware keyword,https://simplify.jobs/jobs/click/ed29ace4-3c8b-4875-be65-443fa4cd3d02
 RTX,COOP Supervisor Intern,"Mirabel, QC, Canada",no hardware keyword,https://simplify.jobs/jobs/click/811697f6-76e5-41cb-b035-5d9f212887bc
 Lumentum,Optical Algorithms and Analytics Engineering Co-op Intern,"Ottawa, ON, Canada",no hardware keyword,https://simplify.jobs/jobs/click/34f513cc-3b27-4821-8ba8-9c28c98e0204
@@ -2943,6 +2957,7 @@ Nokia,Data Science Co-op/Intern,"Ottawa, ON, Canada",software only,https://simpl
 Eaton,Quality Co-op,"Bajos de Haina, Dominican Republic",no hardware keyword,https://simplify.jobs/jobs/click/bd55dedc-9a18-4449-a302-8374eb4d6989
 Lumentum,Advanced Packaging and Integration Process Mechanical Co-op,"Ottawa, ON, Canada",excluded title,https://simplify.jobs/jobs/click/667d51ec-847b-4c6c-88ee-256a880cdb13
 Lumentum,Project Manager Analyst Co-op Intern,"Ottawa, ON, Canada",excluded title,https://simplify.jobs/jobs/click/03b3c277-106f-4301-81c9-12519ff7c3ba
+Nokia,Optical Test Co-op Intern,"Ottawa, ON, Canada",no hardware keyword,https://simplify.jobs/jobs/click/cd7ae22b-dab5-44c6-9ac4-b2f3b7a9b123
 AMD,Short Term 2027 Hardware Design Verification Engineering Intern/Co-Op,"Markham, ON, Canada",non-US,https://simplify.jobs/jobs/click/a2fac682-df8e-4350-892b-83885e143bac
 Nokia,DSP Firmware Engineer Co-op/Intern,"Ottawa, ON, Canada",non-US,https://simplify.jobs/jobs/click/048f86af-a1b6-4685-8cfc-9845dc599e4e
 AMD,Long Term ASIC Verification Engineering Intern Co-op,"Ottawa, ON, Canada",non-US,https://simplify.jobs/jobs/click/23f69fe4-0c26-4065-97b0-4c06e0de21aa
@@ -3139,7 +3154,7 @@ Applied Intuition,Research Intern,"Sunnyvale, CA, USA",no hardware keyword,https
 Applied Intuition,Research Intern,"Sunnyvale, CA, USA",no hardware keyword,https://simplify.jobs/jobs/click/a8275d8b-68c2-4d00-9987-b0ca5a505662
 Applied Intuition,Research Intern,"Sunnyvale, CA, USA",no hardware keyword,https://simplify.jobs/jobs/click/83cb8151-53dc-4c90-9b6a-cf6be66d0457
 Applied Intuition,Research Intern,"Sunnyvale, CA, USA",no hardware keyword,https://simplify.jobs/jobs/click/af8c8ecc-e6b9-4b08-beaf-15035af3472b
-PsiQuantum,System Architecture Intern,"Palo Alto, CA, USA; Bristol, UK",no hardware keyword,https://simplify.jobs/jobs/click/6b3ff2a0-0ae4-4f6b-8e17-0a87442dd4e8
+PsiQuantum,System Architecture Intern,"Palo Alto, CA, USA; Brisbane QLD, Australia; Bristol, UK",no hardware keyword,https://simplify.jobs/jobs/click/6b3ff2a0-0ae4-4f6b-8e17-0a87442dd4e8
 PsiQuantum,Intern – Quantum Algorithms and Compilation,"Remote in USA; Palo Alto, CA, USA",no hardware keyword,https://simplify.jobs/jobs/click/520abae4-a8e2-44a6-b054-1c9656a38ece
 Onto Innovation,Mechanical Systems Engineer Intern,"Bloomington, MN, USA",excluded title,https://simplify.jobs/jobs/click/c539bc22-7983-45c2-9830-fbf7fbd1bef0
 Waabi,PhD Research Scientist Intern,"Toronto, ON, Canada; San Francisco, CA, USA; Pittsburgh, PA, USA",software only,https://simplify.jobs/jobs/click/a416f4ea-b204-46a8-8ca9-455912516760
@@ -3262,16 +3277,14 @@ MIT Lincoln Laboratory,"Summer Research Program Intern 2027, Integrated RF & Pho
 Analog Devices,DevOps Co-Op,"Boston, MA, USA",software only,https://www.indeed.com/viewjob?jk=d4640aca56ae6884
 Applied Materials,"2027 Spring Data Scientist Co-op - Gloucester, MA","Gloucester, MA, USA",no hardware keyword,https://www.linkedin.com/jobs/view/4482219440
 Analog Devices,Design Evaluation Engineer Intern,"Wilmington, MA, USA",no hardware keyword,https://www.linkedin.com/jobs/view/4466545496
-GlobalFoundries,Silicon Photonics Process Integration Intern (Summer 2027),"Malta, NY, USA",summer only,https://www.linkedin.com/jobs/view/4483800623
 Analog Devices,Process Sustaining Engineering Intern,"Wilmington, MA, USA",no hardware keyword,https://www.linkedin.com/jobs/view/4454658133
-Commonwealth Fusion Systems,Intern - Systems Engineer - Summer 2027,"Devens, MA, USA",no hardware keyword,https://www.indeed.com/viewjob?jk=b59790ee1376c135
-Northrop Grumman,2027 Software Engineering Intern - Beavercreek OH,"Beavercreek, OH, USA",software only,https://www.indeed.com/viewjob?jk=d1419eccd2762d86
 Lockheed Martin,Software Engineer Intern - Summer 2027,"King of Prussia, PA, USA",software only,https://www.indeed.com/viewjob?jk=c9dfc8d5092d2454
+Northrop Grumman,2027 Software Engineering Intern - Beavercreek OH,"Beavercreek, OH, USA",software only,https://www.indeed.com/viewjob?jk=d1419eccd2762d86
+Commonwealth Fusion Systems,Intern - Systems Engineer - Summer 2027,"Devens, MA, USA",no hardware keyword,https://www.indeed.com/viewjob?jk=b59790ee1376c135
 Commonwealth Fusion Systems,Intern - Scientific Software Engineer - Summer 2027,"Devens, MA, USA",software only,https://www.indeed.com/viewjob?jk=afa4cc1480028151
 Commonwealth Fusion Systems,Intern - Cryogenics Engineer - Spring 2027,"Devens, MA, USA",no hardware keyword,https://www.indeed.com/viewjob?jk=e1a546fec35774d2
 Commonwealth Fusion Systems,Intern - I&C and Network Engineer - Spring or Summer 2027,"Devens, MA, USA",no hardware keyword,https://www.indeed.com/viewjob?jk=c1ac70a084d236f3
 Thermo Fisher Scientific,Sr. Operations Data Analytics Intern,"Logan, UT, USA",no hardware keyword,https://www.indeed.com/viewjob?jk=af9c05f82896ebf6
-onsemi,Summer 2027 - AI & Data Science Intern,"San Jose, CA, USA",software only,https://www.indeed.com/viewjob?jk=f52d766164cec3e1
 ASML,Internship - Mechanical Engineering Research,"San Diego, CA, USA",excluded title,https://www.linkedin.com/jobs/view/4484288698
 ASML,Internship - Mechanical Engineer,"Wilton Center, CT, USA",excluded title,https://www.linkedin.com/jobs/view/4484235119
 Eaton,Internship Program: Power Systems Engineer,"Albuquerque, NM, USA",no hardware keyword,https://www.linkedin.com/jobs/view/4481862915
@@ -3282,12 +3295,10 @@ Lockheed Martin,College Student - Technical - N3,"Stratford, CT, USA",no hardwar
 Etched,Lab Operations Intern,"San Jose, CA, USA",no hardware keyword,https://www.linkedin.com/jobs/view/4467490016
 Analog Devices,Manufacturing Engineer Intern,"Beaverton, OR, USA",no hardware keyword,https://www.linkedin.com/jobs/view/4455873018
 Analog Devices,Design Evaluation Engineer Intern,"San Diego, CA, USA",no hardware keyword,https://www.linkedin.com/jobs/view/4466548448
-onsemi,Spring 2027 - Customer Operations Data Analyst Intern,"Scottsdale, AZ, USA",excluded title,https://www.linkedin.com/jobs/view/4484205294
 Skydio,Manufacturing Intern - Summer 2027,"Hayward, CA, USA",no hardware keyword,https://www.linkedin.com/jobs/view/4483745374
 onsemi,Summer 2027 - AI & Data Science Intern,"San Jose, CA, USA",software only,https://www.linkedin.com/jobs/view/4481815418
-Qualcomm,Modular Engineering Internship – Summer 2027,"Los Altos, CA, USA",no hardware keyword,https://www.linkedin.com/jobs/view/4473872082
-Intel,Module Engineering - PhD Intern,"Hillsboro, OR, USA",no hardware keyword,https://www.linkedin.com/jobs/view/4465180387
 Applied Materials,"2027 Computational Beamline / Plasma Scientist Summer Intern - MS or PhD (Gloucester, MA)","Gloucester, MA, USA",no hardware keyword,https://www.linkedin.com/jobs/view/4482211721
+GlobalFoundries,Silicon Photonics Process Integration Intern (Summer 2027),"Malta, NY, USA",summer only,https://www.linkedin.com/jobs/view/4483800623
 Emerson,Field Device Management Sales Enablement Intern,"Knoxville, TN, USA",excluded title,https://www.linkedin.com/jobs/view/4466323724
 GlobalFoundries,Silicon Photonics Process Integration Intern (Summer 2027),"Malta, NY, USA",summer only,https://www.indeed.com/viewjob?jk=596a9d9f7a93309f
 Commonwealth Fusion Systems,Intern - I&C and Network Engineer - Spring or Summer 2027,"Devens, MA, USA",no hardware keyword,https://www.linkedin.com/jobs/view/4484274824
@@ -3296,12 +3307,16 @@ Intel,AI Software Engineering PhD Intern,"Phoenix, AZ, USA",software only,https:
 Intel,AI Software Engineering PhD Intern,"Hillsboro, OR, USA",software only,https://www.linkedin.com/jobs/view/4483801299
 Skydio,"PhD Autonomy Engineer Intern - Deep Learning / Computer Vision, 2027","San Mateo, CA, USA",no hardware keyword,https://www.linkedin.com/jobs/view/4483526183
 Intel,AI Solution Architect - Graduate Intern,"Santa Clara, CA, USA",software only,https://www.linkedin.com/jobs/view/4474654513
-Nuro,"Software Engineer, AI Platform - Intern","Mountain View, CA, USA",software only,https://www.linkedin.com/jobs/view/4317730018
 Intel,AI Solution Architect Graduate Intern,"Santa Clara, CA, USA",software only,https://www.linkedin.com/jobs/view/4474652574
+Skydio,"Autonomy Engineer Intern, 2027","San Mateo, CA, USA",no hardware keyword,https://www.linkedin.com/jobs/view/4483525265
+Nuro,"Software Engineer, AI Platform - Intern","Mountain View, CA, USA",software only,https://www.linkedin.com/jobs/view/4317730018
 Zipline,Technical Program Manager Intern (Summer 2027),"South San Francisco, CA, USA",excluded title,https://www.linkedin.com/jobs/view/4457528081
-onsemi,Spring 2027 - Customer Operations Data Analyst Intern,"Scottsdale, AZ, USA",excluded title,https://www.indeed.com/viewjob?jk=6f5cc545847a9962
+onsemi,Summer 2027 - AI & Data Science Intern,"San Jose, CA, USA",software only,https://www.indeed.com/viewjob?jk=f52d766164cec3e1
 GlobalFoundries,Buildings Engineer Intern (Summer 2027),"Essex Junction, VT, USA",no hardware keyword,https://www.indeed.com/viewjob?jk=c39465b436c7d6d6
 GlobalFoundries,Technician Intern (Summer 2027),"Essex Junction, VT, USA",no hardware keyword,https://www.indeed.com/viewjob?jk=c86ae482b571652d
-Applied Materials,"2027 Summer Electrical Engineering Intern - BS or MS (Gloucester, MA)","Gloucester, MA, USA",summer only,https://www.indeed.com/viewjob?jk=d54de97c5b921fa9
+onsemi,Spring 2027 - Customer Operations Data Analyst Intern,"Scottsdale, AZ, USA",excluded title,https://www.indeed.com/viewjob?jk=6f5cc545847a9962
 GlobalFoundries,"Human Resources Intern, Talent Development (Summer 2027)","Austin, TX, USA",excluded title,https://www.indeed.com/viewjob?jk=c1194e7c1ea041f1
+Applied Materials,"2027 Summer Electrical Engineering Intern - BS or MS (Gloucester, MA)","Gloucester, MA, USA",summer only,https://www.indeed.com/viewjob?jk=d54de97c5b921fa9
+Samsung Semiconductor,"Intern, Power-Thermal Simulation Software Engineer","San Jose, CA, USA",software only,https://www.linkedin.com/jobs/view/4483847314
 Intel,System Technology Research Engineer - (PhD Intern),"Santa Clara, CA, USA",no hardware keyword,https://www.linkedin.com/jobs/view/4465798949
+Qualcomm,Modular Engineering Internship – Summer 2027,"Los Altos, CA, USA",no hardware keyword,https://www.linkedin.com/jobs/view/4473872082
