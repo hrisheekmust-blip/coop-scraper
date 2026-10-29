@@ -635,8 +635,8 @@
 },
 "https://www.indeed.com/viewjob": {
 "first_seen": "2026-09-18",
-"title": "RFIC Design Winter/Spring Co-Op (Jan-June '27)",
-"company": "Skyworks Solutions",
+"title": "Hardware Electrical Engineering Co-Op (Spring 2027)",
+"company": "RTX",
 "desc": ""
 },
 "https://www.linkedin.com/jobs/view/4468697840": {
@@ -17897,6 +17897,60 @@
 "first_seen": "2026-10-29",
 "title": "RF Engineer Intern",
 "company": "Integration Innovation, Inc.",
+"desc": ""
+},
+"https://globalfoundries.wd1.myworkdayjobs.com/External/job/SGP---Science-Park/Technology-Development-Engineer-Intern--Silicon-Photonics---Jan-Jun-2027-_JR-2604281": {
+"first_seen": "2026-10-29",
+"title": "Technology Development Engineer Intern (Silicon Photonics) (Jan-Jun 2027)",
+"company": "GlobalFoundries",
+"desc": "  About GlobalFoundries   GlobalFoundries (GF) is a leading manufacturer of essential semiconductors, enabling AI at scale from the cloud to the physical world. Through deep partnerships with customers, GF delivers differentiated, power-efficient and high-performance solutions for high-growth markets. With global manufacturing operations across the U.S., Europe and Asia, GF is a trusted and holistic technology partner for customers around the world. GF\u2019s talented, global team remains focused every day on security, longevity and sustainability. For more information, visit  www.gf.com .     Internship Program Overview:    Our Interns & Co-ops are our entry-level talent pipeline for GF across the globe. Our goal is to provide students with a meaningful work experience that will equip them with the skills to embark on a career in the fast-paced and growing semiconductor industry after graduation. As an intern at GF, you\u2019ll experience one-on-one mentorship, work assignments that prioritize your growth and potential, professional development opportunities, and the chance to network with executives.     Summary of Role:   Work together with Silicon Photonics TD engineer to prepare documents for process flow setup, summarize inline (thickness, CD etc.) and Test (Electrical and Optical) data and perform analysis.     Essential Responsibilities include:    Guided by TD Engineer or TD Senior Engineer, to perform:\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0    Fabricate and integrate Silicon Photonics process developme"
+},
+"https://go.vansh.nyc/hS": {
+"first_seen": "2026-10-29",
+"title": "Digital Design Verification Engineering Intern",
+"company": "Texas Instruments",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/362de55e-2c01-4639-af3b-f2dac697ce23": {
+"first_seen": "2026-10-29",
+"title": "Process Engineer Co-op",
+"company": "International Flavors & Fragrances",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/429df269-4c2b-4780-ae21-ea5b57ce3281": {
+"first_seen": "2026-10-29",
+"title": "Embedded Systems Co-op",
+"company": "Analog Devices",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/c6ba043e-786b-4a40-8e52-21fa55a4f437": {
+"first_seen": "2026-10-29",
+"title": "Characterization Electrodeposited Material Co-op",
+"company": "Lila Sciences",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/14ed48ad-0973-4d16-8719-d1200c19dc70": {
+"first_seen": "2026-10-29",
+"title": "Systems Test Engineer Co-op",
+"company": "Boston Dynamics",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/e3dc1e35-fe4f-41b2-8018-0f52adce112c": {
+"first_seen": "2026-10-29",
+"title": "Electrical Engineer Co-op",
+"company": "Illinois Tool Works",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4474976797": {
+"first_seen": "2026-10-29",
+"title": "Electrical Design Engineer Intern",
+"company": "BorgWarner",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4482550784": {
+"first_seen": "2026-10-29",
+"title": "2027 Radio Frequency (RF) Spectrum Engineering Undergrad Intern",
+"company": "The Aerospace Corporation",
 "desc": ""
 }
 }
