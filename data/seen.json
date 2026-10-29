@@ -635,8 +635,8 @@
 },
 "https://www.indeed.com/viewjob": {
 "first_seen": "2026-09-18",
-"title": "Hardware Electrical Engineering Co-Op (Spring 2027)",
-"company": "RTX",
+"title": "Electrical Test Engineer Student Experience - Spring 2027",
+"company": "Bobcat",
 "desc": ""
 },
 "https://www.linkedin.com/jobs/view/4468697840": {
@@ -17957,6 +17957,90 @@
 "first_seen": "2026-10-29",
 "title": "Edge IoT Engineering Intern, Electronics Design Engineering",
 "company": "Seagate",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/0c109763-7f92-446e-847b-f3410ae8c02a": {
+"first_seen": "2026-10-29",
+"title": "Hardware Electrical Engineering Co-op",
+"company": "RTX",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/b5cc3434-fe9f-4bce-a904-5c99ed05f008": {
+"first_seen": "2026-10-29",
+"title": "Packaging Engineer Co-op",
+"company": "Corning",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/793fcd79-bb47-4e11-86df-63f32485d031": {
+"first_seen": "2026-10-29",
+"title": "Electrical Engineering Co-op",
+"company": "Shield AI",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/c1fd65d9-3892-4924-9f43-51216cfc9593": {
+"first_seen": "2026-10-29",
+"title": "Reliability Engineering Co-op",
+"company": "Shield AI",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/dbe6e64d-5f82-492b-8833-884fde7027ac": {
+"first_seen": "2026-10-29",
+"title": "Electrical Engineer Co-op",
+"company": "Shield AI",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/d1eb6cb3-969b-432d-bc33-ab75d1d2130f": {
+"first_seen": "2026-10-29",
+"title": "Electrical Engineer Co-op",
+"company": "Boston Dynamics",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4484989722": {
+"first_seen": "2026-10-29",
+"title": "2027 Spring - Electrical Engineering Co-op (Jan - July 2027)",
+"company": "Hasbro",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4485213080": {
+"first_seen": "2026-10-29",
+"title": "Electrical Test Engineer Student Experience - Spring 2027",
+"company": "Bobcat Company",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4466808715": {
+"first_seen": "2026-10-29",
+"title": "Module Engineering - PhD Intern",
+"company": "Intel",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4364967081": {
+"first_seen": "2026-10-29",
+"title": "Intern/Co-op - Refining Electrical Engineering (Spring 2027)",
+"company": "Marathon Petroleum Corporation",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4485200673": {
+"first_seen": "2026-10-29",
+"title": "Embedded Engineering Intern",
+"company": "Seametrics",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4474480880": {
+"first_seen": "2026-10-29",
+"title": "Product Engineer Intern",
+"company": "HappyRobot",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4484975488": {
+"first_seen": "2026-10-29",
+"title": "Research Intern, Hardware Implementation and Validation (Energy Storage and Power Electronics)",
+"company": "JR Automation",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4439566064": {
+"first_seen": "2026-10-29",
+"title": "Intern- Product Engineer",
+"company": "Infineon Technologies",
 "desc": ""
 }
 }
