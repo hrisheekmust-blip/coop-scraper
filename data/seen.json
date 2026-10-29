@@ -635,8 +635,8 @@
 },
 "https://www.indeed.com/viewjob": {
 "first_seen": "2026-09-18",
-"title": "Electrical Test Engineer Student Experience - Spring 2027",
-"company": "Bobcat",
+"title": "RFIC Design Winter/Spring Co-Op (Jan-June '27)",
+"company": "Skyworks Solutions",
 "desc": ""
 },
 "https://www.linkedin.com/jobs/view/4468697840": {
@@ -18083,6 +18083,66 @@
 "first_seen": "2026-10-29",
 "title": "Acoustic Systems Engineering Co-op",
 "company": "Bose",
+"desc": ""
+},
+"https://go.vansh.nyc/Zt": {
+"first_seen": "2026-10-29",
+"title": "ASIC Verification Engineering Intern",
+"company": "Hewlett Packard Enterprise",
+"desc": ""
+},
+"https://go.vansh.nyc/Z8": {
+"first_seen": "2026-10-29",
+"title": "ASIC Digital Design Intern",
+"company": "Micron Technology",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/46daa6d5-a846-495c-a17d-a9feb758dd71": {
+"first_seen": "2026-10-29",
+"title": "Electrical Engineering Co-op Intern",
+"company": "CACI",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/f6de322d-5837-461e-9f08-34323ca5c89c": {
+"first_seen": "2026-10-29",
+"title": "Associate Electrical Engineer Intern Co-op",
+"company": "Mesh Optical Technologies",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/8b139529-ca4d-4a3d-b5bd-b60efaa9ac11": {
+"first_seen": "2026-10-29",
+"title": "Reliability Engineer Co-op",
+"company": "ChampionX",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/deaaebc1-9868-40d7-8cd4-25c44c9bc976": {
+"first_seen": "2026-10-29",
+"title": "Optical Engineer Co-op Intern",
+"company": "ASML",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/653fe1d6-4806-43f5-824b-dec64c459a99": {
+"first_seen": "2026-10-29",
+"title": "Hardware Engineer Co-op Intern",
+"company": "Viavi Solutions",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4484723996": {
+"first_seen": "2026-10-29",
+"title": "RRFIC Design Engineering Intern",
+"company": "Skyworks Solutions, Inc.",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4484732817": {
+"first_seen": "2026-10-29",
+"title": "Module Integration Design Engineering Intern",
+"company": "Skyworks Solutions, Inc.",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4484482505": {
+"first_seen": "2026-10-29",
+"title": "RF Design Engineering Intern",
+"company": "Skyworks Solutions, Inc.",
 "desc": ""
 }
 }

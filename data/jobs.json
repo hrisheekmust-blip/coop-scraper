@@ -17,6 +17,23 @@
   "last_seen": "2026-10-29"
  },
  {
+  "company": "ASML",
+  "title": "Optical Engineer Co-op Intern",
+  "location": "Wilton, CT, USA",
+  "url": "https://simplify.jobs/jobs/click/deaaebc1-9868-40d7-8cd4-25c44c9bc976",
+  "posted": "2026-10-28",
+  "deadline": "",
+  "term": "spring",
+  "rank": "A",
+  "hw": "optical engineer",
+  "tier": "",
+  "sources": [
+   "internlist:coop"
+  ],
+  "first_seen": "2026-10-29",
+  "last_seen": "2026-10-29"
+ },
+ {
   "company": "AbbVie",
   "title": "Validation Engineer Co-op",
   "location": "Worcester, MA, USA",
@@ -164,6 +181,7 @@
   "hw": "electrical engineer",
   "tier": "big",
   "sources": [
+   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-09-17",
@@ -215,6 +233,7 @@
   "hw": "test engineer",
   "tier": "big",
   "sources": [
+   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-10-06",
@@ -952,23 +971,6 @@
   "last_seen": "2026-10-29"
  },
  {
-  "company": "Bobcat",
-  "title": "Electrical Test Engineer Student Experience - Spring 2027",
-  "location": "Bismarck, ND, USA",
-  "url": "https://www.indeed.com/viewjob?jk=f3bb6adc2fc385e1",
-  "posted": "2026-10-29",
-  "deadline": "",
-  "term": "spring",
-  "rank": "A",
-  "hw": "electrical,test engineer",
-  "tier": "",
-  "sources": [
-   "jobspy:indeed"
-  ],
-  "first_seen": "2026-09-18",
-  "last_seen": "2026-10-29"
- },
- {
   "company": "Bobcat Company",
   "title": "Electrical Test Engineer Student Experience - Spring 2027",
   "location": "Bismarck, ND, USA",
@@ -1102,6 +1104,23 @@
    "internlist:coop"
   ],
   "first_seen": "2026-09-18",
+  "last_seen": "2026-10-29"
+ },
+ {
+  "company": "Charter Steel",
+  "title": "Automation and Controls Engineer Intern - Year Round",
+  "location": "Saukville, WI, USA",
+  "url": "https://www.linkedin.com/jobs/view/4465256879",
+  "posted": "2026-10-27",
+  "deadline": "",
+  "term": "spring",
+  "rank": "A",
+  "hw": "controls engineer",
+  "tier": "",
+  "sources": [
+   "jobspy:linkedin"
+  ],
+  "first_seen": "2026-10-07",
   "last_seen": "2026-10-29"
  },
  {
@@ -1441,6 +1460,7 @@
   "hw": "controls engineer",
   "tier": "big",
   "sources": [
+   "internlist:coop",
    "workday"
   ],
   "first_seen": "2026-10-28",
@@ -1458,6 +1478,7 @@
   "hw": "metrology",
   "tier": "big",
   "sources": [
+   "internlist:coop",
    "workday"
   ],
   "first_seen": "2026-09-18",
@@ -2620,23 +2641,6 @@
   "last_seen": "2026-10-29"
  },
  {
-  "company": "JR Automation",
-  "title": "Research Intern, Hardware Implementation and Validation (Energy Storage and Power Electronics)",
-  "location": "Santa Clara, CA, USA",
-  "url": "https://www.linkedin.com/jobs/view/4484975488",
-  "posted": "2026-10-29",
-  "deadline": "",
-  "term": "spring",
-  "rank": "A",
-  "hw": "hardware,power electronics",
-  "tier": "",
-  "sources": [
-   "jobspy:linkedin"
-  ],
-  "first_seen": "2026-10-29",
-  "last_seen": "2026-10-29"
- },
- {
   "company": "Kodiak",
   "title": "Winter 2027 Intern, Data Engineering",
   "location": "Mountain View, CA",
@@ -2926,23 +2930,6 @@
   "last_seen": "2026-10-29"
  },
  {
-  "company": "Peak Energy",
-  "title": "Test Engineer Intern, ESS (Winter/Spring - Jan 2027 Start)",
-  "location": "Burlingame, CA, USA",
-  "url": "https://www.linkedin.com/jobs/view/4474546406",
-  "posted": "2026-10-26",
-  "deadline": "",
-  "term": "spring",
-  "rank": "A",
-  "hw": "test engineer",
-  "tier": "",
-  "sources": [
-   "jobspy:linkedin"
-  ],
-  "first_seen": "2026-10-26",
-  "last_seen": "2026-10-29"
- },
- {
   "company": "Pennsylvania State University",
   "title": "Electronic Systems and Hardware Co-op",
   "location": "Warminster Township, PA, USA",
@@ -3091,6 +3078,7 @@
   "hw": "electrical engineering,hardware",
   "tier": "",
   "sources": [
+   "jobspy:indeed",
    "jobspy:linkedin"
   ],
   "first_seen": "2026-10-28",
@@ -3439,23 +3427,6 @@
  {
   "company": "Rocket Lab",
   "title": "Test Engineering Intern Spring 2027",
-  "location": "Stennis Space Center, MS",
-  "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7990352003",
-  "posted": "2026-10-29",
-  "deadline": "",
-  "term": "spring",
-  "rank": "A",
-  "hw": "test engineering",
-  "tier": "big",
-  "sources": [
-   "greenhouse"
-  ],
-  "first_seen": "2026-09-17",
-  "last_seen": "2026-10-29"
- },
- {
-  "company": "Rocket Lab",
-  "title": "Test Engineering Intern Spring 2027",
   "location": "Wallops Island, VA",
   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/8003533003",
   "posted": "2026-10-29",
@@ -3468,6 +3439,23 @@
    "greenhouse"
   ],
   "first_seen": "2026-09-25",
+  "last_seen": "2026-10-29"
+ },
+ {
+  "company": "Rocket Lab",
+  "title": "Test Engineering Intern Spring 2027",
+  "location": "Stennis Space Center, MS",
+  "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7990352003",
+  "posted": "2026-10-29",
+  "deadline": "",
+  "term": "spring",
+  "rank": "A",
+  "hw": "test engineering",
+  "tier": "big",
+  "sources": [
+   "greenhouse"
+  ],
+  "first_seen": "2026-09-17",
   "last_seen": "2026-10-29"
  },
  {
@@ -3516,7 +3504,8 @@
   "hw": "electrical engineering",
   "tier": "big",
   "sources": [
-   "greenhouse"
+   "greenhouse",
+   "internlist:coop"
   ],
   "first_seen": "2026-09-17",
   "last_seen": "2026-10-29"
@@ -4338,6 +4327,23 @@
   "last_seen": "2026-10-29"
  },
  {
+  "company": "Skyworks Solutions",
+  "title": "RFIC Design Winter/Spring Co-Op (Jan-June '27)",
+  "location": "Newbury Park, CA, USA",
+  "url": "https://www.indeed.com/viewjob?jk=3fbe9916fd35751d",
+  "posted": "2026-10-28",
+  "deadline": "",
+  "term": "spring",
+  "rank": "A",
+  "hw": "rfic",
+  "tier": "",
+  "sources": [
+   "jobspy:indeed"
+  ],
+  "first_seen": "2026-09-18",
+  "last_seen": "2026-10-29"
+ },
+ {
   "company": "Skyworks Solutions, Inc.",
   "title": "Power Amplifier IC Design Co-Op (Winter/Spring 2027)",
   "location": "Irvine, CA, USA",
@@ -4502,26 +4508,10 @@
   "hw": "silicon",
   "tier": "big",
   "sources": [
+   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-09-17",
-  "last_seen": "2026-10-29"
- },
- {
-  "company": "Sylvamo",
-  "title": "Electrical & Instrumentation Co-op",
-  "location": "Eastover, SC, USA",
-  "url": "https://www.linkedin.com/jobs/view/4483759087",
-  "posted": "2026-10-26",
-  "deadline": "",
-  "term": "spring",
-  "rank": "A",
-  "hw": "electrical",
-  "tier": "",
-  "sources": [
-   "jobspy:linkedin"
-  ],
-  "first_seen": "2026-10-26",
   "last_seen": "2026-10-29"
  },
  {
@@ -4904,7 +4894,7 @@
   "title": "Accounting Intern (Spring 2027)",
   "location": "South San Francisco, California, USA",
   "url": "https://www.zipline.com/open-roles/7893921003?gh_jid=7893921003",
-  "posted": "2026-10-20",
+  "posted": "2026-10-29",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -4921,7 +4911,7 @@
   "title": "Aerodynamics Intern (Spring 2027)",
   "location": "South San Francisco, California, USA",
   "url": "https://www.zipline.com/open-roles/7904002003?gh_jid=7904002003",
-  "posted": "2026-10-19",
+  "posted": "2026-10-29",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -4938,7 +4928,7 @@
   "title": "Aircraft Software Integration Intern (Spring 2027)",
   "location": "South San Francisco, California, USA",
   "url": "https://www.zipline.com/open-roles/7986810003?gh_jid=7986810003",
-  "posted": "2026-10-19",
+  "posted": "2026-10-29",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -4955,7 +4945,7 @@
   "title": "Change Management Intern (Spring 2027)",
   "location": "South San Francisco, California, USA",
   "url": "https://www.zipline.com/open-roles/7990677003?gh_jid=7990677003",
-  "posted": "2026-10-19",
+  "posted": "2026-10-29",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -4972,7 +4962,7 @@
   "title": "Commercial Implementation Intern (Spring 2027)",
   "location": "South San Francisco, California, USA",
   "url": "https://www.zipline.com/open-roles/7999499003?gh_jid=7999499003",
-  "posted": "2026-10-15",
+  "posted": "2026-10-29",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -4989,7 +4979,7 @@
   "title": "Commercial Marketplace Strategy and Operations Intern (Spring 2027)",
   "location": "South San Francisco, California, USA",
   "url": "https://www.zipline.com/open-roles/7982302003?gh_jid=7982302003",
-  "posted": "2026-10-15",
+  "posted": "2026-10-29",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -5006,7 +4996,7 @@
   "title": "Commercial Strategy & Operations Intern (Spring 2027)",
   "location": "Austin, Texas, USA; Houston, Texas, USA; Phoenix, Arizona, USA; San Antonio, Texas, USA",
   "url": "https://www.zipline.com/open-roles/7980889003?gh_jid=7980889003",
-  "posted": "2026-10-19",
+  "posted": "2026-10-29",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -5023,7 +5013,7 @@
   "title": "Community Engagement Intern (Spring 2027)",
   "location": "Austin, Texas, USA; Dallas-Fort Worth, Texas, USA; Los Angeles, California, USA; Phoenix, Arizona, USA",
   "url": "https://www.zipline.com/open-roles/7867044003?gh_jid=7867044003",
-  "posted": "2026-10-15",
+  "posted": "2026-10-29",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -5040,7 +5030,7 @@
   "title": "Computational Physics Intern (Spring 2027)",
   "location": "South San Francisco, California, USA",
   "url": "https://www.zipline.com/open-roles/7904605003?gh_jid=7904605003",
-  "posted": "2026-10-19",
+  "posted": "2026-10-29",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -5057,7 +5047,7 @@
   "title": "Construction Management Intern (Spring 2027)",
   "location": "Dallas-Fort Worth, Texas, USA",
   "url": "https://www.zipline.com/open-roles/7894561003?gh_jid=7894561003",
-  "posted": "2026-10-15",
+  "posted": "2026-10-29",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -5074,7 +5064,7 @@
   "title": "Controls Engineer Intern (Spring 2027)",
   "location": "South San Francisco, California, USA",
   "url": "https://www.zipline.com/open-roles/7903823003?gh_jid=7903823003",
-  "posted": "2026-10-19",
+  "posted": "2026-10-29",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -5091,7 +5081,7 @@
   "title": "Data Analytics Intern (Spring 2027)",
   "location": "South San Francisco, California, USA",
   "url": "https://www.zipline.com/open-roles/7990420003?gh_jid=7990420003",
-  "posted": "2026-10-19",
+  "posted": "2026-10-29",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -5108,7 +5098,7 @@
   "title": "Electrical Engineer Intern (Spring 2027)",
   "location": "South San Francisco, California, USA",
   "url": "https://www.zipline.com/open-roles/7903708003?gh_jid=7903708003",
-  "posted": "2026-10-19",
+  "posted": "2026-10-29",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -5125,7 +5115,7 @@
   "title": "Electrical Project Engineer Intern (Spring 2027)",
   "location": "South San Francisco, California, USA",
   "url": "https://www.zipline.com/open-roles/7980874003?gh_jid=7980874003",
-  "posted": "2026-10-15",
+  "posted": "2026-10-29",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -5142,7 +5132,7 @@
   "title": "Field Systems Engineer Intern (Spring 2027)",
   "location": "South San Francisco, California, USA",
   "url": "https://www.zipline.com/open-roles/8004729003?gh_jid=8004729003",
-  "posted": "2026-10-15",
+  "posted": "2026-10-29",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -5159,7 +5149,7 @@
   "title": "Firmware Engineer Intern (Spring 2027) ",
   "location": "South San Francisco, California, USA",
   "url": "https://www.zipline.com/open-roles/8020863003?gh_jid=8020863003",
-  "posted": "2026-10-19",
+  "posted": "2026-10-29",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -5176,7 +5166,7 @@
   "title": "Flight Test Engineer Intern (Spring 2027)",
   "location": "South San Francisco, California, USA",
   "url": "https://www.zipline.com/open-roles/7999929003?gh_jid=7999929003",
-  "posted": "2026-10-19",
+  "posted": "2026-10-29",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -5193,7 +5183,7 @@
   "title": "Global Supply Management Intern (Spring 2027)",
   "location": "South San Francisco, California, USA",
   "url": "https://www.zipline.com/open-roles/7891121003?gh_jid=7891121003",
-  "posted": "2026-10-20",
+  "posted": "2026-10-29",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -5210,7 +5200,7 @@
   "title": "Hardware Test Intern (Spring 2027)",
   "location": "South San Francisco, California, USA",
   "url": "https://www.zipline.com/open-roles/7894349003?gh_jid=7894349003",
-  "posted": "2026-10-19",
+  "posted": "2026-10-29",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -5227,7 +5217,7 @@
   "title": "Launch & Scale Intern (Spring 2027)",
   "location": "South San Francisco, California, USA",
   "url": "https://www.zipline.com/open-roles/7984998003?gh_jid=7984998003",
-  "posted": "2026-10-19",
+  "posted": "2026-10-29",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -5244,7 +5234,7 @@
   "title": "Maps Intern (Spring 2027)",
   "location": "South San Francisco, California, USA",
   "url": "https://www.zipline.com/open-roles/7929354003?gh_jid=7929354003",
-  "posted": "2026-10-19",
+  "posted": "2026-10-29",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -5261,7 +5251,7 @@
   "title": "Marketing Intern (Spring 2027)",
   "location": "South San Francisco, California, USA",
   "url": "https://www.zipline.com/open-roles/7968519003?gh_jid=7968519003",
-  "posted": "2026-10-15",
+  "posted": "2026-10-29",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -5278,7 +5268,7 @@
   "title": "Material Planning Intern (Spring 2027)",
   "location": "South San Francisco, California, USA",
   "url": "https://www.zipline.com/open-roles/7891219003?gh_jid=7891219003",
-  "posted": "2026-10-20",
+  "posted": "2026-10-29",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -5295,7 +5285,7 @@
   "title": "Mechanical Engineer Intern (Spring 2027)",
   "location": "South San Francisco, California, USA",
   "url": "https://www.zipline.com/open-roles/7865253003?gh_jid=7865253003",
-  "posted": "2026-10-19",
+  "posted": "2026-10-29",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -5312,7 +5302,7 @@
   "title": "Quality & Manufacturing Intern (Spring 2027)",
   "location": "South San Francisco, California, USA",
   "url": "https://www.zipline.com/open-roles/7824311003?gh_jid=7824311003",
-  "posted": "2026-10-19",
+  "posted": "2026-10-29",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -5329,7 +5319,7 @@
   "title": "Real Estate Intern (Spring 2027)",
   "location": "South San Francisco, California, USA",
   "url": "https://www.zipline.com/open-roles/7988625003?gh_jid=7988625003",
-  "posted": "2026-10-19",
+  "posted": "2026-10-29",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -5346,7 +5336,7 @@
   "title": "Sales Operations Analyst Intern (Spring 2027)",
   "location": "South San Francisco, California, USA",
   "url": "https://www.zipline.com/open-roles/7929099003?gh_jid=7929099003",
-  "posted": "2026-10-15",
+  "posted": "2026-10-29",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -5363,7 +5353,7 @@
   "title": "Software Engineer Intern (Spring 2027)",
   "location": "South San Francisco, California, USA",
   "url": "https://www.zipline.com/open-roles/7907191003?gh_jid=7907191003",
-  "posted": "2026-10-15",
+  "posted": "2026-10-29",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -5380,7 +5370,7 @@
   "title": "Software Systems Validation Intern (Spring 2027)",
   "location": "South San Francisco, California, USA",
   "url": "https://www.zipline.com/open-roles/7893955003?gh_jid=7893955003",
-  "posted": "2026-10-15",
+  "posted": "2026-10-29",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -5397,7 +5387,7 @@
   "title": "Strategic Engagements & Events Intern (Spring 2027)",
   "location": "South San Francisco, California, USA",
   "url": "https://www.zipline.com/open-roles/7857023003?gh_jid=7857023003",
-  "posted": "2026-10-15",
+  "posted": "2026-10-29",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -5414,7 +5404,7 @@
   "title": "Strategic Finance Intern (Spring 2027)",
   "location": "South San Francisco, California, USA",
   "url": "https://www.zipline.com/open-roles/7978791003?gh_jid=7978791003",
-  "posted": "2026-10-20",
+  "posted": "2026-10-29",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -5431,7 +5421,7 @@
   "title": "Supplier Industrialization Engineering Intern (Spring 2027)",
   "location": "South San Francisco, California, USA",
   "url": "https://www.zipline.com/open-roles/7891019003?gh_jid=7891019003",
-  "posted": "2026-10-20",
+  "posted": "2026-10-29",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -5448,7 +5438,7 @@
   "title": "Supply Chain Business Operations Intern (Spring 2027)",
   "location": "South San Francisco, California, USA",
   "url": "https://www.zipline.com/open-roles/7891225003?gh_jid=7891225003",
-  "posted": "2026-10-20",
+  "posted": "2026-10-29",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -5465,7 +5455,7 @@
   "title": "System Test Automation Intern (Spring 2027)",
   "location": "South San Francisco, California, USA",
   "url": "https://www.zipline.com/open-roles/7893946003?gh_jid=7893946003",
-  "posted": "2026-10-19",
+  "posted": "2026-10-29",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -5482,7 +5472,7 @@
   "title": "Technical Program Manager Intern (Spring 2027)",
   "location": "South San Francisco, California, USA",
   "url": "https://www.zipline.com/open-roles/7904446003?gh_jid=7904446003",
-  "posted": "2026-10-19",
+  "posted": "2026-10-29",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -5499,7 +5489,7 @@
   "title": "Video Production Intern (Spring 2027)",
   "location": "South San Francisco, California, USA",
   "url": "https://www.zipline.com/open-roles/7896577003?gh_jid=7896577003",
-  "posted": "2026-10-27",
+  "posted": "2026-10-29",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -6173,8 +6163,7 @@
   "hw": "embedded",
   "tier": "",
   "sources": [
-   "internlist:coop",
-   "jobspy:indeed"
+   "internlist:coop"
   ],
   "first_seen": "2026-10-29",
   "last_seen": "2026-10-29"
@@ -6191,6 +6180,7 @@
   "hw": "process engineer",
   "tier": "big",
   "sources": [
+   "jobspy:linkedin",
    "workday"
   ],
   "first_seen": "2026-10-07",
@@ -6631,6 +6621,23 @@
   "last_seen": "2026-10-29"
  },
  {
+  "company": "CACI",
+  "title": "Electrical Engineering Co-op Intern",
+  "location": "Rochester, NY, USA",
+  "url": "https://simplify.jobs/jobs/click/46daa6d5-a846-495c-a17d-a9feb758dd71",
+  "posted": "2026-10-29",
+  "deadline": "",
+  "term": "coop-unspecified",
+  "rank": "B",
+  "hw": "electrical engineering",
+  "tier": "",
+  "sources": [
+   "internlist:coop"
+  ],
+  "first_seen": "2026-10-29",
+  "last_seen": "2026-10-29"
+ },
+ {
   "company": "CAE",
   "title": "Electrical Engineering Co-op",
   "location": "Arlington, TX, USA",
@@ -6732,6 +6739,23 @@
    "internlist:coop"
   ],
   "first_seen": "2026-09-18",
+  "last_seen": "2026-10-29"
+ },
+ {
+  "company": "ChampionX",
+  "title": "Reliability Engineer Co-op",
+  "location": "Sugar Land, TX, USA",
+  "url": "https://simplify.jobs/jobs/click/8b139529-ca4d-4a3d-b5bd-b60efaa9ac11",
+  "posted": "2026-10-28",
+  "deadline": "",
+  "term": "coop-unspecified",
+  "rank": "B",
+  "hw": "reliability",
+  "tier": "",
+  "sources": [
+   "internlist:coop"
+  ],
+  "first_seen": "2026-10-29",
   "last_seen": "2026-10-29"
  },
  {
@@ -6921,23 +6945,6 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-29"
- },
- {
-  "company": "Dematic",
-  "title": "Controls Engineer - Co-Op",
-  "location": "Grand Rapids, MI, USA",
-  "url": "https://www.linkedin.com/jobs/view/4481470854",
-  "posted": "2026-10-26",
-  "deadline": "",
-  "term": "coop-unspecified",
-  "rank": "B",
-  "hw": "controls engineer",
-  "tier": "",
-  "sources": [
-   "jobspy:linkedin"
-  ],
-  "first_seen": "2026-10-27",
   "last_seen": "2026-10-29"
  },
  {
@@ -8652,6 +8659,23 @@
   "last_seen": "2026-10-29"
  },
  {
+  "company": "Mesh Optical Technologies",
+  "title": "Associate Electrical Engineer Intern Co-op",
+  "location": "Gardena, CA, USA",
+  "url": "https://simplify.jobs/jobs/click/f6de322d-5837-461e-9f08-34323ca5c89c",
+  "posted": "2026-02-17",
+  "deadline": "",
+  "term": "coop-unspecified",
+  "rank": "B",
+  "hw": "electrical engineer",
+  "tier": "",
+  "sources": [
+   "internlist:coop"
+  ],
+  "first_seen": "2026-10-29",
+  "last_seen": "2026-10-29"
+ },
+ {
   "company": "Nexus Engineering Group",
   "title": "Electrical Engineer Intern Co-op",
   "location": "Cleveland, OH, USA",
@@ -9533,7 +9557,9 @@
   "hw": "firmware",
   "tier": "big",
   "sources": [
-   "greenhouse"
+   "greenhouse",
+   "internlist:coop",
+   "internlist:winter-spring"
   ],
   "first_seen": "2026-09-24",
   "last_seen": "2026-10-29"
@@ -10081,7 +10107,8 @@
   "hw": "electrical engineering",
   "tier": "",
   "sources": [
-   "internlist:coop"
+   "internlist:coop",
+   "jobspy:linkedin"
   ],
   "first_seen": "2026-10-10",
   "last_seen": "2026-10-29"
@@ -10153,6 +10180,23 @@
    "github:vanshb03-offseason",
    "internlist:coop",
    "internlist:winter-spring"
+  ],
+  "first_seen": "2026-10-29",
+  "last_seen": "2026-10-29"
+ },
+ {
+  "company": "Viavi Solutions",
+  "title": "Hardware Engineer Co-op Intern",
+  "location": "Germantown, MD, USA",
+  "url": "https://simplify.jobs/jobs/click/653fe1d6-4806-43f5-824b-dec64c459a99",
+  "posted": "2026-10-28",
+  "deadline": "",
+  "term": "coop-unspecified",
+  "rank": "B",
+  "hw": "hardware",
+  "tier": "",
+  "sources": [
+   "internlist:coop"
   ],
   "first_seen": "2026-10-29",
   "last_seen": "2026-10-29"
@@ -10513,6 +10557,7 @@
   "hw": "product engineer",
   "tier": "big",
   "sources": [
+   "jobspy:linkedin",
    "workday"
   ],
   "first_seen": "2026-10-27",
@@ -12070,23 +12115,6 @@
   "last_seen": "2026-10-29"
  },
  {
-  "company": "Charter Steel",
-  "title": "Automation and Controls Engineer Intern - Year Round",
-  "location": "Saukville, WI, USA",
-  "url": "https://www.linkedin.com/jobs/view/4465256879",
-  "posted": "2026-10-27",
-  "deadline": "",
-  "term": "unspecified",
-  "rank": "C",
-  "hw": "controls engineer",
-  "tier": "",
-  "sources": [
-   "jobspy:linkedin"
-  ],
-  "first_seen": "2026-10-07",
-  "last_seen": "2026-10-29"
- },
- {
   "company": "Cirrus Logic",
   "title": "2027 Internship - Formal Verification Engineer",
   "location": "Austin, TX, USA",
@@ -12098,6 +12126,7 @@
   "hw": "verification",
   "tier": "",
   "sources": [
+   "jobspy:indeed",
    "jobspy:linkedin"
   ],
   "first_seen": "2026-10-29",
@@ -12625,6 +12654,7 @@
   "hw": "eda,electrical",
   "tier": "big",
   "sources": [
+   "github:vanshb03-summer",
    "workday"
   ],
   "first_seen": "2026-10-28",
@@ -13329,6 +13359,23 @@
  },
  {
   "company": "Hewlett Packard Enterprise",
+  "title": "ASIC Verification Engineering Intern",
+  "location": "Roseville, CA",
+  "url": "https://go.vansh.nyc/Zt?s=y",
+  "posted": "Oct 29",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "asic,verification",
+  "tier": "",
+  "sources": [
+   "github:vanshb03-summer"
+  ],
+  "first_seen": "2026-10-29",
+  "last_seen": "2026-10-29"
+ },
+ {
+  "company": "Hewlett Packard Enterprise",
   "title": "Firmware Engineer Intern",
   "location": "Sunnyvale, CA",
   "url": "https://go.vansh.nyc/GU?s=y",
@@ -13652,19 +13699,19 @@
  },
  {
   "company": "Infineon Technologies",
-  "title": "Intern- Product Engineer",
-  "location": "Colorado Springs, CO, USA",
-  "url": "https://www.linkedin.com/jobs/view/4439566064",
+  "title": "Internship - Analog Mixed Signal Design",
+  "location": "El Segundo, CA, USA",
+  "url": "https://www.linkedin.com/jobs/view/4464603436",
   "posted": "2026-10-29",
   "deadline": "",
   "term": "unspecified",
   "rank": "C",
-  "hw": "product engineer",
+  "hw": "analog,mixed signal",
   "tier": "",
   "sources": [
    "jobspy:linkedin"
   ],
-  "first_seen": "2026-10-29",
+  "first_seen": "2026-09-29",
   "last_seen": "2026-10-29"
  },
  {
@@ -13699,6 +13746,40 @@
    "jobspy:linkedin"
   ],
   "first_seen": "2026-10-01",
+  "last_seen": "2026-10-29"
+ },
+ {
+  "company": "Infineon Technologies",
+  "title": "Internship - Embedded Systems EngineerInternship - Embedded Systems Engineer",
+  "location": "Austin, TX, USA",
+  "url": "https://www.linkedin.com/jobs/view/4456727484",
+  "posted": "2026-10-29",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "embedded",
+  "tier": "",
+  "sources": [
+   "jobspy:linkedin"
+  ],
+  "first_seen": "2026-10-02",
+  "last_seen": "2026-10-29"
+ },
+ {
+  "company": "Infineon Technologies",
+  "title": "Internship - PDK Engineer",
+  "location": "Lexington, KY, USA",
+  "url": "https://www.linkedin.com/jobs/view/4469888440",
+  "posted": "2026-10-29",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "maybe",
+  "tier": "",
+  "sources": [
+   "jobspy:linkedin"
+  ],
+  "first_seen": "2026-09-21",
   "last_seen": "2026-10-29"
  },
  {
@@ -14624,7 +14705,7 @@
   "company": "Lumentum",
   "title": "Internship - Semiconductor Fab Process Engineer",
   "location": "Greensboro, NC, USA",
-  "url": "https://www.linkedin.com/jobs/view/4474093195",
+  "url": "https://www.linkedin.com/jobs/view/4474415396",
   "posted": "2026-10-28",
   "deadline": "",
   "term": "unspecified",
@@ -14634,7 +14715,7 @@
   "sources": [
    "jobspy:linkedin"
   ],
-  "first_seen": "2026-10-07",
+  "first_seen": "2026-10-08",
   "last_seen": "2026-10-29"
  },
  {
@@ -15040,7 +15121,6 @@
   "hw": "electronics",
   "tier": "",
   "sources": [
-   "jobspy:indeed",
    "jobspy:linkedin"
   ],
   "first_seen": "2026-10-27",
@@ -15095,6 +15175,23 @@
    "github:vanshb03-summer"
   ],
   "first_seen": "2026-10-25",
+  "last_seen": "2026-10-29"
+ },
+ {
+  "company": "Micron Technology",
+  "title": "ASIC Digital Design Intern",
+  "location": "Minneapolis, MN",
+  "url": "https://go.vansh.nyc/Z8?s=y",
+  "posted": "Oct 28",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "asic,digital design",
+  "tier": "",
+  "sources": [
+   "github:vanshb03-summer"
+  ],
+  "first_seen": "2026-10-29",
   "last_seen": "2026-10-29"
  },
  {
@@ -15899,8 +15996,8 @@
  {
   "company": "Neuralink",
   "title": "Electrical Engineer Intern, Implant Embedded Systems",
-  "location": "Austin, TX, USA",
-  "url": "https://www.linkedin.com/jobs/view/4457640633",
+  "location": "San Francisco, CA, USA",
+  "url": "https://www.linkedin.com/jobs/view/4457624870",
   "posted": "2026-10-29",
   "deadline": "",
   "term": "unspecified",
@@ -15916,8 +16013,8 @@
  {
   "company": "Neuralink",
   "title": "Electrical Engineer Intern, Implant Embedded Systems",
-  "location": "San Francisco, CA, USA",
-  "url": "https://www.linkedin.com/jobs/view/4457624870",
+  "location": "Austin, TX, USA",
+  "url": "https://www.linkedin.com/jobs/view/4457640633",
   "posted": "2026-10-29",
   "deadline": "",
   "term": "unspecified",
@@ -15996,6 +16093,23 @@
    "github:vanshb03-summer"
   ],
   "first_seen": "2026-10-25",
+  "last_seen": "2026-10-29"
+ },
+ {
+  "company": "Nordson Corporation",
+  "title": "Electrical Engineering Intern",
+  "location": "East Providence, RI, USA",
+  "url": "https://www.linkedin.com/jobs/view/4475726179",
+  "posted": "2026-10-29",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "electrical engineering",
+  "tier": "",
+  "sources": [
+   "jobspy:linkedin"
+  ],
+  "first_seen": "2026-10-08",
   "last_seen": "2026-10-29"
  },
  {
@@ -16212,23 +16326,6 @@
   "term": "unspecified",
   "rank": "C",
   "hw": "verification",
-  "tier": "",
-  "sources": [
-   "internlist:winter-spring"
-  ],
-  "first_seen": "2026-09-18",
-  "last_seen": "2026-10-29"
- },
- {
-  "company": "Qorvo",
-  "title": "Product Engineer Intern",
-  "location": "Greensboro, NC, USA",
-  "url": "https://simplify.jobs/jobs/click/b7652228-e21c-4bcf-a939-6caec413ef71",
-  "posted": "2026-09-02",
-  "deadline": "",
-  "term": "unspecified",
-  "rank": "C",
-  "hw": "product engineer",
   "tier": "",
   "sources": [
    "internlist:winter-spring"
@@ -17430,8 +17527,8 @@
   "company": "Skyworks",
   "title": "Characterization Engineering Intern",
   "location": "Greensboro, USA    ",
-  "url": "https://careers.skyworksinc.com/job/Characterization-Engineering-Intern/78713-en_US",
-  "posted": "2026-10-27",
+  "url": "https://careers.skyworksinc.com/job/Characterization-Engineering-Intern/78726-en_US",
+  "posted": "2026-10-28",
   "deadline": "",
   "term": "unspecified",
   "rank": "C",
@@ -17440,7 +17537,7 @@
   "sources": [
    "successfactors"
   ],
-  "first_seen": "2026-10-27",
+  "first_seen": "2026-10-28",
   "last_seen": "2026-10-29"
  },
  {
@@ -17532,7 +17629,7 @@
   "company": "Skyworks",
   "title": "Product Engineering Intern",
   "location": "Greensboro, USA    ",
-  "url": "https://careers.skyworksinc.com/job/Product-Engineering-Intern/78778-en_US",
+  "url": "https://careers.skyworksinc.com/job/Product-Engineering-Intern/78749-en_US",
   "posted": "2026-10-28",
   "deadline": "",
   "term": "unspecified",
@@ -17542,7 +17639,7 @@
   "sources": [
    "successfactors"
   ],
-  "first_seen": "2026-10-29",
+  "first_seen": "2026-10-28",
   "last_seen": "2026-10-29"
  },
  {
@@ -17752,6 +17849,24 @@
  },
  {
   "company": "Skyworks Solutions, Inc.",
+  "title": "Electrical CAD Engineer Intern",
+  "location": "Richardson, TX, USA",
+  "url": "https://www.linkedin.com/jobs/view/4484481561",
+  "posted": "2026-10-28",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "cad,electrical",
+  "tier": "",
+  "sources": [
+   "jobspy:indeed",
+   "jobspy:linkedin"
+  ],
+  "first_seen": "2026-10-29",
+  "last_seen": "2026-10-29"
+ },
+ {
+  "company": "Skyworks Solutions, Inc.",
   "title": "IC Layout Engineering Intern",
   "location": "Richardson, TX, USA",
   "url": "https://www.linkedin.com/jobs/view/4484482499",
@@ -17770,33 +17885,85 @@
  },
  {
   "company": "Skyworks Solutions, Inc.",
-  "title": "Physical Verification Intern",
+  "title": "Intern",
   "location": "Greensboro, NC, USA",
-  "url": "https://www.linkedin.com/jobs/view/4483733771",
-  "posted": "2026-10-26",
-  "deadline": "",
-  "term": "unspecified",
-  "rank": "C",
-  "hw": "verification",
-  "tier": "",
-  "sources": [
-   "jobspy:linkedin"
-  ],
-  "first_seen": "2026-10-26",
-  "last_seen": "2026-10-29"
- },
- {
-  "company": "Skyworks Solutions, Inc.",
-  "title": "Process Engineering Intern",
-  "location": "Richardson, TX, USA",
-  "url": "https://www.linkedin.com/jobs/view/4483753054",
-  "posted": "2026-10-26",
+  "url": "https://www.linkedin.com/jobs/view/4484090252",
+  "posted": "2026-10-27",
   "deadline": "",
   "term": "unspecified",
   "rank": "C",
   "hw": "maybe",
   "tier": "",
   "sources": [
+   "jobspy:linkedin"
+  ],
+  "first_seen": "2026-10-27",
+  "last_seen": "2026-10-29"
+ },
+ {
+  "company": "Skyworks Solutions, Inc.",
+  "title": "Module Integration Design Engineering Intern",
+  "location": "San Jose, CA, USA",
+  "url": "https://www.linkedin.com/jobs/view/4484732817",
+  "posted": "2026-10-28",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "maybe",
+  "tier": "",
+  "sources": [
+   "jobspy:linkedin"
+  ],
+  "first_seen": "2026-10-29",
+  "last_seen": "2026-10-29"
+ },
+ {
+  "company": "Skyworks Solutions, Inc.",
+  "title": "Product Engineering Intern",
+  "location": "Hillsboro, OR, USA",
+  "url": "https://www.linkedin.com/jobs/view/4484736611",
+  "posted": "2026-10-28",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "product engineering",
+  "tier": "",
+  "sources": [
+   "jobspy:linkedin"
+  ],
+  "first_seen": "2026-10-29",
+  "last_seen": "2026-10-29"
+ },
+ {
+  "company": "Skyworks Solutions, Inc.",
+  "title": "RF Design Engineering Intern",
+  "location": "Richardson, TX, USA",
+  "url": "https://www.linkedin.com/jobs/view/4484482505",
+  "posted": "2026-10-28",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "rf",
+  "tier": "",
+  "sources": [
+   "jobspy:linkedin"
+  ],
+  "first_seen": "2026-10-29",
+  "last_seen": "2026-10-29"
+ },
+ {
+  "company": "Skyworks Solutions, Inc.",
+  "title": "RF Design Engineering Intern",
+  "location": "Hillsboro, OR, USA",
+  "url": "https://www.linkedin.com/jobs/view/4484245633",
+  "posted": "2026-10-27",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "rf",
+  "tier": "",
+  "sources": [
+   "jobspy:indeed",
    "jobspy:linkedin"
   ],
   "first_seen": "2026-10-28",
@@ -17832,9 +17999,44 @@
   "hw": "rfic",
   "tier": "",
   "sources": [
+   "jobspy:indeed",
    "jobspy:linkedin"
   ],
   "first_seen": "2026-10-28",
+  "last_seen": "2026-10-29"
+ },
+ {
+  "company": "Skyworks Solutions, Inc.",
+  "title": "RRFIC Design Engineering Intern",
+  "location": "Greensboro, NC, USA",
+  "url": "https://www.linkedin.com/jobs/view/4484723996",
+  "posted": "2026-10-28",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "maybe",
+  "tier": "",
+  "sources": [
+   "jobspy:linkedin"
+  ],
+  "first_seen": "2026-10-29",
+  "last_seen": "2026-10-29"
+ },
+ {
+  "company": "Skyworks Solutions, Inc.",
+  "title": "SOI Design Intern",
+  "location": "Greensboro, NC, USA",
+  "url": "https://www.linkedin.com/jobs/view/4484745151",
+  "posted": "2026-10-28",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "maybe",
+  "tier": "",
+  "sources": [
+   "jobspy:linkedin"
+  ],
+  "first_seen": "2026-10-29",
   "last_seen": "2026-10-29"
  },
  {
@@ -17843,6 +18045,40 @@
   "location": "Chandler, AZ, USA",
   "url": "https://www.linkedin.com/jobs/view/4484247517",
   "posted": "2026-10-27",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "test engineering",
+  "tier": "",
+  "sources": [
+   "jobspy:linkedin"
+  ],
+  "first_seen": "2026-10-28",
+  "last_seen": "2026-10-29"
+ },
+ {
+  "company": "Skyworks Solutions, Inc.",
+  "title": "Test Engineering Intern",
+  "location": "Hillsboro, OR, USA",
+  "url": "https://www.linkedin.com/jobs/view/4484743169",
+  "posted": "2026-10-28",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "test engineering",
+  "tier": "",
+  "sources": [
+   "jobspy:linkedin"
+  ],
+  "first_seen": "2026-10-29",
+  "last_seen": "2026-10-29"
+ },
+ {
+  "company": "Skyworks Solutions, Inc.",
+  "title": "Test Engineering Intern",
+  "location": "Greensboro, NC, USA",
+  "url": "https://www.linkedin.com/jobs/view/4484472862",
+  "posted": "2026-10-28",
   "deadline": "",
   "term": "unspecified",
   "rank": "C",
