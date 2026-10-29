@@ -164,7 +164,6 @@
   "hw": "electrical engineer",
   "tier": "big",
   "sources": [
-   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-09-17",
@@ -216,7 +215,6 @@
   "hw": "test engineer",
   "tier": "big",
   "sources": [
-   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-10-06",
@@ -662,6 +660,23 @@
    "greenhouse"
   ],
   "first_seen": "2026-09-23",
+  "last_seen": "2026-10-29"
+ },
+ {
+  "company": "Astranis",
+  "title": "Procurement Intern (Winter 2027)",
+  "location": "San Francisco",
+  "url": "https://job-boards.greenhouse.io/astranis/jobs/4725805006",
+  "posted": "2026-10-29",
+  "deadline": "",
+  "term": "spring",
+  "rank": "A",
+  "hw": "maybe",
+  "tier": "startup",
+  "sources": [
+   "greenhouse"
+  ],
+  "first_seen": "2026-10-29",
   "last_seen": "2026-10-29"
  },
  {
@@ -1426,7 +1441,6 @@
   "hw": "controls engineer",
   "tier": "big",
   "sources": [
-   "internlist:coop",
    "workday"
   ],
   "first_seen": "2026-10-28",
@@ -1444,7 +1458,6 @@
   "hw": "metrology",
   "tier": "big",
   "sources": [
-   "internlist:coop",
    "workday"
   ],
   "first_seen": "2026-09-18",
@@ -3136,6 +3149,23 @@
  },
  {
   "company": "RTX",
+  "title": "Manufacturing Electrical Engineering Co-Op (Spring/Summer 2027)",
+  "location": "US-IA-CEDAR RAPIDS-108 ~ 400 Collins Rd NE ~ BLDG 108",
+  "url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-IA-CEDAR-RAPIDS-108--400-Collins-Rd-NE--BLDG-108/Manufacturing-Electrical-Engineering-Co-Op--Spring-Summer-2027-_01870653",
+  "posted": "Posted Today",
+  "deadline": "",
+  "term": "spring",
+  "rank": "A",
+  "hw": "electrical engineering",
+  "tier": "big",
+  "sources": [
+   "workday"
+  ],
+  "first_seen": "2026-10-01",
+  "last_seen": "2026-10-29"
+ },
+ {
+  "company": "RTX",
   "title": "Manufacturing Engineering Ops Co-Op (Spring/Summer 2027)",
   "location": "US-FL-MELBOURNE-310 ~ 1100 W Hibiscus Blvd ~ BLDG 310",
   "url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-FL-MELBOURNE-310--1100-W-Hibiscus-Blvd--BLDG-310/Manufacturing-Engineering-Ops-Co-Op--Spring-Summer-2027-_01884010",
@@ -3183,6 +3213,23 @@
    "workday"
   ],
   "first_seen": "2026-10-27",
+  "last_seen": "2026-10-29"
+ },
+ {
+  "company": "RTX",
+  "title": "Stage - Hiver 2027-Stagiaire Technicien en Instrumentation/Internship - Winter 2027-Instrumentation Technician",
+  "location": "CA-QC-LONGUEUIL-J01 ~ 1000 Blvd Marie-Victorin ~ J01 BLDG",
+  "url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/CA-QC-LONGUEUIL-J01--1000-Blvd-Marie-Victorin--J01-BLDG/Stage---Hiver-2027-Stagiaire-Technicien-en-Instrumentation-Internship---Winter-2027-Instrumentation-Technician_01878634",
+  "posted": "Posted Today",
+  "deadline": "",
+  "term": "spring",
+  "rank": "A",
+  "hw": "instrumentation",
+  "tier": "big",
+  "sources": [
+   "workday"
+  ],
+  "first_seen": "2026-10-06",
   "last_seen": "2026-10-29"
  },
  {
@@ -3241,7 +3288,7 @@
   "title": "Fluid Systems Intern Spring 2027",
   "location": "Long Beach, CA",
   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7986788003",
-  "posted": "2026-09-09",
+  "posted": "2026-10-29",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -3258,7 +3305,7 @@
   "title": "Ground Systems Engineering Intern Spring 2027",
   "location": "Stennis Space Center, MS",
   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/8007204003",
-  "posted": "2026-10-12",
+  "posted": "2026-10-29",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -3275,7 +3322,7 @@
   "title": "Manufacturing Engineering Intern Spring 2027",
   "location": "Wallops Island, VA",
   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7996617003",
-  "posted": "2026-09-17",
+  "posted": "2026-10-29",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -3292,7 +3339,7 @@
   "title": "Manufacturing Engineering Intern Spring 2027",
   "location": "Long Beach, CA",
   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7984943003",
-  "posted": "2026-09-16",
+  "posted": "2026-10-29",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -3309,7 +3356,7 @@
   "title": "Manufacturing Engineering Intern Spring 2027",
   "location": "Middle River, MD",
   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7987020003",
-  "posted": "2026-09-16",
+  "posted": "2026-10-29",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -3326,7 +3373,7 @@
   "title": "Propulsion Design Intern Spring 2027",
   "location": "Long Beach, CA",
   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7987110003",
-  "posted": "2026-09-11",
+  "posted": "2026-10-29",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -3340,10 +3387,27 @@
  },
  {
   "company": "Rocket Lab",
+  "title": "Quality Engineering Intern Spring 2027",
+  "location": "Long Beach, CA",
+  "url": "https://job-boards.greenhouse.io/rocketlab/jobs/8042031003",
+  "posted": "2026-10-29",
+  "deadline": "",
+  "term": "spring",
+  "rank": "A",
+  "hw": "maybe",
+  "tier": "big",
+  "sources": [
+   "greenhouse"
+  ],
+  "first_seen": "2026-10-29",
+  "last_seen": "2026-10-29"
+ },
+ {
+  "company": "Rocket Lab",
   "title": "R&D Engineering Intern Spring 2027",
   "location": "Albuquerque, NM",
   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7996578003",
-  "posted": "2026-09-17",
+  "posted": "2026-10-29",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -3360,7 +3424,24 @@
   "title": "Test Engineering Intern - Manufacturing Spring 2027",
   "location": "Long Beach, CA",
   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7987042003",
-  "posted": "2026-09-17",
+  "posted": "2026-10-29",
+  "deadline": "",
+  "term": "spring",
+  "rank": "A",
+  "hw": "test engineering",
+  "tier": "big",
+  "sources": [
+   "greenhouse"
+  ],
+  "first_seen": "2026-09-17",
+  "last_seen": "2026-10-29"
+ },
+ {
+  "company": "Rocket Lab",
+  "title": "Test Engineering Intern Spring 2027",
+  "location": "Stennis Space Center, MS",
+  "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7990352003",
+  "posted": "2026-10-29",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -3391,27 +3472,10 @@
  },
  {
   "company": "Rocket Lab",
-  "title": "Test Engineering Intern Spring 2027",
-  "location": "Stennis Space Center, MS",
-  "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7990352003",
-  "posted": "2026-09-17",
-  "deadline": "",
-  "term": "spring",
-  "rank": "A",
-  "hw": "test engineering",
-  "tier": "big",
-  "sources": [
-   "greenhouse"
-  ],
-  "first_seen": "2026-09-17",
-  "last_seen": "2026-10-29"
- },
- {
-  "company": "Rocket Lab",
   "title": "Thermal Engineering Intern Spring 2027",
   "location": "Long Beach, CA",
   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/8000951003",
-  "posted": "2026-09-21",
+  "posted": "2026-10-29",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -3452,8 +3516,7 @@
   "hw": "electrical engineering",
   "tier": "big",
   "sources": [
-   "greenhouse",
-   "internlist:coop"
+   "greenhouse"
   ],
   "first_seen": "2026-09-17",
   "last_seen": "2026-10-29"
@@ -4439,7 +4502,6 @@
   "hw": "silicon",
   "tier": "big",
   "sources": [
-   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-09-17",
@@ -6415,6 +6477,23 @@
  },
  {
   "company": "Bose",
+  "title": "Acoustic Systems Engineering Co-op",
+  "location": "US, MI - Bloomfield Hills",
+  "url": "https://boseallaboutme.wd503.myworkdayjobs.com/Bose_Careers/job/US-MI---Bloomfield-Hills/Acoustic-Systems-Engineering-Co-op_R29347",
+  "posted": "Posted Today",
+  "deadline": "",
+  "term": "coop-unspecified",
+  "rank": "B",
+  "hw": "maybe",
+  "tier": "big",
+  "sources": [
+   "workday"
+  ],
+  "first_seen": "2026-10-29",
+  "last_seen": "2026-10-29"
+ },
+ {
+  "company": "Bose",
   "title": "Data Analytics Engineer Co-op",
   "location": "3 Locations",
   "url": "https://boseallaboutme.wd503.myworkdayjobs.com/Bose_Careers/job/US-MA---Framingham/Data-Analytics-Engineer-Co-op_R29271",
@@ -7815,6 +7894,57 @@
    "jobspy:linkedin"
   ],
   "first_seen": "2026-10-27",
+  "last_seen": "2026-10-29"
+ },
+ {
+  "company": "General Dynamics Mission Systems",
+  "title": "Electrical Engineering Co-Op (Fall/Winter)",
+  "location": "",
+  "url": "https://careers-gdms.icims.com/jobs/74924/electrical-engineering-co-op-%28fall-winter%29/job",
+  "posted": "",
+  "deadline": "",
+  "term": "coop-unspecified",
+  "rank": "B",
+  "hw": "electrical engineering",
+  "tier": "big",
+  "sources": [
+   "icims"
+  ],
+  "first_seen": "2026-10-21",
+  "last_seen": "2026-10-29"
+ },
+ {
+  "company": "General Dynamics Mission Systems",
+  "title": "Intern Engineer - (Co-Op)",
+  "location": "",
+  "url": "https://careers-gdms.icims.com/jobs/73842/intern-engineer---%28co-op%29/job",
+  "posted": "",
+  "deadline": "",
+  "term": "coop-unspecified",
+  "rank": "B",
+  "hw": "maybe",
+  "tier": "big",
+  "sources": [
+   "icims"
+  ],
+  "first_seen": "2026-09-18",
+  "last_seen": "2026-10-29"
+ },
+ {
+  "company": "General Dynamics Mission Systems",
+  "title": "Regional Strike Programs - Systems Engineering  (Fall Co-op)",
+  "location": "",
+  "url": "https://careers-gdms.icims.com/jobs/74681/regional-strike-programs---systems-engineering--%28fall-co-op%29/job",
+  "posted": "",
+  "deadline": "",
+  "term": "coop-unspecified",
+  "rank": "B",
+  "hw": "maybe",
+  "tier": "big",
+  "sources": [
+   "icims"
+  ],
+  "first_seen": "2026-09-18",
   "last_seen": "2026-10-29"
  },
  {
@@ -9403,9 +9533,7 @@
   "hw": "firmware",
   "tier": "big",
   "sources": [
-   "greenhouse",
-   "internlist:coop",
-   "internlist:winter-spring"
+   "greenhouse"
   ],
   "first_seen": "2026-09-24",
   "last_seen": "2026-10-29"
@@ -9584,7 +9712,7 @@
   "company": "Skyworks",
   "title": "RF Filter Design / BAW development Co-Op",
   "location": "Andover, MA, USA    ",
-  "url": "https://careers.skyworksinc.com/job/RF-Filter-Design-BAW-development-Co-Op/78244-en_US",
+  "url": "https://careers.skyworksinc.com/job/RF-Filter-Design-BAW-development-Co-Op/78245-en_US",
   "posted": "2026-09-15",
   "deadline": "",
   "term": "coop-unspecified",
@@ -9594,7 +9722,7 @@
   "sources": [
    "successfactors"
   ],
-  "first_seen": "2026-09-30",
+  "first_seen": "2026-09-18",
   "last_seen": "2026-10-29"
  },
  {
@@ -10385,7 +10513,6 @@
   "hw": "product engineer",
   "tier": "big",
   "sources": [
-   "jobspy:linkedin",
    "workday"
   ],
   "first_seen": "2026-10-27",
@@ -12498,7 +12625,6 @@
   "hw": "eda,electrical",
   "tier": "big",
   "sources": [
-   "github:vanshb03-summer",
    "workday"
   ],
   "first_seen": "2026-10-28",
@@ -12638,6 +12764,176 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-09-24",
+  "last_seen": "2026-10-29"
+ },
+ {
+  "company": "General Dynamics Mission Systems",
+  "title": "EE /Computer Engineer internship",
+  "location": "",
+  "url": "https://careers-gdms.icims.com/jobs/75142/ee--computer-engineer-internship/job",
+  "posted": "",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "ee",
+  "tier": "big",
+  "sources": [
+   "icims"
+  ],
+  "first_seen": "2026-10-13",
+  "last_seen": "2026-10-29"
+ },
+ {
+  "company": "General Dynamics Mission Systems",
+  "title": "Electrical Engineer \u2013 Intern",
+  "location": "",
+  "url": "https://careers-gdms.icims.com/jobs/75019/electrical-engineer-%e2%80%93-intern/job",
+  "posted": "",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "electrical engineer",
+  "tier": "big",
+  "sources": [
+   "icims"
+  ],
+  "first_seen": "2026-09-28",
+  "last_seen": "2026-10-29"
+ },
+ {
+  "company": "General Dynamics Mission Systems",
+  "title": "Electrical Engineering Intern",
+  "location": "",
+  "url": "https://careers-gdms.icims.com/jobs/75541/electrical-engineering-intern/job",
+  "posted": "",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "electrical engineering",
+  "tier": "big",
+  "sources": [
+   "icims"
+  ],
+  "first_seen": "2026-10-28",
+  "last_seen": "2026-10-29"
+ },
+ {
+  "company": "General Dynamics Mission Systems",
+  "title": "Electrical Engineering Intern (CWL)",
+  "location": "",
+  "url": "https://careers-gdms.icims.com/jobs/75126/electrical-engineering-intern-%28cwl%29/job",
+  "posted": "",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "electrical engineering",
+  "tier": "big",
+  "sources": [
+   "icims"
+  ],
+  "first_seen": "2026-10-06",
+  "last_seen": "2026-10-29"
+ },
+ {
+  "company": "General Dynamics Mission Systems",
+  "title": "Electrical Intern Engineer",
+  "location": "",
+  "url": "https://careers-gdms.icims.com/jobs/75111/electrical-intern-engineer/job",
+  "posted": "",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "electrical",
+  "tier": "big",
+  "sources": [
+   "icims"
+  ],
+  "first_seen": "2026-09-29",
+  "last_seen": "2026-10-29"
+ },
+ {
+  "company": "General Dynamics Mission Systems",
+  "title": "FPGA Intern Engineer",
+  "location": "",
+  "url": "https://careers-gdms.icims.com/jobs/75125/fpga-intern-engineer/job",
+  "posted": "",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "fpga",
+  "tier": "big",
+  "sources": [
+   "icims"
+  ],
+  "first_seen": "2026-10-02",
+  "last_seen": "2026-10-29"
+ },
+ {
+  "company": "General Dynamics Mission Systems",
+  "title": "Intern Engineer - FPGA",
+  "location": "",
+  "url": "https://careers-gdms.icims.com/jobs/75044/intern-engineer---fpga/job",
+  "posted": "",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "fpga",
+  "tier": "big",
+  "sources": [
+   "icims"
+  ],
+  "first_seen": "2026-09-28",
+  "last_seen": "2026-10-29"
+ },
+ {
+  "company": "General Dynamics Mission Systems",
+  "title": "Intern Engineer - Infrastructure Hardware/Network",
+  "location": "",
+  "url": "https://careers-gdms.icims.com/jobs/75025/intern-engineer---infrastructure-hardware-network/job",
+  "posted": "",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "hardware",
+  "tier": "big",
+  "sources": [
+   "icims"
+  ],
+  "first_seen": "2026-09-28",
+  "last_seen": "2026-10-29"
+ },
+ {
+  "company": "General Dynamics Mission Systems",
+  "title": "Optical Engineer Intern",
+  "location": "",
+  "url": "https://careers-gdms.icims.com/jobs/74540/optical-engineer-intern/job",
+  "posted": "",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "optical engineer",
+  "tier": "big",
+  "sources": [
+   "icims"
+  ],
+  "first_seen": "2026-09-18",
+  "last_seen": "2026-10-29"
+ },
+ {
+  "company": "General Dynamics Mission Systems",
+  "title": "Reliability Engineering Intern",
+  "location": "",
+  "url": "https://careers-gdms.icims.com/jobs/75689/reliability-engineering-intern/job",
+  "posted": "",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "reliability",
+  "tier": "big",
+  "sources": [
+   "icims"
+  ],
+  "first_seen": "2026-10-29",
   "last_seen": "2026-10-29"
  },
  {
@@ -15860,7 +16156,7 @@
   "title": "Intern, Optical Packaging and Characterization Engineer",
   "location": "Milpitas, California",
   "url": "https://www.psiquantum.com/apply?gh_jid=7761881003",
-  "posted": "2026-10-22",
+  "posted": "2026-10-29",
   "deadline": "",
   "term": "unspecified",
   "rank": "C",
@@ -17047,6 +17343,23 @@
  },
  {
   "company": "Skyworks",
+  "title": "Analog Design Engineering Intern",
+  "location": "San Jose, USA    ",
+  "url": "https://careers.skyworksinc.com/job/Analog-Design-Engineering-Intern/78771-en_US",
+  "posted": "2026-10-29",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "analog",
+  "tier": "big",
+  "sources": [
+   "successfactors"
+  ],
+  "first_seen": "2026-10-29",
+  "last_seen": "2026-10-29"
+ },
+ {
+  "company": "Skyworks",
   "title": "Analog Design Intern",
   "location": "Austin, TX, USA    ",
   "url": "https://careers.skyworksinc.com/job/Analog-Design-Intern/78173-en_US",
@@ -17200,14 +17513,65 @@
  },
  {
   "company": "Skyworks",
+  "title": "Product Engineer Intern",
+  "location": "Chelmsford, USA    ",
+  "url": "https://careers.skyworksinc.com/job/Product-Engineer-Intern/78776-en_US",
+  "posted": "2026-10-29",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "product engineer",
+  "tier": "big",
+  "sources": [
+   "successfactors"
+  ],
+  "first_seen": "2026-10-29",
+  "last_seen": "2026-10-29"
+ },
+ {
+  "company": "Skyworks",
   "title": "Product Engineering Intern",
   "location": "Greensboro, USA    ",
-  "url": "https://careers.skyworksinc.com/job/Product-Engineering-Intern/78749-en_US",
+  "url": "https://careers.skyworksinc.com/job/Product-Engineering-Intern/78778-en_US",
   "posted": "2026-10-28",
   "deadline": "",
   "term": "unspecified",
   "rank": "C",
   "hw": "product engineering",
+  "tier": "big",
+  "sources": [
+   "successfactors"
+  ],
+  "first_seen": "2026-10-29",
+  "last_seen": "2026-10-29"
+ },
+ {
+  "company": "Skyworks",
+  "title": "Product Engineering Intern",
+  "location": "Hillsboro, USA    ",
+  "url": "https://careers.skyworksinc.com/job/Product-Engineering-Intern/78779-en_US",
+  "posted": "2026-10-28",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "product engineering",
+  "tier": "big",
+  "sources": [
+   "successfactors"
+  ],
+  "first_seen": "2026-10-28",
+  "last_seen": "2026-10-29"
+ },
+ {
+  "company": "Skyworks",
+  "title": "RF Design Engineering Intern",
+  "location": "Richardson, USA    ",
+  "url": "https://careers.skyworksinc.com/job/RF-Design-Engineering-Intern/78768-en_US",
+  "posted": "2026-10-28",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "rf",
   "tier": "big",
   "sources": [
    "successfactors"
@@ -17230,23 +17594,6 @@
    "successfactors"
   ],
   "first_seen": "2026-10-27",
-  "last_seen": "2026-10-29"
- },
- {
-  "company": "Skyworks",
-  "title": "RF Design Engineering Intern",
-  "location": "Richardson, USA    ",
-  "url": "https://careers.skyworksinc.com/job/RF-Design-Engineering-Intern/78768-en_US",
-  "posted": "2026-10-28",
-  "deadline": "",
-  "term": "unspecified",
-  "rank": "C",
-  "hw": "rf",
-  "tier": "big",
-  "sources": [
-   "successfactors"
-  ],
-  "first_seen": "2026-10-28",
   "last_seen": "2026-10-29"
  },
  {
@@ -17285,6 +17632,23 @@
  },
  {
   "company": "Skyworks",
+  "title": "RFIC Design Intern",
+  "location": "Chelmsford, USA    ",
+  "url": "https://careers.skyworksinc.com/job/RFIC-Design-Intern/78765-en_US",
+  "posted": "2026-10-29",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "rfic",
+  "tier": "big",
+  "sources": [
+   "successfactors"
+  ],
+  "first_seen": "2026-10-29",
+  "last_seen": "2026-10-29"
+ },
+ {
+  "company": "Skyworks",
   "title": "Software Characterization Engineering Intern",
   "location": "Greensboro, USA    ",
   "url": "https://careers.skyworksinc.com/job/Software-Characterization-Engineering-Intern/78785-en_US",
@@ -17303,6 +17667,23 @@
  {
   "company": "Skyworks",
   "title": "Test Engineering Intern",
+  "location": "Greensboro, USA    ",
+  "url": "https://careers.skyworksinc.com/job/Test-Engineering-Intern/79007-en_US",
+  "posted": "2026-10-29",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "test engineering",
+  "tier": "big",
+  "sources": [
+   "successfactors"
+  ],
+  "first_seen": "2026-10-29",
+  "last_seen": "2026-10-29"
+ },
+ {
+  "company": "Skyworks",
+  "title": "Test Engineering Intern",
   "location": "Chandler, USA    ",
   "url": "https://careers.skyworksinc.com/job/Test-Engineering-Intern/78716-en_US",
   "posted": "2026-10-27",
@@ -17315,23 +17696,6 @@
    "successfactors"
   ],
   "first_seen": "2026-10-27",
-  "last_seen": "2026-10-29"
- },
- {
-  "company": "Skyworks",
-  "title": "Test Engineering Intern",
-  "location": "Greensboro, USA    ",
-  "url": "https://careers.skyworksinc.com/job/Test-Engineering-Intern/78746-en_US",
-  "posted": "2026-10-28",
-  "deadline": "",
-  "term": "unspecified",
-  "rank": "C",
-  "hw": "test engineering",
-  "tier": "big",
-  "sources": [
-   "successfactors"
-  ],
-  "first_seen": "2026-10-28",
   "last_seen": "2026-10-29"
  },
  {
@@ -17621,7 +17985,6 @@
   "hw": "analog",
   "tier": "big",
   "sources": [
-   "jobspy:linkedin",
    "oracle_hcm"
   ],
   "first_seen": "2026-10-26",
