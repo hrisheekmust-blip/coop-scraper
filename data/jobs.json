@@ -174,7 +174,7 @@
   "title": "Winter 2027 EWIS Harness Engineer Co-op",
   "location": "Costa Mesa, California, United States",
   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5236577007?gh_jid=5236577007",
-  "posted": "2026-10-27",
+  "posted": "2026-10-30",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -191,7 +191,7 @@
   "title": "Winter 2027 Electrical Engineer Co-op",
   "location": "Costa Mesa, California, United States; Quincy, Massachusetts, United States",
   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5236565007?gh_jid=5236565007",
-  "posted": "2026-10-27",
+  "posted": "2026-10-30",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -208,7 +208,7 @@
   "title": "Winter 2027 Manufacturing Engineer Co-op",
   "location": "Ashville, Ohio, United States; Lexington, Massachusetts, United States; Quincy, Massachusetts, United States",
   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5236589007?gh_jid=5236589007",
-  "posted": "2026-10-27",
+  "posted": "2026-10-30",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -225,7 +225,7 @@
   "title": "Winter 2027 Propulsion Engineer Co-op",
   "location": "Costa Mesa, California, United States",
   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5236587007?gh_jid=5236587007",
-  "posted": "2026-10-27",
+  "posted": "2026-10-30",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -242,7 +242,7 @@
   "title": "Winter 2027 Quality & Test Engineer Co-op",
   "location": "Ashville, Ohio, United States; Santa Ana, California, United States",
   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5257571007?gh_jid=5257571007",
-  "posted": "2026-10-27",
+  "posted": "2026-10-30",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -259,7 +259,7 @@
   "title": "Winter 2027 Reliability Engineer Co-op",
   "location": "Costa Mesa, California, United States",
   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5257693007?gh_jid=5257693007",
-  "posted": "2026-10-27",
+  "posted": "2026-10-30",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -276,7 +276,7 @@
   "title": "Winter 2027 Research Engineer Co-op",
   "location": "Santa Ana, California, United States",
   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5265127007?gh_jid=5265127007",
-  "posted": "2026-10-27",
+  "posted": "2026-10-30",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -293,7 +293,7 @@
   "title": "Winter 2027 Robotics Engineer Co-op",
   "location": "Quincy, Massachusetts, United States",
   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5271842007?gh_jid=5271842007",
-  "posted": "2026-10-27",
+  "posted": "2026-10-30",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -310,7 +310,7 @@
   "title": "Winter 2027 Systems Engineer Co-op",
   "location": "Quincy, Massachusetts, United States",
   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5236599007?gh_jid=5236599007",
-  "posted": "2026-10-27",
+  "posted": "2026-10-30",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -1190,6 +1190,23 @@
   "last_seen": "2026-10-30"
  },
  {
+  "company": "Commonwealth Fusion Systems",
+  "title": "Intern - Electrical/Electromechanical Engineer - Spring 2027",
+  "location": "Devens, MA",
+  "url": "https://jobs.lever.co/cfsenergy/5ed9b326-1824-4efb-bc9a-dc4a813ebcb7",
+  "posted": "1793394323",
+  "deadline": "",
+  "term": "spring",
+  "rank": "A",
+  "hw": "electrical,electromechanical",
+  "tier": "big",
+  "sources": [
+   "lever"
+  ],
+  "first_seen": "2026-10-30",
+  "last_seen": "2026-10-30"
+ },
+ {
   "company": "Corning",
   "title": "Packaging Engineer Co-op",
   "location": "Charlotte, NC, USA",
@@ -1442,6 +1459,23 @@
   "tier": "",
   "sources": [
    "jobspy:linkedin"
+  ],
+  "first_seen": "2026-09-18",
+  "last_seen": "2026-10-30"
+ },
+ {
+  "company": "Emerson",
+  "title": "Manufacturing Engineering Co-Op",
+  "location": "Marshalltown, IA, United States",
+  "url": "https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26009034",
+  "posted": "2026-10-30",
+  "deadline": "",
+  "term": "spring",
+  "rank": "A",
+  "hw": "maybe",
+  "tier": "big",
+  "sources": [
+   "oracle_hcm"
   ],
   "first_seen": "2026-09-18",
   "last_seen": "2026-10-30"
@@ -3149,6 +3183,23 @@
  },
  {
   "company": "RTX",
+  "title": "Electrical Engineering Co-op (Winter/Spring 2027)",
+  "location": "US-IA-CEDAR RAPIDS-131 ~ 5450 C Ave NE ~ BLDG 131",
+  "url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-IA-CEDAR-RAPIDS-131--5450-C-Ave-NE--BLDG-131/Electrical-Engineering-Co-op--Winter-Spring-2027-_01885823",
+  "posted": "Posted Today",
+  "deadline": "",
+  "term": "spring",
+  "rank": "A",
+  "hw": "electrical engineering",
+  "tier": "big",
+  "sources": [
+   "workday"
+  ],
+  "first_seen": "2026-10-30",
+  "last_seen": "2026-10-30"
+ },
+ {
+  "company": "RTX",
   "title": "Hardware Electrical Engineering Co-Op (Spring 2027)",
   "location": "US-MA-CAMBRIDGE-BBN01 ~ 10 & 50 Moulton St ~ MOULTON B2",
   "url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-MA-CAMBRIDGE-BBN01--10--50-Moulton-St--MOULTON-B2/Hardware-Electrical-Engineering-Co-Op--Spring-2027-_01883598",
@@ -3405,23 +3456,6 @@
  {
   "company": "Rocket Lab",
   "title": "Manufacturing Engineering Intern Spring 2027",
-  "location": "Wallops Island, VA",
-  "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7996617003",
-  "posted": "2026-10-29",
-  "deadline": "",
-  "term": "spring",
-  "rank": "A",
-  "hw": "maybe",
-  "tier": "big",
-  "sources": [
-   "greenhouse"
-  ],
-  "first_seen": "2026-09-18",
-  "last_seen": "2026-10-30"
- },
- {
-  "company": "Rocket Lab",
-  "title": "Manufacturing Engineering Intern Spring 2027",
   "location": "Middle River, MD",
   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7987020003",
   "posted": "2026-10-29",
@@ -3441,6 +3475,23 @@
   "title": "Manufacturing Engineering Intern Spring 2027",
   "location": "Long Beach, CA",
   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7984943003",
+  "posted": "2026-10-29",
+  "deadline": "",
+  "term": "spring",
+  "rank": "A",
+  "hw": "maybe",
+  "tier": "big",
+  "sources": [
+   "greenhouse"
+  ],
+  "first_seen": "2026-09-18",
+  "last_seen": "2026-10-30"
+ },
+ {
+  "company": "Rocket Lab",
+  "title": "Manufacturing Engineering Intern Spring 2027",
+  "location": "Wallops Island, VA",
+  "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7996617003",
   "posted": "2026-10-29",
   "deadline": "",
   "term": "spring",
@@ -3524,23 +3575,6 @@
  {
   "company": "Rocket Lab",
   "title": "Test Engineering Intern Spring 2027",
-  "location": "Wallops Island, VA",
-  "url": "https://job-boards.greenhouse.io/rocketlab/jobs/8003533003",
-  "posted": "2026-10-30",
-  "deadline": "",
-  "term": "spring",
-  "rank": "A",
-  "hw": "test engineering",
-  "tier": "big",
-  "sources": [
-   "greenhouse"
-  ],
-  "first_seen": "2026-09-25",
-  "last_seen": "2026-10-30"
- },
- {
-  "company": "Rocket Lab",
-  "title": "Test Engineering Intern Spring 2027",
   "location": "Stennis Space Center, MS",
   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7990352003",
   "posted": "2026-10-29",
@@ -3553,6 +3587,23 @@
    "greenhouse"
   ],
   "first_seen": "2026-09-17",
+  "last_seen": "2026-10-30"
+ },
+ {
+  "company": "Rocket Lab",
+  "title": "Test Engineering Intern Spring 2027",
+  "location": "Wallops Island, VA",
+  "url": "https://job-boards.greenhouse.io/rocketlab/jobs/8003533003",
+  "posted": "2026-10-30",
+  "deadline": "",
+  "term": "spring",
+  "rank": "A",
+  "hw": "test engineering",
+  "tier": "big",
+  "sources": [
+   "greenhouse"
+  ],
+  "first_seen": "2026-09-25",
   "last_seen": "2026-10-30"
  },
  {
@@ -4529,7 +4580,7 @@
   "title": "Spring 2027 Engineering Internship/Co-op",
   "location": "Flexible - Any SpaceX Site",
   "url": "https://boards.greenhouse.io/spacex/jobs/8616338002?gh_jid=8616338002",
-  "posted": "2026-10-29",
+  "posted": "2026-10-30",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -4546,7 +4597,7 @@
   "title": "Spring 2027 Graduate Engineer Internship/Co-op",
   "location": "Flexible - Any SpaceX Site",
   "url": "https://boards.greenhouse.io/spacex/jobs/8621749002?gh_jid=8621749002",
-  "posted": "2026-10-29",
+  "posted": "2026-10-30",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -4563,7 +4614,7 @@
   "title": "Spring 2027 Silicon Engineering Internship/Co-op",
   "location": "Flexible - Any SpaceX Site",
   "url": "https://boards.greenhouse.io/spacex/jobs/8636134002?gh_jid=8636134002",
-  "posted": "2026-10-29",
+  "posted": "2026-10-30",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -6227,6 +6278,23 @@
    "internlist:coop"
   ],
   "first_seen": "2026-10-29",
+  "last_seen": "2026-10-30"
+ },
+ {
+  "company": "Anduril",
+  "title": "Fall 2027 Manufacturing Engineer Co-op",
+  "location": "Ashville, Ohio, United States; Quincy, Massachusetts, United States; Santa Ana, California, United States",
+  "url": "https://boards.greenhouse.io/andurilindustries/jobs/5280611007?gh_jid=5280611007",
+  "posted": "2026-10-30",
+  "deadline": "",
+  "term": "coop-unspecified",
+  "rank": "B",
+  "hw": "maybe",
+  "tier": "big",
+  "sources": [
+   "greenhouse"
+  ],
+  "first_seen": "2026-10-30",
   "last_seen": "2026-10-30"
  },
  {
@@ -10615,6 +10683,23 @@
    "workday"
   ],
   "first_seen": "2026-10-27",
+  "last_seen": "2026-10-30"
+ },
+ {
+  "company": "ASML",
+  "title": "Internship- Product Engineer Computational Model",
+  "location": "San Jose, CA, USA",
+  "url": "https://asml.wd3.myworkdayjobs.com/ASMLEXT1/job/San-Jose-CA-USA/Internship--Product-Engineer-Computational-Model_J-00355245",
+  "posted": "Posted Today",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "product engineer",
+  "tier": "big",
+  "sources": [
+   "workday"
+  ],
+  "first_seen": "2026-10-30",
   "last_seen": "2026-10-30"
  },
  {
@@ -17613,7 +17698,7 @@
   "company": "Skyworks",
   "title": "Product Engineering Intern",
   "location": "Greensboro, USA    ",
-  "url": "https://careers.skyworksinc.com/job/Product-Engineering-Intern/78778-en_US",
+  "url": "https://careers.skyworksinc.com/job/Product-Engineering-Intern/78749-en_US",
   "posted": "2026-10-28",
   "deadline": "",
   "term": "unspecified",
@@ -17623,7 +17708,7 @@
   "sources": [
    "successfactors"
   ],
-  "first_seen": "2026-10-29",
+  "first_seen": "2026-10-28",
   "last_seen": "2026-10-30"
  },
  {
@@ -17664,8 +17749,8 @@
   "company": "Skyworks",
   "title": "RF Design Engineering Intern",
   "location": "Richardson, USA    ",
-  "url": "https://careers.skyworksinc.com/job/RF-Design-Engineering-Intern/78790-en_US",
-  "posted": "2026-10-27",
+  "url": "https://careers.skyworksinc.com/job/RF-Design-Engineering-Intern/78768-en_US",
+  "posted": "2026-10-28",
   "deadline": "",
   "term": "unspecified",
   "rank": "C",
@@ -17674,7 +17759,7 @@
   "sources": [
    "successfactors"
   ],
-  "first_seen": "2026-10-27",
+  "first_seen": "2026-10-28",
   "last_seen": "2026-10-30"
  },
  {
@@ -17748,23 +17833,6 @@
  {
   "company": "Skyworks",
   "title": "Test Engineering Intern",
-  "location": "Greensboro, USA    ",
-  "url": "https://careers.skyworksinc.com/job/Test-Engineering-Intern/79007-en_US",
-  "posted": "2026-10-29",
-  "deadline": "",
-  "term": "unspecified",
-  "rank": "C",
-  "hw": "test engineering",
-  "tier": "big",
-  "sources": [
-   "successfactors"
-  ],
-  "first_seen": "2026-10-29",
-  "last_seen": "2026-10-30"
- },
- {
-  "company": "Skyworks",
-  "title": "Test Engineering Intern",
   "location": "Chandler, USA    ",
   "url": "https://careers.skyworksinc.com/job/Test-Engineering-Intern/78716-en_US",
   "posted": "2026-10-27",
@@ -17777,6 +17845,40 @@
    "successfactors"
   ],
   "first_seen": "2026-10-27",
+  "last_seen": "2026-10-30"
+ },
+ {
+  "company": "Skyworks",
+  "title": "Test Engineering Intern",
+  "location": "Greensboro, USA    ",
+  "url": "https://careers.skyworksinc.com/job/Test-Engineering-Intern/78746-en_US",
+  "posted": "2026-10-28",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "test engineering",
+  "tier": "big",
+  "sources": [
+   "successfactors"
+  ],
+  "first_seen": "2026-10-28",
+  "last_seen": "2026-10-30"
+ },
+ {
+  "company": "Skyworks",
+  "title": "Test Engineering Intern",
+  "location": "Hillsboro, USA    ",
+  "url": "https://careers.skyworksinc.com/job/Test-Engineering-Intern/78777-en_US",
+  "posted": "2026-10-28",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "test engineering",
+  "tier": "big",
+  "sources": [
+   "successfactors"
+  ],
+  "first_seen": "2026-10-28",
   "last_seen": "2026-10-30"
  },
  {
