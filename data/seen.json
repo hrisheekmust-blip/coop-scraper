@@ -1401,13 +1401,13 @@
 },
 "https://jobs.lever.co/hermeus/2cbb75f7-a040-47b2-a442-d9cc1faedb11": {
 "first_seen": "2026-09-18",
-"title": "Propulsion Component Engineering Intern - Spring/Summer 2027",
+"title": "Propulsion Component Engineering Intern - Spring 2027",
 "company": "Hermeus",
 "desc": ""
 },
 "https://jobs.lever.co/hermeus/943f51e4-5b26-432c-ae85-de5f43cadb86": {
 "first_seen": "2026-09-18",
-"title": "Propulsion Engineering Intern - Spring/Summer/Fall 2027",
+"title": "Propulsion Engineering Intern - Spring/Fall 2027",
 "company": "Hermeus",
 "desc": ""
 },
@@ -18263,6 +18263,18 @@
 "first_seen": "2026-10-30",
 "title": "Analog Design Engineering Intern",
 "company": "Skyworks Solutions, Inc.",
+"desc": ""
+},
+"https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/40848": {
+"first_seen": "2026-10-30",
+"title": "Silicon Photonics Packaging Engineer Co-op",
+"company": "Nokia",
+"desc": ""
+},
+"https://seagatecareers.com/job/Wafer-Manufacturing-Intern/15464-en_US": {
+"first_seen": "2026-10-30",
+"title": "Wafer Manufacturing Intern",
+"company": "Seagate",
 "desc": ""
 }
 }

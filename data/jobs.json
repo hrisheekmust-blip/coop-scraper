@@ -198,7 +198,6 @@
   "hw": "electrical engineer",
   "tier": "big",
   "sources": [
-   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-09-17",
@@ -250,7 +249,6 @@
   "hw": "test engineer",
   "tier": "big",
   "sources": [
-   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-10-06",
@@ -373,24 +371,6 @@
    "jobspy:linkedin"
   ],
   "first_seen": "2026-10-06",
-  "last_seen": "2026-10-30"
- },
- {
-  "company": "Applied Materials",
-  "title": "2027 Spring Process Engineer Co-op - Doctorate (Gloucester, MA)",
-  "location": "Gloucester,MA",
-  "url": "https://amat.wd1.myworkdayjobs.com/External/job/GloucesterMA/XMLNAME-2027-Spring-Process-Engineer-Co-op---Doctorate--Gloucester--MA-_R2632516",
-  "posted": "Posted Yesterday",
-  "deadline": "",
-  "term": "spring",
-  "rank": "A",
-  "hw": "process engineer",
-  "tier": "big",
-  "sources": [
-   "jobspy:indeed",
-   "workday"
-  ],
-  "first_seen": "2026-10-30",
   "last_seen": "2026-10-30"
  },
  {
@@ -1546,7 +1526,6 @@
   "hw": "controls engineer",
   "tier": "big",
   "sources": [
-   "internlist:coop",
    "workday"
   ],
   "first_seen": "2026-10-28",
@@ -1564,7 +1543,6 @@
   "hw": "metrology",
   "tier": "big",
   "sources": [
-   "internlist:coop",
    "workday"
   ],
   "first_seen": "2026-09-18",
@@ -2490,7 +2468,7 @@
  },
  {
   "company": "Hermeus",
-  "title": "Propulsion Component Engineering Intern - Spring/Summer 2027",
+  "title": "Propulsion Component Engineering Intern - Spring 2027",
   "location": "Los Angeles, CA",
   "url": "https://jobs.lever.co/hermeus/2cbb75f7-a040-47b2-a442-d9cc1faedb11",
   "posted": "1788209818",
@@ -2507,7 +2485,7 @@
  },
  {
   "company": "Hermeus",
-  "title": "Propulsion Engineering Intern - Spring/Summer/Fall 2027",
+  "title": "Propulsion Engineering Intern - Spring/Fall 2027",
   "location": "Los Angeles, CA",
   "url": "https://jobs.lever.co/hermeus/943f51e4-5b26-432c-ae85-de5f43cadb86",
   "posted": "1784848898",
@@ -3427,8 +3405,8 @@
  {
   "company": "Rocket Lab",
   "title": "Manufacturing Engineering Intern Spring 2027",
-  "location": "Middle River, MD",
-  "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7987020003",
+  "location": "Wallops Island, VA",
+  "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7996617003",
   "posted": "2026-10-29",
   "deadline": "",
   "term": "spring",
@@ -3444,8 +3422,8 @@
  {
   "company": "Rocket Lab",
   "title": "Manufacturing Engineering Intern Spring 2027",
-  "location": "Wallops Island, VA",
-  "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7996617003",
+  "location": "Middle River, MD",
+  "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7987020003",
   "posted": "2026-10-29",
   "deadline": "",
   "term": "spring",
@@ -3616,16 +3594,14 @@
   "title": "Electrical Engineering Co-Op",
   "location": "San Francisco - SF9",
   "url": "https://www.samsara.com/company/careers/roles/8163118?gh_jid=8163118",
-  "posted": "2026-09-25",
+  "posted": "2026-10-30",
   "deadline": "",
   "term": "spring",
   "rank": "A",
   "hw": "electrical engineering",
   "tier": "big",
   "sources": [
-   "greenhouse",
-   "internlist:coop",
-   "jobspy:linkedin"
+   "greenhouse"
   ],
   "first_seen": "2026-09-17",
   "last_seen": "2026-10-30"
@@ -3730,23 +3706,6 @@
    "ashby"
   ],
   "first_seen": "2026-10-14",
-  "last_seen": "2026-10-30"
- },
- {
-  "company": "Skyworks",
-  "title": "Acoustic Filter Design Co-Op (Winter/Spring 2027)",
-  "location": "Irvine, CA, USA    ",
-  "url": "https://careers.skyworksinc.com/job/Acoustic-Filter-Design-Co-Op-%28WinterSpring-2027%29/78303-en_US",
-  "posted": "2026-09-01",
-  "deadline": "",
-  "term": "spring",
-  "rank": "A",
-  "hw": "maybe",
-  "tier": "big",
-  "sources": [
-   "successfactors"
-  ],
-  "first_seen": "2026-09-18",
   "last_seen": "2026-10-30"
  },
  {
@@ -4611,7 +4570,6 @@
   "hw": "silicon",
   "tier": "big",
   "sources": [
-   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-09-17",
@@ -6283,7 +6241,6 @@
   "hw": "process engineer",
   "tier": "big",
   "sources": [
-   "jobspy:linkedin",
    "workday"
   ],
   "first_seen": "2026-10-07",
@@ -6321,6 +6278,23 @@
    "workday"
   ],
   "first_seen": "2026-09-18",
+  "last_seen": "2026-10-30"
+ },
+ {
+  "company": "Applied Materials",
+  "title": "2027 Spring Process Engineer Co-op - Doctorate (Gloucester, MA)",
+  "location": "Gloucester,MA",
+  "url": "https://amat.wd1.myworkdayjobs.com/External/job/GloucesterMA/XMLNAME-2027-Spring-Process-Engineer-Co-op---Doctorate--Gloucester--MA-_R2632516",
+  "posted": "Posted Yesterday",
+  "deadline": "",
+  "term": "coop-unspecified",
+  "rank": "B",
+  "hw": "process engineer",
+  "tier": "big",
+  "sources": [
+   "workday"
+  ],
+  "first_seen": "2026-10-30",
   "last_seen": "2026-10-30"
  },
  {
@@ -8999,6 +8973,23 @@
   "last_seen": "2026-10-30"
  },
  {
+  "company": "Nokia",
+  "title": "Silicon Photonics Packaging Engineer Co-op",
+  "location": "United States",
+  "url": "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/40848",
+  "posted": "2026-10-30",
+  "deadline": "",
+  "term": "coop-unspecified",
+  "rank": "B",
+  "hw": "packaging engineer,photonics,silicon",
+  "tier": "big",
+  "sources": [
+   "oracle_hcm"
+  ],
+  "first_seen": "2026-10-30",
+  "last_seen": "2026-10-30"
+ },
+ {
   "company": "Nova-Tech",
   "title": "Electrical Engineering Co-op",
   "location": "Willmar, MN, USA",
@@ -9617,17 +9608,14 @@
   "title": "Firmware Engineer Co-Op",
   "location": "San Francisco - SF9",
   "url": "https://www.samsara.com/company/careers/roles/8226602?gh_jid=8226602",
-  "posted": "2026-09-25",
+  "posted": "2026-10-30",
   "deadline": "",
   "term": "coop-unspecified",
   "rank": "B",
   "hw": "firmware",
   "tier": "big",
   "sources": [
-   "greenhouse",
-   "internlist:coop",
-   "internlist:winter-spring",
-   "jobspy:linkedin"
+   "greenhouse"
   ],
   "first_seen": "2026-09-24",
   "last_seen": "2026-10-30"
@@ -9806,7 +9794,7 @@
   "company": "Skyworks",
   "title": "RF Filter Design / BAW development Co-Op",
   "location": "Andover, MA, USA    ",
-  "url": "https://careers.skyworksinc.com/job/RF-Filter-Design-BAW-development-Co-Op/78244-en_US",
+  "url": "https://careers.skyworksinc.com/job/RF-Filter-Design-BAW-development-Co-Op/78245-en_US",
   "posted": "2026-09-15",
   "deadline": "",
   "term": "coop-unspecified",
@@ -9816,7 +9804,7 @@
   "sources": [
    "successfactors"
   ],
-  "first_seen": "2026-09-30",
+  "first_seen": "2026-09-18",
   "last_seen": "2026-10-30"
  },
  {
@@ -10624,7 +10612,6 @@
   "hw": "product engineer",
   "tier": "big",
   "sources": [
-   "jobspy:linkedin",
    "workday"
   ],
   "first_seen": "2026-10-27",
@@ -12720,7 +12707,6 @@
   "hw": "eda,electrical",
   "tier": "big",
   "sources": [
-   "github:vanshb03-summer",
    "workday"
   ],
   "first_seen": "2026-10-28",
@@ -14662,23 +14648,6 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-30"
- },
- {
-  "company": "Leidos",
-  "title": "Electrical Design Engineering Intern",
-  "location": "Huntsville, AL",
-  "url": "https://leidos.wd5.myworkdayjobs.com/External/job/Huntsville-AL/Electrical-Design-Engineering-Intern_R-00195400",
-  "posted": "Posted 4 Days Ago",
-  "deadline": "",
-  "term": "unspecified",
-  "rank": "C",
-  "hw": "electrical",
-  "tier": "big",
-  "sources": [
-   "workday"
-  ],
-  "first_seen": "2026-10-26",
   "last_seen": "2026-10-30"
  },
  {
@@ -17065,7 +17034,7 @@
  {
   "company": "Seagate",
   "title": "Intern, Advanced Media R&D Characterization and Recording Physicist",
-  "location": "",
+  "location": "Fremont, CA, USA, ",
   "url": "https://seagatecareers.com/job/Intern%2C-Advanced-Media-R&amp;D-Characterization-and-Recording-Physicist/15300-en_US",
   "posted": "2026-10-14",
   "deadline": "",
@@ -17145,6 +17114,23 @@
    "successfactors"
   ],
   "first_seen": "2026-10-21",
+  "last_seen": "2026-10-30"
+ },
+ {
+  "company": "Seagate",
+  "title": "Wafer Manufacturing Intern",
+  "location": "Bloomington, MN, USA, ",
+  "url": "https://seagatecareers.com/job/Wafer-Manufacturing-Intern/15464-en_US",
+  "posted": "2026-10-30",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "wafer",
+  "tier": "big",
+  "sources": [
+   "successfactors"
+  ],
+  "first_seen": "2026-10-30",
   "last_seen": "2026-10-30"
  },
  {
@@ -17627,7 +17613,7 @@
   "company": "Skyworks",
   "title": "Product Engineering Intern",
   "location": "Greensboro, USA    ",
-  "url": "https://careers.skyworksinc.com/job/Product-Engineering-Intern/78749-en_US",
+  "url": "https://careers.skyworksinc.com/job/Product-Engineering-Intern/78778-en_US",
   "posted": "2026-10-28",
   "deadline": "",
   "term": "unspecified",
@@ -17637,7 +17623,7 @@
   "sources": [
    "successfactors"
   ],
-  "first_seen": "2026-10-28",
+  "first_seen": "2026-10-29",
   "last_seen": "2026-10-30"
  },
  {
@@ -17791,23 +17777,6 @@
    "successfactors"
   ],
   "first_seen": "2026-10-27",
-  "last_seen": "2026-10-30"
- },
- {
-  "company": "Skyworks",
-  "title": "Test Engineering Intern",
-  "location": "Hillsboro, USA    ",
-  "url": "https://careers.skyworksinc.com/job/Test-Engineering-Intern/78777-en_US",
-  "posted": "2026-10-28",
-  "deadline": "",
-  "term": "unspecified",
-  "rank": "C",
-  "hw": "test engineering",
-  "tier": "big",
-  "sources": [
-   "successfactors"
-  ],
-  "first_seen": "2026-10-28",
   "last_seen": "2026-10-30"
  },
  {
