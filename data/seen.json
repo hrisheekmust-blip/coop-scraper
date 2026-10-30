@@ -5571,7 +5571,7 @@
 },
 "https://simplify.jobs/jobs/click/2e6978bb-ece5-4ba5-9ed6-b6b11bed2627": {
 "first_seen": "2026-09-19",
-"title": "Digital Design Engineer Intern",
+"title": "ASIC Digital Design Engineer Intern",
 "company": "Micron Technology",
 "desc": ""
 },
@@ -13023,7 +13023,7 @@
 },
 "https://simplify.jobs/jobs/click/082ed332-717b-4faf-9e5a-066669e4636b": {
 "first_seen": "2026-10-09",
-"title": "Supplier Process Engineer Co-op",
+"title": "Global Operations Supplier Process Engineer Co-op",
 "company": "Dell Technologies",
 "desc": ""
 },
@@ -13521,7 +13521,7 @@
 },
 "https://simplify.jobs/jobs/click/772840e3-4552-42aa-b102-8cb0e1752b13": {
 "first_seen": "2026-10-13",
-"title": "Electrical Engineer Co-op",
+"title": "Electrical Engineering Co-op",
 "company": "SharkNinja",
 "desc": ""
 },
@@ -18239,6 +18239,30 @@
 "first_seen": "2026-10-30",
 "title": "Intern Software Engineer / Agent Engineer - EDA - Austin 2027",
 "company": "IBM",
+"desc": ""
+},
+"https://amat.wd1.myworkdayjobs.com/External/job/GloucesterMA/XMLNAME-2027-Spring-Process-Engineer-Co-op---Doctorate--Gloucester--MA-_R2632516": {
+"first_seen": "2026-10-30",
+"title": "2027 Spring Process Engineer Co-op - Doctorate (Gloucester, MA)",
+"company": "Applied Materials",
+"desc": "  Who We Are    Applied Materials is the global leader in materials science and engineering solutions that are at the foundation of virtually every new semiconductor chip and advanced display in the world. The equipment that we create and service is essential to advancing AI and accelerating the commercialization of next-generation semiconductor chips. Join us and push the boundaries of materials science and engineering in a company at the foundation of the electronics industry. The work we do together advances the world\u2019s technology.\u00a0    What We Offer    Location: Gloucester,MA   You\u2019ll benefit from a supportive work culture that encourages you to learn, develop, and grow your career as you take on challenges and drive innovative solutions for our customers. We empower our team to push the boundaries of what is possible\u2014while learning every day in a supportive leading global company. Visit our Careers website to learn more.\u00a0    At Applied Materials, we care about the health and wellbeing of our employees. We\u2019re committed to providing programs and support that encourage personal and professional growth and care for you at work, at home, or wherever you may go. Learn more about our    benefits   .\u00a0    Applied Materials is seeking highly motivated graduate students to join our Research & Development (Varian R&D) and Advanced Project Development teams in Gloucester, Massachusetts. This opportunity offers the chance to work on next-generation semiconductor technologies that enabl"
+},
+"https://simplify.jobs/jobs/click/08b21c07-aee1-409d-b3c6-d261b9ef8b1a": {
+"first_seen": "2026-10-30",
+"title": "Electrical Engineering for Manufacturing Co-op",
+"company": "RTX",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4485241188": {
+"first_seen": "2026-10-30",
+"title": "RFIC Design Intern",
+"company": "Skyworks Solutions, Inc.",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4485248109": {
+"first_seen": "2026-10-30",
+"title": "Analog Design Engineering Intern",
+"company": "Skyworks Solutions, Inc.",
 "desc": ""
 }
 }
