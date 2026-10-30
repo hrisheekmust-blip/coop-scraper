@@ -635,8 +635,8 @@
 },
 "https://www.indeed.com/viewjob": {
 "first_seen": "2026-09-18",
-"title": "Electrical Test Engineer Student Experience - Spring 2027",
-"company": "Bobcat",
+"title": "Instrumentation & Electrical Technician Co-op",
+"company": "Koch",
 "desc": ""
 },
 "https://www.linkedin.com/jobs/view/4468697840": {
@@ -13077,7 +13077,7 @@
 },
 "https://www.linkedin.com/jobs/view/4477666057": {
 "first_seen": "2026-10-09",
-"title": "Spring 2027:  Electrical Engineering Co-op, Shark (January to June)",
+"title": "Spring 2027:  Electrical Engineering Co-op (January to June)",
 "company": "SharkNinja",
 "desc": ""
 },
@@ -18299,6 +18299,60 @@
 "first_seen": "2026-10-30",
 "title": "Intern - Electrical/Electromechanical Engineer - Spring 2027",
 "company": "Commonwealth Fusion Systems",
+"desc": ""
+},
+"https://go.vansh.nyc/10G": {
+"first_seen": "2026-10-30",
+"title": "Firmware Engineering Intern",
+"company": "Sierra Nevada Corporation",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/e04a3343-669c-40ee-addb-ccb7be790902": {
+"first_seen": "2026-10-30",
+"title": "Formulations \u2013 Oligonucleotide Synthesis and Chemistry Co-op",
+"company": "Wave Life Sciences USA",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4483446118": {
+"first_seen": "2026-10-30",
+"title": "Electrical Engineering Co-op/Intern - Spring 2027",
+"company": "CACI International Inc",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4484898162": {
+"first_seen": "2026-10-30",
+"title": "Intern, SRAM Design Engineer",
+"company": "Samsung Semiconductor",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4483479452": {
+"first_seen": "2026-10-30",
+"title": "Silicon Photonics Packaging Engineer Co-op",
+"company": "Nokia",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4465256878": {
+"first_seen": "2026-10-30",
+"title": "Equipment Engineering Intern",
+"company": "Analog Devices",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4483480425": {
+"first_seen": "2026-10-30",
+"title": "Silicon Photonics Packaging Engineer Co-op",
+"company": "Nokia",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4485600471": {
+"first_seen": "2026-10-30",
+"title": "Research Scientist - Intern (Video and Edge, Multimedia Lab) - 2027 Start (PhD)",
+"company": "ByteDance",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4485612132": {
+"first_seen": "2026-10-30",
+"title": "Electrical Engineering Intern",
+"company": "Nucleon",
 "desc": ""
 }
 }

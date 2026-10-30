@@ -526,7 +526,7 @@
 "company": "Formlabs",
 "role": "Hardware Test Engineering Intern (Winter/Spring 2027)",
 "link": "https://careers.formlabs.com/job/8196515/apply/?gh_jid=8196515",
-"attempted": 1793395230,
+"attempted": 1793396927,
 "apply_url": "https://careers.formlabs.com/job/8196515/apply/?gh_jid=8196515",
 "portal": "greenhouse",
 "error": "ValueError: no board/job in url",
@@ -612,7 +612,7 @@
 "company": "Ahlstrom",
 "role": "Maintenance Electrical Engineering Co-op",
 "link": "https://www.linkedin.com/jobs/view/4457995391",
-"attempted": 1791736508,
+"attempted": 1793396927,
 "apply_url": "https://www.linkedin.com/jobs/view/4457995391",
 "portal": "linkedin",
 "fields": null,
@@ -3468,7 +3468,7 @@
 "company": "Emerson",
 "role": "Electrical Engineering Co-op (Spring 2027)",
 "link": "https://www.linkedin.com/jobs/view/4468311224",
-"attempted": 1791682572,
+"attempted": 1793396927,
 "apply_url": "https://www.linkedin.com/jobs/view/4468311224",
 "portal": "linkedin",
 "fields": null,
@@ -5834,7 +5834,7 @@
 "company": "Hermeus",
 "role": "Environmental, Health, and Safety (EHS) Intern - 2027",
 "link": "https://jobs.lever.co/hermeus/7a0408e7-700c-4206-85d6-62f71f625652",
-"attempted": 1793136767,
+"attempted": 1793396927,
 "apply_url": "https://jobs.lever.co/hermeus/7a0408e7-700c-4206-85d6-62f71f625652/apply",
 "portal": "lever",
 "fields": [
@@ -6399,14 +6399,14 @@
 }
 ],
 "error": "",
-"fetched": "2026-10-27T21:32Z",
+"fetched": "2026-10-30T21:48Z",
 "closed": false
 },
 "195882dc93ad64e6": {
 "company": "Hermeus",
 "role": "Flight Operations & Airworthiness Engineering Intern - Spring/Summer/Fall 2027",
 "link": "https://jobs.lever.co/hermeus/944918b0-17ca-46ec-9413-5acd7086addf",
-"attempted": 1793136767,
+"attempted": 1793396927,
 "apply_url": "https://jobs.lever.co/hermeus/944918b0-17ca-46ec-9413-5acd7086addf/apply",
 "portal": "lever",
 "fields": [
@@ -6971,14 +6971,14 @@
 }
 ],
 "error": "",
-"fetched": "2026-10-27T21:32Z",
+"fetched": "2026-10-30T21:48Z",
 "closed": false
 },
 "ef1cfe38495c4f52": {
 "company": "Hermeus",
 "role": "Flight Software & GNC Intern - Spring/Summer 2027",
 "link": "https://jobs.lever.co/hermeus/555263f6-c5ec-4489-ab07-1aea546b70e7",
-"attempted": 1793136767,
+"attempted": 1793396927,
 "apply_url": "https://jobs.lever.co/hermeus/555263f6-c5ec-4489-ab07-1aea546b70e7/apply",
 "portal": "lever",
 "fields": [
@@ -7553,14 +7553,14 @@
 }
 ],
 "error": "",
-"fetched": "2026-10-27T21:32Z",
+"fetched": "2026-10-30T21:48Z",
 "closed": false
 },
 "5670fd94c3e2f006": {
 "company": "Hermeus",
 "role": "Manufacturing Engineering Intern - Spring/Summer 2027",
 "link": "https://jobs.lever.co/hermeus/1bdf3754-5649-4a50-913e-b05140cb004f",
-"attempted": 1793136767,
+"attempted": 1793396927,
 "apply_url": "https://jobs.lever.co/hermeus/1bdf3754-5649-4a50-913e-b05140cb004f/apply",
 "portal": "lever",
 "fields": [
@@ -8113,14 +8113,14 @@
 }
 ],
 "error": "",
-"fetched": "2026-10-27T21:32Z",
+"fetched": "2026-10-30T21:49Z",
 "closed": false
 },
 "6455c174e40bf719": {
 "company": "Hermeus",
 "role": "Manufacturing Engineering Intern - Spring/Summer/Fall 2027",
 "link": "https://jobs.lever.co/hermeus/5f6a6e79-9836-4c33-b40b-a2bb6c27bd06",
-"attempted": 1793136767,
+"attempted": 1793396927,
 "apply_url": "https://jobs.lever.co/hermeus/5f6a6e79-9836-4c33-b40b-a2bb6c27bd06/apply",
 "portal": "lever",
 "fields": [
@@ -8673,14 +8673,14 @@
 }
 ],
 "error": "",
-"fetched": "2026-10-27T21:32Z",
+"fetched": "2026-10-30T21:49Z",
 "closed": false
 },
 "9f6d35d2ad11f9b9": {
 "company": "Hermeus",
 "role": "Mechanical Engineering Intern  - Summer/Fall 2027",
 "link": "https://jobs.lever.co/hermeus/1bc5c858-1b04-4093-80a0-2ba3491afc60",
-"attempted": 1793136767,
+"attempted": 1793396927,
 "apply_url": "https://jobs.lever.co/hermeus/1bc5c858-1b04-4093-80a0-2ba3491afc60/apply",
 "portal": "lever",
 "fields": [
@@ -9233,14 +9233,14 @@
 }
 ],
 "error": "",
-"fetched": "2026-10-27T21:32Z",
+"fetched": "2026-10-30T21:49Z",
 "closed": false
 },
 "644467a87d842bd6": {
 "company": "Hermeus",
 "role": "Mission Systems Engineering Intern - Spring/Summer 2027",
 "link": "https://jobs.lever.co/hermeus/9229aa88-f54d-4ecd-85ee-b31f53b4207d",
-"attempted": 1793136767,
+"attempted": 1793396927,
 "apply_url": "https://jobs.lever.co/hermeus/9229aa88-f54d-4ecd-85ee-b31f53b4207d/apply",
 "portal": "lever",
 "fields": [
@@ -9814,14 +9814,14 @@
 }
 ],
 "error": "",
-"fetched": "2026-10-27T21:32Z",
+"fetched": "2026-10-30T21:49Z",
 "closed": false
 },
 "96f12c08e39ceaf2": {
 "company": "Hermeus",
-"role": "Propulsion Component Engineering Intern - Spring/Summer 2027",
+"role": "Propulsion Component Engineering Intern - Spring 2027",
 "link": "https://jobs.lever.co/hermeus/2cbb75f7-a040-47b2-a442-d9cc1faedb11",
-"attempted": 1793136767,
+"attempted": 1793396927,
 "apply_url": "https://jobs.lever.co/hermeus/2cbb75f7-a040-47b2-a442-d9cc1faedb11/apply",
 "portal": "lever",
 "fields": [
@@ -10374,14 +10374,14 @@
 }
 ],
 "error": "",
-"fetched": "2026-10-27T21:32Z",
+"fetched": "2026-10-30T21:49Z",
 "closed": false
 },
 "5da80f7af61d3928": {
 "company": "Hermeus",
-"role": "Propulsion Engineering Intern - Spring/Summer/Fall 2027",
+"role": "Propulsion Engineering Intern - Spring/Fall 2027",
 "link": "https://jobs.lever.co/hermeus/943f51e4-5b26-432c-ae85-de5f43cadb86",
-"attempted": 1793136767,
+"attempted": 1793396927,
 "apply_url": "https://jobs.lever.co/hermeus/943f51e4-5b26-432c-ae85-de5f43cadb86/apply",
 "portal": "lever",
 "fields": [
@@ -10934,14 +10934,14 @@
 }
 ],
 "error": "",
-"fetched": "2026-10-27T21:32Z",
+"fetched": "2026-10-30T21:49Z",
 "closed": false
 },
 "afb1def37c199112": {
 "company": "Hermeus",
 "role": "Software Engineering Intern (Command & Control) - Spring/Summer 2027",
 "link": "https://jobs.lever.co/hermeus/5b08e2df-c9db-4831-aece-67d89e744796",
-"attempted": 1793136767,
+"attempted": 1793396927,
 "apply_url": "https://jobs.lever.co/hermeus/5b08e2df-c9db-4831-aece-67d89e744796/apply",
 "portal": "lever",
 "fields": [
@@ -11516,14 +11516,14 @@
 }
 ],
 "error": "",
-"fetched": "2026-10-27T21:32Z",
+"fetched": "2026-10-30T21:49Z",
 "closed": false
 },
 "1d316070f3a729f9": {
 "company": "Hermeus",
 "role": "Software Engineering Intern (HIL) - Spring/Summer 2027",
 "link": "https://jobs.lever.co/hermeus/d87ed913-affc-475e-b721-c5b5f11c3c7b",
-"attempted": 1793136767,
+"attempted": 1793396927,
 "apply_url": "https://jobs.lever.co/hermeus/d87ed913-affc-475e-b721-c5b5f11c3c7b/apply",
 "portal": "lever",
 "fields": [
@@ -12076,14 +12076,14 @@
 }
 ],
 "error": "",
-"fetched": "2026-10-27T21:32Z",
+"fetched": "2026-10-30T21:49Z",
 "closed": false
 },
 "6e030e2bd3537d07": {
 "company": "Hermeus",
 "role": "Software Engineering Intern (Modeling & Simulation) - Spring/Summer 2027",
 "link": "https://jobs.lever.co/hermeus/445db430-6f81-41cf-847a-56a947afb936",
-"attempted": 1793136767,
+"attempted": 1793396927,
 "apply_url": "https://jobs.lever.co/hermeus/445db430-6f81-41cf-847a-56a947afb936/apply",
 "portal": "lever",
 "fields": [
@@ -12636,14 +12636,14 @@
 }
 ],
 "error": "",
-"fetched": "2026-10-27T21:32Z",
+"fetched": "2026-10-30T21:49Z",
 "closed": false
 },
 "c74b234a8cc968f0": {
 "company": "Hermeus",
 "role": "Structures Engineering Intern - Spring/Summer/Fall 2027",
 "link": "https://jobs.lever.co/hermeus/6b65768c-a8b2-4c77-8d5f-f407e32bb878",
-"attempted": 1793136767,
+"attempted": 1793396927,
 "apply_url": "https://jobs.lever.co/hermeus/6b65768c-a8b2-4c77-8d5f-f407e32bb878/apply",
 "portal": "lever",
 "fields": [
@@ -13190,14 +13190,14 @@
 }
 ],
 "error": "",
-"fetched": "2026-10-27T21:32Z",
+"fetched": "2026-10-30T21:49Z",
 "closed": false
 },
 "546d43b44c784877": {
 "company": "Hermeus",
 "role": "Structures/Mechanical Engineering Intern - Spring/Summer 2027",
 "link": "https://jobs.lever.co/hermeus/60b5d40a-1065-4bd2-8c72-6b2fb69d4761",
-"attempted": 1793136767,
+"attempted": 1793396927,
 "apply_url": "https://jobs.lever.co/hermeus/60b5d40a-1065-4bd2-8c72-6b2fb69d4761/apply",
 "portal": "lever",
 "fields": [
@@ -13744,14 +13744,14 @@
 }
 ],
 "error": "",
-"fetched": "2026-10-27T21:33Z",
+"fetched": "2026-10-30T21:49Z",
 "closed": false
 },
 "12a3fc1779bb4307": {
 "company": "Hermeus",
 "role": "Supply Chain Intern - Spring/Summer 2027",
 "link": "https://jobs.lever.co/hermeus/17a0b249-c6c4-4361-ab9c-1aa7c4472591",
-"attempted": 1793136767,
+"attempted": 1793396927,
 "apply_url": "https://jobs.lever.co/hermeus/17a0b249-c6c4-4361-ab9c-1aa7c4472591/apply",
 "portal": "lever",
 "fields": [
@@ -14325,14 +14325,14 @@
 }
 ],
 "error": "",
-"fetched": "2026-10-27T21:33Z",
+"fetched": "2026-10-30T21:49Z",
 "closed": false
 },
 "30deed95a24d3a78": {
 "company": "Hermeus",
 "role": "Test and Operations Engineering Intern - Spring/Summer 2027",
 "link": "https://jobs.lever.co/hermeus/d40446ee-40a9-4bb0-a3a8-a4a189b74630",
-"attempted": 1793136767,
+"attempted": 1793396927,
 "apply_url": "https://jobs.lever.co/hermeus/d40446ee-40a9-4bb0-a3a8-a4a189b74630/apply",
 "portal": "lever",
 "fields": [
@@ -14894,7 +14894,7 @@
 }
 ],
 "error": "",
-"fetched": "2026-10-27T21:33Z",
+"fetched": "2026-10-30T21:49Z",
 "closed": false
 },
 "cadd9b23fc7fe875": {
@@ -15422,7 +15422,7 @@
 "company": "Rocket Lab",
 "role": "Manufacturing Engineering Intern Spring 2027",
 "link": "https://job-boards.greenhouse.io/rocketlab/jobs/7996617003",
-"attempted": 1793136767,
+"attempted": 1793396927,
 "apply_url": "https://boards.greenhouse.io/rocketlab/jobs/7996617003",
 "portal": "greenhouse",
 "fields": [
@@ -15866,14 +15866,14 @@
 }
 ],
 "error": "",
-"fetched": "2026-10-27T21:33Z",
+"fetched": "2026-10-30T21:49Z",
 "closed": false
 },
 "87f6136d220523f3": {
 "company": "Rocket Lab",
 "role": "R&D Engineering Intern Spring 2027",
 "link": "https://job-boards.greenhouse.io/rocketlab/jobs/7996578003",
-"attempted": 1793136767,
+"attempted": 1793396927,
 "apply_url": "https://boards.greenhouse.io/rocketlab/jobs/7996578003",
 "portal": "greenhouse",
 "fields": [
@@ -16317,7 +16317,7 @@
 }
 ],
 "error": "",
-"fetched": "2026-10-27T21:33Z",
+"fetched": "2026-10-30T21:49Z",
 "closed": false
 },
 "4774516ba7453e8b": {
@@ -23279,7 +23279,7 @@
 "company": "Rocket Lab",
 "role": "Manufacturing Engineering Intern Spring 2027",
 "link": "https://job-boards.greenhouse.io/rocketlab/jobs/7984943003",
-"attempted": 1793136767,
+"attempted": 1793396927,
 "apply_url": "https://boards.greenhouse.io/rocketlab/jobs/7984943003",
 "portal": "greenhouse",
 "fields": [
@@ -23723,14 +23723,14 @@
 }
 ],
 "error": "",
-"fetched": "2026-10-27T21:33Z",
+"fetched": "2026-10-30T21:49Z",
 "closed": false
 },
 "25eab771d5d7dd6e": {
 "company": "Rocket Lab",
 "role": "Manufacturing Engineering Intern Spring 2027",
 "link": "https://job-boards.greenhouse.io/rocketlab/jobs/7987020003",
-"attempted": 1793136767,
+"attempted": 1793396927,
 "apply_url": "https://boards.greenhouse.io/rocketlab/jobs/7987020003",
 "portal": "greenhouse",
 "fields": [
@@ -24174,7 +24174,7 @@
 }
 ],
 "error": "",
-"fetched": "2026-10-27T21:33Z",
+"fetched": "2026-10-30T21:49Z",
 "closed": false
 },
 "fc277545e4a309af": {
@@ -27326,7 +27326,7 @@
 "company": "Formlabs",
 "role": "Hardware R&D Engineering Intern (Winter/Spring 2027)",
 "link": "https://careers.formlabs.com/job/8172226/apply/?gh_jid=8172226",
-"attempted": 1793395230,
+"attempted": 1793396927,
 "apply_url": "https://careers.formlabs.com/job/8172226/apply/?gh_jid=8172226",
 "portal": "greenhouse",
 "error": "ValueError: no board/job in url",
@@ -27336,7 +27336,7 @@
 "company": "Formlabs",
 "role": "Hardware Systems Integration Intern (Winter/Spring 2027)",
 "link": "https://careers.formlabs.com/job/8172004/apply/?gh_jid=8172004",
-"attempted": 1793395230,
+"attempted": 1793396927,
 "apply_url": "https://careers.formlabs.com/job/8172004/apply/?gh_jid=8172004",
 "portal": "greenhouse",
 "error": "ValueError: no board/job in url",
@@ -31075,7 +31075,7 @@
 "company": "Formlabs",
 "role": "Electrical Engineering Intern (Winter/Spring 2027)",
 "link": "https://careers.formlabs.com/job/8148283/apply/?gh_jid=8148283",
-"attempted": 1793395230,
+"attempted": 1793396927,
 "apply_url": "https://careers.formlabs.com/job/8148283/apply/?gh_jid=8148283",
 "portal": "greenhouse",
 "error": "ValueError: no board/job in url",
@@ -31264,7 +31264,7 @@
 "company": "Rocket Lab",
 "role": "Propulsion Design Intern Spring 2027",
 "link": "https://job-boards.greenhouse.io/rocketlab/jobs/7987110003",
-"attempted": 1793136767,
+"attempted": 1793396927,
 "apply_url": "https://boards.greenhouse.io/rocketlab/jobs/7987110003",
 "portal": "greenhouse",
 "fields": [
@@ -31708,14 +31708,14 @@
 }
 ],
 "error": "",
-"fetched": "2026-10-27T21:33Z",
+"fetched": "2026-10-30T21:49Z",
 "closed": false
 },
 "437729df9ca8afeb": {
 "company": "Mach Industries",
 "role": "Spring 2027 Engineering Internship",
 "link": "https://job-boards.greenhouse.io/machindustries/jobs/4397035009",
-"attempted": 1793136767,
+"attempted": 1793396927,
 "apply_url": "https://boards.greenhouse.io/machindustries/jobs/4397035009",
 "portal": "greenhouse",
 "fields": [
@@ -32078,7 +32078,7 @@
 }
 ],
 "error": "",
-"fetched": "2026-10-27T21:32Z",
+"fetched": "2026-10-30T21:48Z",
 "closed": false
 },
 "379ae2abed6014c6": {
@@ -32105,7 +32105,7 @@
 "company": "Rocket Lab",
 "role": "Fluid Systems Intern Spring 2027",
 "link": "https://job-boards.greenhouse.io/rocketlab/jobs/7986788003",
-"attempted": 1793136767,
+"attempted": 1793396927,
 "apply_url": "https://boards.greenhouse.io/rocketlab/jobs/7986788003",
 "portal": "greenhouse",
 "fields": [
@@ -32586,7 +32586,7 @@
 }
 ],
 "error": "",
-"fetched": "2026-10-27T21:33Z",
+"fetched": "2026-10-30T21:49Z",
 "closed": false
 },
 "ba7123cd4883f9db": {
@@ -33054,7 +33054,7 @@
 "company": "Formlabs",
 "role": "Manufacturing Engineering Intern (Winter/Spring 2027)",
 "link": "https://careers.formlabs.com/job/8161817/apply/?gh_jid=8161817",
-"attempted": 1793395230,
+"attempted": 1793396927,
 "apply_url": "https://careers.formlabs.com/job/8161817/apply/?gh_jid=8161817",
 "portal": "greenhouse",
 "error": "ValueError: no board/job in url",
@@ -33336,7 +33336,7 @@
 "company": "Formlabs",
 "role": "Industrial Design Intern (Winter/Spring 2027)",
 "link": "https://careers.formlabs.com/job/8172232/apply/?gh_jid=8172232",
-"attempted": 1793395230,
+"attempted": 1793396927,
 "apply_url": "https://careers.formlabs.com/job/8172232/apply/?gh_jid=8172232",
 "portal": "greenhouse",
 "error": "ValueError: no board/job in url",
@@ -33356,7 +33356,7 @@
 "company": "SpaceX",
 "role": "Spring 2027 Engineering Internship/Co-op",
 "link": "https://boards.greenhouse.io/spacex/jobs/8616338002?gh_jid=8616338002",
-"attempted": 1793136767,
+"attempted": 1793396927,
 "apply_url": "https://boards.greenhouse.io/spacex/jobs/8616338002",
 "portal": "greenhouse",
 "fields": [
@@ -33826,14 +33826,14 @@
 }
 ],
 "error": "",
-"fetched": "2026-10-27T21:32Z",
+"fetched": "2026-10-30T21:48Z",
 "closed": false
 },
 "e4cf2e5127c657f9": {
 "company": "SpaceX",
 "role": "Spring 2027 Graduate Engineer Internship/Co-op",
 "link": "https://boards.greenhouse.io/spacex/jobs/8621749002?gh_jid=8621749002",
-"attempted": 1793136767,
+"attempted": 1793396927,
 "apply_url": "https://boards.greenhouse.io/spacex/jobs/8621749002",
 "portal": "greenhouse",
 "fields": [
@@ -34360,7 +34360,7 @@
 }
 ],
 "error": "",
-"fetched": "2026-10-27T21:32Z",
+"fetched": "2026-10-30T21:48Z",
 "closed": false
 },
 "14dab9d0f3ed5685": {
@@ -37049,7 +37049,7 @@
 "company": "Etched",
 "role": "Finance Intern",
 "link": "https://jobs.ashbyhq.com/etched/a0a1671e-15d4-474c-8227-97fe16ade553",
-"attempted": 1793136767,
+"attempted": 1793396927,
 "apply_url": "https://jobs.ashbyhq.com/etched/a0a1671e-15d4-474c-8227-97fe16ade553/application",
 "portal": "ashby",
 "error": "",
@@ -37233,14 +37233,14 @@
 "section": "Additional Information"
 }
 ],
-"fetched": "2026-10-27T21:33Z",
+"fetched": "2026-10-30T21:49Z",
 "closed": false
 },
 "a8533605216c5ebb": {
 "company": "Etched",
 "role": "PD Intern",
 "link": "https://jobs.ashbyhq.com/etched/bd8c5768-7efa-4a18-9e56-485ccaf4ec77",
-"attempted": 1793136767,
+"attempted": 1793396927,
 "apply_url": "https://jobs.ashbyhq.com/etched/bd8c5768-7efa-4a18-9e56-485ccaf4ec77/application",
 "portal": "ashby",
 "error": "",
@@ -37427,7 +37427,7 @@
 "section": "Additional Information"
 }
 ],
-"fetched": "2026-10-27T21:33Z",
+"fetched": "2026-10-30T21:49Z",
 "closed": false
 },
 "0b806e60c33b6c09": {
@@ -38208,7 +38208,7 @@
 "company": "Rehlko",
 "role": "Electrical Engineering Spring/Fall Co-op 2027",
 "link": "https://www.linkedin.com/jobs/view/4468364843",
-"attempted": 1791682572,
+"attempted": 1793396927,
 "apply_url": "https://www.linkedin.com/jobs/view/4468364843",
 "portal": "linkedin",
 "fields": null,
@@ -39179,7 +39179,7 @@
 "company": "IBM",
 "role": "Hardware and Systems Developer Intern 2027 -New York",
 "link": "https://www.linkedin.com/jobs/view/4457230006",
-"attempted": 1791682572,
+"attempted": 1793396927,
 "apply_url": "https://www.linkedin.com/jobs/view/4457230006",
 "portal": "linkedin",
 "fields": null,
@@ -40405,7 +40405,7 @@
 "company": "Quantinuum",
 "role": "Photonic Integrated Circuit Design Intern",
 "link": "https://simplify.jobs/jobs/click/7c5b5c68-c8bb-439a-8e46-f121d04eec2a",
-"attempted": 1793395230,
+"attempted": 1793396927,
 "apply_url": "https://jobs.eu.lever.co/quantinuum/ef4b4db2-4ce1-47f5-bfd1-12dfc8a90107/apply?lever-source=Simplify",
 "portal": "lever",
 "error": "ValueError: no company/id in url",
@@ -42078,7 +42078,7 @@
 "company": "Safran Defense & Space, Inc.",
 "role": "Electrical Engineering Internship",
 "link": "https://www.linkedin.com/jobs/view/4468655985",
-"attempted": 1791773340,
+"attempted": 1793396927,
 "apply_url": "https://www.linkedin.com/jobs/view/4468655985",
 "portal": "linkedin",
 "fields": null,
@@ -55112,7 +55112,7 @@
 "company": "Itron, Inc.",
 "role": "Intern - Electrical Engineer (Fall 2026/Winter 2027)",
 "link": "https://www.linkedin.com/jobs/view/4468829317",
-"attempted": 1791857160,
+"attempted": 1793396927,
 "apply_url": "https://www.linkedin.com/jobs/view/4468829317",
 "portal": "linkedin",
 "fields": null,
@@ -55888,7 +55888,7 @@
 "company": "Rocket Lab",
 "role": "Thermal Engineering Intern Spring 2027",
 "link": "https://job-boards.greenhouse.io/rocketlab/jobs/8000951003",
-"attempted": 1793136767,
+"attempted": 1793396927,
 "apply_url": "https://boards.greenhouse.io/rocketlab/jobs/8000951003",
 "portal": "greenhouse",
 "fields": [
@@ -56332,7 +56332,7 @@
 }
 ],
 "error": "",
-"fetched": "2026-10-27T21:32Z",
+"fetched": "2026-10-30T21:48Z",
 "closed": false
 },
 "516d519105db133d": {
@@ -64604,7 +64604,7 @@
 "company": "Etched",
 "role": "Chip Simulation Software Intern",
 "link": "https://www.linkedin.com/jobs/view/4416984825",
-"attempted": 1791682572,
+"attempted": 1793396927,
 "apply_url": "https://www.linkedin.com/jobs/view/4416984825",
 "portal": "linkedin",
 "fields": null,
@@ -65540,7 +65540,7 @@
 "company": "Etched",
 "role": "PD Intern",
 "link": "https://www.linkedin.com/jobs/view/4385387732",
-"attempted": 1791682572,
+"attempted": 1793396927,
 "apply_url": "https://www.linkedin.com/jobs/view/4385387732",
 "portal": "linkedin",
 "fields": null,
@@ -65573,7 +65573,7 @@
 "company": "QuEra",
 "role": "Internship - Quantum Applications Research",
 "link": "https://job-boards.greenhouse.io/queracomputinginc/jobs/5435901008",
-"attempted": 1793136767,
+"attempted": 1793396927,
 "apply_url": "https://boards.greenhouse.io/queracomputinginc/jobs/5435901008",
 "portal": "greenhouse",
 "fields": [
@@ -65744,13 +65744,13 @@
 ],
 "error": "",
 "closed": false,
-"fetched": "2026-10-27T21:33Z"
+"fetched": "2026-10-30T21:49Z"
 },
 "b562b231510807aa": {
 "company": "QuEra",
 "role": "Internship - Quantum Error Correction Research",
 "link": "https://job-boards.greenhouse.io/queracomputinginc/jobs/5435899008",
-"attempted": 1793136767,
+"attempted": 1793396927,
 "apply_url": "https://boards.greenhouse.io/queracomputinginc/jobs/5435899008",
 "portal": "greenhouse",
 "fields": [
@@ -65921,13 +65921,13 @@
 ],
 "error": "",
 "closed": false,
-"fetched": "2026-10-27T21:33Z"
+"fetched": "2026-10-30T21:49Z"
 },
 "eb61975c7630eb28": {
 "company": "QuEra",
 "role": "Internship - Scientific Software and Compilation",
 "link": "https://job-boards.greenhouse.io/queracomputinginc/jobs/5435902008",
-"attempted": 1793136767,
+"attempted": 1793396927,
 "apply_url": "https://boards.greenhouse.io/queracomputinginc/jobs/5435902008",
 "portal": "greenhouse",
 "fields": [
@@ -66104,7 +66104,7 @@
 ],
 "error": "",
 "closed": false,
-"fetched": "2026-10-27T21:33Z"
+"fetched": "2026-10-30T21:49Z"
 },
 "949e87ce5623fc60": {
 "company": "StructaLink Group",
@@ -70610,7 +70610,7 @@
 "company": "Base Power",
 "role": "Hardware Reliability & Test Engineering Intern",
 "link": "https://simplify.jobs/jobs/click/425f9072-8894-4abe-aff3-1bf6ccd9c848",
-"attempted": 1793136767,
+"attempted": 1793396927,
 "apply_url": "https://jobs.ashbyhq.com/base-power/fbb553e1-5fb8-49a1-b5a5-9c7dde6b4406/application",
 "portal": "ashby",
 "fields": [
@@ -70760,7 +70760,7 @@
 ],
 "error": "",
 "closed": false,
-"fetched": "2026-10-27T21:33Z"
+"fetched": "2026-10-30T21:49Z"
 },
 "115265327b02aa20": {
 "company": "Northrop Grumman",
@@ -70777,7 +70777,7 @@
 "company": "Heron Power",
 "role": "Medium Voltage Test Engineering Intern",
 "link": "https://simplify.jobs/jobs/click/0910ff0b-c0a1-4f8f-aeb8-eba0cddb551c",
-"attempted": 1793136767,
+"attempted": 1793396927,
 "apply_url": "https://jobs.ashbyhq.com/heron-power/46097ca0-4093-4a56-9c44-8ec41617bbc0/application",
 "portal": "ashby",
 "fields": [
@@ -70847,7 +70847,7 @@
 ],
 "error": "",
 "closed": false,
-"fetched": "2026-10-27T21:33Z"
+"fetched": "2026-10-30T21:49Z"
 },
 "db9683e74b23cf4b": {
 "company": "Kimley-Horn",
@@ -73342,7 +73342,7 @@
 "company": "Fab2",
 "role": "Semiconductor Packaging Engineer Intern",
 "link": "https://simplify.jobs/jobs/click/73fe59bd-6ea1-4126-b2c2-83f766ca2520",
-"attempted": 1793136767,
+"attempted": 1793396927,
 "apply_url": "https://jobs.ashbyhq.com/fab2/96e96a9c-8419-4a67-ba4a-4b28e87b3f16/application",
 "portal": "ashby",
 "fields": [
@@ -73463,7 +73463,7 @@
 ],
 "error": "",
 "closed": false,
-"fetched": "2026-10-27T21:33Z"
+"fetched": "2026-10-30T21:49Z"
 },
 "cd931bcd6a9ebbc0": {
 "company": "Neuralink",
@@ -76899,7 +76899,7 @@
 "company": "Lumentum",
 "role": "Internship - Semiconductor Fab Process Engineer",
 "link": "https://www.linkedin.com/jobs/view/4474415396",
-"attempted": 1793268875,
+"attempted": 1793396927,
 "apply_url": "https://www.linkedin.com/jobs/view/4474415396",
 "portal": "linkedin",
 "fields": null,
@@ -77033,7 +77033,7 @@
 "company": "MSA - The Safety Company",
 "role": "Co-op: Electrical Engineering Technology, Cranberry (Spring 2027)",
 "link": "https://www.linkedin.com/jobs/view/4474851247",
-"attempted": 1791713664,
+"attempted": 1793396927,
 "apply_url": "https://www.linkedin.com/jobs/view/4474851247",
 "portal": "linkedin",
 "fields": null,
@@ -77044,7 +77044,7 @@
 "company": "MSA - The Safety Company",
 "role": "Co-op: Electrical Engineering, Cranberry (Spring 2027)",
 "link": "https://www.linkedin.com/jobs/view/4474856118",
-"attempted": 1791713664,
+"attempted": 1793396927,
 "apply_url": "https://www.linkedin.com/jobs/view/4474856118",
 "portal": "linkedin",
 "fields": null,
@@ -77076,7 +77076,7 @@
 "company": "Marathon Petroleum Corporation",
 "role": "Intern/Co-op - Refining Electrical Engineering (Spring 2027)",
 "link": "https://www.linkedin.com/jobs/view/4364953201",
-"attempted": 1791512837,
+"attempted": 1793396927,
 "apply_url": "https://www.linkedin.com/jobs/view/4364953201",
 "portal": "linkedin",
 "fields": null,
@@ -77276,9 +77276,9 @@
 },
 "7f332aaf85d1d49d": {
 "company": "SharkNinja",
-"role": "Spring 2027:  Electrical Engineering Co-op, Shark (January to June)",
+"role": "Spring 2027:  Electrical Engineering Co-op (January to June)",
 "link": "https://www.linkedin.com/jobs/view/4477666057",
-"attempted": 1791750853,
+"attempted": 1793396927,
 "apply_url": "https://www.linkedin.com/jobs/view/4477666057",
 "portal": "linkedin",
 "fields": null,
@@ -82989,7 +82989,7 @@
 "company": "Atom Computing",
 "role": "Research Intern",
 "link": "https://jobs.lever.co/atomcomputing/f17f16bc-d448-4a24-8449-281d660fdbfc",
-"attempted": 1793136767,
+"attempted": 1793396927,
 "apply_url": "https://jobs.lever.co/atomcomputing/f17f16bc-d448-4a24-8449-281d660fdbfc/apply",
 "portal": "lever",
 "fields": [
@@ -83383,7 +83383,7 @@
 ],
 "error": "",
 "closed": false,
-"fetched": "2026-10-27T21:33Z"
+"fetched": "2026-10-30T21:49Z"
 },
 "b8a5bf990a1007d5": {
 "company": "Constellation",
@@ -100710,11 +100710,12 @@
 "company": "IBM",
 "role": "Intern Software Engineer / Agent Engineer - EDA - Austin 2027",
 "link": "https://www.linkedin.com/jobs/view/4456564384",
-"attempted": 1793328635,
+"attempted": 1793396927,
 "apply_url": "https://www.linkedin.com/jobs/view/4456564384",
 "portal": "linkedin",
 "fields": null,
-"error": "form not public for this portal"
+"error": "form not public for this portal",
+"li_checked": true
 },
 "1cb04320d2d05677": {
 "company": "Rockwell Automation",
@@ -100995,5 +100996,106 @@
 "error": "",
 "closed": false,
 "fetched": "2026-10-30T21:20Z"
+},
+"6c682c5cd8fe28bb": {
+"company": "Nokia",
+"role": "Silicon Photonics Packaging Engineer Co-op",
+"link": "https://www.linkedin.com/jobs/view/4483479452",
+"attempted": 1793396927,
+"apply_url": "https://www.linkedin.com/jobs/view/4483479452",
+"portal": "linkedin",
+"fields": null,
+"error": "form not public for this portal"
+},
+"2144f9deb0074224": {
+"company": "Nokia",
+"role": "Silicon Photonics Packaging Engineer Co-op",
+"link": "https://www.linkedin.com/jobs/view/4483480425",
+"attempted": 1793396927,
+"apply_url": "https://www.linkedin.com/jobs/view/4483480425",
+"portal": "linkedin",
+"fields": null,
+"error": "form not public for this portal"
+},
+"9ed947c1d556f42e": {
+"company": "CACI International Inc",
+"role": "Electrical Engineering Co-op/Intern - Spring 2027",
+"link": "https://www.linkedin.com/jobs/view/4483446118",
+"attempted": 1793396927,
+"apply_url": "https://www.linkedin.com/jobs/view/4483446118",
+"portal": "linkedin",
+"fields": null,
+"error": "form not public for this portal"
+},
+"238493a5f6694665": {
+"company": "Koch",
+"role": "Instrumentation & Electrical Technician Co-op",
+"link": "https://www.indeed.com/viewjob?jk=490c79ed102310ef",
+"attempted": 1793396927,
+"apply_url": "https://www.indeed.com/viewjob?jk=490c79ed102310ef",
+"portal": "other",
+"fields": null,
+"error": "form not public for this portal"
+},
+"d539950e28b4277d": {
+"company": "Samsung Semiconductor",
+"role": "Intern, SRAM Design Engineer",
+"link": "https://www.linkedin.com/jobs/view/4484898162",
+"attempted": 1793396927,
+"apply_url": "https://www.linkedin.com/jobs/view/4484898162",
+"portal": "linkedin",
+"fields": null,
+"error": "form not public for this portal"
+},
+"d9f635269b0ae082": {
+"company": "Wave Life Sciences USA",
+"role": "Formulations \u2013 Oligonucleotide Synthesis and Chemistry Co-op",
+"link": "https://simplify.jobs/jobs/click/e04a3343-669c-40ee-addb-ccb7be790902",
+"attempted": 1793396927,
+"apply_url": "https://wavelifesciences.com/jobs/?gh_jid=4424097009&gh_src=Simplify",
+"portal": "greenhouse",
+"closed": true,
+"fields": null,
+"error": "posting closed (HTTP 404)"
+},
+"3327e9d407ecb7b5": {
+"company": "Nucleon",
+"role": "Electrical Engineering Intern",
+"link": "https://www.linkedin.com/jobs/view/4485612132",
+"attempted": 1793396927,
+"apply_url": "https://www.linkedin.com/jobs/view/4485612132",
+"portal": "linkedin",
+"fields": null,
+"error": "form not public for this portal"
+},
+"b8ae0715cd7f5538": {
+"company": "Sierra Nevada Corporation",
+"role": "Firmware Engineering Intern",
+"link": "https://go.vansh.nyc/10G?s=y",
+"attempted": 1793396927,
+"apply_url": "https://go.vansh.nyc/10G?s=y",
+"portal": "other",
+"fields": null,
+"error": "form not public for this portal"
+},
+"1656e7666c6a702f": {
+"company": "ByteDance",
+"role": "Research Scientist - Intern (Video and Edge, Multimedia Lab) - 2027 Start (PhD)",
+"link": "https://www.linkedin.com/jobs/view/4485600471",
+"attempted": 1793396927,
+"apply_url": "https://www.linkedin.com/jobs/view/4485600471",
+"portal": "linkedin",
+"fields": null,
+"error": "form not public for this portal"
+},
+"ffa731588c9987dc": {
+"company": "Analog Devices",
+"role": "Equipment Engineering Intern",
+"link": "https://www.linkedin.com/jobs/view/4465256878",
+"attempted": 1793396927,
+"apply_url": "https://www.linkedin.com/jobs/view/4465256878",
+"portal": "linkedin",
+"fields": null,
+"error": "form not public for this portal"
 }
 }
