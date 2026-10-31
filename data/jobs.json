@@ -198,6 +198,7 @@
   "hw": "electrical engineer",
   "tier": "big",
   "sources": [
+   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-09-17",
@@ -249,6 +250,7 @@
   "hw": "test engineer",
   "tier": "big",
   "sources": [
+   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-10-06",
@@ -334,6 +336,7 @@
   "hw": "electrical engineer",
   "tier": "big",
   "sources": [
+   "jobspy:indeed",
    "workday"
   ],
   "first_seen": "2026-10-31",
@@ -1168,7 +1171,6 @@
   "hw": "electrical,electromechanical",
   "tier": "",
   "sources": [
-   "jobspy:indeed",
    "jobspy:linkedin"
   ],
   "first_seen": "2026-10-31",
@@ -1511,6 +1513,7 @@
   "hw": "controls engineer",
   "tier": "big",
   "sources": [
+   "internlist:coop",
    "workday"
   ],
   "first_seen": "2026-10-28",
@@ -1528,6 +1531,7 @@
   "hw": "metrology",
   "tier": "big",
   "sources": [
+   "internlist:coop",
    "workday"
   ],
   "first_seen": "2026-09-18",
@@ -3399,7 +3403,9 @@
   "hw": "electrical engineering",
   "tier": "big",
   "sources": [
-   "greenhouse"
+   "greenhouse",
+   "internlist:coop",
+   "jobspy:linkedin"
   ],
   "first_seen": "2026-09-17",
   "last_seen": "2026-10-31"
@@ -4205,61 +4211,10 @@
  },
  {
   "company": "Skyworks Solutions, Inc.",
-  "title": "Power Amplifier IC Design Co-Op (Winter/Spring 2027)",
-  "location": "Irvine, CA, USA",
-  "url": "https://www.linkedin.com/jobs/view/4459890236",
-  "posted": "2026-10-28",
-  "deadline": "",
-  "term": "spring",
-  "rank": "A",
-  "hw": "ic design",
-  "tier": "",
-  "sources": [
-   "jobspy:linkedin"
-  ],
-  "first_seen": "2026-10-29",
-  "last_seen": "2026-10-31"
- },
- {
-  "company": "Skyworks Solutions, Inc.",
-  "title": "RF Design Validation/Testing Co-Op (Winter/Spring 2027)",
-  "location": "Irvine, CA, USA",
-  "url": "https://www.linkedin.com/jobs/view/4459021245",
-  "posted": "2026-10-28",
-  "deadline": "",
-  "term": "spring",
-  "rank": "A",
-  "hw": "rf",
-  "tier": "",
-  "sources": [
-   "jobspy:linkedin"
-  ],
-  "first_seen": "2026-10-29",
-  "last_seen": "2026-10-31"
- },
- {
-  "company": "Skyworks Solutions, Inc.",
-  "title": "RF Module Design Engineer Co-op (Winter/Spring 2027)",
-  "location": "Cedar Rapids, IA, USA",
-  "url": "https://www.linkedin.com/jobs/view/4456415884",
-  "posted": "2026-10-28",
-  "deadline": "",
-  "term": "spring",
-  "rank": "A",
-  "hw": "rf",
-  "tier": "",
-  "sources": [
-   "jobspy:linkedin"
-  ],
-  "first_seen": "2026-10-29",
-  "last_seen": "2026-10-31"
- },
- {
-  "company": "Skyworks Solutions, Inc.",
   "title": "RFIC Design Co-Op (Winter/Spring 2027)",
   "location": "Irvine, CA, USA",
-  "url": "https://www.linkedin.com/jobs/view/4465306042",
-  "posted": "2026-10-28",
+  "url": "https://www.linkedin.com/jobs/view/4463169005",
+  "posted": "2026-10-30",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -4268,24 +4223,7 @@
   "sources": [
    "jobspy:linkedin"
   ],
-  "first_seen": "2026-10-29",
-  "last_seen": "2026-10-31"
- },
- {
-  "company": "Skyworks Solutions, Inc.",
-  "title": "RFIC Design Winter/Spring Co-Op (Jan-June '27)",
-  "location": "Thousand Oaks, CA, USA",
-  "url": "https://www.linkedin.com/jobs/view/4484746102",
-  "posted": "2026-10-28",
-  "deadline": "",
-  "term": "spring",
-  "rank": "A",
-  "hw": "rfic",
-  "tier": "",
-  "sources": [
-   "jobspy:linkedin"
-  ],
-  "first_seen": "2026-10-28",
+  "first_seen": "2026-10-31",
   "last_seen": "2026-10-31"
  },
  {
@@ -4368,6 +4306,7 @@
   "hw": "silicon",
   "tier": "big",
   "sources": [
+   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-09-17",
@@ -4930,7 +4869,8 @@
   "hw": "electrical",
   "tier": "startup",
   "sources": [
-   "greenhouse"
+   "greenhouse",
+   "jobspy:linkedin"
   ],
   "first_seen": "2026-09-17",
   "last_seen": "2026-10-31"
@@ -6021,6 +5961,7 @@
   "hw": "process engineer",
   "tier": "big",
   "sources": [
+   "jobspy:linkedin",
    "workday"
   ],
   "first_seen": "2026-10-07",
@@ -6089,6 +6030,8 @@
   "hw": "process engineer",
   "tier": "big",
   "sources": [
+   "jobspy:indeed",
+   "jobspy:linkedin",
    "workday"
   ],
   "first_seen": "2026-10-30",
@@ -9299,23 +9242,6 @@
  },
  {
   "company": "Rockwell Automation",
-  "title": "Co-op, Hardware Development Engineering (Jan - July 2027)",
-  "location": "Cleveland, OH, USA",
-  "url": "https://www.linkedin.com/jobs/view/4484146346",
-  "posted": "2026-10-28",
-  "deadline": "",
-  "term": "coop-unspecified",
-  "rank": "B",
-  "hw": "hardware",
-  "tier": "",
-  "sources": [
-   "jobspy:linkedin"
-  ],
-  "first_seen": "2026-10-30",
-  "last_seen": "2026-10-31"
- },
- {
-  "company": "Rockwell Automation",
   "title": "Co-op, Hardware Development Engineering (June - December 2027)",
   "location": "Cleveland, OH, USA",
   "url": "https://www.linkedin.com/jobs/view/4484540393",
@@ -9411,7 +9337,10 @@
   "hw": "firmware",
   "tier": "big",
   "sources": [
-   "greenhouse"
+   "greenhouse",
+   "internlist:coop",
+   "internlist:winter-spring",
+   "jobspy:linkedin"
   ],
   "first_seen": "2026-09-24",
   "last_seen": "2026-10-31"
@@ -9607,7 +9536,7 @@
   "company": "Skyworks",
   "title": "RF Filter Design / BAW development Co-Op",
   "location": "Andover, MA, USA    ",
-  "url": "https://careers.skyworksinc.com/job/RF-Filter-Design-BAW-development-Co-Op/78245-en_US",
+  "url": "https://careers.skyworksinc.com/job/RF-Filter-Design-BAW-development-Co-Op/78244-en_US",
   "posted": "2026-09-15",
   "deadline": "",
   "term": "coop-unspecified",
@@ -9617,7 +9546,7 @@
   "sources": [
    "successfactors"
   ],
-  "first_seen": "2026-09-18",
+  "first_seen": "2026-09-30",
   "last_seen": "2026-10-31"
  },
  {
@@ -10459,6 +10388,7 @@
   "hw": "product engineer",
   "tier": "big",
   "sources": [
+   "jobspy:linkedin",
    "workday"
   ],
   "first_seen": "2026-10-30",
@@ -11606,6 +11536,23 @@
   "last_seen": "2026-10-31"
  },
  {
+  "company": "Blue Ventis",
+  "title": "Electrical Engineering Intern",
+  "location": "Andover, MA, USA",
+  "url": "https://www.linkedin.com/jobs/view/4483961152",
+  "posted": "2026-10-31",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "electrical engineering",
+  "tier": "",
+  "sources": [
+   "jobspy:linkedin"
+  ],
+  "first_seen": "2026-10-31",
+  "last_seen": "2026-10-31"
+ },
+ {
   "company": "Booz Allen Hamilton",
   "title": "Design and Verification Engineer Intern",
   "location": "Beavercreek, OH",
@@ -11618,8 +11565,7 @@
   "tier": "",
   "sources": [
    "github:vanshb03-summer",
-   "jobspy:indeed",
-   "jobspy:linkedin"
+   "jobspy:indeed"
   ],
   "first_seen": "2026-10-29",
   "last_seen": "2026-10-31"
@@ -12401,6 +12347,7 @@
   "hw": "eda,electrical",
   "tier": "big",
   "sources": [
+   "github:vanshb03-summer",
    "workday"
   ],
   "first_seen": "2026-10-28",
@@ -13526,6 +13473,40 @@
    "jobspy:linkedin"
   ],
   "first_seen": "2026-09-21",
+  "last_seen": "2026-10-31"
+ },
+ {
+  "company": "Infineon Technologies",
+  "title": "Internship - Test Engineer",
+  "location": "Leominster, MA, USA",
+  "url": "https://www.linkedin.com/jobs/view/4464607386",
+  "posted": "2026-10-29",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "test engineer",
+  "tier": "",
+  "sources": [
+   "jobspy:linkedin"
+  ],
+  "first_seen": "2026-09-29",
+  "last_seen": "2026-10-31"
+ },
+ {
+  "company": "Infineon Technologies",
+  "title": "Internship - Unit Test Engineer",
+  "location": "Leominster, MA, USA",
+  "url": "https://www.linkedin.com/jobs/view/4468645109",
+  "posted": "2026-10-29",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "test engineer",
+  "tier": "",
+  "sources": [
+   "jobspy:linkedin"
+  ],
+  "first_seen": "2026-09-18",
   "last_seen": "2026-10-31"
  },
  {
@@ -14773,23 +14754,6 @@
   "last_seen": "2026-10-31"
  },
  {
-  "company": "Mercury Systems",
-  "title": "2027 RF Engineering Intern",
-  "location": "Peachtree Corners, GA, USA",
-  "url": "https://www.linkedin.com/jobs/view/4467804698",
-  "posted": "2026-10-31",
-  "deadline": "",
-  "term": "unspecified",
-  "rank": "C",
-  "hw": "rf",
-  "tier": "",
-  "sources": [
-   "jobspy:linkedin"
-  ],
-  "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
- },
- {
   "company": "Meta",
   "title": "ASIC Engineer Intern, Architecture",
   "location": "Austin, TX, USA",
@@ -15574,8 +15538,8 @@
  {
   "company": "Neuralink",
   "title": "Electrical Engineer Intern, Implant Embedded Systems",
-  "location": "Austin, TX, USA",
-  "url": "https://www.linkedin.com/jobs/view/4457640633",
+  "location": "South San Francisco, CA, USA",
+  "url": "https://www.linkedin.com/jobs/view/4457629832",
   "posted": "2026-10-29",
   "deadline": "",
   "term": "unspecified",
@@ -15591,8 +15555,8 @@
  {
   "company": "Neuralink",
   "title": "Electrical Engineer Intern, Implant Embedded Systems",
-  "location": "South San Francisco, CA, USA",
-  "url": "https://www.linkedin.com/jobs/view/4457629832",
+  "location": "Austin, TX, USA",
+  "url": "https://www.linkedin.com/jobs/view/4457640633",
   "posted": "2026-10-29",
   "deadline": "",
   "term": "unspecified",
@@ -17121,23 +17085,6 @@
  {
   "company": "Skyworks",
   "title": "RF Design Engineering Intern",
-  "location": "Richardson, USA    ",
-  "url": "https://careers.skyworksinc.com/job/RF-Design-Engineering-Intern/78768-en_US",
-  "posted": "2026-10-28",
-  "deadline": "",
-  "term": "unspecified",
-  "rank": "C",
-  "hw": "rf",
-  "tier": "big",
-  "sources": [
-   "successfactors"
-  ],
-  "first_seen": "2026-10-28",
-  "last_seen": "2026-10-31"
- },
- {
-  "company": "Skyworks",
-  "title": "RF Design Engineering Intern",
   "location": "Hillsboro, USA    ",
   "url": "https://careers.skyworksinc.com/job/RF-Design-Engineering-Intern/78715-en_US",
   "posted": "2026-10-27",
@@ -17150,6 +17097,23 @@
    "successfactors"
   ],
   "first_seen": "2026-10-27",
+  "last_seen": "2026-10-31"
+ },
+ {
+  "company": "Skyworks",
+  "title": "RF Design Engineering Intern",
+  "location": "Richardson, USA    ",
+  "url": "https://careers.skyworksinc.com/job/RF-Design-Engineering-Intern/78768-en_US",
+  "posted": "2026-10-28",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "rf",
+  "tier": "big",
+  "sources": [
+   "successfactors"
+  ],
+  "first_seen": "2026-10-28",
   "last_seen": "2026-10-31"
  },
  {
@@ -17258,8 +17222,8 @@
   "company": "Skyworks",
   "title": "Test Engineering Intern",
   "location": "Greensboro, USA    ",
-  "url": "https://careers.skyworksinc.com/job/Test-Engineering-Intern/78712-en_US",
-  "posted": "2026-10-27",
+  "url": "https://careers.skyworksinc.com/job/Test-Engineering-Intern/78746-en_US",
+  "posted": "2026-10-28",
   "deadline": "",
   "term": "unspecified",
   "rank": "C",
@@ -17268,7 +17232,7 @@
   "sources": [
    "successfactors"
   ],
-  "first_seen": "2026-10-27",
+  "first_seen": "2026-10-28",
   "last_seen": "2026-10-31"
  },
  {
@@ -17308,27 +17272,10 @@
  },
  {
   "company": "Skyworks Solutions, Inc.",
-  "title": "Characterization Engineering Intern",
-  "location": "Greensboro, NC, USA",
-  "url": "https://www.linkedin.com/jobs/view/4484736587",
-  "posted": "2026-10-28",
-  "deadline": "",
-  "term": "unspecified",
-  "rank": "C",
-  "hw": "characterization",
-  "tier": "",
-  "sources": [
-   "jobspy:linkedin"
-  ],
-  "first_seen": "2026-10-29",
-  "last_seen": "2026-10-31"
- },
- {
-  "company": "Skyworks Solutions, Inc.",
-  "title": "Module Integration Design Engineering Intern",
-  "location": "San Jose, CA, USA",
-  "url": "https://www.linkedin.com/jobs/view/4484732817",
-  "posted": "2026-10-28",
+  "title": "Device and Process Development Intern",
+  "location": "Richardson, TX, USA",
+  "url": "https://www.linkedin.com/jobs/view/4485247082",
+  "posted": "2026-10-29",
   "deadline": "",
   "term": "unspecified",
   "rank": "C",
@@ -17337,7 +17284,24 @@
   "sources": [
    "jobspy:linkedin"
   ],
-  "first_seen": "2026-10-29",
+  "first_seen": "2026-10-31",
+  "last_seen": "2026-10-31"
+ },
+ {
+  "company": "Skyworks Solutions, Inc.",
+  "title": "Product Engineer Intern",
+  "location": "Chelmsford, MA, USA",
+  "url": "https://www.linkedin.com/jobs/view/4485246133",
+  "posted": "2026-10-29",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "product engineer",
+  "tier": "",
+  "sources": [
+   "jobspy:linkedin"
+  ],
+  "first_seen": "2026-10-31",
   "last_seen": "2026-10-31"
  },
  {
@@ -17360,10 +17324,10 @@
  },
  {
   "company": "Skyworks Solutions, Inc.",
-  "title": "RRFIC Design Engineering Intern",
-  "location": "Greensboro, NC, USA",
-  "url": "https://www.linkedin.com/jobs/view/4484723996",
-  "posted": "2026-10-28",
+  "title": "Research Scientist Intern",
+  "location": "Richardson, TX, USA",
+  "url": "https://www.linkedin.com/jobs/view/4485230822",
+  "posted": "2026-10-29",
   "deadline": "",
   "term": "unspecified",
   "rank": "C",
@@ -17372,25 +17336,7 @@
   "sources": [
    "jobspy:linkedin"
   ],
-  "first_seen": "2026-10-29",
-  "last_seen": "2026-10-31"
- },
- {
-  "company": "Skyworks Solutions, Inc.",
-  "title": "SOI Design Intern",
-  "location": "Greensboro, NC, USA",
-  "url": "https://www.linkedin.com/jobs/view/4484745151",
-  "posted": "2026-10-28",
-  "deadline": "",
-  "term": "unspecified",
-  "rank": "C",
-  "hw": "maybe",
-  "tier": "",
-  "sources": [
-   "jobspy:indeed",
-   "jobspy:linkedin"
-  ],
-  "first_seen": "2026-10-29",
+  "first_seen": "2026-10-31",
   "last_seen": "2026-10-31"
  },
  {
@@ -17408,40 +17354,6 @@
    "jobspy:linkedin"
   ],
   "first_seen": "2026-10-31",
-  "last_seen": "2026-10-31"
- },
- {
-  "company": "Skyworks Solutions, Inc.",
-  "title": "Test Engineering Intern",
-  "location": "Hillsboro, OR, USA",
-  "url": "https://www.linkedin.com/jobs/view/4484743169",
-  "posted": "2026-10-28",
-  "deadline": "",
-  "term": "unspecified",
-  "rank": "C",
-  "hw": "test engineering",
-  "tier": "",
-  "sources": [
-   "jobspy:linkedin"
-  ],
-  "first_seen": "2026-10-29",
-  "last_seen": "2026-10-31"
- },
- {
-  "company": "Spectral AI",
-  "title": "Hardware Engineering Intern",
-  "location": "Dallas, TX, USA",
-  "url": "https://www.linkedin.com/jobs/view/4482571212",
-  "posted": "2026-10-28",
-  "deadline": "",
-  "term": "unspecified",
-  "rank": "C",
-  "hw": "hardware",
-  "tier": "",
-  "sources": [
-   "jobspy:linkedin"
-  ],
-  "first_seen": "2026-10-29",
   "last_seen": "2026-10-31"
  },
  {
@@ -17871,23 +17783,6 @@
  },
  {
   "company": "The Aerospace Corporation",
-  "title": "2027 Radio Frequency (RF) Spectrum Engineering Undergrad Intern",
-  "location": "El Segundo, CA, USA",
-  "url": "https://www.linkedin.com/jobs/view/4482550784",
-  "posted": "2026-10-28",
-  "deadline": "",
-  "term": "unspecified",
-  "rank": "C",
-  "hw": "rf",
-  "tier": "",
-  "sources": [
-   "jobspy:linkedin"
-  ],
-  "first_seen": "2026-10-29",
-  "last_seen": "2026-10-31"
- },
- {
-  "company": "The Aerospace Corporation",
   "title": "Systems Integration and Test Engineer Intern",
   "location": "Chantilly, VA, USA",
   "url": "https://simplify.jobs/jobs/click/6dcb8213-1eb6-450d-a498-748fa95a9816",
@@ -18054,6 +17949,23 @@
    "greenhouse"
   ],
   "first_seen": "2026-10-19",
+  "last_seen": "2026-10-31"
+ },
+ {
+  "company": "V2X Inc",
+  "title": "Electrical Engineer Intern - Senior",
+  "location": "Indianapolis, IN, USA",
+  "url": "https://www.linkedin.com/jobs/view/4484812001",
+  "posted": "2026-10-30",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "electrical engineer",
+  "tier": "",
+  "sources": [
+   "jobspy:linkedin"
+  ],
+  "first_seen": "2026-10-31",
   "last_seen": "2026-10-31"
  },
  {
