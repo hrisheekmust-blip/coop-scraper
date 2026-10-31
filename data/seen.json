@@ -12669,7 +12669,7 @@
 },
 "https://job-boards.greenhouse.io/vardaspace/jobs/8016066003": {
 "first_seen": "2026-10-08",
-"title": "University Recruiter ",
+"title": "University Recruiter",
 "company": "Varda Space",
 "desc": ""
 },
@@ -18353,6 +18353,18 @@
 "first_seen": "2026-10-30",
 "title": "Electrical Engineering Intern",
 "company": "Nucleon",
+"desc": ""
+},
+"https://careers.skyworksinc.com/job/Test-Engineering-Intern/78731-en_US": {
+"first_seen": "2026-10-31",
+"title": "Test Engineering Intern",
+"company": "Skyworks",
+"desc": ""
+},
+"https://careers.skyworksinc.com/job/RF-Module-Design-Engineer-Co-op-%28WinterSpring-2027%29/78155-en_US": {
+"first_seen": "2026-10-31",
+"title": "RF Module Design Engineer Co-op (Winter/Spring 2027)",
+"company": "Skyworks",
 "desc": ""
 }
 }
