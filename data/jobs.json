@@ -14,7 +14,7 @@
    "workday"
   ],
   "first_seen": "2026-10-30",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "ASML",
@@ -99,7 +99,7 @@
    "amazon"
   ],
   "first_seen": "2026-10-08",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Amazon",
@@ -116,7 +116,7 @@
    "amazon"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Anduril",
@@ -184,7 +184,7 @@
    "greenhouse"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Anduril",
@@ -198,11 +198,10 @@
   "hw": "electrical engineer",
   "tier": "big",
   "sources": [
-   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-09-17",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Anduril",
@@ -219,7 +218,7 @@
    "greenhouse"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Anduril",
@@ -236,7 +235,7 @@
    "greenhouse"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Anduril",
@@ -250,11 +249,10 @@
   "hw": "test engineer",
   "tier": "big",
   "sources": [
-   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-10-06",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Anduril",
@@ -271,7 +269,7 @@
    "greenhouse"
   ],
   "first_seen": "2026-10-06",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Anduril",
@@ -288,7 +286,7 @@
    "greenhouse"
   ],
   "first_seen": "2026-10-14",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Anduril",
@@ -305,7 +303,7 @@
    "greenhouse"
   ],
   "first_seen": "2026-10-21",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Anduril",
@@ -322,7 +320,7 @@
    "greenhouse"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Applied Materials",
@@ -336,11 +334,10 @@
   "hw": "electrical engineer",
   "tier": "big",
   "sources": [
-   "jobspy:indeed",
    "workday"
   ],
   "first_seen": "2026-10-31",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Applied Materials",
@@ -357,7 +354,7 @@
    "workday"
   ],
   "first_seen": "2026-10-31",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Applied Materials",
@@ -374,7 +371,7 @@
    "workday"
   ],
   "first_seen": "2026-10-21",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Astranis",
@@ -391,7 +388,7 @@
    "greenhouse"
   ],
   "first_seen": "2026-09-23",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Astranis",
@@ -408,7 +405,7 @@
    "greenhouse"
   ],
   "first_seen": "2026-09-21",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Astranis",
@@ -425,7 +422,7 @@
    "greenhouse"
   ],
   "first_seen": "2026-10-01",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Astranis",
@@ -442,7 +439,7 @@
    "greenhouse"
   ],
   "first_seen": "2026-09-23",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Astranis",
@@ -459,7 +456,7 @@
    "greenhouse"
   ],
   "first_seen": "2026-09-17",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Astranis",
@@ -476,7 +473,7 @@
    "greenhouse"
   ],
   "first_seen": "2026-09-17",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Astranis",
@@ -493,7 +490,7 @@
    "greenhouse"
   ],
   "first_seen": "2026-09-26",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Astranis",
@@ -510,7 +507,7 @@
    "greenhouse"
   ],
   "first_seen": "2026-09-24",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Astranis",
@@ -527,7 +524,7 @@
    "greenhouse"
   ],
   "first_seen": "2026-09-23",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Astranis",
@@ -544,7 +541,7 @@
    "greenhouse"
   ],
   "first_seen": "2026-09-19",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Astranis",
@@ -561,7 +558,7 @@
    "greenhouse"
   ],
   "first_seen": "2026-09-24",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Astranis",
@@ -578,7 +575,7 @@
    "greenhouse"
   ],
   "first_seen": "2026-09-22",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Astranis",
@@ -595,7 +592,7 @@
    "greenhouse"
   ],
   "first_seen": "2026-09-22",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Astranis",
@@ -612,7 +609,7 @@
    "greenhouse"
   ],
   "first_seen": "2026-09-24",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Astranis",
@@ -629,7 +626,7 @@
    "greenhouse"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Astranis",
@@ -646,7 +643,7 @@
    "greenhouse"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Astranis",
@@ -663,7 +660,7 @@
    "greenhouse"
   ],
   "first_seen": "2026-09-24",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Astranis",
@@ -680,7 +677,7 @@
    "greenhouse"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Astranis",
@@ -697,7 +694,7 @@
    "greenhouse"
   ],
   "first_seen": "2026-09-23",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Astranis",
@@ -714,7 +711,7 @@
    "greenhouse"
   ],
   "first_seen": "2026-10-29",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Astranis",
@@ -731,7 +728,7 @@
    "greenhouse"
   ],
   "first_seen": "2026-09-19",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Astranis",
@@ -748,7 +745,7 @@
    "greenhouse"
   ],
   "first_seen": "2026-09-23",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Astranis",
@@ -765,7 +762,7 @@
    "greenhouse"
   ],
   "first_seen": "2026-09-19",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Astranis",
@@ -782,7 +779,7 @@
    "greenhouse"
   ],
   "first_seen": "2026-10-01",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Astranis",
@@ -799,7 +796,7 @@
    "greenhouse"
   ],
   "first_seen": "2026-09-24",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Astranis",
@@ -816,7 +813,7 @@
    "greenhouse"
   ],
   "first_seen": "2026-10-01",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Astranis",
@@ -833,7 +830,7 @@
    "greenhouse"
   ],
   "first_seen": "2026-09-24",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Astranis",
@@ -850,7 +847,7 @@
    "greenhouse"
   ],
   "first_seen": "2026-09-24",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Astranis",
@@ -867,7 +864,7 @@
    "greenhouse"
   ],
   "first_seen": "2026-09-24",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Astranis",
@@ -884,7 +881,7 @@
    "greenhouse"
   ],
   "first_seen": "2026-09-24",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "BAE Systems",
@@ -901,7 +898,7 @@
    "phenom"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "BAE Systems",
@@ -918,7 +915,7 @@
    "phenom"
   ],
   "first_seen": "2026-10-28",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "BAE Systems",
@@ -935,7 +932,7 @@
    "phenom"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Barry-Wehmiller",
@@ -1003,7 +1000,7 @@
    "workday"
   ],
   "first_seen": "2026-10-09",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Bose Corporation",
@@ -1071,7 +1068,7 @@
    "workday"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Cadence",
@@ -1088,7 +1085,7 @@
    "workday"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "CenterPoint Energy",
@@ -1140,7 +1137,7 @@
    "lever"
   ],
   "first_seen": "2026-10-26",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Commonwealth Fusion Systems",
@@ -1157,7 +1154,7 @@
    "lever"
   ],
   "first_seen": "2026-10-30",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Commonwealth Fusion Systems",
@@ -1261,7 +1258,7 @@
    "workday"
   ],
   "first_seen": "2026-09-29",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Draper",
@@ -1278,7 +1275,7 @@
    "workday"
   ],
   "first_seen": "2026-09-22",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Draper",
@@ -1312,7 +1309,7 @@
    "workday"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Draper",
@@ -1329,7 +1326,7 @@
    "workday"
   ],
   "first_seen": "2026-09-21",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Draper",
@@ -1346,7 +1343,7 @@
    "workday"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Draper",
@@ -1363,7 +1360,7 @@
    "workday"
   ],
   "first_seen": "2026-09-17",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Draper",
@@ -1380,7 +1377,7 @@
    "workday"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Emerson",
@@ -1397,7 +1394,7 @@
    "oracle_hcm"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Emerson",
@@ -1448,7 +1445,7 @@
    "oracle_hcm"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Emerson",
@@ -1465,7 +1462,7 @@
    "oracle_hcm"
   ],
   "first_seen": "2026-10-09",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Emerson",
@@ -1482,7 +1479,7 @@
    "oracle_hcm"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Emerson",
@@ -1499,7 +1496,7 @@
    "oracle_hcm"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Entegris",
@@ -1513,11 +1510,10 @@
   "hw": "controls engineer",
   "tier": "big",
   "sources": [
-   "internlist:coop",
    "workday"
   ],
   "first_seen": "2026-10-28",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Entegris",
@@ -1531,11 +1527,10 @@
   "hw": "metrology",
   "tier": "big",
   "sources": [
-   "internlist:coop",
    "workday"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Entegris",
@@ -1552,7 +1547,7 @@
    "workday"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Entegris",
@@ -1586,7 +1581,7 @@
    "ashby"
   ],
   "first_seen": "2026-09-17",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Etched",
@@ -1620,7 +1615,7 @@
    "ashby"
   ],
   "first_seen": "2026-09-17",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Etched",
@@ -1637,7 +1632,7 @@
    "ashby"
   ],
   "first_seen": "2026-09-17",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Etched",
@@ -1654,7 +1649,7 @@
    "ashby"
   ],
   "first_seen": "2026-09-17",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Etched",
@@ -1688,7 +1683,7 @@
    "ashby"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Etched",
@@ -1705,7 +1700,7 @@
    "ashby"
   ],
   "first_seen": "2026-09-17",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Etched",
@@ -1722,7 +1717,7 @@
    "ashby"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Etched",
@@ -1739,7 +1734,7 @@
    "ashby"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Etched",
@@ -1756,7 +1751,7 @@
    "ashby"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Etched",
@@ -1790,7 +1785,7 @@
    "greenhouse"
   ],
   "first_seen": "2026-10-07",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Figure AI",
@@ -1807,7 +1802,7 @@
    "greenhouse"
   ],
   "first_seen": "2026-10-12",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Figure AI",
@@ -1824,7 +1819,7 @@
    "greenhouse"
   ],
   "first_seen": "2026-10-24",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Figure AI",
@@ -1841,7 +1836,7 @@
    "greenhouse"
   ],
   "first_seen": "2026-09-22",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Figure AI",
@@ -1858,7 +1853,7 @@
    "greenhouse"
   ],
   "first_seen": "2026-10-14",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Figure AI",
@@ -1875,7 +1870,7 @@
    "greenhouse"
   ],
   "first_seen": "2026-10-07",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Figure AI",
@@ -1892,7 +1887,7 @@
    "greenhouse"
   ],
   "first_seen": "2026-10-15",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Figure AI",
@@ -1909,7 +1904,7 @@
    "greenhouse"
   ],
   "first_seen": "2026-10-07",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Figure AI",
@@ -1926,7 +1921,7 @@
    "greenhouse"
   ],
   "first_seen": "2026-10-07",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Figure AI",
@@ -1943,7 +1938,7 @@
    "greenhouse"
   ],
   "first_seen": "2026-10-06",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Figure AI",
@@ -1960,7 +1955,7 @@
    "greenhouse"
   ],
   "first_seen": "2026-10-03",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Figure AI",
@@ -1977,7 +1972,7 @@
    "greenhouse"
   ],
   "first_seen": "2026-10-07",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Flex",
@@ -2028,7 +2023,7 @@
    "greenhouse"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Formlabs",
@@ -2045,7 +2040,7 @@
    "greenhouse"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Formlabs",
@@ -2062,7 +2057,7 @@
    "greenhouse"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Formlabs",
@@ -2079,7 +2074,7 @@
    "greenhouse"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Formlabs",
@@ -2096,7 +2091,7 @@
    "greenhouse"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Formlabs",
@@ -2113,7 +2108,7 @@
    "greenhouse"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "GAF",
@@ -2164,7 +2159,7 @@
    "workday"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "GE Aerospace",
@@ -2181,7 +2176,7 @@
    "workday"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "GE Aerospace",
@@ -2198,7 +2193,7 @@
    "workday"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "GE Aerospace",
@@ -2215,7 +2210,7 @@
    "workday"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Georgia Tech Research Institute",
@@ -2266,7 +2261,7 @@
    "lever"
   ],
   "first_seen": "2026-09-17",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Hermeus",
@@ -2283,7 +2278,7 @@
    "lever"
   ],
   "first_seen": "2026-09-22",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Hermeus",
@@ -2300,7 +2295,7 @@
    "lever"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Hermeus",
@@ -2317,7 +2312,7 @@
    "lever"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Hermeus",
@@ -2334,7 +2329,7 @@
    "lever"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Hermeus",
@@ -2351,7 +2346,7 @@
    "lever"
   ],
   "first_seen": "2026-09-29",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Hermeus",
@@ -2368,7 +2363,7 @@
    "lever"
   ],
   "first_seen": "2026-09-30",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Hermeus",
@@ -2385,7 +2380,7 @@
    "lever"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Hermeus",
@@ -2402,7 +2397,7 @@
    "lever"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Hermeus",
@@ -2419,7 +2414,7 @@
    "lever"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Hermeus",
@@ -2436,7 +2431,7 @@
    "lever"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Hermeus",
@@ -2453,7 +2448,7 @@
    "lever"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Hermeus",
@@ -2470,7 +2465,7 @@
    "lever"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Hermeus",
@@ -2487,7 +2482,7 @@
    "lever"
   ],
   "first_seen": "2026-09-23",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Hermeus",
@@ -2504,7 +2499,7 @@
    "lever"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Hermeus",
@@ -2521,7 +2516,7 @@
    "lever"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Hermeus",
@@ -2538,7 +2533,7 @@
    "lever"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Hermeus",
@@ -2555,7 +2550,7 @@
    "lever"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Hermeus",
@@ -2572,7 +2567,7 @@
    "lever"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Hermeus",
@@ -2589,7 +2584,7 @@
    "lever"
   ],
   "first_seen": "2026-09-17",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Hermeus",
@@ -2606,7 +2601,7 @@
    "lever"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Hermeus",
@@ -2623,7 +2618,7 @@
    "lever"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Honeywell",
@@ -2640,7 +2635,7 @@
    "oracle_hcm"
   ],
   "first_seen": "2026-09-29",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Insulet Corporation",
@@ -2708,7 +2703,7 @@
    "greenhouse"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Landis+Gyr",
@@ -2827,7 +2822,7 @@
    "greenhouse"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Midmark",
@@ -2964,7 +2959,7 @@
    "workday"
   ],
   "first_seen": "2026-10-13",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "RTX",
@@ -2981,7 +2976,7 @@
    "workday"
   ],
   "first_seen": "2026-09-24",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "RTX",
@@ -2998,7 +2993,7 @@
    "workday"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "RTX",
@@ -3015,7 +3010,7 @@
    "workday"
   ],
   "first_seen": "2026-10-30",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "RTX",
@@ -3032,7 +3027,7 @@
    "workday"
   ],
   "first_seen": "2026-10-28",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "RTX",
@@ -3049,7 +3044,7 @@
    "workday"
   ],
   "first_seen": "2026-10-28",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "RTX",
@@ -3066,7 +3061,7 @@
    "workday"
   ],
   "first_seen": "2026-09-24",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "RTX",
@@ -3083,7 +3078,7 @@
    "workday"
   ],
   "first_seen": "2026-10-26",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "RTX",
@@ -3100,7 +3095,7 @@
    "workday"
   ],
   "first_seen": "2026-10-01",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "RTX",
@@ -3117,7 +3112,7 @@
    "workday"
   ],
   "first_seen": "2026-10-26",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "RTX",
@@ -3134,7 +3129,7 @@
    "workday"
   ],
   "first_seen": "2026-10-27",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "RTX",
@@ -3151,7 +3146,7 @@
    "workday"
   ],
   "first_seen": "2026-10-27",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "RTX",
@@ -3168,7 +3163,7 @@
    "workday"
   ],
   "first_seen": "2026-10-06",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "RTX",
@@ -3185,7 +3180,7 @@
    "workday"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Rivian",
@@ -3219,7 +3214,7 @@
    "greenhouse"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Rocket Lab",
@@ -3236,7 +3231,7 @@
    "greenhouse"
   ],
   "first_seen": "2026-10-13",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Rocket Lab",
@@ -3253,7 +3248,7 @@
    "greenhouse"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Rocket Lab",
@@ -3270,7 +3265,7 @@
    "greenhouse"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Rocket Lab",
@@ -3287,7 +3282,7 @@
    "greenhouse"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Rocket Lab",
@@ -3304,7 +3299,7 @@
    "greenhouse"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Rocket Lab",
@@ -3321,7 +3316,7 @@
    "greenhouse"
   ],
   "first_seen": "2026-10-29",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Rocket Lab",
@@ -3338,7 +3333,7 @@
    "greenhouse"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Rocket Lab",
@@ -3355,7 +3350,7 @@
    "greenhouse"
   ],
   "first_seen": "2026-09-17",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Rocket Lab",
@@ -3372,7 +3367,7 @@
    "greenhouse"
   ],
   "first_seen": "2026-09-17",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Rocket Lab",
@@ -3389,7 +3384,7 @@
    "greenhouse"
   ],
   "first_seen": "2026-09-25",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Samsara",
@@ -3403,12 +3398,10 @@
   "hw": "electrical engineering",
   "tier": "big",
   "sources": [
-   "greenhouse",
-   "internlist:coop",
-   "jobspy:linkedin"
+   "greenhouse"
   ],
   "first_seen": "2026-09-17",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Samsung Semiconductor",
@@ -3459,7 +3452,7 @@
    "lever"
   ],
   "first_seen": "2026-09-17",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Signify",
@@ -3493,7 +3486,7 @@
    "ashby"
   ],
   "first_seen": "2026-10-23",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Skydio",
@@ -3510,7 +3503,7 @@
    "ashby"
   ],
   "first_seen": "2026-10-14",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Skyworks",
@@ -3527,7 +3520,7 @@
    "successfactors"
   ],
   "first_seen": "2026-09-24",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Skyworks",
@@ -3544,7 +3537,7 @@
    "successfactors"
   ],
   "first_seen": "2026-09-21",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Skyworks",
@@ -3561,7 +3554,7 @@
    "successfactors"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Skyworks",
@@ -3578,7 +3571,7 @@
    "successfactors"
   ],
   "first_seen": "2026-09-25",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Skyworks",
@@ -3595,7 +3588,7 @@
    "successfactors"
   ],
   "first_seen": "2026-10-14",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Skyworks",
@@ -3612,7 +3605,7 @@
    "successfactors"
   ],
   "first_seen": "2026-09-24",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Skyworks",
@@ -3629,7 +3622,7 @@
    "successfactors"
   ],
   "first_seen": "2026-09-24",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Skyworks",
@@ -3646,7 +3639,7 @@
    "successfactors"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Skyworks",
@@ -3663,7 +3656,7 @@
    "successfactors"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Skyworks",
@@ -3680,7 +3673,7 @@
    "successfactors"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Skyworks",
@@ -3697,7 +3690,7 @@
    "successfactors"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Skyworks",
@@ -3714,7 +3707,7 @@
    "successfactors"
   ],
   "first_seen": "2026-10-08",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Skyworks",
@@ -3731,7 +3724,7 @@
    "successfactors"
   ],
   "first_seen": "2026-09-21",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Skyworks",
@@ -3748,7 +3741,7 @@
    "successfactors"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Skyworks",
@@ -3765,7 +3758,7 @@
    "successfactors"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Skyworks",
@@ -3782,7 +3775,7 @@
    "successfactors"
   ],
   "first_seen": "2026-10-15",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Skyworks",
@@ -3799,7 +3792,7 @@
    "successfactors"
   ],
   "first_seen": "2026-09-23",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Skyworks",
@@ -3816,7 +3809,7 @@
    "successfactors"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Skyworks",
@@ -3833,7 +3826,7 @@
    "successfactors"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Skyworks",
@@ -3850,7 +3843,7 @@
    "successfactors"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Skyworks",
@@ -3867,7 +3860,7 @@
    "successfactors"
   ],
   "first_seen": "2026-09-22",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Skyworks",
@@ -3884,7 +3877,7 @@
    "successfactors"
   ],
   "first_seen": "2026-09-29",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Skyworks",
@@ -3901,7 +3894,7 @@
    "successfactors"
   ],
   "first_seen": "2026-09-17",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Skyworks",
@@ -3918,7 +3911,7 @@
    "successfactors"
   ],
   "first_seen": "2026-09-21",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Skyworks",
@@ -3935,7 +3928,7 @@
    "successfactors"
   ],
   "first_seen": "2026-09-17",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Skyworks",
@@ -3952,7 +3945,7 @@
    "successfactors"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Skyworks",
@@ -3969,7 +3962,7 @@
    "successfactors"
   ],
   "first_seen": "2026-10-31",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Skyworks",
@@ -3986,7 +3979,7 @@
    "successfactors"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Skyworks",
@@ -4003,7 +3996,7 @@
    "successfactors"
   ],
   "first_seen": "2026-09-28",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Skyworks",
@@ -4020,7 +4013,7 @@
    "successfactors"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Skyworks",
@@ -4037,7 +4030,7 @@
    "successfactors"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Skyworks",
@@ -4054,7 +4047,7 @@
    "successfactors"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Skyworks",
@@ -4071,7 +4064,7 @@
    "successfactors"
   ],
   "first_seen": "2026-09-17",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Skyworks",
@@ -4088,7 +4081,7 @@
    "successfactors"
   ],
   "first_seen": "2026-10-28",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Skyworks",
@@ -4105,7 +4098,7 @@
    "successfactors"
   ],
   "first_seen": "2026-09-22",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Skyworks",
@@ -4122,7 +4115,7 @@
    "successfactors"
   ],
   "first_seen": "2026-09-17",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Skyworks",
@@ -4139,7 +4132,7 @@
    "successfactors"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Skyworks",
@@ -4156,7 +4149,7 @@
    "successfactors"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Skyworks",
@@ -4173,7 +4166,7 @@
    "successfactors"
   ],
   "first_seen": "2026-09-17",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Skyworks",
@@ -4190,7 +4183,7 @@
    "successfactors"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Skyworks",
@@ -4207,7 +4200,7 @@
    "successfactors"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Skyworks Solutions, Inc.",
@@ -4275,7 +4268,7 @@
    "greenhouse"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "SpaceX",
@@ -4292,7 +4285,7 @@
    "greenhouse"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "SpaceX",
@@ -4306,11 +4299,10 @@
   "hw": "silicon",
   "tier": "big",
   "sources": [
-   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-09-17",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "The Campbell's Company",
@@ -4345,7 +4337,7 @@
    "greenhouse"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Varda Space",
@@ -4362,7 +4354,7 @@
    "greenhouse"
   ],
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Varda Space",
@@ -4379,7 +4371,7 @@
    "greenhouse"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Varda Space",
@@ -4396,7 +4388,7 @@
    "greenhouse"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Varda Space",
@@ -4413,7 +4405,7 @@
    "greenhouse"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Varda Space",
@@ -4430,7 +4422,7 @@
    "greenhouse"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Varda Space",
@@ -4447,7 +4439,7 @@
    "greenhouse"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Varda Space",
@@ -4464,7 +4456,7 @@
    "greenhouse"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Varda Space",
@@ -4481,7 +4473,7 @@
    "greenhouse"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Varda Space",
@@ -4498,7 +4490,7 @@
    "greenhouse"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Varda Space",
@@ -4515,7 +4507,7 @@
    "greenhouse"
   ],
   "first_seen": "2026-10-01",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Varda Space",
@@ -4532,7 +4524,7 @@
    "greenhouse"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Varda Space",
@@ -4549,7 +4541,7 @@
    "greenhouse"
   ],
   "first_seen": "2026-10-01",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Varda Space",
@@ -4566,7 +4558,7 @@
    "greenhouse"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Verkada",
@@ -4600,7 +4592,7 @@
    "smartrecruiters"
   ],
   "first_seen": "2026-09-29",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Western Digital",
@@ -4617,7 +4609,7 @@
    "smartrecruiters"
   ],
   "first_seen": "2026-10-13",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Western Digital",
@@ -4634,7 +4626,7 @@
    "smartrecruiters"
   ],
   "first_seen": "2026-09-28",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Zipline",
@@ -4651,7 +4643,7 @@
    "greenhouse"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Zipline",
@@ -4668,7 +4660,7 @@
    "greenhouse"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Zipline",
@@ -4685,7 +4677,7 @@
    "greenhouse"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Zipline",
@@ -4702,7 +4694,7 @@
    "greenhouse"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Zipline",
@@ -4719,7 +4711,7 @@
    "greenhouse"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Zipline",
@@ -4736,7 +4728,7 @@
    "greenhouse"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Zipline",
@@ -4753,7 +4745,7 @@
    "greenhouse"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Zipline",
@@ -4770,7 +4762,7 @@
    "greenhouse"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Zipline",
@@ -4787,7 +4779,7 @@
    "greenhouse"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Zipline",
@@ -4804,7 +4796,7 @@
    "greenhouse"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Zipline",
@@ -4821,7 +4813,7 @@
    "greenhouse"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Zipline",
@@ -4838,7 +4830,7 @@
    "greenhouse"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Zipline",
@@ -4855,7 +4847,7 @@
    "greenhouse"
   ],
   "first_seen": "2026-09-17",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Zipline",
@@ -4869,11 +4861,10 @@
   "hw": "electrical",
   "tier": "startup",
   "sources": [
-   "greenhouse",
-   "jobspy:linkedin"
+   "greenhouse"
   ],
   "first_seen": "2026-09-17",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Zipline",
@@ -4890,7 +4881,7 @@
    "greenhouse"
   ],
   "first_seen": "2026-10-10",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Zipline",
@@ -4907,7 +4898,7 @@
    "greenhouse"
   ],
   "first_seen": "2026-09-21",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Zipline",
@@ -4924,7 +4915,7 @@
    "greenhouse"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Zipline",
@@ -4941,7 +4932,7 @@
    "greenhouse"
   ],
   "first_seen": "2026-09-17",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Zipline",
@@ -4958,7 +4949,7 @@
    "greenhouse"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Zipline",
@@ -4975,7 +4966,7 @@
    "greenhouse"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Zipline",
@@ -4992,7 +4983,7 @@
    "greenhouse"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Zipline",
@@ -5009,7 +5000,7 @@
    "greenhouse"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Zipline",
@@ -5026,7 +5017,7 @@
    "greenhouse"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Zipline",
@@ -5043,7 +5034,7 @@
    "greenhouse"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Zipline",
@@ -5060,7 +5051,7 @@
    "greenhouse"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Zipline",
@@ -5077,7 +5068,7 @@
    "greenhouse"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Zipline",
@@ -5094,7 +5085,7 @@
    "greenhouse"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Zipline",
@@ -5111,7 +5102,7 @@
    "greenhouse"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Zipline",
@@ -5128,7 +5119,7 @@
    "greenhouse"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Zipline",
@@ -5145,7 +5136,7 @@
    "greenhouse"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Zipline",
@@ -5162,7 +5153,7 @@
    "greenhouse"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Zipline",
@@ -5179,7 +5170,7 @@
    "greenhouse"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Zipline",
@@ -5196,7 +5187,7 @@
    "greenhouse"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Zipline",
@@ -5213,7 +5204,7 @@
    "greenhouse"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Zipline",
@@ -5230,7 +5221,7 @@
    "greenhouse"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "iRhythm Technologies",
@@ -5282,7 +5273,7 @@
    "oracle_hcm"
   ],
   "first_seen": "2026-10-23",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "onsemi",
@@ -5299,7 +5290,7 @@
    "oracle_hcm"
   ],
   "first_seen": "2026-10-01",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "onsemi",
@@ -5316,7 +5307,7 @@
    "oracle_hcm"
   ],
   "first_seen": "2026-10-14",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "onsemi",
@@ -5333,7 +5324,7 @@
    "oracle_hcm"
   ],
   "first_seen": "2026-09-25",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "ABB",
@@ -5743,7 +5734,7 @@
    "amazon"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Amazon",
@@ -5760,7 +5751,7 @@
    "amazon"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Amazon",
@@ -5777,7 +5768,7 @@
    "amazon"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Amazon",
@@ -5794,7 +5785,7 @@
    "amazon"
   ],
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Ameren",
@@ -5896,7 +5887,7 @@
    "workday"
   ],
   "first_seen": "2026-10-26",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Analog Devices",
@@ -5947,7 +5938,7 @@
    "greenhouse"
   ],
   "first_seen": "2026-10-30",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Applied Materials",
@@ -5961,11 +5952,10 @@
   "hw": "process engineer",
   "tier": "big",
   "sources": [
-   "jobspy:linkedin",
    "workday"
   ],
   "first_seen": "2026-10-07",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Applied Materials",
@@ -5982,7 +5972,7 @@
    "workday"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Applied Materials",
@@ -5999,7 +5989,7 @@
    "workday"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Applied Materials",
@@ -6016,7 +6006,7 @@
    "workday"
   ],
   "first_seen": "2026-10-31",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Applied Materials",
@@ -6030,12 +6020,10 @@
   "hw": "process engineer",
   "tier": "big",
   "sources": [
-   "jobspy:indeed",
-   "jobspy:linkedin",
    "workday"
   ],
   "first_seen": "2026-10-30",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Applied Materials",
@@ -6297,7 +6285,7 @@
    "workday"
   ],
   "first_seen": "2026-10-29",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Bose",
@@ -6314,7 +6302,7 @@
    "workday"
   ],
   "first_seen": "2026-10-07",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Bose",
@@ -6348,7 +6336,7 @@
    "workday"
   ],
   "first_seen": "2026-10-27",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Boston Dynamics",
@@ -6382,7 +6370,7 @@
    "workday"
   ],
   "first_seen": "2026-10-28",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Boston Dynamics",
@@ -6399,7 +6387,7 @@
    "workday"
   ],
   "first_seen": "2026-10-26",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Boston Dynamics",
@@ -6605,7 +6593,7 @@
    "workday"
   ],
   "first_seen": "2026-10-01",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Cisco",
@@ -6622,7 +6610,7 @@
    "workday"
   ],
   "first_seen": "2026-10-01",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Coherent",
@@ -6916,7 +6904,7 @@
    "workday"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Entegris",
@@ -6933,7 +6921,7 @@
    "workday"
   ],
   "first_seen": "2026-10-17",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Entegris",
@@ -6950,7 +6938,7 @@
    "workday"
   ],
   "first_seen": "2026-10-17",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Entegris",
@@ -6967,7 +6955,7 @@
    "workday"
   ],
   "first_seen": "2026-10-28",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Entegris",
@@ -6984,7 +6972,7 @@
    "workday"
   ],
   "first_seen": "2026-10-17",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Entegris",
@@ -7001,7 +6989,7 @@
    "workday"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Entegris",
@@ -7018,7 +7006,7 @@
    "workday"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Entegris",
@@ -7035,7 +7023,7 @@
    "workday"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Entegris",
@@ -7052,7 +7040,7 @@
    "workday"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Entegris",
@@ -7069,7 +7057,7 @@
    "workday"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Entegris",
@@ -7086,7 +7074,7 @@
    "workday"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Entegris",
@@ -7103,7 +7091,7 @@
    "workday"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Entegris",
@@ -7120,7 +7108,7 @@
    "workday"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Entegris",
@@ -7137,7 +7125,7 @@
    "workday"
   ],
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Entegris",
@@ -7154,7 +7142,7 @@
    "workday"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Entegris",
@@ -7171,7 +7159,7 @@
    "workday"
   ],
   "first_seen": "2026-10-06",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Entegris",
@@ -7188,7 +7176,7 @@
    "workday"
   ],
   "first_seen": "2026-10-13",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Entegris",
@@ -7205,7 +7193,7 @@
    "workday"
   ],
   "first_seen": "2026-10-16",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Entegris",
@@ -7222,7 +7210,7 @@
    "workday"
   ],
   "first_seen": "2026-09-25",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Entegris",
@@ -7239,7 +7227,7 @@
    "workday"
   ],
   "first_seen": "2026-10-12",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Entegris",
@@ -7256,7 +7244,7 @@
    "workday"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Entegris",
@@ -7273,7 +7261,7 @@
    "workday"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Entegris",
@@ -7290,7 +7278,7 @@
    "workday"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Entegris",
@@ -7307,7 +7295,7 @@
    "workday"
   ],
   "first_seen": "2026-10-09",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Entegris",
@@ -7324,7 +7312,7 @@
    "workday"
   ],
   "first_seen": "2026-10-16",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Entegris",
@@ -7341,7 +7329,7 @@
    "workday"
   ],
   "first_seen": "2026-10-28",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Entegris",
@@ -7358,7 +7346,7 @@
    "workday"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Entegris",
@@ -7375,7 +7363,7 @@
    "workday"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Entergy",
@@ -7511,7 +7499,7 @@
    "workday"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "GE Aerospace",
@@ -7528,7 +7516,7 @@
    "workday"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "GE Aerospace",
@@ -7545,7 +7533,7 @@
    "workday"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "GE Aerospace",
@@ -7562,7 +7550,7 @@
    "workday"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "GE Appliances",
@@ -7631,7 +7619,7 @@
    "icims"
   ],
   "first_seen": "2026-10-21",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "General Dynamics Mission Systems",
@@ -7648,7 +7636,7 @@
    "icims"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "General Dynamics Mission Systems",
@@ -7665,7 +7653,7 @@
    "icims"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "General Motors",
@@ -8248,7 +8236,7 @@
    "workday"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "MSA Safety",
@@ -8538,7 +8526,7 @@
    "oracle_hcm"
   ],
   "first_seen": "2026-10-06",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Nokia",
@@ -8555,7 +8543,7 @@
    "oracle_hcm"
   ],
   "first_seen": "2026-10-13",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Nokia",
@@ -8590,7 +8578,7 @@
    "oracle_hcm"
   ],
   "first_seen": "2026-10-16",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Nokia",
@@ -8624,7 +8612,7 @@
    "oracle_hcm"
   ],
   "first_seen": "2026-10-06",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Nokia",
@@ -8641,7 +8629,7 @@
    "oracle_hcm"
   ],
   "first_seen": "2026-09-30",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Nokia",
@@ -8658,7 +8646,7 @@
    "oracle_hcm"
   ],
   "first_seen": "2026-10-06",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Nokia",
@@ -8692,7 +8680,7 @@
    "oracle_hcm"
   ],
   "first_seen": "2026-10-14",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Nokia",
@@ -8726,7 +8714,7 @@
    "oracle_hcm"
   ],
   "first_seen": "2026-09-22",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Nokia",
@@ -8743,7 +8731,7 @@
    "oracle_hcm"
   ],
   "first_seen": "2026-10-30",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Nova-Tech",
@@ -8881,7 +8869,7 @@
    "greenhouse"
   ],
   "first_seen": "2026-10-21",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "QuEra",
@@ -8898,7 +8886,7 @@
    "greenhouse"
   ],
   "first_seen": "2026-10-16",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "QuEra Computing",
@@ -8932,7 +8920,7 @@
    "workday"
   ],
   "first_seen": "2026-10-21",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "RTX",
@@ -9017,7 +9005,7 @@
    "workday"
   ],
   "first_seen": "2026-10-27",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "RTX",
@@ -9051,7 +9039,7 @@
    "workday"
   ],
   "first_seen": "2026-10-27",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Re:Build Manufacturing",
@@ -9337,13 +9325,10 @@
   "hw": "firmware",
   "tier": "big",
   "sources": [
-   "greenhouse",
-   "internlist:coop",
-   "internlist:winter-spring",
-   "jobspy:linkedin"
+   "greenhouse"
   ],
   "first_seen": "2026-09-24",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Schaeffler",
@@ -9445,7 +9430,7 @@
    "lever"
   ],
   "first_seen": "2026-10-23",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Shield AI",
@@ -9513,7 +9498,7 @@
    "successfactors"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Skyworks",
@@ -9530,13 +9515,13 @@
    "successfactors"
   ],
   "first_seen": "2026-09-28",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Skyworks",
   "title": "RF Filter Design / BAW development Co-Op",
   "location": "Andover, MA, USA    ",
-  "url": "https://careers.skyworksinc.com/job/RF-Filter-Design-BAW-development-Co-Op/78244-en_US",
+  "url": "https://careers.skyworksinc.com/job/RF-Filter-Design-BAW-development-Co-Op/78245-en_US",
   "posted": "2026-09-15",
   "deadline": "",
   "term": "coop-unspecified",
@@ -9546,8 +9531,8 @@
   "sources": [
    "successfactors"
   ],
-  "first_seen": "2026-09-30",
-  "last_seen": "2026-10-31"
+  "first_seen": "2026-09-18",
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Skyworks",
@@ -9564,7 +9549,7 @@
    "successfactors"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Skyworks",
@@ -9581,7 +9566,7 @@
    "successfactors"
   ],
   "first_seen": "2026-10-06",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "SoundOff Signal",
@@ -9736,7 +9721,7 @@
    "phenom"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Thermo Fisher Scientific",
@@ -9753,7 +9738,7 @@
    "phenom"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Thermo Fisher Scientific",
@@ -9770,7 +9755,7 @@
    "phenom"
   ],
   "first_seen": "2026-10-27",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Thermo Fisher Scientific",
@@ -9787,7 +9772,7 @@
    "phenom"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Thermo Fisher Scientific",
@@ -9804,7 +9789,7 @@
    "phenom"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Thermo Fisher Scientific",
@@ -9821,7 +9806,7 @@
    "phenom"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Thermo Fisher Scientific",
@@ -9874,24 +9859,7 @@
    "phenom"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
- },
- {
-  "company": "Thermo Fisher Scientific",
-  "title": "Sr. Co-Op: Research & Development/ Digital (Hillsboro, OR)",
-  "location": "Hillsboro, Oregon, United States of America",
-  "url": "https://jobs.thermofisher.com/global/en/job/R-01367232/sr-co-op-research-development-digital-hillsboro-or",
-  "posted": "2026-09-08",
-  "deadline": "",
-  "term": "coop-unspecified",
-  "rank": "B",
-  "hw": "maybe",
-  "tier": "big",
-  "sources": [
-   "phenom"
-  ],
-  "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Trane Technologies",
@@ -10030,7 +9998,7 @@
    "smartrecruiters"
   ],
   "first_seen": "2026-10-15",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Wabtec",
@@ -10064,7 +10032,7 @@
    "smartrecruiters"
   ],
   "first_seen": "2026-10-02",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Watts Water",
@@ -10374,7 +10342,7 @@
    "workday"
   ],
   "first_seen": "2026-10-27",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "ASML",
@@ -10388,11 +10356,10 @@
   "hw": "product engineer",
   "tier": "big",
   "sources": [
-   "jobspy:linkedin",
    "workday"
   ],
   "first_seen": "2026-10-30",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "AeroVironment",
@@ -10562,7 +10529,7 @@
    "amazon"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Amazon",
@@ -10596,7 +10563,7 @@
    "amazon"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Amazon.com Services LLC",
@@ -10630,7 +10597,7 @@
    "workday"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Ambarella",
@@ -10647,7 +10614,7 @@
    "workday"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Ambarella",
@@ -10664,7 +10631,7 @@
    "workday"
   ],
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Ambarella",
@@ -10698,7 +10665,7 @@
    "workday"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "American Electric Power",
@@ -10732,7 +10699,7 @@
    "workday"
   ],
   "first_seen": "2026-09-17",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Analog Devices",
@@ -10766,7 +10733,7 @@
    "workday"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Analog Devices",
@@ -10783,7 +10750,7 @@
    "workday"
   ],
   "first_seen": "2026-09-17",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Analog Devices",
@@ -10800,7 +10767,7 @@
    "workday"
   ],
   "first_seen": "2026-09-17",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Analog Devices",
@@ -10851,7 +10818,7 @@
    "workday"
   ],
   "first_seen": "2026-09-17",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Analog Devices",
@@ -11056,7 +11023,7 @@
    "ashby"
   ],
   "first_seen": "2026-09-17",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Arista Networks",
@@ -11090,7 +11057,7 @@
    "smartrecruiters"
   ],
   "first_seen": "2026-09-24",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Astera Labs",
@@ -11295,7 +11262,7 @@
    "lever"
   ],
   "first_seen": "2026-10-15",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "BGE",
@@ -11465,7 +11432,7 @@
    "workday"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Blue Origin",
@@ -11482,7 +11449,7 @@
    "workday"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Blue Origin",
@@ -11499,7 +11466,7 @@
    "workday"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Blue Origin",
@@ -11533,7 +11500,7 @@
    "workday"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Blue Ventis",
@@ -11772,7 +11739,7 @@
    "workday"
   ],
   "first_seen": "2026-09-17",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Cadence",
@@ -11789,7 +11756,7 @@
    "workday"
   ],
   "first_seen": "2026-09-23",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Canadian Solar",
@@ -11891,7 +11858,7 @@
    "workday"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Coloplast",
@@ -12095,7 +12062,7 @@
    "oracle_hcm"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Emerson",
@@ -12112,7 +12079,7 @@
    "oracle_hcm"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Emerson Electric",
@@ -12248,7 +12215,7 @@
    "ashby"
   ],
   "first_seen": "2026-10-21",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Etched",
@@ -12265,7 +12232,7 @@
    "ashby"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Etched",
@@ -12282,7 +12249,7 @@
    "ashby"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Fab2",
@@ -12347,11 +12314,10 @@
   "hw": "eda,electrical",
   "tier": "big",
   "sources": [
-   "github:vanshb03-summer",
    "workday"
   ],
   "first_seen": "2026-10-28",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Foundation",
@@ -12385,7 +12351,7 @@
    "workday"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "GE Aerospace",
@@ -12402,7 +12368,7 @@
    "workday"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "GE Aerospace",
@@ -12419,7 +12385,7 @@
    "workday"
   ],
   "first_seen": "2026-09-30",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "GHD",
@@ -12521,7 +12487,7 @@
    "icims"
   ],
   "first_seen": "2026-10-13",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "General Dynamics Mission Systems",
@@ -12538,7 +12504,7 @@
    "icims"
   ],
   "first_seen": "2026-09-28",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "General Dynamics Mission Systems",
@@ -12555,7 +12521,7 @@
    "icims"
   ],
   "first_seen": "2026-10-28",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "General Dynamics Mission Systems",
@@ -12572,7 +12538,7 @@
    "icims"
   ],
   "first_seen": "2026-10-06",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "General Dynamics Mission Systems",
@@ -12589,7 +12555,7 @@
    "icims"
   ],
   "first_seen": "2026-09-29",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "General Dynamics Mission Systems",
@@ -12606,7 +12572,7 @@
    "icims"
   ],
   "first_seen": "2026-10-02",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "General Dynamics Mission Systems",
@@ -12623,7 +12589,7 @@
    "icims"
   ],
   "first_seen": "2026-09-28",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "General Dynamics Mission Systems",
@@ -12640,7 +12606,7 @@
    "icims"
   ],
   "first_seen": "2026-09-28",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "General Dynamics Mission Systems",
@@ -12657,7 +12623,7 @@
    "icims"
   ],
   "first_seen": "2026-10-29",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "General Dynamics Mission Systems, Inc.",
@@ -12725,7 +12691,7 @@
    "workday"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "GlobalFoundries",
@@ -13286,7 +13252,7 @@
    "oracle_hcm"
   ],
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Hudson River Trading",
@@ -13388,7 +13354,7 @@
    "ashby"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Infineon Technologies",
@@ -13524,7 +13490,7 @@
    "workday"
   ],
   "first_seen": "2026-10-23",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Intel",
@@ -13541,7 +13507,7 @@
    "workday"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Intel",
@@ -13558,7 +13524,7 @@
    "workday"
   ],
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Intel",
@@ -13592,7 +13558,7 @@
    "workday"
   ],
   "first_seen": "2026-09-17",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Intel",
@@ -13609,7 +13575,7 @@
    "workday"
   ],
   "first_seen": "2026-09-17",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Intel",
@@ -13626,7 +13592,7 @@
    "workday"
   ],
   "first_seen": "2026-09-17",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Intel",
@@ -13643,7 +13609,7 @@
    "workday"
   ],
   "first_seen": "2026-09-17",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Interstates",
@@ -13779,7 +13745,7 @@
    "workday"
   ],
   "first_seen": "2026-09-30",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "KLA",
@@ -14326,7 +14292,7 @@
    "greenhouse"
   ],
   "first_seen": "2026-09-17",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Lumentum",
@@ -14343,7 +14309,7 @@
    "workday"
   ],
   "first_seen": "2026-10-06",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Lumentum",
@@ -14360,7 +14326,7 @@
    "workday"
   ],
   "first_seen": "2026-10-06",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Lumentum",
@@ -14377,7 +14343,7 @@
    "workday"
   ],
   "first_seen": "2026-10-06",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Mach Industries",
@@ -14394,7 +14360,7 @@
    "greenhouse"
   ],
   "first_seen": "2026-10-25",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Magna",
@@ -14445,7 +14411,7 @@
    "workday"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Marvell",
@@ -14462,7 +14428,7 @@
    "workday"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Marvell",
@@ -14513,7 +14479,7 @@
    "workday"
   ],
   "first_seen": "2026-10-27",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Marvell",
@@ -14530,7 +14496,7 @@
    "workday"
   ],
   "first_seen": "2026-10-13",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Marvell",
@@ -14564,7 +14530,7 @@
    "workday"
   ],
   "first_seen": "2026-10-04",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Marvell",
@@ -14683,7 +14649,7 @@
    "workday"
   ],
   "first_seen": "2026-09-30",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Marvell",
@@ -14734,7 +14700,7 @@
    "workday"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "MatX",
@@ -14751,7 +14717,7 @@
    "ashby"
   ],
   "first_seen": "2026-10-07",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Meta",
@@ -14802,7 +14768,7 @@
    "workday"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Microchip Technology",
@@ -15108,7 +15074,7 @@
    "workday"
   ],
   "first_seen": "2026-09-25",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Motorola",
@@ -15142,7 +15108,7 @@
    "workday"
   ],
   "first_seen": "2026-10-23",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "NVIDIA",
@@ -15176,7 +15142,7 @@
    "workday"
   ],
   "first_seen": "2026-09-17",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "NVIDIA",
@@ -15193,7 +15159,7 @@
    "workday"
   ],
   "first_seen": "2026-09-17",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "NVIDIA",
@@ -15210,7 +15176,7 @@
    "workday"
   ],
   "first_seen": "2026-09-17",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "NVIDIA",
@@ -15227,7 +15193,7 @@
    "workday"
   ],
   "first_seen": "2026-09-17",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "NVIDIA",
@@ -15244,7 +15210,7 @@
    "workday"
   ],
   "first_seen": "2026-09-17",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "NVIDIA",
@@ -15261,7 +15227,7 @@
    "workday"
   ],
   "first_seen": "2026-09-17",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "NVIDIA",
@@ -15278,7 +15244,7 @@
    "workday"
   ],
   "first_seen": "2026-09-17",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "NVIDIA",
@@ -15295,7 +15261,7 @@
    "workday"
   ],
   "first_seen": "2026-09-17",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "NVIDIA",
@@ -15312,7 +15278,7 @@
    "workday"
   ],
   "first_seen": "2026-09-17",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "NXP",
@@ -15329,7 +15295,7 @@
    "workday"
   ],
   "first_seen": "2026-09-23",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "NXP",
@@ -15346,7 +15312,7 @@
    "workday"
   ],
   "first_seen": "2026-09-23",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "NXP",
@@ -15363,7 +15329,7 @@
    "workday"
   ],
   "first_seen": "2026-10-02",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "NXP",
@@ -15380,7 +15346,7 @@
    "workday"
   ],
   "first_seen": "2026-09-17",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "NXP",
@@ -15397,7 +15363,7 @@
    "workday"
   ],
   "first_seen": "2026-10-02",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "NXP",
@@ -15414,7 +15380,7 @@
    "workday"
   ],
   "first_seen": "2026-10-12",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "NXP",
@@ -15431,7 +15397,7 @@
    "workday"
   ],
   "first_seen": "2026-10-07",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "NXP",
@@ -15448,7 +15414,7 @@
    "workday"
   ],
   "first_seen": "2026-09-22",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "NXP",
@@ -15465,7 +15431,7 @@
    "workday"
   ],
   "first_seen": "2026-09-22",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "National Laboratory of the Rockies",
@@ -15516,7 +15482,7 @@
    "smartrecruiters"
   ],
   "first_seen": "2026-10-13",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Navitas Semiconductor",
@@ -15533,7 +15499,7 @@
    "smartrecruiters"
   ],
   "first_seen": "2026-10-13",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Neuralink",
@@ -15618,7 +15584,7 @@
    "workday"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Nissan",
@@ -15805,7 +15771,7 @@
    "greenhouse"
   ],
   "first_seen": "2026-09-17",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "PsiQuantum",
@@ -15839,7 +15805,7 @@
    "greenhouse"
   ],
   "first_seen": "2026-09-27",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "QuEra",
@@ -15856,7 +15822,7 @@
    "greenhouse"
   ],
   "first_seen": "2026-09-27",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "QuEra",
@@ -15873,7 +15839,7 @@
    "greenhouse"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "QuEra",
@@ -15890,7 +15856,7 @@
    "greenhouse"
   ],
   "first_seen": "2026-09-27",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "QuEra",
@@ -15907,7 +15873,7 @@
    "greenhouse"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Quadric",
@@ -15924,7 +15890,7 @@
    "ashby"
   ],
   "first_seen": "2026-09-23",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Quadric",
@@ -15941,7 +15907,7 @@
    "ashby"
   ],
   "first_seen": "2026-09-23",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Quadric",
@@ -15958,7 +15924,7 @@
    "ashby"
   ],
   "first_seen": "2026-09-22",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Quadric",
@@ -15975,7 +15941,7 @@
    "ashby"
   ],
   "first_seen": "2026-09-23",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Qualcomm",
@@ -16077,7 +16043,7 @@
    "smartrecruiters"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Renesas",
@@ -16094,7 +16060,7 @@
    "smartrecruiters"
   ],
   "first_seen": "2026-10-14",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Rockwell Automation",
@@ -16264,7 +16230,7 @@
    "ashby"
   ],
   "first_seen": "2026-10-15",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Schweitzer Engineering Laboratories",
@@ -16349,7 +16315,7 @@
    "successfactors"
   ],
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Seagate",
@@ -16366,7 +16332,7 @@
    "successfactors"
   ],
   "first_seen": "2026-10-29",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Seagate",
@@ -16383,7 +16349,7 @@
    "successfactors"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Seagate",
@@ -16400,7 +16366,7 @@
    "successfactors"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Seagate",
@@ -16417,7 +16383,7 @@
    "successfactors"
   ],
   "first_seen": "2026-10-27",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Seagate",
@@ -16434,7 +16400,7 @@
    "successfactors"
   ],
   "first_seen": "2026-10-02",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Seagate",
@@ -16451,7 +16417,7 @@
    "successfactors"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Seagate",
@@ -16468,7 +16434,7 @@
    "successfactors"
   ],
   "first_seen": "2026-10-14",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Seagate",
@@ -16485,7 +16451,7 @@
    "successfactors"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Seagate",
@@ -16502,7 +16468,7 @@
    "successfactors"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Seagate",
@@ -16519,7 +16485,7 @@
    "successfactors"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Seagate",
@@ -16536,7 +16502,7 @@
    "successfactors"
   ],
   "first_seen": "2026-10-21",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Seagate",
@@ -16553,7 +16519,7 @@
    "successfactors"
   ],
   "first_seen": "2026-10-30",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Seametrics",
@@ -16587,7 +16553,7 @@
    "workday"
   ],
   "first_seen": "2026-09-24",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Semtech",
@@ -16604,7 +16570,7 @@
    "workday"
   ],
   "first_seen": "2026-09-24",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Semtech",
@@ -16621,7 +16587,7 @@
    "workday"
   ],
   "first_seen": "2026-09-24",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Semtech",
@@ -16638,7 +16604,7 @@
    "workday"
   ],
   "first_seen": "2026-09-24",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Sentinel Technologies",
@@ -16672,7 +16638,7 @@
    "workday"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Sierra Nevada Corporation",
@@ -16706,7 +16672,7 @@
    "ashby"
   ],
   "first_seen": "2026-10-25",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Skydio",
@@ -16723,7 +16689,7 @@
    "ashby"
   ],
   "first_seen": "2026-10-26",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Skydio",
@@ -16740,7 +16706,7 @@
    "ashby"
   ],
   "first_seen": "2026-10-25",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Skydio",
@@ -16757,7 +16723,7 @@
    "ashby"
   ],
   "first_seen": "2026-10-26",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Skydio",
@@ -16774,7 +16740,7 @@
    "ashby"
   ],
   "first_seen": "2026-10-26",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Skydio",
@@ -16808,7 +16774,7 @@
    "ashby"
   ],
   "first_seen": "2026-10-25",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Skydio",
@@ -16825,7 +16791,7 @@
    "ashby"
   ],
   "first_seen": "2026-10-25",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Skydio",
@@ -16859,7 +16825,7 @@
    "successfactors"
   ],
   "first_seen": "2026-10-27",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Skyworks",
@@ -16876,7 +16842,7 @@
    "successfactors"
   ],
   "first_seen": "2026-10-29",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Skyworks",
@@ -16893,7 +16859,7 @@
    "successfactors"
   ],
   "first_seen": "2026-09-17",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Skyworks",
@@ -16910,7 +16876,7 @@
    "successfactors"
   ],
   "first_seen": "2026-10-27",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Skyworks",
@@ -16927,7 +16893,7 @@
    "successfactors"
   ],
   "first_seen": "2026-09-30",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Skyworks",
@@ -16944,7 +16910,7 @@
    "successfactors"
   ],
   "first_seen": "2026-09-30",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Skyworks",
@@ -16961,24 +16927,7 @@
    "successfactors"
   ],
   "first_seen": "2026-10-28",
-  "last_seen": "2026-10-31"
- },
- {
-  "company": "Skyworks",
-  "title": "Electrical CAD Engineer Intern",
-  "location": "Richardson, USA    ",
-  "url": "https://careers.skyworksinc.com/job/Electrical-CAD-Engineer-Intern/78739-en_US",
-  "posted": "2026-10-28",
-  "deadline": "",
-  "term": "unspecified",
-  "rank": "C",
-  "hw": "cad,electrical",
-  "tier": "big",
-  "sources": [
-   "successfactors"
-  ],
-  "first_seen": "2026-10-28",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Skyworks",
@@ -16995,7 +16944,7 @@
    "successfactors"
   ],
   "first_seen": "2026-10-15",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Skyworks",
@@ -17012,7 +16961,7 @@
    "successfactors"
   ],
   "first_seen": "2026-10-28",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Skyworks",
@@ -17029,7 +16978,7 @@
    "successfactors"
   ],
   "first_seen": "2026-10-26",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Skyworks",
@@ -17046,7 +16995,7 @@
    "successfactors"
   ],
   "first_seen": "2026-10-29",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Skyworks",
@@ -17063,7 +17012,7 @@
    "successfactors"
   ],
   "first_seen": "2026-10-28",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Skyworks",
@@ -17080,7 +17029,7 @@
    "successfactors"
   ],
   "first_seen": "2026-10-28",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Skyworks",
@@ -17097,14 +17046,14 @@
    "successfactors"
   ],
   "first_seen": "2026-10-27",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Skyworks",
   "title": "RF Design Engineering Intern",
   "location": "Richardson, USA    ",
-  "url": "https://careers.skyworksinc.com/job/RF-Design-Engineering-Intern/78768-en_US",
-  "posted": "2026-10-28",
+  "url": "https://careers.skyworksinc.com/job/RF-Design-Engineering-Intern/78790-en_US",
+  "posted": "2026-10-27",
   "deadline": "",
   "term": "unspecified",
   "rank": "C",
@@ -17113,8 +17062,8 @@
   "sources": [
    "successfactors"
   ],
-  "first_seen": "2026-10-28",
-  "last_seen": "2026-10-31"
+  "first_seen": "2026-10-27",
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Skyworks",
@@ -17131,7 +17080,7 @@
    "successfactors"
   ],
   "first_seen": "2026-10-28",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Skyworks",
@@ -17148,7 +17097,7 @@
    "successfactors"
   ],
   "first_seen": "2026-10-28",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Skyworks",
@@ -17165,7 +17114,7 @@
    "successfactors"
   ],
   "first_seen": "2026-10-29",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Skyworks",
@@ -17182,7 +17131,7 @@
    "successfactors"
   ],
   "first_seen": "2026-10-27",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Skyworks",
@@ -17199,7 +17148,7 @@
    "successfactors"
   ],
   "first_seen": "2026-10-31",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Skyworks",
@@ -17216,7 +17165,7 @@
    "successfactors"
   ],
   "first_seen": "2026-10-27",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Skyworks",
@@ -17233,7 +17182,7 @@
    "successfactors"
   ],
   "first_seen": "2026-10-28",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Skyworks",
@@ -17250,7 +17199,7 @@
    "successfactors"
   ],
   "first_seen": "2026-10-28",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Skyworks Solutions, Inc.",
@@ -17456,7 +17405,7 @@
    "oracle_hcm"
   ],
   "first_seen": "2026-10-26",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Texas Instruments",
@@ -17473,7 +17422,7 @@
    "oracle_hcm"
   ],
   "first_seen": "2026-10-07",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Texas Instruments",
@@ -17524,7 +17473,7 @@
    "oracle_hcm"
   ],
   "first_seen": "2026-09-17",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Texas Instruments",
@@ -17558,7 +17507,7 @@
    "oracle_hcm"
   ],
   "first_seen": "2026-09-17",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Texas Instruments",
@@ -17609,7 +17558,7 @@
    "oracle_hcm"
   ],
   "first_seen": "2026-09-17",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Texas Instruments",
@@ -17660,7 +17609,7 @@
    "oracle_hcm"
   ],
   "first_seen": "2026-09-17",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Texas Instruments",
@@ -17694,7 +17643,7 @@
    "oracle_hcm"
   ],
   "first_seen": "2026-09-17",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Texas Instruments",
@@ -17762,7 +17711,7 @@
    "oracle_hcm"
   ],
   "first_seen": "2026-09-17",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Texas Instruments",
@@ -17949,7 +17898,7 @@
    "greenhouse"
   ],
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "V2X Inc",
@@ -18000,7 +17949,7 @@
    "greenhouse"
   ],
   "first_seen": "2026-10-08",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Vast",
@@ -18017,7 +17966,7 @@
    "greenhouse"
   ],
   "first_seen": "2026-09-17",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Vast",
@@ -18034,7 +17983,7 @@
    "greenhouse"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Vast",
@@ -18051,7 +18000,7 @@
    "greenhouse"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Vast",
@@ -18068,7 +18017,7 @@
    "greenhouse"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Viavi Solutions",
@@ -18153,7 +18102,7 @@
    "lever"
   ],
   "first_seen": "2026-09-17",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Zoox",
@@ -18170,7 +18119,7 @@
    "lever"
   ],
   "first_seen": "2026-10-06",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  {
   "company": "Zurn Elkay Water Solutions",
