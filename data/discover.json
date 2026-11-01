@@ -211,7 +211,7 @@
    {
     "ats": "successfactors_csb",
     "base": "https://careers.skyworksinc.com",
-    "n": 180
+    "n": 291
    }
   ],
   "tried": [
@@ -224,7 +224,7 @@
    {
     "ats": "successfactors_csb",
     "base": "https://careers.skyworksinc.com",
-    "n": 180
+    "n": 291
    }
   ]
  },
@@ -417,14 +417,14 @@
    {
     "ats": "greenhouse",
     "token": "lattice",
-    "n": 11
+    "n": 8
    }
   ],
   "tried": [
    {
     "ats": "greenhouse",
     "token": "lattice",
-    "n": 11
+    "n": 8
    }
   ]
  },
@@ -571,14 +571,14 @@
    {
     "ats": "smartrecruiters",
     "slug": "westerndigital",
-    "n": 324
+    "n": 345
    }
   ],
   "tried": [
    {
     "ats": "smartrecruiters",
     "slug": "westerndigital",
-    "n": 324
+    "n": 345
    }
   ]
  },
@@ -587,7 +587,7 @@
    {
     "ats": "successfactors_csb",
     "base": "https://seagatecareers.com",
-    "n": 167
+    "n": 201
    }
   ],
   "tried": [
@@ -600,7 +600,7 @@
    {
     "ats": "successfactors_csb",
     "base": "https://seagatecareers.com",
-    "n": 167
+    "n": 201
    }
   ]
  },
@@ -931,14 +931,14 @@
    {
     "ats": "phenom",
     "base": "https://jobs.baesystems.com",
-    "n": 341
+    "n": 337
    }
   ],
   "tried": [
    {
     "ats": "phenom",
     "base": "https://jobs.baesystems.com",
-    "n": 341
+    "n": 337
    }
   ]
  },
@@ -947,14 +947,14 @@
    {
     "ats": "icims",
     "base": "https://careers-gdms.icims.com",
-    "n": 52
+    "n": 65
    }
   ],
   "tried": [
    {
     "ats": "icims",
     "base": "https://careers-gdms.icims.com",
-    "n": 52
+    "n": 65
    }
   ]
  },
@@ -1124,14 +1124,14 @@
    {
     "ats": "greenhouse",
     "token": "hp",
-    "n": 1
+    "n": 25
    }
   ],
   "tried": [
    {
     "ats": "greenhouse",
     "token": "hp",
-    "n": 1
+    "n": 25
    }
   ]
  },
@@ -1280,19 +1280,19 @@
     "ats": "phenom",
     "tried": "https://ayarlabs.com/careers",
     "n": -1,
-    "err": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+    "err": "HTTPError: HTTP Error 404: Not Found"
    },
    {
     "ats": "successfactors_csb",
     "tried": "https://ayarlabs.com/careers",
     "n": -1,
-    "err": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+    "err": "HTTPError: HTTP Error 404: Not Found"
    },
    {
     "ats": "eightfold",
     "tried": "https://ayarlabs.com/careers",
     "n": -1,
-    "err": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+    "err": "HTTPError: HTTP Error 404: Not Found"
    }
   ]
  },
@@ -1324,14 +1324,14 @@
    {
     "ats": "smartrecruiters",
     "slug": "navitas",
-    "n": 50
+    "n": 48
    }
   ],
   "tried": [
    {
     "ats": "smartrecruiters",
     "slug": "navitas",
-    "n": 50
+    "n": 48
    }
   ]
  },
@@ -1588,13 +1588,13 @@
     "ats": "phenom",
     "tried": "https://www.sonos.com/en-us/careers",
     "n": -1,
-    "err": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+    "err": "HTTPError: HTTP Error 404: Not Found"
    },
    {
     "ats": "successfactors_csb",
     "tried": "https://www.sonos.com/en-us/careers",
     "n": -1,
-    "err": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+    "err": "HTTPError: HTTP Error 404: Not Found"
    },
    {
     "ats": "eightfold",
@@ -1694,14 +1694,14 @@
    {
     "ats": "smartrecruiters",
     "slug": "wabtec",
-    "n": 762
+    "n": 774
    }
   ],
   "tried": [
    {
     "ats": "smartrecruiters",
     "slug": "wabtec",
-    "n": 762
+    "n": 774
    }
   ]
  },
@@ -1710,14 +1710,14 @@
    {
     "ats": "greenhouse",
     "token": "formlabs",
-    "n": 222
+    "n": 238
    }
   ],
   "tried": [
    {
     "ats": "greenhouse",
     "token": "formlabs",
-    "n": 222
+    "n": 238
    }
   ]
  },
@@ -1730,14 +1730,14 @@
    {
     "ats": "greenhouse",
     "token": "markforged",
-    "n": 3
+    "n": 4
    }
   ],
   "tried": [
    {
     "ats": "greenhouse",
     "token": "markforged",
-    "n": 3
+    "n": 4
    }
   ]
  },
@@ -1773,14 +1773,14 @@
    {
     "ats": "phenom",
     "base": "https://jobs.thermofisher.com",
-    "n": 79
+    "n": 90
    }
   ],
   "tried": [
    {
     "ats": "phenom",
     "base": "https://jobs.thermofisher.com",
-    "n": 79
+    "n": 90
    }
   ]
  },
@@ -1797,14 +1797,14 @@
    {
     "ats": "greenhouse",
     "token": "toast",
-    "n": 333
+    "n": 329
    }
   ],
   "tried": [
    {
     "ats": "greenhouse",
     "token": "toast",
-    "n": 333
+    "n": 329
    }
   ]
  },
@@ -1817,14 +1817,14 @@
    {
     "ats": "greenhouse",
     "token": "lightmatter",
-    "n": 68
+    "n": 58
    }
   ],
   "tried": [
    {
     "ats": "greenhouse",
     "token": "lightmatter",
-    "n": 68
+    "n": 58
    }
   ]
  },
@@ -1876,14 +1876,14 @@
    {
     "ats": "ashby",
     "token": "whoop",
-    "n": 152
+    "n": 134
    }
   ],
   "tried": [
    {
     "ats": "ashby",
     "token": "whoop",
-    "n": 152
+    "n": 134
    }
   ]
  },
@@ -1896,14 +1896,14 @@
    {
     "ats": "lever",
     "token": "rapidmicrobio",
-    "n": 6
+    "n": 9
    }
   ],
   "tried": [
    {
     "ats": "lever",
     "token": "rapidmicrobio",
-    "n": 6
+    "n": 9
    }
   ]
  },
@@ -1920,14 +1920,14 @@
    {
     "ats": "ashby",
     "token": "cerebras",
-    "n": 115
+    "n": 116
    }
   ],
   "tried": [
    {
     "ats": "ashby",
     "token": "cerebras",
-    "n": 115
+    "n": 116
    }
   ]
  },
@@ -1940,14 +1940,14 @@
    {
     "ats": "ashby",
     "token": "etched",
-    "n": 108
+    "n": 123
    }
   ],
   "tried": [
    {
     "ats": "ashby",
     "token": "etched",
-    "n": 108
+    "n": 123
    }
   ]
  },
@@ -1956,14 +1956,14 @@
    {
     "ats": "ashby",
     "token": "d-matrix",
-    "n": 33
+    "n": 41
    }
   ],
   "tried": [
    {
     "ats": "ashby",
     "token": "d-matrix",
-    "n": 33
+    "n": 41
    }
   ]
  },
@@ -1972,14 +1972,14 @@
    {
     "ats": "ashby",
     "token": "matx",
-    "n": 43
+    "n": 41
    }
   ],
   "tried": [
    {
     "ats": "ashby",
     "token": "matx",
-    "n": 43
+    "n": 41
    }
   ]
  },
@@ -2028,30 +2028,30 @@
    {
     "ats": "ashby",
     "token": "axelera",
-    "n": 9
+    "n": 12
    }
   ],
   "tried": [
    {
     "ats": "ashby",
     "token": "axelera",
-    "n": 9
+    "n": 12
    }
   ]
  },
  "Fractile": {
   "ok": [
    {
-    "ats": "greenhouse",
+    "ats": "ashby",
     "token": "fractile",
-    "n": 37
+    "n": 25
    }
   ],
   "tried": [
    {
-    "ats": "greenhouse",
+    "ats": "ashby",
     "token": "fractile",
-    "n": 37
+    "n": 25
    }
   ]
  },
@@ -2084,14 +2084,14 @@
    {
     "ats": "ashby",
     "token": "normalcomputing",
-    "n": 19
+    "n": 37
    }
   ],
   "tried": [
    {
     "ats": "ashby",
     "token": "normalcomputing",
-    "n": 19
+    "n": 37
    }
   ]
  },
@@ -2112,14 +2112,14 @@
    {
     "ats": "lever",
     "token": "eliyan",
-    "n": 24
+    "n": 21
    }
   ],
   "tried": [
    {
     "ats": "lever",
     "token": "eliyan",
-    "n": 24
+    "n": 21
    }
   ]
  },
@@ -2140,14 +2140,14 @@
    {
     "ats": "lever",
     "token": "lumotive",
-    "n": 8
+    "n": 11
    }
   ],
   "tried": [
    {
     "ats": "lever",
     "token": "lumotive",
-    "n": 8
+    "n": 11
    }
   ]
  },
@@ -2252,14 +2252,14 @@
    {
     "ats": "smartrecruiters",
     "slug": "kioxia",
-    "n": 18
+    "n": 22
    }
   ],
   "tried": [
    {
     "ats": "smartrecruiters",
     "slug": "kioxia",
-    "n": 18
+    "n": 22
    }
   ]
  },
@@ -2376,14 +2376,14 @@
    {
     "ats": "ashby",
     "token": "rain",
-    "n": 42
+    "n": 36
    }
   ],
   "tried": [
    {
     "ats": "ashby",
     "token": "rain",
-    "n": 42
+    "n": 36
    }
   ]
  },
@@ -2488,14 +2488,14 @@
    {
     "ats": "lever",
     "token": "shieldai",
-    "n": 582
+    "n": 655
    }
   ],
   "tried": [
    {
     "ats": "lever",
     "token": "shieldai",
-    "n": 582
+    "n": 655
    }
   ]
  },
@@ -2577,14 +2577,14 @@
    {
     "ats": "smartrecruiters",
     "slug": "llnl",
-    "n": 167
+    "n": 181
    }
   ],
   "tried": [
    {
     "ats": "smartrecruiters",
     "slug": "llnl",
-    "n": 167
+    "n": 181
    }
   ]
  },
@@ -2593,14 +2593,14 @@
    {
     "ats": "phenom",
     "base": "https://www.jpl.jobs",
-    "n": 7
+    "n": 13
    }
   ],
   "tried": [
    {
     "ats": "phenom",
     "base": "https://www.jpl.jobs",
-    "n": 7
+    "n": 13
    }
   ]
  },
@@ -2663,14 +2663,14 @@
    {
     "ats": "ashby",
     "token": "ultra",
-    "n": 3
+    "n": 2
    }
   ],
   "tried": [
    {
     "ats": "ashby",
     "token": "ultra",
-    "n": 3
+    "n": 2
    }
   ]
  },
@@ -2718,14 +2718,14 @@
    {
     "ats": "lever",
     "token": "palantir",
-    "n": 318
+    "n": 301
    }
   ],
   "tried": [
    {
     "ats": "lever",
     "token": "palantir",
-    "n": 318
+    "n": 301
    }
   ]
  },
@@ -2734,14 +2734,14 @@
    {
     "ats": "lever",
     "token": "hermeus",
-    "n": 89
+    "n": 78
    }
   ],
   "tried": [
    {
     "ats": "lever",
     "token": "hermeus",
-    "n": 89
+    "n": 78
    }
   ]
  },
@@ -2758,14 +2758,14 @@
    {
     "ats": "greenhouse",
     "token": "machindustries",
-    "n": 133
+    "n": 163
    }
   ],
   "tried": [
    {
     "ats": "greenhouse",
     "token": "machindustries",
-    "n": 133
+    "n": 163
    }
   ]
  }

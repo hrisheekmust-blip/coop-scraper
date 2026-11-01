@@ -635,8 +635,8 @@
 },
 "https://www.indeed.com/viewjob": {
 "first_seen": "2026-09-18",
-"title": "Electrical Engineering Co-op (Winter/Spring 2027)",
-"company": "Collins Aerospace",
+"title": "2027 Spring - Electrical Engineering Co-op (Jan - July 2027)",
+"company": "Hasbro, Inc.",
 "desc": ""
 },
 "https://www.linkedin.com/jobs/view/4468697840": {
@@ -1210,7 +1210,7 @@
 "https://www.linkedin.com/jobs/view/4460339361": {
 "first_seen": "2026-09-18",
 "title": "ASIC Engineer Intern, Annapurna Labs - 2027",
-"company": "Amazon",
+"company": "Annapurna Labs",
 "desc": ""
 },
 "https://www.linkedin.com/jobs/view/4467879616": {
@@ -5290,13 +5290,13 @@
 "https://www.linkedin.com/jobs/view/4460330453": {
 "first_seen": "2026-09-18",
 "title": "ASIC Engineer Intern, Annapurna Labs - 2027",
-"company": "Amazon",
+"company": "Annapurna Labs",
 "desc": ""
 },
 "https://www.linkedin.com/jobs/view/4460342349": {
 "first_seen": "2026-09-18",
 "title": "ASIC Engineer Intern, Annapurna Labs - 2027",
-"company": "Amazon",
+"company": "Annapurna Labs",
 "desc": ""
 },
 "https://www.linkedin.com/jobs/view/4468011560": {
@@ -5464,7 +5464,7 @@
 "https://www.linkedin.com/jobs/view/4460345281": {
 "first_seen": "2026-09-18",
 "title": "Cloud Hardware Development Engineer Intern, Annapurna Labs - 2027",
-"company": "Amazon",
+"company": "Annapurna Labs",
 "desc": ""
 },
 "https://www.linkedin.com/jobs/view/4466858728": {
@@ -18569,6 +18569,24 @@
 "first_seen": "2026-11-01",
 "title": "Validation Engineer Intern",
 "company": "Jabil",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4485939353": {
+"first_seen": "2026-11-01",
+"title": "Electrical Engineering Internship or Co-Op (Fall 2027)",
+"company": "Nexus Engineering Group",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4483991297": {
+"first_seen": "2026-11-01",
+"title": "Electrical Engineering Intern",
+"company": "Avynera Studios",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4483984627": {
+"first_seen": "2026-11-01",
+"title": "Electrical Engineering Intern",
+"company": "Thermagia Engineering",
 "desc": ""
 }
 }
