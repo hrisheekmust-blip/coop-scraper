@@ -635,8 +635,8 @@
 },
 "https://www.indeed.com/viewjob": {
 "first_seen": "2026-09-18",
-"title": "2027 Spring - Electrical Engineering Co-op (Jan - July 2027)",
-"company": "Hasbro, Inc.",
+"title": "2027 Co-Op-Electrical Engineering",
+"company": "H2M architects + engineers",
 "desc": ""
 },
 "https://www.linkedin.com/jobs/view/4468697840": {
@@ -18593,6 +18593,12 @@
 "first_seen": "2026-11-02",
 "title": "Wafer Manufacturing Intern",
 "company": "Seagate Technology",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4485396971": {
+"first_seen": "2026-11-02",
+"title": "Electrical Engineering Intern",
+"company": "Nucleon",
 "desc": ""
 }
 }
