@@ -635,8 +635,8 @@
 },
 "https://www.indeed.com/viewjob": {
 "first_seen": "2026-09-18",
-"title": "2027 Co-Op-Electrical Engineering",
-"company": "H2M architects + engineers",
+"title": "Process Engineer Co-Op",
+"company": "GAF",
 "desc": ""
 },
 "https://www.linkedin.com/jobs/view/4468697840": {
@@ -17967,7 +17967,7 @@
 },
 "https://simplify.jobs/jobs/click/b5cc3434-fe9f-4bce-a904-5c99ed05f008": {
 "first_seen": "2026-10-29",
-"title": "Packaging Engineer Co-op",
+"title": "Packaging Engineer 6-month Co-Op",
 "company": "Corning",
 "desc": ""
 },
@@ -18911,6 +18911,102 @@
 "first_seen": "2026-11-03",
 "title": "Metrology Development Intern (Spring 2027)",
 "company": "First Solar",
+"desc": ""
+},
+"https://asml.wd3.myworkdayjobs.com/ASMLEXT1/job/Wilton-CT-USA/Co-op---Test-and-Measurement-Facility-Engineer--Internship-_J-00356415": {
+"first_seen": "2026-11-03",
+"title": "Co-op - Test and Measurement Facility Engineer (Internship)",
+"company": "ASML",
+"desc": ""
+},
+"https://asml.wd3.myworkdayjobs.com/ASMLEXT1/job/Wilton-CT-USA/CoOp---Electrical-Engineer--Internship-_J-00356208": {
+"first_seen": "2026-11-03",
+"title": "CoOp - Electrical Engineer (Internship)",
+"company": "ASML",
+"desc": "  Introduction to the job   The DUV Reticle Stage IBS MDU team is responsible for engineering activities supporting the reticle stage, a precision mechatronic subsystem within ASML\u2019s DUV lithography systems. The reticle stage relies on highly reliable electrical connections that must perform consistently within a demanding precision equipment environment.  We are looking for an Electrical Engineering co-op student to help investigate and qualify  alternatives to existing LEMO electrical connectors used on the DUV Reticle Stage . This assignment provides an opportunity to work directly with experienced ASML engineers on a real hardware engineering challenge involving  electrical design, component selection, testing, and qualification .    Role and responsibilities   Your primary assignment will be to  identify, evaluate, and help qualify alternative electrical connector solutions for the DUV Reticle Stage . Potential solutions may include commercially available connector technologies as well as new or modified connector concepts, but they must ultimately satisfy the relevant performance requirements of the existing solution.  You will work closely with electrical, mechanical, and mechatronics engineers to understand the application, determine critical requirements, investigate potential alternatives, and validate promising solutions through analysis and testing.  Your responsibilities will include:   Investigate the existing LEMO connector applications and understand their ele"
+},
+"https://go.vansh.nyc/1cT": {
+"first_seen": "2026-11-03",
+"title": "Systems Engineer Intern, Mission Sensor Manager",
+"company": "RTX",
+"desc": ""
+},
+"https://go.vansh.nyc/1d3": {
+"first_seen": "2026-11-03",
+"title": "Data Center SSD Firmware Intern",
+"company": "Micron Technology",
+"desc": ""
+},
+"https://go.vansh.nyc/1d4": {
+"first_seen": "2026-11-03",
+"title": "Firmware Engineer Intern",
+"company": "Micron Technology",
+"desc": ""
+},
+"https://go.vansh.nyc/1d7": {
+"first_seen": "2026-11-03",
+"title": "SSD Firmware Intern, CICD",
+"company": "Micron Technology",
+"desc": ""
+},
+"https://go.vansh.nyc/1c1": {
+"first_seen": "2026-11-03",
+"title": "Firmware Engineer Intern, Advanced Development",
+"company": "Allegion",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/17481db4-7b68-4ead-b8cc-e7f82118697d": {
+"first_seen": "2026-11-03",
+"title": "Silicon Photonics Packaging Engineer Co-op",
+"company": "Nokia",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/af61c16b-e3f3-4498-971a-24a426d9c094": {
+"first_seen": "2026-11-03",
+"title": "Electrical Engineer Co-op",
+"company": "RTX",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/cd02035a-f1db-4700-b794-b19861ea9012": {
+"first_seen": "2026-11-03",
+"title": "Packaging Engineer Co-op",
+"company": "Corning",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/7482de07-822e-4441-b97e-1d36e1c60853": {
+"first_seen": "2026-11-03",
+"title": "Hardware Intern",
+"company": "Tenstorrent",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4486815085": {
+"first_seen": "2026-11-03",
+"title": "Co-op Engineer: Electrical and Traction Power - Spring 2027",
+"company": "HNTB",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4486830208": {
+"first_seen": "2026-11-03",
+"title": "CoOp - Electrical Engineer (Internship)",
+"company": "ASML",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4484670150": {
+"first_seen": "2026-11-03",
+"title": "Power Electronics Engineering Intern",
+"company": "Eaton",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4486428086": {
+"first_seen": "2026-11-03",
+"title": "CO-OP: Nondestructive Characterization Group",
+"company": "Kratos Defense and Security Solutions",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4485798353": {
+"first_seen": "2026-11-03",
+"title": "Internship - Electrical Engineering",
+"company": "Shive-Hattery",
 "desc": ""
 }
 }
