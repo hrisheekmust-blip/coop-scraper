@@ -19008,5 +19008,17 @@
 "title": "Internship - Electrical Engineering",
 "company": "Shive-Hattery",
 "desc": ""
+},
+"https://boseallaboutme.wd503.myworkdayjobs.com/Bose_Careers/job/US-MA---Framingham/Electrical-Engineering-Co-op---FPGA-and-Audio-Research-Platforms_R29366": {
+"first_seen": "2026-11-03",
+"title": "Electrical Engineering Co-op \u2014 FPGA and Audio Research Platforms",
+"company": "Bose",
+"desc": "   At Bose Corporation, we believe sound is the most powerful force on earth \u2014 and for over 60 years, we have been a company built on innovation, excellence, and independence. Privately owned, fiercely customer-focused, and driven by our values, we continue to lead industries and transform lives through sound.\u00a0      \u00a0\u00a0      Today, Bose Corporation is entering an exciting new era. Across multiple global Business Units and Global Functions, we are shaping the future of audio technology, automotive, luxury, and premium experiences. We invite you to join us in this transformation.\u00a0          Job Description        About the role   Help develop an FPGA-based research prototyping platform for real-time audio and active noise reduction experimentation. This hands-on role emphasizes electrical hardware and FPGA development, with opportunities to work across system architecture, circuit integration, digital signal processing, and audio testing.  Working with research engineers, you will help turn platform requirements into a working, characterized system that enables researchers to implement and evaluate new algorithms.    Responsibilities    Evaluate and integrate FPGA hardware, audio ADCs/DACs, clocking, power supplies, and analog and digital interfaces.  Design or modify supporting circuits and interface boards as needed.  Develop FPGA logic for audio acquisition, routing, processing, and output.  Bring up and troubleshoot hardware using laboratory instruments and FPGA debugging too"
+},
+"https://careers-gdms.icims.com/jobs/75776/hardware-electrical-intern-engineer/job": {
+"first_seen": "2026-11-03",
+"title": "Hardware/Electrical Intern Engineer",
+"company": "General Dynamics Mission Systems",
+"desc": ""
 }
 }
