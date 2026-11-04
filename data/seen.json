@@ -19161,7 +19161,7 @@
 },
 "https://jobs.ashbyhq.com/etched/05d67dff-a7a4-4ece-a809-3200d95e7440": {
 "first_seen": "2026-11-04",
-"title": "IA Research Engineer (Kernels) Intern ",
+"title": "IA Research Engineer Intern ",
 "company": "Etched",
 "desc": ""
 },
@@ -19307,6 +19307,42 @@
 "first_seen": "2026-11-04",
 "title": "Intern, Laser Control & Validation Engineering",
 "company": "Ayar Labs",
+"desc": ""
+},
+"https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/25019660": {
+"first_seen": "2026-11-04",
+"title": "Analog Design Eng Intern",
+"company": "Texas Instruments",
+"desc": ""
+},
+"https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/25019663": {
+"first_seen": "2026-11-04",
+"title": "Analog Design Verification Eng Intern",
+"company": "Texas Instruments",
+"desc": ""
+},
+"https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/25019665": {
+"first_seen": "2026-11-04",
+"title": "Digital Design Verification Engineering Intern",
+"company": "Texas Instruments",
+"desc": ""
+},
+"https://careers.skyworksinc.com/job/Test-Engineering-Intern/79036-en_US": {
+"first_seen": "2026-11-04",
+"title": "Test Engineering Intern",
+"company": "Skyworks",
+"desc": ""
+},
+"https://jobs.smartrecruiters.com/renesaselectronics/744000159733449": {
+"first_seen": "2026-11-04",
+"title": "PMIC Analog Intern",
+"company": "Renesas",
+"desc": ""
+},
+"https://www.jpl.jobs/global/en/job/R6220/electrical-computer-engineering-academic-part-time-intern": {
+"first_seen": "2026-11-04",
+"title": "Electrical & Computer Engineering Academic Part Time Intern",
+"company": "NASA JPL",
 "desc": ""
 }
 }
