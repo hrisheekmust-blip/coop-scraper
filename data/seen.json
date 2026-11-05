@@ -2253,7 +2253,7 @@
 },
 "https://simplify.jobs/jobs/click/2f6d1363-5eff-4778-ae83-37983d9aaebe": {
 "first_seen": "2026-09-18",
-"title": "Electrical Engineer Intern Co-op",
+"title": "Electrical Engineering Intern Co-op",
 "company": "Framatome",
 "desc": ""
 },
@@ -12711,7 +12711,7 @@
 },
 "https://simplify.jobs/jobs/click/50e44cc5-709f-4a31-bcc9-c9ec3e559b93": {
 "first_seen": "2026-10-08",
-"title": "Electrical Engineer Intern Co-op",
+"title": "Electrical Engineer Intern/Co-op",
 "company": "Real Alloy",
 "desc": ""
 },
@@ -13233,7 +13233,7 @@
 },
 "https://simplify.jobs/jobs/click/560dca20-ee7d-4406-bef2-be998ced912d": {
 "first_seen": "2026-10-10",
-"title": "Acute Care Hardware Systems Engineer Co-op",
+"title": "Acute Care Hardware Systems Engineering Co-op",
 "company": "Werfen",
 "desc": ""
 },
@@ -13905,7 +13905,7 @@
 },
 "https://simplify.jobs/jobs/click/a4c9429c-326f-4154-8afe-98951f0f6ea9": {
 "first_seen": "2026-10-14",
-"title": "Product Engineer Co-op",
+"title": "Product Engineering Co-op",
 "company": "ITT",
 "desc": ""
 },
@@ -20945,6 +20945,126 @@
 "first_seen": "2026-11-05",
 "title": "Technology Characterization & AI Automation Engineering Summer Intern (May-Aug '27)",
 "company": "Skyworks",
+"desc": ""
+},
+"https://go.vansh.nyc/1hB": {
+"first_seen": "2026-11-05",
+"title": "Digital Design Verification Engineer Intern",
+"company": "Texas Instruments",
+"desc": ""
+},
+"https://go.vansh.nyc/1hn": {
+"first_seen": "2026-11-05",
+"title": "R&D DSP/FPGA Design Automation Intern",
+"company": "Keysight Technologies",
+"desc": ""
+},
+"https://go.vansh.nyc/1hv": {
+"first_seen": "2026-11-05",
+"title": "Product Engineering Student Intern",
+"company": "John Deere",
+"desc": ""
+},
+"https://go.vansh.nyc/1i0": {
+"first_seen": "2026-11-05",
+"title": "FPGA Engineer Intern",
+"company": "General Dynamics Mission Systems",
+"desc": ""
+},
+"https://go.vansh.nyc/1hW": {
+"first_seen": "2026-11-05",
+"title": "Electrical Engineering Intern, FPGA",
+"company": "General Dynamics Mission Systems",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/e1fd8476-68b5-4c6d-97f1-1e5346ab525e": {
+"first_seen": "2026-11-05",
+"title": "Electrical Engineering Co-op",
+"company": "Bose",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/7389811a-0eca-4ab7-9802-8f719f278159": {
+"first_seen": "2026-11-05",
+"title": "Electrical Design Engineering Co-op",
+"company": "SharkNinja",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/7772f70d-d994-4fdf-8874-04f00ed5e24b": {
+"first_seen": "2026-11-05",
+"title": "Electrical Engineer Co-op Intern",
+"company": "ASML",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/75d67d9a-ae09-4cc4-8172-1608de1246b4": {
+"first_seen": "2026-11-05",
+"title": "Electrical and Traction Power Engineer Co-op",
+"company": "HNTB",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/564ea0b2-85b0-44a6-81ce-0e01d5635cfa": {
+"first_seen": "2026-11-05",
+"title": "Process Engineer Co-op",
+"company": "GAF",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/aa11962a-8483-4bc5-ad6d-94102cf9eae9": {
+"first_seen": "2026-11-05",
+"title": "Packaging Engineer Co-op Intern",
+"company": "Fanatics",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/4521b19c-72c8-48da-9973-d59781e7a316": {
+"first_seen": "2026-11-05",
+"title": "Process Engineer Co-op",
+"company": "Applied Materials",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/3062ee5d-82e5-4de4-a137-02f2ed23973d": {
+"first_seen": "2026-11-05",
+"title": "Electrical Engineer Co-op",
+"company": "Applied Materials",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/de869061-16df-49c0-a073-bf9f30307a3e": {
+"first_seen": "2026-11-05",
+"title": "Reliability Engineering Intern",
+"company": "Ingredion",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4486554728": {
+"first_seen": "2026-11-05",
+"title": "Electrical Co-op - Spring 2027",
+"company": "Salas O'Brien",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4470987513": {
+"first_seen": "2026-11-05",
+"title": "RF/Microwave Intern (Summer 2027)",
+"company": "TTM Technologies",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4485580782": {
+"first_seen": "2026-11-05",
+"title": "ASIC Engineering Intern, Formal Verification",
+"company": "Meta",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4486577484": {
+"first_seen": "2026-11-05",
+"title": "VLSI Timing Methodology Intern - Summer 2027",
+"company": "NVIDIA",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4487742486": {
+"first_seen": "2026-11-05",
+"title": "Intern- Analog Design",
+"company": "Infineon Technologies",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4487734765": {
+"first_seen": "2026-11-05",
+"title": "Electrical Engineer Intern",
+"company": "Clyvra",
 "desc": ""
 }
 }
