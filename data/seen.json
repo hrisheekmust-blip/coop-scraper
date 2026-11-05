@@ -635,8 +635,8 @@
 },
 "https://www.indeed.com/viewjob": {
 "first_seen": "2026-09-18",
-"title": "Process Engineer Co-Op",
-"company": "GAF",
+"title": "Co-op Engineer: Electrical and Traction Power - Spring 2027",
+"company": "HNTB Corporation",
 "desc": ""
 },
 "https://www.linkedin.com/jobs/view/4468697840": {
@@ -19343,6 +19343,54 @@
 "first_seen": "2026-11-04",
 "title": "Electrical & Computer Engineering Academic Part Time Intern",
 "company": "NASA JPL",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4487548836": {
+"first_seen": "2026-11-05",
+"title": "MTS Electrical Engineering Co-Op",
+"company": "CPI Electron Device Business",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4485537586": {
+"first_seen": "2026-11-05",
+"title": "Electrical Co-Op",
+"company": "Procter & Gamble",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4486504993": {
+"first_seen": "2026-11-05",
+"title": "Robotics Hardware Engineer Internship",
+"company": "Syncere",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4487559109": {
+"first_seen": "2026-11-05",
+"title": "Electrical Engineering Intern",
+"company": "DwyerOmega",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4485539540": {
+"first_seen": "2026-11-05",
+"title": "R&D DSP/FPGA Design Automation Intern",
+"company": "Keysight Technologies",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4486462039": {
+"first_seen": "2026-11-05",
+"title": "Electrical & Computer Engineering Academic Part Time Intern",
+"company": "NASA Jet Propulsion Laboratory",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4487559383": {
+"first_seen": "2026-11-05",
+"title": "Quantum Hardware Intern",
+"company": "Logiqal, Inc.",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4487550220": {
+"first_seen": "2026-11-05",
+"title": "Test Engineering Intern",
+"company": "Skyworks Solutions, Inc.",
 "desc": ""
 }
 }
