@@ -99,15 +99,15 @@ def classify(job):
     # tracking it is not to miss it. Summer-only still drops; the big companies keep the strict filter.
     if job.get("tier") == "startup" and not hits and not NON_US.search(job.get("location") or ""):
         t = term_of(job)
-        if t not in ("summer", "fall"):
-            return True, "ok", {"term": t, "hw": ["maybe"], "rank": "A" if t == "spring" else ("B" if t == "coop-unspecified" else "C"), "maybe": True}
+        if t != "fall":
+            return True, "ok", {"term": t, "hw": ["maybe"], "rank": "A" if t in ("spring", "summer") else ("B" if t == "coop-unspecified" else "C"), "maybe": True}
     # unknown small company, plain title, but the description reads like a chip company (LinkedIn finds these): Maybe
     if not hits and not EXCLUDE_TITLE.search(title) and not NON_US.search(job.get("location") or ""):
         d = (job.get("description") or "")[:4000]
         if len(set(m.group(1).lower() for m in CHIP_COMPANY_RE.finditer(d))) >= 3:
             t = term_of(job)
-            if t not in ("summer", "fall"):
-                return True, "ok", {"term": t, "hw": ["maybe"], "rank": "A" if t == "spring" else ("B" if t == "coop-unspecified" else "C"), "maybe": True}
+            if t != "fall":
+                return True, "ok", {"term": t, "hw": ["maybe"], "rank": "A" if t in ("spring", "summer") else ("B" if t == "coop-unspecified" else "C"), "maybe": True}
     if EXCLUDE_TITLE.search(title):
         # a hardware word next to an excluded word ("Electro-Mechanical Instrument", "Sales Engineer - RF") is a Maybe, not a drop
         if hits and job.get("tier"):
@@ -132,8 +132,11 @@ def classify(job):
     if NON_US.search(job.get("location") or ""):
         return False, "non-US", {}
     term = term_of(job)
-    if term in ("summer", "fall"):
-        return False, f"{term} only", {"term": term}
-    # rank: A = spring explicit, B = co-op (term unstated), C = intern with no term stated
-    rank = "A" if term == "spring" else ("B" if term == "coop-unspecified" else "C")
+    if term == "fall":
+        return False, "fall only", {"term": term}
+    if term == "summer" and re.search(r"summer\s*'?(20)?26|summer 2026", job["title"] + " " + (job.get("description") or "")[:4000], re.I) \
+            and not re.search(r"2027", job["title"] + " " + (job.get("description") or "")[:4000]):
+        return False, "summer 2026 (past)", {"term": term}
+    # rank: A = spring or summer 2027 explicit, B = co-op (term unstated), C = intern with no term stated
+    rank = "A" if term in ("spring", "summer") else ("B" if term == "coop-unspecified" else "C")
     return True, "ok", {"term": term, "hw": hits[:4], "rank": rank}

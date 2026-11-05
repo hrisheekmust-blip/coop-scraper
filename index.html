@@ -114,13 +114,13 @@ main{padding-block:14px 60px}
   <span class="sub" id="sub">loading…</span>
   <div class="tools">
     <input id="q" type="search" placeholder="Search company, role, location" aria-label="Search">
-    <div class="seg" id="seg"><button data-v="todo" class="on">To apply</button><button data-v="auto" title="Greenhouse, Ashby and Lever — supported by the apply userscript">No account</button><button data-v="applied">Applied</button><button data-v="all">All</button></div>
+    <div class="seg" id="seg"><button data-v="todo" class="on">To apply</button><button data-v="auto" title="Greenhouse, Ashby and Lever — supported by the apply userscript">No account</button><button data-v="summer" title="Summer 2027 stated in the posting">Summer '27</button><button data-v="applied">Applied</button><button data-v="all">All</button></div>
     <span class="sub" id="count"></span>
     <button class="gear" id="gear" title="Settings" aria-label="Settings">⚙</button>
   </div>
 </div></header>
 <div class="wrap"><main id="main"><div class="empty">Loading the board…</div></main>
-<p class="legend">Sorted best-first: CHIP → HARDWARE → MAYBE → other EE. APPLY NOW = Jan–Jun 2027 stated and fresh or deadline within 14 days · APPLY = Jan–Jun stated · SOON = co-op, no dates, fresh · WATCH = no dates stated. Anything running at any point Jan–Jun 2027 counts. Apply opens the materials for one job. Select several jobs and use Prepare &amp; apply to answer repeated questions once and run a batch in one tab.</p></div>
+<p class="legend">Sorted best-first: CHIP → HARDWARE → MAYBE → other EE. APPLY NOW = Jan–Jun or summer 2027 stated and fresh or deadline within 14 days · APPLY = Jan–Jun or summer 2027 stated · SOON = co-op, no dates, fresh · WATCH = no dates stated. Anything running at any point Jan–Aug 2027 counts; Summer '27 shows just the summer ones. Apply opens the materials for one job. Select several jobs and use Prepare &amp; apply to answer repeated questions once and run a batch in one tab.</p></div>
 <div id="batchbar"><span class="st" id="bst"></span><button class="btn" id="bskip" style="display:none">Skip this one</button><button class="btn primary" id="bgo">Apply to all</button><button class="btn" id="bclear">Clear</button></div>
 <div id="drawerHost"></div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
@@ -241,7 +241,7 @@ function jobs(){const base=rows.map(r=>({...r,...(apps[r.id]||synthFor(r)),...(s
 function listFor(){const q=$("q").value.toLowerCase();return jobs().filter(j=>{
   if(!j.primary)return false;
   const open=!isDone(j)&&!inFlight(j)&&!isHeld(j);
-  const inView=view==="all"?true:view==="applied"?(isDone(j)||inFlight(j)||isHeld(j)):view==="auto"?(open&&noAccount(j)&&canOneClick(j)):open;
+  const inView=view==="all"?true:view==="applied"?(isDone(j)||inFlight(j)||isHeld(j)):view==="auto"?(open&&noAccount(j)&&canOneClick(j)):view==="summer"?(open&&j.term==="summer"):open;
   return inView&&(!q||(j.company+" "+j.role+" "+j.location+" "+portalOf(j)).toLowerCase().includes(q))})}   // searching "ashby" or "greenhouse" narrows to that system
 const statusPill=j=>j.wv&&workerMode()?`<span class="pill s-${j.status||"queued"}">${esc(j.wv.display)}</span>`:j.status?`<span class="pill s-${j.status}">${j.status}</span>`:"";
 function rowHtml(j){const dl=daysTo(j.deadline);const hot=dl!==null&&dl<=14;const done=isDone(j)||isHeld(j);const hasMat=(j.materials||[]).length>0;
