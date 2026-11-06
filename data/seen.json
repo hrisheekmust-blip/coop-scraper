@@ -635,8 +635,8 @@
 },
 "https://www.indeed.com/viewjob": {
 "first_seen": "2026-09-18",
-"title": "ACDx Electrical Engineering Co-Op (Spring 2027)",
-"company": "Werfen",
+"title": "Test Development CoOp (Spring 2027)",
+"company": "Sanmina",
 "desc": ""
 },
 "https://www.linkedin.com/jobs/view/4468697840": {
@@ -21383,6 +21383,96 @@
 "first_seen": "2026-11-06",
 "title": "Enterprise Services Engineering Co-Op (Spring/Summer 2027)",
 "company": "RTX",
+"desc": ""
+},
+"https://go.vansh.nyc/1jD": {
+"first_seen": "2026-11-06",
+"title": "Undergraduate Electronic Data Interchange Intern",
+"company": "Molina Healthcare",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/af82ceed-87fa-4891-b3a5-cd25463dcddf": {
+"first_seen": "2026-11-06",
+"title": "Electrical Engineering Co-op",
+"company": "SSOE Group",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/b908be0a-f7cd-406c-bc21-71b8ca38af4f": {
+"first_seen": "2026-11-06",
+"title": "Electrical Co-op",
+"company": "Procter & Gamble",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/d2387312-aae1-4a97-88ae-8295b1261167": {
+"first_seen": "2026-11-06",
+"title": "Electrical Engineer Co-op",
+"company": "Koch Industries",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4471688490": {
+"first_seen": "2026-11-06",
+"title": "Electrical Engineer Student Experience - Summer 2027",
+"company": "Bobcat Company",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4455344751": {
+"first_seen": "2026-11-06",
+"title": "Semiconductor/RF Module Design Co-Op (Winter/Spring 2027)",
+"company": "Skyworks Solutions, Inc.",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4469324227": {
+"first_seen": "2026-11-06",
+"title": "Electrical Engineer Internship / Co-op",
+"company": "Eaton",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4487714194": {
+"first_seen": "2026-11-06",
+"title": "Electrical Engineering Intern (Summer 2027)(Onsite)",
+"company": "Collins Aerospace",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4488081820": {
+"first_seen": "2026-11-06",
+"title": "Internship - Electrical Engineer",
+"company": "ASML",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4440469024": {
+"first_seen": "2026-11-06",
+"title": "FPGA Engineer Intern (Summer 2027 - Chicago)",
+"company": "Optiver",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4488123047": {
+"first_seen": "2026-11-06",
+"title": "2027 S/W Embedded Engineering Intern \u2013 Sykesville MD",
+"company": "Northrop Grumman",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4488110300": {
+"first_seen": "2026-11-06",
+"title": "Failure Analysis Engineering Intern (Memory Technology)",
+"company": "Sandisk",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4488086887": {
+"first_seen": "2026-11-06",
+"title": "Meta-Optics Intern Summer 2027",
+"company": "metalenz",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4488109885": {
+"first_seen": "2026-11-06",
+"title": "Intern, Electrical Engineering",
+"company": "ASM",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4488044993": {
+"first_seen": "2026-11-06",
+"title": "Intern - Electrical Engineer Materials Scientist",
+"company": "General Atomics",
 "desc": ""
 }
 }
