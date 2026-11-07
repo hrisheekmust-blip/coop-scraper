@@ -164,7 +164,6 @@
   "hw": "electrical engineer",
   "tier": "big",
   "sources": [
-   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-09-17",
@@ -182,7 +181,6 @@
   "hw": "test engineer",
   "tier": "big",
   "sources": [
-   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-10-20",
@@ -200,7 +198,6 @@
   "hw": "firmware",
   "tier": "big",
   "sources": [
-   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-10-14",
@@ -218,7 +215,6 @@
   "hw": "test engineer",
   "tier": "big",
   "sources": [
-   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-10-15",
@@ -236,7 +232,6 @@
   "hw": "test engineer",
   "tier": "big",
   "sources": [
-   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-10-07",
@@ -339,7 +334,6 @@
   "hw": "electrical engineer",
   "tier": "big",
   "sources": [
-   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-09-17",
@@ -391,7 +385,6 @@
   "hw": "test engineer",
   "tier": "big",
   "sources": [
-   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-10-06",
@@ -494,7 +487,6 @@
   "hw": "electrical engineer",
   "tier": "big",
   "sources": [
-   "jobspy:linkedin",
    "workday"
   ],
   "first_seen": "2026-11-05",
@@ -2623,7 +2615,6 @@
   "hw": "electrical engineering,sensor",
   "tier": "big",
   "sources": [
-   "jobspy:indeed",
    "workday"
   ],
   "first_seen": "2026-11-05",
@@ -2913,8 +2904,6 @@
   "hw": "metrology",
   "tier": "big",
   "sources": [
-   "internlist:coop",
-   "jobspy:linkedin",
    "workday"
   ],
   "first_seen": "2026-09-18",
@@ -4190,7 +4179,6 @@
   "hw": "characterization",
   "tier": "big",
   "sources": [
-   "jobspy:linkedin",
    "workday"
   ],
   "first_seen": "2026-11-05",
@@ -5305,8 +5293,8 @@
  {
   "company": "Rocket Lab",
   "title": "Electrical Engineering Intern Summer 2027",
-  "location": "Long Beach, CA",
-  "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7990683003",
+  "location": "Pasadena, CA",
+  "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7998598003",
   "posted": "2026-11-02",
   "deadline": "",
   "term": "summer",
@@ -5322,8 +5310,8 @@
  {
   "company": "Rocket Lab",
   "title": "Electrical Engineering Intern Summer 2027",
-  "location": "Pasadena, CA",
-  "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7998598003",
+  "location": "Long Beach, CA",
+  "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7990683003",
   "posted": "2026-11-02",
   "deadline": "",
   "term": "summer",
@@ -5356,23 +5344,6 @@
  {
   "company": "Rocket Lab",
   "title": "Ground Systems Engineering Intern Spring 2027",
-  "location": "Stennis Space Center, MS",
-  "url": "https://job-boards.greenhouse.io/rocketlab/jobs/8007204003",
-  "posted": "2026-11-02",
-  "deadline": "",
-  "term": "spring",
-  "rank": "A",
-  "hw": "maybe",
-  "tier": "big",
-  "sources": [
-   "greenhouse"
-  ],
-  "first_seen": "2026-10-13",
-  "last_seen": "2026-11-07"
- },
- {
-  "company": "Rocket Lab",
-  "title": "Ground Systems Engineering Intern Spring 2027",
   "location": "Middle River, MD",
   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/8042094003",
   "posted": "2026-11-02",
@@ -5385,6 +5356,23 @@
    "greenhouse"
   ],
   "first_seen": "2026-11-03",
+  "last_seen": "2026-11-07"
+ },
+ {
+  "company": "Rocket Lab",
+  "title": "Ground Systems Engineering Intern Spring 2027",
+  "location": "Stennis Space Center, MS",
+  "url": "https://job-boards.greenhouse.io/rocketlab/jobs/8007204003",
+  "posted": "2026-11-02",
+  "deadline": "",
+  "term": "spring",
+  "rank": "A",
+  "hw": "maybe",
+  "tier": "big",
+  "sources": [
+   "greenhouse"
+  ],
+  "first_seen": "2026-10-13",
   "last_seen": "2026-11-07"
  },
  {
@@ -5654,8 +5642,7 @@
   "hw": "electrical engineering",
   "tier": "big",
   "sources": [
-   "greenhouse",
-   "internlist:coop"
+   "greenhouse"
   ],
   "first_seen": "2026-09-17",
   "last_seen": "2026-11-07"
@@ -7815,7 +7802,6 @@
   "hw": "silicon",
   "tier": "big",
   "sources": [
-   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-09-17",
@@ -7833,7 +7819,6 @@
   "hw": "silicon",
   "tier": "big",
   "sources": [
-   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-11-05",
@@ -9654,8 +9639,6 @@
   "hw": "hardware",
   "tier": "big",
   "sources": [
-   "jobspy:indeed",
-   "jobspy:linkedin",
    "lever"
   ],
   "first_seen": "2026-11-05",
@@ -9673,8 +9656,6 @@
   "hw": "hardware",
   "tier": "big",
   "sources": [
-   "jobspy:indeed",
-   "jobspy:linkedin",
    "lever"
   ],
   "first_seen": "2026-11-05",
@@ -9692,8 +9673,6 @@
   "hw": "hardware",
   "tier": "big",
   "sources": [
-   "jobspy:indeed",
-   "jobspy:linkedin",
    "lever"
   ],
   "first_seen": "2026-11-05",
@@ -9865,7 +9844,6 @@
   "hw": "semiconductor",
   "tier": "big",
   "sources": [
-   "jobspy:linkedin",
    "oracle_hcm"
   ],
   "first_seen": "2026-10-14",
@@ -9968,7 +9946,6 @@
   "hw": "test development",
   "tier": "big",
   "sources": [
-   "jobspy:linkedin",
    "oracle_hcm"
   ],
   "first_seen": "2026-11-05",
@@ -13815,9 +13792,7 @@
   "hw": "firmware",
   "tier": "big",
   "sources": [
-   "greenhouse",
-   "internlist:coop",
-   "internlist:winter-spring"
+   "greenhouse"
   ],
   "first_seen": "2026-09-24",
   "last_seen": "2026-11-07"
@@ -14951,7 +14926,6 @@
   "hw": "metrology",
   "tier": "big",
   "sources": [
-   "jobspy:linkedin",
    "workday"
   ],
   "first_seen": "2026-11-06",
@@ -16857,7 +16831,6 @@
   "hw": "eda,electrical",
   "tier": "big",
   "sources": [
-   "github:vanshb03-summer",
    "workday"
   ],
   "first_seen": "2026-10-28",
@@ -19010,6 +18983,40 @@
  },
  {
   "company": "Marvell",
+  "title": "Analog Design Intern",
+  "location": "Cordoba, Argentina",
+  "url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Cordoba-Argentina/Analog-Design-Intern_2602163",
+  "posted": "Posted 30+ Days Ago",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "analog",
+  "tier": "big",
+  "sources": [
+   "workday"
+  ],
+  "first_seen": "2026-09-18",
+  "last_seen": "2026-11-07"
+ },
+ {
+  "company": "Marvell",
+  "title": "Analog Modeling & Testing Engineer Intern",
+  "location": "Cordoba, Argentina",
+  "url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Cordoba-Argentina/Analog-Modeling---Testing-Engineer-Intern_2602068",
+  "posted": "Posted 30+ Days Ago",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "analog",
+  "tier": "big",
+  "sources": [
+   "workday"
+  ],
+  "first_seen": "2026-09-18",
+  "last_seen": "2026-11-07"
+ },
+ {
+  "company": "Marvell",
   "title": "Analog, Mixed Signal & Circuit Design Intern",
   "location": "Irvine, CA, USA; Santa Clara, CA, USA; Westlake Village, CA, USA",
   "url": "https://simplify.jobs/jobs/click/ce92705c-8ef8-41b9-b977-84b925ad7137",
@@ -19044,6 +19051,57 @@
  },
  {
   "company": "Marvell",
+  "title": "Design Verification- Intern",
+  "location": "IL - Petah Tikva",
+  "url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/IL---Petah-Tikva/Design-Verification--Intern_2604486",
+  "posted": "Posted 11 Days Ago",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "design verification",
+  "tier": "big",
+  "sources": [
+   "workday"
+  ],
+  "first_seen": "2026-10-27",
+  "last_seen": "2026-11-07"
+ },
+ {
+  "company": "Marvell",
+  "title": "Design Verification- Intern",
+  "location": "Petah-Tikva",
+  "url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Petah-Tikva/Design-Verification--Intern_2604479",
+  "posted": "Posted 25 Days Ago",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "design verification",
+  "tier": "big",
+  "sources": [
+   "workday"
+  ],
+  "first_seen": "2026-10-13",
+  "last_seen": "2026-11-07"
+ },
+ {
+  "company": "Marvell",
+  "title": "Digital IC Design Intern",
+  "location": "IL - Petah Tikva",
+  "url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/IL---Petah-Tikva/Digital-IC-Design-Intern_2604490",
+  "posted": "Posted 5 Days Ago",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "ic design",
+  "tier": "big",
+  "sources": [
+   "workday"
+  ],
+  "first_seen": "2026-09-23",
+  "last_seen": "2026-11-07"
+ },
+ {
+  "company": "Marvell",
   "title": "Digital IC Design Intern",
   "location": "**5 locations**Hudson Valley, NYAustin, TXIrvine, CASanta Clara, CABoise, ID",
   "url": "https://go.vansh.nyc/IW?s=y",
@@ -19057,6 +19115,23 @@
    "github:vanshb03-summer"
   ],
   "first_seen": "2026-10-26",
+  "last_seen": "2026-11-07"
+ },
+ {
+  "company": "Marvell",
+  "title": "Electro-optical Signal Integrity Intern",
+  "location": "CH - Adliswil",
+  "url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/CH---Adliswil/Electro-optical-Signal-Integrity_2604622",
+  "posted": "Posted 2 Days Ago",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "signal integrity",
+  "tier": "big",
+  "sources": [
+   "workday"
+  ],
+  "first_seen": "2026-11-05",
   "last_seen": "2026-11-07"
  },
  {
@@ -19210,6 +19285,23 @@
    "github:vanshb03-summer"
   ],
   "first_seen": "2026-10-25",
+  "last_seen": "2026-11-07"
+ },
+ {
+  "company": "Marvell",
+  "title": "System Chip Validation Intern",
+  "location": "Petah-Tikva",
+  "url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Petah-Tikva/System-Chip-Validation-Intern_2604495",
+  "posted": "Posted 30+ Days Ago",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "chip",
+  "tier": "big",
+  "sources": [
+   "workday"
+  ],
+  "first_seen": "2026-09-18",
   "last_seen": "2026-11-07"
  },
  {
@@ -20654,8 +20746,7 @@
   "hw": "design verification",
   "tier": "startup",
   "sources": [
-   "ashby",
-   "jobspy:linkedin"
+   "ashby"
   ],
   "first_seen": "2026-09-22",
   "last_seen": "2026-11-07"
@@ -20672,8 +20763,7 @@
   "hw": "rtl",
   "tier": "startup",
   "sources": [
-   "ashby",
-   "jobspy:linkedin"
+   "ashby"
   ],
   "first_seen": "2026-09-23",
   "last_seen": "2026-11-07"
@@ -21667,23 +21757,6 @@
  {
   "company": "Skyworks",
   "title": "Analog Design Intern",
-  "location": "Austin, TX, USA    ",
-  "url": "https://careers.skyworksinc.com/job/Analog-Design-Intern/78173-en_US",
-  "posted": "2026-08-18",
-  "deadline": "",
-  "term": "unspecified",
-  "rank": "C",
-  "hw": "analog",
-  "tier": "big",
-  "sources": [
-   "successfactors"
-  ],
-  "first_seen": "2026-09-17",
-  "last_seen": "2026-11-07"
- },
- {
-  "company": "Skyworks",
-  "title": "Analog Design Intern",
   "location": "Chandler, USA    ",
   "url": "https://careers.skyworksinc.com/job/Analog-Design-Intern/78718-en_US",
   "posted": "2026-10-27",
@@ -21696,6 +21769,23 @@
    "successfactors"
   ],
   "first_seen": "2026-10-27",
+  "last_seen": "2026-11-07"
+ },
+ {
+  "company": "Skyworks",
+  "title": "Analog Design Intern",
+  "location": "Austin, TX, USA    ",
+  "url": "https://careers.skyworksinc.com/job/Analog-Design-Intern/78173-en_US",
+  "posted": "2026-08-18",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "analog",
+  "tier": "big",
+  "sources": [
+   "successfactors"
+  ],
+  "first_seen": "2026-09-17",
   "last_seen": "2026-11-07"
  },
  {
@@ -22024,23 +22114,6 @@
  {
   "company": "Skyworks",
   "title": "Test Engineering Intern",
-  "location": "Chelmsford, USA    ",
-  "url": "https://careers.skyworksinc.com/job/Test-Engineering-Intern/78731-en_US",
-  "posted": "2026-10-27",
-  "deadline": "",
-  "term": "unspecified",
-  "rank": "C",
-  "hw": "test engineering",
-  "tier": "big",
-  "sources": [
-   "successfactors"
-  ],
-  "first_seen": "2026-10-31",
-  "last_seen": "2026-11-07"
- },
- {
-  "company": "Skyworks",
-  "title": "Test Engineering Intern",
   "location": "Chandler, USA    ",
   "url": "https://careers.skyworksinc.com/job/Test-Engineering-Intern/78716-en_US",
   "posted": "2026-10-27",
@@ -22104,6 +22177,23 @@
    "successfactors"
   ],
   "first_seen": "2026-10-28",
+  "last_seen": "2026-11-07"
+ },
+ {
+  "company": "Skyworks",
+  "title": "Test Engineering Intern",
+  "location": "Chelmsford, USA    ",
+  "url": "https://careers.skyworksinc.com/job/Test-Engineering-Intern/78731-en_US",
+  "posted": "2026-10-27",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "test engineering",
+  "tier": "big",
+  "sources": [
+   "successfactors"
+  ],
+  "first_seen": "2026-10-31",
   "last_seen": "2026-11-07"
  },
  {
@@ -22425,7 +22515,6 @@
   "hw": "analog",
   "tier": "big",
   "sources": [
-   "jobspy:linkedin",
    "oracle_hcm"
   ],
   "first_seen": "2026-11-04",
@@ -22460,7 +22549,6 @@
   "hw": "analog,design verification",
   "tier": "big",
   "sources": [
-   "jobspy:linkedin",
    "oracle_hcm"
   ],
   "first_seen": "2026-11-04",
@@ -22580,8 +22668,6 @@
   "hw": "digital design,verification",
   "tier": "big",
   "sources": [
-   "github:vanshb03-summer",
-   "jobspy:linkedin",
    "oracle_hcm"
   ],
   "first_seen": "2026-11-04",
