@@ -4763,40 +4763,6 @@
   "last_seen": "2026-11-07"
  },
  {
-  "company": "NXP",
-  "title": "Digital Validation Intern - Summer 2027",
-  "location": "Austin (Oakhill, Office)",
-  "url": "https://nxp.wd3.myworkdayjobs.com/careers/job/Austin-Oakhill-Office/Digital-Validation-Intern---Summer-2027_R-10065557",
-  "posted": "Posted 10 Days Ago",
-  "deadline": "",
-  "term": "summer",
-  "rank": "A",
-  "hw": "validation",
-  "tier": "big",
-  "sources": [
-   "workday"
-  ],
-  "first_seen": "2026-11-05",
-  "last_seen": "2026-11-07"
- },
- {
-  "company": "NXP",
-  "title": "Digital Verification Intern - Spring 2027",
-  "location": "Chandler (Office)",
-  "url": "https://nxp.wd3.myworkdayjobs.com/careers/job/Chandler-Office/Digital-Physical-Design--P-R--Intern_R-10064673",
-  "posted": "Posted 4 Days Ago",
-  "deadline": "",
-  "term": "spring",
-  "rank": "A",
-  "hw": "verification",
-  "tier": "big",
-  "sources": [
-   "workday"
-  ],
-  "first_seen": "2026-10-02",
-  "last_seen": "2026-11-07"
- },
- {
   "company": "National Laboratory of the Rockies",
   "title": "Undergraduate/Graduate Intern - Power System/Power Electronics Modeling",
   "location": "Golden, CO, USA",
@@ -20105,23 +20071,6 @@
  },
  {
   "company": "NXP",
-  "title": "Analog/Mixed-Signal Design Intern",
-  "location": "Tianjin (Teda)",
-  "url": "https://nxp.wd3.myworkdayjobs.com/careers/job/Tianjin-Teda/Analog-Mixed-Signal-Design-Intern_R-10066740",
-  "posted": "Posted 30+ Days Ago",
-  "deadline": "",
-  "term": "unspecified",
-  "rank": "C",
-  "hw": "analog,mixed-signal",
-  "tier": "big",
-  "sources": [
-   "workday"
-  ],
-  "first_seen": "2026-09-23",
-  "last_seen": "2026-11-07"
- },
- {
-  "company": "NXP",
   "title": "HW/SW System and Application Engineer Intern",
   "location": "Chandler, AZ",
   "url": "https://go.vansh.nyc/19K?s=y",
@@ -20135,108 +20084,6 @@
    "github:vanshb03-summer"
   ],
   "first_seen": "2026-11-03",
-  "last_seen": "2026-11-07"
- },
- {
-  "company": "NXP",
-  "title": "Internship Student Analog Mixed Signal verification F/M",
-  "location": "Catania",
-  "url": "https://nxp.wd3.myworkdayjobs.com/careers/job/Catania/Internship-Student-Analog-Mixed-Signal-verification-F-M_R-10064672",
-  "posted": "Posted 30+ Days Ago",
-  "deadline": "",
-  "term": "unspecified",
-  "rank": "C",
-  "hw": "analog,mixed signal,verification",
-  "tier": "big",
-  "sources": [
-   "workday"
-  ],
-  "first_seen": "2026-10-02",
-  "last_seen": "2026-11-07"
- },
- {
-  "company": "NXP",
-  "title": "Internship: Secure Firmware Development (m/f/d)",
-  "location": "Gratkorn",
-  "url": "https://nxp.wd3.myworkdayjobs.com/careers/job/Gratkorn/Internship--Secure-Firmware-Development--m-f-d-_R-10066772",
-  "posted": "Posted 22 Days Ago",
-  "deadline": "",
-  "term": "unspecified",
-  "rank": "C",
-  "hw": "firmware",
-  "tier": "big",
-  "sources": [
-   "workday"
-  ],
-  "first_seen": "2026-10-12",
-  "last_seen": "2026-11-07"
- },
- {
-  "company": "NXP",
-  "title": "NVM Reliability Intern",
-  "location": "Nijmegen",
-  "url": "https://nxp.wd3.myworkdayjobs.com/careers/job/Nijmegen/NVM-Reliability-Intern_R-10067150",
-  "posted": "Posted 30+ Days Ago",
-  "deadline": "",
-  "term": "unspecified",
-  "rank": "C",
-  "hw": "reliability",
-  "tier": "big",
-  "sources": [
-   "workday"
-  ],
-  "first_seen": "2026-10-07",
-  "last_seen": "2026-11-07"
- },
- {
-  "company": "NXP",
-  "title": "Process Engineer Intern",
-  "location": "Bangkok",
-  "url": "https://nxp.wd3.myworkdayjobs.com/careers/job/Bangkok/Process-Engineer-Intern_R-10064147",
-  "posted": "Posted 30+ Days Ago",
-  "deadline": "",
-  "term": "unspecified",
-  "rank": "C",
-  "hw": "process engineer",
-  "tier": "big",
-  "sources": [
-   "workday"
-  ],
-  "first_seen": "2026-09-22",
-  "last_seen": "2026-11-07"
- },
- {
-  "company": "NXP",
-  "title": "Product Test Engineer Intern",
-  "location": "Bangkok",
-  "url": "https://nxp.wd3.myworkdayjobs.com/careers/job/Bangkok/Product-Test-Engineer-Intern_R-10064150",
-  "posted": "Posted 30+ Days Ago",
-  "deadline": "",
-  "term": "unspecified",
-  "rank": "C",
-  "hw": "test engineer",
-  "tier": "big",
-  "sources": [
-   "workday"
-  ],
-  "first_seen": "2026-09-22",
-  "last_seen": "2026-11-07"
- },
- {
-  "company": "NXP",
-  "title": "Working Student (f/m/d) RF Validation and Lab Automation",
-  "location": "Hamburg",
-  "url": "https://nxp.wd3.myworkdayjobs.com/careers/job/Hamburg/Working-Student--f-m-d--RF-Validation-and-Lab-Automation_R-10066629",
-  "posted": "Posted 3 Days Ago",
-  "deadline": "",
-  "term": "unspecified",
-  "rank": "C",
-  "hw": "rf",
-  "tier": "big",
-  "sources": [
-   "workday"
-  ],
-  "first_seen": "2026-09-24",
   "last_seen": "2026-11-07"
  },
  {
@@ -22062,23 +21909,6 @@
  },
  {
   "company": "Skyworks",
-  "title": "RFIC Design Intern",
-  "location": "Chelmsford, USA    ",
-  "url": "https://careers.skyworksinc.com/job/RFIC-Design-Intern/78765-en_US",
-  "posted": "2026-10-29",
-  "deadline": "",
-  "term": "unspecified",
-  "rank": "C",
-  "hw": "rfic",
-  "tier": "big",
-  "sources": [
-   "successfactors"
-  ],
-  "first_seen": "2026-10-29",
-  "last_seen": "2026-11-07"
- },
- {
-  "company": "Skyworks",
   "title": "Software Characterization Engineering Intern",
   "location": "Greensboro, USA    ",
   "url": "https://careers.skyworksinc.com/job/Software-Characterization-Engineering-Intern/78785-en_US",
@@ -22109,6 +21939,23 @@
    "successfactors"
   ],
   "first_seen": "2026-11-05",
+  "last_seen": "2026-11-07"
+ },
+ {
+  "company": "Skyworks",
+  "title": "Test Engineering Intern",
+  "location": "Chelmsford, USA    ",
+  "url": "https://careers.skyworksinc.com/job/Test-Engineering-Intern/78731-en_US",
+  "posted": "2026-10-27",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "test engineering",
+  "tier": "big",
+  "sources": [
+   "successfactors"
+  ],
+  "first_seen": "2026-10-31",
   "last_seen": "2026-11-07"
  },
  {
@@ -22148,23 +21995,6 @@
  {
   "company": "Skyworks",
   "title": "Test Engineering Intern",
-  "location": "Richardson, USA    ",
-  "url": "https://careers.skyworksinc.com/job/Test-Engineering-Intern/79036-en_US",
-  "posted": "2026-11-04",
-  "deadline": "",
-  "term": "unspecified",
-  "rank": "C",
-  "hw": "test engineering",
-  "tier": "big",
-  "sources": [
-   "successfactors"
-  ],
-  "first_seen": "2026-11-04",
-  "last_seen": "2026-11-07"
- },
- {
-  "company": "Skyworks",
-  "title": "Test Engineering Intern",
   "location": "Hillsboro, USA    ",
   "url": "https://careers.skyworksinc.com/job/Test-Engineering-Intern/78777-en_US",
   "posted": "2026-10-28",
@@ -22182,9 +22012,9 @@
  {
   "company": "Skyworks",
   "title": "Test Engineering Intern",
-  "location": "Chelmsford, USA    ",
-  "url": "https://careers.skyworksinc.com/job/Test-Engineering-Intern/78731-en_US",
-  "posted": "2026-10-27",
+  "location": "Richardson, USA    ",
+  "url": "https://careers.skyworksinc.com/job/Test-Engineering-Intern/79036-en_US",
+  "posted": "2026-11-04",
   "deadline": "",
   "term": "unspecified",
   "rank": "C",
@@ -22193,7 +22023,7 @@
   "sources": [
    "successfactors"
   ],
-  "first_seen": "2026-10-31",
+  "first_seen": "2026-11-04",
   "last_seen": "2026-11-07"
  },
  {
