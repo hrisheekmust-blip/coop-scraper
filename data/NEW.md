@@ -1,20 +1,8 @@
 # New postings — 2026-11-08
 
-11 new of 1339 tracked. Rank A = spring/Jan 2027 explicit, B = co-op with term unstated, C = intern with no term stated.
+0 new of 1340 tracked. Rank A = spring/Jan 2027 explicit, B = co-op with term unstated, C = intern with no term stated.
 
-| Rank | Term | Company | Role | Location | Posted | Link |
-|---|---|---|---|---|---|---|
-| C | unspecified | Rambus | Digital Design Intern | Johns Creek, GA | Nov 06 | [apply](https://go.vansh.nyc/1mt?s=y) |
-| A | spring | PM Group | Electrical Engineering Co-op, For Drexel University Students - Spring/Summer 2027 Cycle | Conshohocken, PA, USA | 2026-11-06 | [apply](https://www.linkedin.com/jobs/view/4477325813) |
-| A | summer | GE HealthCare | Edison Engineering Development Program Internship - Hardware | Aurora, OH, USA | 2026-11-05 | [apply](https://www.linkedin.com/jobs/view/4462040137) |
-| A | summer | Optiver | FPGA Engineer Intern (Summer 2027 - Austin) | Austin, TX, USA | 2026-11-08 | [apply](https://www.linkedin.com/jobs/view/4440494625) |
-| A | summer | Shure | Audio Test Engineering Intern | Skokie, IL, USA | 2026-11-06 | [apply](https://www.linkedin.com/jobs/view/4461378866) |
-| C | unspecified | Archer | Intern - YE-Electrical Failure Analysis Engineer | Boise, ID, USA | 2026-11-08 | [apply](https://www.linkedin.com/jobs/view/4487632506) |
-| A | summer | K2 Space Corporation | Avionics Systems/Test Engineering Intern – Summer 2027 | Los Angeles, CA, USA | 2026-11-07 | [apply](https://www.linkedin.com/jobs/view/4459286044) |
-| B | coop-unspecified | Sanmina | Engineering /Technology Co-Op | Fremont, CA, USA | 2026-11-07 | [apply](https://www.linkedin.com/jobs/view/4487375951) |
-| A | summer | Kairos Power | Electrical Engineering Internship - Summer 2027 | Albuquerque, NM, USA | 2026-11-07 | [apply](https://www.linkedin.com/jobs/view/4444771055) |
-| A | summer | Zurn Elkay Water Solutions | Embedded Firmware Intern (Summer 2027) | Milwaukee, WI, USA | 2026-11-08 | [apply](https://www.linkedin.com/jobs/view/4470712874) |
-| A | summer | Marvell Technology | Firmware Engineer Intern, BS - Summer 2027 | Westlake Village, CA, USA | 2026-11-07 | [apply](https://www.linkedin.com/jobs/view/4461455006) |
+_nothing new today_
 
 ## All tracked
 
@@ -328,8 +316,8 @@
 | A | summer | Rocket Lab | Electrical Engineering Intern Summer 2027 | Pasadena, CA | 2026-11-02 | [apply](https://job-boards.greenhouse.io/rocketlab/jobs/7998598003) |
 | A | summer | Rocket Lab | Electrical Engineering Intern Summer 2027 | Long Beach, CA | 2026-11-02 | [apply](https://job-boards.greenhouse.io/rocketlab/jobs/7990683003) |
 | A | spring | Rocket Lab | Fluid Systems Intern Spring 2027 | Long Beach, CA | 2026-11-04 | [apply](https://job-boards.greenhouse.io/rocketlab/jobs/7986788003) |
-| A | spring | Rocket Lab | Ground Systems Engineering Intern Spring 2027 | Stennis Space Center, MS | 2026-11-02 | [apply](https://job-boards.greenhouse.io/rocketlab/jobs/8007204003) |
 | A | spring | Rocket Lab | Ground Systems Engineering Intern Spring 2027 | Middle River, MD | 2026-11-02 | [apply](https://job-boards.greenhouse.io/rocketlab/jobs/8042094003) |
+| A | spring | Rocket Lab | Ground Systems Engineering Intern Spring 2027 | Stennis Space Center, MS | 2026-11-02 | [apply](https://job-boards.greenhouse.io/rocketlab/jobs/8007204003) |
 | A | spring | Rocket Lab | Manufacturing Engineering Intern Spring 2027 | Long Beach, CA | 2026-11-02 | [apply](https://job-boards.greenhouse.io/rocketlab/jobs/7984943003) |
 | A | spring | Rocket Lab | Manufacturing Engineering Intern Spring 2027 | Middle River, MD | 2026-11-02 | [apply](https://job-boards.greenhouse.io/rocketlab/jobs/7987020003) |
 | A | spring | Rocket Lab | Propulsion Design Intern Spring 2027 | Long Beach, CA | 2026-11-06 | [apply](https://job-boards.greenhouse.io/rocketlab/jobs/7987110003) |
@@ -1277,6 +1265,7 @@
 | C | unspecified | Skyworks | Analog/Mixed-Signal Intern | Nashua, NH, USA     | 2026-09-30 | [apply](https://careers.skyworksinc.com/job/AnalogMixed-Signal-Intern/78414-en_US) |
 | C | unspecified | Skyworks | Analog/mixed-signal Design Intern | Nashua, NH, USA     | 2026-09-30 | [apply](https://careers.skyworksinc.com/job/Analogmixed-signal-Design-Intern/78367-en_US) |
 | C | unspecified | Skyworks | Characterization Engineering Intern | Greensboro, USA     | 2026-10-28 | [apply](https://careers.skyworksinc.com/job/Characterization-Engineering-Intern/78726-en_US) |
+| C | unspecified | Skyworks | Electrical CAD Engineer Intern | Richardson, USA     | 2026-10-28 | [apply](https://careers.skyworksinc.com/job/Electrical-CAD-Engineer-Intern/78739-en_US) |
 | C | unspecified | Skyworks | Electrical Design Engineering Intern | Richardson, USA     | 2026-10-27 | [apply](https://careers.skyworksinc.com/job/Electrical-Design-Engineering-Intern/78710-en_US) |
 | C | unspecified | Skyworks | Electrical Engineering Intern | Shenzen, GD, CHN     | 2026-10-15 | [apply](https://careers.skyworksinc.com/job/Electrical-Engineering-Intern/78680-en_US) |
 | C | unspecified | Skyworks | IC Layout Engineering Intern | Richardson, USA     | 2026-10-28 | [apply](https://careers.skyworksinc.com/job/IC-Layout-Engineering-Intern/78740-en_US) |

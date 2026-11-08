@@ -164,7 +164,6 @@
   "hw": "electrical engineer",
   "tier": "big",
   "sources": [
-   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-09-17",
@@ -182,7 +181,6 @@
   "hw": "test engineer",
   "tier": "big",
   "sources": [
-   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-10-20",
@@ -200,7 +198,6 @@
   "hw": "firmware",
   "tier": "big",
   "sources": [
-   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-10-14",
@@ -218,7 +215,6 @@
   "hw": "test engineer",
   "tier": "big",
   "sources": [
-   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-10-15",
@@ -236,7 +232,6 @@
   "hw": "test engineer",
   "tier": "big",
   "sources": [
-   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-10-07",
@@ -339,7 +334,6 @@
   "hw": "electrical engineer",
   "tier": "big",
   "sources": [
-   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-09-17",
@@ -391,7 +385,6 @@
   "hw": "test engineer",
   "tier": "big",
   "sources": [
-   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-10-06",
@@ -494,7 +487,6 @@
   "hw": "electrical engineer",
   "tier": "big",
   "sources": [
-   "jobspy:linkedin",
    "workday"
   ],
   "first_seen": "2026-11-05",
@@ -2844,7 +2836,6 @@
   "hw": "metrology",
   "tier": "big",
   "sources": [
-   "internlist:coop",
    "workday"
   ],
   "first_seen": "2026-09-18",
@@ -5251,23 +5242,6 @@
  {
   "company": "Rocket Lab",
   "title": "Ground Systems Engineering Intern Spring 2027",
-  "location": "Stennis Space Center, MS",
-  "url": "https://job-boards.greenhouse.io/rocketlab/jobs/8007204003",
-  "posted": "2026-11-02",
-  "deadline": "",
-  "term": "spring",
-  "rank": "A",
-  "hw": "maybe",
-  "tier": "big",
-  "sources": [
-   "greenhouse"
-  ],
-  "first_seen": "2026-10-13",
-  "last_seen": "2026-11-08"
- },
- {
-  "company": "Rocket Lab",
-  "title": "Ground Systems Engineering Intern Spring 2027",
   "location": "Middle River, MD",
   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/8042094003",
   "posted": "2026-11-02",
@@ -5280,6 +5254,23 @@
    "greenhouse"
   ],
   "first_seen": "2026-11-03",
+  "last_seen": "2026-11-08"
+ },
+ {
+  "company": "Rocket Lab",
+  "title": "Ground Systems Engineering Intern Spring 2027",
+  "location": "Stennis Space Center, MS",
+  "url": "https://job-boards.greenhouse.io/rocketlab/jobs/8007204003",
+  "posted": "2026-11-02",
+  "deadline": "",
+  "term": "spring",
+  "rank": "A",
+  "hw": "maybe",
+  "tier": "big",
+  "sources": [
+   "greenhouse"
+  ],
+  "first_seen": "2026-10-13",
   "last_seen": "2026-11-08"
  },
  {
@@ -5549,8 +5540,7 @@
   "hw": "electrical engineering",
   "tier": "big",
   "sources": [
-   "greenhouse",
-   "internlist:coop"
+   "greenhouse"
   ],
   "first_seen": "2026-09-17",
   "last_seen": "2026-11-08"
@@ -7659,7 +7649,6 @@
   "hw": "silicon",
   "tier": "big",
   "sources": [
-   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-09-17",
@@ -7677,7 +7666,6 @@
   "hw": "silicon",
   "tier": "big",
   "sources": [
-   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-11-05",
@@ -9498,8 +9486,6 @@
   "hw": "hardware",
   "tier": "big",
   "sources": [
-   "jobspy:indeed",
-   "jobspy:linkedin",
    "lever"
   ],
   "first_seen": "2026-11-05",
@@ -9517,8 +9503,6 @@
   "hw": "hardware",
   "tier": "big",
   "sources": [
-   "jobspy:indeed",
-   "jobspy:linkedin",
    "lever"
   ],
   "first_seen": "2026-11-05",
@@ -9536,8 +9520,6 @@
   "hw": "hardware",
   "tier": "big",
   "sources": [
-   "jobspy:indeed",
-   "jobspy:linkedin",
    "lever"
   ],
   "first_seen": "2026-11-05",
@@ -9726,7 +9708,6 @@
   "hw": "semiconductor",
   "tier": "big",
   "sources": [
-   "jobspy:linkedin",
    "oracle_hcm"
   ],
   "first_seen": "2026-10-14",
@@ -9829,7 +9810,6 @@
   "hw": "test development",
   "tier": "big",
   "sources": [
-   "jobspy:linkedin",
    "oracle_hcm"
   ],
   "first_seen": "2026-11-05",
@@ -13558,9 +13538,7 @@
   "hw": "firmware",
   "tier": "big",
   "sources": [
-   "greenhouse",
-   "internlist:coop",
-   "internlist:winter-spring"
+   "greenhouse"
   ],
   "first_seen": "2026-09-24",
   "last_seen": "2026-11-08"
@@ -14744,7 +14722,6 @@
   "hw": "metrology",
   "tier": "big",
   "sources": [
-   "jobspy:linkedin",
    "workday"
   ],
   "first_seen": "2026-11-06",
@@ -16633,7 +16610,6 @@
   "hw": "eda,electrical",
   "tier": "big",
   "sources": [
-   "github:vanshb03-summer",
    "workday"
   ],
   "first_seen": "2026-10-28",
@@ -21440,6 +21416,23 @@
  },
  {
   "company": "Skyworks",
+  "title": "Electrical CAD Engineer Intern",
+  "location": "Richardson, USA    ",
+  "url": "https://careers.skyworksinc.com/job/Electrical-CAD-Engineer-Intern/78739-en_US",
+  "posted": "2026-10-28",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "cad,electrical",
+  "tier": "big",
+  "sources": [
+   "successfactors"
+  ],
+  "first_seen": "2026-10-28",
+  "last_seen": "2026-11-08"
+ },
+ {
+  "company": "Skyworks",
   "title": "Electrical Design Engineering Intern",
   "location": "Richardson, USA    ",
   "url": "https://careers.skyworksinc.com/job/Electrical-Design-Engineering-Intern/78710-en_US",
@@ -22198,7 +22191,6 @@
   "hw": "digital design,verification",
   "tier": "big",
   "sources": [
-   "github:vanshb03-summer",
    "oracle_hcm"
   ],
   "first_seen": "2026-11-04",
@@ -22403,7 +22395,6 @@
   "hw": "validation",
   "tier": "big",
   "sources": [
-   "jobspy:linkedin",
    "oracle_hcm"
   ],
   "first_seen": "2026-11-06",
