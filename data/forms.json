@@ -526,7 +526,7 @@
 "company": "Formlabs",
 "role": "Hardware Test Engineering Intern (Winter/Spring 2027)",
 "link": "https://careers.formlabs.com/job/8196515/apply/?gh_jid=8196515",
-"attempted": 1794171295,
+"attempted": 1794172594,
 "apply_url": "https://careers.formlabs.com/job/8196515/apply/?gh_jid=8196515",
 "portal": "greenhouse",
 "error": "ValueError: no board/job in url",
@@ -27398,7 +27398,7 @@
 "company": "Formlabs",
 "role": "Hardware R&D Engineering Intern (Winter/Spring 2027)",
 "link": "https://careers.formlabs.com/job/8172226/apply/?gh_jid=8172226",
-"attempted": 1794171295,
+"attempted": 1794172594,
 "apply_url": "https://careers.formlabs.com/job/8172226/apply/?gh_jid=8172226",
 "portal": "greenhouse",
 "error": "ValueError: no board/job in url",
@@ -27408,7 +27408,7 @@
 "company": "Formlabs",
 "role": "Hardware Systems Integration Intern (Winter/Spring 2027)",
 "link": "https://careers.formlabs.com/job/8172004/apply/?gh_jid=8172004",
-"attempted": 1794171295,
+"attempted": 1794172594,
 "apply_url": "https://careers.formlabs.com/job/8172004/apply/?gh_jid=8172004",
 "portal": "greenhouse",
 "error": "ValueError: no board/job in url",
@@ -31147,7 +31147,7 @@
 "company": "Formlabs",
 "role": "Electrical Engineering Intern (Winter/Spring 2027)",
 "link": "https://careers.formlabs.com/job/8148283/apply/?gh_jid=8148283",
-"attempted": 1794171295,
+"attempted": 1794172594,
 "apply_url": "https://careers.formlabs.com/job/8148283/apply/?gh_jid=8148283",
 "portal": "greenhouse",
 "error": "ValueError: no board/job in url",
@@ -33126,7 +33126,7 @@
 "company": "Formlabs",
 "role": "Manufacturing Engineering Intern (Winter/Spring 2027)",
 "link": "https://careers.formlabs.com/job/8161817/apply/?gh_jid=8161817",
-"attempted": 1794171295,
+"attempted": 1794172594,
 "apply_url": "https://careers.formlabs.com/job/8161817/apply/?gh_jid=8161817",
 "portal": "greenhouse",
 "error": "ValueError: no board/job in url",
@@ -33408,7 +33408,7 @@
 "company": "Formlabs",
 "role": "Industrial Design Intern (Winter/Spring 2027)",
 "link": "https://careers.formlabs.com/job/8172232/apply/?gh_jid=8172232",
-"attempted": 1794171295,
+"attempted": 1794172594,
 "apply_url": "https://careers.formlabs.com/job/8172232/apply/?gh_jid=8172232",
 "portal": "greenhouse",
 "error": "ValueError: no board/job in url",
@@ -40477,7 +40477,7 @@
 "company": "Quantinuum",
 "role": "Photonic Integrated Circuit Design Intern",
 "link": "https://simplify.jobs/jobs/click/7c5b5c68-c8bb-439a-8e46-f121d04eec2a",
-"attempted": 1794171295,
+"attempted": 1794172594,
 "apply_url": "https://jobs.eu.lever.co/quantinuum/ef4b4db2-4ce1-47f5-bfd1-12dfc8a90107/apply?lever-source=Simplify",
 "portal": "lever",
 "error": "ValueError: no company/id in url",
@@ -42161,7 +42161,7 @@
 "company": "Vast",
 "role": "Emerging Talent - Electrical Engineering Internship",
 "link": "https://boards.greenhouse.io/vast/jobs/4711401006?gh_jid=4711401006",
-"attempted": 1793839084,
+"attempted": 1794172594,
 "apply_url": "https://boards.greenhouse.io/vast/jobs/4711401006",
 "portal": "greenhouse",
 "fields": [
@@ -42351,14 +42351,14 @@
 }
 ],
 "error": "",
-"fetched": "2026-11-05T00:38Z",
+"fetched": "2026-11-08T21:16Z",
 "closed": false
 },
 "da8c90ef3f54d6a1": {
 "company": "Zoox",
 "role": "Contract Student Worker  \u2013 Firmware Engineer (FW Thermal/Body)",
 "link": "https://jobs.lever.co/zoox/07f0834f-06ec-44c7-a24b-3efa08589d38",
-"attempted": 1793839084,
+"attempted": 1794172594,
 "apply_url": "https://jobs.lever.co/zoox/07f0834f-06ec-44c7-a24b-3efa08589d38/apply",
 "portal": "lever",
 "fields": [
@@ -42531,7 +42531,7 @@
 }
 ],
 "error": "",
-"fetched": "2026-11-05T00:38Z",
+"fetched": "2026-11-08T21:16Z",
 "closed": false
 },
 "eeef8cd5399a6841": {
@@ -43012,7 +43012,7 @@
 "company": "BRPH",
 "role": "Electrical Engineer Intern",
 "link": "https://simplify.jobs/jobs/click/cf9d0dea-9b51-4c85-8354-7647e928382d",
-"attempted": 1793839084,
+"attempted": 1794172594,
 "apply_url": "https://boards.greenhouse.io/brph/jobs/4399599009",
 "portal": "greenhouse",
 "fields": [
@@ -43112,7 +43112,7 @@
 }
 ],
 "error": "",
-"fetched": "2026-11-05T00:38Z",
+"fetched": "2026-11-08T21:16Z",
 "closed": false
 },
 "8108526fa6c37416": {
@@ -43270,7 +43270,7 @@
 "company": "Mill",
 "role": "Hardware Systems Engineering Intern",
 "link": "https://simplify.jobs/jobs/click/5022b65e-70e5-4903-bc07-7f927be663f2",
-"attempted": 1793839084,
+"attempted": 1794172594,
 "apply_url": "https://boards.greenhouse.io/mill/jobs/4733711005",
 "portal": "greenhouse",
 "fields": [
@@ -43324,7 +43324,7 @@
 }
 ],
 "error": "",
-"fetched": "2026-11-05T00:38Z",
+"fetched": "2026-11-08T21:16Z",
 "closed": false
 },
 "df500e71c9c637be": {
@@ -43909,7 +43909,7 @@
 "company": "VAST",
 "role": "Electrical Engineering Intern",
 "link": "https://simplify.jobs/jobs/click/d226e415-93e5-49dc-8e8a-7dff0c13e67a",
-"attempted": 1793839084,
+"attempted": 1794172594,
 "apply_url": "https://boards.greenhouse.io/vast/jobs/4711401006",
 "portal": "greenhouse",
 "fields": [
@@ -44099,14 +44099,14 @@
 }
 ],
 "error": "",
-"fetched": "2026-11-05T00:38Z",
+"fetched": "2026-11-08T21:16Z",
 "closed": false
 },
 "aea73894d12dffae": {
 "company": "BRPH",
 "role": "Electrical Engineer Intern",
 "link": "https://simplify.jobs/jobs/click/b0c0f335-31c5-4304-acdc-bcbd700ad9fd",
-"attempted": 1793839084,
+"attempted": 1794172594,
 "apply_url": "https://boards.greenhouse.io/brph/jobs/4399734009",
 "portal": "greenhouse",
 "fields": [
@@ -44213,7 +44213,7 @@
 }
 ],
 "error": "",
-"fetched": "2026-11-05T00:38Z",
+"fetched": "2026-11-08T21:16Z",
 "closed": false
 },
 "b270f84c27fda184": {
@@ -44891,7 +44891,7 @@
 "company": "Reflect Orbital",
 "role": "Embedded Firmware Engineer Intern",
 "link": "https://simplify.jobs/jobs/click/6f3a77be-dd63-4de2-a8dd-80babbfaecac",
-"attempted": 1793839084,
+"attempted": 1794172594,
 "apply_url": "https://jobs.ashbyhq.com/reflect-orbital/d5ade048-5555-4a77-b002-d117254b6e6b/application",
 "portal": "ashby",
 "fields": [
@@ -45004,7 +45004,7 @@
 }
 ],
 "error": "",
-"fetched": "2026-11-05T00:38Z",
+"fetched": "2026-11-08T21:16Z",
 "closed": false
 },
 "4d2e638847df07a5": {
@@ -45211,7 +45211,7 @@
 "company": "Olsson",
 "role": "Electrical Engineer Intern",
 "link": "https://simplify.jobs/jobs/click/d87299bb-5a54-451c-87b1-abbc0e0c1d41",
-"attempted": 1793839084,
+"attempted": 1794172594,
 "apply_url": "https://boards.greenhouse.io/olsson/jobs/5394106008",
 "portal": "greenhouse",
 "fields": [
@@ -45351,7 +45351,7 @@
 }
 ],
 "error": "",
-"fetched": "2026-11-05T00:38Z",
+"fetched": "2026-11-08T21:16Z",
 "closed": false
 },
 "1e97dec407e87add": {
@@ -45503,9 +45503,9 @@
 },
 "69a2c9adf2a7dc36": {
 "company": "Shield AI",
-"role": "Electrical Engineering Co-op",
+"role": "Electrical Engineer Co-op Intern",
 "link": "https://simplify.jobs/jobs/click/eb8f9769-0acf-47c3-bbb7-5f60c04f0239",
-"attempted": 1793839084,
+"attempted": 1794172594,
 "apply_url": "https://jobs.lever.co/shieldai/8c6cfcee-c6da-4a73-9bdf-3ef098ff59e6/apply",
 "portal": "lever",
 "fields": [
@@ -45800,7 +45800,7 @@
 }
 ],
 "error": "",
-"fetched": "2026-11-05T00:38Z",
+"fetched": "2026-11-08T21:16Z",
 "closed": false
 },
 "1f0887ef6af5edba": {
@@ -50282,7 +50282,7 @@
 "company": "Contoro",
 "role": "Robotics Test & Validation Intern",
 "link": "https://simplify.jobs/jobs/click/79560962-eb14-4db4-8a83-ee23d27019aa",
-"attempted": 1793839084,
+"attempted": 1794172594,
 "apply_url": "https://jobs.ashbyhq.com/contoro/7de98745-6a26-4a96-b82c-0cecf4900eb1/application",
 "portal": "ashby",
 "fields": [
@@ -50349,7 +50349,7 @@
 }
 ],
 "error": "",
-"fetched": "2026-11-05T00:38Z",
+"fetched": "2026-11-08T21:16Z",
 "closed": false
 },
 "7ba32e66854a544a": {
@@ -51166,7 +51166,7 @@
 "company": "Deft AI",
 "role": "Electrical Engineer Intern",
 "link": "https://simplify.jobs/jobs/click/ecde6f88-4359-4032-b78b-4daa63415158",
-"attempted": 1793839084,
+"attempted": 1794172594,
 "apply_url": "https://jobs.ashbyhq.com/deft-ai/0d16afe8-30a9-43df-90d5-ccba1cb97b69/application",
 "portal": "ashby",
 "fields": [
@@ -51235,7 +51235,7 @@
 }
 ],
 "error": "",
-"fetched": "2026-11-05T00:38Z",
+"fetched": "2026-11-08T21:16Z",
 "closed": false
 },
 "e096b4304d018c21": {
@@ -51573,7 +51573,7 @@
 "company": "Layup Parts",
 "role": "Electrical Engineer Intern",
 "link": "https://simplify.jobs/jobs/click/7aee3588-7e48-429c-a025-1c31b08e9313",
-"attempted": 1793839084,
+"attempted": 1794172594,
 "apply_url": "https://jobs.lever.co/layup/0d8b26c2-f4f9-4dc1-b987-1e496fd616aa/apply",
 "portal": "lever",
 "fields": [
@@ -51653,7 +51653,7 @@
 }
 ],
 "error": "",
-"fetched": "2026-11-05T00:38Z",
+"fetched": "2026-11-08T21:16Z",
 "closed": false
 },
 "7ed4fb6579a94e9e": {
@@ -51670,7 +51670,7 @@
 "company": "Applied Intuition",
 "role": "Research Intern - Robotic Hardware, Simulation and Data",
 "link": "https://jobs.ashbyhq.com/applied/5bb0567a-8d07-4cc4-be7c-c06b31361883",
-"attempted": 1793839084,
+"attempted": 1794172594,
 "apply_url": "https://jobs.ashbyhq.com/applied/5bb0567a-8d07-4cc4-be7c-c06b31361883/application",
 "portal": "ashby",
 "fields": [
@@ -51816,7 +51816,7 @@
 }
 ],
 "error": "",
-"fetched": "2026-11-05T00:38Z",
+"fetched": "2026-11-08T21:16Z",
 "closed": false
 },
 "103307524e842c69": {
@@ -52336,7 +52336,7 @@
 "company": "Vast",
 "role": "Emerging Talent - Manufacturing Engineering Internship",
 "link": "https://boards.greenhouse.io/vast/jobs/4711403006?gh_jid=4711403006",
-"attempted": 1793839084,
+"attempted": 1794172594,
 "apply_url": "https://boards.greenhouse.io/vast/jobs/4711403006",
 "portal": "greenhouse",
 "fields": [
@@ -52560,14 +52560,14 @@
 }
 ],
 "error": "",
-"fetched": "2026-11-05T00:38Z",
+"fetched": "2026-11-08T21:16Z",
 "closed": false
 },
 "d5ac8b7eb14cac61": {
 "company": "Vast",
 "role": "Emerging Talent - Mechanical/Aerospace Engineering Internship",
 "link": "https://boards.greenhouse.io/vast/jobs/4711400006?gh_jid=4711400006",
-"attempted": 1793839084,
+"attempted": 1794172594,
 "apply_url": "https://boards.greenhouse.io/vast/jobs/4711400006",
 "portal": "greenhouse",
 "fields": [
@@ -52773,14 +52773,14 @@
 }
 ],
 "error": "",
-"fetched": "2026-11-05T00:38Z",
+"fetched": "2026-11-08T21:16Z",
 "closed": false
 },
 "c7c0402974db38a3": {
 "company": "Vast",
 "role": "University Recruiter II",
 "link": "https://boards.greenhouse.io/vast/jobs/4693801006?gh_jid=4693801006",
-"attempted": 1793839084,
+"attempted": 1794172594,
 "apply_url": "https://boards.greenhouse.io/vast/jobs/4693801006",
 "portal": "greenhouse",
 "fields": [
@@ -52963,7 +52963,7 @@
 }
 ],
 "error": "",
-"fetched": "2026-11-05T00:38Z",
+"fetched": "2026-11-08T21:16Z",
 "closed": false
 },
 "eb46772601bc0196": {
@@ -53249,7 +53249,7 @@
 "company": "Thermo Fisher Scientific",
 "role": "Packaging Engineering Co-op",
 "link": "https://jobs.thermofisher.com/global/en/job/R-01366624/packaging-engineering-co-op",
-"attempted": 1794046810,
+"attempted": 1794172594,
 "apply_url": "https://jobs.thermofisher.com/global/en/job/R-01366624/packaging-engineering-co-op",
 "portal": "other",
 "fields": null,
@@ -53259,7 +53259,7 @@
 "company": "Amazon",
 "role": "Industrial Development Engineer Intern/Co-op, ROBOTICS - 2027",
 "link": "https://www.amazon.jobs/en/jobs/10536817/industrial-development-engineer-intern-co-op-robotics-2027",
-"attempted": 1794046810,
+"attempted": 1794172594,
 "apply_url": "https://www.amazon.jobs/en/jobs/10536817/industrial-development-engineer-intern-co-op-robotics-2027",
 "portal": "amazon",
 "fields": null,
@@ -53514,7 +53514,7 @@
 "company": "Marvell",
 "role": "Advanced Packaging & Physical Integration Intern",
 "link": "https://simplify.jobs/jobs/click/c19ad514-a4fd-4e47-a2ae-ab57347804ad",
-"attempted": 1794046810,
+"attempted": 1794172594,
 "apply_url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Santa-Clara-CA/PhD-Intern---Advanced-Packaging---Physical-Integration_2604413?utm_source=Simplify",
 "portal": "workday",
 "fields": null,
@@ -53524,7 +53524,7 @@
 "company": "Marvell",
 "role": "PhD Intern",
 "link": "https://simplify.jobs/jobs/click/b993dfd1-18f6-4fe1-97b4-b37792dd18ae",
-"attempted": 1794046810,
+"attempted": 1794172594,
 "apply_url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Santa-Clara-CA/PhD-Intern---Architecture--DSP---Systems-Architecture_2604415?utm_source=Simplify",
 "portal": "workday",
 "fields": null,
@@ -53534,7 +53534,7 @@
 "company": "Marvell",
 "role": "Ph.D. Intern",
 "link": "https://simplify.jobs/jobs/click/9c3c759c-4a1c-4b6f-8f1c-51e5c4fdb90d",
-"attempted": 1794046810,
+"attempted": 1794172594,
 "apply_url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Santa-Clara-CA/PhD-Intern---AI-ML---Design-Automation_2604412?utm_source=Simplify",
 "portal": "workday",
 "fields": null,
@@ -53544,7 +53544,7 @@
 "company": "Thermo Fisher Scientific",
 "role": "Engineering Co-Op",
 "link": "https://jobs.thermofisher.com/global/en/job/R-01366580/engineering-co-op",
-"attempted": 1794046810,
+"attempted": 1794172594,
 "apply_url": "https://jobs.thermofisher.com/global/en/job/R-01366580/engineering-co-op",
 "portal": "other",
 "fields": null,
@@ -53802,7 +53802,7 @@
 "company": "Micron Technology",
 "role": "DRAM Design Rules Intern",
 "link": "https://simplify.jobs/jobs/click/ac51c04c-ef1b-4705-8b2c-8001da135c28",
-"attempted": 1794046810,
+"attempted": 1794172594,
 "apply_url": "https://micron.wd1.myworkdayjobs.com/External/job/Boise-ID---Main-Site/Intern---DRAM-Design-Rules_JR110670?utm_source=Simplify",
 "portal": "workday",
 "fields": null,
@@ -54794,7 +54794,7 @@
 "company": "QuEra",
 "role": "Internship Inquiries ",
 "link": "https://job-boards.greenhouse.io/queracomputinginc/jobs/4182470008",
-"attempted": 1793839084,
+"attempted": 1794172594,
 "apply_url": "https://boards.greenhouse.io/queracomputinginc/jobs/4182470008",
 "portal": "greenhouse",
 "fields": [
@@ -54848,14 +54848,14 @@
 }
 ],
 "error": "",
-"fetched": "2026-11-05T00:38Z",
+"fetched": "2026-11-08T21:16Z",
 "closed": false
 },
 "2aeedc29474fd1e9": {
 "company": "Periodic Labs",
 "role": "Research Intern",
 "link": "https://simplify.jobs/jobs/click/4284c1a9-1025-463f-97ee-3b175776e726",
-"attempted": 1793839084,
+"attempted": 1794172594,
 "apply_url": "https://jobs.ashbyhq.com/periodic-labs/2cfb099d-42f1-4dff-93f4-1862b13f914a/application",
 "portal": "ashby",
 "fields": [
@@ -54930,7 +54930,7 @@
 }
 ],
 "error": "",
-"fetched": "2026-11-05T00:38Z",
+"fetched": "2026-11-08T21:16Z",
 "closed": false
 },
 "3b9dc89ac6dce42e": {
@@ -54947,7 +54947,7 @@
 "company": "Impulse Space",
 "role": "General Application \u2013 Engineering (Full-Time + Internships)",
 "link": "https://jobs.ashbyhq.com/impulse/0b03563e-e0b8-4774-b3da-5a072170614f",
-"attempted": 1793839084,
+"attempted": 1794172594,
 "apply_url": "https://jobs.ashbyhq.com/impulse/0b03563e-e0b8-4774-b3da-5a072170614f/application",
 "portal": "ashby",
 "fields": [
@@ -55019,7 +55019,7 @@
 }
 ],
 "error": "",
-"fetched": "2026-11-05T00:38Z",
+"fetched": "2026-11-08T21:16Z",
 "closed": false
 },
 "40923cef95fdb09b": {
@@ -57752,7 +57752,7 @@
 "company": "Figure AI",
 "role": "Electrical Engineering Intern [Winter 2027]",
 "link": "https://job-boards.greenhouse.io/figureai/jobs/4676467006",
-"attempted": 1793839084,
+"attempted": 1794172594,
 "apply_url": "https://boards.greenhouse.io/figureai/jobs/4676467006",
 "portal": "greenhouse",
 "fields": [
@@ -57856,7 +57856,7 @@
 }
 ],
 "error": "",
-"fetched": "2026-11-05T00:38Z",
+"fetched": "2026-11-08T21:16Z",
 "closed": false
 },
 "6bcb67743f31b265": {
@@ -58132,7 +58132,7 @@
 "company": "Quadric",
 "role": "Design Verification Intern",
 "link": "https://jobs.ashbyhq.com/quadric/42074f13-dab4-4203-99a7-8fa3186de168",
-"attempted": 1793839084,
+"attempted": 1794172594,
 "apply_url": "https://jobs.ashbyhq.com/quadric/42074f13-dab4-4203-99a7-8fa3186de168/application",
 "portal": "ashby",
 "fields": [
@@ -58212,14 +58212,14 @@
 }
 ],
 "error": "",
-"fetched": "2026-11-05T00:38Z",
+"fetched": "2026-11-08T21:16Z",
 "closed": false
 },
 "c58242cde694440c": {
 "company": "Hermeus",
 "role": "Propulsion Test Engineering Intern - Spring/Summer/Fall 2027",
 "link": "https://jobs.lever.co/hermeus/d2651ecb-9aab-4d84-8e69-cbcf7cece28d",
-"attempted": 1793839084,
+"attempted": 1794172594,
 "apply_url": "https://jobs.lever.co/hermeus/d2651ecb-9aab-4d84-8e69-cbcf7cece28d/apply",
 "portal": "lever",
 "fields": [
@@ -58366,10 +58366,15 @@
 ]
 },
 {
-"label": "Have you completed at least one previous internship? Please provide details.",
-"type": "textarea",
+"label": "Have you completed at least one previous internship?",
+"type": "select",
 "required": true,
-"options": []
+"options": [
+"Yes",
+"No",
+"Other - Research",
+"Other - Job"
+]
 },
 {
 "label": "Have you completed your junior year of study (i.e., are you entering your senior year) or are you a graduate student?",
@@ -58771,7 +58776,7 @@
 }
 ],
 "error": "",
-"fetched": "2026-11-05T00:38Z",
+"fetched": "2026-11-08T21:16Z",
 "closed": false
 },
 "733650043339efc3": {
@@ -61710,7 +61715,7 @@
 "company": "Intel",
 "role": "Platform Hardware and Systems Engineering - Intern, Graduate",
 "link": "https://www.linkedin.com/jobs/view/4461317981",
-"attempted": 1794085182,
+"attempted": 1794172594,
 "apply_url": "https://www.linkedin.com/jobs/view/4461317981",
 "portal": "linkedin",
 "fields": null,
@@ -61743,7 +61748,7 @@
 "company": "Intel",
 "role": "Silicon Hardware Engineering - Intern, Bachelor\u2019s",
 "link": "https://www.linkedin.com/jobs/view/4461335125",
-"attempted": 1794085182,
+"attempted": 1794172594,
 "apply_url": "https://www.linkedin.com/jobs/view/4461335125",
 "portal": "linkedin",
 "fields": null,
@@ -61754,7 +61759,7 @@
 "company": "Intel",
 "role": "Silicon Hardware Engineering - Intern, Graduate",
 "link": "https://www.linkedin.com/jobs/view/4461324273",
-"attempted": 1794085182,
+"attempted": 1794172594,
 "apply_url": "https://www.linkedin.com/jobs/view/4461324273",
 "portal": "linkedin",
 "fields": null,
@@ -64548,7 +64553,7 @@
 "company": "GE Vernova",
 "role": "GE Vernova Grid Solutions - Hardware Engineering Intern (Critical Infrastructure Communications) \u2013 Spring/Summer 2027",
 "link": "https://www.linkedin.com/jobs/view/4463152266",
-"attempted": 1794085182,
+"attempted": 1794172594,
 "apply_url": "https://www.linkedin.com/jobs/view/4463152266",
 "portal": "linkedin",
 "fields": null,
@@ -64603,7 +64608,7 @@
 "company": "Mill",
 "role": "Electrical Engineering Intern, Fall/Winter 2026",
 "link": "https://www.linkedin.com/jobs/view/4454325443",
-"attempted": 1792457028,
+"attempted": 1794172594,
 "apply_url": "https://www.linkedin.com/jobs/view/4454325443",
 "portal": "linkedin",
 "fields": null,
@@ -64657,7 +64662,7 @@
 "company": "Base Power",
 "role": "Hardware Engineering Intern",
 "link": "https://simplify.jobs/jobs/click/733ec987-5677-4e4e-a8fc-0a8dbcef6060",
-"attempted": 1793839084,
+"attempted": 1794172594,
 "apply_url": "https://jobs.ashbyhq.com/base-power/f22cee0e-55d9-42cd-806e-1c1fc7217770/application",
 "portal": "ashby",
 "fields": [
@@ -64718,7 +64723,7 @@
 "section": "Personal Information"
 },
 {
-"label": "Base is a fully in-person work environment. This role requires working on-site five days per week for at least 40 hours/week at the designated job location. Are you able to meet this requirement?",
+"label": "This role is fully in-office, five days a week. Are you able to meet this requirement, and/or are you open to relocating to meet this requirement?",
 "type": "Boolean",
 "required": true,
 "options": [],
@@ -64807,7 +64812,7 @@
 ],
 "error": "",
 "closed": false,
-"fetched": "2026-11-05T00:38Z"
+"fetched": "2026-11-08T21:16Z"
 },
 "ca726346c0de4d0e": {
 "company": "Micron Technology",
@@ -64982,7 +64987,7 @@
 "company": "CMTA, Inc.",
 "role": "Electrical Engineer Intern/Co-op Spring 2027 (multiple locations)",
 "link": "https://www.linkedin.com/jobs/view/4453128965",
-"attempted": 1794085182,
+"attempted": 1794172594,
 "apply_url": "https://www.linkedin.com/jobs/view/4453128965",
 "portal": "linkedin",
 "fields": null,
@@ -65079,7 +65084,7 @@
 "company": "Winchester Ammunition",
 "role": "Winchester Electrical Engineer Co-Op - Spring 2027",
 "link": "https://www.linkedin.com/jobs/view/4462310542",
-"attempted": 1792446052,
+"attempted": 1794172594,
 "apply_url": "https://www.linkedin.com/jobs/view/4462310542",
 "portal": "linkedin",
 "fields": null,
@@ -65101,7 +65106,7 @@
 "company": "Burns & McDonnell",
 "role": "Electrical Engineering Intern (Spring 2027 Co-op) - Transmission & Distribution, Substation (Akron/Columbus)",
 "link": "https://www.linkedin.com/jobs/view/4470039279",
-"attempted": 1794085182,
+"attempted": 1794172594,
 "apply_url": "https://www.linkedin.com/jobs/view/4470039279",
 "portal": "linkedin",
 "fields": null,
@@ -65123,7 +65128,7 @@
 "company": "Siemens",
 "role": "Electrical Engineering Co-op (North Carolina State University)",
 "link": "https://www.linkedin.com/jobs/view/4462355513",
-"attempted": 1794085182,
+"attempted": 1794172594,
 "apply_url": "https://www.linkedin.com/jobs/view/4462355513",
 "portal": "linkedin",
 "fields": null,
@@ -66631,7 +66636,7 @@
 "company": "Hermeus",
 "role": "Flight Software Engineering Intern (Simulation/Hardware-In-The-Loop) - Spring & Summer 2027",
 "link": "https://jobs.lever.co/hermeus/78008094-ca81-4a0c-9a18-93b30f932acd",
-"attempted": 1793839084,
+"attempted": 1794172594,
 "apply_url": "https://jobs.lever.co/hermeus/78008094-ca81-4a0c-9a18-93b30f932acd/apply",
 "portal": "lever",
 "fields": [
@@ -66778,10 +66783,15 @@
 ]
 },
 {
-"label": "Have you completed at least one previous internship? Please provide details.",
-"type": "textarea",
+"label": "Have you completed at least one previous internship?",
+"type": "select",
 "required": true,
-"options": []
+"options": [
+"Yes",
+"No",
+"Other - Research",
+"Other - Job"
+]
 },
 {
 "label": "Have you completed your junior year of study (i.e., are you entering your senior year) or are you a graduate student?",
@@ -67196,7 +67206,7 @@
 ],
 "error": "",
 "closed": false,
-"fetched": "2026-11-05T00:38Z"
+"fetched": "2026-11-08T21:16Z"
 },
 "4a235d2c4e923469": {
 "company": "AMETEK TMC",
@@ -70943,7 +70953,7 @@
 "company": "Siemens Healthineers",
 "role": "Electrical Engineering Co-op - Hoffman Estates, IL",
 "link": "https://www.linkedin.com/jobs/view/4463442137",
-"attempted": 1794085182,
+"attempted": 1794172594,
 "apply_url": "https://www.linkedin.com/jobs/view/4463442137",
 "portal": "linkedin",
 "fields": null,
@@ -71362,7 +71372,7 @@
 "company": "Base Power",
 "role": "Electrical Engineering Intern",
 "link": "https://simplify.jobs/jobs/click/fdb23024-9715-4aa9-8c71-4112b295b5bf",
-"attempted": 1793839084,
+"attempted": 1794172594,
 "apply_url": "https://jobs.ashbyhq.com/base-power/7284737d-7e04-43e0-af1f-858103f64e97/application",
 "portal": "ashby",
 "fields": [
@@ -71423,7 +71433,7 @@
 "section": "Personal Information"
 },
 {
-"label": "Base is a fully in-person work environment. This role requires working on-site five days per week for at least 40 hours/week at the designated job location. Are you able to meet this requirement?",
+"label": "This role is fully in-office, five days a week. Are you able to meet this requirement, and/or are you open to relocating to meet this requirement?",
 "type": "Boolean",
 "required": true,
 "options": [],
@@ -71512,7 +71522,7 @@
 ],
 "error": "",
 "closed": false,
-"fetched": "2026-11-05T00:38Z"
+"fetched": "2026-11-08T21:16Z"
 },
 "8d643f0318e52276": {
 "company": "L3Harris Technologies",
@@ -72207,7 +72217,7 @@
 "company": "BGE",
 "role": "Electrical Engineer Intern",
 "link": "https://simplify.jobs/jobs/click/f86e7d72-e7ba-49e6-84b3-4d702568ca07",
-"attempted": 1793839084,
+"attempted": 1794172594,
 "apply_url": "https://boards.greenhouse.io/bgeinccampus/jobs/5441464008",
 "portal": "greenhouse",
 "fields": [
@@ -72436,13 +72446,13 @@
 ],
 "error": "",
 "closed": false,
-"fetched": "2026-11-05T00:38Z"
+"fetched": "2026-11-08T21:16Z"
 },
 "9efaa75e0ffda5d9": {
 "company": "BGE",
 "role": "Electrical Engineer Internship",
 "link": "https://simplify.jobs/jobs/click/e99dec20-2b5e-4332-89d2-2048f9fe670c",
-"attempted": 1793839084,
+"attempted": 1794172594,
 "apply_url": "https://boards.greenhouse.io/bgeinc/jobs/5441465008",
 "portal": "greenhouse",
 "fields": [
@@ -72671,7 +72681,7 @@
 ],
 "error": "",
 "closed": false,
-"fetched": "2026-11-05T00:38Z"
+"fetched": "2026-11-08T21:16Z"
 },
 "222793d1efaa4e09": {
 "company": "Marvell Technology",
@@ -73871,7 +73881,7 @@
 "company": "Zoox",
 "role": "Contract Student Worker - Fleet Maps Validation (FT 40 hrs/week)",
 "link": "https://jobs.lever.co/zoox/8ed069c6-78b3-403f-9bb7-6fc9237b2973",
-"attempted": 1793839084,
+"attempted": 1794172594,
 "apply_url": "https://jobs.lever.co/zoox/8ed069c6-78b3-403f-9bb7-6fc9237b2973/apply",
 "portal": "lever",
 "fields": [
@@ -73979,7 +73989,7 @@
 ],
 "error": "",
 "closed": false,
-"fetched": "2026-11-05T00:38Z"
+"fetched": "2026-11-08T21:16Z"
 },
 "dac3f53476e73739": {
 "company": "First Solar",
@@ -74734,7 +74744,7 @@
 "company": "Figure AI",
 "role": "Firmware Engineering Intern [Winter 2027]",
 "link": "https://job-boards.greenhouse.io/figureai/jobs/4601309006",
-"attempted": 1793839084,
+"attempted": 1794172594,
 "apply_url": "https://boards.greenhouse.io/figureai/jobs/4601309006",
 "portal": "greenhouse",
 "fields": [
@@ -74801,13 +74811,13 @@
 ],
 "error": "",
 "closed": false,
-"fetched": "2026-11-05T00:38Z"
+"fetched": "2026-11-08T21:16Z"
 },
 "6a0a9f80ff3396ae": {
 "company": "Figure AI",
 "role": "Validation Engineering Intern [Winter 2027]",
 "link": "https://job-boards.greenhouse.io/figureai/jobs/4606072006",
-"attempted": 1793839084,
+"attempted": 1794172594,
 "apply_url": "https://boards.greenhouse.io/figureai/jobs/4606072006",
 "portal": "greenhouse",
 "fields": [
@@ -74874,7 +74884,7 @@
 ],
 "error": "",
 "closed": false,
-"fetched": "2026-11-05T00:38Z"
+"fetched": "2026-11-08T21:16Z"
 },
 "9b2693d433d931fd": {
 "company": "Figure AI",
@@ -75070,7 +75080,7 @@
 "company": "Figure AI",
 "role": "Middleware Intern [Winter 2027]",
 "link": "https://job-boards.greenhouse.io/figureai/jobs/4605724006",
-"attempted": 1793839084,
+"attempted": 1794172594,
 "apply_url": "https://boards.greenhouse.io/figureai/jobs/4605724006",
 "portal": "greenhouse",
 "fields": [
@@ -75137,7 +75147,7 @@
 ],
 "error": "",
 "closed": false,
-"fetched": "2026-11-05T00:38Z"
+"fetched": "2026-11-08T21:16Z"
 },
 "c84ca9788f06cb7d": {
 "company": "Figure AI",
@@ -77332,7 +77342,7 @@
 "company": "Zipline",
 "role": "Firmware Engineer Intern (Spring 2027) ",
 "link": "https://www.zipline.com/open-roles/8020863003?gh_jid=8020863003",
-"attempted": 1793839084,
+"attempted": 1794172594,
 "apply_url": "https://boards.greenhouse.io/flyzipline/jobs/8020863003",
 "portal": "greenhouse",
 "fields": [
@@ -77506,7 +77516,7 @@
 ],
 "error": "",
 "closed": false,
-"fetched": "2026-11-05T00:38Z"
+"fetched": "2026-11-08T21:16Z"
 },
 "76957508940c4166": {
 "company": "Meter",
@@ -78248,7 +78258,7 @@
 "company": "Figure AI",
 "role": "Deployment Engineering Intern",
 "link": "https://job-boards.greenhouse.io/figureai/jobs/4721113006",
-"attempted": 1793839084,
+"attempted": 1794172594,
 "apply_url": "https://boards.greenhouse.io/figureai/jobs/4721113006",
 "portal": "greenhouse",
 "fields": [
@@ -78353,7 +78363,7 @@
 ],
 "error": "",
 "closed": false,
-"fetched": "2026-11-05T00:38Z"
+"fetched": "2026-11-08T21:16Z"
 },
 "bdee767bd19ecae2": {
 "company": "RTX",
@@ -78469,7 +78479,7 @@
 "company": "Rocket Lab",
 "role": "Ground Systems Engineering Intern Spring 2027",
 "link": "https://job-boards.greenhouse.io/rocketlab/jobs/8007204003",
-"attempted": 1793839084,
+"attempted": 1794172594,
 "apply_url": "https://boards.greenhouse.io/rocketlab/jobs/8007204003",
 "portal": "greenhouse",
 "fields": [
@@ -78914,7 +78924,7 @@
 ],
 "error": "",
 "closed": false,
-"fetched": "2026-11-05T00:38Z"
+"fetched": "2026-11-08T21:16Z"
 },
 "ab835ce071e354d5": {
 "company": "Nokia",
@@ -79003,7 +79013,7 @@
 "company": "Rugged Robotics",
 "role": "Electrical Engineer Co-op Intern",
 "link": "https://simplify.jobs/jobs/click/a2005a82-4241-4a44-8cc5-31c415670ba9",
-"attempted": 1793839084,
+"attempted": 1794172594,
 "apply_url": "https://boards.greenhouse.io/ruggedrobotics/jobs/4724214005",
 "portal": "greenhouse",
 "fields": [
@@ -79065,13 +79075,13 @@
 ],
 "error": "",
 "closed": false,
-"fetched": "2026-11-05T00:38Z"
+"fetched": "2026-11-08T21:16Z"
 },
 "b87a79d7f9a2ff19": {
 "company": "SharkNinja",
 "role": "Electrical Engineering Co-op",
 "link": "https://simplify.jobs/jobs/click/772840e3-4552-42aa-b102-8cb0e1752b13",
-"attempted": 1793839084,
+"attempted": 1794172594,
 "apply_url": "https://boards.greenhouse.io/sharkninjaoperatingllc/jobs/4718702006",
 "portal": "greenhouse",
 "fields": [
@@ -81149,7 +81159,7 @@
 ],
 "error": "",
 "closed": false,
-"fetched": "2026-11-05T00:38Z"
+"fetched": "2026-11-08T21:16Z"
 },
 "047743de9b60e112": {
 "company": "Keysight Technologies",
@@ -83730,7 +83740,7 @@
 "company": "Figure AI",
 "role": "Hardware Reliability Intern [Winter 2027]",
 "link": "https://job-boards.greenhouse.io/figureai/jobs/4613067006",
-"attempted": 1793839084,
+"attempted": 1794172594,
 "apply_url": "https://boards.greenhouse.io/figureai/jobs/4613067006",
 "portal": "greenhouse",
 "fields": [
@@ -83812,13 +83822,13 @@
 ],
 "error": "",
 "closed": false,
-"fetched": "2026-11-05T00:38Z"
+"fetched": "2026-11-08T21:16Z"
 },
 "e34060f53b250501": {
 "company": "Saronic",
 "role": "University Recruiter",
 "link": "https://jobs.ashbyhq.com/saronic/e2853143-feb3-4ad2-b64a-05966a191624",
-"attempted": 1793839084,
+"attempted": 1794172594,
 "apply_url": "https://jobs.ashbyhq.com/saronic/e2853143-feb3-4ad2-b64a-05966a191624/application",
 "portal": "ashby",
 "fields": [
@@ -83923,7 +83933,7 @@
 ],
 "error": "",
 "closed": false,
-"fetched": "2026-11-05T00:38Z"
+"fetched": "2026-11-08T21:16Z"
 },
 "8ab051cff4231787": {
 "company": "Laminar",
@@ -84132,7 +84142,7 @@
 "company": "SiTime",
 "role": "Intern",
 "link": "https://www.linkedin.com/jobs/view/4479362456",
-"attempted": 1794085182,
+"attempted": 1794172594,
 "apply_url": "https://www.linkedin.com/jobs/view/4479362456",
 "portal": "linkedin",
 "fields": null,
@@ -84307,7 +84317,7 @@
 "company": "CMTA, Inc.",
 "role": "Electrical Engineer Intern/Co-op Spring 2027 (multiple locations)",
 "link": "https://www.linkedin.com/jobs/view/4453144835",
-"attempted": 1794085182,
+"attempted": 1794172594,
 "apply_url": "https://www.linkedin.com/jobs/view/4453144835",
 "portal": "linkedin",
 "fields": null,
@@ -84329,7 +84339,7 @@
 "company": "Georgia Tech Research Institute",
 "role": "Embedded Systems Hardware Co-op - Spring 2027 - Applied Embedded Systems Division/ELSYS",
 "link": "https://www.linkedin.com/jobs/view/4480563295",
-"attempted": 1794085182,
+"attempted": 1794172594,
 "apply_url": "https://www.linkedin.com/jobs/view/4480563295",
 "portal": "linkedin",
 "fields": null,
@@ -86387,7 +86397,7 @@
 "company": "Anduril",
 "role": "Winter 2027 Robotics Engineer Co-op",
 "link": "https://boards.greenhouse.io/andurilindustries/jobs/5271842007?gh_jid=5271842007",
-"attempted": 1793839084,
+"attempted": 1794172594,
 "apply_url": "https://boards.greenhouse.io/andurilindustries/jobs/5271842007",
 "portal": "greenhouse",
 "fields": [
@@ -86565,7 +86575,7 @@
 ],
 "error": "",
 "closed": false,
-"fetched": "2026-11-05T00:38Z"
+"fetched": "2026-11-08T21:16Z"
 },
 "f0615319780884f7": {
 "company": "Microchip Technology Inc.",
@@ -86917,7 +86927,7 @@
 "company": "Varda Space",
 "role": "Construction Management Internship \u2013 Spring 2027",
 "link": "https://job-boards.greenhouse.io/vardaspace/jobs/8041944003",
-"attempted": 1793839084,
+"attempted": 1794172594,
 "apply_url": "https://boards.greenhouse.io/vardaspace/jobs/8041944003",
 "portal": "greenhouse",
 "fields": [
@@ -87022,7 +87032,7 @@
 ],
 "error": "",
 "closed": false,
-"fetched": "2026-11-05T00:38Z"
+"fetched": "2026-11-08T21:16Z"
 },
 "bcafeb24f1bb0be5": {
 "company": "Ambarella",
@@ -95343,7 +95353,7 @@
 "company": "Mach Industries",
 "role": "University Recruiter",
 "link": "https://job-boards.greenhouse.io/machindustries/jobs/4466802009",
-"attempted": 1793839084,
+"attempted": 1794172594,
 "apply_url": "https://boards.greenhouse.io/machindustries/jobs/4466802009",
 "portal": "greenhouse",
 "fields": [
@@ -95707,7 +95717,7 @@
 ],
 "error": "",
 "closed": false,
-"fetched": "2026-11-05T00:38Z"
+"fetched": "2026-11-08T21:16Z"
 },
 "30abefc4394389a5": {
 "company": "Tessolve",
@@ -95724,7 +95734,7 @@
 "company": "Skydio",
 "role": "Autonomy Engineer Intern, 2027",
 "link": "https://jobs.ashbyhq.com/skydio/d39c46ce-a4e9-45d2-99bf-17e3b7dac34b",
-"attempted": 1793839084,
+"attempted": 1794172594,
 "apply_url": "https://jobs.ashbyhq.com/skydio/d39c46ce-a4e9-45d2-99bf-17e3b7dac34b/application",
 "portal": "ashby",
 "fields": [
@@ -95794,13 +95804,13 @@
 ],
 "error": "",
 "closed": false,
-"fetched": "2026-11-05T00:38Z"
+"fetched": "2026-11-08T21:16Z"
 },
 "3353a8383fdf7b1a": {
 "company": "Skydio",
 "role": "PhD Autonomy Engineer Intern - Deep Learning / Computer Vision, 2027",
 "link": "https://jobs.ashbyhq.com/skydio/f1a72f5b-6157-47c1-8de9-379a32c7419f",
-"attempted": 1793839084,
+"attempted": 1794172594,
 "apply_url": "https://jobs.ashbyhq.com/skydio/f1a72f5b-6157-47c1-8de9-379a32c7419f/application",
 "portal": "ashby",
 "fields": [
@@ -95870,13 +95880,13 @@
 ],
 "error": "",
 "closed": false,
-"fetched": "2026-11-05T00:38Z"
+"fetched": "2026-11-08T21:16Z"
 },
 "feba52a663bdd5da": {
 "company": "Skydio",
 "role": "PhD Autonomy Engineer Intern, 2027",
 "link": "https://jobs.ashbyhq.com/skydio/fe26fdf8-15b2-44e6-8e43-ace13431453c",
-"attempted": 1793839084,
+"attempted": 1794172594,
 "apply_url": "https://jobs.ashbyhq.com/skydio/fe26fdf8-15b2-44e6-8e43-ace13431453c/application",
 "portal": "ashby",
 "fields": [
@@ -95953,13 +95963,13 @@
 ],
 "error": "",
 "closed": false,
-"fetched": "2026-11-05T00:38Z"
+"fetched": "2026-11-08T21:16Z"
 },
 "0b7af290babe7dca": {
 "company": "Skydio",
 "role": "Autonomy Engineer Intern, Computer Vision / Deep Learning, 2027",
 "link": "https://jobs.ashbyhq.com/skydio/ae4a6f7d-a240-4fa2-8c8e-04cc906e4ef9",
-"attempted": 1793839084,
+"attempted": 1794172594,
 "apply_url": "https://jobs.ashbyhq.com/skydio/ae4a6f7d-a240-4fa2-8c8e-04cc906e4ef9/application",
 "portal": "ashby",
 "fields": [
@@ -96029,7 +96039,7 @@
 ],
 "error": "",
 "closed": false,
-"fetched": "2026-11-05T00:38Z"
+"fetched": "2026-11-08T21:16Z"
 },
 "1af2515be6921cfa": {
 "company": "Analog Devices",
@@ -96055,7 +96065,7 @@
 "company": "Commonwealth Fusion Systems",
 "role": "Intern - Cryogenics Engineer - Spring 2027",
 "link": "https://jobs.lever.co/cfsenergy/12638cfd-8bad-40b5-88b4-1fe3b21aec8f",
-"attempted": 1793839084,
+"attempted": 1794172594,
 "apply_url": "https://jobs.lever.co/cfsenergy/12638cfd-8bad-40b5-88b4-1fe3b21aec8f/apply",
 "portal": "lever",
 "fields": [
@@ -96263,7 +96273,7 @@
 ],
 "error": "",
 "closed": false,
-"fetched": "2026-11-05T00:38Z"
+"fetched": "2026-11-08T21:16Z"
 },
 "d5d2def082fe6aef": {
 "company": "RTX",
@@ -96299,7 +96309,7 @@
 "company": "Skydio",
 "role": "Autonomy Engineer Intern, Autonomy Infrastructure, Systems and Tools, 2027 (HQ)",
 "link": "https://jobs.ashbyhq.com/skydio/ec82eb16-a5b4-46e7-827a-326b33d7d2cb",
-"attempted": 1793839084,
+"attempted": 1794172594,
 "apply_url": "https://jobs.ashbyhq.com/skydio/ec82eb16-a5b4-46e7-827a-326b33d7d2cb/application",
 "portal": "ashby",
 "fields": [
@@ -96369,13 +96379,13 @@
 ],
 "error": "",
 "closed": false,
-"fetched": "2026-11-05T00:38Z"
+"fetched": "2026-11-08T21:16Z"
 },
 "be2e6e25fa15b583": {
 "company": "Skydio",
 "role": "Autonomy Engineer Intern, Reinforcement Learning, 2027 (HQ)",
 "link": "https://jobs.ashbyhq.com/skydio/19352f5e-c30d-4184-a070-3c25b0ebc048",
-"attempted": 1793839084,
+"attempted": 1794172594,
 "apply_url": "https://jobs.ashbyhq.com/skydio/19352f5e-c30d-4184-a070-3c25b0ebc048/application",
 "portal": "ashby",
 "fields": [
@@ -96445,13 +96455,13 @@
 ],
 "error": "",
 "closed": false,
-"fetched": "2026-11-05T00:38Z"
+"fetched": "2026-11-08T21:16Z"
 },
 "c8da4bb4fe978c65": {
 "company": "Skydio",
 "role": "Autonomy Engineer Intern, Simulation & Robotics, 2027 (HQ)",
 "link": "https://jobs.ashbyhq.com/skydio/6f5caf41-fa1d-4208-9bdc-82c72e5d3f17",
-"attempted": 1793839084,
+"attempted": 1794172594,
 "apply_url": "https://jobs.ashbyhq.com/skydio/6f5caf41-fa1d-4208-9bdc-82c72e5d3f17/application",
 "portal": "ashby",
 "fields": [
@@ -96521,7 +96531,7 @@
 ],
 "error": "",
 "closed": false,
-"fetched": "2026-11-05T00:38Z"
+"fetched": "2026-11-08T21:16Z"
 },
 "8904a2b4cebd3933": {
 "company": "BehaviorAI",
@@ -97718,7 +97728,7 @@
 "company": "Skyworks",
 "role": "Test Engineering Intern",
 "link": "https://careers.skyworksinc.com/job/Test-Engineering-Intern/78712-en_US",
-"attempted": 1794020046,
+"attempted": 1794172594,
 "apply_url": "https://careers.skyworksinc.com/job/Test-Engineering-Intern/78712-en_US",
 "portal": "other",
 "fields": null,
@@ -98116,7 +98126,7 @@
 "company": "Ursa Major",
 "role": "2027 Summer Business Process & ERP Documentation Intern ",
 "link": "https://ursamajor.com/careers/?gh_jid=4746844005",
-"attempted": 1793839084,
+"attempted": 1794172594,
 "apply_url": "https://boards.greenhouse.io/ursamajor/jobs/4746844005",
 "portal": "greenhouse",
 "fields": [
@@ -98284,7 +98294,7 @@
 ],
 "error": "",
 "closed": false,
-"fetched": "2026-11-05T00:38Z"
+"fetched": "2026-11-08T21:16Z"
 },
 "91869e42872c0bee": {
 "company": "Entegris",
@@ -98628,7 +98638,7 @@
 "company": "Lila Sciences",
 "role": "Characterization Electrodeposited Material Co-op",
 "link": "https://simplify.jobs/jobs/click/c6ba043e-786b-4a40-8e52-21fa55a4f437",
-"attempted": 1793839084,
+"attempted": 1794172594,
 "apply_url": "https://boards.greenhouse.io/lilasciences/jobs/4462616009",
 "portal": "greenhouse",
 "fields": [
@@ -98736,7 +98746,7 @@
 ],
 "error": "",
 "closed": false,
-"fetched": "2026-11-05T00:38Z"
+"fetched": "2026-11-08T21:16Z"
 },
 "95d75520cb0db953": {
 "company": "RTX",
@@ -98897,7 +98907,7 @@
 "company": "Shield AI",
 "role": "Electrical Engineer Co-op",
 "link": "https://simplify.jobs/jobs/click/dbe6e64d-5f82-492b-8833-884fde7027ac",
-"attempted": 1793839084,
+"attempted": 1794172594,
 "apply_url": "https://jobs.ashbyhq.com/f7d8749a-72d6-407c-bf98-292ea630c73a/7c6f4d6d-fac0-4d71-9d4e-7581db11dc33/application",
 "portal": "ashby",
 "fields": [
@@ -99305,7 +99315,7 @@
 ],
 "error": "",
 "closed": false,
-"fetched": "2026-11-05T00:38Z"
+"fetched": "2026-11-08T21:16Z"
 },
 "2a129d3255903351": {
 "company": "Seametrics",
@@ -99320,9 +99330,9 @@
 },
 "0b5ed24f340a4c39": {
 "company": "Shield AI",
-"role": "Electrical Engineering Co-op",
+"role": "Electrical Engineer Co-op Intern",
 "link": "https://simplify.jobs/jobs/click/793fcd79-bb47-4e11-86df-63f32485d031",
-"attempted": 1793839084,
+"attempted": 1794172594,
 "apply_url": "https://jobs.ashbyhq.com/f7d8749a-72d6-407c-bf98-292ea630c73a/e7d4bfb2-db9c-47ae-a5d0-8c9ce6a702d0/application",
 "portal": "ashby",
 "fields": [
@@ -99699,7 +99709,7 @@
 ],
 "error": "",
 "closed": false,
-"fetched": "2026-11-05T00:38Z"
+"fetched": "2026-11-08T21:16Z"
 },
 "66b6b31ab73204c1": {
 "company": "Intel",
@@ -99880,7 +99890,7 @@
 "company": "Rocket Lab",
 "role": "Quality Engineering Intern Spring 2027",
 "link": "https://job-boards.greenhouse.io/rocketlab/jobs/8042031003",
-"attempted": 1793839084,
+"attempted": 1794172594,
 "apply_url": "https://boards.greenhouse.io/rocketlab/jobs/8042031003",
 "portal": "greenhouse",
 "fields": [
@@ -100313,7 +100323,7 @@
 ],
 "error": "",
 "closed": false,
-"fetched": "2026-11-05T00:38Z"
+"fetched": "2026-11-08T21:16Z"
 },
 "feca166c0bd9aabb": {
 "company": "Bose",
@@ -100410,7 +100420,7 @@
 "company": "Mesh Optical Technologies",
 "role": "Associate Electrical Engineer Intern Co-op",
 "link": "https://simplify.jobs/jobs/click/f6de322d-5837-461e-9f08-34323ca5c89c",
-"attempted": 1793839084,
+"attempted": 1794172594,
 "apply_url": "https://boards.greenhouse.io/meshopticaltechnologies/jobs/4134735009",
 "portal": "greenhouse",
 "fields": [
@@ -100489,7 +100499,7 @@
 ],
 "error": "",
 "closed": false,
-"fetched": "2026-11-05T00:38Z"
+"fetched": "2026-11-08T21:16Z"
 },
 "4cccd8f7da338936": {
 "company": "Skyworks Solutions, Inc.",
@@ -104212,7 +104222,7 @@
 "company": "SpaceX",
 "role": "Summer 2027 Silicon Engineering Internship/Co-op",
 "link": "https://boards.greenhouse.io/spacex/jobs/8621763002?gh_jid=8621763002",
-"attempted": 1793845674,
+"attempted": 1794172594,
 "apply_url": "https://boards.greenhouse.io/spacex/jobs/8621763002",
 "portal": "greenhouse",
 "fields": [
@@ -104790,7 +104800,7 @@
 ],
 "error": "",
 "closed": false,
-"fetched": "2026-11-05T02:27Z"
+"fetched": "2026-11-08T21:16Z"
 },
 "ca31c8389981aa9e": {
 "company": "Amazon",
@@ -104817,7 +104827,7 @@
 "company": "Astranis",
 "role": "FPGA Intern (Summer 2027)",
 "link": "https://job-boards.greenhouse.io/astranis/jobs/4704805006",
-"attempted": 1793845674,
+"attempted": 1794172594,
 "apply_url": "https://boards.greenhouse.io/astranis/jobs/4704805006",
 "portal": "greenhouse",
 "fields": [
@@ -104978,7 +104988,7 @@
 ],
 "error": "",
 "closed": false,
-"fetched": "2026-11-05T02:27Z"
+"fetched": "2026-11-08T21:16Z"
 },
 "720f4c0a80b47422": {
 "company": "Ayar Labs",
@@ -105154,7 +105164,7 @@
 "company": "Commonwealth Fusion Systems",
 "role": "Intern - Materials Test Engineer - Summer 2027",
 "link": "https://jobs.lever.co/cfsenergy/da8cc185-70d0-4a8e-b484-9866c71b593e",
-"attempted": 1793845674,
+"attempted": 1794172594,
 "apply_url": "https://jobs.lever.co/cfsenergy/da8cc185-70d0-4a8e-b484-9866c71b593e/apply",
 "portal": "lever",
 "fields": [
@@ -105362,13 +105372,13 @@
 ],
 "error": "",
 "closed": false,
-"fetched": "2026-11-05T02:28Z"
+"fetched": "2026-11-08T21:16Z"
 },
 "719d0adf3b37d16c": {
 "company": "Commonwealth Fusion Systems",
 "role": "Intern - R&D Test Engineer - Spring or Summer 2027",
 "link": "https://jobs.lever.co/cfsenergy/41725c72-2242-4ae4-815a-21064d7d7d05",
-"attempted": 1793845674,
+"attempted": 1794172594,
 "apply_url": "https://jobs.lever.co/cfsenergy/41725c72-2242-4ae4-815a-21064d7d7d05/apply",
 "portal": "lever",
 "fields": [
@@ -105576,7 +105586,7 @@
 ],
 "error": "",
 "closed": false,
-"fetched": "2026-11-05T02:28Z"
+"fetched": "2026-11-08T21:16Z"
 },
 "34fa0f6e87cd49ed": {
 "company": "Draper",
@@ -105955,7 +105965,7 @@
 "company": "Shield AI",
 "role": "Summer 2027 - Electrical Engineering Intern",
 "link": "https://jobs.lever.co/shieldai/200a293f-71ce-4982-a100-ac4b500c4cf7",
-"attempted": 1793845674,
+"attempted": 1794172594,
 "apply_url": "https://jobs.lever.co/shieldai/200a293f-71ce-4982-a100-ac4b500c4cf7/apply",
 "portal": "lever",
 "fields": [
@@ -109256,13 +109266,13 @@
 ],
 "error": "",
 "closed": false,
-"fetched": "2026-11-05T02:28Z"
+"fetched": "2026-11-08T21:16Z"
 },
 "933bd2528084e1e3": {
 "company": "Shield AI",
 "role": "Summer 2027 Intern - Embedded Firmware - 5810",
 "link": "https://jobs.lever.co/shieldai/ac38d092-f435-4301-880b-48d0e92679a4",
-"attempted": 1793845674,
+"attempted": 1794172594,
 "apply_url": "https://jobs.lever.co/shieldai/ac38d092-f435-4301-880b-48d0e92679a4/apply",
 "portal": "lever",
 "fields": [
@@ -112558,7 +112568,7 @@
 ],
 "error": "",
 "closed": false,
-"fetched": "2026-11-05T02:28Z"
+"fetched": "2026-11-08T21:16Z"
 },
 "2419ce3467e98ddb": {
 "company": "Werfen",
@@ -112607,7 +112617,7 @@
 "company": "Formlabs",
 "role": "Hardware Systems Integration Intern (Summer 2027)",
 "link": "https://careers.formlabs.com/job/8212683/apply/?gh_jid=8212683",
-"attempted": 1794171295,
+"attempted": 1794172594,
 "apply_url": "https://careers.formlabs.com/job/8212683/apply/?gh_jid=8212683",
 "portal": "greenhouse",
 "error": "ValueError: no board/job in url",
@@ -112692,7 +112702,7 @@
 "company": "Astranis",
 "role": "Power Electronics Intern (Summer 2027)",
 "link": "https://job-boards.greenhouse.io/astranis/jobs/4706425006",
-"attempted": 1793845674,
+"attempted": 1794172594,
 "apply_url": "https://boards.greenhouse.io/astranis/jobs/4706425006",
 "portal": "greenhouse",
 "fields": [
@@ -112861,13 +112871,13 @@
 ],
 "error": "",
 "closed": false,
-"fetched": "2026-11-05T02:28Z"
+"fetched": "2026-11-08T21:16Z"
 },
 "984ba2e23ea75c78": {
 "company": "Astranis",
 "role": "RF Hardware Intern (Summer 2027)",
 "link": "https://job-boards.greenhouse.io/astranis/jobs/4708436006",
-"attempted": 1793845674,
+"attempted": 1794172594,
 "apply_url": "https://boards.greenhouse.io/astranis/jobs/4708436006",
 "portal": "greenhouse",
 "fields": [
@@ -113031,13 +113041,13 @@
 ],
 "error": "",
 "closed": false,
-"fetched": "2026-11-05T02:28Z"
+"fetched": "2026-11-08T21:16Z"
 },
 "d52a7aed9317ea9c": {
 "company": "Astranis",
 "role": "RF Validation Intern (Summer 2027)",
 "link": "https://job-boards.greenhouse.io/astranis/jobs/4716499006",
-"attempted": 1793845674,
+"attempted": 1794172594,
 "apply_url": "https://boards.greenhouse.io/astranis/jobs/4716499006",
 "portal": "greenhouse",
 "fields": [
@@ -113201,13 +113211,13 @@
 ],
 "error": "",
 "closed": false,
-"fetched": "2026-11-05T02:28Z"
+"fetched": "2026-11-08T21:16Z"
 },
 "1af8612d28688df1": {
 "company": "Astranis",
 "role": "Software Defined Radio Hardware Intern (Summer 2027)",
 "link": "https://job-boards.greenhouse.io/astranis/jobs/4716088006",
-"attempted": 1793845674,
+"attempted": 1794172594,
 "apply_url": "https://boards.greenhouse.io/astranis/jobs/4716088006",
 "portal": "greenhouse",
 "fields": [
@@ -113398,7 +113408,7 @@
 ],
 "error": "",
 "closed": false,
-"fetched": "2026-11-05T02:28Z"
+"fetched": "2026-11-08T21:16Z"
 },
 "4ab8ec39c492cefa": {
 "company": "RTX",
@@ -113458,7 +113468,7 @@
 "company": "Rocket Lab",
 "role": "Electrical Engineering Intern Summer 2027",
 "link": "https://job-boards.greenhouse.io/rocketlab/jobs/7990683003",
-"attempted": 1793845674,
+"attempted": 1794172594,
 "apply_url": "https://boards.greenhouse.io/rocketlab/jobs/7990683003",
 "portal": "greenhouse",
 "fields": [
@@ -113941,13 +113951,13 @@
 ],
 "error": "",
 "closed": false,
-"fetched": "2026-11-05T02:28Z"
+"fetched": "2026-11-08T21:16Z"
 },
 "76ec12e2eba8c2d4": {
 "company": "Rocket Lab",
 "role": "Electrical Engineering Intern Summer 2027",
 "link": "https://job-boards.greenhouse.io/rocketlab/jobs/7998598003",
-"attempted": 1793845674,
+"attempted": 1794172594,
 "apply_url": "https://boards.greenhouse.io/rocketlab/jobs/7998598003",
 "portal": "greenhouse",
 "fields": [
@@ -114430,13 +114440,13 @@
 ],
 "error": "",
 "closed": false,
-"fetched": "2026-11-05T02:28Z"
+"fetched": "2026-11-08T21:16Z"
 },
 "1e408fad58f9cca1": {
 "company": "Rocket Lab",
 "role": "Test Engineering Intern - Avionics Summer 2027",
 "link": "https://job-boards.greenhouse.io/rocketlab/jobs/7987159003",
-"attempted": 1793845674,
+"attempted": 1794172594,
 "apply_url": "https://boards.greenhouse.io/rocketlab/jobs/7987159003",
 "portal": "greenhouse",
 "fields": [
@@ -114919,13 +114929,13 @@
 ],
 "error": "",
 "closed": false,
-"fetched": "2026-11-05T02:28Z"
+"fetched": "2026-11-08T21:16Z"
 },
 "04bb412e17b53748": {
 "company": "Rocket Lab",
 "role": "Test Engineering Intern Summer 2027",
 "link": "https://job-boards.greenhouse.io/rocketlab/jobs/7990350003",
-"attempted": 1793845674,
+"attempted": 1794172594,
 "apply_url": "https://boards.greenhouse.io/rocketlab/jobs/7990350003",
 "portal": "greenhouse",
 "fields": [
@@ -115408,7 +115418,7 @@
 ],
 "error": "",
 "closed": false,
-"fetched": "2026-11-05T02:28Z"
+"fetched": "2026-11-08T21:16Z"
 },
 "70d9cb344f49f364": {
 "company": "Skyband Systems",
@@ -115436,7 +115446,7 @@
 "company": "Hudson River Trading",
 "role": "Hardware Engineer Internship - Summer 2027",
 "link": "https://www.hudsonrivertrading.com/careers/job/?gh_jid=7899574",
-"attempted": 1793845674,
+"attempted": 1794172594,
 "apply_url": "https://boards.greenhouse.io/wehrtyou/jobs/7899574",
 "portal": "greenhouse",
 "fields": [
@@ -115783,7 +115793,7 @@
 ],
 "error": "",
 "closed": false,
-"fetched": "2026-11-05T02:28Z"
+"fetched": "2026-11-08T21:16Z"
 },
 "ae7d81f930b94d7c": {
 "company": "BAE Systems",
@@ -115799,7 +115809,7 @@
 "company": "Zipline",
 "role": "Electrical Engineer Intern (Summer 2027)",
 "link": "https://www.zipline.com/open-roles/7903711003?gh_jid=7903711003",
-"attempted": 1793845674,
+"attempted": 1794172594,
 "apply_url": "https://boards.greenhouse.io/flyzipline/jobs/7903711003",
 "portal": "greenhouse",
 "fields": [
@@ -115981,13 +115991,13 @@
 ],
 "error": "",
 "closed": false,
-"fetched": "2026-11-05T02:28Z"
+"fetched": "2026-11-08T21:16Z"
 },
 "21de528419a387f5": {
 "company": "Zipline",
 "role": "Firmware Engineer Intern (Summer 2027) ",
 "link": "https://www.zipline.com/open-roles/8020865003?gh_jid=8020865003",
-"attempted": 1793845674,
+"attempted": 1794172594,
 "apply_url": "https://boards.greenhouse.io/flyzipline/jobs/8020865003",
 "portal": "greenhouse",
 "fields": [
@@ -116161,13 +116171,13 @@
 ],
 "error": "",
 "closed": false,
-"fetched": "2026-11-05T02:28Z"
+"fetched": "2026-11-08T21:16Z"
 },
 "1e5736ed2b457585": {
 "company": "Zipline",
 "role": "Hardware Test Intern (Summer 2027)",
 "link": "https://www.zipline.com/open-roles/7903483003?gh_jid=7903483003",
-"attempted": 1793845674,
+"attempted": 1794172594,
 "apply_url": "https://boards.greenhouse.io/flyzipline/jobs/7903483003",
 "portal": "greenhouse",
 "fields": [
@@ -116285,7 +116295,7 @@
 ],
 "error": "",
 "closed": false,
-"fetched": "2026-11-05T02:28Z"
+"fetched": "2026-11-08T21:16Z"
 },
 "6b54952d88b14408": {
 "company": "Empower Semiconductor",
@@ -116311,7 +116321,7 @@
 "company": "Astranis",
 "role": "Antenna Intern (Summer 2027)",
 "link": "https://job-boards.greenhouse.io/astranis/jobs/4704274006",
-"attempted": 1793845674,
+"attempted": 1794172594,
 "apply_url": "https://boards.greenhouse.io/astranis/jobs/4704274006",
 "portal": "greenhouse",
 "fields": [
@@ -116490,13 +116500,13 @@
 ],
 "error": "",
 "closed": false,
-"fetched": "2026-11-05T02:28Z"
+"fetched": "2026-11-08T21:16Z"
 },
 "6e45b2a47be703e8": {
 "company": "Astranis",
 "role": "Assembly, Integration, and Test Intern (Summer 2027)",
 "link": "https://job-boards.greenhouse.io/astranis/jobs/4704761006",
-"attempted": 1793845674,
+"attempted": 1794172594,
 "apply_url": "https://boards.greenhouse.io/astranis/jobs/4704761006",
 "portal": "greenhouse",
 "fields": [
@@ -116657,13 +116667,13 @@
 ],
 "error": "",
 "closed": false,
-"fetched": "2026-11-05T02:28Z"
+"fetched": "2026-11-08T21:16Z"
 },
 "f80f6b1accaa6bd3": {
 "company": "Astranis",
 "role": "Automation & Controls Engineering Intern (Summer 2027)",
 "link": "https://job-boards.greenhouse.io/astranis/jobs/4718206006",
-"attempted": 1793845674,
+"attempted": 1794172594,
 "apply_url": "https://boards.greenhouse.io/astranis/jobs/4718206006",
 "portal": "greenhouse",
 "fields": [
@@ -116842,13 +116852,13 @@
 ],
 "error": "",
 "closed": false,
-"fetched": "2026-11-05T02:28Z"
+"fetched": "2026-11-08T21:16Z"
 },
 "8d4f4a3fee933bc2": {
 "company": "Astranis",
 "role": "Avionics Intern (Summer 2027)",
 "link": "https://job-boards.greenhouse.io/astranis/jobs/4706024006",
-"attempted": 1793845674,
+"attempted": 1794172594,
 "apply_url": "https://boards.greenhouse.io/astranis/jobs/4706024006",
 "portal": "greenhouse",
 "fields": [
@@ -117018,13 +117028,13 @@
 ],
 "error": "",
 "closed": false,
-"fetched": "2026-11-05T02:28Z"
+"fetched": "2026-11-08T21:16Z"
 },
 "f60c5b4ae9a27843": {
 "company": "Astranis",
 "role": "Flight Software Intern (Summer 2027)",
 "link": "https://job-boards.greenhouse.io/astranis/jobs/4704598006",
-"attempted": 1793845674,
+"attempted": 1794172594,
 "apply_url": "https://boards.greenhouse.io/astranis/jobs/4704598006",
 "portal": "greenhouse",
 "fields": [
@@ -117191,7 +117201,7 @@
 ],
 "error": "",
 "closed": false,
-"fetched": "2026-11-05T02:28Z"
+"fetched": "2026-11-08T21:16Z"
 },
 "590b08a93fb70a00": {
 "company": "Astranis",
@@ -117376,7 +117386,7 @@
 "company": "Astranis",
 "role": "Harness Design Engineer Intern (Summer 2027)",
 "link": "https://job-boards.greenhouse.io/astranis/jobs/4704779006",
-"attempted": 1793845674,
+"attempted": 1794172594,
 "apply_url": "https://boards.greenhouse.io/astranis/jobs/4704779006",
 "portal": "greenhouse",
 "fields": [
@@ -117546,13 +117556,13 @@
 ],
 "error": "",
 "closed": false,
-"fetched": "2026-11-05T02:28Z"
+"fetched": "2026-11-08T21:16Z"
 },
 "74b408c7538dfd7a": {
 "company": "Astranis",
 "role": "Harness Manufacturing Intern (Summer 2027)",
 "link": "https://job-boards.greenhouse.io/astranis/jobs/4705255006",
-"attempted": 1793845674,
+"attempted": 1794172594,
 "apply_url": "https://boards.greenhouse.io/astranis/jobs/4705255006",
 "portal": "greenhouse",
 "fields": [
@@ -117731,13 +117741,13 @@
 ],
 "error": "",
 "closed": false,
-"fetched": "2026-11-05T02:28Z"
+"fetched": "2026-11-08T21:16Z"
 },
 "609460463f3b2bf1": {
 "company": "Astranis",
 "role": "Mechanical Engineer Intern (Summer 2027)",
 "link": "https://job-boards.greenhouse.io/astranis/jobs/4704601006",
-"attempted": 1793845674,
+"attempted": 1794172594,
 "apply_url": "https://boards.greenhouse.io/astranis/jobs/4704601006",
 "portal": "greenhouse",
 "fields": [
@@ -117910,13 +117920,13 @@
 ],
 "error": "",
 "closed": false,
-"fetched": "2026-11-05T02:28Z"
+"fetched": "2026-11-08T21:16Z"
 },
 "42f2a23abbcca867": {
 "company": "Astranis",
 "role": "Mission Applications Intern (Summer 2027)",
 "link": "https://job-boards.greenhouse.io/astranis/jobs/4705597006",
-"attempted": 1793845674,
+"attempted": 1794172594,
 "apply_url": "https://boards.greenhouse.io/astranis/jobs/4705597006",
 "portal": "greenhouse",
 "fields": [
@@ -118083,13 +118093,13 @@
 ],
 "error": "",
 "closed": false,
-"fetched": "2026-11-05T02:28Z"
+"fetched": "2026-11-08T21:16Z"
 },
 "6b02db8b87e80628": {
 "company": "Astranis",
 "role": "Propulsion Engineer Intern (Summer 2027)",
 "link": "https://job-boards.greenhouse.io/astranis/jobs/4713184006",
-"attempted": 1793845674,
+"attempted": 1794172594,
 "apply_url": "https://boards.greenhouse.io/astranis/jobs/4713184006",
 "portal": "greenhouse",
 "fields": [
@@ -118271,13 +118281,13 @@
 ],
 "error": "",
 "closed": false,
-"fetched": "2026-11-05T02:28Z"
+"fetched": "2026-11-08T21:16Z"
 },
 "d7b4b8973476d150": {
 "company": "Astranis",
 "role": "Propulsion Manufacturing Intern (Summer 2027)",
 "link": "https://job-boards.greenhouse.io/astranis/jobs/4705648006",
-"attempted": 1793845674,
+"attempted": 1794172594,
 "apply_url": "https://boards.greenhouse.io/astranis/jobs/4705648006",
 "portal": "greenhouse",
 "fields": [
@@ -118438,13 +118448,13 @@
 ],
 "error": "",
 "closed": false,
-"fetched": "2026-11-05T02:28Z"
+"fetched": "2026-11-08T21:16Z"
 },
 "ec441926cae7f0a2": {
 "company": "Astranis",
 "role": "Propulsion Test Intern (Summer 2027)",
 "link": "https://job-boards.greenhouse.io/astranis/jobs/4705640006",
-"attempted": 1793845674,
+"attempted": 1794172594,
 "apply_url": "https://boards.greenhouse.io/astranis/jobs/4705640006",
 "portal": "greenhouse",
 "fields": [
@@ -118605,13 +118615,13 @@
 ],
 "error": "",
 "closed": false,
-"fetched": "2026-11-05T02:28Z"
+"fetched": "2026-11-08T21:16Z"
 },
 "a8e02ac0a2bd876d": {
 "company": "Astranis",
 "role": "Software Engineer - Enterprise Systems Intern (Summer 2027)",
 "link": "https://job-boards.greenhouse.io/astranis/jobs/4705610006",
-"attempted": 1793845674,
+"attempted": 1794172594,
 "apply_url": "https://boards.greenhouse.io/astranis/jobs/4705610006",
 "portal": "greenhouse",
 "fields": [
@@ -118790,13 +118800,13 @@
 ],
 "error": "",
 "closed": false,
-"fetched": "2026-11-05T02:28Z"
+"fetched": "2026-11-08T21:16Z"
 },
 "860ce3927bf9df79": {
 "company": "Astranis",
 "role": "Software Engineer Backend Intern (Summer 2027)",
 "link": "https://job-boards.greenhouse.io/astranis/jobs/4705214006",
-"attempted": 1793845674,
+"attempted": 1794172594,
 "apply_url": "https://boards.greenhouse.io/astranis/jobs/4705214006",
 "portal": "greenhouse",
 "fields": [
@@ -118975,13 +118985,13 @@
 ],
 "error": "",
 "closed": false,
-"fetched": "2026-11-05T02:28Z"
+"fetched": "2026-11-08T21:16Z"
 },
 "845623e4cae03d6f": {
 "company": "Astranis",
 "role": "Technical Project Management Intern (Summer 2027)",
 "link": "https://job-boards.greenhouse.io/astranis/jobs/4708369006",
-"attempted": 1793845674,
+"attempted": 1794172594,
 "apply_url": "https://boards.greenhouse.io/astranis/jobs/4708369006",
 "portal": "greenhouse",
 "fields": [
@@ -119163,13 +119173,13 @@
 ],
 "error": "",
 "closed": false,
-"fetched": "2026-11-05T02:28Z"
+"fetched": "2026-11-08T21:16Z"
 },
 "e1147b0a6197e01f": {
 "company": "Astranis",
 "role": "Thermal Intern (Summer 2027)",
 "link": "https://job-boards.greenhouse.io/astranis/jobs/4704820006",
-"attempted": 1793845674,
+"attempted": 1794172594,
 "apply_url": "https://boards.greenhouse.io/astranis/jobs/4704820006",
 "portal": "greenhouse",
 "fields": [
@@ -119346,7 +119356,7 @@
 ],
 "error": "",
 "closed": false,
-"fetched": "2026-11-05T02:28Z"
+"fetched": "2026-11-08T21:16Z"
 },
 "ecd57c8c4e281dcb": {
 "company": "Cadence",
@@ -119554,7 +119564,7 @@
 "company": "Varda Space",
 "role": "Aerodynamics & Analysis Engineering Internship - Summer 2027",
 "link": "https://job-boards.greenhouse.io/vardaspace/jobs/8010632003",
-"attempted": 1793845674,
+"attempted": 1794172594,
 "apply_url": "https://boards.greenhouse.io/vardaspace/jobs/8010632003",
 "portal": "greenhouse",
 "fields": [
@@ -119697,13 +119707,13 @@
 ],
 "error": "",
 "closed": false,
-"fetched": "2026-11-05T02:28Z"
+"fetched": "2026-11-08T21:16Z"
 },
 "086d2bee0f1f0767": {
 "company": "Varda Space",
 "role": "Avionics Engineering Internship - Summer 2027",
 "link": "https://job-boards.greenhouse.io/vardaspace/jobs/8010158003",
-"attempted": 1793845674,
+"attempted": 1794172594,
 "apply_url": "https://boards.greenhouse.io/vardaspace/jobs/8010158003",
 "portal": "greenhouse",
 "fields": [
@@ -119846,13 +119856,13 @@
 ],
 "error": "",
 "closed": false,
-"fetched": "2026-11-05T02:28Z"
+"fetched": "2026-11-08T21:16Z"
 },
 "5dccfa1e6b545d9a": {
 "company": "Varda Space",
 "role": "Cybersecurity Internship - Summer 2027",
 "link": "https://job-boards.greenhouse.io/vardaspace/jobs/8005821003",
-"attempted": 1793845674,
+"attempted": 1794172594,
 "apply_url": "https://boards.greenhouse.io/vardaspace/jobs/8005821003",
 "portal": "greenhouse",
 "fields": [
@@ -119995,13 +120005,13 @@
 ],
 "error": "",
 "closed": false,
-"fetched": "2026-11-05T02:28Z"
+"fetched": "2026-11-08T21:16Z"
 },
 "c4b9ce8a654efeac": {
 "company": "Varda Space",
 "role": "Environmental Health & Safety (EHS) Internship \u2013 Summer 2027",
 "link": "https://job-boards.greenhouse.io/vardaspace/jobs/7527870003",
-"attempted": 1793845674,
+"attempted": 1794172594,
 "apply_url": "https://boards.greenhouse.io/vardaspace/jobs/7527870003",
 "portal": "greenhouse",
 "fields": [
@@ -120132,13 +120142,13 @@
 ],
 "error": "",
 "closed": false,
-"fetched": "2026-11-05T02:28Z"
+"fetched": "2026-11-08T21:16Z"
 },
 "9def16b89c5ff8b4": {
 "company": "Varda Space",
 "role": "Flight Software Internship - Summer 2027",
 "link": "https://job-boards.greenhouse.io/vardaspace/jobs/8010159003",
-"attempted": 1793845674,
+"attempted": 1794172594,
 "apply_url": "https://boards.greenhouse.io/vardaspace/jobs/8010159003",
 "portal": "greenhouse",
 "fields": [
@@ -120281,13 +120291,13 @@
 ],
 "error": "",
 "closed": false,
-"fetched": "2026-11-05T02:28Z"
+"fetched": "2026-11-08T21:16Z"
 },
 "a0a283c215f37fd3": {
 "company": "Varda Space",
 "role": "Formulation Science Internship - Summer 2027",
 "link": "https://job-boards.greenhouse.io/vardaspace/jobs/8005846003",
-"attempted": 1793845674,
+"attempted": 1794172594,
 "apply_url": "https://boards.greenhouse.io/vardaspace/jobs/8005846003",
 "portal": "greenhouse",
 "fields": [
@@ -120430,13 +120440,13 @@
 ],
 "error": "",
 "closed": false,
-"fetched": "2026-11-05T02:28Z"
+"fetched": "2026-11-08T21:16Z"
 },
 "5e3b4ed9b1b30a26": {
 "company": "Varda Space",
 "role": "Guidance, Navigation & Controls (GNC) Internship - Summer 2027",
 "link": "https://job-boards.greenhouse.io/vardaspace/jobs/7865601003",
-"attempted": 1793845674,
+"attempted": 1794172594,
 "apply_url": "https://boards.greenhouse.io/vardaspace/jobs/7865601003",
 "portal": "greenhouse",
 "fields": [
@@ -120562,13 +120572,13 @@
 ],
 "error": "",
 "closed": false,
-"fetched": "2026-11-05T02:28Z"
+"fetched": "2026-11-08T21:16Z"
 },
 "d749dbfd5401790f": {
 "company": "Varda Space",
 "role": "Manufacturing Engineering Internship - Summer 2027",
 "link": "https://job-boards.greenhouse.io/vardaspace/jobs/8010166003",
-"attempted": 1793845674,
+"attempted": 1794172594,
 "apply_url": "https://boards.greenhouse.io/vardaspace/jobs/8010166003",
 "portal": "greenhouse",
 "fields": [
@@ -120711,13 +120721,13 @@
 ],
 "error": "",
 "closed": false,
-"fetched": "2026-11-05T02:28Z"
+"fetched": "2026-11-08T21:16Z"
 },
 "877546919eaebff6": {
 "company": "Varda Space",
 "role": "Mechanisms & Payload Internship - Summer 2027",
 "link": "https://job-boards.greenhouse.io/vardaspace/jobs/8010168003",
-"attempted": 1793845674,
+"attempted": 1794172594,
 "apply_url": "https://boards.greenhouse.io/vardaspace/jobs/8010168003",
 "portal": "greenhouse",
 "fields": [
@@ -120860,13 +120870,13 @@
 ],
 "error": "",
 "closed": false,
-"fetched": "2026-11-05T02:28Z"
+"fetched": "2026-11-08T21:16Z"
 },
 "d309566e501c8435": {
 "company": "Varda Space",
 "role": "Mission Operations Internship - Summer 2027",
 "link": "https://job-boards.greenhouse.io/vardaspace/jobs/8010682003",
-"attempted": 1793845674,
+"attempted": 1794172594,
 "apply_url": "https://boards.greenhouse.io/vardaspace/jobs/8010682003",
 "portal": "greenhouse",
 "fields": [
@@ -121009,13 +121019,13 @@
 ],
 "error": "",
 "closed": false,
-"fetched": "2026-11-05T02:28Z"
+"fetched": "2026-11-08T21:16Z"
 },
 "343a7cd18532cf63": {
 "company": "Varda Space",
 "role": "Pharmaceutical Lab Internship (Crystallization) Summer 2027",
 "link": "https://job-boards.greenhouse.io/vardaspace/jobs/8040897003",
-"attempted": 1793845674,
+"attempted": 1794172594,
 "apply_url": "https://boards.greenhouse.io/vardaspace/jobs/8040897003",
 "portal": "greenhouse",
 "fields": [
@@ -121146,13 +121156,13 @@
 ],
 "error": "",
 "closed": false,
-"fetched": "2026-11-05T02:28Z"
+"fetched": "2026-11-08T21:16Z"
 },
 "ccd2d4ff145e721f": {
 "company": "Varda Space",
 "role": "Propulsion Engineering Internship - Summer 2027",
 "link": "https://job-boards.greenhouse.io/vardaspace/jobs/8010169003",
-"attempted": 1793845674,
+"attempted": 1794172594,
 "apply_url": "https://boards.greenhouse.io/vardaspace/jobs/8010169003",
 "portal": "greenhouse",
 "fields": [
@@ -121295,13 +121305,13 @@
 ],
 "error": "",
 "closed": false,
-"fetched": "2026-11-05T02:28Z"
+"fetched": "2026-11-08T21:16Z"
 },
 "e756c632e24c0d4f": {
 "company": "Varda Space",
 "role": "Vehicle Integration & Test Internship - Summer 2027",
 "link": "https://job-boards.greenhouse.io/vardaspace/jobs/8010170003",
-"attempted": 1793845674,
+"attempted": 1794172594,
 "apply_url": "https://boards.greenhouse.io/vardaspace/jobs/8010170003",
 "portal": "greenhouse",
 "fields": [
@@ -121444,13 +121454,13 @@
 ],
 "error": "",
 "closed": false,
-"fetched": "2026-11-05T02:28Z"
+"fetched": "2026-11-08T21:16Z"
 },
 "196317b56baac2f6": {
 "company": "Zipline",
 "role": "Accounting Intern (Summer 2027)",
 "link": "https://www.zipline.com/open-roles/7894364003?gh_jid=7894364003",
-"attempted": 1793845674,
+"attempted": 1794172594,
 "apply_url": "https://boards.greenhouse.io/flyzipline/jobs/7894364003",
 "portal": "greenhouse",
 "fields": [
@@ -121676,13 +121686,13 @@
 ],
 "error": "",
 "closed": false,
-"fetched": "2026-11-05T02:28Z"
+"fetched": "2026-11-08T21:16Z"
 },
 "c996976769846687": {
 "company": "Zipline",
 "role": "Aircraft Software Integration Intern (Summer 2027)",
 "link": "https://www.zipline.com/open-roles/7986848003?gh_jid=7986848003",
-"attempted": 1793845674,
+"attempted": 1794172594,
 "apply_url": "https://boards.greenhouse.io/flyzipline/jobs/7986848003",
 "portal": "greenhouse",
 "fields": [
@@ -121803,13 +121813,13 @@
 ],
 "error": "",
 "closed": false,
-"fetched": "2026-11-05T02:28Z"
+"fetched": "2026-11-08T21:16Z"
 },
 "7ccfd13997177480": {
 "company": "Zipline",
 "role": "Change Management Intern (Summer 2027)",
 "link": "https://www.zipline.com/open-roles/7991435003?gh_jid=7991435003",
-"attempted": 1793845674,
+"attempted": 1794172594,
 "apply_url": "https://boards.greenhouse.io/flyzipline/jobs/7991435003",
 "portal": "greenhouse",
 "fields": [
@@ -122009,13 +122019,13 @@
 ],
 "error": "",
 "closed": false,
-"fetched": "2026-11-05T02:28Z"
+"fetched": "2026-11-08T21:16Z"
 },
 "370caed580ac6916": {
 "company": "Zipline",
 "role": "Civil and Structural Engineer Intern (Summer 2027)",
 "link": "https://www.zipline.com/open-roles/7920472003?gh_jid=7920472003",
-"attempted": 1793845674,
+"attempted": 1794172594,
 "apply_url": "https://boards.greenhouse.io/flyzipline/jobs/7920472003",
 "portal": "greenhouse",
 "fields": [
@@ -122221,13 +122231,13 @@
 ],
 "error": "",
 "closed": false,
-"fetched": "2026-11-05T02:28Z"
+"fetched": "2026-11-08T21:16Z"
 },
 "1ea89f3e79250cc3": {
 "company": "Zipline",
 "role": "Commercial Marketplace Strategy and Operations Intern (Summer 2027)",
 "link": "https://www.zipline.com/open-roles/7985002003?gh_jid=7985002003",
-"attempted": 1793845674,
+"attempted": 1794172594,
 "apply_url": "https://boards.greenhouse.io/flyzipline/jobs/7985002003",
 "portal": "greenhouse",
 "fields": [
@@ -122465,13 +122475,13 @@
 ],
 "error": "",
 "closed": false,
-"fetched": "2026-11-05T02:28Z"
+"fetched": "2026-11-08T21:16Z"
 },
 "7491371464df4cc9": {
 "company": "Zipline",
 "role": "Commercial Strategy & Operations Intern (Summer 2027)",
 "link": "https://www.zipline.com/open-roles/7982296003?gh_jid=7982296003",
-"attempted": 1793845674,
+"attempted": 1794172594,
 "apply_url": "https://boards.greenhouse.io/flyzipline/jobs/7982296003",
 "portal": "greenhouse",
 "fields": [
@@ -122720,13 +122730,13 @@
 ],
 "error": "",
 "closed": false,
-"fetched": "2026-11-05T02:28Z"
+"fetched": "2026-11-08T21:16Z"
 },
 "aa6804a8c75f1f5c": {
 "company": "Zipline",
 "role": "Community Engagement Intern (Summer 2027)",
 "link": "https://www.zipline.com/open-roles/7868195003?gh_jid=7868195003",
-"attempted": 1793845674,
+"attempted": 1794172594,
 "apply_url": "https://boards.greenhouse.io/flyzipline/jobs/7868195003",
 "portal": "greenhouse",
 "fields": [
@@ -122963,13 +122973,13 @@
 ],
 "error": "",
 "closed": false,
-"fetched": "2026-11-05T02:28Z"
+"fetched": "2026-11-08T21:16Z"
 },
 "c4b332c5b6db9e59": {
 "company": "Zipline",
 "role": "Computational Physics Intern (Summer 2027)",
 "link": "https://www.zipline.com/open-roles/7904720003?gh_jid=7904720003",
-"attempted": 1793845674,
+"attempted": 1794172594,
 "apply_url": "https://boards.greenhouse.io/flyzipline/jobs/7904720003",
 "portal": "greenhouse",
 "fields": [
@@ -123099,13 +123109,13 @@
 ],
 "error": "",
 "closed": false,
-"fetched": "2026-11-05T02:28Z"
+"fetched": "2026-11-08T21:16Z"
 },
 "fc4398a6fe532310": {
 "company": "Zipline",
 "role": "Corporate Tax Intern (Summer 2027)",
 "link": "https://www.zipline.com/open-roles/8017301003?gh_jid=8017301003",
-"attempted": 1793845674,
+"attempted": 1794172594,
 "apply_url": "https://boards.greenhouse.io/flyzipline/jobs/8017301003",
 "portal": "greenhouse",
 "fields": [
@@ -123331,13 +123341,13 @@
 ],
 "error": "",
 "closed": false,
-"fetched": "2026-11-05T02:28Z"
+"fetched": "2026-11-08T21:16Z"
 },
 "dfd3414e60a22d32": {
 "company": "Zipline",
 "role": "Data Analytics Intern (Summer 2027)",
 "link": "https://www.zipline.com/open-roles/7990632003?gh_jid=7990632003",
-"attempted": 1793845674,
+"attempted": 1794172594,
 "apply_url": "https://boards.greenhouse.io/flyzipline/jobs/7990632003",
 "portal": "greenhouse",
 "fields": [
@@ -123616,13 +123626,13 @@
 ],
 "error": "",
 "closed": false,
-"fetched": "2026-11-05T02:28Z"
+"fetched": "2026-11-08T21:16Z"
 },
 "065955f0017f2a02": {
 "company": "Zipline",
 "role": "Droid Autonomy Intern (Summer 2027)",
 "link": "https://www.zipline.com/open-roles/8002829003?gh_jid=8002829003",
-"attempted": 1793845674,
+"attempted": 1794172594,
 "apply_url": "https://boards.greenhouse.io/flyzipline/jobs/8002829003",
 "portal": "greenhouse",
 "fields": [
@@ -123847,13 +123857,13 @@
 ],
 "error": "",
 "closed": false,
-"fetched": "2026-11-05T02:28Z"
+"fetched": "2026-11-08T21:16Z"
 },
 "b2ad880775341b27": {
 "company": "Zipline",
 "role": "Global Supply Management Intern (Summer 2027)",
 "link": "https://www.zipline.com/open-roles/7891152003?gh_jid=7891152003",
-"attempted": 1793845674,
+"attempted": 1794172594,
 "apply_url": "https://boards.greenhouse.io/flyzipline/jobs/7891152003",
 "portal": "greenhouse",
 "fields": [
@@ -123988,7 +123998,7 @@
 ],
 "error": "",
 "closed": false,
-"fetched": "2026-11-05T02:28Z"
+"fetched": "2026-11-08T21:16Z"
 },
 "2f7ac2f50adce00c": {
 "company": "Zipline",
@@ -147282,7 +147292,7 @@
 "company": "BranchPattern",
 "role": "Electrical Engineering Intern - Summer 2027",
 "link": "https://www.linkedin.com/jobs/view/4465814184",
-"attempted": 1794017537,
+"attempted": 1794172594,
 "apply_url": "https://www.linkedin.com/jobs/view/4465814184",
 "portal": "linkedin",
 "fields": null,
@@ -148234,7 +148244,7 @@
 "company": "Sanmina",
 "role": "Engineering /Technology Co-Op",
 "link": "https://www.linkedin.com/jobs/view/4487375954",
-"attempted": 1794070105,
+"attempted": 1794172594,
 "apply_url": "https://www.linkedin.com/jobs/view/4487375954",
 "portal": "linkedin",
 "fields": null,
@@ -149056,5 +149066,55 @@
 "fields": null,
 "error": "form not public for this portal",
 "li_checked": true
+},
+"cc81918e137086ca": {
+"company": "Marvell Technology",
+"role": "Functional Validation Intern, BS - Summer 2027",
+"link": "https://www.linkedin.com/jobs/view/4461452053",
+"attempted": 1794172594,
+"apply_url": "https://www.linkedin.com/jobs/view/4461452053",
+"portal": "linkedin",
+"fields": null,
+"error": "form not public for this portal"
+},
+"9e4c2466a50b284e": {
+"company": "Marvell Technology",
+"role": "Physical Design Engineer Intern, BS - Summer 2027",
+"link": "https://www.linkedin.com/jobs/view/4461450062",
+"attempted": 1794172594,
+"apply_url": "https://www.linkedin.com/jobs/view/4461450062",
+"portal": "linkedin",
+"fields": null,
+"error": "form not public for this portal"
+},
+"8f2dc324bc7daba9": {
+"company": "Marvell Technology",
+"role": "Physical Design Engineer Intern, BS - Summer 2027",
+"link": "https://www.linkedin.com/jobs/view/4461439279",
+"attempted": 1794172594,
+"apply_url": "https://www.linkedin.com/jobs/view/4461439279",
+"portal": "linkedin",
+"fields": null,
+"error": "form not public for this portal"
+},
+"7697d339f0c66245": {
+"company": "Vertiv",
+"role": "Electrical Engineering Intern - Energy Storage (Summer 2027)",
+"link": "https://www.linkedin.com/jobs/view/4453388207",
+"attempted": 1794172594,
+"apply_url": "https://www.linkedin.com/jobs/view/4453388207",
+"portal": "linkedin",
+"fields": null,
+"error": "form not public for this portal"
+},
+"ff5e06d5ecbc5df0": {
+"company": "SSOE Group",
+"role": "Electrical Engineering Co-Op - Summer 2027",
+"link": "https://www.linkedin.com/jobs/view/4488401121",
+"attempted": 1794172594,
+"apply_url": "https://www.linkedin.com/jobs/view/4488401121",
+"portal": "linkedin",
+"fields": null,
+"error": "form not public for this portal"
 }
 }
