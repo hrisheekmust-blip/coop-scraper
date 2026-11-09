@@ -635,8 +635,8 @@
 },
 "https://www.indeed.com/viewjob": {
 "first_seen": "2026-09-18",
-"title": "Test Development CoOp (Spring 2027)",
-"company": "Sanmina",
+"title": "Space Vehicle Electrical Engineering Intern",
+"company": "York Space Systems",
 "desc": ""
 },
 "https://www.linkedin.com/jobs/view/4468697840": {
@@ -22061,6 +22061,96 @@
 "first_seen": "2026-11-08",
 "title": "Electrical Engineering Intern - Energy Storage (Summer 2027)",
 "company": "Vertiv",
+"desc": ""
+},
+"https://go.vansh.nyc/1nC": {
+"first_seen": "2026-11-09",
+"title": "Embedded Firmware Co-op",
+"company": "Alliance Laundry Systems",
+"desc": ""
+},
+"https://go.vansh.nyc/1nA": {
+"first_seen": "2026-11-09",
+"title": "Hardware Engineer Intern",
+"company": "Hewlett Packard Enterprise",
+"desc": ""
+},
+"https://go.vansh.nyc/1nW": {
+"first_seen": "2026-11-09",
+"title": "Validation Engineer Intern",
+"company": "onsemi",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4487131262": {
+"first_seen": "2026-11-09",
+"title": "Electrical Engineer Intern",
+"company": "MechSpire",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4488153347": {
+"first_seen": "2026-11-09",
+"title": "Spring 2027 Electrical Engineering Intern - Idaho Falls, ID",
+"company": "Aalo Atomics",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4488831650": {
+"first_seen": "2026-11-09",
+"title": "Electrical Engineering Intern, Full Time",
+"company": "AeroNex Systems",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4488734434": {
+"first_seen": "2026-11-09",
+"title": "Electrical Engineering Intern (Salt Lake City, UT)",
+"company": "L3Harris Technologies",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4487377480": {
+"first_seen": "2026-11-09",
+"title": "Engineering /Technology Co-Op",
+"company": "Sanmina",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4487656712": {
+"first_seen": "2026-11-09",
+"title": "Electrical Engineering Intern, Test and Characterization",
+"company": "RadianX",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4476076408": {
+"first_seen": "2026-11-09",
+"title": "System Test Development Intern (Missile Focus), Summer 2027",
+"company": "BAE Systems, Inc.",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4453133993": {
+"first_seen": "2026-11-09",
+"title": "Electrical Engineer Intern/Co-op Summer 2027",
+"company": "CMTA, Inc.",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4487654708": {
+"first_seen": "2026-11-09",
+"title": "Intern - Electrical Engineer",
+"company": "Electrical Power Products",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4487656108": {
+"first_seen": "2026-11-09",
+"title": "Smart Infrastructure Electrical Products Engineering Leadership Development Program Internship",
+"company": "Siemens",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4487649804": {
+"first_seen": "2026-11-09",
+"title": "Smart Infrastructure Electrical Products Engineering Leadership Development Program Internship",
+"company": "Siemens",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4470975470": {
+"first_seen": "2026-11-09",
+"title": "Intern - Firmware Engineer, Undergraduate",
+"company": "Advanced Energy",
 "desc": ""
 }
 }
