@@ -635,8 +635,8 @@
 },
 "https://www.indeed.com/viewjob": {
 "first_seen": "2026-09-18",
-"title": "Space Vehicle Electrical Engineering Intern",
-"company": "York Space Systems",
+"title": "2027 Internship - Layout Design",
+"company": "Cirrus Logic",
 "desc": ""
 },
 "https://www.linkedin.com/jobs/view/4468697840": {
@@ -14775,7 +14775,7 @@
 },
 "https://www.linkedin.com/jobs/view/4461383815": {
 "first_seen": "2026-10-18",
-"title": "Automated Test Engineering Intern",
+"title": "Automated Test Hardware Engineering Intern",
 "company": "Shure",
 "desc": ""
 },
@@ -22247,6 +22247,198 @@
 "first_seen": "2026-11-10",
 "title": "Electrical Engineering/Electronics Technology Test Intern/Co-op (2027) Part-Time",
 "company": "BAE Systems",
+"desc": ""
+},
+"https://go.vansh.nyc/1pG": {
+"first_seen": "2026-11-10",
+"title": "Digital Hardware Design Engineer Co-op",
+"company": "RTX",
+"desc": ""
+},
+"https://go.vansh.nyc/1oU": {
+"first_seen": "2026-11-10",
+"title": "Digital Hardware Engineering Intern",
+"company": "Viavi Solutions",
+"desc": ""
+},
+"https://go.vansh.nyc/1pc": {
+"first_seen": "2026-11-10",
+"title": "FPGA Engineer Intern",
+"company": "General Dynamics Mission Systems, Inc.",
+"desc": ""
+},
+"https://go.vansh.nyc/1pQ": {
+"first_seen": "2026-11-10",
+"title": "Ontology Data Analysis and Validation Intern",
+"company": "General Dynamics Mission Systems",
+"desc": ""
+},
+"https://go.vansh.nyc/1ow": {
+"first_seen": "2026-11-10",
+"title": "Electrical Engineering Intern, FPGA",
+"company": "CesiumAstro",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/45ff78f7-3c7a-4ee2-a266-2ea65e0b0e67": {
+"first_seen": "2026-11-10",
+"title": "Electrical & Instrumentation Co-op",
+"company": "Hargrove",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/a5195471-523a-435d-a3e9-c727771c98fe": {
+"first_seen": "2026-11-10",
+"title": "Electrical Engineer Co-op",
+"company": "Constellation Energy",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/914e4aca-ec16-4f0b-bb2b-882d64364763": {
+"first_seen": "2026-11-10",
+"title": "Electrical Engineering Co-op",
+"company": "Constellation Energy",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/1eed300b-d93e-4738-bf94-41148d678585": {
+"first_seen": "2026-11-10",
+"title": "Electrical Engineer Co-op",
+"company": "General Dynamics Mission Systems",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4489167315": {
+"first_seen": "2026-11-10",
+"title": "Electrical Applications Engineer Co-Op 2026",
+"company": "Nexteer Automotive",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4489134264": {
+"first_seen": "2026-11-10",
+"title": "Electrical Engineer Co-op",
+"company": "OGP \u2013 Optical Gaging Products",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4488897330": {
+"first_seen": "2026-11-10",
+"title": "Manufacturing Test Engineer Co-Op",
+"company": "Boston Dynamics",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4487967430": {
+"first_seen": "2026-11-10",
+"title": "Digital Hardware Engineering Intern",
+"company": "VIAVI Solutions",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4489168334": {
+"first_seen": "2026-11-10",
+"title": "Electrical Hardware Intern - Summer 2027",
+"company": "Nexteer Automotive",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4489122370": {
+"first_seen": "2026-11-10",
+"title": "Summer 2027 - Electrical Engineering Internship, Hardware",
+"company": "CesiumAstro",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4487933380": {
+"first_seen": "2026-11-10",
+"title": "Intern, RFIC Design Validation and Characterization - Spring 2026",
+"company": "pSemi, A Murata Company",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4487413843": {
+"first_seen": "2026-11-10",
+"title": "Summer 2027 Internships - Design Engineering",
+"company": "Silicon Labs",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4489136077": {
+"first_seen": "2026-11-10",
+"title": "Summer 2027 - Electrical Engineering Internship, FPGA",
+"company": "CesiumAstro",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4487964318": {
+"first_seen": "2026-11-10",
+"title": "2027 Internship -  Applied AI Engineering",
+"company": "Cirrus Logic",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4488854360": {
+"first_seen": "2026-11-10",
+"title": "Electrical Hardware Engineer Intern",
+"company": "Hewlett Packard Enterprise",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4489121058": {
+"first_seen": "2026-11-10",
+"title": "Intern - Device Engineer",
+"company": "Microchip Technology Inc.",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4489106185": {
+"first_seen": "2026-11-10",
+"title": "Intern \u2013 RF Engineer",
+"company": "FIRST RF",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4488895826": {
+"first_seen": "2026-11-10",
+"title": "Intern \u2013 Embedded Engineer",
+"company": "FIRST RF",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4487422518": {
+"first_seen": "2026-11-10",
+"title": "Product Engineering (Intern - Summer 2027)",
+"company": "SRC",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4489162286": {
+"first_seen": "2026-11-10",
+"title": "Summer 2027 Intern - System Design Verification",
+"company": "Sandisk",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4488879199": {
+"first_seen": "2026-11-10",
+"title": "Validation Intern",
+"company": "Renesas Electronics",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4489168968": {
+"first_seen": "2026-11-10",
+"title": "Electrical Design Intern",
+"company": "ArchKey Solutions",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4489188272": {
+"first_seen": "2026-11-10",
+"title": "Electrical Engineering Intern",
+"company": "Intuitive",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4489401433": {
+"first_seen": "2026-11-10",
+"title": "2027 Power and Analog Circuit Engineering Grad Intern",
+"company": "The Aerospace Corporation",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4487974608": {
+"first_seen": "2026-11-10",
+"title": "Internship, Electrical Engineering (Summer 2027)",
+"company": "Pivotal",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4470101212": {
+"first_seen": "2026-11-10",
+"title": "Embedded SDET Co-Op Full Time Intern January-June 2027",
+"company": "iRhythm Technologies, Inc.",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4461444171": {
+"first_seen": "2026-11-10",
+"title": "Functional Validation Intern, BS - Summer 2027",
+"company": "Marvell Technology",
 "desc": ""
 }
 }
