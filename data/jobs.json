@@ -164,7 +164,6 @@
   "hw": "electrical engineer",
   "tier": "big",
   "sources": [
-   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-09-17",
@@ -182,7 +181,6 @@
   "hw": "test engineer",
   "tier": "big",
   "sources": [
-   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-10-20",
@@ -200,7 +198,6 @@
   "hw": "firmware",
   "tier": "big",
   "sources": [
-   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-10-14",
@@ -218,7 +215,6 @@
   "hw": "test engineer",
   "tier": "big",
   "sources": [
-   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-10-15",
@@ -236,7 +232,6 @@
   "hw": "test engineer",
   "tier": "big",
   "sources": [
-   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-10-07",
@@ -339,7 +334,6 @@
   "hw": "electrical engineer",
   "tier": "big",
   "sources": [
-   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-09-17",
@@ -391,7 +385,6 @@
   "hw": "test engineer",
   "tier": "big",
   "sources": [
-   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-10-06",
@@ -511,7 +504,6 @@
   "hw": "electrical engineer",
   "tier": "big",
   "sources": [
-   "jobspy:linkedin",
    "workday"
   ],
   "first_seen": "2026-11-05",
@@ -2442,23 +2434,6 @@
   "last_seen": "2026-11-11"
  },
  {
-  "company": "Empower Semiconductor",
-  "title": "Summer 2027 Intern \u2013 Actuarial Benefit Consulting Services",
-  "location": "CT Hartford",
-  "url": "https://empower.wd12.myworkdayjobs.com/empower/job/CT-Hartford/Summer-2027-Intern---Actuarial-Benefit-Consulting-Services_R0062346",
-  "posted": "Posted 30+ Days Ago",
-  "deadline": "",
-  "term": "summer",
-  "rank": "A",
-  "hw": "maybe",
-  "tier": "startup",
-  "sources": [
-   "workday"
-  ],
-  "first_seen": "2026-11-05",
-  "last_seen": "2026-11-11"
- },
- {
   "company": "Entegris",
   "title": "Analytical/Metrology Scientist Intern",
   "location": "Billerica, MA",
@@ -2487,7 +2462,6 @@
   "hw": "metrology",
   "tier": "big",
   "sources": [
-   "internlist:coop",
    "workday"
   ],
   "first_seen": "2026-09-18",
@@ -2505,7 +2479,6 @@
   "hw": "metrology",
   "tier": "big",
   "sources": [
-   "jobspy:linkedin",
    "workday"
   ],
   "first_seen": "2026-11-10",
@@ -2931,9 +2904,7 @@
   "hw": "electrical engineering",
   "tier": "big",
   "sources": [
-   "greenhouse",
-   "jobspy:indeed",
-   "jobspy:linkedin"
+   "greenhouse"
   ],
   "first_seen": "2026-11-10",
   "last_seen": "2026-11-11"
@@ -3001,8 +2972,7 @@
   "hw": "hardware",
   "tier": "big",
   "sources": [
-   "greenhouse",
-   "jobspy:indeed"
+   "greenhouse"
   ],
   "first_seen": "2026-11-10",
   "last_seen": "2026-11-11"
@@ -3956,8 +3926,7 @@
   "hw": "electrical",
   "tier": "startup",
   "sources": [
-   "greenhouse",
-   "jobspy:linkedin"
+   "greenhouse"
   ],
   "first_seen": "2026-11-05",
   "last_seen": "2026-11-11"
@@ -4612,10 +4581,10 @@
  },
  {
   "company": "RTX",
-  "title": "Electrical Components Engineer Intern (Summer 2027)(Onsite)",
+  "title": "Electrical Components Engineer Intern (Summer 2027) (Onsite)",
   "location": "US-AZ-TUCSON-M10 ~ 3360 E Hemisphere Loop ~ BLDG M10",
-  "url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-AZ-TUCSON-M10--3360-E-Hemisphere-Loop--BLDG-M10/Electrical-Components-Engineer-Intern--Summer-2027--Onsite-_01879761",
-  "posted": "Posted 6 Days Ago",
+  "url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-AZ-TUCSON-M10--3360-E-Hemisphere-Loop--BLDG-M10/Electrical-Components-Engineer-Intern--Summer-2027---Onsite-_01888885",
+  "posted": "Posted Today",
   "deadline": "",
   "term": "summer",
   "rank": "A",
@@ -4624,7 +4593,7 @@
   "sources": [
    "workday"
   ],
-  "first_seen": "2026-11-05",
+  "first_seen": "2026-11-11",
   "last_seen": "2026-11-11"
  },
  {
@@ -4748,23 +4717,6 @@
  },
  {
   "company": "RTX",
-  "title": "Industrial Engineering Co-op (Spring/Summer 2027)",
-  "location": "US-IA-BELLEVUE-186 ~ 1500 State St ~ STATE",
-  "url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-IA-BELLEVUE-186--1500-State-St--STATE/Industrial-Engineering-Co-op--Spring-Summer-2027-_01876770",
-  "posted": "Posted 16 Days Ago",
-  "deadline": "",
-  "term": "spring",
-  "rank": "A",
-  "hw": "maybe",
-  "tier": "big",
-  "sources": [
-   "workday"
-  ],
-  "first_seen": "2026-09-24",
-  "last_seen": "2026-11-11"
- },
- {
-  "company": "RTX",
   "title": "Manufacturing Electrical Engineer Co-op (Spring/Summer 2027)",
   "location": "US-FL-MELBOURNE-308 ~ 1100 W Hibiscus Blvd ~ BLDG 308",
   "url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-FL-MELBOURNE-308--1100-W-Hibiscus-Blvd--BLDG-308/Manufacturing-Electrical-Engineer-Co-op--Spring-Summer-2027-_01883878",
@@ -4829,6 +4781,23 @@
    "workday"
   ],
   "first_seen": "2026-11-09",
+  "last_seen": "2026-11-11"
+ },
+ {
+  "company": "RTX",
+  "title": "Receiver, Exciter & Processing Architecture Electrical Engineer Intern (Summer 2027)",
+  "location": "US-MA-TEWKSBURY-TB1 ~ 50 Apple Hill Dr ~ ASSABET BLDG",
+  "url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-MA-TEWKSBURY-TB1--50-Apple-Hill-Dr--ASSABET-BLDG/Receiver--Exciter---Processing-Architecture-Electrical-Engineer-Intern--Summer-2027-_01873437",
+  "posted": "Posted Today",
+  "deadline": "",
+  "term": "summer",
+  "rank": "A",
+  "hw": "electrical engineer",
+  "tier": "big",
+  "sources": [
+   "workday"
+  ],
+  "first_seen": "2026-11-05",
   "last_seen": "2026-11-11"
  },
  {
@@ -5949,8 +5918,7 @@
   "hw": "hardware",
   "tier": "startup",
   "sources": [
-   "ashby",
-   "jobspy:linkedin"
+   "ashby"
   ],
   "first_seen": "2026-11-10",
   "last_seen": "2026-11-11"
@@ -6756,23 +6724,6 @@
  },
  {
   "company": "Skyworks",
-  "title": "RF Front-End EM Design Co-Op (Summer/Fall 2027)",
-  "location": "Newbury Park, CA, USA    ",
-  "url": "https://careers.skyworksinc.com/job/RF-Front-End-EM-Design-Co-Op-%28SummerFall-2027%29/78165-en_US",
-  "posted": "2026-08-14",
-  "deadline": "",
-  "term": "summer",
-  "rank": "A",
-  "hw": "rf",
-  "tier": "big",
-  "sources": [
-   "successfactors"
-  ],
-  "first_seen": "2026-11-05",
-  "last_seen": "2026-11-11"
- },
- {
-  "company": "Skyworks",
   "title": "RF Front-End Engineer Summer/Fall Co-Op (June-Dec '27)",
   "location": "San Jose, CA, USA    ",
   "url": "https://careers.skyworksinc.com/job/RF-Front-End-Engineer-SummerFall-Co-Op-%28June-Dec-&apos;27%29/78506-en_US",
@@ -7412,7 +7363,6 @@
   "hw": "silicon",
   "tier": "big",
   "sources": [
-   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-09-17",
@@ -7430,7 +7380,6 @@
   "hw": "silicon",
   "tier": "big",
   "sources": [
-   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-11-05",
@@ -11227,9 +11176,9 @@
  },
  {
   "company": "General Dynamics Mission Systems",
-  "title": "Electrical Engineer Co-Op (August - December 2027)",
+  "title": "Electrical Engineer Co-Op (May - December 2027)",
   "location": "",
-  "url": "https://careers-gdms.icims.com/jobs/74599/electrical-engineer-co-op-%28august---december-2027%29/job",
+  "url": "https://careers-gdms.icims.com/jobs/74599/electrical-engineer-co-op-%28may---december-2027%29/job",
   "posted": "",
   "deadline": "",
   "term": "coop-unspecified",
@@ -11239,7 +11188,7 @@
   "sources": [
    "icims"
   ],
-  "first_seen": "2026-11-09",
+  "first_seen": "2026-11-11",
   "last_seen": "2026-11-11"
  },
  {
@@ -12978,9 +12927,7 @@
   "hw": "firmware",
   "tier": "big",
   "sources": [
-   "greenhouse",
-   "internlist:coop",
-   "internlist:winter-spring"
+   "greenhouse"
   ],
   "first_seen": "2026-09-24",
   "last_seen": "2026-11-11"
@@ -15915,7 +15862,6 @@
   "hw": "eda,electrical",
   "tier": "big",
   "sources": [
-   "github:vanshb03-summer",
    "workday"
   ],
   "first_seen": "2026-10-28",
@@ -16106,6 +16052,23 @@
    "icims"
   ],
   "first_seen": "2026-10-06",
+  "last_seen": "2026-11-11"
+ },
+ {
+  "company": "General Dynamics Mission Systems",
+  "title": "Electrical Engineering Intern (FPGA)",
+  "location": "",
+  "url": "https://careers-gdms.icims.com/jobs/76081/electrical-engineering-intern-%28fpga%29/job",
+  "posted": "",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "electrical engineering,fpga",
+  "tier": "big",
+  "sources": [
+   "icims"
+  ],
+  "first_seen": "2026-11-11",
   "last_seen": "2026-11-11"
  },
  {
@@ -19247,7 +19210,7 @@
   "title": "Internship - Quantum Applications Research",
   "location": "Boston, MA, USA",
   "url": "https://job-boards.greenhouse.io/queracomputinginc/jobs/5435901008",
-  "posted": "2026-10-26",
+  "posted": "2026-11-11",
   "deadline": "",
   "term": "unspecified",
   "rank": "C",
@@ -19356,8 +19319,7 @@
   "hw": "rtl",
   "tier": "startup",
   "sources": [
-   "ashby",
-   "github:vanshb03-summer"
+   "ashby"
   ],
   "first_seen": "2026-09-23",
   "last_seen": "2026-11-11"
@@ -19428,6 +19390,23 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-09-18",
+  "last_seen": "2026-11-11"
+ },
+ {
+  "company": "RTX",
+  "title": "Electrical Engineering Intern - Test Solutions",
+  "location": "US-MA-TEWKSBURY-TB2 ~ 50 Apple Hill Dr ~ SUDBURY BLDG, Tewksbury Tb2 200 Sudbury",
+  "url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-MA-TEWKSBURY-TB2--50-Apple-Hill-Dr--SUDBURY-BLDG-Tewksbury-Tb2-200-Sudbury/Electrical-Engineering-Intern---Test-Solutions_01887669",
+  "posted": "Posted Today",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "electrical engineering",
+  "tier": "big",
+  "sources": [
+   "workday"
+  ],
+  "first_seen": "2026-11-11",
   "last_seen": "2026-11-11"
  },
  {
@@ -20318,23 +20297,6 @@
  {
   "company": "Skyworks",
   "title": "Analog Design Engineering Intern",
-  "location": "San Jose, USA    ",
-  "url": "https://careers.skyworksinc.com/job/Analog-Design-Engineering-Intern/78771-en_US",
-  "posted": "2026-10-29",
-  "deadline": "",
-  "term": "unspecified",
-  "rank": "C",
-  "hw": "analog",
-  "tier": "big",
-  "sources": [
-   "successfactors"
-  ],
-  "first_seen": "2026-10-29",
-  "last_seen": "2026-11-11"
- },
- {
-  "company": "Skyworks",
-  "title": "Analog Design Engineering Intern",
   "location": "Apopka, USA    ",
   "url": "https://careers.skyworksinc.com/job/Analog-Design-Engineering-Intern/78736-en_US",
   "posted": "2026-10-27",
@@ -20347,6 +20309,23 @@
    "successfactors"
   ],
   "first_seen": "2026-10-27",
+  "last_seen": "2026-11-11"
+ },
+ {
+  "company": "Skyworks",
+  "title": "Analog Design Engineering Intern",
+  "location": "San Jose, USA    ",
+  "url": "https://careers.skyworksinc.com/job/Analog-Design-Engineering-Intern/78771-en_US",
+  "posted": "2026-10-29",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "analog",
+  "tier": "big",
+  "sources": [
+   "successfactors"
+  ],
+  "first_seen": "2026-10-29",
   "last_seen": "2026-11-11"
  },
  {
@@ -20539,8 +20518,8 @@
  {
   "company": "Skyworks",
   "title": "Product Engineering Intern",
-  "location": "Greensboro, USA    ",
-  "url": "https://careers.skyworksinc.com/job/Product-Engineering-Intern/78749-en_US",
+  "location": "Hillsboro, USA    ",
+  "url": "https://careers.skyworksinc.com/job/Product-Engineering-Intern/78779-en_US",
   "posted": "2026-10-28",
   "deadline": "",
   "term": "unspecified",
@@ -20556,8 +20535,8 @@
  {
   "company": "Skyworks",
   "title": "Product Engineering Intern",
-  "location": "Hillsboro, USA    ",
-  "url": "https://careers.skyworksinc.com/job/Product-Engineering-Intern/78779-en_US",
+  "location": "Greensboro, USA    ",
+  "url": "https://careers.skyworksinc.com/job/Product-Engineering-Intern/78749-en_US",
   "posted": "2026-10-28",
   "deadline": "",
   "term": "unspecified",
@@ -20640,6 +20619,23 @@
  },
  {
   "company": "Skyworks",
+  "title": "Si Mixed Signal/Digital Design Intern",
+  "location": "Apopka, USA    ",
+  "url": "https://careers.skyworksinc.com/job/Si-Mixed-SignalDigital-Design-Intern/78711-en_US",
+  "posted": "2026-10-27",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "digital design,mixed signal",
+  "tier": "big",
+  "sources": [
+   "successfactors"
+  ],
+  "first_seen": "2026-11-11",
+  "last_seen": "2026-11-11"
+ },
+ {
+  "company": "Skyworks",
   "title": "Software Characterization Engineering Intern",
   "location": "Greensboro, USA    ",
   "url": "https://careers.skyworksinc.com/job/Software-Characterization-Engineering-Intern/78785-en_US",
@@ -20709,23 +20705,6 @@
  {
   "company": "Skyworks",
   "title": "Test Engineering Intern",
-  "location": "Greensboro, USA    ",
-  "url": "https://careers.skyworksinc.com/job/Test-Engineering-Intern/79007-en_US",
-  "posted": "2026-10-29",
-  "deadline": "",
-  "term": "unspecified",
-  "rank": "C",
-  "hw": "test engineering",
-  "tier": "big",
-  "sources": [
-   "successfactors"
-  ],
-  "first_seen": "2026-10-29",
-  "last_seen": "2026-11-11"
- },
- {
-  "company": "Skyworks",
-  "title": "Test Engineering Intern",
   "location": "Hillsboro, USA    ",
   "url": "https://careers.skyworksinc.com/job/Test-Engineering-Intern/78777-en_US",
   "posted": "2026-10-28",
@@ -20738,6 +20717,23 @@
    "successfactors"
   ],
   "first_seen": "2026-10-28",
+  "last_seen": "2026-11-11"
+ },
+ {
+  "company": "Skyworks",
+  "title": "Test Engineering Intern",
+  "location": "Greensboro, USA    ",
+  "url": "https://careers.skyworksinc.com/job/Test-Engineering-Intern/78712-en_US",
+  "posted": "2026-10-27",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "test engineering",
+  "tier": "big",
+  "sources": [
+   "successfactors"
+  ],
+  "first_seen": "2026-10-27",
   "last_seen": "2026-11-11"
  },
  {
@@ -21435,6 +21431,23 @@
    "github:vanshb03-summer"
   ],
   "first_seen": "2026-10-26",
+  "last_seen": "2026-11-11"
+ },
+ {
+  "company": "Thermo Fisher Scientific",
+  "title": "Intern - Electronics Engineer",
+  "location": "Brno, Czechia",
+  "url": "https://jobs.thermofisher.com/global/en/job/R-01373995/intern-electronics-engineer",
+  "posted": "2026-11-11",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "electronics",
+  "tier": "big",
+  "sources": [
+   "phenom"
+  ],
+  "first_seen": "2026-11-11",
   "last_seen": "2026-11-11"
  },
  {
