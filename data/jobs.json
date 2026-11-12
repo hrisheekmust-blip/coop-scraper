@@ -31,7 +31,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-11-05",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "AbbVie",
@@ -48,7 +48,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-10-28",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "AbbVie",
@@ -65,7 +65,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-10-28",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Amazon",
@@ -133,7 +133,7 @@
    "jobspy:linkedin"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Amazon",
@@ -184,7 +184,7 @@
    "jobspy:linkedin"
   ],
   "first_seen": "2026-11-11",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Anduril",
@@ -198,6 +198,7 @@
   "hw": "electrical engineer",
   "tier": "big",
   "sources": [
+   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-09-17",
@@ -215,6 +216,7 @@
   "hw": "test engineer",
   "tier": "big",
   "sources": [
+   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-10-20",
@@ -232,6 +234,7 @@
   "hw": "firmware",
   "tier": "big",
   "sources": [
+   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-10-14",
@@ -249,6 +252,7 @@
   "hw": "test engineer",
   "tier": "big",
   "sources": [
+   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-10-15",
@@ -266,6 +270,7 @@
   "hw": "test engineer",
   "tier": "big",
   "sources": [
+   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-10-07",
@@ -303,7 +308,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Anduril",
@@ -320,7 +325,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-10-08",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Anduril",
@@ -337,7 +342,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-10-08",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Anduril",
@@ -368,6 +373,7 @@
   "hw": "electrical engineer",
   "tier": "big",
   "sources": [
+   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-09-17",
@@ -419,6 +425,7 @@
   "hw": "test engineer",
   "tier": "big",
   "sources": [
+   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-10-06",
@@ -507,7 +514,7 @@
    "jobspy:linkedin"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Applied Materials",
@@ -538,6 +545,7 @@
   "hw": "electrical engineer",
   "tier": "big",
   "sources": [
+   "jobspy:linkedin",
    "workday"
   ],
   "first_seen": "2026-11-05",
@@ -660,7 +668,7 @@
    "jobspy:linkedin"
   ],
   "first_seen": "2026-11-10",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Astranis",
@@ -1510,7 +1518,7 @@
    "jobspy:linkedin"
   ],
   "first_seen": "2026-09-27",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Axelera AI",
@@ -1731,7 +1739,7 @@
    "jobspy:linkedin"
   ],
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Barry-Wehmiller",
@@ -1748,7 +1756,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "BorgWarner",
@@ -1765,7 +1773,7 @@
    "jobspy:linkedin"
   ],
   "first_seen": "2026-11-10",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Bose",
@@ -1800,23 +1808,6 @@
   ],
   "first_seen": "2026-11-09",
   "last_seen": "2026-11-12"
- },
- {
-  "company": "CACI International Inc",
-  "title": "Electrical Engineering Intern - Summer 2027",
-  "location": "Sarasota, FL, USA",
-  "url": "https://www.linkedin.com/jobs/view/4488214416",
-  "posted": "2026-11-11",
-  "deadline": "",
-  "term": "summer",
-  "rank": "A",
-  "hw": "electrical engineering",
-  "tier": "",
-  "sources": [
-   "jobspy:linkedin"
-  ],
-  "first_seen": "2026-11-11",
-  "last_seen": "2026-11-11"
  },
  {
   "company": "Cadence",
@@ -1884,7 +1875,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "CesiumAstro",
@@ -1902,7 +1893,7 @@
    "jobspy:linkedin"
   ],
   "first_seen": "2026-11-10",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "CesiumAstro",
@@ -1916,28 +1907,10 @@
   "hw": "electrical engineering,hardware",
   "tier": "",
   "sources": [
-   "jobspy:indeed",
    "jobspy:linkedin"
   ],
   "first_seen": "2026-11-10",
-  "last_seen": "2026-11-11"
- },
- {
-  "company": "Charter Casting",
-  "title": "Electrical Maintenance Engineer Intern (Summer 2027)",
-  "location": "Shawano, WI, USA",
-  "url": "https://www.linkedin.com/jobs/view/4478298816",
-  "posted": "2026-11-10",
-  "deadline": "",
-  "term": "summer",
-  "rank": "A",
-  "hw": "electrical",
-  "tier": "",
-  "sources": [
-   "jobspy:linkedin"
-  ],
-  "first_seen": "2026-11-10",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Cleveland-Cliffs",
@@ -1954,7 +1927,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-11-05",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Collins Aerospace",
@@ -1971,24 +1944,7 @@
    "jobspy:linkedin"
   ],
   "first_seen": "2026-09-28",
-  "last_seen": "2026-11-11"
- },
- {
-  "company": "Collins Aerospace",
-  "title": "Manufacturing Electrical Engineering Co-Op (Summer/Fall 2027)",
-  "location": "Cedar Rapids, IA, USA",
-  "url": "https://www.linkedin.com/jobs/view/4473018527",
-  "posted": "2026-11-11",
-  "deadline": "",
-  "term": "summer",
-  "rank": "A",
-  "hw": "electrical engineering",
-  "tier": "",
-  "sources": [
-   "jobspy:linkedin"
-  ],
-  "first_seen": "2026-11-11",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Commonwealth Fusion Systems",
@@ -2073,7 +2029,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-10-29",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Corning",
@@ -2090,7 +2046,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-11-03",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Cryptic Vector",
@@ -2107,7 +2063,7 @@
    "jobspy:linkedin"
   ],
   "first_seen": "2026-11-11",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Cummins",
@@ -2124,7 +2080,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-10-23",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Cummins",
@@ -2142,7 +2098,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-09-25",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Cummins",
@@ -2160,24 +2116,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-09-25",
-  "last_seen": "2026-11-11"
- },
- {
-  "company": "Cummins Inc.",
-  "title": "Electronic Systems - Summer Internship Positions",
-  "location": "Columbus, IN, USA",
-  "url": "https://www.linkedin.com/jobs/view/4471556364",
-  "posted": "2026-11-10",
-  "deadline": "",
-  "term": "spring",
-  "rank": "A",
-  "hw": "electronic",
-  "tier": "",
-  "sources": [
-   "jobspy:linkedin"
-  ],
-  "first_seen": "2026-09-28",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Draper",
@@ -2245,7 +2184,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-09-24",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Draper",
@@ -2531,6 +2470,7 @@
   "hw": "metrology",
   "tier": "big",
   "sources": [
+   "internlist:coop",
    "workday"
   ],
   "first_seen": "2026-09-18",
@@ -2548,6 +2488,7 @@
   "hw": "metrology",
   "tier": "big",
   "sources": [
+   "jobspy:linkedin",
    "workday"
   ],
   "first_seen": "2026-11-10",
@@ -2585,7 +2526,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Etched",
@@ -2942,7 +2883,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-10-23",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Flex",
@@ -2959,7 +2900,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Formlabs",
@@ -2973,7 +2914,9 @@
   "hw": "electrical engineering",
   "tier": "big",
   "sources": [
-   "greenhouse"
+   "greenhouse",
+   "jobspy:indeed",
+   "jobspy:linkedin"
   ],
   "first_seen": "2026-11-10",
   "last_seen": "2026-11-12"
@@ -3149,23 +3092,6 @@
   "last_seen": "2026-11-12"
  },
  {
-  "company": "Freeform",
-  "title": "Electrical Engineering Intern (Summer 2027)",
-  "location": "Los Angeles, CA, USA",
-  "url": "https://www.linkedin.com/jobs/view/4455471097",
-  "posted": "2026-11-10",
-  "deadline": "",
-  "term": "summer",
-  "rank": "A",
-  "hw": "electrical engineering",
-  "tier": "",
-  "sources": [
-   "jobspy:linkedin"
-  ],
-  "first_seen": "2026-11-10",
-  "last_seen": "2026-11-11"
- },
- {
   "company": "GAF",
   "title": "Process Engineer Co-op",
   "location": "New Columbia, PA, USA",
@@ -3180,7 +3106,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-10-09",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "GAF",
@@ -3197,7 +3123,24 @@
    "internlist:coop"
   ],
   "first_seen": "2026-10-21",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
+ },
+ {
+  "company": "Garmin",
+  "title": "Electrical Design Engineer Intern",
+  "location": "Tulsa, OK, USA",
+  "url": "https://www.linkedin.com/jobs/view/4466009303",
+  "posted": "2026-11-11",
+  "deadline": "",
+  "term": "summer",
+  "rank": "A",
+  "hw": "electrical",
+  "tier": "",
+  "sources": [
+   "jobspy:linkedin"
+  ],
+  "first_seen": "2026-11-12",
+  "last_seen": "2026-11-12"
  },
  {
   "company": "General Dynamics Mission Systems",
@@ -3248,25 +3191,7 @@
    "jobspy:linkedin"
   ],
   "first_seen": "2026-11-11",
-  "last_seen": "2026-11-11"
- },
- {
-  "company": "GlobalFoundries",
-  "title": "CPU IP Design & Verification Intern \u2013 RISC-V Processor Development (Summer 2027)",
-  "location": "Santa Clara, CA, USA",
-  "url": "https://www.linkedin.com/jobs/view/4488302713",
-  "posted": "2026-11-10",
-  "deadline": "",
-  "term": "summer",
-  "rank": "A",
-  "hw": "verification",
-  "tier": "",
-  "sources": [
-   "jobspy:indeed",
-   "jobspy:linkedin"
-  ],
-  "first_seen": "2026-11-10",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "GlobalFoundries",
@@ -3283,7 +3208,7 @@
    "jobspy:linkedin"
   ],
   "first_seen": "2026-11-10",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "GlobalFoundries",
@@ -3300,7 +3225,7 @@
    "jobspy:linkedin"
   ],
   "first_seen": "2026-11-10",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "GlobalFoundries",
@@ -3317,7 +3242,7 @@
    "jobspy:linkedin"
   ],
   "first_seen": "2026-11-10",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "GlobalFoundries",
@@ -3334,25 +3259,7 @@
    "jobspy:linkedin"
   ],
   "first_seen": "2026-11-10",
-  "last_seen": "2026-11-11"
- },
- {
-  "company": "GlobalFoundries",
-  "title": "Silicon Photonics Process Integration Engineering Intern (Summer 2027)",
-  "location": "Malta, NY, USA",
-  "url": "https://www.linkedin.com/jobs/view/4488643286",
-  "posted": "2026-11-10",
-  "deadline": "",
-  "term": "summer",
-  "rank": "A",
-  "hw": "photonics,silicon",
-  "tier": "",
-  "sources": [
-   "jobspy:indeed",
-   "jobspy:linkedin"
-  ],
-  "first_seen": "2026-11-11",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "GlobalFoundries",
@@ -3369,7 +3276,7 @@
    "jobspy:linkedin"
   ],
   "first_seen": "2026-11-10",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Hermeus",
@@ -3794,7 +3701,7 @@
    "jobspy:linkedin"
   ],
   "first_seen": "2026-11-10",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "IMC Trading",
@@ -3811,7 +3718,7 @@
    "github:sndsh404"
   ],
   "first_seen": "2026-11-05",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Ingredion",
@@ -3828,7 +3735,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-11-05",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Ingredion",
@@ -3845,7 +3752,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-11-05",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Ingredion",
@@ -3862,7 +3769,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-11-05",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "KLA",
@@ -3882,6 +3789,23 @@
   "last_seen": "2026-11-12"
  },
  {
+  "company": "Kenworth Truck Co.",
+  "title": "Summer 2027 -  Electrical Design Engineer Intern",
+  "location": "Kirkland, WA, USA",
+  "url": "https://www.linkedin.com/jobs/view/4481770386",
+  "posted": "2026-11-11",
+  "deadline": "",
+  "term": "summer",
+  "rank": "A",
+  "hw": "electrical",
+  "tier": "",
+  "sources": [
+   "jobspy:linkedin"
+  ],
+  "first_seen": "2026-11-12",
+  "last_seen": "2026-11-12"
+ },
+ {
   "company": "Kiewit",
   "title": "Electrical Engineer Intern - Kiewit Nuclear Solutions (Summer 2027)",
   "location": "Lenexa, KS, USA",
@@ -3896,7 +3820,7 @@
    "jobspy:linkedin"
   ],
   "first_seen": "2026-11-11",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Kodiak",
@@ -3944,7 +3868,42 @@
   "hw": "layout",
   "tier": "startup",
   "sources": [
-   "greenhouse"
+   "greenhouse",
+   "jobspy:linkedin"
+  ],
+  "first_seen": "2026-11-12",
+  "last_seen": "2026-11-12"
+ },
+ {
+  "company": "Lightmatter",
+  "title": "Package Layout Automation Internship - Summer 2027",
+  "location": "San Francisco, CA, USA",
+  "url": "https://www.linkedin.com/jobs/view/4489048987",
+  "posted": "2026-11-12",
+  "deadline": "",
+  "term": "spring",
+  "rank": "A",
+  "hw": "layout",
+  "tier": "",
+  "sources": [
+   "jobspy:linkedin"
+  ],
+  "first_seen": "2026-11-12",
+  "last_seen": "2026-11-12"
+ },
+ {
+  "company": "Lightmatter",
+  "title": "Package Layout Automation Internship - Summer 2027",
+  "location": "Santa Clara, CA, USA",
+  "url": "https://www.linkedin.com/jobs/view/4489065127",
+  "posted": "2026-11-12",
+  "deadline": "",
+  "term": "spring",
+  "rank": "A",
+  "hw": "layout",
+  "tier": "",
+  "sources": [
+   "jobspy:linkedin"
   ],
   "first_seen": "2026-11-12",
   "last_seen": "2026-11-12"
@@ -4066,7 +4025,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-10-29",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "MSA - The Safety Company",
@@ -4083,7 +4042,7 @@
    "jobspy:linkedin"
   ],
   "first_seen": "2026-11-11",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Mach Industries",
@@ -4202,7 +4161,7 @@
    "jobspy:linkedin"
   ],
   "first_seen": "2026-11-11",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Marvell Technology",
@@ -4219,24 +4178,24 @@
    "jobspy:linkedin"
   ],
   "first_seen": "2026-11-10",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
-  "company": "Mesabi Metallics",
-  "title": "Electrical Engineer College Summer Intern",
-  "location": "Burlington, IA, USA",
-  "url": "https://www.linkedin.com/jobs/view/4488622941",
-  "posted": "2026-11-10",
+  "company": "Marvell Technology",
+  "title": "Silicon Validation Intern, BS - Summer 2027",
+  "location": "Santa Clara, CA, USA",
+  "url": "https://www.linkedin.com/jobs/view/4479416852",
+  "posted": "2026-11-11",
   "deadline": "",
   "term": "summer",
   "rank": "A",
-  "hw": "electrical engineer",
+  "hw": "silicon",
   "tier": "",
   "sources": [
    "jobspy:linkedin"
   ],
-  "first_seen": "2026-11-11",
-  "last_seen": "2026-11-11"
+  "first_seen": "2026-11-12",
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Midmark",
@@ -4253,7 +4212,7 @@
    "github:sndsh404"
   ],
   "first_seen": "2026-09-17",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Moog",
@@ -4559,7 +4518,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-09-19",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Nexteer Automotive",
@@ -4573,11 +4532,10 @@
   "hw": "electrical,hardware",
   "tier": "",
   "sources": [
-   "jobspy:indeed",
    "jobspy:linkedin"
   ],
   "first_seen": "2026-11-10",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Nokia",
@@ -4594,40 +4552,6 @@
    "oracle_hcm"
   ],
   "first_seen": "2026-11-04",
-  "last_seen": "2026-11-12"
- },
- {
-  "company": "Northrop Grumman",
-  "title": "2027 Electrical Engineering Intern - Sunnyvale CA",
-  "location": "United States-California-Sunnyvale",
-  "url": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-California-Sunnyvale/XMLNAME-2027-Electrical-Engineering-Intern---Sunnyvale-CA_R10260307",
-  "posted": "Posted Today",
-  "deadline": "",
-  "term": "summer",
-  "rank": "A",
-  "hw": "electrical engineering",
-  "tier": "big",
-  "sources": [
-   "workday"
-  ],
-  "first_seen": "2026-11-12",
-  "last_seen": "2026-11-12"
- },
- {
-  "company": "Northrop Grumman",
-  "title": "2027 Spring Electrical Engineer Co-op Intern - Cincinnati OH",
-  "location": "United States-Ohio-Cincinnati",
-  "url": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Ohio-Cincinnati/XMLNAME-2027-Spring-Electrical-Engineer-Co-op-Intern---Cincinnati-OH_R10260245-1",
-  "posted": "Posted Today",
-  "deadline": "",
-  "term": "spring",
-  "rank": "A",
-  "hw": "electrical engineer",
-  "tier": "big",
-  "sources": [
-   "workday"
-  ],
-  "first_seen": "2026-11-12",
   "last_seen": "2026-11-12"
  },
  {
@@ -4679,7 +4603,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Pennsylvania State University",
@@ -4697,7 +4621,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Peter Basso Associates",
@@ -4714,7 +4638,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-11-05",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Pivotal",
@@ -4731,7 +4655,7 @@
    "jobspy:linkedin"
   ],
   "first_seen": "2026-11-10",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "QuEra",
@@ -5122,7 +5046,7 @@
    "jobspy:linkedin"
   ],
   "first_seen": "2026-11-10",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Raytheon",
@@ -5139,7 +5063,7 @@
    "jobspy:linkedin"
   ],
   "first_seen": "2026-11-11",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Raytheon",
@@ -5156,7 +5080,7 @@
    "jobspy:linkedin"
   ],
   "first_seen": "2026-11-10",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Real Alloy",
@@ -5173,7 +5097,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-10-08",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Renesas Electronics",
@@ -5190,24 +5114,7 @@
    "jobspy:linkedin"
   ],
   "first_seen": "2026-11-10",
-  "last_seen": "2026-11-11"
- },
- {
-  "company": "Robynex Automation",
-  "title": "Electrical Engineering Intern",
-  "location": "Rochester, NY, USA",
-  "url": "https://www.linkedin.com/jobs/view/4488232415",
-  "posted": "2026-11-11",
-  "deadline": "",
-  "term": "spring",
-  "rank": "A",
-  "hw": "electrical engineering",
-  "tier": "",
-  "sources": [
-   "jobspy:linkedin"
-  ],
-  "first_seen": "2026-11-11",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Rocket Lab",
@@ -5246,23 +5153,6 @@
  {
   "company": "Rocket Lab",
   "title": "Ground Systems Engineering Intern Spring 2027",
-  "location": "Middle River, MD",
-  "url": "https://job-boards.greenhouse.io/rocketlab/jobs/8042094003",
-  "posted": "2026-11-02",
-  "deadline": "",
-  "term": "spring",
-  "rank": "A",
-  "hw": "maybe",
-  "tier": "big",
-  "sources": [
-   "greenhouse"
-  ],
-  "first_seen": "2026-11-03",
-  "last_seen": "2026-11-12"
- },
- {
-  "company": "Rocket Lab",
-  "title": "Ground Systems Engineering Intern Spring 2027",
   "location": "Stennis Space Center, MS",
   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/8007204003",
   "posted": "2026-11-02",
@@ -5279,9 +5169,26 @@
  },
  {
   "company": "Rocket Lab",
+  "title": "Ground Systems Engineering Intern Spring 2027",
+  "location": "Middle River, MD",
+  "url": "https://job-boards.greenhouse.io/rocketlab/jobs/8042094003",
+  "posted": "2026-11-02",
+  "deadline": "",
+  "term": "spring",
+  "rank": "A",
+  "hw": "maybe",
+  "tier": "big",
+  "sources": [
+   "greenhouse"
+  ],
+  "first_seen": "2026-11-03",
+  "last_seen": "2026-11-12"
+ },
+ {
+  "company": "Rocket Lab",
   "title": "Manufacturing Engineering Intern Spring 2027",
-  "location": "Long Beach, CA",
-  "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7984943003",
+  "location": "Middle River, MD",
+  "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7987020003",
   "posted": "2026-11-02",
   "deadline": "",
   "term": "spring",
@@ -5297,8 +5204,8 @@
  {
   "company": "Rocket Lab",
   "title": "Manufacturing Engineering Intern Spring 2027",
-  "location": "Middle River, MD",
-  "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7987020003",
+  "location": "Long Beach, CA",
+  "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7984943003",
   "posted": "2026-11-02",
   "deadline": "",
   "term": "spring",
@@ -5365,23 +5272,6 @@
  {
   "company": "Rocket Lab",
   "title": "Test Engineering Intern Spring 2027",
-  "location": "Stennis Space Center, MS",
-  "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7990352003",
-  "posted": "2026-11-02",
-  "deadline": "",
-  "term": "spring",
-  "rank": "A",
-  "hw": "test engineering",
-  "tier": "big",
-  "sources": [
-   "greenhouse"
-  ],
-  "first_seen": "2026-09-17",
-  "last_seen": "2026-11-12"
- },
- {
-  "company": "Rocket Lab",
-  "title": "Test Engineering Intern Spring 2027",
   "location": "Wallops Island, VA",
   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/8003533003",
   "posted": "2026-11-11",
@@ -5394,6 +5284,23 @@
    "greenhouse"
   ],
   "first_seen": "2026-09-25",
+  "last_seen": "2026-11-12"
+ },
+ {
+  "company": "Rocket Lab",
+  "title": "Test Engineering Intern Spring 2027",
+  "location": "Stennis Space Center, MS",
+  "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7990352003",
+  "posted": "2026-11-02",
+  "deadline": "",
+  "term": "spring",
+  "rank": "A",
+  "hw": "test engineering",
+  "tier": "big",
+  "sources": [
+   "greenhouse"
+  ],
+  "first_seen": "2026-09-17",
   "last_seen": "2026-11-12"
  },
  {
@@ -5414,23 +5321,6 @@
   "last_seen": "2026-11-12"
  },
  {
-  "company": "SK hynix memory solutions America Inc.",
-  "title": "ASIC Design Intern",
-  "location": "San Jose, CA, USA",
-  "url": "https://www.linkedin.com/jobs/view/4482042362",
-  "posted": "2026-11-11",
-  "deadline": "",
-  "term": "spring",
-  "rank": "A",
-  "hw": "asic",
-  "tier": "",
-  "sources": [
-   "jobspy:linkedin"
-  ],
-  "first_seen": "2026-10-21",
-  "last_seen": "2026-11-11"
- },
- {
   "company": "SRC",
   "title": "Embedded Design Engineer (Intern - Spring 2027)",
   "location": "Syracuse, NY, USA",
@@ -5445,24 +5335,7 @@
    "jobspy:linkedin"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-11"
- },
- {
-  "company": "SRC",
-  "title": "Product Engineering (Intern - Summer 2027)",
-  "location": "Syracuse, NY, USA",
-  "url": "https://www.linkedin.com/jobs/view/4487422518",
-  "posted": "2026-11-09",
-  "deadline": "",
-  "term": "summer",
-  "rank": "A",
-  "hw": "product engineering",
-  "tier": "",
-  "sources": [
-   "jobspy:linkedin"
-  ],
-  "first_seen": "2026-11-10",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "SRC",
@@ -5479,7 +5352,7 @@
    "jobspy:linkedin"
   ],
   "first_seen": "2026-11-10",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "SRI",
@@ -5496,7 +5369,7 @@
    "jobspy:linkedin"
   ],
   "first_seen": "2026-10-14",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "SRI International",
@@ -5513,7 +5386,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "SSOE Group",
@@ -5530,7 +5403,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-10-06",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Salas O'Brien",
@@ -5547,7 +5420,7 @@
    "jobspy:linkedin"
   ],
   "first_seen": "2026-09-28",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Samsara",
@@ -5561,7 +5434,8 @@
   "hw": "electrical engineering",
   "tier": "big",
   "sources": [
-   "greenhouse"
+   "greenhouse",
+   "jobspy:linkedin"
   ],
   "first_seen": "2026-11-10",
   "last_seen": "2026-11-12"
@@ -5581,7 +5455,7 @@
    "jobspy:linkedin"
   ],
   "first_seen": "2026-11-10",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Sandia National Laboratories",
@@ -5599,7 +5473,7 @@
    "jobspy:linkedin"
   ],
   "first_seen": "2026-11-10",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Sandisk",
@@ -5616,7 +5490,7 @@
    "jobspy:linkedin"
   ],
   "first_seen": "2026-11-10",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Saronic",
@@ -5803,7 +5677,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-11-04",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Schneider Electric",
@@ -5820,7 +5694,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-11-04",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Seagate",
@@ -5956,7 +5830,7 @@
    "jobspy:linkedin"
   ],
   "first_seen": "2026-11-10",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Second Order Effects",
@@ -5973,7 +5847,7 @@
    "github:sndsh404"
   ],
   "first_seen": "2026-11-05",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Shape Corp.",
@@ -5990,7 +5864,7 @@
    "jobspy:linkedin"
   ],
   "first_seen": "2026-11-10",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "SharkNinja",
@@ -6007,7 +5881,7 @@
    "jobspy:linkedin"
   ],
   "first_seen": "2026-11-11",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "SharkNinja France",
@@ -6024,7 +5898,7 @@
    "jobspy:linkedin"
   ],
   "first_seen": "2026-11-11",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Shield AI",
@@ -6063,23 +5937,6 @@
  {
   "company": "Siemens Digital Industries Software",
   "title": "Strategic Student Program: Cross-Domain Manufacturing Systems Engineering Intern  (T&I, Spring 2027)",
-  "location": "Detroit, MI, USA",
-  "url": "https://www.linkedin.com/jobs/view/4480431142",
-  "posted": "2026-11-10",
-  "deadline": "",
-  "term": "spring",
-  "rank": "A",
-  "hw": "maybe",
-  "tier": "",
-  "sources": [
-   "jobspy:linkedin"
-  ],
-  "first_seen": "2026-10-20",
-  "last_seen": "2026-11-11"
- },
- {
-  "company": "Siemens Digital Industries Software",
-  "title": "Strategic Student Program: Cross-Domain Manufacturing Systems Engineering Intern  (T&I, Spring 2027)",
   "location": "Wilsonville, OR, USA",
   "url": "https://www.linkedin.com/jobs/view/4480427337",
   "posted": "2026-11-10",
@@ -6092,7 +5949,7 @@
    "jobspy:linkedin"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Silicon Labs",
@@ -6109,7 +5966,7 @@
    "jobspy:linkedin"
   ],
   "first_seen": "2026-11-10",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Silicon Labs",
@@ -6191,7 +6048,8 @@
   "hw": "hardware",
   "tier": "startup",
   "sources": [
-   "ashby"
+   "ashby",
+   "jobspy:linkedin"
   ],
   "first_seen": "2026-11-10",
   "last_seen": "2026-11-12"
@@ -6361,7 +6219,8 @@
   "hw": "hardware",
   "tier": "startup",
   "sources": [
-   "ashby"
+   "ashby",
+   "jobspy:linkedin"
   ],
   "first_seen": "2026-11-05",
   "last_seen": "2026-11-12"
@@ -7571,7 +7430,7 @@
    "jobspy:linkedin"
   ],
   "first_seen": "2026-11-10",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Smith+Nephew",
@@ -7588,7 +7447,7 @@
    "jobspy:linkedin"
   ],
   "first_seen": "2026-10-21",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "SpaceX",
@@ -7605,7 +7464,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "SpaceX",
@@ -7622,7 +7481,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "SpaceX",
@@ -7670,6 +7529,7 @@
   "hw": "silicon",
   "tier": "big",
   "sources": [
+   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-09-17",
@@ -7687,6 +7547,7 @@
   "hw": "silicon",
   "tier": "big",
   "sources": [
+   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-11-05",
@@ -7707,24 +7568,24 @@
    "internlist:coop"
   ],
   "first_seen": "2026-11-05",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
-  "company": "Tech World Networking",
-  "title": "Reliability Engineering Intern",
-  "location": "New York, USA",
-  "url": "https://www.linkedin.com/jobs/view/4487496522",
-  "posted": "2026-11-10",
+  "company": "Sumitomo Electric Wiring Systems, Inc.",
+  "title": "Validation Engineering Co-op Student/Intern (On-site Position)",
+  "location": "Farmington Hills, MI, USA",
+  "url": "https://www.linkedin.com/jobs/view/4489682809",
+  "posted": "2026-11-11",
   "deadline": "",
   "term": "spring",
   "rank": "A",
-  "hw": "reliability",
+  "hw": "validation",
   "tier": "",
   "sources": [
    "jobspy:linkedin"
   ],
-  "first_seen": "2026-11-10",
-  "last_seen": "2026-11-11"
+  "first_seen": "2026-11-12",
+  "last_seen": "2026-11-12"
  },
  {
   "company": "The Campbell's Company",
@@ -7742,7 +7603,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Vannevar Labs",
@@ -8235,7 +8096,7 @@
    "jobspy:linkedin"
   ],
   "first_seen": "2026-11-11",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "WD",
@@ -8252,7 +8113,7 @@
    "jobspy:linkedin"
   ],
   "first_seen": "2026-11-10",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Western Digital",
@@ -8303,7 +8164,7 @@
    "jobspy:linkedin"
   ],
   "first_seen": "2026-09-26",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Wolfspeed",
@@ -9426,7 +9287,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-09-25",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "iRhythm Technologies",
@@ -9443,7 +9304,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-09-29",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "onsemi",
@@ -9562,7 +9423,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-10-31",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "ASML",
@@ -9630,7 +9491,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-10-31",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Aerotech",
@@ -9647,7 +9508,7 @@
    "github:vanshb03-summer"
   ],
   "first_seen": "2026-10-26",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Aerotech",
@@ -9665,7 +9526,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Alliance Laundry Systems",
@@ -9682,7 +9543,7 @@
    "github:vanshb03-summer"
   ],
   "first_seen": "2026-11-09",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Alliance Laundry Systems",
@@ -9699,7 +9560,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-10-08",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Amazon",
@@ -9716,7 +9577,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-10-31",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Amazon",
@@ -9733,7 +9594,7 @@
    "github:vanshb03-offseason"
   ],
   "first_seen": "2026-10-25",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Amazon",
@@ -9750,7 +9611,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-10-16",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Amazon",
@@ -9835,7 +9696,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Ameren",
@@ -9852,7 +9713,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-10-04",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Ameren",
@@ -9869,7 +9730,7 @@
    "jobspy:linkedin"
   ],
   "first_seen": "2026-10-19",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Analog Devices",
@@ -9903,7 +9764,7 @@
    "github:vanshb03-offseason"
   ],
   "first_seen": "2026-10-26",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Analog Devices",
@@ -9920,7 +9781,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-10-29",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Analog Devices",
@@ -9971,7 +9832,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-11-11",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Anduril",
@@ -10073,7 +9934,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-11-05",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Applied Materials",
@@ -10090,7 +9951,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-11-11",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Applied Materials",
@@ -10107,7 +9968,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-11-11",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Arcadis",
@@ -10125,7 +9986,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-10-01",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Arconic",
@@ -10143,7 +10004,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Axcelis Technologies",
@@ -10160,7 +10021,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Axcelis Technologies",
@@ -10177,7 +10038,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "BAE Systems",
@@ -10211,7 +10072,7 @@
    "jobspy:linkedin"
   ],
   "first_seen": "2026-11-10",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Bass Pro Shops",
@@ -10229,7 +10090,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Bass Pro Shops",
@@ -10247,7 +10108,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Bass Pro Shops",
@@ -10265,7 +10126,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Blue Origin",
@@ -10283,7 +10144,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "BlueScope",
@@ -10300,7 +10161,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Bose",
@@ -10351,7 +10212,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-11-05",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Bose",
@@ -10385,7 +10246,7 @@
    "github:vanshb03-offseason"
   ],
   "first_seen": "2026-11-03",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Boston Dynamics",
@@ -10419,7 +10280,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-10-29",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Boston Dynamics",
@@ -10437,7 +10298,7 @@
    "jobspy:linkedin"
   ],
   "first_seen": "2026-11-11",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Boston Dynamics",
@@ -10488,7 +10349,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-10-29",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "CAE",
@@ -10506,7 +10367,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-10-01",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "CDM Smith",
@@ -10523,7 +10384,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-10-23",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "CDM Smith",
@@ -10540,7 +10401,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "CenterPoint Energy",
@@ -10558,7 +10419,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "CenterPoint Energy",
@@ -10575,7 +10436,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "ChampionX",
@@ -10592,24 +10453,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-10-29",
-  "last_seen": "2026-11-11"
- },
- {
-  "company": "Ciena",
-  "title": "Client Co-op, ASIC IP",
-  "location": "Rochester, NY",
-  "url": "https://go.vansh.nyc/IV?s=z",
-  "posted": "Sep 20",
-  "deadline": "",
-  "term": "coop-unspecified",
-  "rank": "B",
-  "hw": "asic",
-  "tier": "",
-  "sources": [
-   "github:vanshb03-offseason"
-  ],
-  "first_seen": "2026-10-26",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Cisco",
@@ -10660,7 +10504,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-10-21",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Constellation Energy",
@@ -10677,7 +10521,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-11-10",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Constellation Energy",
@@ -10694,7 +10538,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-11-10",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "ControlTouch Systems",
@@ -10711,7 +10555,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "DGL Consulting Engineers",
@@ -10728,7 +10572,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Danaher",
@@ -10745,7 +10589,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-11-11",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Danaher",
@@ -10763,7 +10607,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Danaher Corporation",
@@ -10780,7 +10624,7 @@
    "github:vanshb03-offseason"
   ],
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Dell Technologies",
@@ -10797,7 +10641,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-10-09",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Delta Faucet",
@@ -10815,7 +10659,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Diversified Automation",
@@ -10832,7 +10676,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-10-31",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Diversified Automation",
@@ -10849,7 +10693,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-10-31",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Draper",
@@ -10866,7 +10710,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Draper",
@@ -10883,7 +10727,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Eaton",
@@ -10900,7 +10744,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-09-24",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Eaton",
@@ -10917,7 +10761,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-10-15",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Emerson",
@@ -10931,6 +10775,7 @@
   "hw": "rf",
   "tier": "big",
   "sources": [
+   "jobspy:linkedin",
    "oracle_hcm"
   ],
   "first_seen": "2026-11-12",
@@ -10951,7 +10796,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Emerson Electric",
@@ -10968,7 +10813,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Emerson Electric",
@@ -10986,7 +10831,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Entegris",
@@ -11326,7 +11171,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-10-27",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Entrust",
@@ -11343,7 +11188,7 @@
    "jobspy:linkedin"
   ],
   "first_seen": "2026-11-11",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Entrust",
@@ -11360,7 +11205,7 @@
    "github:vanshb03-offseason"
   ],
   "first_seen": "2026-10-26",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Entrust",
@@ -11377,7 +11222,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-10-09",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Fanatics",
@@ -11394,7 +11239,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-11-05",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "First Quality",
@@ -11411,7 +11256,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Framatome",
@@ -11428,7 +11273,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Franklin Electric",
@@ -11445,7 +11290,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-09-26",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "GAF",
@@ -11462,7 +11307,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-10-28",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "GE Appliances",
@@ -11479,7 +11324,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "GE Healthcare",
@@ -11496,7 +11341,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-10-08",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "General Dynamics Mission Systems",
@@ -11530,7 +11375,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-11-10",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "General Dynamics Mission Systems",
@@ -11564,7 +11409,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-10-03",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "General Dynamics Mission Systems",
@@ -11598,7 +11443,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Gorbel",
@@ -11616,7 +11461,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-09-22",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "HNTB",
@@ -11633,7 +11478,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-11-05",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "HP",
@@ -11667,7 +11512,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-11-10",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Hasbro",
@@ -11684,7 +11529,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-10-31",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Hasbro",
@@ -11701,7 +11546,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-10-31",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Heraeus Group",
@@ -11718,7 +11563,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-09-30",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Hershey",
@@ -11735,7 +11580,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-10-06",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Hitachi Energy",
@@ -11752,7 +11597,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-10-23",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Hitachi Energy",
@@ -11769,7 +11614,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-10-07",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Howmet Aerospace",
@@ -11786,7 +11631,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-10-16",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "IMEG",
@@ -11803,7 +11648,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-10-10",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "IMEG",
@@ -11820,7 +11665,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-10-24",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "ITT",
@@ -11837,7 +11682,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-09-19",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "ITT",
@@ -11854,7 +11699,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-10-14",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Illinois Tool Works",
@@ -11871,7 +11716,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-10-29",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Ingredion",
@@ -11888,7 +11733,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-10-13",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "International Flavors & Fragrances",
@@ -11905,7 +11750,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-10-29",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Jabil",
@@ -11922,7 +11767,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-10-14",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Johnson & Johnson",
@@ -11939,7 +11784,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Johnson & Johnson",
@@ -11956,7 +11801,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "KION Group",
@@ -11973,7 +11818,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-10-26",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "KION Group",
@@ -11991,7 +11836,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-10-23",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Keenfinity",
@@ -12009,7 +11854,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-09-24",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Keenfinity",
@@ -12026,7 +11871,7 @@
    "github:vanshb03-offseason"
   ],
   "first_seen": "2026-11-01",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Keenfinity",
@@ -12044,7 +11889,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-09-24",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Koch Industries",
@@ -12061,7 +11906,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Koch Industries",
@@ -12078,7 +11923,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-10-08",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Koch Industries",
@@ -12095,7 +11940,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-11-04",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Kodak",
@@ -12112,7 +11957,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-10-16",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Laminar",
@@ -12129,7 +11974,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-10-21",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Legrand",
@@ -12146,7 +11991,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-10-08",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Leidos",
@@ -12180,24 +12025,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-11-11"
- },
- {
-  "company": "MITRE",
-  "title": "Underwater Sensors Engineer Co-op",
-  "location": "Bedford, MA, USA",
-  "url": "https://www.linkedin.com/jobs/view/4487012739",
-  "posted": "2026-11-11",
-  "deadline": "",
-  "term": "coop-unspecified",
-  "rank": "B",
-  "hw": "sensors",
-  "tier": "",
-  "sources": [
-   "jobspy:linkedin"
-  ],
-  "first_seen": "2026-11-03",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "MSA Safety",
@@ -12214,7 +12042,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-10-13",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "MSA Safety",
@@ -12231,7 +12059,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-10-28",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Marathon Petroleum",
@@ -12248,7 +12076,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Marmon Holdings",
@@ -12265,7 +12093,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Masco",
@@ -12283,7 +12111,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Merck",
@@ -12300,7 +12128,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Mesh Optical Technologies",
@@ -12317,7 +12145,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-10-29",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Nexteer Automotive",
@@ -12334,7 +12162,7 @@
    "jobspy:linkedin"
   ],
   "first_seen": "2026-11-10",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Nexus Engineering Group",
@@ -12351,7 +12179,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-10-23",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Nexus Engineering Group",
@@ -12368,7 +12196,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-10-23",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Nexus Engineering Group",
@@ -12385,7 +12213,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Nidec",
@@ -12402,7 +12230,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Nokia",
@@ -12436,7 +12264,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-10-08",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Nokia",
@@ -12504,7 +12332,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-10-16",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Nokia",
@@ -12555,7 +12383,24 @@
    "internlist:coop"
   ],
   "first_seen": "2026-11-03",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
+ },
+ {
+  "company": "Northrop Grumman",
+  "title": "2027 Spring Electrical Engineer Co-op Intern - Cincinnati OH",
+  "location": "United States-Ohio-Cincinnati",
+  "url": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Ohio-Cincinnati/XMLNAME-2027-Spring-Electrical-Engineer-Co-op-Intern---Cincinnati-OH_R10260245-1",
+  "posted": "Posted Today",
+  "deadline": "",
+  "term": "coop-unspecified",
+  "rank": "B",
+  "hw": "electrical engineer",
+  "tier": "big",
+  "sources": [
+   "workday"
+  ],
+  "first_seen": "2026-11-12",
+  "last_seen": "2026-11-12"
  },
  {
   "company": "OGP \u2013 Optical Gaging Products",
@@ -12572,7 +12417,7 @@
    "jobspy:linkedin"
   ],
   "first_seen": "2026-11-10",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "PM Group",
@@ -12589,7 +12434,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-11-07",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "PM Group",
@@ -12606,7 +12451,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-11-07",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Pella",
@@ -12623,7 +12468,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Peter Basso Associates",
@@ -12640,7 +12485,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-09-22",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Philips",
@@ -12657,7 +12502,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Printpack",
@@ -12675,7 +12520,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Procter & Gamble",
@@ -12692,7 +12537,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "QuEra",
@@ -12743,7 +12588,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-10-27",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "RTX",
@@ -12760,7 +12605,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-10-29",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "RTX",
@@ -12777,7 +12622,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-10-04",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "RTX",
@@ -12794,7 +12639,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-10-21",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "RTX",
@@ -12828,7 +12673,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-09-23",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "RTX",
@@ -12913,24 +12758,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-09-23",
-  "last_seen": "2026-11-11"
- },
- {
-  "company": "Re:Build",
-  "title": "Automation & Controls Engineer Co-op/Intern",
-  "location": "Rochester, NY, USA",
-  "url": "https://www.linkedin.com/jobs/view/4472154759",
-  "posted": "2026-11-11",
-  "deadline": "",
-  "term": "coop-unspecified",
-  "rank": "B",
-  "hw": "controls engineer",
-  "tier": "",
-  "sources": [
-   "jobspy:linkedin"
-  ],
-  "first_seen": "2026-10-21",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Re:Build Manufacturing",
@@ -12947,7 +12775,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-09-23",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Regeneron Pharmaceuticals",
@@ -12964,7 +12792,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-10-06",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Rehlko",
@@ -12981,7 +12809,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-09-19",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Rivian",
@@ -12998,7 +12826,7 @@
    "github:vanshb03-offseason"
   ],
   "first_seen": "2026-10-26",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Rivian",
@@ -13015,7 +12843,7 @@
    "github:vanshb03-offseason"
   ],
   "first_seen": "2026-10-26",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Rivian",
@@ -13032,7 +12860,7 @@
    "github:vanshb03-offseason"
   ],
   "first_seen": "2026-10-26",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Rivian",
@@ -13049,7 +12877,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-10-22",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Rivian",
@@ -13066,7 +12894,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-10-07",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Rivian",
@@ -13083,7 +12911,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-09-22",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Rockwell Automation",
@@ -13100,7 +12928,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Rockwell Automation",
@@ -13117,7 +12945,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-10-19",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Rugged Robotics",
@@ -13134,7 +12962,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-10-13",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "SEW-EURODRIVE",
@@ -13151,7 +12979,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-10-23",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "SSOE Group",
@@ -13168,7 +12996,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-11-11",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Samsara",
@@ -13185,7 +13013,7 @@
    "jobspy:linkedin"
   ],
   "first_seen": "2026-11-10",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Samsara",
@@ -13202,7 +13030,7 @@
    "jobspy:linkedin"
   ],
   "first_seen": "2026-11-10",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Samsara",
@@ -13220,7 +13048,7 @@
    "jobspy:linkedin"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Samsara",
@@ -13237,7 +13065,7 @@
    "jobspy:linkedin"
   ],
   "first_seen": "2026-11-10",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Samsara",
@@ -13251,7 +13079,9 @@
   "hw": "firmware",
   "tier": "big",
   "sources": [
-   "greenhouse"
+   "greenhouse",
+   "internlist:coop",
+   "internlist:winter-spring"
   ],
   "first_seen": "2026-09-24",
   "last_seen": "2026-11-12"
@@ -13260,7 +13090,7 @@
   "company": "Sanmina",
   "title": "Engineering /Technology Co-Op",
   "location": "Fremont, CA, USA",
-  "url": "https://www.linkedin.com/jobs/view/4487377480",
+  "url": "https://www.linkedin.com/jobs/view/4487375951",
   "posted": "2026-11-09",
   "deadline": "",
   "term": "coop-unspecified",
@@ -13270,8 +13100,8 @@
   "sources": [
    "jobspy:linkedin"
   ],
-  "first_seen": "2026-11-09",
-  "last_seen": "2026-11-11"
+  "first_seen": "2026-11-08",
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Schneider Electric",
@@ -13288,7 +13118,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-11-04",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Shield AI",
@@ -13305,7 +13135,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-10-29",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Shield AI",
@@ -13322,7 +13152,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-10-29",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Shield AI",
@@ -13339,7 +13169,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Shield AI",
@@ -13356,7 +13186,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-10-14",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Shield AI",
@@ -13390,7 +13220,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-10-29",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Shield AI",
@@ -13407,7 +13237,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-10-28",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Skyworks",
@@ -13424,7 +13254,7 @@
    "github:vanshb03-summer"
   ],
   "first_seen": "2026-10-25",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Skyworks",
@@ -13527,7 +13357,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-09-23",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Specter Aerospace",
@@ -13544,7 +13374,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Specter Aerospace",
@@ -13561,7 +13391,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Specter Aerospace",
@@ -13578,7 +13408,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Symbotic",
@@ -13595,7 +13425,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-09-24",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Textron",
@@ -13613,7 +13443,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "The Campbell's Company",
@@ -13630,7 +13460,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "The Toro Company",
@@ -13647,7 +13477,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-09-30",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Thermo Fisher Scientific",
@@ -13767,7 +13597,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Thermo Fisher Scientific",
@@ -13785,7 +13615,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Thermo Fisher Scientific",
@@ -13819,7 +13649,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-10-10",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "TreeHouse Foods",
@@ -13836,25 +13666,24 @@
    "internlist:coop"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
-  "company": "Varian",
-  "title": "Electrical Engineer Co-op",
-  "location": "Hoffman Estates, IL, USA",
-  "url": "https://simplify.jobs/jobs/click/c40d83aa-df42-49a5-9a8a-96021088f325",
-  "posted": "2026-09-09",
+  "company": "Ultragenyx",
+  "title": "Co-op, Validation",
+  "location": "Bedford, MA, USA",
+  "url": "https://www.linkedin.com/jobs/view/4488266209",
+  "posted": "2026-11-11",
   "deadline": "",
   "term": "coop-unspecified",
   "rank": "B",
-  "hw": "electrical engineer",
+  "hw": "validation",
   "tier": "",
   "sources": [
-   "internlist:coop",
-   "internlist:winter-spring"
+   "jobspy:linkedin"
   ],
-  "first_seen": "2026-09-18",
-  "last_seen": "2026-11-11"
+  "first_seen": "2026-11-12",
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Viavi Solutions",
@@ -13873,7 +13702,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-10-29",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Viavi Solutions",
@@ -13890,7 +13719,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-10-29",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "WEC Energy Group",
@@ -13907,7 +13736,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "WSP",
@@ -13924,7 +13753,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-10-07",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Wabtec",
@@ -13958,7 +13787,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-10-10",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Watts Water",
@@ -13976,7 +13805,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Watts Water",
@@ -13993,7 +13822,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-10-24",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Wave Life Sciences USA",
@@ -14010,7 +13839,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-10-30",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Wave Life Sciences USA",
@@ -14027,24 +13856,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-10-31",
-  "last_seen": "2026-11-11"
- },
- {
-  "company": "Werfen",
-  "title": "Acute Care Hardware Systems Engineering Co-op",
-  "location": "Bedford, MA, USA",
-  "url": "https://simplify.jobs/jobs/click/560dca20-ee7d-4406-bef2-be998ced912d",
-  "posted": "2026-11-05",
-  "deadline": "2027-11-09",
-  "term": "coop-unspecified",
-  "rank": "B",
-  "hw": "hardware",
-  "tier": "",
-  "sources": [
-   "internlist:coop"
-  ],
-  "first_seen": "2026-10-10",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Werfen",
@@ -14061,7 +13873,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-11-07",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Werfen",
@@ -14078,7 +13890,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-10-14",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Winland Foods",
@@ -14095,7 +13907,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "bioM\u00e9rieux",
@@ -14112,7 +13924,7 @@
    "internlist:coop"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "iRhythm Technologies",
@@ -14129,7 +13941,7 @@
    "github:vanshb03-offseason"
   ],
   "first_seen": "2026-10-26",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "nVent",
@@ -14147,7 +13959,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-10-07",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "ADT",
@@ -14164,7 +13976,7 @@
    "github:vanshb03-summer"
   ],
   "first_seen": "2026-10-25",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "AIR Control Concepts",
@@ -14181,7 +13993,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-09-22",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "AIR Control Concepts",
@@ -14198,7 +14010,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-09-19",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "ANS",
@@ -14215,7 +14027,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "ASML",
@@ -14317,7 +14129,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Aerospace Corporation",
@@ -14334,7 +14146,7 @@
    "github:vanshb03-summer"
   ],
   "first_seen": "2026-10-26",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Aerospace Corporation",
@@ -14351,7 +14163,7 @@
    "github:vanshb03-summer"
   ],
   "first_seen": "2026-10-25",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Aerospace Corporation",
@@ -14368,7 +14180,7 @@
    "github:vanshb03-summer"
   ],
   "first_seen": "2026-10-26",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Aerospace Corporation",
@@ -14385,7 +14197,7 @@
    "github:vanshb03-summer"
   ],
   "first_seen": "2026-10-25",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Alcon",
@@ -14402,7 +14214,7 @@
    "github:vanshb03-summer"
   ],
   "first_seen": "2026-10-26",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Amazon",
@@ -14419,7 +14231,7 @@
    "github:vanshb03-summer"
   ],
   "first_seen": "2026-10-25",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Amazon",
@@ -14436,7 +14248,7 @@
    "github:vanshb03-summer"
   ],
   "first_seen": "2026-10-25",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Amazon",
@@ -14470,7 +14282,7 @@
    "github:vanshb03-summer"
   ],
   "first_seen": "2026-10-25",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Amazon",
@@ -14504,7 +14316,7 @@
    "github:vanshb03-offseason"
   ],
   "first_seen": "2026-10-25",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Ambarella",
@@ -14572,7 +14384,7 @@
    "github:vanshb03-summer"
   ],
   "first_seen": "2026-10-25",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Ambarella",
@@ -14606,7 +14418,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Analog Devices",
@@ -14640,7 +14452,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Analog Devices",
@@ -14708,7 +14520,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Analog Devices",
@@ -14742,7 +14554,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Anderon",
@@ -14759,7 +14571,7 @@
    "jobspy:linkedin"
   ],
   "first_seen": "2026-10-22",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Andersen Corporation",
@@ -14776,7 +14588,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Anduril",
@@ -14793,7 +14605,7 @@
    "github:vanshb03-summer"
   ],
   "first_seen": "2026-10-26",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Apple",
@@ -14810,7 +14622,7 @@
    "github:vanshb03-summer"
   ],
   "first_seen": "2026-11-11",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Apple",
@@ -14827,7 +14639,7 @@
    "github:vanshb03-summer"
   ],
   "first_seen": "2026-11-11",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Apple",
@@ -14844,7 +14656,7 @@
    "github:sndsh404"
   ],
   "first_seen": "2026-09-17",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Applied Intuition",
@@ -14878,7 +14690,7 @@
    "github:vanshb03-summer"
   ],
   "first_seen": "2026-11-11",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Arista Networks",
@@ -14895,7 +14707,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-09-25",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Arista Networks",
@@ -14929,7 +14741,7 @@
    "github:vanshb03-summer"
   ],
   "first_seen": "2026-10-26",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Astera Labs",
@@ -14946,7 +14758,7 @@
    "github:vanshb03-summer"
   ],
   "first_seen": "2026-10-26",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Astera Labs",
@@ -14963,7 +14775,7 @@
    "github:vanshb03-summer"
   ],
   "first_seen": "2026-10-26",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Astera Labs",
@@ -14980,7 +14792,7 @@
    "github:vanshb03-summer"
   ],
   "first_seen": "2026-10-26",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Astera Labs",
@@ -14997,7 +14809,7 @@
    "github:vanshb03-summer"
   ],
   "first_seen": "2026-10-26",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Astera Labs",
@@ -15014,7 +14826,7 @@
    "github:vanshb03-summer"
   ],
   "first_seen": "2026-10-26",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Astera Labs",
@@ -15031,7 +14843,7 @@
    "github:vanshb03-summer"
   ],
   "first_seen": "2026-10-26",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Astera Labs",
@@ -15048,7 +14860,41 @@
    "github:vanshb03-summer"
   ],
   "first_seen": "2026-10-26",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
+ },
+ {
+  "company": "Astera Labs",
+  "title": "Firmware Engineer Intern, DevSecOps",
+  "location": "San Jose, CA",
+  "url": "https://go.vansh.nyc/1uV?s=y",
+  "posted": "Oct 28",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "firmware",
+  "tier": "",
+  "sources": [
+   "github:vanshb03-summer"
+  ],
+  "first_seen": "2026-11-12",
+  "last_seen": "2026-11-12"
+ },
+ {
+  "company": "Astera Labs",
+  "title": "Firmware Engineer Intern, Leo",
+  "location": "San Jose, CA",
+  "url": "https://go.vansh.nyc/1uU?s=y",
+  "posted": "Oct 28",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "firmware",
+  "tier": "",
+  "sources": [
+   "github:vanshb03-summer"
+  ],
+  "first_seen": "2026-11-12",
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Astera Labs",
@@ -15065,7 +14911,24 @@
    "github:vanshb03-summer"
   ],
   "first_seen": "2026-10-26",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
+ },
+ {
+  "company": "Astera Labs",
+  "title": "Firmware Engineer Intern, SCO2",
+  "location": "San Jose, CA",
+  "url": "https://go.vansh.nyc/1uT?s=y",
+  "posted": "Oct 28",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "firmware",
+  "tier": "",
+  "sources": [
+   "github:vanshb03-summer"
+  ],
+  "first_seen": "2026-11-12",
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Astera Labs",
@@ -15082,7 +14945,7 @@
    "github:vanshb03-summer"
   ],
   "first_seen": "2026-10-26",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Astranis",
@@ -15100,13 +14963,13 @@
    "github:vanshb03-summer"
   ],
   "first_seen": "2026-10-26",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Ayar Labs",
   "title": "Intern, ASIC Design",
   "location": "San Jose, CA, USA",
-  "url": "https://www.linkedin.com/jobs/view/4489974630",
+  "url": "https://www.linkedin.com/jobs/view/4489060042",
   "posted": "2026-11-11",
   "deadline": "",
   "term": "unspecified",
@@ -15116,14 +14979,14 @@
   "sources": [
    "jobspy:linkedin"
   ],
-  "first_seen": "2026-11-11",
-  "last_seen": "2026-11-11"
+  "first_seen": "2026-11-12",
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Ayar Labs",
   "title": "Intern, Hardware Engineering",
   "location": "San Jose, CA, USA",
-  "url": "https://www.linkedin.com/jobs/view/4489986035",
+  "url": "https://www.linkedin.com/jobs/view/4489052473",
   "posted": "2026-11-11",
   "deadline": "",
   "term": "unspecified",
@@ -15133,14 +14996,14 @@
   "sources": [
    "jobspy:linkedin"
   ],
-  "first_seen": "2026-11-11",
-  "last_seen": "2026-11-11"
+  "first_seen": "2026-11-12",
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Ayar Labs",
   "title": "Intern, System Validation 1",
   "location": "San Jose, CA, USA",
-  "url": "https://www.linkedin.com/jobs/view/4489971774",
+  "url": "https://www.linkedin.com/jobs/view/4489049736",
   "posted": "2026-11-11",
   "deadline": "",
   "term": "unspecified",
@@ -15150,8 +15013,8 @@
   "sources": [
    "jobspy:linkedin"
   ],
-  "first_seen": "2026-11-11",
-  "last_seen": "2026-11-11"
+  "first_seen": "2026-11-12",
+  "last_seen": "2026-11-12"
  },
  {
   "company": "BGE",
@@ -15168,7 +15031,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-10-02",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "BGE",
@@ -15185,7 +15048,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-10-02",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "BRPH",
@@ -15202,7 +15065,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "BRPH",
@@ -15219,7 +15082,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Badger Meter",
@@ -15236,7 +15099,7 @@
    "github:vanshb03-summer"
   ],
   "first_seen": "2026-11-05",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Base Power",
@@ -15253,7 +15116,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-10-01",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Base Power",
@@ -15270,7 +15133,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-09-25",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Base Power",
@@ -15287,7 +15150,24 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-10-01",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
+ },
+ {
+  "company": "Bask Health",
+  "title": "Product Engineering Intern",
+  "location": "RemoteUnited States",
+  "url": "https://go.vansh.nyc/1vy?s=y",
+  "posted": "Nov 11",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "product engineering",
+  "tier": "",
+  "sources": [
+   "github:vanshb03-summer"
+  ],
+  "first_seen": "2026-11-12",
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Blue Origin",
@@ -15355,7 +15235,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Blue Origin",
@@ -15389,24 +15269,7 @@
    "github:vanshb03-offseason"
   ],
   "first_seen": "2026-10-26",
-  "last_seen": "2026-11-11"
- },
- {
-  "company": "BorgWarner",
-  "title": "Systems Test Automation Engineering Intern",
-  "location": "Kokomo, IN",
-  "url": "https://go.vansh.nyc/Sy?s=y",
-  "posted": "Oct 26",
-  "deadline": "",
-  "term": "unspecified",
-  "rank": "C",
-  "hw": "systems test",
-  "tier": "",
-  "sources": [
-   "github:vanshb03-summer"
-  ],
-  "first_seen": "2026-10-26",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Bosch Home Comfort",
@@ -15423,7 +15286,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Bosch Home Comfort",
@@ -15440,7 +15303,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Bowman Consulting Group",
@@ -15457,7 +15320,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-09-25",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "ByteDance",
@@ -15474,7 +15337,7 @@
    "github:vanshb03-summer"
   ],
   "first_seen": "2026-11-01",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "CF Industries",
@@ -15491,7 +15354,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "CHS",
@@ -15508,7 +15371,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Cadence",
@@ -15525,7 +15388,7 @@
    "github:vanshb03-summer"
   ],
   "first_seen": "2026-10-26",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Cadence",
@@ -15576,7 +15439,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "CannonDesign",
@@ -15593,7 +15456,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-09-30",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "CannonDesign",
@@ -15610,7 +15473,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-09-30",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Celestica",
@@ -15627,7 +15490,7 @@
    "github:vanshb03-summer"
   ],
   "first_seen": "2026-10-26",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Centurum",
@@ -15644,7 +15507,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "CesiumAstro",
@@ -15661,7 +15524,7 @@
    "github:vanshb03-summer"
   ],
   "first_seen": "2026-11-10",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Cirrus Logic",
@@ -15679,7 +15542,7 @@
    "jobspy:linkedin"
   ],
   "first_seen": "2026-11-10",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Cirrus Logic",
@@ -15696,7 +15559,7 @@
    "jobspy:linkedin"
   ],
   "first_seen": "2026-11-10",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Cisco",
@@ -15747,7 +15610,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Crane Co.",
@@ -15764,7 +15627,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "DPR Family of Companies",
@@ -15781,7 +15644,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "DRW",
@@ -15798,7 +15661,7 @@
    "github:vanshb03-summer"
   ],
   "first_seen": "2026-10-25",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Danaher",
@@ -15815,7 +15678,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Danaher",
@@ -15832,7 +15695,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Deft AI",
@@ -15849,7 +15712,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Dell Technologies",
@@ -15866,7 +15729,7 @@
    "github:vanshb03-summer"
   ],
   "first_seen": "2026-10-26",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Direct Supply",
@@ -15883,7 +15746,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Emerson",
@@ -15934,7 +15797,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Emerson Electric",
@@ -15951,7 +15814,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Emerson Electric",
@@ -15968,7 +15831,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Emerson Electric",
@@ -15985,7 +15848,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Emerson Electric",
@@ -16002,7 +15865,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Energy Transfer Partners",
@@ -16019,7 +15882,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "EquipmentShare",
@@ -16036,7 +15899,7 @@
    "github:vanshb03-summer"
   ],
   "first_seen": "2026-11-10",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Etched",
@@ -16138,7 +16001,7 @@
    "jobspy:linkedin"
   ],
   "first_seen": "2026-11-10",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "FIRST RF",
@@ -16155,7 +16018,7 @@
    "jobspy:linkedin"
   ],
   "first_seen": "2026-11-10",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Fab2",
@@ -16172,7 +16035,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-10-04",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Fab2",
@@ -16189,7 +16052,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-10-04",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "First Solar (US)",
@@ -16206,7 +16069,7 @@
    "github:vanshb03-offseason"
   ],
   "first_seen": "2026-10-26",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "FormFactor",
@@ -16220,6 +16083,7 @@
   "hw": "eda,electrical",
   "tier": "big",
   "sources": [
+   "github:vanshb03-summer",
    "workday"
   ],
   "first_seen": "2026-10-28",
@@ -16240,7 +16104,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "GE Aerospace",
@@ -16308,7 +16172,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-09-22",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Garmin",
@@ -16325,7 +16189,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Garmin",
@@ -16342,7 +16206,7 @@
    "github:vanshb03-summer"
   ],
   "first_seen": "2026-10-26",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "General Dynamics Mission Systems",
@@ -16427,7 +16291,7 @@
    "github:vanshb03-summer"
   ],
   "first_seen": "2026-11-05",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "General Dynamics Mission Systems",
@@ -16461,7 +16325,7 @@
    "github:vanshb03-summer"
   ],
   "first_seen": "2026-11-05",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "General Dynamics Mission Systems",
@@ -16546,7 +16410,7 @@
    "github:vanshb03-summer"
   ],
   "first_seen": "2026-11-10",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "General Dynamics Mission Systems",
@@ -16563,7 +16427,7 @@
    "github:vanshb03-summer"
   ],
   "first_seen": "2026-11-10",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "General Dynamics Mission Systems",
@@ -16584,24 +16448,6 @@
  },
  {
   "company": "General Dynamics Mission Systems, Inc.",
-  "title": "ASIC/FPGA Engineer Intern",
-  "location": "Scottsdale, AZ",
-  "url": "https://go.vansh.nyc/1rJ?s=y",
-  "posted": "Nov 10",
-  "deadline": "",
-  "term": "unspecified",
-  "rank": "C",
-  "hw": "asic,fpga",
-  "tier": "",
-  "sources": [
-   "github:vanshb03-summer",
-   "jobspy:linkedin"
-  ],
-  "first_seen": "2026-11-10",
-  "last_seen": "2026-11-11"
- },
- {
-  "company": "General Dynamics Mission Systems, Inc.",
   "title": "EE/Computer Engineer Intern",
   "location": "Manassas, VA",
   "url": "https://go.vansh.nyc/PZ?s=y",
@@ -16615,7 +16461,7 @@
    "github:vanshb03-summer"
   ],
   "first_seen": "2026-10-26",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "General Dynamics Mission Systems, Inc.",
@@ -16633,7 +16479,7 @@
    "jobspy:linkedin"
   ],
   "first_seen": "2026-11-10",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "General Motors",
@@ -16650,7 +16496,7 @@
    "github:vanshb03-summer"
   ],
   "first_seen": "2026-10-26",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "General Motors",
@@ -16667,7 +16513,7 @@
    "github:vanshb03-summer"
   ],
   "first_seen": "2026-10-26",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "GlobalFoundries",
@@ -16701,7 +16547,7 @@
    "github:vanshb03-summer"
   ],
   "first_seen": "2026-11-11",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "GlobalFoundries",
@@ -16718,7 +16564,7 @@
    "github:vanshb03-summer"
   ],
   "first_seen": "2026-11-10",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "GlobalFoundries",
@@ -16735,7 +16581,7 @@
    "github:vanshb03-summer"
   ],
   "first_seen": "2026-11-03",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "GlobalFoundries",
@@ -16752,7 +16598,7 @@
    "github:vanshb03-summer"
   ],
   "first_seen": "2026-10-26",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Graco",
@@ -16769,7 +16615,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Graco",
@@ -16786,7 +16632,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Graco",
@@ -16803,7 +16649,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "HCSC",
@@ -16820,7 +16666,7 @@
    "github:vanshb03-summer"
   ],
   "first_seen": "2026-10-27",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "HP Inc.",
@@ -16837,7 +16683,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-09-30",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "HPR",
@@ -16854,7 +16700,7 @@
    "github:vanshb03-summer"
   ],
   "first_seen": "2026-10-25",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Heidelberg Materials",
@@ -16871,7 +16717,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Heidelberg Materials",
@@ -16888,7 +16734,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Hermeus",
@@ -16905,7 +16751,7 @@
    "github:vanshb03-summer"
   ],
   "first_seen": "2026-10-25",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Heron Power",
@@ -16922,7 +16768,7 @@
    "github:vanshb03-summer"
   ],
   "first_seen": "2026-10-25",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Heron Power",
@@ -16939,7 +16785,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-10-01",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Hewlett Packard Enterprise",
@@ -16956,7 +16802,7 @@
    "github:vanshb03-summer"
   ],
   "first_seen": "2026-10-26",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Hewlett Packard Enterprise",
@@ -16973,7 +16819,7 @@
    "github:vanshb03-summer"
   ],
   "first_seen": "2026-10-26",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Hewlett Packard Enterprise",
@@ -16990,7 +16836,7 @@
    "github:vanshb03-summer"
   ],
   "first_seen": "2026-10-26",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Hewlett Packard Enterprise",
@@ -17007,7 +16853,7 @@
    "github:vanshb03-summer"
   ],
   "first_seen": "2026-10-26",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Hewlett Packard Enterprise",
@@ -17024,7 +16870,7 @@
    "github:vanshb03-summer"
   ],
   "first_seen": "2026-10-26",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Hewlett Packard Enterprise",
@@ -17041,24 +16887,7 @@
    "github:vanshb03-summer"
   ],
   "first_seen": "2026-10-29",
-  "last_seen": "2026-11-11"
- },
- {
-  "company": "Hewlett Packard Enterprise",
-  "title": "Electrical Hardware Engineer Intern",
-  "location": "Sunnyvale, CA, USA",
-  "url": "https://www.linkedin.com/jobs/view/4488854360",
-  "posted": "2026-11-11",
-  "deadline": "",
-  "term": "unspecified",
-  "rank": "C",
-  "hw": "electrical,hardware",
-  "tier": "",
-  "sources": [
-   "jobspy:linkedin"
-  ],
-  "first_seen": "2026-11-10",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Hewlett Packard Enterprise",
@@ -17075,7 +16904,7 @@
    "github:vanshb03-summer"
   ],
   "first_seen": "2026-11-09",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Hewlett Packard Enterprise",
@@ -17092,7 +16921,7 @@
    "github:vanshb03-summer"
   ],
   "first_seen": "2026-10-25",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Hewlett Packard Enterprise",
@@ -17109,7 +16938,7 @@
    "github:vanshb03-summer"
   ],
   "first_seen": "2026-11-03",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Hewlett Packard Enterprise",
@@ -17126,7 +16955,7 @@
    "github:vanshb03-summer"
   ],
   "first_seen": "2026-10-26",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Hewlett Packard Enterprise",
@@ -17143,7 +16972,7 @@
    "github:vanshb03-summer"
   ],
   "first_seen": "2026-10-26",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Hewlett Packard Enterprise",
@@ -17160,7 +16989,7 @@
    "github:vanshb03-summer"
   ],
   "first_seen": "2026-10-26",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Hewlett Packard Enterprise",
@@ -17177,7 +17006,7 @@
    "github:vanshb03-summer"
   ],
   "first_seen": "2026-10-26",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Hewlett Packard Enterprise",
@@ -17194,24 +17023,7 @@
    "jobspy:linkedin"
   ],
   "first_seen": "2026-11-10",
-  "last_seen": "2026-11-11"
- },
- {
-  "company": "HiArc",
-  "title": "Electrical Engineering Intern",
-  "location": "Merrimack, NH, USA",
-  "url": "https://www.linkedin.com/jobs/view/4465908567",
-  "posted": "2026-11-10",
-  "deadline": "",
-  "term": "unspecified",
-  "rank": "C",
-  "hw": "electrical engineering",
-  "tier": "",
-  "sources": [
-   "jobspy:linkedin"
-  ],
-  "first_seen": "2026-09-18",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Hitachi",
@@ -17228,7 +17040,7 @@
    "github:vanshb03-summer"
   ],
   "first_seen": "2026-10-25",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Honeywell",
@@ -17245,7 +17057,7 @@
    "github:vanshb03-summer"
   ],
   "first_seen": "2026-10-26",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Hudson River Trading",
@@ -17262,7 +17074,7 @@
    "github:vanshb03-summer"
   ],
   "first_seen": "2026-10-26",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "IBM",
@@ -17279,7 +17091,7 @@
    "jobspy:linkedin"
   ],
   "first_seen": "2026-09-27",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "IMC Trading",
@@ -17296,7 +17108,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-10-24",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Illinois Tool Works",
@@ -17313,7 +17125,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-09-23",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Impulse Space",
@@ -17347,7 +17159,7 @@
    "github:vanshb03-summer"
   ],
   "first_seen": "2026-11-11",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Intel",
@@ -17398,7 +17210,7 @@
    "jobspy:linkedin"
   ],
   "first_seen": "2026-10-21",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Intel",
@@ -17415,7 +17227,7 @@
    "jobspy:linkedin"
   ],
   "first_seen": "2026-10-21",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Intel",
@@ -17517,7 +17329,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-10-23",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Interstates",
@@ -17534,7 +17346,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Intuitive",
@@ -17551,7 +17363,7 @@
    "jobspy:linkedin"
   ],
   "first_seen": "2026-11-10",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Ixana",
@@ -17568,7 +17380,7 @@
    "github:vanshb03-summer"
   ],
   "first_seen": "2026-11-10",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Jane Street",
@@ -17585,7 +17397,7 @@
    "github:vanshb03-summer"
   ],
   "first_seen": "2026-10-25",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "John Deere",
@@ -17602,7 +17414,7 @@
    "github:vanshb03-summer"
   ],
   "first_seen": "2026-11-05",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "John Deere",
@@ -17619,7 +17431,7 @@
    "github:vanshb03-summer"
   ],
   "first_seen": "2026-11-08",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "John Deere",
@@ -17636,7 +17448,7 @@
    "github:vanshb03-summer"
   ],
   "first_seen": "2026-10-25",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Johns Hopkins Applied Physics Laboratory",
@@ -17653,7 +17465,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Juniper Networks",
@@ -17670,7 +17482,7 @@
    "github:vanshb03-summer"
   ],
   "first_seen": "2026-10-25",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "KLA",
@@ -17701,6 +17513,7 @@
   "hw": "electrical engineering",
   "tier": "big",
   "sources": [
+   "jobspy:linkedin",
    "workday"
   ],
   "first_seen": "2026-11-12",
@@ -17738,7 +17551,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-10-01",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Keysight Technologies",
@@ -17755,7 +17568,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-09-30",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Keysight Technologies",
@@ -17772,7 +17585,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-09-30",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Keysight Technologies",
@@ -17790,7 +17603,7 @@
    "github:vanshb03-summer"
   ],
   "first_seen": "2026-10-31",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Keysight Technologies",
@@ -17808,7 +17621,7 @@
    "jobspy:linkedin"
   ],
   "first_seen": "2026-11-10",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Keysight Technologies",
@@ -17825,7 +17638,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Keysight Technologies",
@@ -17842,7 +17655,7 @@
    "github:vanshb03-summer"
   ],
   "first_seen": "2026-11-05",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Keysight Technologies",
@@ -17859,7 +17672,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-10-02",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Keysight Technologies",
@@ -17876,7 +17689,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-10-02",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Keysight Technologies",
@@ -17893,7 +17706,7 @@
    "github:vanshb03-summer"
   ],
   "first_seen": "2026-10-25",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Keysight Technologies",
@@ -17910,7 +17723,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-09-23",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Keysight Technologies",
@@ -17927,7 +17740,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Keysight Technologies",
@@ -17944,7 +17757,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-09-24",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Keysight Technologies",
@@ -17961,7 +17774,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-10-02",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Keysight Technologies",
@@ -17978,7 +17791,7 @@
    "jobspy:linkedin"
   ],
   "first_seen": "2026-11-10",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Keysight Technologies",
@@ -17995,7 +17808,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-09-25",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Keysight Technologies",
@@ -18012,7 +17825,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Keysight Technologies",
@@ -18029,7 +17842,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-09-22",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Keysight Technologies",
@@ -18046,7 +17859,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-09-23",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "L3Harris Technologies",
@@ -18063,7 +17876,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-10-01",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "L3Harris Technologies",
@@ -18080,7 +17893,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-11-03",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "L3Harris Technologies",
@@ -18097,24 +17910,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-11-11"
- },
- {
-  "company": "L3Harris Technologies",
-  "title": "Electrical Engineering Intern",
-  "location": "Salt Lake City, UT, USA",
-  "url": "https://simplify.jobs/jobs/click/ece79785-c82a-4477-a018-a2d549575253",
-  "posted": "2026-09-10",
-  "deadline": "",
-  "term": "unspecified",
-  "rank": "C",
-  "hw": "electrical engineering",
-  "tier": "",
-  "sources": [
-   "internlist:winter-spring"
-  ],
-  "first_seen": "2026-09-18",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "L3Harris Technologies",
@@ -18131,7 +17927,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "L3Harris Technologies",
@@ -18148,7 +17944,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Legrand",
@@ -18165,7 +17961,24 @@
    "github:vanshb03-summer"
   ],
   "first_seen": "2026-11-05",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
+ },
+ {
+  "company": "Lightmatter",
+  "title": "Laser Firmware Intern",
+  "location": "Boston, MA",
+  "url": "https://go.vansh.nyc/1vf?s=y",
+  "posted": "Nov 11",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "firmware",
+  "tier": "",
+  "sources": [
+   "github:vanshb03-summer"
+  ],
+  "first_seen": "2026-11-12",
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Lightmatter",
@@ -18250,7 +18063,7 @@
    "jobspy:linkedin"
   ],
   "first_seen": "2026-09-29",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Mach Industries",
@@ -18284,7 +18097,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-09-19",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Marvell",
@@ -18301,7 +18114,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Marvell",
@@ -18352,7 +18165,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Marvell",
@@ -18437,7 +18250,7 @@
    "github:vanshb03-summer"
   ],
   "first_seen": "2026-10-26",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Marvell",
@@ -18454,7 +18267,7 @@
    "github:vanshb03-summer"
   ],
   "first_seen": "2026-10-26",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Marvell",
@@ -18471,7 +18284,7 @@
    "github:vanshb03-summer"
   ],
   "first_seen": "2026-10-26",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Marvell",
@@ -18505,7 +18318,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Marvell",
@@ -18522,7 +18335,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Marvell",
@@ -18539,7 +18352,7 @@
    "github:vanshb03-summer"
   ],
   "first_seen": "2026-11-03",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Marvell",
@@ -18556,7 +18369,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Marvell",
@@ -18573,7 +18386,7 @@
    "github:vanshb03-summer"
   ],
   "first_seen": "2026-10-25",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Marvell",
@@ -18624,7 +18437,7 @@
    "jobspy:linkedin"
   ],
   "first_seen": "2026-11-11",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Microchip",
@@ -18676,7 +18489,7 @@
    "jobspy:linkedin"
   ],
   "first_seen": "2026-11-10",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Micron Technology",
@@ -18693,7 +18506,7 @@
    "github:vanshb03-summer"
   ],
   "first_seen": "2026-10-29",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Micron Technology",
@@ -18710,7 +18523,7 @@
    "jobspy:linkedin"
   ],
   "first_seen": "2026-09-27",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Micron Technology",
@@ -18727,7 +18540,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-09-22",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Micron Technology",
@@ -18744,7 +18557,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-09-24",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Micron Technology",
@@ -18761,7 +18574,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Micron Technology",
@@ -18778,7 +18591,7 @@
    "github:vanshb03-summer"
   ],
   "first_seen": "2026-10-26",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Micron Technology",
@@ -18795,24 +18608,7 @@
    "jobspy:linkedin"
   ],
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-11"
- },
- {
-  "company": "Micron Technology",
-  "title": "Intern - HIG HBM DTPCO",
-  "location": "Richardson, TX, USA",
-  "url": "https://www.linkedin.com/jobs/view/4488364566",
-  "posted": "2026-11-10",
-  "deadline": "",
-  "term": "unspecified",
-  "rank": "C",
-  "hw": "maybe",
-  "tier": "",
-  "sources": [
-   "jobspy:linkedin"
-  ],
-  "first_seen": "2026-11-10",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Micron Technology",
@@ -18830,7 +18626,7 @@
    "jobspy:linkedin"
   ],
   "first_seen": "2026-11-11",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Micron Technology",
@@ -18847,7 +18643,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-09-24",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Micron Technology",
@@ -18864,7 +18660,7 @@
    "github:vanshb03-summer"
   ],
   "first_seen": "2026-10-27",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Micron Technology",
@@ -18881,7 +18677,7 @@
    "github:vanshb03-summer"
   ],
   "first_seen": "2026-11-03",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Mill",
@@ -18898,7 +18694,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Molina Healthcare",
@@ -18915,7 +18711,7 @@
    "github:vanshb03-summer"
   ],
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Moog",
@@ -18949,7 +18745,24 @@
    "github:vanshb03-summer"
   ],
   "first_seen": "2026-10-26",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
+ },
+ {
+  "company": "Motorola Solutions",
+  "title": "Embedded SW Engineering Intern",
+  "location": "Schaumburg, IL",
+  "url": "https://go.vansh.nyc/1vC?s=y",
+  "posted": "Nov 11",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "embedded",
+  "tier": "",
+  "sources": [
+   "github:vanshb03-summer"
+  ],
+  "first_seen": "2026-11-12",
+  "last_seen": "2026-11-12"
  },
  {
   "company": "NASA JPL",
@@ -19000,7 +18813,7 @@
    "github:vanshb03-summer"
   ],
   "first_seen": "2026-10-26",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "NVIDIA",
@@ -19170,7 +18983,7 @@
    "github:vanshb03-summer"
   ],
   "first_seen": "2026-11-03",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "National Laboratory of the Rockies",
@@ -19187,7 +19000,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-10-04",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "National Laboratory of the Rockies",
@@ -19204,7 +19017,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Navitas Semiconductor",
@@ -19238,7 +19051,7 @@
    "github:vanshb03-summer"
   ],
   "first_seen": "2026-10-26",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Neuralink",
@@ -19255,7 +19068,7 @@
    "jobspy:linkedin"
   ],
   "first_seen": "2026-09-28",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Neuralink",
@@ -19272,7 +19085,7 @@
    "jobspy:linkedin"
   ],
   "first_seen": "2026-09-28",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "NeuroSpark AI",
@@ -19289,7 +19102,7 @@
    "jobspy:linkedin"
   ],
   "first_seen": "2026-11-11",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Nissan",
@@ -19306,7 +19119,24 @@
    "github:vanshb03-summer"
   ],
   "first_seen": "2026-10-25",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
+ },
+ {
+  "company": "Northrop Grumman",
+  "title": "2027 Electrical Engineering Intern - Sunnyvale CA",
+  "location": "United States-California-Sunnyvale",
+  "url": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-California-Sunnyvale/XMLNAME-2027-Electrical-Engineering-Intern---Sunnyvale-CA_R10260307",
+  "posted": "Posted Today",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "electrical engineering",
+  "tier": "big",
+  "sources": [
+   "workday"
+  ],
+  "first_seen": "2026-11-12",
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Northrop Grumman",
@@ -19357,7 +19187,7 @@
    "github:vanshb03-summer"
   ],
   "first_seen": "2026-10-26",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Odys Aviation",
@@ -19375,7 +19205,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-11-03",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Olsson",
@@ -19392,7 +19222,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Parsons",
@@ -19409,7 +19239,7 @@
    "github:vanshb03-summer"
   ],
   "first_seen": "2026-11-05",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Penn State University",
@@ -19426,7 +19256,7 @@
    "jobspy:linkedin"
   ],
   "first_seen": "2026-11-10",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Pennsylvania State University",
@@ -19443,7 +19273,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-10-23",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Periodic Labs",
@@ -19460,7 +19290,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Phillips 66",
@@ -19477,7 +19307,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-09-20",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Prosidian Consulting",
@@ -19494,7 +19324,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "PsiQuantum",
@@ -19528,7 +19358,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-10-01",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "QuEra",
@@ -19644,7 +19474,8 @@
   "hw": "rtl",
   "tier": "startup",
   "sources": [
-   "ashby"
+   "ashby",
+   "github:vanshb03-summer"
   ],
   "first_seen": "2026-09-23",
   "last_seen": "2026-11-12"
@@ -19664,7 +19495,7 @@
    "github:vanshb03-summer"
   ],
   "first_seen": "2026-10-26",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Qualcomm",
@@ -19681,7 +19512,7 @@
    "github:vanshb03-summer"
   ],
   "first_seen": "2026-10-26",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Quantinuum",
@@ -19698,7 +19529,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-09-19",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Quantinuum",
@@ -19715,7 +19546,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "RTX",
@@ -19736,6 +19567,23 @@
  },
  {
   "company": "RTX",
+  "title": "Electrical Engineering Intern, Firmware",
+  "location": "Ft Wayne, IN",
+  "url": "https://go.vansh.nyc/1vJ?s=y",
+  "posted": "Nov 11",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "electrical engineering",
+  "tier": "",
+  "sources": [
+   "github:vanshb03-summer"
+  ],
+  "first_seen": "2026-11-12",
+  "last_seen": "2026-11-12"
+ },
+ {
+  "company": "RTX",
   "title": "Systems Engineer Intern, Mission Sensor Manager",
   "location": "Cedar Rapids, IA",
   "url": "https://go.vansh.nyc/1cT?s=y",
@@ -19749,7 +19597,7 @@
    "github:vanshb03-summer"
   ],
   "first_seen": "2026-11-03",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "RadianX",
@@ -19766,7 +19614,7 @@
    "jobspy:linkedin"
   ],
   "first_seen": "2026-11-09",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Rambus",
@@ -19783,7 +19631,7 @@
    "github:vanshb03-summer"
   ],
   "first_seen": "2026-11-11",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Rambus",
@@ -19801,7 +19649,7 @@
    "jobspy:linkedin"
   ],
   "first_seen": "2026-11-10",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Rambus",
@@ -19818,7 +19666,24 @@
    "github:vanshb03-summer"
   ],
   "first_seen": "2026-11-08",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
+ },
+ {
+  "company": "Raytheon",
+  "title": "Electrical Engineering Intern - Test Solutions",
+  "location": "Tewksbury, MA, USA",
+  "url": "https://www.linkedin.com/jobs/view/4490044916",
+  "posted": "2026-11-11",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "electrical engineering",
+  "tier": "",
+  "sources": [
+   "jobspy:linkedin"
+  ],
+  "first_seen": "2026-11-12",
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Reflect Orbital",
@@ -19835,7 +19700,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Renesas",
@@ -19903,7 +19768,7 @@
    "jobspy:linkedin"
   ],
   "first_seen": "2026-09-30",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Rivian and Volkswagen Group Technologies",
@@ -19920,7 +19785,7 @@
    "jobspy:linkedin"
   ],
   "first_seen": "2026-09-30",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Rockwell Automation",
@@ -19937,7 +19802,7 @@
    "github:vanshb03-summer"
   ],
   "first_seen": "2026-10-25",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Rockwell Automation",
@@ -19954,7 +19819,7 @@
    "github:vanshb03-summer"
   ],
   "first_seen": "2026-10-25",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "RosaicLabs",
@@ -19971,7 +19836,7 @@
    "github:vanshb03-summer"
   ],
   "first_seen": "2026-10-28",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "RosaicLabs",
@@ -19988,24 +19853,7 @@
    "github:vanshb03-summer"
   ],
   "first_seen": "2026-10-28",
-  "last_seen": "2026-11-11"
- },
- {
-  "company": "SK Hynix Memory Solution",
-  "title": "ASIC Design Intern",
-  "location": "San Jose, CA",
-  "url": "https://go.vansh.nyc/gp?s=y",
-  "posted": "Oct 19",
-  "deadline": "",
-  "term": "unspecified",
-  "rank": "C",
-  "hw": "asic",
-  "tier": "",
-  "sources": [
-   "github:vanshb03-summer"
-  ],
-  "first_seen": "2026-10-25",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "SK Hynix Memory Solution",
@@ -20022,7 +19870,7 @@
    "github:vanshb03-offseason"
   ],
   "first_seen": "2026-10-26",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "STMicroelectronics",
@@ -20039,7 +19887,7 @@
    "jobspy:linkedin"
   ],
   "first_seen": "2026-09-30",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Saronic",
@@ -20073,7 +19921,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-09-23",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Schweitzer Engineering Laboratories",
@@ -20090,7 +19938,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-09-24",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Seagate",
@@ -20328,7 +20176,7 @@
    "github:vanshb03-summer"
   ],
   "first_seen": "2026-10-26",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Shield",
@@ -20345,7 +20193,7 @@
    "github:vanshb03-summer"
   ],
   "first_seen": "2026-11-03",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Shield AI",
@@ -20396,7 +20244,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Sierra Nevada Corporation",
@@ -20413,7 +20261,7 @@
    "github:vanshb03-summer"
   ],
   "first_seen": "2026-11-05",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Skydio",
@@ -20532,7 +20380,7 @@
    "github:vanshb03-offseason"
   ],
   "first_seen": "2026-11-10",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Skydio",
@@ -20549,7 +20397,7 @@
    "github:vanshb03-summer"
   ],
   "first_seen": "2026-10-25",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Skydio",
@@ -20617,7 +20465,7 @@
    "github:vanshb03-summer"
   ],
   "first_seen": "2026-10-25",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Skyworks",
@@ -20861,7 +20709,7 @@
   "company": "Skyworks",
   "title": "Product Engineering Intern",
   "location": "Greensboro, USA    ",
-  "url": "https://careers.skyworksinc.com/job/Product-Engineering-Intern/78778-en_US",
+  "url": "https://careers.skyworksinc.com/job/Product-Engineering-Intern/78749-en_US",
   "posted": "2026-10-28",
   "deadline": "",
   "term": "unspecified",
@@ -20871,7 +20719,7 @@
   "sources": [
    "successfactors"
   ],
-  "first_seen": "2026-10-29",
+  "first_seen": "2026-10-28",
   "last_seen": "2026-11-12"
  },
  {
@@ -21093,7 +20941,7 @@
    "jobspy:linkedin"
   ],
   "first_seen": "2026-10-21",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Stryker",
@@ -21110,7 +20958,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Synopsys",
@@ -21127,7 +20975,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-11-04",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Tenstorrent",
@@ -21144,7 +20992,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-11-03",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Tenstorrent",
@@ -21161,7 +21009,7 @@
    "github:vanshb03-summer"
   ],
   "first_seen": "2026-11-10",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Tenstorrent",
@@ -21178,7 +21026,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-10-31",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Terranova",
@@ -21195,7 +21043,7 @@
    "github:vanshb03-offseason"
   ],
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Tesla",
@@ -21212,7 +21060,7 @@
    "github:vanshb03-offseason"
   ],
   "first_seen": "2026-11-03",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Tesla",
@@ -21229,7 +21077,7 @@
    "github:vanshb03-offseason"
   ],
   "first_seen": "2026-11-03",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Tesla",
@@ -21246,7 +21094,7 @@
    "github:vanshb03-offseason"
   ],
   "first_seen": "2026-11-03",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Tesla",
@@ -21263,7 +21111,7 @@
    "github:vanshb03-offseason"
   ],
   "first_seen": "2026-11-03",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Tesla",
@@ -21280,7 +21128,7 @@
    "github:vanshb03-offseason"
   ],
   "first_seen": "2026-11-03",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Tesla",
@@ -21297,7 +21145,7 @@
    "github:vanshb03-offseason"
   ],
   "first_seen": "2026-11-03",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Tesla",
@@ -21314,7 +21162,7 @@
    "github:vanshb03-offseason"
   ],
   "first_seen": "2026-11-03",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Tesla",
@@ -21331,7 +21179,7 @@
    "github:vanshb03-offseason"
   ],
   "first_seen": "2026-11-03",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Tesla",
@@ -21348,7 +21196,7 @@
    "github:vanshb03-offseason"
   ],
   "first_seen": "2026-11-03",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Tevora",
@@ -21365,7 +21213,7 @@
    "github:vanshb03-offseason"
   ],
   "first_seen": "2026-10-26",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Texas Instruments",
@@ -21399,7 +21247,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Texas Instruments",
@@ -21416,7 +21264,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Texas Instruments",
@@ -21450,7 +21298,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Texas Instruments",
@@ -21484,7 +21332,7 @@
    "github:vanshb03-summer"
   ],
   "first_seen": "2026-11-05",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Texas Instruments",
@@ -21501,7 +21349,7 @@
    "github:vanshb03-summer"
   ],
   "first_seen": "2026-10-29",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Texas Instruments",
@@ -21518,7 +21366,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Texas Instruments",
@@ -21569,7 +21417,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Texas Instruments",
@@ -21586,7 +21434,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Texas Instruments",
@@ -21620,7 +21468,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Texas Instruments",
@@ -21637,24 +21485,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-11-11"
- },
- {
-  "company": "Texas Instruments",
-  "title": "Systems Engineering Intern",
-  "location": "Dallas, TX, USA; Sugar Land, TX, USA",
-  "url": "https://simplify.jobs/jobs/click/35ac9d4b-4222-4d9a-82df-3d81ec3a998c",
-  "posted": "2026-09-11",
-  "deadline": "",
-  "term": "unspecified",
-  "rank": "C",
-  "hw": "maybe",
-  "tier": "",
-  "sources": [
-   "internlist:winter-spring"
-  ],
-  "first_seen": "2026-09-18",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Texas Instruments",
@@ -21688,7 +21519,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Texas Instruments",
@@ -21722,7 +21553,7 @@
    "jobspy:linkedin"
   ],
   "first_seen": "2026-09-30",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "The Aerospace Corporation",
@@ -21739,7 +21570,7 @@
    "jobspy:linkedin"
   ],
   "first_seen": "2026-11-10",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "The Aerospace Corporation",
@@ -21756,7 +21587,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-10-02",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "The Applied Research Laboratory at Penn State University",
@@ -21773,7 +21604,7 @@
    "jobspy:linkedin"
   ],
   "first_seen": "2026-11-10",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "The Toro Company",
@@ -21790,7 +21621,7 @@
    "github:vanshb03-summer"
   ],
   "first_seen": "2026-10-26",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Thermo Fisher Scientific",
@@ -21824,7 +21655,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-10-23",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "TikTok",
@@ -21841,7 +21672,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-10-15",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "TikTok",
@@ -21858,7 +21689,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-10-23",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Toshiba International Corporation",
@@ -21875,7 +21706,7 @@
    "github:vanshb03-summer"
   ],
   "first_seen": "2026-10-31",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Trace Labs",
@@ -21892,7 +21723,7 @@
    "github:vanshb03-summer"
   ],
   "first_seen": "2026-10-25",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Two Sigma",
@@ -21909,7 +21740,7 @@
    "github:vanshb03-summer"
   ],
   "first_seen": "2026-10-26",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Ursa Major",
@@ -21943,7 +21774,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "VIAVI Solutions",
@@ -21961,7 +21792,7 @@
    "jobspy:linkedin"
   ],
   "first_seen": "2026-11-10",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Valmont",
@@ -21978,7 +21809,7 @@
    "github:vanshb03-summer"
   ],
   "first_seen": "2026-11-03",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Varda Space",
@@ -22080,7 +21911,7 @@
    "github:vanshb03-summer"
   ],
   "first_seen": "2026-11-10",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Wabtec",
@@ -22097,7 +21928,7 @@
    "internlist:winter-spring"
   ],
   "first_seen": "2026-10-09",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Western Digital",
@@ -22114,7 +21945,7 @@
    "github:vanshb03-summer"
   ],
   "first_seen": "2026-11-10",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "Zoox",
@@ -22135,23 +21966,6 @@
  },
  {
   "company": "Zurn Elkay Water Solutions",
-  "title": "Embedded Firmware Intern",
-  "location": "Milwaukee, WI",
-  "url": "https://go.vansh.nyc/JD?s=y",
-  "posted": "Sep 24",
-  "deadline": "",
-  "term": "unspecified",
-  "rank": "C",
-  "hw": "embedded,firmware",
-  "tier": "",
-  "sources": [
-   "github:vanshb03-summer"
-  ],
-  "first_seen": "2026-10-26",
-  "last_seen": "2026-11-11"
- },
- {
-  "company": "Zurn Elkay Water Solutions",
   "title": "Embedded Hardware Intern",
   "location": "Milwaukee, WI",
   "url": "https://go.vansh.nyc/MW?s=y",
@@ -22165,7 +21979,7 @@
    "github:vanshb03-summer"
   ],
   "first_seen": "2026-10-26",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "fab2",
@@ -22183,7 +21997,7 @@
    "github:vanshb03-summer"
   ],
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "onsemi",
@@ -22200,7 +22014,7 @@
    "github:vanshb03-summer"
   ],
   "first_seen": "2026-10-26",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "onsemi",
@@ -22217,7 +22031,7 @@
    "github:vanshb03-summer"
   ],
   "first_seen": "2026-11-09",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "pSemi, A Murata Company",
@@ -22234,7 +22048,7 @@
    "jobspy:linkedin"
   ],
   "first_seen": "2026-11-10",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  {
   "company": "stealth-startup-community",
@@ -22251,6 +22065,6 @@
    "github:vanshb03-summer"
   ],
   "first_seen": "2026-10-28",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  }
 ]
