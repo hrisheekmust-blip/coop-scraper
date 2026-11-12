@@ -526,7 +526,7 @@
 "company": "Formlabs",
 "role": "Hardware Test Engineering Intern (Winter/Spring 2027)",
 "link": "https://careers.formlabs.com/job/8196515/apply/?gh_jid=8196515",
-"attempted": 1794423038,
+"attempted": 1794444257,
 "apply_url": "https://careers.formlabs.com/job/8196515/apply/?gh_jid=8196515",
 "portal": "greenhouse",
 "error": "ValueError: no board/job in url",
@@ -623,7 +623,7 @@
 "company": "Anduril Industries",
 "role": "Winter 2027 Electrical Engineer Co-op",
 "link": "https://northeastern-csm.symplicity.com/students/app/jobs/detail/3b995296c86c28cf4357adb75254598d",
-"attempted": 1794353940,
+"attempted": 1794444257,
 "apply_url": "https://northeastern-csm.symplicity.com/students/app/jobs/detail/3b995296c86c28cf4357adb75254598d",
 "portal": "nuworks",
 "fields": null,
@@ -3455,7 +3455,7 @@
 "company": "Emerson",
 "role": "Electrical Engineering Co-op (Spring 2027)",
 "link": "https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26010996",
-"attempted": 1794353940,
+"attempted": 1794444257,
 "apply_url": "https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26010996",
 "portal": "oracle",
 "fields": null,
@@ -27398,7 +27398,7 @@
 "company": "Formlabs",
 "role": "Hardware R&D Engineering Intern (Winter/Spring 2027)",
 "link": "https://careers.formlabs.com/job/8172226/apply/?gh_jid=8172226",
-"attempted": 1794423038,
+"attempted": 1794444257,
 "apply_url": "https://careers.formlabs.com/job/8172226/apply/?gh_jid=8172226",
 "portal": "greenhouse",
 "error": "ValueError: no board/job in url",
@@ -27408,7 +27408,7 @@
 "company": "Formlabs",
 "role": "Hardware Systems Integration Intern (Winter/Spring 2027)",
 "link": "https://careers.formlabs.com/job/8172004/apply/?gh_jid=8172004",
-"attempted": 1794423038,
+"attempted": 1794444257,
 "apply_url": "https://careers.formlabs.com/job/8172004/apply/?gh_jid=8172004",
 "portal": "greenhouse",
 "error": "ValueError: no board/job in url",
@@ -31147,7 +31147,7 @@
 "company": "Formlabs",
 "role": "Electrical Engineering Intern (Winter/Spring 2027)",
 "link": "https://careers.formlabs.com/job/8148283/apply/?gh_jid=8148283",
-"attempted": 1794423038,
+"attempted": 1794444257,
 "apply_url": "https://careers.formlabs.com/job/8148283/apply/?gh_jid=8148283",
 "portal": "greenhouse",
 "error": "ValueError: no board/job in url",
@@ -33126,7 +33126,7 @@
 "company": "Formlabs",
 "role": "Manufacturing Engineering Intern (Winter/Spring 2027)",
 "link": "https://careers.formlabs.com/job/8161817/apply/?gh_jid=8161817",
-"attempted": 1794423038,
+"attempted": 1794444257,
 "apply_url": "https://careers.formlabs.com/job/8161817/apply/?gh_jid=8161817",
 "portal": "greenhouse",
 "error": "ValueError: no board/job in url",
@@ -33378,7 +33378,7 @@
 "company": "Emerson",
 "role": "Manufacturing Engineering Co-Op",
 "link": "https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26009034",
-"attempted": 1794353940,
+"attempted": 1794444257,
 "apply_url": "https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26009034",
 "portal": "oracle",
 "fields": null,
@@ -33408,7 +33408,7 @@
 "company": "Formlabs",
 "role": "Industrial Design Intern (Winter/Spring 2027)",
 "link": "https://careers.formlabs.com/job/8172232/apply/?gh_jid=8172232",
-"attempted": 1794423038,
+"attempted": 1794444257,
 "apply_url": "https://careers.formlabs.com/job/8172232/apply/?gh_jid=8172232",
 "portal": "greenhouse",
 "error": "ValueError: no board/job in url",
@@ -38708,7 +38708,7 @@
 "company": "Entegris",
 "role": "Technical Training Co-Op",
 "link": "https://entegris.wd1.myworkdayjobs.com/EntegrisCareers/job/Chaska-MN/Technical-Training-Co-Op_REQ-14459",
-"attempted": 1794353940,
+"attempted": 1794444257,
 "apply_url": "https://entegris.wd1.myworkdayjobs.com/EntegrisCareers/job/Chaska-MN/Technical-Training-Co-Op_REQ-14459",
 "portal": "workday",
 "fields": null,
@@ -40677,7 +40677,7 @@
 "company": "ITT",
 "role": "Hardware & Indirect Sourcing Co-op",
 "link": "https://simplify.jobs/jobs/click/56777104-ded5-413e-80ec-8048ad9ecbd1",
-"attempted": 1794353940,
+"attempted": 1794444257,
 "apply_url": "https://careersenus-itt-inc.icims.com/jobs/17707/job?mobile=true&needsRedirect=false&utm_source=Simplify",
 "portal": "icims",
 "fields": null,
@@ -49371,7 +49371,7 @@
 "company": "Framatome",
 "role": "Electrical Engineering Intern Co-op",
 "link": "https://simplify.jobs/jobs/click/2f6d1363-5eff-4778-ae83-37983d9aaebe",
-"attempted": 1794353940,
+"attempted": 1794444257,
 "apply_url": "https://careers-framatome.icims.com/jobs/3289/job?mobile=true&needsRedirect=false&utm_source=Simplify",
 "portal": "icims",
 "fields": null,
@@ -56315,7 +56315,7 @@
 "company": "RTX",
 "role": "Test Engineering Specialist Co-Op (Onsite)",
 "link": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-MA-ANDOVER-AN1--350-Lowell-St--AN1-ESSEX-BLDG/Test-Engineering-Specialist-Co-Op--Onsite-_01874746",
-"attempted": 1794353940,
+"attempted": 1794444257,
 "apply_url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-MA-ANDOVER-AN1--350-Lowell-St--AN1-ESSEX-BLDG/Test-Engineering-Specialist-Co-Op--Onsite-_01874746",
 "portal": "workday",
 "fields": null,
@@ -59765,7 +59765,7 @@
 "company": "RTX",
 "role": "Factory Enablement Digital Engineer (Spring/Summer Co-op)",
 "link": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-IA-CEDAR-RAPIDS-105--400-Collins-Rd-NE--BLDG-105/Factory-Enablement-Digital-Engineer--Spring-Summer-Co-op-_01876473",
-"attempted": 1794353940,
+"attempted": 1794444257,
 "apply_url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-IA-CEDAR-RAPIDS-105--400-Collins-Rd-NE--BLDG-105/Factory-Enablement-Digital-Engineer--Spring-Summer-Co-op-_01876473",
 "portal": "workday",
 "fields": null,
@@ -67550,7 +67550,7 @@
 "company": "Cisco",
 "role": "Systems Quality Engineer II (Co-op) - United States",
 "link": "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Maynard-Massachusetts-US/Systems-Quality-Engineer-II--Co-op----United-States_2026915",
-"attempted": 1794353940,
+"attempted": 1794444257,
 "apply_url": "https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Maynard-Massachusetts-US/Systems-Quality-Engineer-II--Co-op----United-States_2026915",
 "portal": "workday",
 "fields": null,
@@ -68464,7 +68464,7 @@
 "company": "Draper",
 "role": "Integrated Circuits Intern (Summer 2027)",
 "link": "https://draper.wd5.myworkdayjobs.com/Draper_Careers/job/Cambridge-MA/Integrated-Circuits-Intern_JR002973",
-"attempted": 1794353940,
+"attempted": 1794444257,
 "apply_url": "https://draper.wd5.myworkdayjobs.com/Draper_Careers/job/Cambridge-MA/Integrated-Circuits-Intern_JR002973",
 "portal": "workday",
 "fields": null,
@@ -72905,7 +72905,7 @@
 "company": "General Dynamics Mission Systems",
 "role": "Electrical Engineering Co-op",
 "link": "https://simplify.jobs/jobs/click/26421879-2b39-4d9e-bb39-48c7ed152482",
-"attempted": 1794353940,
+"attempted": 1794444257,
 "apply_url": "https://careers-gdms.icims.com/jobs/74924/job?mobile=true&needsRedirect=false&utm_source=Simplify",
 "portal": "icims",
 "fields": null,
@@ -74428,7 +74428,7 @@
 "company": "SSOE Group",
 "role": "Electrical Engineer Co-op",
 "link": "https://simplify.jobs/jobs/click/906500bb-5b97-4736-91fc-4aa606e3c8f9",
-"attempted": 1794353940,
+"attempted": 1794444257,
 "apply_url": "https://careers-ssoe.icims.com/jobs/3883/job?mobile=true&needsRedirect=false&utm_source=Simplify",
 "portal": "icims",
 "fields": null,
@@ -76702,7 +76702,7 @@
 "company": "Alliance Laundry Systems",
 "role": "Embedded Firmware Co-op",
 "link": "https://simplify.jobs/jobs/click/f465e7dc-6075-4d52-aa52-c4c142f3401b",
-"attempted": 1794353940,
+"attempted": 1794444257,
 "apply_url": "https://uscareeropenings-alliancelaundry.icims.com/jobs/13348/job?mobile=true&needsRedirect=false&utm_source=Simplify",
 "portal": "icims",
 "fields": null,
@@ -76752,7 +76752,7 @@
 "company": "Real Alloy",
 "role": "Electrical Engineer Intern/Co-op",
 "link": "https://simplify.jobs/jobs/click/50e44cc5-709f-4a31-bcc9-c9ec3e559b93",
-"attempted": 1794353940,
+"attempted": 1794444257,
 "apply_url": "https://career-realalloy.icims.com/jobs/3085/job?mobile=true&needsRedirect=false&utm_source=Simplify",
 "portal": "icims",
 "fields": null,
@@ -81654,7 +81654,7 @@
 "company": "Werfen",
 "role": "R&D Systems Hardware Engineering Co-op",
 "link": "https://simplify.jobs/jobs/click/d16d5776-a774-4531-951a-cf1dede1cc30",
-"attempted": 1794353940,
+"attempted": 1794444257,
 "apply_url": "https://careers-werfen.icims.com/jobs/11153/job?mobile=true&needsRedirect=false&utm_source=Simplify",
 "portal": "icims",
 "fields": null,
@@ -84887,7 +84887,7 @@
 "company": "SRC",
 "role": "Embedded Design Engineer (Intern - Spring 2027)",
 "link": "https://www.linkedin.com/jobs/view/4478625706",
-"attempted": 1794356098,
+"attempted": 1794444257,
 "apply_url": "https://www.linkedin.com/jobs/view/4478625706",
 "portal": "linkedin",
 "fields": null,
@@ -84931,7 +84931,7 @@
 "company": "Anduril Industries",
 "role": "2027 Electrical Engineer Intern",
 "link": "https://www.linkedin.com/jobs/view/4427648537",
-"attempted": 1794356098,
+"attempted": 1794444257,
 "apply_url": "https://www.linkedin.com/jobs/view/4427648537",
 "portal": "linkedin",
 "fields": null,
@@ -85207,7 +85207,7 @@
 "company": "Siemens Digital Industries Software",
 "role": "Strategic Student Program: Cross-Domain Manufacturing Systems Engineering Intern  (T&I, Spring 2027)",
 "link": "https://www.linkedin.com/jobs/view/4480431142",
-"attempted": 1794356098,
+"attempted": 1794444257,
 "apply_url": "https://www.linkedin.com/jobs/view/4480431142",
 "portal": "linkedin",
 "fields": null,
@@ -86111,7 +86111,7 @@
 "company": "SK hynix memory solutions America Inc.",
 "role": "ASIC Design Intern",
 "link": "https://www.linkedin.com/jobs/view/4482042362",
-"attempted": 1794356098,
+"attempted": 1794444257,
 "apply_url": "https://www.linkedin.com/jobs/view/4482042362",
 "portal": "linkedin",
 "fields": null,
@@ -86144,7 +86144,7 @@
 "company": "RTX",
 "role": "Manufacturing Electrical Engineer Co-op (Spring/Summer 2027)",
 "link": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-FL-MELBOURNE-308--1100-W-Hibiscus-Blvd--BLDG-308/Manufacturing-Electrical-Engineer-Co-op--Spring-Summer-2027-_01883878",
-"attempted": 1794353940,
+"attempted": 1794444257,
 "apply_url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-FL-MELBOURNE-308--1100-W-Hibiscus-Blvd--BLDG-308/Manufacturing-Electrical-Engineer-Co-op--Spring-Summer-2027-_01883878",
 "portal": "workday",
 "fields": null,
@@ -87136,7 +87136,7 @@
 "company": "Entegris",
 "role": "Electrical Engineer Co-Op",
 "link": "https://northeastern-csm.symplicity.com/students/app/jobs/detail/627feb642af6ac437f6ba3233a04eec4",
-"attempted": 1794353940,
+"attempted": 1794444257,
 "apply_url": "https://northeastern-csm.symplicity.com/students/app/jobs/detail/627feb642af6ac437f6ba3233a04eec4",
 "portal": "nuworks",
 "fields": null,
@@ -96056,7 +96056,7 @@
 "company": "RTX",
 "role": "Systems Engineering Co-op",
 "link": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-MA-WOBURN-WB1--235-Presidential-Way--SPENCER-BLDG/Systems-Engineering-Co-op_01884039",
-"attempted": 1794356098,
+"attempted": 1794444257,
 "apply_url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-MA-WOBURN-WB1--235-Presidential-Way--SPENCER-BLDG/Systems-Engineering-Co-op_01884039",
 "portal": "workday",
 "fields": null,
@@ -98016,7 +98016,7 @@
 "company": "RTX",
 "role": "Hardware Electrical Engineering Co-Op (Spring 2027)",
 "link": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-MA-CAMBRIDGE-BBN01--10--50-Moulton-St--MOULTON-B2/Hardware-Electrical-Engineering-Co-Op--Spring-2027-_01883598",
-"attempted": 1794353940,
+"attempted": 1794444257,
 "apply_url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-MA-CAMBRIDGE-BBN01--10--50-Moulton-St--MOULTON-B2/Hardware-Electrical-Engineering-Co-Op--Spring-2027-_01883598",
 "portal": "workday",
 "fields": null,
@@ -98026,7 +98026,7 @@
 "company": "BAE Systems",
 "role": "Industrial Engineering Intern - Winter 2027",
 "link": "https://jobs.baesystems.com/global/en/job/131217BR/industrial-engineering-intern-winter-2027",
-"attempted": 1794353940,
+"attempted": 1794444257,
 "apply_url": "https://jobs.baesystems.com/global/en/job/131217BR/industrial-engineering-intern-winter-2027",
 "portal": "other",
 "fields": null,
@@ -98056,7 +98056,7 @@
 "company": "Skyworks",
 "role": "IC Layout Engineering Intern",
 "link": "https://careers.skyworksinc.com/job/IC-Layout-Engineering-Intern/78740-en_US",
-"attempted": 1794353940,
+"attempted": 1794444257,
 "apply_url": "https://careers.skyworksinc.com/job/IC-Layout-Engineering-Intern/78740-en_US",
 "portal": "other",
 "fields": null,
@@ -98813,7 +98813,7 @@
 "company": "Seagate",
 "role": "Edge IoT Engineering Intern, Electronics Design Engineering",
 "link": "https://seagatecareers.com/job/Edge-IoT-Engineering-Intern%2C-Electronics-Design-Engineering/15412-en_US",
-"attempted": 1794356098,
+"attempted": 1794444257,
 "apply_url": "https://seagatecareers.com/job/Edge-IoT-Engineering-Intern%2C-Electronics-Design-Engineering/15412-en_US",
 "portal": "other",
 "fields": null,
@@ -100701,7 +100701,7 @@
 "company": "Nokia",
 "role": "Silicon Photonics Packaging Engineer Co-op",
 "link": "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/40848",
-"attempted": 1794353940,
+"attempted": 1794444257,
 "apply_url": "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/40848",
 "portal": "oracle",
 "fields": null,
@@ -100711,7 +100711,7 @@
 "company": "Seagate",
 "role": "Wafer Manufacturing Intern",
 "link": "https://seagatecareers.com/job/Wafer-Manufacturing-Intern/15464-en_US",
-"attempted": 1794356098,
+"attempted": 1794444257,
 "apply_url": "https://seagatecareers.com/job/Wafer-Manufacturing-Intern/15464-en_US",
 "portal": "other",
 "fields": null,
@@ -101680,7 +101680,7 @@
 "company": "Applied Materials",
 "role": "2027 Spring Electrical Engineer Co-op (Billerica, MA)",
 "link": "https://amat.wd1.myworkdayjobs.com/External/job/BillericaMA/XMLNAME-2027-Spring-Electrical-Engineer-Co-op--Billerica--MA-_R2631535-1",
-"attempted": 1794353940,
+"attempted": 1794444257,
 "apply_url": "https://amat.wd1.myworkdayjobs.com/External/job/BillericaMA/XMLNAME-2027-Spring-Electrical-Engineer-Co-op--Billerica--MA-_R2631535-1",
 "portal": "workday",
 "fields": null,
@@ -102599,7 +102599,7 @@
 "company": "Tesla",
 "role": "Embedded Software Engineer Intern, Silicon Development",
 "link": "https://go.vansh.nyc/1b4?s=z",
-"attempted": 1794353940,
+"attempted": 1794444257,
 "apply_url": "https://go.vansh.nyc/1b4?s=z",
 "portal": "other",
 "fields": null,
@@ -102609,7 +102609,7 @@
 "company": "Tesla",
 "role": "SI Hardware Design Verification Engineer Intern, SI Hardware",
 "link": "https://go.vansh.nyc/1ak?s=z",
-"attempted": 1794353940,
+"attempted": 1794444257,
 "apply_url": "https://go.vansh.nyc/1ak?s=z",
 "portal": "other",
 "fields": null,
@@ -102619,7 +102619,7 @@
 "company": "Tesla",
 "role": "SI Hardware Physical Design Engineer Intern, SI Hardware",
 "link": "https://go.vansh.nyc/1aW?s=z",
-"attempted": 1794353940,
+"attempted": 1794444257,
 "apply_url": "https://go.vansh.nyc/1aW?s=z",
 "portal": "other",
 "fields": null,
@@ -102629,7 +102629,7 @@
 "company": "Tesla",
 "role": "SI Hardware RTL Design Engineer Intern, SI Hardware",
 "link": "https://go.vansh.nyc/1aj?s=z",
-"attempted": 1794353940,
+"attempted": 1794444257,
 "apply_url": "https://go.vansh.nyc/1aj?s=z",
 "portal": "other",
 "fields": null,
@@ -102639,7 +102639,7 @@
 "company": "Tesla",
 "role": "SI Hardware Silicon Validation Engineer Intern, SI Hardware",
 "link": "https://go.vansh.nyc/1am?s=z",
-"attempted": 1794353940,
+"attempted": 1794444257,
 "apply_url": "https://go.vansh.nyc/1am?s=z",
 "portal": "other",
 "fields": null,
@@ -102649,7 +102649,7 @@
 "company": "Tesla",
 "role": "SoC Firmware Engineer Intern, SI Hardware Infrastructure",
 "link": "https://go.vansh.nyc/1a8?s=z",
-"attempted": 1794353940,
+"attempted": 1794444257,
 "apply_url": "https://go.vansh.nyc/1a8?s=z",
 "portal": "other",
 "fields": null,
@@ -102681,7 +102681,7 @@
 "company": "GlobalFoundries",
 "role": "Design Verification Engineer Intern",
 "link": "https://go.vansh.nyc/1ba?s=y",
-"attempted": 1794353940,
+"attempted": 1794444257,
 "apply_url": "https://go.vansh.nyc/1ba?s=y",
 "portal": "other",
 "fields": null,
@@ -104202,7 +104202,7 @@
 "company": "Skyworks",
 "role": "RF Design Automation & Validation Summer/Fall Co-Op (June - Dec '27)",
 "link": "https://careers.skyworksinc.com/job/RF-Design-Automation-&amp;-Validation-SummerFall-Co-Op-%28June-Dec-&apos;27%29/78990-en_US",
-"attempted": 1794353940,
+"attempted": 1794444257,
 "apply_url": "https://careers.skyworksinc.com/job/RF-Design-Automation-&amp;-Validation-SummerFall-Co-Op-%28June-Dec-&apos;27%29/78990-en_US",
 "portal": "other",
 "fields": null,
@@ -105071,7 +105071,7 @@
 "company": "Skyworks",
 "role": "Timing Analog Mixed Signal Design Summer 2027 Intern",
 "link": "https://careers.skyworksinc.com/job/Timing-Analog-Mixed-Signal-Design-Summer-2027-Intern/78542-en_US",
-"attempted": 1794353940,
+"attempted": 1794444257,
 "apply_url": "https://careers.skyworksinc.com/job/Timing-Analog-Mixed-Signal-Design-Summer-2027-Intern/78542-en_US",
 "portal": "other",
 "fields": null,
@@ -105155,7 +105155,7 @@
 "company": "Skyworks",
 "role": "Wafer Fab Materials Summer Intern (May-Aug '27)",
 "link": "https://careers.skyworksinc.com/job/Wafer-Fab-Materials-Summer-Intern-%28May-Aug-&apos;27%29/78617-en_US",
-"attempted": 1794353940,
+"attempted": 1794444257,
 "apply_url": "https://careers.skyworksinc.com/job/Wafer-Fab-Materials-Summer-Intern-%28May-Aug-&apos;27%29/78617-en_US",
 "portal": "other",
 "fields": null,
@@ -112618,7 +112618,7 @@
 "company": "Formlabs",
 "role": "Hardware Systems Integration Intern (Summer 2027)",
 "link": "https://careers.formlabs.com/job/8212683/apply/?gh_jid=8212683",
-"attempted": 1794423038,
+"attempted": 1794444257,
 "apply_url": "https://careers.formlabs.com/job/8212683/apply/?gh_jid=8212683",
 "portal": "greenhouse",
 "error": "ValueError: no board/job in url",
@@ -127603,7 +127603,7 @@
 "company": "Seagate",
 "role": "Reader Characterization Intern - Summer 2027",
 "link": "https://seagatecareers.com/job/Reader-Characterization-Intern-Summer-2027/15410-en_US",
-"attempted": 1794356098,
+"attempted": 1794444257,
 "apply_url": "https://seagatecareers.com/job/Reader-Characterization-Intern-Summer-2027/15410-en_US",
 "portal": "other",
 "fields": null,
@@ -127613,7 +127613,7 @@
 "company": "Seagate",
 "role": "Wafer Process Control\u202fIntern - Wet Processes Summer 2027",
 "link": "https://seagatecareers.com/job/Wafer-Process-Control%E2%80%AFIntern-Wet-Processes-Summer-2027/15373-en_US",
-"attempted": 1794356098,
+"attempted": 1794444257,
 "apply_url": "https://seagatecareers.com/job/Wafer-Process-Control%E2%80%AFIntern-Wet-Processes-Summer-2027/15373-en_US",
 "portal": "other",
 "fields": null,
@@ -127623,7 +127623,7 @@
 "company": "KLA",
 "role": "Research Scientist Intern - Plasma Light Source Characterization",
 "link": "https://kla.wd1.myworkdayjobs.com/Search/job/Ann-Arbor-MI/Research-Scientist-Intern---Coating-Characterization_2642033-2",
-"attempted": 1794353940,
+"attempted": 1794444257,
 "apply_url": "https://kla.wd1.myworkdayjobs.com/Search/job/Ann-Arbor-MI/Research-Scientist-Intern---Coating-Characterization_2642033-2",
 "portal": "workday",
 "fields": null,
@@ -127633,7 +127633,7 @@
 "company": "Skyworks",
 "role": "Analog and RF circuit design Summer/Fall Co-Op (June-Dec '27)",
 "link": "https://careers.skyworksinc.com/job/Analog-and-RF-circuit-design-SummerFall-Co-Op-%28June-Dec-&apos;27%29/78608-en_US",
-"attempted": 1794353940,
+"attempted": 1794444257,
 "apply_url": "https://careers.skyworksinc.com/job/Analog-and-RF-circuit-design-SummerFall-Co-Op-%28June-Dec-&apos;27%29/78608-en_US",
 "portal": "other",
 "fields": null,
@@ -127643,7 +127643,7 @@
 "company": "Amazon",
 "role": "ASIC Engineer Intern, Summer 2027",
 "link": "https://www.amazon.jobs/en/jobs/10576619/asic-engineer-intern-summer-2027",
-"attempted": 1794353940,
+"attempted": 1794444257,
 "apply_url": "https://www.amazon.jobs/en/jobs/10576619/asic-engineer-intern-summer-2027",
 "portal": "amazon",
 "fields": null,
@@ -127653,7 +127653,7 @@
 "company": "Amazon",
 "role": "Hardware Development Engineer Intern,  Summer 2027",
 "link": "https://www.amazon.jobs/en/jobs/10578090/hardware-development-engineer-intern-summer-2027",
-"attempted": 1794353940,
+"attempted": 1794444257,
 "apply_url": "https://www.amazon.jobs/en/jobs/10578090/hardware-development-engineer-intern-summer-2027",
 "portal": "amazon",
 "fields": null,
@@ -127663,7 +127663,7 @@
 "company": "Cadence",
 "role": "CST Application Engineer Intern - Silicon",
 "link": "https://cadence.wd1.myworkdayjobs.com/External_Careers/job/SAN-JOSE/CST-Application-Engineer-Intern---Silicon_R56655-1",
-"attempted": 1794353940,
+"attempted": 1794444257,
 "apply_url": "https://cadence.wd1.myworkdayjobs.com/External_Careers/job/SAN-JOSE/CST-Application-Engineer-Intern---Silicon_R56655-1",
 "portal": "workday",
 "fields": null,
@@ -127673,7 +127673,7 @@
 "company": "Ambarella",
 "role": "Mixed Signal Engineer Intern",
 "link": "https://ambarella.wd108.myworkdayjobs.com/Ambarella/job/US-Headquarters/Mixed-Signal-Engineer-Intern_JR100361",
-"attempted": 1794353940,
+"attempted": 1794444257,
 "apply_url": "https://ambarella.wd108.myworkdayjobs.com/Ambarella/job/US-Headquarters/Mixed-Signal-Engineer-Intern_JR100361",
 "portal": "workday",
 "fields": null,
@@ -129305,7 +129305,7 @@
 "company": "Skyworks",
 "role": "Characterization Engineering Summer/Fall Co-Op (June-Dec '27)",
 "link": "https://careers.skyworksinc.com/job/Characterization-Engineering-SummerFall-Co-Op-%28June-Dec-&apos;27%29/78514-en_US",
-"attempted": 1794353940,
+"attempted": 1794444257,
 "apply_url": "https://careers.skyworksinc.com/job/Characterization-Engineering-SummerFall-Co-Op-%28June-Dec-&apos;27%29/78514-en_US",
 "portal": "other",
 "fields": null,
@@ -129315,7 +129315,7 @@
 "company": "Skyworks",
 "role": "Analog IC Design Co-op (Summer/Fall 2027)",
 "link": "https://careers.skyworksinc.com/job/Analog-IC-Design-Co-op-%28SummerFall-2027%29/78497-en_US",
-"attempted": 1794353940,
+"attempted": 1794444257,
 "apply_url": "https://careers.skyworksinc.com/job/Analog-IC-Design-Co-op-%28SummerFall-2027%29/78497-en_US",
 "portal": "other",
 "fields": null,
@@ -129325,7 +129325,7 @@
 "company": "Skyworks",
 "role": "BAW/SAW RF Lap Summer/Fall Co-Op (June-Dec '27)",
 "link": "https://careers.skyworksinc.com/job/BAWSAW-RF-Lap-SummerFall-Co-Op-%28June-Dec-&apos;27%29/78483-en_US",
-"attempted": 1794353940,
+"attempted": 1794444257,
 "apply_url": "https://careers.skyworksinc.com/job/BAWSAW-RF-Lap-SummerFall-Co-Op-%28June-Dec-&apos;27%29/78483-en_US",
 "portal": "other",
 "fields": null,
@@ -129335,7 +129335,7 @@
 "company": "Skyworks",
 "role": "RF Front-End Engineer Summer/Fall Co-Op (June-Dec '27)",
 "link": "https://careers.skyworksinc.com/job/RF-Front-End-Engineer-SummerFall-Co-Op-%28June-Dec-&apos;27%29/78506-en_US",
-"attempted": 1794353940,
+"attempted": 1794444257,
 "apply_url": "https://careers.skyworksinc.com/job/RF-Front-End-Engineer-SummerFall-Co-Op-%28June-Dec-&apos;27%29/78506-en_US",
 "portal": "other",
 "fields": null,
@@ -129345,7 +129345,7 @@
 "company": "Skyworks",
 "role": "Analog IC Design Co-Op (Summer/Fall 2027)",
 "link": "https://careers.skyworksinc.com/job/Analog-IC-Design-Co-Op-%28SummerFall-2027%29/78485-en_US",
-"attempted": 1794353940,
+"attempted": 1794444257,
 "apply_url": "https://careers.skyworksinc.com/job/Analog-IC-Design-Co-Op-%28SummerFall-2027%29/78485-en_US",
 "portal": "other",
 "fields": null,
@@ -129355,7 +129355,7 @@
 "company": "Skyworks",
 "role": "RMI Timing Software Engineering Summer Intern (May-Aug '27)",
 "link": "https://careers.skyworksinc.com/job/RMI-Timing-Software-Engineering-Summer-Intern-%28May-Aug-&apos;27%29/78420-en_US",
-"attempted": 1794353940,
+"attempted": 1794444257,
 "apply_url": "https://careers.skyworksinc.com/job/RMI-Timing-Software-Engineering-Summer-Intern-%28May-Aug-&apos;27%29/78420-en_US",
 "portal": "other",
 "fields": null,
@@ -129365,7 +129365,7 @@
 "company": "Skyworks",
 "role": "Timing IC-Validation Summer Intern",
 "link": "https://careers.skyworksinc.com/job/Timing-IC-Validation-Summer-Intern/78403-en_US",
-"attempted": 1794353940,
+"attempted": 1794444257,
 "apply_url": "https://careers.skyworksinc.com/job/Timing-IC-Validation-Summer-Intern/78403-en_US",
 "portal": "other",
 "fields": null,
@@ -129375,7 +129375,7 @@
 "company": "Skyworks",
 "role": "Technology Characterization & AI Automation Engineering Summer Intern (May-Aug '27)",
 "link": "https://careers.skyworksinc.com/job/Technology-Characterization-&amp;-AI-Automation-Engineering-Summer-Intern-%28May-Aug-&apos;27%29/78406-en_US",
-"attempted": 1794353940,
+"attempted": 1794444257,
 "apply_url": "https://careers.skyworksinc.com/job/Technology-Characterization-&amp;-AI-Automation-Engineering-Summer-Intern-%28May-Aug-&apos;27%29/78406-en_US",
 "portal": "other",
 "fields": null,
@@ -129385,7 +129385,7 @@
 "company": "Skyworks",
 "role": "RF Module Design Summer/Fall Co-Op (June-Dec '27)",
 "link": "https://careers.skyworksinc.com/job/RF-Module-Design-SummerFall-Co-Op-%28June-Dec-&apos;27%29/78304-en_US",
-"attempted": 1794353940,
+"attempted": 1794444257,
 "apply_url": "https://careers.skyworksinc.com/job/RF-Module-Design-SummerFall-Co-Op-%28June-Dec-&apos;27%29/78304-en_US",
 "portal": "other",
 "fields": null,
@@ -129395,7 +129395,7 @@
 "company": "Skyworks",
 "role": "IC Layout Co-op (Summer/Fall 2027)",
 "link": "https://careers.skyworksinc.com/job/IC-Layout-Co-op-%28SummerFall-2027%29/78374-en_US",
-"attempted": 1794353940,
+"attempted": 1794444257,
 "apply_url": "https://careers.skyworksinc.com/job/IC-Layout-Co-op-%28SummerFall-2027%29/78374-en_US",
 "portal": "other",
 "fields": null,
@@ -129405,7 +129405,7 @@
 "company": "Skyworks",
 "role": "RF Module Design Summer Intern",
 "link": "https://careers.skyworksinc.com/job/RF-Module-Design-Summer-Intern/78370-en_US",
-"attempted": 1794353940,
+"attempted": 1794444257,
 "apply_url": "https://careers.skyworksinc.com/job/RF-Module-Design-Summer-Intern/78370-en_US",
 "portal": "other",
 "fields": null,
@@ -129415,7 +129415,7 @@
 "company": "Skyworks",
 "role": "RF EM Design Co-Op (Summer/Fall 2027)",
 "link": "https://careers.skyworksinc.com/job/RF-EM-Design-Co-Op-%28SummerFall-2027%29/78268-en_US",
-"attempted": 1794353940,
+"attempted": 1794444257,
 "apply_url": "https://careers.skyworksinc.com/job/RF-EM-Design-Co-Op-%28SummerFall-2027%29/78268-en_US",
 "portal": "other",
 "fields": null,
@@ -129425,7 +129425,7 @@
 "company": "Skyworks",
 "role": "RF Module Design Co-Op (Summer/Fall 2027)",
 "link": "https://careers.skyworksinc.com/job/RF-Module-Design-Co-Op-%28SummerFall-2027%29/78271-en_US",
-"attempted": 1794353940,
+"attempted": 1794444257,
 "apply_url": "https://careers.skyworksinc.com/job/RF-Module-Design-Co-Op-%28SummerFall-2027%29/78271-en_US",
 "portal": "other",
 "fields": null,
@@ -129435,7 +129435,7 @@
 "company": "Skyworks",
 "role": "RF Validation Engineer Co-op (Summer/Fall 2027)",
 "link": "https://careers.skyworksinc.com/job/RF-Validation-Engineer-Co-op-%28SummerFall-2027%29/78276-en_US",
-"attempted": 1794353940,
+"attempted": 1794444257,
 "apply_url": "https://careers.skyworksinc.com/job/RF-Validation-Engineer-Co-op-%28SummerFall-2027%29/78276-en_US",
 "portal": "other",
 "fields": null,
@@ -129445,7 +129445,7 @@
 "company": "Skyworks",
 "role": "RF Front End Modules Summer/Fall Co-Op (June-Dec '27)",
 "link": "https://careers.skyworksinc.com/job/RF-Front-End-Modules-SummerFall-Co-Op-%28June-Dec-&apos;27%29/78233-en_US",
-"attempted": 1794353940,
+"attempted": 1794444257,
 "apply_url": "https://careers.skyworksinc.com/job/RF-Front-End-Modules-SummerFall-Co-Op-%28June-Dec-&apos;27%29/78233-en_US",
 "portal": "other",
 "fields": null,
@@ -129455,7 +129455,7 @@
 "company": "Skyworks",
 "role": "RF Modules Summer/Fall Co-Op (June-Dec '27)",
 "link": "https://careers.skyworksinc.com/job/RF-Modules-SummerFall-Co-Op-%28June-Dec-&apos;27%29/78266-en_US",
-"attempted": 1794353940,
+"attempted": 1794444257,
 "apply_url": "https://careers.skyworksinc.com/job/RF-Modules-SummerFall-Co-Op-%28June-Dec-&apos;27%29/78266-en_US",
 "portal": "other",
 "fields": null,
@@ -129465,7 +129465,7 @@
 "company": "Skyworks",
 "role": "RFIC Design Summer Intern",
 "link": "https://careers.skyworksinc.com/job/RFIC-Design-Summer-Intern/78242-en_US",
-"attempted": 1794353940,
+"attempted": 1794444257,
 "apply_url": "https://careers.skyworksinc.com/job/RFIC-Design-Summer-Intern/78242-en_US",
 "portal": "other",
 "fields": null,
@@ -129475,7 +129475,7 @@
 "company": "Skyworks",
 "role": "Quality Systems Co-Op (Wafer Fabs) Summer/Fall (June - Dec '27)",
 "link": "https://careers.skyworksinc.com/job/Quality-Systems-Co-Op-%28Wafer-Fabs%29-SummerFall-%28June-Dec-&apos;27%29/78256-en_US",
-"attempted": 1794353940,
+"attempted": 1794444257,
 "apply_url": "https://careers.skyworksinc.com/job/Quality-Systems-Co-Op-%28Wafer-Fabs%29-SummerFall-%28June-Dec-&apos;27%29/78256-en_US",
 "portal": "other",
 "fields": null,
@@ -129485,7 +129485,7 @@
 "company": "Skyworks",
 "role": "Validation Engineer (VE) Summer/Fall Co-Op (June-Dec '27)",
 "link": "https://careers.skyworksinc.com/job/Validation-Engineer-%28VE%29-SummerFall-Co-Op-%28June-Dec-&apos;27%29/78215-en_US",
-"attempted": 1794353940,
+"attempted": 1794444257,
 "apply_url": "https://careers.skyworksinc.com/job/Validation-Engineer-%28VE%29-SummerFall-Co-Op-%28June-Dec-&apos;27%29/78215-en_US",
 "portal": "other",
 "fields": null,
@@ -129495,7 +129495,7 @@
 "company": "Skyworks",
 "role": "RF Front-End EM Design Co-Op (Summer/Fall 2027)",
 "link": "https://careers.skyworksinc.com/job/RF-Front-End-EM-Design-Co-Op-%28SummerFall-2027%29/78165-en_US",
-"attempted": 1794353940,
+"attempted": 1794444257,
 "apply_url": "https://careers.skyworksinc.com/job/RF-Front-End-EM-Design-Co-Op-%28SummerFall-2027%29/78165-en_US",
 "portal": "other",
 "fields": null,
@@ -129505,7 +129505,7 @@
 "company": "Skyworks",
 "role": "Test Engineering Co-Op (Summer/Fall 2027)",
 "link": "https://careers.skyworksinc.com/job/Test-Engineering-Co-Op-%28SummerFall-2027%29/78214-en_US",
-"attempted": 1794353940,
+"attempted": 1794444257,
 "apply_url": "https://careers.skyworksinc.com/job/Test-Engineering-Co-Op-%28SummerFall-2027%29/78214-en_US",
 "portal": "other",
 "fields": null,
@@ -129515,7 +129515,7 @@
 "company": "Skyworks",
 "role": "RF Validation Engineer Co-Op (Summer/Fall 2027)",
 "link": "https://careers.skyworksinc.com/job/RF-Validation-Engineer-Co-Op-%28SummerFall-2027%29/78159-en_US",
-"attempted": 1794353940,
+"attempted": 1794444257,
 "apply_url": "https://careers.skyworksinc.com/job/RF-Validation-Engineer-Co-Op-%28SummerFall-2027%29/78159-en_US",
 "portal": "other",
 "fields": null,
@@ -129545,7 +129545,7 @@
 "company": "BAE Systems",
 "role": "Electrical Engineering Coop (Summer/Fall 2027), Onsite",
 "link": "https://jobs.baesystems.com/global/en/job/127775BR/electrical-engineering-coop-summer-fall-2027-onsite",
-"attempted": 1794353940,
+"attempted": 1794444257,
 "apply_url": "https://jobs.baesystems.com/global/en/job/127775BR/electrical-engineering-coop-summer-fall-2027-onsite",
 "portal": "other",
 "fields": null,
@@ -130008,7 +130008,7 @@
 "company": "BAE Systems",
 "role": "Embedded Software Engineering Co-Op II (Summer/Fall 2027) , Navigation and Sensor Systems",
 "link": "https://jobs.baesystems.com/global/en/job/129771BR/embedded-software-engineering-co-op-ii-summer-fall-2027-navigation-and-sensor-sy",
-"attempted": 1794353940,
+"attempted": 1794444257,
 "apply_url": "https://jobs.baesystems.com/global/en/job/129771BR/embedded-software-engineering-co-op-ii-summer-fall-2027-navigation-and-sensor-sy",
 "portal": "other",
 "fields": null,
@@ -130018,7 +130018,7 @@
 "company": "BAE Systems",
 "role": "Embedded Software Engineering Co-Op III (Summer/Fall 2027) , Navigation and Sensor Systems",
 "link": "https://jobs.baesystems.com/global/en/job/129772BR/embedded-software-engineering-co-op-iii-summer-fall-2027-navigation-and-sensor-s",
-"attempted": 1794353940,
+"attempted": 1794444257,
 "apply_url": "https://jobs.baesystems.com/global/en/job/129772BR/embedded-software-engineering-co-op-iii-summer-fall-2027-navigation-and-sensor-s",
 "portal": "other",
 "fields": null,
@@ -130028,7 +130028,7 @@
 "company": "BAE Systems",
 "role": "Hardware Engineering Intern III, Summer 2027 (Onsite)",
 "link": "https://jobs.baesystems.com/global/en/job/129896BR/hardware-engineering-intern-iii-summer-2027-onsite",
-"attempted": 1794353940,
+"attempted": 1794444257,
 "apply_url": "https://jobs.baesystems.com/global/en/job/129896BR/hardware-engineering-intern-iii-summer-2027-onsite",
 "portal": "other",
 "fields": null,
@@ -130288,7 +130288,7 @@
 "company": "Peter Basso Associates",
 "role": "Electrical Engineer Co-op",
 "link": "https://simplify.jobs/jobs/click/958b6433-4e9e-4d6b-9b81-edf1b82b8827",
-"attempted": 1794353940,
+"attempted": 1794444257,
 "apply_url": "https://peterbassoassociates.applytojob.com/apply/8eyN1xXEwI/Electrical-Engineer-Coop-Summer-2027-Term?utm_source=Simplify",
 "portal": "other",
 "fields": null,
@@ -130298,7 +130298,7 @@
 "company": "Cleveland-Cliffs",
 "role": "Electrical Engineer Co-op",
 "link": "https://simplify.jobs/jobs/click/fb881aa7-d6b5-4174-8841-9faa83a7a74c",
-"attempted": 1794353940,
+"attempted": 1794444257,
 "apply_url": "https://aksteel.wd1.myworkdayjobs.com/careers/job/Middletown-Works/Electrical-Engineering-Co-Op_R13540?utm_source=Simplify",
 "portal": "workday",
 "fields": null,
@@ -130513,7 +130513,7 @@
 "company": "Second Order Effects",
 "role": "Electrical Engineering Intern (Summer 2027)",
 "link": "https://jobs.gem.com/soeffects/am9icG9zdDqLIuZagE8SU-HqhGf7TGYo",
-"attempted": 1794353940,
+"attempted": 1794444257,
 "apply_url": "https://jobs.gem.com/soeffects/am9icG9zdDqLIuZagE8SU-HqhGf7TGYo",
 "portal": "other",
 "fields": null,
@@ -130523,7 +130523,7 @@
 "company": "IMC Trading",
 "role": "Hardware Engineer Intern (Summer 2027)",
 "link": "https://job-boards.eu.greenhouse.io/imc/jobs/4823945101",
-"attempted": 1794353940,
+"attempted": 1794444257,
 "apply_url": "https://job-boards.eu.greenhouse.io/imc/jobs/4823945101",
 "portal": "greenhouse",
 "closed": true,
@@ -133742,7 +133742,7 @@
 "company": "Empower Semiconductor",
 "role": "Summer 2027 Intern - Corporate Actuarial (Greenwood Village, CO)",
 "link": "https://empower.wd12.myworkdayjobs.com/empower/job/CO-Greenwood-Village/Summer-2027-Intern---Corporate-Actuarial--Greenwood-Village--CO-_R0062375",
-"attempted": 1794353940,
+"attempted": 1794444257,
 "apply_url": "https://empower.wd12.myworkdayjobs.com/empower/job/CO-Greenwood-Village/Summer-2027-Intern---Corporate-Actuarial--Greenwood-Village--CO-_R0062375",
 "portal": "workday",
 "fields": null,
@@ -133752,7 +133752,7 @@
 "company": "Empower Semiconductor",
 "role": "Summer 2027 Intern - Corporate Actuarial (Hartford)",
 "link": "https://empower.wd12.myworkdayjobs.com/empower/job/CT-Hartford/Summer-2027-Intern---Corporate-Actuarial--Hartford-_R0062373",
-"attempted": 1794353940,
+"attempted": 1794444257,
 "apply_url": "https://empower.wd12.myworkdayjobs.com/empower/job/CT-Hartford/Summer-2027-Intern---Corporate-Actuarial--Hartford-_R0062373",
 "portal": "workday",
 "fields": null,
@@ -135511,7 +135511,7 @@
 "company": "ASML",
 "role": "Electrical Engineer Co-op Intern",
 "link": "https://simplify.jobs/jobs/click/7772f70d-d994-4fdf-8874-04f00ed5e24b",
-"attempted": 1794353940,
+"attempted": 1794444257,
 "apply_url": "https://asml.wd3.myworkdayjobs.com/asmlext1/job/Wilton-CT-USA/CoOp---Electrical-Engineer--Internship-_J-00356208?utm_source=Simplify",
 "portal": "workday",
 "fields": null,
@@ -135543,7 +135543,7 @@
 "company": "Applied Materials",
 "role": "Electrical Engineer Co-op",
 "link": "https://simplify.jobs/jobs/click/3062ee5d-82e5-4de4-a137-02f2ed23973d",
-"attempted": 1794353940,
+"attempted": 1794444257,
 "apply_url": "https://amat.wd1.myworkdayjobs.com/External/job/BillericaMA/XMLNAME-2027-Spring-Electrical-Engineer-Co-op--Billerica--MA-_R2631535-1?utm_source=Simplify",
 "portal": "workday",
 "fields": null,
@@ -135585,7 +135585,7 @@
 "company": "General Dynamics Mission Systems",
 "role": "FPGA Engineer Intern",
 "link": "https://go.vansh.nyc/1i0?s=y",
-"attempted": 1794353940,
+"attempted": 1794444257,
 "apply_url": "https://go.vansh.nyc/1i0?s=y",
 "portal": "other",
 "fields": null,
@@ -135595,7 +135595,7 @@
 "company": "Keysight Technologies",
 "role": "R&D DSP/FPGA Design Automation Intern",
 "link": "https://go.vansh.nyc/1hn?s=y",
-"attempted": 1794353940,
+"attempted": 1794444257,
 "apply_url": "https://go.vansh.nyc/1hn?s=y",
 "portal": "other",
 "fields": null,
@@ -135605,7 +135605,7 @@
 "company": "Texas Instruments",
 "role": "Digital Design Verification Engineer Intern",
 "link": "https://go.vansh.nyc/1hB?s=y",
-"attempted": 1794353940,
+"attempted": 1794444257,
 "apply_url": "https://go.vansh.nyc/1hB?s=y",
 "portal": "other",
 "fields": null,
@@ -135615,7 +135615,7 @@
 "company": "General Dynamics Mission Systems",
 "role": "Electrical Engineering Intern, FPGA",
 "link": "https://go.vansh.nyc/1hW?s=y",
-"attempted": 1794353940,
+"attempted": 1794444257,
 "apply_url": "https://go.vansh.nyc/1hW?s=y",
 "portal": "other",
 "fields": null,
@@ -145840,7 +145840,7 @@
 "company": "Applied Materials",
 "role": "2027 Summer Intern - Electrical Engineer - BS/MS Degree, (Santa Clara)",
 "link": "https://amat.wd1.myworkdayjobs.com/External/job/Santa-ClaraCA/XMLNAME-2027-Summer-Intern---Electrical-Engineer---BS-MS-Degree---Santa-Clara-_R2629428",
-"attempted": 1794353940,
+"attempted": 1794444257,
 "apply_url": "https://amat.wd1.myworkdayjobs.com/External/job/Santa-ClaraCA/XMLNAME-2027-Summer-Intern---Electrical-Engineer---BS-MS-Degree---Santa-Clara-_R2629428",
 "portal": "workday",
 "fields": null,
@@ -145850,7 +145850,7 @@
 "company": "Koch Industries",
 "role": "Electrical Engineer Co-op",
 "link": "https://simplify.jobs/jobs/click/d2387312-aae1-4a97-88ae-8295b1261167",
-"attempted": 1794353940,
+"attempted": 1794444257,
 "apply_url": "https://koch.avature.net/en_US/careers/JobDetail/197228?utm_source=Simplify",
 "portal": "other",
 "fields": null,
@@ -145914,7 +145914,7 @@
 "company": "Draper",
 "role": "GNC Systems Engineering Co-Op (Spring 2027)",
 "link": "https://draper.wd5.myworkdayjobs.com/Draper_Careers/job/Cambridge-MA/GNC-Systems-Engineering-Co-Op--Spring-2027-_JR003131",
-"attempted": 1794353940,
+"attempted": 1794444257,
 "apply_url": "https://draper.wd5.myworkdayjobs.com/Draper_Careers/job/Cambridge-MA/GNC-Systems-Engineering-Co-Op--Spring-2027-_JR003131",
 "portal": "workday",
 "fields": null,
@@ -145924,7 +145924,7 @@
 "company": "Analog Devices",
 "role": "Wet Lab Sensor Research Co-Op",
 "link": "https://analogdevices.wd1.myworkdayjobs.com/External/job/US-MA-Boston/Wet-Lab-Sensor-Research-Co-Op_R268534-1",
-"attempted": 1794353940,
+"attempted": 1794444257,
 "apply_url": "https://analogdevices.wd1.myworkdayjobs.com/External/job/US-MA-Boston/Wet-Lab-Sensor-Research-Co-Op_R268534-1",
 "portal": "workday",
 "fields": null,
@@ -147283,7 +147283,7 @@
 "company": "BMW Group",
 "role": "Intern, Power Electronics & GaN Technology - Spring 2027",
 "link": "https://www.linkedin.com/jobs/view/4488429986",
-"attempted": 1794356098,
+"attempted": 1794444257,
 "apply_url": "https://www.linkedin.com/jobs/view/4488429986",
 "portal": "linkedin",
 "fields": null,
@@ -149182,7 +149182,7 @@
 "company": "Sanmina",
 "role": "Engineering /Technology Co-Op",
 "link": "https://www.linkedin.com/jobs/view/4487377480",
-"attempted": 1794353940,
+"attempted": 1794444257,
 "apply_url": "https://www.linkedin.com/jobs/view/4487377480",
 "portal": "linkedin",
 "fields": null,
@@ -149193,7 +149193,7 @@
 "company": "RadianX",
 "role": "Electrical Engineering Intern, Test and Characterization",
 "link": "https://www.linkedin.com/jobs/view/4487656712",
-"attempted": 1794353940,
+"attempted": 1794444257,
 "apply_url": "https://www.linkedin.com/jobs/view/4487656712",
 "portal": "linkedin",
 "fields": null,
@@ -149204,7 +149204,7 @@
 "company": "Boston Dynamics",
 "role": "Manufacturing Test Engineer Co-Op",
 "link": "https://bostondynamics.wd1.myworkdayjobs.com/Boston_Dynamics/job/Waltham-Office-POST/Manufacturing-Test-Engineer-Co-Op_R3360",
-"attempted": 1794353940,
+"attempted": 1794444257,
 "apply_url": "https://bostondynamics.wd1.myworkdayjobs.com/Boston_Dynamics/job/Waltham-Office-POST/Manufacturing-Test-Engineer-Co-Op_R3360",
 "portal": "workday",
 "fields": null,
@@ -149214,7 +149214,7 @@
 "company": "RTX",
 "role": "Electronic Warfare Electrical Engineer Intern (Summer 2027)(Onsite)",
 "link": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-CA-GOLETA-H01--6380-Hollister-Ave--BLDG-H01/Electronic-Warfare-Electrical-Engineer-Intern--Summer-2027--Onsite-_01886573",
-"attempted": 1794353940,
+"attempted": 1794444257,
 "apply_url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-CA-GOLETA-H01--6380-Hollister-Ave--BLDG-H01/Electronic-Warfare-Electrical-Engineer-Intern--Summer-2027--Onsite-_01886573",
 "portal": "workday",
 "fields": null,
@@ -149224,7 +149224,7 @@
 "company": "RTX",
 "role": "Industrial Engineer Co-op (Spring/Summer 2027)",
 "link": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-NC-WILSON-4200--4200-Airport-Dr--BLDG-4200/Industrial-Engineer-Co-op--Spring-Summer-2027-_01887651",
-"attempted": 1794353940,
+"attempted": 1794444257,
 "apply_url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-NC-WILSON-4200--4200-Airport-Dr--BLDG-4200/Industrial-Engineer-Co-op--Spring-Summer-2027-_01887651",
 "portal": "workday",
 "fields": null,
@@ -149234,7 +149234,7 @@
 "company": "RTX",
 "role": "Manufacturing Engineer Co-op (Spring/Summer 2027)",
 "link": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-NC-WILSON-4200--4200-Airport-Dr--BLDG-4200/Manufacturing-Engineer-Co-op--Spring-Summer-2027-_01887620",
-"attempted": 1794353940,
+"attempted": 1794444257,
 "apply_url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-NC-WILSON-4200--4200-Airport-Dr--BLDG-4200/Manufacturing-Engineer-Co-op--Spring-Summer-2027-_01887620",
 "portal": "workday",
 "fields": null,
@@ -149244,7 +149244,7 @@
 "company": "RTX",
 "role": "Manufacturing Engineering Ops Co-Op (Spring/Summer 2027)",
 "link": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-FL-MELBOURNE-310--1100-W-Hibiscus-Blvd--BLDG-310/Manufacturing-Engineering-Ops-Co-Op--Spring-Summer-2027-_01886467",
-"attempted": 1794353940,
+"attempted": 1794444257,
 "apply_url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-FL-MELBOURNE-310--1100-W-Hibiscus-Blvd--BLDG-310/Manufacturing-Engineering-Ops-Co-Op--Spring-Summer-2027-_01886467",
 "portal": "workday",
 "fields": null,
@@ -149343,7 +149343,7 @@
 "company": "KLA",
 "role": "Electrical Engineering Intern",
 "link": "https://kla.wd1.myworkdayjobs.com/Search/job/Milpitas-CA/Electrical-Engineering-Intern_2641972-1",
-"attempted": 1794353940,
+"attempted": 1794444257,
 "apply_url": "https://kla.wd1.myworkdayjobs.com/Search/job/Milpitas-CA/Electrical-Engineering-Intern_2641972-1",
 "portal": "workday",
 "fields": null,
@@ -149353,7 +149353,7 @@
 "company": "Microchip",
 "role": "Intern - Device Engineer",
 "link": "https://microchiphr.wd5.myworkdayjobs.com/External/job/CA---San-Jose---Fortune-Dr-Micrel-HDQ/Intern---Device-Engineer_R4398-26",
-"attempted": 1794353940,
+"attempted": 1794444257,
 "apply_url": "https://microchiphr.wd5.myworkdayjobs.com/External/job/CA---San-Jose---Fortune-Dr-Micrel-HDQ/Intern---Device-Engineer_R4398-26",
 "portal": "workday",
 "fields": null,
@@ -149363,7 +149363,7 @@
 "company": "Renesas",
 "role": "Validation Intern",
 "link": "https://jobs.smartrecruiters.com/renesaselectronics/744000160632739",
-"attempted": 1794353940,
+"attempted": 1794444257,
 "apply_url": "https://jobs.smartrecruiters.com/renesaselectronics/744000160632739",
 "portal": "smartrecruiters",
 "fields": null,
@@ -149512,7 +149512,7 @@
 "company": "Silicon Labs",
 "role": "Summer 2027 Internships - Design Engineering",
 "link": "https://www.linkedin.com/jobs/view/4487413843",
-"attempted": 1794356098,
+"attempted": 1794444257,
 "apply_url": "https://www.linkedin.com/jobs/view/4487413843",
 "portal": "linkedin",
 "fields": null,
@@ -150095,7 +150095,7 @@
 "company": "Seagate",
 "role": "Wafer Photo Process Engineering Internship - Summer 2027",
 "link": "https://seagatecareers.com/job/Wafer-Photo-Process-Engineering-Internship-Summer-2027/15530-en_US",
-"attempted": 1794335466,
+"attempted": 1794444257,
 "apply_url": "https://seagatecareers.com/job/Wafer-Photo-Process-Engineering-Internship-Summer-2027/15530-en_US",
 "portal": "other",
 "fields": null,
@@ -150105,7 +150105,7 @@
 "company": "Formlabs",
 "role": "Electrical Engineering Intern (Summer 2027)",
 "link": "https://careers.formlabs.com/job/8148251/apply/?gh_jid=8148251",
-"attempted": 1794423038,
+"attempted": 1794444257,
 "apply_url": "https://careers.formlabs.com/job/8148251/apply/?gh_jid=8148251",
 "portal": "greenhouse",
 "error": "ValueError: no board/job in url",
@@ -150115,7 +150115,7 @@
 "company": "Formlabs",
 "role": "Hardware R&D Engineering Intern (Summer 2027)",
 "link": "https://careers.formlabs.com/job/8172394/apply/?gh_jid=8172394",
-"attempted": 1794423038,
+"attempted": 1794444257,
 "apply_url": "https://careers.formlabs.com/job/8172394/apply/?gh_jid=8172394",
 "portal": "greenhouse",
 "error": "ValueError: no board/job in url",
@@ -150125,7 +150125,7 @@
 "company": "Formlabs",
 "role": "Hardware Reliability Intern (Summer 2027)",
 "link": "https://careers.formlabs.com/job/8186619/apply/?gh_jid=8186619",
-"attempted": 1794423038,
+"attempted": 1794444257,
 "apply_url": "https://careers.formlabs.com/job/8186619/apply/?gh_jid=8186619",
 "portal": "greenhouse",
 "error": "ValueError: no board/job in url",
@@ -150207,7 +150207,7 @@
 "company": "Formlabs",
 "role": "Social Media Engineering Intern (Winter/Spring 2027)",
 "link": "https://careers.formlabs.com/job/8360209/apply/?gh_jid=8360209",
-"attempted": 1794423038,
+"attempted": 1794444257,
 "apply_url": "https://careers.formlabs.com/job/8360209/apply/?gh_jid=8360209",
 "portal": "greenhouse",
 "error": "ValueError: no board/job in url",
@@ -150227,7 +150227,7 @@
 "company": "Western Digital",
 "role": "Summer 2027 Intern - Hardware Engineering",
 "link": "https://jobs.smartrecruiters.com/WesternDigital/744000160975864",
-"attempted": 1794353940,
+"attempted": 1794444257,
 "apply_url": "https://jobs.smartrecruiters.com/WesternDigital/744000160975864",
 "portal": "smartrecruiters",
 "fields": null,
@@ -150237,7 +150237,7 @@
 "company": "RTX",
 "role": "Manufacturing Electrical Engineer Co-op (Summer/Fall 2027)",
 "link": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-FL-MELBOURNE-308--1100-W-Hibiscus-Blvd--BLDG-308/Manufacturing-Electrical-Engineer-Co-op--Summer-Fall-2027-_01883880",
-"attempted": 1794353940,
+"attempted": 1794444257,
 "apply_url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-FL-MELBOURNE-308--1100-W-Hibiscus-Blvd--BLDG-308/Manufacturing-Electrical-Engineer-Co-op--Summer-Fall-2027-_01883880",
 "portal": "workday",
 "fields": null,
@@ -150579,7 +150579,7 @@
 "company": "HP",
 "role": "Performance Engineering Co-op",
 "link": "https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/Fort-Collins-Colorado-United-States-of-America/Performance-Engineering-Co-op_UNI4986-2",
-"attempted": 1794353940,
+"attempted": 1794444257,
 "apply_url": "https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/Fort-Collins-Colorado-United-States-of-America/Performance-Engineering-Co-op_UNI4986-2",
 "portal": "workday",
 "fields": null,
@@ -150589,7 +150589,7 @@
 "company": "Northrop Grumman",
 "role": "2027 Optics/Photonic Engineering Intern - Apopka FL",
 "link": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Florida-Apopka/XMLNAME-2027-Optics-Photonic-Engineering-Intern---Apopka-FL_R10260049",
-"attempted": 1794356098,
+"attempted": 1794444257,
 "apply_url": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Florida-Apopka/XMLNAME-2027-Optics-Photonic-Engineering-Intern---Apopka-FL_R10260049",
 "portal": "workday",
 "fields": null,
@@ -150720,7 +150720,7 @@
 "company": "Samsara",
 "role": "Electrical Engineering Co-Op",
 "link": "https://www.indeed.com/viewjob?jk=5d2faf0fad624971",
-"attempted": 1794356098,
+"attempted": 1794444257,
 "apply_url": "https://www.indeed.com/viewjob?jk=5d2faf0fad624971",
 "portal": "other",
 "fields": null,
@@ -150763,7 +150763,7 @@
 "company": "General Dynamics Mission Systems, Inc.",
 "role": "ASIC/FPGA Engineer Intern",
 "link": "https://go.vansh.nyc/1rJ?s=y",
-"attempted": 1794356098,
+"attempted": 1794444257,
 "apply_url": "https://go.vansh.nyc/1rJ?s=y",
 "portal": "other",
 "fields": null,
@@ -150773,7 +150773,7 @@
 "company": "Ixana",
 "role": "Embedded Hardware Engineer Intern, FPGA Design",
 "link": "https://go.vansh.nyc/1qS?s=y",
-"attempted": 1794356098,
+"attempted": 1794444257,
 "apply_url": "https://go.vansh.nyc/1qS?s=y",
 "portal": "other",
 "fields": null,
@@ -150794,7 +150794,7 @@
 "company": "Western Digital",
 "role": "Hardware Engineering Intern",
 "link": "https://go.vansh.nyc/1sa?s=y",
-"attempted": 1794356098,
+"attempted": 1794444257,
 "apply_url": "https://go.vansh.nyc/1sa?s=y",
 "portal": "other",
 "fields": null,
@@ -151260,141 +151260,155 @@
 "company": "GlobalFoundries",
 "role": "AI Processor Hardware/Software Integration Engineer Intern (Summer 2027)",
 "link": "https://www.linkedin.com/jobs/view/4489003962",
-"attempted": 1794423038,
+"attempted": 1794444257,
 "apply_url": "https://www.linkedin.com/jobs/view/4489003962",
 "portal": "linkedin",
 "fields": null,
-"error": "form not public for this portal"
+"error": "form not public for this portal",
+"li_checked": true
 },
 "1e0dedec00264481": {
 "company": "GlobalFoundries",
 "role": "Silicon Photonics Process Integration Engineering Intern (Summer 2027)",
 "link": "https://www.linkedin.com/jobs/view/4488643286",
-"attempted": 1794423038,
+"attempted": 1794444257,
 "apply_url": "https://www.linkedin.com/jobs/view/4488643286",
 "portal": "linkedin",
 "fields": null,
-"error": "form not public for this portal"
+"error": "form not public for this portal",
+"li_checked": true
 },
 "29792f83c32c65ed": {
 "company": "Amca",
 "role": "Electrical Engineering Internship (Summer 2027)",
 "link": "https://www.linkedin.com/jobs/view/4461431172",
-"attempted": 1794423038,
+"attempted": 1794444257,
 "apply_url": "https://www.linkedin.com/jobs/view/4461431172",
 "portal": "linkedin",
 "fields": null,
-"error": "form not public for this portal"
+"error": "form not public for this portal",
+"li_checked": true
 },
 "6ed6249d1867c8fe": {
 "company": "CACI International Inc",
 "role": "Electrical Engineering Intern - Summer 2027",
 "link": "https://www.linkedin.com/jobs/view/4488214416",
-"attempted": 1794423038,
+"attempted": 1794444257,
 "apply_url": "https://www.linkedin.com/jobs/view/4488214416",
 "portal": "linkedin",
 "fields": null,
-"error": "form not public for this portal"
+"error": "form not public for this portal",
+"li_checked": true
 },
 "c21df5d3c622f125": {
 "company": "Cryptic Vector",
 "role": "Summer 2027 Electrical Engineer Internship",
 "link": "https://www.linkedin.com/jobs/view/4473030185",
-"attempted": 1794423038,
+"attempted": 1794444257,
 "apply_url": "https://www.linkedin.com/jobs/view/4473030185",
 "portal": "linkedin",
 "fields": null,
-"error": "form not public for this portal"
+"error": "form not public for this portal",
+"li_checked": true
 },
 "ff659ad7797a27d9": {
 "company": "MSA - The Safety Company",
 "role": "Intern/Co-op: Electrical Engineering Technology, Cranberry (Summer 2027)",
 "link": "https://www.linkedin.com/jobs/view/4488229781",
-"attempted": 1794423038,
+"attempted": 1794444257,
 "apply_url": "https://www.linkedin.com/jobs/view/4488229781",
 "portal": "linkedin",
 "fields": null,
-"error": "form not public for this portal"
+"error": "form not public for this portal",
+"li_checked": true
 },
 "ad960f71b7d3ffb1": {
 "company": "Robynex Automation",
 "role": "Electrical Engineering Intern",
 "link": "https://www.linkedin.com/jobs/view/4488232415",
-"attempted": 1794423038,
+"attempted": 1794444257,
 "apply_url": "https://www.linkedin.com/jobs/view/4488232415",
 "portal": "linkedin",
 "fields": null,
-"error": "form not public for this portal"
+"error": "form not public for this portal",
+"li_checked": true
 },
 "195878c0e23ac3a4": {
 "company": "Vontier",
 "role": "Engineering Intern - Test Engineering (Summer 2027)",
 "link": "https://www.linkedin.com/jobs/view/4482040161",
-"attempted": 1794423038,
+"attempted": 1794444257,
 "apply_url": "https://www.linkedin.com/jobs/view/4482040161",
 "portal": "linkedin",
 "fields": null,
-"error": "form not public for this portal"
+"error": "form not public for this portal",
+"li_checked": true
 },
 "ae01983d8107b74f": {
 "company": "Mesabi Metallics",
 "role": "Electrical Engineer College Summer Intern",
 "link": "https://www.linkedin.com/jobs/view/4488622941",
-"attempted": 1794423038,
+"attempted": 1794444257,
 "apply_url": "https://www.linkedin.com/jobs/view/4488622941",
 "portal": "linkedin",
 "fields": null,
-"error": "form not public for this portal"
+"error": "form not public for this portal",
+"li_checked": true
 },
 "52a4c1abe4bcc887": {
 "company": "Marvell Technology",
 "role": "Architecture Intern, MS - Summer 2027",
 "link": "https://www.linkedin.com/jobs/view/4471204937",
-"attempted": 1794423038,
+"attempted": 1794444257,
 "apply_url": "https://www.linkedin.com/jobs/view/4471204937",
 "portal": "linkedin",
 "fields": null,
-"error": "form not public for this portal"
+"error": "form not public for this portal",
+"li_checked": true
 },
 "8486be81929aa772": {
 "company": "Entrust",
 "role": "Electrical Engineer Co-op",
 "link": "https://www.linkedin.com/jobs/view/4489967803",
-"attempted": 1794423038,
+"attempted": 1794444257,
 "apply_url": "https://www.linkedin.com/jobs/view/4489967803",
 "portal": "linkedin",
 "fields": null,
-"error": "form not public for this portal"
+"error": "form not public for this portal",
+"li_checked": true
 },
 "880c24a18a5ba8ad": {
 "company": "Ayar Labs",
 "role": "Intern, ASIC Design",
 "link": "https://www.linkedin.com/jobs/view/4489974630",
-"attempted": 1794423038,
+"attempted": 1794444257,
 "apply_url": "https://www.linkedin.com/jobs/view/4489974630",
 "portal": "linkedin",
 "fields": null,
-"error": "form not public for this portal"
+"error": "form not public for this portal",
+"li_checked": true
 },
 "76f3d33f72b60be0": {
 "company": "Ayar Labs",
 "role": "Intern, Hardware Engineering",
 "link": "https://www.linkedin.com/jobs/view/4489986035",
-"attempted": 1794423038,
+"attempted": 1794444257,
 "apply_url": "https://www.linkedin.com/jobs/view/4489986035",
 "portal": "linkedin",
 "fields": null,
-"error": "form not public for this portal"
+"error": "form not public for this portal",
+"li_checked": true
 },
 "a2b9de359c199676": {
 "company": "Ayar Labs",
 "role": "Intern, System Validation 1",
 "link": "https://www.linkedin.com/jobs/view/4489971774",
-"attempted": 1794423038,
+"attempted": 1794444257,
 "apply_url": "https://www.linkedin.com/jobs/view/4489971774",
 "portal": "linkedin",
 "fields": null,
-"error": "form not public for this portal"
+"error": "form not public for this portal",
+"li_checked": true
 },
 "42e5b3833244e236": {
 "company": "GlobalFoundries",
@@ -151410,19 +151424,1316 @@
 "company": "Meta",
 "role": "Research Intern \u2014 Neural Network Training and Hardware\u2013Software Co-Design",
 "link": "https://www.linkedin.com/jobs/view/4488248124",
-"attempted": 1794423038,
+"attempted": 1794444257,
 "apply_url": "https://www.linkedin.com/jobs/view/4488248124",
 "portal": "linkedin",
 "fields": null,
-"error": "form not public for this portal"
+"error": "form not public for this portal",
+"li_checked": true
 },
 "655160bcfb742f41": {
 "company": "NeuroSpark AI",
 "role": "AI Hardware Optimization Engineer Intern",
 "link": "https://www.linkedin.com/jobs/view/4489945366",
-"attempted": 1794423038,
-"apply_url": "https://www.linkedin.com/jobs/view/4489945366",
+"attempted": 0,
+"apply_url": null,
 "portal": "linkedin",
+"fields": null,
+"error": "form not public for this portal",
+"li_checked": true
+},
+"5c42ad38dd49d691": {
+"company": "Lightmatter",
+"role": "Laser Firmware Intern - Summer 2027",
+"link": "https://boards.greenhouse.io/lightmatter/jobs/5479596008?gh_jid=5479596008",
+"attempted": 1794444257,
+"apply_url": "https://boards.greenhouse.io/lightmatter/jobs/5479596008",
+"portal": "greenhouse",
+"fields": [
+{
+"label": "First Name",
+"type": "input_text",
+"required": true,
+"options": []
+},
+{
+"label": "Last Name",
+"type": "input_text",
+"required": true,
+"options": []
+},
+{
+"label": "Email",
+"type": "input_text",
+"required": true,
+"options": []
+},
+{
+"label": "Phone",
+"type": "input_text",
+"required": true,
+"options": []
+},
+{
+"label": "Resume/CV",
+"type": "input_file",
+"required": true,
+"options": []
+},
+{
+"label": "Cover Letter",
+"type": "input_file",
+"required": false,
+"options": []
+},
+{
+"label": "LinkedIn Profile",
+"type": "input_text",
+"required": false,
+"options": []
+},
+{
+"label": "Website",
+"type": "input_text",
+"required": false,
+"options": []
+},
+{
+"label": "Are you currently authorized to work in the United States, on a full time basis without restriction?",
+"type": "multi_value_single_select",
+"required": true,
+"options": [
+"Yes",
+"No"
+]
+},
+{
+"label": "Will you now or in the future require sponsorship for employment visa status?",
+"type": "multi_value_single_select",
+"required": true,
+"options": [
+"Yes",
+"No"
+]
+},
+{
+"label": "This position is open in our Boston office. Are you currently living in, or open to relocating to the Boston area?",
+"type": "multi_value_single_select",
+"required": false,
+"options": [
+"Yes",
+"No"
+]
+},
+{
+"label": "VeteranStatus",
+"type": "multi_value_single_select",
+"required": false,
+"options": [
+"I don't wish to answer",
+"I identify as one or more of the classifications of a protected veteran",
+"I am not a protected veteran"
+],
+"eeo": true
+},
+{
+"label": "Race",
+"type": "multi_value_single_select",
+"required": false,
+"options": [
+"Decline To Self Identify",
+"Two or More Races",
+"Native Hawaiian or Other Pacific Islander",
+"White",
+"Hispanic or Latino",
+"Black or African American",
+"Asian",
+"American Indian or Alaskan Native"
+],
+"eeo": true
+},
+{
+"label": "Gender",
+"type": "multi_value_single_select",
+"required": false,
+"options": [
+"Decline To Self Identify",
+"Female",
+"Male"
+],
+"eeo": true
+},
+{
+"label": "How would you describe your gender identity?",
+"type": "select",
+"required": false,
+"options": [
+"Man",
+"Non-binary",
+"Woman",
+"I prefer to self-describe",
+"I don't wish to answer"
+],
+"eeo": true
+},
+{
+"label": "How would you describe your racial/ethnic background?",
+"type": "select",
+"required": false,
+"options": [
+"Black or of African descent",
+"East Asian",
+"Hispanic, Latinx or of Spanish Origin",
+"Indigenous, American Indian or Alaska Native",
+"Middle Eastern or North African",
+"Native Hawaiian or Pacific Islander",
+"South Asian",
+"Southeast Asian",
+"White or European",
+"I prefer to self-describe",
+"I don't wish to answer"
+],
+"eeo": true
+},
+{
+"label": "How would you describe your sexual orientation?",
+"type": "select",
+"required": false,
+"options": [
+"Asexual",
+"Bisexual and/or pansexual",
+"Gay",
+"Heterosexual",
+"Lesbian",
+"Queer",
+"I prefer to self-describe",
+"I don't wish to answer"
+],
+"eeo": true
+},
+{
+"label": "Do you identify as transgender?",
+"type": "select",
+"required": false,
+"options": [
+"Yes",
+"No",
+"I prefer to self-describe",
+"I don't wish to answer"
+],
+"eeo": true
+},
+{
+"label": "Do you have a disability or chronic condition (physical, visual, auditory, cognitive, mental, emotional, or other) that substantially limits one or more of your major life activities, including mobility, communication (seeing, hearing, speaking), and learning?",
+"type": "select",
+"required": false,
+"options": [
+"Yes",
+"No",
+"I prefer to self-describe",
+"I don't wish to answer"
+],
+"eeo": true
+},
+{
+"label": "Are you a veteran or active member of the United States Armed Forces?",
+"type": "select",
+"required": false,
+"options": [
+"Yes, I am a veteran or active member",
+"No, I am not a veteran or active member",
+"I prefer to self-describe",
+"I don't wish to answer"
+],
+"eeo": true
+}
+],
+"error": "",
+"closed": false,
+"fetched": "2026-11-12T00:44Z"
+},
+"4c9ba24bb93b15e7": {
+"company": "Lightmatter",
+"role": "Package Layout Automation Internship - Summer 2027",
+"link": "https://boards.greenhouse.io/lightmatter/jobs/5473740008?gh_jid=5473740008",
+"attempted": 1794444257,
+"apply_url": "https://boards.greenhouse.io/lightmatter/jobs/5473740008",
+"portal": "greenhouse",
+"fields": [
+{
+"label": "First Name",
+"type": "input_text",
+"required": true,
+"options": []
+},
+{
+"label": "Last Name",
+"type": "input_text",
+"required": true,
+"options": []
+},
+{
+"label": "Email",
+"type": "input_text",
+"required": true,
+"options": []
+},
+{
+"label": "Phone",
+"type": "input_text",
+"required": true,
+"options": []
+},
+{
+"label": "Resume/CV",
+"type": "input_file",
+"required": true,
+"options": []
+},
+{
+"label": "Cover Letter",
+"type": "input_file",
+"required": false,
+"options": []
+},
+{
+"label": "LinkedIn Profile",
+"type": "input_text",
+"required": false,
+"options": []
+},
+{
+"label": "Website",
+"type": "input_text",
+"required": false,
+"options": []
+},
+{
+"label": "Are you available to work at one of our office locations several times per week?",
+"type": "multi_value_single_select",
+"required": true,
+"options": [
+"Yes",
+"No"
+]
+},
+{
+"label": "Are you currently authorized to work in the United States, on a full time basis without restriction?",
+"type": "multi_value_single_select",
+"required": true,
+"options": [
+"Yes",
+"No"
+]
+},
+{
+"label": "VeteranStatus",
+"type": "multi_value_single_select",
+"required": false,
+"options": [
+"I don't wish to answer",
+"I identify as one or more of the classifications of a protected veteran",
+"I am not a protected veteran"
+],
+"eeo": true
+},
+{
+"label": "Race",
+"type": "multi_value_single_select",
+"required": false,
+"options": [
+"Decline To Self Identify",
+"Two or More Races",
+"Native Hawaiian or Other Pacific Islander",
+"White",
+"Hispanic or Latino",
+"Black or African American",
+"Asian",
+"American Indian or Alaskan Native"
+],
+"eeo": true
+},
+{
+"label": "Gender",
+"type": "multi_value_single_select",
+"required": false,
+"options": [
+"Decline To Self Identify",
+"Female",
+"Male"
+],
+"eeo": true
+},
+{
+"label": "How would you describe your gender identity?",
+"type": "select",
+"required": false,
+"options": [
+"Man",
+"Non-binary",
+"Woman",
+"I prefer to self-describe",
+"I don't wish to answer"
+],
+"eeo": true
+},
+{
+"label": "How would you describe your racial/ethnic background?",
+"type": "select",
+"required": false,
+"options": [
+"Black or of African descent",
+"East Asian",
+"Hispanic, Latinx or of Spanish Origin",
+"Indigenous, American Indian or Alaska Native",
+"Middle Eastern or North African",
+"Native Hawaiian or Pacific Islander",
+"South Asian",
+"Southeast Asian",
+"White or European",
+"I prefer to self-describe",
+"I don't wish to answer"
+],
+"eeo": true
+},
+{
+"label": "How would you describe your sexual orientation?",
+"type": "select",
+"required": false,
+"options": [
+"Asexual",
+"Bisexual and/or pansexual",
+"Gay",
+"Heterosexual",
+"Lesbian",
+"Queer",
+"I prefer to self-describe",
+"I don't wish to answer"
+],
+"eeo": true
+},
+{
+"label": "Do you identify as transgender?",
+"type": "select",
+"required": false,
+"options": [
+"Yes",
+"No",
+"I prefer to self-describe",
+"I don't wish to answer"
+],
+"eeo": true
+},
+{
+"label": "Do you have a disability or chronic condition (physical, visual, auditory, cognitive, mental, emotional, or other) that substantially limits one or more of your major life activities, including mobility, communication (seeing, hearing, speaking), and learning?",
+"type": "select",
+"required": false,
+"options": [
+"Yes",
+"No",
+"I prefer to self-describe",
+"I don't wish to answer"
+],
+"eeo": true
+},
+{
+"label": "Are you a veteran or active member of the United States Armed Forces?",
+"type": "select",
+"required": false,
+"options": [
+"Yes, I am a veteran or active member",
+"No, I am not a veteran or active member",
+"I prefer to self-describe",
+"I don't wish to answer"
+],
+"eeo": true
+}
+],
+"error": "",
+"closed": false,
+"fetched": "2026-11-12T00:44Z"
+},
+"7c68c6ec3118370e": {
+"company": "Lightmatter",
+"role": "Photonics Layout Intern - Summer 2027",
+"link": "https://boards.greenhouse.io/lightmatter/jobs/5479611008?gh_jid=5479611008",
+"attempted": 1794444257,
+"apply_url": "https://boards.greenhouse.io/lightmatter/jobs/5479611008",
+"portal": "greenhouse",
+"fields": [
+{
+"label": "First Name",
+"type": "input_text",
+"required": true,
+"options": []
+},
+{
+"label": "Last Name",
+"type": "input_text",
+"required": true,
+"options": []
+},
+{
+"label": "Email",
+"type": "input_text",
+"required": true,
+"options": []
+},
+{
+"label": "Phone",
+"type": "input_text",
+"required": true,
+"options": []
+},
+{
+"label": "Resume/CV",
+"type": "input_file",
+"required": true,
+"options": []
+},
+{
+"label": "Cover Letter",
+"type": "input_file",
+"required": false,
+"options": []
+},
+{
+"label": "LinkedIn Profile",
+"type": "input_text",
+"required": false,
+"options": []
+},
+{
+"label": "Website",
+"type": "input_text",
+"required": false,
+"options": []
+},
+{
+"label": "Are you currently authorized to work in the United States, on a full time basis without restriction?",
+"type": "multi_value_single_select",
+"required": true,
+"options": [
+"Yes",
+"No"
+]
+},
+{
+"label": "Will you now or in the future require sponsorship for employment visa status?",
+"type": "multi_value_single_select",
+"required": true,
+"options": [
+"Yes",
+"No"
+]
+},
+{
+"label": "This position is open in our Boston office. Are you currently living in, or open to relocating to the Boston area?",
+"type": "multi_value_single_select",
+"required": false,
+"options": [
+"Yes",
+"No"
+]
+},
+{
+"label": "VeteranStatus",
+"type": "multi_value_single_select",
+"required": false,
+"options": [
+"I don't wish to answer",
+"I identify as one or more of the classifications of a protected veteran",
+"I am not a protected veteran"
+],
+"eeo": true
+},
+{
+"label": "Race",
+"type": "multi_value_single_select",
+"required": false,
+"options": [
+"Decline To Self Identify",
+"Two or More Races",
+"Native Hawaiian or Other Pacific Islander",
+"White",
+"Hispanic or Latino",
+"Black or African American",
+"Asian",
+"American Indian or Alaskan Native"
+],
+"eeo": true
+},
+{
+"label": "Gender",
+"type": "multi_value_single_select",
+"required": false,
+"options": [
+"Decline To Self Identify",
+"Female",
+"Male"
+],
+"eeo": true
+},
+{
+"label": "How would you describe your gender identity?",
+"type": "select",
+"required": false,
+"options": [
+"Man",
+"Non-binary",
+"Woman",
+"I prefer to self-describe",
+"I don't wish to answer"
+],
+"eeo": true
+},
+{
+"label": "How would you describe your racial/ethnic background?",
+"type": "select",
+"required": false,
+"options": [
+"Black or of African descent",
+"East Asian",
+"Hispanic, Latinx or of Spanish Origin",
+"Indigenous, American Indian or Alaska Native",
+"Middle Eastern or North African",
+"Native Hawaiian or Pacific Islander",
+"South Asian",
+"Southeast Asian",
+"White or European",
+"I prefer to self-describe",
+"I don't wish to answer"
+],
+"eeo": true
+},
+{
+"label": "How would you describe your sexual orientation?",
+"type": "select",
+"required": false,
+"options": [
+"Asexual",
+"Bisexual and/or pansexual",
+"Gay",
+"Heterosexual",
+"Lesbian",
+"Queer",
+"I prefer to self-describe",
+"I don't wish to answer"
+],
+"eeo": true
+},
+{
+"label": "Do you identify as transgender?",
+"type": "select",
+"required": false,
+"options": [
+"Yes",
+"No",
+"I prefer to self-describe",
+"I don't wish to answer"
+],
+"eeo": true
+},
+{
+"label": "Do you have a disability or chronic condition (physical, visual, auditory, cognitive, mental, emotional, or other) that substantially limits one or more of your major life activities, including mobility, communication (seeing, hearing, speaking), and learning?",
+"type": "select",
+"required": false,
+"options": [
+"Yes",
+"No",
+"I prefer to self-describe",
+"I don't wish to answer"
+],
+"eeo": true
+},
+{
+"label": "Are you a veteran or active member of the United States Armed Forces?",
+"type": "select",
+"required": false,
+"options": [
+"Yes, I am a veteran or active member",
+"No, I am not a veteran or active member",
+"I prefer to self-describe",
+"I don't wish to answer"
+],
+"eeo": true
+}
+],
+"error": "",
+"closed": false,
+"fetched": "2026-11-12T00:44Z"
+},
+"c31009bd2bf313b0": {
+"company": "Northrop Grumman",
+"role": "2027 Electrical Engineering Intern - Sunnyvale CA",
+"link": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-California-Sunnyvale/XMLNAME-2027-Electrical-Engineering-Intern---Sunnyvale-CA_R10260307",
+"attempted": 1794444257,
+"apply_url": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-California-Sunnyvale/XMLNAME-2027-Electrical-Engineering-Intern---Sunnyvale-CA_R10260307",
+"portal": "workday",
+"fields": null,
+"error": "form not public for this portal"
+},
+"3a16adcb1cf0c36b": {
+"company": "Northrop Grumman",
+"role": "2027 Spring Electrical Engineer Co-op Intern - Cincinnati OH",
+"link": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Ohio-Cincinnati/XMLNAME-2027-Spring-Electrical-Engineer-Co-op-Intern---Cincinnati-OH_R10260245-1",
+"attempted": 1794444257,
+"apply_url": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Ohio-Cincinnati/XMLNAME-2027-Spring-Electrical-Engineer-Co-op-Intern---Cincinnati-OH_R10260245-1",
+"portal": "workday",
+"fields": null,
+"error": "form not public for this portal"
+},
+"9813c3b77297106f": {
+"company": "RTX",
+"role": "Electrical (FCS Hardware) Engineering Intern (Summer 2027)(Onsite)",
+"link": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-IA-CEDAR-RAPIDS-193--1120-Collins-Rd-NE--BLDG193/Electrical--FCS-Hardware--Engineering-Intern--Summer-2027--Onsite-_01888815",
+"attempted": 1794444257,
+"apply_url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-IA-CEDAR-RAPIDS-193--1120-Collins-Rd-NE--BLDG193/Electrical--FCS-Hardware--Engineering-Intern--Summer-2027--Onsite-_01888815",
+"portal": "workday",
+"fields": null,
+"error": "form not public for this portal"
+},
+"52bd65a3a7f73a24": {
+"company": "RTX",
+"role": "Electrical (Firmware) Engineering Intern (Summer 2027)(Onsite)",
+"link": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-IN-FT-WAYNE-150A--1010-Production-Rd--BLDG-150A/Electrical--Firmware--Engineering-Intern--Summer-2027--Onsite-_01888316",
+"attempted": 1794444257,
+"apply_url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-IN-FT-WAYNE-150A--1010-Production-Rd--BLDG-150A/Electrical--Firmware--Engineering-Intern--Summer-2027--Onsite-_01888316",
+"portal": "workday",
+"fields": null,
+"error": "form not public for this portal"
+},
+"b725d899c6dca786": {
+"company": "RTX",
+"role": "Receiver, Exciter & Processing Architecture Electrical Engineer Intern (Summer 2027) - Onsite",
+"link": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-MA-TEWKSBURY-TB1--50-Apple-Hill-Dr--ASSABET-BLDG/Receiver--Exciter---Processing-Architecture-Electrical-Engineer-Intern--Summer-2027----Onsite_01889033",
+"attempted": 1794444257,
+"apply_url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-MA-TEWKSBURY-TB1--50-Apple-Hill-Dr--ASSABET-BLDG/Receiver--Exciter---Processing-Architecture-Electrical-Engineer-Intern--Summer-2027----Onsite_01889033",
+"portal": "workday",
+"fields": null,
+"error": "form not public for this portal"
+},
+"d100b7852a3618d6": {
+"company": "RTX",
+"role": "Stage - Hiver 2027 - Genie de la fabrication / Internship - Winter 2027 - Manufacturing engineering,",
+"link": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/CA-QC-LONGUEUIL-J01--1000-Blvd-Marie-Victorin--J01-BLDG/Stage---Hiver-2027---Genie-de-la-fabrication---Internship---Winter-2027---Manufacturing-engineering-_01871322",
+"attempted": 1794444257,
+"apply_url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/CA-QC-LONGUEUIL-J01--1000-Blvd-Marie-Victorin--J01-BLDG/Stage---Hiver-2027---Genie-de-la-fabrication---Internship---Winter-2027---Manufacturing-engineering-_01871322",
+"portal": "workday",
+"fields": null,
+"error": "form not public for this portal"
+},
+"93d9fd14b804e286": {
+"company": "Lightmatter",
+"role": "Packaging Mechanical Design Internship - Summer 2027",
+"link": "https://boards.greenhouse.io/lightmatter/jobs/5479684008?gh_jid=5479684008",
+"attempted": 1794444257,
+"apply_url": "https://boards.greenhouse.io/lightmatter/jobs/5479684008",
+"portal": "greenhouse",
+"fields": [
+{
+"label": "First Name",
+"type": "input_text",
+"required": true,
+"options": []
+},
+{
+"label": "Last Name",
+"type": "input_text",
+"required": true,
+"options": []
+},
+{
+"label": "Email",
+"type": "input_text",
+"required": true,
+"options": []
+},
+{
+"label": "Phone",
+"type": "input_text",
+"required": true,
+"options": []
+},
+{
+"label": "Resume/CV",
+"type": "input_file",
+"required": true,
+"options": []
+},
+{
+"label": "Cover Letter",
+"type": "input_file",
+"required": false,
+"options": []
+},
+{
+"label": "LinkedIn Profile",
+"type": "input_text",
+"required": false,
+"options": []
+},
+{
+"label": "Website",
+"type": "input_text",
+"required": false,
+"options": []
+},
+{
+"label": "Are you available to work at one of our office locations several times per week?",
+"type": "multi_value_single_select",
+"required": true,
+"options": [
+"Yes",
+"No"
+]
+},
+{
+"label": "VeteranStatus",
+"type": "multi_value_single_select",
+"required": false,
+"options": [
+"I don't wish to answer",
+"I identify as one or more of the classifications of a protected veteran",
+"I am not a protected veteran"
+],
+"eeo": true
+},
+{
+"label": "Race",
+"type": "multi_value_single_select",
+"required": false,
+"options": [
+"Decline To Self Identify",
+"Two or More Races",
+"Native Hawaiian or Other Pacific Islander",
+"White",
+"Hispanic or Latino",
+"Black or African American",
+"Asian",
+"American Indian or Alaskan Native"
+],
+"eeo": true
+},
+{
+"label": "Gender",
+"type": "multi_value_single_select",
+"required": false,
+"options": [
+"Decline To Self Identify",
+"Female",
+"Male"
+],
+"eeo": true
+},
+{
+"label": "How would you describe your gender identity?",
+"type": "select",
+"required": false,
+"options": [
+"Man",
+"Non-binary",
+"Woman",
+"I prefer to self-describe",
+"I don't wish to answer"
+],
+"eeo": true
+},
+{
+"label": "How would you describe your racial/ethnic background?",
+"type": "select",
+"required": false,
+"options": [
+"Black or of African descent",
+"East Asian",
+"Hispanic, Latinx or of Spanish Origin",
+"Indigenous, American Indian or Alaska Native",
+"Middle Eastern or North African",
+"Native Hawaiian or Pacific Islander",
+"South Asian",
+"Southeast Asian",
+"White or European",
+"I prefer to self-describe",
+"I don't wish to answer"
+],
+"eeo": true
+},
+{
+"label": "How would you describe your sexual orientation?",
+"type": "select",
+"required": false,
+"options": [
+"Asexual",
+"Bisexual and/or pansexual",
+"Gay",
+"Heterosexual",
+"Lesbian",
+"Queer",
+"I prefer to self-describe",
+"I don't wish to answer"
+],
+"eeo": true
+},
+{
+"label": "Do you identify as transgender?",
+"type": "select",
+"required": false,
+"options": [
+"Yes",
+"No",
+"I prefer to self-describe",
+"I don't wish to answer"
+],
+"eeo": true
+},
+{
+"label": "Do you have a disability or chronic condition (physical, visual, auditory, cognitive, mental, emotional, or other) that substantially limits one or more of your major life activities, including mobility, communication (seeing, hearing, speaking), and learning?",
+"type": "select",
+"required": false,
+"options": [
+"Yes",
+"No",
+"I prefer to self-describe",
+"I don't wish to answer"
+],
+"eeo": true
+},
+{
+"label": "Are you a veteran or active member of the United States Armed Forces?",
+"type": "select",
+"required": false,
+"options": [
+"Yes, I am a veteran or active member",
+"No, I am not a veteran or active member",
+"I prefer to self-describe",
+"I don't wish to answer"
+],
+"eeo": true
+}
+],
+"error": "",
+"closed": false,
+"fetched": "2026-11-12T00:44Z"
+},
+"50bc4eabef962168": {
+"company": "Lightmatter",
+"role": "Packaging Thermal and Mechanical Analysis Internship - Summer 2027",
+"link": "https://boards.greenhouse.io/lightmatter/jobs/5473871008?gh_jid=5473871008",
+"attempted": 1794444257,
+"apply_url": "https://boards.greenhouse.io/lightmatter/jobs/5473871008",
+"portal": "greenhouse",
+"fields": [
+{
+"label": "First Name",
+"type": "input_text",
+"required": true,
+"options": []
+},
+{
+"label": "Last Name",
+"type": "input_text",
+"required": true,
+"options": []
+},
+{
+"label": "Email",
+"type": "input_text",
+"required": true,
+"options": []
+},
+{
+"label": "Phone",
+"type": "input_text",
+"required": true,
+"options": []
+},
+{
+"label": "Resume/CV",
+"type": "input_file",
+"required": true,
+"options": []
+},
+{
+"label": "Cover Letter",
+"type": "input_file",
+"required": false,
+"options": []
+},
+{
+"label": "LinkedIn Profile",
+"type": "input_text",
+"required": false,
+"options": []
+},
+{
+"label": "Website",
+"type": "input_text",
+"required": false,
+"options": []
+},
+{
+"label": "Are you available to work at one of our office locations several times per week?",
+"type": "multi_value_single_select",
+"required": true,
+"options": [
+"Yes",
+"No"
+]
+},
+{
+"label": "Are you currently authorized to work in the United States, on a full time basis without restriction?",
+"type": "multi_value_single_select",
+"required": true,
+"options": [
+"Yes",
+"No"
+]
+},
+{
+"label": "VeteranStatus",
+"type": "multi_value_single_select",
+"required": false,
+"options": [
+"I don't wish to answer",
+"I identify as one or more of the classifications of a protected veteran",
+"I am not a protected veteran"
+],
+"eeo": true
+},
+{
+"label": "Race",
+"type": "multi_value_single_select",
+"required": false,
+"options": [
+"Decline To Self Identify",
+"Two or More Races",
+"Native Hawaiian or Other Pacific Islander",
+"White",
+"Hispanic or Latino",
+"Black or African American",
+"Asian",
+"American Indian or Alaskan Native"
+],
+"eeo": true
+},
+{
+"label": "Gender",
+"type": "multi_value_single_select",
+"required": false,
+"options": [
+"Decline To Self Identify",
+"Female",
+"Male"
+],
+"eeo": true
+},
+{
+"label": "How would you describe your gender identity?",
+"type": "select",
+"required": false,
+"options": [
+"Man",
+"Non-binary",
+"Woman",
+"I prefer to self-describe",
+"I don't wish to answer"
+],
+"eeo": true
+},
+{
+"label": "How would you describe your racial/ethnic background?",
+"type": "select",
+"required": false,
+"options": [
+"Black or of African descent",
+"East Asian",
+"Hispanic, Latinx or of Spanish Origin",
+"Indigenous, American Indian or Alaska Native",
+"Middle Eastern or North African",
+"Native Hawaiian or Pacific Islander",
+"South Asian",
+"Southeast Asian",
+"White or European",
+"I prefer to self-describe",
+"I don't wish to answer"
+],
+"eeo": true
+},
+{
+"label": "How would you describe your sexual orientation?",
+"type": "select",
+"required": false,
+"options": [
+"Asexual",
+"Bisexual and/or pansexual",
+"Gay",
+"Heterosexual",
+"Lesbian",
+"Queer",
+"I prefer to self-describe",
+"I don't wish to answer"
+],
+"eeo": true
+},
+{
+"label": "Do you identify as transgender?",
+"type": "select",
+"required": false,
+"options": [
+"Yes",
+"No",
+"I prefer to self-describe",
+"I don't wish to answer"
+],
+"eeo": true
+},
+{
+"label": "Do you have a disability or chronic condition (physical, visual, auditory, cognitive, mental, emotional, or other) that substantially limits one or more of your major life activities, including mobility, communication (seeing, hearing, speaking), and learning?",
+"type": "select",
+"required": false,
+"options": [
+"Yes",
+"No",
+"I prefer to self-describe",
+"I don't wish to answer"
+],
+"eeo": true
+},
+{
+"label": "Are you a veteran or active member of the United States Armed Forces?",
+"type": "select",
+"required": false,
+"options": [
+"Yes, I am a veteran or active member",
+"No, I am not a veteran or active member",
+"I prefer to self-describe",
+"I don't wish to answer"
+],
+"eeo": true
+}
+],
+"error": "",
+"closed": false,
+"fetched": "2026-11-12T00:44Z"
+},
+"71b8088014ceeb2c": {
+"company": "Lightmatter",
+"role": "Supply Chain Internship - Summer 2027",
+"link": "https://boards.greenhouse.io/lightmatter/jobs/5475089008?gh_jid=5475089008",
+"attempted": 1794444257,
+"apply_url": "https://boards.greenhouse.io/lightmatter/jobs/5475089008",
+"portal": "greenhouse",
+"fields": [
+{
+"label": "First Name",
+"type": "input_text",
+"required": true,
+"options": []
+},
+{
+"label": "Last Name",
+"type": "input_text",
+"required": true,
+"options": []
+},
+{
+"label": "Email",
+"type": "input_text",
+"required": true,
+"options": []
+},
+{
+"label": "Phone",
+"type": "input_text",
+"required": true,
+"options": []
+},
+{
+"label": "Resume/CV",
+"type": "input_file",
+"required": true,
+"options": []
+},
+{
+"label": "Cover Letter",
+"type": "input_file",
+"required": false,
+"options": []
+},
+{
+"label": "LinkedIn Profile",
+"type": "input_text",
+"required": false,
+"options": []
+},
+{
+"label": "Website",
+"type": "input_text",
+"required": false,
+"options": []
+},
+{
+"label": "Are you available to work at one of our office locations several times per week?",
+"type": "multi_value_single_select",
+"required": true,
+"options": [
+"Yes",
+"No"
+]
+},
+{
+"label": "Are you currently authorized to work in the United States, on a full time basis without restriction?",
+"type": "multi_value_single_select",
+"required": true,
+"options": [
+"Yes",
+"No"
+]
+},
+{
+"label": "VeteranStatus",
+"type": "multi_value_single_select",
+"required": false,
+"options": [
+"I don't wish to answer",
+"I identify as one or more of the classifications of a protected veteran",
+"I am not a protected veteran"
+],
+"eeo": true
+},
+{
+"label": "Race",
+"type": "multi_value_single_select",
+"required": false,
+"options": [
+"Decline To Self Identify",
+"Two or More Races",
+"Native Hawaiian or Other Pacific Islander",
+"White",
+"Hispanic or Latino",
+"Black or African American",
+"Asian",
+"American Indian or Alaskan Native"
+],
+"eeo": true
+},
+{
+"label": "Gender",
+"type": "multi_value_single_select",
+"required": false,
+"options": [
+"Decline To Self Identify",
+"Female",
+"Male"
+],
+"eeo": true
+},
+{
+"label": "How would you describe your gender identity?",
+"type": "select",
+"required": false,
+"options": [
+"Man",
+"Non-binary",
+"Woman",
+"I prefer to self-describe",
+"I don't wish to answer"
+],
+"eeo": true
+},
+{
+"label": "How would you describe your racial/ethnic background?",
+"type": "select",
+"required": false,
+"options": [
+"Black or of African descent",
+"East Asian",
+"Hispanic, Latinx or of Spanish Origin",
+"Indigenous, American Indian or Alaska Native",
+"Middle Eastern or North African",
+"Native Hawaiian or Pacific Islander",
+"South Asian",
+"Southeast Asian",
+"White or European",
+"I prefer to self-describe",
+"I don't wish to answer"
+],
+"eeo": true
+},
+{
+"label": "How would you describe your sexual orientation?",
+"type": "select",
+"required": false,
+"options": [
+"Asexual",
+"Bisexual and/or pansexual",
+"Gay",
+"Heterosexual",
+"Lesbian",
+"Queer",
+"I prefer to self-describe",
+"I don't wish to answer"
+],
+"eeo": true
+},
+{
+"label": "Do you identify as transgender?",
+"type": "select",
+"required": false,
+"options": [
+"Yes",
+"No",
+"I prefer to self-describe",
+"I don't wish to answer"
+],
+"eeo": true
+},
+{
+"label": "Do you have a disability or chronic condition (physical, visual, auditory, cognitive, mental, emotional, or other) that substantially limits one or more of your major life activities, including mobility, communication (seeing, hearing, speaking), and learning?",
+"type": "select",
+"required": false,
+"options": [
+"Yes",
+"No",
+"I prefer to self-describe",
+"I don't wish to answer"
+],
+"eeo": true
+},
+{
+"label": "Are you a veteran or active member of the United States Armed Forces?",
+"type": "select",
+"required": false,
+"options": [
+"Yes, I am a veteran or active member",
+"No, I am not a veteran or active member",
+"I prefer to self-describe",
+"I don't wish to answer"
+],
+"eeo": true
+}
+],
+"error": "",
+"closed": false,
+"fetched": "2026-11-12T00:44Z"
+},
+"cf355d6e2788d942": {
+"company": "Emerson",
+"role": "RF Engineering Co-op (Jul - Dec 2027)",
+"link": "https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26013238",
+"attempted": 1794444257,
+"apply_url": "https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26013238",
+"portal": "oracle",
+"fields": null,
+"error": "form not public for this portal"
+},
+"f0b719a26d84b6e9": {
+"company": "KLA",
+"role": "Electrical Engineering Intern",
+"link": "https://kla.wd1.myworkdayjobs.com/Search/job/Ann-Arbor-MI/Electrical-Engineering-Intern_2642897-2",
+"attempted": 1794444257,
+"apply_url": "https://kla.wd1.myworkdayjobs.com/Search/job/Ann-Arbor-MI/Electrical-Engineering-Intern_2642897-2",
+"portal": "workday",
 "fields": null,
 "error": "form not public for this portal"
 }
