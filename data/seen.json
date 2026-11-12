@@ -635,8 +635,8 @@
 },
 "https://www.indeed.com/viewjob": {
 "first_seen": "2026-09-18",
-"title": "Electrical Engineering Co-Op",
-"company": "Samsara",
+"title": "Intern/Co-op: Electrical Engineering Technology, Cranberry (Summer 2027)",
+"company": "MSA Safety",
 "desc": ""
 },
 "https://www.linkedin.com/jobs/view/4468697840": {
@@ -12531,7 +12531,7 @@
 },
 "https://simplify.jobs/jobs/click/7a51f5d5-0895-48b9-ac48-7dc9b31fb561": {
 "first_seen": "2026-10-07",
-"title": "Powertrain Test Engineer Intern/Co-op",
+"title": "Powertrain Test Engineer Intern Co-op",
 "company": "Rivian",
 "desc": ""
 },
@@ -23303,6 +23303,78 @@
 "first_seen": "2026-11-12",
 "title": "Electrical Engineering Intern - Test Solutions",
 "company": "Raytheon",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/ebb5ad0d-192f-487b-b2cf-edbf10600f42": {
+"first_seen": "2026-11-12",
+"title": "Electrical/Mechatronics Co-op Intern",
+"company": "Plansee Group",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/d5dd8ba8-db2a-4f20-81b6-6790d8eb9216": {
+"first_seen": "2026-11-12",
+"title": "Verification and Validation Systems Engineer Co-op",
+"company": "Fresenius Medical Care",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4490097147": {
+"first_seen": "2026-11-12",
+"title": "Electrical (Firmware) Engineering Intern (Summer 2027)(Onsite)",
+"company": "Collins Aerospace",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4490096194": {
+"first_seen": "2026-11-12",
+"title": "Receiver, Exciter & Processing Architecture Electrical Engineer Intern (Summer 2027) - Onsite",
+"company": "Raytheon",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4490090792": {
+"first_seen": "2026-11-12",
+"title": "Large-Scale Integrated Photonics Lab Research Associate Intern",
+"company": "Hewlett Packard Enterprise",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4464936081": {
+"first_seen": "2026-11-12",
+"title": "Electrical Design Engineering Intern",
+"company": "CNH",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4490094584": {
+"first_seen": "2026-11-12",
+"title": "Large-Scale Integrated Photonics Lab Research Associate Intern",
+"company": "Hewlett Packard Enterprise",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4488618405": {
+"first_seen": "2026-11-12",
+"title": "Electrical Engineering Co-Op",
+"company": "Samsara",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4490315771": {
+"first_seen": "2026-11-12",
+"title": "Spring 2027: Product Performance Test Engineer Co-op (January through June)",
+"company": "SharkNinja",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4490098235": {
+"first_seen": "2026-11-12",
+"title": "Large-Scale Integrated Photonics Lab Research Associate Intern",
+"company": "Hewlett Packard Enterprise",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4490087066": {
+"first_seen": "2026-11-12",
+"title": "Photonic Hardware Test Internship",
+"company": "OpenLight",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4490303152": {
+"first_seen": "2026-11-12",
+"title": "2027 Optics/Photonic Engineering Intern - Apopka FL",
+"company": "Northrop Grumman",
 "desc": ""
 }
 }
