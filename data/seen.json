@@ -14835,7 +14835,7 @@
 },
 "https://ursamajor.com/careers": {
 "first_seen": "2026-10-19",
-"title": "2027 Summer Business Process & ERP Documentation Intern ",
+"title": "2027 Summer Ballistics Analyst Intern",
 "company": "Ursa Major",
 "desc": ""
 },
@@ -23813,6 +23813,66 @@
 "first_seen": "2026-11-13",
 "title": "Ph.D. Intern - Advanced Packaging & Physical Integration",
 "company": "Marvell Technology",
+"desc": ""
+},
+"https://boards.greenhouse.io/lightmatter/jobs/5473869008": {
+"first_seen": "2026-11-13",
+"title": "Hardware Test Engineering, Intern (Summer 2027)",
+"company": "Lightmatter",
+"desc": ""
+},
+"https://intel.wd1.myworkdayjobs.com/External/job/Costa-Rica-San-Jose/Power-Integrity-Intern-Worker-Engineer_JR0289171": {
+"first_seen": "2026-11-13",
+"title": "Power Integrity Intern Worker Engineer",
+"company": "Intel",
+"desc": "  Job Details:       Job Description:\u00a0  \u00a0As a Physical Design Engineering Undergraduate Intern, you will actively contribute to the physical implementation of silicon and platform designs to ensure readiness for manufacturing. This role will provide hands-on experience in design flows, power integrity analysis, and validation activities for high-speed interconnect architecture. You will gain valuable skills, apply theoretical knowledge to practical projects, and explore future career opportunities while collaborating with a team of innovative engineers.  \u00a0  The Silicon and Platform Engineering Group (SPE) drives innovation in silicon and platform design, ensuring the physical designs meet manufacturing and performance standards. The team focuses on delivering scalable, efficient solutions that align with Intel's broader goals of advancing technology and enabling cutting-edge products. Joining this group offers a collaborative environment committed to excellence in engineering and design.  \u00a0   The primary responsibilities for this role will include, but are not limited to:   \u00a0   Assist in the physical implementation of package and platform designs, contributing to power integrity and high-speed interconnect validation.  Collaborate with cross-functional teams to support design scalability, automation, and manufacturability.  Engage in verification and signoff processes to ensure compliance with performance and manufacturing standards.  Apply theoretical knowledge to practical "
+},
+"https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/CH---Adliswil/Silicon-Photonic-Design-Intern_2605294": {
+"first_seen": "2026-11-13",
+"title": "Silicon Photonic Design Intern",
+"company": "Marvell",
+"desc": "  About Marvell   Marvell\u2019s semiconductor solutions are the essential building blocks of the data infrastructure that connects our world. Across enterprise, cloud and AI, and carrier architectures, our innovative technology is enabling new possibilities.\u00a0    At Marvell, you can affect the arc of individual lives, lift the trajectory of entire industries, and fuel the transformative potential of tomorrow. For those looking to make their mark on purposeful and enduring innovation, above and beyond fleeting trends, Marvell is a place to thrive, learn, and lead.\u00a0     Your Team, Your Impact  Your team develops silicon photonics-based optical engines and components at the heart of next-generation AI and Data Center infrastructure, directly shaping how AI systems connect and scale.  Join a group of curious, highly motivated engineers embedded in a culture that is flexible, open, highly international and diverse, and genuinely people-centered. Zurich consistently ranks among the world's top cities for quality of living for expatriates and is Europe's leading tech hub, a city that seamlessly blends multicultural innovation with stunning natural surroundings.  As an intern, you will work on real projects with mentoring from experienced engineers. You will see how photonic devices go from concept to design, layout, and tape-out.    What You Can Expect   Depending on your interests and the team's needs, you will:   Support the simulation and design of passive and active photonic integrat"
+},
+"https://bostondynamics.wd1.myworkdayjobs.com/Boston_Dynamics/job/Waltham-Office-POST/Advanced-Manufacturing-Engineering-Co-Op_R3380": {
+"first_seen": "2026-11-13",
+"title": "Advanced Manufacturing Engineering Co-Op",
+"company": "Boston Dynamics",
+"desc": ""
+},
+"https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/25019495": {
+"first_seen": "2026-11-13",
+"title": "Analog Design Eng Intern - Power",
+"company": "Texas Instruments",
+"desc": ""
+},
+"https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/25016352": {
+"first_seen": "2026-11-13",
+"title": "Analog Design Eng Intern - High-Speed/RF",
+"company": "Texas Instruments",
+"desc": ""
+},
+"https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/25016349": {
+"first_seen": "2026-11-13",
+"title": "Analog Design Eng Intern - High-speed/RF/mm-wave",
+"company": "Texas Instruments",
+"desc": ""
+},
+"https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/25016015": {
+"first_seen": "2026-11-13",
+"title": "Product Engineering Failure Analysis Intern",
+"company": "Texas Instruments",
+"desc": ""
+},
+"https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/25016345": {
+"first_seen": "2026-11-13",
+"title": "Analog Design Eng Intern (GaN Device)",
+"company": "Texas Instruments",
+"desc": ""
+},
+"https://jobs.smartrecruiters.com/renesaselectronics/744000161574999": {
+"first_seen": "2026-11-13",
+"title": "PMIC Analog Intern",
+"company": "Renesas",
 "desc": ""
 }
 }
