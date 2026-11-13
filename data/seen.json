@@ -635,8 +635,8 @@
 },
 "https://www.indeed.com/viewjob": {
 "first_seen": "2026-09-18",
-"title": "RF Filter Design / BAW development Co-Op (Winter/Spring 2027)",
-"company": "Skyworks Solutions",
+"title": "2027 June Co-op - Hardware Test - #6426",
+"company": "Shield",
 "desc": ""
 },
 "https://www.linkedin.com/jobs/view/4468697840": {
@@ -20079,7 +20079,7 @@
 },
 "https://jobs.ashbyhq.com/skydio/89bb6fee-3cd2-4e0b-a1c2-c73de8c1f9bd": {
 "first_seen": "2026-11-05",
-"title": "Frontend Software Engineer Intern - Summer 2027",
+"title": "Frontend Software Engineer Intern",
 "company": "Skydio",
 "desc": ""
 },
@@ -23609,6 +23609,72 @@
 "first_seen": "2026-11-12",
 "title": "Electrical Engineering Intern, Summer 2027",
 "company": "Danfoss",
+"desc": ""
+},
+"https://boards.greenhouse.io/lightmatter/jobs/5474812008": {
+"first_seen": "2026-11-13",
+"title": " Quality & Reliability, Intern Summer 2027",
+"company": "Lightmatter",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/f93f3f37-6a1d-4feb-a475-14cee8500344": {
+"first_seen": "2026-11-13",
+"title": "Electronics & Aerospace Co-op",
+"company": "Momentive",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/4c145819-bb1c-4c66-835e-7b64fa52594a": {
+"first_seen": "2026-11-13",
+"title": "Product Test Engineering Co-op",
+"company": "SharkNinja",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4490589038": {
+"first_seen": "2026-11-13",
+"title": "Digital Hardware Design Engineer Co-op (Winter/Spring)(Onsite)",
+"company": "Collins Aerospace",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4489522938": {
+"first_seen": "2026-11-13",
+"title": "Electrical Engineering Co-op- Summer 2027",
+"company": "ABB",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4490573528": {
+"first_seen": "2026-11-13",
+"title": "Digital Hardware Design Engineer Co-op (Summer/Fall 2027)(Onsite)",
+"company": "Collins Aerospace",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4488566268": {
+"first_seen": "2026-11-13",
+"title": "Electrical Engineer (Digital Hardware) Intern",
+"company": "Lockheed Martin",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4488565166": {
+"first_seen": "2026-11-13",
+"title": "Electronics Engineering Intern",
+"company": "Lockheed Martin",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4489522333": {
+"first_seen": "2026-11-13",
+"title": "Quality & Reliability, Intern Summer 2027",
+"company": "Lightmatter",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4463078517": {
+"first_seen": "2026-11-13",
+"title": "Electrical Engineer Intern (Summer 2027)",
+"company": "Saronic Technologies",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4490578061": {
+"first_seen": "2026-11-13",
+"title": "Power Electronics Engineer Intern",
+"company": "ChargePoint",
 "desc": ""
 }
 }
