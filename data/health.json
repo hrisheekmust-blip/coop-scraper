@@ -32,7 +32,7 @@
   "zero_runs": 0,
   "fail_runs": 0,
   "err": "",
-  "last_n": 2597
+  "last_n": 2598
  },
  "Hudson River Trading": {
   "best": 90,
@@ -74,7 +74,7 @@
   "zero_runs": 0,
   "fail_runs": 0,
   "err": "",
-  "last_n": 341
+  "last_n": 343
  },
  "Relativity Space": {
   "best": 413,
@@ -109,7 +109,7 @@
   "zero_runs": 0,
   "fail_runs": 0,
   "err": "",
-  "last_n": 374
+  "last_n": 373
  },
  "Nuro": {
   "best": 110,
@@ -130,7 +130,7 @@
   "zero_runs": 0,
   "fail_runs": 0,
   "err": "",
-  "last_n": 39
+  "last_n": 38
  },
  "Astranis": {
   "best": 189,
@@ -263,7 +263,7 @@
   "zero_runs": 0,
   "fail_runs": 0,
   "err": "",
-  "last_n": 668
+  "last_n": 670
  },
  "May Mobility": {
   "best": 47,
@@ -309,7 +309,7 @@
  },
  "Shield AI": {
   "best": 677,
-  "zero_runs": 3,
+  "zero_runs": 4,
   "fail_runs": 0,
   "err": "",
   "last_n": 0
@@ -492,43 +492,43 @@
  "NVIDIA": {
   "best": 139,
   "zero_runs": 0,
-  "fail_runs": 3,
-  "err": "HTTPError: HTTP Error 521: <none>",
+  "fail_runs": 4,
+  "err": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
   "last_n": 0
  },
  "Intel": {
   "best": 94,
   "zero_runs": 0,
-  "fail_runs": 1,
-  "err": "HTTPError: HTTP Error 521: <none>",
+  "fail_runs": 2,
+  "err": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
   "last_n": 0
  },
  "Analog Devices": {
   "best": 113,
   "zero_runs": 0,
-  "fail_runs": 1,
-  "err": "HTTPError: HTTP Error 521: <none>",
+  "fail_runs": 2,
+  "err": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
   "last_n": 0
  },
  "Marvell": {
   "best": 73,
   "zero_runs": 0,
-  "fail_runs": 1,
-  "err": "HTTPError: HTTP Error 521: <none>",
+  "fail_runs": 2,
+  "err": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
   "last_n": 0
  },
  "NXP": {
   "best": 128,
   "zero_runs": 0,
-  "fail_runs": 35,
+  "fail_runs": 36,
   "err": "HTTPError: HTTP Error 422: Unprocessable Entity",
   "last_n": 0
  },
  "Microchip": {
   "best": 84,
   "zero_runs": 0,
-  "fail_runs": 3,
-  "err": "HTTPError: HTTP Error 521: <none>",
+  "fail_runs": 4,
+  "err": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
   "last_n": 0
  },
  "Wolfspeed": {
@@ -541,22 +541,22 @@
  "Silicon Labs": {
   "best": 67,
   "zero_runs": 0,
-  "fail_runs": 1,
-  "err": "HTTPError: HTTP Error 521: <none>",
+  "fail_runs": 2,
+  "err": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
   "last_n": 0
  },
  "Broadcom": {
   "best": 417,
   "zero_runs": 0,
-  "fail_runs": 1,
-  "err": "HTTPError: HTTP Error 521: <none>",
+  "fail_runs": 2,
+  "err": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
   "last_n": 0
  },
  "Allegro MicroSystems": {
   "best": 68,
   "zero_runs": 0,
-  "fail_runs": 3,
-  "err": "HTTPError: HTTP Error 521: <none>",
+  "fail_runs": 4,
+  "err": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
   "last_n": 0
  },
  "Monolithic Power Systems": {
@@ -569,50 +569,50 @@
  "Blue Origin": {
   "best": 140,
   "zero_runs": 0,
-  "fail_runs": 3,
-  "err": "HTTPError: HTTP Error 521: <none>",
+  "fail_runs": 4,
+  "err": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
   "last_n": 0
  },
  "Draper": {
   "best": 76,
   "zero_runs": 0,
-  "fail_runs": 3,
-  "err": "HTTPError: HTTP Error 521: <none>",
+  "fail_runs": 4,
+  "err": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
   "last_n": 0
  },
  "Boston Dynamics": {
   "best": 60,
   "zero_runs": 0,
-  "fail_runs": 1,
-  "err": "HTTPError: HTTP Error 521: <none>",
+  "fail_runs": 2,
+  "err": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
   "last_n": 0
  },
  "KLA": {
   "best": 147,
   "zero_runs": 0,
-  "fail_runs": 1,
-  "err": "HTTPError: HTTP Error 521: <none>",
+  "fail_runs": 2,
+  "err": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
   "last_n": 0
  },
  "Applied Materials": {
   "best": 141,
   "zero_runs": 0,
-  "fail_runs": 1,
-  "err": "HTTPError: HTTP Error 521: <none>",
+  "fail_runs": 2,
+  "err": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
   "last_n": 0
  },
  "Cadence": {
   "best": 108,
   "zero_runs": 0,
-  "fail_runs": 1,
-  "err": "HTTPError: HTTP Error 521: <none>",
+  "fail_runs": 2,
+  "err": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
   "last_n": 0
  },
  "Cisco": {
   "best": 712,
   "zero_runs": 0,
-  "fail_runs": 3,
-  "err": "HTTPError: HTTP Error 521: <none>",
+  "fail_runs": 4,
+  "err": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
   "last_n": 0
  },
  "Samsung Semiconductor": {
@@ -641,27 +641,27 @@
   "zero_runs": 0,
   "fail_runs": 0,
   "err": "",
-  "last_n": 285
+  "last_n": 286
  },
  "Teradyne": {
   "best": 0,
   "zero_runs": 0,
-  "fail_runs": 407,
+  "fail_runs": 408,
   "err": "HTTPError: HTTP Error 401: 401",
   "last_n": 0
  },
  "Infineon": {
   "best": 0,
   "zero_runs": 0,
-  "fail_runs": 407,
+  "fail_runs": 408,
   "err": "HTTPError: HTTP Error 403: FORBIDDEN",
   "last_n": 0
  },
  "AMD": {
   "best": 0,
   "zero_runs": 405,
-  "fail_runs": 0,
-  "err": "",
+  "fail_runs": 1,
+  "err": "HTTPError: HTTP Error 502: Bad Gateway",
   "last_n": 0
  },
  "Amazon": {
@@ -695,22 +695,22 @@
  "Micron": {
   "best": 0,
   "zero_runs": 0,
-  "fail_runs": 407,
+  "fail_runs": 408,
   "err": "HTTPError: HTTP Error 403: FORBIDDEN",
   "last_n": 0
  },
  "Qualcomm": {
   "best": 0,
   "zero_runs": 0,
-  "fail_runs": 407,
+  "fail_runs": 408,
   "err": "HTTPError: HTTP Error 403: FORBIDDEN",
   "last_n": 0
  },
  "Keysight": {
   "best": 0,
   "zero_runs": 406,
-  "fail_runs": 0,
-  "err": "",
+  "fail_runs": 1,
+  "err": "HTTPError: HTTP Error 502: Bad Gateway",
   "last_n": 0
  },
  "Western Digital": {
@@ -723,14 +723,14 @@
  "Lam Research": {
   "best": 0,
   "zero_runs": 0,
-  "fail_runs": 406,
+  "fail_runs": 407,
   "err": "HTTPError: HTTP Error 403: FORBIDDEN",
   "last_n": 0
  },
  "Qorvo": {
   "best": 0,
   "zero_runs": 0,
-  "fail_runs": 406,
+  "fail_runs": 407,
   "err": "HTTPError: HTTP Error 401: 401",
   "last_n": 0
  },
@@ -744,20 +744,20 @@
  "GlobalFoundries": {
   "best": 82,
   "zero_runs": 0,
-  "fail_runs": 1,
-  "err": "HTTPError: HTTP Error 521: <none>",
+  "fail_runs": 2,
+  "err": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
   "last_n": 0
  },
  "Arm": {
   "best": 0,
   "zero_runs": 405,
-  "fail_runs": 0,
-  "err": "",
+  "fail_runs": 1,
+  "err": "HTTPError: HTTP Error 503: Service Unavailable",
   "last_n": 0
  },
  "Rambus": {
   "best": 0,
-  "zero_runs": 405,
+  "zero_runs": 406,
   "fail_runs": 0,
   "err": "",
   "last_n": 0
@@ -772,43 +772,43 @@
  "MaxLinear": {
   "best": 0,
   "zero_runs": 405,
-  "fail_runs": 0,
-  "err": "",
+  "fail_runs": 1,
+  "err": "HTTPError: HTTP Error 503: Service Unavailable",
   "last_n": 0
  },
  "Semtech": {
   "best": 74,
   "zero_runs": 0,
-  "fail_runs": 1,
-  "err": "HTTPError: HTTP Error 521: <none>",
+  "fail_runs": 2,
+  "err": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
   "last_n": 0
  },
  "Vicor": {
   "best": 0,
   "zero_runs": 0,
-  "fail_runs": 406,
+  "fail_runs": 407,
   "err": "HTTPError: HTTP Error 401: 401",
   "last_n": 0
  },
  "Lumentum": {
   "best": 84,
   "zero_runs": 0,
-  "fail_runs": 3,
-  "err": "HTTPError: HTTP Error 521: <none>",
+  "fail_runs": 4,
+  "err": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
   "last_n": 0
  },
  "MKS Instruments": {
   "best": 71,
   "zero_runs": 0,
-  "fail_runs": 1,
-  "err": "HTTPError: HTTP Error 521: <none>",
+  "fail_runs": 2,
+  "err": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
   "last_n": 0
  },
  "Entegris": {
   "best": 96,
   "zero_runs": 0,
-  "fail_runs": 1,
-  "err": "HTTPError: HTTP Error 521: <none>",
+  "fail_runs": 2,
+  "err": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
   "last_n": 0
  },
  "ASML": {
@@ -821,57 +821,57 @@
  "FormFactor": {
   "best": 78,
   "zero_runs": 0,
-  "fail_runs": 1,
-  "err": "HTTPError: HTTP Error 521: <none>",
+  "fail_runs": 2,
+  "err": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
   "last_n": 0
  },
  "Onto Innovation": {
   "best": 234,
   "zero_runs": 0,
-  "fail_runs": 1,
-  "err": "HTTPError: HTTP Error 521: <none>",
+  "fail_runs": 2,
+  "err": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
   "last_n": 0
  },
  "MIT Lincoln Laboratory": {
   "best": 0,
   "zero_runs": 0,
-  "fail_runs": 406,
+  "fail_runs": 407,
   "err": "HTTPError: HTTP Error 401: 401",
   "last_n": 0
  },
  "RTX": {
   "best": 1000,
   "zero_runs": 0,
-  "fail_runs": 3,
-  "err": "HTTPError: HTTP Error 521: <none>",
+  "fail_runs": 4,
+  "err": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
   "last_n": 0
  },
  "Lockheed Martin": {
   "best": 0,
   "zero_runs": 0,
-  "fail_runs": 406,
+  "fail_runs": 407,
   "err": "HTTPError: HTTP Error 403: FORBIDDEN",
   "last_n": 0
  },
  "Northrop Grumman": {
   "best": 716,
   "zero_runs": 0,
-  "fail_runs": 1,
-  "err": "HTTPError: HTTP Error 521: <none>",
+  "fail_runs": 2,
+  "err": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
   "last_n": 0
  },
  "Boeing": {
   "best": 144,
   "zero_runs": 0,
-  "fail_runs": 1,
-  "err": "HTTPError: HTTP Error 521: <none>",
+  "fail_runs": 2,
+  "err": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
   "last_n": 0
  },
  "GE Aerospace": {
   "best": 565,
   "zero_runs": 0,
-  "fail_runs": 3,
-  "err": "HTTPError: HTTP Error 521: <none>",
+  "fail_runs": 4,
+  "err": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
   "last_n": 0
  },
  "Bose": {
@@ -884,78 +884,78 @@
  "iRobot": {
   "best": 0,
   "zero_runs": 0,
-  "fail_runs": 406,
-  "err": "HTTPError: HTTP Error 521: <none>",
+  "fail_runs": 407,
+  "err": "HTTPError: HTTP Error 422: Unprocessable Entity",
   "last_n": 0
  },
  "Dell": {
   "best": 0,
   "zero_runs": 0,
-  "fail_runs": 406,
-  "err": "HTTPError: HTTP Error 521: <none>",
+  "fail_runs": 407,
+  "err": "HTTPError: HTTP Error 422: Unprocessable Entity",
   "last_n": 0
  },
  "HP": {
   "best": 107,
   "zero_runs": 0,
-  "fail_runs": 3,
-  "err": "HTTPError: HTTP Error 521: <none>",
+  "fail_runs": 4,
+  "err": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
   "last_n": 0
  },
  "SiFive": {
   "best": 76,
   "zero_runs": 0,
-  "fail_runs": 1,
-  "err": "HTTPError: HTTP Error 521: <none>",
+  "fail_runs": 2,
+  "err": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
   "last_n": 0
  },
  "Groq": {
   "best": 0,
   "zero_runs": 0,
-  "fail_runs": 406,
+  "fail_runs": 407,
   "err": "HTTPError: HTTP Error 404: Not Found",
   "last_n": 0
  },
  "Ciena": {
   "best": 63,
   "zero_runs": 0,
-  "fail_runs": 3,
-  "err": "HTTPError: HTTP Error 521: <none>",
+  "fail_runs": 4,
+  "err": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
   "last_n": 0
  },
  "Garmin": {
   "best": 0,
   "zero_runs": 404,
-  "fail_runs": 0,
-  "err": "",
+  "fail_runs": 1,
+  "err": "HTTPError: HTTP Error 503: Service Unavailable",
   "last_n": 0
  },
  "Sonos": {
   "best": 60,
   "zero_runs": 0,
-  "fail_runs": 1,
-  "err": "HTTPError: HTTP Error 521: <none>",
+  "fail_runs": 2,
+  "err": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
   "last_n": 0
  },
  "Eaton": {
   "best": 0,
   "zero_runs": 0,
-  "fail_runs": 406,
+  "fail_runs": 407,
   "err": "HTTPError: HTTP Error 403: FORBIDDEN",
   "last_n": 0
  },
  "Waters Corporation": {
   "best": 0,
   "zero_runs": 401,
-  "fail_runs": 0,
-  "err": "",
+  "fail_runs": 1,
+  "err": "HTTPError: HTTP Error 503: Service Unavailable",
   "last_n": 0
  },
  "Symbotic": {
   "best": 0,
   "zero_runs": 0,
-  "fail_runs": 406,
-  "err": "HTTPError: HTTP Error 521: <none>",
+  "fail_runs": 407,
+  "err": "HTTPError: HTTP Error 422: Unprocessable Entity",
   "last_n": 0
  },
  "Commonwealth Fusion Systems": {
@@ -975,7 +975,7 @@
  "Atomic Semi": {
   "best": 0,
   "zero_runs": 0,
-  "fail_runs": 406,
+  "fail_runs": 407,
   "err": "HTTPError: HTTP Error 404: Not Found",
   "last_n": 0
  },
@@ -1023,7 +1023,7 @@
  },
  "Alphawave Semi": {
   "best": 0,
-  "zero_runs": 405,
+  "zero_runs": 406,
   "fail_runs": 0,
   "err": "",
   "last_n": 0
@@ -1045,29 +1045,29 @@
  "Leidos": {
   "best": 152,
   "zero_runs": 0,
-  "fail_runs": 3,
-  "err": "HTTPError: HTTP Error 521: <none>",
+  "fail_runs": 4,
+  "err": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
   "last_n": 0
  },
  "Curtiss-Wright": {
   "best": 102,
   "zero_runs": 0,
-  "fail_runs": 1,
-  "err": "HTTPError: HTTP Error 521: <none>",
+  "fail_runs": 2,
+  "err": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
   "last_n": 0
  },
  "Moog": {
   "best": 458,
   "zero_runs": 0,
-  "fail_runs": 3,
-  "err": "HTTPError: HTTP Error 521: <none>",
+  "fail_runs": 4,
+  "err": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
   "last_n": 0
  },
  "Teledyne FLIR": {
   "best": 100,
   "zero_runs": 0,
-  "fail_runs": 1,
-  "err": "HTTPError: HTTP Error 521: <none>",
+  "fail_runs": 2,
+  "err": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
   "last_n": 0
  },
  "Honeywell": {
@@ -1079,7 +1079,7 @@
  },
  "Juniper Networks": {
   "best": 0,
-  "zero_runs": 406,
+  "zero_runs": 407,
   "fail_runs": 0,
   "err": "",
   "last_n": 0
@@ -1117,7 +1117,7 @@
   "zero_runs": 0,
   "fail_runs": 0,
   "err": "",
-  "last_n": 363
+  "last_n": 358
  },
  "General Dynamics Mission Systems": {
   "best": 77,
@@ -1152,7 +1152,7 @@
   "zero_runs": 0,
   "fail_runs": 0,
   "err": "",
-  "last_n": 727
+  "last_n": 726
  },
  "Formlabs": {
   "best": 259,
@@ -1243,7 +1243,7 @@
   "zero_runs": 0,
   "fail_runs": 0,
   "err": "",
-  "last_n": 201
+  "last_n": 199
  },
  "NASA JPL": {
   "best": 16,
