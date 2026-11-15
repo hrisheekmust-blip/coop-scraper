@@ -635,8 +635,8 @@
 },
 "https://www.indeed.com/viewjob": {
 "first_seen": "2026-09-18",
-"title": "Internship, Electrical Engineer, High Speed Hardware Design, Optimus (Winter/Spring 2027)",
-"company": "Tesla",
+"title": "Summer 2027 Power Electronics Co-Op",
+"company": "Schneider Electric",
 "desc": ""
 },
 "https://www.linkedin.com/jobs/view/4468697840": {
@@ -24317,6 +24317,66 @@
 "first_seen": "2026-11-15",
 "title": "College Student - Technical - Summer Intern",
 "company": "Lockheed Martin",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4489702491": {
+"first_seen": "2026-11-15",
+"title": "Summer 2027 Electrical Engineering Intern - SATD/2",
+"company": "Southern States LLC",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4488974656": {
+"first_seen": "2026-11-15",
+"title": "College Student - Technical - Summer Intern",
+"company": "Lockheed Martin",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4470194904": {
+"first_seen": "2026-11-15",
+"title": "Summer 2027 - Validation Engineering Intern",
+"company": "onsemi",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4491241261": {
+"first_seen": "2026-11-15",
+"title": "CAD Engineering Intern- Summer 2027",
+"company": "Shape Corp.",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4489393675": {
+"first_seen": "2026-11-15",
+"title": "Reliability Engineering Intern",
+"company": "AeroMatrix 12",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4491243210": {
+"first_seen": "2026-11-15",
+"title": "Engineering Metrology Intern",
+"company": "HEICO",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4490223769": {
+"first_seen": "2026-11-15",
+"title": "Research Scientist Intern - Coating Characterization",
+"company": "Crosslinked",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4489322065": {
+"first_seen": "2026-11-15",
+"title": "Mixed Signal EMIR Intern",
+"company": "Rambus",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4491246017": {
+"first_seen": "2026-11-15",
+"title": "Electrical Engineering Intern- Summer 2027",
+"company": "Shape Corp.",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4491038133": {
+"first_seen": "2026-11-15",
+"title": "R&D Test Engineering Intern (SoFuel)",
+"company": "Tempo Innovations",
 "desc": ""
 }
 }
