@@ -7044,6 +7044,23 @@
  },
  {
   "company": "Skyworks",
+  "title": "RF Module Design Co-Op (Winter/Spring 2027)",
+  "location": "Irvine, CA, USA    ",
+  "url": "https://careers.skyworksinc.com/job/RF-Module-Design-Co-Op-%28WinterSpring-2027%29/78270-en_US",
+  "posted": "2026-08-25",
+  "deadline": "",
+  "term": "spring",
+  "rank": "A",
+  "hw": "rf",
+  "tier": "big",
+  "sources": [
+   "successfactors"
+  ],
+  "first_seen": "2026-09-18",
+  "last_seen": "2026-11-15"
+ },
+ {
+  "company": "Skyworks",
   "title": "RF Module Design Engineer Co-op (Winter/Spring 2027)",
   "location": "Cedar Rapids, IA, USA    ",
   "url": "https://careers.skyworksinc.com/job/RF-Module-Design-Engineer-Co-op-%28WinterSpring-2027%29/78155-en_US",
@@ -12840,23 +12857,6 @@
    "internlist:coop"
   ],
   "first_seen": "2026-11-11",
-  "last_seen": "2026-11-15"
- },
- {
-  "company": "Samsara",
-  "title": "Firmware Engineer Co-Op",
-  "location": "San Francisco - SF9",
-  "url": "https://www.samsara.com/company/careers/roles/8226602?gh_jid=8226602",
-  "posted": "2026-10-30",
-  "deadline": "",
-  "term": "coop-unspecified",
-  "rank": "B",
-  "hw": "firmware",
-  "tier": "big",
-  "sources": [
-   "greenhouse"
-  ],
-  "first_seen": "2026-09-24",
   "last_seen": "2026-11-15"
  },
  {
@@ -20782,6 +20782,23 @@
  {
   "company": "Skyworks",
   "title": "Test Engineering Intern",
+  "location": "Greensboro, USA    ",
+  "url": "https://careers.skyworksinc.com/job/Test-Engineering-Intern/78712-en_US",
+  "posted": "2026-10-27",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "test engineering",
+  "tier": "big",
+  "sources": [
+   "successfactors"
+  ],
+  "first_seen": "2026-10-27",
+  "last_seen": "2026-11-15"
+ },
+ {
+  "company": "Skyworks",
+  "title": "Test Engineering Intern",
   "location": "Richardson, USA    ",
   "url": "https://careers.skyworksinc.com/job/Test-Engineering-Intern/79036-en_US",
   "posted": "2026-11-04",
@@ -20794,23 +20811,6 @@
    "successfactors"
   ],
   "first_seen": "2026-11-04",
-  "last_seen": "2026-11-15"
- },
- {
-  "company": "Skyworks",
-  "title": "Test Engineering Intern",
-  "location": "Greensboro, USA    ",
-  "url": "https://careers.skyworksinc.com/job/Test-Engineering-Intern/78746-en_US",
-  "posted": "2026-10-28",
-  "deadline": "",
-  "term": "unspecified",
-  "rank": "C",
-  "hw": "test engineering",
-  "tier": "big",
-  "sources": [
-   "successfactors"
-  ],
-  "first_seen": "2026-10-28",
   "last_seen": "2026-11-15"
  },
  {

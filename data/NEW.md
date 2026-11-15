@@ -422,6 +422,7 @@ _nothing new today_
 | A | summer | Skyworks | RF Front-End EM Design Co-Op (Summer/Fall 2027) | Newbury Park, CA, USA     | 2026-08-14 | [apply](https://careers.skyworksinc.com/job/RF-Front-End-EM-Design-Co-Op-%28SummerFall-2027%29/78165-en_US) |
 | A | summer | Skyworks | RF Front-End Engineer Summer/Fall Co-Op (June-Dec '27) | San Jose, CA, USA     | 2026-09-24 | [apply](https://careers.skyworksinc.com/job/RF-Front-End-Engineer-SummerFall-Co-Op-%28June-Dec-&apos;27%29/78506-en_US) |
 | A | summer | Skyworks | RF Module Design Co-Op (Summer/Fall 2027) | Irvine, CA, USA     | 2026-08-25 | [apply](https://careers.skyworksinc.com/job/RF-Module-Design-Co-Op-%28SummerFall-2027%29/78271-en_US) |
+| A | spring | Skyworks | RF Module Design Co-Op (Winter/Spring 2027) | Irvine, CA, USA     | 2026-08-25 | [apply](https://careers.skyworksinc.com/job/RF-Module-Design-Co-Op-%28WinterSpring-2027%29/78270-en_US) |
 | A | spring | Skyworks | RF Module Design Engineer Co-op (Winter/Spring 2027) | Cedar Rapids, IA, USA     | 2026-08-19 | [apply](https://careers.skyworksinc.com/job/RF-Module-Design-Engineer-Co-op-%28WinterSpring-2027%29/78155-en_US) |
 | A | summer | Skyworks | RF Module Design Summer Intern | Cedar Rapids, IA, USA     | 2026-09-08 | [apply](https://careers.skyworksinc.com/job/RF-Module-Design-Summer-Intern/78370-en_US) |
 | A | summer | Skyworks | RF Module Design Summer/Fall Co-Op (June-Dec '27) | San Jose, CA, USA     | 2026-09-10 | [apply](https://careers.skyworksinc.com/job/RF-Module-Design-SummerFall-Co-Op-%28June-Dec-&apos;27%29/78304-en_US) |
@@ -762,7 +763,6 @@ _nothing new today_
 | B | coop-unspecified | SEW-EURODRIVE | Electrical Engineering Co-op | Lyman, SC, USA | 2026-10-19 | [apply](https://simplify.jobs/jobs/click/e9b0debb-d798-43e4-b819-370f055c56cf) |
 | B | coop-unspecified | SSOE Group | Electrical Engineer Co-op | Toledo, OH, USA | 2026-11-05 | [apply](https://simplify.jobs/jobs/click/906500bb-5b97-4736-91fc-4aa606e3c8f9) |
 | B | coop-unspecified | SSOE Group | Electrical Engineering Co-op | Toledo, OH, USA | 2024-11-06 | [apply](https://simplify.jobs/jobs/click/44a314fa-3231-4ff4-943b-2f17ec630901) |
-| B | coop-unspecified | Samsara | Firmware Engineer Co-Op | San Francisco - SF9 | 2026-10-30 | [apply](https://www.samsara.com/company/careers/roles/8226602?gh_jid=8226602) |
 | B | coop-unspecified | Schneider Electric | Product Engineer Co-op | Fairfield, OH, USA | 2026-09-14 | [apply](https://simplify.jobs/jobs/click/1c913a17-52ed-48d8-aa1f-4e6b1e9227e1) |
 | B | coop-unspecified | SharkNinja | Product Performance Test Engineer Co-op | Needham, MA, USA | 2026-11-11 | [apply](https://simplify.jobs/jobs/click/9fd906b9-a4c6-4855-9e8d-68364b79ebc5) |
 | B | coop-unspecified | SharkNinja | Product Test Engineering Co-op | Needham, MA, USA | 2026-11-10 | [apply](https://simplify.jobs/jobs/click/4c145819-bb1c-4c66-835e-7b64fa52594a) |
@@ -1228,8 +1228,8 @@ _nothing new today_
 | C | unspecified | Skyworks | Test Engineering Intern | Chelmsford, USA     | 2026-10-27 | [apply](https://careers.skyworksinc.com/job/Test-Engineering-Intern/78731-en_US) |
 | C | unspecified | Skyworks | Test Engineering Intern | Chandler, USA     | 2026-10-27 | [apply](https://careers.skyworksinc.com/job/Test-Engineering-Intern/78716-en_US) |
 | C | unspecified | Skyworks | Test Engineering Intern | Hillsboro, USA     | 2026-10-28 | [apply](https://careers.skyworksinc.com/job/Test-Engineering-Intern/78777-en_US) |
+| C | unspecified | Skyworks | Test Engineering Intern | Greensboro, USA     | 2026-10-27 | [apply](https://careers.skyworksinc.com/job/Test-Engineering-Intern/78712-en_US) |
 | C | unspecified | Skyworks | Test Engineering Intern | Richardson, USA     | 2026-11-04 | [apply](https://careers.skyworksinc.com/job/Test-Engineering-Intern/79036-en_US) |
-| C | unspecified | Skyworks | Test Engineering Intern | Greensboro, USA     | 2026-10-28 | [apply](https://careers.skyworksinc.com/job/Test-Engineering-Intern/78746-en_US) |
 | C | unspecified | Skyworks Solutions, Inc. | Process Engineering Intern | Richardson, TX, USA | 2026-11-13 | [apply](https://www.linkedin.com/jobs/view/4490737509) |
 | C | unspecified | Stryker | Electrical Engineering Intern | Weston, FL, USA | 2026-09-02 | [apply](https://simplify.jobs/jobs/click/61029f11-ef86-4f8a-bf15-92d10b7cf4dc) |
 | C | unspecified | Tenstorrent | Hardware Intern | Boston, MA, USA; Austin, TX, USA; Santa Clara, CA, USA | 2026-10-07 | [apply](https://simplify.jobs/jobs/click/7482de07-822e-4441-b97e-1d36e1c60853) |
