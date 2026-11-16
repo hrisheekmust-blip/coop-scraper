@@ -635,8 +635,8 @@
 },
 "https://www.indeed.com/viewjob": {
 "first_seen": "2026-09-18",
-"title": "Summer 2027 Power Electronics Co-Op",
-"company": "Schneider Electric",
+"title": "Internship, Electrical Engineer, High Speed Hardware Design, Optimus (Winter/Spring 2027)",
+"company": "Tesla",
 "desc": ""
 },
 "https://www.linkedin.com/jobs/view/4468697840": {
@@ -24377,6 +24377,12 @@
 "first_seen": "2026-11-15",
 "title": "R&D Test Engineering Intern (SoFuel)",
 "company": "Tempo Innovations",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4490792710": {
+"first_seen": "2026-11-16",
+"title": "Hardware Test Engineering Intern (Summer 2027)",
+"company": "Reliable Robotics Corporation",
 "desc": ""
 }
 }
