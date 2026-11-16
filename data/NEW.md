@@ -1,19 +1,8 @@
-# New postings — 2026-11-15
+# New postings — 2026-11-16
 
-10 new of 1282 tracked. Rank A = spring/Jan 2027 explicit, B = co-op with term unstated, C = intern with no term stated.
+0 new of 1280 tracked. Rank A = spring/Jan 2027 explicit, B = co-op with term unstated, C = intern with no term stated.
 
-| Rank | Term | Company | Role | Location | Posted | Link |
-|---|---|---|---|---|---|---|
-| A | summer | Southern States LLC | Summer 2027 Electrical Engineering Intern - SATD/2 | Hampton, GA, USA | 2026-11-15 | [apply](https://www.linkedin.com/jobs/view/4489702491) |
-| A | summer | Lockheed Martin | College Student - Technical - Summer Intern | Highlands Ranch, CO, USA | 2026-11-13 | [apply](https://www.linkedin.com/jobs/view/4488974656) |
-| A | summer | onsemi | Summer 2027 - Validation Engineering Intern | Nampa, ID, USA | 2026-11-15 | [apply](https://www.linkedin.com/jobs/view/4470194904) |
-| A | summer | Shape Corp. | CAD Engineering Intern- Summer 2027 | Grand Haven, MI, USA | 2026-11-15 | [apply](https://www.linkedin.com/jobs/view/4491241261) |
-| A | spring | AeroMatrix 12 | Reliability Engineering Intern | New York, USA | 2026-11-15 | [apply](https://www.linkedin.com/jobs/view/4489393675) |
-| C | unspecified | HEICO | Engineering Metrology Intern | Provo, UT, USA | 2026-11-15 | [apply](https://www.linkedin.com/jobs/view/4491243210) |
-| C | unspecified | Crosslinked | Research Scientist Intern - Coating Characterization | Ann Arbor, MI, USA | 2026-11-15 | [apply](https://www.linkedin.com/jobs/view/4490223769) |
-| A | summer | Rambus | Mixed Signal EMIR Intern | Morrisville, NC, USA | 2026-11-14 | [apply](https://www.linkedin.com/jobs/view/4489322065) |
-| A | summer | Shape Corp. | Electrical Engineering Intern- Summer 2027 | Grand Haven, MI, USA | 2026-11-15 | [apply](https://www.linkedin.com/jobs/view/4491246017) |
-| C | unspecified | Tempo Innovations | R&D Test Engineering Intern (SoFuel) | San Diego, CA, USA | 2026-11-14 | [apply](https://www.linkedin.com/jobs/view/4491038133) |
+_nothing new today_
 
 ## All tracked
 
@@ -415,7 +404,6 @@
 | A | summer | Skyworks | Quality Systems Co-Op (Wafer Fabs) Summer/Fall (June - Dec '27) | Newbury Park, CA, USA     | 2026-08-21 | [apply](https://careers.skyworksinc.com/job/Quality-Systems-Co-Op-%28Wafer-Fabs%29-SummerFall-%28June-Dec-&apos;27%29/78256-en_US) |
 | A | spring | Skyworks | Quality Systems Coop (Wafer Fabs) Winter/Spring (Jan-June '27) | Newbury Park, CA, USA     | 2026-08-18 | [apply](https://careers.skyworksinc.com/job/Quality-Systems-Coop-%28Wafer-Fabs%29-WinterSpring-%28Jan-June-&apos;27%29/78237-en_US) |
 | A | spring | Skyworks | RF Applications (Winter/Spring Co-Op) | Woburn, MA, USA     | 2026-09-22 | [apply](https://careers.skyworksinc.com/job/RF-Applications-%28WinterSpring-Co-Op%29/78475-en_US) |
-| A | spring | Skyworks | RF Circuit Design Winter/Spring Co-Op (Jan-June '27) | Andover, MA, USA     | 2026-09-29 | [apply](https://careers.skyworksinc.com/job/RF-Circuit-Design-WinterSpring-Co-Op-%28Jan-June-&apos;27%29/78369-en_US) |
 | A | summer | Skyworks | RF Design Automation & Validation Summer/Fall Co-Op (June - Dec '27) | Andover, MA, USA     | 2026-11-04 | [apply](https://careers.skyworksinc.com/job/RF-Design-Automation-&amp;-Validation-SummerFall-Co-Op-%28June-Dec-&apos;27%29/78990-en_US) |
 | A | spring | Skyworks | RF Design Co-Op (Jan-June 2027) | Andover, MA, USA     | 2026-08-21 | [apply](https://careers.skyworksinc.com/job/RF-Design-Co-Op-%28Jan-June-2027%29/78255-en_US) |
 | A | spring | Skyworks | RF Design Engineering Co-Op (Jan - June '27) | Andover, MA, USA     | 2026-09-21 | [apply](https://careers.skyworksinc.com/job/RF-Design-Engineering-Co-Op-%28Jan-June-&apos;27%29/78451-en_US) |
@@ -425,7 +413,6 @@
 | A | summer | Skyworks | RF Front-End EM Design Co-Op (Summer/Fall 2027) | Newbury Park, CA, USA     | 2026-08-14 | [apply](https://careers.skyworksinc.com/job/RF-Front-End-EM-Design-Co-Op-%28SummerFall-2027%29/78165-en_US) |
 | A | summer | Skyworks | RF Front-End Engineer Summer/Fall Co-Op (June-Dec '27) | San Jose, CA, USA     | 2026-09-24 | [apply](https://careers.skyworksinc.com/job/RF-Front-End-Engineer-SummerFall-Co-Op-%28June-Dec-&apos;27%29/78506-en_US) |
 | A | summer | Skyworks | RF Module Design Co-Op (Summer/Fall 2027) | Irvine, CA, USA     | 2026-08-25 | [apply](https://careers.skyworksinc.com/job/RF-Module-Design-Co-Op-%28SummerFall-2027%29/78271-en_US) |
-| A | spring | Skyworks | RF Module Design Co-Op (Winter/Spring 2027) | Irvine, CA, USA     | 2026-08-25 | [apply](https://careers.skyworksinc.com/job/RF-Module-Design-Co-Op-%28WinterSpring-2027%29/78270-en_US) |
 | A | spring | Skyworks | RF Module Design Engineer Co-op (Winter/Spring 2027) | Cedar Rapids, IA, USA     | 2026-08-19 | [apply](https://careers.skyworksinc.com/job/RF-Module-Design-Engineer-Co-op-%28WinterSpring-2027%29/78155-en_US) |
 | A | summer | Skyworks | RF Module Design Summer Intern | Cedar Rapids, IA, USA     | 2026-09-08 | [apply](https://careers.skyworksinc.com/job/RF-Module-Design-Summer-Intern/78370-en_US) |
 | A | summer | Skyworks | RF Module Design Summer/Fall Co-Op (June-Dec '27) | San Jose, CA, USA     | 2026-09-10 | [apply](https://careers.skyworksinc.com/job/RF-Module-Design-SummerFall-Co-Op-%28June-Dec-&apos;27%29/78304-en_US) |
@@ -1208,15 +1195,15 @@
 | C | unspecified | Skyworks | Analog Design Intern | Chandler, USA     | 2026-10-27 | [apply](https://careers.skyworksinc.com/job/Analog-Design-Intern/78718-en_US) |
 | C | unspecified | Skyworks | Analog/Mixed-Signal Intern | Nashua, NH, USA     | 2026-09-30 | [apply](https://careers.skyworksinc.com/job/AnalogMixed-Signal-Intern/78414-en_US) |
 | C | unspecified | Skyworks | Analog/mixed-signal Design Intern | Nashua, NH, USA     | 2026-09-30 | [apply](https://careers.skyworksinc.com/job/Analogmixed-signal-Design-Intern/78367-en_US) |
-| C | unspecified | Skyworks | Characterization Engineering Intern | Greensboro, USA     | 2026-10-28 | [apply](https://careers.skyworksinc.com/job/Characterization-Engineering-Intern/78726-en_US) |
+| C | unspecified | Skyworks | Characterization Engineering Intern | Greensboro, USA     | 2026-10-27 | [apply](https://careers.skyworksinc.com/job/Characterization-Engineering-Intern/78713-en_US) |
 | C | unspecified | Skyworks | Electrical CAD Engineer Intern | Richardson, USA     | 2026-10-28 | [apply](https://careers.skyworksinc.com/job/Electrical-CAD-Engineer-Intern/78739-en_US) |
 | C | unspecified | Skyworks | Electrical Design Engineering Intern | Richardson, USA     | 2026-10-27 | [apply](https://careers.skyworksinc.com/job/Electrical-Design-Engineering-Intern/78710-en_US) |
 | C | unspecified | Skyworks | Electrical Engineering Intern | Shenzen, GD, CHN     | 2026-10-15 | [apply](https://careers.skyworksinc.com/job/Electrical-Engineering-Intern/78680-en_US) |
 | C | unspecified | Skyworks | IC Layout Engineering Intern | Richardson, USA     | 2026-10-28 | [apply](https://careers.skyworksinc.com/job/IC-Layout-Engineering-Intern/78740-en_US) |
 | C | unspecified | Skyworks | Physical Verification Intern | Greensboro, USA     | 2026-10-26 | [apply](https://careers.skyworksinc.com/job/Physical-Verification-Intern/78759-en_US) |
 | C | unspecified | Skyworks | Product Engineer Intern | Chelmsford, USA     | 2026-10-29 | [apply](https://careers.skyworksinc.com/job/Product-Engineer-Intern/78776-en_US) |
-| C | unspecified | Skyworks | Product Engineering Intern | Greensboro, USA     | 2026-10-28 | [apply](https://careers.skyworksinc.com/job/Product-Engineering-Intern/78778-en_US) |
 | C | unspecified | Skyworks | Product Engineering Intern | Hillsboro, USA     | 2026-10-28 | [apply](https://careers.skyworksinc.com/job/Product-Engineering-Intern/78779-en_US) |
+| C | unspecified | Skyworks | Product Engineering Intern | Greensboro, USA     | 2026-10-28 | [apply](https://careers.skyworksinc.com/job/Product-Engineering-Intern/78778-en_US) |
 | C | unspecified | Skyworks | RF Design Engineering Intern | Richardson, USA     | 2026-10-27 | [apply](https://careers.skyworksinc.com/job/RF-Design-Engineering-Intern/78790-en_US) |
 | C | unspecified | Skyworks | RF/Analog IC Design Intern | Fort Lauderdale, USA     | 2026-10-28 | [apply](https://careers.skyworksinc.com/job/RFAnalog-IC-Design-Intern/78750-en_US) |
 | C | unspecified | Skyworks | RFIC Design Engineering Intern | Greensboro, USA     | 2026-10-27 | [apply](https://careers.skyworksinc.com/job/RFIC-Design-Engineering-Intern/78729-en_US) |
