@@ -635,8 +635,8 @@
 },
 "https://www.indeed.com/viewjob": {
 "first_seen": "2026-09-18",
-"title": "Internship, Electrical Engineer, High Speed Hardware Design, Optimus (Winter/Spring 2027)",
-"company": "Tesla",
+"title": "Hardware Verification Engineer Co-Op (Spring 2027)",
+"company": "Tektronix",
 "desc": ""
 },
 "https://www.linkedin.com/jobs/view/4468697840": {
@@ -21453,7 +21453,7 @@
 },
 "https://www.linkedin.com/jobs/view/4488110300": {
 "first_seen": "2026-11-06",
-"title": "Failure Analysis Engineering Intern (Memory Technology)",
+"title": "Summer 2027 Intern - Failure Analysis Engineering (Memory Technology)",
 "company": "Sandisk",
 "desc": ""
 },
@@ -24515,6 +24515,240 @@
 "first_seen": "2026-11-17",
 "title": "Semiconductor Memory Characterization Engineer Intern",
 "company": "Seagate",
+"desc": ""
+},
+"https://go.vansh.nyc/1AB": {
+"first_seen": "2026-11-17",
+"title": "Embedded Systems Reverse Engineer Intern",
+"company": "Integration Innovation (i3)",
+"desc": ""
+},
+"https://go.vansh.nyc/1Ay": {
+"first_seen": "2026-11-17",
+"title": "Digital Design Engineering Intern, FPGA/ASIC",
+"company": "Impulse Space",
+"desc": ""
+},
+"https://go.vansh.nyc/1Af": {
+"first_seen": "2026-11-17",
+"title": "Embedded Systems Reverse Engineer Intern",
+"company": "i3",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4491537508": {
+"first_seen": "2026-11-17",
+"title": "Electrical Engineer Co-Op (Spring/Summer 2027)",
+"company": "Collins Aerospace",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4490604528": {
+"first_seen": "2026-11-17",
+"title": "Hardware Engineering Intern",
+"company": "Hewlett Packard Enterprise",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4490614112": {
+"first_seen": "2026-11-17",
+"title": "Hardware Engineering Intern",
+"company": "Hewlett Packard Enterprise",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4491536775": {
+"first_seen": "2026-11-17",
+"title": "Hardware Engineering Co-Op",
+"company": "Kratos Defense and Security Solutions",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4490139665": {
+"first_seen": "2026-11-17",
+"title": "Summer 2027 Electrical Engineering Intern or Co-op",
+"company": "Southern States LLC",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4490942809": {
+"first_seen": "2026-11-17",
+"title": "Hardware Engineering Intern",
+"company": "EchoStar Corporation",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4490629658": {
+"first_seen": "2026-11-17",
+"title": "Electrical / Hardware Engineering Intern Summer 2027",
+"company": "Parsons Corporation",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4490163519": {
+"first_seen": "2026-11-17",
+"title": "Avionics Engineer \u2013 EE Design Engineer Intern",
+"company": "Intuitive Machines",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4490948876": {
+"first_seen": "2026-11-17",
+"title": "Electrical Engineering Intern (2027 Summer Internship)",
+"company": "Northwood",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4490672642": {
+"first_seen": "2026-11-17",
+"title": "Analog and Mixed-Signal IC Design Engineer Intern",
+"company": "NeuroTechX",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4489794712": {
+"first_seen": "2026-11-17",
+"title": "Kilby Labs RF Analog Design Intern - RF Modeling",
+"company": "Texas Instruments",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4490914369": {
+"first_seen": "2026-11-17",
+"title": "Electrical Engineering Intern (Summer 2027)",
+"company": "Rocketdyne",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4464638994": {
+"first_seen": "2026-11-17",
+"title": "RF Module Design Summer Intern",
+"company": "Skyworks Solutions, Inc.",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4490601563": {
+"first_seen": "2026-11-17",
+"title": "Large-Scale Integrated Photonics Lab Research Associate Intern",
+"company": "Hewlett Packard Enterprise",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4490298816": {
+"first_seen": "2026-11-17",
+"title": "Large-Scale Integrated Photonics Lab Research Associate Intern",
+"company": "Hewlett Packard Enterprise",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4490903751": {
+"first_seen": "2026-11-17",
+"title": "Electrical Engineering Intern (Summer 2027)",
+"company": "Rocketdyne",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4490162337": {
+"first_seen": "2026-11-17",
+"title": "2027 SARC/ACL R&D Internship Program \u2013 Multiple Engineering Teams",
+"company": "Samsung Semiconductor",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4490616104": {
+"first_seen": "2026-11-17",
+"title": "ASIC Verification/Design Engineering Intern",
+"company": "HPE Aruba Networking",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4490111636": {
+"first_seen": "2026-11-17",
+"title": "Digital Design (FPGA/ASIC) Engineering Internship (Summer 2027)",
+"company": "Impulse Space",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4488066509": {
+"first_seen": "2026-11-17",
+"title": "Summer 2027 Intern- VLSI Design, Memory Technology",
+"company": "Sandisk",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4490618079": {
+"first_seen": "2026-11-17",
+"title": "ASIC Intern",
+"company": "HPE Aruba Networking",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4490672636": {
+"first_seen": "2026-11-17",
+"title": "Digital IC Design Engineer Intern",
+"company": "NeuroTechX",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4490971307": {
+"first_seen": "2026-11-17",
+"title": "Hardware Verification Engineer Co-op (Summer 2027)",
+"company": "Tektronix",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4490904876": {
+"first_seen": "2026-11-17",
+"title": "Test Engineer Intern (Summer 2027)",
+"company": "Rocketdyne",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4490964576": {
+"first_seen": "2026-11-17",
+"title": "Internship, Grid Compliance Test Engineer, Energy Engineering (Winter/Spring 2027)",
+"company": "Tesla",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4490161866": {
+"first_seen": "2026-11-17",
+"title": "Internship - Optical Engineer (Co-op)",
+"company": "ASML",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4491533832": {
+"first_seen": "2026-11-17",
+"title": "Hardware in the Loop Engineering Intern - (Summer 2027)",
+"company": "Raytheon",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4490138823": {
+"first_seen": "2026-11-17",
+"title": "Test Engineering Intern",
+"company": "Tech World Networking",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4490612149": {
+"first_seen": "2026-11-17",
+"title": "ASIC Engineering Intern",
+"company": "Hewlett Packard Enterprise",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4490611177": {
+"first_seen": "2026-11-17",
+"title": "Wireless Hardware Engineering Intern",
+"company": "Hewlett Packard Enterprise",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4490928707": {
+"first_seen": "2026-11-17",
+"title": "Engineering /Technology Co-Op",
+"company": "Sanmina",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4483116888": {
+"first_seen": "2026-11-17",
+"title": "Spring 2027 Product Engineering Co-Op",
+"company": "TTM Technologies",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4490158388": {
+"first_seen": "2026-11-17",
+"title": "Semiconductor Memory Characterization Engineer Intern",
+"company": "Seagate Technology",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4491543219": {
+"first_seen": "2026-11-17",
+"title": "Semiconductor Foundry Intern (Summer 2027)",
+"company": "Raytheon",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4455474237": {
+"first_seen": "2026-11-17",
+"title": "NVIDIA 2027 Internships: Hardware Design for Test (DFT)",
+"company": "NVIDIA",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4491540202": {
+"first_seen": "2026-11-17",
+"title": "Summer Intern - Network Reliability Engineering Intern",
+"company": "CoreSite",
 "desc": ""
 }
 }
