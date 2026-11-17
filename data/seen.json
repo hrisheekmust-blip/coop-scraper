@@ -635,8 +635,8 @@
 },
 "https://www.indeed.com/viewjob": {
 "first_seen": "2026-09-18",
-"title": "Hardware Verification Engineer Co-Op (Spring 2027)",
-"company": "Tektronix",
+"title": "Electrical Engineer Co-Op (Spring/Summer 2027)",
+"company": "Collins Aerospace",
 "desc": ""
 },
 "https://www.linkedin.com/jobs/view/4468697840": {
@@ -2889,7 +2889,7 @@
 },
 "https://simplify.jobs/jobs/click/d226e415-93e5-49dc-8e8a-7dff0c13e67a": {
 "first_seen": "2026-09-18",
-"title": "Electrical Engineering Intern",
+"title": "Electrical Engineer Intern",
 "company": "VAST",
 "desc": ""
 },
@@ -5919,7 +5919,7 @@
 },
 "https://jobs.ashbyhq.com/axelera/cac5f1c7-2eb7-4bfe-b67f-dfc23dc59c16": {
 "first_seen": "2026-09-21",
-"title": "Hardware Lab Engineer Intern",
+"title": "Hardware Lab Engineer - Internship",
 "company": "Axelera AI",
 "desc": ""
 },
@@ -6879,7 +6879,7 @@
 },
 "https://simplify.jobs/jobs/click/5d8625b4-2f3c-4bb8-a7dc-6bf889d1b5db": {
 "first_seen": "2026-09-23",
-"title": "R&D Hardware Engineer Intern",
+"title": "Hardware Engineer Intern",
 "company": "Keysight Technologies",
 "desc": ""
 },
@@ -20685,7 +20685,7 @@
 },
 "https://simplify.jobs/jobs/click/2971dcaa-4000-40a8-b926-19e2258e2990": {
 "first_seen": "2026-11-05",
-"title": "Electrical Engineer Intern/Co-op",
+"title": "Electrical Engineer Intern Co-op",
 "company": "Stantec",
 "desc": ""
 },
@@ -24749,6 +24749,102 @@
 "first_seen": "2026-11-17",
 "title": "Summer Intern - Network Reliability Engineering Intern",
 "company": "CoreSite",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/2d3caa76-12c1-4d85-89f6-dd5f63b14e0b": {
+"first_seen": "2026-11-17",
+"title": "Electrical Engineering Co-op",
+"company": "Hargrove",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/e4d75246-d63a-4dac-94bc-2adc499901e0": {
+"first_seen": "2026-11-17",
+"title": "Electrical Engineer Co-op",
+"company": "Illinois Tool Works",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/afb64b08-799c-40a3-813c-b970349d2d11": {
+"first_seen": "2026-11-17",
+"title": "Power Electronics Co-op",
+"company": "Schneider Electric",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/1fc09cfe-119c-4328-81f8-a0e32f1f9b2c": {
+"first_seen": "2026-11-17",
+"title": "Quality Assurance Test Engineer Intern",
+"company": "SK hynix",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4490971443": {
+"first_seen": "2026-11-17",
+"title": "Hardware Verification Engineer Co-Op (Spring 2027)",
+"company": "Tektronix",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4490410739": {
+"first_seen": "2026-11-17",
+"title": "Hardware Development Engineer Intern",
+"company": "Horizon Lane",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4490932870": {
+"first_seen": "2026-11-17",
+"title": "Electrical Power and Transmission Engineer Co-op / Intern \u2013 (Hybrid)",
+"company": "Salas O'Brien",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4464121835": {
+"first_seen": "2026-11-17",
+"title": "2027 Spring Electrical Engineering Intern (R20663)",
+"company": "MKS Inc.",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4490148805": {
+"first_seen": "2026-11-17",
+"title": "2027 SARC/ACL R&D Internship Program \u2013 Multiple Engineering Teams",
+"company": "Samsung Semiconductor",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4490114389": {
+"first_seen": "2026-11-17",
+"title": "Digital Signal Processing Graduate Engineering Internship (Summer 2027)",
+"company": "Impulse Space",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4490612115": {
+"first_seen": "2026-11-17",
+"title": "ASIC Verification Engineering Intern",
+"company": "HPE Aruba Networking",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4490194493": {
+"first_seen": "2026-11-17",
+"title": "Power Electronics Test Intern",
+"company": "Lunar Energy",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4490152987": {
+"first_seen": "2026-11-17",
+"title": "Avionics Engineer \u2013 Test Engineer Intern",
+"company": "Intuitive Machines",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4490611088": {
+"first_seen": "2026-11-17",
+"title": "Large-Scale Integrated Photonics Lab Research Associate Intern",
+"company": "Hewlett Packard Enterprise",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4490953973": {
+"first_seen": "2026-11-17",
+"title": "Internship, Integration Engineer, Factory Firmware (Winter/Spring 2027)",
+"company": "Tesla",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4482727805": {
+"first_seen": "2026-11-17",
+"title": "Systems Integration and Test Engineer Intern (Summer 2027)",
+"company": "Peak Energy",
 "desc": ""
 }
 }
