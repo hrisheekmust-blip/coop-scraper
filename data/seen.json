@@ -24027,7 +24027,7 @@
 },
 "https://simplify.jobs/jobs/click/1957eb78-5ff5-4d8b-bd0f-24f0d05a9ad6": {
 "first_seen": "2026-11-14",
-"title": "Electrical Engineer Co-op Intern",
+"title": "Electrical Engineering Co-op",
 "company": "Shield AI",
 "desc": ""
 },
@@ -25169,6 +25169,54 @@
 "first_seen": "2026-11-18",
 "title": "Electronics & Sensing Engineer (Intern or Contractor)",
 "company": "Basis Research Institute",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/54dd4a2d-1c29-46fc-abe9-339b86237bc5": {
+"first_seen": "2026-11-18",
+"title": "Hardware Test Engineering Co-op",
+"company": "Shield AI",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/ce22aafd-5c92-468b-babc-8735f7ed44d4": {
+"first_seen": "2026-11-18",
+"title": "Electrical Engineering Co-op",
+"company": "ABB",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/aa2c7268-6de0-4779-a6f3-3bb996208ee7": {
+"first_seen": "2026-11-18",
+"title": "Electrical Engineer Intern",
+"company": "Morph Labs",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4491799939": {
+"first_seen": "2026-11-18",
+"title": "Electrical Engineer Co-op (Summer/Fall 2027)(Onsite)",
+"company": "Collins Aerospace",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4490474098": {
+"first_seen": "2026-11-18",
+"title": "ASIC & FPGA Design Engineer - Intern",
+"company": "Lockheed Martin",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4490892099": {
+"first_seen": "2026-11-18",
+"title": "Hardware Development Engineering Intern",
+"company": "Horizon Lane",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4491432163": {
+"first_seen": "2026-11-18",
+"title": "Electrical Engineer Intern",
+"company": "LJC",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4490847343": {
+"first_seen": "2026-11-18",
+"title": "Summer 2027 Intern - Product Development Engineering, Memory Product Yield Enhancement",
+"company": "Sandisk",
 "desc": ""
 }
 }
