@@ -3927,7 +3927,7 @@
 },
 "https://jobs.lever.co/hermeus/1bc5c858-1b04-4093-80a0-2ba3491afc60": {
 "first_seen": "2026-09-18",
-"title": "Mechanical Engineering Intern  - Summer/Fall 2027",
+"title": "Mechanical Engineering Intern  - Fall 2027",
 "company": "Hermeus",
 "desc": ""
 },
@@ -25667,6 +25667,66 @@
 "first_seen": "2026-11-19",
 "title": "RF Engineering Intern",
 "company": "Lockheed Martin",
+"desc": ""
+},
+"https://boards.greenhouse.io/lightmatter/jobs/5473774008": {
+"first_seen": "2026-11-20",
+"title": "Analog Engineering Intern - Summer 2027",
+"company": "Lightmatter",
+"desc": ""
+},
+"https://lucidmotors.com/careers/search/5290937007": {
+"first_seen": "2026-11-20",
+"title": "Intern, Infotainment SW Validation Automation, Summer 2027",
+"company": "Lucid Motors",
+"desc": ""
+},
+"https://lucidmotors.com/careers/search/5290917007": {
+"first_seen": "2026-11-20",
+"title": "Intern, OTA Test and Validation Automation, Summer 2027",
+"company": "Lucid Motors",
+"desc": ""
+},
+"https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/25016340": {
+"first_seen": "2026-11-20",
+"title": "Systems Engineering Intern - MEMS",
+"company": "Texas Instruments",
+"desc": ""
+},
+"https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/25020327": {
+"first_seen": "2026-11-20",
+"title": "Analog Design Eng Intern (GaN Device)",
+"company": "Texas Instruments",
+"desc": ""
+},
+"https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-AZ-TUCSON-848--1151-E-Hermans-Rd--BLDG-848/Systems-Engineering-Intern--Spring-2027-_01887633": {
+"first_seen": "2026-11-20",
+"title": "Systems Engineering Intern (Spring 2027)",
+"company": "RTX",
+"desc": ""
+},
+"https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Mississippi-Iuka/XMLNAME-2027-Fall-Co-op-Tooling-Engineer_R10261559": {
+"first_seen": "2026-11-20",
+"title": "2027 Fall Co-op Tooling Engineer",
+"company": "Northrop Grumman",
+"desc": ""
+},
+"https://job-boards.greenhouse.io/queracomputinginc/jobs/5490107008": {
+"first_seen": "2026-11-20",
+"title": "Intern, Quantum Calibrations, Quantum Computing Services ",
+"company": "QuEra",
+"desc": ""
+},
+"https://careers-gdms.icims.com/jobs/78722/fpga-engineer-intern/job": {
+"first_seen": "2026-11-20",
+"title": "FPGA Engineer Intern",
+"company": "General Dynamics Mission Systems",
+"desc": ""
+},
+"https://jobs.smartrecruiters.com/navitas/6000000001594252": {
+"first_seen": "2026-11-20",
+"title": "Student and Academic Services Manager",
+"company": "Navitas Semiconductor",
 "desc": ""
 }
 }
