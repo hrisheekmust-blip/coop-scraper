@@ -240,6 +240,23 @@
  {
   "company": "Analog Devices",
   "title": "Digital Design Engineering Intern - Summer 2027",
+  "location": "US, TX, Austin, Plaza on the Lake",
+  "url": "https://analogdevices.wd1.myworkdayjobs.com/External/job/US-TX-Austin-Plaza-on-the-Lake/Digital-Design-Engineering-Intern---Summer-2027_R268548",
+  "posted": "Posted 2 Days Ago",
+  "deadline": "",
+  "term": "summer",
+  "rank": "A",
+  "hw": "digital design",
+  "tier": "big",
+  "sources": [
+   "workday"
+  ],
+  "first_seen": "2026-11-20",
+  "last_seen": "2026-11-20"
+ },
+ {
+  "company": "Analog Devices",
+  "title": "Digital Design Engineering Intern - Summer 2027",
   "location": "Austin, TX, USA",
   "url": "https://www.linkedin.com/jobs/view/4491317597",
   "posted": "2026-11-18",
@@ -266,7 +283,6 @@
   "hw": "electrical engineer",
   "tier": "big",
   "sources": [
-   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-09-17",
@@ -284,7 +300,6 @@
   "hw": "test engineer",
   "tier": "big",
   "sources": [
-   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-10-20",
@@ -302,7 +317,6 @@
   "hw": "firmware",
   "tier": "big",
   "sources": [
-   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-10-14",
@@ -320,7 +334,6 @@
   "hw": "test engineer",
   "tier": "big",
   "sources": [
-   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-10-15",
@@ -338,7 +351,6 @@
   "hw": "test engineer",
   "tier": "big",
   "sources": [
-   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-10-07",
@@ -441,7 +453,6 @@
   "hw": "electrical engineer",
   "tier": "big",
   "sources": [
-   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-09-17",
@@ -493,7 +504,6 @@
   "hw": "test engineer",
   "tier": "big",
   "sources": [
-   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-10-06",
@@ -895,7 +905,7 @@
   "title": "Embedded Software Developer, Network/Payload Intern (Summer 2027)",
   "location": "San Francisco",
   "url": "https://job-boards.greenhouse.io/astranis/jobs/4704569006",
-  "posted": "2026-11-12",
+  "posted": "2026-11-20",
   "deadline": "",
   "term": "summer",
   "rank": "A",
@@ -912,7 +922,7 @@
   "title": "Embedded Software Developer, Network/Payload Intern (Winter 2027)",
   "location": "San Francisco",
   "url": "https://job-boards.greenhouse.io/astranis/jobs/4704571006",
-  "posted": "2026-11-12",
+  "posted": "2026-11-20",
   "deadline": "",
   "term": "spring",
   "rank": "A",
@@ -2332,7 +2342,6 @@
   "hw": "metrology",
   "tier": "big",
   "sources": [
-   "internlist:coop",
    "workday"
   ],
   "first_seen": "2026-09-18",
@@ -3540,8 +3549,7 @@
   "hw": "analog",
   "tier": "startup",
   "sources": [
-   "greenhouse",
-   "jobspy:linkedin"
+   "greenhouse"
   ],
   "first_seen": "2026-11-20",
   "last_seen": "2026-11-20"
@@ -3697,23 +3705,6 @@
    "greenhouse"
   ],
   "first_seen": "2026-11-19",
-  "last_seen": "2026-11-20"
- },
- {
-  "company": "Lightmatter",
-  "title": "Laser Firmware Intern - Summer 2027",
-  "location": "Boston, MA",
-  "url": "https://boards.greenhouse.io/lightmatter/jobs/5479596008?gh_jid=5479596008",
-  "posted": "2026-11-11",
-  "deadline": "",
-  "term": "summer",
-  "rank": "A",
-  "hw": "firmware",
-  "tier": "startup",
-  "sources": [
-   "greenhouse"
-  ],
-  "first_seen": "2026-11-12",
   "last_seen": "2026-11-20"
  },
  {
@@ -3881,8 +3872,7 @@
   "hw": "silicon",
   "tier": "startup",
   "sources": [
-   "greenhouse",
-   "jobspy:linkedin"
+   "greenhouse"
   ],
   "first_seen": "2026-11-19",
   "last_seen": "2026-11-20"
@@ -4521,7 +4511,7 @@
   "title": "FPGA Engineer Intern (Summer 2027 - Austin)",
   "location": "Austin, Texas, United States",
   "url": "https://www.optiver.com/join-us/jobs/8641352002/?gh_jid=8641352002",
-  "posted": "2026-10-02",
+  "posted": "2026-11-20",
   "deadline": "",
   "term": "summer",
   "rank": "A",
@@ -4538,7 +4528,7 @@
   "title": "FPGA Engineer Intern (Summer 2027 - Chicago)",
   "location": "Chicago, Illinois, United States",
   "url": "https://www.optiver.com/join-us/jobs/8402114002/?gh_jid=8402114002",
-  "posted": "2026-10-02",
+  "posted": "2026-11-20",
   "deadline": "",
   "term": "summer",
   "rank": "A",
@@ -4668,6 +4658,23 @@
    "workday"
   ],
   "first_seen": "2026-09-18",
+  "last_seen": "2026-11-20"
+ },
+ {
+  "company": "RTX",
+  "title": "Electrical Engineering Co-op (Winter/Spring 2027)",
+  "location": "US-IA-CEDAR RAPIDS-193 ~ 1120 Collins Rd NE ~ BLDG193",
+  "url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-IA-CEDAR-RAPIDS-193--1120-Collins-Rd-NE--BLDG193/Electrical-Engineering-Co-op--Winter-Spring-2027-_01890700",
+  "posted": "Posted Today",
+  "deadline": "",
+  "term": "spring",
+  "rank": "A",
+  "hw": "electrical engineering",
+  "tier": "big",
+  "sources": [
+   "workday"
+  ],
+  "first_seen": "2026-11-20",
   "last_seen": "2026-11-20"
  },
  {
@@ -4929,23 +4936,6 @@
  {
   "company": "Rocket Lab",
   "title": "Electrical Engineering Intern Summer 2027",
-  "location": "Long Beach, CA",
-  "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7990683003",
-  "posted": "2026-11-02",
-  "deadline": "",
-  "term": "summer",
-  "rank": "A",
-  "hw": "electrical engineering",
-  "tier": "big",
-  "sources": [
-   "greenhouse"
-  ],
-  "first_seen": "2026-11-05",
-  "last_seen": "2026-11-20"
- },
- {
-  "company": "Rocket Lab",
-  "title": "Electrical Engineering Intern Summer 2027",
   "location": "Pasadena, CA",
   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7998598003",
   "posted": "2026-11-02",
@@ -4962,19 +4952,19 @@
  },
  {
   "company": "Rocket Lab",
-  "title": "Ground Systems Engineering Intern Spring 2027",
-  "location": "Stennis Space Center, MS",
-  "url": "https://job-boards.greenhouse.io/rocketlab/jobs/8007204003",
-  "posted": "2026-11-19",
+  "title": "Electrical Engineering Intern Summer 2027",
+  "location": "Long Beach, CA",
+  "url": "https://job-boards.greenhouse.io/rocketlab/jobs/7990683003",
+  "posted": "2026-11-02",
   "deadline": "",
-  "term": "spring",
+  "term": "summer",
   "rank": "A",
-  "hw": "maybe",
+  "hw": "electrical engineering",
   "tier": "big",
   "sources": [
    "greenhouse"
   ],
-  "first_seen": "2026-10-13",
+  "first_seen": "2026-11-05",
   "last_seen": "2026-11-20"
  },
  {
@@ -4992,6 +4982,23 @@
    "greenhouse"
   ],
   "first_seen": "2026-11-03",
+  "last_seen": "2026-11-20"
+ },
+ {
+  "company": "Rocket Lab",
+  "title": "Ground Systems Engineering Intern Spring 2027",
+  "location": "Stennis Space Center, MS",
+  "url": "https://job-boards.greenhouse.io/rocketlab/jobs/8007204003",
+  "posted": "2026-11-19",
+  "deadline": "",
+  "term": "spring",
+  "rank": "A",
+  "hw": "maybe",
+  "tier": "big",
+  "sources": [
+   "greenhouse"
+  ],
+  "first_seen": "2026-10-13",
   "last_seen": "2026-11-20"
  },
  {
@@ -5119,15 +5126,14 @@
   "title": "Electrical Engineering Co-Op",
   "location": "San Francisco - SF9",
   "url": "https://www.samsara.com/company/careers/roles/8226608?gh_jid=8226608",
-  "posted": "2026-11-10",
+  "posted": "2026-11-20",
   "deadline": "",
   "term": "spring",
   "rank": "A",
   "hw": "electrical engineering",
   "tier": "big",
   "sources": [
-   "greenhouse",
-   "internlist:coop"
+   "greenhouse"
   ],
   "first_seen": "2026-11-10",
   "last_seen": "2026-11-20"
@@ -6105,7 +6111,7 @@
   "company": "Skyworks",
   "title": "Product Engineering Summer/Fall Co-Op (June - Dec '27)",
   "location": "Irvine, CA, USA    ",
-  "url": "https://careers.skyworksinc.com/job/Product-Engineering-SummerFall-Co-Op-%28June-Dec-&apos;27%29/79122-en_US",
+  "url": "https://careers.skyworksinc.com/job/Product-Engineering-SummerFall-Co-Op-%28June-Dec-&apos;27%29/79123-en_US",
   "posted": "2026-11-18",
   "deadline": "",
   "term": "summer",
@@ -6115,7 +6121,7 @@
   "sources": [
    "successfactors"
   ],
-  "first_seen": "2026-11-19",
+  "first_seen": "2026-11-18",
   "last_seen": "2026-11-20"
  },
  {
@@ -6218,6 +6224,23 @@
    "successfactors"
   ],
   "first_seen": "2026-09-18",
+  "last_seen": "2026-11-20"
+ },
+ {
+  "company": "Skyworks",
+  "title": "RF Application Summer/Fall Co-op",
+  "location": "Woburn, MA, USA    ",
+  "url": "https://careers.skyworksinc.com/job/RF-Application-SummerFall-Co-op/79134-en_US",
+  "posted": "2026-11-20",
+  "deadline": "",
+  "term": "summer",
+  "rank": "A",
+  "hw": "rf",
+  "tier": "big",
+  "sources": [
+   "successfactors"
+  ],
+  "first_seen": "2026-11-20",
   "last_seen": "2026-11-20"
  },
  {
@@ -7065,7 +7088,6 @@
   "hw": "silicon",
   "tier": "big",
   "sources": [
-   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-09-17",
@@ -7083,7 +7105,6 @@
   "hw": "silicon",
   "tier": "big",
   "sources": [
-   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-11-05",
@@ -7768,23 +7789,6 @@
    "greenhouse"
   ],
   "first_seen": "2026-09-18",
-  "last_seen": "2026-11-20"
- },
- {
-  "company": "Zipline",
-  "title": "Aircraft Software Integration Intern (Summer 2027)",
-  "location": "South San Francisco, California, USA",
-  "url": "https://www.zipline.com/open-roles/7986848003?gh_jid=7986848003",
-  "posted": "2026-11-16",
-  "deadline": "",
-  "term": "summer",
-  "rank": "A",
-  "hw": "maybe",
-  "tier": "startup",
-  "sources": [
-   "greenhouse"
-  ],
-  "first_seen": "2026-11-05",
   "last_seen": "2026-11-20"
  },
  {
@@ -9427,23 +9431,6 @@
    "workday"
   ],
   "first_seen": "2026-10-28",
-  "last_seen": "2026-11-20"
- },
- {
-  "company": "Boston Dynamics",
-  "title": "Systems Test Engineer - Co-Op",
-  "location": "Waltham Office (POST)",
-  "url": "https://bostondynamics.wd1.myworkdayjobs.com/Boston_Dynamics/job/Waltham-Office-POST/Systems-Test-Engineer---Co-Op_R3312",
-  "posted": "",
-  "deadline": "",
-  "term": "coop-unspecified",
-  "rank": "B",
-  "hw": "systems test",
-  "tier": "big",
-  "sources": [
-   "workday"
-  ],
-  "first_seen": "2026-10-26",
   "last_seen": "2026-11-20"
  },
  {
@@ -13087,23 +13074,6 @@
  },
  {
   "company": "Analog Devices",
-  "title": "Embedded Hardware & Firmware Intern (Health Solutions)",
-  "location": "US, MA, Wilmington",
-  "url": "https://analogdevices.wd1.myworkdayjobs.com/External/job/US-MA-Wilmington/Embedded-Hardware---Firmware-Intern--Health-Solutions-_R269166",
-  "posted": "Posted 4 Days Ago",
-  "deadline": "",
-  "term": "unspecified",
-  "rank": "C",
-  "hw": "hardware",
-  "tier": "big",
-  "sources": [
-   "workday"
-  ],
-  "first_seen": "2026-11-17",
-  "last_seen": "2026-11-20"
- },
- {
-  "company": "Analog Devices",
   "title": "Embedded Hardware & Firmware Intern, Health Solutions",
   "location": "Wilmington, MA",
   "url": "https://go.vansh.nyc/1Bm?s=y",
@@ -14492,7 +14462,6 @@
   "hw": "eda,electrical",
   "tier": "big",
   "sources": [
-   "github:vanshb03-summer",
    "workday"
   ],
   "first_seen": "2026-10-28",
@@ -15537,6 +15506,23 @@
  },
  {
   "company": "Intel",
+  "title": "Design Verification Graduate Intern 2027",
+  "location": "4 Locations",
+  "url": "https://intel.wd1.myworkdayjobs.com/External/job/US-California-Santa-Clara/Design-Verification-Graduate-Intern-2027_JR0287645",
+  "posted": "Posted Today",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "design verification",
+  "tier": "big",
+  "sources": [
+   "workday"
+  ],
+  "first_seen": "2026-11-20",
+  "last_seen": "2026-11-20"
+ },
+ {
+  "company": "Intel",
   "title": "Intel Foundry/PCC Semiconductor Manufacturing Student Technician \u2013 ICE Program",
   "location": "US, Oregon, Hillsboro",
   "url": "https://intel.wd1.myworkdayjobs.com/External/job/US-Oregon-Hillsboro/Intel-Foundry-PCC-Semiconductor-Manufacturing-Student-Technician---ICE-Program_JR0288600",
@@ -15768,7 +15754,6 @@
   "hw": "firmware",
   "tier": "big",
   "sources": [
-   "github:vanshb03-summer",
    "workday"
   ],
   "first_seen": "2026-11-17",
@@ -16629,8 +16614,8 @@
   "company": "Microchip",
   "title": "Intern - Engineering (ASIC Verification)",
   "location": "CA - San Jose - 3870 N. First St",
-  "url": "https://microchiphr.wd5.myworkdayjobs.com/External/job/CA---San-Jose---3870-N-First-St/Intern---Engineering--ASIC-Verification-_R4910-26",
-  "posted": "Posted 3 Days Ago",
+  "url": "https://microchiphr.wd5.myworkdayjobs.com/External/job/CA---San-Jose---3870-N-First-St/Intern---Engineering--ASIC-Verification-_R4973-26",
+  "posted": "Posted Today",
   "deadline": "",
   "term": "unspecified",
   "rank": "C",
@@ -16639,7 +16624,7 @@
   "sources": [
    "workday"
   ],
-  "first_seen": "2026-11-17",
+  "first_seen": "2026-11-20",
   "last_seen": "2026-11-20"
  },
  {
@@ -17505,8 +17490,7 @@
   "hw": "rtl",
   "tier": "startup",
   "sources": [
-   "ashby",
-   "github:vanshb03-summer"
+   "ashby"
   ],
   "first_seen": "2026-09-23",
   "last_seen": "2026-11-20"
@@ -17649,19 +17633,19 @@
  },
  {
   "company": "Renesas",
-  "title": "Digital Design Engineer Intern",
-  "location": "Duluth, GEORGIA, United States",
-  "url": "https://jobs.smartrecruiters.com/renesaselectronics/744000162544079",
-  "posted": "2026-11-19",
+  "title": "Firmware Engineering Intern",
+  "location": "Austin, TEXAS, United States",
+  "url": "https://jobs.smartrecruiters.com/renesaselectronics/744000162784555",
+  "posted": "2026-11-20",
   "deadline": "",
   "term": "unspecified",
   "rank": "C",
-  "hw": "digital design",
+  "hw": "firmware",
   "tier": "big",
   "sources": [
    "smartrecruiters"
   ],
-  "first_seen": "2026-11-19",
+  "first_seen": "2026-11-20",
   "last_seen": "2026-11-20"
  },
  {
@@ -18024,6 +18008,23 @@
  },
  {
   "company": "Seagate",
+  "title": "Head Failure Analysis Intern III",
+  "location": "",
+  "url": "https://seagatecareers.com/job/Head-Failure-Analysis-Intern-III/15061-en_US",
+  "posted": "2026-09-15",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "failure analysis",
+  "tier": "big",
+  "sources": [
+   "successfactors"
+  ],
+  "first_seen": "2026-09-18",
+  "last_seen": "2026-11-20"
+ },
+ {
+  "company": "Seagate",
   "title": "Intern - Embedded Firmware in Seagate Research Group",
   "location": "Shakopee, MN, USA, ",
   "url": "https://seagatecareers.com/job/Intern-Embedded-Firmware-in-Seagate-Research-Group/15518-en_US",
@@ -18122,23 +18123,6 @@
    "successfactors"
   ],
   "first_seen": "2026-10-14",
-  "last_seen": "2026-11-20"
- },
- {
-  "company": "Seagate",
-  "title": "Metrology maintenance engineering intern",
-  "location": "Nakhon Ratchasima, THA, ",
-  "url": "https://seagatecareers.com/job/Metrology-maintenance-engineering-intern/14919-en_US",
-  "posted": "2026-08-26",
-  "deadline": "",
-  "term": "unspecified",
-  "rank": "C",
-  "hw": "metrology",
-  "tier": "big",
-  "sources": [
-   "successfactors"
-  ],
-  "first_seen": "2026-09-18",
   "last_seen": "2026-11-20"
  },
  {
@@ -18275,23 +18259,6 @@
    "github:vanshb03-summer"
   ],
   "first_seen": "2026-11-03",
-  "last_seen": "2026-11-20"
- },
- {
-  "company": "SiFive",
-  "title": "Intern - Design Verification Infrastructure Engineer - Platform",
-  "location": "4 Locations",
-  "url": "https://sifive.wd1.myworkdayjobs.com/sifivecareers/job/Santa-Clara-California-United-States/Intern---Design-Verification-Infrastructure-Engineer---Platform_R-101291-1",
-  "posted": "",
-  "deadline": "",
-  "term": "unspecified",
-  "rank": "C",
-  "hw": "design verification",
-  "tier": "big",
-  "sources": [
-   "workday"
-  ],
-  "first_seen": "2026-09-18",
   "last_seen": "2026-11-20"
  },
  {
@@ -18637,23 +18604,6 @@
  {
   "company": "Skyworks",
   "title": "Analog Design Intern",
-  "location": "Chandler, USA    ",
-  "url": "https://careers.skyworksinc.com/job/Analog-Design-Intern/78718-en_US",
-  "posted": "2026-10-27",
-  "deadline": "",
-  "term": "unspecified",
-  "rank": "C",
-  "hw": "analog",
-  "tier": "big",
-  "sources": [
-   "successfactors"
-  ],
-  "first_seen": "2026-10-27",
-  "last_seen": "2026-11-20"
- },
- {
-  "company": "Skyworks",
-  "title": "Analog Design Intern",
   "location": "Austin, TX, USA    ",
   "url": "https://careers.skyworksinc.com/job/Analog-Design-Intern/78173-en_US",
   "posted": "2026-08-18",
@@ -18666,6 +18616,23 @@
    "successfactors"
   ],
   "first_seen": "2026-09-17",
+  "last_seen": "2026-11-20"
+ },
+ {
+  "company": "Skyworks",
+  "title": "Analog Design Intern",
+  "location": "Chandler, USA    ",
+  "url": "https://careers.skyworksinc.com/job/Analog-Design-Intern/78718-en_US",
+  "posted": "2026-10-27",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "analog",
+  "tier": "big",
+  "sources": [
+   "successfactors"
+  ],
+  "first_seen": "2026-10-27",
   "last_seen": "2026-11-20"
  },
  {
@@ -18790,23 +18757,6 @@
  {
   "company": "Skyworks",
   "title": "Product Engineering Intern",
-  "location": "Greensboro, USA    ",
-  "url": "https://careers.skyworksinc.com/job/Product-Engineering-Intern/78778-en_US",
-  "posted": "2026-10-28",
-  "deadline": "",
-  "term": "unspecified",
-  "rank": "C",
-  "hw": "product engineering",
-  "tier": "big",
-  "sources": [
-   "successfactors"
-  ],
-  "first_seen": "2026-10-29",
-  "last_seen": "2026-11-20"
- },
- {
-  "company": "Skyworks",
-  "title": "Product Engineering Intern",
   "location": "Hillsboro, USA    ",
   "url": "https://careers.skyworksinc.com/job/Product-Engineering-Intern/78779-en_US",
   "posted": "2026-10-28",
@@ -18819,6 +18769,23 @@
    "successfactors"
   ],
   "first_seen": "2026-10-28",
+  "last_seen": "2026-11-20"
+ },
+ {
+  "company": "Skyworks",
+  "title": "Product Engineering Intern",
+  "location": "Greensboro, USA    ",
+  "url": "https://careers.skyworksinc.com/job/Product-Engineering-Intern/78778-en_US",
+  "posted": "2026-10-28",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "product engineering",
+  "tier": "big",
+  "sources": [
+   "successfactors"
+  ],
+  "first_seen": "2026-10-29",
   "last_seen": "2026-11-20"
  },
  {
@@ -18887,6 +18854,23 @@
    "successfactors"
   ],
   "first_seen": "2026-10-29",
+  "last_seen": "2026-11-20"
+ },
+ {
+  "company": "Skyworks",
+  "title": "Si Mixed Signal/Digital Design Intern",
+  "location": "Apopka, USA    ",
+  "url": "https://careers.skyworksinc.com/job/Si-Mixed-SignalDigital-Design-Intern/78711-en_US",
+  "posted": "2026-10-27",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "digital design,mixed signal",
+  "tier": "big",
+  "sources": [
+   "successfactors"
+  ],
+  "first_seen": "2026-11-11",
   "last_seen": "2026-11-20"
  },
  {
@@ -18960,8 +18944,8 @@
  {
   "company": "Skyworks",
   "title": "Test Engineering Intern",
-  "location": "Greensboro, USA    ",
-  "url": "https://careers.skyworksinc.com/job/Test-Engineering-Intern/78746-en_US",
+  "location": "Hillsboro, USA    ",
+  "url": "https://careers.skyworksinc.com/job/Test-Engineering-Intern/78777-en_US",
   "posted": "2026-10-28",
   "deadline": "",
   "term": "unspecified",
@@ -18977,9 +18961,9 @@
  {
   "company": "Skyworks",
   "title": "Test Engineering Intern",
-  "location": "Hillsboro, USA    ",
-  "url": "https://careers.skyworksinc.com/job/Test-Engineering-Intern/78777-en_US",
-  "posted": "2026-10-28",
+  "location": "Greensboro, USA    ",
+  "url": "https://careers.skyworksinc.com/job/Test-Engineering-Intern/78712-en_US",
+  "posted": "2026-10-27",
   "deadline": "",
   "term": "unspecified",
   "rank": "C",
@@ -18988,7 +18972,7 @@
   "sources": [
    "successfactors"
   ],
-  "first_seen": "2026-10-28",
+  "first_seen": "2026-10-27",
   "last_seen": "2026-11-20"
  },
  {
@@ -19275,8 +19259,6 @@
   "hw": "analog",
   "tier": "big",
   "sources": [
-   "jobspy:indeed",
-   "jobspy:linkedin",
    "oracle_hcm"
   ],
   "first_seen": "2026-11-20",
@@ -19669,7 +19651,6 @@
   "hw": "mems",
   "tier": "big",
   "sources": [
-   "jobspy:indeed",
    "oracle_hcm"
   ],
   "first_seen": "2026-11-20",
