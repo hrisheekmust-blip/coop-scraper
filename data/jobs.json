@@ -232,7 +232,6 @@
   "hw": "electrical engineer",
   "tier": "big",
   "sources": [
-   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-09-17",
@@ -250,7 +249,6 @@
   "hw": "test engineer",
   "tier": "big",
   "sources": [
-   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-10-20",
@@ -268,7 +266,6 @@
   "hw": "firmware",
   "tier": "big",
   "sources": [
-   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-10-14",
@@ -286,7 +283,6 @@
   "hw": "test engineer",
   "tier": "big",
   "sources": [
-   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-10-15",
@@ -304,7 +300,6 @@
   "hw": "test engineer",
   "tier": "big",
   "sources": [
-   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-10-07",
@@ -407,7 +402,6 @@
   "hw": "electrical engineer",
   "tier": "big",
   "sources": [
-   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-09-17",
@@ -459,7 +453,6 @@
   "hw": "test engineer",
   "tier": "big",
   "sources": [
-   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-10-06",
@@ -2316,7 +2309,6 @@
   "hw": "metrology",
   "tier": "big",
   "sources": [
-   "internlist:coop",
    "workday"
   ],
   "first_seen": "2026-09-18",
@@ -3558,8 +3550,7 @@
   "hw": "analog",
   "tier": "startup",
   "sources": [
-   "greenhouse",
-   "jobspy:linkedin"
+   "greenhouse"
   ],
   "first_seen": "2026-11-19",
   "last_seen": "2026-11-21"
@@ -3644,8 +3635,7 @@
   "hw": "electrical engineering",
   "tier": "startup",
   "sources": [
-   "greenhouse",
-   "jobspy:linkedin"
+   "greenhouse"
   ],
   "first_seen": "2026-11-19",
   "last_seen": "2026-11-21"
@@ -3832,9 +3822,7 @@
   "hw": "silicon",
   "tier": "startup",
   "sources": [
-   "greenhouse",
-   "jobspy:indeed",
-   "jobspy:linkedin"
+   "greenhouse"
   ],
   "first_seen": "2026-11-19",
   "last_seen": "2026-11-21"
@@ -5110,8 +5098,7 @@
   "hw": "electrical engineering",
   "tier": "big",
   "sources": [
-   "greenhouse",
-   "internlist:coop"
+   "greenhouse"
   ],
   "first_seen": "2026-11-10",
   "last_seen": "2026-11-21"
@@ -5817,7 +5804,7 @@
   "company": "Skyworks",
   "title": "BAW Design (Winter/Spring Co-Op)",
   "location": "Andover, MA, USA    ",
-  "url": "https://careers.skyworksinc.com/job/BAW-Design-%28WinterSpring-Co-Op%29/78510-en_US",
+  "url": "https://careers.skyworksinc.com/job/BAW-Design-%28WinterSpring-Co-Op%29/78509-en_US",
   "posted": "2026-09-24",
   "deadline": "",
   "term": "spring",
@@ -6406,6 +6393,23 @@
    "successfactors"
   ],
   "first_seen": "2026-09-18",
+  "last_seen": "2026-11-21"
+ },
+ {
+  "company": "Skyworks",
+  "title": "RF Module Design Engineer Co-op (Winter/Spring 2027)",
+  "location": "Cedar Rapids, IA, USA    ",
+  "url": "https://careers.skyworksinc.com/job/RF-Module-Design-Engineer-Co-op-%28WinterSpring-2027%29/78155-en_US",
+  "posted": "2026-08-19",
+  "deadline": "",
+  "term": "spring",
+  "rank": "A",
+  "hw": "rf",
+  "tier": "big",
+  "sources": [
+   "successfactors"
+  ],
+  "first_seen": "2026-10-31",
   "last_seen": "2026-11-21"
  },
  {
@@ -7049,7 +7053,6 @@
   "hw": "silicon",
   "tier": "big",
   "sources": [
-   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-09-17",
@@ -7067,7 +7070,6 @@
   "hw": "silicon",
   "tier": "big",
   "sources": [
-   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-11-05",
@@ -14457,7 +14459,6 @@
   "hw": "eda,electrical",
   "tier": "big",
   "sources": [
-   "github:vanshb03-summer",
    "workday"
   ],
   "first_seen": "2026-10-28",
@@ -15801,7 +15802,6 @@
   "hw": "firmware",
   "tier": "big",
   "sources": [
-   "github:vanshb03-summer",
    "workday"
   ],
   "first_seen": "2026-11-17",
@@ -17571,8 +17571,7 @@
   "hw": "rtl",
   "tier": "startup",
   "sources": [
-   "ashby",
-   "github:vanshb03-summer"
+   "ashby"
   ],
   "first_seen": "2026-09-23",
   "last_seen": "2026-11-21"
@@ -18072,23 +18071,6 @@
  },
  {
   "company": "Seagate",
-  "title": "Engineering Intern (slider process engineer)",
-  "location": "Nakhon Ratchasima, THA, ",
-  "url": "https://seagatecareers.com/job/Engineering-Intern-%28slider-process-engineer%29/14914-en_US",
-  "posted": "2026-09-03",
-  "deadline": "",
-  "term": "unspecified",
-  "rank": "C",
-  "hw": "process engineer",
-  "tier": "big",
-  "sources": [
-   "successfactors"
-  ],
-  "first_seen": "2026-09-18",
-  "last_seen": "2026-11-21"
- },
- {
-  "company": "Seagate",
   "title": "Engineering Intern - Drive/System Process Engineer",
   "location": "",
   "url": "https://seagatecareers.com/job/Engineering-Intern-DriveSystem-Process-Engineer/15297-en_US",
@@ -18140,23 +18122,6 @@
  },
  {
   "company": "Seagate",
-  "title": "Head Failure Analysis Intern III",
-  "location": "",
-  "url": "https://seagatecareers.com/job/Head-Failure-Analysis-Intern-III/15061-en_US",
-  "posted": "2026-09-15",
-  "deadline": "",
-  "term": "unspecified",
-  "rank": "C",
-  "hw": "failure analysis",
-  "tier": "big",
-  "sources": [
-   "successfactors"
-  ],
-  "first_seen": "2026-09-18",
-  "last_seen": "2026-11-21"
- },
- {
-  "company": "Seagate",
   "title": "Intern - HOC Metrology Support (Materials Characterization & Data Analytics)",
   "location": "Nakhon Ratchasima, THA, ",
   "url": "https://seagatecareers.com/job/Intern-HOC-Metrology-Support-%28Materials-Characterization-&amp;-Data-Analytics%29/15455-en_US",
@@ -18170,6 +18135,23 @@
    "successfactors"
   ],
   "first_seen": "2026-11-16",
+  "last_seen": "2026-11-21"
+ },
+ {
+  "company": "Seagate",
+  "title": "Intern - Materials Analysis, Processing & Characterization",
+  "location": "",
+  "url": "https://seagatecareers.com/job/Intern-Materials-Analysis%2C-Processing-&amp;-Characterization/15592-en_US",
+  "posted": "2026-11-19",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "characterization",
+  "tier": "big",
+  "sources": [
+   "successfactors"
+  ],
+  "first_seen": "2026-11-19",
   "last_seen": "2026-11-21"
  },
  {
@@ -18685,23 +18667,6 @@
  {
   "company": "Skyworks",
   "title": "Analog Design Intern",
-  "location": "Austin, TX, USA    ",
-  "url": "https://careers.skyworksinc.com/job/Analog-Design-Intern/78173-en_US",
-  "posted": "2026-08-18",
-  "deadline": "",
-  "term": "unspecified",
-  "rank": "C",
-  "hw": "analog",
-  "tier": "big",
-  "sources": [
-   "successfactors"
-  ],
-  "first_seen": "2026-09-17",
-  "last_seen": "2026-11-21"
- },
- {
-  "company": "Skyworks",
-  "title": "Analog Design Intern",
   "location": "Chandler, USA    ",
   "url": "https://careers.skyworksinc.com/job/Analog-Design-Intern/78718-en_US",
   "posted": "2026-10-27",
@@ -18714,6 +18679,23 @@
    "successfactors"
   ],
   "first_seen": "2026-10-27",
+  "last_seen": "2026-11-21"
+ },
+ {
+  "company": "Skyworks",
+  "title": "Analog Design Intern",
+  "location": "Austin, TX, USA    ",
+  "url": "https://careers.skyworksinc.com/job/Analog-Design-Intern/78173-en_US",
+  "posted": "2026-08-18",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "analog",
+  "tier": "big",
+  "sources": [
+   "successfactors"
+  ],
+  "first_seen": "2026-09-17",
   "last_seen": "2026-11-21"
  },
  {
@@ -18816,23 +18798,6 @@
    "successfactors"
   ],
   "first_seen": "2026-10-26",
-  "last_seen": "2026-11-21"
- },
- {
-  "company": "Skyworks",
-  "title": "Product Engineer Intern",
-  "location": "Chelmsford, USA    ",
-  "url": "https://careers.skyworksinc.com/job/Product-Engineer-Intern/78776-en_US",
-  "posted": "2026-10-29",
-  "deadline": "",
-  "term": "unspecified",
-  "rank": "C",
-  "hw": "product engineer",
-  "tier": "big",
-  "sources": [
-   "successfactors"
-  ],
-  "first_seen": "2026-10-29",
   "last_seen": "2026-11-21"
  },
  {
@@ -19026,8 +18991,8 @@
   "company": "Skyworks",
   "title": "Test Engineering Intern",
   "location": "Greensboro, USA    ",
-  "url": "https://careers.skyworksinc.com/job/Test-Engineering-Intern/79007-en_US",
-  "posted": "2026-10-29",
+  "url": "https://careers.skyworksinc.com/job/Test-Engineering-Intern/78746-en_US",
+  "posted": "2026-10-28",
   "deadline": "",
   "term": "unspecified",
   "rank": "C",
@@ -19036,7 +19001,7 @@
   "sources": [
    "successfactors"
   ],
-  "first_seen": "2026-10-29",
+  "first_seen": "2026-10-28",
   "last_seen": "2026-11-21"
  },
  {
@@ -19374,8 +19339,6 @@
   "hw": "analog",
   "tier": "big",
   "sources": [
-   "jobspy:indeed",
-   "jobspy:linkedin",
    "oracle_hcm"
   ],
   "first_seen": "2026-11-20",
@@ -19750,7 +19713,6 @@
   "hw": "mems",
   "tier": "big",
   "sources": [
-   "jobspy:indeed",
    "oracle_hcm"
   ],
   "first_seen": "2026-11-20",
