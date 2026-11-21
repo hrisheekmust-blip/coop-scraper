@@ -635,8 +635,8 @@
 },
 "https://www.indeed.com/viewjob": {
 "first_seen": "2026-09-18",
-"title": "Electrical Controls Engineering Co-Op - Spring 2027",
-"company": "SSOE Group",
+"title": "Electrical Engineering Co-op (Winter/Spring 2027)",
+"company": "Collins Aerospace",
 "desc": ""
 },
 "https://www.linkedin.com/jobs/view/4468697840": {
@@ -982,7 +982,8 @@
 "https://www.linkedin.com/jobs/view/4468203685": {
 "first_seen": "2026-09-18",
 "title": "Off Site Validation Test Engineer Intern - Crop Harvesting",
-"company": "CNH"
+"company": "CNH",
+"desc": ""
 },
 "https://www.linkedin.com/jobs/view/4466578203": {
 "first_seen": "2026-09-18",
@@ -26075,6 +26076,108 @@
 "first_seen": "2026-11-21",
 "title": "Electrical Engineering Intern-Summer 2027",
 "company": "Motorola Solutions",
+"desc": ""
+},
+"https://jobs.ashbyhq.com/Etched/45639738-0414-43e2-a5e7-b4acc928d62d": {
+"first_seen": "2026-11-21",
+"title": "SI/PI Intern",
+"company": "Etched",
+"desc": ""
+},
+"https://go.vansh.nyc/1G9": {
+"first_seen": "2026-11-21",
+"title": "Firmware Co-op",
+"company": "Nottingham Spirk",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/7afe5952-3605-47a8-a9e6-c60a047d32e5": {
+"first_seen": "2026-11-21",
+"title": "Electrical Controls Engineering Co-op",
+"company": "SSOE Group",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/6b257bab-c647-4853-8aa3-4ad9634b67fc": {
+"first_seen": "2026-11-21",
+"title": "Electrical Engineering Intern/Co-op",
+"company": "MSA Safety",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/d2127f5a-5f4f-4101-a127-dd031254faf7": {
+"first_seen": "2026-11-21",
+"title": "Electrical Engineer Intern Co-op",
+"company": "Kleinfelder",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/441a79ab-2aca-4ab8-899e-8cc4f757947d": {
+"first_seen": "2026-11-21",
+"title": "Electrical Engineering Co-op",
+"company": "SRI International",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/e9d10e54-afe6-4073-a80b-78760c7b5fe0": {
+"first_seen": "2026-11-21",
+"title": "Process Engineer Co-op",
+"company": "Zimmer Biomet Holdings",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/e61a13dc-c8c0-48f8-8e28-91afe63983a1": {
+"first_seen": "2026-11-21",
+"title": "Electrical Engineering Intern Co-op",
+"company": "Southern States, LLC",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/4beffbcd-b583-4c3f-b07f-414684404061": {
+"first_seen": "2026-11-21",
+"title": "Hardware Verification Engineer Co-op",
+"company": "Ralliant",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/b902c791-736e-4a85-aca0-4e7636502de4": {
+"first_seen": "2026-11-21",
+"title": "Photonics Characterization Intern",
+"company": "Lightmatter",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4491998383": {
+"first_seen": "2026-11-21",
+"title": "Hardware Development Engineering Intern",
+"company": "RoboNex 88 Technologies",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4492807112": {
+"first_seen": "2026-11-21",
+"title": "Design Verification Graduate Intern 2027",
+"company": "Intel",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4492993881": {
+"first_seen": "2026-11-21",
+"title": "System Verification Engineering Intern",
+"company": "Renesas Electronics",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4492584298": {
+"first_seen": "2026-11-21",
+"title": "Software Engineering Intern - Circuit Simulation infrastructure",
+"company": "Cadence",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4491606209": {
+"first_seen": "2026-11-21",
+"title": "Software Application Engineer Intern",
+"company": "KLA",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4493274236": {
+"first_seen": "2026-11-21",
+"title": "Electrical Engineering Intern - Power Systems",
+"company": "LayerZero Power Systems",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4467918288": {
+"first_seen": "2026-11-21",
+"title": "Summer 2027 - Electrical Engineering Internship, Hardware",
+"company": "CesiumAstro",
 "desc": ""
 }
 }
