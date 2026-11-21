@@ -122,8 +122,8 @@ PsiQuantum,"Intern, System Architecture","Brisbane, Queensland, Australia; Dares
 Samsara,Account Development Representative Intern - Atlanta,"Atlanta, Georgia, United States",no hardware keyword,https://www.samsara.com/company/careers/roles/8103119?gh_jid=8103119
 Samsara,Account Development Representative Intern - Atlanta,"Atlanta, Georgia, United States",no hardware keyword,https://www.samsara.com/company/careers/roles/8325373?gh_jid=8325373
 Samsara,Account Development Representative Intern - Atlanta,"Atlanta, Georgia, United States",no hardware keyword,https://www.samsara.com/company/careers/roles/8325057?gh_jid=8325057
-Samsara,Account Development Representative Intern - Phoenix,"Phoenix, Arizona, United States",no hardware keyword,https://www.samsara.com/company/careers/roles/8099799?gh_jid=8099799
 Samsara,Account Development Representative Intern - Phoenix,"Phoenix, Arizona, United States",no hardware keyword,https://www.samsara.com/company/careers/roles/8325371?gh_jid=8325371
+Samsara,Account Development Representative Intern - Phoenix,"Phoenix, Arizona, United States",no hardware keyword,https://www.samsara.com/company/careers/roles/8099799?gh_jid=8099799
 Samsara,Account Development Representative Intern - Phoenix,"Phoenix, Arizona, United States",no hardware keyword,https://www.samsara.com/company/careers/roles/8319784?gh_jid=8319784
 Samsara,Account Development Representative Intern - Phoenix,"Phoenix, Arizona, United States",no hardware keyword,https://www.samsara.com/company/careers/roles/8325056?gh_jid=8325056
 Samsara,Product Design (Mechanical Engineering) Co-Op,San Francisco - SF9,excluded title,https://www.samsara.com/company/careers/roles/8214590?gh_jid=8214590
@@ -248,8 +248,8 @@ Planet Labs,"Working Student, Professional Services","Berlin, Germany",no hardwa
 Planet Labs,"Working Student, SpaceOps","Berlin, Germany",no hardware keyword,https://job-boards.greenhouse.io/planetlabs/jobs/8287776
 Scale AI,Machine Learning Research Intern (Summer 2027),"New York, NY; San Francisco, CA",software only,https://job-boards.greenhouse.io/scaleai/jobs/4735665005
 Scale AI,Software Engineering Intern (Summer 2027) ,"San Francisco, CA",software only,https://job-boards.greenhouse.io/scaleai/jobs/4730845005
-Scale AI,Software Engineering Intern (Summer 2027) ,"London, UK",software only,https://job-boards.greenhouse.io/scaleai/jobs/4730846005
 Scale AI,Software Engineering Intern (Summer 2027) ,"Doha, Qatar ",software only,https://job-boards.greenhouse.io/scaleai/jobs/4730834005
+Scale AI,Software Engineering Intern (Summer 2027) ,"London, UK",software only,https://job-boards.greenhouse.io/scaleai/jobs/4730846005
 Zoox,Contract  Student Worker - Data Analyst (Part-time),"Foster City, CA",excluded title,https://jobs.lever.co/zoox/5e03b357-0cc1-4194-9488-14f85044f4f9
 Zoox,Contract Student Worker - Autonomy and Geofence Expansion (20 hrs/wk),"Foster City, CA",no hardware keyword,https://jobs.lever.co/zoox/45594791-0b7b-4310-9a6e-067f53e4a191
 Zoox,Contract Student Worker - Data Scientist,"Foster City, CA",no hardware keyword,https://jobs.lever.co/zoox/51838a63-2dde-44dc-9c3e-757f35b9690f
@@ -882,12 +882,13 @@ Skyworks,Global Sourcing Process Intern,"Greensboro, USA    ",no hardware keywor
 Skyworks,"Software Engineering Intern, SWR","Apopka, USA    ",software only,https://careers.skyworksinc.com/job/Software-Engineering-Intern%2C-SWR/78757-en_US
 Skyworks,Supplier Quality Engineering Intern,"Richardson, USA    ",no hardware keyword,https://careers.skyworksinc.com/job/Supplier-Quality-Engineering-Intern/78989-en_US
 Skyworks,Quality Engineering Intern-Summer 2027,"Milpitas, CA, USA    ",no hardware keyword,https://careers.skyworksinc.com/job/Quality-Engineering-Intern-Summer-2027/78247-en_US
+Skyworks,Procurement Intern (Warehouse & Materials Planning),"Singapore, SGP    ",excluded title,https://careers.skyworksinc.com/job/Procurement-Intern-%28Warehouse-&amp;-Materials-Planning%29/78624-en_US
 Skyworks,Digital Strategy Marketing Intern,"Richardson, USA    ",excluded title,https://careers.skyworksinc.com/job/Digital-Strategy-Marketing-Intern/78987-en_US
 Skyworks,Procurement Intern (Warehouse & Materials Planning),"Singapore, SGP    ",excluded title,https://careers.skyworksinc.com/job/Procurement-Intern-%28Warehouse-&amp;-Materials-Planning%29/78625-en_US
-Skyworks,Manufacturing Digital Transformation & AI Summer Intern (May-Aug '27),"Newbury Park, CA, USA    ",software only,https://careers.skyworksinc.com/job/Manufacturing-Digital-Transformation-&amp;-AI-Summer-Intern-%28May-Aug-&apos;27%29/79004-en_US
 Skyworks,Intern,"Austin, TX, USA    ",no hardware keyword,https://careers.skyworksinc.com/job/Intern/78441-en_US
-Skyworks,Sourcing Intern,"Greensboro, USA    ",no hardware keyword,https://careers.skyworksinc.com/job/Sourcing-Intern/78753-en_US
+Skyworks,Intern,"Austin, TX, USA    ",no hardware keyword,https://careers.skyworksinc.com/job/Intern/78463-en_US
 Skyworks,Sourcing Intern,"Singapore, SGP    ",no hardware keyword,https://careers.skyworksinc.com/job/Sourcing-Intern/78579-en_US
+Skyworks,Sourcing Intern,"Greensboro, USA    ",no hardware keyword,https://careers.skyworksinc.com/job/Sourcing-Intern/78753-en_US
 Skyworks,RF Systems Co-Op (May 2027 - Apr 2028),"Ottawa, ON, CAN    ",non-US,https://careers.skyworksinc.com/job/RF-Systems-Co-Op-%28May-2027-Apr-2028%29/78257-en_US
 Skyworks,Product Line Winter/Spring Co-Op (Jan - June '27),"Newbury Park, CA, USA    ",no hardware keyword,https://careers.skyworksinc.com/job/Product-Line-WinterSpring-Co-Op-%28Jan-June-&apos;27%29/79108-en_US
 Skyworks,Co-Op,"Austin, TX, USA    ",no hardware keyword,https://careers.skyworksinc.com/job/Co-Op/78449-en_US
@@ -899,30 +900,26 @@ Skyworks,Packaging Engineering Intern,"Greensboro, USA    ",no hardware keyword,
 Skyworks,Application Engineering Intern,"Barcelona, ESP    ",no hardware keyword,https://careers.skyworksinc.com/job/Application-Engineering-Intern/78762-en_US
 Skyworks,AI Engineering Intern,"Barcelona, ESP    ",software only,https://careers.skyworksinc.com/job/AI-Engineering-Intern/78703-en_US
 Skyworks,Application Engineering Intern,"Apopka, USA    ",no hardware keyword,https://careers.skyworksinc.com/job/Application-Engineering-Intern/78761-en_US
-Skyworks,Software Engineer Intern,"Richardson, USA    ",software only,https://careers.skyworksinc.com/job/Software-Engineer-Intern/78751-en_US
-Skyworks,Software Engineer Intern,"Bend, USA    ",software only,https://careers.skyworksinc.com/job/Software-Engineer-Intern/78780-en_US
-Skyworks,Facilities Engineering Intern,"Greensboro, USA    ",excluded title,https://careers.skyworksinc.com/job/Facilities-Engineering-Intern/78764-en_US
-Skyworks,Research Engineering Intern,"Richardson, USA    ",no hardware keyword,https://careers.skyworksinc.com/job/Research-Engineering-Intern/78747-en_US
+Skyworks,Filter Design Intern,"Apopka, USA    ",no hardware keyword,https://careers.skyworksinc.com/job/Filter-Design-Intern/78721-en_US
+Skyworks,SOI Design Intern,"Greensboro, USA    ",no hardware keyword,https://careers.skyworksinc.com/job/SOI-Design-Intern/78752-en_US
+Skyworks,SOI Design Intern,"Greensboro, USA    ",no hardware keyword,https://careers.skyworksinc.com/job/SOI-Design-Intern/78725-en_US
 Skyworks,Device Engineering Intern,"Richardson, USA    ",no hardware keyword,https://careers.skyworksinc.com/job/Device-Engineering-Intern/78781-en_US
-Skyworks,Data Analytics Intern,"Greensboro, USA    ",no hardware keyword,https://careers.skyworksinc.com/job/Data-Analytics-Intern/78719-en_US
-Skyworks,Process Engineering Intern,"Richardson, USA    ",no hardware keyword,https://careers.skyworksinc.com/job/Process-Engineering-Intern/78787-en_US
-Skyworks,Product Management Intern,"Greensboro, USA    ",excluded title,https://careers.skyworksinc.com/job/Product-Management-Intern/78722-en_US
+Skyworks,Process Engineering Intern,"Richardson, USA    ",no hardware keyword,https://careers.skyworksinc.com/job/Process-Engineering-Intern/78742-en_US
 Skyworks,Product Management Intern,"Greensboro, USA    ",excluded title,https://careers.skyworksinc.com/job/Product-Management-Intern/78723-en_US
+Skyworks,Product Management Intern,"Greensboro, USA    ",excluded title,https://careers.skyworksinc.com/job/Product-Management-Intern/78722-en_US
+Skyworks,Process Engineering Intern,"Richardson, USA    ",no hardware keyword,https://careers.skyworksinc.com/job/Process-Engineering-Intern/78787-en_US
+Skyworks,Software Engineer Intern,"Richardson, USA    ",software only,https://careers.skyworksinc.com/job/Software-Engineer-Intern/78751-en_US
+Skyworks,Facilities Engineering Intern,"Greensboro, USA    ",excluded title,https://careers.skyworksinc.com/job/Facilities-Engineering-Intern/78764-en_US
 Skyworks,Applications Engineering Intern,"Greensboro, USA    ",no hardware keyword,https://careers.skyworksinc.com/job/Applications-Engineering-Intern/78789-en_US
 Skyworks,Industrial Engineering Intern,"Greensboro, USA    ",no hardware keyword,https://careers.skyworksinc.com/job/Industrial-Engineering-Intern/78744-en_US
 Skyworks,Process Engineering Intern,"Richardson, USA    ",no hardware keyword,https://careers.skyworksinc.com/job/Process-Engineering-Intern/78799-en_US
 Skyworks,Research Scientist Intern,"Richardson, USA    ",software only,https://careers.skyworksinc.com/job/Research-Scientist-Intern/78801-en_US
 Skyworks,PDK Development Winter/Spring Co-Op (Jan-June '27),"Austin, TX, USA    ; Hillsboro, OR, USA    ; Irvine, CA, USA    ; Maitland, FL, USA    ; Newbury Park, CA, USA    ; San Jose, CA, USA    ",no hardware keyword,https://careers.skyworksinc.com/job/PDK-Development-WinterSpring-Co-Op-%28Jan-June-&apos;27%29/78490-en_US
-Skyworks,Business Process Integration Intern,"Greensboro, USA    ",excluded title,https://careers.skyworksinc.com/job/Business-Process-Integration-Intern/78732-en_US
-Skyworks,Sourcing Business Analyst Intern,"Greensboro, USA    ",excluded title,https://careers.skyworksinc.com/job/Sourcing-Business-Analyst-Intern/78755-en_US
-Skyworks,SAW R&D Intern,"Apopka, USA    ",no hardware keyword,https://careers.skyworksinc.com/job/SAW-R&amp;D-Intern/78760-en_US
-Skyworks,Manufacturing Quality Engineer Intern,"Richardson, USA    ",no hardware keyword,https://careers.skyworksinc.com/job/Manufacturing-Quality-Engineer-Intern/78763-en_US
 Skyworks,Device and Process Development Intern,"Richardson, USA    ",no hardware keyword,https://careers.skyworksinc.com/job/Device-and-Process-Development-Intern/78791-en_US
-Skyworks,GaAs/GaN Design Intern,"Apopka, USA    ",no hardware keyword,https://careers.skyworksinc.com/job/GaAsGaN-Design-Intern/78782-en_US
-Skyworks,Device and Process Development Intern,"Richardson, USA    ",no hardware keyword,https://careers.skyworksinc.com/job/Device-and-Process-Development-Intern/78769-en_US
 Skyworks,Supplier Quality Management Intern,"Singapore, SGP    ",no hardware keyword,https://careers.skyworksinc.com/job/Supplier-Quality-Management-Intern/78602-en_US
-Skyworks,Data Engineering Summer/Fall Co-Op (June - Dec '27),"Irvine, CA, USA    ",no hardware keyword,https://careers.skyworksinc.com/job/Data-Engineering-SummerFall-Co-Op-%28June-Dec-&apos;27%29/78285-en_US
 Skyworks,Process Engineering Intern (SAW Process),"Singapore, SGP    ",no hardware keyword,https://careers.skyworksinc.com/job/Process-Engineering-Intern-%28SAW-Process%29/78592-en_US
+Skyworks,Data Engineering Summer/Fall Co-Op (June - Dec '27),"Irvine, CA, USA    ",no hardware keyword,https://careers.skyworksinc.com/job/Data-Engineering-SummerFall-Co-Op-%28June-Dec-&apos;27%29/78285-en_US
+Skyworks,Audio AI Engineering Intern-Summer 2027,"Hillsboro, OR, USA    ",software only,https://careers.skyworksinc.com/job/Audio-AI-Engineering-Intern-Summer-2027/78172-en_US
 Skyworks,Data Engineering Summer Intern (May-Aug '27),"Irvine, CA, USA    ",no hardware keyword,https://careers.skyworksinc.com/job/Data-Engineering-Summer-Intern-%28May-Aug-&apos;27%29/78258-en_US
 Skyworks,Acoustic Filter Design Summer/Fall Co-Op (June-Dec '27),"Irvine, CA, USA    ",no hardware keyword,https://careers.skyworksinc.com/job/Acoustic-Filter-Design-SummerFall-Co-Op-%28June-Dec-&apos;27%29/78518-en_US
 Skyworks,Quality Systems Production Part Approval Process (PPAP) Coordinator - Data Analyst Co-Op,"Ottawa, ON, CAN    ",excluded title,https://careers.skyworksinc.com/job/Quality-Systems-Production-Part-Approval-Process-%28PPAP%29-Coordinator-Data-Analyst-Co-Op/78438-en_US
@@ -950,20 +947,21 @@ Skyworks,Product Development Assembly/Tuning Co-Op (Summer/Fall 2027),"San Jose,
 Skyworks,QA / Software Development Co-op (Jan-Dec 2027),"Ottawa, ON, CAN    ",software only,https://careers.skyworksinc.com/job/QA-Software-Development-Co-op-%28Jan-Dec-2027%29/78427-en_US
 Skyworks,RFIC Design | 12-month Co-op (May '27 - April '28),"Ottawa, ON, CAN    ",non-US,https://careers.skyworksinc.com/job/RFIC-Design-12-month-Co-op-%28May-&apos;27-April-&apos;28%29/78401-en_US
 Skyworks,RF/EM Design Co-Op,"Ottawa, ON, CAN    ",non-US,https://careers.skyworksinc.com/job/RFEM-Design-Co-Op/78395-en_US
-Skyworks,Intern,"Austin, TX, USA    ",no hardware keyword,https://careers.skyworksinc.com/job/Intern/78463-en_US
-Skyworks,Product Engineering Co-Op (Jan-Dec 2027),"Ottawa, ON, CAN    ",non-US,https://careers.skyworksinc.com/job/Product-Engineering-Co-Op-%28Jan-Dec-2027%29/78462-en_US
 Skyworks,RFIC Design Co-Op (Jan-Dec 2027),"Ottawa, ON, CAN    ",non-US,https://careers.skyworksinc.com/job/RFIC-Design-Co-Op-%28Jan-Dec-2027%29/78205-en_US
+Skyworks,Product Engineering Co-Op (Jan-Dec 2027),"Ottawa, ON, CAN    ",non-US,https://careers.skyworksinc.com/job/Product-Engineering-Co-Op-%28Jan-Dec-2027%29/78462-en_US
 Skyworks,Test Engineering Co-Op (May 2027-April 2028)),"Ottawa, ON, CAN    ",non-US,https://careers.skyworksinc.com/job/Test-Engineering-Co-Op-%28May-2027-April-2028%29%29/78274-en_US
 Skyworks,BAW Engineering Summer/Fall Co-Op (June - Dec '27),"Irvine, CA, USA    ",no hardware keyword,https://careers.skyworksinc.com/job/BAW-Engineering-SummerFall-Co-Op-%28June-Dec-&apos;27%29/79128-en_US
 Skyworks,Product Development - Assembly and Tuning Summer/Fall Co-Op (June-Dec '27),"Newbury Park, CA, USA    ",no hardware keyword,https://careers.skyworksinc.com/job/Product-Development-Assembly-and-Tuning-SummerFall-Co-Op-%28June-Dec-&apos;27%29/79050-en_US
 Skyworks,Product Development - Assembly and Tuning Summer/Fall Co-Op (June-Dec '27),"Newbury Park, CA, USA    ",no hardware keyword,https://careers.skyworksinc.com/job/Product-Development-Assembly-and-Tuning-SummerFall-Co-Op-%28June-Dec-&apos;27%29/79091-en_US
 Skyworks,Optical Interconnect System Architecture & Link Optimization PhD Intern - Summer 2027,"Irvine, CA, USA    ",no hardware keyword,https://careers.skyworksinc.com/job/Optical-Interconnect-System-Architecture-&amp;-Link-Optimization-PhD-Intern-Summer-2027/78523-en_US
-Skyworks,Audio AI Engineering Intern-Summer 2027,"Hillsboro, OR, USA    ",software only,https://careers.skyworksinc.com/job/Audio-AI-Engineering-Intern-Summer-2027/78172-en_US
-Skyworks,Design Engineering Intern,"Hillsboro, USA    ",no hardware keyword,https://careers.skyworksinc.com/job/Design-Engineering-Intern/78715-en_US
-Skyworks,Process Engineering Intern,"Richardson, USA    ",no hardware keyword,https://careers.skyworksinc.com/job/Process-Engineering-Intern/78742-en_US
-Skyworks,SOI Design Intern,"Greensboro, USA    ",no hardware keyword,https://careers.skyworksinc.com/job/SOI-Design-Intern/78752-en_US
-Skyworks,SOI Design Intern,"Greensboro, USA    ",no hardware keyword,https://careers.skyworksinc.com/job/SOI-Design-Intern/78725-en_US
-Skyworks,Integration Engineering Intern,"Greensboro, USA    ",no hardware keyword,https://careers.skyworksinc.com/job/Integration-Engineering-Intern/78794-en_US
+Skyworks,GaAs/GaN Design Intern,"Apopka, USA    ",no hardware keyword,https://careers.skyworksinc.com/job/GaAsGaN-Design-Intern/78782-en_US
+Skyworks,Data Analytics Intern,"Greensboro, USA    ",no hardware keyword,https://careers.skyworksinc.com/job/Data-Analytics-Intern/78719-en_US
+Skyworks,Research Engineering Intern,"Richardson, USA    ",no hardware keyword,https://careers.skyworksinc.com/job/Research-Engineering-Intern/78747-en_US
+Skyworks,Sourcing Business Analyst Intern,"Greensboro, USA    ",excluded title,https://careers.skyworksinc.com/job/Sourcing-Business-Analyst-Intern/78755-en_US
+Skyworks,Manufacturing Quality Engineer Intern,"Richardson, USA    ",no hardware keyword,https://careers.skyworksinc.com/job/Manufacturing-Quality-Engineer-Intern/78763-en_US
+Skyworks,SAW R&D Intern,"Apopka, USA    ",no hardware keyword,https://careers.skyworksinc.com/job/SAW-R&amp;D-Intern/78760-en_US
+Skyworks,Software Engineer Intern,"Bend, USA    ",software only,https://careers.skyworksinc.com/job/Software-Engineer-Intern/78780-en_US
+Skyworks,Device and Process Development Intern,"Richardson, USA    ",no hardware keyword,https://careers.skyworksinc.com/job/Device-and-Process-Development-Intern/78769-en_US
 Amazon,"Data Center Infrastructure Engineer Intern, Summer 2027 - East","US, VA, Herndon",no hardware keyword,https://www.amazon.jobs/en/jobs/10605141/data-center-infrastructure-engineer-intern-summer-2027-east
 Amazon,"Data Center Infrastructure Engineer Intern, Summer 2027 - West Coast","US, OR, Umatilla",no hardware keyword,https://www.amazon.jobs/en/jobs/10605132/data-center-infrastructure-engineer-intern-summer-2027-west-coast
 Amazon,"Data Center Infrastructure Engineer Intern, Summer 2027 - Midwest / Southeast","US, TX, Austin",no hardware keyword,https://www.amazon.jobs/en/jobs/10593054/data-center-infrastructure-engineer-intern-summer-2027-midwest-southeast
@@ -1515,12 +1513,12 @@ Honeywell,Intern Bachelos Adv Manufacturing,"Juarez, CHH, Mexico",no hardware ke
 Honeywell,Intern (Master's)-Business Dev,"Bucuresti, Bucuresti, Romania",excluded title,https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/160444
 Honeywell,Sales Representative Intern (m/f/d),"Horsham, West Sussex, United Kingdom",excluded title,https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/160368
 Honeywell,Intern Bachelors AI,"Bengaluru, Karnataka, India",software only,https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/161528
+Honeywell,Intern Bachelors Hardware Eng,"Hyderabad, Telangana, India",non-US,https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/161548
 Honeywell,Intern Masters AI (m/f/d),"Dublin, Co. Dublin, Ireland",software only,https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/161883
 Honeywell,Intern Masters AI (m/f/d),"Dublin, Co. Dublin, Ireland",software only,https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/161885
 Honeywell,Intern Masters AI (m/f/d),"Dublin, Co. Dublin, Ireland",software only,https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/161886
 Honeywell,Intern Masters AI (m/f/d),"Dublin, Co. Dublin, Ireland",software only,https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/161888
 Honeywell,Intern Masters AI (m/f/d),"Dublin, Co. Dublin, Ireland",software only,https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/161889
-Honeywell,Intern Bachelors Hardware Eng,"Hyderabad, Telangana, India",non-US,https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/161548
 Honeywell,Lead Payroll Administrator Intern,"San Luis Potosi, SLP, Mexico",no hardware keyword,https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/159949
 Honeywell,Technical Writer Intern (m/f/d),"Horsham, West Sussex, United Kingdom",excluded title,https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/160381
 Honeywell,Electronics Engineer Intern (m/f/d),"Leicester, Leicestershire, United Kingdom",non-US,https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/159006
@@ -1687,17 +1685,18 @@ Seagate,AI Adoption Intern,,software only,https://seagatecareers.com/job/AI-Adop
 Seagate,Intern - Mechanical Behavior & Failure Analysis,,excluded title,https://seagatecareers.com/job/Intern-Mechanical-Behavior-&amp;-Failure-Analysis/15590-en_US
 Seagate,Intern - Mechanical Behavior & Materials Testing,,excluded title,https://seagatecareers.com/job/Intern-Mechanical-Behavior-&amp;-Materials-Testing/15591-en_US
 Seagate,"Revenue Operations Account Management Intern, Supply & Demand",,no hardware keyword,https://seagatecareers.com/job/Revenue-Operations-Account-Management-Intern%2C-Supply-&amp;-Demand/15045-en_US
-Seagate,Data Scientist Intern,,no hardware keyword,https://seagatecareers.com/job/Data-Scientist-Intern/15442-en_US
+Seagate,Sustaining Intern - Graduating High School Senior (Summer 2027),"Bloomington, MN, USA, ",no hardware keyword,https://seagatecareers.com/job/Sustaining-Intern-Graduating-High-School-Senior-%28Summer-2027%29/15295-en_US
 Seagate,Data Scientist Intern,,no hardware keyword,https://seagatecareers.com/job/Data-Scientist-Intern/15443-en_US
+Seagate,Data Scientist Intern,,no hardware keyword,https://seagatecareers.com/job/Data-Scientist-Intern/15442-en_US
 Seagate,Data Scientist Intern,,no hardware keyword,https://seagatecareers.com/job/Data-Scientist-Intern/15444-en_US
 Seagate,Microscopy Engineer Intern,"Bloomington, MN, USA, ",no hardware keyword,https://seagatecareers.com/job/Microscopy-Engineer-Intern/15429-en_US
-Seagate,Sustaining Intern - Graduating High School Senior (Summer 2027),"Bloomington, MN, USA, ",no hardware keyword,https://seagatecareers.com/job/Sustaining-Intern-Graduating-High-School-Senior-%28Summer-2027%29/15295-en_US
 Seagate,Summer Intern - Cryptography and Security,,no hardware keyword,https://seagatecareers.com/job/Summer-Intern-Cryptography-and-Security/15266-en_US
 Seagate,Human Resources Rotational Intern - Summer 2027,"Bloomington, MN, USA, ; Longmont, CO, USA, ",excluded title,https://seagatecareers.com/job/Human-Resources-Rotational-Intern-Summer-2027/15516-en_US
 Seagate,Mechanical Design Intern,"Bloomington, MN, USA, ",excluded title,https://seagatecareers.com/job/Mechanical-Design-Intern/15525-en_US
 Seagate,Web Application Developer Intern,,software only,https://seagatecareers.com/job/Web-Application-Developer-Intern/15198-en_US
 Seagate,Web Application Developer Intern,,software only,https://seagatecareers.com/job/Web-Application-Developer-Intern/15220-en_US
 Seagate,Summer Intern - Machine Learning for Corporate Strategy,"Bloomington, MN, USA, ",software only,https://seagatecareers.com/job/Summer-Intern-Machine-Learning-for-Corporate-Strategy/15363-en_US
+Seagate,"HR Intern, Site Human Resources & Business Partner","Shugart, SGP, ",excluded title,https://seagatecareers.com/job/HR-Intern%2C-Site-Human-Resources-&amp;-Business-Partner/14827-en_US
 Seagate,Web Application Developer Intern,,software only,https://seagatecareers.com/job/Web-Application-Developer-Intern/15221-en_US
 Seagate,Web Application Developer Intern,,software only,https://seagatecareers.com/job/Web-Application-Developer-Intern/15278-en_US
 Seagate,"Research Intern (Summer 2027), ML and Security",,software only,https://seagatecareers.com/job/Research-Intern-%28Summer-2027%29%2C-ML-and-Security/15265-en_US
@@ -1710,11 +1709,11 @@ Seagate,Mechanical & Product Development Engineering Intern,,excluded title,http
 Seagate,Cost Modeling Analyst Intern,"Longmont, CO, USA, ; USA, ",no hardware keyword,https://seagatecareers.com/job/Cost-Modeling-Analyst-Intern/14910-en_US
 Seagate,"Environmental, Health, and Safety Intern","Bloomington, MN, USA, ",excluded title,https://seagatecareers.com/job/Environmental%2C-Health%2C-and-Safety-Intern/15028-en_US
 Seagate,"Data Trust Security Analysis Intern, Cryptography (Postgraduate Internship)",,no hardware keyword,https://seagatecareers.com/job/Data-Trust-Security-Analysis-Intern%2C-Cryptography-%28Postgraduate-Internship%29/15500-en_US
-Seagate,Organic Chemistry Scientist/Engineer Intern - Summer 2027,"Longmont, CO, USA, ",no hardware keyword,https://seagatecareers.com/job/Organic-Chemistry-ScientistEngineer-Intern-Summer-2027/15271-en_US
 Seagate,Seagate Total Rewards Summer 2027 Intern - Americas,"Longmont, CO, USA, ",no hardware keyword,https://seagatecareers.com/job/Seagate-Total-Rewards-Summer-2027-Intern-Americas/15514-en_US
+Seagate,Organic Chemistry Scientist/Engineer Intern - Summer 2027,"Longmont, CO, USA, ",no hardware keyword,https://seagatecareers.com/job/Organic-Chemistry-ScientistEngineer-Intern-Summer-2027/15271-en_US
 Seagate,Reliability Technology Intern/Software Engineering Intern,,software only,https://seagatecareers.com/job/Reliability-Technology-InternSoftware-Engineering-Intern/15182-en_US
-Seagate,Digital Workplace Enablement Desktop Support Intern - Summer 2027,"Longmont, CO, USA, ",no hardware keyword,https://seagatecareers.com/job/Digital-Workplace-Enablement-Desktop-Support-Intern-Summer-2027/15299-en_US
 Seagate,Advanced Data Storage Device Physics Intern,"Bloomington, MN, USA, ",no hardware keyword,https://seagatecareers.com/job/Advanced-Data-Storage-Device-Physics-Intern/15529-en_US
+Seagate,Digital Workplace Enablement Desktop Support Intern - Summer 2027,"Longmont, CO, USA, ",no hardware keyword,https://seagatecareers.com/job/Digital-Workplace-Enablement-Desktop-Support-Intern-Summer-2027/15299-en_US
 Seagate,Research Intern (Summer 2027) - Formal Methods and Security,,no hardware keyword,https://seagatecareers.com/job/Research-Intern-%28Summer-2027%29-Formal-Methods-and-Security/15267-en_US
 Seagate,Drive PPE Intern,"Nakhon Ratchasima, THA, ",no hardware keyword,https://seagatecareers.com/job/Drive-PPE-Intern/14634-en_US
 Seagate,Facility Engineering Intern,"Samut Prakan, THA, ",no hardware keyword,https://seagatecareers.com/job/Facility-Engineering-Intern/14916-en_US
@@ -1723,8 +1722,8 @@ Seagate,Additive Manufacturing & Rapid Prototyping Intern - Summer 2027,"Shakope
 Seagate,"Supply Chain Intern, Sales & Operation Planning (S&OP)",,excluded title,https://seagatecareers.com/job/Supply-Chain-Intern%2C-Sales-&amp;-Operation-Planning-%28S&amp;OP%29/15252-en_US
 Seagate,Head Disk Mechanical Intern - Summer 2027,"Shakopee, MN, USA, ",excluded title,https://seagatecareers.com/job/Head-Disk-Mechanical-Intern-Summer-2027/15257-en_US
 Seagate,Computer Engineering / Computer Science Intern - Infrastructure and DevOps Engineering,,software only,https://seagatecareers.com/job/Computer-Engineering-Computer-Science-Intern-Infrastructure-and-DevOps-Engineering/15362-en_US
-Seagate,HR Shared Services Intern,"Wuxi, CHN, ",excluded title,https://seagatecareers.com/job/HR-Shared-Services-Intern/14747-en_US
 Seagate,Summer Intern: Gas Dynamics and Interface Contact Modeling,"Bloomington, MN, USA, ",no hardware keyword,https://seagatecareers.com/job/Summer-Intern-Gas-Dynamics-and-Interface-Contact-Modeling/15374-en_US
+Seagate,HR Shared Services Intern,"Wuxi, CHN, ",excluded title,https://seagatecareers.com/job/HR-Shared-Services-Intern/14747-en_US
 Seagate,"Embedded Software Engineer (Bachelor's Level, Summer 2027 Intern)","Longmont, CO, USA, ",software only,https://seagatecareers.com/job/Embedded-Software-Engineer-%28Bachelor&apos;s-Level%2C-Summer-2027-Intern%29/15336-en_US
 Seagate,Research Intern - AI-Enabled Atomistic and Multi-Scale Materials Simulation,"Bloomington, MN, USA, ",software only,https://seagatecareers.com/job/Research-Intern-AI-Enabled-Atomistic-and-Multi-Scale-Materials-Simulation/15580-en_US
 Seagate,Summer Intern - Mechanical Design for Atomic Layer Processing Fixtures,,excluded title,https://seagatecareers.com/job/Summer-Intern-Mechanical-Design-for-Atomic-Layer-Processing-Fixtures/15256-en_US
@@ -1745,8 +1744,8 @@ Seagate,Mechanical & Data Analysis Intern (Recording Head Technology),,excluded 
 Seagate,"Occupational Health Intern, Wellness Programs & Engagement",,no hardware keyword,https://seagatecareers.com/job/Occupational-Health-Intern%2C-Wellness-Programs-&amp;-Engagement/15033-en_US
 Seagate,Operations and Supply Planning Intern (Materials Planner),,no hardware keyword,https://seagatecareers.com/job/Operations-and-Supply-Planning-Intern-%28Materials-Planner%29/15298-en_US
 Seagate,Operations and Supply Planning Intern (Materials Planner),,no hardware keyword,https://seagatecareers.com/job/Operations-and-Supply-Planning-Intern-%28Materials-Planner%29/15584-en_US
-Seagate,Software Engineering Intern (Java & AI),,software only,https://seagatecareers.com/job/Software-Engineering-Intern-%28Java-&amp;-AI%29/15478-en_US
 Seagate,AI Data Engineering Intern (Slider PPE Korat),"Nakhon Ratchasima, THA, ",software only,https://seagatecareers.com/job/AI-Data-Engineering-Intern-%28Slider-PPE-Korat%29/13682-en_US
+Seagate,Software Engineering Intern (Java & AI),,software only,https://seagatecareers.com/job/Software-Engineering-Intern-%28Java-&amp;-AI%29/15478-en_US
 Seagate,Lithography Process Development Engineering Intern,,no hardware keyword,https://seagatecareers.com/job/Lithography-Process-Development-Engineering-Intern/15452-en_US
 Seagate,Chemical Engineering Intern - Slider Process Cleaning),,excluded title,https://seagatecareers.com/job/Chemical-Engineering-Intern-Slider-Process-Cleaning%29/15188-en_US
 Seagate,Computer Engineering / IT Intern - Slider Engineering,"Nakhon Ratchasima, THA, ",no hardware keyword,https://seagatecareers.com/job/Computer-Engineering-IT-Intern-Slider-Engineering/14866-en_US
@@ -1788,9 +1787,6 @@ Seagate,Mechanical / Chemical Engineering Intern,,excluded title,https://seagate
 Seagate,"GFIT Intern, Software Development",,software only,https://seagatecareers.com/job/GFIT-Intern%2C-Software-Development/15125-en_US
 Seagate,DLC Process Engineering Intern,"Nakhon Ratchasima, THA, ",no hardware keyword,https://seagatecareers.com/job/DLC-Process-Engineering-Intern/14877-en_US
 Seagate,IE (Industrial Engineer) intern,"Nakhon Ratchasima, THA, ",no hardware keyword,https://seagatecareers.com/job/IE-%28Industrial-Engineer%29-intern/13622-en_US
-Seagate,Web Application Developer Intern,"Nakhon Ratchasima, THA, ",software only,https://seagatecareers.com/job/Web-Application-Developer-Intern/14943-en_US
-Seagate,Factory Sustainable Engineering Intern,"Samut Prakan, THA, ",no hardware keyword,https://seagatecareers.com/job/Factory-Sustainable-Engineering-Intern/14957-en_US
-Seagate,Factory Sustainable Engineering Intern,"Samut Prakan, THA, ",no hardware keyword,https://seagatecareers.com/job/Factory-Sustainable-Engineering-Intern/14958-en_US
 Seagate,R&D Firmware and Software Engineering Test Developer - Internship,"Shugart, SGP, ",software only,https://seagatecareers.com/job/R&amp;D-Firmware-and-Software-Engineering-Test-Developer-Internship/14938-en_US
 Seagate,PCBA Process Development Engineering Intern,,no hardware keyword,https://seagatecareers.com/job/PCBA-Process-Development-Engineering-Intern/15228-en_US
 Seagate,HSA Process for data and system Intern,,no hardware keyword,https://seagatecareers.com/job/HSA-Process-for-data-and-system-Intern/15203-en_US
@@ -2048,16 +2044,17 @@ Thermo Fisher Scientific,IT Intern,"Bangalore, Karnātaka, India",no hardware ke
 Thermo Fisher Scientific,IT Intern,"Bangalore, Karnātaka, India",no hardware keyword,https://jobs.thermofisher.com/global/en/job/R-01369903/it-intern
 Thermo Fisher Scientific,Operations Strategy Co-Op,"Mississauga, Ontario, Canada",no hardware keyword,https://jobs.thermofisher.com/global/en/job/R-01366596/operations-strategy-co-op
 Thermo Fisher Scientific,Equipment & Facility Maintenance Co-Op,"Mississauga, Ontario, Canada",no hardware keyword,https://jobs.thermofisher.com/global/en/job/R-01366618/equipment-facility-maintenance-co-op
-Thermo Fisher Scientific,Supply Chain Co-op,"Mississauga, Ontario, Canada",excluded title,https://jobs.thermofisher.com/global/en/job/R-01366594/supply-chain-co-op
 Thermo Fisher Scientific,Lab Execution Systems Co-Op,"Mississauga, Ontario, Canada",no hardware keyword,https://jobs.thermofisher.com/global/en/job/R-01366616/lab-execution-systems-co-op
+Thermo Fisher Scientific,Supply Chain Co-op,"Mississauga, Ontario, Canada",excluded title,https://jobs.thermofisher.com/global/en/job/R-01366594/supply-chain-co-op
+Thermo Fisher Scientific,Reliability Engineering Co-Op,"Mississauga, Ontario, Canada",non-US,https://jobs.thermofisher.com/global/en/job/R-01366617/reliability-engineering-co-op
 Thermo Fisher Scientific,Project Engineering Co-op,"Whitby, Ontario, Canada",no hardware keyword,https://jobs.thermofisher.com/global/en/job/R-01366590/project-engineering-co-op
 Thermo Fisher Scientific,Validation Engineering Co-op,"Mississauga, Ontario, Canada",non-US,https://jobs.thermofisher.com/global/en/job/R-01366615/validation-engineering-co-op
+Thermo Fisher Scientific,Packaging Engineering Co-op,"Mississauga, Ontario, Canada",no hardware keyword,https://jobs.thermofisher.com/global/en/job/R-01372575/packaging-engineering-co-op
+Thermo Fisher Scientific,Process Engineering Co-op,"Mississauga, Ontario, Canada",no hardware keyword,https://jobs.thermofisher.com/global/en/job/R-01372577/process-engineering-co-op
 Thermo Fisher Scientific,Digital Sales Intern - 12 months,"Loughborough, United Kingdom",excluded title,https://jobs.thermofisher.com/global/en/job/R-01373989/digital-sales-intern-12-months
 Thermo Fisher Scientific,Quality Assurance Co-op,"Mississauga, Ontario, Canada",no hardware keyword,https://jobs.thermofisher.com/global/en/job/R-01366603/quality-assurance-co-op
 Thermo Fisher Scientific,Analytical Operations Co-Op,"Mississauga, Ontario, Canada",no hardware keyword,https://jobs.thermofisher.com/global/en/job/R-01367233/analytical-operations-co-op
 Thermo Fisher Scientific,Research & Development Co-op,"Mississauga, Ontario, Canada",no hardware keyword,https://jobs.thermofisher.com/global/en/job/R-01366606/research-development-co-op
-Thermo Fisher Scientific,Packaging Engineering Co-op,"Mississauga, Ontario, Canada",no hardware keyword,https://jobs.thermofisher.com/global/en/job/R-01372575/packaging-engineering-co-op
-Thermo Fisher Scientific,Process Engineering Co-op,"Mississauga, Ontario, Canada",no hardware keyword,https://jobs.thermofisher.com/global/en/job/R-01372577/process-engineering-co-op
 Thermo Fisher Scientific,Marketing Intern,"Paisley, Renfrewshire, United Kingdom",excluded title,https://jobs.thermofisher.com/global/en/job/R-01374117/marketing-intern
 Thermo Fisher Scientific,Microbiology Intern,"Monza, Monza e Brianza, Italy",no hardware keyword,https://jobs.thermofisher.com/global/en/job/R-01373967/microbiology-intern
 Thermo Fisher Scientific,Communications Intern,"Monza, Monza e Brianza, Italy",no hardware keyword,https://jobs.thermofisher.com/global/en/job/R-01373994/communications-intern
@@ -2069,13 +2066,12 @@ Thermo Fisher Scientific,Sr. Intern Project Manager,"Monza, Monza e Brianza, Ita
 Thermo Fisher Scientific,Technician Calibration Intern,"Monza, Monza e Brianza, Italy",no hardware keyword,https://jobs.thermofisher.com/global/en/job/R-01374011/technician-calibration-intern
 Thermo Fisher Scientific,Manufacturing Planner/Scheduler Intern,"Monza, Monza e Brianza, Italy",no hardware keyword,https://jobs.thermofisher.com/global/en/job/R-01373970/manufacturing-planner-scheduler-intern
 Thermo Fisher Scientific,Lyo & Pharma Utilities Operator Intern,"Monza, Monza e Brianza, Italy",excluded title,https://jobs.thermofisher.com/global/en/job/R-01373964/lyo-pharma-utilities-operator-intern
-Thermo Fisher Scientific,Sr. Supplier Quality Intern,"Monza, Monza e Brianza, Italy",no hardware keyword,https://jobs.thermofisher.com/global/en/job/R-01373997/sr-supplier-quality-intern
 Thermo Fisher Scientific,Quality Control Intern,"Monza, Monza e Brianza, Italy",no hardware keyword,https://jobs.thermofisher.com/global/en/job/R-01373968/quality-control-intern
-Thermo Fisher Scientific,Qc Intern Chemistry,"Covingham, Swindon, Wiltshire, United Kingdom",no hardware keyword,https://jobs.thermofisher.com/global/en/job/R-01374095/qc-intern-chemistry
+Thermo Fisher Scientific,Sr. Supplier Quality Intern,"Monza, Monza e Brianza, Italy",no hardware keyword,https://jobs.thermofisher.com/global/en/job/R-01373997/sr-supplier-quality-intern
 Thermo Fisher Scientific,Intern - Quality Control Microbiology,"Covingham, Swindon, Wiltshire, United Kingdom",no hardware keyword,https://jobs.thermofisher.com/global/en/job/R-01373976/intern-quality-control-microbiology
+Thermo Fisher Scientific,Qc Intern Chemistry,"Covingham, Swindon, Wiltshire, United Kingdom",no hardware keyword,https://jobs.thermofisher.com/global/en/job/R-01374095/qc-intern-chemistry
 Thermo Fisher Scientific,2027 FLDP Finance Intern,"Waltham, Massachusetts, United States of America",excluded title,https://jobs.thermofisher.com/global/en/job/R-01361452/2027-fldp-finance-intern
 Thermo Fisher Scientific,Steriles University Training Specialist III,"Greenville, North Carolina, United States of America",no hardware keyword,https://jobs.thermofisher.com/global/en/job/R-01369782/steriles-university-training-specialist-iii
-Thermo Fisher Scientific,Reliability Engineering Co-Op,"Mississauga, Ontario, Canada",non-US,https://jobs.thermofisher.com/global/en/job/R-01366617/reliability-engineering-co-op
 Lawrence Livermore National Laboratory,Government Funded Student Intern (WDTS) - Spring 2027,"Livermore, CA, United States",no hardware keyword,https://jobs.smartrecruiters.com/llnl/3743990017013616
 Lawrence Livermore National Laboratory,Nuclear and Chemical Sciences Division Graduate Intern - Summer 2027,"Livermore, CA, United States",excluded title,https://jobs.smartrecruiters.com/llnl/3743990016986196
 Lawrence Livermore National Laboratory,Nuclear and Chemical Sciences Division Undergraduate Intern - Summer 2027,"Livermore, CA, United States",excluded title,https://jobs.smartrecruiters.com/llnl/3743990016986166
