@@ -1,10 +1,8 @@
 # New postings — 2026-11-23
 
-1 new of 1194 tracked. Rank A = spring/Jan 2027 explicit, B = co-op with term unstated, C = intern with no term stated.
+0 new of 1194 tracked. Rank A = spring/Jan 2027 explicit, B = co-op with term unstated, C = intern with no term stated.
 
-| Rank | Term | Company | Role | Location | Posted | Link |
-|---|---|---|---|---|---|---|
-| A | summer | Renesas Electronics | Firmware Engineering Intern | Austin, TX, USA | 2026-11-20 | [apply](https://www.linkedin.com/jobs/view/4492971380) |
+_nothing new today_
 
 ## All tracked
 
@@ -216,8 +214,8 @@
 | A | summer | KLA | Research Scientist Intern - Plasma Light Source Characterization | Ann Arbor, MI | Posted 30+ Days Ago | [apply](https://kla.wd1.myworkdayjobs.com/Search/job/Ann-Arbor-MI/Research-Scientist-Intern---Coating-Characterization_2642033-2) |
 | A | spring | Lennox | Hardware Engineering Spring Coop | Carrollton, TX, USA | 2026-11-21 | [apply](https://www.linkedin.com/jobs/view/4468822762) |
 | A | summer | Lightmatter |  Quality & Reliability, Intern Summer 2027 | Mountain View, CA | 2026-11-12 | [apply](https://boards.greenhouse.io/lightmatter/jobs/5474812008?gh_jid=5474812008) |
+| A | summer | Lightmatter | Analog Engineering Intern - Summer 2027 | Mountain View, CA | 2026-11-19 | [apply](https://boards.greenhouse.io/lightmatter/jobs/5473774008?gh_jid=5473774008) |
 | A | summer | Lightmatter | Analog Engineering Intern - Summer 2027 | Boston, MA; Mountain View, CA | 2026-11-19 | [apply](https://boards.greenhouse.io/lightmatter/jobs/5475081008?gh_jid=5475081008) |
-| A | summer | Lightmatter | Analog Engineering Intern - Summer 2027 | Mountain View, CA | 2026-11-19 | [apply](https://boards.greenhouse.io/lightmatter/jobs/5473749008?gh_jid=5473749008) |
 | A | summer | Lightmatter | Chip Architecture Intern – Summer 2027 | Boston, MA; Mountain View, CA | 2026-11-19 | [apply](https://boards.greenhouse.io/lightmatter/jobs/5468924008?gh_jid=5468924008) |
 | A | summer | Lightmatter | Data & AI Platform, Intern - Summer 2027 | Boston, MA | 2026-11-16 | [apply](https://boards.greenhouse.io/lightmatter/jobs/5474807008?gh_jid=5474807008) |
 | A | summer | Lightmatter | Electrical Engineering Intern - Summer 2027 | Boston, MA | 2026-11-19 | [apply](https://boards.greenhouse.io/lightmatter/jobs/5473816008?gh_jid=5473816008) |
@@ -307,8 +305,8 @@
 | A | spring | Rivian | Engineering Intern - Test and Validation, Charging Products (Spring 2027 Co-Op) | Torrance, CA, USA | 2026-11-21 | [apply](https://www.linkedin.com/jobs/view/4467800830) |
 | A | summer | Rocket Lab | Electrical Engineering Intern Summer 2027 | Long Beach, CA | 2026-11-02 | [apply](https://job-boards.greenhouse.io/rocketlab/jobs/7990683003) |
 | A | summer | Rocket Lab | Electrical Engineering Intern Summer 2027 | Pasadena, CA | 2026-11-02 | [apply](https://job-boards.greenhouse.io/rocketlab/jobs/7998598003) |
-| A | spring | Rocket Lab | Ground Systems Engineering Intern Spring 2027 | Middle River, MD | 2026-11-02 | [apply](https://job-boards.greenhouse.io/rocketlab/jobs/8042094003) |
 | A | spring | Rocket Lab | Ground Systems Engineering Intern Spring 2027 | Stennis Space Center, MS | 2026-11-19 | [apply](https://job-boards.greenhouse.io/rocketlab/jobs/8007204003) |
+| A | spring | Rocket Lab | Ground Systems Engineering Intern Spring 2027 | Middle River, MD | 2026-11-02 | [apply](https://job-boards.greenhouse.io/rocketlab/jobs/8042094003) |
 | A | spring | Rocket Lab | Manufacturing Engineering Intern Spring 2027 | Middle River, MD | 2026-11-02 | [apply](https://job-boards.greenhouse.io/rocketlab/jobs/7987020003) |
 | A | spring | Rocket Lab | Manufacturing Engineering Intern Spring 2027 | Long Beach, CA | 2026-11-02 | [apply](https://job-boards.greenhouse.io/rocketlab/jobs/7984943003) |
 | A | spring | Rocket Lab | Quality Engineering Intern Spring 2027 | Long Beach, CA | 2026-11-02 | [apply](https://job-boards.greenhouse.io/rocketlab/jobs/8042031003) |
@@ -357,7 +355,7 @@
 | A | summer | Skyworks | Analog IC Design Co-Op (Summer/Fall 2027) | Cedar Rapids, IA, USA     | 2026-09-22 | [apply](https://careers.skyworksinc.com/job/Analog-IC-Design-Co-Op-%28SummerFall-2027%29/78485-en_US) |
 | A | summer | Skyworks | Analog and RF circuit design Summer/Fall Co-Op (June-Dec '27) | San Jose, CA, USA     | 2026-10-14 | [apply](https://careers.skyworksinc.com/job/Analog-and-RF-circuit-design-SummerFall-Co-Op-%28June-Dec-&apos;27%29/78608-en_US) |
 | A | spring | Skyworks | Analog and RF circuit design Winter/Spring Co-Op (Jan-June '27) | San Jose, CA, USA     | 2026-10-14 | [apply](https://careers.skyworksinc.com/job/Analog-and-RF-circuit-design-WinterSpring-Co-Op-%28Jan-June-&apos;27%29/78610-en_US) |
-| A | spring | Skyworks | BAW Design (Winter/Spring Co-Op) | Andover, MA, USA     | 2026-09-24 | [apply](https://careers.skyworksinc.com/job/BAW-Design-%28WinterSpring-Co-Op%29/78509-en_US) |
+| A | spring | Skyworks | BAW Design (Winter/Spring Co-Op) | Andover, MA, USA     | 2026-09-24 | [apply](https://careers.skyworksinc.com/job/BAW-Design-%28WinterSpring-Co-Op%29/78510-en_US) |
 | A | spring | Skyworks | BAW/SAW Filter Design Co-Op (Winter/Spring 2027) | Irvine, CA, USA     | 2026-08-13 | [apply](https://careers.skyworksinc.com/job/BAWSAW-Filter-Design-Co-Op-%28WinterSpring-2027%29/78210-en_US) |
 | A | summer | Skyworks | BAW/SAW RF Lap Summer/Fall Co-Op (June-Dec '27) | Irvine, CA, USA     | 2026-09-24 | [apply](https://careers.skyworksinc.com/job/BAWSAW-RF-Lap-SummerFall-Co-Op-%28June-Dec-&apos;27%29/78483-en_US) |
 | A | summer | Skyworks | Characterization Engineering Summer/Fall Co-Op (June-Dec '27) | Newbury Park, CA, USA     | 2026-09-28 | [apply](https://careers.skyworksinc.com/job/Characterization-Engineering-SummerFall-Co-Op-%28June-Dec-&apos;27%29/78514-en_US) |
@@ -386,7 +384,7 @@
 | A | spring | Skyworks | RF Design Co-Op (Jan-June 2027) | Andover, MA, USA     | 2026-08-21 | [apply](https://careers.skyworksinc.com/job/RF-Design-Co-Op-%28Jan-June-2027%29/78255-en_US) |
 | A | spring | Skyworks | RF Design Engineering Co-Op (Jan - June '27) | Andover, MA, USA     | 2026-09-21 | [apply](https://careers.skyworksinc.com/job/RF-Design-Engineering-Co-Op-%28Jan-June-&apos;27%29/78451-en_US) |
 | A | summer | Skyworks | RF EM Design Co-Op (Summer/Fall 2027) | Irvine, CA, USA     | 2026-08-27 | [apply](https://careers.skyworksinc.com/job/RF-EM-Design-Co-Op-%28SummerFall-2027%29/78268-en_US) |
-| A | spring | Skyworks | RF Filter Design / BAW development Co-Op (Winter/Spring 2027) | Andover, MA, USA     | 2026-09-15 | [apply](https://careers.skyworksinc.com/job/RF-Filter-Design-BAW-development-Co-Op-%28WinterSpring-2027%29/78244-en_US) |
+| A | spring | Skyworks | RF Filter Design / BAW development Co-Op (Winter/Spring 2027) | Andover, MA, USA     | 2026-09-15 | [apply](https://careers.skyworksinc.com/job/RF-Filter-Design-BAW-development-Co-Op-%28WinterSpring-2027%29/78245-en_US) |
 | A | summer | Skyworks | RF Front End Modules Summer/Fall Co-Op (June-Dec '27) | San Jose, CA, USA     | 2026-08-24 | [apply](https://careers.skyworksinc.com/job/RF-Front-End-Modules-SummerFall-Co-Op-%28June-Dec-&apos;27%29/78233-en_US) |
 | A | summer | Skyworks | RF Front-End EM Design Co-Op (Summer/Fall 2027) | Newbury Park, CA, USA     | 2026-08-14 | [apply](https://careers.skyworksinc.com/job/RF-Front-End-EM-Design-Co-Op-%28SummerFall-2027%29/78165-en_US) |
 | A | summer | Skyworks | RF Front-End Engineer Summer/Fall Co-Op (June-Dec '27) | San Jose, CA, USA     | 2026-09-24 | [apply](https://careers.skyworksinc.com/job/RF-Front-End-Engineer-SummerFall-Co-Op-%28June-Dec-&apos;27%29/78506-en_US) |
@@ -1087,7 +1085,7 @@
 | C | unspecified | Seagate | Intern, Advanced Media R&D Characterization and Recording Physicist | Fremont, CA, USA,  | 2026-10-14 | [apply](https://seagatecareers.com/job/Intern%2C-Advanced-Media-R&amp;D-Characterization-and-Recording-Physicist/15300-en_US) |
 | C | unspecified | Seagate | Metrology maintenance engineering intern | Nakhon Ratchasima, THA,  | 2026-08-26 | [apply](https://seagatecareers.com/job/Metrology-maintenance-engineering-intern/14919-en_US) |
 | C | unspecified | Seagate | Product Engineering Intern | Nakhon Ratchasima, THA,  | 2026-07-20 | [apply](https://seagatecareers.com/job/Product-Engineering-Intern/14645-en_US) |
-| C | unspecified | Seagate | Recording Head Test Engineering Intern | Samut Prakan, THA,  | 2026-08-19 | [apply](https://seagatecareers.com/job/Recording-Head-Test-Engineering-Intern/14904-en_US) |
+| C | unspecified | Seagate | Recording Head Test Engineering Intern | Samut Prakan, THA,  | 2026-11-17 | [apply](https://seagatecareers.com/job/Recording-Head-Test-Engineering-Intern/14902-en_US) |
 | C | unspecified | Seagate | Semiconductor Memory Characterization Engineer Intern | Shakopee, MN, USA,  | 2026-11-16 | [apply](https://seagatecareers.com/job/Semiconductor-Memory-Characterization-Engineer-Intern/15527-en_US) |
 | C | unspecified | Seagate | Test Development Intern |  | 2026-10-21 | [apply](https://seagatecareers.com/job/Test-Development-Intern/15430-en_US) |
 | C | unspecified | Seagate | Wafer Manufacturing Intern | Bloomington, MN, USA,  | 2026-10-30 | [apply](https://seagatecareers.com/job/Wafer-Manufacturing-Intern/15464-en_US) |
@@ -1120,8 +1118,8 @@
 | C | unspecified | Skyworks | Electrical Engineering Intern | Shenzen, GD, CHN     | 2026-10-15 | [apply](https://careers.skyworksinc.com/job/Electrical-Engineering-Intern/78680-en_US) |
 | C | unspecified | Skyworks | Physical Verification Intern | Greensboro, USA     | 2026-10-26 | [apply](https://careers.skyworksinc.com/job/Physical-Verification-Intern/78759-en_US) |
 | C | unspecified | Skyworks | Product Engineer Intern | Chelmsford, USA     | 2026-10-29 | [apply](https://careers.skyworksinc.com/job/Product-Engineer-Intern/78776-en_US) |
-| C | unspecified | Skyworks | Product Engineering Intern | Hillsboro, USA     | 2026-10-28 | [apply](https://careers.skyworksinc.com/job/Product-Engineering-Intern/78779-en_US) |
 | C | unspecified | Skyworks | Product Engineering Intern | Greensboro, USA     | 2026-10-28 | [apply](https://careers.skyworksinc.com/job/Product-Engineering-Intern/78778-en_US) |
+| C | unspecified | Skyworks | Product Engineering Intern | Hillsboro, USA     | 2026-10-28 | [apply](https://careers.skyworksinc.com/job/Product-Engineering-Intern/78779-en_US) |
 | C | unspecified | Skyworks | RF Design Engineering Intern | Richardson, USA     | 2026-10-27 | [apply](https://careers.skyworksinc.com/job/RF-Design-Engineering-Intern/78790-en_US) |
 | C | unspecified | Skyworks | RF/Analog IC Design Intern | Fort Lauderdale, USA     | 2026-10-28 | [apply](https://careers.skyworksinc.com/job/RFAnalog-IC-Design-Intern/78750-en_US) |
 | C | unspecified | Skyworks | RFIC Design Engineering Intern | Greensboro, USA     | 2026-10-27 | [apply](https://careers.skyworksinc.com/job/RFIC-Design-Engineering-Intern/78729-en_US) |

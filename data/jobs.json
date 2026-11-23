@@ -232,7 +232,6 @@
   "hw": "electrical engineer",
   "tier": "big",
   "sources": [
-   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-09-17",
@@ -250,7 +249,6 @@
   "hw": "test engineer",
   "tier": "big",
   "sources": [
-   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-10-20",
@@ -268,7 +266,6 @@
   "hw": "firmware",
   "tier": "big",
   "sources": [
-   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-10-14",
@@ -286,7 +283,6 @@
   "hw": "test engineer",
   "tier": "big",
   "sources": [
-   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-10-15",
@@ -304,7 +300,6 @@
   "hw": "test engineer",
   "tier": "big",
   "sources": [
-   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-10-07",
@@ -407,7 +402,6 @@
   "hw": "electrical engineer",
   "tier": "big",
   "sources": [
-   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-09-17",
@@ -459,7 +453,6 @@
   "hw": "test engineer",
   "tier": "big",
   "sources": [
-   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-10-06",
@@ -2180,7 +2173,6 @@
   "hw": "metrology",
   "tier": "big",
   "sources": [
-   "internlist:coop",
    "workday"
   ],
   "first_seen": "2026-09-18",
@@ -3515,8 +3507,8 @@
  {
   "company": "Lightmatter",
   "title": "Analog Engineering Intern - Summer 2027",
-  "location": "Boston, MA; Mountain View, CA",
-  "url": "https://boards.greenhouse.io/lightmatter/jobs/5475081008?gh_jid=5475081008",
+  "location": "Mountain View, CA",
+  "url": "https://boards.greenhouse.io/lightmatter/jobs/5473774008?gh_jid=5473774008",
   "posted": "2026-11-19",
   "deadline": "",
   "term": "summer",
@@ -3526,14 +3518,14 @@
   "sources": [
    "greenhouse"
   ],
-  "first_seen": "2026-11-19",
+  "first_seen": "2026-11-20",
   "last_seen": "2026-11-23"
  },
  {
   "company": "Lightmatter",
   "title": "Analog Engineering Intern - Summer 2027",
-  "location": "Mountain View, CA",
-  "url": "https://boards.greenhouse.io/lightmatter/jobs/5473749008?gh_jid=5473749008",
+  "location": "Boston, MA; Mountain View, CA",
+  "url": "https://boards.greenhouse.io/lightmatter/jobs/5475081008?gh_jid=5475081008",
   "posted": "2026-11-19",
   "deadline": "",
   "term": "summer",
@@ -5063,23 +5055,6 @@
  {
   "company": "Rocket Lab",
   "title": "Ground Systems Engineering Intern Spring 2027",
-  "location": "Middle River, MD",
-  "url": "https://job-boards.greenhouse.io/rocketlab/jobs/8042094003",
-  "posted": "2026-11-02",
-  "deadline": "",
-  "term": "spring",
-  "rank": "A",
-  "hw": "maybe",
-  "tier": "big",
-  "sources": [
-   "greenhouse"
-  ],
-  "first_seen": "2026-11-03",
-  "last_seen": "2026-11-23"
- },
- {
-  "company": "Rocket Lab",
-  "title": "Ground Systems Engineering Intern Spring 2027",
   "location": "Stennis Space Center, MS",
   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/8007204003",
   "posted": "2026-11-19",
@@ -5092,6 +5067,23 @@
    "greenhouse"
   ],
   "first_seen": "2026-10-13",
+  "last_seen": "2026-11-23"
+ },
+ {
+  "company": "Rocket Lab",
+  "title": "Ground Systems Engineering Intern Spring 2027",
+  "location": "Middle River, MD",
+  "url": "https://job-boards.greenhouse.io/rocketlab/jobs/8042094003",
+  "posted": "2026-11-02",
+  "deadline": "",
+  "term": "spring",
+  "rank": "A",
+  "hw": "maybe",
+  "tier": "big",
+  "sources": [
+   "greenhouse"
+  ],
+  "first_seen": "2026-11-03",
   "last_seen": "2026-11-23"
  },
  {
@@ -5208,8 +5200,7 @@
   "hw": "electrical engineering",
   "tier": "big",
   "sources": [
-   "greenhouse",
-   "internlist:coop"
+   "greenhouse"
   ],
   "first_seen": "2026-11-10",
   "last_seen": "2026-11-23"
@@ -5915,7 +5906,7 @@
   "company": "Skyworks",
   "title": "BAW Design (Winter/Spring Co-Op)",
   "location": "Andover, MA, USA    ",
-  "url": "https://careers.skyworksinc.com/job/BAW-Design-%28WinterSpring-Co-Op%29/78509-en_US",
+  "url": "https://careers.skyworksinc.com/job/BAW-Design-%28WinterSpring-Co-Op%29/78510-en_US",
   "posted": "2026-09-24",
   "deadline": "",
   "term": "spring",
@@ -6408,7 +6399,7 @@
   "company": "Skyworks",
   "title": "RF Filter Design / BAW development Co-Op (Winter/Spring 2027)",
   "location": "Andover, MA, USA    ",
-  "url": "https://careers.skyworksinc.com/job/RF-Filter-Design-BAW-development-Co-Op-%28WinterSpring-2027%29/78244-en_US",
+  "url": "https://careers.skyworksinc.com/job/RF-Filter-Design-BAW-development-Co-Op-%28WinterSpring-2027%29/78245-en_US",
   "posted": "2026-09-15",
   "deadline": "",
   "term": "spring",
@@ -6418,7 +6409,7 @@
   "sources": [
    "successfactors"
   ],
-  "first_seen": "2026-11-17",
+  "first_seen": "2026-11-12",
   "last_seen": "2026-11-23"
  },
  {
@@ -7130,7 +7121,6 @@
   "hw": "silicon",
   "tier": "big",
   "sources": [
-   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-09-17",
@@ -7148,7 +7138,6 @@
   "hw": "silicon",
   "tier": "big",
   "sources": [
-   "github:hardware-internships-2027",
    "greenhouse"
   ],
   "first_seen": "2026-11-05",
@@ -8051,8 +8040,7 @@
   "hw": "firmware",
   "tier": "startup",
   "sources": [
-   "greenhouse",
-   "jobspy:linkedin"
+   "greenhouse"
   ],
   "first_seen": "2026-10-10",
   "last_seen": "2026-11-23"
@@ -12630,7 +12618,6 @@
   "hw": "product engineer",
   "tier": "big",
   "sources": [
-   "jobspy:linkedin",
    "workday"
   ],
   "first_seen": "2026-10-30",
@@ -14537,7 +14524,6 @@
   "hw": "eda,electrical",
   "tier": "big",
   "sources": [
-   "github:vanshb03-summer",
    "workday"
   ],
   "first_seen": "2026-10-28",
@@ -15813,7 +15799,6 @@
   "hw": "firmware",
   "tier": "big",
   "sources": [
-   "github:vanshb03-summer",
    "workday"
   ],
   "first_seen": "2026-11-17",
@@ -17634,8 +17619,7 @@
   "hw": "rtl",
   "tier": "startup",
   "sources": [
-   "ashby",
-   "github:vanshb03-summer"
+   "ashby"
   ],
   "first_seen": "2026-09-23",
   "last_seen": "2026-11-23"
@@ -18358,8 +18342,8 @@
   "company": "Seagate",
   "title": "Recording Head Test Engineering Intern",
   "location": "Samut Prakan, THA, ",
-  "url": "https://seagatecareers.com/job/Recording-Head-Test-Engineering-Intern/14904-en_US",
-  "posted": "2026-08-19",
+  "url": "https://seagatecareers.com/job/Recording-Head-Test-Engineering-Intern/14902-en_US",
+  "posted": "2026-11-17",
   "deadline": "",
   "term": "unspecified",
   "rank": "C",
@@ -18368,7 +18352,7 @@
   "sources": [
    "successfactors"
   ],
-  "first_seen": "2026-10-06",
+  "first_seen": "2026-11-19",
   "last_seen": "2026-11-23"
  },
  {
@@ -18918,23 +18902,6 @@
  {
   "company": "Skyworks",
   "title": "Product Engineering Intern",
-  "location": "Hillsboro, USA    ",
-  "url": "https://careers.skyworksinc.com/job/Product-Engineering-Intern/78779-en_US",
-  "posted": "2026-10-28",
-  "deadline": "",
-  "term": "unspecified",
-  "rank": "C",
-  "hw": "product engineering",
-  "tier": "big",
-  "sources": [
-   "successfactors"
-  ],
-  "first_seen": "2026-10-28",
-  "last_seen": "2026-11-23"
- },
- {
-  "company": "Skyworks",
-  "title": "Product Engineering Intern",
   "location": "Greensboro, USA    ",
   "url": "https://careers.skyworksinc.com/job/Product-Engineering-Intern/78778-en_US",
   "posted": "2026-10-28",
@@ -18947,6 +18914,23 @@
    "successfactors"
   ],
   "first_seen": "2026-10-29",
+  "last_seen": "2026-11-23"
+ },
+ {
+  "company": "Skyworks",
+  "title": "Product Engineering Intern",
+  "location": "Hillsboro, USA    ",
+  "url": "https://careers.skyworksinc.com/job/Product-Engineering-Intern/78779-en_US",
+  "posted": "2026-10-28",
+  "deadline": "",
+  "term": "unspecified",
+  "rank": "C",
+  "hw": "product engineering",
+  "tier": "big",
+  "sources": [
+   "successfactors"
+  ],
+  "first_seen": "2026-10-28",
   "last_seen": "2026-11-23"
  },
  {
@@ -19420,7 +19404,6 @@
   "hw": "analog",
   "tier": "big",
   "sources": [
-   "jobspy:indeed",
    "oracle_hcm"
   ],
   "first_seen": "2026-11-20",
@@ -19795,7 +19778,6 @@
   "hw": "mems",
   "tier": "big",
   "sources": [
-   "jobspy:indeed",
    "oracle_hcm"
   ],
   "first_seen": "2026-11-20",
