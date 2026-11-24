@@ -3922,7 +3922,7 @@
 },
 "https://jobs.lever.co/hermeus/555263f6-c5ec-4489-ab07-1aea546b70e7": {
 "first_seen": "2026-09-18",
-"title": "Flight Software & GNC Intern - Spring/Summer 2027",
+"title": "Flight Software & GNC Intern - Spring 2027",
 "company": "Hermeus",
 "desc": ""
 },
@@ -6718,7 +6718,7 @@
 },
 "https://jobs.lever.co/hermeus/d2651ecb-9aab-4d84-8e69-cbcf7cece28d": {
 "first_seen": "2026-09-23",
-"title": "Propulsion Test Engineering Intern - Spring/Summer/Fall 2027",
+"title": "Propulsion Test Engineering Intern - Summer/Fall 2027",
 "company": "Hermeus",
 "desc": ""
 },
@@ -26934,6 +26934,54 @@
 "first_seen": "2026-11-24",
 "title": "Intern - Technology, AMAIS",
 "company": "Micron Technology",
+"desc": ""
+},
+"https://intel.wd1.myworkdayjobs.com/External/job/US-Colorado-Fort-Collins/Design-Verification-Intern-2027_JR0287637": {
+"first_seen": "2026-11-24",
+"title": "Design Verification Intern 2027",
+"company": "Intel",
+"desc": "  Job Details:       Job Description:\u00a0 The Role and Impact  As a Design Verification Engineering Undergraduate Intern, you will contribute to the functional logic verification of silicon designs, ensuring they meet specifications. Your day-to-day tasks will include supporting the development of verification plans, creating test benches, and assisting in building the verification environment to validate design coverage. This role is vital to uncovering and resolving design bugs, ensuring implementation efficiency, and collaborating with architecture and design teams to achieve functional correctness.   Business group  The Data Center Group (DCG) is at the forefront of driving innovation and delivering advanced solutions for data-centric computing. Focused on enabling the next generation of technology, DCG supports Intel's mission to power the infrastructure of tomorrow through cutting-edge design and development. This group provides a dynamic, collaborative environment where team members contribute to meaningful projects with a global impact.   Key Responsibilities  - Support the development of verification plans, test benches, and verification environments to ensure design coverage.  - Assist in emulation and simulation efforts to verify designs and analyze power and performance metrics.  - Collaborate with architecture and design teams to ensure functional correctness and efficiency.  - Contribute to debugging issues, performing root cause analysis, and proposing corrective "
+},
+"https://cadence.wd1.myworkdayjobs.com/External_Careers/job/OUJDA-01/Embedded-Systems-Verification-Engineer-Intern_R57191": {
+"first_seen": "2026-11-24",
+"title": "Embedded Systems Verification Engineer Intern",
+"company": "Cadence",
+"desc": "   At Cadence, we hire and develop leaders and innovators who want to make an impact on the world of technology.    Cadence est un acteur majeur dans le domaine de la conception \u00e9lectronique, s'appuyant sur plus de 30 ans d'expertise en logiciels de calcul. Gr\u00e2ce \u00e0 notre strat\u00e9gie  Intelligent System Design , nous d\u00e9veloppons des logiciels, du mat\u00e9riel et des propri\u00e9t\u00e9s intellectuelles (IP) qui permettent de concr\u00e9tiser les concepts de conception.  Cette strat\u00e9gie s'appuie \u00e9galement sur des pratiques de d\u00e9veloppement enrichies par l'intelligence artificielle (IA), d\u00e9ploy\u00e9es dans l'ensemble de nos organisations, afin de permettre \u00e0 nos \u00e9quipes de se concentrer sur la r\u00e9solution cr\u00e9ative de probl\u00e8mes et l'innovation.  Nos clients comptent parmi les entreprises les plus innovantes au monde. Ils d\u00e9veloppent des produits \u00e9lectroniques exceptionnels, des puces aux cartes \u00e9lectroniques en passant par les syst\u00e8mes complets, pour des applications sur des march\u00e9s en constante \u00e9volution : \u00e9lectronique grand public, informatique hyperscale, communications 5G, automobile, a\u00e9ronautique et spatial, industrie et sant\u00e9.  Rejoignez-nous et int\u00e9grez une culture qui valorise l'innovation, la collaboration et la satisfaction client.    Chez Secure-IC, une soci\u00e9t\u00e9 du groupe Cadence, nous recrutons et faisons grandir des talents et des innovateurs qui souhaitent avoir un impact sur le monde des technologies.    Intitul\u00e9 du poste : Stagiaire Ing\u00e9nieur V\u00e9rification des Syst\u00e8mes Embarqu\u00e9s    Localisat"
+},
+"https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/Bangalore-India/ASIC-Engineer---Spring-Internship-hiring_2032859-1": {
+"first_seen": "2026-11-24",
+"title": "ASIC Engineer - Spring Internship hiring.",
+"company": "Cisco",
+"desc": "  Meet the Team   The Silicon One team creates innovative hardware platforms central to the AI era, powering Cisco\u2019s core Switching, Routing, and Wireless products for organizations globally. Our innovations in silicon, optics, and hardware platforms are shaping the technology industry. We're a global team of creative experts, bringing our unique backgrounds and bold ideas to push boundaries and help each other grow. Because full product development\u2014from design to qualification to production\u2014is within our team, we\u2019re able to think differently, experiment more, and work quickly. Join us to power the future of the digital world.  \u00a0   Your Impact   Participate in analog/mixed-signal design for Cisco's next generation silicon photonics integrated circuits for 100G/200G/400G per Lambda solutions.    ASIC Analog Design   Work on mixed-signal datapath designs including photonics modulator drivers, serializers, PLLs, TIAs and control circuits while optimizing for power, performance, testability, and cost.    What You\u2019ll Bring:    Eligibility:  The requirement is for 2027 graduates only.   Project Management:  Ability to manage multiple tasks and work toward long-term goals.   Engineering Fundamentals:  Solid understanding of engineering fundamentals, Analog design fundamentals, and technical problem-solving skills.   Collaboration:  Experience in establishing and sustaining strong relationships with the extended team.   Communication:  Excellent communication skills (verbal and writt"
+},
+"https://careers.skyworksinc.com/job/Firmware-Co-Op/79057-en_US": {
+"first_seen": "2026-11-24",
+"title": "Firmware Co-Op",
+"company": "Skyworks",
+"desc": ""
+},
+"https://asml.wd3.myworkdayjobs.com/ASMLEXT1/job/San-Diego-CA-USA/Internship---Optical-and-Metrology-Engineering_J-00358248": {
+"first_seen": "2026-11-24",
+"title": "Internship - Optical and Metrology Engineering",
+"company": "ASML",
+"desc": "  Introduction   ASML US, including its affiliates and subsidiaries, bring together the most creative minds in science and technology to develop lithography machines that are key to producing faster, cheaper, more energy-efficient microchips. We design, develop, integrate, market and service these advanced machines, which enable our customers - the world\u2019s leading chipmakers - to reduce the size and increase the functionality of their microchips, which in turn leads to smaller, more powerful consumer electronics. Our headquarters are in Veldhoven, Netherlands and we have 18 office locations around the United States including main offices in\u00a0Chandler, Arizona, San Jose and San Diego, California, Wilton, Connecticut, and Hillsboro, Oregon.    Your assignment   As an Optical Engineering Intern, you will help develop, characterize, and improve precision optical sensing systems used within an extreme ultraviolet light source. You will combine optical modeling, stray-light and beam-propagation analysis, and hands-on laboratory testing to understand how optical design, alignment, tolerances, and component variation influence system performance. Your work will include investigating unwanted optical signals and unexpected beam behavior, evaluating design improvements, and correlating experimental measurements with simulation results to validate solutions. Working alongside a multidisciplinary engineering team, you will gain hands-on experience developing advanced optical technology fo"
+},
+"https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-CA-EL-SEGUNDO-E01--2000-E-El-Segundo-Blvd--BLDG-E01/FPGA-Electrical-Engineer-Intern--Summer-2027-_01890532": {
+"first_seen": "2026-11-24",
+"title": "FPGA Electrical Engineer Intern (Summer 2027)",
+"company": "RTX",
+"desc": "  Date Posted:  2026-11-24&#xa;&#xa;  Country:  United States of America&#xa;&#xa;  Location:  US-CA-EL SEGUNDO-E01 ~ 2000 E El Segundo Blvd ~ BLDG E01&#xa;&#xa;  Position Role Type:  Onsite&#xa;&#xa;   U.S. Citizen, U.S. Person, or Immigration Status Requirements:    U.S. citizenship is required, as only U.S. citizens are authorized to access information under this program/contract.&#xa;&#xa;  Security Clearance Type:   None/Not Required&#xa;&#xa;  Security Clearance Status:   Not Required     Are you ready to explore the world of aerospace and defense? Do you want to learn from and collaborate with some of the greatest minds in the industry? At RTX, our internships, co-ops and full-time careers provide an exceptional foundation to work on complex problems, advance your skills and create a safer, more connected world. Discover opportunities to make a difference at RTX.   At RTX, the world's largest aerospace and defense company, 185,000 great minds are united by purpose and inspired to make a difference solving the world\u2019s most complex problems. With our three market leading businesses, world-class operations and investments in research and development, we offer capabilities and opportunity no one else can. Together, we push the boundaries of known science and find new ways to connect and protect our world.    At Raytheon, our mission is rooted in helping our nation and allies defend freedoms and deter aggression. Backed by more than 100 years of experience and renowned engi"
+},
+"https://job-boards.greenhouse.io/queracomputinginc/jobs/5493521008": {
+"first_seen": "2026-11-24",
+"title": "Site Reliability Engineer Co-op",
+"company": "QuEra",
+"desc": ""
+},
+"https://seagatecareers.com/job/Optics-&amp;-Photonics-Engineering-Intern-Summer-2027/15692-en_US": {
+"first_seen": "2026-11-24",
+"title": "Optics & Photonics Engineering Intern - Summer 2027",
+"company": "Seagate",
 "desc": ""
 }
 }
