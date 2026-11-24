@@ -635,8 +635,8 @@
 },
 "https://www.indeed.com/viewjob": {
 "first_seen": "2026-09-18",
-"title": "Electrical Engineering Co-op (Winter/Spring 2027)",
-"company": "Collins Aerospace",
+"title": "Sensor Hardware Test and Validation Co-op (Spring 2027)",
+"company": "LINEVISION",
 "desc": ""
 },
 "https://www.linkedin.com/jobs/view/4468697840": {
@@ -26814,6 +26814,96 @@
 "first_seen": "2026-11-24",
 "title": "Electrical Engineering Intern (Summer 2027)",
 "company": "General Dynamics Mission Systems",
+"desc": ""
+},
+"https://go.vansh.nyc/1HH": {
+"first_seen": "2026-11-24",
+"title": "Software Development Test Engineering Co-op",
+"company": "SharkNinja",
+"desc": ""
+},
+"https://go.vansh.nyc/1HJ": {
+"first_seen": "2026-11-24",
+"title": "Firmware Engineering Intern, Advanced Development",
+"company": "SharkNinja",
+"desc": ""
+},
+"https://simplify.jobs/jobs/click/c35d92f1-9576-404c-aa72-a0912c63beec": {
+"first_seen": "2026-11-24",
+"title": "Thermal Test Engineer Co-op",
+"company": "Baltimore Aircoil Company",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4493956542": {
+"first_seen": "2026-11-24",
+"title": "Internship - Electrical Engineer",
+"company": "ASML",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4492660233": {
+"first_seen": "2026-11-24",
+"title": "AMS CAD Engineer Intern",
+"company": "Marvell Technology",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4492684193": {
+"first_seen": "2026-11-24",
+"title": "2027 Internship - RF Systems Evaluation and Integration",
+"company": "Johns Hopkins Applied Physics Laboratory",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4494103036": {
+"first_seen": "2026-11-24",
+"title": "Pipe Stress Engineering Intern - Semiconductor",
+"company": "Jacobs",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4494078709": {
+"first_seen": "2026-11-24",
+"title": "Software Engineering Intern - Circuit Simulation",
+"company": "Cadence",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4492683330": {
+"first_seen": "2026-11-24",
+"title": "2027 Internship - Optical, Electrical, or Computer Engineer - Imaging Systems",
+"company": "Johns Hopkins Applied Physics Laboratory",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4492655639": {
+"first_seen": "2026-11-24",
+"title": "Integrated Photonics Research Intern - Advanced Degrees - Summer 2027",
+"company": "Seagate Technology",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4494313351": {
+"first_seen": "2026-11-24",
+"title": "2027 Hardware Electrical Engineering Intern",
+"company": "Mercury Systems",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4493953565": {
+"first_seen": "2026-11-24",
+"title": "2027 Electrical Engineering Intern",
+"company": "Oceaneering",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4491198649": {
+"first_seen": "2026-11-24",
+"title": "Summer 2027 Electrical Engineering Internship - Marseilles, IL",
+"company": "Constellation",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4494094237": {
+"first_seen": "2026-11-24",
+"title": "Failure Analysis Engineering Intern (Summer 2027)",
+"company": "Crosslinked",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4460362998": {
+"first_seen": "2026-11-24",
+"title": "Intern/Co-op - Refining Electrical Engineering (Summer 2027)",
+"company": "Marathon Petroleum Corporation",
 "desc": ""
 }
 }
