@@ -1,376 +1,336 @@
 fetching ATS boards…
-  SpaceX                       greenhouse      2863 jobs  1.4s
-  Astera Labs                  greenhouse       175 jobs  0.2s
-  Lightmatter                  greenhouse        86 jobs  0.1s
-  Tenstorrent                  greenhouse       147 jobs  0.1s
-  Anduril                      greenhouse      2605 jobs  1.8s
-  Hudson River Trading         greenhouse        85 jobs  0.1s
-  Jump Trading                 greenhouse        87 jobs  0.1s
-  DRW                          greenhouse       148 jobs  0.1s
-  IMC                          greenhouse       153 jobs  0.1s
-  Optiver                      greenhouse       148 jobs  0.2s
-  Zipline                      greenhouse       318 jobs  0.2s
-  Relativity Space             greenhouse       396 jobs  0.3s
-  PsiQuantum                   greenhouse       108 jobs  0.1s
-  IonQ                         greenhouse       109 jobs  0.1s
-  Samsara                      greenhouse       291 jobs  0.2s
-  Waymo                        greenhouse       357 jobs  0.1s
+  SpaceX                       greenhouse      2849 jobs  1.3s
+  Astera Labs                  greenhouse       179 jobs  0.2s
+  Lightmatter                  greenhouse        88 jobs  0.2s
+  Tenstorrent                  greenhouse       149 jobs  0.1s
+  Anduril                      greenhouse      2605 jobs  1.7s
+  Hudson River Trading         greenhouse        86 jobs  0.2s
+  Jump Trading                 greenhouse        86 jobs  0.1s
+  DRW                          greenhouse       148 jobs  0.2s
+  IMC                          greenhouse       152 jobs  0.1s
+  Optiver                      greenhouse       147 jobs  0.2s
+  Zipline                      greenhouse       313 jobs  0.2s
+  Relativity Space             greenhouse       405 jobs  0.4s
+  PsiQuantum                   greenhouse       109 jobs  0.3s
+  IonQ                         greenhouse       108 jobs  0.2s
+  Samsara                      greenhouse       289 jobs  0.2s
+  Waymo                        greenhouse       358 jobs  0.3s
   Nuro                         greenhouse       108 jobs  0.1s
-  Lucid Motors                 greenhouse       494 jobs  0.8s
-  Epirus                       greenhouse        41 jobs  0.1s
-  Astranis                     greenhouse       165 jobs  0.1s
-  Vast                         greenhouse       204 jobs  0.1s
-  Ursa Major                   greenhouse       136 jobs  0.2s
-  Muon Space                   greenhouse       133 jobs  0.1s
-  Rocket Lab                   greenhouse       554 jobs  0.4s
+  Lucid Motors                 greenhouse       498 jobs  0.6s
+  Epirus                       greenhouse        40 jobs  0.3s
+  Astranis                     greenhouse       164 jobs  0.2s
+  Vast                         greenhouse       206 jobs  0.2s
+  Ursa Major                   greenhouse       135 jobs  0.2s
+  Muon Space                   greenhouse       130 jobs  0.2s
+  Rocket Lab                   greenhouse       547 jobs  0.4s
   Apptronik                    greenhouse        87 jobs  0.1s
-  Figure AI                    greenhouse       103 jobs  0.1s
-  Agility Robotics             greenhouse        72 jobs  0.1s
-  SambaNova                    greenhouse        72 jobs  0.1s
-  Varda Space                  greenhouse       141 jobs  0.2s
-  Oura                         greenhouse        94 jobs  0.1s
+  Figure AI                    greenhouse       101 jobs  0.1s
+  Agility Robotics             greenhouse        71 jobs  0.1s
+  SambaNova                    greenhouse        79 jobs  0.1s
+  Varda Space                  greenhouse       139 jobs  0.2s
+  Oura                         greenhouse        96 jobs  0.1s
   Anello Photonics             greenhouse         6 jobs  0.1s
   Vannevar Labs                greenhouse        35 jobs  0.1s
   Kodiak                       greenhouse        52 jobs  0.1s
-  Motional                     greenhouse        82 jobs  0.1s
+  Motional                     greenhouse        81 jobs  0.2s
   Torc Robotics                greenhouse        51 jobs  0.1s
-  Planet Labs                  greenhouse       106 jobs  0.1s
-  Scale AI                     greenhouse       159 jobs  0.1s
-  Anthropic                    greenhouse       633 jobs  0.5s
+  Planet Labs                  greenhouse       105 jobs  0.2s
+  Scale AI                     greenhouse       157 jobs  0.2s
+  Anthropic                    greenhouse       636 jobs  0.4s
   May Mobility                 greenhouse        34 jobs  0.1s
   Glydways                     greenhouse        13 jobs  0.1s
-  Butterfly Network            greenhouse        18 jobs  0.1s
-  Rigetti                      lever             12 jobs  13.8s
-  Eliyan                       lever             23 jobs  0.2s
-  Atom Computing               lever             40 jobs  0.2s
-  Shield AI                    lever              0 jobs  0.1s
-  Zoox                         lever            243 jobs  3.5s
-  Aeva                         lever             48 jobs  0.4s
-  Hermeus                      lever             81 jobs  7.2s
-  Dexterity                    lever             14 jobs  9.2s
-  Pickle Robot                 lever             13 jobs  0.2s
-  Waabi                        lever             84 jobs  3.7s
-  Etched                       ashby            117 jobs  0.0s
-  d-Matrix                     ashby             38 jobs  0.1s
-  MatX                         ashby             40 jobs  0.1s
-  Cerebras                     ashby            135 jobs  0.1s
-  WHOOP                        ashby            109 jobs  0.1s
+  Butterfly Network            greenhouse        20 jobs  0.1s
+  Rigetti                      lever             10 jobs  0.3s
+  Eliyan                       lever             23 jobs  0.3s
+  Atom Computing               lever             41 jobs  0.3s
+  Shield AI                    lever              0 jobs  0.2s
+  Zoox                         lever            247 jobs  0.5s
+  Aeva                         lever             48 jobs  0.3s
+  Hermeus                      lever             81 jobs  0.4s
+  Dexterity                    lever             14 jobs  0.3s
+  Pickle Robot                 lever             11 jobs  0.3s
+  Waabi                        lever             85 jobs  0.5s
+  Etched                       ashby            118 jobs  0.2s
+  d-Matrix                     ashby             37 jobs  0.2s
+  MatX                         ashby             39 jobs  0.2s
+  Cerebras                     ashby            135 jobs  0.2s
+  WHOOP                        ashby            109 jobs  0.2s
   Specter                      ashby             36 jobs  0.1s
-  Saronic                      ashby            301 jobs  0.1s
-  Axelera AI                   ashby             14 jobs  0.1s
-  Lambda                       ashby             98 jobs  0.1s
-  Skydio                       ashby            183 jobs  0.0s
-  Form Energy                  ashby            208 jobs  0.2s
-  Quadric                      ashby             20 jobs  0.2s
-  Physical Intelligence        ashby             45 jobs  0.0s
-  1X                           ashby            116 jobs  0.0s
+  Saronic                      ashby            307 jobs  0.2s
+  Axelera AI                   ashby             14 jobs  0.3s
+  Lambda                       ashby             99 jobs  0.1s
+  Skydio                       ashby            184 jobs  0.2s
+  Form Energy                  ashby            209 jobs  0.2s
+  Quadric                      ashby             18 jobs  0.1s
+  Physical Intelligence        ashby             45 jobs  0.1s
+  1X                           ashby            116 jobs  0.2s
   Impulse Space                ashby              2 jobs  0.1s
-  Applied Intuition            ashby            334 jobs  0.1s
-  OpenAI                       ashby            863 jobs  0.1s
-  Wayve                        ashby            152 jobs  0.1s
+  Applied Intuition            ashby            332 jobs  0.2s
+  OpenAI                       ashby            877 jobs  0.2s
+  Wayve                        ashby            151 jobs  0.3s
   Pliant                       ashby             29 jobs  0.1s
-  NVIDIA                       workday          137 jobs  8.4s
-  Intel                        workday           94 jobs  6.7s
-  Analog Devices               workday          113 jobs  5.3s
-  Marvell                      workday           75 jobs  3.6s
+  NVIDIA                       workday          139 jobs  8.0s
+  Intel                        workday           93 jobs  6.6s
+  Analog Devices               workday          114 jobs  5.8s
+  Marvell                      workday           72 jobs  3.8s
   NXP                          workday        FAILED HTTPError: HTTP Error 422: Unprocessable Entity
-  Microchip                    workday           69 jobs  3.7s
+  Microchip                    workday           72 jobs  3.8s
   Wolfspeed                    workday           91 jobs  3.9s
-  Silicon Labs                 workday           62 jobs  3.9s
-  Broadcom                     workday          433 jobs  12.5s
-  Allegro MicroSystems         workday           61 jobs  3.4s
-  Monolithic Power Systems     workday           80 jobs  2.2s
-  Blue Origin                  workday          130 jobs  5.2s
-  Draper                       workday           73 jobs  3.5s
-  Boston Dynamics              workday           59 jobs  3.9s
-  KLA                          workday          110 jobs  6.2s
-  Applied Materials            workday          132 jobs  8.9s
-  Cadence                      workday          109 jobs  5.2s
-  Cisco                        workday          686 jobs  15.7s
-  Samsung Semiconductor        workday          137 jobs  11.7s
-  Texas Instruments            oracle_hcm       667 jobs  14.2s
-  onsemi                       oracle_hcm       388 jobs  6.6s
-  Skyworks                     successfactors_csb   283 jobs  20.0s
+  Silicon Labs                 workday           62 jobs  3.8s
+  Broadcom                     workday          434 jobs  13.0s
+  Allegro MicroSystems         workday           61 jobs  3.7s
+  Monolithic Power Systems     workday           80 jobs  2.4s
+  Blue Origin                  workday          132 jobs  6.1s
+  Draper                       workday           73 jobs  4.5s
+  Boston Dynamics              workday           59 jobs  4.0s
+  KLA                          workday          112 jobs  7.5s
+  Applied Materials            workday          131 jobs  9.5s
+  Cadence                      workday          110 jobs  5.0s
+  Cisco                        workday          684 jobs  17.7s
+  Samsung Semiconductor        workday          137 jobs  11.6s
+  Texas Instruments            oracle_hcm       668 jobs  17.2s
+  onsemi                       oracle_hcm       392 jobs  8.9s
+  Skyworks                     successfactors_csb   281 jobs  19.4s
   Teradyne                     successfactors_csb FAILED HTTPError: HTTP Error 401: 401
   Infineon                     eightfold      FAILED HTTPError: HTTP Error 403: FORBIDDEN
-  AMD                          icims              0 jobs  1.0s
-  Amazon                       amazon            26 jobs  2.0s
+  AMD                          icims              0 jobs  1.5s
+  Amazon                       amazon            25 jobs  2.9s
   Micron                       eightfold      FAILED HTTPError: HTTP Error 403: FORBIDDEN
   Qualcomm                     eightfold      FAILED HTTPError: HTTP Error 403: FORBIDDEN
-  Keysight                     icims              0 jobs  1.0s
-  Western Digital              smartrecruiters   332 jobs  2.1s
+  Keysight                     icims              0 jobs  1.4s
+  Western Digital              smartrecruiters   334 jobs  2.1s
   Lam Research                 eightfold      FAILED HTTPError: HTTP Error 403: FORBIDDEN
   Qorvo                        successfactors_csb FAILED HTTPError: HTTP Error 401: 401
-  Renesas                      smartrecruiters   953 jobs  5.1s
-  GlobalFoundries              workday           73 jobs  5.3s
-  Arm                          icims              0 jobs  0.9s
-  Rambus                       icims              0 jobs  1.2s
-  Ambarella                    workday           42 jobs  2.2s
-  MaxLinear                    icims              0 jobs  1.0s
-  Semtech                      workday           67 jobs  3.6s
+  Renesas                      smartrecruiters   952 jobs  4.9s
+  GlobalFoundries              workday           73 jobs  5.1s
+  Arm                          icims              0 jobs  1.2s
+  Rambus                       icims              0 jobs  1.6s
+  Ambarella                    workday           42 jobs  2.3s
+  MaxLinear                    icims              0 jobs  1.4s
+  Semtech                      workday           65 jobs  3.6s
   Vicor                        successfactors_csb FAILED HTTPError: HTTP Error 401: 401
-  Lumentum                     workday           85 jobs  4.8s
-  MKS Instruments              workday           71 jobs  3.9s
-  Entegris                     workday           81 jobs  5.5s
-  ASML                         workday          583 jobs  43.9s
-  FormFactor                   workday           78 jobs  3.8s
-  Onto Innovation              workday          223 jobs  8.0s
+  Lumentum                     workday           85 jobs  4.5s
+  MKS Instruments              workday           71 jobs  3.8s
+  Entegris                     workday           77 jobs  4.8s
+  ASML                         workday          586 jobs  41.4s
+  FormFactor                   workday           78 jobs  4.0s
+  Onto Innovation              workday          221 jobs  9.1s
   MIT Lincoln Laboratory       successfactors_csb FAILED HTTPError: HTTP Error 401: 401
-  RTX                          workday          989 jobs  26.8s
+  RTX                          workday          985 jobs  26.2s
   Lockheed Martin              eightfold      FAILED HTTPError: HTTP Error 403: FORBIDDEN
-  Northrop Grumman             workday          686 jobs  26.3s
-  Boeing                       workday          142 jobs  11.5s
-  GE Aerospace                 workday          530 jobs  11.3s
-  Bose                         workday           61 jobs  3.1s
+  Northrop Grumman             workday          703 jobs  25.6s
+  Boeing                       workday          142 jobs  8.4s
+  GE Aerospace                 workday          525 jobs  13.3s
+  Bose                         workday           60 jobs  3.3s
   iRobot                       workday        FAILED HTTPError: HTTP Error 422: Unprocessable Entity
   Dell                         workday        FAILED HTTPError: HTTP Error 422: Unprocessable Entity
-  HP                           workday          100 jobs  7.2s
-  SiFive                       workday           76 jobs  3.3s
+  HP                           workday          100 jobs  7.1s
+  SiFive                       workday           76 jobs  4.4s
   Groq                         greenhouse     FAILED HTTPError: HTTP Error 404: Not Found
-  Ciena                        workday           66 jobs  4.4s
-  Garmin                       icims              0 jobs  0.9s
-  Sonos                        workday           46 jobs  2.3s
+  Ciena                        workday           66 jobs  5.0s
+  Garmin                       icims              0 jobs  1.3s
+  Sonos                        workday           48 jobs  2.6s
   Eaton                        eightfold      FAILED HTTPError: HTTP Error 403: FORBIDDEN
-  Waters Corporation           icims              0 jobs  1.3s
+  Waters Corporation           icims              0 jobs  1.4s
   Symbotic                     workday        FAILED HTTPError: HTTP Error 422: Unprocessable Entity
-  Commonwealth Fusion Systems  lever            135 jobs  0.3s
-  ChipAgents                   ashby             16 jobs  0.2s
+  Commonwealth Fusion Systems  lever            136 jobs  1.2s
+  ChipAgents                   ashby             19 jobs  0.2s
   Atomic Semi                  ashby          FAILED HTTPError: HTTP Error 404: Not Found
-  Empower Semiconductor        workday           42 jobs  3.4s
-  Movandi                      smartrecruiters     1 jobs  0.4s
-  Nexperia                     workday           79 jobs  6.4s
-  SK hynix America             greenhouse        48 jobs  0.1s
-  nEye Systems                 lever             16 jobs  0.2s
-  QuEra                        greenhouse        77 jobs  0.1s
-  Alphawave Semi               workday            0 jobs  1.9s
-  Ambiq                        greenhouse        45 jobs  0.1s
+  Empower Semiconductor        workday           42 jobs  3.8s
+  Movandi                      smartrecruiters     1 jobs  0.7s
+  Nexperia                     workday           79 jobs  6.8s
+  SK hynix America             greenhouse        52 jobs  0.1s
+  nEye Systems                 lever             17 jobs  0.7s
+  QuEra                        greenhouse        79 jobs  0.2s
+  Alphawave Semi               workday            0 jobs  2.1s
+  Ambiq                        greenhouse        43 jobs  0.1s
   Tetramem                     smartrecruiters     6 jobs  0.5s
-  Leidos                       workday          148 jobs  10.9s
-  Curtiss-Wright               workday           98 jobs  4.1s
-  Moog                         workday          464 jobs  12.5s
-  Teledyne FLIR                workday           94 jobs  4.1s
-  Honeywell                    oracle_hcm       758 jobs  21.7s
-  Juniper Networks             oracle_hcm         0 jobs  1.7s
-  Emerson                      oracle_hcm       553 jobs  16.8s
-  Nokia                        oracle_hcm       225 jobs  6.2s
+  Leidos                       workday          147 jobs  10.9s
+  Curtiss-Wright               workday          102 jobs  4.5s
+  Moog                         workday          466 jobs  12.6s
+  Teledyne FLIR                workday           94 jobs  4.5s
+  Honeywell                    oracle_hcm       757 jobs  22.8s
+  Juniper Networks             oracle_hcm         0 jobs  2.4s
+  Emerson                      oracle_hcm       549 jobs  17.0s
+  Nokia                        oracle_hcm       222 jobs  6.4s
   Lattice Semiconductor        greenhouse         4 jobs  0.1s
-  Seagate                      successfactors_csb   191 jobs  11.4s
-  BAE Systems                  phenom           362 jobs  2.4s
-  General Dynamics Mission Systems icims             56 jobs  1.9s
-  Navitas Semiconductor        smartrecruiters    47 jobs  0.8s
-  Arista Networks              smartrecruiters   217 jobs  1.3s
+  Seagate                      successfactors_csb   199 jobs  9.8s
+  BAE Systems                  phenom           380 jobs  2.3s
+  General Dynamics Mission Systems icims             54 jobs  3.1s
+  Navitas Semiconductor        smartrecruiters    49 jobs  0.8s
+  Arista Networks              smartrecruiters   218 jobs  1.4s
   Analog Devices Maxim         smartrecruiters     3 jobs  0.4s
-  Wabtec                       smartrecruiters   721 jobs  1.4s
-  Formlabs                     greenhouse       271 jobs  0.1s
+  Wabtec                       smartrecruiters   714 jobs  1.6s
+  Formlabs                     greenhouse       272 jobs  0.2s
   Markforged                   greenhouse         1 jobs  0.1s
-  Thermo Fisher Scientific     phenom           172 jobs  1.4s
-  Toast                        greenhouse       312 jobs  0.2s
-  Rapid Micro Biosystems       lever              9 jobs  2.3s
-  Fractile                     ashby             20 jobs  0.3s
-  Extropic                     ashby             10 jobs  0.2s
-  Normal Computing             ashby             38 jobs  0.0s
-  Lumotive                     lever              9 jobs  0.2s
+  Thermo Fisher Scientific     phenom           174 jobs  2.0s
+  Toast                        greenhouse       299 jobs  0.2s
+  Rapid Micro Biosystems       lever              9 jobs  0.3s
+  Fractile                     ashby             20 jobs  0.1s
+  Extropic                     ashby             10 jobs  0.1s
+  Normal Computing             ashby             38 jobs  0.2s
+  Lumotive                     lever              9 jobs  0.3s
   Substrate                    ashby              7 jobs  0.2s
-  Kioxia America               smartrecruiters    33 jobs  0.4s
+  Kioxia America               smartrecruiters    33 jobs  0.5s
   Rain AI                      ashby             47 jobs  0.1s
-  Lawrence Livermore National Laboratory smartrecruiters   189 jobs  0.4s
-  NASA JPL                     phenom            13 jobs  0.7s
+  Lawrence Livermore National Laboratory smartrecruiters   187 jobs  0.4s
+  NASA JPL                     phenom            13 jobs  1.3s
   Ultra Electronics            ashby              3 jobs  0.1s
-  Palantir                     lever            305 jobs  0.4s
-  Mach Industries              greenhouse       193 jobs  0.2s
+  Palantir                     lever            305 jobs  0.7s
+  Mach Industries              greenhouse       192 jobs  0.2s
 fetching GitHub lists…
-  github:vanshb03-offseason: 469 rows
-  github:vanshb03-summer: 2028 rows
+  github:vanshb03-offseason: 467 rows
+  github:vanshb03-summer: 2029 rows
   github:sndsh404: 135 rows
   github:hardware-internships-2027: 35 rows
 fetching internlist.org (Simplify) lists…
-  internlist:coop             2569 jobs  11.8s
-  internlist:winter-spring    5440 jobs  33.4s
+  internlist:coop             2540 jobs  15.5s
+  internlist:winter-spring    5389 jobs  28.8s
 LinkedIn/Indeed sweep…
+WARNING:jobspy.linkedin:job 4493915564: response status code 429 (blocked: use a proxy)
 WARNING:jobspy.linkedin:job 4459079598: response status code 429 (blocked: use a proxy)
+WARNING:jobspy.linkedin:job 4494182031: response status code 429 (blocked: use a proxy)
 ERROR:jobspy.linkedin:response status code 429 (blocked: use a proxy)
-  jobspy 'electrical engineering co-op spring 2027': 13 new
-WARNING:jobspy.linkedin:job 4468085938: response status code 429 (blocked: use a proxy)
+  jobspy 'electrical engineering co-op spring 2027': 16 new
+WARNING:jobspy.linkedin:job 4486830208: response status code 429 (blocked: use a proxy)
+WARNING:jobspy.linkedin:job 4494396752: response status code 429 (blocked: use a proxy)
+WARNING:jobspy.linkedin:job 4494159968: response status code 429 (blocked: use a proxy)
+WARNING:jobspy.linkedin:job 4494078190: response status code 429 (blocked: use a proxy)
+WARNING:jobspy.linkedin:job 4493956542: response status code 429 (blocked: use a proxy)
+WARNING:jobspy.linkedin:job 4493969992: response status code 429 (blocked: use a proxy)
 ERROR:jobspy.linkedin:response status code 429 (blocked: use a proxy)
-  jobspy 'hardware engineer co-op 2027': 9 new
-ERROR:jobspy.linkedin:response status code 429 (blocked: use a proxy)
-  jobspy 'analog design intern 2027': 2 new
-WARNING:jobspy.linkedin:job 4468085938: response status code 429 (blocked: use a proxy)
-WARNING:jobspy.linkedin:job 4484898162: response status code 429 (blocked: use a proxy)
-WARNING:jobspy.linkedin:job 4477989809: response status code 429 (blocked: use a proxy)
-WARNING:jobspy.linkedin:job 4493307126: response status code 429 (blocked: use a proxy)
-WARNING:jobspy.linkedin:job 4492660233: response status code 429 (blocked: use a proxy)
-WARNING:jobspy.linkedin:job 4471968369: response status code 429 (blocked: use a proxy)
-WARNING:jobspy.linkedin:job 4476865430: response status code 429 (blocked: use a proxy)
-WARNING:jobspy.linkedin:job 4478711462: response status code 429 (blocked: use a proxy)
-WARNING:jobspy.linkedin:job 4460543658: response status code 429 (blocked: use a proxy)
-WARNING:jobspy.linkedin:job 4494313351: response status code 429 (blocked: use a proxy)
-WARNING:jobspy.linkedin:job 4416984825: response status code 429 (blocked: use a proxy)
-WARNING:jobspy.linkedin:job 4485626851: response status code 429 (blocked: use a proxy)
-WARNING:jobspy.linkedin:job 4493982382: response status code 429 (blocked: use a proxy)
-  jobspy 'ASIC intern spring 2027': 33 new
+  jobspy 'hardware engineer co-op 2027': 19 new
+WARNING:jobspy.linkedin:job 4467594805: response status code 429 (blocked: use a proxy)
+WARNING:jobspy.linkedin:job 4466009303: response status code 429 (blocked: use a proxy)
+WARNING:jobspy.linkedin:job 4493083506: response status code 429 (blocked: use a proxy)
+WARNING:jobspy.linkedin:job 4493956542: response status code 429 (blocked: use a proxy)
+WARNING:jobspy.linkedin:job 4449952201: response status code 429 (blocked: use a proxy)
 WARNING:jobspy.linkedin:job 4459012644: response status code 429 (blocked: use a proxy)
-WARNING:jobspy.linkedin:job 4466639886: response status code 429 (blocked: use a proxy)
-WARNING:jobspy.linkedin:job 4466974866: response status code 429 (blocked: use a proxy)
-WARNING:jobspy.linkedin:job 4469804040: response status code 429 (blocked: use a proxy)
-WARNING:jobspy.linkedin:job 4493290612: response status code 429 (blocked: use a proxy)
-WARNING:jobspy.linkedin:job 4467753600: response status code 429 (blocked: use a proxy)
-WARNING:jobspy.linkedin:job 4460533902: response status code 429 (blocked: use a proxy)
-WARNING:jobspy.linkedin:job 4468091419: response status code 429 (blocked: use a proxy)
+WARNING:jobspy.linkedin:job 4494377904: response status code 429 (blocked: use a proxy)
 ERROR:jobspy.linkedin:response status code 429 (blocked: use a proxy)
-  jobspy 'test engineer co-op 2027': 25 new
-ERROR:jobspy.linkedin:response status code 429 (blocked: use a proxy)
-  jobspy 'silicon engineering intern spring 2027': 1 new
-WARNING:jobspy.linkedin:job 4459079598: response status code 429 (blocked: use a proxy)
-WARNING:jobspy.linkedin:job 4477805671: response status code 429 (blocked: use a proxy)
-WARNING:jobspy.linkedin:job 4493906088: response status code 429 (blocked: use a proxy)
-WARNING:jobspy.linkedin:job 4493668509: response status code 429 (blocked: use a proxy)
-ERROR:jobspy.linkedin:response status code 429 (blocked: use a proxy)
-  jobspy 'RF engineer co-op': 28 new
-WARNING:jobspy.linkedin:job 4494368635: response status code 429 (blocked: use a proxy)
-WARNING:jobspy.linkedin:job 4492354674: response status code 429 (blocked: use a proxy)
-WARNING:jobspy.linkedin:job 4493957328: response status code 429 (blocked: use a proxy)
-WARNING:jobspy.linkedin:job 4469175650: response status code 429 (blocked: use a proxy)
-WARNING:jobspy.linkedin:job 4492984716: response status code 429 (blocked: use a proxy)
+  jobspy 'analog design intern 2027': 18 new
+WARNING:jobspy.linkedin:job 4485785816: response status code 429 (blocked: use a proxy)
+WARNING:jobspy.linkedin:job 4494375850: response status code 429 (blocked: use a proxy)
+WARNING:jobspy.linkedin:job 4493046828: response status code 429 (blocked: use a proxy)
 WARNING:jobspy.linkedin:job 4471965466: response status code 429 (blocked: use a proxy)
-WARNING:jobspy.linkedin:job 4458653133: response status code 429 (blocked: use a proxy)
-WARNING:jobspy.linkedin:job 4460540821: response status code 429 (blocked: use a proxy)
-WARNING:jobspy.linkedin:job 4491886471: response status code 429 (blocked: use a proxy)
-WARNING:jobspy.linkedin:job 4460540880: response status code 429 (blocked: use a proxy)
-WARNING:jobspy.linkedin:job 4492357154: response status code 429 (blocked: use a proxy)
-WARNING:jobspy.linkedin:job 4460543658: response status code 429 (blocked: use a proxy)
-WARNING:jobspy.linkedin:job 4478843460: response status code 429 (blocked: use a proxy)
-WARNING:jobspy.linkedin:job 4414913888: response status code 429 (blocked: use a proxy)
-WARNING:jobspy.linkedin:job 4484898162: response status code 429 (blocked: use a proxy)
-  jobspy 'semiconductor co-op': 27 new
-WARNING:jobspy.linkedin:job 4460339361: response status code 429 (blocked: use a proxy)
-WARNING:jobspy.linkedin:job 4460330453: response status code 429 (blocked: use a proxy)
+ERROR:jobspy.linkedin:response status code 429 (blocked: use a proxy)
+  jobspy 'ASIC intern spring 2027': 22 new
+WARNING:jobspy.linkedin:job 4494105924: response status code 429 (blocked: use a proxy)
+WARNING:jobspy.linkedin:job 4493924199: response status code 429 (blocked: use a proxy)
+WARNING:jobspy.linkedin:job 4494456314: response status code 429 (blocked: use a proxy)
+WARNING:jobspy.linkedin:job 4450749611: response status code 429 (blocked: use a proxy)
+WARNING:jobspy.linkedin:job 4494038832: response status code 429 (blocked: use a proxy)
+ERROR:jobspy.linkedin:response status code 429 (blocked: use a proxy)
+  jobspy 'test engineer co-op 2027': 15 new
+WARNING:jobspy.linkedin:job 4459079598: response status code 429 (blocked: use a proxy)
+WARNING:jobspy.linkedin:job 4494368635: response status code 429 (blocked: use a proxy)
+WARNING:jobspy.linkedin:job 4494734809: response status code 429 (blocked: use a proxy)
+WARNING:jobspy.linkedin:job 4448459357: response status code 429 (blocked: use a proxy)
+WARNING:jobspy.linkedin:job 4493982382: response status code 429 (blocked: use a proxy)
+WARNING:jobspy.linkedin:job 4460818728: response status code 429 (blocked: use a proxy)
+  jobspy 'silicon engineering intern spring 2027': 16 new
+WARNING:jobspy.linkedin:job 4456415884: response status code 429 (blocked: use a proxy)
+WARNING:jobspy.linkedin:job 4459079598: response status code 429 (blocked: use a proxy)
+WARNING:jobspy.linkedin:job 4468281943: response status code 429 (blocked: use a proxy)
+WARNING:jobspy.linkedin:job 4477805671: response status code 429 (blocked: use a proxy)
+WARNING:jobspy.linkedin:job 4486417509: response status code 429 (blocked: use a proxy)
+WARNING:jobspy.linkedin:job 4492231358: response status code 429 (blocked: use a proxy)
+WARNING:jobspy.linkedin:job 4450623756: response status code 429 (blocked: use a proxy)
+WARNING:jobspy.linkedin:job 4494456314: response status code 429 (blocked: use a proxy)
+WARNING:jobspy.linkedin:job 4494087333: response status code 429 (blocked: use a proxy)
+WARNING:jobspy.linkedin:job 4468024283: response status code 429 (blocked: use a proxy)
+WARNING:jobspy.linkedin:job 4493946009: response status code 429 (blocked: use a proxy)
+WARNING:jobspy.linkedin:job 4471968369: response status code 429 (blocked: use a proxy)
+WARNING:jobspy.linkedin:job 4486863462: response status code 429 (blocked: use a proxy)
+WARNING:jobspy.linkedin:job 4493668509: response status code 429 (blocked: use a proxy)
+  jobspy 'RF engineer co-op': 27 new
+ERROR:jobspy.linkedin:response status code 429 (blocked: use a proxy)
+  jobspy 'semiconductor co-op': 7 new
+WARNING:jobspy.linkedin:job 4468400153: response status code 429 (blocked: use a proxy)
+WARNING:jobspy.linkedin:job 4494377791: response status code 429 (blocked: use a proxy)
 WARNING:jobspy.linkedin:job 4477989809: response status code 429 (blocked: use a proxy)
-WARNING:jobspy.linkedin:job 4494313351: response status code 429 (blocked: use a proxy)
-WARNING:jobspy.linkedin:job 4466608914: response status code 429 (blocked: use a proxy)
+WARNING:jobspy.linkedin:job 4494428823: response status code 429 (blocked: use a proxy)
+WARNING:jobspy.linkedin:job 4494189339: response status code 429 (blocked: use a proxy)
 WARNING:jobspy.linkedin:job 4493693311: response status code 429 (blocked: use a proxy)
+WARNING:jobspy.linkedin:job 4460540821: response status code 429 (blocked: use a proxy)
 ERROR:jobspy.linkedin:response status code 429 (blocked: use a proxy)
-  jobspy 'design verification intern 2027': 7 new
+  jobspy 'design verification intern 2027': 16 new
 ERROR:jobspy.linkedin:response status code 429 (blocked: use a proxy)
-  jobspy 'physical design intern 2027': 30 new
+  jobspy 'physical design intern 2027': 39 new
+WARNING:jobspy.linkedin:job 4494304607: response status code 429 (blocked: use a proxy)
+WARNING:jobspy.linkedin:job 4494722379: response status code 429 (blocked: use a proxy)
+WARNING:jobspy.linkedin:job 4492660233: response status code 429 (blocked: use a proxy)
+WARNING:jobspy.linkedin:job 4494428473: response status code 429 (blocked: use a proxy)
+WARNING:jobspy.linkedin:job 4493924199: response status code 429 (blocked: use a proxy)
+WARNING:jobspy.linkedin:job 4484640149: response status code 429 (blocked: use a proxy)
 ERROR:jobspy.linkedin:response status code 429 (blocked: use a proxy)
-  jobspy 'semiconductor startup intern': 0 new
+  jobspy 'semiconductor startup intern': 20 new
 ERROR:jobspy.linkedin:response status code 429 (blocked: use a proxy)
   jobspy 'chip design startup intern': 0 new
-WARNING:jobspy.linkedin:job 4494093260: response status code 429 (blocked: use a proxy)
+WARNING:jobspy.linkedin:job 4494099060: response status code 429 (blocked: use a proxy)
+WARNING:jobspy.linkedin:job 4494382530: response status code 429 (blocked: use a proxy)
+WARNING:jobspy.linkedin:job 4494735793: response status code 429 (blocked: use a proxy)
 WARNING:jobspy.linkedin:job 4493982846: response status code 429 (blocked: use a proxy)
-WARNING:jobspy.linkedin:job 4466608914: response status code 429 (blocked: use a proxy)
-WARNING:jobspy.linkedin:job 4460330453: response status code 429 (blocked: use a proxy)
-WARNING:jobspy.linkedin:job 4493986727: response status code 429 (blocked: use a proxy)
-WARNING:jobspy.linkedin:job 4460543658: response status code 429 (blocked: use a proxy)
-WARNING:jobspy.linkedin:job 4468405078: response status code 429 (blocked: use a proxy)
-WARNING:jobspy.linkedin:job 4486985749: response status code 429 (blocked: use a proxy)
-WARNING:jobspy.linkedin:job 4493956542: response status code 429 (blocked: use a proxy)
-WARNING:jobspy.linkedin:job 4476873733: response status code 429 (blocked: use a proxy)
-WARNING:jobspy.linkedin:job 4481917290: response status code 429 (blocked: use a proxy)
-WARNING:jobspy.linkedin:job 4490172979: response status code 429 (blocked: use a proxy)
-WARNING:jobspy.linkedin:job 4494085088: response status code 429 (blocked: use a proxy)
-WARNING:jobspy.linkedin:job 4484898162: response status code 429 (blocked: use a proxy)
-WARNING:jobspy.linkedin:job 4467825250: response status code 429 (blocked: use a proxy)
-WARNING:jobspy.linkedin:job 4468348640: response status code 429 (blocked: use a proxy)
-WARNING:jobspy.linkedin:job 4460540821: response status code 429 (blocked: use a proxy)
-WARNING:jobspy.linkedin:job 4494336453: response status code 429 (blocked: use a proxy)
-WARNING:jobspy.linkedin:job 4484613453: response status code 429 (blocked: use a proxy)
-WARNING:jobspy.linkedin:job 4494368635: response status code 429 (blocked: use a proxy)
-WARNING:jobspy.linkedin:job 4492613605: response status code 429 (blocked: use a proxy)
-WARNING:jobspy.linkedin:job 4494033895: response status code 429 (blocked: use a proxy)
-WARNING:jobspy.linkedin:job 4485653323: response status code 429 (blocked: use a proxy)
-  jobspy 'EDA intern': 25 new
-WARNING:jobspy.linkedin:job 4470007425: response status code 429 (blocked: use a proxy)
-WARNING:jobspy.linkedin:job 4485653323: response status code 429 (blocked: use a proxy)
-WARNING:jobspy.linkedin:job 4471968369: response status code 429 (blocked: use a proxy)
-WARNING:jobspy.linkedin:job 4485926947: response status code 429 (blocked: use a proxy)
-WARNING:jobspy.linkedin:job 4469175650: response status code 429 (blocked: use a proxy)
-WARNING:jobspy.linkedin:job 4468088818: response status code 429 (blocked: use a proxy)
-WARNING:jobspy.linkedin:job 4468085935: response status code 429 (blocked: use a proxy)
+WARNING:jobspy.linkedin:job 4459466590: response status code 429 (blocked: use a proxy)
+ERROR:jobspy.linkedin:response status code 429 (blocked: use a proxy)
+  jobspy 'EDA intern': 9 new
+ERROR:jobspy.linkedin:response status code 429 (blocked: use a proxy)
+  jobspy 'silicon photonics intern': 0 new
+WARNING:jobspy.linkedin:job 4464134225: response status code 429 (blocked: use a proxy)
+WARNING:jobspy.linkedin:job 4494459746: response status code 429 (blocked: use a proxy)
+WARNING:jobspy.linkedin:job 4494381860: response status code 429 (blocked: use a proxy)
+ERROR:jobspy.linkedin:response status code 429 (blocked: use a proxy)
+  jobspy 'AI chip startup intern': 9 new
+WARNING:jobspy.linkedin:job 4494733908: response status code 429 (blocked: use a proxy)
 WARNING:jobspy.linkedin:job 4493900172: response status code 429 (blocked: use a proxy)
-WARNING:jobspy.linkedin:job 4493953733: response status code 429 (blocked: use a proxy)
-WARNING:jobspy.linkedin:job 4478715201: response status code 429 (blocked: use a proxy)
-  jobspy 'silicon photonics intern': 24 new
-WARNING:jobspy.linkedin:job 4493130971: response status code 429 (blocked: use a proxy)
-WARNING:jobspy.linkedin:job 4494302727: response status code 429 (blocked: use a proxy)
-WARNING:jobspy.linkedin:job 4494026942: response status code 429 (blocked: use a proxy)
-WARNING:jobspy.linkedin:job 4494319026: response status code 429 (blocked: use a proxy)
-WARNING:jobspy.linkedin:job 4477858941: response status code 429 (blocked: use a proxy)
-WARNING:jobspy.linkedin:job 4494352958: response status code 429 (blocked: use a proxy)
-WARNING:jobspy.linkedin:job 4493937150: response status code 429 (blocked: use a proxy)
-WARNING:jobspy.linkedin:job 4493605590: response status code 429 (blocked: use a proxy)
-WARNING:jobspy.linkedin:job 4450748417: response status code 429 (blocked: use a proxy)
-WARNING:jobspy.linkedin:job 4468348640: response status code 429 (blocked: use a proxy)
-WARNING:jobspy.linkedin:job 4477887931: response status code 429 (blocked: use a proxy)
-WARNING:jobspy.linkedin:job 4492652073: response status code 429 (blocked: use a proxy)
-WARNING:jobspy.linkedin:job 4493109082: response status code 429 (blocked: use a proxy)
-WARNING:jobspy.linkedin:job 4493940134: response status code 429 (blocked: use a proxy)
-WARNING:jobspy.linkedin:job 4493941986: response status code 429 (blocked: use a proxy)
-WARNING:jobspy.linkedin:job 4493002911: response status code 429 (blocked: use a proxy)
-WARNING:jobspy.linkedin:job 4493910630: response status code 429 (blocked: use a proxy)
-  jobspy 'AI chip startup intern': 39 new
+WARNING:jobspy.linkedin:job 4466009303: response status code 429 (blocked: use a proxy)
+WARNING:jobspy.linkedin:job 4493083506: response status code 429 (blocked: use a proxy)
+WARNING:jobspy.linkedin:job 4484640149: response status code 429 (blocked: use a proxy)
 ERROR:jobspy.linkedin:response status code 429 (blocked: use a proxy)
-  jobspy 'analog mixed-signal intern': 3 new
-WARNING:jobspy.linkedin:job 4485626851: response status code 429 (blocked: use a proxy)
-WARNING:jobspy.linkedin:job 4477884617: response status code 429 (blocked: use a proxy)
-WARNING:jobspy.linkedin:job 4477883372: response status code 429 (blocked: use a proxy)
+  jobspy 'analog mixed-signal intern': 7 new
+WARNING:jobspy.linkedin:job 4494189339: response status code 429 (blocked: use a proxy)
+WARNING:jobspy.linkedin:job 4494304607: response status code 429 (blocked: use a proxy)
+WARNING:jobspy.linkedin:job 4466937956: response status code 429 (blocked: use a proxy)
+WARNING:jobspy.linkedin:job 4484602998: response status code 429 (blocked: use a proxy)
 WARNING:jobspy.linkedin:job 4414685466: response status code 429 (blocked: use a proxy)
-WARNING:jobspy.linkedin:job 4466913639: response status code 429 (blocked: use a proxy)
-WARNING:jobspy.linkedin:job 4494304453: response status code 429 (blocked: use a proxy)
-WARNING:jobspy.linkedin:job 4493942569: response status code 429 (blocked: use a proxy)
+WARNING:jobspy.linkedin:job 4494760547: response status code 429 (blocked: use a proxy)
 ERROR:jobspy.linkedin:response status code 429 (blocked: use a proxy)
-  jobspy 'chiplet intern': 22 new
+  jobspy 'chiplet intern': 12 new
+WARNING:jobspy.linkedin:job 4468088820: response status code 429 (blocked: use a proxy)
+WARNING:jobspy.linkedin:job 4459079598: response status code 429 (blocked: use a proxy)
 ERROR:jobspy.linkedin:response status code 429 (blocked: use a proxy)
-  jobspy 'RFIC intern': 0 new
+  jobspy 'RFIC intern': 1 new
 WARNING:jobspy.linkedin:job 4493666661: response status code 429 (blocked: use a proxy)
-WARNING:jobspy.linkedin:job 4463169005: response status code 429 (blocked: use a proxy)
-WARNING:jobspy.linkedin:job 4486443607: response status code 429 (blocked: use a proxy)
-WARNING:jobspy.linkedin:job 4494368635: response status code 429 (blocked: use a proxy)
+WARNING:jobspy.linkedin:job 4494733908: response status code 429 (blocked: use a proxy)
+WARNING:jobspy.linkedin:job 4486830208: response status code 429 (blocked: use a proxy)
 WARNING:jobspy.linkedin:job 4468088820: response status code 429 (blocked: use a proxy)
 WARNING:jobspy.linkedin:job 4448459357: response status code 429 (blocked: use a proxy)
-WARNING:jobspy.linkedin:job 4494033895: response status code 429 (blocked: use a proxy)
 WARNING:jobspy.linkedin:job 4494377231: response status code 429 (blocked: use a proxy)
-WARNING:jobspy.linkedin:job 4471968369: response status code 429 (blocked: use a proxy)
-WARNING:jobspy.linkedin:job 4468405076: response status code 429 (blocked: use a proxy)
-WARNING:jobspy.linkedin:job 4493693311: response status code 429 (blocked: use a proxy)
-WARNING:jobspy.linkedin:job 4492660233: response status code 429 (blocked: use a proxy)
+WARNING:jobspy.linkedin:job 4476888806: response status code 429 (blocked: use a proxy)
+WARNING:jobspy.linkedin:job 4493915564: response status code 429 (blocked: use a proxy)
+WARNING:jobspy.linkedin:job 4477917541: response status code 429 (blocked: use a proxy)
 ERROR:jobspy.linkedin:response status code 429 (blocked: use a proxy)
-  jobspy 'power semiconductor intern': 11 new
-WARNING:jobspy.linkedin:job 4494368635: response status code 429 (blocked: use a proxy)
-WARNING:jobspy.linkedin:job 4471965466: response status code 429 (blocked: use a proxy)
-WARNING:jobspy.linkedin:job 4466608914: response status code 429 (blocked: use a proxy)
-WARNING:jobspy.linkedin:job 4468088820: response status code 429 (blocked: use a proxy)
-WARNING:jobspy.linkedin:job 4494052225: response status code 429 (blocked: use a proxy)
-WARNING:jobspy.linkedin:job 4485626851: response status code 429 (blocked: use a proxy)
-WARNING:jobspy.linkedin:job 4467594805: response status code 429 (blocked: use a proxy)
-WARNING:jobspy.linkedin:job 4494017477: response status code 429 (blocked: use a proxy)
-WARNING:jobspy.linkedin:job 4493693311: response status code 429 (blocked: use a proxy)
-WARNING:jobspy.linkedin:job 4492850172: response status code 429 (blocked: use a proxy)
-WARNING:jobspy.linkedin:job 4494079866: response status code 429 (blocked: use a proxy)
-  jobspy 'semiconductor intern spring': 14 new
-WARNING:jobspy.linkedin:job 4493311006: response status code 429 (blocked: use a proxy)
-WARNING:jobspy.linkedin:job 4493307126: response status code 429 (blocked: use a proxy)
-WARNING:jobspy.linkedin:job 4460345281: response status code 429 (blocked: use a proxy)
-WARNING:jobspy.linkedin:job 4463169005: response status code 429 (blocked: use a proxy)
-WARNING:jobspy.linkedin:job 4448421222: response status code 429 (blocked: use a proxy)
-WARNING:jobspy.linkedin:job 4494317073: response status code 429 (blocked: use a proxy)
+  jobspy 'power semiconductor intern': 19 new
+ERROR:jobspy.linkedin:response status code 429 (blocked: use a proxy)
+  jobspy 'semiconductor intern spring': 1 new
+WARNING:jobspy.linkedin:job 4494155748: response status code 429 (blocked: use a proxy)
+WARNING:jobspy.linkedin:job 4485785816: response status code 429 (blocked: use a proxy)
 WARNING:jobspy.linkedin:job 4468085935: response status code 429 (blocked: use a proxy)
-WARNING:jobspy.linkedin:job 4416984825: response status code 429 (blocked: use a proxy)
-WARNING:jobspy.linkedin:job 4469183398: response status code 429 (blocked: use a proxy)
-WARNING:jobspy.linkedin:job 4486443607: response status code 429 (blocked: use a proxy)
-WARNING:jobspy.linkedin:job 4468238634: response status code 429 (blocked: use a proxy)
+WARNING:jobspy.linkedin:job 4494751265: response status code 429 (blocked: use a proxy)
+WARNING:jobspy.linkedin:job 4464134225: response status code 429 (blocked: use a proxy)
+WARNING:jobspy.linkedin:job 4468510610: response status code 429 (blocked: use a proxy)
+WARNING:jobspy.linkedin:job 4494737908: response status code 429 (blocked: use a proxy)
 WARNING:jobspy.linkedin:job 4494372200: response status code 429 (blocked: use a proxy)
-WARNING:jobspy.linkedin:job 4493969992: response status code 429 (blocked: use a proxy)
-WARNING:jobspy.linkedin:job 4476873733: response status code 429 (blocked: use a proxy)
-WARNING:jobspy.linkedin:job 4467825253: response status code 429 (blocked: use a proxy)
+WARNING:jobspy.linkedin:job 4476892617: response status code 429 (blocked: use a proxy)
+WARNING:jobspy.linkedin:job 4494420099: response status code 429 (blocked: use a proxy)
 WARNING:jobspy.linkedin:job 4492660233: response status code 429 (blocked: use a proxy)
-WARNING:jobspy.linkedin:job 4477936897: response status code 429 (blocked: use a proxy)
-WARNING:jobspy.linkedin:job 4494033895: response status code 429 (blocked: use a proxy)
+WARNING:jobspy.linkedin:job 4459466590: response status code 429 (blocked: use a proxy)
+WARNING:jobspy.linkedin:job 4478366376: response status code 429 (blocked: use a proxy)
+WARNING:jobspy.linkedin:job 4469172702: response status code 429 (blocked: use a proxy)
 WARNING:jobspy.linkedin:job 4492850172: response status code 429 (blocked: use a proxy)
-WARNING:jobspy.linkedin:job 4493900868: response status code 429 (blocked: use a proxy)
-  jobspy 'chip startup engineering intern 2027': 9 new
-openings: 15 | sheet.csv: 1255 {'CHIP': 365, 'HARDWARE': 348, 'MAYBE': 273, 'ADJACENT': 269} {'APPLY NOW': 171, 'APPLY': 357, 'SOON': 20, 'WATCH': 707} | watchlist: 95 | events: 7
+WARNING:jobspy.linkedin:job 4493940134: response status code 429 (blocked: use a proxy)
+  jobspy 'chip startup engineering intern 2027': 13 new
+openings: 18 | sheet.csv: 1270 {'CHIP': 378, 'HARDWARE': 355, 'MAYBE': 265, 'ADJACENT': 272} {'APPLY NOW': 180, 'APPLY': 350, 'SOON': 27, 'WATCH': 713} | watchlist: 92 | events: 7
 
-raw=41402 kept=1147 new=5 rejected=40140
-rank: {'A': 474, 'B': 224, 'C': 449}  reject reasons: {'not intern': 28421, 'no hardware keyword': 7008, 'software only': 2373, 'excluded title': 2039, 'non-US': 273, 'phd/ms only': 22, 'fall only': 4}
+raw=41322 kept=1162 new=29 rejected=40040
+rank: {'A': 476, 'B': 228, 'C': 458}  reject reasons: {'not intern': 28423, 'no hardware keyword': 6939, 'software only': 2348, 'excluded title': 2036, 'non-US': 270, 'phd/ms only': 20, 'fall only': 4}
