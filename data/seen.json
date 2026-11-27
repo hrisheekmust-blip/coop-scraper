@@ -27499,5 +27499,17 @@
 "title": "Test Development Intern",
 "company": "Nexperia",
 "desc": "  Location:  Nijmegen, Netherlands (On-site)   Education Level:  Master's Degree (Computer Science, AI, Electrical Engineering, Data Science or related field)  Start Date:  First Half of 2027     About Nexperia   Nexperia is a global semiconductor company delivering essential electronic components that enable smarter, safer, and more sustainable technologies. Our Business Group IC Solutions develops a broad portfolio of integrated-circuit (IC) products used across a wide range of applications.  As part of our continuous innovation efforts, we are exploring how Artificial Intelligence can support semiconductor test engineering by leveraging our extensive library of existing test programs and engineering knowledge.     Your Assignment   As a Master's Thesis student, you will investigate how AI can be used to generate semiconductor IC test programs based on historical test data, device specifications, and engineering constraints.  You will design and evaluate a proof-of-concept solution that assists test engineers in developing candidate C++ test programs for new semiconductor products, helping accelerate New Product Introduction (NPI) activities while maintaining engineering quality standards.     What You Will Be Doing    Research state-of-the-art techniques in AI-assisted code generation, Retrieval-Augmented Generation (RAG), and program synthesis.  Analyze and prepare historical IC test program data and device specifications.  Develop a prototype AI solution capable of gener"
+},
+"https://jobs.smartrecruiters.com/navitas/6000000001611629": {
+"first_seen": "2026-11-27",
+"title": "Student Services and  Experience Officer - Accommodation",
+"company": "Navitas Semiconductor",
+"desc": ""
+},
+"https://jobs.thermofisher.com/global/en/job/R-01374016/intern-electronics-engineering": {
+"first_seen": "2026-11-27",
+"title": "Intern \u2013 Electronics Engineering",
+"company": "Thermo Fisher Scientific",
+"desc": ""
 }
 }
