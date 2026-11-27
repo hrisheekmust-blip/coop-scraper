@@ -635,8 +635,8 @@
 },
 "https://www.indeed.com/viewjob": {
 "first_seen": "2026-09-18",
-"title": "Sensor Hardware Test and Validation Co-op (Spring 2027)",
-"company": "LINEVISION",
+"title": "Applied AI/ML Research Scientist Intern",
+"company": "Marvell Technology",
 "desc": ""
 },
 "https://www.linkedin.com/jobs/view/4468697840": {
@@ -27570,6 +27570,30 @@
 "first_seen": "2026-11-27",
 "title": "Intern - Wafer Thin Film Development (Vacuum Deposition)",
 "company": "Seagate Technology",
+"desc": ""
+},
+"https://go.vansh.nyc/1KY": {
+"first_seen": "2026-11-27",
+"title": "Timing and Energy Software Intern",
+"company": "ASML",
+"desc": ""
+},
+"https://go.vansh.nyc/1L2": {
+"first_seen": "2026-11-27",
+"title": "Embedded System Engineering Intern",
+"company": "RTX",
+"desc": ""
+},
+"https://go.vansh.nyc/1KX": {
+"first_seen": "2026-11-27",
+"title": "FPGA Electrical Engineer Intern",
+"company": "RTX",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4493869647": {
+"first_seen": "2026-11-27",
+"title": "Electrical Engineering Internship",
+"company": "MechSpire",
 "desc": ""
 }
 }
