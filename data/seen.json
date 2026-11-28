@@ -635,8 +635,8 @@
 },
 "https://www.indeed.com/viewjob": {
 "first_seen": "2026-09-18",
-"title": "Applied AI/ML Research Scientist Intern",
-"company": "Marvell Technology",
+"title": "Internship, Robotics Electronic Design Engineer, Optimus (Summer 2027)",
+"company": "Tesla",
 "desc": ""
 },
 "https://www.linkedin.com/jobs/view/4468697840": {
@@ -27600,6 +27600,36 @@
 "first_seen": "2026-11-27",
 "title": "Advanced Recording Sub-System Intern, Head Disk Electrical",
 "company": "Seagate",
+"desc": ""
+},
+"https://go.vansh.nyc/1LS": {
+"first_seen": "2026-11-28",
+"title": "Firmware Development Engineer Intern",
+"company": "Signify",
+"desc": ""
+},
+"https://go.vansh.nyc/1Lw": {
+"first_seen": "2026-11-28",
+"title": "Product Engineer Intern, Mobile",
+"company": "Clera",
+"desc": ""
+},
+"https://go.vansh.nyc/1LT": {
+"first_seen": "2026-11-28",
+"title": "Digital Design Engineer Intern",
+"company": "Analog Devices",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4460821635": {
+"first_seen": "2026-11-28",
+"title": "Intern/Co-op - Refining Electrical Engineering (Fall 2027)",
+"company": "Marathon Petroleum Corporation",
+"desc": ""
+},
+"https://www.linkedin.com/jobs/view/4493841136": {
+"first_seen": "2026-11-28",
+"title": "FPGA Engineer (Security Focus) - Intern",
+"company": "Lockheed Martin",
 "desc": ""
 }
 }
